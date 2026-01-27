@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Master&#39;s Physics Lab</title>
-    <link>http://localhost:1313/my-physics-lab/categories/</link>
+    <link>https://Airopamgine.github.io/my-physics-lab/categories/</link>
     <description>Recent content in Categories on Master&#39;s Physics Lab</description>
     <generator>Hugo -- 0.154.5</generator>
     <language>ja</language>
-    <atom:link href="http://localhost:1313/my-physics-lab/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://Airopamgine.github.io/my-physics-lab/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

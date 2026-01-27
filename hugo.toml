@@ -1,4 +1,5 @@
-baseURL = "http://example.org/"
+baseURL = "https://Airopamgine.github.io/my-physics-lab/"
+publishDir = "docs"
 title = "Master's Physics Lab"
 languageCode = "ja"
 theme = "PaperMod"
