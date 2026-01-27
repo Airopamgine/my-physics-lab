@@ -1,0 +1,8 @@
+baseURL = "http://example.org/"
+title = "Master's Physics Lab"
+languageCode = "ja"
+theme = "PaperMod"
+
+[params]
+  # 数式を使えるようにするスイッチ
+  math = true

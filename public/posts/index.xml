@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Master&#39;s Physics Lab</title>
+    <link>http://localhost:52475/posts/</link>
+    <description>Recent content in Posts on Master&#39;s Physics Lab</description>
+    <generator>Hugo -- 0.154.5</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 27 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:52475/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>量子力学の演習テスト</title>
+      <link>http://localhost:52475/posts/quantum-test/</link>
+      <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:52475/posts/quantum-test/</guid>
+      <description>&lt;p&gt;ここにあらすじや問題文を書きます。&lt;/p&gt;
+&lt;h2 id=&#34;問題1次元井戸型ポテンシャル&#34;&gt;問題：1次元井戸型ポテンシャル&lt;/h2&gt;
+&lt;p&gt;幅 $L$ の1次元無限井戸型ポテンシャル中の粒子を考える。
+シュレーディンガー方程式は以下の通りである。&lt;/p&gt;
+&lt;p&gt;$$
+-\frac{\hbar^2}{2m} \frac{d^2 \psi}{dx^2} = E \psi
+$$&lt;/p&gt;
+&lt;p&gt;このとき、規格化された波動関数 $\psi_n(x)$ は次のように与えられる。&lt;/p&gt;
+&lt;p&gt;$$
+\psi_n(x) = \sqrt{\frac{2}{L}} \sin\left(\frac{n\pi x}{L}\right) \quad (n=1, 2, \dots)
+$$&lt;/p&gt;
+&lt;h3 id=&#34;解説メモ&#34;&gt;解説メモ&lt;/h3&gt;
+&lt;p&gt;このように、インライン数式もディスプレイ数式もきれいに表示されます。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
