@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Master&#39;s Physics Lab</title>
-    <link>https://Airopamgine.github.io/my-physics-lab/posts/</link>
-    <description>Recent content in Posts on Master&#39;s Physics Lab</description>
+    <title>量子力学 on Master&#39;s Physics Lab</title>
+    <link>http://localhost:1313/my-physics-lab/categories/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6/</link>
+    <description>Recent content in 量子力学 on Master&#39;s Physics Lab</description>
     <generator>Hugo -- 0.154.5</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 27 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://Airopamgine.github.io/my-physics-lab/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/my-physics-lab/categories/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>量子力学の演習(サンプル)</title>
-      <link>https://Airopamgine.github.io/my-physics-lab/posts/quantum-test/</link>
+      <title>量子力学の演習テスト</title>
+      <link>http://localhost:1313/my-physics-lab/posts/quantum-test/</link>
       <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://Airopamgine.github.io/my-physics-lab/posts/quantum-test/</guid>
+      <guid>http://localhost:1313/my-physics-lab/posts/quantum-test/</guid>
       <description>&lt;p&gt;ここにあらすじや問題文を書きます。&lt;/p&gt;
 &lt;h2 id=&#34;問題1次元井戸型ポテンシャル&#34;&gt;問題：1次元井戸型ポテンシャル&lt;/h2&gt;
 &lt;p&gt;幅 $L$ の1次元無限井戸型ポテンシャル中の粒子を考える。

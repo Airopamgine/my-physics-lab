@@ -7,3 +7,53 @@ theme = "PaperMod"
 [params]
   # 数式を使えるようにするスイッチ
   math = true
+  [menu]
+  [[menu.main]]
+    identifier = "mechanics"
+    name = "力学"
+    url = "/categories/力学/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "electromagnetism"
+    name = "電磁気"
+    url = "/categories/電磁気/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "thermodynamics"
+    name = "熱力学"
+    url = "/categories/熱力学/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "statistical"
+    name = "統計力学"
+    url = "/categories/統計力学/"
+    weight = 40
+
+  [[menu.main]]
+    identifier = "quantum"
+    name = "量子力学"
+    url = "/categories/量子力学/"
+    weight = 50
+# --- ここから下を追記 ---
+
+[params.profileMode]
+  enabled = true
+  title = "Master's Physics Lab"
+  subtitle = "Toho Univ. Physics | 物理学徒の学習記録＆過去問研究"
+  
+  # 画像があればここにURLを入れられます（今はなくてOK）
+  imageUrl = "" 
+  imageWidth = 120
+  imageHeight = 120
+
+  # 表紙に置きたいボタン（例：GitHubへのリンクなど）
+  [[params.profileMode.buttons]]
+    name = "記事一覧へ"
+    url = "/posts"
+
+  [[params.profileMode.buttons]]
+    name = "GitHub"
+    url = "https://github.com/Airopamgine"    
