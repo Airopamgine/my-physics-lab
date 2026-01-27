@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>力学 on Master&#39;s Physics Lab</title>
+    <link>http://localhost:1313/my-physics-lab/categories/%E5%8A%9B%E5%AD%A6/</link>
+    <description>Recent content in 力学 on Master&#39;s Physics Lab</description>
+    <generator>Hugo -- 0.154.5</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 27 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/my-physics-lab/categories/%E5%8A%9B%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【力学】調和振動子の解法</title>
+      <link>http://localhost:1313/my-physics-lab/posts/mechanics-01/</link>
+      <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/my-physics-lab/posts/mechanics-01/</guid>
+      <description>&lt;h2 id=&#34;問題設定&#34;&gt;問題設定&lt;/h2&gt;
+&lt;p&gt;ここに問題文を書きます。質量 $m$ の粒子が&amp;hellip;
+$$
+F = -kx
+$$&lt;/p&gt;
+&lt;h2 id=&#34;解答解説&#34;&gt;解答・解説&lt;/h2&gt;
+&lt;p&gt;運動方程式は以下の通り。
+$$
+m \frac{d^2 x}{dt^2} = -kx
+$$
+&amp;hellip;（解説をTeXで記述）&amp;hellip;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
