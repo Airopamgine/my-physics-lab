@@ -2,16 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://Airopamgine.github.io/my-physics-lab/posts/mechanics-01/</loc>
-    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
+    <loc>https://Airopamgine.github.io/my-physics-lab/posts/stat-mech-01/</loc>
+    <lastmod>2026-02-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://Airopamgine.github.io/my-physics-lab/categories/</loc>
-    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://Airopamgine.github.io/my-physics-lab/</loc>
-    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://Airopamgine.github.io/my-physics-lab/posts/</loc>
+    <lastmod>2026-02-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Airopamgine.github.io/my-physics-lab/categories/%E7%B5%B1%E8%A8%88%E5%8A%9B%E5%AD%A6/</loc>
+    <lastmod>2026-02-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Airopamgine.github.io/my-physics-lab/posts/mechanics-01/</loc>
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://Airopamgine.github.io/my-physics-lab/categories/%E5%8A%9B%E5%AD%A6/</loc>
@@ -22,8 +28,6 @@
   </url><url>
     <loc>https://Airopamgine.github.io/my-physics-lab/posts/quantum-test/</loc>
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://Airopamgine.github.io/my-physics-lab/posts/stat-mech-01/</loc>
   </url><url>
     <loc>https://Airopamgine.github.io/my-physics-lab/tags/</loc>
   </url>

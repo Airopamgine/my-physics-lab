@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Master&#39;s Physics Lab</title>
-    <link>https://Airopamgine.github.io/my-physics-lab/posts/</link>
-    <description>Recent content in Posts on Master&#39;s Physics Lab</description>
+    <title>統計力学 on Master&#39;s Physics Lab</title>
+    <link>https://Airopamgine.github.io/my-physics-lab/categories/%E7%B5%B1%E8%A8%88%E5%8A%9B%E5%AD%A6/</link>
+    <description>Recent content in 統計力学 on Master&#39;s Physics Lab</description>
     <generator>Hugo -- 0.154.5</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 13 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://Airopamgine.github.io/my-physics-lab/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://Airopamgine.github.io/my-physics-lab/categories/%E7%B5%B1%E8%A8%88%E5%8A%9B%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>【統計力学】演習問題集（カノニカル分布・アインシュタインモデル）</title>
       <link>https://Airopamgine.github.io/my-physics-lab/posts/stat-mech-01/</link>
@@ -52,57 +52,6 @@ $$&lt;/p&gt;
 &lt;li&gt;グランドカノニカルアンサンブルの分配関数 $\Xi$ を用いて系のエントロピー $S$ を直接求めることができる。&lt;/li&gt;
 &lt;li&gt;3つのアンサンブルは、系の規模が熱力学極限（$N \to \infty, V \to \infty$）で十分に大きければ、系の熱力学的な性質について同じ結果を与える。&lt;/li&gt;
 &lt;/ol&gt;</description>
-    </item>
-    <item>
-      <title>【力学】調和振動子の解法</title>
-      <link>https://Airopamgine.github.io/my-physics-lab/posts/mechanics-01/</link>
-      <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://Airopamgine.github.io/my-physics-lab/posts/mechanics-01/</guid>
-      <description>&lt;h2 id=&#34;問題設定&#34;&gt;問題設定&lt;/h2&gt;
-&lt;p&gt;ここに問題文を書きます。質量 $m$ の質点がバネ定数$k$のバネにつながれている。質点の動きを求めよ。
-ヒント：
-$$
-F = -kx
-$$&lt;/p&gt;
-&lt;h2 id=&#34;解答解説&#34;&gt;解答・解説&lt;/h2&gt;
-&lt;p&gt;運動方程式は以下の通り。&lt;/p&gt;
-&lt;p&gt;$$
-m \frac{d^2 x}{dt^2} = -kx \tag{1}
-$$&lt;/p&gt;
-&lt;p&gt;これを整理すると、&lt;/p&gt;
-&lt;p&gt;$$
-\frac{d^2 x}{dt^2} + \frac{k}{m} x = 0 \tag{2}
-$$&lt;/p&gt;
-&lt;p&gt;ここで
-$$
-\frac{k}{m} = \omega^2
-$$
-を導入する。 $\omega$ は角振動数を表す。微分方程式を解くと一般解は&lt;/p&gt;
-&lt;p&gt;$$
-x(t) = A \sin \omega t + B \cos \omega t \tag{3}
-$$&lt;/p&gt;
-&lt;p&gt;$A, B$ は境界条件により定まる。
-（もう少しいろいろ書きたい）&lt;/p&gt;
-&lt;p&gt;&amp;hellip;（解説をTeXで記述）&amp;hellip;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>量子力学の演習(サンプル)</title>
-      <link>https://Airopamgine.github.io/my-physics-lab/posts/quantum-test/</link>
-      <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://Airopamgine.github.io/my-physics-lab/posts/quantum-test/</guid>
-      <description>&lt;p&gt;ここにあらすじや問題文を書きます。&lt;/p&gt;
-&lt;h2 id=&#34;問題1次元井戸型ポテンシャル&#34;&gt;問題：1次元井戸型ポテンシャル&lt;/h2&gt;
-&lt;p&gt;幅 $L$ の1次元無限井戸型ポテンシャル中の粒子を考える。
-シュレーディンガー方程式は以下の通りである。&lt;/p&gt;
-&lt;p&gt;$$
--\frac{\hbar^2}{2m} \frac{d^2 \psi}{dx^2} = E \psi
-$$&lt;/p&gt;
-&lt;p&gt;このとき、規格化された波動関数 $\psi_n(x)$ は次のように与えられる。&lt;/p&gt;
-&lt;p&gt;$$
-\psi_n(x) = \sqrt{\frac{2}{L}} \sin\left(\frac{n\pi x}{L}\right) \quad (n=1, 2, \dots)
-$$&lt;/p&gt;
-&lt;h3 id=&#34;解説メモ&#34;&gt;解説メモ&lt;/h3&gt;
-&lt;p&gt;このように、インライン数式もディスプレイ数式もきれいに表示されます。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

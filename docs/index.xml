@@ -6,8 +6,53 @@
     <description>Recent content on Master&#39;s Physics Lab</description>
     <generator>Hugo -- 0.154.5</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 27 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://Airopamgine.github.io/my-physics-lab/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【統計力学】演習問題集（カノニカル分布・アインシュタインモデル）</title>
+      <link>https://Airopamgine.github.io/my-physics-lab/posts/stat-mech-01/</link>
+      <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://Airopamgine.github.io/my-physics-lab/posts/stat-mech-01/</guid>
+      <description>&lt;h2 id=&#34;第１問重力場中の理想気体&#34;&gt;第１問：重力場中の理想気体&lt;/h2&gt;
+&lt;p&gt;底面 $S$、高さ無限大の容器の中にある一様な重力ポテンシャル下で粒子数 $N$ の理想気体を考える。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;この理想気体の分配関数を求めよ。&lt;/li&gt;
+&lt;li&gt;１粒子当たりの比熱を求めよ。&lt;/li&gt;
+&lt;li&gt;ヘルムホルツの自由エネルギー $F$ を求めよ。（スターリングの公式 $\ln N! \approx N \ln N - N$ を用いよ）&lt;/li&gt;
+&lt;li&gt;エントロピー $S$ は $S=\frac{U-F}{T}$ と表される。エントロピーを求めよ。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;第２問固体の比熱アインシュタインモデル&#34;&gt;第２問：固体の比熱（アインシュタインモデル）&lt;/h2&gt;
+&lt;p&gt;19世紀初頭、デュロンとプティは、多くの固体元素のモル熱容量が温度にほとんど依存せず、$3R$ ($R$ は気体定数) という普遍的な値をとることを経験的に発見した。この「デュロン・プティの法則」は、後に古典統計力学のエネルギー等分配則によって理論的な裏付けが与えられた。&lt;/p&gt;
+&lt;p&gt;しかし、測定技術の進歩により、低温領域ではこの法則が劇的に破綻し、絶対零度に向かって熱容量がゼロに近づくことが明らかとなった。この古典物理学の深刻な矛盾を解決する最初の試みが、1907年にアインシュタインによって提案されたモデルである。&lt;/p&gt;
+&lt;p&gt;彼は、プランクの量子仮説を固体の格子振動に適用し、振動子のエネルギーが連続的な値ではなく、振動数 $\omega$ に比例した単位 $\hbar\omega$ の整数倍のとびとびの値しかとれないと仮定した。&lt;/p&gt;
+&lt;p&gt;この物理学における歴史的転換点を追体験するため、 $N$ 個の原子から成る結晶を、それぞれが独立に振動する調和振動子の集まりと見なすアインシュタインモデルの考え方に基づき、その熱的性質を解析する。
+簡単のため、各原子は &lt;strong&gt;2次元の等方的な調和振動子&lt;/strong&gt; として振る舞うものとし、そのハミルトニアンは以下で与えられる。&lt;/p&gt;
+&lt;p&gt;$$
+H=\frac{\mathbf{p}^2}{2m}+\frac{1}{2}m\omega^2\mathbf{q}^2
+$$&lt;/p&gt;
+&lt;p&gt;以下の問いに答え、古典論の描像、量子論によるその克服、そして両者の関係性を明らかにせよ。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;古典論的な分配関数を求めよ。&lt;/li&gt;
+&lt;li&gt;量子論的な分配関数を求めよ。&lt;/li&gt;
+&lt;li&gt;高温極限では量子論的な分配関数は古典論的な分配関数と等しいことを示せ。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;第３問アンサンブル統計集団の概念&#34;&gt;第３問：アンサンブル（統計集団）の概念&lt;/h2&gt;
+&lt;p&gt;ミクロカノニカル、カノニカル、グランドカノニカルについて問う。正しければ〇、誤りがあればその理由を指摘せよ。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;ミクロカノニカルアンサンブルでは、系のエネルギーは一定に保たれるが、温度は平均値の周りでゆらぐ。&lt;/li&gt;
+&lt;li&gt;カノニカルアンサンブルは、外部の熱浴とエネルギーだけでなく粒子の交換も許す系を記述する。&lt;/li&gt;
+&lt;li&gt;グランドカノニカルアンサンブルでは、系の粒子数とエネルギーは常に厳密に一定である。&lt;/li&gt;
+&lt;li&gt;ヘルムホルツの自由エネルギー $F$ は、カノニカルアンサンブルの分配関数 $Z$ から $F = -k_B T \ln Z$ として計算される。&lt;/li&gt;
+&lt;li&gt;魔法瓶のように外部とエネルギーも物質も交換しない完全に孤立した系は、カノニカルアンサンブルで記述するのが最も適切である。&lt;/li&gt;
+&lt;li&gt;グランドカノニカルアンサンブルが有用なのは、化学ポテンシャル $\mu$ が系を特徴づける重要な変数となる化学反応や相転移などを扱う場合である。&lt;/li&gt;
+&lt;li&gt;ミクロカノニカルアンサンブルの基本原理は「等確率の原理」であり、許されるすべての微視的状態は等しい確率で出現すると仮定する。&lt;/li&gt;
+&lt;li&gt;カノニカルアンサンブルに属するある微視的状態が出現する確率は、その状態のエネルギーが高いほど指数関数的に大きくなる。&lt;/li&gt;
+&lt;li&gt;グランドカノニカルアンサンブルの分配関数 $\Xi$ を用いて系のエントロピー $S$ を直接求めることができる。&lt;/li&gt;
+&lt;li&gt;3つのアンサンブルは、系の規模が熱力学極限（$N \to \infty, V \to \infty$）で十分に大きければ、系の熱力学的な性質について同じ結果を与える。&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
     <item>
       <title>【力学】調和振動子の解法</title>
       <link>https://Airopamgine.github.io/my-physics-lab/posts/mechanics-01/</link>
@@ -58,13 +103,6 @@ $$&lt;/p&gt;
 $$&lt;/p&gt;
 &lt;h3 id=&#34;解説メモ&#34;&gt;解説メモ&lt;/h3&gt;
 &lt;p&gt;このように、インライン数式もディスプレイ数式もきれいに表示されます。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://Airopamgine.github.io/my-physics-lab/posts/stat-mech-01/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://Airopamgine.github.io/my-physics-lab/posts/stat-mech-01/</guid>
-      <description></description>
     </item>
   </channel>
 </rss>
