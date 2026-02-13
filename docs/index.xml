@@ -26,10 +26,10 @@
 &lt;p&gt;19世紀初頭、デュロンとプティは、多くの固体元素のモル熱容量が温度にほとんど依存せず、$3R$ ($R$ は気体定数) という普遍的な値をとることを経験的に発見した。この「デュロン・プティの法則」は、後に古典統計力学のエネルギー等分配則によって理論的な裏付けが与えられた。&lt;/p&gt;
 &lt;p&gt;しかし、測定技術の進歩により、低温領域ではこの法則が劇的に破綻し、絶対零度に向かって熱容量がゼロに近づくことが明らかとなった。この古典物理学の深刻な矛盾を解決する最初の試みが、1907年にアインシュタインによって提案されたモデルである。&lt;/p&gt;
 &lt;p&gt;彼は、プランクの量子仮説を固体の格子振動に適用し、振動子のエネルギーが連続的な値ではなく、振動数 $\omega$ に比例した単位 $\hbar\omega$ の整数倍のとびとびの値しかとれないと仮定した。&lt;/p&gt;
-&lt;p&gt;この物理学における歴史的転換点を追体験するため、 $N$ 個の原子から成る結晶を、それぞれが独立に振動する調和振動子の集まりと見なすアインシュタインモデルの考え方に基づき、その熱的性質を解析する。
+&lt;p&gt;この物理学における歴史的転換点を追体験するため、 $N$ 個の原子から成る結晶を、それぞれが独立に振動する調和振動子の集まりと見なすアインシュタインモデルの考え方に基づき、その熱的性質を解析する。&lt;br&gt;
 簡単のため、各原子は &lt;strong&gt;2次元の等方的な調和振動子&lt;/strong&gt; として振る舞うものとし、そのハミルトニアンは以下で与えられる。&lt;/p&gt;
-&lt;p&gt;$$
-H=\frac{\mathbf{p}^2}{2m}+\frac{1}{2}m\omega^2\mathbf{q}^2
+&lt;p&gt;$$&lt;br&gt;
+H=\frac{\mathbf{p}^2}{2m}+\frac{1}{2}m\omega^2\mathbf{q}^2&lt;br&gt;
 $$&lt;/p&gt;
 &lt;p&gt;以下の問いに答え、古典論の描像、量子論によるその克服、そして両者の関係性を明らかにせよ。&lt;/p&gt;
 &lt;ol&gt;
@@ -59,29 +59,29 @@ $$&lt;/p&gt;
       <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://Airopamgine.github.io/my-physics-lab/posts/mechanics-01/</guid>
       <description>&lt;h2 id=&#34;問題設定&#34;&gt;問題設定&lt;/h2&gt;
-&lt;p&gt;ここに問題文を書きます。質量 $m$ の質点がバネ定数$k$のバネにつながれている。質点の動きを求めよ。
-ヒント：
-$$
-F = -kx
+&lt;p&gt;ここに問題文を書きます。質量 $m$ の質点がバネ定数$k$のバネにつながれている。質点の動きを求めよ。&lt;br&gt;
+ヒント：&lt;br&gt;
+$$&lt;br&gt;
+F = -kx&lt;br&gt;
 $$&lt;/p&gt;
 &lt;h2 id=&#34;解答解説&#34;&gt;解答・解説&lt;/h2&gt;
 &lt;p&gt;運動方程式は以下の通り。&lt;/p&gt;
-&lt;p&gt;$$
-m \frac{d^2 x}{dt^2} = -kx \tag{1}
+&lt;p&gt;$$&lt;br&gt;
+m \frac{d^2 x}{dt^2} = -kx \tag{1}&lt;br&gt;
 $$&lt;/p&gt;
 &lt;p&gt;これを整理すると、&lt;/p&gt;
-&lt;p&gt;$$
-\frac{d^2 x}{dt^2} + \frac{k}{m} x = 0 \tag{2}
+&lt;p&gt;$$&lt;br&gt;
+\frac{d^2 x}{dt^2} + \frac{k}{m} x = 0 \tag{2}&lt;br&gt;
 $$&lt;/p&gt;
-&lt;p&gt;ここで
-$$
-\frac{k}{m} = \omega^2
-$$
+&lt;p&gt;ここで&lt;br&gt;
+$$&lt;br&gt;
+\frac{k}{m} = \omega^2&lt;br&gt;
+$$&lt;br&gt;
 を導入する。 $\omega$ は角振動数を表す。微分方程式を解くと一般解は&lt;/p&gt;
-&lt;p&gt;$$
-x(t) = A \sin \omega t + B \cos \omega t \tag{3}
+&lt;p&gt;$$&lt;br&gt;
+x(t) = A \sin \omega t + B \cos \omega t \tag{3}&lt;br&gt;
 $$&lt;/p&gt;
-&lt;p&gt;$A, B$ は境界条件により定まる。
+&lt;p&gt;$A, B$ は境界条件により定まる。&lt;br&gt;
 （もう少しいろいろ書きたい）&lt;/p&gt;
 &lt;p&gt;&amp;hellip;（解説をTeXで記述）&amp;hellip;&lt;/p&gt;</description>
     </item>
@@ -92,14 +92,14 @@ $$&lt;/p&gt;
       <guid>https://Airopamgine.github.io/my-physics-lab/posts/quantum-test/</guid>
       <description>&lt;p&gt;ここにあらすじや問題文を書きます。&lt;/p&gt;
 &lt;h2 id=&#34;問題1次元井戸型ポテンシャル&#34;&gt;問題：1次元井戸型ポテンシャル&lt;/h2&gt;
-&lt;p&gt;幅 $L$ の1次元無限井戸型ポテンシャル中の粒子を考える。
+&lt;p&gt;幅 $L$ の1次元無限井戸型ポテンシャル中の粒子を考える。&lt;br&gt;
 シュレーディンガー方程式は以下の通りである。&lt;/p&gt;
-&lt;p&gt;$$
--\frac{\hbar^2}{2m} \frac{d^2 \psi}{dx^2} = E \psi
+&lt;p&gt;$$&lt;br&gt;
+-\frac{\hbar^2}{2m} \frac{d^2 \psi}{dx^2} = E \psi&lt;br&gt;
 $$&lt;/p&gt;
 &lt;p&gt;このとき、規格化された波動関数 $\psi_n(x)$ は次のように与えられる。&lt;/p&gt;
-&lt;p&gt;$$
-\psi_n(x) = \sqrt{\frac{2}{L}} \sin\left(\frac{n\pi x}{L}\right) \quad (n=1, 2, \dots)
+&lt;p&gt;$$&lt;br&gt;
+\psi_n(x) = \sqrt{\frac{2}{L}} \sin\left(\frac{n\pi x}{L}\right) \quad (n=1, 2, \dots)&lt;br&gt;
 $$&lt;/p&gt;
 &lt;h3 id=&#34;解説メモ&#34;&gt;解説メモ&lt;/h3&gt;
 &lt;p&gt;このように、インライン数式もディスプレイ数式もきれいに表示されます。&lt;/p&gt;</description>
