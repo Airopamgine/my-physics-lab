@@ -156,7 +156,7 @@ $$H=-J\sum_{i=1}^N\sigma_i\sigma_{i+1},\qquad \sigma_i=\pm1,\qquad J>0$$
 
 隣接スピン対のBoltzmann重みを行列要素とすると、
 
-$$\mathbf T=\begin{pmatrix}e^{\beta J}&e^{-\beta J}\\e^{-\beta J}&e^{\beta J}\end{pmatrix}$$
+$$\mathbf T=\begin{pmatrix}e^{\beta J}&e^{-\beta J}\\\\e^{-\beta J}&e^{\beta J}\end{pmatrix}$$
 
 固有ベクトル $(1,1)^T$ と $(1,-1)^T$ に対応して、
 

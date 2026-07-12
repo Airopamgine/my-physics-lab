@@ -20,7 +20,7 @@ categories: ["化学物理"]
 
 直線状の三つの原子軌道 $|1\rangle,|2\rangle,|3\rangle$ を考える。両端は同種原子A、中央は異種原子Bとする。重なり積分を無視し、Hückel型ハミルトニアンを
 
-$$\mathbf H=\begin{pmatrix}\alpha&\beta&0\\\beta&\alpha+\delta&\beta\\0&\beta&\alpha\end{pmatrix}$$
+$$\mathbf H=\begin{pmatrix}\alpha&\beta&0\\\\\beta&\alpha+\delta&\beta\\\\0&\beta&\alpha\end{pmatrix}$$
 
 とする。$\beta<0$ である。
 
@@ -45,7 +45,7 @@ $$\boxed{E_a=\alpha}$$
 
 基底を $(|s\rangle,|2\rangle)$ とすると、中央との結合は二つの経路が同位相で加わるため $\sqrt2\beta$ になります。
 
-$$\boxed{\mathbf H_{\mathrm sym}=\begin{pmatrix}\alpha&\sqrt2\beta\\\sqrt2\beta&\alpha+\delta\end{pmatrix}}$$
+$$\boxed{\mathbf H_{\mathrm sym}=\begin{pmatrix}\alpha&\sqrt2\beta\\\\\sqrt2\beta&\alpha+\delta\end{pmatrix}}$$
 
 ### 解答1-3：固有値
 
