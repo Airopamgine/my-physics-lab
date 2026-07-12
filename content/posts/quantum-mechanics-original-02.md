@@ -212,9 +212,9 @@ $$X|n\rangle=\sqrt n|n-1\rangle+\sqrt{n+1}|n+1\rangle$$
 
 $$X^2|n\rangle=\sqrt{n(n-1)}|n-2\rangle+(2n+1)|n\rangle+\sqrt{(n+1)(n+2)}|n+2\rangle$$
 
-となります。$X$ はHermite演算子なので、
+となります。$X$ はHermitian（エルミート）演算子なので、
 
-$$\langle n|X^4|n\rangle=\langle X^2n|X^2n\rangle$$
+$$\langle n|X^4|n\rangle=\left\|X^2|n\rangle\right\|^2$$
 
 と書けます。$|n-2\rangle,|n\rangle,|n+2\rangle$ は互いに直交するため、係数の絶対値二乗を足して、
 
