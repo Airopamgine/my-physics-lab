@@ -12,15 +12,11 @@ categories: ["量子力学"]
 幅 $L$ の1次元無限井戸型ポテンシャル中の粒子を考える。
 シュレーディンガー方程式は以下の通りである。
 
-$$
--\frac{\hbar^2}{2m} \frac{d^2 \psi}{dx^2} = E \psi
-$$
+$$-\frac{\hbar^2}{2m}\frac{d^2\psi}{dx^2}=E\psi$$
 
 このとき、規格化された波動関数 $\psi_n(x)$ は次のように与えられる。
 
-$$
-\psi_n(x) = \sqrt{\frac{2}{L}} \sin\left(\frac{n\pi x}{L}\right) \quad (n=1, 2, \dots)
-$$
+$$\psi_n(x)=\sqrt{\frac{2}{L}}\sin\left(\frac{n\pi x}{L}\right)\quad(n=1,2,\dots)$$
 
 ### 解説メモ
 このように、インライン数式もディスプレイ数式もきれいに表示されます。

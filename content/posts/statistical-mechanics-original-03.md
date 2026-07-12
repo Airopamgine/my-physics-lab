@@ -242,7 +242,7 @@ $$\boxed{C_V\propto T^{d/s}}$$
 
 高温で和を積分へ置き換えると $Z_{\mathrm rot}\simeq T/\Theta_r$ を得ました。より丁寧にはEuler–Maclaurin展開により、
 
-$$Z_{\mathrm rot}=\frac{T}{\Theta_r}+\frac13+\frac1{15}\frac{\Theta_r}{T}+O\!\left((\Theta_r/T)^2\right)$$
+$$Z_{\mathrm rot}=\frac{T}{\Theta_r}+\frac13+\frac1{15}\frac{\Theta_r}{T}+O\left((\Theta_r/T)^2\right)$$
 
 となります。先頭項は古典極限で、後続項は準位が離散的であることの量子補正です。
 

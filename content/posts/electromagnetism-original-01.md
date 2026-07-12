@@ -154,7 +154,7 @@ $$\boxed{\langle\mathbf v\rangle=-\frac{E_0}{B_0}\mathbf e_y=\frac{\mathbf E\tim
 
 1. 領域 $a<r<b$ と $b<r<c$ の電場を求めよ。
 2. 中間導体の電位 $V_b$ を求めよ。
-3. 中間導体から見た単位長さ当たりの静電容量 $C'$ を求めよ。
+3. 中間導体から見た単位長さ当たりの静電容量 $C^{\prime}$ を求めよ。
 
 ### 解答3-1：電荷の分配を未知数として置く
 
@@ -182,9 +182,9 @@ $$\Lambda_1=\frac{2\pi\varepsilon V_b}{\ln(b/a)},\qquad \Lambda_2=\frac{2\pi\var
 
 ### 解答3-3：静電容量
 
-$\Lambda=\Lambda_1+\Lambda_2=C'V_b$ より、
+$\Lambda=\Lambda_1+\Lambda_2=C^{\prime}V_b$ より、
 
-$$\boxed{C'=2\pi\varepsilon\left[\frac{1}{\ln(b/a)}+\frac{1}{\ln(c/b)}\right]}$$
+$$\boxed{C^{\prime}=2\pi\varepsilon\left[\frac{1}{\ln(b/a)}+\frac{1}{\ln(c/b)}\right]}$$
 
 これは、中間導体から2つの接地導体へ伸びる同軸コンデンサーが並列につながった形です。最初から並列公式を使うのではなく、電位が共通で電荷が加算されることから並列性を導くのが重要です。
 
@@ -210,7 +210,7 @@ $$-\varepsilon_0\nabla^2\phi=Q\delta^{(3)}(\mathbf r)-\frac{Q}{4\pi\lambda^2r}e^
 
 $r\ll\lambda$ では指数関数を展開して、
 
-$$e^{-r/\lambda}\left(1+\frac r\lambda\right)=1-\frac12\left(\frac r\lambda\right)^2+O\!\left((r/\lambda)^3\right)$$
+$$e^{-r/\lambda}\left(1+\frac r\lambda\right)=1-\frac12\left(\frac r\lambda\right)^2+O\left((r/\lambda)^3\right)$$
 
 です。したがって電束は $Q/\varepsilon_0$ に近く、小さな球はほぼ中心電荷だけを包みます。
 
@@ -250,23 +250,23 @@ $$\frac{d}{dt}\left(\frac12mv^2\right)=q\mathbf E\cdot\mathbf v=qE_0v_x$$
 
 二つの誘電体領域に蓄えられる単位長さ当たりのエネルギーは、
 
-$$U'=\frac{\varepsilon}{2}\int_a^bE_1^2\,2\pi r\,dr+\frac{\varepsilon}{2}\int_b^cE_2^2\,2\pi r\,dr$$
+$$U^{\prime}=\frac{\varepsilon}{2}\int_a^bE_1^2(2\pi r)\mathrm{d}r+\frac{\varepsilon}{2}\int_b^cE_2^2(2\pi r)\mathrm{d}r$$
 
 です。$E_1=\Lambda_1/(2\pi\varepsilon r)$、$E_2=\Lambda_2/(2\pi\varepsilon r)$ を入れると、
 
-$$U'=\frac{\Lambda_1^2}{4\pi\varepsilon}\ln\frac ba+\frac{\Lambda_2^2}{4\pi\varepsilon}\ln\frac cb$$
+$$U^{\prime}=\frac{\Lambda_1^2}{4\pi\varepsilon}\ln\frac ba+\frac{\Lambda_2^2}{4\pi\varepsilon}\ln\frac cb$$
 
 です。電位条件から
 
-$$\Lambda_1=C_1'V_b,\qquad \Lambda_2=C_2'V_b$$
+$$\Lambda_1=C_1^{\prime}V_b,\qquad \Lambda_2=C_2^{\prime}V_b$$
 
-$$C_1'=\frac{2\pi\varepsilon}{\ln(b/a)},\qquad C_2'=\frac{2\pi\varepsilon}{\ln(c/b)}$$
+$$C_1^{\prime}=\frac{2\pi\varepsilon}{\ln(b/a)},\qquad C_2^{\prime}=\frac{2\pi\varepsilon}{\ln(c/b)}$$
 
 なので、
 
-$$U'=\frac12(C_1'+C_2')V_b^2$$
+$$U^{\prime}=\frac12(C_1^{\prime}+C_2^{\prime})V_b^2$$
 
-となります。したがって $C'=C_1'+C_2'$ が、電荷の和だけでなく場のエネルギーからも確認できます。
+となります。したがって $C^{\prime}=C_1^{\prime}+C_2^{\prime}$ が、電荷の和だけでなく場のエネルギーからも確認できます。
 
 > **なぜ並列なのか**：二つの領域は同じ電位差 $V_b-0$ を共有し、蓄える電荷とエネルギーが加算されます。「見た目が並列」だからではなく、境界条件が並列の定義を満たすからです。
 
