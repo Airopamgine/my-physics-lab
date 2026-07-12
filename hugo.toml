@@ -39,6 +39,12 @@ theme = "PaperMod"
     weight = 50
 
   [[menu.main]]
+    identifier = "chemical-physics"
+    name = "化学物理"
+    url = "/categories/化学物理/"
+    weight = 60
+
+  [[menu.main]]
     identifier = "policy"
     name = "制作方針"
     url = "/policy/"
