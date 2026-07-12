@@ -45,12 +45,6 @@ theme = "PaperMod"
     weight = 60
 
   [[menu.main]]
-    identifier = "english-materials"
-    name = "英語教材"
-    url = "/english/"
-    weight = 70
-
-  [[menu.main]]
     identifier = "policy"
     name = "制作方針"
     url = "/policy/"
