@@ -68,7 +68,7 @@ $$\boxed{\frac{d^2\psi}{d\xi^2}+(\epsilon-\xi^2)\psi=0}$$
 
 $|\xi|\gg1$ では有限な $\epsilon$ より $\xi^2$ が支配的なので、
 
-$$\psi''-\xi^2\psi\simeq0$$
+$$\psi^{\prime\prime}-\xi^2\psi\simeq0$$
 
 です。指数関数型 $\psi\sim e^{a\xi^2}$ を試すと、最高次では $4a^2\xi^2-\xi^2=0$ だから $a=\pm1/2$ です。したがって候補は
 
@@ -90,13 +90,13 @@ $$\psi(\xi)=e^{-\xi^2/2}h(\xi)$$
 
 と置きます。微分は
 
-$$\psi'=e^{-\xi^2/2}(h'-\xi h)$$
+$$\psi^\prime=e^{-\xi^2/2}(h^\prime-\xi h)$$
 
-$$\psi''=e^{-\xi^2/2}\left[h''-2\xi h'+(\xi^2-1)h\right]$$
+$$\psi^{\prime\prime}=e^{-\xi^2/2}\left[h^{\prime\prime}-2\xi h^\prime+(\xi^2-1)h\right]$$
 
 です。無次元方程式へ代入すると $\xi^2h$ が打ち消され、
 
-$$\boxed{h''-2\xi h'+(\epsilon-1)h=0}$$
+$$\boxed{h^{\prime\prime}-2\xi h^\prime+(\epsilon-1)h=0}$$
 
 を得ます。
 
@@ -122,7 +122,7 @@ $$\boxed{E_n=\hbar\omega\left(n+\frac12\right)\qquad(n=0,1,2,\ldots)}$$
 
 です。打ち切られた多項式がHermite多項式 $H_n(\xi)$ で、規格化された固有関数は
 
-$$\boxed{\psi_n(x)=\frac{1}{\sqrt{2^nn!\sqrt\pi\,\ell}}H_n(x/\ell)e^{-x^2/(2\ell^2)}}$$
+$$\boxed{\psi_n(x)=\frac{1}{\sqrt{2^nn!\sqrt{\pi}\ell}}H_n(x/\ell)e^{-x^2/(2\ell^2)}}$$
 
 となります。
 
@@ -187,7 +187,7 @@ $$[\hat N,\hat a^\dagger]=\hat a^\dagger,\qquad [\hat N,\hat a]=-\hat a$$
 
 さらに、
 
-$$\|\hat a|\nu\rangle\|^2=\langle\nu|\hat a^\dagger\hat a|\nu\rangle=\nu$$
+$$\lVert\hat a|\nu\rangle\rVert^2=\langle\nu|\hat a^\dagger\hat a|\nu\rangle=\nu$$
 
 なので $\nu\ge0$ です。もし下降を無限に続けられるなら、いつか負のノルム二乗が現れます。それは不可能なので、最低状態 $|0\rangle$ があり、
 
@@ -209,7 +209,7 @@ $$\left(\sqrt{\frac{m\omega}{2\hbar}}x+\sqrt{\frac{\hbar}{2m\omega}}\frac{d}{dx}
 
 $$\frac{d\psi_0}{dx}=-\frac{m\omega}{\hbar}x\psi_0$$
 
-$$\frac{d\psi_0}{\psi_0}=-\frac{m\omega}{\hbar}x\,dx$$
+$$\frac{d\psi_0}{\psi_0}=-\frac{m\omega}{\hbar}x\mathrm{d}x$$
 
 と積分すれば、
 

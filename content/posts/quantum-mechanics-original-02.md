@@ -148,7 +148,7 @@ $$\boxed{E_0\propto\hbar^{4/3}\kappa^{1/3}m^{-2/3}}$$
 
 2準位 $|i\rangle,|f\rangle$ のエネルギーを $E_i,E_f$ とし、$\omega_{fi}=(E_f-E_i)/\hbar>0$ とする。$0<t<T$ の間だけ
 
-$$\hat H'(t)=\hat V\cos\Omega t$$
+$$\hat H^{\prime}(t)=\hat V\cos\Omega t$$
 
 が加わる。$V_{fi}=\langle f|\hat V|i\rangle$ とする。
 
@@ -214,7 +214,7 @@ $$X^2|n\rangle=\sqrt{n(n-1)}|n-2\rangle+(2n+1)|n\rangle+\sqrt{(n+1)(n+2)}|n+2\ra
 
 となります。$X$ はHermitian（エルミート）演算子なので、
 
-$$\langle n|X^4|n\rangle=\left\|X^2|n\rangle\right\|^2$$
+$$\langle n|X^4|n\rangle=\lVert X^2|n\rangle\rVert^2$$
 
 と書けます。$|n-2\rangle,|n\rangle,|n+2\rangle$ は互いに直交するため、係数の絶対値二乗を足して、
 
