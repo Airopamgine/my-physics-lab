@@ -37,12 +37,18 @@ theme = "PaperMod"
     name = "量子力学"
     url = "/categories/量子力学/"
     weight = 50
+
+  [[menu.main]]
+    identifier = "policy"
+    name = "制作方針"
+    url = "/policy/"
+    weight = 90
 # --- ここから下を追記 ---
 
 [params.profileMode]
   enabled = true
   title = "Master's Physics Lab"
-  subtitle = "Toho Univ. Physics | 物理学徒の学習記録＆過去問研究"
+  subtitle = "学部物理・大学院入試準備のための独自演習教材"
   
   # 画像があればここにURLを入れられます（今はなくてOK）
   imageUrl = "" 
@@ -65,3 +71,7 @@ theme = "PaperMod"
       # これを true にすると、Enterキーでの改行がそのまま反映されます
       hardWraps = true
       unsafe = true        
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
