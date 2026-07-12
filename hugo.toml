@@ -71,3 +71,7 @@ theme = "PaperMod"
       # これを true にすると、Enterキーでの改行がそのまま反映されます
       hardWraps = true
       unsafe = true        
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
