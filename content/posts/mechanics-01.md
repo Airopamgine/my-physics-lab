@@ -13,32 +13,22 @@ categories: ["力学"]
 ## 問題設定
 ここに問題文を書きます。質量 $m$ の質点がバネ定数$k$のバネにつながれている。質点の動きを求めよ。
 ヒント：
-$$
-F = -kx
-$$
+$$F = -kx$$
 
 ## 解答・解説
 運動方程式は以下の通り。
 
-$$
-m \frac{d^2 x}{dt^2} = -kx \tag{1}
-$$
+$$m \frac{d^2 x}{dt^2} = -kx \tag{1}$$
 
 これを整理すると、
 
-$$
-\frac{d^2 x}{dt^2} + \frac{k}{m} x = 0 \tag{2}
-$$
+$$\frac{d^2 x}{dt^2} + \frac{k}{m} x = 0 \tag{2}$$
 
 ここで
-$$
-\frac{k}{m} = \omega^2
-$$
+$$\frac{k}{m} = \omega^2$$
 を導入する。 $\omega$ は角振動数を表す。微分方程式を解くと一般解は
 
-$$
-x(t) = A \sin \omega t + B \cos \omega t \tag{3}
-$$
+$$x(t) = A \sin \omega t + B \cos \omega t \tag{3}$$
 
 $A, B$ は境界条件により定まる。
 （もう少しいろいろ書きたい）
