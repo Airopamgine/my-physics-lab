@@ -1,5 +1,5 @@
 ---
-title: "【発展英語長文・詳解34】ペニシリンを、観察・開発・量産の連鎖から読む"
+title: "ペニシリンの発見と量産"
 date: 2026-07-15
 draft: false
 categories: ["英語"]
@@ -135,4 +135,3 @@ penicillinは感受性細菌感染症の治療を変えたが、「奇跡の薬�
 - [American Chemical Society: Alexander Fleming and the Development of Penicillin](https://www.acs.org/education/whatischemistry/landmarks/flemingpenicillin.html)
 - [USDA Agricultural Research Service: Penicillin—Opening the Era of Antibiotics](https://www.ars.usda.gov/midwest-area/peoria-il/national-center-for-agricultural-utilization-research/docs/penicillin-opening-the-era-of-antibiotics/)
 - [NCBI: The Discovery of Penicillin—New Insights](https://pmc.ncbi.nlm.nih.gov/articles/PMC5403050/)
-

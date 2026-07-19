@@ -1,5 +1,5 @@
 ---
-title: "【発展英語長文・詳解6】ソビエト連邦の崩壊を、長期要因・改革・政治的転機から読む"
+title: "ソビエト連邦の崩壊"
 date: 2026-07-15
 draft: false
 categories: ["英語"]
@@ -154,4 +154,3 @@ categories: ["英語"]
 
 - [Office of the Historian: The Collapse of the Soviet Union](https://history.state.gov/milestones/1989-1992/collapse-soviet-union)
 - [Office of the Historian: Russia—Recognition and Relations](https://history.state.gov/countries/russia)
-

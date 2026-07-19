@@ -1,5 +1,5 @@
 ---
-title: "【発展英語長文・詳解43】プラセボを、反応・効果・因果推論から読む"
+title: "プラセボと因果推論"
 date: 2026-07-15
 draft: false
 categories: ["英語"]
@@ -132,4 +132,3 @@ response はプラセボ群で基準時から観察された全変化で、自�
 - [NIMH: Placebo Workshop—Translational Research Domains and Key Questions](https://www.nimh.nih.gov/news/media/2024/day-two-placebo-workshop-translational-research-domains-and-key-questions)
 - [George and colleagues: Dynamic Nature of the Placebo Response](https://pmc.ncbi.nlm.nih.gov/articles/PMC4019995/)
 - [FDA: Placebos and Blinding in Randomized Controlled Cancer Clinical Trials](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/placebos-and-blinding-randomized-controlled-cancer-clinical-trials-drug-and-biological-products)
-

@@ -1,5 +1,5 @@
 ---
-title: "【発展英語長文・詳解8】英国のEU離脱を、投票・法的手続・反実仮想から読む"
+title: "英国のEU離脱"
 date: 2026-07-15
 draft: false
 categories: ["英語"]
@@ -155,4 +155,3 @@ categories: ["英語"]
 
 - [UK Parliament: Brexit Timeline—Events Leading to the UK's Exit](https://commonslibrary.parliament.uk/research-briefings/cbp-7960/)
 - [UK Parliament: The UK–EU Relationship After Brexit](https://commonslibrary.parliament.uk/brexit/uk-eu-relationship-after-brexit/)
-

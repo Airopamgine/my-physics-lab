@@ -1,5 +1,5 @@
 ---
-title: "【発展英語長文・詳解14】地球環境問題への国際協力を、科学・条約設計・公平性から読む"
+title: "地球環境問題と国際協力"
 date: 2026-07-15
 draft: false
 categories: ["英語"]
@@ -131,4 +131,3 @@ schedules could be strengthenedという仕組みの利点を答えなさい。
 - [UNEP Ozone Secretariat: Montreal Protocol](https://ozone.unep.org/treaties/montreal-protocol)
 - [UNEP: About the Montreal Protocol](https://www.unep.org/ozonaction/who-we-are/about-montreal-protocol)
 - [UNFCCC: The Paris Agreement](https://unfccc.int/process-and-meetings/the-paris-agreement)
-

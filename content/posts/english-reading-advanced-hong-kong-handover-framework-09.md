@@ -1,5 +1,5 @@
 ---
-title: "【発展英語長文・詳解9】香港返還を、主権移転・基本法・制度運用から読む"
+title: "香港返還"
 date: 2026-07-15
 draft: false
 categories: ["英語"]
@@ -156,4 +156,3 @@ authority、procedure、effect を分ける利点を答えなさい。
 - [Hong Kong Basic Law: Official Portal](https://www.basiclaw.gov.hk/en/index/)
 - [Hong Kong Basic Law: Preamble](https://www.basiclaw.gov.hk/en/basiclaw/preamble.html)
 - [Hong Kong Basic Law: General Principles](https://www.basiclaw.gov.hk/en/basiclaw/chapter1.html)
-

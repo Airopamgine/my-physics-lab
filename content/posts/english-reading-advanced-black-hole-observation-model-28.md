@@ -1,5 +1,5 @@
 ---
-title: "【発展英語長文・詳解28】ブラックホールを、境界・観測・模型から読む"
+title: "ブラックホールの観測"
 date: 2026-07-15
 draft: false
 categories: ["英語"]
@@ -134,4 +134,3 @@ ring scale と independently estimated mass を比較する意義を説明しな
 ### 参考資料
 - [Event Horizon Telescope: First Image of a Black Hole](https://eventhorizontelescope.org/press-release-april-10-2019-astronomers-capture-first-image-black-hole)
 - [Event Horizon Telescope: M87* One Year Later](https://eventhorizontelescope.org/M87-one-year-later-proof-of-a-persistent-black-hole-shadow)
-

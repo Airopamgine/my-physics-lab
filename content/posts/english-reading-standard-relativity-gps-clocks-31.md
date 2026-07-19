@@ -1,5 +1,5 @@
 ---
-title: "【標準英語長文・詳解31】GPSを、相対論の逸話から時計・測距・座標系の工学へ進めて読む"
+title: "GPSと相対性理論"
 date: 2026-07-14
 draft: false
 categories: ["英語"]

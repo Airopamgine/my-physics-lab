@@ -1,5 +1,5 @@
 ---
-title: "【発展英語長文・詳解30】異常測定を、追試・系統誤差・自己修正から読む"
+title: "ニュートリノ異常測定"
 date: 2026-07-15
 draft: false
 categories: ["英語"]
@@ -133,4 +133,3 @@ anomaly は期待との不一致を記述する段階で原因を確定しない
 
 ### 参考資料
 - [CERN: OPERA Experiment Reports an Anomaly and Subsequent Updates](https://home.cern/opera-experiment-reports-anomaly-in-flight-time-of-neutrinos-from-cern-to-gran-sasso/)
-

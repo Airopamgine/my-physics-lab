@@ -1,5 +1,5 @@
 ---
-title: "【発展英語長文・詳解39】マルクスを、分析概念・予測・歴史的帰結から読む"
+title: "マルクスの思想と歴史"
 date: 2026-07-15
 draft: false
 categories: ["英語"]
@@ -130,4 +130,3 @@ categories: ["英語"]
 ### 参考資料
 - [Stanford Encyclopedia of Philosophy: Karl Marx](https://plato.stanford.edu/entries/marx/)
 - [Stanford Encyclopedia of Philosophy: Analytical Marxism](https://plato.stanford.edu/entries/marxism-analytical/)
-

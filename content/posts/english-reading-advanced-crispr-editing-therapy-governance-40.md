@@ -1,5 +1,5 @@
 ---
-title: "【発展英語長文・詳解40】遺伝子編集を、切断・修復・治療・統治から読む"
+title: "遺伝子編集の治療と統治"
 date: 2026-07-15
 draft: false
 categories: ["英語"]
@@ -131,4 +131,3 @@ CRISPR–Cas系は微生物防御に由来する。広く用いられる設計�
 - [U.S. FDA: First Gene Therapies for Sickle Cell Disease](https://www.fda.gov/news-events/press-announcements/fda-approves-first-gene-therapies-treat-patients-sickle-cell-disease)
 - [World Health Organization: Human Genome Editing Recommendations](https://www.who.int/publications/i/item/9789240030381)
 - [Nobel Prize: The development of a method for genome editing](https://www.nobelprize.org/prizes/chemistry/2020/press-release/)
-

@@ -1,5 +1,5 @@
 ---
-title: "【発展英語長文・詳解29】超新星を、爆発経路・元素・距離測定から読む"
+title: "超新星と元素"
 date: 2026-07-15
 draft: false
 categories: ["英語"]
@@ -134,4 +134,3 @@ Ia型は光度曲線と色から最大光度を標準化できるため距離指
 ### 参考資料
 - [U.S. Department of Energy: Nucleosynthesis](https://www.energy.gov/science/doe-explainsnucleosynthesis)
 - [U.S. Department of Energy: Supernovae](https://www.energy.gov/science/doe-explainssupernovae)
-

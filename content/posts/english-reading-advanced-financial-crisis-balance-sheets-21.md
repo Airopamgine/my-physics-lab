@@ -1,5 +1,5 @@
 ---
-title: "【発展英語長文・詳解21】世界金融危機を、証券化・資金調達・連鎖損失から読む"
+title: "世界金融危機"
 date: 2026-07-15
 draft: false
 categories: ["英語"]
@@ -134,4 +134,3 @@ thin layer of equity の金融機関で、小さな価格下落が大問題に�
 ### 参考資料
 - [US Government Publishing Office: Financial Crisis Inquiry Commission](https://www.govinfo.gov/app/details/GPO-FCIC)
 - [Federal Reserve History: The Great Recession and Its Aftermath](https://www.federalreservehistory.org/essays/great-recession-and-its-aftermath)
-

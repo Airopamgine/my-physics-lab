@@ -1,5 +1,5 @@
 ---
-title: "【発展英語長文・詳解41】ヒトマイクロバイオームを、関連・因果・介入から読む"
+title: "ヒトマイクロバイオーム"
 date: 2026-07-15
 draft: false
 categories: ["英語"]
@@ -133,4 +133,3 @@ microbiota は主として特定部位の微生物そのもの、microbiome は�
 - [Relman: Thinking about the microbiome as a causal factor in human health and disease](https://pmc.ncbi.nlm.nih.gov/articles/PMC9464032/)
 - [FDA: First Orally Administered Fecal Microbiota Product](https://www.fda.gov/news-events/press-announcements/fda-approves-first-orally-administered-fecal-microbiota-product-prevention-recurrence-clostridioides)
 - [FDA: Safety Alert Regarding Fecal Microbiota for Transplantation](https://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/safety-alert-regarding-use-fecal-microbiota-transplantation-and-risk-serious-adverse-events-likely)
-

@@ -1,5 +1,5 @@
 ---
-title: "【発展英語長文・詳解23】DNA二重らせんを、証拠・モデル・研究倫理から読む"
+title: "DNA二重らせんの発見"
 date: 2026-07-15
 draft: false
 categories: ["英語"]
@@ -134,4 +134,3 @@ X線回折像を原子の direct photograph と呼べない理由を説明しな
 ### 参考資料
 - [Nature: The Other DNA Papers](https://www.nature.com/articles/d41586-019-01347-8)
 - [Nature: The Double Helix—50 Years](https://www.nature.com/collections/mvrzbllfvv)
-
