@@ -15,6 +15,12 @@ theme = "PaperMod"
     weight = 10
 
   [[menu.main]]
+    identifier = "relativity"
+    name = "相対性理論"
+    url = "/categories/相対性理論/"
+    weight = 15
+
+  [[menu.main]]
     identifier = "electromagnetism"
     name = "電磁気"
     url = "/categories/電磁気/"
