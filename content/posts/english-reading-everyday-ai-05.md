@@ -1,5 +1,5 @@
 ---
-title: "【基礎英語長文・詳解5】日常のAIを、便利さ・限界・責任から読む"
+title: "日常生活のAI"
 date: 2026-07-13
 draft: false
 categories: ["英語"]

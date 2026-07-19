@@ -1,5 +1,5 @@
 ---
-title: "【発展英語長文・詳解35】監獄実験を、方法・再現性・倫理から再検証する"
+title: "監獄実験の再検証"
 date: 2026-07-15
 draft: false
 categories: ["英語"]
@@ -135,4 +135,3 @@ random assignment が減らす問題と、解決できない問題を一つず�
 - [PubMed: Le Texier, Debunking the Stanford Prison Experiment](https://pubmed.ncbi.nlm.nih.gov/31380664/)
 - [Stanford Libraries: Philip G. Zimbardo Papers](https://oac.cdlib.org/findaid/ark:/13030/kt7f59s371/)
 - [American Psychological Association: Ethical Principles and Code of Conduct](https://www.apa.org/ethics/code)
-

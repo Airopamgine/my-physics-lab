@@ -1,5 +1,5 @@
 ---
-title: "【発展英語長文・詳解26】免疫応答を、認識・連携・記憶から読む"
+title: "免疫応答のしくみ"
 date: 2026-07-15
 draft: false
 categories: ["英語"]
@@ -134,4 +134,3 @@ categories: ["英語"]
 ### 参考資料
 - [NIAID: Features of an Immune Response](https://www.niaid.nih.gov/research/immune-response-features)
 - [NCBI Bookshelf: The Innate and Adaptive Immune Systems](https://www.ncbi.nlm.nih.gov/books/NBK279396/)
-

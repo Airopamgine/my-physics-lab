@@ -1,5 +1,5 @@
 ---
-title: "【発展英語長文・詳解24】量子力学を、状態・測定・比喩の限界から読む"
+title: "量子力学の状態と測定"
 date: 2026-07-15
 draft: false
 categories: ["英語"]
@@ -134,4 +134,3 @@ superposition を「古典的状態のどれかにいるが知らない」こと
 ### 参考資料
 - [Nobel Prize: The Nobel Prize in Physics 1901–2000](https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/)
 - [Nobel Prize: Forces and Quantum Mechanics](https://www.nobelprize.org/prizes/themes/forces/)
-

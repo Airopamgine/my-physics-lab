@@ -1,5 +1,5 @@
 ---
-title: "【発展英語長文・詳解27】宇宙望遠鏡を、故障診断・修理・証拠から読む"
+title: "宇宙望遠鏡の故障と修理"
 date: 2026-07-15
 draft: false
 categories: ["英語"]
@@ -134,4 +134,3 @@ categories: ["英語"]
 ### 参考資料
 - [NASA: Hubble's Mirror Flaw](https://science.nasa.gov/mission/hubble/observatory/design/optics/hubbles-mirror-flaw/)
 - [NASA: Servicing Mission 1](https://science.nasa.gov/mission/hubble/observatory/missions-to-hubble/servicing-mission-1/)
-

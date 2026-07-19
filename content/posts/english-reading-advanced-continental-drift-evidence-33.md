@@ -1,5 +1,5 @@
 ---
-title: "【発展英語長文・詳解33】大陸移動を、証拠・機構・理論更新から読む"
+title: "大陸移動説と理論更新"
 date: 2026-07-15
 draft: false
 categories: ["英語"]
@@ -135,4 +135,3 @@ Wegenerは大陸の相対的位置が変わったという証拠を統合した�
 - [U.S. Geological Survey: Plate Tectonics](https://www.usgs.gov/educational-resources/plate-tectonics)
 - [U.S. Geological Survey: Developing the Theory](https://pubs.usgs.gov/gip/dynamic/developing.html)
 - [U.S. Geological Survey: Harry Hess and Seafloor Spreading](https://pubs.usgs.gov/gip/dynamic/HHH.html)
-

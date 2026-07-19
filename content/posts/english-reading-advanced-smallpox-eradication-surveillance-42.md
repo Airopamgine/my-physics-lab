@@ -1,5 +1,5 @@
 ---
-title: "【発展英語長文・詳解42】天然痘根絶を、接種・監視・検証の連鎖として読む"
+title: "天然痘の根絶"
 date: 2026-07-15
 draft: false
 categories: ["英語"]
@@ -132,4 +132,3 @@ categories: ["英語"]
 - [WHO: Smallpox Eradication Programme](https://www.who.int/news-room/feature-stories/detail/the-smallpox-eradication-programme---sep-%281966-1980%29)
 - [WHO: History of Smallpox Vaccination](https://www.who.int/news-room/spotlight/history-of-vaccination/history-of-smallpox-vaccination)
 - [WHO: Statue Commemorates Smallpox Eradication](https://www.who.int/news/item/17-05-2010-statue-commemorates-smallpox-eradication)
-

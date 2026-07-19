@@ -1,5 +1,5 @@
 ---
-title: "【発展英語長文・詳解7】中国の経済成長を、改革・生産性・国際統合から読む"
+title: "中国の経済成長"
 date: 2026-07-15
 draft: false
 categories: ["英語"]
@@ -156,4 +156,3 @@ categories: ["英語"]
 - [World Bank Open Knowledge: China 2030](https://openknowledge.worldbank.org/entities/publication/13a20328-c61f-508f-b898-13f4081360a7)
 - [World Trade Organization: China—Member Information](https://www.wto.org/english/thewto_e/countries_e/china_e.htm)
 - [World Trade Organization: Accessions—China](https://www.wto.org/english/thewto_e/acc_e/a1_chine_e.htm)
-

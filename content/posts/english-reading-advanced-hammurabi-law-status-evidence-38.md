@@ -1,5 +1,5 @@
 ---
-title: "【発展英語長文・詳解38】ハンムラビ法典を、判例・身分・王権から読む"
+title: "ハンムラビ法典"
 date: 2026-07-15
 draft: false
 categories: ["英語"]
@@ -130,4 +130,3 @@ Hammurabi と Shamash の場面は、法の正当性をどのように表現し�
 ### 参考資料
 - [Musée du Louvre: The Code of Hammurabi](https://www.louvre.fr/en/the-code-of-hammurabi)
 - [Yale Law School Avalon Project: Code of Hammurabi](https://avalon.law.yale.edu/ancient/hamframe.asp)
-

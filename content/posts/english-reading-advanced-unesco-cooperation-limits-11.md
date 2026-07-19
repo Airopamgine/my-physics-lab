@@ -1,5 +1,5 @@
 ---
-title: "【発展英語長文・詳解11】国際的な教育・科学・文化協力を、理念・制度・限界から読む"
+title: "国際的な教育・科学・文化協力"
 date: 2026-07-15
 draft: false
 categories: ["英語"]
@@ -132,4 +132,3 @@ categories: ["英語"]
 ### 参考資料
 - [UNESCO Constitution](https://www.unesco.org/en/legal-affairs/constitution)
 - [UNESCO: Standard-setting Instruments](https://www.unesco.org/en/legal-affairs/standard-setting/overview)
-

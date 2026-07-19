@@ -1,5 +1,5 @@
 ---
-title: "【発展英語長文・詳解15】チェルノブイリ原発事故を、事故機構・被ばく・制度学習から読む"
+title: "チェルノブイリ原発事故"
 date: 2026-07-15
 draft: false
 categories: ["英語"]
@@ -131,4 +131,3 @@ projected numberとindividually identified casesを区別する必要がある�
 - [UNSCEAR: The Chornobyl Accident](https://www.unscear.org/unscear/en/chernobyl.html)
 - [IAEA: Chornobyl Accident—Frequently Asked Questions](https://www.iaea.org/topics/chornobyl/faqs)
 - [WHO: Mitigating the Health Consequences of Chernobyl](https://www.who.int/activities/mitigating-health-consequences-of-chernobyl)
-

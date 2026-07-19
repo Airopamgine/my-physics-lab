@@ -1,5 +1,5 @@
 ---
-title: "【発展英語長文・詳解10】感染症流行の社会的影響を、経路・格差・回復力から読む"
+title: "感染症流行と社会"
 date: 2026-07-15
 draft: false
 categories: ["英語"]
@@ -156,4 +156,3 @@ reported deathsとexcess mortalityを同一視できない理由を答えなさ�
 - [World Health Organization: Coronavirus Disease Pandemic](https://www.who.int/europe/emergencies/situations/covid-19)
 - [International Labour Organization: COVID-19 and the World of Work](https://www.ilo.org/topics-and-sectors/covid-19-and-world-work)
 - [UNESCO Institute for Statistics: Global Monitoring of School Closures](https://covid19.uis.unesco.org/global-monitoring-school-closures-covid19/)
-

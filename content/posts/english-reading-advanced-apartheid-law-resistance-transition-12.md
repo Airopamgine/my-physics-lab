@@ -1,5 +1,5 @@
 ---
-title: "【発展英語長文・詳解12】南アフリカの人種隔離政策を、法制度・抵抗・移行から読む"
+title: "南アフリカの人種隔離政策"
 date: 2026-07-15
 draft: false
 categories: ["英語"]
@@ -130,4 +130,3 @@ repressionが強かったことと、抵抗組織が継続したことはどう�
 ### 参考資料
 - [United Nations: Partner in the Struggle against Apartheid](https://southafrica.un.org/en/about/about-the-un)
 - [United Nations Legal Affairs: Apartheid Convention](https://legal.un.org/avl/ha/cspca/cspca.html)
-

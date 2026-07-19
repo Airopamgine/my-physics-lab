@@ -1,5 +1,5 @@
 ---
-title: "【発展英語長文・詳解32】文字解読を、比較・仮説・共同知から読む"
+title: "ロゼッタストーンの解読"
 date: 2026-07-15
 draft: false
 categories: ["英語"]
@@ -134,4 +134,3 @@ Champollionは比較碑文と、エジプト語の後代段階であるCopticの
 ### 参考資料
 - [British Museum: Everything you ever wanted to know about the Rosetta Stone](https://www.britishmuseum.org/blog/everything-you-ever-wanted-know-about-rosetta-stone)
 - [British Museum: Finding the key to ancient Egypt](https://www.britishmuseum.org/blog/eureka-finding-key-ancient-egypt)
-

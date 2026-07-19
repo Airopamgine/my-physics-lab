@@ -1,5 +1,5 @@
 ---
-title: "【標準英語長文・詳解2】AIと創造性を、出力・意図・協働から読む"
+title: "AIと創造性"
 date: 2026-07-13
 draft: false
 categories: ["英語"]

@@ -1,5 +1,5 @@
 ---
-title: "【発展英語長文・詳解31】光合成を、エネルギー変換と炭素収支から読む"
+title: "光合成と炭素収支"
 date: 2026-07-15
 draft: false
 categories: ["英語"]
@@ -134,4 +134,3 @@ categories: ["英語"]
 ### 参考資料
 - [U.S. Department of Energy: Photosynthetic Energy Capture, Conversion and Storage](https://pamspublic.science.energy.gov/WebPAMSExternal/Interface/Common/ViewPublicAbstract.aspx?PRoleId=10&rtc=24&rv=e69f20fb-7e68-4dbd-985e-78a36af15a36)
 - [U.S. Department of Energy: Carbon Dioxide Fixation and Photosynthetic Materials](https://www.energy.gov/science/bes/articles/growth-and-repair-carbon-dioxide-air)
-

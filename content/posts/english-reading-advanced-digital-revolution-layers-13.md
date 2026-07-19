@@ -1,5 +1,5 @@
 ---
-title: "【発展英語長文・詳解13】デジタル革命を、計算・ネットワーク・制度の層から読む"
+title: "デジタル革命"
 date: 2026-07-15
 draft: false
 categories: ["英語"]
@@ -131,4 +131,3 @@ Internetはデータ輸送の基盤で、Webはその上で動くリンク文書
 - [CERN: A Short History of the Web](https://home.cern/science/computing/the-birth-of-the-web/short-history-web/)
 - [CERN: Where the Web Was Born](https://home.cern/science/computing/the-birth-of-the-web/where-web-was-born/)
 - [World Bank: Digital Progress and Trends](https://www.worldbank.org/en/publication/digital-progress-and-trends-report)
-
