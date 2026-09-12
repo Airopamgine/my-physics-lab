@@ -6,6 +6,9 @@
 
   const STORAGE_KEY = "mastersPhysicsLab.englishLibraryProgress.v1";
   const PAGE_SIZE = 18;
+  const isReadingFeed = root.dataset.mode === "reading-feed";
+  const normalizeAnswer = (value) => String(value).normalize("NFKC").trim().toLowerCase();
+  const isAutoGraded = (question) => question.options.length > 0 || Array.isArray(question.acceptedAnswers);
   const COLLECTION_ORDER = [
     "Foundation Reading",
     "Standard Reading",
@@ -141,6 +144,7 @@
         return searchable.includes(query);
       })
       .sort((a, b) => {
+        if (isReadingFeed) return b.date.localeCompare(a.date);
         const collectionDifference = COLLECTION_ORDER.indexOf(a.collection) - COLLECTION_ORDER.indexOf(b.collection);
         if (collectionDifference) return collectionDifference;
         return a.title.localeCompare(b.title, "ja");
@@ -161,7 +165,7 @@
     elements.status.hidden = true;
     elements.grid.innerHTML = shown.map((set) => {
       const stats = setStats(set);
-      const autoCount = set.questions.filter((question) => question.options.length).length;
+      const autoCount = set.questions.filter(isAutoGraded).length;
       const progressPercent = Math.round((stats.attempted / set.questions.length) * 100);
       return `
         <article class="english-set-card">
@@ -170,6 +174,7 @@
             <span>${escapeHtml(set.level)}</span>
           </div>
           <h3>${escapeHtml(set.title)}</h3>
+          ${isReadingFeed ? `<p>${escapeHtml(new Date(set.date).toLocaleString("ja-JP", { timeZone: "Asia/Tokyo" }))} JST</p>` : ""}
           <p>${set.questions.length} questions · ${autoCount} auto / ${set.questions.length - autoCount} self-check</p>
           <div class="english-set-card__progress" aria-label="${stats.attempted} of ${set.questions.length} attempted">
             <span style="width:${progressPercent}%"></span>
@@ -178,7 +183,7 @@
           <div class="english-set-card__actions">
             <button class="toefl-button toefl-button--primary" type="button" data-library-start="${escapeHtml(set.id)}">Start set</button>
             ${stats.review ? `<button class="toefl-button toefl-button--secondary" type="button" data-library-review="${escapeHtml(set.id)}">Review ${stats.review}</button>` : ""}
-            <a href="${escapeHtml(siteUrl(set.sourceUrl))}">Full article</a>
+            ${set.sourceUrl ? `<a href="${escapeHtml(siteUrl(set.sourceUrl))}">Full article</a>` : ""}
           </div>
         </article>`;
     }).join("");
@@ -268,7 +273,7 @@
     if (question.options.length) {
       elements.check.textContent = "Check answer";
       elements.questionContent.innerHTML = `
-        ${contextMarkup(activeSet)}
+        ${contextMarkup({ ...activeSet, passage: question.passage ?? activeSet.passage })}
         ${prompt}
         <div class="toefl-answers" role="group" aria-label="Answer choices">
           ${question.options.map((option) => `
@@ -279,6 +284,23 @@
         </div>`;
       elements.questionContent.querySelectorAll("[data-library-option]").forEach((button) => {
         button.addEventListener("click", () => selectChoice(button));
+      });
+    } else if (question.acceptedAnswers) {
+      elements.check.textContent = "Check answer";
+      elements.questionContent.innerHTML = `
+        ${contextMarkup({ ...activeSet, passage: question.passage ?? activeSet.passage })}
+        ${prompt}
+        <label class="library-written-answer" for="library-gap-input">
+          <span>Your answer · 欠けた文字だけ入力（単語全体も可）</span>
+          <textarea id="library-gap-input" rows="1" autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="Missing letters"></textarea>
+        </label>`;
+      const input = document.getElementById("library-gap-input");
+      input.addEventListener("input", () => { elements.check.disabled = !input.value.trim(); });
+      input.addEventListener("keydown", (event) => {
+        if (event.key === "Enter" && !event.isComposing) {
+          event.preventDefault();
+          if (!elements.check.disabled) evaluateAnswer();
+        }
       });
     } else {
       elements.check.textContent = "Show model answer";
@@ -321,6 +343,7 @@
   }
 
   function answerSourceLink() {
+    if (!activeSet.sourceUrl) return "";
     return `<a class="library-source-link" href="${escapeHtml(siteUrl(activeSet.sourceUrl))}">全文・詳しい解説を元記事で開く →</a>`;
   }
 
@@ -336,17 +359,36 @@
       section: activeSet.collection,
       task: question.label,
       instruction: `Answer question ${question.number} in this ${activeSet.level} study set.`,
-      context: activeSet.passage,
+      context: question.passage ?? activeSet.passage,
       question: question.prompt,
       options: question.options.map((option) => `${option.label}. ${option.text}`),
       userAnswer: question.options.length ? optionAnswerText(question, submitted) : submitted,
       modelAnswer: question.answer,
-      sourceUrl: new URL(siteUrl(activeSet.sourceUrl), window.location.href).href
+      sourceUrl: activeSet.sourceUrl ? new URL(siteUrl(activeSet.sourceUrl), window.location.href).href : window.location.href
     };
   }
 
   function evaluateAnswer() {
+    if (elements.check.disabled || elements.check.hidden) return;
     const question = activeQueue[currentIndex];
+    if (question.acceptedAnswers) {
+      const input = document.getElementById("library-gap-input");
+      const submitted = input.value;
+      const correct = question.acceptedAnswers.some((answer) => normalizeAnswer(answer) === normalizeAnswer(submitted));
+      input.disabled = true;
+      recordAttempt(question, correct ? "correct" : "incorrect", submitted);
+      if (correct) sessionMastered += 1;
+      elements.feedback.className = `toefl-feedback ${correct ? "is-correct" : "is-wrong"}`;
+      elements.feedback.innerHTML = `<h3>${correct ? "✓ Correct" : "✕ Not quite"}</h3>
+        <p>Your answer: ${escapeHtml(submitted)}</p>
+        <div class="library-rich-text">${richText(question.answer)}</div>`;
+      window.ToeflChatGPTBridge?.mount(elements.feedback, tutorDetails(question, submitted));
+      elements.feedback.hidden = false;
+      elements.check.hidden = true;
+      elements.next.hidden = false;
+      elements.next.focus();
+      return;
+    }
     if (question.options.length) {
       const correct = selectedOption === question.correct;
       elements.questionContent.querySelectorAll("[data-library-option]").forEach((button) => {
@@ -454,6 +496,13 @@
   });
   elements.restart.addEventListener("click", () => startSet(activeSet.id, false));
   elements.review.addEventListener("click", () => startSet(activeSet.id, true));
+  document.getElementById("library-refresh")?.addEventListener("click", async (event) => {
+    const button = event.currentTarget;
+    button.disabled = true;
+    hasLoaded = false;
+    await loadBank();
+    button.disabled = false;
+  });
 
   document.addEventListener("toefl:unlocked", loadBank);
 })();
