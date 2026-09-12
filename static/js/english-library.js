@@ -324,6 +324,27 @@
     return `<a class="library-source-link" href="${escapeHtml(siteUrl(activeSet.sourceUrl))}">全文・詳しい解説を元記事で開く →</a>`;
   }
 
+  function optionAnswerText(question, label) {
+    const option = question.options.find((candidate) => candidate.label === label);
+    return option ? `${option.label}. ${option.text}` : label;
+  }
+
+  function tutorDetails(question, submitted) {
+    return {
+      source: "Master's Physics Lab — English Library",
+      setTitle: activeSet.title,
+      section: activeSet.collection,
+      task: question.label,
+      instruction: `Answer question ${question.number} in this ${activeSet.level} study set.`,
+      context: activeSet.passage,
+      question: question.prompt,
+      options: question.options.map((option) => `${option.label}. ${option.text}`),
+      userAnswer: question.options.length ? optionAnswerText(question, submitted) : submitted,
+      modelAnswer: question.answer,
+      sourceUrl: new URL(siteUrl(activeSet.sourceUrl), window.location.href).href
+    };
+  }
+
   function evaluateAnswer() {
     const question = activeQueue[currentIndex];
     if (question.options.length) {
@@ -340,6 +361,7 @@
         <h3>${correct ? "✓ Correct" : "✕ Not quite"}</h3>
         <div class="library-rich-text">${richText(question.answer)}</div>
         ${answerSourceLink()}`;
+      window.ToeflChatGPTBridge?.mount(elements.feedback, tutorDetails(question, selectedOption));
       elements.feedback.hidden = false;
       elements.check.hidden = true;
       elements.next.hidden = false;
@@ -357,6 +379,7 @@
       <p class="library-answer-label">Model answer / 解答例</p>
       <div class="library-rich-text">${richText(question.answer)}</div>
       ${answerSourceLink()}`;
+    window.ToeflChatGPTBridge?.mount(elements.feedback, tutorDetails(question, textarea.value));
     elements.feedback.hidden = false;
     elements.selfRating.hidden = false;
     elements.check.hidden = true;
