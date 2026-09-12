@@ -769,6 +769,55 @@
   color: var(--tl-ink);
 }
 
+.chatgpt-bridge {
+  align-items: center;
+  border-top: 1px solid rgba(20, 33, 61, 0.12);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 14px;
+  margin-top: 17px;
+  padding-top: 16px;
+}
+
+.chatgpt-bridge__link {
+  align-items: center;
+  background: linear-gradient(135deg, #102b62, #126b69);
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(16, 43, 98, 0.18);
+  color: #fff;
+  display: inline-flex;
+  font-size: 0.88rem;
+  font-weight: 780;
+  gap: 8px;
+  min-height: 43px;
+  padding: 10px 15px;
+  text-decoration: none;
+  transition: transform 150ms ease, box-shadow 150ms ease, background 150ms ease;
+}
+
+.chatgpt-bridge__link:hover {
+  box-shadow: 0 10px 24px rgba(16, 43, 98, 0.25);
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+.chatgpt-bridge__link:focus-visible {
+  outline: 3px solid rgba(29, 78, 216, 0.35);
+  outline-offset: 2px;
+}
+
+.chatgpt-bridge__link[data-copy-state="copied"] {
+  background: var(--tl-green);
+}
+
+.chatgpt-bridge__status {
+  color: var(--tl-muted);
+  flex: 1 1 260px;
+  font-size: 0.76rem;
+  line-height: 1.5;
+  margin: 0 !important;
+}
+
 .toefl-question-actions {
   display: flex;
   gap: 10px;
@@ -1350,10 +1399,24 @@ html[data-theme="dark"] .library-user-answer,
   .library-self-rating .toefl-button {
     flex: 1;
   }
+
+  .chatgpt-bridge {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .chatgpt-bridge__link {
+    justify-content: center;
+  }
+
+  .chatgpt-bridge__status {
+    flex-basis: auto;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
   .toefl-button,
+  .chatgpt-bridge__link,
   .toefl-progress-track span {
     transition: none;
   }
