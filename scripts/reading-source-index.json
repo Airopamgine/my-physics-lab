@@ -1,0 +1,329 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "reading",
+      "file": "TOEFL-reading.pdf",
+      "pageCount": 38,
+      "sha256": "3f8e3e5b8b896cf6ed2265fee3d6b2e85374aed99b6b49ef1f4b3a22874e040e",
+      "answerKeyAvailable": false,
+      "reviewedPages": [],
+      "packets": [
+        {
+          "path": "scripts/reading-source-text/reading-p001-p010.json.gz.b64",
+          "firstPage": 1,
+          "lastPage": 10
+        },
+        {
+          "path": "scripts/reading-source-text/reading-p011-p020.json.gz.b64",
+          "firstPage": 11,
+          "lastPage": 20
+        },
+        {
+          "path": "scripts/reading-source-text/reading-p021-p030.json.gz.b64",
+          "firstPage": 21,
+          "lastPage": 30
+        },
+        {
+          "path": "scripts/reading-source-text/reading-p031-p038.json.gz.b64",
+          "firstPage": 31,
+          "lastPage": 38
+        }
+      ],
+      "pageItems": {}
+    },
+    {
+      "id": "actual",
+      "file": "TOEFL-reading_actual.pdf",
+      "pageCount": 24,
+      "sha256": "2e3c7582025deff021ea6a0610b38959de9d32afa2a5696c095fbeb901e815ac",
+      "answerKeyAvailable": false,
+      "reviewedPages": [],
+      "packets": [
+        {
+          "path": "scripts/reading-source-text/actual-p001-p010.json.gz.b64",
+          "firstPage": 1,
+          "lastPage": 10
+        },
+        {
+          "path": "scripts/reading-source-text/actual-p011-p020.json.gz.b64",
+          "firstPage": 11,
+          "lastPage": 20
+        },
+        {
+          "path": "scripts/reading-source-text/actual-p021-p024.json.gz.b64",
+          "firstPage": 21,
+          "lastPage": 24
+        }
+      ],
+      "pageItems": {}
+    },
+    {
+      "id": "task1",
+      "file": "TOEFL-reading_task1.pdf",
+      "pageCount": 48,
+      "sha256": "4aa68bea95fe93c5ec0f48122b03131fbd31e16dffe915079e349f1d490cd1ff",
+      "answerKeyAvailable": false,
+      "reviewedPages": [
+        10,
+        11
+      ],
+      "packets": [
+        {
+          "path": "scripts/reading-source-text/task1-p001-p010.json.gz.b64",
+          "firstPage": 1,
+          "lastPage": 10
+        },
+        {
+          "path": "scripts/reading-source-text/task1-p011-p020.json.gz.b64",
+          "firstPage": 11,
+          "lastPage": 20
+        },
+        {
+          "path": "scripts/reading-source-text/task1-p021-p030.json.gz.b64",
+          "firstPage": 21,
+          "lastPage": 30
+        },
+        {
+          "path": "scripts/reading-source-text/task1-p031-p040.json.gz.b64",
+          "firstPage": 31,
+          "lastPage": 40
+        },
+        {
+          "path": "scripts/reading-source-text/task1-p041-p048.json.gz.b64",
+          "firstPage": 41,
+          "lastPage": 48
+        }
+      ],
+      "pageItems": {
+        "10": [
+          "pdf:task1:p010:q01-gap1",
+          "pdf:task1:p010:q02-gap1",
+          "pdf:task1:p010:q03-gap1",
+          "pdf:task1:p010:q04-gap1",
+          "pdf:task1:p010:q05-gap1"
+        ],
+        "11": [
+          "pdf:task1:p011:q06-gap1",
+          "pdf:task1:p011:q06-gap2",
+          "pdf:task1:p011:q07-gap1",
+          "pdf:task1:p011:q07-gap2",
+          "pdf:task1:p011:q08-gap1",
+          "pdf:task1:p011:q08-gap2",
+          "pdf:task1:p011:q09-gap1",
+          "pdf:task1:p011:q09-gap2",
+          "pdf:task1:p011:q10-gap1",
+          "pdf:task1:p011:q10-gap2"
+        ]
+      }
+    },
+    {
+      "id": "task2",
+      "file": "TOEFL-reading_task2.pdf",
+      "pageCount": 124,
+      "sha256": "820cb5ab6606547b2dea2db3048cea8927a409ce529b9359c3199d23209e510d",
+      "answerKeyAvailable": false,
+      "reviewedPages": [
+        8
+      ],
+      "packets": [
+        {
+          "path": "scripts/reading-source-text/task2-p001-p010.json.gz.b64",
+          "firstPage": 1,
+          "lastPage": 10
+        },
+        {
+          "path": "scripts/reading-source-text/task2-p011-p020.json.gz.b64",
+          "firstPage": 11,
+          "lastPage": 20
+        },
+        {
+          "path": "scripts/reading-source-text/task2-p021-p030.json.gz.b64",
+          "firstPage": 21,
+          "lastPage": 30
+        },
+        {
+          "path": "scripts/reading-source-text/task2-p031-p040.json.gz.b64",
+          "firstPage": 31,
+          "lastPage": 40
+        },
+        {
+          "path": "scripts/reading-source-text/task2-p041-p050.json.gz.b64",
+          "firstPage": 41,
+          "lastPage": 50
+        },
+        {
+          "path": "scripts/reading-source-text/task2-p051-p060.json.gz.b64",
+          "firstPage": 51,
+          "lastPage": 60
+        },
+        {
+          "path": "scripts/reading-source-text/task2-p061-p070.json.gz.b64",
+          "firstPage": 61,
+          "lastPage": 70
+        },
+        {
+          "path": "scripts/reading-source-text/task2-p071-p080.json.gz.b64",
+          "firstPage": 71,
+          "lastPage": 80
+        },
+        {
+          "path": "scripts/reading-source-text/task2-p081-p090.json.gz.b64",
+          "firstPage": 81,
+          "lastPage": 90
+        },
+        {
+          "path": "scripts/reading-source-text/task2-p091-p100.json.gz.b64",
+          "firstPage": 91,
+          "lastPage": 100
+        },
+        {
+          "path": "scripts/reading-source-text/task2-p101-p110.json.gz.b64",
+          "firstPage": 101,
+          "lastPage": 110
+        },
+        {
+          "path": "scripts/reading-source-text/task2-p111-p120.json.gz.b64",
+          "firstPage": 111,
+          "lastPage": 120
+        },
+        {
+          "path": "scripts/reading-source-text/task2-p121-p124.json.gz.b64",
+          "firstPage": 121,
+          "lastPage": 124
+        }
+      ],
+      "pageItems": {
+        "8": [
+          "pdf:task2:p008:q01",
+          "pdf:task2:p008:q02"
+        ]
+      }
+    },
+    {
+      "id": "task3",
+      "file": "TOEFL-reading_task3.pdf",
+      "pageCount": 154,
+      "sha256": "8128961ad98d0e5182a29940bdd9fec5f815b365821a591be95f6bb8a38f5e5e",
+      "answerKeyAvailable": false,
+      "reviewedPages": [
+        8
+      ],
+      "packets": [
+        {
+          "path": "scripts/reading-source-text/task3-p001-p010.json.gz.b64",
+          "firstPage": 1,
+          "lastPage": 10
+        },
+        {
+          "path": "scripts/reading-source-text/task3-p011-p020.json.gz.b64",
+          "firstPage": 11,
+          "lastPage": 20
+        },
+        {
+          "path": "scripts/reading-source-text/task3-p021-p030.json.gz.b64",
+          "firstPage": 21,
+          "lastPage": 30
+        },
+        {
+          "path": "scripts/reading-source-text/task3-p031-p040.json.gz.b64",
+          "firstPage": 31,
+          "lastPage": 40
+        },
+        {
+          "path": "scripts/reading-source-text/task3-p041-p050.json.gz.b64",
+          "firstPage": 41,
+          "lastPage": 50
+        },
+        {
+          "path": "scripts/reading-source-text/task3-p051-p060.json.gz.b64",
+          "firstPage": 51,
+          "lastPage": 60
+        },
+        {
+          "path": "scripts/reading-source-text/task3-p061-p070.json.gz.b64",
+          "firstPage": 61,
+          "lastPage": 70
+        },
+        {
+          "path": "scripts/reading-source-text/task3-p071-p080.json.gz.b64",
+          "firstPage": 71,
+          "lastPage": 80
+        },
+        {
+          "path": "scripts/reading-source-text/task3-p081-p090.json.gz.b64",
+          "firstPage": 81,
+          "lastPage": 90
+        },
+        {
+          "path": "scripts/reading-source-text/task3-p091-p100.json.gz.b64",
+          "firstPage": 91,
+          "lastPage": 100
+        },
+        {
+          "path": "scripts/reading-source-text/task3-p101-p110.json.gz.b64",
+          "firstPage": 101,
+          "lastPage": 110
+        },
+        {
+          "path": "scripts/reading-source-text/task3-p111-p120.json.gz.b64",
+          "firstPage": 111,
+          "lastPage": 120
+        },
+        {
+          "path": "scripts/reading-source-text/task3-p121-p130.json.gz.b64",
+          "firstPage": 121,
+          "lastPage": 130
+        },
+        {
+          "path": "scripts/reading-source-text/task3-p131-p140.json.gz.b64",
+          "firstPage": 131,
+          "lastPage": 140
+        },
+        {
+          "path": "scripts/reading-source-text/task3-p141-p150.json.gz.b64",
+          "firstPage": 141,
+          "lastPage": 150
+        },
+        {
+          "path": "scripts/reading-source-text/task3-p151-p154.json.gz.b64",
+          "firstPage": 151,
+          "lastPage": 154
+        }
+      ],
+      "pageItems": {
+        "8": [
+          "pdf:task3:p008:q01",
+          "pdf:task3:p008:q02"
+        ]
+      }
+    },
+    {
+      "id": "vocabulary",
+      "file": "TOEFL-rearing_単語.pdf",
+      "pageCount": 22,
+      "sha256": "62205d70c0dc08a08045e56321d417b1c7ab4497bbd966f348042bcc15fbb3a5",
+      "answerKeyAvailable": false,
+      "reviewedPages": [],
+      "packets": [
+        {
+          "path": "scripts/reading-source-text/vocabulary-p001-p010.json.gz.b64",
+          "firstPage": 1,
+          "lastPage": 10
+        },
+        {
+          "path": "scripts/reading-source-text/vocabulary-p011-p020.json.gz.b64",
+          "firstPage": 11,
+          "lastPage": 20
+        },
+        {
+          "path": "scripts/reading-source-text/vocabulary-p021-p022.json.gz.b64",
+          "firstPage": 21,
+          "lastPage": 22
+        }
+      ],
+      "pageItems": {}
+    }
+  ],
+  "note": "Packet paths describe a private working cache, not published files. Exact question totals require review. Answer pages referenced by the books were not supplied."
+}

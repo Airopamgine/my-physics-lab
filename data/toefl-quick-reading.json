@@ -1,0 +1,196 @@
+[
+  {
+    "id": "r-complete-1",
+    "section": "Reading",
+    "task": "Complete the Words",
+    "kind": "complete",
+    "instruction": "Type only the missing letters in each word.",
+    "passage": "Coastal wetlands can abs{{0}} part of a storm's energy. Their dense vegetation also sl{{1}} the movement of water, which may reduce flooding farther inland.",
+    "gaps": [
+      {
+        "answer": "orb",
+        "word": "absorb"
+      },
+      {
+        "answer": "ows",
+        "word": "slows"
+      }
+    ],
+    "explanation": "Both completions must fit the spelling and the meaning: wetlands absorb energy, and vegetation slows water.",
+    "explanationJa": "absorb は「吸収する」、slow はここでは動詞で「遅くする」。文法だけでなく、前後の意味にも合う文字を補います。",
+    "vocabulary": [
+      [
+        "wetland",
+        "湿地",
+        "water covers the soil for part or all of the year"
+      ],
+      [
+        "dense",
+        "密集した",
+        "closely packed together"
+      ]
+    ]
+  },
+  {
+    "id": "r-complete-2",
+    "section": "Reading",
+    "task": "Complete the Words",
+    "kind": "complete",
+    "instruction": "Type only the missing letters in each word.",
+    "passage": "A scientific model does not need to rep{{0}} every detail of a system. Instead, it should cap{{1}} the features that are most relevant to the question being studied.",
+    "gaps": [
+      {
+        "answer": "resent",
+        "word": "represent"
+      },
+      {
+        "answer": "ture",
+        "word": "capture"
+      }
+    ],
+    "explanation": "A model represents a system and captures its relevant features. Both missing verbs use the base form after “to” and “should.”",
+    "explanationJa": "represent は「表現する」、capture はここでは「重要な特徴を捉える」。to represent と should capture のように、to と助動詞 should の後には動詞の原形を置きます。",
+    "vocabulary": [
+      [
+        "relevant",
+        "関連する・重要な",
+        "directly connected to the question"
+      ],
+      [
+        "feature",
+        "特徴・要素",
+        "an important part or characteristic"
+      ]
+    ]
+  },
+  {
+    "id": "r-daily-1",
+    "section": "Reading",
+    "task": "Read in Daily Life",
+    "kind": "choice",
+    "instruction": "Read the notice and choose the best answer.",
+    "passage": "SCIENCE LIBRARY NOTICE\nThe second-floor study area will close at 6:00 p.m. on Thursday for electrical maintenance. The first floor will remain open until the usual closing time. Reserved books can still be collected at the main desk.",
+    "prompt": "What should a student do if they want to study after 6:00 p.m. on Thursday?",
+    "options": [
+      "Use the first-floor study area",
+      "Collect a reserved book on Friday",
+      "Ask the main desk to delay maintenance",
+      "Enter the second floor through another door"
+    ],
+    "answer": 0,
+    "explanation": "Only the second floor closes early. The notice says the first floor remains open until the normal time.",
+    "explanationJa": "閉まるのは second-floor study area だけです。remain open（開いたままである）が正答の直接的な根拠です。",
+    "vocabulary": [
+      [
+        "maintenance",
+        "保守・点検",
+        "work done to keep equipment functioning"
+      ],
+      [
+        "remain",
+        "〜のままである",
+        "continue in the same state"
+      ]
+    ]
+  },
+  {
+    "id": "r-daily-2",
+    "section": "Reading",
+    "task": "Read in Daily Life",
+    "kind": "choice",
+    "instruction": "Read the message and choose the best answer.",
+    "passage": "Hi Elena,\nI attached the revised poster. I made the title larger, as you suggested, but I left the graph unchanged because Professor Ito has not approved the new data yet. Could you check the references before our meeting at three?\n—Marcus",
+    "prompt": "Why did Marcus leave the graph unchanged?",
+    "options": [
+      "The meeting was moved to another time.",
+      "The new data has not been approved.",
+      "Elena asked him to enlarge the graph.",
+      "The reference list was already correct."
+    ],
+    "answer": 1,
+    "explanation": "Marcus directly connects his decision to Professor Ito not having approved the new data yet.",
+    "explanationJa": "because 以下が理由です。has not approved ... yet は「まだ承認していない」という現在完了の表現です。",
+    "vocabulary": [
+      [
+        "revised",
+        "修正された",
+        "changed in order to improve something"
+      ],
+      [
+        "reference",
+        "参考文献",
+        "a source cited in academic work"
+      ]
+    ]
+  },
+  {
+    "id": "r-academic-1",
+    "section": "Reading",
+    "task": "Read an Academic Passage",
+    "kind": "choice",
+    "instruction": "Read the passage and choose the best answer.",
+    "passage": "When fluid moves along a solid surface, friction slows the fluid closest to that surface. A thin region called the boundary layer therefore develops. Outside this layer, the fluid may move almost as if the surface were absent. Although the boundary layer is often very thin, its behavior strongly affects drag, heat transfer, and whether the flow remains smooth or becomes turbulent.",
+    "prompt": "Why does the author mention that the boundary layer is often very thin?",
+    "options": [
+      "To argue that it can usually be ignored",
+      "To contrast its small size with its large effects",
+      "To explain why all fluid flow becomes turbulent",
+      "To show that friction occurs outside the layer"
+    ],
+    "answer": 1,
+    "explanation": "“Although” signals a contrast: the region is thin, yet it strongly affects several important properties.",
+    "explanationJa": "Although（〜にもかかわらず）が対比の合図です。「薄い領域」なのに drag などへの影響は大きい、という構造です。",
+    "vocabulary": [
+      [
+        "boundary layer",
+        "境界層",
+        "the thin flow region next to a surface"
+      ],
+      [
+        "drag",
+        "抗力",
+        "a force that resists motion through a fluid"
+      ],
+      [
+        "turbulent",
+        "乱流の",
+        "having irregular, mixed fluid motion"
+      ]
+    ]
+  },
+  {
+    "id": "r-academic-2",
+    "section": "Reading",
+    "task": "Read an Academic Passage",
+    "kind": "choice",
+    "instruction": "Read the passage and choose the best answer.",
+    "passage": "Large volcanic eruptions can inject sulfur-rich gases into the stratosphere. There, the gases form tiny particles that reflect some incoming sunlight. Surface temperatures may consequently fall for a limited period. The effect is temporary because the particles gradually settle out of the atmosphere, but it can still alter rainfall patterns and growing seasons in the years immediately following an eruption.",
+    "prompt": "According to the passage, why is the cooling effect temporary?",
+    "options": [
+      "Volcanoes stop producing heat after an eruption.",
+      "Sunlight eventually passes through sulfur-rich gases.",
+      "The reflective particles gradually leave the atmosphere.",
+      "Rainfall removes all gases from the stratosphere immediately."
+    ],
+    "answer": 2,
+    "explanation": "The passage explicitly says that the particles gradually settle out of the atmosphere.",
+    "explanationJa": "temporary の理由は because 以下に明示されています。settle out は「沈降して取り除かれる」という意味です。",
+    "vocabulary": [
+      [
+        "stratosphere",
+        "成層圏",
+        "the atmospheric layer above the troposphere"
+      ],
+      [
+        "consequently",
+        "その結果",
+        "as a result"
+      ],
+      [
+        "alter",
+        "変える",
+        "change, often in a noticeable way"
+      ]
+    ]
+  }
+]

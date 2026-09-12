@@ -1,71 +1,100 @@
-# Reading practice publication
+# TOEFL Reading: complete source migration
 
-Destination: https://airopamgine.github.io/my-physics-lab/toefl/reading/
+Latest owner instruction supersedes the old original-question generator: put
+Task 1/2/3 on the NORMAL `/toefl/` page, convert ALL existing English questions to
+TOEFL formats, and make EVERY exercise in all six supplied PDFs answerable there.
+Continue bounded batches on the existing four-hour ChatGPT schedule to save
+credits. Do not substitute unrelated original questions or create another task.
 
-The owner requested small batches on a four-hour schedule to conserve AI credits.
-The schedule is managed by ChatGPT Scheduled Tasks, not by the browser or this file.
-The browser grades every new question locally with stored answers; no AI API, key,
-server, or automatic ChatGPT submission is needed. Keep the existing password gate
-and the previous English archive. The gate is a casual client-side entrance, not
-confidential storage. Never commit a password, source PDF, page image, or private data.
+Normal: https://airopamgine.github.io/my-physics-lab/toefl/
+Same catalog / updates: https://airopamgine.github.io/my-physics-lab/toefl/reading/
+Unconverted originals: https://airopamgine.github.io/my-physics-lab/toefl/archive/
 
-## One run
+## Sources and private working files
 
-1. Fetch current `main`, this file, and the file listing of `data/toefl-reading`.
-   Work only on this Reading feed. Leave other topics and paused tasks untouched.
-2. Identify the current Japan-time four-hour slot (00, 04, 08, 12, 16, or 20).
-   Use `reading-YYYYMMDD-HHMM` as the ID and filename. If this slot is already on
-   main, report its link and stop. Check open `agent/reading-*` PRs for an unfinished
-   run before creating another. Do not generate catch-up batches for missed slots.
-3. Read the latest one or two batches to avoid repeating passages and vocabulary.
-   Create exactly ONE new original 10-question set at B1–B2 or B2. Rotate campus,
-   everyday, humanities, arts, social-science and non-specialist science contexts.
-   Use the format lessons from the supplied Reading PDFs: incomplete words,
-   everyday reading, academic reading, and vocabulary in context. Original English
-   passages and explanations are required; do not copy or translate book passages
-   wholesale or publish the uploaded PDFs, scans, download links, or source keys.
-   This is targeted practice, not a full official/adaptive test or official score.
-4. Save only `data/toefl-reading/<id>.json` using the schema below. Date is ISO 8601
-   with `+09:00`. Published questions must have exactly one defensible answer.
-   Audit the answer and every distractor yourself; the source OCR/keys are not
-   authoritative. Use fictional everyday scenarios to avoid personal data. Do not
-   turn uncertain technical or changing real-world claims into reading facts.
-5. Validate with `python3 scripts/build_english_quiz_bank.py` and
-   `python3 -m unittest discover -s tests -p 'test_reading_feed.py'`.
-   Run a Hugo build when available. If any validation fails, fix the new batch
-   before publication. Do not weaken validation or change frontend code as part
-   of an ordinary run. The generated bank is ignored and must not be committed.
-6. Commit the single source file to an `agent/reading-<slot>` branch from current
-   main, open a focused PR, check its diff and mergeability, and merge with the
-   expected head SHA. Respect required checks and protected workflows. The owner
-   authorized publishing these exercises. Confirm the Pages workflow result and
-   report the page link, new/total question counts, and any failed deployment.
-   Never claim publication based only on creating a branch or PR.
+`scripts/reading-source-index.json` inventories ALL 410 PDF pages and their OCR
+private packet path hints, checksums and coverage. Include overview/diagnostic, actual tests,
+Task 1, Task 2, Task 3 and vocabulary, including examples and short drills.
+The ignored local `scripts/reading-source-text/*.json.gz.b64` cache contains
+unverified OCR, ten pages per packet. These files are NOT on GitHub and must
+NEVER be uploaded there. Use the original private attachments from the task
+context when the cache is unavailable; regenerate locally with the preparation
+script. A local cache can disappear, so do not assume durable availability.
+Read only the necessary available private packet and decode one page with:
+`python3 scripts/prepare_reading_sources.py --packet PATH --page N`.
+Use original uploaded PDFs to render uncertain pages when available. Never
+publish raw OCR: labels, blank lengths, letters and line breaks may be corrupted.
+If critical text cannot be recovered confidently, record the unresolved page/item
+and continue elsewhere. Do not silently omit it or invent a reconstruction.
+If the private PDFs cannot be accessed, record that blocker, continue converting
+the existing GitHub posts, and request the exact missing attachments once. Do not
+retry unavailable source access every four hours. No raw PDF/OCR belongs in a PR.
 
-## Source schema
+The supplied files reference answer pages around printed pages 402–502 that were
+NOT supplied. `answerKeyAvailable` is false. Derive a learning answer only when
+text/grammar/options uniquely support it; preserve the visible note that the
+publisher's key has not been checked. Otherwise leave it pending and request the
+relevant key pages. Once supplied, audit previously inferred answers too.
 
-Use the existing first set as the complete working example. Fields:
+Existing `content/posts/english-*.md` contains 112 sets / 1040 source questions.
+`static/data/english-question-bank.json` is generated from them. Six existing
+quick Reading exercises (8 graded answers) are already mapped to the three tasks
+through `data/toefl-quick-reading.json`. Old feed question IDs are also preserved.
 
-- `id`, `title` (short Japanese topic title), `date`, `level`.
-- `passages`: object of named plain-text English passages. Typically `words`
-  (70–110 words, with three numbered-by-question target blanks), `daily`
-  (80–150 words: email, notice, message chain, advertisement, etc.), and `academic`
-  (170–230 words, titled, with two or three paragraphs).
-- `questions`: ten entries in fixed order: 3 `words`, 3 `daily`, 3 `academic`,
-  1 `vocabulary`. Each needs `category`, `passageId`, `prompt` (English), and `answer`
-  (Japanese explanation plus useful English). Question IDs are generated from the
-  set ID and array position; never reorder or replace a published set.
-- For `words`, supply lowercase ASCII `prefix` and complete `word`; display
-  `prefix` plus exactly one underscore per missing letter in the referenced passage
-  and prompt. Choose an unambiguous word completion. The generated bank accepts the
-  missing suffix OR whole word, case-insensitively, with NFKC and outer-space trim.
-- For all other categories, supply four distinct `{label: "A"..."D", text: "..."}`
-  options and `correct` (one label). Include main purpose/detail/inference or
-  rhetorical purpose across the reading questions. The vocabulary item tests a
-  word's meaning in one of the passages. Explanations must name the correct answer,
-  cite its passage evidence and explain why each distractor fails.
+## Each scheduled run
 
-Do not repeatedly reread all large PDFs or regenerate existing sets on each run.
-The attached scans inform the task styles above, not an endless transcription job.
-Scheduled generation uses credits; local grading does not call AI. Keep each run
-bounded to one set and a concise publication report.
+1. Fetch current main, this guide, the source index and migration file listing.
+   Check unfinished `agent/reading-*` PRs and finish a valid pending batch first.
+   Skip already converted SOURCE REFERENCES, not just matching titles.
+2. Advance a bounded batch of about 10–20 graded answers, preserving passage/set
+   integrity. Alternate existing-post conversion with PDF work; rotate all six
+   PDF sources. Store `lastSource` and any `blockedItems` in the source index.
+   Begin at the earliest unreviewed page. Covers/instructions count as reviewed
+   only after confirming they have no exercise. Do not reread the entire corpus.
+3. PDF work preserves the original passage, exercise, options and order while
+   correcting demonstrable OCR corruption. Task 1 uses missing-letter inputs;
+   Task 2 covers everyday documents; Task 3 covers academic reading, including
+   contextual vocabulary and insertion questions. Insertion questions must show
+   the sentence and four explicit A–D locations. Each blank gets its own source
+   ref. Every vocabulary-list headword needs a contextual completion/meaning item.
+4. For existing posts retain ALL learning targets. Convert Japanese translation,
+   explanation and essay prompts into English reading questions with four English
+   choices and one defensible correct answer, or suitable missing-letter tasks.
+   Do not merely change labels or drop difficult questions. Long passages can be
+   divided, but preserve source-ref coverage. Keep original articles available.
+5. Save `data/toefl-migration/<id>.json`. Update `reviewedPages` only for completely
+   checked PDF pages and put every source ref in `pageItems[page]`; confirmed
+   non-exercise pages have empty lists. Unresolved pages stay pending. Never call
+   page count a question count, or claim an unknown question total.
+6. Run `python3 scripts/build_english_quiz_bank.py`,
+   `python3 -m unittest discover -s tests -p 'test_*.py'`, and a Hugo build.
+   Fix failures; never weaken validation. Generated static banks are ignored.
+   Ordinary runs modify only conversion JSON and the source index, not frontend,
+   passwords or unrelated subjects. Browser grading uses no AI API or API key.
+7. Commit to `agent/reading-migrate-*`, open a focused PR, review diff/mergeability,
+   satisfy required checks, and merge with expected head SHA. The owner authorized
+   publishing these exercises. Confirm Pages deployment, then report the normal
+   page URL, new answers and coverage concisely. Respect access and approval rules.
+8. Continue until all legacy refs and all PDF page items are covered. On completion,
+   audit coverage, pause this automation and report completion. If every remaining
+   source is blocked, report exact missing files/pages and pause instead of paying
+   for repeated empty checks. Never claim all done because raw OCR was cached.
+
+## JSON format
+
+Complete examples: `pdf-task1-p010-011`, `pdf-task2-p008`, `pdf-task3-p008`, and
+`legacy-balanced-diet` in `data/toefl-migration`.
+Set: id (filename stem), title, date (ISO with timezone), level, task (1/2/3),
+sourceLabel, optional verificationNote/sourceUrl, passages (key to English text),
+questions (ordered). Never reorder a published set or reuse an ID for new content.
+Question: passageId, English prompt, Japanese answer with evidence/distractor
+explanations, and unique sourceRefs: `legacy:<original-question-id>` or
+`pdf:<source-id>:p<PDF-page>:q<exercise-number-or-headword>`; append `-gap1` etc.
+Use zero-padded PDF page numbers, e.g. p008, and retain printed-page/exercise labels
+for the learner. Task 1 adds word/prefix and a matching prefix+underscore blank in
+the passage. It accepts the missing suffix or full word, normalized for case,
+outer spaces and NFKC. Tasks 2/3 add four {label: A–D, text: ...} options and correct
+(one letter). No free-response self-rating belongs in the converted catalog.
+
+These are three task TYPES within Reading, not three separate exam sections.
+Do not present this practice as an official test, adaptive simulator or score.

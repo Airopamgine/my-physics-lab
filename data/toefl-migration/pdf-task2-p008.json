@@ -1,0 +1,69 @@
+{
+  "id": "pdf-task2-p008",
+  "title": "参加登録の確認と住宅広告",
+  "task": 2,
+  "date": "2026-09-13T06:45:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 2 · PDF 8ページ／冊子84ページ · 問01–02",
+  "verificationNote": "本文・文法から解答を確認済み。出版社の解答ページは未収録のため、公式解答表との照合は未完了です。",
+  "passages": {
+    "email": "Subject: RE: Painting Workshop\n\nDear Ms. Simons,\nYour seat for the still life painting workshop on May 27th has been confirmed. All you need to bring is an apron. We'll have all the other supplies—paints, brushes, and a canvas—ready for you when you arrive.\n\nBest regards,\nFrancisco Mondi",
+    "advertisement": "MOVE IN READY\n\nThis four-bedroom, two-bath house is now available in the Kingswood Subdivision. The house was recently renovated and features a modern kitchen with new appliances, a spacious open floor plan, and a spa-style master bathroom. The property was also professionally landscaped and has a beautiful backyard with a large swimming pool and hot tub.\n\nThe new owner will enjoy easy access to the city's best schools, retail outlets, and public transportation as well as all of the Kingswood Subdivision's amenities, including a private lake, community center, and sports complex. Priced at only $275,000, this is a great opportunity for a family looking to upgrade their home and lifestyle. For more information, call Margaret Benes at 555-0872."
+  },
+  "questions": [
+    {
+      "passageId": "email",
+      "prompt": "What is the main purpose of the email?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To specify payment details"
+        },
+        {
+          "label": "B",
+          "text": "To confirm a registration"
+        },
+        {
+          "label": "C",
+          "text": "To outline registration benefits"
+        },
+        {
+          "label": "D",
+          "text": "To introduce a new instructor"
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。Your seat ... has been confirmed が参加登録の確認を明示しています。A：支払方法の説明はありません。C：持ち物案内はありますが、登録の特典を列挙するメールではありません。D：新しい講師の紹介はありません。",
+      "sourceRefs": [
+        "pdf:task2:p008:q01"
+      ]
+    },
+    {
+      "passageId": "advertisement",
+      "prompt": "What is the main purpose of the advertisement?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To advertise a newly opened subdivision"
+        },
+        {
+          "label": "B",
+          "text": "To announce a price cut on a property"
+        },
+        {
+          "label": "C",
+          "text": "To introduce a house for sale"
+        },
+        {
+          "label": "D",
+          "text": "To highlight some renovations"
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。住宅の特徴、販売価格、連絡先をまとめ、購入者に紹介する広告です。A：分譲地全体の新規開業の広告ではありません。B：以前の価格や値下げは示されていません。D：改装は魅力の一つですが、文章全体の目的は販売物件の紹介です。",
+      "sourceRefs": [
+        "pdf:task2:p008:q02"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "id": "pdf-task1-p010-011",
+  "title": "欠けた文字から文法と語法を読む",
+  "task": 1,
+  "date": "2026-09-13T06:45:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 10–11ページ／冊子38–39ページ · 基礎ドリル",
+  "verificationNote": "本文・文法から解答を確認済み。出版社の解答ページは未収録のため、公式解答表との照合は未完了です。",
+  "passages": {
+    "01": "Social media c__ influence public opinion, shape trends, and offer opportunities for education and activism.",
+    "02": "Before any major experiment is initiated, the research team mu__ set a goal that is both ambitious and empirically measurable.",
+    "03": "Civil engineering demonstrates how science and mathematics translate in__ physical structures.",
+    "04": "A central difficulty in political theory is how to de__ with the tension between individual liberty and the demands of communal social order.",
+    "05": "By analyzing historical trading data from the 1930s, economists hoped to shed li___ on the factors that exacerbate financial crises and prolonged market downturns.",
+    "06": "Oral accounts present unique challenges; they are sub____ to the fallibility of human memory, the personal interpretation of the past, and potential bias stemming fr__ the interviewee's current viewpoint.",
+    "07": "People sometimes criticize the blockbuster trend for making studios on__ focus on titles with mass appeal. B__ blockbusters still shape popular culture and drive the film market.",
+    "08": "High biodiversity is esse_____ for healthy ecosy_____, as it increases resilience to environmental stressors and ensures the stability of natural processes like pollination and nutrient cycling.",
+    "09": "Epidemiologists inves______ patterns of disease, identify risk factors, and determine the causes of epidemics to inform public health interv_______. This field uses statistical methods to analyze data on everything from infectious disease outbreaks to long-term health conditions.",
+    "10": "Technological innovations se___ as powerful catalysts that br___ about profound societal transformations, as exemplified by the Industrial Revolution."
+  },
+  "questions": [
+    {
+      "passageId": "01",
+      "prompt": "Exercise 01: complete c__. Enter the missing letters.",
+      "prefix": "c",
+      "word": "can",
+      "answer": "正解：an → can。後ろが influence の原形なので、可能性を表す助動詞 can が入ります。",
+      "sourceRefs": [
+        "pdf:task1:p010:q01-gap1"
+      ]
+    },
+    {
+      "passageId": "02",
+      "prompt": "Exercise 02: complete mu__. Enter the missing letters.",
+      "prefix": "mu",
+      "word": "must",
+      "answer": "正解：st → must。set の前に置かれ、目標を設定する必要を表す助動詞です。empirically measurable は「経験的・実証的に測定できる」。",
+      "sourceRefs": [
+        "pdf:task1:p010:q02-gap1"
+      ]
+    },
+    {
+      "passageId": "03",
+      "prompt": "Exercise 03: complete in__. Enter the missing letters.",
+      "prefix": "in",
+      "word": "into",
+      "answer": "正解：to → into。translate into は「別の形になって現れる」。ここでは科学と数学が物理的な構造物へと具体化することです。",
+      "sourceRefs": [
+        "pdf:task1:p010:q03-gap1"
+      ]
+    },
+    {
+      "passageId": "04",
+      "prompt": "Exercise 04: complete de__. Enter the missing letters.",
+      "prefix": "de",
+      "word": "deal",
+      "answer": "正解：al → deal。deal with は「対処する・扱う」という組合せ。how to の後なので動詞の原形です。",
+      "sourceRefs": [
+        "pdf:task1:p010:q04-gap1"
+      ]
+    },
+    {
+      "passageId": "05",
+      "prompt": "Exercise 05: complete li___. Enter the missing letters.",
+      "prefix": "li",
+      "word": "light",
+      "answer": "正解：ght → light。shed light on は「〜を明らかにする」。光を当てる、という比喩で研究の目的を表します。",
+      "sourceRefs": [
+        "pdf:task1:p010:q05-gap1"
+      ]
+    },
+    {
+      "passageId": "06",
+      "prompt": "Exercise 06: complete sub____. Enter the missing letters.",
+      "prefix": "sub",
+      "word": "subject",
+      "answer": "正解：ject → subject。be subject to は「〜の影響を受けやすい」。ここでは記憶の不確かさなどの制約を受けることです。",
+      "sourceRefs": [
+        "pdf:task1:p011:q06-gap1"
+      ]
+    },
+    {
+      "passageId": "06",
+      "prompt": "Exercise 06: complete fr__. Enter the missing letters.",
+      "prefix": "fr",
+      "word": "from",
+      "answer": "正解：om → from。stem from は「〜から生じる」。現在の視点から生じる偏りを説明しています。",
+      "sourceRefs": [
+        "pdf:task1:p011:q06-gap2"
+      ]
+    },
+    {
+      "passageId": "07",
+      "prompt": "Exercise 07: complete on__. Enter the missing letters.",
+      "prefix": "on",
+      "word": "only",
+      "answer": "正解：ly → only。focus を限定し、「大衆受けする作品だけに注力させる」という批判です。",
+      "sourceRefs": [
+        "pdf:task1:p011:q07-gap1"
+      ]
+    },
+    {
+      "passageId": "07",
+      "prompt": "Exercise 07: complete B__. Enter the missing letters.",
+      "prefix": "B",
+      "word": "But",
+      "answer": "正解：ut → But。批判がある一方で人気文化を形作っている、という対比を示します。",
+      "sourceRefs": [
+        "pdf:task1:p011:q07-gap2"
+      ]
+    },
+    {
+      "passageId": "08",
+      "prompt": "Exercise 08: complete esse_____. Enter the missing letters.",
+      "prefix": "esse",
+      "word": "essential",
+      "answer": "正解：ntial → essential。essential for は「〜に不可欠な」。is の補語となる形容詞です。",
+      "sourceRefs": [
+        "pdf:task1:p011:q08-gap1"
+      ]
+    },
+    {
+      "passageId": "08",
+      "prompt": "Exercise 08: complete ecosy_____. Enter the missing letters.",
+      "prefix": "ecosy",
+      "word": "ecosystems",
+      "answer": "正解：stems → ecosystems。生物多様性や送粉・栄養循環を含む「生態系」。文字数と無冠詞の複数名詞の形を確認します。",
+      "sourceRefs": [
+        "pdf:task1:p011:q08-gap2"
+      ]
+    },
+    {
+      "passageId": "09",
+      "prompt": "Exercise 09: complete inves______. Enter the missing letters.",
+      "prefix": "inves",
+      "word": "investigate",
+      "answer": "正解：tigate → investigate。identify、determine と並ぶ動詞で「調査する」。主語 Epidemiologists は複数形です。",
+      "sourceRefs": [
+        "pdf:task1:p011:q09-gap1"
+      ]
+    },
+    {
+      "passageId": "09",
+      "prompt": "Exercise 09: complete interv_______. Enter the missing letters.",
+      "prefix": "interv",
+      "word": "interventions",
+      "answer": "正解：entions → interventions。「介入・対策」。public health interventions は公衆衛生上の介入策を指します。",
+      "sourceRefs": [
+        "pdf:task1:p011:q09-gap2"
+      ]
+    },
+    {
+      "passageId": "10",
+      "prompt": "Exercise 10: complete se___. Enter the missing letters.",
+      "prefix": "se",
+      "word": "serve",
+      "answer": "正解：rve → serve。serve as は「〜として機能する」。技術革新が触媒として働くと述べています。",
+      "sourceRefs": [
+        "pdf:task1:p011:q10-gap1"
+      ]
+    },
+    {
+      "passageId": "10",
+      "prompt": "Exercise 10: complete br___. Enter the missing letters.",
+      "prefix": "br",
+      "word": "bring",
+      "answer": "正解：ing → bring。bring about は「引き起こす」。直前の複数名詞 catalysts を受ける that が主語なので原形です。",
+      "sourceRefs": [
+        "pdf:task1:p011:q10-gap2"
+      ]
+    }
+  ]
+}

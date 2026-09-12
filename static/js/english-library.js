@@ -7,6 +7,7 @@
   const STORAGE_KEY = "mastersPhysicsLab.englishLibraryProgress.v1";
   const PAGE_SIZE = 18;
   const isReadingFeed = root.dataset.mode === "reading-feed";
+  const isTaskCatalog = root.dataset.mode === "tasks";
   const normalizeAnswer = (value) => String(value).normalize("NFKC").trim().toLowerCase();
   const isAutoGraded = (question) => question.options.length > 0 || Array.isArray(question.acceptedAnswers);
   const COLLECTION_ORDER = [
@@ -144,7 +145,7 @@
         return searchable.includes(query);
       })
       .sort((a, b) => {
-        if (isReadingFeed) return b.date.localeCompare(a.date);
+        if (isReadingFeed || isTaskCatalog) return Date.parse(b.date) - Date.parse(a.date);
         const collectionDifference = COLLECTION_ORDER.indexOf(a.collection) - COLLECTION_ORDER.indexOf(b.collection);
         if (collectionDifference) return collectionDifference;
         return a.title.localeCompare(b.title, "ja");
@@ -174,7 +175,8 @@
             <span>${escapeHtml(set.level)}</span>
           </div>
           <h3>${escapeHtml(set.title)}</h3>
-          ${isReadingFeed ? `<p>${escapeHtml(new Date(set.date).toLocaleString("ja-JP", { timeZone: "Asia/Tokyo" }))} JST</p>` : ""}
+          ${isReadingFeed || isTaskCatalog ? `<p>${escapeHtml(new Date(set.date).toLocaleString("ja-JP", { timeZone: "Asia/Tokyo" }))} JST</p>` : ""}
+          ${set.sourceLabel ? `<p class="reading-source-label">${escapeHtml(set.sourceLabel)}</p>` : ""}
           <p>${set.questions.length} questions · ${autoCount} auto / ${set.questions.length - autoCount} self-check</p>
           <div class="english-set-card__progress" aria-label="${stats.attempted} of ${set.questions.length} attempted">
             <span style="width:${progressPercent}%"></span>
@@ -202,6 +204,7 @@
         throw new Error("Unsupported question bank format");
       }
       bank = payload;
+      if (isTaskCatalog) updateTaskCatalog();
       elements.totals.innerHTML = `
         <strong>${bank.setCount} sets</strong>
         <span>${bank.questionCount.toLocaleString()} questions</span>
@@ -215,6 +218,24 @@
       hasLoaded = false;
       elements.status.hidden = false;
       elements.status.innerHTML = "Question bank を読み込めませんでした。ページを再読み込みしてください。";
+    }
+  }
+
+  function updateTaskCatalog() {
+    document.querySelectorAll("[data-reading-task]").forEach((button, index) => {
+      const task = button.dataset.readingTask;
+      const count = bank.sets.filter((set) => set.collection === task).reduce((sum, set) => sum + set.questions.length, 0);
+      document.getElementById(`reading-task-${index + 1}-count`).textContent = `${count}問 · 自動採点`;
+      button.disabled = false;
+    });
+    const progressPanel = document.getElementById("reading-migration-progress");
+    if (progressPanel && bank.migration) {
+      const m = bank.migration;
+      progressPanel.innerHTML = `<p><strong>既存教材：</strong>${m.legacyConverted} / ${m.legacyTotal}問をTOEFL形式へ移行済み</p>
+        <p><strong>PDF教材：</strong>${m.pdfPublished}問を掲載済み · 全${m.pdfPageTotal}ページのうち${m.pdfReviewedPages}ページを照合済み</p>
+        <p class="toefl-small-note">${m.pdfTotalQuestions === null ? "PDF全体の正確な設問数は照合中です。ページ数を問題数として数えていません。" : `PDFの全${m.pdfTotalQuestions}問を確認済みです。`}</p>`;
+      const note = document.getElementById("reading-migration-note");
+      if (note) note.textContent = (m.complete ? "全問の形式移行が完了しました。" : "まだ全問の移行は完了していません。元の教材は移行中も解答できます。") + (m.answerKeysMissing ? "PDFの解答・解説ページは未収録のため、掲載する解答は本文・文法に照らして確認しています。" : "");
     }
   }
 
@@ -269,7 +290,7 @@
     elements.next.hidden = true;
     elements.next.textContent = currentIndex === activeQueue.length - 1 ? "See results" : "Next question";
 
-    const prompt = `<div class="library-question-prompt library-rich-text">${richText(question.prompt)}</div>`;
+    const prompt = `${activeSet.verificationNote ? `<p class="reading-source-label">${escapeHtml(activeSet.verificationNote)}</p>` : ""}<div class="library-question-prompt library-rich-text">${richText(question.prompt)}</div>`;
     if (question.options.length) {
       elements.check.textContent = "Check answer";
       elements.questionContent.innerHTML = `
@@ -467,8 +488,20 @@
     renderLibrary();
   });
   elements.collection.addEventListener("change", () => {
+    document.querySelectorAll("[data-reading-task]").forEach((button) => button.setAttribute("aria-pressed", String(button.dataset.readingTask === elements.collection.value)));
     visibleCount = PAGE_SIZE;
     renderLibrary();
+  });
+  document.querySelectorAll("[data-reading-task]").forEach((button) => {
+    button.addEventListener("click", () => {
+      elements.collection.value = button.dataset.readingTask;
+      elements.search.value = "";
+      elements.level.value = "All";
+      elements.runner.hidden = true;
+      elements.complete.hidden = true;
+      elements.collection.dispatchEvent(new Event("change"));
+      root.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
   });
   elements.level.addEventListener("change", () => {
     visibleCount = PAGE_SIZE;

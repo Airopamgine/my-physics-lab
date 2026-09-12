@@ -309,7 +309,9 @@ def main() -> None:
         f"({auto_graded_count} auto-graded, {question_count - auto_graded_count} self-check)"
     )
     repo_root = Path(__file__).resolve().parent.parent
-    build_reading_feed(repo_root / "data/toefl-reading", repo_root / "static/data/toefl-reading-bank.json")
+    feed = build_reading_feed(repo_root / "data/toefl-reading", repo_root / "static/data/toefl-reading-bank.json")
+    from build_toefl_tasks import build_task_catalog
+    build_task_catalog(repo_root, payload, feed)
 
 
 if __name__ == "__main__":
