@@ -562,7 +562,7 @@
 
     recordAttempt(question.id, correct, submitted);
     if (correct) sessionCorrect += 1;
-    showFeedback(question, correct);
+    showFeedback(question, correct, submitted);
     elements.check.hidden = true;
     elements.next.hidden = false;
     elements.next.focus();
@@ -592,7 +592,27 @@
     return question.options[question.answer];
   }
 
-  function showFeedback(question, correct) {
+  function tutorDetails(question, submitted) {
+    const context = question.kind === "listening"
+      ? `Audio transcript: ${question.audioText}`
+      : String(question.passage || "").replace(/\{\{\d+\}\}/g, "___");
+    const options = question.options?.map((option, index) => `${letters[index]}. ${option}`) || [];
+
+    return {
+      source: "Master's Physics Lab — TOEFL Quick Practice",
+      section: question.section,
+      task: question.task,
+      instruction: question.instruction,
+      context,
+      question: question.prompt || question.instruction,
+      options,
+      userAnswer: submitted,
+      modelAnswer: correctAnswerText(question),
+      explanation: `${question.explanation}\n${question.explanationJa}`
+    };
+  }
+
+  function showFeedback(question, correct, submitted) {
     const vocabulary = question.vocabulary.map(([word, japanese, definition]) => `
       <span><strong>${escapeHtml(word)}</strong> — ${escapeHtml(japanese)}：${escapeHtml(definition)}</span>`).join("");
     const transcript = question.kind === "listening"
@@ -607,6 +627,7 @@
       <p class="toefl-explanation-ja">${escapeHtml(question.explanationJa)}</p>
       ${transcript}
       <div class="toefl-vocab" aria-label="Vocabulary notes">${vocabulary}</div>`;
+    window.ToeflChatGPTBridge?.mount(elements.feedback, tutorDetails(question, submitted));
     elements.feedback.hidden = false;
   }
 
