@@ -46,6 +46,7 @@ jobs:
 
       - name: Build with Hugo
         run: |
+          python3 scripts/build_english_quiz_bank.py
           hugo build \
             --gc \
             --minify \
