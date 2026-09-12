@@ -11,6 +11,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+from datetime import datetime
 from pathlib import Path
 from typing import Iterable
 
@@ -205,6 +206,76 @@ def parse_post(path: Path) -> dict[str, object]:
     }
 
 
+def build_reading_feed(source_dir: Path, output_path: Path) -> dict:
+    """Validate small, original reading batches and compile the browser bank."""
+    sets = []
+    seen_ids = set()
+    for path in sorted(source_dir.glob("*.json")):
+        item = json.loads(path.read_text(encoding="utf-8"))
+        set_id = item["id"]
+        if set_id != path.stem or not re.fullmatch(r"reading-\d{8}-\d{4}", set_id):
+            raise ValueError(f"{path}: id must match reading-YYYYMMDD-HHMM filename")
+        if set_id in seen_ids:
+            raise ValueError(f"{path}: duplicate id")
+        seen_ids.add(set_id)
+        date = datetime.fromisoformat(item["date"])
+        if date.utcoffset() is None:
+            raise ValueError(f"{path}: date needs timezone")
+        if not item["title"].strip() or item["level"] not in ("B1–B2", "B2", "B2–C1"):
+            raise ValueError(f"{path}: missing title or invalid level")
+        if len(item["questions"]) != 10:
+            raise ValueError(f"{path}: expected exactly 10 questions")
+        questions = []
+        type_counts = {"words": 0, "daily": 0, "academic": 0, "vocabulary": 0}
+        for number, q in enumerate(item["questions"], 1):
+            category = q["category"]
+            if category not in type_counts:
+                raise ValueError(f"{path}: unsupported category {category}")
+            type_counts[category] += 1
+            passage = item["passages"][q["passageId"]]
+            if not all(isinstance(v, str) and v.strip() for v in (passage, q["prompt"], q["answer"])):
+                raise ValueError(f"{path}: question {number} needs passage, prompt and explanation")
+            question = {
+                "id": f"{set_id}-q{number}", "number": number,
+                "label": {"words": "Complete the Words", "daily": "Read in Daily Life",
+                          "academic": "Read an Academic Passage", "vocabulary": "Vocabulary in Context"}[category],
+                "prompt": q["prompt"], "passage": passage, "answer": q["answer"],
+                "options": [], "correct": None,
+            }
+            if category == "words":
+                word, prefix = q["word"], q["prefix"]
+                if not re.fullmatch(r"[a-z]+", word) or not re.fullmatch(r"[a-z]+", prefix) or not word.startswith(prefix) or len(prefix) >= len(word):
+                    raise ValueError(f"{path}: invalid word/prefix in question {number}")
+                blank = prefix + "_" * (len(word) - len(prefix))
+                pattern = rf"(?<![A-Za-z]){re.escape(blank)}(?!_)"
+                if not re.search(pattern, passage) or not re.search(pattern, q["prompt"]):
+                    raise ValueError(f"{path}: missing or incorrectly sized blank in question {number}")
+                question["acceptedAnswers"] = [word[len(prefix):], word]
+            else:
+                options = q["options"]
+                if len(options) != 4 or {o["label"] for o in options} != set("ABCD"):
+                    raise ValueError(f"{path}: expected four A-D options in question {number}")
+                texts = [o["text"].strip() for o in options]
+                if not all(texts) or len(set(texts)) != 4 or q["correct"] not in "ABCD" or len(q["correct"]) != 1:
+                    raise ValueError(f"{path}: invalid answer/options in question {number}")
+                question.update(options=options, correct=q["correct"])
+            questions.append(question)
+        if type_counts != {"words": 3, "daily": 3, "academic": 3, "vocabulary": 1}:
+            raise ValueError(f"{path}: expected words/daily/academic/vocabulary counts 3/3/3/1")
+        sets.append({"id": set_id, "title": item["title"], "date": date.isoformat(),
+                     "level": item["level"], "collection": "Reading Practice",
+                     "passage": "", "notes": [], "sourceUrl": "", "questions": questions})
+    if not sets:
+        raise ValueError(f"No reading batches found in {source_dir}")
+    sets.sort(key=lambda item: datetime.fromisoformat(item["date"]), reverse=True)
+    payload = {"schemaVersion": 1, "setCount": len(sets), "questionCount": len(sets) * 10,
+               "autoGradedCount": len(sets) * 10, "selfCheckCount": 0, "sets": sets}
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+    print(f"Built Reading feed: {len(sets)} sets / {len(sets) * 10} auto-graded questions")
+    return payload
+
+
 def main() -> None:
     args = parse_args()
     content_dir = Path(args.content_dir)
@@ -237,6 +308,8 @@ def main() -> None:
         f"Built {len(sets)} sets / {question_count} questions "
         f"({auto_graded_count} auto-graded, {question_count - auto_graded_count} self-check)"
     )
+    repo_root = Path(__file__).resolve().parent.parent
+    build_reading_feed(repo_root / "data/toefl-reading", repo_root / "static/data/toefl-reading-bank.json")
 
 
 if __name__ == "__main__":
