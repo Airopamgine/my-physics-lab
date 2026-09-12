@@ -1,7 +1,27 @@
 {{- define "main" }}
 <link rel="stylesheet" href="{{ "css/toefl.css" | relURL }}">
 
-<div class="toefl-shell" id="toefl-app">
+<section class="toefl-access" id="toefl-access-gate" aria-labelledby="toefl-access-title">
+  <div class="toefl-access__card">
+    <div class="toefl-access__icon" aria-hidden="true">M<sup>7</sup></div>
+    <p class="toefl-eyebrow">Private study entrance</p>
+    <h1 id="toefl-access-title">TOEFL Practice Lab</h1>
+    <p>Enter the study password to continue.</p>
+    <p class="toefl-access__ja">学習ページを開くにはパスワードを入力してください。</p>
+    <form class="toefl-access__form" id="toefl-access-form">
+      <label for="toefl-password">Password</label>
+      <div class="toefl-access__input-row">
+        <input id="toefl-password" name="password" type="password" autocomplete="current-password" spellcheck="false" required>
+        <button id="toefl-password-toggle" type="button" aria-label="Show password">Show</button>
+      </div>
+      <p class="toefl-access__error" id="toefl-access-error" hidden role="alert">Password が違います。大文字・小文字と記号を確認してください。</p>
+      <button class="toefl-button toefl-button--primary" type="submit">Enter the Lab</button>
+    </form>
+    <a class="toefl-access__back" href="{{ "/" | relURL }}">← Master's Physics Lab に戻る</a>
+  </div>
+</section>
+
+<div class="toefl-shell" id="toefl-app" hidden>
   <header class="toefl-hero">
     <div class="toefl-hero__copy">
       <a class="toefl-kicker" href="{{ "/" | relURL }}" aria-label="Master's Physics Lab に戻る">
@@ -87,11 +107,106 @@
     </div>
   </section>
 
+  <section
+    class="english-library"
+    id="english-library"
+    data-bank-url="{{ "data/english-question-bank.json" | relURL }}"
+    data-base-path="{{ "/" | relURL }}"
+    aria-labelledby="english-library-title">
+    <div class="english-library__header">
+      <div>
+        <p class="toefl-eyebrow">Complete archive · interactive</p>
+        <h2 id="english-library-title">英語教材ライブラリ</h2>
+        <p>これまで作成した Reading・Vocabulary の全教材を、サイト上で解答できます。</p>
+      </div>
+      <div class="english-library__totals" id="library-totals" aria-label="Library totals">
+        <strong>Loading…</strong>
+      </div>
+    </div>
+
+    <div class="english-library__progress" id="library-progress" hidden>
+      <div><span>Attempted</span><strong id="library-attempted">0</strong></div>
+      <div><span>Mastered</span><strong id="library-mastered">0</strong></div>
+      <div><span>Review</span><strong id="library-review-count">0</strong></div>
+    </div>
+
+    <div class="english-library__controls" id="library-controls" hidden>
+      <label class="english-library__search">
+        <span>Search</span>
+        <input id="library-search" type="search" placeholder="例：量子、宇宙、climate" autocomplete="off">
+      </label>
+      <label>
+        <span>Collection</span>
+        <select id="library-collection">
+          <option value="All">All collections</option>
+          <option value="Foundation Reading">Foundation Reading</option>
+          <option value="Standard Reading">Standard Reading</option>
+          <option value="Academic Reading">Academic Reading</option>
+          <option value="Advanced Reading">Advanced Reading</option>
+          <option value="Vocabulary">Vocabulary</option>
+        </select>
+      </label>
+      <label>
+        <span>Level</span>
+        <select id="library-level">
+          <option value="All">All levels</option>
+          <option value="A2–B1">A2–B1</option>
+          <option value="B1–B2">B1–B2</option>
+          <option value="B2">B2</option>
+          <option value="B2–C1">B2–C1</option>
+        </select>
+      </label>
+    </div>
+
+    <p class="english-library__status" id="library-status">Question bank を読み込んでいます…</p>
+    <div class="english-library__grid" id="library-grid"></div>
+    <button class="toefl-button toefl-button--secondary english-library__more" id="library-more" type="button" hidden>Show more</button>
+
+    <section class="library-runner" id="library-runner" hidden aria-live="polite">
+      <div class="library-runner__topline">
+        <div>
+          <span class="toefl-section-chip" id="library-question-collection"></span>
+          <h3 id="library-set-title"></h3>
+        </div>
+        <span id="library-question-count"></span>
+      </div>
+      <div class="toefl-progress-track" aria-hidden="true"><span id="library-progress-bar"></span></div>
+      <article class="toefl-question-card">
+        <p class="toefl-instruction" id="library-question-label"></p>
+        <div id="library-question-content"></div>
+        <div class="toefl-feedback" id="library-feedback" hidden role="status"></div>
+        <div class="library-self-rating" id="library-self-rating" hidden>
+          <p>Model answer と比べて自己判定してください。</p>
+          <button class="toefl-button toefl-button--secondary" type="button" data-rating="review">要復習</button>
+          <button class="toefl-button toefl-button--primary" type="button" data-rating="mastered">理解できた</button>
+        </div>
+        <div class="toefl-question-actions">
+          <button class="toefl-button toefl-button--primary" id="library-check" type="button" disabled>Check answer</button>
+          <button class="toefl-button toefl-button--primary" id="library-next" type="button" hidden>Next question</button>
+          <button class="toefl-button toefl-button--ghost" id="library-exit" type="button">Exit set</button>
+        </div>
+      </article>
+    </section>
+
+    <section class="toefl-complete library-complete" id="library-complete" hidden aria-live="polite">
+      <p class="toefl-eyebrow">Archive set complete</p>
+      <h2 id="library-complete-title">Set complete.</h2>
+      <p class="toefl-complete__score" id="library-complete-score"></p>
+      <p id="library-complete-message"></p>
+      <div class="toefl-actions toefl-actions--center">
+        <button class="toefl-button toefl-button--primary" id="library-restart" type="button">Practice again</button>
+        <button class="toefl-button toefl-button--secondary" id="library-review" type="button">Review marked questions</button>
+      </div>
+    </section>
+  </section>
+
   <footer class="toefl-disclaimer">
     <p><strong>About this practice:</strong> All questions and explanations are original. This site is not endorsed or approved by ETS. TOEFL is a registered trademark of ETS.</p>
     <p>Progress is stored only in this browser. <em>localStorage</em>（ブラウザ内保存）を使うため、ログインや個人情報の送信はありません。</p>
   </footer>
 </div>
 
+<script src="{{ "js/toefl-auth.js" | relURL }}" defer></script>
 <script src="{{ "js/toefl.js" | relURL }}" defer></script>
+<script src="{{ "js/english-library.js" | relURL }}" defer></script>
 {{- end }}
