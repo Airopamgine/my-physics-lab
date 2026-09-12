@@ -1,11 +1,12 @@
 {{- define "main" }}
+{{- $feed := .Params.practiceFeed }}
 <link rel="stylesheet" href="{{ "css/toefl.css" | relURL }}">
 
 <section class="toefl-access" id="toefl-access-gate" aria-labelledby="toefl-access-title">
   <div class="toefl-access__card">
     <div class="toefl-access__icon" aria-hidden="true">M<sup>7</sup></div>
     <p class="toefl-eyebrow">Private study entrance</p>
-    <h1 id="toefl-access-title">TOEFL Practice Lab</h1>
+    <h1 id="toefl-access-title">{{ .Title }}</h1>
     <p>Enter the study password to continue.</p>
     <p class="toefl-access__ja">学習ページを開くにはパスワードを入力してください。</p>
     <form class="toefl-access__form" id="toefl-access-form">
@@ -27,10 +28,18 @@
       <a class="toefl-kicker" href="{{ "/" | relURL }}" aria-label="Master's Physics Lab に戻る">
         <span aria-hidden="true">←</span> Master's Physics Lab
       </a>
-      <p class="toefl-eyebrow">Original practice · 2026 format</p>
-      <h1>TOEFL Practice Lab</h1>
+      <p class="toefl-eyebrow">Original practice{{ if $feed }} · 10 questions per update{{ end }}</p>
+      <h1>{{ .Title }}</h1>
       <p class="toefl-lead">Answer in the browser, get instant feedback, and review only what you missed.</p>
       <p class="toefl-lead-ja">ブラウザ上で解答し、その場で正誤・根拠・難語の日本語解説を確認できます。</p>
+      <div class="toefl-actions">
+        {{ if $feed }}
+        <a class="toefl-button toefl-button--secondary" href="{{ "toefl/" | relURL }}">← 通常演習・これまでの全教材</a>
+        {{ else }}
+        <a class="toefl-button toefl-button--primary" href="{{ "toefl/reading/" | relURL }}">4時間更新のReading問題 →</a>
+        {{ end }}
+      </div>
+      {{ if $feed }}<p class="toefl-small-note">4時間ごとに追加予定 · 日本時間 · 穴埋め3問＋選択7問。全問自動採点でAI通信なし。公開時刻は処理状況により遅れることがあります。</p>{{ end }}
     </div>
     <div class="toefl-level" aria-label="Target level">
       <span>Target</span>
@@ -39,6 +48,7 @@
     </div>
   </header>
 
+  {{ if not $feed }}
   <section class="toefl-dashboard" aria-labelledby="dashboard-title">
     <div class="toefl-panel toefl-start-panel">
       <p class="toefl-section-label" id="dashboard-title">Choose a practice set</p>
@@ -107,22 +117,25 @@
     </div>
   </section>
 
+  {{ end }}
   <section
     class="english-library"
     id="english-library"
-    data-bank-url="{{ "data/english-question-bank.json" | relURL }}"
+    data-bank-url="{{ if $feed }}{{ "data/toefl-reading-bank.json" | relURL }}{{ else }}{{ "data/english-question-bank.json" | relURL }}{{ end }}"
+    data-mode="{{ if $feed }}reading-feed{{ else }}archive{{ end }}"
     data-base-path="{{ "/" | relURL }}"
     aria-labelledby="english-library-title">
     <div class="english-library__header">
       <div>
-        <p class="toefl-eyebrow">Complete archive · interactive</p>
-        <h2 id="english-library-title">英語教材ライブラリ</h2>
-        <p>これまで作成した Reading・Vocabulary の全教材を、サイト上で解答できます。</p>
+        <p class="toefl-eyebrow">{{ if $feed }}Reading feed · newest first{{ else }}Complete archive · interactive{{ end }}</p>
+        <h2 id="english-library-title">{{ if $feed }}新着問題とバックナンバー{{ else }}英語教材ライブラリ{{ end }}</h2>
+        <p>{{ if $feed }}単語の穴埋め・日常文・学術文・語彙を10問ずつ。Start set で解答し、Check answer で正誤と解説を確認できます。{{ else }}これまで作成した Reading・Vocabulary の全教材を、サイト上で解答できます。{{ end }}</p>
       </div>
       <div class="english-library__totals" id="library-totals" aria-label="Library totals">
         <strong>Loading…</strong>
       </div>
     </div>
+    {{ if $feed }}<button class="toefl-button toefl-button--secondary" id="library-refresh" type="button">新着を再読み込み</button>{{ end }}
 
     <div class="english-library__progress" id="library-progress" hidden>
       <div><span>Attempted</span><strong id="library-attempted">0</strong></div>
@@ -139,11 +152,15 @@
         <span>Collection</span>
         <select id="library-collection">
           <option value="All">All collections</option>
+          {{ if $feed }}
+          <option value="Reading Practice">Reading Practice</option>
+          {{ else }}
           <option value="Foundation Reading">Foundation Reading</option>
           <option value="Standard Reading">Standard Reading</option>
           <option value="Academic Reading">Academic Reading</option>
           <option value="Advanced Reading">Advanced Reading</option>
           <option value="Vocabulary">Vocabulary</option>
+          {{ end }}
         </select>
       </label>
       <label>
@@ -189,7 +206,7 @@
     </section>
 
     <section class="toefl-complete library-complete" id="library-complete" hidden aria-live="polite">
-      <p class="toefl-eyebrow">Archive set complete</p>
+      <p class="toefl-eyebrow">Practice set complete</p>
       <h2 id="library-complete-title">Set complete.</h2>
       <p class="toefl-complete__score" id="library-complete-score"></p>
       <p id="library-complete-message"></p>
@@ -207,8 +224,9 @@
   </footer>
 </div>
 
-<script src="{{ "js/toefl-auth.js" | relURL }}" defer></script>
-<script src="{{ "js/chatgpt-bridge.js" | relURL }}" defer></script>
-<script src="{{ "js/toefl.js" | relURL }}" defer></script>
-<script src="{{ "js/english-library.js" | relURL }}" defer></script>
+{{/* Content hashes prevent an old cached runner from hiding new features. */}}
+{{ range slice "toefl-auth.js" "chatgpt-bridge.js" "english-library.js" }}
+<script src="{{ printf "js/%s" . | relURL }}?v={{ readFile (printf "static/js/%s" .) | sha256 | truncate 12 "" }}" defer></script>
+{{ end }}
+{{ if not $feed }}<script src="{{ "js/toefl.js" | relURL }}?v={{ readFile "static/js/toefl.js" | sha256 | truncate 12 "" }}" defer></script>{{ end }}
 {{- end }}
