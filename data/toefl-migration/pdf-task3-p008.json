@@ -1,0 +1,69 @@
+{
+  "id": "pdf-task3-p008",
+  "title": "文章全体の主題を選ぶ",
+  "task": 3,
+  "date": "2026-09-13T06:45:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 3 · PDF 8ページ／冊子208ページ · 問01–02",
+  "verificationNote": "本文・文法から解答を確認済み。出版社の解答ページは未収録のため、公式解答表との照合は未完了です。",
+  "passages": {
+    "food": "Food deserts are areas where people have poor access to fresh, affordable food. They are often found in minority communities. Unfair housing policies and home loan lending practices historically pushed low-income groups into districts that lacked the investment needed to support retail businesses like grocery stores. Instead of building in these areas, developers followed the available capital and opened supermarkets in the suburbs.\n\nMany residents of inner-city neighborhoods do not own cars, and public transit is slow and requires multiple transfers, making grocery trips to the suburbs overly time-consuming. As a result, people turn to fast-food chains and convenience stores clustered along busy roads, offering convenient but unhealthy food. This leads to diets with fewer fresh items and higher rates of diet-related disease.",
+    "cargo": "Cargo cults are religious movements that originated in Melanesia amid the disruption of traditional societies. These communities experienced colonization, which stripped them of traditional authority and introduced vastly different material goods. Then, during World War II, when the islands became strategic military bases, these communities witnessed foreign military personnel arriving with vast quantities of food, weapons, and other ‘cargo.’ The people interpreted what they saw through the framework of local beliefs about the importance of ritual, and sought ways to share in the material abundance by imitating the behavior of the outsiders.\n\nThe most cited example is the John Frum movement on the island of Tanna in Vanuatu. Followers of the movement hold ceremonies, raise flags, and sometimes build symbolic airstrips or wooden radios to welcome expected deliveries. Today, while the original belief in an imminent, literal delivery of massive cargo has waned, the performance of the associated rituals persists, serving as a powerful symbol of enduring communal identity."
+  },
+  "questions": [
+    {
+      "passageId": "food",
+      "prompt": "What is the passage mainly about?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The role of fast-food chains in shaping diets"
+        },
+        {
+          "label": "B",
+          "text": "Policies for improving public transportation in cities"
+        },
+        {
+          "label": "C",
+          "text": "The impact of housing policies on access to fresh food"
+        },
+        {
+          "label": "D",
+          "text": "Community investment projects and neighborhood cohesion"
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。本文は住宅政策と投資の偏りから、店舗へのアクセスと食生活への影響までを説明しています。A：ファストフードは結果の一部です。B：交通改善政策を提案する文章ではありません。D：共同体の結束を育てる投資計画は論じていません。これは本文の主張を読む問題です。",
+      "sourceRefs": [
+        "pdf:task3:p008:q01"
+      ]
+    },
+    {
+      "passageId": "cargo",
+      "prompt": "What is the passage mainly about?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Logistical systems that supplied armed forces during World War II"
+        },
+        {
+          "label": "B",
+          "text": "Ritual movements born as responses to disruption and inequality"
+        },
+        {
+          "label": "C",
+          "text": "Religious conversions in Melanesia driven by missionaries"
+        },
+        {
+          "label": "D",
+          "text": "Traditional leadership structures and social order in island societies"
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。社会の変化と物資の格差を背景とする儀礼運動の成立、そして儀礼の持続が主題です。A：軍の物流システムの仕組みは説明されていません。C：宣教師による改宗の説明はありません。D：伝統的権威の喪失は背景であり、主題全体を覆いません。",
+      "sourceRefs": [
+        "pdf:task3:p008:q02"
+      ]
+    }
+  ]
+}

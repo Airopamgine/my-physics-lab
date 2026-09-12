@@ -1,3 +1,6 @@
 static/data/english-question-bank.json
 static/data/toefl-reading-bank.json
+static/data/toefl-task-bank.json
 scripts/__pycache__/
+# Private OCR working cache; publish only reviewed exercises.
+scripts/reading-source-text/

@@ -1,6 +1,8 @@
 {{- define "main" }}
 {{- $feed := .Params.practiceFeed }}
-<link rel="stylesheet" href="{{ "css/toefl.css" | relURL }}">
+{{- $legacy := .Params.legacyArchive }}
+{{- $tasks := not $legacy }}
+<link rel="stylesheet" href="{{ "css/toefl.css" | relURL }}?v={{ readFile "static/css/toefl.css" | sha256 | truncate 12 "" }}">
 
 <section class="toefl-access" id="toefl-access-gate" aria-labelledby="toefl-access-title">
   <div class="toefl-access__card">
@@ -28,18 +30,19 @@
       <a class="toefl-kicker" href="{{ "/" | relURL }}" aria-label="Master's Physics Lab に戻る">
         <span aria-hidden="true">←</span> Master's Physics Lab
       </a>
-      <p class="toefl-eyebrow">Original practice{{ if $feed }} · 10 questions per update{{ end }}</p>
+      <p class="toefl-eyebrow">{{ if $legacy }}English archive{{ else }}Reading · three task types{{ end }}</p>
       <h1>{{ .Title }}</h1>
       <p class="toefl-lead">Answer in the browser, get instant feedback, and review only what you missed.</p>
       <p class="toefl-lead-ja">ブラウザ上で解答し、その場で正誤・根拠・難語の日本語解説を確認できます。</p>
       <div class="toefl-actions">
-        {{ if $feed }}
-        <a class="toefl-button toefl-button--secondary" href="{{ "toefl/" | relURL }}">← 通常演習・これまでの全教材</a>
+        {{ if or $feed $legacy }}
+        <a class="toefl-button toefl-button--secondary" href="{{ "toefl/" | relURL }}">← 通常のTOEFLページ</a>
         {{ else }}
         <a class="toefl-button toefl-button--primary" href="{{ "toefl/reading/" | relURL }}">4時間更新のReading問題 →</a>
         {{ end }}
+        {{ if $tasks }}<a class="toefl-button toefl-button--secondary" href="{{ "toefl/archive/" | relURL }}">元の英語教材（全問移行中）</a>{{ end }}
       </div>
-      {{ if $feed }}<p class="toefl-small-note">4時間ごとに追加予定 · 日本時間 · 穴埋め3問＋選択7問。全問自動採点でAI通信なし。公開時刻は処理状況により遅れることがあります。</p>{{ end }}
+      {{ if $tasks }}<p class="toefl-small-note">既存教材とPDF全問を順次移行。4時間ごとに確認・追加し、公開時刻は処理状況により前後します。掲載済み問題はブラウザ内で自動採点します。</p>{{ end }}
     </div>
     <div class="toefl-level" aria-label="Target level">
       <span>Target</span>
@@ -48,10 +51,32 @@
     </div>
   </header>
 
-  {{ if not $feed }}
+  {{ if $tasks }}
+  <section class="reading-tasks" aria-labelledby="reading-tasks-title">
+    <p class="toefl-eyebrow">Choose a Reading task</p>
+    <h2 id="reading-tasks-title">Reading の3つのTask</h2>
+    <div class="reading-task-grid" role="group" aria-label="Reading task">
+      <button class="reading-task-card" type="button" data-reading-task="Task 1" aria-pressed="false" disabled>
+        <span class="toefl-section-chip">Task 1</span><strong>Complete the Words</strong><span>単語の欠けた文字を入力する</span><small id="reading-task-1-count">読み込み中…</small>
+      </button>
+      <button class="reading-task-card" type="button" data-reading-task="Task 2" aria-pressed="false" disabled>
+        <span class="toefl-section-chip">Task 2</span><strong>Read in Daily Life</strong><span>メール・掲示・日常文を読む</span><small id="reading-task-2-count">読み込み中…</small>
+      </button>
+      <button class="reading-task-card" type="button" data-reading-task="Task 3" aria-pressed="false" disabled>
+        <span class="toefl-section-chip">Task 3</span><strong>Read an Academic Passage</strong><span>学術的な文章と語彙を読む</span><small id="reading-task-3-count">読み込み中…</small>
+      </button>
+    </div>
+  </section>
+  <details class="reading-migration" id="reading-migration" open>
+    <summary>全問移行の進捗</summary>
+    <div id="reading-migration-progress" aria-live="polite">照合済みの進捗を読み込み中…</div>
+    <p class="toefl-small-note" id="reading-migration-note">元の教材は移行中も解答できます。掲載する解答は本文・文法に照らして確認しています。</p>
+  </details>
+  {{ end }}
+  {{ if and (not $feed) (not $legacy) }}
   <section class="toefl-dashboard" aria-labelledby="dashboard-title">
     <div class="toefl-panel toefl-start-panel">
-      <p class="toefl-section-label" id="dashboard-title">Choose a practice set</p>
+      <p class="toefl-section-label" id="dashboard-title">Quick practice · Reading / Listening / Writing</p>
       <div class="toefl-filters" id="section-filters" role="group" aria-label="Practice section">
         <button class="toefl-filter is-active" type="button" data-section="All">All</button>
         <button class="toefl-filter" type="button" data-section="Reading">Reading</button>
@@ -121,21 +146,21 @@
   <section
     class="english-library"
     id="english-library"
-    data-bank-url="{{ if $feed }}{{ "data/toefl-reading-bank.json" | relURL }}{{ else }}{{ "data/english-question-bank.json" | relURL }}{{ end }}"
-    data-mode="{{ if $feed }}reading-feed{{ else }}archive{{ end }}"
+    data-bank-url="{{ if $tasks }}{{ "data/toefl-task-bank.json" | relURL }}{{ else }}{{ "data/english-question-bank.json" | relURL }}{{ end }}"
+    data-mode="{{ if $tasks }}tasks{{ else }}archive{{ end }}"
     data-base-path="{{ "/" | relURL }}"
     aria-labelledby="english-library-title">
     <div class="english-library__header">
       <div>
-        <p class="toefl-eyebrow">{{ if $feed }}Reading feed · newest first{{ else }}Complete archive · interactive{{ end }}</p>
-        <h2 id="english-library-title">{{ if $feed }}新着問題とバックナンバー{{ else }}英語教材ライブラリ{{ end }}</h2>
-        <p>{{ if $feed }}単語の穴埋め・日常文・学術文・語彙を10問ずつ。Start set で解答し、Check answer で正誤と解説を確認できます。{{ else }}これまで作成した Reading・Vocabulary の全教材を、サイト上で解答できます。{{ end }}</p>
+        <p class="toefl-eyebrow">{{ if $tasks }}Reading practice · newest first{{ else }}Original archive · interactive{{ end }}</p>
+        <h2 id="english-library-title">{{ if $tasks }}Task別の問題一覧{{ else }}移行前の英語教材ライブラリ{{ end }}</h2>
+        <p>{{ if $tasks }}Taskを選び、Start set で解答します。Check answer で正誤・解説を確認できます。{{ else }}翻訳・記述を含む従来の全教材です。TOEFL形式へ移行した問題は通常ページにも掲載します。{{ end }}</p>
       </div>
       <div class="english-library__totals" id="library-totals" aria-label="Library totals">
         <strong>Loading…</strong>
       </div>
     </div>
-    {{ if $feed }}<button class="toefl-button toefl-button--secondary" id="library-refresh" type="button">新着を再読み込み</button>{{ end }}
+    {{ if $tasks }}<button class="toefl-button toefl-button--secondary" id="library-refresh" type="button">新着を再読み込み</button>{{ end }}
 
     <div class="english-library__progress" id="library-progress" hidden>
       <div><span>Attempted</span><strong id="library-attempted">0</strong></div>
@@ -152,8 +177,10 @@
         <span>Collection</span>
         <select id="library-collection">
           <option value="All">All collections</option>
-          {{ if $feed }}
-          <option value="Reading Practice">Reading Practice</option>
+          {{ if $tasks }}
+          <option value="Task 1">Task 1 · Complete the Words</option>
+          <option value="Task 2">Task 2 · Read in Daily Life</option>
+          <option value="Task 3">Task 3 · Read an Academic Passage</option>
           {{ else }}
           <option value="Foundation Reading">Foundation Reading</option>
           <option value="Standard Reading">Standard Reading</option>
@@ -218,7 +245,7 @@
   </section>
 
   <footer class="toefl-disclaimer">
-    <p><strong>About this practice:</strong> All questions and explanations are original. This site is not endorsed or approved by ETS. TOEFL is a registered trademark of ETS.</p>
+    <p><strong>About this practice:</strong> 独自演習と、提供された学習教材から移行した問題を含みます。This site is not endorsed or approved by ETS. TOEFL is a registered trademark of ETS. 練習結果は公式スコアではありません。</p>
     <p>Progress is stored only in this browser. <em>localStorage</em>（ブラウザ内保存）を使い、学習履歴の保存ではログインや外部送信を行いません。</p>
     <p><strong>ChatGPT tutor bridge:</strong> 添削ボタンは問題と解答をクリップボードへコピーし、ChatGPTを開きます。内容は自動送信されません。貼り付け・送信前に内容を確認し、個人情報は入力しないでください。</p>
   </footer>
@@ -228,5 +255,5 @@
 {{ range slice "toefl-auth.js" "chatgpt-bridge.js" "english-library.js" }}
 <script src="{{ printf "js/%s" . | relURL }}?v={{ readFile (printf "static/js/%s" .) | sha256 | truncate 12 "" }}" defer></script>
 {{ end }}
-{{ if not $feed }}<script src="{{ "js/toefl.js" | relURL }}?v={{ readFile "static/js/toefl.js" | sha256 | truncate 12 "" }}" defer></script>{{ end }}
+{{ if and (not $feed) (not $legacy) }}<script src="{{ "js/toefl.js" | relURL }}?v={{ readFile "static/js/toefl.js" | sha256 | truncate 12 "" }}" defer></script>{{ end }}
 {{- end }}
