@@ -202,11 +202,13 @@
 
   <footer class="toefl-disclaimer">
     <p><strong>About this practice:</strong> All questions and explanations are original. This site is not endorsed or approved by ETS. TOEFL is a registered trademark of ETS.</p>
-    <p>Progress is stored only in this browser. <em>localStorage</em>（ブラウザ内保存）を使うため、ログインや個人情報の送信はありません。</p>
+    <p>Progress is stored only in this browser. <em>localStorage</em>（ブラウザ内保存）を使い、学習履歴の保存ではログインや外部送信を行いません。</p>
+    <p><strong>ChatGPT tutor bridge:</strong> 添削ボタンは問題と解答をクリップボードへコピーし、ChatGPTを開きます。内容は自動送信されません。貼り付け・送信前に内容を確認し、個人情報は入力しないでください。</p>
   </footer>
 </div>
 
 <script src="{{ "js/toefl-auth.js" | relURL }}" defer></script>
+<script src="{{ "js/chatgpt-bridge.js" | relURL }}" defer></script>
 <script src="{{ "js/toefl.js" | relURL }}" defer></script>
 <script src="{{ "js/english-library.js" | relURL }}" defer></script>
 {{- end }}
