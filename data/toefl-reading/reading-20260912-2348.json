@@ -1,0 +1,80 @@
+{
+  "id": "reading-20260912-2348",
+  "title": "研究室の予約と、よい比較の作り方",
+  "date": "2026-09-12T23:48:00+09:00",
+  "level": "B1–B2",
+  "passages": {
+    "words": "A student team is preparing a display for a campus science fair. Before collecting any data, the students agree on a common procedure. They rec___ each measurement in a shared notebook and compa__ the results at the end of the day. When two readings differ, they repeat the measurement instead of choosing the number they prefer. This habit helps them main____ a clear record of what actually happened. Their teacher asks them to explain both their results and the steps they followed.",
+    "daily": "To: Members of the Student Research Club\nSubject: Saturday workshop — room change\n\nOur workshop on designing a simple experiment will still begin at 10 a.m. this Saturday. However, maintenance in the science building means that we will meet in Library Room 204 instead of Laboratory 3. Please bring your laptop; we will use a simulation, so you do not need any laboratory equipment. If you have already registered, your place is reserved and no further action is needed. New participants should email the club by Thursday evening. The workshop will finish at noon, as originally planned.\n\nMina\nWorkshop coordinator",
+    "academic": "Designing a Fair Comparison\n\nImagine that a student wants to find out whether background music helps people remember a list of words. One group studies a list in a quiet room, while another studies with music playing. If the second group remembers more words, the student might conclude that music improved memory. That conclusion would be difficult to defend, however, if the second group also had twice as much time to study.\n\nStudy time would then be a competing explanation for the difference. A better comparison would give both groups the same list and the same amount of study time. Assigning participants to the groups at random could also help reduce systematic differences between the groups, although it would not guarantee that the groups were identical.\n\nCareful design does not require researchers to remove every possible difference. Instead, it helps them identify important alternative explanations and limit their influence. Even then, a result from one small study should be treated cautiously. Repeating the comparison with new participants can show whether a similar pattern appears again."
+  },
+  "questions": [
+    {
+      "category": "words", "passageId": "words",
+      "prompt": "Complete rec___ in the passage. Enter the three missing letters.",
+      "prefix": "rec", "word": "record",
+      "answer": "正解：ord → record（記録する）。They が主語で、each measurement が目的語なので動詞の原形を使います。in a shared notebook が『記録する』という意味の手掛かりです。record each measurement = 測定値を一つずつ記録する。"
+    },
+    {
+      "category": "words", "passageId": "words",
+      "prompt": "Complete compa__ in the passage. Enter the two missing letters.",
+      "prefix": "compa", "word": "compare",
+      "answer": "正解：re → compare（比較する）。and は record と compare を並べています。次の文の two readings differ（2つの測定値が異なる）が、結果を比較するという読みを支えます。compare A with B = AとBを比較する。欠けた2文字だけなら re、単語全体なら compare と入力します。"
+    },
+    {
+      "category": "words", "passageId": "words",
+      "prompt": "Complete main____ in the passage. Enter the four missing letters.",
+      "prefix": "main", "word": "maintain",
+      "answer": "正解：tain → maintain（維持する・保つ）。maintain a clear record は、記録を明確な状態に保つこと。helps them の後には動詞の原形が置けます。record は直前では動詞、ここでは a が付く名詞です。品詞も一緒に確認しましょう。"
+    },
+    {
+      "category": "daily", "passageId": "daily",
+      "prompt": "What is the main purpose of the email?",
+      "options": [{"label":"A","text":"To announce that the workshop has been canceled"},{"label":"B","text":"To explain a change of location and give attendance instructions"},{"label":"C","text":"To ask registered members to pay an additional fee"},{"label":"D","text":"To recruit a new workshop coordinator"}],
+      "correct": "B",
+      "answer": "正解：B。件名 room change と、本文の Library Room 204 instead of Laboratory 3 が中心です。持ち物・参加登録の案内も続くのでBが全体をまとめています。A：still begin なので中止ではありません。C：追加料金の記載はありません。D：Mina は連絡担当者で、担当者を募集してはいません。"
+    },
+    {
+      "category": "daily", "passageId": "daily",
+      "prompt": "What should someone who has already registered do about registration?",
+      "options": [{"label":"A","text":"Register again for Library Room 204"},{"label":"B","text":"Email the coordinator by Thursday evening"},{"label":"C","text":"Nothing further; their place is already reserved"},{"label":"D","text":"Collect a ticket from Laboratory 3"}],
+      "correct": "C",
+      "answer": "正解：C。your place is reserved and no further action is needed が根拠です。A：再登録は不要。B：木曜までのメールは New participants（新規参加者）への条件です。D：チケットの記載はありません。条件の対象を混同しないことが大切です。"
+    },
+    {
+      "category": "daily", "passageId": "daily",
+      "prompt": "Which part of the workshop has changed?",
+      "options": [{"label":"A","text":"Its starting time"},{"label":"B","text":"Its finishing time"},{"label":"C","text":"The day on which it will take place"},{"label":"D","text":"The room in which it will be held"}],
+      "correct": "D",
+      "answer": "正解：D。変更は Laboratory 3 から Library Room 204 への移動です。A：still begin at 10 a.m. なので開始時刻は同じ。B：finish at noon, as originally planned なので終了時刻も同じ。C：this Saturday に開催する点は変わっていません。however / instead of が変更箇所の目印です。"
+    },
+    {
+      "category": "academic", "passageId": "academic",
+      "prompt": "Why does the author mention that one group had twice as much time to study?",
+      "options": [{"label":"A","text":"To illustrate another factor that could explain the results"},{"label":"B","text":"To prove that music always improves memory"},{"label":"C","text":"To recommend giving every participant a different word list"},{"label":"D","text":"To show that study time cannot influence the results"}],
+      "correct": "A",
+      "answer": "正解：A。第2段落冒頭の Study time would then be a competing explanation が明示的な根拠です。B：音楽の効果を断定できない例なので逆です。C：本文は the same list を勧めています。D：学習時間こそ別の説明要因になり得るとしています。具体例が『何を説明するためか』を読む問題です。"
+    },
+    {
+      "category": "academic", "passageId": "academic",
+      "prompt": "According to the passage, what can random assignment help do?",
+      "options": [{"label":"A","text":"Guarantee that every participant has identical abilities"},{"label":"B","text":"Reduce systematic differences between the groups"},{"label":"C","text":"Eliminate the need to give both groups equal study time"},{"label":"D","text":"Prove the result before the study begins"}],
+      "correct": "B",
+      "answer": "正解：B。reduce systematic differences の言い換えではなく、そのまま根拠を確認できます。A：would not guarantee と明確に否定。C：同じ学習時間にする工夫も必要で、無作為割付が代わりになるとは述べていません。D：実験前に結果を証明するものではありません。could help と guarantee の強さの違いに注目してください。"
+    },
+    {
+      "category": "academic", "passageId": "academic",
+      "prompt": "What can be inferred about repeating the comparison with new participants?",
+      "options": [{"label":"A","text":"It makes the original study unnecessary"},{"label":"B","text":"It guarantees that the same result will occur"},{"label":"C","text":"It helps check whether the observed pattern appears beyond the first group"},{"label":"D","text":"It allows researchers to ignore alternative explanations"}],
+      "correct": "C",
+      "answer": "正解：C。最終文の whether a similar pattern appears again から、新しい参加者でも傾向が見られるか確認できると推論できます。A：元の研究が不要になるとはありません。B：whether は『そうなるかどうか』で、結果を保証しません。D：代替説明を検討する姿勢は継続して必要です。推論でも本文以上の強い結論を出さないようにします。"
+    },
+    {
+      "category": "vocabulary", "passageId": "academic",
+      "prompt": "The word 'cautiously' in the final paragraph is closest in meaning to:",
+      "options": [{"label":"A","text":"without any interest"},{"label":"B","text":"with complete certainty"},{"label":"C","text":"as quickly as possible"},{"label":"D","text":"with care about possible limitations"}],
+      "correct": "D",
+      "answer": "正解：D。cautiously は『慎重に』。one small study の結果だけでは判断に限界があるので、注意して扱うという文脈です。A：無関心という意味ではありません。B：完全な確信とは反対です。C：速さを表しません。caution（名詞：注意）→ cautious（形容詞：慎重な）→ cautiously（副詞：慎重に）。"
+    }
+  ]
+}
