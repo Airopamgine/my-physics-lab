@@ -82,6 +82,25 @@ class TaskCatalogTests(unittest.TestCase):
         self.assertTrue(all(q['passage'] == passage for q in converted['questions']))
         self.assertEqual([q['correct'] for q in converted['questions']], list('BACDBACDB'))
 
+    def test_pdf_task1_page12_all_fifteen_blanks(self):
+        bank = self.build()
+        item = next(s for s in bank['sets'] if s['id'] == 'pdf-task1-p012')
+        self.assertEqual(item['collection'], 'Task 1')
+        expected = [
+            ('lenge', 'challenge'), ('ario', 'scenario'), ('ther', 'whether'),
+            ('ike', 'Unlike'), ('ich', 'which'), ('ssion', 'succession'),
+            ('gical', 'geological'), ('ay', 'away'), ('mous', 'enormous'),
+            ('used', 'focused'), ('ses', 'gases'), ('se', 'pose'),
+            ('rship', 'leadership'), ('ke', 'make'), ('sk', 'risk')]
+        self.assertEqual([q['acceptedAnswers'] for q in item['questions']],
+                         [list(pair) for pair in expected])
+        refs = [[f'pdf:task1:p012:q{ex}-gap{gap}']
+                for ex in range(11, 16) for gap in range(1, 4)]
+        self.assertEqual([q['sourceRefs'] for q in item['questions']], refs)
+        self.assertEqual(len({q['passage'] for q in item['questions']}), 5)
+        self.assertTrue(all(q['correct'] is None and q['options'] == []
+                            for q in item['questions']))
+
     def test_duplicate_source_reference_rejected(self):
         self.change('data/toefl-migration/legacy-balanced-diet.json',lambda d:d['questions'][1].update(sourceRefs=d['questions'][0]['sourceRefs']))
         with self.assertRaises(ValueError): self.build()
