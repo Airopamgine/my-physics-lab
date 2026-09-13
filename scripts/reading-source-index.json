@@ -104,6 +104,18 @@
           "pdf:task1:p010:q04-gap1",
           "pdf:task1:p010:q05-gap1"
         ],
+        "11": [
+          "pdf:task1:p011:q06-gap1",
+          "pdf:task1:p011:q06-gap2",
+          "pdf:task1:p011:q07-gap1",
+          "pdf:task1:p011:q07-gap2",
+          "pdf:task1:p011:q08-gap1",
+          "pdf:task1:p011:q08-gap2",
+          "pdf:task1:p011:q09-gap1",
+          "pdf:task1:p011:q09-gap2",
+          "pdf:task1:p011:q10-gap1",
+          "pdf:task1:p011:q10-gap2"
+        ],
         "12": [
           "pdf:task1:p012:q11-gap1",
           "pdf:task1:p012:q11-gap2",
@@ -120,18 +132,6 @@
           "pdf:task1:p012:q15-gap1",
           "pdf:task1:p012:q15-gap2",
           "pdf:task1:p012:q15-gap3"
-        ],
-        "11": [
-          "pdf:task1:p011:q06-gap1",
-          "pdf:task1:p011:q06-gap2",
-          "pdf:task1:p011:q07-gap1",
-          "pdf:task1:p011:q07-gap2",
-          "pdf:task1:p011:q08-gap1",
-          "pdf:task1:p011:q08-gap2",
-          "pdf:task1:p011:q09-gap1",
-          "pdf:task1:p011:q09-gap2",
-          "pdf:task1:p011:q10-gap1",
-          "pdf:task1:p011:q10-gap2"
         ]
       }
     },
@@ -142,7 +142,11 @@
       "sha256": "820cb5ab6606547b2dea2db3048cea8927a409ce529b9359c3199d23209e510d",
       "answerKeyAvailable": false,
       "reviewedPages": [
-        8
+        8,
+        9,
+        10,
+        11,
+        12
       ],
       "packets": [
         {
@@ -215,8 +219,31 @@
         "8": [
           "pdf:task2:p008:q01",
           "pdf:task2:p008:q02"
+        ],
+        "9": [
+          "pdf:task2:p009:q03",
+          "pdf:task2:p009:q04"
+        ],
+        "10": [
+          "pdf:task2:p010:q01",
+          "pdf:task2:p010:q02"
+        ],
+        "11": [
+          "pdf:task2:p011:q03",
+          "pdf:task2:p011:q04"
+        ],
+        "12": [
+          "pdf:task2:p012:q05",
+          "pdf:task2:p012:q06"
         ]
-      }
+      },
+      "blockedItems": [
+        {
+          "sourceRef": "pdf:task2:p013:q09",
+          "status": "pending-verification",
+          "reason": "The passage says bike-specific apps can help avoid busy roads; it does not establish that the road information is real-time (option C). Other choices also lack clear support. Retain the original exercise for later answer-key/text clarification; do not mark PDF page 13 complete."
+        }
+      ]
     },
     {
       "id": "task3",
@@ -345,9 +372,15 @@
   ],
   "lastSource": {
     "type": "pdf",
-    "id": "task1",
-    "pages": [12],
-    "convertedAt": "2026-09-13T13:40:00+09:00"
+    "id": "task2",
+    "pages": [
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "convertedAt": "2026-09-13T18:20:00+09:00"
   },
   "note": "Packet paths describe a private working cache, not published files. Exact question totals require review. Answer pages referenced by the books were not supplied."
 }
