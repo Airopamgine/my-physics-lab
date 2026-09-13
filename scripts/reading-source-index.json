@@ -371,16 +371,13 @@
     }
   ],
   "lastSource": {
-    "type": "pdf",
-    "id": "task2",
-    "pages": [
-      9,
-      10,
-      11,
-      12,
-      13
+    "type": "legacy",
+    "id": "english-reading-academic-deep-sea-adaptation-tradeoffs-02",
+    "batchSourceIds": [
+      "english-reading-academic-cubism-classification-evidence-05",
+      "english-reading-academic-deep-sea-adaptation-tradeoffs-02"
     ],
-    "convertedAt": "2026-09-13T18:20:00+09:00"
+    "convertedAt": "2026-09-14T00:00:00+09:00"
   },
   "note": "Packet paths describe a private working cache, not published files. Exact question totals require review. Answer pages referenced by the books were not supplied."
 }
