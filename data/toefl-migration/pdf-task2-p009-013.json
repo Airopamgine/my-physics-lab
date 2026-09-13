@@ -1,0 +1,289 @@
+{
+  "id": "pdf-task2-p009-013",
+  "title": "Read in Daily Life · 予約・案内・街巡り",
+  "task": 2,
+  "date": "2026-09-13T18:20:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 2 · PDF 9–13ページ／冊子85–89ページ · 10問（冊子89ページの問09は保留）",
+  "verificationNote": "Editorial answers（編集・確認した解答）。スキャン原本の本文・選択肢を照合し、本文根拠から正答を作成しました。出版社の解答表とは未照合。冊子89ページの問09は根拠不足のため採点対象に含めていません。",
+  "passages": {
+    "garden": "Dear Valued Customers,\n\nOur rooftop garden will be closed for seasonal maintenance from May 25 to June 1. We will be working daily to perform safety checks and plant new flowers to ensure the garden remains a safe and pleasant space for everyone. We look forward to welcoming you back on June 2!",
+    "tennis": "Subject: Request to Reschedule Tennis Lesson\n\nDear Mr. Lin,\n\nI am writing to reschedule my tennis lesson, which is currently booked for this Wednesday, May 6, at 5:00 P.M. Unfortunately, a work commitment has come up, so I will not be able to make it at the scheduled time.\nI would like to know if it would be possible to move my lesson to this Friday, May 8, at 10:00 A.M. If that time is not available, I am also free any time after 4:00 P.M. on Friday. I would also appreciate it if you could suggest an alternative instructor in case you are not available on Friday.\nThank you for your understanding.\n\nKind regards,\nLaura Mondale",
+    "hotel": "To: Eva Parker <e.parker@pmail.com>\nFrom: Brett Lewis <customerservice@cvhotel.com>\nDate: May 27\nSubject: Re: Request\n\nDear Ms. Parker,\n\nWe were able to make the change you requested. You now have a suite instead of a deluxe room during your upcoming stay from June 1 to 8. The cost is $45 more per night than what you originally paid. Please take care of the difference at check-in.\n\nSincerely,\nBrett Lewis",
+    "windows": "Dear residents,\n\nWindow cleaning will take place on the exterior of Building B from 10:00 A.M. to 1:00 P.M. on April 6. Please keep windows closed during this time for safety and a thorough cleaning. Also, please move any personal items, such as plants or decorations, from the windowsills.",
+    "concert": "BELLE AND THE BEASTS\nLive in concert at\nRed Rock Arena\n\nEnjoy the punk band playing hits from its new album\n\nDate:\nSaturday, August 11\nDoors open at 6:00 P.M.\nPerformance begins at 7:00 P.M.\n\nTickets:\n$45 at the door\n$35 in advance online\nwww.redrockarena.com/tickets",
+    "cycling": "Adam Lancaster\n\nI love exploring cities on a bicycle. There’s something special about feeling the wind on my face while discovering hidden spots. Last summer, I spent a week cycling around Amsterdam, and it was amazing. I found small cafes, beautiful parks, and quiet canals that I never would have noticed otherwise.\n\nIf my experience has inspired you, here are some practical tips to consider before you plan your own city bike tour. You’ll need to figure out how to make your ride smooth and enjoyable. I’d recommend renting a bike locally rather than bringing your own, as many rental shops offer daily or weekly options. Using bike-specific apps can help you avoid busy roads and make the most of your time. You should also keep safety in mind. Make sure to follow local traffic rules and bike lane signs, and wear a helmet and reflective gear."
+  },
+  "questions": [
+    {
+      "passageId": "garden",
+      "prompt": "What is the main purpose of the notice?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To inform visitors of the temporary facility closure"
+        },
+        {
+          "label": "B",
+          "text": "To invite visitors to the renewed rooftop garden"
+        },
+        {
+          "label": "C",
+          "text": "To announce a schedule to staff members"
+        },
+        {
+          "label": "D",
+          "text": "To advertise a re-opening event"
+        }
+      ],
+      "correct": "A",
+      "answer": "The notice leads with closure dates and maintenance work. 正解：A。temporary closure（臨時閉鎖）を利用客に知らせるのが主目的です。Bは最後の歓迎文だけを重視し過ぎ。Cは宛先が職員ではなくcustomers、Dの再開イベントは書かれていません。maintenanceは「保守・整備」です。",
+      "sourceRefs": [
+        "pdf:task2:p009:q03"
+      ]
+    },
+    {
+      "passageId": "tennis",
+      "prompt": "Why is Ms. Mondale contacting Mr. Lin?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To cancel her membership"
+        },
+        {
+          "label": "B",
+          "text": "To change her lesson date"
+        },
+        {
+          "label": "C",
+          "text": "To sign up for a tennis lesson"
+        },
+        {
+          "label": "D",
+          "text": "To book a tennis court"
+        }
+      ],
+      "correct": "B",
+      "answer": "She already has a booking and asks to move it from Wednesday to Friday. 正解：B。reschedule（予定を変更する）が件名と冒頭にあります。Aは会員資格の解約、Cは新規申込み、Dはコート予約であり、既存レッスンの日時変更という目的と異なります。",
+      "sourceRefs": [
+        "pdf:task2:p009:q04"
+      ]
+    },
+    {
+      "passageId": "hotel",
+      "prompt": "What is the main purpose of the email?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To explain a seasonal promotion"
+        },
+        {
+          "label": "B",
+          "text": "To determine a room preference"
+        },
+        {
+          "label": "C",
+          "text": "To confirm a reservation change"
+        },
+        {
+          "label": "D",
+          "text": "To address a customer complaint"
+        }
+      ],
+      "correct": "C",
+      "answer": "The change has already been made: a suite replaces the deluxe room. 正解：C。confirm（確認する・確定した内容を知らせる）という段階です。Aの販売促進、Dの苦情への対応は根拠なし。Bの好みを尋ねる段階はすでに過ぎ、変更結果を伝えています。",
+      "sourceRefs": [
+        "pdf:task2:p010:q01"
+      ]
+    },
+    {
+      "passageId": "hotel",
+      "prompt": "What does Mr. Lewis ask Ms. Parker to do?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Call a front desk clerk"
+        },
+        {
+          "label": "B",
+          "text": "Provide a copy of a receipt"
+        },
+        {
+          "label": "C",
+          "text": "Specify the length of stay"
+        },
+        {
+          "label": "D",
+          "text": "Pay an outstanding balance"
+        }
+      ],
+      "correct": "D",
+      "answer": "'Take care of the difference at check-in' asks her to pay the extra cost. 正解：D。outstanding balance（未払いの残額）は、ここでは1泊45ドルの追加料金です。Aの電話、Bの領収書、Cの泊数の申告は要求されていません。滞在日は本文に記載済みです。",
+      "sourceRefs": [
+        "pdf:task2:p010:q02"
+      ]
+    },
+    {
+      "passageId": "windows",
+      "prompt": "What is the main purpose of the notice?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To ask residents for help with a cleaning project"
+        },
+        {
+          "label": "B",
+          "text": "To inform residents about a temporary change in building policy"
+        },
+        {
+          "label": "C",
+          "text": "To announce scheduled window cleaning to residents"
+        },
+        {
+          "label": "D",
+          "text": "To provide details on new installations within the facility"
+        }
+      ],
+      "correct": "C",
+      "answer": "The first sentence announces the time and place of window cleaning. 正解：C。住民に予定された清掃を知らせています。Aは住民自身に清掃作業を頼む意味となり過剰。Bは建物の方針変更ではなく作業中の注意、Dの新設備も本文にありません。exteriorは「外側・外面」です。",
+      "sourceRefs": [
+        "pdf:task2:p011:q03"
+      ]
+    },
+    {
+      "passageId": "windows",
+      "prompt": "Why does the notice mention personal items?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To provide instruction on what to remove from the windowsills"
+        },
+        {
+          "label": "B",
+          "text": "To inform residents that those items are not allowed in the building"
+        },
+        {
+          "label": "C",
+          "text": "To explain that the crew is not responsible for damages"
+        },
+        {
+          "label": "D",
+          "text": "To specify the designated areas for temporarily storing possessions"
+        }
+      ],
+      "correct": "A",
+      "answer": "Plants and decorations are examples of items to move from the windowsills. 正解：A。windowsill（窓台・窓の下の張り出し）から何を移すかを具体化しています。Bの所持禁止、Cの免責、Dの保管場所指定は書かれていません。",
+      "sourceRefs": [
+        "pdf:task2:p011:q04"
+      ]
+    },
+    {
+      "passageId": "concert",
+      "prompt": "What is the main purpose of the poster?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To promote a musical performance"
+        },
+        {
+          "label": "B",
+          "text": "To announce a new album"
+        },
+        {
+          "label": "C",
+          "text": "To advertise a local band"
+        },
+        {
+          "label": "D",
+          "text": "To provide some contact information"
+        }
+      ],
+      "correct": "A",
+      "answer": "The venue, performance time, and ticket prices promote attendance at a concert. 正解：A。promote（宣伝する）の対象は公演です。Bのアルバムは演奏曲の説明に登場するだけ。Cのlocal（地元の）は根拠がなく、Dの連絡先提供もポスター全体の目的ではありません。",
+      "sourceRefs": [
+        "pdf:task2:p012:q05"
+      ]
+    },
+    {
+      "passageId": "concert",
+      "prompt": "How can one get a discount?",
+      "options": [
+        {
+          "label": "A",
+          "text": "By visiting an arena"
+        },
+        {
+          "label": "B",
+          "text": "By showing up early"
+        },
+        {
+          "label": "C",
+          "text": "By using a website"
+        },
+        {
+          "label": "D",
+          "text": "By joining a fan club"
+        }
+      ],
+      "correct": "C",
+      "answer": "Online advance tickets cost $35, compared with $45 at the door. 正解：C。in advance（前もって）オンライン購入すれば10ドル安くなります。Aは通常の当日券、Bは単に早く来場するだけで条件を満たさず、Dのファンクラブ割引は書かれていません。",
+      "sourceRefs": [
+        "pdf:task2:p012:q06"
+      ]
+    },
+    {
+      "passageId": "cycling",
+      "prompt": "What is the main purpose of the post?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To describe the author’s cycling preferences in detail"
+        },
+        {
+          "label": "B",
+          "text": "To share practical bike-touring tips"
+        },
+        {
+          "label": "C",
+          "text": "To explain the history of cycling in European cities"
+        },
+        {
+          "label": "D",
+          "text": "To compare different bike rental services"
+        }
+      ],
+      "correct": "B",
+      "answer": "The experience introduces practical advice about renting, routing, and safety. 正解：B。practical tips（実用的な助言）が投稿後半の中心です。Aは体験紹介だけに偏り、Cの歴史説明、Dの複数サービス比較はありません。reflective gearは「光を反射して見えやすくする装備」です。",
+      "sourceRefs": [
+        "pdf:task2:p013:q07"
+      ]
+    },
+    {
+      "passageId": "cycling",
+      "prompt": "Why does the post mention Amsterdam?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To list the city’s most favored spots"
+        },
+        {
+          "label": "B",
+          "text": "To provide an example of a great city cycling experience"
+        },
+        {
+          "label": "C",
+          "text": "To introduce an ideal city bike tour destination"
+        },
+        {
+          "label": "D",
+          "text": "To show that Amsterdam has the best bike lanes in Europe"
+        }
+      ],
+      "correct": "B",
+      "answer": "Amsterdam supplies the author's personal example before the general touring tips. 正解：B。example（具体例）として体験を示しています。Aは人気スポットの一覧ではなく、Cは特定目的地の推奨が主目的という読み過ぎ。Dのbestという欧州内比較は本文にありません。",
+      "sourceRefs": [
+        "pdf:task2:p013:q08"
+      ]
+    }
+  ]
+}

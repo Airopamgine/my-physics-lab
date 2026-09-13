@@ -101,6 +101,44 @@ class TaskCatalogTests(unittest.TestCase):
         self.assertTrue(all(q['correct'] is None and q['options'] == []
                             for q in item['questions']))
 
+    def test_rivers_and_color_preserve_all_source_targets(self):
+        bank = self.build()
+        cases = [
+            ('legacy-atmospheric-rivers', 'english-reading-academic-atmospheric-rivers-risk-benefit-24', 'CADCBDACB'),
+            ('legacy-color-accessibility', 'english-reading-academic-color-context-accessibility-06', 'BCADBCADB')]
+        for set_id, source_id, keys in cases:
+            with self.subTest(set_id=set_id):
+                item = next(s for s in bank['sets'] if s['id'] == set_id)
+                self.assertEqual(len(item['questions']), 9)
+                self.assertEqual([q['sourceRefs'] for q in item['questions']],
+                                 [[f'legacy:{source_id}-q{i}'] for i in range(1, 10)])
+                self.assertEqual([q['correct'] for q in item['questions']], list(keys))
+                original = (ROOT / 'content/posts' / f'{source_id}.md').read_text()
+                section = original.split('## 問題：')[1].split('### 語注')[0]
+                passage = '\n'.join(line[2:] if line.startswith('> ') else line[1:]
+                                    for line in section.splitlines() if line.startswith('>')).strip()
+                self.assertTrue(all(q['passage'] == passage for q in item['questions']))
+
+    def test_task2_daily_life_partial_page_keeps_ambiguous_question_pending(self):
+        bank = self.build()
+        item = next(s for s in bank['sets'] if s['id'] == 'pdf-task2-p009-013')
+        refs = [f'pdf:task2:p{page:03d}:q{question:02d}'
+                for page, question in [(9, 3), (9, 4), (10, 1), (10, 2),
+                                       (11, 3), (11, 4), (12, 5), (12, 6),
+                                       (13, 7), (13, 8)]]
+        self.assertEqual([q['sourceRefs'] for q in item['questions']], [[ref] for ref in refs])
+        self.assertEqual([q['correct'] for q in item['questions']], list('ABCDCAACBB'))
+        self.assertEqual(len({q['passage'] for q in item['questions']}), 6)
+        index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
+        source = next(s for s in index['sources'] if s['id'] == 'task2')
+        self.assertTrue({9, 10, 11, 12}.issubset(source['reviewedPages']))
+        self.assertNotIn(13, source['reviewedPages'])
+        self.assertTrue(any(item['sourceRef'] == 'pdf:task2:p013:q09'
+                            and item['status'] == 'pending-verification'
+                            for item in source['blockedItems']))
+        self.assertNotIn('pdf:task2:p013:q09',
+                         {ref for s in bank['sets'] for q in s['questions'] for ref in q.get('sourceRefs', [])})
+
     def test_duplicate_source_reference_rejected(self):
         self.change('data/toefl-migration/legacy-balanced-diet.json',lambda d:d['questions'][1].update(sourceRefs=d['questions'][0]['sourceRefs']))
         with self.assertRaises(ValueError): self.build()
