@@ -178,6 +178,25 @@ class TaskCatalogTests(unittest.TestCase):
         self.assertEqual(source['pageItems']['10'], [])
         self.assertEqual(source['pageItems']['12'], [])
 
+    def test_habitus_and_hotelling_preserve_passages_and_all_targets(self):
+        bank = self.build()
+        cases = [
+            ('legacy-habitus-practice', 'english-reading-academic-habitus-disposition-practice-14', 'BCADBCADB'),
+            ('legacy-hotelling-location', 'english-reading-academic-hotelling-location-competition-15', 'BBCCDBCAD')]
+        for set_id, source_id, keys in cases:
+            with self.subTest(set_id=set_id):
+                item = next(s for s in bank['sets'] if s['id'] == set_id)
+                self.assertEqual(len(item['questions']), 9)
+                self.assertEqual([q['sourceRefs'] for q in item['questions']],
+                                 [[f'legacy:{source_id}-q{i}'] for i in range(1, 10)])
+                self.assertEqual([q['correct'] for q in item['questions']], list(keys))
+                original = (ROOT / 'content/posts' / f'{source_id}.md').read_text()
+                section = original.split('## 問題：')[1].split('### 語注')[0]
+                passage = '\n'.join(line[2:] if line.startswith('> ') else line[1:]
+                                    for line in section.splitlines() if line.startswith('>')).strip()
+                self.assertTrue(all(q['passage'] == passage for q in item['questions']))
+                self.assertTrue(all(len(q['options']) == 4 for q in item['questions']))
+
     def test_duplicate_source_reference_rejected(self):
         self.change('data/toefl-migration/legacy-balanced-diet.json',lambda d:d['questions'][1].update(sourceRefs=d['questions'][0]['sourceRefs']))
         with self.assertRaises(ValueError): self.build()

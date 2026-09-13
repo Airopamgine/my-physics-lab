@@ -396,16 +396,13 @@
     }
   ],
   "lastSource": {
-    "type": "pdf",
-    "id": "task3",
-    "pages": [
-      9,
-      10,
-      11,
-      12,
-      13
+    "type": "legacy",
+    "id": "english-reading-academic-hotelling-location-competition-15",
+    "batchSourceIds": [
+      "english-reading-academic-habitus-disposition-practice-14",
+      "english-reading-academic-hotelling-location-competition-15"
     ],
-    "convertedAt": "2026-09-14T04:00:00+09:00"
+    "convertedAt": "2026-09-14T08:00:00+09:00"
   },
   "note": "Packet paths describe a private working cache, not published files. Exact question totals require review. Answer pages referenced by the books were not supplied."
 }
