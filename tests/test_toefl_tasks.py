@@ -61,6 +61,13 @@ class TaskCatalogTests(unittest.TestCase):
         self.assertEqual({ref for q in converted['questions'] for ref in q['sourceRefs']},
                          {f'legacy:english-reading-balanced-diet-03-q{i}' for i in range(1,10)})
 
+    def test_complete_alpine_ecosystems_source_coverage(self):
+        bank=self.build()
+        converted=next(s for s in bank['sets'] if s['id']=='legacy-alpine-ecosystems')
+        self.assertEqual({ref for q in converted['questions'] for ref in q['sourceRefs']},
+                         {f'legacy:english-reading-academic-alpine-ecosystems-evidence-01-q{i}' for i in range(1,10)})
+        self.assertEqual(len(converted['questions']),9)
+
     def test_duplicate_source_reference_rejected(self):
         self.change('data/toefl-migration/legacy-balanced-diet.json',lambda d:d['questions'][1].update(sourceRefs=d['questions'][0]['sourceRefs']))
         with self.assertRaises(ValueError): self.build()
