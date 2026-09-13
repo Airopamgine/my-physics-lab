@@ -252,7 +252,12 @@
       "sha256": "8128961ad98d0e5182a29940bdd9fec5f815b365821a591be95f6bb8a38f5e5e",
       "answerKeyAvailable": false,
       "reviewedPages": [
-        8
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
       ],
       "packets": [
         {
@@ -340,6 +345,26 @@
         "8": [
           "pdf:task3:p008:q01",
           "pdf:task3:p008:q02"
+        ],
+        "9": [
+          "pdf:task3:p009:q03",
+          "pdf:task3:p009:q04"
+        ],
+        "10": [],
+        "11": [
+          "pdf:task3:p011:q01",
+          "pdf:task3:p011:q02",
+          "pdf:task3:p011:q03",
+          "pdf:task3:p011:q04",
+          "pdf:task3:p011:q05"
+        ],
+        "12": [],
+        "13": [
+          "pdf:task3:p013:q06",
+          "pdf:task3:p013:q07",
+          "pdf:task3:p013:q08",
+          "pdf:task3:p013:q09",
+          "pdf:task3:p013:q10"
         ]
       }
     },
@@ -371,13 +396,16 @@
     }
   ],
   "lastSource": {
-    "type": "legacy",
-    "id": "english-reading-academic-deep-sea-adaptation-tradeoffs-02",
-    "batchSourceIds": [
-      "english-reading-academic-cubism-classification-evidence-05",
-      "english-reading-academic-deep-sea-adaptation-tradeoffs-02"
+    "type": "pdf",
+    "id": "task3",
+    "pages": [
+      9,
+      10,
+      11,
+      12,
+      13
     ],
-    "convertedAt": "2026-09-14T00:00:00+09:00"
+    "convertedAt": "2026-09-14T04:00:00+09:00"
   },
   "note": "Packet paths describe a private working cache, not published files. Exact question totals require review. Answer pages referenced by the books were not supplied."
 }

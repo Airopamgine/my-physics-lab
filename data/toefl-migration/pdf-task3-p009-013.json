@@ -1,0 +1,341 @@
+{
+  "id": "pdf-task3-p009-013",
+  "title": "Academic Reading · 文化・心理・遺伝・心周期",
+  "task": 3,
+  "date": "2026-09-14T04:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 3 · PDF 9–13ページ／冊子209–213ページ · 12問",
+  "verificationNote": "Editorial answers（編集・確認した解答）。スキャン原本の本文・選択肢を照合し、本文根拠から正答を作成しました。出版社の解答表とは未照合です。",
+  "passages": {
+    "body": "Body modification involves making permanent changes to the body. In cultures around the world, people mark, pierce, and shape their bodies as a form of expression. For example, in Polynesia, dense tattoo patterns reveal one's family ties and rank in society, and among the Maori, social identity is similarly conveyed through their facial designs that represent ancestry. Modifications can also signify a special life stage being reached. In parts of West Africa, scarification marks entry into adulthood. Among Inuit communities, women's facial tattooing historically signaled maturity and readiness for marriage. Likewise, in South Asia, ear and nose piercings are linked to marital status, publicly acknowledging the person's role within the family.",
+    "zeigarnik": "The Zeigarnik effect suggests that people remember unfinished or interrupted tasks more easily than completed ones. Psychologist Bluma Zeigarnik decided to study this after hearing about waiters who had better recall of unpaid orders than settled ones. When Zeigarnik conducted her experiments, she found that people were, in fact, twice as likely to remember interrupted tasks as completed ones.\n\nThis finding supported the idea that unfinished activities create cognitive tension, making them more salient in memory. Students can take advantage of this effect. By taking breaks during their study session, they maintain cognitive tension, which helps improve their memory of the material being studied.",
+    "gene": "Horizontal gene transfer is the process by which genetic material moves between different organisms outside the parent-offspring relationship. This rapid exchange is accomplished in bacteria through three primary methods: direct physical contact (conjugation), transfer by viruses (transduction), and absorption of genetic fragments from the environment (transformation). This process allows genetic traits, such as those conferring antibiotic resistance, to spread quickly and widely among different species.\n\nThis phenomenon is not just limited to bacteria. For example, some plants have acquired resistance genes from neighboring species, helping them survive environmental peril. Among animals, certain aphid (a type of small insect) species have gained the ability to produce red pigments after obtaining related genes from fungi. These examples show that horizontal gene transfer can happen across very different types of organisms.\n\nThe significance of horizontal gene transfer is substantial. It speeds up evolution and adaptation, letting organisms gain useful traits without waiting for many generations. Because of this, scientists see horizontal gene transfer as a force that continuously reshapes life on Earth.",
+    "cardiac": "The cardiac cycle refers to the repeating sequence by which the heart pumps blood throughout the body. The process begins with atrial contraction, during which the thin-walled right and left atria push blood into the thicker ventricles. This is followed by ventricular contraction, when the right and left ventricles force blood into the arteries connected to other parts of the body. Afterward, all four chambers relax during the filling phase.\n\nThese phases are coordinated by electrical impulses, ensuring that the heart beats normally. This electrical activation does not happen uniformly across the entire heart, causing the chambers to begin contraction fractions of a second apart during each stage of the cardiac cycle. While these delays are a normal part of the process, other disruptions can lead to health problems.\n\nThe cardiac cycle is highly adaptive. In response to physical activity or stress, the cycle becomes faster, reducing the relative length of the relaxation phase but still maintaining effective blood flow. In contrast, the cycle slows down during sleep. The heart also adjusts the force of contraction to match the body's changing oxygen demands, such as when a person exercises or experiences strong emotions."
+  },
+  "questions": [
+    {
+      "passageId": "body",
+      "prompt": "Which of the following best states the main idea of the passage?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Body modification is a negative and dangerous practice that has been criticized across cultures."
+        },
+        {
+          "label": "B",
+          "text": "Body modification is a universal human practice that conveys identity and social meaning."
+        },
+        {
+          "label": "C",
+          "text": "Body modification is a modern urban trend with little historical significance."
+        },
+        {
+          "label": "D",
+          "text": "Body modification is a refined cosmetic technique focused on enhancing personal appearance."
+        }
+      ],
+      "correct": "B",
+      "answer": "Examples from several regions show that body modification communicates ancestry, rank, maturity, and marital status. 正解：B。Aの危険性への批判、Cの現代都市限定、Dの美容中心はいずれも本文の焦点ではありません。conveyは「意味・情報を伝える」、ancestryは「祖先・家系」です。",
+      "sourceRefs": [
+        "pdf:task3:p009:q03"
+      ]
+    },
+    {
+      "passageId": "zeigarnik",
+      "prompt": "Which of the following best states the main idea of the passage?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Interruptions generally hinder memory and motivation."
+        },
+        {
+          "label": "B",
+          "text": "Unfinished tasks can have cognitive and motivational effects."
+        },
+        {
+          "label": "C",
+          "text": "Enjoyment of a certain task is the main factor influencing recall."
+        },
+        {
+          "label": "D",
+          "text": "Finishing tasks is always more rewarding than leaving them unfinished."
+        }
+      ],
+      "correct": "B",
+      "answer": "Unfinished tasks create cognitive tension and can remain more salient in memory. 正解：B。Aは効果の方向を逆転させ、Cの楽しさやDの報酬比較は本文にありません。salientは「目立って意識されやすい」、cognitive tensionは「未完了のために残る認知的緊張」です。",
+      "sourceRefs": [
+        "pdf:task3:p009:q04"
+      ]
+    },
+    {
+      "passageId": "gene",
+      "prompt": "What is this passage mainly about?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A biological theory regarding gene loss in evolution"
+        },
+        {
+          "label": "B",
+          "text": "An uncommon genetic mutation among organisms"
+        },
+        {
+          "label": "C",
+          "text": "An important method of genetic material delivery"
+        },
+        {
+          "label": "D",
+          "text": "An unexpected pattern of genetic inheritance"
+        }
+      ],
+      "correct": "C",
+      "answer": "The passage defines horizontal gene transfer, gives its mechanisms and examples, and explains its significance. 正解：C。Aは遺伝子喪失、Bは突然変異、Dは親子間の遺伝を想定しますが、本文は生物間の遺伝物質移動です。deliveryはここでは「移動・受け渡し」です。",
+      "sourceRefs": [
+        "pdf:task3:p011:q01"
+      ]
+    },
+    {
+      "passageId": "gene",
+      "prompt": "The word “peril” in the second paragraph is closest in meaning to",
+      "options": [
+        {
+          "label": "A",
+          "text": "drawback"
+        },
+        {
+          "label": "B",
+          "text": "durability"
+        },
+        {
+          "label": "C",
+          "text": "threat"
+        },
+        {
+          "label": "D",
+          "text": "obstacle"
+        }
+      ],
+      "correct": "C",
+      "answer": "Plants gain resistance genes that help them survive environmental danger. 正解：C。perilは「危険・脅威」なのでthreatが最も近いです。drawbackは「欠点」、durabilityは「耐久性」、obstacleは「進行を妨げる障害物」で、危険そのものより意味がずれます。",
+      "sourceRefs": [
+        "pdf:task3:p011:q02"
+      ]
+    },
+    {
+      "passageId": "gene",
+      "prompt": "Why does the author mention viruses?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To describe why some organisms cannot acquire new traits"
+        },
+        {
+          "label": "B",
+          "text": "To suggest that viruses only play a minor role in genetic evolution"
+        },
+        {
+          "label": "C",
+          "text": "To specify a mechanism by which genetic material is shared"
+        },
+        {
+          "label": "D",
+          "text": "To highlight the limitations of horizontal gene transfer"
+        }
+      ],
+      "correct": "C",
+      "answer": "Viruses are named as the carrier in transduction, one of three bacterial transfer mechanisms. 正解：C。A・Dの制限説明ではなく、Bのminor role（小さな役割）とも述べていません。transductionは「ウイルスを介した遺伝子導入」です。",
+      "sourceRefs": [
+        "pdf:task3:p011:q03"
+      ]
+    },
+    {
+      "passageId": "gene",
+      "prompt": "How did certain aphids acquire the ability to produce red pigments?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Through mutations in their own genes"
+        },
+        {
+          "label": "B",
+          "text": "Through selective breeding by researchers"
+        },
+        {
+          "label": "C",
+          "text": "By absorbing pigments from their red-colored food"
+        },
+        {
+          "label": "D",
+          "text": "By acquiring genes from a different type of organism"
+        }
+      ],
+      "correct": "D",
+      "answer": "The passage says the aphids obtained related genes from fungi. 正解：D。菌類という別種の生物から遺伝子を得た例です。Aの自己遺伝子の突然変異、Bの人為選抜、Cの食物色素吸収は書かれていません。aphidは「アブラムシ」です。",
+      "sourceRefs": [
+        "pdf:task3:p011:q04"
+      ]
+    },
+    {
+      "passageId": "gene",
+      "prompt": "What does the passage indicate about the effect of horizontal gene transfer on evolutionary speed?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It speeds up transmission to the offspring."
+        },
+        {
+          "label": "B",
+          "text": "It delays adaptation in most organisms."
+        },
+        {
+          "label": "C",
+          "text": "It allows beneficial traits to spread rapidly."
+        },
+        {
+          "label": "D",
+          "text": "It only accelerates changes in microscopic species."
+        }
+      ],
+      "correct": "C",
+      "answer": "Horizontal transfer lets organisms gain useful traits without waiting for many generations. 正解：C。Aは親子間の伝達に限定し、Bは速度を逆転、Dは植物や動物の例を無視します。beneficial traitsは「生存などに有利な形質」です。",
+      "sourceRefs": [
+        "pdf:task3:p011:q05"
+      ]
+    },
+    {
+      "passageId": "cardiac",
+      "prompt": "What is the passage mainly about?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The warning signs of an abnormal heartbeat"
+        },
+        {
+          "label": "B",
+          "text": "The complex process of each heartbeat"
+        },
+        {
+          "label": "C",
+          "text": "The method for monitoring cardiac cycles"
+        },
+        {
+          "label": "D",
+          "text": "The physical structure of cardiac muscles"
+        }
+      ],
+      "correct": "B",
+      "answer": "The passage describes the phases, electrical timing, and adaptive rate and force of the cardiac cycle. 正解：B。Aの異常兆候は一部の補足にすぎず、Cの測定法、Dの筋肉構造が中心ではありません。cardiac cycleは「心臓が収縮・弛緩する一連の周期」です。",
+      "sourceRefs": [
+        "pdf:task3:p013:q06"
+      ]
+    },
+    {
+      "passageId": "cardiac",
+      "prompt": "The word “sequence” in the passage is closest in meaning to",
+      "options": [
+        {
+          "label": "A",
+          "text": "rotation"
+        },
+        {
+          "label": "B",
+          "text": "division"
+        },
+        {
+          "label": "C",
+          "text": "progression"
+        },
+        {
+          "label": "D",
+          "text": "segment"
+        }
+      ],
+      "correct": "C",
+      "answer": "Here, sequence means an ordered series of phases that proceed one after another. 正解：C。progressionは「順序立った進行」です。rotationは回転、divisionは分割、segmentは一部分で、反復する段階の順序を表しません。",
+      "sourceRefs": [
+        "pdf:task3:p013:q07"
+      ]
+    },
+    {
+      "passageId": "cardiac",
+      "prompt": "What happens during the ventricular contraction phase?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The flow of blood within the heart is reversed."
+        },
+        {
+          "label": "B",
+          "text": "Blood pressure in the body drops to its lowest point."
+        },
+        {
+          "label": "C",
+          "text": "Blood is delivered to other parts of the body."
+        },
+        {
+          "label": "D",
+          "text": "Only the heart’s left side is actively contracted."
+        }
+      ],
+      "correct": "C",
+      "answer": "Both ventricles force blood into arteries connected to the rest of the body. 正解：C。Aの逆流やBの最低血圧は記述なし。Dはright and left ventriclesという本文に反します。ventricleは「心室」、arteryは「動脈」です。",
+      "sourceRefs": [
+        "pdf:task3:p013:q08"
+      ]
+    },
+    {
+      "passageId": "cardiac",
+      "prompt": "Why does the author mention that the cardiac cycle slows down during sleep?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To show how the heart adapts to changing needs"
+        },
+        {
+          "label": "B",
+          "text": "To indicate that oversleeping can strain the heart"
+        },
+        {
+          "label": "C",
+          "text": "To argue that rest is more important than exercise"
+        },
+        {
+          "label": "D",
+          "text": "To suggest the time when the heart is most vulnerable"
+        }
+      ],
+      "correct": "A",
+      "answer": "Sleep contrasts with activity or stress and illustrates adjustment to changing oxygen demands. 正解：A。Bの寝過ぎ、Cの価値比較、Dの脆弱な時間帯は本文にありません。adaptは「条件に応じて働きを調整する」、oxygen demandは「体が必要とする酸素量」です。",
+      "sourceRefs": [
+        "pdf:task3:p013:q09"
+      ]
+    },
+    {
+      "passageId": "cardiac",
+      "prompt": "The sentence “For instance, timing irregularities can contribute to symptoms like fatigue or dizziness.” could be added at which location in paragraph 2?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Before “These phases are coordinated by electrical impulses...”"
+        },
+        {
+          "label": "B",
+          "text": "After “These phases are coordinated by electrical impulses, ensuring that the heart beats normally.”"
+        },
+        {
+          "label": "C",
+          "text": "After the sentence ending “during each stage of the cardiac cycle.”"
+        },
+        {
+          "label": "D",
+          "text": "After “While these delays are a normal part of the process, other disruptions can lead to health problems.”"
+        }
+      ],
+      "correct": "D",
+      "answer": "“For instance” gives fatigue and dizziness as examples of the health problems mentioned immediately before it. 正解：D。A・Bでは例示するhealth problemsがまだ現れず、Cでは正常な遅れと病的なirregularities（不規則性）が不自然につながります。contribute toは「原因の一部となる」です。",
+      "sourceRefs": [
+        "pdf:task3:p013:q10"
+      ]
+    }
+  ]
+}
