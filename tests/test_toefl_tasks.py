@@ -158,6 +158,26 @@ class TaskCatalogTests(unittest.TestCase):
                 self.assertTrue(all(q['passage'] == passage for q in item['questions']))
                 self.assertTrue(all(len(q['options']) == 4 for q in item['questions']))
 
+    def test_pdf_task3_pages9_to13_preserve_twelve_answers_and_page_coverage(self):
+        bank = self.build()
+        item = next(s for s in bank['sets'] if s['id'] == 'pdf-task3-p009-013')
+        refs = [
+            'pdf:task3:p009:q03', 'pdf:task3:p009:q04',
+            *[f'pdf:task3:p011:q{i:02d}' for i in range(1, 6)],
+            *[f'pdf:task3:p013:q{i:02d}' for i in range(6, 11)]]
+        self.assertEqual([q['sourceRefs'] for q in item['questions']], [[ref] for ref in refs])
+        self.assertEqual([q['correct'] for q in item['questions']], list('BBCCCDCBCCAD'))
+        self.assertEqual(len({q['passage'] for q in item['questions']}), 4)
+        insertion = item['questions'][-1]
+        self.assertIn('For instance, timing irregularities', insertion['prompt'])
+        self.assertEqual([o['label'] for o in insertion['options']], list('ABCD'))
+        self.assertTrue(all(o['text'].startswith(('Before', 'After')) for o in insertion['options']))
+        index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
+        source = next(s for s in index['sources'] if s['id'] == 'task3')
+        self.assertTrue({9, 10, 11, 12, 13}.issubset(source['reviewedPages']))
+        self.assertEqual(source['pageItems']['10'], [])
+        self.assertEqual(source['pageItems']['12'], [])
+
     def test_duplicate_source_reference_rejected(self):
         self.change('data/toefl-migration/legacy-balanced-diet.json',lambda d:d['questions'][1].update(sourceRefs=d['questions'][0]['sourceRefs']))
         with self.assertRaises(ValueError): self.build()
