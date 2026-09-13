@@ -13,7 +13,8 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: false
+  # Publish the latest main revision instead of waiting behind obsolete runs.
+  cancel-in-progress: true
 
 defaults:
   run:
