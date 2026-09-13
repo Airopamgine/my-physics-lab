@@ -68,6 +68,20 @@ class TaskCatalogTests(unittest.TestCase):
                          {f'legacy:english-reading-academic-alpine-ecosystems-evidence-01-q{i}' for i in range(1,10)})
         self.assertEqual(len(converted['questions']),9)
 
+    def test_complete_arthropod_source_and_passage_preserved(self):
+        bank = self.build()
+        converted = next(s for s in bank['sets'] if s['id'] == 'legacy-arthropod-molting')
+        source_id = 'english-reading-academic-arthropod-molting-control-07'
+        self.assertEqual(len(converted['questions']), 9)
+        self.assertEqual([q['sourceRefs'] for q in converted['questions']],
+                         [[f'legacy:{source_id}-q{i}'] for i in range(1, 10)])
+        original = (ROOT / 'content/posts' / f'{source_id}.md').read_text()
+        section = original.split('## 問題：')[1].split('### 語注')[0]
+        passage = '\n'.join(line[2:] if line.startswith('> ') else line[1:]
+                            for line in section.splitlines() if line.startswith('>')).strip()
+        self.assertTrue(all(q['passage'] == passage for q in converted['questions']))
+        self.assertEqual([q['correct'] for q in converted['questions']], list('BACDBACDB'))
+
     def test_duplicate_source_reference_rejected(self):
         self.change('data/toefl-migration/legacy-balanced-diet.json',lambda d:d['questions'][1].update(sourceRefs=d['questions'][0]['sourceRefs']))
         with self.assertRaises(ValueError): self.build()
