@@ -1,0 +1,168 @@
+{
+  "id": "pdf-task1-p012",
+  "title": "Complete the Words · Ethics, Music, and Earth Science",
+  "task": 1,
+  "date": "2026-09-13T13:40:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 12ページ／冊子40ページ · 問11–15（15空欄）",
+  "verificationNote": "Editorial answers（編集・確認した解答）。スキャン原本の本文・接頭部分・空欄数を確認して解答を作成しました。出版社の公式解答表とは未照合です。",
+  "passages": {
+    "11": "The infamous trolley problem is a thought experiment in ethics designed to test and chal_____ moral intuitions. The basic scen____ involves deciding whe____ to pull a lever to divert a runaway trolley from a track where it will kill five people to a track where it will kill only one.",
+    "12": "Harmony involves simultaneously combining the notes to form chords and the relationships between them. Unl___ melody, wh___ is a linear succe_____ of tones, harmony focuses on the vertical aspect of music.",
+    "13": "Erosion is the geolo_____ process by which soil and rock material are worn aw__ and transported by natural forces, such as wind, water, or ice. Over millennia, moving water and glaciation can exert powerful effects on the landscape, carving valleys and transporting enor____ sediment loads.",
+    "14": "Global efforts are now foc____ on developing strategies to mitigate emissions of greenhouse ga___, as the current trajectory continues to po__ a significant threat to future planetary stability.",
+    "15": "Effective leade_____ requires the ability to ma__ a decision under conditions of uncertainty, even if it means leaders must occasionally take a ri__ with unproven strategies."
+  },
+  "questions": [
+    {
+      "passageId": "11",
+      "prompt": "Exercise 11: complete chal_____. Enter the missing letters.",
+      "prefix": "chal",
+      "word": "challenge",
+      "answer": "The verbs test and challenge share 'designed to', so both take the base form. 正解：lenge → challenge（疑問を投げかける）。道徳的な直感を試し、問い直す意味です。名詞moral intuitions（道徳的直感）が目的語になっています。",
+      "sourceRefs": [
+        "pdf:task1:p012:q11-gap1"
+      ]
+    },
+    {
+      "passageId": "11",
+      "prompt": "Exercise 11: complete scen____. Enter the missing letters.",
+      "prefix": "scen",
+      "word": "scenario",
+      "answer": "A scenario describes the situation considered in a thought experiment. 正解：ario → scenario（想定される状況・筋書き）。The basic の後に名詞が入り、主語として involves とつながります。単数形と欠けた4文字を確認します。",
+      "sourceRefs": [
+        "pdf:task1:p012:q11-gap2"
+      ]
+    },
+    {
+      "passageId": "11",
+      "prompt": "Exercise 11: complete whe____. Enter the missing letters.",
+      "prefix": "whe",
+      "word": "whether",
+      "answer": "Whether to do introduces a choice about taking an action. 正解：ther → whether。「レバーを引くかどうか」を決める構文 deciding whether to pull です。where は場所、when は時を問う語で、この文字数と選択の意味には合いません。",
+      "sourceRefs": [
+        "pdf:task1:p012:q11-gap3"
+      ]
+    },
+    {
+      "passageId": "12",
+      "prompt": "Exercise 12: complete Unl___. Enter the missing letters.",
+      "prefix": "Unl",
+      "word": "Unlike",
+      "answer": "Unlike introduces the contrast between melody and harmony. 正解：ike → Unlike（〜とは異なり）。後ろに名詞melody（旋律）を取り、音の線的な連なりと和声の縦の関係を対比します。文頭なのでUが大文字です。",
+      "sourceRefs": [
+        "pdf:task1:p012:q12-gap1"
+      ]
+    },
+    {
+      "passageId": "12",
+      "prompt": "Exercise 12: complete wh___. Enter the missing letters.",
+      "prefix": "wh",
+      "word": "which",
+      "answer": "Which refers back to melody and introduces a nonrestrictive relative clause. 正解：ich → which。直前のmelodyを説明する関係代名詞で、節内では is の主語です。nonrestrictiveは「非制限の」——ここではコンマの後に補足説明を加える形です。",
+      "sourceRefs": [
+        "pdf:task1:p012:q12-gap2"
+      ]
+    },
+    {
+      "passageId": "12",
+      "prompt": "Exercise 12: complete succe_____. Enter the missing letters.",
+      "prefix": "succe",
+      "word": "succession",
+      "answer": "A succession is a series of things following one another. 正解：ssion → succession（連続・連なり）。a linear succession of tones は「音が線的に次々と続くこと」。和声との対比を支える名詞で、二つのsが続く綴りにも注意します。",
+      "sourceRefs": [
+        "pdf:task1:p012:q12-gap3"
+      ]
+    },
+    {
+      "passageId": "13",
+      "prompt": "Exercise 13: complete geolo_____. Enter the missing letters.",
+      "prefix": "geolo",
+      "word": "geological",
+      "answer": "Geological modifies process and links erosion to changes in Earth materials. 正解：gical → geological（地質学的な）。Erosion（侵食）は土や岩石が削られ運ばれる過程です。名詞geologyではなく、processを修飾する形容詞が必要です。",
+      "sourceRefs": [
+        "pdf:task1:p012:q13-gap1"
+      ]
+    },
+    {
+      "passageId": "13",
+      "prompt": "Exercise 13: complete aw__. Enter the missing letters.",
+      "prefix": "aw",
+      "word": "away",
+      "answer": "Worn away means gradually removed by erosion. 正解：ay → away。wear away（徐々にすり減らす・削り取る）の受動形 are worn away です。後ろの transported（運ばれる）と並び、削り取りと移動という二つの過程を示します。",
+      "sourceRefs": [
+        "pdf:task1:p012:q13-gap2"
+      ]
+    },
+    {
+      "passageId": "13",
+      "prompt": "Exercise 13: complete enor____. Enter the missing letters.",
+      "prefix": "enor",
+      "word": "enormous",
+      "answer": "Enormous describes the very large quantity of sediment carried by water or ice. 正解：mous → enormous（非常に大きい・莫大な）。sediment loads（運ばれる堆積物の量）を修飾する形容詞です。enormouslyのような副詞では名詞を直接修飾できません。",
+      "sourceRefs": [
+        "pdf:task1:p012:q13-gap3"
+      ]
+    },
+    {
+      "passageId": "14",
+      "prompt": "Exercise 14: complete foc____. Enter the missing letters.",
+      "prefix": "foc",
+      "word": "focused",
+      "answer": "Be focused on means be directed toward a particular objective. 正解：used → focused（〜に集中した・向けられた）。are now focused on developing は「現在、開発に力が向けられている」。前置詞onの後ろは動名詞developingです。",
+      "sourceRefs": [
+        "pdf:task1:p012:q14-gap1"
+      ]
+    },
+    {
+      "passageId": "14",
+      "prompt": "Exercise 14: complete ga___. Enter the missing letters.",
+      "prefix": "ga",
+      "word": "gases",
+      "answer": "Greenhouse gases is a plural noun phrase for heat-trapping gases. 正解：ses → gases（気体の複数形）。greenhouse gasesは「温室効果ガス」。emissions of（〜の排出）の対象を示し、表示されたgaに3文字を補います。",
+      "sourceRefs": [
+        "pdf:task1:p012:q14-gap2"
+      ]
+    },
+    {
+      "passageId": "14",
+      "prompt": "Exercise 14: complete po__. Enter the missing letters.",
+      "prefix": "po",
+      "word": "pose",
+      "answer": "Pose a threat is a standard expression meaning present a danger. 正解：se → pose（脅威などをもたらす）。continues to の後なので動詞の原形です。pose a significant threat to は「〜に重大な脅威を及ぼす」という組合せです。",
+      "sourceRefs": [
+        "pdf:task1:p012:q14-gap3"
+      ]
+    },
+    {
+      "passageId": "15",
+      "prompt": "Exercise 15: complete leade_____. Enter the missing letters.",
+      "prefix": "leade",
+      "word": "leadership",
+      "answer": "Leadership names the ability or practice of leading, not an individual leader. 正解：rship → leadership（指導力・リーダーシップ）。Effectiveが修飾する名詞で、単数扱いの requires と対応します。leadersでは文字数も主語と動詞の一致も合いません。",
+      "sourceRefs": [
+        "pdf:task1:p012:q15-gap1"
+      ]
+    },
+    {
+      "passageId": "15",
+      "prompt": "Exercise 15: complete ma__. Enter the missing letters.",
+      "prefix": "ma",
+      "word": "make",
+      "answer": "Make a decision is the expression for choosing a course of action. 正解：ke → make。the ability to make a decision は「決断する能力」。ability（能力）の内容を不定詞to makeで説明し、makeは原形になります。",
+      "sourceRefs": [
+        "pdf:task1:p012:q15-gap2"
+      ]
+    },
+    {
+      "passageId": "15",
+      "prompt": "Exercise 15: complete ri__. Enter the missing letters.",
+      "prefix": "ri",
+      "word": "risk",
+      "answer": "Take a risk means act despite the possibility of an unfavorable result. 正解：sk → risk（危険・失敗の可能性）。unproven strategiesは「効果がまだ実証されていない戦略」。冠詞aの後に単数名詞を置く take a risk という表現です。",
+      "sourceRefs": [
+        "pdf:task1:p012:q15-gap3"
+      ]
+    }
+  ]
+}

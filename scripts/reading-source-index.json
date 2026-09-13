@@ -66,7 +66,8 @@
       "answerKeyAvailable": false,
       "reviewedPages": [
         10,
-        11
+        11,
+        12
       ],
       "packets": [
         {
@@ -102,6 +103,23 @@
           "pdf:task1:p010:q03-gap1",
           "pdf:task1:p010:q04-gap1",
           "pdf:task1:p010:q05-gap1"
+        ],
+        "12": [
+          "pdf:task1:p012:q11-gap1",
+          "pdf:task1:p012:q11-gap2",
+          "pdf:task1:p012:q11-gap3",
+          "pdf:task1:p012:q12-gap1",
+          "pdf:task1:p012:q12-gap2",
+          "pdf:task1:p012:q12-gap3",
+          "pdf:task1:p012:q13-gap1",
+          "pdf:task1:p012:q13-gap2",
+          "pdf:task1:p012:q13-gap3",
+          "pdf:task1:p012:q14-gap1",
+          "pdf:task1:p012:q14-gap2",
+          "pdf:task1:p012:q14-gap3",
+          "pdf:task1:p012:q15-gap1",
+          "pdf:task1:p012:q15-gap2",
+          "pdf:task1:p012:q15-gap3"
         ],
         "11": [
           "pdf:task1:p011:q06-gap1",
@@ -326,9 +344,10 @@
     }
   ],
   "lastSource": {
-    "type": "legacy",
-    "id": "english-reading-academic-arthropod-molting-control-07",
-    "convertedAt": "2026-09-13T13:28:00+09:00"
+    "type": "pdf",
+    "id": "task1",
+    "pages": [12],
+    "convertedAt": "2026-09-13T13:40:00+09:00"
   },
   "note": "Packet paths describe a private working cache, not published files. Exact question totals require review. Answer pages referenced by the books were not supplied."
 }
