@@ -11,7 +11,6 @@ TASK_NAMES = {1: "Complete the Words", 2: "Read in Daily Life", 3: "Read an Acad
 def build_task_catalog(repo: Path, legacy_bank: dict, feed: dict) -> dict:
     catalog = []
     seen_ids, covered_refs = set(), set()
-    legacy_ids = {q["id"] for s in legacy_bank["sets"] for q in s["questions"]}
     source_index = json.loads((repo / "scripts/reading-source-index.json").read_text())
     sources = {s["id"]: s for s in source_index["sources"]}
     pdf_count = 0
@@ -38,12 +37,10 @@ def build_task_catalog(repo: Path, legacy_bank: dict, feed: dict) -> dict:
                 if ref in covered_refs:
                     raise ValueError(f"{path}: source already converted: {ref}")
                 if ref.startswith("legacy:"):
-                    if ref[7:] not in legacy_ids:
-                        raise ValueError(f"{path}: unknown legacy question {ref}")
-                else:
-                    match = re.fullmatch(r"pdf:([a-z0-9-]+):p(\d+):q([a-zA-Z0-9-]+)", ref)
-                    if not match or match[1] not in sources or not 1 <= int(match[2]) <= sources[match[1]]["pageCount"]:
-                        raise ValueError(f"{path}: invalid PDF reference {ref}")
+                    raise ValueError(f"{path}: existing English-source conversions are excluded from TOEFL")
+                match = re.fullmatch(r"pdf:([a-z0-9-]+):p(\d+):q([a-zA-Z0-9-]+)", ref)
+                if not match or match[1] not in sources or not 1 <= int(match[2]) <= sources[match[1]]["pageCount"]:
+                    raise ValueError(f"{path}: invalid PDF reference {ref}")
                 covered_refs.add(ref)
             question = {"id": f'{source["id"]}-q{i}', "number": i,
                         "label": TASK_NAMES[source["task"]], "prompt": prompt,
@@ -121,15 +118,14 @@ def build_task_catalog(repo: Path, legacy_bank: dict, feed: dict) -> dict:
         catalog.append({"id":"quick-"+original["id"],"title":original.get("prompt",original["task"]),
                         "collection":f"Task {task}","date":"2026-09-12T00:00:00+09:00","level":"B1–B2",
                         "sourceLabel":"これまでの通常演習","sourceUrl":"","passage":"","notes":[],"questions":questions})
-    converted = len({ref[7:] for ref in covered_refs if ref.startswith("legacy:")})
     pdf_complete = all(len(s["reviewedPages"]) == s["pageCount"] for s in sources.values())
-    migration = {"legacyTotal": len(legacy_ids), "legacyConverted": converted,
+    migration = {"scope": "pdf-only",
                  "pdfPageTotal": sum(s["pageCount"] for s in sources.values()),
                  "pdfReviewedPages": sum(len(s["reviewedPages"]) for s in sources.values()),
                  "pdfPublished": pdf_count, "pdfTotalQuestions": pdf_count if pdf_complete else None,
                  "quickAlreadyFormatted": quick_count,
                  "answerKeysMissing": any(not s["answerKeyAvailable"] for s in sources.values()),
-                 "complete": pdf_complete and converted == len(legacy_ids)}
+                 "complete": pdf_complete}
     for s in sources.values():
         if len(s["reviewedPages"]) != len(set(s["reviewedPages"])) or any(p < 1 or p > s["pageCount"] for p in s["reviewedPages"]):
             raise ValueError("Invalid reviewed page coverage")
@@ -146,5 +142,5 @@ def build_task_catalog(repo: Path, legacy_bank: dict, feed: dict) -> dict:
                "autoGradedCount": count, "selfCheckCount": 0, "migration": migration, "sets": catalog}
     output = repo / "static/data/toefl-task-bank.json"
     output.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + "\n")
-    print(f"Built task catalog: {len(catalog)} sets / {count} questions; legacy {converted}/{len(legacy_ids)}, PDF {pdf_count}")
+    print(f"Built task catalog: {len(catalog)} sets / {count} questions; PDF {pdf_count}")
     return payload
