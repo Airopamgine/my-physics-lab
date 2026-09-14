@@ -1,0 +1,258 @@
+{
+  "id": "legacy-membrane-dynamics-selectivity",
+  "title": "Dynamic Membranes and Selective Transport",
+  "task": 3,
+  "date": "2026-09-15T01:58:00+09:00",
+  "level": "B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "本文と元教材の解説から一意に判断できる正答を編集・確認しています。四つの原文段落と全九つの学習対象を保持し、元の記述問題は英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-academic-membrane-dynamics-selectivity-23/",
+  "passages": {
+    "text": "A biological membrane separates two aqueous environments without sealing them off completely. Many membrane lipids are amphipathic: one region interacts favorably with water, whereas another avoids it. In water, this contrast favors arrangements in which hydrophobic regions are shielded inside a bilayer and hydrophilic regions face the surrounding solution. The bilayer can close around a compartment, yet its molecules are not fixed like bricks in a wall.\n\nSelective permeability begins with the lipid core but does not end there. Small nonpolar molecules can cross the bilayer more readily than ions or many polar molecules. Channels create hydrophilic routes, carriers bind selected solutes and change shape, and pumps couple transport to an energy source. A channel opening does not make movement directionless: net passive transport follows an electrochemical gradient, while active transport can build or maintain such a gradient.\n\nProteins and lipids also move, interact, and occupy the two sides of a membrane asymmetrically. Their motion can be restricted by the cytoskeleton, neighboring proteins, or specialized domains. Cholesterol in many animal-cell membranes changes packing and permeability, but “cholesterol makes membranes fluid” is too simple. Its effect depends on temperature and lipid composition: it can restrain some movement under one condition and hinder tight packing under another. Other organisms use different sterols or regulatory strategies.\n\nA model should therefore be tested at the level of both structure and function. Fluorescence recovery after photobleaching can estimate how rapidly labeled components move laterally. Artificial vesicles can isolate the effects of lipid composition, while living cells reveal protein regulation and energy-dependent transport. No single image captures every scale. The productive view of a membrane is a dynamic, selective interface whose behavior emerges from components, gradients, interactions, and conditions."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What is the main idea of the passage?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A membrane is a rigid wall whose components never move."
+        },
+        {
+          "label": "B",
+          "text": "Every substance crosses a membrane through the same route."
+        },
+        {
+          "label": "C",
+          "text": "Membrane behavior emerges from a dynamic bilayer, proteins, gradients, interactions, and conditions."
+        },
+        {
+          "label": "D",
+          "text": "Cholesterol has one identical effect in every organism and temperature."
+        }
+      ],
+      "correct": "C",
+      "answer": "The membrane is a dynamic, selective interface dependent on interacting components and conditions. 正解：C。interfaceは「境界面」です。A・Bは動態と輸送経路を消し、Dは条件依存性を否定します。",
+      "sourceRefs": [
+        "legacy:english-reading-academic-membrane-dynamics-selectivity-23-q1"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which arrangement of amphipathic lipids is favored in water?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hydrophobic regions face water while hydrophilic regions form the interior."
+        },
+        {
+          "label": "B",
+          "text": "Hydrophilic regions face water while hydrophobic regions are shielded inside the bilayer."
+        },
+        {
+          "label": "C",
+          "text": "Both regions are fixed like bricks."
+        },
+        {
+          "label": "D",
+          "text": "All lipid regions gather on one side."
+        }
+      ],
+      "correct": "B",
+      "answer": "Hydrophilic regions interact with water while hydrophobic regions avoid it inside. 正解：B。amphipathicは「親水性部分と疎水性部分を併せ持つ」です。Aは配置が逆、Cは動態を否定し、Dでは二重層になりません。",
+      "sourceRefs": [
+        "legacy:english-reading-academic-membrane-dynamics-selectivity-23-q2"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "How do channels, carriers, and pumps differ according to paragraph 2?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Channels bind every solute, carriers form permanent pores, and pumps need no energy."
+        },
+        {
+          "label": "B",
+          "text": "All three move every substance by the same mechanism."
+        },
+        {
+          "label": "C",
+          "text": "Channels create hydrophilic routes, carriers bind selected solutes and change shape, and pumps couple transport to energy."
+        },
+        {
+          "label": "D",
+          "text": "Channels build gradients, carriers destroy all gradients, and pumps move only nonpolar molecules."
+        }
+      ],
+      "correct": "C",
+      "answer": "They differ in route, binding mechanism, and energy coupling. 正解：C。carrierは「担体」、pumpは「エネルギーと結びついた輸送体」です。A・B・Dは役割を交換または一般化しています。",
+      "sourceRefs": [
+        "legacy:english-reading-academic-membrane-dynamics-selectivity-23-q3"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "The phrase “couple transport to an energy source” is closest in meaning to:",
+      "options": [
+        {
+          "label": "A",
+          "text": "link the transport process to energy use"
+        },
+        {
+          "label": "B",
+          "text": "allow two solutes to move without protein"
+        },
+        {
+          "label": "C",
+          "text": "remove every concentration difference"
+        },
+        {
+          "label": "D",
+          "text": "make the membrane permanently rigid"
+        }
+      ],
+      "correct": "A",
+      "answer": "Couple A to B means to connect A functionally with B. 正解：A。ここでは輸送とエネルギー利用を結ぶ意味です。B・C・Dはprotein pumpの説明になりません。",
+      "sourceRefs": [
+        "legacy:english-reading-academic-membrane-dynamics-selectivity-23-q4"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does opening a passive channel not make the net direction of transport random?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The channel chooses direction independently of concentration and voltage."
+        },
+        {
+          "label": "B",
+          "text": "Net passive movement follows the electrochemical gradient."
+        },
+        {
+          "label": "C",
+          "text": "Every open channel uses energy to move against a gradient."
+        },
+        {
+          "label": "D",
+          "text": "The bilayer fixes all molecules permanently."
+        }
+      ],
+      "correct": "B",
+      "answer": "The route opens, but concentration and electrical differences determine net passive flux. 正解：B。electrochemical gradientは「濃度差と電位差を合わせた勾配」、fluxは「流束」です。A・C・Dは受動輸送と反対です。",
+      "sourceRefs": [
+        "legacy:english-reading-academic-membrane-dynamics-selectivity-23-q5"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does membrane fluidity not mean that every component moves freely at the same rate?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The cytoskeleton, neighboring proteins, and specialized domains can restrict motion, and distribution may be asymmetric."
+        },
+        {
+          "label": "B",
+          "text": "All proteins are fixed covalently to every lipid."
+        },
+        {
+          "label": "C",
+          "text": "Fluidity applies only to external water."
+        },
+        {
+          "label": "D",
+          "text": "Every component becomes immobile when a channel opens."
+        }
+      ],
+      "correct": "A",
+      "answer": "Interactions and domains restrict lateral motion, and the two sides differ. 正解：A。cytoskeletonは「細胞骨格」、asymmetricは「非対称な」です。B・C・Dは限定的な制約を全面的固定へ誇張しています。",
+      "sourceRefs": [
+        "legacy:english-reading-academic-membrane-dynamics-selectivity-23-q6"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What is omitted by saying only that cholesterol “makes membranes fluid”?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Cholesterol occurs only in artificial vesicles."
+        },
+        {
+          "label": "B",
+          "text": "Its effects depend on temperature and lipid composition and may restrain motion or prevent tight packing."
+        },
+        {
+          "label": "C",
+          "text": "It always removes proteins and gradients."
+        },
+        {
+          "label": "D",
+          "text": "Every organism uses cholesterol identically."
+        }
+      ],
+      "correct": "B",
+      "answer": "Cholesterol conditionally modulates packing rather than always increasing fluidity. 正解：B。packingは「脂質分子の詰まり方」です。A・Cは本文にない作用、Dは他生物が異なるsterolを使う説明と反対です。",
+      "sourceRefs": [
+        "legacy:english-reading-academic-membrane-dynamics-selectivity-23-q7"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What can fluorescence recovery after photobleaching and artificial vesicles test, and what limitation remains?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Both prove every energy-dependent process in intact cells."
+        },
+        {
+          "label": "B",
+          "text": "Fluorescence recovery estimates lateral motion, and vesicles isolate lipid-composition effects; neither alone captures all living-cell regulation and energy-dependent transport."
+        },
+        {
+          "label": "C",
+          "text": "Recovery measures only thickness, while vesicles identify every cytoskeletal protein."
+        },
+        {
+          "label": "D",
+          "text": "Both show one static image captures every scale."
+        }
+      ],
+      "correct": "B",
+      "answer": "The methods answer complementary structural questions but do not reproduce the full living-cell context. 正解：B。photobleachingは「蛍光退色」、vesicleは「人工小胞」です。A・Cは能力を誤り、Dは“No single image”と反対です。",
+      "sourceRefs": [
+        "legacy:english-reading-academic-membrane-dynamics-selectivity-23-q8"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which experiment would best distinguish a passive channel from an energy-dependent pump?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Measure movement once without controlling gradients or energy."
+        },
+        {
+          "label": "B",
+          "text": "Compare flux with and against a defined gradient while supplying or blocking ATP; energy dependence and uphill transport support a pump."
+        },
+        {
+          "label": "C",
+          "text": "Classify the brightest protein as a pump."
+        },
+        {
+          "label": "D",
+          "text": "Remove all solute and infer transport from shape."
+        }
+      ],
+      "correct": "B",
+      "answer": "A channel permits downhill movement; a pump can require energy and sustain uphill transport. 正解：B。uphill transportは「勾配に逆らう輸送」です。Aは条件を分離せず、C・Dは輸送機能を測りません。",
+      "sourceRefs": [
+        "legacy:english-reading-academic-membrane-dynamics-selectivity-23-q9"
+      ]
+    }
+  ]
+}
