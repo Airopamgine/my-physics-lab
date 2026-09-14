@@ -475,7 +475,9 @@
       "pageCount": 22,
       "sha256": "62205d70c0dc08a08045e56321d417b1c7ab4497bbd966f348042bcc15fbb3a5",
       "answerKeyAvailable": false,
-      "reviewedPages": [],
+      "reviewedPages": [
+        1
+      ],
       "packets": [
         {
           "path": "scripts/reading-source-text/vocabulary-p001-p010.json.gz.b64",
@@ -493,16 +495,39 @@
           "lastPage": 22
         }
       ],
-      "pageItems": {}
+      "pageItems": {
+        "1": [],
+        "2": [
+          "pdf:vocabulary:p002:qabsorb",
+          "pdf:vocabulary:p002:qambience",
+          "pdf:vocabulary:p002:qash",
+          "pdf:vocabulary:p002:qbarrier",
+          "pdf:vocabulary:p002:qblooming",
+          "pdf:vocabulary:p002:qbrilliance",
+          "pdf:vocabulary:p002:qcave",
+          "pdf:vocabulary:p002:qcognition",
+          "pdf:vocabulary:p002:qcomponent",
+          "pdf:vocabulary:p002:qconservation",
+          "pdf:vocabulary:p002:qcreative",
+          "pdf:vocabulary:p002:qcrude",
+          "pdf:vocabulary:p002:qdeity",
+          "pdf:vocabulary:p002:qdeparture",
+          "pdf:vocabulary:p002:qdiet",
+          "pdf:vocabulary:p002:qdrawback",
+          "pdf:vocabulary:p002:qdynamic",
+          "pdf:vocabulary:p002:qefficiently",
+          "pdf:vocabulary:p002:qengaging",
+          "pdf:vocabulary:p002:qerasure"
+        ]
+      }
     }
   ],
   "lastSource": {
-    "type": "legacy",
+    "type": "pdf",
     "ids": [
-      "english-reading-academic-invasive-plants-pathways-18",
-      "english-reading-academic-leadership-contingency-evidence-17"
+      "vocabulary"
     ],
-    "convertedAt": "2026-09-14T22:21:00+09:00"
+    "convertedAt": "2026-09-14T23:58:00+09:00"
   },
   "note": "Packet paths describe a private working cache, not published files. Exact question totals require review. Answer pages referenced by the books were not supplied."
 }
