@@ -1,0 +1,132 @@
+{
+  "id": "legacy-migratory-navigation-multiple-cues",
+  "title": "How Migrants Combine Imperfect Cues",
+  "task": 3,
+  "date": "2026-09-15T08:00:00+09:00",
+  "level": "B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "本文と元教材の解説から一意に判断できる正答を編集・確認しています。四つの原文段落と全九つの学習対象を保持し、元の記述問題は英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-academic-migratory-navigation-multiple-cues-16/",
+  "passages": {
+    "text": "A compass answers “Which direction am I facing?” A map answers “Where am I relative to my destination?” Successful migration may require both, yet neither has to resemble a human instrument. An animal can extract directional or positional information from the sun, stars, polarized light, landmarks, odors, winds, currents, or features of Earth’s magnetic field. The useful combination differs among species, life stages, routes, and weather conditions.\n\nConsider a young sea turtle entering the ocean. Experiments in controlled magnetic fields show that hatchlings change their swimming direction when magnetic conditions are altered. Such results support sensitivity to magnetic information; they do not prove that magnetism supplies every part of the route. A cue may act as a compass, a coarse map, or a reference used to calibrate another system. Likewise, some flying animals observe twilight polarization and later orient with a magnetic compass. The systems can cooperate rather than compete for the title of “the true sense.”\n\nLearning also matters. Many salmon acquire chemical information from their early environment and later use olfactory cues when approaching suitable spawning water. That does not mean smell alone guides the entire ocean journey. Broad-scale movement may depend on other information before local odor becomes useful. Experienced birds can also combine inherited tendencies with learned landmarks. A mechanism that works near a destination may be ineffective thousands of kilometers away.\n\nResearchers therefore separate questions that casual language blends together. Does an animal detect a stimulus? Does it use the stimulus to choose a bearing? Can it estimate position after displacement? A convincing experiment changes one source of information while controlling plausible alternatives, then predicts a specific behavioral change. Even then, a negative result may show that the cue was unavailable, redundant, or important only at another stage. Migration is best understood as a sequence of decisions made with incomplete but partly overlapping information."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What is the main idea of the passage?",
+      "options": [
+        {"label": "A", "text": "Every migrant follows a complete magnetic map from birth."},
+        {"label": "B", "text": "Migration often combines several imperfect cues whose roles must be tested separately."},
+        {"label": "C", "text": "Learned landmarks make inherited tendencies unnecessary."},
+        {"label": "D", "text": "Negative experimental results prove that an animal lacks the tested sense."}
+      ],
+      "correct": "B",
+      "answer": "The passage presents migration as decisions based on several partly overlapping cues and explains how researchers distinguish their functions. 正解：B。cueは「手がかり」、overlappingは「機能が一部重なる」です。Aは磁気を普遍化し、Cは生得性との併用を否定し、Dは否定結果の代替説明を無視します。",
+      "sourceRefs": ["legacy:english-reading-academic-migratory-navigation-multiple-cues-16-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "According to paragraph 1, how does a compass differ from a map?",
+      "options": [
+        {"label": "A", "text": "A compass provides directional orientation, whereas a map provides position relative to a destination."},
+        {"label": "B", "text": "A compass works only at sea, whereas a map works only on land."},
+        {"label": "C", "text": "A compass is learned, whereas a map must be inherited."},
+        {"label": "D", "text": "A compass identifies odors, whereas a map identifies weather."}
+      ],
+      "correct": "A",
+      "answer": "A compass answers which direction the animal faces; a map answers where it is relative to its destination. 正解：A。orientationは「方位を保つこと」、positional informationは「現在地に関する情報」です。B・C・Dの媒体や獲得方法の区別は本文にありません。",
+      "sourceRefs": ["legacy:english-reading-academic-migratory-navigation-multiple-cues-16-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does a hatchling's response to an altered magnetic field not prove that magnetism guides its entire route?",
+      "options": [
+        {"label": "A", "text": "The response supports sensitivity to magnetic information but does not isolate every navigational function or stage of the journey."},
+        {"label": "B", "text": "Controlled magnetic fields cannot be changed during an experiment."},
+        {"label": "C", "text": "Sea turtles rely exclusively on learned landmarks."},
+        {"label": "D", "text": "A directional change proves that magnetism is irrelevant to orientation."}
+      ],
+      "correct": "A",
+      "answer": "The experiment supports a role for magnetic information in direction choice, but it does not separately establish long-distance position, local search, or the absence of other cues. 正解：A。isolateは「機能を切り分けて検証する」です。Bは実験記述と反対で、C・Dは本文と矛盾します。",
+      "sourceRefs": ["legacy:english-reading-academic-migratory-navigation-multiple-cues-16-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "The word “calibrate” in paragraph 2 is closest in meaning to:",
+      "options": [
+        {"label": "A", "text": "adjust one system by reference to another"},
+        {"label": "B", "text": "erase all previously learned information"},
+        {"label": "C", "text": "travel without receiving any signal"},
+        {"label": "D", "text": "measure only the animal's body size"}
+      ],
+      "correct": "A",
+      "answer": "To calibrate a system is to adjust it by comparison with a reference. 正解：A。「別の基準に照らして調整する」です。Bは記憶消去、Cは無信号、Dは身体計測で、感覚系の協働を表しません。",
+      "sourceRefs": ["legacy:english-reading-academic-migratory-navigation-multiple-cues-16-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What division of labor among cues is illustrated by the salmon example?",
+      "options": [
+        {"label": "A", "text": "Local olfactory cues may help near spawning water, while other information may guide broad ocean movement."},
+        {"label": "B", "text": "Odor alone supplies an exact map throughout the entire ocean journey."},
+        {"label": "C", "text": "Chemical information is useful only before a salmon first enters water."},
+        {"label": "D", "text": "A mechanism useful thousands of kilometers away must become ineffective near the destination."}
+      ],
+      "correct": "A",
+      "answer": "The usefulness of a cue can change with spatial scale and journey stage: smell helps near the destination, while broad movement may use other cues. 正解：A。olfactoryは「嗅覚の」、broad-scaleは「広域の」です。Bは嗅覚を過度に一般化し、C・Dは本文と逆です。",
+      "sourceRefs": ["legacy:english-reading-academic-migratory-navigation-multiple-cues-16-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which experiment best tests whether birds use stars as a directional cue?",
+      "options": [
+        {"label": "A", "text": "Rotate or disrupt the star pattern while controlling magnetic, wind, and landmark cues, then predict a corresponding change in the birds' mean bearing."},
+        {"label": "B", "text": "Observe one bird under a natural sky without changing any cue."},
+        {"label": "C", "text": "Change the wind and star pattern together, then attribute every response to stars."},
+        {"label": "D", "text": "Remove all sensory information and make no prediction about orientation."}
+      ],
+      "correct": "A",
+      "answer": "A convincing test manipulates the proposed cue, controls plausible alternatives, and predicts a specific behavioral shift. 正解：A。bearingは「平均的な進行方位」です。Bは因果推論ができず、Cは要因を混同し、Dは検証可能な予測がありません。",
+      "sourceRefs": ["legacy:english-reading-academic-migratory-navigation-multiple-cues-16-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "If blocking a cue does not change an animal's direction, which explanation is consistent with paragraph 4?",
+      "options": [
+        {"label": "A", "text": "The cue may have been unavailable in the test, replaced by redundant information, or important only at another stage."},
+        {"label": "B", "text": "The animal certainly lacks the sensory system needed to detect the cue."},
+        {"label": "C", "text": "All other sensory cues must also have been blocked successfully."},
+        {"label": "D", "text": "The cue necessarily supplies a complete map rather than a compass."}
+      ],
+      "correct": "A",
+      "answer": "A negative result has several interpretations besides nonuse: the cue may not have been available, another cue may have substituted for it, or it may matter at a different stage. 正解：A。redundantは「他の情報で代替できる」です。B・C・Dは証拠を超えた断定です。",
+      "sourceRefs": ["legacy:english-reading-academic-migratory-navigation-multiple-cues-16-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does paragraph 4 present three questions in sequence?",
+      "options": [
+        {"label": "A", "text": "To separate stimulus detection, bearing choice, and position estimation into distinct testable abilities"},
+        {"label": "B", "text": "To claim that all three abilities depend on smell alone"},
+        {"label": "C", "text": "To replace experimental manipulation with casual observation"},
+        {"label": "D", "text": "To show that negative results have only one possible explanation"}
+      ],
+      "correct": "A",
+      "answer": "The questions turn the vague claim that an animal can navigate into three operationally distinct hypotheses. 正解：A。detectは「刺激を検出する」、estimate positionは「位置を推定する」です。B・C・Dは段落の目的と反対です。",
+      "sourceRefs": ["legacy:english-reading-academic-migratory-navigation-multiple-cues-16-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which research plan best tests whether birds integrate stellar and magnetic cues?",
+      "options": [
+        {"label": "A", "text": "Independently rotate the star pattern and magnetic field in four treatments, control other cues, compare mean bearings, and repeat with juvenile and experienced birds."},
+        {"label": "B", "text": "Release experienced birds once and infer the role of every sense from their arrival time."},
+        {"label": "C", "text": "Rotate both cues together in every group and omit a natural-cue comparison."},
+        {"label": "D", "text": "Change stars, magnetism, odor, wind, and landmarks simultaneously so the cause of a shift cannot be identified."}
+      ],
+      "correct": "A",
+      "answer": "Independent manipulations and controlled alternatives reveal whether conflicting cues produce intermediate or variable bearings and whether experience changes cue weighting. 正解：A。cue weightingは「各手がかりへの重み付け」です。B・C・Dでは複数感覚の寄与を分離できません。",
+      "sourceRefs": ["legacy:english-reading-academic-migratory-navigation-multiple-cues-16-q9"]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "legacy-rhetorical-purpose-evidence",
+  "title": "Evidence Has a Job",
+  "task": 3,
+  "date": "2026-09-15T08:00:00+09:00",
+  "level": "B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "本文と元教材の解説から一意に判断できる正答を編集・確認しています。四つの原文段落と全九つの学習対象を保持し、元の記述問題は英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-academic-rhetorical-purpose-evidence-12/",
+  "passages": {
+    "text": "A reader can understand every word in a sentence and still miss why the author included it. Consider a paragraph defining a diaspora as a population dispersed from a place of origin while maintaining connections across locations. The next sentence might mention a mutual-aid or professional network that helps newcomers. The organization is not introduced merely as a memorable name. Its rhetorical job is to make the general claim—communities can build transnational support—concrete. One example illustrates possibility; it does not prove that every diaspora formed for the same reason or organizes support in the same way.\n\nExperimental writing assigns different jobs to adjacent paragraphs. In Solomon Asch’s conformity studies of the 1950s, participants judged line lengths while a unanimous majority, composed of instructed participants, sometimes gave a clearly wrong answer. This paragraph describes a method: it creates a conflict between visible evidence and group judgment. A following paragraph reports how often participants yielded or remained independent and how responses varied across people and conditions. The result answers the question created by the method. Mixing the two makes it hard to assess what was manipulated and what was observed.\n\nAn extreme environment can serve another purpose. Dense brine at some deep-sea seeps may form a sharp boundary with surrounding seawater, and oxygen, salinity, sulfide, and methane conditions can exclude many organisms while supporting specialized microbial processes. An author may mention these sites to test ideas about the limits of metabolism or chemosynthetic food webs. The extreme case extends a theory’s range; it does not show that all deep-sea habitats share the same chemistry, nor does it by itself prove that life exists elsewhere.\n\nFinally, an unusual object may illustrate verification. Early European naturalists doubted preserved platypus specimens because the combination of features conflicted with familiar categories. Additional specimens, anatomical examination, field observation, and evidence of egg laying changed the status of the claim. The lesson is not that experts should accept every surprising report. It is that skepticism should generate tests. Across all four cases, the useful question is: what claim comes immediately before this information, and does the information define, illustrate, operationalize, report, challenge, or validate it?"
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What is the main idea of the passage?",
+      "options": [
+        {"label": "A", "text": "Every academic example proves a universal rule."},
+        {"label": "B", "text": "Readers should identify the distinct explanatory job performed by each piece of evidence."},
+        {"label": "C", "text": "Surprising reports should be accepted without testing."},
+        {"label": "D", "text": "Methods and results are interchangeable."}
+      ],
+      "correct": "B",
+      "answer": "The four cases show that information can define, illustrate, operationalize, report, challenge, or validate a claim. 正解：B。rhetorical jobは「情報が文章内で果たす説明上の役割」です。Aは範囲を広げすぎ、Cは検証を捨て、Dは操作と観察を混同します。",
+      "sourceRefs": ["legacy:english-reading-academic-rhetorical-purpose-evidence-12-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does the support-network example in paragraph 1 illustrate, and what does it not prove?",
+      "options": [
+        {"label": "A", "text": "It illustrates that communities can build transnational support, but it does not prove that every diaspora has the same cause or organization."},
+        {"label": "B", "text": "It proves that all diasporas were created by professional organizations."},
+        {"label": "C", "text": "It shows that mutual aid prevents people from maintaining cross-border connections."},
+        {"label": "D", "text": "It defines a diaspora as any organization with a memorable name."}
+      ],
+      "correct": "A",
+      "answer": "The example makes a general possibility concrete without establishing universality, frequency, or identical causes. 正解：A。transnational supportは「国境を越えた支援」です。B・C・Dは例示の範囲を誤読しています。",
+      "sourceRefs": ["legacy:english-reading-academic-rhetorical-purpose-evidence-12-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "The word “yielded” in paragraph 2 is closest in meaning to:",
+      "options": [
+        {"label": "A", "text": "changed an answer toward the group's incorrect judgment"},
+        {"label": "B", "text": "designed the experimental cards"},
+        {"label": "C", "text": "removed the majority condition"},
+        {"label": "D", "text": "verified every participant's belief"}
+      ],
+      "correct": "A",
+      "answer": "In this context, yielded means giving way to group pressure and moving an answer toward the majority's incorrect judgment. 正解：A。「圧力に譲って多数派へ合わせた」です。B・C・Dは観察された反応を表しません。",
+      "sourceRefs": ["legacy:english-reading-academic-rhetorical-purpose-evidence-12-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "How do the method and result paragraphs in the conformity example differ?",
+      "options": [
+        {"label": "A", "text": "The method states which conflict was created and what was manipulated; the result states what responses were observed under those conditions."},
+        {"label": "B", "text": "The method reports the frequency of yielding, while the result invents the unanimous majority."},
+        {"label": "C", "text": "Both paragraphs answer only whether line lengths can be measured accurately."},
+        {"label": "D", "text": "The method proves conformity is universal, while the result removes variation among participants."}
+      ],
+      "correct": "A",
+      "answer": "Method describes the manipulated situation; result reports the observed response and its variation. 正解：A。manipulateは「研究者が条件を意図的に変える」です。Bは順序を逆転し、C・Dは研究上の問いや個人差を消します。",
+      "sourceRefs": ["legacy:english-reading-academic-rhetorical-purpose-evidence-12-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does the deep-sea brine example not prove that extraterrestrial life exists?",
+      "options": [
+        {"label": "A", "text": "It tests the range of terrestrial metabolic ideas but neither duplicates every extraterrestrial condition nor directly observes life elsewhere."},
+        {"label": "B", "text": "Dense brine cannot support any specialized microbial process on Earth."},
+        {"label": "C", "text": "All deep-sea habitats have identical oxygen, salinity, sulfide, and methane levels."},
+        {"label": "D", "text": "An extreme case automatically proves every theory to which it is compared."}
+      ],
+      "correct": "A",
+      "answer": "An Earth analogue can extend or test a theory's range, but it is not a direct observation of life on another world. 正解：A。extreme caseは「理論の限界を試す極端事例」です。B・C・Dは本文と反対です。",
+      "sourceRefs": ["legacy:english-reading-academic-rhetorical-purpose-evidence-12-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "How do the words “some” and “can” limit the claims in paragraph 3?",
+      "options": [
+        {"label": "A", "text": "They restrict the description to certain sites and express conditional possibility rather than a universal or necessary effect."},
+        {"label": "B", "text": "They show that every deep-sea site necessarily has the same chemistry."},
+        {"label": "C", "text": "They convert a possibility into direct proof of extraterrestrial life."},
+        {"label": "D", "text": "They indicate that chemical conditions never exclude organisms."}
+      ],
+      "correct": "A",
+      "answer": "Some limits the claim to a subset of sites, and can marks an effect as possible under particular conditions. 正解：A。scopeは「主張の適用範囲」です。B・C・Dは限定表現を普遍的断定へ変えています。",
+      "sourceRefs": ["legacy:english-reading-academic-rhetorical-purpose-evidence-12-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What productive role for skepticism is illustrated by the platypus case?",
+      "options": [
+        {"label": "A", "text": "Skepticism should generate tests—such as additional specimens, anatomy, field observation, and reproductive evidence—that can update a claim's status."},
+        {"label": "B", "text": "Skepticism should permanently reject any object that conflicts with familiar categories."},
+        {"label": "C", "text": "Skepticism requires accepting every surprising report before evidence is collected."},
+        {"label": "D", "text": "Skepticism makes independent observations and examinations unnecessary."}
+      ],
+      "correct": "A",
+      "answer": "Doubt becomes scientifically useful when it motivates discriminating observations and tests rather than automatic rejection or acceptance. 正解：A。verificationは「独立した証拠による検証」です。Bは拒絶を終点にし、C・Dは検証を放棄します。",
+      "sourceRefs": ["legacy:english-reading-academic-rhetorical-purpose-evidence-12-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What is the rhetorical purpose of the sentence “Additional specimens and anatomical examination changed the status of the claim”?",
+      "options": [
+        {"label": "A", "text": "It defines the word diaspora."},
+        {"label": "B", "text": "It reports procedures and evidence that validated an initially doubted observation."},
+        {"label": "C", "text": "It generalizes brine chemistry to the whole ocean."},
+        {"label": "D", "text": "It describes the majority manipulation in a conformity study."}
+      ],
+      "correct": "B",
+      "answer": "The sentence shows how independent material and examination increased confidence in an initially doubtful claim. 正解：B。validatedは「証拠によって妥当性を高めた」です。A・C・Dは別の段落の内容や役割です。",
+      "sourceRefs": ["legacy:english-reading-academic-rhetorical-purpose-evidence-12-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which procedure best identifies the function of a concrete example in an academic article?",
+      "options": [
+        {"label": "A", "text": "State the preceding claim, label the example's job, identify exactly what and whom it establishes, check scope, and reject choices that describe the wrong logical relationship."},
+        {"label": "B", "text": "Choose any answer that repeats a fact from the passage, even if it describes a different relationship."},
+        {"label": "C", "text": "Assume every example is representative of all populations and conditions."},
+        {"label": "D", "text": "Ignore the claim before the example and rely only on signal words."}
+      ],
+      "correct": "A",
+      "answer": "A rhetorical-purpose analysis links the example to the nearby claim, distinguishes its job, and tests the scope and logical relation of each option. 正解：A。signal wordは「for instanceなどの標識語」ですが、論理関係の代わりにはなりません。B・C・Dは内容真偽と修辞目的を混同します。",
+      "sourceRefs": ["legacy:english-reading-academic-rhetorical-purpose-evidence-12-q9"]
+    }
+  ]
+}
