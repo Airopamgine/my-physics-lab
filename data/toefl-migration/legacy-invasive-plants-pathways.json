@@ -1,0 +1,132 @@
+{
+  "id": "legacy-invasive-plants-pathways",
+  "title": "Invasive Plants: From Arrival to Harm",
+  "task": 3,
+  "date": "2026-09-14T22:21:00+09:00",
+  "level": "B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "本文と元教材の解説から一意に判断できる正答を編集・確認しています。元の記述問題は元記事でも確認できます。",
+  "sourceUrl": "/posts/english-reading-academic-invasive-plants-pathways-18/",
+  "passages": {
+    "text": "A plant does not become invasive merely by growing outside its historical range. In many policy and scientific contexts, the term adds a second condition: the non-native organism causes, or is likely to cause, environmental, economic, or health harm. Many introduced plants remain restricted or useful. Keeping “non-native” and “invasive” separate prevents origin alone from being treated as evidence of damage.\n\nBiological invasion can be divided into stages. First, propagules such as seeds or fragments cross a boundary through a pathway. Cargo, contaminated soil, vehicles, horticultural trade, and discarded garden material can move them intentionally or accidentally. Some arrivals fail. Others survive and reproduce, becoming established. Only a subset spreads widely, and only some of those produce large measured impacts. Climate, disturbance, enemies, competitors, and repeated introductions can alter the probability at each transition.\n\nHarm also requires a mechanism and a comparison. A dense plant may reduce light reaching native seedlings, change fire behavior, alter habitat structure, or impose control costs. But abundance observed beside a damaged wetland does not by itself identify the cause. The invader may exploit a disturbance that had already harmed the site. Researchers compare invaded and appropriate uninvaded sites, measure conditions before and after establishment when possible, and test whether removing or adding the organism changes the predicted outcome.\n\nManagement follows the stages. Prevention targets high-risk pathways before arrival. Early detection and rapid response can be valuable while a population is localized. Once spread is extensive, containment, long-term control, restoration, or acceptance of limited impact may be more realistic than eradication. Risk rankings should combine the probability of arrival and spread, the magnitude and uncertainty of harm, and the feasibility and side effects of action. A dramatic species name is not a management plan; an explicit causal model is."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What is the main idea of the passage?",
+      "options": [
+        {"label": "A", "text": "Every non-native plant becomes invasive immediately after crossing a boundary."},
+        {"label": "B", "text": "Biological invasion should be analyzed as stages from transport to measured harm, with management matched to evidence and feasibility."},
+        {"label": "C", "text": "Eradication is always the least expensive response after a plant has spread widely."},
+        {"label": "D", "text": "The abundance of a plant beside damaged habitat is sufficient proof that it caused the damage."}
+      ],
+      "correct": "B",
+      "answer": "The passage connects transport, establishment, spread, measured harm, and stage-specific management. 正解：B。本文は侵入を因果の段階として追い、evidence（証拠）とfeasibility（実行可能性）に応じた管理を求めます。Aは外来性と有害性を混同し、CのalwaysとDの因果断定は本文が否定しています。",
+      "sourceRefs": ["legacy:english-reading-academic-invasive-plants-pathways-18-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does the author distinguish between “non-native” and “invasive” in paragraph 1?",
+      "options": [
+        {"label": "A", "text": "To show that being outside a historical range does not by itself demonstrate harmful effects"},
+        {"label": "B", "text": "To argue that introduced plants are harmless whenever people find them useful"},
+        {"label": "C", "text": "To prove that a plant's geographic origin predicts the magnitude of its damage"},
+        {"label": "D", "text": "To explain why the two terms describe identical stages of biological invasion"}
+      ],
+      "correct": "A",
+      "answer": "Origin and demonstrated harm are separate conditions in the passage. 正解：A。non-nativeは「本来の分布域外にいる外来の」、invasiveは「害を生む侵略的な」を意味します。Bは有用性から無害を断定し、CとDは区別そのものを消してしまいます。",
+      "sourceRefs": ["legacy:english-reading-academic-invasive-plants-pathways-18-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which sequence best represents the invasion process described in paragraph 2?",
+      "options": [
+        {"label": "A", "text": "Measured impact → wide spread → establishment → movement through a pathway"},
+        {"label": "B", "text": "Movement through a pathway → survival and reproduction → wide spread → measured impact"},
+        {"label": "C", "text": "Establishment → measured impact → arrival → repeated introduction"},
+        {"label": "D", "text": "Wide spread → pathway formation → establishment → disappearance of all competitors"}
+      ],
+      "correct": "B",
+      "answer": "Propagules first arrive through a pathway, then some establish, fewer spread, and fewer still cause large measured impacts. 正解：B。propaguleは「繁殖体」、establishmentは「生存・繁殖して定着すること」です。各段階は次を保証しないため、A・C・Dの逆転した順序は不適切です。",
+      "sourceRefs": ["legacy:english-reading-academic-invasive-plants-pathways-18-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "The phrase “Only a subset” in paragraph 2 is closest in meaning to:",
+      "options": [
+        {"label": "A", "text": "only some members of the preceding group"},
+        {"label": "B", "text": "every organism without exception"},
+        {"label": "C", "text": "an unrelated group measured earlier"},
+        {"label": "D", "text": "plants selected only for decoration"}
+      ],
+      "correct": "A",
+      "answer": "A subset is a smaller group contained within a larger preceding group. 正解：A。subsetは「部分集合・一部」で、定着した植物の一部だけが広く拡散します。Bは数量が逆、Cは包含関係を失い、Dはhorticultural tradeとの単なる連想です。",
+      "sourceRefs": ["legacy:english-reading-academic-invasive-plants-pathways-18-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why is the abundance of an introduced plant beside a damaged wetland insufficient to prove that the plant caused the damage?",
+      "options": [
+        {"label": "A", "text": "Introduced plants can never affect wetlands under any conditions."},
+        {"label": "B", "text": "Plant abundance cannot be measured reliably near a wetland."},
+        {"label": "C", "text": "An earlier disturbance may have damaged the wetland and also made invasion easier."},
+        {"label": "D", "text": "Only economic harm, rather than environmental harm, counts as an invasive impact."}
+      ],
+      "correct": "C",
+      "answer": "A prior disturbance could be a common cause of both habitat damage and plant abundance. 正解：C。これはconfounding（交絡：第三の要因が原因と結果の両方に影響すること）の問題です。AとDは本文と反対で、Bは測定不能ではなく、観察だけでは因果方向を決められない点を外しています。",
+      "sourceRefs": ["legacy:english-reading-academic-invasive-plants-pathways-18-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which study would best test the mechanism that an invasive plant reduces light available to native seedlings?",
+      "options": [
+        {"label": "A", "text": "Record only the invasive plant's scientific name at one damaged site."},
+        {"label": "B", "text": "Compare public concern about the plant before and after a dramatic news report."},
+        {"label": "C", "text": "Measure seedling growth only where the invasive plant is already most abundant."},
+        {"label": "D", "text": "Compare light and seedling performance across matched plots, removing the invader from some plots and using disturbance controls."}
+      ],
+      "correct": "D",
+      "answer": "Matched plots plus a removal treatment test whether changing the invader changes light and seedling outcomes as predicted. 正解：D。disturbance controlは「除去作業そのものの影響を分ける対照区」です。A・Bは機構を測らず、Cは未侵入区や操作がないため共存と原因を区別できません。",
+      "sourceRefs": ["legacy:english-reading-academic-invasive-plants-pathways-18-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why should management goals differ between a localized population and one that has already spread extensively?",
+      "options": [
+        {"label": "A", "text": "Localized populations always cause more harm than widespread populations."},
+        {"label": "B", "text": "Eradication may still be feasible when a population is small, whereas containment or long-term control may be more realistic after wide spread."},
+        {"label": "C", "text": "Prevention is useful only after a species has occupied an entire region."},
+        {"label": "D", "text": "Widespread populations are automatically native and therefore require no evaluation."}
+      ],
+      "correct": "B",
+      "answer": "The feasible objective changes as search area, population size, and reinvasion risk grow. 正解：B。localizedは「局所的な」、eradicationは「根絶」、containmentは「拡大を一定範囲に抑えること」です。A・C・Dは段階に応じて管理を変える本文の論理と矛盾します。",
+      "sourceRefs": ["legacy:english-reading-academic-invasive-plants-pathways-18-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does the sentence “A dramatic species name is not a management plan” criticize?",
+      "options": [
+        {"label": "A", "text": "The use of scientific names in all ecological research"},
+        {"label": "B", "text": "Any attempt to rank risks before a species arrives"},
+        {"label": "C", "text": "Choosing action from an alarming label without analyzing pathways, impacts, feasibility, and side effects"},
+        {"label": "D", "text": "The practice of measuring uncertainty in environmental decisions"}
+      ],
+      "correct": "C",
+      "answer": "The sentence rejects label-driven action and demands an explicit causal model. 正解：C。「危険そうな名称」だけで一律対策を決めず、経路・影響・費用・副作用を検討せよという修辞です。explicitは「明示的な」。Aは名称一般の否定、BとDはむしろ本文が推奨する分析です。",
+      "sourceRefs": ["legacy:english-reading-academic-invasive-plants-pathways-18-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which plan best applies the passage's framework to a newly detected non-native plant?",
+      "options": [
+        {"label": "A", "text": "Begin region-wide eradication solely because the plant has an alarming common name."},
+        {"label": "B", "text": "Wait until damage is irreversible so that uncertainty no longer affects the decision."},
+        {"label": "C", "text": "Rank the plant only by current abundance and ignore how it arrived or whether control harms other species."},
+        {"label": "D", "text": "Assess pathway, establishment and spread probability, measured harm and uncertainty, then weigh detectability, control feasibility, cost, and non-target effects."}
+      ],
+      "correct": "D",
+      "answer": "Option D follows the complete causal and management chain described in the passage. 正解：D。detectabilityは「発見しやすさ」、non-target effectsは「対象外の生物への影響」です。AとCは単一指標へ短絡し、Bは早期対応の機会を失うため、限られた管理資源の優先順位として不適切です。",
+      "sourceRefs": ["legacy:english-reading-academic-invasive-plants-pathways-18-q9"]
+    }
+  ]
+}

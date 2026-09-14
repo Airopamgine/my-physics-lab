@@ -1,0 +1,132 @@
+{
+  "id": "legacy-leadership-contingency",
+  "title": "Leadership Labels as Starting Hypotheses",
+  "task": 3,
+  "date": "2026-09-14T22:21:00+09:00",
+  "level": "B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "本文と元教材の解説から一意に判断できる正答を編集・確認しています。元の記述問題は元記事でも確認できます。",
+  "sourceUrl": "/posts/english-reading-academic-leadership-contingency-evidence-17/",
+  "passages": {
+    "text": "Leadership theories often group behavior into recognizable patterns. Transformational leadership emphasizes an articulated vision, intellectual stimulation, and attention to followers’ development. Transactional leadership makes expectations explicit and links performance to rewards or corrective action. Servant leadership begins from a commitment to serve and asks whether people become more capable and autonomous. These descriptions overlap: one manager may clarify a deadline, invite a new solution, and remove an obstacle for a colleague in the same afternoon.\n\nA label is therefore not a complete causal explanation. Suppose a team with a highly rated leader performs well. The leader may have improved performance, but successful teams may also rate leaders more favorably. Selection matters too: experienced leaders may be assigned to promising teams, while difficult units receive emergency managers. A study must establish temporal order, measure prior performance, and compare plausible alternatives before treating an association as an effect.\n\nContext changes the value of particular behaviors. Clear rules and rapid correction can be useful when a routine process is safety-critical. Exploration may require permission to question assumptions and tolerate informative failure. A team with neglected members may benefit from listening and development. Yet “it depends” is not a sufficient conclusion. Researchers should specify the task, time horizon, authority structure, team experience, and outcome in advance. Speed, learning, well-being, and ethical conduct are different outcomes and may not move together.\n\nEmotional intelligence illustrates another distinction. Recognizing and regulating emotion may help a leader listen, communicate, or de-escalate conflict, but it is a capacity rather than one of the three behavior patterns above. Good analysis asks what was done, through what mechanism, for whom, and under which conditions. The useful question is not “Which label always wins?” but “Which observable behavior should improve this defined outcome here, and what evidence could prove us wrong?”"
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What is the main idea of the passage?",
+      "options": [
+        {"label": "A", "text": "One fixed leadership category predicts every desirable organizational outcome."},
+        {"label": "B", "text": "Leadership categories are useful hypotheses, but causal claims require specified behaviors, contexts, outcomes, and alternative explanations."},
+        {"label": "C", "text": "Transactional behavior is appropriate only when an organization has no rules."},
+        {"label": "D", "text": "Emotional intelligence is a fourth behavior pattern identical to servant leadership."}
+      ],
+      "correct": "B",
+      "answer": "The passage treats labels as starting hypotheses and shifts attention to observable behavior, causal mechanisms, context, and evidence. 正解：B。hypothesisは「検証すべき仮説」です。Aは万能型を仮定し、Cは安全重視の定型作業という説明と逆、Dはcapacityとbehavior patternを混同しています。",
+      "sourceRefs": ["legacy:english-reading-academic-leadership-contingency-evidence-17-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does the “same afternoon” example in paragraph 1 show about leadership categories?",
+      "options": [
+        {"label": "A", "text": "A manager must permanently belong to exactly one category."},
+        {"label": "B", "text": "Leadership categories describe personality traits that cannot change with context."},
+        {"label": "C", "text": "The behavior patterns overlap, so one manager may display actions associated with several categories."},
+        {"label": "D", "text": "Clarifying deadlines is incompatible with helping colleagues overcome obstacles."}
+      ],
+      "correct": "C",
+      "answer": "One manager performs transactional, transformational, and servant-like actions within the same period. 正解：C。overlapは「重なり合うこと」。分類は排他的な人格タイプではなく、組み合わせ可能なbehavior clusters（行動群）です。A・B・Dは例が示す柔軟性と反対です。",
+      "sourceRefs": ["legacy:english-reading-academic-leadership-contingency-evidence-17-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which possibility illustrates reverse causality in the relationship between leader ratings and team performance?",
+      "options": [
+        {"label": "A", "text": "A team's prior success causes its members to evaluate the leader more favorably."},
+        {"label": "B", "text": "A leader's behavior improves performance before team members provide ratings."},
+        {"label": "C", "text": "Researchers measure prior performance before assigning leaders."},
+        {"label": "D", "text": "A safety-critical task requires rapid correction of errors."}
+      ],
+      "correct": "A",
+      "answer": "Reverse causality means the presumed outcome may instead influence the presumed cause. 正解：A。本文では「高評価の指導者→成功」だけでなく、「すでに成功したチーム→指導者を高評価」もあり得ます。temporal orderは「原因候補が結果より先に起きる時間順序」です。",
+      "sourceRefs": ["legacy:english-reading-academic-leadership-contingency-evidence-17-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "The phrase “selection matters” in paragraph 2 is closest in meaning to:",
+      "options": [
+        {"label": "A", "text": "assignment processes can create differences before leadership behavior is measured"},
+        {"label": "B", "text": "every participant must select the same answer"},
+        {"label": "C", "text": "leaders are randomly assigned in all organizations"},
+        {"label": "D", "text": "only the largest team should be studied"}
+      ],
+      "correct": "A",
+      "answer": "Leader assignment may be systematically related to a team's initial prospects or difficulties. 正解：A。selectionはここでは「配置・選抜による偏り」で、経験豊富な指導者が有望チームへ配属される可能性を指します。Bは試験用語への誤読、Cは本文と逆、Dは標本規模の話です。",
+      "sourceRefs": ["legacy:english-reading-academic-leadership-contingency-evidence-17-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why might useful leadership behavior differ between a safety-critical routine task and an exploratory task?",
+      "options": [
+        {"label": "A", "text": "Exploratory work always has one known procedure that must be followed without question."},
+        {"label": "B", "text": "Routine work benefits only from emotional intelligence and never from clear expectations."},
+        {"label": "C", "text": "The same behavior has identical effects regardless of the task or its risks."},
+        {"label": "D", "text": "Routine safety work may reward clear rules and correction, whereas exploration may require questioning assumptions and learning from failure."}
+      ],
+      "correct": "D",
+      "answer": "Task structure changes the mechanism through which behavior affects results. 正解：D。safety-criticalは「失敗が安全に重大な影響を与える」、exploratoryは「探索的な」です。既知手順では逸脱修正が有効でも、未知の解を探す場面では異論とinformative failure（学びを与える失敗）が必要になります。",
+      "sourceRefs": ["legacy:english-reading-academic-leadership-contingency-evidence-17-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What information may be lost if speed and learning are combined into one general “performance” score?",
+      "options": [
+        {"label": "A", "text": "Whether the leader has an official job title"},
+        {"label": "B", "text": "Whether faster short-term output was accompanied by weaker long-term learning, or vice versa"},
+        {"label": "C", "text": "Whether all outcomes improved by exactly the same amount"},
+        {"label": "D", "text": "Whether the team used transformational terminology in a survey"}
+      ],
+      "correct": "B",
+      "answer": "A combined score can hide trade-offs between distinct outcomes that do not move together. 正解：B。speedは短期の速さ、learningは長期の技能獲得で、一方の改善と他方の悪化が相殺される可能性があります。trade-offは「一方を得るために他方を犠牲にする関係」です。",
+      "sourceRefs": ["legacy:english-reading-academic-leadership-contingency-evidence-17-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "How does the passage distinguish emotional intelligence as a capacity from a leadership style?",
+      "options": [
+        {"label": "A", "text": "A capacity is a fixed label that determines only one observable behavior."},
+        {"label": "B", "text": "A style is an emotion, while a capacity is an organizational outcome."},
+        {"label": "C", "text": "A capacity can support several kinds of behavior, whereas a style describes a recurring pattern of actions."},
+        {"label": "D", "text": "Emotional intelligence prevents a leader from using transactional or transformational behavior."}
+      ],
+      "correct": "C",
+      "answer": "Recognizing and regulating emotion can support listening, communication, or de-escalation across different behavior patterns. 正解：C。capacityは「複数の行動を支える能力」、styleは「繰り返し観察される行動様式」です。de-escalateは「対立の激化を抑える」。A・B・Dは両概念を誤って固定・分離しています。",
+      "sourceRefs": ["legacy:english-reading-academic-leadership-contingency-evidence-17-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What is the rhetorical purpose of the sentence “Yet ‘it depends’ is not a sufficient conclusion” in paragraph 3?",
+      "options": [
+        {"label": "A", "text": "To require researchers to replace a vague contextual claim with specific, testable conditions and outcomes"},
+        {"label": "B", "text": "To reject the idea that context can ever influence leadership effectiveness"},
+        {"label": "C", "text": "To conclude that all leadership behaviors are equally effective"},
+        {"label": "D", "text": "To argue that researchers should wait until every uncertainty disappears"}
+      ],
+      "correct": "A",
+      "answer": "The sentence turns a vague qualification into a demand for pre-specified variables. 正解：A。直後にtask、time horizon（評価期間）、authority structure（権限構造）、experience、outcomeを事前指定せよと続きます。B・Cは文脈差を否定し、Dは不確実性の下での検証を止めます。",
+      "sourceRefs": ["legacy:english-reading-academic-leadership-contingency-evidence-17-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which research design best follows the passage's recommendations for testing a leadership behavior?",
+      "options": [
+        {"label": "A", "text": "Ask successful teams to choose their favorite leadership label and treat the most popular label as the cause of success."},
+        {"label": "B", "text": "Measure only leader ratings after the project and combine every outcome into one score."},
+        {"label": "C", "text": "Assign experienced leaders only to promising teams and compare them with emergency managers in failing units."},
+        {"label": "D", "text": "Define a specific behavior and outcome, record baseline performance and context, compare plausible alternatives, and state what result would contradict the hypothesis."}
+      ],
+      "correct": "D",
+      "answer": "Option D establishes temporal order, measures the baseline, specifies context and outcome, and allows falsification. 正解：D。baselineは「介入前の基準値」、falsificationは「反証可能性」です。AとBは逆因果を残し、Cはselection bias（配置の偏り）を強めるため、行動の効果を分離できません。",
+      "sourceRefs": ["legacy:english-reading-academic-leadership-contingency-evidence-17-q9"]
+    }
+  ]
+}
