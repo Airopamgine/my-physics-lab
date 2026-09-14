@@ -1,0 +1,233 @@
+{
+  "id": "pdf-vocabulary-day01-part1",
+  "title": "Vocabulary Day 01 · Context Completion 1",
+  "task": 1,
+  "date": "2026-09-14T23:58:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 2ページ／冊子380ページ · Day 01先頭20語（全50語中）",
+  "verificationNote": "掲載語・綴り・日本語義をスキャン原本で確認済みです。各語を文脈で判断できるmissing-letter exerciseへ編集しています。出版社の公式解答表は未収録ですが、正答は掲載headwordと一致します。",
+  "passages": {
+    "absorb": "Wetland soils can abs___ excess nutrients before they reach a river.",
+    "ambience": "Soft lighting and quiet music created a calm amb_____ in the reading room.",
+    "ash": "After the eruption, volcanic a__ covered the fields near the mountain.",
+    "barrier": "The mountain range forms a natural bar____ that limits movement between the two regions.",
+    "blooming": "The bloo____ flowers attract insects that carry pollen between plants.",
+    "brilliance": "The brill_____ of the star increased sharply before the explosion.",
+    "cave": "Bats use echolocation to navigate inside a dark ca__.",
+    "cognition": "Adequate sleep supports cogni____, including attention, memory, and reasoning.",
+    "component": "Each com______ of the circuit performs a specific function.",
+    "conservation": "Habitat conser______ can protect species whose breeding areas are disappearing.",
+    "creative": "The engineering team proposed a crea____ solution that used waste heat to generate electricity.",
+    "crude": "The refinery separates cr___ oil into fuels and other useful products.",
+    "deity": "The ancient community built a temple to honor a local de___.",
+    "departure": "The train's dep______ was delayed because snow blocked the tracks.",
+    "diet": "A balanced d___ supplies the nutrients needed for growth and repair.",
+    "drawback": "One draw____ of the new material is its high production cost.",
+    "dynamic": "Earth's climate is a dyn____ system in which the ocean and atmosphere continually interact.",
+    "efficiently": "The revised algorithm uses memory more effi_______ than the earlier version.",
+    "engaging": "The lecturer used an enga____ example to hold the students' attention.",
+    "erasure": "The accidental era____ of the archive removed several years of research data."
+  },
+  "questions": [
+    {
+      "passageId": "absorb",
+      "prompt": "Day 01 vocabulary: complete abs___. Enter the missing letters.",
+      "prefix": "abs",
+      "word": "absorb",
+      "answer": "Absorb means to take a substance in rather than merely block it. 正解：orb → absorb（吸収する・吸い込む）。湿地土壌が余分な栄養分を内部へ取り込み、河川への流入を減らす文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p002:qabsorb"
+      ]
+    },
+    {
+      "passageId": "ambience",
+      "prompt": "Day 01 vocabulary: complete amb_____. Enter the missing letters.",
+      "prefix": "amb",
+      "word": "ambience",
+      "answer": "Ambience describes the overall mood or atmosphere of a place. 正解：ience → ambience（雰囲気）。照明と音楽が読書室全体に落ち着いた感じを与えています。atmosphereも同じ意味で使われます。",
+      "sourceRefs": [
+        "pdf:vocabulary:p002:qambience"
+      ]
+    },
+    {
+      "passageId": "ash",
+      "prompt": "Day 01 vocabulary: complete a__. Enter the missing letters.",
+      "prefix": "a",
+      "word": "ash",
+      "answer": "Ash is the fine material left after burning or released by a volcano. 正解：sh → ash（灰・火山灰）。volcanic ashは「火山灰」で、噴火後に畑を覆ったという文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p002:qash"
+      ]
+    },
+    {
+      "passageId": "barrier",
+      "prompt": "Day 01 vocabulary: complete bar____. Enter the missing letters.",
+      "prefix": "bar",
+      "word": "barrier",
+      "answer": "A barrier is something that blocks or restricts movement. 正解：rier → barrier（障壁・防御壁）。山脈が二地域間の移動を妨げるnatural barrierとして働きます。",
+      "sourceRefs": [
+        "pdf:vocabulary:p002:qbarrier"
+      ]
+    },
+    {
+      "passageId": "blooming",
+      "prompt": "Day 01 vocabulary: complete bloo____. Enter the missing letters.",
+      "prefix": "bloo",
+      "word": "blooming",
+      "answer": "Blooming means producing or displaying flowers. 正解：ming → blooming（花が咲いている・満開の）。flowersを修飾し、花粉を運ぶ昆虫を引き寄せる時期を示します。pollenは「花粉」です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p002:qblooming"
+      ]
+    },
+    {
+      "passageId": "brilliance",
+      "prompt": "Day 01 vocabulary: complete brill_____. Enter the missing letters.",
+      "prefix": "brill",
+      "word": "brilliance",
+      "answer": "Brilliance refers to intense brightness or exceptional vividness. 正解：iance → brilliance（輝き・明るさ）。星の爆発前にbrightness（明るさ）が増したという天文学的文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p002:qbrilliance"
+      ]
+    },
+    {
+      "passageId": "cave",
+      "prompt": "Day 01 vocabulary: complete ca__. Enter the missing letters.",
+      "prefix": "ca",
+      "word": "cave",
+      "answer": "A cave is a natural hollow space in rock or underground. 正解：ve → cave（洞窟・ほら穴）。echolocation（反響定位）によって、暗い洞窟内を移動するという意味です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p002:qcave"
+      ]
+    },
+    {
+      "passageId": "cognition",
+      "prompt": "Day 01 vocabulary: complete cogni____. Enter the missing letters.",
+      "prefix": "cogni",
+      "word": "cognition",
+      "answer": "Cognition covers mental processes such as attention, memory, and reasoning. 正解：tion → cognition（認知・認識）。睡眠が複数のmental processes（精神的過程）を支える文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p002:qcognition"
+      ]
+    },
+    {
+      "passageId": "component",
+      "prompt": "Day 01 vocabulary: complete com______. Enter the missing letters.",
+      "prefix": "com",
+      "word": "component",
+      "answer": "A component is one part of a larger system or device. 正解：ponent → component（構成要素・部品）。回路全体を構成する各部品が特定のfunction（機能）を持つと説明しています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p002:qcomponent"
+      ]
+    },
+    {
+      "passageId": "conservation",
+      "prompt": "Day 01 vocabulary: complete conser______. Enter the missing letters.",
+      "prefix": "conser",
+      "word": "conservation",
+      "answer": "Conservation means protecting natural resources, habitats, or species. 正解：vation → conservation（保全・保護）。繁殖地を守って種の減少を防ぐhabitat conservationの文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p002:qconservation"
+      ]
+    },
+    {
+      "passageId": "creative",
+      "prompt": "Day 01 vocabulary: complete crea____. Enter the missing letters.",
+      "prefix": "crea",
+      "word": "creative",
+      "answer": "Creative describes an original and useful way of producing an idea or solution. 正解：tive → creative（創造的な・独創的な）。廃熱を発電へ再利用する新しい解決策を修飾しています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p002:qcreative"
+      ]
+    },
+    {
+      "passageId": "crude",
+      "prompt": "Day 01 vocabulary: complete cr___. Enter the missing letters.",
+      "prefix": "cr",
+      "word": "crude",
+      "answer": "Crude oil is petroleum before it has been refined. 正解：ude → crude。ここではcrude oil（原油）の意味です。crudeには別に「粗雑な・未加工の」という意味もあります。",
+      "sourceRefs": [
+        "pdf:vocabulary:p002:qcrude"
+      ]
+    },
+    {
+      "passageId": "deity",
+      "prompt": "Day 01 vocabulary: complete de___. Enter the missing letters.",
+      "prefix": "de",
+      "word": "deity",
+      "answer": "A deity is a god or goddess worshipped by a community. 正解：ity → deity（神・神格）。templeを建ててhonorする対象なので、宗教的存在を表す名詞が入ります。",
+      "sourceRefs": [
+        "pdf:vocabulary:p002:qdeity"
+      ]
+    },
+    {
+      "passageId": "departure",
+      "prompt": "Day 01 vocabulary: complete dep______. Enter the missing letters.",
+      "prefix": "dep",
+      "word": "departure",
+      "answer": "Departure is the act or scheduled time of leaving. 正解：arture → departure（出発・離脱）。列車が駅を出る時刻が雪で遅れた文脈です。departure from a ruleなら「規則からの逸脱」にもなります。",
+      "sourceRefs": [
+        "pdf:vocabulary:p002:qdeparture"
+      ]
+    },
+    {
+      "passageId": "diet",
+      "prompt": "Day 01 vocabulary: complete d___. Enter the missing letters.",
+      "prefix": "d",
+      "word": "diet",
+      "answer": "Diet means the food and drink a person or organism regularly consumes. 正解：iet → diet（食事・食生活）。balanced dietは「栄養の偏りが少ない食生活」で、成長と修復に必要な栄養を供給します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p002:qdiet"
+      ]
+    },
+    {
+      "passageId": "drawback",
+      "prompt": "Day 01 vocabulary: complete draw____. Enter the missing letters.",
+      "prefix": "draw",
+      "word": "drawback",
+      "answer": "A drawback is a disadvantage that reduces the value of an option. 正解：back → drawback（欠点・短所）。材料の性能ではなく、高い製造費が採用上の不利になると述べています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p002:qdrawback"
+      ]
+    },
+    {
+      "passageId": "dynamic",
+      "prompt": "Day 01 vocabulary: complete dyn____. Enter the missing letters.",
+      "prefix": "dyn",
+      "word": "dynamic",
+      "answer": "Dynamic describes a system that changes through active interactions. 正解：amic → dynamic（動的な・変化に富む）。海洋と大気が絶えず相互作用するため、固定的なsystemではありません。",
+      "sourceRefs": [
+        "pdf:vocabulary:p002:qdynamic"
+      ]
+    },
+    {
+      "passageId": "efficiently",
+      "prompt": "Day 01 vocabulary: complete effi_______. Enter the missing letters.",
+      "prefix": "effi",
+      "word": "efficiently",
+      "answer": "Efficiently means achieving a result with minimal waste of time or resources. 正解：ciently → efficiently（効率的に）。usesを修飾する副詞で、以前より少ない無駄でmemoryを利用する意味です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p002:qefficiently"
+      ]
+    },
+    {
+      "passageId": "engaging",
+      "prompt": "Day 01 vocabulary: complete enga____. Enter the missing letters.",
+      "prefix": "enga",
+      "word": "engaging",
+      "answer": "Engaging means interesting enough to attract and keep attention. 正解：ging → engaging（魅力的な・興味を引く）。学生のattention（注意）を保つexampleを修飾しています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p002:qengaging"
+      ]
+    },
+    {
+      "passageId": "erasure",
+      "prompt": "Day 01 vocabulary: complete era____. Enter the missing letters.",
+      "prefix": "era",
+      "word": "erasure",
+      "answer": "Erasure is the act of deleting, removing, or wiping something out. 正解：sure → erasure（削除・消去）。archiveのデータが誤って消された出来事を指し、動詞eraseの名詞形です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p002:qerasure"
+      ]
+    }
+  ]
+}
