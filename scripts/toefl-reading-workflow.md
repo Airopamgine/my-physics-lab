@@ -57,6 +57,11 @@ through `data/toefl-quick-reading.json`. Old feed question IDs are also preserve
    contextual vocabulary and insertion questions. Insertion questions must show
    the sentence and four explicit A–D locations. Each blank gets its own source
    ref. Every vocabulary-list headword needs a contextual completion/meaning item.
+   Keep every Task 2 question attached to its source document: full test passages
+   normally have two or three questions, while early one-question drills remain
+   one-question drills. Never reduce a multi-question block to its main-purpose
+   question. For Task 1 passages with multiple blanks, collect every response in
+   that passage before revealing any correct answer; do not leak later answers.
 4. For existing posts retain ALL learning targets. Convert Japanese translation,
    explanation and essay prompts into English reading questions with four English
    choices and one defensible correct answer, or suitable missing-letter tasks.

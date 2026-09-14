@@ -119,25 +119,28 @@ class TaskCatalogTests(unittest.TestCase):
                                     for line in section.splitlines() if line.startswith('>')).strip()
                 self.assertTrue(all(q['passage'] == passage for q in item['questions']))
 
-    def test_task2_daily_life_partial_page_keeps_ambiguous_question_pending(self):
+    def test_task2_daily_life_preserves_all_questions_through_page13(self):
         bank = self.build()
         item = next(s for s in bank['sets'] if s['id'] == 'pdf-task2-p009-013')
         refs = [f'pdf:task2:p{page:03d}:q{question:02d}'
                 for page, question in [(9, 3), (9, 4), (10, 1), (10, 2),
                                        (11, 3), (11, 4), (12, 5), (12, 6),
-                                       (13, 7), (13, 8)]]
+                                       (13, 7), (13, 8), (13, 9)]]
         self.assertEqual([q['sourceRefs'] for q in item['questions']], [[ref] for ref in refs])
-        self.assertEqual([q['correct'] for q in item['questions']], list('ABCDCAACBB'))
+        self.assertEqual([q['correct'] for q in item['questions']], list('ABCDCAACBBC'))
         self.assertEqual(len({q['passage'] for q in item['questions']}), 6)
         index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
         source = next(s for s in index['sources'] if s['id'] == 'task2')
-        self.assertTrue({9, 10, 11, 12}.issubset(source['reviewedPages']))
-        self.assertNotIn(13, source['reviewedPages'])
-        self.assertTrue(any(item['sourceRef'] == 'pdf:task2:p013:q09'
-                            and item['status'] == 'pending-verification'
-                            for item in source['blockedItems']))
-        self.assertNotIn('pdf:task2:p013:q09',
-                         {ref for s in bank['sets'] for q in s['questions'] for ref in q.get('sourceRefs', [])})
+        self.assertTrue({9, 10, 11, 12, 13}.issubset(source['reviewedPages']))
+        self.assertEqual(source['pageItems']['13'], [
+            'pdf:task2:p013:q07', 'pdf:task2:p013:q08', 'pdf:task2:p013:q09'])
+
+    def test_task1_feedback_is_deferred_until_all_blanks_in_a_passage_are_submitted(self):
+        script = (ROOT / 'static/js/english-library.js').read_text()
+        self.assertIn('function sameGapPassage(left, right)', script)
+        self.assertIn('Save and continue', script)
+        self.assertIn('if (!isFinalGapInPassage())', script)
+        self.assertIn('全空欄を提出したため、ここで正答をまとめて表示します', script)
 
     def test_cubism_and_deep_sea_preserve_passages_and_all_nine_targets(self):
         bank = self.build()

@@ -4,8 +4,8 @@
   "task": 2,
   "date": "2026-09-13T18:20:00+09:00",
   "level": "B1–B2",
-  "sourceLabel": "提供PDF Task 2 · PDF 9–13ページ／冊子85–89ページ · 10問（冊子89ページの問09は保留）",
-  "verificationNote": "Editorial answers（編集・確認した解答）。スキャン原本の本文・選択肢を照合し、本文根拠から正答を作成しました。出版社の解答表とは未照合。冊子89ページの問09は根拠不足のため採点対象に含めていません。",
+  "sourceLabel": "提供PDF Task 2 · PDF 9–13ページ／冊子85–89ページ · 全11問",
+  "verificationNote": "Editorial answers（編集・確認した解答）。スキャン原本の本文・選択肢を照合し、本文根拠から正答を作成しました。出版社の解答表とは未照合です。冊子89ページの問09は、選択肢中ではCが出題意図に最も合うと編集判断しています。",
   "passages": {
     "garden": "Dear Valued Customers,\n\nOur rooftop garden will be closed for seasonal maintenance from May 25 to June 1. We will be working daily to perform safety checks and plant new flowers to ensure the garden remains a safe and pleasant space for everyone. We look forward to welcoming you back on June 2!",
     "tennis": "Subject: Request to Reschedule Tennis Lesson\n\nDear Mr. Lin,\n\nI am writing to reschedule my tennis lesson, which is currently booked for this Wednesday, May 6, at 5:00 P.M. Unfortunately, a work commitment has come up, so I will not be able to make it at the scheduled time.\nI would like to know if it would be possible to move my lesson to this Friday, May 8, at 10:00 A.M. If that time is not available, I am also free any time after 4:00 P.M. on Friday. I would also appreciate it if you could suggest an alternative instructor in case you are not available on Friday.\nThank you for your understanding.\n\nKind regards,\nLaura Mondale",
@@ -283,6 +283,33 @@
       "answer": "Amsterdam supplies the author's personal example before the general touring tips. 正解：B。example（具体例）として体験を示しています。Aは人気スポットの一覧ではなく、Cは特定目的地の推奨が主目的という読み過ぎ。Dのbestという欧州内比較は本文にありません。",
       "sourceRefs": [
         "pdf:task2:p013:q08"
+      ]
+    },
+    {
+      "passageId": "cycling",
+      "prompt": "What can be inferred about bike-specific apps?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They are mainly used for booking bikes in advance."
+        },
+        {
+          "label": "B",
+          "text": "They list cafes and parks that are accessible to cyclists."
+        },
+        {
+          "label": "C",
+          "text": "They provide real-time road information."
+        },
+        {
+          "label": "D",
+          "text": "They are necessary for making bike rental payments."
+        }
+      ],
+      "correct": "C",
+      "answer": "Among the four choices, C best explains how an app can help a rider avoid busy roads. 正解：C。本文のUsing bike-specific apps can help you avoid busy roadsから、道路・経路情報を提供すると推論するのが出題意図です。ただしreal-time（リアルタイムの）は本文に明記されていないため、これは出版社の公式解答と未照合のeditorial answerです。Aの予約、Bの施設一覧、Dの支払いは本文に根拠がありません。",
+      "sourceRefs": [
+        "pdf:task2:p013:q09"
       ]
     }
   ]
