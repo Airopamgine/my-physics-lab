@@ -436,18 +436,12 @@
     }
   ],
   "lastSource": {
-    "type": "pdf",
-    "id": "actual",
-    "pages": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7
+    "type": "legacy",
+    "ids": [
+      "english-reading-academic-hyena-rank-social-support-13",
+      "english-reading-academic-industrial-revolution-uneven-change-20"
     ],
-    "convertedAt": "2026-09-14T12:00:00+09:00"
+    "convertedAt": "2026-09-14T16:05:00+09:00"
   },
   "note": "Packet paths describe a private working cache, not published files. Exact question totals require review. Answer pages referenced by the books were not supplied."
 }
