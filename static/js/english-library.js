@@ -231,11 +231,10 @@
     const progressPanel = document.getElementById("reading-migration-progress");
     if (progressPanel && bank.migration) {
       const m = bank.migration;
-      progressPanel.innerHTML = `<p><strong>既存教材：</strong>${m.legacyConverted} / ${m.legacyTotal}問をTOEFL形式へ移行済み</p>
-        <p><strong>PDF教材：</strong>${m.pdfPublished}問を掲載済み · 全${m.pdfPageTotal}ページのうち${m.pdfReviewedPages}ページを照合済み</p>
+      progressPanel.innerHTML = `<p><strong>PDF教材：</strong>${m.pdfPublished}問を掲載済み · 全${m.pdfPageTotal}ページのうち${m.pdfReviewedPages}ページを照合済み</p>
         <p class="toefl-small-note">${m.pdfTotalQuestions === null ? "PDF全体の正確な設問数は照合中です。ページ数を問題数として数えていません。" : `PDFの全${m.pdfTotalQuestions}問を確認済みです。`}</p>`;
       const note = document.getElementById("reading-migration-note");
-      if (note) note.textContent = (m.complete ? "全問の形式移行が完了しました。" : "まだ全問の移行は完了していません。元の教材は移行中も解答できます。") + (m.answerKeysMissing ? "PDFの解答・解説ページは未収録のため、掲載する解答は本文・文法に照らして確認しています。" : "");
+      if (note) note.textContent = (m.complete ? "PDF教材の全演習を移行しました。" : "PDF教材を順次、解答・自動採点できる形式へ移行しています。") + (m.answerKeysMissing ? "出版社の解答・解説ページは未収録のため、掲載する解答は本文・文法に照らして確認しています。" : "");
     }
   }
 

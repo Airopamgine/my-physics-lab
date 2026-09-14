@@ -39,8 +39,8 @@ class TaskCatalogTests(unittest.TestCase):
         bank=self.build()
         self.assertEqual(set(s['collection'] for s in bank['sets']),{'Task 1','Task 2','Task 3'})
         self.assertEqual(bank['selfCheckCount'],0)
-        self.assertGreaterEqual(bank['migration']['legacyTotal'],1040)
-        self.assertGreaterEqual(bank['migration']['legacyConverted'],9)
+        self.assertEqual(bank['migration']['scope'], 'pdf-only')
+        self.assertFalse(any(s['id'].startswith('legacy-') for s in bank['sets']))
         self.assertEqual(bank['migration']['pdfPageTotal'],410)
         if bank['migration']['pdfReviewedPages'] < bank['migration']['pdfPageTotal']:
             self.assertIsNone(bank['migration']['pdfTotalQuestions'])
@@ -54,33 +54,6 @@ class TaskCatalogTests(unittest.TestCase):
         original={q['id'] for s in self.feed['sets'] for q in s['questions']}
         current={q['id'] for s in self.build()['sets'] for q in s['questions']}
         self.assertTrue(original <= current)
-
-    def test_complete_balanced_diet_source_coverage(self):
-        bank=self.build()
-        converted=next(s for s in bank['sets'] if s['id']=='legacy-balanced-diet')
-        self.assertEqual({ref for q in converted['questions'] for ref in q['sourceRefs']},
-                         {f'legacy:english-reading-balanced-diet-03-q{i}' for i in range(1,10)})
-
-    def test_complete_alpine_ecosystems_source_coverage(self):
-        bank=self.build()
-        converted=next(s for s in bank['sets'] if s['id']=='legacy-alpine-ecosystems')
-        self.assertEqual({ref for q in converted['questions'] for ref in q['sourceRefs']},
-                         {f'legacy:english-reading-academic-alpine-ecosystems-evidence-01-q{i}' for i in range(1,10)})
-        self.assertEqual(len(converted['questions']),9)
-
-    def test_complete_arthropod_source_and_passage_preserved(self):
-        bank = self.build()
-        converted = next(s for s in bank['sets'] if s['id'] == 'legacy-arthropod-molting')
-        source_id = 'english-reading-academic-arthropod-molting-control-07'
-        self.assertEqual(len(converted['questions']), 9)
-        self.assertEqual([q['sourceRefs'] for q in converted['questions']],
-                         [[f'legacy:{source_id}-q{i}'] for i in range(1, 10)])
-        original = (ROOT / 'content/posts' / f'{source_id}.md').read_text()
-        section = original.split('## 問題：')[1].split('### 語注')[0]
-        passage = '\n'.join(line[2:] if line.startswith('> ') else line[1:]
-                            for line in section.splitlines() if line.startswith('>')).strip()
-        self.assertTrue(all(q['passage'] == passage for q in converted['questions']))
-        self.assertEqual([q['correct'] for q in converted['questions']], list('BACDBACDB'))
 
     def test_pdf_task1_page12_all_fifteen_blanks(self):
         bank = self.build()
@@ -100,24 +73,6 @@ class TaskCatalogTests(unittest.TestCase):
         self.assertEqual(len({q['passage'] for q in item['questions']}), 5)
         self.assertTrue(all(q['correct'] is None and q['options'] == []
                             for q in item['questions']))
-
-    def test_rivers_and_color_preserve_all_source_targets(self):
-        bank = self.build()
-        cases = [
-            ('legacy-atmospheric-rivers', 'english-reading-academic-atmospheric-rivers-risk-benefit-24', 'CADCBDACB'),
-            ('legacy-color-accessibility', 'english-reading-academic-color-context-accessibility-06', 'BCADBCADB')]
-        for set_id, source_id, keys in cases:
-            with self.subTest(set_id=set_id):
-                item = next(s for s in bank['sets'] if s['id'] == set_id)
-                self.assertEqual(len(item['questions']), 9)
-                self.assertEqual([q['sourceRefs'] for q in item['questions']],
-                                 [[f'legacy:{source_id}-q{i}'] for i in range(1, 10)])
-                self.assertEqual([q['correct'] for q in item['questions']], list(keys))
-                original = (ROOT / 'content/posts' / f'{source_id}.md').read_text()
-                section = original.split('## 問題：')[1].split('### 語注')[0]
-                passage = '\n'.join(line[2:] if line.startswith('> ') else line[1:]
-                                    for line in section.splitlines() if line.startswith('>')).strip()
-                self.assertTrue(all(q['passage'] == passage for q in item['questions']))
 
     def test_task2_daily_life_partial_page_keeps_ambiguous_question_pending(self):
         bank = self.build()
@@ -139,25 +94,6 @@ class TaskCatalogTests(unittest.TestCase):
         self.assertNotIn('pdf:task2:p013:q09',
                          {ref for s in bank['sets'] for q in s['questions'] for ref in q.get('sourceRefs', [])})
 
-    def test_cubism_and_deep_sea_preserve_passages_and_all_nine_targets(self):
-        bank = self.build()
-        cases = [
-            ('legacy-cubism-classification', 'english-reading-academic-cubism-classification-evidence-05', 'BCADBCADB'),
-            ('legacy-deep-sea-adaptation', 'english-reading-academic-deep-sea-adaptation-tradeoffs-02', 'BCADBDACB')]
-        for set_id, source_id, keys in cases:
-            with self.subTest(set_id=set_id):
-                item = next(s for s in bank['sets'] if s['id'] == set_id)
-                self.assertEqual(len(item['questions']), 9)
-                self.assertEqual([q['sourceRefs'] for q in item['questions']],
-                                 [[f'legacy:{source_id}-q{i}'] for i in range(1, 10)])
-                self.assertEqual([q['correct'] for q in item['questions']], list(keys))
-                original = (ROOT / 'content/posts' / f'{source_id}.md').read_text()
-                section = original.split('## 問題：')[1].split('### 語注')[0]
-                passage = '\n'.join(line[2:] if line.startswith('> ') else line[1:]
-                                    for line in section.splitlines() if line.startswith('>')).strip()
-                self.assertTrue(all(q['passage'] == passage for q in item['questions']))
-                self.assertTrue(all(len(q['options']) == 4 for q in item['questions']))
-
     def test_pdf_task3_pages9_to13_preserve_twelve_answers_and_page_coverage(self):
         bank = self.build()
         item = next(s for s in bank['sets'] if s['id'] == 'pdf-task3-p009-013')
@@ -177,25 +113,6 @@ class TaskCatalogTests(unittest.TestCase):
         self.assertTrue({9, 10, 11, 12, 13}.issubset(source['reviewedPages']))
         self.assertEqual(source['pageItems']['10'], [])
         self.assertEqual(source['pageItems']['12'], [])
-
-    def test_habitus_and_hotelling_preserve_passages_and_all_targets(self):
-        bank = self.build()
-        cases = [
-            ('legacy-habitus-practice', 'english-reading-academic-habitus-disposition-practice-14', 'BCADBCADB'),
-            ('legacy-hotelling-location', 'english-reading-academic-hotelling-location-competition-15', 'BBCCDBCAD')]
-        for set_id, source_id, keys in cases:
-            with self.subTest(set_id=set_id):
-                item = next(s for s in bank['sets'] if s['id'] == set_id)
-                self.assertEqual(len(item['questions']), 9)
-                self.assertEqual([q['sourceRefs'] for q in item['questions']],
-                                 [[f'legacy:{source_id}-q{i}'] for i in range(1, 10)])
-                self.assertEqual([q['correct'] for q in item['questions']], list(keys))
-                original = (ROOT / 'content/posts' / f'{source_id}.md').read_text()
-                section = original.split('## 問題：')[1].split('### 語注')[0]
-                passage = '\n'.join(line[2:] if line.startswith('> ') else line[1:]
-                                    for line in section.splitlines() if line.startswith('>')).strip()
-                self.assertTrue(all(q['passage'] == passage for q in item['questions']))
-                self.assertTrue(all(len(q['options']) == 4 for q in item['questions']))
 
     def test_actual_test1_module1_preserves_all_twenty_answers_and_pages(self):
         bank = self.build()
@@ -225,36 +142,23 @@ class TaskCatalogTests(unittest.TestCase):
         self.assertEqual(source['pageItems']['2'], [])
         self.assertEqual(source['pageItems']['6'], [])
 
-    def test_hyena_and_industrial_revolution_preserve_passages_and_all_targets(self):
-        bank = self.build()
-        cases = [
-            ('legacy-hyena-rank', 'english-reading-academic-hyena-rank-social-support-13', 'BCADBCADB'),
-            ('legacy-industrial-revolution', 'english-reading-academic-industrial-revolution-uneven-change-20', 'BCAADBCAD')]
-        for set_id, source_id, keys in cases:
-            with self.subTest(set_id=set_id):
-                item = next(s for s in bank['sets'] if s['id'] == set_id)
-                self.assertEqual(len(item['questions']), 9)
-                self.assertEqual([q['sourceRefs'] for q in item['questions']],
-                                 [[f'legacy:{source_id}-q{i}'] for i in range(1, 10)])
-                self.assertEqual([q['correct'] for q in item['questions']], list(keys))
-                original = (ROOT / 'content/posts' / f'{source_id}.md').read_text()
-                section = original.split('## 問題：')[1].split('### 語注')[0]
-                passage = '\n'.join(line[2:] if line.startswith('> ') else line[1:]
-                                    for line in section.splitlines() if line.startswith('>')).strip()
-                self.assertTrue(all(q['passage'] == passage for q in item['questions']))
-                self.assertTrue(all(len(q['options']) == 4 for q in item['questions']))
-
     def test_duplicate_source_reference_rejected(self):
-        self.change('data/toefl-migration/legacy-balanced-diet.json',lambda d:d['questions'][1].update(sourceRefs=d['questions'][0]['sourceRefs']))
-        with self.assertRaises(ValueError): self.build()
+        self.change('data/toefl-migration/pdf-task2-p008.json',
+                    lambda d: d['questions'][1].update(sourceRefs=d['questions'][0]['sourceRefs']))
+        with self.assertRaises(ValueError):
+            self.build()
 
-    def test_unknown_legacy_question_rejected(self):
-        self.change('data/toefl-migration/legacy-balanced-diet.json',lambda d:d['questions'][0].update(sourceRefs=['legacy:missing']))
-        with self.assertRaises(ValueError): self.build()
+    def test_legacy_source_reference_rejected(self):
+        self.change('data/toefl-migration/pdf-task2-p008.json',
+                    lambda d: d['questions'][0].update(sourceRefs=['legacy:excluded']))
+        with self.assertRaises(ValueError):
+            self.build()
 
-    def test_japanese_free_response_cannot_be_mislabeled_as_converted(self):
-        self.change('data/toefl-migration/legacy-balanced-diet.json',lambda d:d['questions'][0].update(prompt='日本語で説明しなさい'))
-        with self.assertRaises(ValueError): self.build()
+    def test_japanese_prompt_cannot_be_mislabeled_as_converted(self):
+        self.change('data/toefl-migration/pdf-task2-p008.json',
+                    lambda d: d['questions'][0].update(prompt='日本語で説明しなさい'))
+        with self.assertRaises(ValueError):
+            self.build()
 
     def test_invalid_correct_label_rejected(self):
         self.change('data/toefl-migration/pdf-task2-p008.json',lambda d:d['questions'][0].update(correct='E'))

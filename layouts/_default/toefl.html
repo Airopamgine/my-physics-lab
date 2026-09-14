@@ -68,9 +68,9 @@
     </div>
   </section>
   <details class="reading-migration" id="reading-migration" open>
-    <summary>全問移行の進捗</summary>
+    <summary>PDF教材の移行進捗</summary>
     <div id="reading-migration-progress" aria-live="polite">照合済みの進捗を読み込み中…</div>
-    <p class="toefl-small-note" id="reading-migration-note">元の教材は移行中も解答できます。掲載する解答は本文・文法に照らして確認しています。</p>
+    <p class="toefl-small-note" id="reading-migration-note">提供PDFの演習を順次、自動採点形式へ移行しています。掲載する解答は本文・文法に照らして確認しています。</p>
   </details>
   {{ end }}
   {{ if and (not $feed) (not $legacy) }}
@@ -153,8 +153,8 @@
     <div class="english-library__header">
       <div>
         <p class="toefl-eyebrow">{{ if $tasks }}Reading practice · newest first{{ else }}Original archive · interactive{{ end }}</p>
-        <h2 id="english-library-title">{{ if $tasks }}Task別の問題一覧{{ else }}移行前の英語教材ライブラリ{{ end }}</h2>
-        <p>{{ if $tasks }}Taskを選び、Start set で解答します。Check answer で正誤・解説を確認できます。{{ else }}翻訳・記述を含む従来の全教材です。TOEFL形式へ移行した問題は通常ページにも掲載します。{{ end }}</p>
+        <h2 id="english-library-title">{{ if $tasks }}Task別の問題一覧{{ else }}既存の英語教材ライブラリ{{ end }}</h2>
+        <p>{{ if $tasks }}PDF教材のTaskを選び、Start set で解答します。Check answer で正誤・解説を確認できます。{{ else }}翻訳・記述を含む従来の全教材です。元の形式のまま、こちらのアーカイブで利用できます。{{ end }}</p>
       </div>
       <div class="english-library__totals" id="library-totals" aria-label="Library totals">
         <strong>Loading…</strong>
@@ -245,7 +245,7 @@
   </section>
 
   <footer class="toefl-disclaimer">
-    <p><strong>About this practice:</strong> 独自演習と、提供された学習教材から移行した問題を含みます。This site is not endorsed or approved by ETS. TOEFL is a registered trademark of ETS. 練習結果は公式スコアではありません。</p>
+    <p><strong>About this practice:</strong> 独自演習と、提供PDFから移行した問題を含みます。This site is not endorsed or approved by ETS. TOEFL is a registered trademark of ETS. 練習結果は公式スコアではありません。</p>
     <p>Progress is stored only in this browser. <em>localStorage</em>（ブラウザ内保存）を使い、学習履歴の保存ではログインや外部送信を行いません。</p>
     <p><strong>ChatGPT tutor bridge:</strong> 添削ボタンは問題と解答をクリップボードへコピーし、ChatGPTを開きます。内容は自動送信されません。貼り付け・送信前に内容を確認し、個人情報は入力しないでください。</p>
   </footer>
