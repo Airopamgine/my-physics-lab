@@ -1,0 +1,79 @@
+{
+  "id": "pdf-actual-test1-module2-task3",
+  "title": "Actual Test 1 · Module 2 · Psychological Distance",
+  "task": 3,
+  "date": "2026-09-15T06:01:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Actual Test · PDF 10–11ページ／冊子364–365ページ · 問11–15",
+  "verificationNote": "Editorial answers（編集・確認した解答）。スキャン原本の3段落・全5設問・選択肢を画像で照合し、本文根拠から正答を作成しました。出版社の公式解答表とは未照合です。",
+  "passages": {
+    "psychological_distance": "Psychological distance explains how our mental representation of events shifts with perceived distance. This distance can be temporal (when), spatial (where), social (who), or hypothetical (likelihood). When events are psychologically distant, people tend to think abstractly, focusing on core features and broader patterns. Conversely, when events feel psychologically close, thinking becomes more concrete, with more emphasis being placed on details and contextual information.\n\nResearch demonstrates this theory’s real-world relevance. In a study conducted by psychologists Yaacov Trope and Nira Liberman, participants made different choices depending on the time frame. When asked about events that would occur “next year,” they prioritized desirability (why they would act), whereas for events that would occur “tomorrow,” feasibility (how they would act) dominated. This pattern extends to consumer behavior—distant purchases focus on quality and benefits, while immediate ones stress price and convenience. This mental shift helps individuals make judicious decisions by adjusting their perspective.\n\nThe implications of psychological distance also apply to organizational strategy and public policy. Companies launching future products benefit from highlighting aspirational features, while immediate promotions should emphasize practicality. Similarly, policymakers can encourage greater citizen engagement and action by emphasizing the immediate and concrete aspects of climate change."
+  },
+  "questions": [
+    {
+      "passageId": "psychological_distance",
+      "prompt": "What does the passage mention as one result of perceiving an event as psychologically close?",
+      "options": [
+        {"label": "A", "text": "People focus on the likelihood of the event happening."},
+        {"label": "B", "text": "People become concerned with how much time is available."},
+        {"label": "C", "text": "People pay attention to specific details and context."},
+        {"label": "D", "text": "People compare temporal and spatial information."}
+      ],
+      "correct": "C",
+      "answer": "Paragraph 1 says psychologically close events produce more concrete thinking with emphasis on details and contextual information. 正解：C。Aはhypothetical distanceの定義との連想、BとDは距離の種類を述べるだけで、近く感じた結果ではありません。contextualは「文脈上の」です。",
+      "sourceRefs": ["pdf:actual:p011:q11"]
+    },
+    {
+      "passageId": "psychological_distance",
+      "prompt": "Why does the author mention Yaacov Trope and Nira Liberman’s study?",
+      "options": [
+        {"label": "A", "text": "To show how psychological distance affects decision priorities"},
+        {"label": "B", "text": "To criticize a specific research methodology used in the study"},
+        {"label": "C", "text": "To explain why consumers prefer quality over price"},
+        {"label": "D", "text": "To argue that long-term planning is more effective than short-term planning"}
+      ],
+      "correct": "A",
+      "answer": "The study illustrates that distant events emphasize desirability, while near events emphasize feasibility. 正解：A。decision priorityは「判断で優先する基準」です。Bの方法批判、Cの普遍的な好み、Dの長期計画の優越は本文にありません。",
+      "sourceRefs": ["pdf:actual:p011:q12"]
+    },
+    {
+      "passageId": "psychological_distance",
+      "prompt": "The word “judicious” in the passage is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "confident"},
+        {"label": "B", "text": "sensible"},
+        {"label": "C", "text": "strategic"},
+        {"label": "D", "text": "impulsive"}
+      ],
+      "correct": "B",
+      "answer": "Judicious describes decisions made with sound judgment, so sensible is the closest choice. 正解：B。judiciousは「思慮深い・賢明な」。confidentは自信のある、strategicは戦略的な、impulsiveは衝動的なで、最後は反対に近い意味です。",
+      "sourceRefs": ["pdf:actual:p011:q13"]
+    },
+    {
+      "passageId": "psychological_distance",
+      "prompt": "According to the passage, how can policymakers encourage citizen engagement?",
+      "options": [
+        {"label": "A", "text": "By highlighting concrete and material benefits"},
+        {"label": "B", "text": "By focusing on the immediate consequences"},
+        {"label": "C", "text": "By juxtaposing long-term impacts with short-term feasibility"},
+        {"label": "D", "text": "By comparing the effect across various aspects of life"}
+      ],
+      "correct": "B",
+      "answer": "The final sentence recommends emphasizing the immediate and concrete aspects of climate change. 正解：B。immediate consequences（目前の結果）が心理的距離を縮めます。Aはmaterial benefitsを加え、C・Dの比較方法は本文にありません。engagementは「関与・参加」です。",
+      "sourceRefs": ["pdf:actual:p011:q14"]
+    },
+    {
+      "passageId": "psychological_distance",
+      "prompt": "What is the relationship between paragraphs 2 and 3?",
+      "options": [
+        {"label": "A", "text": "Paragraph 3 provides information that contradicts the research findings presented in paragraph 2."},
+        {"label": "B", "text": "Paragraph 3 introduces an alternative theory that is related to the research described in paragraph 2."},
+        {"label": "C", "text": "Paragraph 3 gives a detailed explanation of the study mentioned in paragraph 2."},
+        {"label": "D", "text": "Paragraph 3 adds more applications of the pattern discussed in paragraph 2."}
+      ],
+      "correct": "D",
+      "answer": "Paragraph 2 demonstrates the distance pattern in choices and consumer behavior; paragraph 3 extends it to companies and public policy. 正解：D。applicationは「応用例」です。Aは矛盾がなく、Bは別理論を導入せず、Cは元研究の詳細ではなく新しい利用場面を示します。",
+      "sourceRefs": ["pdf:actual:p011:q15"]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "pdf-actual-test1-module2-task1",
+  "title": "Actual Test 1 · Module 2 · Octopus Word Completion",
+  "task": 1,
+  "date": "2026-09-15T06:01:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Actual Test · PDF 9ページ／冊子363ページ · 問01–10",
+  "verificationNote": "Editorial answers（編集・確認した解答）。スキャン原本の本文・接頭部分・空欄を画像で照合して解答を作成しました。出版社の公式解答表とは未照合です。同じパッセージの全10空欄を提出するまで正答は表示されません。",
+  "passages": {
+    "octopuses": "Octopuses are cephalopod mollusks with extraordinary physical and cognitive capabilities. They a__ known f__ their tent_____, which gi__ them pre____ motor con____. This distin_______ them fr__ most ot___ invertebrates. They c__ also alter the shape, color, and texture of their bodies, rendering themselves nearly invisible to predators. Observers have documented them engaging in sophisticated behaviors, such as escaping from highly secure enclosures, and they have the ability to recognize individual human faces. As a result, octopuses are regarded as evolution’s most striking demonstration of complex intelligence outside of vertebrates."
+  },
+  "questions": [
+    {
+      "passageId": "octopuses",
+      "prompt": "Question 01: complete a__. Enter the missing letters.",
+      "prefix": "a",
+      "word": "are",
+      "answer": "The passive expression is are known for. 正解：re → are。Octopuses is plural, so the present form of be is are. be known forは「～で知られている」です。",
+      "sourceRefs": ["pdf:actual:p009:q01"]
+    },
+    {
+      "passageId": "octopuses",
+      "prompt": "Question 02: complete f__. Enter the missing letters.",
+      "prefix": "f",
+      "word": "for",
+      "answer": "The fixed expression is be known for. 正解：or → for。「タコは触手で知られている」という意味で、knownの対象を導きます。",
+      "sourceRefs": ["pdf:actual:p009:q02"]
+    },
+    {
+      "passageId": "octopuses",
+      "prompt": "Question 03: complete tent_____. Enter the missing letters.",
+      "prefix": "tent",
+      "word": "tentacles",
+      "answer": "Octopuses use their tentacles for movement and manipulation. 正解：acles → tentacles（触手）。Plural their and the following relative clause which give support the plural noun. cephalopodは「頭足類」です。",
+      "sourceRefs": ["pdf:actual:p009:q03"]
+    },
+    {
+      "passageId": "octopuses",
+      "prompt": "Question 04: complete gi__. Enter the missing letters.",
+      "prefix": "gi",
+      "word": "give",
+      "answer": "The plural antecedent tentacles takes give. 正解：ve → give（与える）。which give them precise motor controlは「それらが精密な運動制御を与える」です。",
+      "sourceRefs": ["pdf:actual:p009:q04"]
+    },
+    {
+      "passageId": "octopuses",
+      "prompt": "Question 05: complete pre____. Enter the missing letters.",
+      "prefix": "pre",
+      "word": "precise",
+      "answer": "Precise modifies motor control and means exact or finely controlled. 正解：cise → precise（精密な・正確な）。precise motor controlは「精密な運動制御」です。",
+      "sourceRefs": ["pdf:actual:p009:q05"]
+    },
+    {
+      "passageId": "octopuses",
+      "prompt": "Question 06: complete con____. Enter the missing letters.",
+      "prefix": "con",
+      "word": "control",
+      "answer": "The standard noun phrase is motor control. 正解：trol → control（制御）。The tentacles allow controlled, deliberate movement rather than merely producing force. deliberateは「意図的な」です。",
+      "sourceRefs": ["pdf:actual:p009:q06"]
+    },
+    {
+      "passageId": "octopuses",
+      "prompt": "Question 07: complete distin_______. Enter the missing letters.",
+      "prefix": "distin",
+      "word": "distinguishes",
+      "answer": "The structure is distinguish A from B. 正解：guishes → distinguishes（区別する・際立たせる）。The singular subject This takes distinguishes, and them refers to octopuses. ",
+      "sourceRefs": ["pdf:actual:p009:q07"]
+    },
+    {
+      "passageId": "octopuses",
+      "prompt": "Question 08: complete fr__. Enter the missing letters.",
+      "prefix": "fr",
+      "word": "from",
+      "answer": "The fixed pattern is distinguish A from B. 正解：om → from（～から）。It introduces the comparison group, most other invertebrates. ",
+      "sourceRefs": ["pdf:actual:p009:q08"]
+    },
+    {
+      "passageId": "octopuses",
+      "prompt": "Question 09: complete ot___. Enter the missing letters.",
+      "prefix": "ot",
+      "word": "other",
+      "answer": "Other modifies invertebrates to exclude octopuses from the comparison group. 正解：her → other（ほかの）。most other invertebratesは「ほかのほとんどの無脊椎動物」です。",
+      "sourceRefs": ["pdf:actual:p009:q09"]
+    },
+    {
+      "passageId": "octopuses",
+      "prompt": "Question 10: complete c__. Enter the missing letters.",
+      "prefix": "c",
+      "word": "can",
+      "answer": "Can introduces another demonstrated ability. 正解：an → can（～できる）。They can also alter... means that, in addition to fine motor control, octopuses are able to change their appearance. alterは「変える」です。",
+      "sourceRefs": ["pdf:actual:p009:q10"]
+    }
+  ]
+}
