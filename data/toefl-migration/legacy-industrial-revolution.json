@@ -1,0 +1,132 @@
+{
+  "id": "legacy-industrial-revolution",
+  "title": "Industrial Revolution · Uneven Change",
+  "task": 3,
+  "date": "2026-09-14T16:05:00+09:00",
+  "level": "B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "Editorial answers（編集・確認した解答）。元の本文・解説に基づき記述設問を英語4択へ変換しています。元記事の記述問題も引き続き利用できます。",
+  "sourceUrl": "/posts/english-reading-academic-industrial-revolution-uneven-change-20/",
+  "passages": {
+    "text": "“The Industrial Revolution” names a major transformation, but the phrase can mislead if it suggests one starting gun. From the eighteenth century onward, parts of Britain experienced changes in textile production, ironmaking, energy use, transport, and work organization. The timing differed by region and industry. Hand production continued beside machines, and later industrialization elsewhere followed different paths. A useful period label is therefore not proof of one date or one universal sequence.\n\nInvention alone did not reorganize production. A machine became consequential when builders could improve it, owners could finance and maintain it, workers could operate it, and inputs and markets could support its use. Steam engines mattered, especially as efficiency improved, but water power remained important and factory locations were never free from transport, labor, fuel, and market constraints. Coal, iron, machinery, roads, canals, and eventually railways formed interacting systems rather than a list of independent breakthroughs.\n\nThe social record is equally uneven. Industrial towns expanded and new kinds of wage work grew, while dangerous machinery, long hours, polluted environments, and child labor generated conflict and reform. British factory laws did not appear all at once, and early rules were limited by weak enforcement. The appointment of factory inspectors in 1833 illustrates that a legal text and an enforceable institution are different historical achievements.\n\nOver longer periods, mechanization and accumulated knowledge contributed to higher output and, in many settings, higher material living standards. That aggregate outcome does not show that every worker gained immediately or equally. Historians compare wages, prices, hours, mortality, housing, output, and regional variation because no single measure tells the whole story. Industrialization is best explained as a contested, uneven process whose benefits, costs, and causes must each be demonstrated."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "Which statement best expresses the main idea of the passage?",
+      "options": [
+        {"label": "A", "text": "A single steam-engine patent instantly created modern living standards."},
+        {"label": "B", "text": "Industrialization was an uneven interaction of technologies, resources, institutions, and social conflict."},
+        {"label": "C", "text": "Water power disappeared before factories expanded."},
+        {"label": "D", "text": "One national average is sufficient to identify every worker's experience."}
+      ],
+      "correct": "B",
+      "answer": "The passage repeatedly rejects a single date, cause, or uniform outcome and instead connects technology, resources, labor, and institutions. 正解：B。(A)は発明・普及・成果を一瞬に圧縮し、(C)は水力継続と矛盾し、(D)は平均と分配を混同します。unevenは「不均一な」です。",
+      "sourceRefs": ["legacy:english-reading-academic-industrial-revolution-uneven-change-20-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why is “the Industrial Revolution” a useful label but not proof of a single starting date?",
+      "options": [
+        {"label": "A", "text": "Because no changes in production occurred before the nineteenth century."},
+        {"label": "B", "text": "Because every industry adopted the same machines in a universal order."},
+        {"label": "C", "text": "Because it groups connected transformations whose timing varied by region and industry while hand production continued."},
+        {"label": "D", "text": "Because the term refers only to the date when factory inspectors were appointed."}
+      ],
+      "correct": "C",
+      "answer": "The label summarizes a major long-term transformation, but sectors and regions changed at different times and followed different paths. 正解：C。手仕事も機械と併存したため、名称だけでは単一の開始日や普遍的順序を証明しません。period labelは「時代区分の名称」です。",
+      "sourceRefs": ["legacy:english-reading-academic-industrial-revolution-uneven-change-20-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which group lists conditions the passage says were needed for an invention to reorganize production?",
+      "options": [
+        {"label": "A", "text": "Technical improvement, finance and maintenance, skilled operation, and supporting inputs and markets"},
+        {"label": "B", "text": "A patent date, immediate legal reform, and the disappearance of hand production"},
+        {"label": "C", "text": "Steam power alone, regardless of transport, labor, fuel, or markets"},
+        {"label": "D", "text": "Higher national output, identical regional timing, and perfect enforcement"}
+      ],
+      "correct": "A",
+      "answer": "Paragraph 2 states that builders, owners, workers, inputs, and markets all helped make a machine consequential. 正解：A。発明品の存在と、改良・資金・保守・操作・投入・市場に支えられた普及は別です。(B)(C)(D)は本文が退ける単純化です。consequentialは「広い結果を生むほど重要な」です。",
+      "sourceRefs": ["legacy:english-reading-academic-industrial-revolution-uneven-change-20-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "The phrase “interacting systems” in paragraph 2 is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "elements whose effects depend partly on connections with one another"},
+        {"label": "B", "text": "inventions that worked independently of fuel and transport"},
+        {"label": "C", "text": "machines introduced everywhere in the same order"},
+        {"label": "D", "text": "legal rules with perfect enforcement"}
+      ],
+      "correct": "A",
+      "answer": "Coal, iron, machinery, roads, canals, and railways affected one another's usefulness. 正解：A。(B)は相互依存を否定し、(C)は地域差と矛盾し、(D)は技術体系の説明ではありません。interactingは「相互に作用する」です。",
+      "sourceRefs": ["legacy:english-reading-academic-industrial-revolution-uneven-change-20-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why is the claim that steam power allowed factories to locate anywhere too strong?",
+      "options": [
+        {"label": "A", "text": "Steam engines could operate only beside rivers."},
+        {"label": "B", "text": "Water power had already become illegal in Britain."},
+        {"label": "C", "text": "Factory owners stopped considering the availability of workers and buyers."},
+        {"label": "D", "text": "Steam changed some constraints, but transport, labor, fuel, raw materials, and market access still limited locations."}
+      ],
+      "correct": "D",
+      "answer": "Steam reduced dependence on flowing water but did not remove every geographic and economic constraint. 正解：D。制約の組合せが変わることと、制約が消えることは違います。(A)は蒸気と水力を混同し、(B)(C)に本文根拠はありません。constraintは「選択を制限する条件」です。",
+      "sourceRefs": ["legacy:english-reading-academic-industrial-revolution-uneven-change-20-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What distinction does the appointment of factory inspectors in 1833 illustrate?",
+      "options": [
+        {"label": "A", "text": "The distinction between steam power and water power"},
+        {"label": "B", "text": "The distinction between writing a legal rule and building an institution capable of enforcing it"},
+        {"label": "C", "text": "The distinction between national output and regional prices"},
+        {"label": "D", "text": "The distinction between machine builders and factory workers"}
+      ],
+      "correct": "B",
+      "answer": "Inspectors supplied monitoring and enforcement that a legal text alone could not provide. 正解：B。初期法の条文だけを見て労働実態が即座に変化したと推測してはいけません。enforcementは「法律を実際に守らせる執行」です。",
+      "sourceRefs": ["legacy:english-reading-academic-industrial-revolution-uneven-change-20-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does growth in total output alone fail to show how living standards were distributed?",
+      "options": [
+        {"label": "A", "text": "Because output cannot be compared across any two years."},
+        {"label": "B", "text": "Because every worker necessarily receives an equal share of new production."},
+        {"label": "C", "text": "Because an aggregate does not reveal who gained, when they gained, or changes in prices, hours, health, and housing."},
+        {"label": "D", "text": "Because living standards depend only on the number of factory laws."}
+      ],
+      "correct": "C",
+      "answer": "A higher aggregate can coexist with short-term losses and unequal outcomes across regions, ages, and occupations. 正解：C。総生産だけでは実質賃金、労働時間、健康、住宅、利益の配分を示せません。(A)(B)(D)は本文の主張ではありません。aggregate outcomeは「集団全体を合計した結果」です。",
+      "sourceRefs": ["legacy:english-reading-academic-industrial-revolution-uneven-change-20-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which combination of evidence would best compare industrialization across regions according to the passage?",
+      "options": [
+        {"label": "A", "text": "Wages, prices, working hours, mortality, housing, and output measured by region"},
+        {"label": "B", "text": "Only the date of the first steam-engine patent in each country"},
+        {"label": "C", "text": "Only national output, with regional variation removed"},
+        {"label": "D", "text": "Personal stories without information about income, health, time, or place"}
+      ],
+      "correct": "A",
+      "answer": "The final paragraph explicitly calls for several indicators because no single measure tells the whole story. 正解：A。所得だけでなく物価、時間、健康、住宅、生産、地域差を組み合わせます。(B)(C)は単一尺度、(D)は比較指標を欠きます。mortalityは「死亡率」です。",
+      "sourceRefs": ["legacy:english-reading-academic-industrial-revolution-uneven-change-20-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which research design would best test the claim that one invention caused the Industrial Revolution?",
+      "options": [
+        {"label": "A", "text": "Study only one successful factory after adoption and assume its experience was universal."},
+        {"label": "B", "text": "Compare patent titles without measuring adoption, infrastructure, output, or wages."},
+        {"label": "C", "text": "Treat invention, diffusion, and later social outcomes as a single event with one date."},
+        {"label": "D", "text": "Compare adopting and non-adopting industries and regions over time while measuring infrastructure, skills, finance, output, and wages separately."}
+      ],
+      "correct": "D",
+      "answer": "A comparative before-and-after design tests whether the invention was sufficient and whether differences persist with infrastructure or institutions. 正解：D。発明、普及、社会的結果を分け、追加条件が必要か確認できます。(A)(B)(C)はいずれも一因説を検証せず前提化します。diffusionは「技術などの普及」です。",
+      "sourceRefs": ["legacy:english-reading-academic-industrial-revolution-uneven-change-20-q9"]
+    }
+  ]
+}

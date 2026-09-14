@@ -1,0 +1,132 @@
+{
+  "id": "legacy-hyena-rank",
+  "title": "Spotted Hyenas · Rank Is Not a Gene",
+  "task": 3,
+  "date": "2026-09-14T16:05:00+09:00",
+  "level": "B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "Editorial answers（編集・確認した解答）。元の本文・解説に基づき記述設問を英語4択へ変換しています。元記事の記述問題も引き続き利用できます。",
+  "sourceUrl": "/posts/english-reading-academic-hyena-rank-social-support-13/",
+  "passages": {
+    "text": "Spotted hyenas live in clans whose members occupy relatively stable positions in a dominance hierarchy. Females usually remain in their natal clan, whereas most males disperse. Among natal females, a daughter's adult position is often close to, and just below, her mother's. Researchers call this pattern maternal rank inheritance. The label describes a reliable social resemblance; it does not mean that rank is copied directly through genes.\n\nYoung hyenas acquire position through repeated interactions. A mother or another close female relative may support a cub during a dispute. With such support, the cub can defeat individuals that are subordinate to its mother. The cub also observes whom its mother approaches, avoids, threatens, or tolerates. Over time, these encounters provide information about relationships in the clan. Evidence from adopted young is especially informative: when adult rank resembles that of a surrogate mother more closely than that of a genetic mother, postnatal social support becomes a stronger explanation than genetic transmission alone.\n\nRank matters, but it is not a complete account of survival. High-ranking animals may gain earlier or safer access to food, and maternal position can be associated with later fitness. Yet age, ecological conditions, alliances, health, and changes in clan membership also affect outcomes. Moreover, the rule for immigrant males is different from the maternal pattern among natal females. A careful reader therefore asks which sex, life stage, and social category a claim concerns before extending it to every clan member.\n\nThe hierarchy is best understood as a maintained relationship rather than an object possessed in isolation. Each encounter both depends on earlier relationships and can reinforce or alter expectations for later encounters. This view connects animal behavior to network science: an individual's position emerges from a web of repeated interactions. “Inheritance” is useful shorthand, but the mechanism must still be tested."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "Which statement best expresses the main idea of the passage?",
+      "options": [
+        {"label": "A", "text": "Rank in spotted hyenas is fixed by one gene before birth."},
+        {"label": "B", "text": "Maternal rank resemblance is a social pattern involving support, learning, and repeated interaction."},
+        {"label": "C", "text": "Every male and female follows exactly the same ranking rule."},
+        {"label": "D", "text": "Ecological conditions cease to matter once an animal's rank is known."}
+      ],
+      "correct": "B",
+      "answer": "The passage treats rank as a socially maintained relationship produced through support, observation, and repeated encounters. 正解：B。(A)は社会的獲得を遺伝子へ置き換え、(C)は移入雄と出生群雌の違いを消し、(D)は生態・健康・同盟などの影響を無視します。dominance hierarchyは「優劣関係による順位体系」です。",
+      "sourceRefs": ["legacy:english-reading-academic-hyena-rank-social-support-13-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does the author distinguish maternal rank inheritance from genetic inheritance?",
+      "options": [
+        {"label": "A", "text": "Because daughters never occupy positions near their mothers."},
+        {"label": "B", "text": "Because all rank patterns disappear when males disperse."},
+        {"label": "C", "text": "Because the label describes a social resemblance, while support and learning help produce the rank."},
+        {"label": "D", "text": "Because genes determine only the rank of immigrant males."}
+      ],
+      "correct": "C",
+      "answer": "“Inheritance” names the reliable resemblance between a mother and daughter, not direct copying through genes. 正解：C。本文は母親の援護、勝敗、観察学習という出生後の過程を示します。(A)(B)(D)はいずれも本文にありません。maternalは「母系の」、resemblanceは「類似」です。",
+      "sourceRefs": ["legacy:english-reading-academic-hyena-rank-social-support-13-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "The word “informative” in paragraph 2 is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "useful for distinguishing between explanations"},
+        {"label": "B", "text": "guaranteed to prove every causal pathway"},
+        {"label": "C", "text": "inherited before birth"},
+        {"label": "D", "text": "unrelated to the research question"}
+      ],
+      "correct": "A",
+      "answer": "Adoption cases make different predictions for genetic and surrogate mothers, so they help distinguish explanations. 正解：A。単独で全機構を完全証明するという(B)ほど強くなく、(C)(D)は文脈と反対です。informativeはここでは「説明を見分ける情報を与える」です。",
+      "sourceRefs": ["legacy:english-reading-academic-hyena-rank-social-support-13-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why can evidence from adopted young help separate genetic effects from postnatal social support?",
+      "options": [
+        {"label": "A", "text": "Adopted young are unable to observe any adult in the clan."},
+        {"label": "B", "text": "Their genetic and surrogate mothers always have identical ranks."},
+        {"label": "C", "text": "Adoption prevents both genes and social interaction from affecting rank."},
+        {"label": "D", "text": "The genetic mother and the mother providing postnatal support are different individuals, yielding different predictions."}
+      ],
+      "correct": "D",
+      "answer": "If rank follows the genetic mother, genetic transmission is supported; if it follows the surrogate mother, postnatal support is stronger. 正解：D。養子では遺伝上の母と養育する母が異なるため予測を分離できます。surrogate motherは「代理母」、postnatalは「出生後の」です。",
+      "sourceRefs": ["legacy:english-reading-academic-hyena-rank-social-support-13-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why should a reader identify the sex, life stage, and social category covered by a claim about rank?",
+      "options": [
+        {"label": "A", "text": "Because rank can be studied only in adult immigrant males."},
+        {"label": "B", "text": "Because ranking rules and processes differ across groups, so a limited finding may not apply to every clan member."},
+        {"label": "C", "text": "Because ecological conditions affect every category in exactly the same way."},
+        {"label": "D", "text": "Because natal females leave the clan more often than males do."}
+      ],
+      "correct": "B",
+      "answer": "The maternal pattern applies especially to natal females, while immigrant males follow a different rule and acquisition may differ from maintenance. 正解：B。限定を外すと局所的な主張を全個体へ誤って一般化します。social categoryは「社会的区分」です。",
+      "sourceRefs": ["legacy:english-reading-academic-hyena-rank-social-support-13-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why is earlier access to food insufficient to prove that high rank necessarily causes longer survival?",
+      "options": [
+        {"label": "A", "text": "Because the passage states that rank has no relationship to food access."},
+        {"label": "B", "text": "Because high-ranking animals always refuse the food they reach first."},
+        {"label": "C", "text": "Because other factors may affect both rank and survival, and the steps from rank to food to health must be tested separately."},
+        {"label": "D", "text": "Because survival can be measured only for immigrant males."}
+      ],
+      "correct": "C",
+      "answer": "Age, ecology, alliances, health, and clan changes can also influence outcomes, and each causal link requires evidence. 正解：C。相関 alone does not establish a necessary causal chain. (A)はmay gain earlier accessと矛盾し、(B)(D)は根拠がありません。be associated withは「関連する」であり「必ず引き起こす」ではありません。",
+      "sourceRefs": ["legacy:english-reading-academic-hyena-rank-social-support-13-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which view of rank contrasts with “an object possessed in isolation” in paragraph 4?",
+      "options": [
+        {"label": "A", "text": "A relational position continually maintained through past and present interactions"},
+        {"label": "B", "text": "A physical object stored separately by each animal"},
+        {"label": "C", "text": "A gene that remains unchanged throughout life"},
+        {"label": "D", "text": "A temporary label unrelated to expectations about future encounters"}
+      ],
+      "correct": "A",
+      "answer": "The author presents rank as a maintained relationship emerging from a web of repeated interactions. 正解：A。過去の勝敗・支援・回避が現在の期待を形づくります。(B)(C)は固定物として扱い、(D)はlater expectationsを否定します。in isolationは「他との関係から切り離して」です。",
+      "sourceRefs": ["legacy:english-reading-academic-hyena-rank-social-support-13-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why might a young hyena's rank remain stable after its mother stops directly helping in disputes?",
+      "options": [
+        {"label": "A", "text": "Its rank becomes genetically fixed at the moment support ends."},
+        {"label": "B", "text": "All other clan members forget the outcomes of earlier encounters."},
+        {"label": "C", "text": "The young animal no longer interacts with any subordinate individual."},
+        {"label": "D", "text": "Earlier support and observation may have established win patterns and expectations that carry into later encounters."}
+      ],
+      "correct": "D",
+      "answer": "Each encounter can reinforce expectations for later ones, and the cub also learns by observing its mother. 正解：D。直接支援が減っても、形成済みの関係と学習が次の遭遇へ持ち越されます。(A)は遺伝決定論、(B)(C)は本文と逆です。reinforceは「強める」です。",
+      "sourceRefs": ["legacy:english-reading-academic-hyena-rank-social-support-13-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which observational study would best test the effect of maternal support on rank acquisition?",
+      "options": [
+        {"label": "A", "text": "Record only the final adult rank and assume every difference is genetic."},
+        {"label": "B", "text": "Follow cubs over time, recording opponents, maternal interventions, outcomes, age, food context, and repeated encounters while controlling for clan conditions."},
+        {"label": "C", "text": "Observe a single feeding event and ignore the identities and prior relationships of the animals."},
+        {"label": "D", "text": "Compare unrelated species without measuring maternal behavior or rank outcomes."}
+      ],
+      "correct": "B",
+      "answer": "A longitudinal design linking earlier interventions to later wins while recording confounders directly tests accumulated social support. 正解：B。反復観察により安定した個体差と支援の蓄積効果を分けられます。(A)(C)(D)は必要な過程や比較を測りません。covariateは「結果へ影響しうる調整変数」です。",
+      "sourceRefs": ["legacy:english-reading-academic-hyena-rank-social-support-13-q9"]
+    }
+  ]
+}

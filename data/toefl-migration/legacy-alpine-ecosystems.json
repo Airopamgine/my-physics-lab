@@ -1,0 +1,132 @@
+{
+  "id": "legacy-alpine-ecosystems",
+  "title": "Alpine Ecosystems and Climate Change",
+  "task": 3,
+  "date": "2026-09-13T13:05:00+09:00",
+  "level": "B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "本文と元教材の解説から一意に判断できる正答を編集・確認しています。元の記述問題は元記事でも確認できます。",
+  "sourceUrl": "/posts/english-reading-academic-alpine-ecosystems-evidence-01/",
+  "passages": {
+    "text": "Alpine ecosystems occur above the climatic tree line, but altitude alone does not define them. Latitude, slope, wind exposure, geology, and local snow accumulation create different conditions at the same elevation. Plants in these environments often grow slowly and remain close to the ground. Such traits can reduce heat loss or damage from wind, yet they do not make the plants independent of climate. Their life cycles are organized around a short season in which temperature, liquid water, light, nutrients, and suitable partners must become available in the right sequence.\n\nSnow illustrates why a single climatic change can act through opposite pathways. A persistent snowpack delays spring growth and stores water for later release. It can also insulate plants and soil from extreme winter air temperatures. Earlier snowmelt may lengthen the snow-free period, creating more time for photosynthesis in some places. The same change, however, may expose emerging tissues to a later frost or leave less stored water during a dry summer. Therefore, the date of snow disappearance is not itself a benefit or a harm; its effect depends on what happens before and after it.\n\nWarming is also associated with changes in phenology and geographic ranges. A plant may flower earlier, while an insect, soil process, or competing species responds to a different cue or at a different rate. A mismatch is possible, but it must be demonstrated rather than assumed. Some populations can persist in cool microhabitats, and some species shift upslope. Yet upward movement is not an unlimited escape route. The available area often narrows toward a summit, soil may be absent, dispersal may be slow, and a population already near the top has nowhere higher to move. Meanwhile, lower-elevation species may enter and alter competition.\n\nConservation can reduce several of these risks without promising to preserve every historical community unchanged. Protecting climatic refugia, maintaining connected and varied habitats, limiting trampling or invasive species, and monitoring snow, soil moisture, flowering, and population change can increase the options available to organisms and managers. Adaptive management treats each action as a test: managers state an expectation, measure the response, and revise the action when evidence contradicts it. This approach is not an alternative to limiting warming. It is a way to make decisions under uncertainty while recognizing that resilience may mean persistence in one place and reorganization in another."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What is the main idea of the passage?",
+      "options": [
+        {"label": "A", "text": "Alpine plants are protected from climate change by their tolerance of cold."},
+        {"label": "B", "text": "Earlier snowmelt always improves alpine plant growth by extending summer."},
+        {"label": "C", "text": "Alpine responses must be traced through interacting mechanisms, limits, and local conditions."},
+        {"label": "D", "text": "Moving every alpine species to a summit is the most reliable conservation policy."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。本文は積雪、雪解け、phenology（生物季節）、分布移動、保全を、互いに作用する仕組みとして説明しています。Aは耐寒性を万能化し、Bの always は凍害・乾燥の危険を無視します。Dは山頂付近の面積・土壌・分散の制約と矛盾します。",
+      "sourceRefs": ["legacy:english-reading-academic-alpine-ecosystems-evidence-01-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "According to paragraph 2, which two functions can a persistent snowpack perform?",
+      "options": [
+        {"label": "A", "text": "It accelerates flowering and prevents all frost damage."},
+        {"label": "B", "text": "It increases wind exposure and removes nutrients from soil."},
+        {"label": "C", "text": "It stores water for later release and insulates plants and soil."},
+        {"label": "D", "text": "It extends the snow-free period and guarantees summer rainfall."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。persistent snowpack（長く残る積雪）は、後で放出される水を蓄え、植物と土壌を極端な冬の気温から断熱します。insulate は「熱の移動を抑えて守る」。A・Bは本文にない働き、Dは雪解け後の効果と保証できない降雨を混同しています。",
+      "sourceRefs": ["legacy:english-reading-academic-alpine-ecosystems-evidence-01-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "The word 'mismatch' in paragraph 3 is closest in meaning to:",
+      "options": [
+        {"label": "A", "text": "two linked processes changing at different times"},
+        {"label": "B", "text": "every species moving in the same direction and at the same rate"},
+        {"label": "C", "text": "a measurement made at the wrong elevation"},
+        {"label": "D", "text": "the permanent absence of all biological interaction"}
+      ],
+      "correct": "A",
+      "answer": "正解：A。mismatch は「不一致・ずれ」。植物の開花と昆虫などが異なる cue（時期を判断する手掛かり）へ反応し、変化の時期や速度がそろわない状態です。Bは逆、Cは測定ミス、Dは相互作用の永久消失まで意味を強め過ぎています。",
+      "sourceRefs": ["legacy:english-reading-academic-alpine-ecosystems-evidence-01-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which evidence would be most necessary to support the claim that earlier snowmelt causes summer water shortage?",
+      "options": [
+        {"label": "A", "text": "Only the altitude and scientific name of the plant"},
+        {"label": "B", "text": "Evidence that the plant remains close to the ground"},
+        {"label": "C", "text": "A record showing that spring growth began earlier in one year"},
+        {"label": "D", "text": "Evidence of reduced stored snow water together with insufficient later rain or greater water loss"}
+      ],
+      "correct": "D",
+      "answer": "正解：D。雪解けが早いだけでは夏の水不足は確定しません。貯留水が減ったことに加え、その後の雨が不足した、または evapotranspiration（蒸発散：地面からの蒸発と植物からの水分放出）が増えたことを確認する必要があります。A〜Cだけでは因果の途中が埋まりません。",
+      "sourceRefs": ["legacy:english-reading-academic-alpine-ecosystems-evidence-01-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which is NOT given as a reason why shifting upslope is a limited escape route?",
+      "options": [
+        {"label": "A", "text": "Habitable area may decrease near a summit."},
+        {"label": "B", "text": "Suitable soil may be missing at higher elevations."},
+        {"label": "C", "text": "Dispersal can be slower than environmental change."},
+        {"label": "D", "text": "Gravity prevents all seeds from ever moving upward."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。重力が全ての種子の上方移動を禁止するとは本文にありません。dispersal（分散：種子や個体が新しい場所へ広がること）が遅い場合はありますが、移動不能とは限りません。A〜Cは本文が明示する別々の制約です。",
+      "sourceRefs": ["legacy:english-reading-academic-alpine-ecosystems-evidence-01-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why are observations of changed flowering and insect activity times insufficient to prove that their interaction has failed?",
+      "options": [
+        {"label": "A", "text": "Timing can never influence ecological interactions."},
+        {"label": "B", "text": "The observations do not by themselves show overlap, pollination success, reproduction, or population effects."},
+        {"label": "C", "text": "Plants and insects always respond to exactly the same climatic cue."},
+        {"label": "D", "text": "Any difference in timing proves that both populations have disappeared."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。時期の変化は mismatch の可能性を示しますが、実際の接触、送粉成功、繁殖、個体数への影響までは直接示しません。insufficient は「不十分な」。AとCは本文と逆で、Dは観察から導けない過剰な結論です。",
+      "sourceRefs": ["legacy:english-reading-academic-alpine-ecosystems-evidence-01-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which sequence best describes adaptive management in paragraph 4?",
+      "options": [
+        {"label": "A", "text": "Preserve every community unchanged, stop monitoring, and repeat the action."},
+        {"label": "B", "text": "Choose an action, assume it succeeded, and avoid contradictory evidence."},
+        {"label": "C", "text": "State an expectation, measure the response, and revise the action when evidence contradicts it."},
+        {"label": "D", "text": "Wait until uncertainty disappears, then take one permanent action."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。adaptive management（順応的管理）は、予想を明示し、反応を測り、証拠が予想に反すれば行動を修正する循環です。contradict は「矛盾する・反証する」。A・Bは検証を止め、Dは不確実性の下で判断する本文の考えと反対です。",
+      "sourceRefs": ["legacy:english-reading-academic-alpine-ecosystems-evidence-01-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which sentence best expresses the essential information in the statement about the date of snow disappearance?",
+      "options": [
+        {"label": "A", "text": "The effects of snowmelt timing depend on conditions and events surrounding it."},
+        {"label": "B", "text": "Earlier snow disappearance is beneficial in every alpine location."},
+        {"label": "C", "text": "The date of snow disappearance has no ecological effect under any conditions."},
+        {"label": "D", "text": "Later snow disappearance always harms alpine plants by shortening growth."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。日付だけを一律に利益・害とみなせず、その前後の霜、水分、気温などで効果が決まるという意味です。essential information は「不可欠な要点」。BとDの always は条件依存性を消し、Cは『日付だけでは決まらない』を『影響がない』と誤読しています。",
+      "sourceRefs": ["legacy:english-reading-academic-alpine-ecosystems-evidence-01-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which research plan would best evaluate the claim that warming has helped a population because it now flowers ten days earlier?",
+      "options": [
+        {"label": "A", "text": "Measure the flowering date again and treat any early date as proof of benefit."},
+        {"label": "B", "text": "Compare the color of flowers while ignoring climate and reproductive outcomes."},
+        {"label": "C", "text": "Assume warming is the cause and count only plants that survived."},
+        {"label": "D", "text": "Compare climate and snowmelt records, frost and moisture exposure, pollinator overlap, reproduction, survival, and nearby populations across years."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。早期開花の原因と fitness（適応度：生存と繁殖への寄与）の両方を検証する計画です。複数年・近隣個体群との比較は、温暖化を土地利用や偶然の変動から区別する助けになります。A〜Cは時期の変化を利益と即断し、必要な因果・結果の証拠を欠きます。",
+      "sourceRefs": ["legacy:english-reading-academic-alpine-ecosystems-evidence-01-q9"]
+    }
+  ]
+}
