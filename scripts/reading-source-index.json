@@ -523,11 +523,12 @@
     }
   ],
   "lastSource": {
-    "type": "pdf",
+    "type": "legacy",
     "ids": [
-      "vocabulary"
+      "english-reading-academic-market-efficiency-information-costs-19",
+      "english-reading-academic-membrane-dynamics-selectivity-23"
     ],
-    "convertedAt": "2026-09-14T23:58:00+09:00"
+    "convertedAt": "2026-09-15T01:58:00+09:00"
   },
   "note": "Packet paths describe a private working cache, not published files. Exact question totals require review. Answer pages referenced by the books were not supplied."
 }

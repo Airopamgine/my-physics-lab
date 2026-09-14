@@ -1,0 +1,258 @@
+{
+  "id": "legacy-market-efficiency-information-costs",
+  "title": "Market Efficiency, Evidence, and Information Costs",
+  "task": 3,
+  "date": "2026-09-15T01:58:00+09:00",
+  "level": "B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "本文と元教材の解説から一意に判断できる正答を編集・確認しています。四つの原文段落と全九つの学習対象を保持し、元の記述問題は英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-academic-market-efficiency-information-costs-19/",
+  "passages": {
+    "text": "The efficient-market hypothesis is often compressed into the slogan that prices “contain all information.” That wording hides two questions: which information, and relative to which model of expected return? In the weak form, the relevant set is past prices and trading data. In the semi-strong form, it includes public information. A strong form would include private information as well. These are progressively stronger claims, not interchangeable definitions.\n\nTesting any form requires a benchmark. Suppose a trading rule earns more than a broad index. The difference is not automatically an abnormal return: the rule may bear different risks, trade at different times, or incur costs omitted from the comparison. Researchers therefore specify an asset-pricing model, a sample period, and feasible transaction and information costs. A rejection may expose market inefficiency, a poor benchmark model, or both. This is known as a joint-hypothesis problem.\n\nRapid price adjustment does not mean that the current price is a timelessly correct estimate. Prices change when evidence changes, and participants can interpret uncertain evidence differently. Nor does hard-to-predict movement imply that every movement is random. Some expected returns may vary with risk or economic conditions. A single investor's success proves little because chance produces winners in large samples; persistent performance must survive risk, cost, and out-of-sample tests.\n\nInformation itself is costly to discover. If prices already revealed every costly signal perfectly, no one would have an incentive to pay for research. Yet without research, the signal would not enter prices. This tension suggests that real markets may be informative without being perfectly informative. The productive question is not whether markets are simply “efficient” or “inefficient,” but which information is incorporated, how quickly, by what mechanism, and after what cost."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What is the main idea of the passage?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Market efficiency proves that every observed price equals a timeless true value."
+        },
+        {
+          "label": "B",
+          "text": "Market efficiency consists of testable claims whose interpretation depends on the information set, benchmark model, risk, and costs."
+        },
+        {
+          "label": "C",
+          "text": "Any return above a broad index conclusively proves access to private information."
+        },
+        {
+          "label": "D",
+          "text": "Costly research is unnecessary whenever prices contain useful information."
+        }
+      ],
+      "correct": "B",
+      "answer": "The passage replaces a slogan with conditional claims about information, benchmarks, risk, and costs. 正解：B。testable claimは「検証可能な主張」です。Aは現在価格を永遠の真値と誤読し、Cはリスクと費用を無視し、Dは第4段落の逆説と反対です。",
+      "sourceRefs": [
+        "legacy:english-reading-academic-market-efficiency-information-costs-19-q1"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "According to paragraph 1, what distinguishes the weak, semi-strong, and strong forms of market efficiency?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The information set assumed to be incorporated into prices"
+        },
+        {
+          "label": "B",
+          "text": "The number of assets traded on an exchange"
+        },
+        {
+          "label": "C",
+          "text": "The speed at which a government changes interest rates"
+        },
+        {
+          "label": "D",
+          "text": "The accounting method used to calculate transaction costs"
+        }
+      ],
+      "correct": "A",
+      "answer": "The forms cover past market data, then public information, then private information. 正解：A。information setは「価格へ反映されると仮定する情報集合」です。B・C・Dは三形式を分ける基準ではありません。",
+      "sourceRefs": [
+        "legacy:english-reading-academic-market-efficiency-information-costs-19-q2"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does outperforming a broad index alone fail to establish an abnormal return?",
+      "options": [
+        {
+          "label": "A",
+          "text": "An index always includes every available private signal."
+        },
+        {
+          "label": "B",
+          "text": "The rule may carry different risks and its trading or information costs may have been omitted."
+        },
+        {
+          "label": "C",
+          "text": "Abnormal returns can be measured only when prices never change."
+        },
+        {
+          "label": "D",
+          "text": "A broad index guarantees the same trading times and opportunities as every strategy."
+        }
+      ],
+      "correct": "B",
+      "answer": "A valid comparison adjusts for risk and realistic costs; timing and feasibility may matter too. 正解：B。abnormal returnは「基準モデルが要求する収益を超える部分」です。AとDは指数にない性質を仮定し、Cは検定条件を誤っています。",
+      "sourceRefs": [
+        "legacy:english-reading-academic-market-efficiency-information-costs-19-q3"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "The word “feasible” in paragraph 2 is closest in meaning to:",
+      "options": [
+        {
+          "label": "A",
+          "text": "possible for an actual trader to implement or incur"
+        },
+        {
+          "label": "B",
+          "text": "visible only after losing trades are removed"
+        },
+        {
+          "label": "C",
+          "text": "guaranteed by a theoretical slogan"
+        },
+        {
+          "label": "D",
+          "text": "unrelated to the strategy being tested"
+        }
+      ],
+      "correct": "A",
+      "answer": "Feasible means realistic and practicable for an actual participant. 正解：A。「実行可能な・現実に利用できる」です。Bは結果の選別、Cは検証の放棄、Dは費用を戦略から切り離します。",
+      "sourceRefs": [
+        "legacy:english-reading-academic-market-efficiency-information-costs-19-q4"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why is a market-efficiency test described as a joint-hypothesis problem?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It tests two exchanges only when they share trading hours."
+        },
+        {
+          "label": "B",
+          "text": "It assumes public and private information are identical."
+        },
+        {
+          "label": "C",
+          "text": "Interpreting a return requires an asset-pricing benchmark, so rejection may reflect inefficiency, a faulty model, or both."
+        },
+        {
+          "label": "D",
+          "text": "It works only when all investors use one trading rule."
+        }
+      ],
+      "correct": "C",
+      "answer": "Efficiency cannot be tested without a model of expected return, so two hypotheses are examined together. 正解：C。joint-hypothesis problemは「効率性と価格モデルを同時に検定する問題」です。A・B・Dはjointの意味を誤読しています。",
+      "sourceRefs": [
+        "legacy:english-reading-academic-market-efficiency-information-costs-19-q5"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does hard-to-predict price movement not imply that every movement is causeless randomness?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Prices cannot react to new evidence once a market opens."
+        },
+        {
+          "label": "B",
+          "text": "Expected returns may vary with risk or economic conditions, and new evidence may change estimates."
+        },
+        {
+          "label": "C",
+          "text": "Prediction is difficult only because transaction costs are always zero."
+        },
+        {
+          "label": "D",
+          "text": "Every movement is planned by one informed investor."
+        }
+      ],
+      "correct": "B",
+      "answer": "Current unpredictability does not eliminate changing evidence, risk, conditions, or interpretation as causes. 正解：B。causeless randomnessは「原因のない乱数」です。A・C・Dは本文にない極端な前提です。",
+      "sourceRefs": [
+        "legacy:english-reading-academic-market-efficiency-information-costs-19-q6"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which evidence would most strengthen the claim that one investor's success reflects skill rather than chance?",
+      "options": [
+        {
+          "label": "A",
+          "text": "One unusually profitable trade reported afterward"
+        },
+        {
+          "label": "B",
+          "text": "A high gross return without adjustment for risk or costs"
+        },
+        {
+          "label": "C",
+          "text": "Persistent net performance against a risk-matched benchmark on untouched data, with all tested rules reported"
+        },
+        {
+          "label": "D",
+          "text": "A strategy selected from many trials because it had the best past result"
+        }
+      ],
+      "correct": "C",
+      "answer": "Persistence after risk, cost, multiple-testing, and out-of-sample checks is stronger evidence. 正解：C。out-of-sampleは「規則作成に使わなかったデータでの検証」です。A・B・Dは偶然や事後選択を排除できません。",
+      "sourceRefs": [
+        "legacy:english-reading-academic-market-efficiency-information-costs-19-q7"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What tension arises when valuable information is costly to discover?",
+      "options": [
+        {
+          "label": "A",
+          "text": "If prices reveal costly signals perfectly, research loses its reward; without research, those signals may not enter prices."
+        },
+        {
+          "label": "B",
+          "text": "Research is most profitable when discovered information affects no trade."
+        },
+        {
+          "label": "C",
+          "text": "Perfect prices require all participants to receive private information free."
+        },
+        {
+          "label": "D",
+          "text": "Information costs prove prices contain no useful evidence."
+        }
+      ],
+      "correct": "A",
+      "answer": "Perfect incorporation removes the incentive to produce costly information, yet production is needed for it to reach prices. 正解：A。incentiveは「誘因」、incorporationは「価格への反映」です。B・C・Dは本文より極端です。",
+      "sourceRefs": [
+        "legacy:english-reading-academic-market-efficiency-information-costs-19-q8"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which research plan best tests a public-information trading rule?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Choose the best rule after seeing all outcomes and report only that winner."
+        },
+        {
+          "label": "B",
+          "text": "Compare gross returns with an index while ignoring risk and costs."
+        },
+        {
+          "label": "C",
+          "text": "Define the rule in advance, test later untouched data, use a risk-matched benchmark, subtract realistic costs, and report every rule tested."
+        },
+        {
+          "label": "D",
+          "text": "Treat one investor's past success as proof that all market efficiency is false."
+        }
+      ],
+      "correct": "C",
+      "answer": "C pre-specifies the hypothesis, protects the test set, adjusts risk and costs, and avoids selective reporting. 正解：C。pre-specifyは「結果を見る前に定める」です。Aは事後選択、Bは比較不足、Dは一例からの過度な一般化です。",
+      "sourceRefs": [
+        "legacy:english-reading-academic-market-efficiency-information-costs-19-q9"
+      ]
+    }
+  ]
+}
