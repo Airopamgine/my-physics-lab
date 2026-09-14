@@ -1,0 +1,258 @@
+{
+  "id": "legacy-microfinance-heterogeneous-effects",
+  "title": "Microfinance: Access, Use, and Uneven Effects",
+  "task": 3,
+  "date": "2026-09-15T04:01:00+09:00",
+  "level": "B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "本文と元教材の解説から一意に判断できる正答を編集・確認しています。四つの原文段落と全九つの学習対象を保持し、元の記述問題は英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-academic-microfinance-heterogeneous-effects-08/",
+  "passages": {
+    "text": "Microfinance refers broadly to financial services designed for people and small firms that are poorly served by conventional institutions. The services may include credit, savings, insurance, and payments; microcredit is the lending component. This distinction matters. A program can successfully expand access to loans without proving that every borrower starts a profitable firm or that average poverty falls. Likewise, a loan is not a donation: it transfers purchasing power now while creating a repayment obligation later.\n\nWhy might conventional finance exclude a household? Small transactions can be costly to administer, formal credit histories may be absent, and borrowers may lack acceptable collateral. Microfinance institutions respond with different designs: group or individual loans, repayment schedules of varying flexibility, and sometimes noncredit services. Group lending can use local information and shared responsibility, but the same arrangement may also create pressure among members. Interest rates must be interpreted alongside administrative costs, inflation, loan duration, and available alternatives rather than labeled high or low from one number alone.\n\nEvaluation therefore requires a chain of questions. Did the program make a service available? Who chose to use it? How was the money allocated? Did investment, profit, consumption, debt stress, or resilience change? Randomized expansions of microcredit in several settings have generally found increased borrowing and some changes in business activity, but not a uniform transformation of average income or consumption. Some existing business owners may benefit more than households with no suitable investment opportunity. An average near zero can thus conceal positive effects for one subgroup, no effect for another, and losses for a third.\n\nThis evidence supports neither celebration nor dismissal. Credit can relax a real constraint, yet repayment can magnify a failed investment or income shock. Product design, consumer protection, market demand, borrower experience, and local institutions shape results. Researchers must also specify the time horizon: a short follow-up may miss slow gains, while a favorable early result may not survive repeated borrowing. The responsible claim is conditional. Microfinance expands a set of financial options; whether those options improve welfare is an empirical question about people, products, alternatives, and context."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What is the main idea of the passage?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Microfinance always eliminates poverty when borrowers form groups."
+        },
+        {
+          "label": "B",
+          "text": "The effects of microfinance must be evaluated across access, use, outcomes, subgroups, and contexts."
+        },
+        {
+          "label": "C",
+          "text": "Microcredit and charitable donations create the same obligations."
+        },
+        {
+          "label": "D",
+          "text": "A near-zero average proves that no participant was affected."
+        }
+      ],
+      "correct": "B",
+      "answer": "The passage separates availability, use, several outcomes, heterogeneous effects, and context. 正解：B。heterogeneousは「人や集団によって異なる」です。Aは条件差、Cは返済義務、Dは平均に隠れた差を無視します。",
+      "sourceRefs": [
+        "legacy:english-reading-academic-microfinance-heterogeneous-effects-08-q1"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "How are microfinance and microcredit related?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Microcredit is the broad category, while microfinance means charitable gifts only."
+        },
+        {
+          "label": "B",
+          "text": "They are identical terms for loans that never require repayment."
+        },
+        {
+          "label": "C",
+          "text": "Microfinance includes credit, savings, insurance, and payments; microcredit is its lending component."
+        },
+        {
+          "label": "D",
+          "text": "Microfinance excludes lending and refers only to insurance."
+        }
+      ],
+      "correct": "C",
+      "answer": "Microfinance is the broader set of services, and microcredit is one component within it. 正解：C。componentは「構成部分」です。A・B・Dは包含関係と返済契約を誤っています。",
+      "sourceRefs": [
+        "legacy:english-reading-academic-microfinance-heterogeneous-effects-08-q2"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "The word “conceal” in paragraph 3 is closest in meaning to:",
+      "options": [
+        {
+          "label": "A",
+          "text": "hide differences that exist within an average"
+        },
+        {
+          "label": "B",
+          "text": "guarantee that every result is positive"
+        },
+        {
+          "label": "C",
+          "text": "calculate an interest rate incorrectly"
+        },
+        {
+          "label": "D",
+          "text": "prohibit households from borrowing"
+        }
+      ],
+      "correct": "A",
+      "answer": "Conceal means to hide or make something difficult to see. 正解：A。正負のsubgroup effects（下位集団効果）が相殺されると、平均だけでは差が見えません。B・C・Dはその統計的文脈に合いません。",
+      "sourceRefs": [
+        "legacy:english-reading-academic-microfinance-heterogeneous-effects-08-q3"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does greater access to loans alone not prove that poverty has fallen?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Access shows an option was offered, but evidence is still needed about take-up, allocation, returns, repayment costs, and household welfare."
+        },
+        {
+          "label": "B",
+          "text": "Every household offered credit is legally required to start a business."
+        },
+        {
+          "label": "C",
+          "text": "Poverty can be measured only from the number of lending institutions."
+        },
+        {
+          "label": "D",
+          "text": "Repayment obligations automatically increase welfare regardless of investment results."
+        }
+      ],
+      "correct": "A",
+      "answer": "Access is only the first link; use and net consequences must be measured separately. 正解：A。take-upは「利用可能な制度を実際に利用すること」、welfareは「家計厚生」です。B・C・Dは提供を成果と取り違えます。",
+      "sourceRefs": [
+        "legacy:english-reading-academic-microfinance-heterogeneous-effects-08-q4"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which statement correctly identifies both a possible benefit and a possible cost of group lending?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It uses local information and shared responsibility, but it may also create pressure among members."
+        },
+        {
+          "label": "B",
+          "text": "It eliminates repayment obligations, but it prevents all saving."
+        },
+        {
+          "label": "C",
+          "text": "It guarantees profitable investment, but it raises no administrative issues."
+        },
+        {
+          "label": "D",
+          "text": "It removes the need for information, but it makes collateral mandatory."
+        }
+      ],
+      "correct": "A",
+      "answer": "Local knowledge and shared responsibility may support lending, while peer responsibility can become social pressure. 正解：A。shared responsibilityは「共同責任」です。B・C・Dは本文にない保証や契約条件を加えています。",
+      "sourceRefs": [
+        "legacy:english-reading-academic-microfinance-heterogeneous-effects-08-q5"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What different questions do take-up, business investment, and consumption answer?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They are three names for the same measure of loan availability."
+        },
+        {
+          "label": "B",
+          "text": "Take-up asks who used the service, investment asks whether funds entered business assets, and consumption asks whether current household use of goods and services changed."
+        },
+        {
+          "label": "C",
+          "text": "Take-up measures profit, investment measures repayment dates, and consumption measures collateral."
+        },
+        {
+          "label": "D",
+          "text": "All three necessarily rise whenever a loan is offered."
+        }
+      ],
+      "correct": "B",
+      "answer": "These indicators describe separate stages and outcomes rather than interchangeable evidence. 正解：B。indicatorは「指標」です。A・Cは定義を混同し、Dはaccessから各成果への自動的な飛躍です。",
+      "sourceRefs": [
+        "legacy:english-reading-academic-microfinance-heterogeneous-effects-08-q6"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why can an average effect near zero coexist with important program effects?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Averages always exclude people who borrowed."
+        },
+        {
+          "label": "B",
+          "text": "Positive effects for one subgroup may be offset by no effect or losses for others."
+        },
+        {
+          "label": "C",
+          "text": "A zero average means every individual result is exactly zero."
+        },
+        {
+          "label": "D",
+          "text": "Only favorable outcomes are included in an average."
+        }
+      ],
+      "correct": "B",
+      "answer": "Different subgroup effects can cancel in the overall mean. 正解：B。offsetは「相殺する」です。A・Dは平均の作り方を誤り、Cは平均値と各人の値を同一視しています。",
+      "sourceRefs": [
+        "legacy:english-reading-academic-microfinance-heterogeneous-effects-08-q7"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which interpretation best captures the risks of choosing a follow-up period?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A short study may miss slow gains, while a longer study can face attrition, repeated borrowing, other programs, and changing economic conditions."
+        },
+        {
+          "label": "B",
+          "text": "Short and long studies always produce identical conclusions."
+        },
+        {
+          "label": "C",
+          "text": "Only short studies can measure repayment, and only long studies can measure access."
+        },
+        {
+          "label": "D",
+          "text": "A favorable early result guarantees the same effect after repeated borrowing."
+        }
+      ],
+      "correct": "A",
+      "answer": "Time horizon affects what is visible and which new confounders enter. 正解：A。attritionは「追跡対象の脱落」、time horizonは「評価期間」です。B・C・Dは期間依存性を消しています。",
+      "sourceRefs": [
+        "legacy:english-reading-academic-microfinance-heterogeneous-effects-08-q8"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which study would best test whether introducing microcredit caused an increase in village businesses?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Observe one village after introduction and attribute every new business to credit."
+        },
+        {
+          "label": "B",
+          "text": "Randomly phase the program into comparable villages, record a preregistered baseline, measure business entry and closure plus household outcomes repeatedly, and track spillovers and attrition."
+        },
+        {
+          "label": "C",
+          "text": "Survey only successful borrowers and omit nonborrowers."
+        },
+        {
+          "label": "D",
+          "text": "Compare villages chosen because one already had unusually rapid business growth."
+        }
+      ],
+      "correct": "B",
+      "answer": "Randomized phasing, a baseline, repeated outcomes, and checks for spillovers and attrition support causal inference. 正解：B。preregisteredは「分析前に計画を登録した」、spilloverは「非対象者への波及」です。A・C・Dは選択や時間変化を分離できません。",
+      "sourceRefs": [
+        "legacy:english-reading-academic-microfinance-heterogeneous-effects-08-q9"
+      ]
+    }
+  ]
+}
