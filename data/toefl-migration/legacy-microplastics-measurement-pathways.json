@@ -1,0 +1,258 @@
+{
+  "id": "legacy-microplastics-measurement-pathways",
+  "title": "Microplastics: Measurement, Exposure, and Risk",
+  "task": 3,
+  "date": "2026-09-15T04:01:00+09:00",
+  "level": "B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "本文と元教材の解説から一意に判断できる正答を編集・確認しています。四つの原文段落と全九つの学習対象を保持し、元の記述問題は英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-academic-microplastics-measurement-pathways-10/",
+  "passages": {
+    "text": "Microplastics are commonly described as plastic particles smaller than five millimeters, but that upper boundary does not make every particle equivalent. A fiber and a fragment may move differently; a dense polymer may sink while another remains suspended; and a method that captures large particles may miss much smaller ones. Some particles are manufactured at a small size, whereas others form when larger objects weather, abrade, or shed fibers. Thus, the word *microplastic* names a broad measurement category, not a single substance with one behavior.\n\nTo map pollution, researchers must first decide where and how to sample. A surface net, a sediment core, and a soil sample examine different compartments. Mesh size sets a lower detection boundary, and laboratory air or synthetic clothing can contaminate a sample with fibers. Visual sorting may mistake nonplastic material for plastic, while spectroscopic methods can identify polymers but have their own size limits and costs. Counts from two studies are therefore comparable only after their sampling volume, size range, units, cleanup, identification, and quality controls have been examined.\n\nEvidence of biological interaction also forms a chain. Finding particles in an animal shows exposure or ingestion; it does not by itself establish tissue damage, reduced reproduction, or a decline in the wild population. Laboratory experiments can isolate a mechanism, such as altered feeding, but very high concentrations or uniform particles may poorly represent the environment. Field studies provide realism yet must separate plastic exposure from temperature, food supply, other pollutants, and habitat quality. Strong inference grows when several methods converge at environmentally relevant doses.\n\nThis caution is not a reason for inaction. Plastics enter water and soil through product loss, waste leakage, runoff, wastewater, tire wear, and textile shedding, and small particles are difficult to recover after dispersal. Prevention can target a pathway before release, while treatment can intercept some particles later. Policy choices should identify which sizes and sources they address and how success will be measured. The responsible conclusion is neither “no harm has been proved” nor “all detected particles cause catastrophe.” It is that widespread, persistent particles justify source control and better evidence, with claims matched to what each measurement can actually support."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What is the main idea of the passage?",
+      "options": [
+        {
+          "label": "A",
+          "text": "One sampling method can measure every plastic particle in every environment."
+        },
+        {
+          "label": "B",
+          "text": "Microplastic evidence must connect sources, measurement limits, exposure, effects, and interventions without skipping steps."
+        },
+        {
+          "label": "C",
+          "text": "Any particle found in an animal proves population collapse."
+        },
+        {
+          "label": "D",
+          "text": "Laboratory experiments are always more realistic than field studies."
+        }
+      ],
+      "correct": "B",
+      "answer": "The passage follows a chain from heterogeneous particles and measurement to biological evidence and policy. 正解：B。heterogeneousは「性質が一様でない」です。Aは方法限界、Cは証拠段階、Dは現実性と統制のtrade-offを無視します。",
+      "sourceRefs": [
+        "legacy:english-reading-academic-microplastics-measurement-pathways-10-q1"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does the term “microplastic” describe a broad measurement category rather than one substance?",
+      "options": [
+        {
+          "label": "A",
+          "text": "All particles below five millimeters share the same density and shape."
+        },
+        {
+          "label": "B",
+          "text": "Particles differ in size, shape, polymer, source, movement, and detectability even though they share an upper size boundary."
+        },
+        {
+          "label": "C",
+          "text": "The term applies only to fibers manufactured at a small size."
+        },
+        {
+          "label": "D",
+          "text": "Every method captures the full category equally well."
+        }
+      ],
+      "correct": "B",
+      "answer": "The size label groups particles with different materials, forms, origins, and behavior. 正解：B。polymerは「高分子材料」、detectabilityは「検出可能性」です。A・C・Dは本文が強調する多様性を消します。",
+      "sourceRefs": [
+        "legacy:english-reading-academic-microplastics-measurement-pathways-10-q2"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "The word “comparable” in paragraph 2 is closest in meaning to:",
+      "options": [
+        {
+          "label": "A",
+          "text": "suitable for meaningful comparison after methods are aligned"
+        },
+        {
+          "label": "B",
+          "text": "guaranteed to contain identical particles"
+        },
+        {
+          "label": "C",
+          "text": "collected without any lower size limit"
+        },
+        {
+          "label": "D",
+          "text": "visible without analytical instruments"
+        }
+      ],
+      "correct": "A",
+      "answer": "Comparable means that results can be meaningfully compared under aligned definitions and methods. 正解：A。採取量・粒径範囲・単位・同定法などの整合が必要です。B・C・Dは同一性や無制限検出を誤って保証します。",
+      "sourceRefs": [
+        "legacy:english-reading-academic-microplastics-measurement-pathways-10-q3"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does an unreported mesh size weaken a comparison of particle counts between studies?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mesh size changes the chemical identity of every captured polymer."
+        },
+        {
+          "label": "B",
+          "text": "Particles smaller than the mesh can pass through, so different lower detection boundaries may create different counts."
+        },
+        {
+          "label": "C",
+          "text": "A larger mesh always captures more small particles."
+        },
+        {
+          "label": "D",
+          "text": "Mesh size matters only for laboratory air contamination."
+        }
+      ],
+      "correct": "B",
+      "answer": "The mesh determines which small particles can be retained, so count differences may reflect methods rather than pollution. 正解：B。lower detection boundaryは「検出下限」です。A・C・Dは網目の役割を誤っています。",
+      "sourceRefs": [
+        "legacy:english-reading-academic-microplastics-measurement-pathways-10-q4"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does finding particles in an animal not directly prove a decline in the wild population?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Detection establishes exposure or ingestion, but further evidence is needed for tissue damage, reproduction, survival, and population change while accounting for other factors."
+        },
+        {
+          "label": "B",
+          "text": "Any ingested particle is immediately removed without biological contact."
+        },
+        {
+          "label": "C",
+          "text": "Population decline can be inferred from particle color alone."
+        },
+        {
+          "label": "D",
+          "text": "Field populations are unaffected by temperature, food, pollutants, or habitat."
+        }
+      ],
+      "correct": "A",
+      "answer": "Exposure is one step; harmful individual effects and population consequences require additional causal links. 正解：A。ingestionは「摂取」、population-level riskは「個体群水準の危険」です。B・C・Dは生物影響や交絡要因を否定します。",
+      "sourceRefs": [
+        "legacy:english-reading-academic-microplastics-measurement-pathways-10-q5"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "How do laboratory and field studies complement each other?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Laboratory studies isolate mechanisms but may use unrealistic doses or particles; field studies add realism but face confounding environmental factors."
+        },
+        {
+          "label": "B",
+          "text": "Laboratory studies cannot control any variable, while field studies control all variables."
+        },
+        {
+          "label": "C",
+          "text": "Both designs always estimate the same effect without uncertainty."
+        },
+        {
+          "label": "D",
+          "text": "Only field studies can identify a possible feeding mechanism."
+        }
+      ],
+      "correct": "A",
+      "answer": "Controlled experiments support mechanism, while field evidence supports environmental relevance; each has a different limitation. 正解：A。confoundingは「他要因との交絡」です。B・C・Dは統制と現実性の関係を逆転します。",
+      "sourceRefs": [
+        "legacy:english-reading-academic-microplastics-measurement-pathways-10-q6"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does the phrase “when several methods converge” mean?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Different methods using environmentally relevant conditions support the same explanation despite their distinct weaknesses."
+        },
+        {
+          "label": "B",
+          "text": "All researchers replace spectroscopy with visual sorting."
+        },
+        {
+          "label": "C",
+          "text": "One unusually high laboratory dose is repeated many times."
+        },
+        {
+          "label": "D",
+          "text": "Every study uses an identical mesh and therefore needs no field evidence."
+        }
+      ],
+      "correct": "A",
+      "answer": "Convergence occurs when independent approaches point toward the same conclusion. 正解：A。convergeは「複数の証拠が同じ説明を支持する」です。B・C・Dは方法の多様性や環境妥当性を失います。",
+      "sourceRefs": [
+        "legacy:english-reading-academic-microplastics-measurement-pathways-10-q7"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why should a policy evaluation specify the particle sizes and release pathways it targets?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Every intervention removes all sizes from all sources equally."
+        },
+        {
+          "label": "B",
+          "text": "An intervention may affect wastewater particles but not road runoff or later fragmentation, so success must be measured against its stated scope."
+        },
+        {
+          "label": "C",
+          "text": "Target definitions make measurement unnecessary."
+        },
+        {
+          "label": "D",
+          "text": "Source control is useful only after particles have dispersed widely."
+        }
+      ],
+      "correct": "B",
+      "answer": "Different controls act on different sources, sizes, and stages, so an unspecified target makes results hard to interpret. 正解：B。pathwayは「環境へ入る経路」、scopeは「対象範囲」です。A・C・Dは対策の限定性や予防を否定します。",
+      "sourceRefs": [
+        "legacy:english-reading-academic-microplastics-measurement-pathways-10-q8"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which plan best compares microplastic levels in two rivers?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Use different seasons and meshes, then compare raw counts without units."
+        },
+        {
+          "label": "B",
+          "text": "Sample matched upstream, urban, and downstream sites in the same seasons; standardize volume, mesh, blanks, and identification; report size-specific counts and record flow, rainfall, wastewater, and land use."
+        },
+        {
+          "label": "C",
+          "text": "Collect one visible particle from each river and infer total pollution."
+        },
+        {
+          "label": "D",
+          "text": "Use spectroscopy in one river and visual sorting alone in the other without quality controls."
+        }
+      ],
+      "correct": "B",
+      "answer": "Standardized sampling and identification plus environmental covariates make the comparison interpretable. 正解：B。blankは「採取・分析中の混入を検出する空試験」、covariateは「同時に記録する関連変数」です。A・C・Dは方法差と不確実性を汚染差として誤認しやすくします。",
+      "sourceRefs": [
+        "legacy:english-reading-academic-microplastics-measurement-pathways-10-q9"
+      ]
+    }
+  ]
+}
