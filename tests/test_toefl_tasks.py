@@ -197,6 +197,34 @@ class TaskCatalogTests(unittest.TestCase):
                 self.assertTrue(all(q['passage'] == passage for q in item['questions']))
                 self.assertTrue(all(len(q['options']) == 4 for q in item['questions']))
 
+    def test_actual_test1_module1_preserves_all_twenty_answers_and_pages(self):
+        bank = self.build()
+        task1 = next(s for s in bank['sets'] if s['id'] == 'pdf-actual-test1-module1-task1')
+        task2 = next(s for s in bank['sets'] if s['id'] == 'pdf-actual-test1-module1-task2')
+        task3 = next(s for s in bank['sets'] if s['id'] == 'pdf-actual-test1-module1-task3')
+        expected_words = [
+            ('gue', 'plague'), ('nsible', 'responsible'), ('ly', 'only'),
+            ('he', 'the'), ('rly', 'nearly'), ('ire', 'entire'),
+            ('ut', 'but'), ('or', 'for'), ('ute', 'acute'),
+            ('tages', 'shortages')]
+        self.assertEqual([q['acceptedAnswers'] for q in task1['questions']],
+                         [list(pair) for pair in expected_words])
+        self.assertEqual([q['sourceRefs'] for q in task1['questions']],
+                         [[f'pdf:actual:p003:q{i:02d}'] for i in range(1, 11)])
+        self.assertEqual([q['correct'] for q in task2['questions']], list('DABDC'))
+        self.assertEqual([q['sourceRefs'] for q in task2['questions']],
+                         [[f'pdf:actual:p004:q{i:02d}'] for i in range(11, 13)] +
+                         [[f'pdf:actual:p005:q{i:02d}'] for i in range(13, 16)])
+        self.assertEqual([q['correct'] for q in task3['questions']], list('ACCDB'))
+        self.assertEqual([q['sourceRefs'] for q in task3['questions']],
+                         [[f'pdf:actual:p007:q{i:02d}'] for i in range(16, 21)])
+        index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
+        source = next(s for s in index['sources'] if s['id'] == 'actual')
+        self.assertEqual(source['reviewedPages'], list(range(1, 8)))
+        self.assertEqual(source['pageItems']['1'], [])
+        self.assertEqual(source['pageItems']['2'], [])
+        self.assertEqual(source['pageItems']['6'], [])
+
     def test_duplicate_source_reference_rejected(self):
         self.change('data/toefl-migration/legacy-balanced-diet.json',lambda d:d['questions'][1].update(sourceRefs=d['questions'][0]['sourceRefs']))
         with self.assertRaises(ValueError): self.build()

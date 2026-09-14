@@ -1,0 +1,149 @@
+{
+  "id": "pdf-actual-test1-module1-task3",
+  "title": "Actual Test 1 · Chemosynthetic Communities",
+  "task": 3,
+  "date": "2026-09-14T12:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Actual Test · PDF 6–7ページ／冊子360–361ページ · 問16–20",
+  "verificationNote": "Editorial answers（編集・確認した解答）。スキャン原本の本文・選択肢を照合し、本文根拠から正答を作成しました。出版社の公式解答表とは未照合です。",
+  "passages": {
+    "chemosynthesis": "Most people are familiar with photosynthesis—the process by which plants use sunlight to produce energy. However, in the deepest parts of the ocean, where sunlight cannot penetrate, ecosystems thrive through chemosynthesis, which involves using chemicals instead of sunlight to produce food and nutrients. But how does chemosynthesis work?\n\nAt the foundation of these ecosystems are bacteria that convert chemicals like hydrogen sulfide into energy—much like plants convert sunlight. These chemosynthetic bacteria form the base of a complex food web that supports an array of bizarre creatures. Giant tube worms, some reaching lengths of eight feet, house these bacteria in specialized organs and receive nutrients in return. Certain species of clams and mussels have evolved symbiotic relationships with chemosynthetic bacteria, allowing them to flourish in harsh environments such as hydrothermal vents, where superheated water erupts from the seafloor.\n\nWhat makes these chemosynthetic communities fascinating is their independence from solar energy, expanding the definition of what we consider habitable environments. The study of these communities may offer insights into how life might exist where sunlight is absent. For example, icy moons like Europa and Enceladus could support life based on these chemical reactions."
+  },
+  "questions": [
+    {
+      "passageId": "chemosynthesis",
+      "prompt": "The word “penetrate” in the passage is closest in meaning to",
+      "options": [
+        {
+          "label": "A",
+          "text": "pierce"
+        },
+        {
+          "label": "B",
+          "text": "dissolve"
+        },
+        {
+          "label": "C",
+          "text": "reflect"
+        },
+        {
+          "label": "D",
+          "text": "escape"
+        }
+      ],
+      "correct": "A",
+      "answer": "Sunlight cannot pass into the deepest ocean, so penetrate means enter or pierce through. 正解：A。pierceは「突き通す・貫く」。dissolveは溶かす、reflectは反射する、escapeは逃れるで、光が深海へ届かない文脈に合いません。",
+      "sourceRefs": [
+        "pdf:actual:p007:q16"
+      ]
+    },
+    {
+      "passageId": "chemosynthesis",
+      "prompt": "Why do giant tube worms house chemosynthetic bacteria in specialized organs?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They use the bacteria to filter toxins from the water."
+        },
+        {
+          "label": "B",
+          "text": "They help the bacteria reproduce more effectively."
+        },
+        {
+          "label": "C",
+          "text": "They receive nutrients produced by the bacteria."
+        },
+        {
+          "label": "D",
+          "text": "They make it possible for the bacteria to absorb chemicals."
+        }
+      ],
+      "correct": "C",
+      "answer": "The passage directly states that tube worms house the bacteria and receive nutrients in return. 正解：C。A・B・Dの機能は本文にありません。in returnは「その見返りとして」、specialized organは「特定の機能に適した器官」です。",
+      "sourceRefs": [
+        "pdf:actual:p007:q17"
+      ]
+    },
+    {
+      "passageId": "chemosynthesis",
+      "prompt": "All of the following are true about certain species of clams EXCEPT:",
+      "options": [
+        {
+          "label": "A",
+          "text": "They exist in areas where sunlight cannot reach."
+        },
+        {
+          "label": "B",
+          "text": "They can be found around hydrothermal vents."
+        },
+        {
+          "label": "C",
+          "text": "They generate chemical energy from superheated water."
+        },
+        {
+          "label": "D",
+          "text": "They have developed partnerships with some bacteria."
+        }
+      ],
+      "correct": "C",
+      "answer": "The bacteria convert chemicals such as hydrogen sulfide; the passage does not say that clams generate energy from the hot water itself. 正解：C。A・Bは深海のvent環境、Dはsymbiotic relationshipsで本文に支持されます。hydrothermal ventは「海底の熱水噴出孔」です。",
+      "sourceRefs": [
+        "pdf:actual:p007:q18"
+      ]
+    },
+    {
+      "passageId": "chemosynthesis",
+      "prompt": "Why does the author mention icy moons?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To suggest that chemosynthetic bacteria might have originated in space"
+        },
+        {
+          "label": "B",
+          "text": "To compare the conditions on Earth's seafloor to those on celestial objects"
+        },
+        {
+          "label": "C",
+          "text": "To provide an example of an environment where chemosynthesis is impossible"
+        },
+        {
+          "label": "D",
+          "text": "To indicate that chemosynthetic ecosystems could provide clues about extraterrestrial life"
+        }
+      ],
+      "correct": "D",
+      "answer": "Europa and Enceladus illustrate places where sunlight-independent chemical reactions might support life. 正解：D。Aの宇宙起源、Bの詳細な条件比較、Cの不可能という主張はありません。extraterrestrial lifeは「地球外生命」です。",
+      "sourceRefs": [
+        "pdf:actual:p007:q19"
+      ]
+    },
+    {
+      "passageId": "chemosynthesis",
+      "prompt": "What is the purpose of the third paragraph?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It provides specific examples of the bacteria mentioned in paragraph 2."
+        },
+        {
+          "label": "B",
+          "text": "It explains the broader significance and implications of chemosynthetic communities."
+        },
+        {
+          "label": "C",
+          "text": "It contradicts the information about photosynthesis presented in paragraph 1."
+        },
+        {
+          "label": "D",
+          "text": "It concludes the passage by mentioning the difficulty of studying chemosynthetic communities."
+        }
+      ],
+      "correct": "B",
+      "answer": "The paragraph moves from how the communities work to why they matter for habitability and possible life beyond Earth. 正解：B。Aの細菌例は第2段落、Cは光合成を否定せず対比、Dは研究の困難を述べていません。implicationは「そこから導かれる意味・影響」です。",
+      "sourceRefs": [
+        "pdf:actual:p007:q20"
+      ]
+    }
+  ]
+}
