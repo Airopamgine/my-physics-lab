@@ -58,6 +58,7 @@
   let currentIndex = 0;
   let selectedOption = null;
   let sessionMastered = 0;
+  let deferredGapAttempts = [];
   let progress = loadProgress();
 
   function loadProgress() {
@@ -252,6 +253,7 @@
     activeQueue = [...questions];
     currentIndex = 0;
     sessionMastered = 0;
+    deferredGapAttempts = [];
     elements.complete.hidden = true;
     elements.runner.hidden = false;
     renderQuestion();
@@ -271,6 +273,15 @@
           <summary>語注 (${set.notes.length})</summary>
           <dl>${set.notes.map((note) => `<div><dt>${richText(note.term)}</dt><dd>${richText(note.definition)}</dd></div>`).join("")}</dl>
         </details>` : ""}`;
+  }
+
+  function sameGapPassage(left, right) {
+    if (!left?.acceptedAnswers || !right?.acceptedAnswers) return false;
+    return (left.passage ?? activeSet?.passage) === (right.passage ?? activeSet?.passage);
+  }
+
+  function isFinalGapInPassage() {
+    return !sameGapPassage(activeQueue[currentIndex], activeQueue[currentIndex + 1]);
   }
 
   function renderQuestion() {
@@ -307,7 +318,7 @@
         button.addEventListener("click", () => selectChoice(button));
       });
     } else if (question.acceptedAnswers) {
-      elements.check.textContent = "Check answer";
+      elements.check.textContent = isFinalGapInPassage() ? "Check this passage" : "Save and continue";
       elements.questionContent.innerHTML = `
         ${contextMarkup({ ...activeSet, passage: question.passage ?? activeSet.passage })}
         ${prompt}
@@ -399,11 +410,27 @@
       input.disabled = true;
       recordAttempt(question, correct ? "correct" : "incorrect", submitted);
       if (correct) sessionMastered += 1;
-      elements.feedback.className = `toefl-feedback ${correct ? "is-correct" : "is-wrong"}`;
-      elements.feedback.innerHTML = `<h3>${correct ? "✓ Correct" : "✕ Not quite"}</h3>
-        <p>Your answer: ${escapeHtml(submitted)}</p>
-        <div class="library-rich-text">${richText(question.answer)}</div>`;
-      window.ToeflChatGPTBridge?.mount(elements.feedback, tutorDetails(question, submitted));
+      deferredGapAttempts.push({ question, submitted, correct });
+      if (!isFinalGapInPassage()) {
+        currentIndex += 1;
+        renderQuestion();
+        elements.runner.scrollIntoView({ behavior: "smooth", block: "start" });
+        return;
+      }
+      const attempts = deferredGapAttempts;
+      deferredGapAttempts = [];
+      const correctCount = attempts.filter((attempt) => attempt.correct).length;
+      elements.feedback.className = `toefl-feedback ${correctCount === attempts.length ? "is-correct" : "is-wrong"}`;
+      elements.feedback.innerHTML = `<h3>${correctCount} / ${attempts.length} correct in this passage</h3>
+        <p>同じ文章の全空欄を提出したため、ここで正答をまとめて表示します。</p>
+        ${attempts.map((attempt) => `<article class="library-gap-review">
+          <h4>${escapeHtml(attempt.question.prompt)} · ${attempt.correct ? "✓ Correct" : "✕ Not quite"}</h4>
+          <p>Your answer: ${escapeHtml(attempt.submitted)}</p>
+          <div class="library-rich-text">${richText(attempt.question.answer)}</div>
+        </article>`).join("")}`;
+      const combinedAnswer = attempts.map((attempt) => `${attempt.question.prompt}\n${attempt.question.answer}`).join("\n\n");
+      const combinedSubmitted = attempts.map((attempt) => `${attempt.question.prompt}: ${attempt.submitted}`).join("\n");
+      window.ToeflChatGPTBridge?.mount(elements.feedback, tutorDetails({ ...question, answer: combinedAnswer }, combinedSubmitted));
       elements.feedback.hidden = false;
       elements.check.hidden = true;
       elements.next.hidden = false;

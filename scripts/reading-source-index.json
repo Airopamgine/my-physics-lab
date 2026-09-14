@@ -186,7 +186,8 @@
         9,
         10,
         11,
-        12
+        12,
+        13
       ],
       "packets": [
         {
@@ -275,15 +276,13 @@
         "12": [
           "pdf:task2:p012:q05",
           "pdf:task2:p012:q06"
+        ],
+        "13": [
+          "pdf:task2:p013:q07",
+          "pdf:task2:p013:q08",
+          "pdf:task2:p013:q09"
         ]
-      },
-      "blockedItems": [
-        {
-          "sourceRef": "pdf:task2:p013:q09",
-          "status": "pending-verification",
-          "reason": "The passage says bike-specific apps can help avoid busy roads; it does not establish that the road information is real-time (option C). Other choices also lack clear support. Retain the original exercise for later answer-key/text clarification; do not mark PDF page 13 complete."
-        }
-      ]
+      }
     },
     {
       "id": "task3",
