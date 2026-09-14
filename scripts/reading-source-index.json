@@ -38,7 +38,15 @@
       "pageCount": 24,
       "sha256": "2e3c7582025deff021ea6a0610b38959de9d32afa2a5696c095fbeb901e815ac",
       "answerKeyAvailable": false,
-      "reviewedPages": [],
+      "reviewedPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
       "packets": [
         {
           "path": "scripts/reading-source-text/actual-p001-p010.json.gz.b64",
@@ -56,7 +64,39 @@
           "lastPage": 24
         }
       ],
-      "pageItems": {}
+      "pageItems": {
+        "1": [],
+        "2": [],
+        "3": [
+          "pdf:actual:p003:q01",
+          "pdf:actual:p003:q02",
+          "pdf:actual:p003:q03",
+          "pdf:actual:p003:q04",
+          "pdf:actual:p003:q05",
+          "pdf:actual:p003:q06",
+          "pdf:actual:p003:q07",
+          "pdf:actual:p003:q08",
+          "pdf:actual:p003:q09",
+          "pdf:actual:p003:q10"
+        ],
+        "4": [
+          "pdf:actual:p004:q11",
+          "pdf:actual:p004:q12"
+        ],
+        "5": [
+          "pdf:actual:p005:q13",
+          "pdf:actual:p005:q14",
+          "pdf:actual:p005:q15"
+        ],
+        "6": [],
+        "7": [
+          "pdf:actual:p007:q16",
+          "pdf:actual:p007:q17",
+          "pdf:actual:p007:q18",
+          "pdf:actual:p007:q19",
+          "pdf:actual:p007:q20"
+        ]
+      }
     },
     {
       "id": "task1",
@@ -396,13 +436,18 @@
     }
   ],
   "lastSource": {
-    "type": "legacy",
-    "id": "english-reading-academic-hotelling-location-competition-15",
-    "batchSourceIds": [
-      "english-reading-academic-habitus-disposition-practice-14",
-      "english-reading-academic-hotelling-location-competition-15"
+    "type": "pdf",
+    "id": "actual",
+    "pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
     ],
-    "convertedAt": "2026-09-14T08:00:00+09:00"
+    "convertedAt": "2026-09-14T12:00:00+09:00"
   },
   "note": "Packet paths describe a private working cache, not published files. Exact question totals require review. Answer pages referenced by the books were not supplied."
 }

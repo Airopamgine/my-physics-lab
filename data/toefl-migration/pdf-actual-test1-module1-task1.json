@@ -1,0 +1,114 @@
+{
+  "id": "pdf-actual-test1-module1-task1",
+  "title": "Actual Test 1 · Black Death Word Completion",
+  "task": 1,
+  "date": "2026-09-14T12:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Actual Test · PDF 3ページ／冊子357ページ · 問01–10",
+  "verificationNote": "Editorial answers（編集・確認した解答）。スキャン原本の本文・接頭部分・空欄を照合して解答を作成しました。出版社の公式解答表とは未照合です。",
+  "passages": {
+    "black_death": "Sweeping through Europe during the 14th century, the Black Death was a cataclysmic pandemic that altered the trajectory of European civilization. The pla___ was respo______ not on__ for t__ demise of nea___ half the ent___ population b__ also f__ triggering ac___ labor shor_____ and sparking widespread social unrest. Consequently, the surviving workers found themselves in a position to negotiate higher wages, with many abandoning their feudal obligations in pursuit of improved economic prospects. These transformations laid the foundation for greater social mobility across the continent."
+  },
+  "questions": [
+    {
+      "passageId": "black_death",
+      "prompt": "Question 01: complete pla___. Enter the missing letters.",
+      "prefix": "pla",
+      "word": "plague",
+      "answer": "The subject is the Black Death, so plague names the pandemic. 正解：gue → plague（疫病・伝染病の大流行）。The plague was responsible... の主語になります。",
+      "sourceRefs": [
+        "pdf:actual:p003:q01"
+      ]
+    },
+    {
+      "passageId": "black_death",
+      "prompt": "Question 02: complete respo______. Enter the missing letters.",
+      "prefix": "respo",
+      "word": "responsible",
+      "answer": "The fixed expression is be responsible for. 正解：nsible → responsible（原因となる・責任がある）。ここでは黒死病が人口減少を引き起こしたという因果です。",
+      "sourceRefs": [
+        "pdf:actual:p003:q02"
+      ]
+    },
+    {
+      "passageId": "black_death",
+      "prompt": "Question 03: complete on__. Enter the missing letters.",
+      "prefix": "on",
+      "word": "only",
+      "answer": "The paired construction is not only ... but also .... 正解：ly → only（〜だけでなく）。後のbut alsoと対応します。",
+      "sourceRefs": [
+        "pdf:actual:p003:q03"
+      ]
+    },
+    {
+      "passageId": "black_death",
+      "prompt": "Question 04: complete t__. Enter the missing letters.",
+      "prefix": "t",
+      "word": "the",
+      "answer": "Demise is specified by the following phrase, so it takes the definite article. 正解：he → the。the demise of nearly half... は「ほぼ半数の死」です。demiseは「死・消滅」です。",
+      "sourceRefs": [
+        "pdf:actual:p003:q04"
+      ]
+    },
+    {
+      "passageId": "black_death",
+      "prompt": "Question 05: complete nea___. Enter the missing letters.",
+      "prefix": "nea",
+      "word": "nearly",
+      "answer": "Nearly modifies half to mean slightly less than or approximately one half. 正解：rly → nearly（ほぼ・およそ）。形容詞nearでは数量halfをこの形で修飾できません。",
+      "sourceRefs": [
+        "pdf:actual:p003:q05"
+      ]
+    },
+    {
+      "passageId": "black_death",
+      "prompt": "Question 06: complete ent___. Enter the missing letters.",
+      "prefix": "ent",
+      "word": "entire",
+      "answer": "Entire modifies population and emphasizes the whole population as the reference group. 正解：ire → entire（全体の）。nearly half the entire populationで「全人口のほぼ半分」です。",
+      "sourceRefs": [
+        "pdf:actual:p003:q06"
+      ]
+    },
+    {
+      "passageId": "black_death",
+      "prompt": "Question 07: complete b__. Enter the missing letters.",
+      "prefix": "b",
+      "word": "but",
+      "answer": "But completes not only ... but also .... 正解：ut → but。「〜だけでなく…も」を作り、demiseとtriggeringを並べます。",
+      "sourceRefs": [
+        "pdf:actual:p003:q07"
+      ]
+    },
+    {
+      "passageId": "black_death",
+      "prompt": "Question 08: complete f__. Enter the missing letters.",
+      "prefix": "f",
+      "word": "for",
+      "answer": "Responsible for takes a noun or gerund complement. 正解：or → for。for triggeringは「〜を引き起こしたことについて」です。",
+      "sourceRefs": [
+        "pdf:actual:p003:q08"
+      ]
+    },
+    {
+      "passageId": "black_death",
+      "prompt": "Question 09: complete ac___. Enter the missing letters.",
+      "prefix": "ac",
+      "word": "acute",
+      "answer": "Acute describes a severe and immediate labor shortage. 正解：ute → acute（深刻な・急性の）。ここでは死亡によって労働力不足が急激に深刻化した意味です。",
+      "sourceRefs": [
+        "pdf:actual:p003:q09"
+      ]
+    },
+    {
+      "passageId": "black_death",
+      "prompt": "Question 10: complete shor_____. Enter the missing letters.",
+      "prefix": "shor",
+      "word": "shortages",
+      "answer": "The plural noun fits after labor and before and sparking. 正解：tages → shortages（不足・欠乏）。acute labor shortagesは「深刻な労働力不足」です。",
+      "sourceRefs": [
+        "pdf:actual:p003:q10"
+      ]
+    }
+  ]
+}

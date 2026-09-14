@@ -1,0 +1,150 @@
+{
+  "id": "pdf-actual-test1-module1-task2",
+  "title": "Actual Test 1 · Interview and Presentation Messages",
+  "task": 2,
+  "date": "2026-09-14T12:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Actual Test · PDF 4–5ページ／冊子358–359ページ · 問11–15",
+  "verificationNote": "Editorial answers（編集・確認した解答）。スキャン原本の本文・選択肢を照合し、本文根拠から正答を作成しました。出版社の公式解答表とは未照合です。",
+  "passages": {
+    "interview": "Date: May 11\nSubject: Interview Date Confirmation\n\nDear Mr. Brandt,\n\nWe received your message on May 9th requesting that your interview be moved from May 15th to the following day. Your interview has been rescheduled for 2:00 P.M. that day, as you requested. You will be emailed a link to join the interview. Please open it 10 minutes before the start time.\n\nBest,\nOlivia Sweeney",
+    "messages": "Elena Patel [9:15 A.M.]\nTeam, we need to finalize the presentation materials for next Tuesday's meeting. Let's make sure it is fully prepared and structured.\n\nSarah Kim [9:20 A.M.]\nGot it! I'm working on the slides now. I'm focusing on the top three electric bicycles in our lineup.\n\nThomas Rivera [9:25 A.M.]\nI'll include the rest in the handout materials I'm putting together. But I noticed some inconsistencies in the product specifications. Could someone please double-check those numbers?\n\nShawn Gibbs [9:30 A.M.]\nYou bet. I can verify those against the technical documentation later this morning, after I finish reviewing the budget report. I'm nearly done.\n\nElena Patel [9:35 A.M.]\nGood catch, Thomas. Everyone, please carefully review your sections and make sure everything is accurate. The CEO will be sitting in on this presentation."
+  },
+  "questions": [
+    {
+      "passageId": "interview",
+      "prompt": "When is the date of the interview?",
+      "options": [
+        {
+          "label": "A",
+          "text": "May 9th"
+        },
+        {
+          "label": "B",
+          "text": "May 11th"
+        },
+        {
+          "label": "C",
+          "text": "May 15th"
+        },
+        {
+          "label": "D",
+          "text": "May 16th"
+        }
+      ],
+      "correct": "D",
+      "answer": "The original date was May 15, and the interview moved to the following day. 正解：D、May 16thです。May 9thは依頼を送った日、May 11thはメールの日付、May 15thは変更前です。the following dayは「その翌日」です。",
+      "sourceRefs": [
+        "pdf:actual:p004:q11"
+      ]
+    },
+    {
+      "passageId": "interview",
+      "prompt": "What can be inferred about Mr. Brandt's interview?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It will be conducted via an online conferencing platform."
+        },
+        {
+          "label": "B",
+          "text": "It is a follow-up meeting from a previously held interview."
+        },
+        {
+          "label": "C",
+          "text": "It had to be rescheduled due to a problem at the company."
+        },
+        {
+          "label": "D",
+          "text": "It is for a high-level management position."
+        }
+      ],
+      "correct": "A",
+      "answer": "A joining link will be emailed and should be opened before the interview, indicating an online meeting. 正解：A。Bの再面接、Cの会社側の問題、Dの管理職という情報はありません。conferencing platformは「オンライン会議システム」です。",
+      "sourceRefs": [
+        "pdf:actual:p004:q12"
+      ]
+    },
+    {
+      "passageId": "messages",
+      "prompt": "What is Thomas Rivera's responsibility?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Creating some slides"
+        },
+        {
+          "label": "B",
+          "text": "Preparing printed materials"
+        },
+        {
+          "label": "C",
+          "text": "Double-checking product specifications"
+        },
+        {
+          "label": "D",
+          "text": "Researching electric bicycles"
+        }
+      ],
+      "correct": "B",
+      "answer": "Thomas says he is putting together the handout materials, which are printed materials for the meeting. 正解：B。AはSarah、CはThomasが他の人に依頼した作業、Dは誰の担当とも書かれていません。handoutは「会議などで配る印刷資料」です。",
+      "sourceRefs": [
+        "pdf:actual:p005:q13"
+      ]
+    },
+    {
+      "passageId": "messages",
+      "prompt": "What can be concluded about Shawn Gibbs?",
+      "options": [
+        {
+          "label": "A",
+          "text": "He will need to finish slide preparation work by a deadline."
+        },
+        {
+          "label": "B",
+          "text": "He will postpone reviewing the budget report."
+        },
+        {
+          "label": "C",
+          "text": "He will not be free to do any extra work."
+        },
+        {
+          "label": "D",
+          "text": "He will have time to take on an additional task."
+        }
+      ],
+      "correct": "D",
+      "answer": "Shawn is nearly finished with the budget report and agrees to verify the specifications later that morning. 正解：D。追加作業を引き受ける時間があると分かります。Aのスライド担当はSarah、Bは予算確認を先に終える予定、Cは発言と逆です。take onは「仕事を引き受ける」です。",
+      "sourceRefs": [
+        "pdf:actual:p005:q14"
+      ]
+    },
+    {
+      "passageId": "messages",
+      "prompt": "At 9:35 A.M., what does Elena Patel most likely mean when she writes, “The CEO will be sitting in on this presentation”?",
+      "options": [
+        {
+          "label": "A",
+          "text": "She believes the CEO has concerns about the team's abilities."
+        },
+        {
+          "label": "B",
+          "text": "She will not be leading the meeting herself."
+        },
+        {
+          "label": "C",
+          "text": "She wants the team's work to meet high standards."
+        },
+        {
+          "label": "D",
+          "text": "She is pointing out that the CEO will attend this presentation only."
+        }
+      ],
+      "correct": "C",
+      "answer": "Elena mentions the CEO immediately after asking everyone to review their sections for accuracy. 正解：C。重要な参加者が来るため高い完成度を求めています。A・Bは推測過剰、Dのonlyは本文にありません。sit in onは「会議などに同席・参加する」です。",
+      "sourceRefs": [
+        "pdf:actual:p005:q15"
+      ]
+    }
+  ]
+}
