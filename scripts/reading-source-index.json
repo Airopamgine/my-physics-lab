@@ -497,12 +497,12 @@
     }
   ],
   "lastSource": {
-    "type": "pdf",
+    "type": "legacy",
     "ids": [
-      "reading",
-      "task1"
+      "english-reading-academic-invasive-plants-pathways-18",
+      "english-reading-academic-leadership-contingency-evidence-17"
     ],
-    "convertedAt": "2026-09-14T20:03:00+09:00"
+    "convertedAt": "2026-09-14T22:21:00+09:00"
   },
   "note": "Packet paths describe a private working cache, not published files. Exact question totals require review. Answer pages referenced by the books were not supplied."
 }
