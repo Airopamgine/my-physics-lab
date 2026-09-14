@@ -1,0 +1,178 @@
+{
+  "id": "pdf-task1-p013",
+  "title": "Complete the Words · Society, Environment, and Economics",
+  "task": 1,
+  "date": "2026-09-14T20:03:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 13ページ／冊子41ページ · 問16–20（20空欄）",
+  "verificationNote": "Editorial answers（編集・確認した解答）。スキャン原本から作成済みの非公開OCRを照合し、文脈・文法・綴りから正答を作成しました。出版社の公式解答表とは未照合です。",
+  "passages": {
+    "16": "Wh__ a company faces a public relations crisis, the communication team must deliver the right message to prevent a loss of investor confi_____. Allowing speculation to circulate can trigger a negative ch___ reaction in the media, rapidly eroding the company's reput_____.",
+    "17": "While some critics believe the author's inten____ should guide our unders_______ of a text, others argue th__, once published, liter_____ takes on a life of its own.",
+    "18": "Bamboo is crucial t_ environmental conser______; its strong ro___ help prevent soil erosion. It can also absorb pollutants from the soil, making it easier for ot___ plants to grow near bamboo.",
+    "19": "The concept of the social contract is a founda______ idea in political philo_____, postulating that individuals volun______ surrender some of their freedoms and submit to the auth_____ of a ruler or government in exchange for protection of their remaining rights and the maintenance of social order.",
+    "20": "Opportunity cost is not the monetary price of a good, but rat___ the value of the next best alternative that must be forgone as a res___ of making a deci____. Every choice, whether by an individual, a firm, or a government, involves a trade-off, and opportunity cost repre_____ the true sacrifice being made."
+  },
+  "questions": [
+    {
+      "passageId": "16",
+      "prompt": "Exercise 16: complete Wh__. Enter the missing letters.",
+      "prefix": "Wh",
+      "word": "When",
+      "answer": "When introduces the situation in which the crisis occurs. 正解：en → When（〜するとき）。後ろにa company facesという主語＋動詞が続き、時間・状況を示す接続詞が必要です。public relations crisisは「広報上の危機」です。",
+      "sourceRefs": ["pdf:task1:p013:q16-gap1"]
+    },
+    {
+      "passageId": "16",
+      "prompt": "Exercise 16: complete confi_____. Enter the missing letters.",
+      "prefix": "confi",
+      "word": "confidence",
+      "answer": "Confidence is the trust that investors have in a company. 正解：dence → confidence（信頼・確信）。a loss of investor confidenceは「投資家の信頼の喪失」で、前置詞ofの後に名詞が入ります。",
+      "sourceRefs": ["pdf:task1:p013:q16-gap2"]
+    },
+    {
+      "passageId": "16",
+      "prompt": "Exercise 16: complete ch___. Enter the missing letters.",
+      "prefix": "ch",
+      "word": "chain",
+      "answer": "A chain reaction is a series in which one event causes another. 正解：ain → chain。negative chain reactionは「悪い連鎖反応」で、speculation（憶測）が報道を通じて次々に悪影響を生む文脈です。",
+      "sourceRefs": ["pdf:task1:p013:q16-gap3"]
+    },
+    {
+      "passageId": "16",
+      "prompt": "Exercise 16: complete reput_____. Enter the missing letters.",
+      "prefix": "reput",
+      "word": "reputation",
+      "answer": "Reputation means the general opinion people hold about the company. 正解：ation → reputation（評判・信用）。eroding the company's reputationは「会社の評判を徐々に損なう」という意味です。erodeは「少しずつ侵食する」です。",
+      "sourceRefs": ["pdf:task1:p013:q16-gap4"]
+    },
+    {
+      "passageId": "17",
+      "prompt": "Exercise 17: complete inten____. Enter the missing letters.",
+      "prefix": "inten",
+      "word": "intention",
+      "answer": "The possessive phrase the author's requires the noun intention. 正解：tion → intention（意図）。the author's intentionは「著者の意図」で、作品の解釈を導くべきかという文学批評の論点を示します。",
+      "sourceRefs": ["pdf:task1:p013:q17-gap1"]
+    },
+    {
+      "passageId": "17",
+      "prompt": "Exercise 17: complete unders_______. Enter the missing letters.",
+      "prefix": "unders",
+      "word": "understanding",
+      "answer": "Understanding names the reader's comprehension of a text. 正解：tanding → understanding（理解）。guide our understanding of a textは「文章の理解を導く」。comprehensionも「理解」を表す学術語です。",
+      "sourceRefs": ["pdf:task1:p013:q17-gap2"]
+    },
+    {
+      "passageId": "17",
+      "prompt": "Exercise 17: complete th__. Enter the missing letters.",
+      "prefix": "th",
+      "word": "that",
+      "answer": "That introduces the proposition argued by the critics. 正解：at → that。argue that ...は「〜だと主張する」という基本構文で、後ろのonce publishedから内容節が続きます。propositionは「主張内容・命題」です。",
+      "sourceRefs": ["pdf:task1:p013:q17-gap3"]
+    },
+    {
+      "passageId": "17",
+      "prompt": "Exercise 17: complete liter_____. Enter the missing letters.",
+      "prefix": "liter",
+      "word": "literature",
+      "answer": "Literature is treated as something that gains an independent life after publication. 正解：ature → literature（文学・文学作品）。takes on a life of its ownは「独自の生命を帯びる」という比喩表現です。",
+      "sourceRefs": ["pdf:task1:p013:q17-gap4"]
+    },
+    {
+      "passageId": "18",
+      "prompt": "Exercise 18: complete t_. Enter the missing letters.",
+      "prefix": "t",
+      "word": "to",
+      "answer": "Crucial is followed by to when stating what something is important for. 正解：o → to。be crucial to environmental conservationは「環境保全に不可欠である」。crucialは「極めて重要な」です。",
+      "sourceRefs": ["pdf:task1:p013:q18-gap1"]
+    },
+    {
+      "passageId": "18",
+      "prompt": "Exercise 18: complete conser______. Enter the missing letters.",
+      "prefix": "conser",
+      "word": "conservation",
+      "answer": "Conservation means protecting natural resources and ecosystems. 正解：vation → conservation（保全・保存）。environmental conservationは「環境保全」で、竹が土壌侵食を防ぐ働きにつながります。",
+      "sourceRefs": ["pdf:task1:p013:q18-gap2"]
+    },
+    {
+      "passageId": "18",
+      "prompt": "Exercise 18: complete ro___. Enter the missing letters.",
+      "prefix": "ro",
+      "word": "roots",
+      "answer": "Roots hold soil in place and therefore help prevent erosion. 正解：ots → roots（根）。動詞helpの主語なので複数形です。soil erosionは「土壌侵食」で、土が風や水に削られる現象を指します。",
+      "sourceRefs": ["pdf:task1:p013:q18-gap3"]
+    },
+    {
+      "passageId": "18",
+      "prompt": "Exercise 18: complete ot___. Enter the missing letters.",
+      "prefix": "ot",
+      "word": "other",
+      "answer": "Other modifies the plural noun plants. 正解：her → other（ほかの）。pollutantsを吸収した結果、竹の近くで「ほかの植物」が育ちやすくなるという因果関係です。pollutantは「汚染物質」です。",
+      "sourceRefs": ["pdf:task1:p013:q18-gap4"]
+    },
+    {
+      "passageId": "19",
+      "prompt": "Exercise 19: complete founda______. Enter the missing letters.",
+      "prefix": "founda",
+      "word": "foundational",
+      "answer": "Foundational modifies idea and means forming an essential basis. 正解：tional → foundational（基礎となる・根本的な）。social contractが政治哲学の土台となる考えだと説明しています。",
+      "sourceRefs": ["pdf:task1:p013:q19-gap1"]
+    },
+    {
+      "passageId": "19",
+      "prompt": "Exercise 19: complete philo_____. Enter the missing letters.",
+      "prefix": "philo",
+      "word": "philosophy",
+      "answer": "Political philosophy studies ideas about government, rights, and authority. 正解：sophy → philosophy（哲学）。political philosophyは「政治哲学」で、社会契約や統治の正当性を扱う分野です。",
+      "sourceRefs": ["pdf:task1:p013:q19-gap2"]
+    },
+    {
+      "passageId": "19",
+      "prompt": "Exercise 19: complete volun______. Enter the missing letters.",
+      "prefix": "volun",
+      "word": "voluntarily",
+      "answer": "Voluntarily is an adverb modifying surrender. 正解：tarily → voluntarily（自発的に）。individuals voluntarily surrenderは「個人が自発的に手放す」。名詞volunteerでは動詞surrenderを修飾できません。",
+      "sourceRefs": ["pdf:task1:p013:q19-gap3"]
+    },
+    {
+      "passageId": "19",
+      "prompt": "Exercise 19: complete auth_____. Enter the missing letters.",
+      "prefix": "auth",
+      "word": "authority",
+      "answer": "Authority means the legitimate power to govern or command. 正解：ority → authority（権限・統治権）。submit to the authority of a rulerは「統治者の権威に従う」。legitimateは「正当な」です。",
+      "sourceRefs": ["pdf:task1:p013:q19-gap4"]
+    },
+    {
+      "passageId": "20",
+      "prompt": "Exercise 20: complete rat___. Enter the missing letters.",
+      "prefix": "rat",
+      "word": "rather",
+      "answer": "Not A but rather B corrects the first idea and replaces it with the second. 正解：her → rather。not the monetary price, but rather the valueは「金銭価格ではなく、むしろ価値」で、定義を言い換えています。",
+      "sourceRefs": ["pdf:task1:p013:q20-gap1"]
+    },
+    {
+      "passageId": "20",
+      "prompt": "Exercise 20: complete res___. Enter the missing letters.",
+      "prefix": "res",
+      "word": "result",
+      "answer": "As a result of means because of or following something. 正解：ult → result（結果）。as a result of making a decisionは「決定をした結果として」。forgoneは「断念された」です。",
+      "sourceRefs": ["pdf:task1:p013:q20-gap2"]
+    },
+    {
+      "passageId": "20",
+      "prompt": "Exercise 20: complete deci____. Enter the missing letters.",
+      "prefix": "deci",
+      "word": "decision",
+      "answer": "Decision is the noun required in the phrase making a decision. 正解：sion → decision（決定）。make a decisionは「決定する」という定型表現で、選ばなかった次善の選択肢がopportunity cost（機会費用）になります。",
+      "sourceRefs": ["pdf:task1:p013:q20-gap3"]
+    },
+    {
+      "passageId": "20",
+      "prompt": "Exercise 20: complete repre_____. Enter the missing letters.",
+      "prefix": "repre",
+      "word": "represents",
+      "answer": "Represents links the singular subject opportunity cost to what it signifies. 正解：sents → represents（表す・意味する）。主語が単数なので-sが必要です。trade-offは「一方を得るために他方を犠牲にする関係」です。",
+      "sourceRefs": ["pdf:task1:p013:q20-gap4"]
+    }
+  ]
+}
