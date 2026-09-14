@@ -84,7 +84,11 @@
         4,
         5,
         6,
-        7
+        7,
+        8,
+        9,
+        10,
+        11
       ],
       "packets": [
         {
@@ -134,6 +138,27 @@
           "pdf:actual:p007:q18",
           "pdf:actual:p007:q19",
           "pdf:actual:p007:q20"
+        ],
+        "8": [],
+        "9": [
+          "pdf:actual:p009:q01",
+          "pdf:actual:p009:q02",
+          "pdf:actual:p009:q03",
+          "pdf:actual:p009:q04",
+          "pdf:actual:p009:q05",
+          "pdf:actual:p009:q06",
+          "pdf:actual:p009:q07",
+          "pdf:actual:p009:q08",
+          "pdf:actual:p009:q09",
+          "pdf:actual:p009:q10"
+        ],
+        "10": [],
+        "11": [
+          "pdf:actual:p011:q11",
+          "pdf:actual:p011:q12",
+          "pdf:actual:p011:q13",
+          "pdf:actual:p011:q14",
+          "pdf:actual:p011:q15"
         ]
       }
     },
@@ -523,12 +548,11 @@
     }
   ],
   "lastSource": {
-    "type": "legacy",
+    "type": "pdf",
     "ids": [
-      "english-reading-academic-microfinance-heterogeneous-effects-08",
-      "english-reading-academic-microplastics-measurement-pathways-10"
+      "actual"
     ],
-    "convertedAt": "2026-09-15T04:01:00+09:00"
+    "convertedAt": "2026-09-15T06:01:00+09:00"
   },
   "note": "Packet paths describe a private working cache, not published files. Exact question totals require review. Answer pages referenced by the books were not supplied."
 }

@@ -200,11 +200,13 @@ class TaskCatalogTests(unittest.TestCase):
                 self.assertTrue(all(q['passage'] == passage for q in item['questions']))
                 self.assertTrue(all(len(q['options']) == 4 for q in item['questions']))
 
-    def test_actual_test1_module1_preserves_all_twenty_answers_and_pages(self):
+    def test_actual_test1_preserves_all_module_answers_and_pages(self):
         bank = self.build()
         task1 = next(s for s in bank['sets'] if s['id'] == 'pdf-actual-test1-module1-task1')
         task2 = next(s for s in bank['sets'] if s['id'] == 'pdf-actual-test1-module1-task2')
         task3 = next(s for s in bank['sets'] if s['id'] == 'pdf-actual-test1-module1-task3')
+        module2_task1 = next(s for s in bank['sets'] if s['id'] == 'pdf-actual-test1-module2-task1')
+        module2_task3 = next(s for s in bank['sets'] if s['id'] == 'pdf-actual-test1-module2-task3')
         expected_words = [
             ('gue', 'plague'), ('nsible', 'responsible'), ('ly', 'only'),
             ('he', 'the'), ('rly', 'nearly'), ('ire', 'entire'),
@@ -221,12 +223,28 @@ class TaskCatalogTests(unittest.TestCase):
         self.assertEqual([q['correct'] for q in task3['questions']], list('ACCDB'))
         self.assertEqual([q['sourceRefs'] for q in task3['questions']],
                          [[f'pdf:actual:p007:q{i:02d}'] for i in range(16, 21)])
+        module2_words = [
+            ('re', 'are'), ('or', 'for'), ('acles', 'tentacles'),
+            ('ve', 'give'), ('cise', 'precise'), ('trol', 'control'),
+            ('guishes', 'distinguishes'), ('om', 'from'), ('her', 'other'),
+            ('an', 'can')]
+        self.assertEqual([q['acceptedAnswers'] for q in module2_task1['questions']],
+                         [list(pair) for pair in module2_words])
+        self.assertEqual([q['sourceRefs'] for q in module2_task1['questions']],
+                         [[f'pdf:actual:p009:q{i:02d}'] for i in range(1, 11)])
+        self.assertEqual([q['correct'] for q in module2_task3['questions']], list('CABBD'))
+        self.assertEqual([q['sourceRefs'] for q in module2_task3['questions']],
+                         [[f'pdf:actual:p011:q{i:02d}'] for i in range(11, 16)])
+        self.assertTrue(all(len(q['passage'].split('\n\n')) == 3
+                            for q in module2_task3['questions']))
         index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
         source = next(s for s in index['sources'] if s['id'] == 'actual')
-        self.assertEqual(source['reviewedPages'], list(range(1, 8)))
+        self.assertEqual(source['reviewedPages'], list(range(1, 12)))
         self.assertEqual(source['pageItems']['1'], [])
         self.assertEqual(source['pageItems']['2'], [])
         self.assertEqual(source['pageItems']['6'], [])
+        self.assertEqual(source['pageItems']['8'], [])
+        self.assertEqual(source['pageItems']['10'], [])
 
     def test_hyena_and_industrial_revolution_preserve_passages_and_all_targets(self):
         bank = self.build()
