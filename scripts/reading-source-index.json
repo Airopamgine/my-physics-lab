@@ -7,7 +7,23 @@
       "pageCount": 38,
       "sha256": "3f8e3e5b8b896cf6ed2265fee3d6b2e85374aed99b6b49ef1f4b3a22874e040e",
       "answerKeyAvailable": false,
-      "reviewedPages": [],
+      "reviewedPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
       "packets": [
         {
           "path": "scripts/reading-source-text/reading-p001-p010.json.gz.b64",
@@ -30,7 +46,30 @@
           "lastPage": 38
         }
       ],
-      "pageItems": {}
+      "pageItems": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": [],
+        "10": [],
+        "11": [],
+        "12": [],
+        "13": [],
+        "14": [],
+        "15": []
+      },
+      "blockedItems": [
+        {
+          "sourceRef": "pdf:reading:p016",
+          "status": "pending-source-image",
+          "reason": "The private TOEFL-reading.pdf copy is truncated and cannot be rendered. OCR on page 16 is too corrupted to recover the first exercise safely. Pages 1–15 were checked as cover, exam guidance, promotions, preface, and contents with no Reading exercises. A complete replacement PDF is required before page 16 onward can be verified."
+        }
+      ]
     },
     {
       "id": "actual",
@@ -107,7 +146,8 @@
       "reviewedPages": [
         10,
         11,
-        12
+        12,
+        13
       ],
       "packets": [
         {
@@ -172,6 +212,28 @@
           "pdf:task1:p012:q15-gap1",
           "pdf:task1:p012:q15-gap2",
           "pdf:task1:p012:q15-gap3"
+        ],
+        "13": [
+          "pdf:task1:p013:q16-gap1",
+          "pdf:task1:p013:q16-gap2",
+          "pdf:task1:p013:q16-gap3",
+          "pdf:task1:p013:q16-gap4",
+          "pdf:task1:p013:q17-gap1",
+          "pdf:task1:p013:q17-gap2",
+          "pdf:task1:p013:q17-gap3",
+          "pdf:task1:p013:q17-gap4",
+          "pdf:task1:p013:q18-gap1",
+          "pdf:task1:p013:q18-gap2",
+          "pdf:task1:p013:q18-gap3",
+          "pdf:task1:p013:q18-gap4",
+          "pdf:task1:p013:q19-gap1",
+          "pdf:task1:p013:q19-gap2",
+          "pdf:task1:p013:q19-gap3",
+          "pdf:task1:p013:q19-gap4",
+          "pdf:task1:p013:q20-gap1",
+          "pdf:task1:p013:q20-gap2",
+          "pdf:task1:p013:q20-gap3",
+          "pdf:task1:p013:q20-gap4"
         ]
       }
     },
@@ -435,12 +497,12 @@
     }
   ],
   "lastSource": {
-    "type": "legacy",
+    "type": "pdf",
     "ids": [
-      "english-reading-academic-hyena-rank-social-support-13",
-      "english-reading-academic-industrial-revolution-uneven-change-20"
+      "reading",
+      "task1"
     ],
-    "convertedAt": "2026-09-14T16:05:00+09:00"
+    "convertedAt": "2026-09-14T20:03:00+09:00"
   },
   "note": "Packet paths describe a private working cache, not published files. Exact question totals require review. Answer pages referenced by the books were not supplied."
 }
