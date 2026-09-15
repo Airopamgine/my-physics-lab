@@ -1,0 +1,132 @@
+{
+  "id": "legacy-urban-heat-measurement-equity",
+  "title": "Measure the Heat Before Treating It",
+  "task": 3,
+  "date": "2026-09-15T12:00:00+09:00",
+  "level": "B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "本文と元教材の解説から一意に判断できる正答を編集・確認しています。四つの原文段落と全九つの学習対象を保持し、元の記述問題は英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-academic-urban-heat-measurement-equity-25/",
+  "passages": {
+    "text": "An urban heat island is usually described as a temperature difference between a built-up area and a less developed reference area. Yet the size—and sometimes even the timing—of that difference depends on what is measured. A satellite can detect a hot roof or road surface, whereas a shaded, ventilated sensor measures air near the height where people live. Day, night, cloud cover, wind, season, sensor placement, and the chosen reference site all affect the comparison. Surface temperature and near-surface air temperature are related, but they are not interchangeable.\n\nNo single material creates urban heat by itself. Dark, dry surfaces may absorb solar energy; buildings and streets can store heat and alter the loss of radiation; urban geometry may restrict ventilation; and reduced vegetation limits shade and evapotranspiration. Vehicles, industry, and cooling equipment also release heat. The importance of each process varies among neighborhoods and weather conditions. Thus, replacing one surface may help, but it does not automatically solve every local heat problem.\n\nHealth risk also requires more than a temperature map. Risk grows when a heat hazard overlaps with exposure and vulnerability. Warm nights can limit the body's opportunity to recover, while outdoor workers, older adults, people with chronic illness, and households without reliable cooling may face unequal burdens. High temperature can also accelerate some chemical reactions involved in ground-level ozone, but ozone formation still requires suitable pollutants, sunlight, and atmospheric conditions. Temperature alone is not a complete cause.\n\nTrees, shaded routes, reflective roofs, green roofs, ventilation corridors, building improvements, and heat-warning systems can all contribute to protection. Each has limits: trees need space and care, reflective materials can shift glare or heat, and air conditioning may increase electricity demand and outdoor waste heat. A strong plan therefore pairs comparable sensors across neighborhoods, records weather and land cover, and evaluates who receives the benefit. Cooling that raises housing costs and displaces vulnerable residents cannot be judged by average temperature alone."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What is the main idea of the passage?",
+      "options": [
+        {"label": "A", "text": "One roofing material explains every urban heat problem."},
+        {"label": "B", "text": "Urban heat should be measured carefully and reduced with context-sensitive, equitable interventions."},
+        {"label": "C", "text": "Satellite surface temperatures are identical to shaded air temperatures."},
+        {"label": "D", "text": "Air conditioning removes heat without producing any additional burden."}
+      ],
+      "correct": "B",
+      "answer": "The passage links careful measurement and multiple heat processes to locally appropriate, equitable protection. 正解：B。context-sensitiveは「地域条件に応じた」、equitableは「便益と負担が公平な」です。A・C・Dは本文が退ける単純化です。",
+      "sourceRefs": ["legacy:english-reading-academic-urban-heat-measurement-equity-25-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why should satellite surface temperature be distinguished from air temperature measured by a shaded, ventilated sensor?",
+      "options": [
+        {"label": "A", "text": "A satellite directly measures indoor air at the height where people sleep."},
+        {"label": "B", "text": "A shaded sensor measures only the radiation emitted by roofs and roads."},
+        {"label": "C", "text": "They measure related but different quantities, and wind or mixing can make a hot surface differ from the air people experience."},
+        {"label": "D", "text": "Their readings must be identical whenever they are taken on the same day."}
+      ],
+      "correct": "C",
+      "answer": "Satellite observations mainly represent radiating surfaces, while a standardized shaded sensor measures near-surface air; the two are related but not interchangeable. 正解：C。ventilatedは「通風された」です。A・Bは測定対象を逆転し、Dは本文に反します。",
+      "sourceRefs": ["legacy:english-reading-academic-urban-heat-measurement-equity-25-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which list contains three distinct processes that can intensify urban heat according to paragraph 2?",
+      "options": [
+        {"label": "A", "text": "Solar absorption by dark surfaces, restricted ventilation from urban geometry, and reduced cooling through shade and evapotranspiration"},
+        {"label": "B", "text": "Identical sensor placement, equal housing costs, and lower ozone at every temperature"},
+        {"label": "C", "text": "More cloud cover, stronger winds, and the automatic removal of stored heat"},
+        {"label": "D", "text": "One roof material acting alone, with no contribution from vehicles or buildings"}
+      ],
+      "correct": "A",
+      "answer": "Paragraph 2 describes several energy-balance mechanisms, including absorption, storage and radiation, ventilation, evapotranspiration, and artificial heat release. 正解：A。evapotranspirationは「蒸発散」です。B・Cは熱を強める仕組みではなく、Dは単一原因に縮めています。",
+      "sourceRefs": ["legacy:english-reading-academic-urban-heat-measurement-equity-25-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "The phrase “reference area” in paragraph 1 is closest in meaning to:",
+      "options": [
+        {"label": "A", "text": "an area used as a basis for comparison"},
+        {"label": "B", "text": "a place where all sensors give the same reading"},
+        {"label": "C", "text": "the hottest surface visible from space"},
+        {"label": "D", "text": "an area that never changes with weather"}
+      ],
+      "correct": "A",
+      "answer": "A reference area supplies the comparison baseline for the built-up area. 正解：A。「比較の基準にする地域」です。Bは測定一致を保証し、Cは対象を限定し、Dは気象依存性を否定します。",
+      "sourceRefs": ["legacy:english-reading-academic-urban-heat-measurement-equity-25-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why are an urban heat island, global warming, and a heat wave not interchangeable concepts?",
+      "options": [
+        {"label": "A", "text": "All three refer only to the temperature of a single roof."},
+        {"label": "B", "text": "A heat island is always global, while global warming lasts only a few hours."},
+        {"label": "C", "text": "A heat island is a local difference from a reference area, global warming is a long-term global trend, and a heat wave is sustained unusual heat relative to regional conditions."},
+        {"label": "D", "text": "The concepts cannot overlap or intensify one another."}
+      ],
+      "correct": "C",
+      "answer": "The phenomena differ in spatial scale, time scale, and comparison baseline even though they can overlap. 正解：C。heat islandは局地的な地域差、global warmingは長期的全球変化、heat waveは地域の平常値に対する継続的高温です。A・B・Dは尺度や重なりを誤ります。",
+      "sourceRefs": ["legacy:english-reading-academic-urban-heat-measurement-equity-25-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does high temperature alone not establish that ground-level ozone must increase?",
+      "options": [
+        {"label": "A", "text": "Ozone formation occurs without pollutants or sunlight."},
+        {"label": "B", "text": "Temperature has no effect on any chemical reaction."},
+        {"label": "C", "text": "Every neighborhood has identical emissions and atmospheric mixing."},
+        {"label": "D", "text": "Heat can accelerate some reactions, but ozone formation also depends on suitable pollutants, sunlight, and atmospheric conditions."}
+      ],
+      "correct": "D",
+      "answer": "Temperature is one contributing condition rather than a complete cause; precursors, radiation, reaction time, and mixing also matter. 正解：D。ground-level ozoneは「地表付近で生成するオゾン」です。A・B・Cは必要条件や地域差を否定します。",
+      "sourceRefs": ["legacy:english-reading-academic-urban-heat-measurement-equity-25-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which comparison of two cooling strategies is supported by paragraph 4?",
+      "options": [
+        {"label": "A", "text": "Trees require no space or maintenance, whereas reflective roofs never affect surrounding glare or heat."},
+        {"label": "B", "text": "Trees can provide shade and evapotranspiration but need space and care; reflective roofs can reduce absorption but may shift glare or heat."},
+        {"label": "C", "text": "Air conditioning lowers electricity demand and eliminates outdoor waste heat."},
+        {"label": "D", "text": "Every strategy has the same benefit and limitation in every neighborhood."}
+      ],
+      "correct": "B",
+      "answer": "The passage evaluates both the cooling mechanism and the local limits or side effects of each intervention. 正解：B。reflective roofは「日射を反射する屋根」です。A・Cは限界を逆転し、Dは地域差を消します。",
+      "sourceRefs": ["legacy:english-reading-academic-urban-heat-measurement-equity-25-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which observation plan would compare heat fairly between two neighborhoods?",
+      "options": [
+        {"label": "A", "text": "Use an exposed rooftop sensor in one area and a shaded street sensor in the other, on different days."},
+        {"label": "B", "text": "Compare one satellite pixel with one indoor thermometer and ignore weather."},
+        {"label": "C", "text": "Select the hottest time from one area and the coolest time from the other."},
+        {"label": "D", "text": "Use comparable shaded and ventilated sensors at matched heights and times, record weather and land cover, repeat observations, and choose a defensible reference area."}
+      ],
+      "correct": "D",
+      "answer": "Comparable instruments, placement, timing, weather records, land-cover context, repetition, and a suitable reference make the difference interpretable. 正解：D。matched conditionsは「比較条件をそろえること」です。A・B・Cは測定対象や時刻を混同します。",
+      "sourceRefs": ["legacy:english-reading-academic-urban-heat-measurement-equity-25-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which neighborhood plan best reduces heat while distributing benefits fairly?",
+      "options": [
+        {"label": "A", "text": "Install cooling only where average property values are highest and report one citywide surface temperature."},
+        {"label": "B", "text": "Expand air conditioning without tracking electricity use, waste heat, health, or housing costs."},
+        {"label": "C", "text": "Measure air and surface heat comparably, prioritize places where hazard, exposure, and vulnerability overlap, involve residents, protect tenants, and track temperature, energy, health, and benefit distribution."},
+        {"label": "D", "text": "Plant trees without checking available space, maintenance, access, or displacement."}
+      ],
+      "correct": "C",
+      "answer": "C combines defensible measurement, targeted interventions, resident participation, protection against displacement, and distributional evaluation. 正解：C。vulnerabilityは「同じ暑さでも被害を受けやすい条件」、displacementは「住民の転出」です。A・B・Dは公平性や副作用を評価しません。",
+      "sourceRefs": ["legacy:english-reading-academic-urban-heat-measurement-equity-25-q9"]
+    }
+  ]
+}

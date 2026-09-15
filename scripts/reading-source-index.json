@@ -563,11 +563,12 @@
     }
   ],
   "lastSource": {
-    "type": "pdf",
+    "type": "legacy",
     "ids": [
-      "task1"
+      "english-reading-academic-urban-heat-measurement-equity-25",
+      "english-reading-academic-tea-evidence-exchange-26"
     ],
-    "convertedAt": "2026-09-15T10:00:00+09:00"
+    "convertedAt": "2026-09-15T12:00:00+09:00"
   },
   "note": "Packet paths describe a private working cache, not published files. Exact question totals require review. Answer pages referenced by the books were not supplied."
 }
