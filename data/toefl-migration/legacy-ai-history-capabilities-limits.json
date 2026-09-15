@@ -1,0 +1,132 @@
+{
+  "id": "legacy-ai-history-capabilities-limits",
+  "title": "When the Target Called Intelligence Kept Moving",
+  "task": 3,
+  "date": "2026-09-16T04:00:00+09:00",
+  "level": "B2–C1",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "本文と元教材の解説から一意に判断できる正答を編集・確認しています。四つの原文段落と全九つの学習対象を保持し、元の記述問題は英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-advanced-ai-history-capabilities-limits-37/",
+  "passages": {
+    "text": "In 1955, a proposal for a summer research project argued that aspects of learning and intelligence might be described precisely enough for machines to simulate them. The following workshop helped establish artificial intelligence as a field, but it did not settle what intelligence is. Early researchers studied search, logic, language, games, and neural models. Their questions were plural from the beginning.\n\nSymbolic systems represented knowledge through explicit rules and manipulated symbols according to programmed procedures. They succeeded in carefully bounded tasks and made reasoning steps comparatively inspectable. Their weakness appeared when a task required enormous background knowledge, tolerance for ambiguity, or adaptation to unfamiliar cases. Funding contractions later called “AI winters” reflected technical limits, institutional expectations, and disappointed forecasts—not the disappearance of all research.\n\nStatistical machine learning shifted attention toward patterns estimated from examples. Later neural systems benefited from improved algorithms, specialized hardware, large datasets, and shared benchmarks. These ingredients enabled striking gains in perception and language tasks. Yet a benchmark is a designed sample, not the world itself. Performance can fall when data, language, incentives, or operating conditions change.\n\nGenerative systems make fluent outputs by learning statistical structure at scale. Fluency is useful, but it is not identical to verified knowledge, causal understanding, or moral judgment. Moreover, modern systems combine learned components with search, rules, databases, and human review. AI history is therefore not a relay race in which one method permanently replaces another. It is a history of changing representations, resources, tests, and social responsibilities."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What is the main idea of the passage?",
+      "options": [
+        {"label": "A", "text": "One definition of intelligence has guided AI unchanged since 1955."},
+        {"label": "B", "text": "AI history reflects changing tasks, methods, resources, evaluation, and responsibility."},
+        {"label": "C", "text": "Statistical learning made rules and human review unnecessary."},
+        {"label": "D", "text": "High benchmark scores guarantee reliable use everywhere."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。本文はAI史を単一手法の勝利ではなく、課題、表現方法、計算資源、データ、評価、社会的責任が変化する過程としてまとめます。Aは問いの多様性、Cは現代の混成システム、Dは実環境での性能低下を無視します。",
+      "sourceRefs": ["legacy:english-reading-advanced-ai-history-capabilities-limits-37-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why did the 1955 proposal and the following workshop not settle the definition of intelligence?",
+      "options": [
+        {"label": "A", "text": "They proved that machines could never simulate learning."},
+        {"label": "B", "text": "They restricted research to a single game and rejected language and neural models."},
+        {"label": "C", "text": "They proposed a research possibility and helped establish a field, but did not produce agreed necessary conditions or one measurement for intelligence."},
+        {"label": "D", "text": "They concluded that intelligence could be measured only by modern benchmarks."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。初期提案は学習や知能を機械で模倣できる可能性を研究課題として示しましたが、知能の必要十分条件や単一の測定法への合意ではありませんでした。A・B・Dはいずれも第1段落と反対です。settle は「定義や論争を決着させる」です。",
+      "sourceRefs": ["legacy:english-reading-advanced-ai-history-capabilities-limits-37-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "The word “bounded” in paragraph 2 is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "limited by clear conditions"},
+        {"label": "B", "text": "morally unacceptable"},
+        {"label": "C", "text": "impossible to inspect"},
+        {"label": "D", "text": "copied from the internet"}
+      ],
+      "correct": "A",
+      "answer": "正解：A。bounded tasks は入力、規則、目標などの条件が明確に限定された課題です。Bは倫理評価、Cはinspectableと反対、Dは出所の説明で文脈に合いません。",
+      "sourceRefs": ["legacy:english-reading-advanced-ai-history-capabilities-limits-37-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which option correctly identifies both a strength and a weakness of symbolic AI?",
+      "options": [
+        {"label": "A", "text": "It learns every rule from large datasets, but cannot display fluent language."},
+        {"label": "B", "text": "It handles unlimited background knowledge, but its reasoning can never be inspected."},
+        {"label": "C", "text": "It removes ambiguity from every real-world case, but requires no programmed procedure."},
+        {"label": "D", "text": "Its explicit rules can make reasoning comparatively inspectable, but it struggles with extensive background knowledge, ambiguity, and unfamiliar cases."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。第2段落は明示規則による比較的追跡可能な推論を長所とし、常識的背景知識、曖昧さ、未知事例への適応を弱点とします。Aは統計学習、BとCは本文の長所と弱点を逆転させています。inspectable は「過程を点検しやすい」です。",
+      "sourceRefs": ["legacy:english-reading-advanced-ai-history-capabilities-limits-37-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does the author say that an “AI winter” did not mean the disappearance of all AI research?",
+      "options": [
+        {"label": "A", "text": "Because every technical forecast made during the period was fulfilled"},
+        {"label": "B", "text": "Because funding and expectations contracted while research continued through multiple approaches"},
+        {"label": "C", "text": "Because governments permanently increased funding after every disappointment"},
+        {"label": "D", "text": "Because symbolic AI had already solved all unfamiliar cases"}
+      ],
+      "correct": "B",
+      "answer": "正解：B。winterは技術的限界や期待外れに伴う資金・注目の後退を示す比喩で、研究活動がゼロになったという意味ではありません。A・Cは期待と資金の後退を否定し、Dはsymbolic AIの弱点と矛盾します。funding contraction は「研究資金の縮小」です。",
+      "sourceRefs": ["legacy:english-reading-advanced-ai-history-capabilities-limits-37-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which statement is supported by the passage?",
+      "options": [
+        {"label": "A", "text": "A benchmark samples selected tasks and conditions."},
+        {"label": "B", "text": "Fluency proves that every statement is true."},
+        {"label": "C", "text": "Modern AI uses only neural networks."},
+        {"label": "D", "text": "Data distribution never changes after deployment."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。本文はbenchmarkを設計されたsampleと呼び、世界全体とは区別します。Bは流暢さと真実を混同し、Cは探索・規則・データベース・人の確認との組合せを無視し、Dは運用条件の変化と反対です。",
+      "sourceRefs": ["legacy:english-reading-advanced-ai-history-capabilities-limits-37-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which pair gives two reasons why a model that performs well in evaluation may fail in real use?",
+      "options": [
+        {"label": "A", "text": "The benchmark contains every future case, and users never change their goals."},
+        {"label": "B", "text": "Specialized hardware disappears during evaluation, and rules cannot be combined with learned components."},
+        {"label": "C", "text": "Real data or language may differ from the benchmark, and user incentives or operating conditions may change."},
+        {"label": "D", "text": "Fluent output becomes verified knowledge, and causal understanding is automatically guaranteed."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。第3段落はdata、language、incentives、operating conditionsの変化で性能が落ちうると述べます。Aは変化を否定し、Bは本文にない制約、Dは第4段落が否定する同一視です。deployment は「実環境への導入」です。",
+      "sourceRefs": ["legacy:english-reading-advanced-ai-history-capabilities-limits-37-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What is the function of “Yet” in the sentence “Yet a benchmark is a designed sample, not the world itself”?",
+      "options": [
+        {"label": "A", "text": "It denies that neural systems achieved gains in perception and language."},
+        {"label": "B", "text": "It introduces another cause of improved hardware performance."},
+        {"label": "C", "text": "It proves that benchmark testing has no useful purpose."},
+        {"label": "D", "text": "It acknowledges the preceding gains while limiting how far performance on a designed sample can be generalized to the world."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。訳は「しかし、ベンチマークは設計された標本であって、世界そのものではない」です。Yetは直前の顕著な性能向上を認めながら、その結果の外的妥当性を制限します。AとCは成果や評価を全否定し、Bは対比の機能ではありません。",
+      "sourceRefs": ["legacy:english-reading-advanced-ai-history-capabilities-limits-37-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which evaluation best responds to the claim, “If generated language sounds natural, the system understands the content and knows it is true”?",
+      "options": [
+        {"label": "A", "text": "Natural wording is sufficient proof of verified knowledge because statistical patterns cannot produce errors."},
+        {"label": "B", "text": "Fluency shows useful command of linguistic patterns, but truth, causal understanding, and reliability require separate evidence and testing under relevant conditions."},
+        {"label": "C", "text": "Any fluent output must be rejected because generative systems have no useful capabilities."},
+        {"label": "D", "text": "Human review is unnecessary whenever a model receives a high benchmark score."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。本文はfluencyを有用と認めつつ、verified knowledge、causal understanding、moral judgmentとは同一でないと明記します。したがって内容は資料との一致や条件変化への頑健性で別に検証すべきです。A・Dは流暢さや得点を十分条件にし、Cは有用性まで否定します。",
+      "sourceRefs": ["legacy:english-reading-advanced-ai-history-capabilities-limits-37-q9"]
+    }
+  ]
+}
