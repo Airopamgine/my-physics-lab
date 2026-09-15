@@ -1,0 +1,94 @@
+{
+  "id": "pdf-task1-p002-preview",
+  "title": "Habitable-Zone Planets · Preview",
+  "task": 1,
+  "date": "2026-09-15T10:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 2ページ／冊子30ページ · Preview",
+  "verificationNote": "Editorial answers（編集・確認した解答）。スキャンの本文、接頭部分、空欄、語群を照合して全10語を確認しました。出版社の公式解答表とは未照合です。同じパッセージの全10空欄を提出するまで正答は表示されません。",
+  "passages": {
+    "habitable-zone": "Some planets orbit their star in the habitable zone, where it is not too hot or too cold for liquid water to exist. These pla____ might b_ able t_ support li__. Scientists exa____ the a__ around th__, searching f__ gases li__ oxygen o_ methane, which may be produced by living things. Finding these signs would be a major discovery. It would suggest that life exists beyond Earth and could change how we view our place in the universe."
+  },
+  "questions": [
+    {
+      "passageId": "habitable-zone",
+      "prompt": "Preview 01: complete pla____. Enter the missing letters.",
+      "prefix": "pla",
+      "word": "planets",
+      "answer": "The sentence refers back to Some planets and needs a plural noun before might. 正解：nets → planets（惑星）。habitable zoneは「液体の水が存在しうる範囲」です。",
+      "sourceRefs": ["pdf:task1:p002:qpreview-gap1"]
+    },
+    {
+      "passageId": "habitable-zone",
+      "prompt": "Preview 02: complete b_. Enter the missing letter.",
+      "prefix": "b",
+      "word": "be",
+      "answer": "The modal pattern is might be able to. 正解：e → be。might be able toは「～できるかもしれない」です。",
+      "sourceRefs": ["pdf:task1:p002:qpreview-gap2"]
+    },
+    {
+      "passageId": "habitable-zone",
+      "prompt": "Preview 03: complete t_. Enter the missing letter.",
+      "prefix": "t",
+      "word": "to",
+      "answer": "The fixed construction is be able to + verb. 正解：o → to。後ろのsupportを不定詞として導きます。",
+      "sourceRefs": ["pdf:task1:p002:qpreview-gap3"]
+    },
+    {
+      "passageId": "habitable-zone",
+      "prompt": "Preview 04: complete li__. Enter the missing letters.",
+      "prefix": "li",
+      "word": "life",
+      "answer": "A potentially habitable planet might support life. 正解：fe → life（生命）。support lifeは「生命を維持できる」です。",
+      "sourceRefs": ["pdf:task1:p002:qpreview-gap4"]
+    },
+    {
+      "passageId": "habitable-zone",
+      "prompt": "Preview 05: complete exa____. Enter the missing letters.",
+      "prefix": "exa",
+      "word": "examine",
+      "answer": "Scientists examine the air to search for possible biosignature gases. 正解：mine → examine（詳しく調べる）。主語Scientistsが複数なので現在形はexamineです。",
+      "sourceRefs": ["pdf:task1:p002:qpreview-gap5"]
+    },
+    {
+      "passageId": "habitable-zone",
+      "prompt": "Preview 06: complete a__. Enter the missing letters.",
+      "prefix": "a",
+      "word": "air",
+      "answer": "The word bank and the following gases identify air as the object being examined. 正解：ir → air（大気・空気）。ここでは惑星を取り巻く大気を指します。",
+      "sourceRefs": ["pdf:task1:p002:qpreview-gap6"]
+    },
+    {
+      "passageId": "habitable-zone",
+      "prompt": "Preview 07: complete th__. Enter the missing letters.",
+      "prefix": "th",
+      "word": "them",
+      "answer": "Them refers to the previously mentioned planets. 正解：em → them。around themは「それらの惑星の周囲に」です。",
+      "sourceRefs": ["pdf:task1:p002:qpreview-gap7"]
+    },
+    {
+      "passageId": "habitable-zone",
+      "prompt": "Preview 08: complete f__. Enter the missing letters.",
+      "prefix": "f",
+      "word": "for",
+      "answer": "The standard phrase is search for something. 正解：or → for。searching for gasesは「気体を探して」です。",
+      "sourceRefs": ["pdf:task1:p002:qpreview-gap8"]
+    },
+    {
+      "passageId": "habitable-zone",
+      "prompt": "Preview 09: complete li__. Enter the missing letters.",
+      "prefix": "li",
+      "word": "like",
+      "answer": "Like introduces oxygen and methane as examples of gases. 正解：ke → like（～のような）。例示を示す前置詞です。",
+      "sourceRefs": ["pdf:task1:p002:qpreview-gap9"]
+    },
+    {
+      "passageId": "habitable-zone",
+      "prompt": "Preview 10: complete o_. Enter the missing letter.",
+      "prefix": "o",
+      "word": "or",
+      "answer": "Or links the two alternative examples oxygen and methane. 正解：r → or（または）。二つの気体例を並列しています。",
+      "sourceRefs": ["pdf:task1:p002:qpreview-gap10"]
+    }
+  ]
+}

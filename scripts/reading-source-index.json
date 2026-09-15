@@ -169,6 +169,8 @@
       "sha256": "4aa68bea95fe93c5ec0f48122b03131fbd31e16dffe915079e349f1d490cd1ff",
       "answerKeyAvailable": false,
       "reviewedPages": [
+        1,
+        2,
         10,
         11,
         12,
@@ -202,6 +204,19 @@
         }
       ],
       "pageItems": {
+        "1": [],
+        "2": [
+          "pdf:task1:p002:qpreview-gap1",
+          "pdf:task1:p002:qpreview-gap2",
+          "pdf:task1:p002:qpreview-gap3",
+          "pdf:task1:p002:qpreview-gap4",
+          "pdf:task1:p002:qpreview-gap5",
+          "pdf:task1:p002:qpreview-gap6",
+          "pdf:task1:p002:qpreview-gap7",
+          "pdf:task1:p002:qpreview-gap8",
+          "pdf:task1:p002:qpreview-gap9",
+          "pdf:task1:p002:qpreview-gap10"
+        ],
         "10": [
           "pdf:task1:p010:q01-gap1",
           "pdf:task1:p010:q02-gap1",
@@ -548,12 +563,11 @@
     }
   ],
   "lastSource": {
-    "type": "legacy",
+    "type": "pdf",
     "ids": [
-      "english-reading-academic-migratory-navigation-multiple-cues-16",
-      "english-reading-academic-rhetorical-purpose-evidence-12"
+      "task1"
     ],
-    "convertedAt": "2026-09-15T08:00:00+09:00"
+    "convertedAt": "2026-09-15T10:00:00+09:00"
   },
   "note": "Packet paths describe a private working cache, not published files. Exact question totals require review. Answer pages referenced by the books were not supplied."
 }
