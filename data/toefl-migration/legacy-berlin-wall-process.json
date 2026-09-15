@@ -1,0 +1,132 @@
+{
+  "id": "legacy-berlin-wall-process",
+  "title": "A Trigger Worked Through a System",
+  "task": 3,
+  "date": "2026-09-16T08:00:00+09:00",
+  "level": "B2–C1",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "本文と元教材の解説から一意に判断できる正答を編集・確認しています。四つの原文段落と全九つの学習対象を保持し、元の記述問題は英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-advanced-berlin-wall-process-03/",
+  "passages": {
+    "text": "The Berlin Wall was built in 1961 by the East German government after large numbers of people had left East Germany through Berlin. It restricted movement, divided families, and became part of a broader border system enforced by the state. Describing it only as a concrete structure misses its institutional function: it controlled who could leave and under what conditions.\n\nBy 1989, the political environment had changed. Reform in the Soviet Union, openings elsewhere in Eastern Europe, emigration through neighboring countries, and growing demonstrations inside East Germany weakened the government's ability to maintain the old rules. These pressures developed before the evening on which the border unexpectedly opened.\n\nOn 9 November, official Günter Schabowski announced new travel rules at a televised press conference. Asked when they would take effect, he indicated that they applied immediately. The administrative instructions were not yet operating in an orderly way. News spread, crowds gathered at checkpoints, and guards faced a situation for which their commands were inadequate. At several crossings, they opened the gates rather than use large-scale force.\n\nThe announcement mattered, but it worked because prior conditions made it powerful and because people acted on it. The opening was also not identical to German reunification, which required further political negotiation and occurred in October 1990. Historical explanation becomes stronger when it separates a long-term structure, a short-term trigger, actions on the ground, and later institutional change."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What is the main idea of the passage?",
+      "options": [
+        {"label": "A", "text": "The Wall opened only because its concrete structure had physically weakened."},
+        {"label": "B", "text": "A single press conference completely explains the period from 1961 through reunification."},
+        {"label": "C", "text": "Long-term pressures, a confusing announcement, public action, and local decisions interacted in the border opening."},
+        {"label": "D", "text": "The border opening and German reunification occurred at exactly the same time."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。第2段落の長期的圧力、第3段落の発表・情報伝播・群衆・警備隊の判断が相互作用したと本文は説明します。Aは物理構造へ還元し、Bは長期条件と現場主体を消し、Dは1989年11月と1990年10月を同一視しています。trigger は「引き金」です。",
+      "sourceRefs": ["legacy:english-reading-advanced-berlin-wall-process-03-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What would be missed by describing the Berlin Wall only as a concrete structure?",
+      "options": [
+        {"label": "A", "text": "Its role in a state-enforced system that regulated who could leave and under what conditions"},
+        {"label": "B", "text": "The chemical composition of every block used in its construction"},
+        {"label": "C", "text": "The claim that movement between the two German states was never restricted"},
+        {"label": "D", "text": "The fact that the Wall operated without rules, offices, guards, or political authority"}
+      ],
+      "correct": "A",
+      "answer": "正解：A。第1段落は壁をより広いborder systemの一部とし、国家が出国者と条件を統制するinstitutional functionを強調します。Bは本文の焦点外、Cは移動制限と反対、Dは制度的執行を否定しています。institutional function は「制度として果たす機能」です。",
+      "sourceRefs": ["legacy:english-reading-advanced-berlin-wall-process-03-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "The phrase “take effect” in paragraph 3 is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "become operative"},
+        {"label": "B", "text": "lose all meaning"},
+        {"label": "C", "text": "remain permanently secret"},
+        {"label": "D", "text": "destroy a physical structure"}
+      ],
+      "correct": "A",
+      "answer": "正解：A。規則がtake effectするとは、正式に効力を持ち運用可能になることです。B・Cは発効と反対で、Dはeffectを物理的効果と誤読しています。operative は「施行されている・機能している」です。",
+      "sourceRefs": ["legacy:english-reading-advanced-berlin-wall-process-03-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which set contains three pressures that had developed before the border opened?",
+      "options": [
+        {"label": "A", "text": "The 1990 reunification treaty, the later currency union, and post-reunification elections"},
+        {"label": "B", "text": "Weak concrete, an earthquake in Berlin, and the disappearance of every border guard"},
+        {"label": "C", "text": "Reform in the Soviet Union, emigration through neighboring countries, and growing demonstrations inside East Germany"},
+        {"label": "D", "text": "A completed administrative rollout, clear checkpoint commands, and an empty public square"}
+      ],
+      "correct": "C",
+      "answer": "正解：C。第2段落はソ連の改革、東欧での開放、隣国経由の国外移住、国内デモの拡大を列挙し、いずれも旧規則を維持する政府能力を弱めたと述べます。Aは開門後、Bは本文にない物理説、Dは第3段落と逆です。emigration は「国外移住」です。",
+      "sourceRefs": ["legacy:english-reading-advanced-berlin-wall-process-03-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which sequence best explains how the press-conference statement contributed to the opening of the gates?",
+      "options": [
+        {"label": "A", "text": "The statement physically removed the Wall before anyone heard the news."},
+        {"label": "B", "text": "The statement was understood as immediate, news spread, crowds gathered, and guards with inadequate commands opened gates rather than use large-scale force."},
+        {"label": "C", "text": "Officials completed an orderly administrative rollout, and the public arrived only after every checkpoint had received detailed instructions."},
+        {"label": "D", "text": "The Soviet Union directly ordered every guard to open every crossing during the press conference."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。第3段落の因果連鎖は、即時発効と受け取られる発言→報道→群衆の集結→不十分な命令下の警備隊による開門です。Aは物理的即時作用、Cは行政の混乱を逆転、Dは本文にない直接命令です。checkpoint は「国境検問所」です。",
+      "sourceRefs": ["legacy:english-reading-advanced-berlin-wall-process-03-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why is the statement “Schabowski opened the Wall” an incomplete causal explanation?",
+      "options": [
+        {"label": "A", "text": "Because Schabowski did not appear at a press conference on 9 November"},
+        {"label": "B", "text": "Because historical events can never be influenced by public statements"},
+        {"label": "C", "text": "Because the opening was caused only by the physical design of the checkpoints"},
+        {"label": "D", "text": "Because prior political pressures, news organizations, citizens, existing rules, and guards' local decisions formed the causal chain as well"}
+      ],
+      "correct": "D",
+      "answer": "正解：D。発表者は重要なtriggerですが、報道、市民の行動、現場の警備隊、既存制度、長期的抗議も結果を生む連鎖を構成しました。Aは事実と反対、Bは発表の重要性を全否定し、Cは制度と行為主体を消します。causal chain は「因果の連鎖」です。",
+      "sourceRefs": ["legacy:english-reading-advanced-berlin-wall-process-03-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does the passage distinguish the opening of the border from German reunification?",
+      "options": [
+        {"label": "A", "text": "The border opened in November 1989, whereas formal reunification followed further political negotiation and occurred in October 1990."},
+        {"label": "B", "text": "The border did not open until after reunification had been legally completed."},
+        {"label": "C", "text": "Reunification was merely another name for the televised press conference."},
+        {"label": "D", "text": "The two events were unrelated and involved none of the same political actors."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。開門は1989年11月の象徴的・実務的転換で、正式な再統一は追加の政治・外交・法的過程を経て1990年10月に成立しました。BとCは順序と概念を誤り、Dは関連まで否定しています。reunification は「再統一」です。",
+      "sourceRefs": ["legacy:english-reading-advanced-berlin-wall-process-03-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What is the relationship between the two reasons in the sentence “The announcement mattered, but it worked because prior conditions made it powerful and because people acted on it”?",
+      "options": [
+        {"label": "A", "text": "Both reasons describe physical damage to the concrete structure."},
+        {"label": "B", "text": "The first denies long-term pressure, while the second denies human action."},
+        {"label": "C", "text": "The first points to accumulated structural conditions, and the second points to people responding through action."},
+        {"label": "D", "text": "Both reasons show that the announcement automatically produced reunification without further negotiation."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。訳は「発表は重要だったが、先行条件がそれを強力にし、人々がそれに基づいて行動したからこそ作用した」です。最初のbecauseは構造的条件、次は主体の行動を示します。Aは物理説、Bは文意の逆、Dは再統一までの過程を省略します。",
+      "sourceRefs": ["legacy:english-reading-advanced-berlin-wall-process-03-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which analysis best explains why historians should distinguish a trigger from structural conditions?",
+      "options": [
+        {"label": "A", "text": "A trigger alone explains every prior institution, while structural conditions matter only after an event."},
+        {"label": "B", "text": "A trigger helps explain timing, while structural conditions explain why that trigger had unusual force; separating them also reveals the choices of institutions and people."},
+        {"label": "C", "text": "Structural conditions determine every action mechanically, so the timing and choices of individuals need not be studied."},
+        {"label": "D", "text": "The distinction proves that accidental statements can never influence historical change."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。引き金は「なぜその時点で変化したか」、構造条件は「なぜその出来事が大きな力を持てたか」を説明します。両者を分けると、偶然や英雄だけへの還元と、構造決定論の双方を避けられます。A・Cは片方を万能化し、Dはtriggerの作用を否定します。",
+      "sourceRefs": ["legacy:english-reading-advanced-berlin-wall-process-03-q9"]
+    }
+  ]
+}
