@@ -1,0 +1,132 @@
+{
+  "id": "legacy-urban-park-design-equity",
+  "title": "A Public Landscape Is Also a Public Decision",
+  "task": 3,
+  "date": "2026-09-16T00:00:00+09:00",
+  "level": "B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "本文と元教材の解説から一意に判断できる正答を編集・確認しています。四つの原文段落と全九つの学習対象を保持し、元の記述問題は英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-academic-urban-park-design-equity-11/",
+  "passages": {
+    "text": "In the mid-nineteenth century, New York leaders set aside a large area of Manhattan for a public park as the city grew denser. Frederick Law Olmsted and Calvert Vaux won the 1858 design competition with the Greensward plan. Their proposal arranged meadows, wooded passages, water, curving paths, and grade-separated routes to create varied experiences while allowing movement across and through the site. The landscape looked pastoral, but its apparent naturalness required extensive engineering, planting, drainage, and maintenance.\n\nThe designers and supporters attached civic purposes to this form. They argued that shared scenery and recreation could offer relief from crowded urban life and bring people into a common public setting. Such statements reveal an intention and a political ideal. They do not, by themselves, measure who could reach the park, which activities were welcomed, how rules were enforced, or whether health improved. To evaluate an urban park, researchers need evidence about travel time, entrances, disability access, safety, programming, maintenance, user experience, and change over time.\n\nThe word *public* also directs attention to the land before construction. The park site was not empty. Communities and institutions already existed there, including Seneca Village, a predominantly African American settlement with property owners, churches, and schools. The city acquired land through eminent domain, and residents were displaced. A history that describes only the finished scenery converts inhabited land into a blank canvas and hides who paid part of the project’s cost.\n\nCentral Park remains influential because its circulation, scenery, and large-scale public ambition can be studied—not because one nineteenth-century plan supplies a universal recipe. Later planners must ask which features transfer to a different climate, population, budget, and history. A park may support activity, cooling, social contact, and habitat, but those benefits depend on access and stewardship. The most useful lesson is methodological: read the plan, observe the users, recover the displaced histories, and test social claims rather than treating beautiful form as proof of equal benefit."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What is the main idea of the passage?",
+      "options": [
+        {"label": "A", "text": "A beautiful park automatically distributes health benefits equally."},
+        {"label": "B", "text": "Urban parks should be evaluated through design, actual use, prior land histories, and tested social outcomes."},
+        {"label": "C", "text": "Central Park was created on land where nobody lived."},
+        {"label": "D", "text": "Every city should reproduce the same nineteenth-century plan."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。本文は完成した景観だけでなく、設計と施工、実際の利用、建設前の居住史、社会的効果の検証を組み合わせて公園を評価します。Aは理念から効果へ飛躍し、CはSeneca Villageを消し、Dは文脈差を無視します。tested outcomeは「実測して検証された結果」です。",
+      "sourceRefs": ["legacy:english-reading-academic-urban-park-design-equity-11-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "How does paragraph 1 contrast the park's pastoral appearance with its construction?",
+      "options": [
+        {"label": "A", "text": "It says the scenery remained untouched because engineering was forbidden."},
+        {"label": "B", "text": "It claims the landscape became pastoral only after maintenance stopped."},
+        {"label": "C", "text": "It presents the park as naturally occurring land discovered by the designers."},
+        {"label": "D", "text": "It explains that a natural-looking landscape was deliberately produced through engineering, planting, drainage, and maintenance."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。第1段落は田園的に見える景観も、大規模な工学、植栽、排水、維持管理によって作られたと対比します。A・B・Cは人工的な施工を否定しており本文と反対です。pastoralは「田園風の」、apparent naturalnessは「自然に見えること」です。",
+      "sourceRefs": ["legacy:english-reading-academic-urban-park-design-equity-11-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "The word “reveal” in paragraph 2 is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "make an intention visible"},
+        {"label": "B", "text": "prove an equal health effect"},
+        {"label": "C", "text": "remove all rules"},
+        {"label": "D", "text": "calculate travel time"}
+      ],
+      "correct": "A",
+      "answer": "正解：A。revealは設計者の意図や政治理念を「明らかにする」という意味です。その理念が現実に達成されたと証明する語ではないためBは不適切です。C・Dも文脈に合いません。",
+      "sourceRefs": ["legacy:english-reading-academic-urban-park-design-equity-11-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does the ideal of a common public setting not by itself prove equitable use?",
+      "options": [
+        {"label": "A", "text": "Political ideals never influence the design of public space."},
+        {"label": "B", "text": "Equity can be determined from the designers' statements without observing users."},
+        {"label": "C", "text": "Actual access and experience can vary with travel, entrances, disability access, safety, rules, activities, and maintenance."},
+        {"label": "D", "text": "Only the total area of a park determines whether everyone can use it equally."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。理念は誰を想定したかを示しますが、距離、入口、障害者アクセス、安全、規則、催事、維持管理が実際の利用を変えます。したがって利用者データと経験調査が別に必要です。Aは理念を全否定し、B・Dは測定を単純化しています。equitable useは「公平な利用」です。",
+      "sourceRefs": ["legacy:english-reading-academic-urban-park-design-equity-11-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does paragraph 2 list travel time, entrances, disability access, safety, programming, maintenance, and user experience?",
+      "options": [
+        {"label": "A", "text": "To argue that public parks should be closed until every variable is identical"},
+        {"label": "B", "text": "To translate an abstract claim about public benefit into observable dimensions that researchers can measure"},
+        {"label": "C", "text": "To prove that every visitor values exactly the same park feature"},
+        {"label": "D", "text": "To replace evidence about park use with a list of the designers' intentions"}
+      ],
+      "correct": "B",
+      "answer": "正解：B。列挙は「公共性」を抽象語のままにせず、到達可能性、利用条件、維持状態、体験など測定できる変数へ分解します。A・Cは同一結果を要求し、Dは意図と実測結果の区別を逆転させます。observable dimensionは「観察・測定可能な側面」です。",
+      "sourceRefs": ["legacy:english-reading-academic-urban-park-design-equity-11-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What misunderstanding about the park site does the reference to Seneca Village correct?",
+      "options": [
+        {"label": "A", "text": "That the finished park contains no engineered landscape features"},
+        {"label": "B", "text": "That all nineteenth-century New Yorkers opposed public recreation"},
+        {"label": "C", "text": "That eminent domain can never be used for a public project"},
+        {"label": "D", "text": "That planners created public space on empty land without displacing existing residents, property, churches, or schools"}
+      ],
+      "correct": "D",
+      "answer": "正解：D。第3段落は敷地が空ではなく、Seneca Villageなどの共同体、所有者、教会、学校があり、土地収用で住民が移転したと示します。A・B・Cはこの言及が修正するblank canvasの誤読ではありません。eminent domainは「公益目的の土地収用」です。",
+      "sourceRefs": ["legacy:english-reading-academic-urban-park-design-equity-11-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What approach should another city take when learning from Central Park?",
+      "options": [
+        {"label": "A", "text": "Study transferable principles but test and adapt them to the local climate, population, budget, history, and access conditions."},
+        {"label": "B", "text": "Copy every physical feature because a successful case study is a universal template."},
+        {"label": "C", "text": "Ignore displaced histories if the finished landscape attracts many visitors."},
+        {"label": "D", "text": "Evaluate only the visual similarity between the new park and the Greensward plan."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。第4段落はCentral Parkを研究できる事例としつつ、異なる気候、人口、予算、歴史へ何が移せるかを問い直すよう求めます。B・Dは機械的模倣で、Cは本文が回復すべきだとする移転史を消します。transferable principleは「別の文脈へ応用可能な原理」です。",
+      "sourceRefs": ["legacy:english-reading-academic-urban-park-design-equity-11-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does the author write that a park “may support” activity, cooling, social contact, and habitat rather than saying that it guarantees them?",
+      "options": [
+        {"label": "A", "text": "Because parks can never produce any social or environmental benefit"},
+        {"label": "B", "text": "Because design intentions are always more reliable than observed outcomes"},
+        {"label": "C", "text": "Because those benefits depend on conditions such as access, stewardship, safety, use opportunities, and the surrounding environment"},
+        {"label": "D", "text": "Because the author believes only nineteenth-century parks can be evaluated"}
+      ],
+      "correct": "C",
+      "answer": "正解：C。mayは可能性を示す条件表現で、公園の存在だけでは利益を保証せず、アクセスとstewardshipなどに左右されることを表します。Aは利益を全否定し、Bは本文の方法と逆、Dは時代を限定しています。stewardshipは「責任ある維持管理」です。",
+      "sourceRefs": ["legacy:english-reading-academic-urban-park-design-equity-11-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which evaluation plan would best measure whether a new urban park is equitable?",
+      "options": [
+        {"label": "A", "text": "Count total visitors once and assume that every neighborhood, income group, age, and disability status is equally represented."},
+        {"label": "B", "text": "Map walking, transit, and wheelchair travel times; observe users by entrance, time, and activity; survey safety and welcome; and track maintenance, heat, programs, enforcement, and displacement over time by relevant groups."},
+        {"label": "C", "text": "Evaluate only whether the park resembles Central Park in photographs."},
+        {"label": "D", "text": "Use the designers' stated civic purpose as the sole evidence of equal benefit."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。到達時間、利用者構成と行動、主観的安全、管理・環境条件、周辺移転を時系列かつ属性別に測るため、利益と負担の配分を評価できます。Aは総数だけ、Cは外観だけ、Dは意図だけで結果を推定します。resident participationは「住民参加」です。",
+      "sourceRefs": ["legacy:english-reading-academic-urban-park-design-equity-11-q9"]
+    }
+  ]
+}
