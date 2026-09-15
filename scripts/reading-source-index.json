@@ -444,12 +444,23 @@
       "sha256": "8128961ad98d0e5182a29940bdd9fec5f815b365821a591be95f6bb8a38f5e5e",
       "answerKeyAvailable": false,
       "reviewedPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
         8,
         9,
         10,
         11,
         12,
-        13
+        13,
+        14,
+        15,
+        16,
+        17
       ],
       "packets": [
         {
@@ -534,6 +545,15 @@
         }
       ],
       "pageItems": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [
+          "pdf:task3:p007:qexample-main-idea"
+        ],
         "8": [
           "pdf:task3:p008:q01",
           "pdf:task3:p008:q02"
@@ -557,6 +577,22 @@
           "pdf:task3:p013:q08",
           "pdf:task3:p013:q09",
           "pdf:task3:p013:q10"
+        ],
+        "14": [],
+        "15": [
+          "pdf:task3:p015:q11",
+          "pdf:task3:p015:q12",
+          "pdf:task3:p015:q13",
+          "pdf:task3:p015:q14",
+          "pdf:task3:p015:q15"
+        ],
+        "16": [],
+        "17": [
+          "pdf:task3:p017:q16",
+          "pdf:task3:p017:q17",
+          "pdf:task3:p017:q18",
+          "pdf:task3:p017:q19",
+          "pdf:task3:p017:q20"
         ]
       }
     },
@@ -614,12 +650,12 @@
     }
   ],
   "lastSource": {
-    "type": "legacy",
+    "type": "pdf",
     "ids": [
-      "english-reading-academic-seed-dispersal-recruitment-22",
-      "english-reading-academic-social-capital-networks-measurement-21"
+      "pdf-task3-p007-example",
+      "pdf-task3-p014-017"
     ],
-    "convertedAt": "2026-09-15T16:00:00+09:00"
+    "convertedAt": "2026-09-15T18:00:00+09:00"
   },
   "note": "Packet paths describe a private working cache, not published files. Exact question totals require review. Answer pages referenced by the books were not supplied."
 }

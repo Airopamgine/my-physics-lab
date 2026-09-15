@@ -1,0 +1,41 @@
+{
+  "id": "pdf-task3-p007-example",
+  "title": "Academic Reading Example · The Value of Forgetting",
+  "task": 3,
+  "date": "2026-09-15T18:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 3 · PDF 7ページ／冊子207ページ · Example 1問",
+  "verificationNote": "PDFのExample欄に示された正答Bと解説をスキャン原本で確認済みです。出版社の巻末解答表とは未照合です。",
+  "passages": {
+    "forgetting": "Forgetting has often been undervalued compared to the high regard given to memory. However, forgetting helps the brain focus on new tasks and prevents cognitive overload, whereas retaining unnecessary past details could slow reasoning and impair decision-making.\n\nNeuroscience now views forgetting as an active regulatory process rather than passive decay. Research from the Frankland Lab focused on the birth of new neurons, a process called hippocampal neurogenesis. In mouse studies, researchers found an inverse relationship between the rate of neurogenesis and memory persistence. When they genetically or environmentally increased the birth of new neurons, the animals demonstrated a measurable loss of older memories.\n\nThis suggests that new cells remodel memory circuits to clear out old information, allowing the brain to prioritize and store newer, more useful knowledge. This same mechanism is a leading hypothesis for explaining infantile amnesia, as the high rate of neurogenesis in early development may prevent the long-term consolidation of memories.\n\nFar from being a flaw, this loss of information can enhance mental efficiency by making space for more useful knowledge. By clearing away irrelevant details, the brain can adapt quickly to new environments and prioritize what truly matters in the present."
+  },
+  "questions": [
+    {
+      "passageId": "forgetting",
+      "prompt": "Which of the following best states the main idea of the passage?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The brain accidentally forgets due to weak memory."
+        },
+        {
+          "label": "B",
+          "text": "Forgetting unnecessary information enables better decisions and adaptability."
+        },
+        {
+          "label": "C",
+          "text": "Effective decision-making hinges on recalling."
+        },
+        {
+          "label": "D",
+          "text": "Suppression of memory always leads to loss of important knowledge."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。第1段落は不要な過去の詳細を保持すると推論や意思決定が遅くなると述べ、第4段落は無関係な情報を忘れることで新しい環境へ適応できるとまとめています。A：本文は忘却を偶発的な弱点ではなく能動的な調整過程と捉えます。C：想起こそ意思決定の条件だとは述べていません。D：失われるのは常に重要な情報だという主張ではありません。cognitive overloadは「認知的な情報過多」、adaptabilityは「適応力」です。",
+      "sourceRefs": [
+        "pdf:task3:p007:qexample-main-idea"
+      ]
+    }
+  ]
+}
