@@ -88,7 +88,10 @@
         8,
         9,
         10,
-        11
+        11,
+        12,
+        13,
+        14
       ],
       "packets": [
         {
@@ -159,6 +162,31 @@
           "pdf:actual:p011:q13",
           "pdf:actual:p011:q14",
           "pdf:actual:p011:q15"
+        ],
+        "12": [],
+        "13": [
+          "pdf:actual:p013:q01",
+          "pdf:actual:p013:q02",
+          "pdf:actual:p013:q03",
+          "pdf:actual:p013:q04",
+          "pdf:actual:p013:q05",
+          "pdf:actual:p013:q06",
+          "pdf:actual:p013:q07",
+          "pdf:actual:p013:q08",
+          "pdf:actual:p013:q09",
+          "pdf:actual:p013:q10"
+        ],
+        "14": [
+          "pdf:actual:p014:q11",
+          "pdf:actual:p014:q12",
+          "pdf:actual:p014:q13",
+          "pdf:actual:p014:q14",
+          "pdf:actual:p014:q15",
+          "pdf:actual:p014:q16",
+          "pdf:actual:p014:q17",
+          "pdf:actual:p014:q18",
+          "pdf:actual:p014:q19",
+          "pdf:actual:p014:q20"
         ]
       }
     },
@@ -650,12 +678,11 @@
     }
   ],
   "lastSource": {
-    "type": "legacy",
+    "type": "pdf",
     "ids": [
-      "legacy-stereotypes-confirmation-bias",
-      "legacy-synesthesia-evidence"
+      "pdf-actual-test2-module1-task1"
     ],
-    "convertedAt": "2026-09-15T20:00:00+09:00"
+    "convertedAt": "2026-09-15T22:00:00+09:00"
   },
   "note": "Packet paths describe a private working cache, not published files. Exact question totals require review. Answer pages referenced by the books were not supplied."
 }
