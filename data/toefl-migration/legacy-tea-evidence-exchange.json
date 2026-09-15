@@ -1,0 +1,132 @@
+{
+  "id": "legacy-tea-evidence-exchange",
+  "title": "A Drink With More Than One Beginning",
+  "task": 3,
+  "date": "2026-09-15T12:00:00+09:00",
+  "level": "B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "本文と元教材の解説から一意に判断できる正答を編集・確認しています。四つの原文段落と全九つの学習対象を保持し、元の記述問題は英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-academic-tea-evidence-exchange-26/",
+  "passages": {
+    "text": "Histories of tea often begin with a memorable discovery story. One Chinese legend tells of leaves falling into the hot water of the ruler Shennong. The story matters as cultural memory, but it is not a dated observation of an event. Archaeological remains can establish that tea was present at a particular site and time; they cannot by themselves identify the first person to drink it or a single point of origin. Even the history of domestication is complex, although most familiar teas are produced from varieties of *Camellia sinensis*.\n\nHistorians therefore combine evidence that answers different questions. Plant fragments and chemical residues may identify a substance, but contamination and preservation must be tested. Written texts can record names, preparation, taxation, or ritual, yet a text may describe an ideal rather than common practice. Botanical and genetic evidence can investigate relationships among populations, while vessels, paintings, and account books reveal trade and use. Agreement among independent sources strengthens an interpretation; disagreement may expose a change in meaning or a gap in the record.\n\nTea did not travel as an unchanged package. Communities selected plants, processing methods, utensils, settings, and social meanings. In East Asia, cultivation and preparation became connected to different religious, artistic, medical, and everyday practices. In Europe and elsewhere, merchants and consumers altered brewing, serving, sweetening, and occasions for drinking. These adaptations do not make one tradition a defective copy of another. They show that transmission is also local invention.\n\nNor was global exchange neutral. Commercial expansion linked tea to monopolies, imperial policy, plantation agriculture, labor systems, and struggles over who controlled land and profit. Modern bottled drinks and new tea mixtures continue the pattern of reinvention, but novelty does not erase older inequalities. A careful history asks not only where tea went, but who moved plants and skills, who could afford the drink, who performed the labor, and which practices changed along the way."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What is the main idea of the passage?",
+      "options": [
+        {"label": "A", "text": "A single legend provides a complete and dated history of tea."},
+        {"label": "B", "text": "Tea remained unchanged wherever it traveled."},
+        {"label": "C", "text": "Tea history requires multiple kinds of evidence and attention to local reinvention and power."},
+        {"label": "D", "text": "Archaeology can always identify the first individual who used a plant."}
+      ],
+      "correct": "C",
+      "answer": "The passage combines source criticism with the cultural reinvention and unequal power involved in tea's movement. 正解：C。source criticismは「資料が示せる範囲と限界を検討すること」です。A・Dは証拠能力を過大化し、Bは地域での改変を否定します。",
+      "sourceRefs": ["legacy:english-reading-academic-tea-evidence-exchange-26-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why can the Shennong story be culturally important without serving as direct evidence of the first discovery of tea?",
+      "options": [
+        {"label": "A", "text": "The story contains chemical residue from the ruler's cup."},
+        {"label": "B", "text": "It records cultural memory but is not an independently dated observation of the event it describes."},
+        {"label": "C", "text": "Cultural memories can identify an exact first person more reliably than archaeology."},
+        {"label": "D", "text": "The existence of a legend proves that all tea traditions began at the same place and time."}
+      ],
+      "correct": "B",
+      "answer": "The legend is evidence that a community preserved an origin story, not direct dated evidence that the described event occurred. 正解：B。cultural memoryは「共同体が受け継ぐ過去の理解」です。A・C・Dは伝説を物的・年代的証拠として扱っています。",
+      "sourceRefs": ["legacy:english-reading-academic-tea-evidence-exchange-26-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which comparison accurately states both the value and limitation of two historical sources?",
+      "options": [
+        {"label": "A", "text": "Written texts always describe common behavior exactly, and genetic evidence directly records serving rituals."},
+        {"label": "B", "text": "Archaeological remains identify the first tea drinker, while account books reveal no information about trade."},
+        {"label": "C", "text": "Plant residues need no contamination or preservation checks, and ideal texts are identical to everyday practice."},
+        {"label": "D", "text": "Residues may identify a substance but require contamination checks; texts may record preparation or taxation but can describe ideals rather than common practice."}
+      ],
+      "correct": "D",
+      "answer": "Different sources answer different questions and each has limits that must be tested. 正解：D。residueは「器物などに残る微量物質」、contaminationは「後代物質の混入」です。A・B・Cは資料の能力を絶対化または逆転します。",
+      "sourceRefs": ["legacy:english-reading-academic-tea-evidence-exchange-26-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "The word “establish” in paragraph 1 is closest in meaning to:",
+      "options": [
+        {"label": "A", "text": "prove every detail beyond any possible doubt"},
+        {"label": "B", "text": "support a limited claim with evidence"},
+        {"label": "C", "text": "invent a story that people will remember"},
+        {"label": "D", "text": "move a crop to a new continent"}
+      ],
+      "correct": "B",
+      "answer": "Here, establish means using evidence to support the limited claim that tea was present at a certain place and time. 正解：B。「限定された事実を証拠で確かめる」です。Aは範囲を広げすぎ、C・Dは語義が異なります。",
+      "sourceRefs": ["legacy:english-reading-academic-tea-evidence-exchange-26-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What evidence rejects the idea that tea spread unchanged in only one direction?",
+      "options": [
+        {"label": "A", "text": "Communities selected and altered plants, processing, utensils, brewing, serving, occasions, and social meanings as tea entered local institutions."},
+        {"label": "B", "text": "Every community used the same plant, tool, ritual, and social setting."},
+        {"label": "C", "text": "Only merchants changed tea, while consumers and religious practices had no role."},
+        {"label": "D", "text": "Tea traditions became less local wherever trade increased."}
+      ],
+      "correct": "A",
+      "answer": "Transmission involved selection and adaptation by receiving communities, making it a process of local invention rather than unchanged copying. 正解：A。transmissionは「物・知識・慣行の伝播」です。B・C・Dは本文の地域的改変を消します。",
+      "sourceRefs": ["legacy:english-reading-academic-tea-evidence-exchange-26-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which example best shows how several elements of tea could be reinvented and change its social meaning?",
+      "options": [
+        {"label": "A", "text": "Keeping plant variety, processing, utensils, setting, and participants identical in every place"},
+        {"label": "B", "text": "Changing the spelling of tea while leaving every practice and institution unchanged"},
+        {"label": "C", "text": "Selecting a plant and processing method, using formal utensils and service, and moving drinking from everyday refreshment to an elite social occasion"},
+        {"label": "D", "text": "Removing all links among preparation, participants, etiquette, and price"}
+      ],
+      "correct": "C",
+      "answer": "C changes plants, processing, utensils, service, and occasion; the formal setting can also alter participation, etiquette, and price. 正解：C。utensilは「器具」、occasionは「飲用の場面」です。A・B・Dは社会的再発明を示しません。",
+      "sourceRefs": ["legacy:english-reading-academic-tea-evidence-exchange-26-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does paragraph 4 ask about land, labor, and profit rather than only the growth of trade and consumption?",
+      "options": [
+        {"label": "A", "text": "Higher consumption guarantees that producers, workers, and consumers receive equal benefits."},
+        {"label": "B", "text": "The quantity traded fully explains coercion, wages, ownership, and exclusion."},
+        {"label": "C", "text": "Global exchange was neutral and unrelated to monopolies or imperial policy."},
+        {"label": "D", "text": "Commercial expansion distributed control, risk, work, and reward unequally, so volume alone cannot reveal the power relations behind tea."}
+      ],
+      "correct": "D",
+      "answer": "Trade volume does not show who controlled land, performed labor, bore risks, or captured profits under monopolies and imperial systems. 正解：D。plantation agricultureは「大規模農園による商品作物生産」です。A・B・Cは交換の不平等を見落とします。",
+      "sourceRefs": ["legacy:english-reading-academic-tea-evidence-exchange-26-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why should disagreement among independent sources not automatically be discarded as failure?",
+      "options": [
+        {"label": "A", "text": "Disagreement proves that every source is equally accurate."},
+        {"label": "B", "text": "It may reveal a change in meaning, different groups or periods, preservation problems, or a gap in the historical record."},
+        {"label": "C", "text": "Historians should keep only the source that supports the most memorable legend."},
+        {"label": "D", "text": "Independent sources must describe the same ideal rather than actual practice."}
+      ],
+      "correct": "B",
+      "answer": "A mismatch can become evidence about historical change, silence, source production, or preservation and can guide further testing. 正解：B。gap in the recordは「記録の空白」です。A・C・Dは不一致を検討する資料批判を放棄します。",
+      "sourceRefs": ["legacy:english-reading-academic-tea-evidence-exchange-26-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which museum label best connects a tea vessel with objects, practices, trade, and labor?",
+      "options": [
+        {"label": "A", "text": "This vessel shaped preparation and expected behavior. Its tea arrived through networks moving plants, skills, money, and labor; reading it with residues, texts, and accounts also reveals workers and inequalities that elite objects alone may hide."},
+        {"label": "B", "text": "This vessel proves that tea was discovered by one identifiable person and remained unchanged worldwide."},
+        {"label": "C", "text": "The vessel's appearance is sufficient; trade, cultivation, transport, service, and labor are unrelated to its history."},
+        {"label": "D", "text": "Because the object survived, every producer and servant must have left an equally detailed written record."}
+      ],
+      "correct": "A",
+      "answer": "A treats the vessel as part of a material practice and a network of exchange and labor while acknowledging unequal visibility in the record. 正解：A。accountは「取引帳簿」、unequal visibilityは「記録に残りやすさの不均衡」です。B・C・Dは本文の資料批判と権力分析を失います。",
+      "sourceRefs": ["legacy:english-reading-academic-tea-evidence-exchange-26-q9"]
+    }
+  ]
+}
