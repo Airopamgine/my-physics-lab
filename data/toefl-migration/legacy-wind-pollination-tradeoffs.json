@@ -1,0 +1,132 @@
+{
+  "id": "legacy-wind-pollination-tradeoffs",
+  "title": "Success in a Probabilistic Delivery System",
+  "task": 3,
+  "date": "2026-09-16T00:00:00+09:00",
+  "level": "B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "本文と元教材の解説から一意に判断できる正答を編集・確認しています。四つの原文段落と全九つの学習対象を保持し、元の記述問題は英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-academic-wind-pollination-tradeoffs-03/",
+  "passages": {
+    "text": "Pollination is the transfer of pollen to a receptive structure, such as the stigma of a flowering plant. Fertilization occurs later, if a compatible pollen grain germinates and its male gametes ultimately unite with an egg. This distinction matters because pollen arrival is necessary but not sufficient for seed production. A grain may land on the wrong species, arrive when the stigma is not receptive, fail because of incompatibility, or germinate without completing fertilization. Wind pollination should therefore be analyzed as one stage in a longer reproductive sequence.\n\nIn wind-pollinated plants, air currents act as transport vectors. Each released grain has a low and variable chance of reaching a compatible target, so several traits can alter the probability of success. Many species produce large numbers of relatively small, dry grains; hold anthers where moving air can remove pollen; or expose broad, branched, or feathery stigmas that intercept it. Flowering synchrony and the density or spacing of plants also matter. Producing more grains raises the number of opportunities, whereas exposed reproductive structures and larger effective capture areas change release and interception. None guarantees delivery.\n\nThese traits are often grouped into a wind-pollination syndrome. The word *syndrome* here means a recurring combination shaped by similar selective conditions, not a rule that every species has every feature. Wind-pollinated flowers are often inconspicuous and may invest less in scent, nectar, or structures that attract animals. Yet mixed systems exist, insects can visit flowers whose pollen is mainly moved by wind, and a particular trait may have more than one function. Conversely, not every small green flower is wind-pollinated. Direct observations of pollen movement and reproductive success are stronger evidence than appearance alone.\n\nCalling wind pollination “wasteful” also requires a comparison. Most grains do not reach a compatible stigma, but animal attraction has costs too, and animal service can vary with weather, season, and community change. Wind can be effective where plants occur at suitable density and release pollen under favorable atmospheric conditions. Pollen movement can contribute to gene flow, but it is not the same as seed dispersal and does not by itself prove that a plant colonizes distant sites. The useful question is not which system is universally superior. It is how morphology, timing, population arrangement, and environment jointly change the probability and cost of reproduction."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What is the main idea of the passage?",
+      "options": [
+        {"label": "A", "text": "Wind pollination is perfect because every pollen grain reaches a receptive stigma."},
+        {"label": "B", "text": "Flower color alone identifies the pollination method of every plant."},
+        {"label": "C", "text": "Wind pollination is best understood as a conditional probability process within a longer reproductive sequence."},
+        {"label": "D", "text": "Pollen movement and seed dispersal are two names for the same process."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。本文は受粉を種子形成までの連鎖に置き、放出・輸送・捕捉を条件付き確率として分析します。Aは失敗可能性を消し、Bは混合型と直接観察を無視し、Dは花粉と種子という別の移動体を混同します。reproductive sequenceは「生殖過程の連鎖」です。",
+      "sourceRefs": ["legacy:english-reading-academic-wind-pollination-tradeoffs-03-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which option gives two reasons why pollination may occur without successful fertilization?",
+      "options": [
+        {"label": "A", "text": "The pollen always reaches the same species, and every stigma is permanently receptive."},
+        {"label": "B", "text": "The seed disperses before pollen is released, and the flower necessarily attracts an animal."},
+        {"label": "C", "text": "The anther becomes larger, and the plant produces more dry grains."},
+        {"label": "D", "text": "The grain may reach a nonreceptive stigma or be incompatible, and it may germinate without completing fertilization."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。第1段落は異種への到着、受容期のずれ、不和合性、発芽後の受精不完了を挙げます。Dはそのうち複数の失敗経路を正しく示します。Aは失敗を否定し、B・Cは受粉後に受精しない理由ではありません。compatibleは「受精へ進める組合せの」です。",
+      "sourceRefs": ["legacy:english-reading-academic-wind-pollination-tradeoffs-03-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "The word “intercept” in paragraph 2 is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "capture something while it is moving"},
+        {"label": "B", "text": "produce nectar after fertilization"},
+        {"label": "C", "text": "prevent every grain from leaving an anther"},
+        {"label": "D", "text": "classify a flower by its color alone"}
+      ],
+      "correct": "A",
+      "answer": "正解：A。ここでは気流中を移動する花粉を広い柱頭が「途中で受け止める」意味です。Bは蜜の生産、Cは放出の全面阻止、Dは外見による分類で、文脈に合いません。stigmaは「柱頭」です。",
+      "sourceRefs": ["legacy:english-reading-academic-wind-pollination-tradeoffs-03-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which mapping correctly connects each trait to the stage it most directly affects?",
+      "options": [
+        {"label": "A", "text": "Many pollen grains—fertilization guarantee; exposed anthers—seed dispersal; broad stigmas—nectar production"},
+        {"label": "B", "text": "Many pollen grains—pollen interception; exposed anthers—egg formation; broad stigmas—pollen production"},
+        {"label": "C", "text": "Many pollen grains—more transport opportunities; exposed anthers—release into air; broad or branched stigmas—interception"},
+        {"label": "D", "text": "Many pollen grains—species recognition; exposed anthers—fruit growth; broad stigmas—animal attraction only"}
+      ],
+      "correct": "C",
+      "answer": "正解：C。大量生産は輸送へ投入する試行回数を増やし、露出した葯は気流への放出、広く枝分かれした柱頭は移動中の花粉の捕捉に関わります。A・B・Dは段階や機能を取り違えています。antherは「葯」、capture areaは「有効捕捉面積」です。",
+      "sourceRefs": ["legacy:english-reading-academic-wind-pollination-tradeoffs-03-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "All of the following support treating a pollination syndrome as a tendency rather than an absolute checklist EXCEPT",
+      "options": [
+        {"label": "A", "text": "Mixed wind-and-animal systems exist."},
+        {"label": "B", "text": "Insects may visit flowers whose pollen is moved mainly by wind."},
+        {"label": "C", "text": "A particular trait may perform more than one function."},
+        {"label": "D", "text": "Every wind-pollinated plant has bright flowers and abundant nectar."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。本文は風媒花がしばしば目立たず、香りや蜜への投資が少ないと述べるためDは反対です。A～Cは形質と送粉様式を一対一の絶対規則にできない理由として明記されています。syndromeはここでは「繰り返し現れる形質の組合せ」です。",
+      "sourceRefs": ["legacy:english-reading-academic-wind-pollination-tradeoffs-03-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does the fact that most pollen grains miss a compatible stigma not by itself prove that wind pollination is evolutionarily inferior?",
+      "options": [
+        {"label": "A", "text": "Because the proportion of lost pollen is the only component of reproductive success"},
+        {"label": "B", "text": "Because evaluation must compare total reproductive returns and costs, including grain production, animal attraction, environmental variation, and successful seeds"},
+        {"label": "C", "text": "Because animal pollination has no costs and never varies with weather"},
+        {"label": "D", "text": "Because every wind-borne grain eventually reaches the same plant"}
+      ],
+      "correct": "B",
+      "answer": "正解：B。適応度は失われた粒の割合だけでなく、生産と動物誘引の相対費用、残った粒が生む種子数、天候・季節・群集による変動で決まります。Aは一指標へ還元し、C・Dは本文と反対です。reproductive returnは「繁殖上の成果」です。",
+      "sourceRefs": ["legacy:english-reading-academic-wind-pollination-tradeoffs-03-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why can plant density and flowering synchrony change pollination success even when the same amount of pollen is released?",
+      "options": [
+        {"label": "A", "text": "Nearby compatible plants flowering at the same time increase the number and area of receptive targets overlapping with the pollen cloud."},
+        {"label": "B", "text": "Plant density changes every wind-pollinated species into an animal-pollinated species."},
+        {"label": "C", "text": "Asynchronous flowering guarantees that every stigma is receptive when pollen arrives."},
+        {"label": "D", "text": "Spacing matters only after seeds have already colonized another site."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。近くで同時に開花する適合個体が多いほど、放出時に受容可能な標的の数と面積が増えます。低密度や開花時期のずれは花粉雲と柱頭の時空間的重なりを減らします。B・C・Dはこの確率過程を誤っています。flowering synchronyは「開花時期の重なり」です。",
+      "sourceRefs": ["legacy:english-reading-academic-wind-pollination-tradeoffs-03-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which evidence would best test an appearance-based inference that a small green flower is wind-pollinated?",
+      "options": [
+        {"label": "A", "text": "A photograph showing that the flower is small and green"},
+        {"label": "B", "text": "A list of other plants that also have inconspicuous flowers"},
+        {"label": "C", "text": "Direct tracking of pollen movement together with measurements of compatible pollen on stigmas, fertilization, fruit set, or seed production"},
+        {"label": "D", "text": "An assumption that every feature has only one biological function"}
+      ],
+      "correct": "C",
+      "answer": "正解：C。本文は外見だけより花粉移動と繁殖成功の直接観察を強い証拠とします。移動先と、柱頭上の適合花粉、受精率、結実率、種子数を測れば推測を検証できます。A・Bは外見上の類似に留まり、Dは複数機能を無視します。fruit setは「結実率」です。",
+      "sourceRefs": ["legacy:english-reading-academic-wind-pollination-tradeoffs-03-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What is wrong with the inference, “A plant releases light pollen into the wind, so its seeds must colonize distant islands”?",
+      "options": [
+        {"label": "A", "text": "Light pollen cannot move through air under any conditions."},
+        {"label": "B", "text": "Pollination alone guarantees seed production and establishment wherever pollen lands."},
+        {"label": "C", "text": "Gene flow and colonization always occur at the same rate and by the same structure."},
+        {"label": "D", "text": "The claim confuses pollen movement with seed dispersal and skips compatibility, fertilization, seed transport, survival, germination, and establishment."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。花粉の遠距離移動は既存個体群間のgene flowに寄与できますが、種子そのものを島へ運びません。受粉後も適合性、受精、種子形成が必要で、定着には別途、種子移動・生存・発芽・繁殖が必要です。Aは移動を全否定し、B・Cは段階を同一視します。colonizationは「新しい場所への定着」です。",
+      "sourceRefs": ["legacy:english-reading-academic-wind-pollination-tradeoffs-03-q9"]
+    }
+  ]
+}

@@ -678,11 +678,12 @@
     }
   ],
   "lastSource": {
-    "type": "pdf",
+    "type": "legacy",
     "ids": [
-      "pdf-actual-test2-module1-task1"
+      "legacy-urban-park-design-equity",
+      "legacy-wind-pollination-tradeoffs"
     ],
-    "convertedAt": "2026-09-15T22:00:00+09:00"
+    "convertedAt": "2026-09-16T00:00:00+09:00"
   },
   "note": "Packet paths describe a private working cache, not published files. Exact question totals require review. Answer pages referenced by the books were not supplied."
 }
