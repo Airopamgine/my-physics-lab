@@ -1,0 +1,145 @@
+{
+  "id": "pdf-task3-p014-017",
+  "title": "Academic Reading · 共有資源と乳児の愛着",
+  "task": 3,
+  "date": "2026-09-15T18:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 3 · PDF 14–17ページ／冊子214–217ページ · 問11–20",
+  "verificationNote": "Editorial answers（編集・確認した解答）。スキャン原本で本文・段落・全選択肢を照合し、本文から一意に支持される正答を設定しました。出版社の巻末解答表とは未照合です。",
+  "passages": {
+    "commons": "The tragedy of the commons is an economic and social concept that explains how individuals, acting rationally according to their self-interest, can ultimately deplete or ruin shared resources. A commonly cited example is the use of communal pastures. Each herder gains by adding more animals, but if all herders do this, the pasture becomes overgrazed and eventually useless to everyone.\n\nAnother example is overfishing in the oceans. Since no single authority can enforce strict catch limits in international waters, fishing fleets are motivated to catch as many fish as possible before others do the same. While each actor benefits in the short term, the cumulative effects lead to declining fish populations, threatening the ecosystem and the livelihoods of everyone involved. Similar situations occur with water usage in shared river basins and logging in unregulated forests.\n\nTo prevent resource depletion, communities and governments can implement strategies that limit the usage of shared resources, including resource quotas and monitoring systems. There can also be economic incentives, such as shared profits from sustainable harvesting and compensation systems that reward communities for maintaining resource conservation practices. Without some form of cooperation or oversight, resources vital for long-term sustainability may be used up or destroyed.",
+    "attachment": "The Strange Situation Experiment, conducted by psychologist Mary Ainsworth in the 1970s, determined the attachment behavior of infants toward their caregivers. In this experiment, a mother brought her infant into a room with toys. After a short period, the mother left the child alone or with a stranger, and then later returned. Researchers carefully observed the baby's reactions during separation and reunion.\n\nBased on these observations, different attachment types were identified. Some infants were visibly upset when the mother left and were quickly comforted upon her return; these were classified as securely attached. Others showed anxiety and avoidance or were hard to console once their mothers returned. A few infants showed mixed reactions when their mother came back, wanting comfort but also resisting it.\n\nThis experiment was groundbreaking because it provided specific labels for different child-caregiver bonds. Later research confirmed that attachment styles early in life influence later development. The insights from this experiment have helped shape social policy, early education approaches, and understanding of parent-child relationships, underlining the importance of healthy early bonds for emotional well-being."
+  },
+  "questions": [
+    {
+      "passageId": "commons",
+      "prompt": "Which of the following best states the main idea of the passage?",
+      "options": [
+        { "label": "A", "text": "Collective resources can be preserved through technological advancement." },
+        { "label": "B", "text": "Overuse of common property is mostly caused by ineffective distribution systems." },
+        { "label": "C", "text": "Economic growth is primarily driven by competition over shared resources." },
+        { "label": "D", "text": "Unregulated use of communal assets can lead to their eventual loss." }
+      ],
+      "correct": "D",
+      "answer": "正解：D。本文は、各人が自己利益を求めて共有資源を使うと、規制や協力がない場合に資源全体が枯渇し得ると説明しています。A：技術進歩は保全策として挙げられていません。B：原因は分配制度ではなく、各利用者に過剰利用の誘因があることです。C：経済成長の要因を論じる文章ではありません。communal assetsは「共同で使う資源」、depletionは「枯渇」です。",
+      "sourceRefs": ["pdf:task3:p015:q11"]
+    },
+    {
+      "passageId": "commons",
+      "prompt": "The word “deplete” in the first paragraph is closest in meaning to",
+      "options": [
+        { "label": "A", "text": "exhaust" },
+        { "label": "B", "text": "supervise" },
+        { "label": "C", "text": "protect" },
+        { "label": "D", "text": "transfer" }
+      ],
+      "correct": "A",
+      "answer": "正解：A。depleteは資源を「使い尽くす、枯渇させる」という意味で、exhaustが最も近いです。Bは「監督する」、Cは「保護する」、Dは「移す」です。本文では共有資源がruinされ、最終的に使えなくなるという文脈です。",
+      "sourceRefs": ["pdf:task3:p015:q12"]
+    },
+    {
+      "passageId": "commons",
+      "prompt": "Why does the author mention communal pastures?",
+      "options": [
+        { "label": "A", "text": "To argue that communal land ownership is often inefficient" },
+        { "label": "B", "text": "To emphasize economic inequality among farmers in shared lands" },
+        { "label": "C", "text": "To show how the example of overfishing is different from other examples" },
+        { "label": "D", "text": "To provide a simple illustration of a concept presented earlier in the passage" }
+      ],
+      "correct": "D",
+      "answer": "正解：D。第1文で共有地の悲劇を定義した直後、牧草地をその仕組みの分かりやすい例として示しています。A：土地所有一般の非効率性を論証していません。B：農民間の不平等は触れていません。C：乱獲との相違ではなく、同じ原理の別例です。illustrationは「説明のための具体例」です。",
+      "sourceRefs": ["pdf:task3:p015:q13"]
+    },
+    {
+      "passageId": "commons",
+      "prompt": "Which sentence in paragraph 2 identifies specific circumstances contributing to the loss of a shared resource?",
+      "options": [
+        { "label": "A", "text": "Another example is overfishing in the oceans." },
+        { "label": "B", "text": "Since no single authority can enforce strict catch limits in international waters, fishing fleets are motivated to catch as many fish as possible before others do the same." },
+        { "label": "C", "text": "While each actor benefits in the short term, the cumulative effects lead to declining fish populations, threatening the ecosystem and the livelihoods of everyone involved." },
+        { "label": "D", "text": "Similar situations occur with water usage in shared river basins and logging in unregulated forests." }
+      ],
+      "correct": "B",
+      "answer": "正解：B。国際水域では単一の機関が漁獲制限を徹底できず、各船団が他者より先に多く獲ろうとする、という具体的な状況と誘因を示しています。Aは話題の導入、Cは結果、Dは類例です。enforceは「規則を実施・徹底する」、catch limitsは「漁獲制限」です。",
+      "sourceRefs": ["pdf:task3:p015:q14"]
+    },
+    {
+      "passageId": "commons",
+      "prompt": "All of the following are mentioned as possible measures for sustainable resource management EXCEPT",
+      "options": [
+        { "label": "A", "text": "Monitoring systems" },
+        { "label": "B", "text": "Quotas for resources" },
+        { "label": "C", "text": "State ownership of natural resources" },
+        { "label": "D", "text": "Compensation for conservation" }
+      ],
+      "correct": "C",
+      "answer": "正解：C。第3段落にはmonitoring systems、resource quotas、保全を報いるcompensation systemsが明記されていますが、国家による資源所有は挙げられていません。quotaは「割当量・上限」、compensationは「補償・報酬」です。",
+      "sourceRefs": ["pdf:task3:p015:q15"]
+    },
+    {
+      "passageId": "attachment",
+      "prompt": "What is the passage mainly about?",
+      "options": [
+        { "label": "A", "text": "The results of a psychological study about language development" },
+        { "label": "B", "text": "An experiment that categorized different infant attachment styles" },
+        { "label": "C", "text": "A study of methods to comfort young children after separation" },
+        { "label": "D", "text": "The influence of nurturing styles on child-caregiver relationships" }
+      ],
+      "correct": "B",
+      "answer": "正解：B。本文は実験手順、観察された反応からの愛着タイプの分類、その後の影響を説明しています。A：言語発達の研究ではありません。C：慰め方の比較が主題ではありません。D：養育スタイルの違いを操作した実験とは述べていません。attachment styleは「愛着の型」です。",
+      "sourceRefs": ["pdf:task3:p017:q16"]
+    },
+    {
+      "passageId": "attachment",
+      "prompt": "The word “console” in the passage is closest in meaning to",
+      "options": [
+        { "label": "A", "text": "distract" },
+        { "label": "B", "text": "praise" },
+        { "label": "C", "text": "support" },
+        { "label": "D", "text": "soothe" }
+      ],
+      "correct": "D",
+      "answer": "正解：D。母親が戻った後もhard to consoleだった、という文脈ではconsoleは「なだめる、安心させる」で、sootheが最も近いです。Aは「気をそらす」、Bは「褒める」、Cは広い意味の「支える」で、感情を落ち着かせる意味が弱いです。",
+      "sourceRefs": ["pdf:task3:p017:q17"]
+    },
+    {
+      "passageId": "attachment",
+      "prompt": "Which of the following is NOT mentioned as a response infants showed in the experiment?",
+      "options": [
+        { "label": "A", "text": "Being quickly comforted when the mother came back" },
+        { "label": "B", "text": "Playing alone without noticing the caregiver's absence" },
+        { "label": "C", "text": "Showing anxious behaviors after the caregiver returned" },
+        { "label": "D", "text": "Seeking and resisting comfort at the same time" }
+      ],
+      "correct": "B",
+      "answer": "正解：B。本文には母親の帰還後すぐ慰められる反応、anxietyやavoidance、慰めを求めながら拒むmixed reactionsが書かれています。一方、養育者の不在に気づかず一人で遊ぶ反応は記載されていません。resistは「拒む、抵抗する」です。",
+      "sourceRefs": ["pdf:task3:p017:q18"]
+    },
+    {
+      "passageId": "attachment",
+      "prompt": "What is suggested about early attachment?",
+      "options": [
+        { "label": "A", "text": "It has a major effect on later development." },
+        { "label": "B", "text": "It is strengthened through early education." },
+        { "label": "C", "text": "It is unrelated to adult relationships." },
+        { "label": "D", "text": "It remains unchanged until a child matures." }
+      ],
+      "correct": "A",
+      "answer": "正解：A。第3段落は、幼少期のattachment stylesがlater developmentに影響することを後続研究が確認したと述べています。B：教育が愛着を強化するとは書かれていません。C：本文の影響説明と反対です。D：成熟まで不変という記述はありません。later developmentは「その後の発達」です。",
+      "sourceRefs": ["pdf:task3:p017:q19"]
+    },
+    {
+      "passageId": "attachment",
+      "prompt": "What is the relationship between paragraphs 2 and 3?",
+      "options": [
+        { "label": "A", "text": "Paragraph 3 provides examples of attachment styles identified in paragraph 2." },
+        { "label": "B", "text": "Paragraph 3 discusses the limitations of the experiment outlined in paragraph 2." },
+        { "label": "C", "text": "Paragraph 3 introduces the broader impacts of the findings mentioned in paragraph 2." },
+        { "label": "D", "text": "Paragraph 3 offers solutions for the attachment issues discussed in paragraph 2." }
+      ],
+      "correct": "C",
+      "answer": "正解：C。第2段落は観察から分類された愛着タイプを説明し、第3段落はその分類の意義、後の発達への影響、政策・教育・親子関係理解への応用へ話を広げます。Aは段落の役割を逆にし、Bの限界やDの解決策は述べられていません。broader impactsは「より広い影響」です。",
+      "sourceRefs": ["pdf:task3:p017:q20"]
+    }
+  ]
+}
