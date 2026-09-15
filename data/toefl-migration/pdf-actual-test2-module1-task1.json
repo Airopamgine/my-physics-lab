@@ -1,0 +1,175 @@
+{
+  "id": "pdf-actual-test2-module1-task1",
+  "title": "Actual Test 2 · Module 1 · Circulation and Reverse Psychology",
+  "task": 1,
+  "date": "2026-09-15T22:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Actual Test · PDF 13–14ページ／冊子367–368ページ · 問01–20",
+  "verificationNote": "Editorial answers（編集・確認した解答）。スキャン原本の本文・接頭部分・空欄数を画像で照合し、文法・語法・文脈から正答を作成しました。出版社の公式解答表とは未照合です。各パッセージの全10空欄を提出するまで、そのパッセージの正答は表示されません。",
+  "passages": {
+    "circulation": "The circulatory system is an essential physiological network within the human body. Th__ system, wh___ is orga_____ into compo_____ such a_ the he___ and blood ves____, is divided in__ two circuits, bo__ serving crit____ and specialized functions. One is pulmonary circulation, which transports deoxygenated blood to the lungs for gas exchange and returns oxygenated blood to the heart. The other, systemic circulation, distributes oxygen-rich blood from the heart to peripheral tissues and channels oxygen-depleted blood back to the cardiac chambers.",
+    "reverse-psychology": "Reverse psychology is a persuasive strategy in which an individual seeks to influence another’s behavior by advocating for the contrary course of action. Wh__ someone i_ told n__ to eng___ in parti_____ behaviors, it c__ elicit resis_____ and inte_____ their incli______ to assert th___ own autonomy. Although it constitutes a subtle form of manipulation, reverse psychology is typically regarded as innocuous when employed in low-stakes scenarios—for instance, when parents remark that their children need not eat their vegetables."
+  },
+  "questions": [
+    {
+      "passageId": "circulation",
+      "prompt": "Question 01: complete Th__. Enter the missing letters.",
+      "prefix": "Th",
+      "word": "This",
+      "answer": "This refers back to the circulatory system introduced in the preceding sentence. 正解：is → This（この）。単数名詞systemを指す指示限定詞です。circulatory systemは「循環器系」です。",
+      "sourceRefs": ["pdf:actual:p013:q01"]
+    },
+    {
+      "passageId": "circulation",
+      "prompt": "Question 02: complete wh___. Enter the missing letters.",
+      "prefix": "wh",
+      "word": "which",
+      "answer": "Which introduces a nonrestrictive relative clause describing the system. 正解：ich → which（それは）。前後をコンマで挟み、先行詞This systemへ補足説明を加えます。",
+      "sourceRefs": ["pdf:actual:p013:q02"]
+    },
+    {
+      "passageId": "circulation",
+      "prompt": "Question 03: complete orga_____. Enter the missing letters.",
+      "prefix": "orga",
+      "word": "organized",
+      "answer": "The passive construction is is organized into. 正解：nized → organized（構成されている）。organize A into Bは「AをBに編成する」で、systemが構成される側なので受動態です。",
+      "sourceRefs": ["pdf:actual:p013:q03"]
+    },
+    {
+      "passageId": "circulation",
+      "prompt": "Question 04: complete compo_____. Enter the missing letters.",
+      "prefix": "compo",
+      "word": "components",
+      "answer": "Components are the parts that make up the system. 正解：nents → components（構成要素）。heart and blood vesselsという複数の例をまとめるため複数形です。",
+      "sourceRefs": ["pdf:actual:p013:q04"]
+    },
+    {
+      "passageId": "circulation",
+      "prompt": "Question 05: complete a_. Enter the missing letters.",
+      "prefix": "a",
+      "word": "as",
+      "answer": "The fixed phrase such as introduces examples. 正解：s → as。such as the heart and blood vesselsは「心臓や血管など」という意味です。",
+      "sourceRefs": ["pdf:actual:p013:q05"]
+    },
+    {
+      "passageId": "circulation",
+      "prompt": "Question 06: complete he___. Enter the missing letters.",
+      "prefix": "he",
+      "word": "heart",
+      "answer": "The heart is one component of the circulatory system. 正解：art → heart（心臓）。the heart and blood vesselsが循環器系の構成要素として並列されています。",
+      "sourceRefs": ["pdf:actual:p013:q06"]
+    },
+    {
+      "passageId": "circulation",
+      "prompt": "Question 07: complete ves____. Enter the missing letters.",
+      "prefix": "ves",
+      "word": "vessels",
+      "answer": "Blood vessels carry blood through the body. 正解：sels → vessels（血管）。arteries、veins、capillariesを含む複数の管を指すので複数形です。",
+      "sourceRefs": ["pdf:actual:p013:q07"]
+    },
+    {
+      "passageId": "circulation",
+      "prompt": "Question 08: complete in__. Enter the missing letters.",
+      "prefix": "in",
+      "word": "into",
+      "answer": "The pattern divide A into B means to separate A into parts. 正解：to → into（～に分けて）。is divided into two circuitsで「二つの循環経路に分かれる」です。",
+      "sourceRefs": ["pdf:actual:p013:q08"]
+    },
+    {
+      "passageId": "circulation",
+      "prompt": "Question 09: complete bo__. Enter the missing letters.",
+      "prefix": "bo",
+      "word": "both",
+      "answer": "Both refers to the two circuits together. 正解：th → both（両方とも）。後続文でpulmonary circulationとsystemic circulationの二つが説明されます。",
+      "sourceRefs": ["pdf:actual:p013:q09"]
+    },
+    {
+      "passageId": "circulation",
+      "prompt": "Question 10: complete crit____. Enter the missing letters.",
+      "prefix": "crit",
+      "word": "critical",
+      "answer": "Critical modifies functions and means essential or extremely important. 正解：ical → critical（極めて重要な）。二つの循環経路が重要かつ専門化した機能を担うという文脈です。",
+      "sourceRefs": ["pdf:actual:p013:q10"]
+    },
+    {
+      "passageId": "reverse-psychology",
+      "prompt": "Question 11: complete Wh__. Enter the missing letters.",
+      "prefix": "Wh",
+      "word": "When",
+      "answer": "When introduces the condition in which resistance may occur. 正解：en → When（～するとき）。後ろにsomeone is toldという主語と動詞が続く接続詞です。",
+      "sourceRefs": ["pdf:actual:p014:q11"]
+    },
+    {
+      "passageId": "reverse-psychology",
+      "prompt": "Question 12: complete i_. Enter the missing letters.",
+      "prefix": "i",
+      "word": "is",
+      "answer": "The passive form is is told. 正解：s → is。someoneが「言われる」側で、単数主語なのでbe動詞はisです。",
+      "sourceRefs": ["pdf:actual:p014:q12"]
+    },
+    {
+      "passageId": "reverse-psychology",
+      "prompt": "Question 13: complete n__. Enter the missing letters.",
+      "prefix": "n",
+      "word": "not",
+      "answer": "Not negates the infinitive phrase to engage. 正解：ot → not（～しないように）。is told not to engageは「関わらないよう言われる」です。",
+      "sourceRefs": ["pdf:actual:p014:q13"]
+    },
+    {
+      "passageId": "reverse-psychology",
+      "prompt": "Question 14: complete eng___. Enter the missing letters.",
+      "prefix": "eng",
+      "word": "engage",
+      "answer": "The expression engage in means to take part in an activity or behavior. 正解：age → engage（従事する）。toの後なので動詞の原形です。",
+      "sourceRefs": ["pdf:actual:p014:q14"]
+    },
+    {
+      "passageId": "reverse-psychology",
+      "prompt": "Question 15: complete parti_____. Enter the missing letters.",
+      "prefix": "parti",
+      "word": "particular",
+      "answer": "Particular modifies behaviors and means specific. 正解：cular → particular（特定の）。particular behaviorsは「特定の行動」です。",
+      "sourceRefs": ["pdf:actual:p014:q15"]
+    },
+    {
+      "passageId": "reverse-psychology",
+      "prompt": "Question 16: complete c__. Enter the missing letters.",
+      "prefix": "c",
+      "word": "can",
+      "answer": "Can expresses a possible effect rather than a guaranteed one. 正解：an → can（～し得る）。後ろに動詞原形elicitが続きます。",
+      "sourceRefs": ["pdf:actual:p014:q16"]
+    },
+    {
+      "passageId": "reverse-psychology",
+      "prompt": "Question 17: complete resis_____. Enter the missing letters.",
+      "prefix": "resis",
+      "word": "resistance",
+      "answer": "Resistance is opposition to being controlled or persuaded. 正解：tance → resistance（抵抗）。elicit resistanceは「抵抗を引き起こす」です。",
+      "sourceRefs": ["pdf:actual:p014:q17"]
+    },
+    {
+      "passageId": "reverse-psychology",
+      "prompt": "Question 18: complete inte_____. Enter the missing letters.",
+      "prefix": "inte",
+      "word": "intensify",
+      "answer": "Intensify means to make a feeling or tendency stronger. 正解：nsify → intensify（強める）。resistanceと並び、逆説的な指示が自律性を主張する傾向を強めると説明します。",
+      "sourceRefs": ["pdf:actual:p014:q18"]
+    },
+    {
+      "passageId": "reverse-psychology",
+      "prompt": "Question 19: complete incli______. Enter the missing letters.",
+      "prefix": "incli",
+      "word": "inclination",
+      "answer": "Inclination means a tendency or desire to act in a certain way. 正解：nation → inclination（傾向・意向）。their inclination to assert autonomyは「自律性を主張しようとする傾向」です。",
+      "sourceRefs": ["pdf:actual:p014:q19"]
+    },
+    {
+      "passageId": "reverse-psychology",
+      "prompt": "Question 20: complete th___. Enter the missing letters.",
+      "prefix": "th",
+      "word": "their",
+      "answer": "Their is the possessive form referring to the people represented by someone. 正解：eir → their（彼ら自身の）。their own autonomyで「自分自身の自律性」を表します。",
+      "sourceRefs": ["pdf:actual:p014:q20"]
+    }
+  ]
+}
