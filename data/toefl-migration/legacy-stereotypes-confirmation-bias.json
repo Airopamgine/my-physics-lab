@@ -1,0 +1,132 @@
+{
+  "id": "legacy-stereotypes-confirmation-bias",
+  "title": "Related Concepts Are Not Interchangeable Causes",
+  "task": 3,
+  "date": "2026-09-15T20:00:00+09:00",
+  "level": "B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "本文と元教材の解説から一意に判断できる正答を編集・確認しています。四つの原文段落と全九つの学習対象を保持し、元の記述問題は英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-academic-stereotypes-confirmation-bias-09/",
+  "passages": {
+    "text": "A stereotype is a generalized belief about members of a social group. It can be favorable or unfavorable, but even a statistically informed group average cannot determine the qualities of a particular person. The error begins when a coarse category replaces person-specific evidence. Stereotypes may affect attention and interpretation, yet possessing a cultural association is not identical to endorsing it, acting on it, or producing discrimination. Those are separate questions that require separate observations.\n\nConfirmation bias is broader than stereotyping. It describes tendencies to seek, interpret, test, or remember information in ways that favor an existing hypothesis. Suppose an interviewer expects members of a group to be uncooperative. The interviewer may ask questions that invite defensive answers, notice pauses that fit the expectation, and treat a friendly response as an exception. The prior belief has then influenced both the evidence collected and the meaning assigned to it. However, confirmation bias does not mean remembering only negative facts; a positive belief can also guide selective processing.\n\nStereotype threat concerns a different process: apprehension about being judged through a negative group stereotype may alter attention, emotion, or performance in a relevant setting. This is a conditional hypothesis, not a claim that every group reminder lowers every score. Effects can depend on identification with the domain, how a task is introduced, who participates, and which outcome is measured. Meta-analytic debates have also raised questions about publication bias and ecological validity. A responsible reader therefore asks about preregistration, statistical precision, unpublished results, and replication across realistic contexts.\n\nIndividual cognitive processes can contribute to unequal treatment, but a laboratory finding does not by itself measure an institution. Hiring rules, school resources, policing practices, historical exclusions, and opportunities to appeal decisions can preserve or reduce disparities independently of one person's attitude. Awareness training may be useful, yet awareness alone does not redesign incentives or decision procedures. Better responses operate at several levels: gather person-specific evidence, structure judgments, audit outcomes, test interventions, and revise systems when disparities cannot be justified by relevant criteria."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What is the main idea of the passage?",
+      "options": [
+        {"label": "A", "text": "Stereotypes, confirmation bias, and stereotype threat are three names for one universal effect."},
+        {"label": "B", "text": "Related psychological concepts and social outcomes should be separated by definition and level of evidence."},
+        {"label": "C", "text": "Awareness training alone eliminates every institutional disparity."},
+        {"label": "D", "text": "A reliable group average accurately predicts every individual member."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。本文はstereotype、confirmation bias、stereotype threatを別々の過程として定義し、個人実験と制度的格差も異なる証拠水準として扱います。Aは三概念を同一視し、Cは介入効果を誇張し、Dは集団平均から個人を断定しています。level of evidenceは「証拠の水準」です。",
+      "sourceRefs": ["legacy:english-reading-academic-stereotypes-confirmation-bias-09-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which option correctly matches each description with the concept it defines?",
+      "options": [
+        {"label": "A", "text": "Group-based generalization—confirmation bias; hypothesis-supporting processing—stereotype threat; concern about negative evaluation—stereotype"},
+        {"label": "B", "text": "Group-based generalization—stereotype threat; hypothesis-supporting processing—stereotype; concern about negative evaluation—confirmation bias"},
+        {"label": "C", "text": "Group-based generalization—stereotype; hypothesis-supporting processing—confirmation bias; concern about negative evaluation—stereotype threat"},
+        {"label": "D", "text": "Group-based generalization—discrimination; hypothesis-supporting processing—preregistration; concern about negative evaluation—ecological validity"}
+      ],
+      "correct": "C",
+      "answer": "正解：C。第1段落はstereotypeを集団についての一般化、第2段落はconfirmation biasを既存仮説に有利な情報処理、第3段落はstereotype threatを否定的固定観念で評価される懸念と定義します。A・Bは定義を入れ替え、Dは概念の種類自体が異なります。apprehensionは「懸念・不安」です。",
+      "sourceRefs": ["legacy:english-reading-academic-stereotypes-confirmation-bias-09-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "The word “endorsing” in paragraph 1 is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "consciously accepting or supporting a belief"},
+        {"label": "B", "text": "measuring an outcome with greater precision"},
+        {"label": "C", "text": "replacing a category with individual evidence"},
+        {"label": "D", "text": "publishing a failed replication"}
+      ],
+      "correct": "A",
+      "answer": "正解：A。endorseは、文化的な連想を単に知っていることではなく、その信念を自分の立場として「受け入れ、支持する」ことです。Bは測定、Cは個人情報の利用、Dは研究公表についての説明です。",
+      "sourceRefs": ["legacy:english-reading-academic-stereotypes-confirmation-bias-09-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why can an accurate group average still fail to determine the qualities of a particular person?",
+      "options": [
+        {"label": "A", "text": "Averages contain no information about groups under any circumstances."},
+        {"label": "B", "text": "Every member of a group deliberately hides evidence about personal qualities."},
+        {"label": "C", "text": "Group membership matters only when the stereotype is unfavorable."},
+        {"label": "D", "text": "A group average summarizes a distribution but does not replace direct, person-specific evidence about an individual."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。第1段落は、統計的根拠のある平均でも特定個人の性質を決められず、粗い分類が個人固有の証拠に置き換わると誤りになると述べます。Aは平均の有用性まで否定し、B・Cは本文にありません。person-specific evidenceは「その個人についての直接的証拠」です。",
+      "sourceRefs": ["legacy:english-reading-academic-stereotypes-confirmation-bias-09-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "How does the interviewer example illustrate two stages of confirmation bias?",
+      "options": [
+        {"label": "A", "text": "The interviewer first removes all group information and then ignores every answer."},
+        {"label": "B", "text": "Expectation-shaped questions influence the evidence collected, and pauses or friendly replies are then interpreted to preserve the expectation."},
+        {"label": "C", "text": "The interviewer measures only positive memories and therefore abandons the original hypothesis."},
+        {"label": "D", "text": "The candidate selects the questions and assigns their meaning before the interview begins."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。第2段落では、防御的回答を誘う質問によって収集データ自体が偏り、さらに沈黙を期待の証拠、友好的反応を例外として解釈します。A・C・Dはこの探索と解釈の二段階を表しません。invite defensive answersは「防御的回答を誘う」です。",
+      "sourceRefs": ["legacy:english-reading-academic-stereotypes-confirmation-bias-09-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why is confirmation bias not limited to remembering negative information?",
+      "options": [
+        {"label": "A", "text": "It occurs only when a person has no prior belief."},
+        {"label": "B", "text": "It is defined by whether information is emotionally unpleasant."},
+        {"label": "C", "text": "It favors information that fits an existing belief, so a favorable belief can also guide selective processing."},
+        {"label": "D", "text": "It requires people to remember every positive and negative fact equally."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。確証バイアスの基準は情報の否定性ではなく、既存仮説との一致です。そのため「この集団は親切だ」という肯定的信念も、親切な事例の選択的探索や記憶を導き得ます。A・B・Dは定義と矛盾します。selective processingは「選択的な情報処理」です。",
+      "sourceRefs": ["legacy:english-reading-academic-stereotypes-confirmation-bias-09-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which pair consists of moderators that the passage says may affect stereotype-threat results?",
+      "options": [
+        {"label": "A", "text": "Identification with the domain and the way the task is introduced"},
+        {"label": "B", "text": "The legal ownership of the laboratory and the color of the scoring sheet"},
+        {"label": "C", "text": "The existence of any group average and the interviewer's favorite question"},
+        {"label": "D", "text": "Awareness training and the complete removal of all institutional rules"}
+      ],
+      "correct": "A",
+      "answer": "正解：A。第3段落は、領域への同一化、課題の紹介方法、参加者、測定する結果によって効果が変わり得ると明記します。B・C・Dは列挙された調整要因の組ではありません。moderatorは「効果の大きさや方向を変える条件」です。",
+      "sourceRefs": ["legacy:english-reading-academic-stereotypes-confirmation-bias-09-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why can a laboratory finding about individual cognition not establish all causes of institutional inequality?",
+      "options": [
+        {"label": "A", "text": "Institutions never contain individual decision makers."},
+        {"label": "B", "text": "Cognitive processes cannot contribute to unequal treatment."},
+        {"label": "C", "text": "Any laboratory finding automatically measures every policy and historical condition."},
+        {"label": "D", "text": "Rules, resources, historical exclusions, policing, and appeal procedures can affect disparities independently of one person's attitude."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。第4段落は制度的結果に、採用規則、学校資源、警察活動、歴史的排除、異議申立てなど複数の要因が関わると説明します。個人過程の実験だけでは各制度要因の因果寄与を測れません。A・Bは個人要因を全否定し、Cは証拠範囲を過大評価します。disparityは「格差」です。",
+      "sourceRefs": ["legacy:english-reading-academic-stereotypes-confirmation-bias-09-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which study would best test whether stereotypes affect hiring decisions while maintaining realistic conditions?",
+      "options": [
+        {"label": "A", "text": "Ask one recruiter whether stereotypes exist and treat the answer as a complete measure of hiring inequality."},
+        {"label": "B", "text": "Preregister a field study using equally qualified résumés with randomly assigned group cues, structured scoring, several hiring outcomes, prespecified moderators, and replication across labor markets."},
+        {"label": "C", "text": "Compare unrelated applicants whose qualifications, occupations, and experience all differ, without recording the evaluation procedure."},
+        {"label": "D", "text": "Show participants a group label in a laboratory and infer the size of every institutional disparity without measuring any hiring decision."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。無作為化したgroup cue以外の資格を同等にし、現実の採用場面、構造化評価、複数結果、事前登録と追試を組み合わせるため、因果推論とecological validityを両立しやすい設計です。A・Cは比較が弱く、Dは実際の採用結果へ飛躍します。preregisterは「分析前に仮説・方法を登録する」です。",
+      "sourceRefs": ["legacy:english-reading-academic-stereotypes-confirmation-bias-09-q9"]
+    }
+  ]
+}
