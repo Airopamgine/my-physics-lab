@@ -1,0 +1,193 @@
+{
+  "id": "pdf-vocabulary-day01-part2",
+  "title": "Vocabulary Day 01 · Context Completion 2",
+  "task": 1,
+  "date": "2026-09-16T06:03:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 2ページ／冊子380ページ · Day 01の21〜40語（全50語中）",
+  "verificationNote": "掲載語・綴り・日本語義をスキャン原本で確認済みです。各語を文脈で判断できるmissing-letter exerciseへ編集しています。出版社の公式解答表は未収録ですが、正答は掲載headwordと一致します。未回答の語の正答は、その語を提出するまで表示されません。",
+  "passages": {
+    "esteem": "The scientist was held in high este__ because she reported both positive and negative results honestly.",
+    "fabric": "Researchers examined the fab___ of the ancient garment to identify the fibers used by its makers.",
+    "fertile": "Volcanic ash can eventually produce fert___ soil that supports abundant plant growth.",
+    "foster": "Regular discussion can fos___ cooperation among members of a research team.",
+    "function": "One func____ of roots is to absorb water and minerals from the soil.",
+    "implementation": "The implemen______ of the new policy required training, funding, and careful monitoring.",
+    "indicator": "A rapid decline in insect populations may be an indi_____ of broader ecological change.",
+    "informed": "Citizens need reliable evidence to make an info____ decision about the proposal.",
+    "installment": "The museum received the first inst_______ of the collection, with the remaining objects due next month.",
+    "interruption": "A brief interr______ in the power supply caused the instruments to restart.",
+    "invader": "Without natural predators, the invasive beetle became a successful inv____ in the new ecosystem.",
+    "landform": "A delta is a land____ created where sediment accumulates at the mouth of a river.",
+    "lavish": "The ruler built a lav___ palace decorated with costly stone and gold.",
+    "likewise": "The first group reduced its energy use; like____, the second group adopted more efficient equipment.",
+    "massive": "The earthquake caused a mass___ landslide that blocked the valley.",
+    "mitigation": "Flood miti______ measures include restoring wetlands and limiting construction on floodplains.",
+    "offspring": "Parents that obtain more food may be able to raise a larger number of off______.",
+    "pattern": "The repeated patt___ of wet and dry years suggests a regular climate cycle.",
+    "policy": "The city introduced a pol___ that requires new buildings to conserve water.",
+    "proximity": "The settlement grew because of its prox_____ to a navigable river and fertile farmland."
+  },
+  "questions": [
+    {
+      "passageId": "esteem",
+      "prompt": "Day 01 vocabulary: complete este__. Enter the missing letters.",
+      "prefix": "este",
+      "word": "esteem",
+      "answer": "Esteem means great respect or admiration. 正解：em → esteem（尊敬・尊重）。held in high esteemは「高く評価されている」という定型表現で、誠実な研究姿勢への評価を示します。",
+      "sourceRefs": ["pdf:vocabulary:p002:qesteem"]
+    },
+    {
+      "passageId": "fabric",
+      "prompt": "Day 01 vocabulary: complete fab___. Enter the missing letters.",
+      "prefix": "fab",
+      "word": "fabric",
+      "answer": "Fabric is cloth made by weaving or joining fibers. 正解：ric → fabric（布・織物）。ancient garmentのfiberを調べるため、その布地を分析した文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p002:qfabric"]
+    },
+    {
+      "passageId": "fertile",
+      "prompt": "Day 01 vocabulary: complete fert___. Enter the missing letters.",
+      "prefix": "fert",
+      "word": "fertile",
+      "answer": "Fertile land can support abundant plant growth. 正解：ile → fertile（肥沃な・生産力のある）。火山灰が栄養に富む土壌をつくる文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p002:qfertile"]
+    },
+    {
+      "passageId": "foster",
+      "prompt": "Day 01 vocabulary: complete fos___. Enter the missing letters.",
+      "prefix": "fos",
+      "word": "foster",
+      "answer": "Foster means to encourage the development of something. 正解：ter → foster（育成する・促進する）。discussionがteam cooperationの発達を促すという意味です。",
+      "sourceRefs": ["pdf:vocabulary:p002:qfoster"]
+    },
+    {
+      "passageId": "function",
+      "prompt": "Day 01 vocabulary: complete func____. Enter the missing letters.",
+      "prefix": "func",
+      "word": "function",
+      "answer": "A function is the role or purpose performed by something. 正解：tion → function（機能・役割）。根が果たす役割の一つとして水と無機物の吸収を述べています。",
+      "sourceRefs": ["pdf:vocabulary:p002:qfunction"]
+    },
+    {
+      "passageId": "implementation",
+      "prompt": "Day 01 vocabulary: complete implemen______. Enter the missing letters.",
+      "prefix": "implemen",
+      "word": "implementation",
+      "answer": "Implementation is the process of putting a plan or policy into effect. 正解：tation → implementation（実施・履行）。新しいpolicyを実際に運用するための条件を列挙しています。",
+      "sourceRefs": ["pdf:vocabulary:p002:qimplementation"]
+    },
+    {
+      "passageId": "indicator",
+      "prompt": "Day 01 vocabulary: complete indi_____. Enter the missing letters.",
+      "prefix": "indi",
+      "word": "indicator",
+      "answer": "An indicator is a sign or measure that points to a condition or trend. 正解：cator → indicator（指標・表示）。昆虫数の減少が、より広い生態系変化を示すsignになる文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p002:qindicator"]
+    },
+    {
+      "passageId": "informed",
+      "prompt": "Day 01 vocabulary: complete info____. Enter the missing letters.",
+      "prefix": "info",
+      "word": "informed",
+      "answer": "Informed means based on sufficient and reliable knowledge. 正解：rmed → informed（情報に基づく・博識な）。an informed decisionは「十分な情報に基づく判断」です。",
+      "sourceRefs": ["pdf:vocabulary:p002:qinformed"]
+    },
+    {
+      "passageId": "installment",
+      "prompt": "Day 01 vocabulary: complete inst_______. Enter the missing letters.",
+      "prefix": "inst",
+      "word": "installment",
+      "answer": "An installment is one part of something delivered or paid in stages. 正解：allment → installment（分割分・連載回）。collectionの最初の一部が届き、残りは翌月に届く文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p002:qinstallment"]
+    },
+    {
+      "passageId": "interruption",
+      "prompt": "Day 01 vocabulary: complete interr______. Enter the missing letters.",
+      "prefix": "interr",
+      "word": "interruption",
+      "answer": "An interruption is a temporary break in an activity or service. 正解：uption → interruption（中断・妨害）。電力供給が一時的に途切れたため、機器が再起動しました。",
+      "sourceRefs": ["pdf:vocabulary:p002:qinterruption"]
+    },
+    {
+      "passageId": "invader",
+      "prompt": "Day 01 vocabulary: complete inv____. Enter the missing letters.",
+      "prefix": "inv",
+      "word": "invader",
+      "answer": "An invader is an organism or person that enters and spreads in another territory. 正解：ader → invader（侵入者・侵略者）。外来甲虫が天敵のいない生態系へ侵入した文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p002:qinvader"]
+    },
+    {
+      "passageId": "landform",
+      "prompt": "Day 01 vocabulary: complete land____. Enter the missing letters.",
+      "prefix": "land",
+      "word": "landform",
+      "answer": "A landform is a natural physical feature of Earth's surface. 正解：form → landform（地形）。delta（三角州）は河口に堆積物がたまってできる地形です。",
+      "sourceRefs": ["pdf:vocabulary:p002:qlandform"]
+    },
+    {
+      "passageId": "lavish",
+      "prompt": "Day 01 vocabulary: complete lav___. Enter the missing letters.",
+      "prefix": "lav",
+      "word": "lavish",
+      "answer": "Lavish describes something very rich, elaborate, or generously supplied. 正解：ish → lavish（豪華な・惜しみなく与える）。costly stone and goldで装飾されたpalaceの豪華さを表します。",
+      "sourceRefs": ["pdf:vocabulary:p002:qlavish"]
+    },
+    {
+      "passageId": "likewise",
+      "prompt": "Day 01 vocabulary: complete like____. Enter the missing letters.",
+      "prefix": "like",
+      "word": "likewise",
+      "answer": "Likewise means in the same way or also. 正解：wise → likewise（同様に・また）。第1グループに続き、第2グループもエネルギー効率を改善した並列関係を示します。",
+      "sourceRefs": ["pdf:vocabulary:p002:qlikewise"]
+    },
+    {
+      "passageId": "massive",
+      "prompt": "Day 01 vocabulary: complete mass___. Enter the missing letters.",
+      "prefix": "mass",
+      "word": "massive",
+      "answer": "Massive means extremely large, heavy, or extensive. 正解：ive → massive（巨大な・大規模な）。谷をふさぐほど大きなlandslideを修飾しています。",
+      "sourceRefs": ["pdf:vocabulary:p002:qmassive"]
+    },
+    {
+      "passageId": "mitigation",
+      "prompt": "Day 01 vocabulary: complete miti______. Enter the missing letters.",
+      "prefix": "miti",
+      "word": "mitigation",
+      "answer": "Mitigation is action taken to reduce the severity or harm of a problem. 正解：gation → mitigation（軽減・緩和）。湿地回復などで洪水被害を小さくする対策を指します。",
+      "sourceRefs": ["pdf:vocabulary:p002:qmitigation"]
+    },
+    {
+      "passageId": "offspring",
+      "prompt": "Day 01 vocabulary: complete off______. Enter the missing letters.",
+      "prefix": "off",
+      "word": "offspring",
+      "answer": "Offspring are the young produced by a person, animal, or plant. 正解：spring → offspring（子・子孫）。親が食物を多く得ると、より多くの子を育てられる文脈です。単数・複数で同じ形です。",
+      "sourceRefs": ["pdf:vocabulary:p002:qoffspring"]
+    },
+    {
+      "passageId": "pattern",
+      "prompt": "Day 01 vocabulary: complete patt___. Enter the missing letters.",
+      "prefix": "patt",
+      "word": "pattern",
+      "answer": "A pattern is a regular or repeated arrangement or sequence. 正解：ern → pattern（型・様式・規則性）。雨の多い年と乾燥した年が繰り返す規則性を示します。",
+      "sourceRefs": ["pdf:vocabulary:p002:qpattern"]
+    },
+    {
+      "passageId": "policy",
+      "prompt": "Day 01 vocabulary: complete pol___. Enter the missing letters.",
+      "prefix": "pol",
+      "word": "policy",
+      "answer": "A policy is an official rule, plan, or course of action. 正解：icy → policy（政策・方針）。市が新築建物に節水を求める公式方針を導入した文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p002:qpolicy"]
+    },
+    {
+      "passageId": "proximity",
+      "prompt": "Day 01 vocabulary: complete prox_____. Enter the missing letters.",
+      "prefix": "prox",
+      "word": "proximity",
+      "answer": "Proximity means nearness in space, time, or relationship. 正解：imity → proximity（近接・近さ）。proximity to a riverは「川に近いこと」で、集落の発展条件を示します。",
+      "sourceRefs": ["pdf:vocabulary:p002:qproximity"]
+    }
+  ]
+}
