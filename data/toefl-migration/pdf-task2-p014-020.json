@@ -1,0 +1,176 @@
+{
+  "id": "pdf-task2-p014-020",
+  "title": "Read in Daily Life · 工場・住居・予定案内",
+  "task": 2,
+  "date": "2026-09-15T14:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 2 · PDF 14–20ページ／冊子90–96ページ · Test問10–15・Practice問01–04・Test問01–02",
+  "verificationNote": "Editorial answers（編集・確認した解答）。スキャン原本の本文・選択肢を照合し、本文根拠から正答を作成しました。出版社の巻末解答表とは未照合です。各文書に付く設問を原本どおりすべて収録しています。",
+  "passages": {
+    "factory": "Riverdale—International chip maker Trimark Semiconductors held the grand opening for its newest factory yesterday. Located in the Riverdale Industrial Zone, the new facility will produce microchips for smartphones, computers, and other electronic devices.\n\nTrimark's president, Carl Grove, was on hand for the opening of the company's new 12,000-square-meter factory and said it was only the beginning of the company's investments in Riverdale. “The factory is only the first part of a complex we have planned for the area. Eventually, we plan to move our entire operations to the area, including our international headquarters.”\n\nRiverdale mayor Karen Beatty thanked the company and its representatives for their commitment to Riverdale. She highlighted the economic impact of the decision of the business, especially the direct creation of more than 4,000 jobs. In recognition of his company's actions, Mayor Beatty awarded Mr. Grove a special civic honor.",
+    "apartment": "Chloe Winchester\n\nI've finally secured a new apartment in Birchwood! Finding a place here was no easy task—apartments get snapped up almost instantly, so I had to move quickly when this opportunity arose. It's a cozy, bright one-bedroom on the fifth floor of a quiet building. I chose this apartment because it's conveniently located just steps from the Oak Avenue bus stop.\n\nMoving in has been exciting, though it's been a bit nerve-wracking adjusting to a new neighborhood. I've been exploring the nearby streets and checking out local shops. One of the highlights so far is a charming cafe right across the street, perfect for breakfast. I also noticed a few fitness centers nearby. I'm now looking for reliable laundry services because I don't want to worry about doing laundry daily.\n\nThis new chapter feels full of possibilities. I can't wait to see all that Birchwood has to offer!",
+    "exhibit": "Subject: Exclusive Invitation\n\nDear Ms. Gray,\n\nI would like to invite you to an exclusive preview of our new sculpture exhibit. The event will be held on Monday, April 8th, at 6:00 P.M. We kindly request that you RSVP by 5:30 P.M. on April 6th. We would be honored if you could share your insights as a critic.\n\nOliver Chan\nDirector, Winslow Artspace",
+    "salon": "Mary Crockett (10:00 A.M.): Good morning, everyone. I just wanted to let you all know that I've hired a new receptionist for our salon. She will start on Monday.\n\nHiro Yamamoto (10:05 A.M.): That's great news. It's been really hard without one for the last two weeks.\n\nCindy Sullivan (10:10 A.M.): Yes. Having to answer the phone and greet customers while also trying to do our clients' hair has been quite stressful.\n\nMeghan Tran (10:15 A.M.): I agree. Maybe we should have a little welcoming party before we open on Monday.\n\nMary Crockett (10:20 A.M.): That's a great idea. Let's come in 30 minutes before opening. I'll get some pastries from the bakery next door.\n\nMeghan Tran (10:21 A.M.): Perfect. I'll be there. I'll pick up some coffee too.",
+    "flight": "Subject: Schedule Change – Flight RN 218\n\nDear Mr. Martel,\n\nYour flight, RN 218, has been rescheduled to depart at 7:45 A.M., 50 minutes earlier than originally scheduled. Please review the new itinerary in your account. If the new time does not work for you, you may switch to another flight or request a refund within 24 hours on our website.\n\nBest regards,\nClara Wilson\nCustomer Service Representative, Kairos Airlines",
+    "authors": "Calling all book lovers! This Thursday, come to The Inkpot Cafe for an evening with local authors. I'll be guiding the event and hosting a short Q&A with each writer to get everyone involved.\n\nWe're especially excited to have author Marissa Keane, who will be giving a special presentation on the writing process for her critically acclaimed novel, Echoes of the Gilded Age. She will share personal insights into her creative journey, from the initial spark of an idea to the final edits.\n\nThe doors open at 6:00 P.M., and the event will run from 6:30 P.M. until 8:00 P.M. Just a heads-up: seating is first come, first served, and we'll have standing room available once the chairs are full. Also, we'll be live-streaming the whole thing with captions. The link will be posted here at 5:30 P.M.",
+    "store": "ATTENTION ALL CUSTOMERS\n\nFrom May 10 to 14, Wallace Department Store will be closed. A new fire alarm and sprinkler system will be set up in our building during this period. To make up for the inconvenience, we are offering all customers a $10 digital gift certificate. Just download our mobile app to access it."
+  },
+  "questions": [
+    {
+      "passageId": "factory",
+      "prompt": "What is the news article about?",
+      "options": [
+        { "label": "A", "text": "A smartphone release" },
+        { "label": "B", "text": "A manufacturing facility" },
+        { "label": "C", "text": "A construction project" },
+        { "label": "D", "text": "A city-sponsored event" }
+      ],
+      "correct": "B",
+      "answer": "The article reports the opening and future expansion of Trimark's new factory. 正解：B。manufacturing facility は「製造施設」です。Aは工場で作る製品の一例、Cは将来の複合施設計画の一部、Dは市主催の行事ではありません。",
+      "sourceRefs": ["pdf:task2:p014:q10"]
+    },
+    {
+      "passageId": "factory",
+      "prompt": "Who is Carl Grove?",
+      "options": [
+        { "label": "A", "text": "A city official" },
+        { "label": "B", "text": "A factory worker" },
+        { "label": "C", "text": "A corporate investor" },
+        { "label": "D", "text": "A business executive" }
+      ],
+      "correct": "D",
+      "answer": "Carl Grove is identified as Trimark's president. 正解：D。president はここでは企業の代表者、つまり business executive（会社役員）です。市長はKaren Beattyで、工員や投資家とも書かれていません。",
+      "sourceRefs": ["pdf:task2:p014:q11"]
+    },
+    {
+      "passageId": "factory",
+      "prompt": "What can be inferred about the company from the news article?",
+      "options": [
+        { "label": "A", "text": "It has closed other factories." },
+        { "label": "B", "text": "It was founded in Riverdale." },
+        { "label": "C", "text": "It will do more local hiring in the future." },
+        { "label": "D", "text": "It is receiving incentives from the city." }
+      ],
+      "correct": "C",
+      "answer": "The factory is only the first part of a planned complex, and the company plans to move its entire operations there. 正解：C。事業拡大には追加のlocal hiring（現地採用）が必要になると推論できます。Aの工場閉鎖、Bの創業地、Dの奨励金は本文にありません。",
+      "sourceRefs": ["pdf:task2:p014:q12"]
+    },
+    {
+      "passageId": "apartment",
+      "prompt": "What is the main purpose of the post?",
+      "options": [
+        { "label": "A", "text": "To describe the amenities of an apartment building" },
+        { "label": "B", "text": "To provide a detailed analysis of the local housing market" },
+        { "label": "C", "text": "To ask for recommendations for local shops" },
+        { "label": "D", "text": "To announce a successful apartment search" }
+      ],
+      "correct": "D",
+      "answer": "The post opens by announcing that Chloe has finally secured an apartment and then shares details about it. 正解：D。secured は「確保した」です。Aは建物設備の説明だけではなく、Bの市場分析やCの店の推薦依頼もしていません。",
+      "sourceRefs": ["pdf:task2:p015:q13"]
+    },
+    {
+      "passageId": "apartment",
+      "prompt": "Why did Ms. Winchester choose this apartment?",
+      "options": [
+        { "label": "A", "text": "Its public transit access is convenient." },
+        { "label": "B", "text": "Its rent was significantly lower than other nearby units." },
+        { "label": "C", "text": "It is bright and cozy." },
+        { "label": "D", "text": "It is situated in a quiet setting." }
+      ],
+      "correct": "A",
+      "answer": "She explicitly says she chose it because it is just steps from the Oak Avenue bus stop. 正解：A。public transit access は「公共交通へのアクセス」です。CとDは特徴として述べられますが、選んだ理由としてbecause以下に示されるのはAです。Bの家賃比較はありません。",
+      "sourceRefs": ["pdf:task2:p015:q14"]
+    },
+    {
+      "passageId": "apartment",
+      "prompt": "What is Ms. Winchester currently looking for?",
+      "options": [
+        { "label": "A", "text": "Information on the local bus route" },
+        { "label": "B", "text": "A cafe with a breakfast menu" },
+        { "label": "C", "text": "A dependable laundry service" },
+        { "label": "D", "text": "A well-equipped gym" }
+      ],
+      "correct": "C",
+      "answer": "She says, “I'm now looking for reliable laundry services.” 正解：C。dependable と reliable はどちらも「信頼できる」です。バス停、カフェ、フィットネスセンターはすでに近所で見つけています。",
+      "sourceRefs": ["pdf:task2:p015:q15"]
+    },
+    {
+      "passageId": "exhibit",
+      "prompt": "When is the exhibit preview scheduled?",
+      "options": [
+        { "label": "A", "text": "April 6th at 5:30 P.M." },
+        { "label": "B", "text": "April 6th at 6:00 P.M." },
+        { "label": "C", "text": "April 8th at 5:30 P.M." },
+        { "label": "D", "text": "April 8th at 6:00 P.M." }
+      ],
+      "correct": "D",
+      "answer": "The event will be held on April 8th at 6:00 P.M. 正解：D。April 6th at 5:30 P.M. is the RSVP deadline（出欠回答の締切）であり、開催日時ではありません。",
+      "sourceRefs": ["pdf:task2:p018:q01"]
+    },
+    {
+      "passageId": "salon",
+      "prompt": "Why will everyone show up early at the salon on Monday?",
+      "options": [
+        { "label": "A", "text": "To begin work early" },
+        { "label": "B", "text": "To make some pastries" },
+        { "label": "C", "text": "To greet a new staff member" },
+        { "label": "D", "text": "To meet the needs of customers" }
+      ],
+      "correct": "C",
+      "answer": "They agree to arrive 30 minutes early for a welcoming party for the new receptionist. 正解：C。greet は「迎える」です。Maryは隣の店から菓子を買い、仕事や接客を早く始める予定ではありません。",
+      "sourceRefs": ["pdf:task2:p018:q02"]
+    },
+    {
+      "passageId": "flight",
+      "prompt": "How can Mr. Martel request a refund?",
+      "options": [
+        { "label": "A", "text": "By emailing customer relations" },
+        { "label": "B", "text": "By visiting the airline website" },
+        { "label": "C", "text": "By calling the airport ticket desk" },
+        { "label": "D", "text": "By waiting for an automatic reimbursement" }
+      ],
+      "correct": "B",
+      "answer": "The email says he may request a refund within 24 hours on the airline's website. 正解：B。refund は「返金」、itinerary は「旅程表」です。メール・電話・自動返金は手続方法として示されていません。",
+      "sourceRefs": ["pdf:task2:p019:q03"]
+    },
+    {
+      "passageId": "authors",
+      "prompt": "Marissa Keane will",
+      "options": [
+        { "label": "A", "text": "read a passage from her novel" },
+        { "label": "B", "text": "guide the event and Q&A" },
+        { "label": "C", "text": "talk about her writing process" },
+        { "label": "D", "text": "sign copies of her book" }
+      ],
+      "correct": "C",
+      "answer": "The post says Keane will give a special presentation on the writing process for her novel. 正解：C。creative journey は「創作の過程」です。案内役とQ&Aを担当するのは投稿者で、朗読や署名会は記載されていません。",
+      "sourceRefs": ["pdf:task2:p019:q04"]
+    },
+    {
+      "passageId": "store",
+      "prompt": "According to the sign, what will happen in May?",
+      "options": [
+        { "label": "A", "text": "A redecorating project will be started." },
+        { "label": "B", "text": "Safety equipment will be installed." },
+        { "label": "C", "text": "A building inspection will be conducted." },
+        { "label": "D", "text": "Emergency procedures will be tested." }
+      ],
+      "correct": "B",
+      "answer": "A new fire alarm and sprinkler system will be installed from May 10 to 14. 正解：B。これらはsafety equipment（安全設備）です。内装変更、建物検査、避難手順の試験ではありません。",
+      "sourceRefs": ["pdf:task2:p020:q01"]
+    },
+    {
+      "passageId": "store",
+      "prompt": "How can customers receive a gift certificate?",
+      "options": [
+        { "label": "A", "text": "By accessing a website" },
+        { "label": "B", "text": "By downloading a form" },
+        { "label": "C", "text": "By speaking with an employee" },
+        { "label": "D", "text": "By installing an application" }
+      ],
+      "correct": "D",
+      "answer": "Customers must download the store's mobile app to access the digital gift certificate. 正解：D。installing an application はアプリを入れることです。ウェブサイト、申請書、従業員への依頼は書かれていません。",
+      "sourceRefs": ["pdf:task2:p020:q02"]
+    }
+  ]
+}

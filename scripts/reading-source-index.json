@@ -284,12 +284,26 @@
       "sha256": "820cb5ab6606547b2dea2db3048cea8927a409ce529b9359c3199d23209e510d",
       "answerKeyAvailable": false,
       "reviewedPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
         8,
         9,
         10,
         11,
         12,
-        13
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
       ],
       "packets": [
         {
@@ -359,6 +373,17 @@
         }
       ],
       "pageItems": {
+        "1": [],
+        "2": [
+          "pdf:task2:p002:qpreview"
+        ],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [
+          "pdf:task2:p007:qexample-main-purpose"
+        ],
         "8": [
           "pdf:task2:p008:q01",
           "pdf:task2:p008:q02"
@@ -383,6 +408,32 @@
           "pdf:task2:p013:q07",
           "pdf:task2:p013:q08",
           "pdf:task2:p013:q09"
+        ],
+        "14": [
+          "pdf:task2:p014:q10",
+          "pdf:task2:p014:q11",
+          "pdf:task2:p014:q12"
+        ],
+        "15": [
+          "pdf:task2:p015:q13",
+          "pdf:task2:p015:q14",
+          "pdf:task2:p015:q15"
+        ],
+        "16": [],
+        "17": [
+          "pdf:task2:p017:qexample-detail"
+        ],
+        "18": [
+          "pdf:task2:p018:q01",
+          "pdf:task2:p018:q02"
+        ],
+        "19": [
+          "pdf:task2:p019:q03",
+          "pdf:task2:p019:q04"
+        ],
+        "20": [
+          "pdf:task2:p020:q01",
+          "pdf:task2:p020:q02"
         ]
       }
     },
@@ -563,12 +614,11 @@
     }
   ],
   "lastSource": {
-    "type": "legacy",
+    "type": "pdf",
     "ids": [
-      "english-reading-academic-urban-heat-measurement-equity-25",
-      "english-reading-academic-tea-evidence-exchange-26"
+      "task2"
     ],
-    "convertedAt": "2026-09-15T12:00:00+09:00"
+    "convertedAt": "2026-09-15T14:00:00+09:00"
   },
   "note": "Packet paths describe a private working cache, not published files. Exact question totals require review. Answer pages referenced by the books were not supplied."
 }

@@ -1,0 +1,55 @@
+{
+  "id": "pdf-task2-preview-examples",
+  "title": "Task 2 · Preview & Examples",
+  "task": 2,
+  "date": "2026-09-15T14:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 2 · PDF 2・7・17ページ／冊子78・83・93ページ · Preview・Example 全3問",
+  "verificationNote": "Editorial answers（編集・確認した解答）。スキャン原本の見本画面・本文・選択肢・紙面掲載の解答を照合しました。出版社の巻末解答表とは未照合です。",
+  "passages": {
+    "boutique": "EASTGATE BOUTIQUE\nCLEARANCE SALE\n\nOur fall collection arrives on September 1. Until August 31, all summer clothing is up to 40 percent off. Visit www.eastgateboutique.com to learn how much you can save on each item.\n\nWe are located on Robson Avenue and are open from 10 A.M. to 9 P.M. daily.",
+    "documents": "Students will be able to access their enrollment certificates and other documents through the new online system starting December 10. Log in using your student ID number to download and print documents. Physical copies will no longer be issued after December 9. If you have any questions, contact the Registrar's Office.",
+    "inspection": "An inspection of the entire office building's electrical system is scheduled for Wednesday, June 11, between 9:00 A.M. and 6:00 P.M. During this time, the building's power will be shut down. All employees will be required to work remotely on that day."
+  },
+  "questions": [
+    {
+      "passageId": "boutique",
+      "prompt": "What information is available on a website?",
+      "options": [
+        { "label": "A", "text": "Branch locations" },
+        { "label": "B", "text": "Refund policies" },
+        { "label": "C", "text": "Opening hours" },
+        { "label": "D", "text": "Discount amounts" }
+      ],
+      "correct": "D",
+      "answer": "The advertisement directs readers to the website to learn how much they can save on each item. 正解：D。discount amount は「割引額」です。Aの支店一覧、Bの返品方針はなく、Cの営業時間は広告本文に直接掲載されています。",
+      "sourceRefs": ["pdf:task2:p002:qpreview"]
+    },
+    {
+      "passageId": "documents",
+      "prompt": "What is the main purpose of the notice?",
+      "options": [
+        { "label": "A", "text": "To introduce new students to document issuance procedures" },
+        { "label": "B", "text": "To announce a change in the academic schedule" },
+        { "label": "C", "text": "To apologize for a system malfunction" },
+        { "label": "D", "text": "To inform students about a new way to obtain documents" }
+      ],
+      "correct": "D",
+      "answer": "The notice says documents will be available through a new online system and physical copies will stop. 正解：D。obtain documents は「書類を入手する」です。Aは新入生だけを対象としておらず、Bの日程変更、Cの障害への謝罪も書かれていません。",
+      "sourceRefs": ["pdf:task2:p007:qexample-main-purpose"]
+    },
+    {
+      "passageId": "inspection",
+      "prompt": "When will the electrical system inspection begin?",
+      "options": [
+        { "label": "A", "text": "June 11, 9:00 A.M." },
+        { "label": "B", "text": "June 11, 6:00 P.M." },
+        { "label": "C", "text": "June 12, 9:00 A.M." },
+        { "label": "D", "text": "June 12, 6:00 P.M." }
+      ],
+      "correct": "A",
+      "answer": "The inspection is scheduled for June 11 between 9:00 A.M. and 6:00 P.M., so it begins at 9:00 A.M. 正解：A。scheduled は「予定されている」、begin は「始まる」です。6:00 P.M.は終了時刻で、June 12は本文にありません。",
+      "sourceRefs": ["pdf:task2:p017:qexample-detail"]
+    }
+  ]
+}
