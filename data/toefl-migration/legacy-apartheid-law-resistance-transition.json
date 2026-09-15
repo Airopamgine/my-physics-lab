@@ -1,0 +1,132 @@
+{
+  "id": "legacy-apartheid-law-resistance-transition",
+  "title": "When Discrimination Becomes an Administrative System",
+  "task": 3,
+  "date": "2026-09-16T04:00:00+09:00",
+  "level": "B2–C1",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "本文と元教材の解説から一意に判断できる正答を編集・確認しています。四つの原文段落と全九つの学習対象を保持し、元の記述問題は英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-advanced-apartheid-law-resistance-transition-12/",
+  "passages": {
+    "text": "Apartheid was not simply a collection of hostile attitudes. From 1948, South Africa's government expanded a legal and administrative system that classified people by race and used that classification to regulate residence, movement, education, work, land, and political rights. Violence sustained the system, but ordinary documents, offices, and rules also made unequal treatment repeatable.\n\nResistance likewise took many forms. Community organizing, labor action, legal challenges, student movements, underground activity, armed struggle, journalism, and cultural work changed over time. The state imprisoned, banned, killed, and exiled opponents, yet repression did not erase organization. Explaining resistance through one famous leader alone would hide the networks that preserved knowledge and collective capacity across generations.\n\nInternational action added pressure. United Nations bodies condemned apartheid, and states, organizations, consumers, investors, artists, and athletes participated in sanctions, boycotts, and isolation with different timing and force. These measures mattered, but no single sanction mechanically ended the system. Domestic mobilization, governing costs, economic conditions, changing strategic calculations, and negotiations interacted.\n\nThe transition produced the 1994 election in which citizens of all races could vote nationally. That constitutional change was profound, but it did not instantly reverse accumulated differences in wealth, land, education, health, or neighborhood infrastructure. A just historical account must hold two truths together: legal exclusion was dismantled through struggle and negotiation, and institutions formed over decades continued to shape opportunity after the law changed."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What is the main idea of the passage?",
+      "options": [
+        {"label": "A", "text": "Apartheid consisted only of private prejudice."},
+        {"label": "B", "text": "One leader and one sanction ended apartheid immediately."},
+        {"label": "C", "text": "Apartheid was an institutional system challenged by diverse resistance and pressures, while its accumulated effects outlasted legal change."},
+        {"label": "D", "text": "The 1994 election changed nothing important."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。本文はapartheidを法・行政制度として捉え、多様な国内抵抗、国際圧力、交渉の相互作用と、法改正後にも残る累積的格差を説明します。Aは制度性、Bは複合過程、Dは参政権の重大な転換を無視します。",
+      "sourceRefs": ["legacy:english-reading-advanced-apartheid-law-resistance-transition-12-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "According to paragraph 1, what distinguishes an administrative system of discrimination from individual prejudice alone?",
+      "options": [
+        {"label": "A", "text": "Classification is embedded in laws, documents, offices, and rules so unequal treatment can be reproduced across many areas and by changing officials."},
+        {"label": "B", "text": "Discrimination remains limited to private speech and cannot affect residence, education, work, or political rights."},
+        {"label": "C", "text": "The system operates without classifications, records, or government institutions."},
+        {"label": "D", "text": "Unequal treatment occurs only when one unusually hostile person is present."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。制度化された差別では分類が法、書類、役所、規則へ組み込まれ、担当者が替わっても居住・移動・教育・労働などで同じ不平等を反復できます。B・C・Dはその制度的範囲と再現性を否定しています。administrative は「行政上の」です。",
+      "sourceRefs": ["legacy:english-reading-advanced-apartheid-law-resistance-transition-12-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "The phrase “made unequal treatment repeatable” in paragraph 1 is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "turned discrimination into routine procedures"},
+        {"label": "B", "text": "limited discrimination to personal speech"},
+        {"label": "C", "text": "removed racial categories from law"},
+        {"label": "D", "text": "guaranteed equal services"}
+      ],
+      "correct": "A",
+      "answer": "正解：A。repeatableは差別が例外的な個人行為ではなく、書類・役所・規則を通じてroutine procedures（日常的手続）として再生産されることを示します。B・C・Dは本文と反対です。",
+      "sourceRefs": ["legacy:english-reading-advanced-apartheid-law-resistance-transition-12-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why would explaining resistance through one famous leader alone be incomplete?",
+      "options": [
+        {"label": "A", "text": "Because leadership played no role in resistance at any time"},
+        {"label": "B", "text": "Because only international athletes opposed apartheid"},
+        {"label": "C", "text": "Because every form of resistance began only after the 1994 election"},
+        {"label": "D", "text": "Because communities, workers, students, lawyers, journalists, cultural actors, and underground networks preserved knowledge and collective capacity across generations"}
+      ],
+      "correct": "D",
+      "answer": "正解：D。第2段落は多数の担い手と活動形態が時間とともに変化し、指導者が投獄・追放されてもネットワークが知識と組織能力を維持したと説明します。Aは指導者を全否定し、BとCは範囲と時系列を誤ります。collective capacity は「集団で行動する能力」です。",
+      "sourceRefs": ["legacy:english-reading-advanced-apartheid-law-resistance-transition-12-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "How can severe repression and the continued existence of resistance organizations both be true?",
+      "options": [
+        {"label": "A", "text": "Repression caused no harm and opponents were never imprisoned or exiled."},
+        {"label": "B", "text": "Repression imposed major costs, but movements changed tactics, used underground or external links, and transmitted knowledge across generations."},
+        {"label": "C", "text": "Resistance continued only because the state legally protected every organization."},
+        {"label": "D", "text": "All organizations remained unchanged and fully public throughout the period."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。抑圧は投獄、殺害、追放などの大きな犠牲を生みましたが、活動形態の変更、地下化、国外連携、世代継承によって組織能力のすべては消えませんでした。A・Cは抑圧を否定し、Dは活動の変化を無視します。repression は「国家権力による抑圧」です。",
+      "sourceRefs": ["legacy:english-reading-advanced-apartheid-law-resistance-transition-12-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does the passage treat international sanctions as important but not as the single cause of apartheid's end?",
+      "options": [
+        {"label": "A", "text": "Because sanctions were never used by any state, organization, consumer, or investor"},
+        {"label": "B", "text": "Because the United Nations supported apartheid until after the transition"},
+        {"label": "C", "text": "Because international pressure varied in timing and force and interacted with domestic mobilization, governing costs, economic conditions, strategic calculations, and negotiations"},
+        {"label": "D", "text": "Because one boycott mechanically produced the 1994 election without domestic action"}
+      ],
+      "correct": "C",
+      "answer": "正解：C。第3段落は制裁やboycottが圧力を加えたと認めつつ、それらの時期と強度が異なり、国内動員、統治費用、経済、戦略判断、交渉と相互作用したと述べます。A・B・Dは本文と反対です。mechanically は「他の条件なしに自動的に」です。",
+      "sourceRefs": ["legacy:english-reading-advanced-apartheid-law-resistance-transition-12-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does the author present the 1994 election as profound but not as the completion of equality?",
+      "options": [
+        {"label": "A", "text": "It established national voting rights across races, but accumulated inequalities in wealth, land, education, health, and infrastructure did not disappear immediately."},
+        {"label": "B", "text": "It preserved legal racial exclusion while instantly equalizing wealth and land."},
+        {"label": "C", "text": "It had no constitutional significance because voting rules did not change."},
+        {"label": "D", "text": "It eliminated the need to measure opportunity after legal reform."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。全人種の国政投票は決定的な法的・政治的転換でしたが、長期に蓄積した資産、土地、教育、健康、地域基盤の差は一度の選挙では消えません。B・Cは変化を逆転または否定し、Dは継続的な検証を不要としています。accumulated は「長期に蓄積した」です。",
+      "sourceRefs": ["legacy:english-reading-advanced-apartheid-law-resistance-transition-12-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does the sentence “Institutions formed over decades continued to shape opportunity after the law changed” emphasize?",
+      "options": [
+        {"label": "A", "text": "A legal text can never be changed within a short period."},
+        {"label": "B", "text": "Institutional arrangements disappear automatically on the day a law is repealed."},
+        {"label": "C", "text": "Only individual attitudes matter once formal legal exclusion ends."},
+        {"label": "D", "text": "Law can change quickly, while accumulated patterns in assets, schools, neighborhoods, infrastructure, and organizational practice may take much longer to transform."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。文の訳は「何十年もかけて形成された制度は、法律が変わった後も機会を形づくり続けた」です。法文の変更と、資産・学校・都市空間・組織慣行の再編には時間差があります。Aは法改正を不可能とし、B・Cは制度の持続を否定します。",
+      "sourceRefs": ["legacy:english-reading-advanced-apartheid-law-resistance-transition-12-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which research plan would best measure substantive equality after legal equality has been established?",
+      "options": [
+        {"label": "A", "text": "Check only whether the legal text uses equal language, without measuring people's lives."},
+        {"label": "B", "text": "Track access to education, health care, housing, land, transport, credit, employment, and public institutions across generations, disaggregated by race, gender, region, and income."},
+        {"label": "C", "text": "Use one year's national average income as the sole measure of equality."},
+        {"label": "D", "text": "Assume that formal voting rights instantly remove every inherited disadvantage."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。実質的平等は複数分野のaccessとoutcomesを、集団・地域別かつ世代を通じて追跡することで、形式的権利が現実のcapabilitiesへ変わっているか測れます。Aは法文だけ、Cは単一平均だけ、Dは時間差を無視します。disaggregated は「属性別に分けた」です。",
+      "sourceRefs": ["legacy:english-reading-advanced-apartheid-law-resistance-transition-12-q9"]
+    }
+  ]
+}
