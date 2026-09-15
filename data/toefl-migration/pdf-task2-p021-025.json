@@ -1,0 +1,187 @@
+{
+  "id": "pdf-task2-p021-025",
+  "title": "Read in Daily Life · 販売・業務・旅行・会議案内",
+  "task": 2,
+  "date": "2026-09-16T02:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 2 · PDF 21–25ページ／冊子97–101ページ · Test問03–15",
+  "verificationNote": "Editorial answers（編集・確認した解答）。スキャン原本の本文・設問・選択肢を画像で照合し、本文根拠から正答を作成しました。出版社の巻末解答表とは未照合です。各文書に付く2～3問を原本どおりすべて収録しています。",
+  "passages": {
+    "piano": "Piano for Sale. Rarely used Stonebrook & Sons grand piano in excellent condition. Perfect for both beginners and advanced players. $3,900, including delivery, in-home setup, and professional tuning. Visit Vintage Tone Emporium or call 555-2841 for more information.",
+    "receipt": "Nelson Office Furniture\n\nCustomer: Brad Wilcox\nOrder: 93809\nDate: July 7\nStore #: 009\n\nItem / Quantity / Price\nLyman Desk / 4 / $350.00\nNeo Chair / 4 / $125.00\nShipping / N/A\nTax / $45.00\nTotal / $520.00\n\nA $25 delivery fee is charged on orders under $500.\n\nVisit www.nelsonoffice.com to leave feedback and to create a Nelson Loyalty Club membership.",
+    "tower": "Subject: Morris Tower\n\nDear Ms. Porter,\n\nIn my email last week, I asked you to send one of your employees to Morris Tower. But I still haven't heard back from you. Could you please make the necessary arrangements as soon as possible? I have received multiple complaints from tenants about the air conditioner in the lobby not working. And given the current heat wave, the situation will likely only get worse. If one of your technicians could come on Saturday, I would appreciate it. I will be offsite from 9:00 A.M. until 11:30 A.M., but I will be able to meet your worker at noon. Note that later in the afternoon won't work for me because I will be leaving at 1:30 P.M. to deal with a personal matter.\n\nThank you,\nSamuel Collins\nBuilding Manager\nMorris Tower",
+    "lodge": "Summer Special\n\nLocated in the heart of the Titan Mountains, Pine Ridge Lodge offers a lot more than just the world-class skiing it is known for. Summer visitors can enjoy hiking, fishing, white-water rafting and more!\n\nTo make summer trips even better, all rooms booked by April 30 for a stay between June and September will be discounted by up to 50 percent, depending on the trip duration.*\n\nLength of stay / Discount\n1–2 nights / 15%\n3–4 nights / 25%\n5–6 nights / 35%\n7+ nights / 50%\n\nTo make a reservation, call the lodge's reservation hotline directly at 801-555-7453 or visit www.pine-ridge.com. To make special arrangements for large groups, or to book a private event at the property, reach out to our Director of Sales, Evan Singleton at EvanS@pine-ridge.com.\n\n*Subject to availability. Discounts not valid over the Independence Day holiday weekend.",
+    "summit": "Global Digital Banking Summit Registration\n\nThe registration desk will open at 8:00 A.M. daily. Please present your email confirmation to collect your badge. Access to the keynote speech and main sessions is included with your registration. Private workshops require separate pre-registration. The conference runs daily from 9:00 A.M. to 5:30 P.M., with networking opportunities available throughout the day.\n\nParticipant ID #: 2409\nAttendee: Samantha Hargrove\nOrganization: Zenith Investment Group\nDates of Attendance: April 14 – April 16"
+  },
+  "questions": [
+    {
+      "passageId": "piano",
+      "prompt": "The price of the piano does NOT include",
+      "options": [
+        {"label": "A", "text": "Delivery costs"},
+        {"label": "B", "text": "Placement in the home"},
+        {"label": "C", "text": "An extended warranty"},
+        {"label": "D", "text": "Sound adjustments"}
+      ],
+      "correct": "C",
+      "answer": "The price explicitly includes delivery, in-home setup, and professional tuning. 正解：C。extended warranty（延長保証）だけは記載されていません。placement in the home は in-home setup、sound adjustments は tuning の言い換えです。",
+      "sourceRefs": ["pdf:task2:p021:q03"]
+    },
+    {
+      "passageId": "piano",
+      "prompt": "What can be inferred about the piano from the advertisement?",
+      "options": [
+        {"label": "A", "text": "It is currently in storage."},
+        {"label": "B", "text": "It is being sold by a business."},
+        {"label": "C", "text": "It was owned by a professional."},
+        {"label": "D", "text": "It can be delivered the same day."}
+      ],
+      "correct": "B",
+      "answer": "The advertisement directs customers to Vintage Tone Emporium, indicating a commercial seller. 正解：B。emporium は「専門店・大規模商店」です。保管場所、以前の所有者、即日配送は書かれていません。",
+      "sourceRefs": ["pdf:task2:p021:q04"]
+    },
+    {
+      "passageId": "receipt",
+      "prompt": "What is suggested about Nelson Office Furniture?",
+      "options": [
+        {"label": "A", "text": "It offers discounts on online orders."},
+        {"label": "B", "text": "It sent out a shipment on July 7."},
+        {"label": "C", "text": "It introduced a new product line."},
+        {"label": "D", "text": "It operates multiple branches."}
+      ],
+      "correct": "D",
+      "answer": "The receipt identifies the location as Store #009, which suggests the company has multiple store locations. 正解：D。branch は「支店」です。日付は購入日で、出荷日とは示されていません。オンライン割引や新製品の記載もありません。",
+      "sourceRefs": ["pdf:task2:p022:q05"]
+    },
+    {
+      "passageId": "receipt",
+      "prompt": "Why was Mr. Wilcox not charged for delivery?",
+      "options": [
+        {"label": "A", "text": "He became a loyalty club member."},
+        {"label": "B", "text": "He posted a review of an item."},
+        {"label": "C", "text": "He picked up an order from a store."},
+        {"label": "D", "text": "He made the minimum purchase."}
+      ],
+      "correct": "D",
+      "answer": "The receipt shows a $520 total, while the $25 delivery fee applies only to orders under $500. 正解：D。Mr. Wilcox's purchase reached the stated minimum, so shipping is listed as N/A. The website invitation does not show that he joined the club or posted feedback, and store pickup is not stated.",
+      "sourceRefs": ["pdf:task2:p022:q06"]
+    },
+    {
+      "passageId": "tower",
+      "prompt": "Why did Mr. Collins send the email to Ms. Porter?",
+      "options": [
+        {"label": "A", "text": "To provide a status report"},
+        {"label": "B", "text": "To follow up on a request"},
+        {"label": "C", "text": "To change an appointment"},
+        {"label": "D", "text": "To apologize for a delay"}
+      ],
+      "correct": "B",
+      "answer": "Mr. Collins says he made the request in an email last week but has not received a reply. 正解：B。follow up on は「以前の依頼について再度連絡する」です。確定済みの予約変更、状況報告、謝罪ではありません。",
+      "sourceRefs": ["pdf:task2:p023:q07"]
+    },
+    {
+      "passageId": "tower",
+      "prompt": "What have tenants complained about?",
+      "options": [
+        {"label": "A", "text": "A maintenance project was canceled."},
+        {"label": "B", "text": "A building needs to be cleaned."},
+        {"label": "C", "text": "An appliance is malfunctioning."},
+        {"label": "D", "text": "An entranceway has been blocked."}
+      ],
+      "correct": "C",
+      "answer": "The tenants reported that the lobby air conditioner is not working. 正解：C。malfunctioning は「正常に作動していない」です。工事の中止、清掃、入口の閉鎖は本文にありません。",
+      "sourceRefs": ["pdf:task2:p023:q08"]
+    },
+    {
+      "passageId": "tower",
+      "prompt": "What time does Mr. Collins want to meet on Saturday?",
+      "options": [
+        {"label": "A", "text": "At 9:00 A.M."},
+        {"label": "B", "text": "At 11:30 A.M."},
+        {"label": "C", "text": "At 12:00 P.M."},
+        {"label": "D", "text": "At 1:30 P.M."}
+      ],
+      "correct": "C",
+      "answer": "He will be offsite until 11:30 A.M. and explicitly says he can meet the worker at noon. 正解：C。noon は「正午」、つまり12:00 P.M.です。1:30 P.M.には外出する予定です。",
+      "sourceRefs": ["pdf:task2:p023:q09"]
+    },
+    {
+      "passageId": "lodge",
+      "prompt": "What can be inferred about Pine Ridge Lodge?",
+      "options": [
+        {"label": "A", "text": "It is only open in summer months."},
+        {"label": "B", "text": "It has seen a drop in revenue."},
+        {"label": "C", "text": "It is located near a waterway."},
+        {"label": "D", "text": "It primarily caters to international guests."}
+      ],
+      "correct": "C",
+      "answer": "Summer visitors can fish and go white-water rafting, activities that require nearby water. 正解：C。waterway は「川などの水路」です。The lodge is also known for skiing, so A is false; revenue and international guests are not mentioned.",
+      "sourceRefs": ["pdf:task2:p024:q10"]
+    },
+    {
+      "passageId": "lodge",
+      "prompt": "What discount will guests who stay for two weeks receive?",
+      "options": [
+        {"label": "A", "text": "15%"},
+        {"label": "B", "text": "25%"},
+        {"label": "C", "text": "35%"},
+        {"label": "D", "text": "50%"}
+      ],
+      "correct": "D",
+      "answer": "Two weeks is 14 nights, which falls in the 7+ nights category. 正解：D。The table assigns a 50% discount to stays of seven nights or more, subject to the stated conditions.",
+      "sourceRefs": ["pdf:task2:p024:q11"]
+    },
+    {
+      "passageId": "lodge",
+      "prompt": "How can a venue for a private function be arranged?",
+      "options": [
+        {"label": "A", "text": "By calling a phone number"},
+        {"label": "B", "text": "By visiting the property in person"},
+        {"label": "C", "text": "By going to a website"},
+        {"label": "D", "text": "By contacting the sales director"}
+      ],
+      "correct": "D",
+      "answer": "The advertisement says private events should be arranged through Director of Sales Evan Singleton. 正解：D。private function は private event（貸切行事）の言い換えです。電話番号とウェブサイトは通常の客室予約用です。",
+      "sourceRefs": ["pdf:task2:p024:q12"]
+    },
+    {
+      "passageId": "summit",
+      "prompt": "What is this form used for?",
+      "options": [
+        {"label": "A", "text": "Applying for a keynote speaker role"},
+        {"label": "B", "text": "Requesting a network device"},
+        {"label": "C", "text": "Signing up for a sponsorship program"},
+        {"label": "D", "text": "Registering for a conference"}
+      ],
+      "correct": "D",
+      "answer": "The heading identifies it as a summit registration and lists an attendee, participant ID, organization, and attendance dates. 正解：D。summit はここでは「会議」、registration は「参加登録」です。講演者応募、機器申請、協賛登録ではありません。",
+      "sourceRefs": ["pdf:task2:p025:q13"]
+    },
+    {
+      "passageId": "summit",
+      "prompt": "What should participants bring to the registration desk?",
+      "options": [
+        {"label": "A", "text": "Business card"},
+        {"label": "B", "text": "Photo ID card"},
+        {"label": "C", "text": "Passport"},
+        {"label": "D", "text": "Email confirmation"}
+      ],
+      "correct": "D",
+      "answer": "The instructions say, “Please present your email confirmation to collect your badge.” 正解：D。present はここでは「提示する」です。名刺、写真付き身分証、パスポートは要求されていません。",
+      "sourceRefs": ["pdf:task2:p025:q14"]
+    },
+    {
+      "passageId": "summit",
+      "prompt": "What activity requires separate registration?",
+      "options": [
+        {"label": "A", "text": "Keynote speech"},
+        {"label": "B", "text": "Main sessions"},
+        {"label": "C", "text": "Private workshops"},
+        {"label": "D", "text": "Networking opportunities"}
+      ],
+      "correct": "C",
+      "answer": "The form states that private workshops require separate pre-registration. 正解：C。The keynote speech and main sessions are included, while networking is available throughout the day. pre-registration は「事前登録」です。",
+      "sourceRefs": ["pdf:task2:p025:q15"]
+    }
+  ]
+}
