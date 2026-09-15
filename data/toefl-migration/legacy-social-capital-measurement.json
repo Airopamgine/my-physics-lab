@@ -1,0 +1,132 @@
+{
+  "id": "legacy-social-capital-measurement",
+  "title": "When a Network Becomes a Resource",
+  "task": 3,
+  "date": "2026-09-15T16:00:00+09:00",
+  "level": "B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "本文と元教材の解説から一意に判断できる正答を編集・確認しています。四つの原文段落と全九つの学習対象を保持し、元の記述問題は英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-academic-social-capital-networks-measurement-21/",
+  "passages": {
+    "text": "Social capital is not a substance stored uniformly inside a community. The term has been used for personal relationships, social support, civic participation, and trust or cooperative norms. These features can be related, but they are not identical. A survey asking whether people trust strangers measures something different from a map of who exchanges childcare, information, or money. Researchers must therefore name the proposed resource, its holder, and the level at which it is measured.\n\nNetwork structure can change what resources are available. Bonding ties connect people within a relatively similar group and may provide frequent care or solidarity. Bridging ties cross group boundaries and may carry nonredundant information. Linking ties connect people across formal differences in authority or institutional access. A tie is not valuable merely because it fits one label: strong ties may carry complex support, while weaker bridges may reach unfamiliar opportunities.\n\nBenefits can also have boundaries. A cohesive group may coordinate mutual aid, yet enforce conformity, exclude outsiders, or circulate unreliable information. A connection to an institution may open access for one person without changing the rule that excludes others. Thus, a high score on participation or trust is not automatically a public good. Analysts should ask who receives the resource, who supplies its cost, and whether gains inside one network shift burdens outside it.\n\nStudies often find associations between social-capital measures and health, employment, or collective action. Such patterns do not by themselves establish direction. Health may enable participation; income or safe institutions may increase both trust and health; people may select communities that fit them. Longitudinal data, explicit comparison groups, network measures, and plausible mechanisms can narrow these alternatives. The strongest conclusion is not “social capital always works,” but that specified relations may provide specified resources under testable conditions."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What is the main idea of the passage?",
+      "options": [
+        {"label": "A", "text": "Every dense network produces equal benefits for all residents."},
+        {"label": "B", "text": "Social capital should be separated into measurable relations and resources whose benefits, direction, and boundaries require evidence."},
+        {"label": "C", "text": "Trust surveys and exchange networks measure exactly the same thing."},
+        {"label": "D", "text": "Weak ties always provide more valuable support than strong ties."}
+      ],
+      "correct": "B",
+      "answer": "The passage distinguishes dimensions, types of ties, distributions of benefits, and causal evidence. 正解：B。social capitalは一つの均等な物質や得点ではありません。A・C・D erase the passage's distinctions and conditions.（本文の区別と条件を消しています。）",
+      "sourceRefs": ["legacy:english-reading-academic-social-capital-networks-measurement-21-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What different things are measured by a survey about trust in strangers and a network map of childcare exchanges?",
+      "options": [
+        {"label": "A", "text": "The survey measures a reported attitude or norm; the map measures concrete ties and the flow of a specific resource."},
+        {"label": "B", "text": "Both measure the same personal relationship with identical units."},
+        {"label": "C", "text": "The survey measures institutional authority; the map measures only income."},
+        {"label": "D", "text": "The survey proves causation, while the map cannot show any relationship."}
+      ],
+      "correct": "A",
+      "answer": "Generalized trust is an attitude or cooperative norm, while the network map identifies who exchanges childcare with whom. 正解：A。holderは「資源を保有・利用できる主体」です。B collapses distinct measures; C and D assign functions the passage does not claim.（本文にない機能を与えています。）",
+      "sourceRefs": ["legacy:english-reading-academic-social-capital-networks-measurement-21-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which statement correctly distinguishes bonding, bridging, and linking ties by the boundaries they cross?",
+      "options": [
+        {"label": "A", "text": "Bonding crosses authority levels, bridging remains within a similar group, and linking connects only relatives."},
+        {"label": "B", "text": "Bonding and bridging are identical, while linking refers only to online communication."},
+        {"label": "C", "text": "Bonding always uses strong ties, bridging always uses weak ties, and linking guarantees institutional change."},
+        {"label": "D", "text": "Bonding connects a relatively similar group, bridging crosses group boundaries, and linking crosses differences in authority or institutional access."}
+      ],
+      "correct": "D",
+      "answer": "The three labels describe different kinds of boundaries: within-group, between-group, and across formal authority or access. 正解：D。The labels do not rank value or guarantee a benefit.（分類名は価値の順位や便益を保証しません。）A・B・C reverse or overstate the definitions.（定義を逆転・誇張しています。）",
+      "sourceRefs": ["legacy:english-reading-academic-social-capital-networks-measurement-21-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "The phrase “nonredundant information” in paragraph 2 is closest in meaning to:",
+      "options": [
+        {"label": "A", "text": "information not already repeated within the same circle"},
+        {"label": "B", "text": "information guaranteed to be true by a close friend"},
+        {"label": "C", "text": "a cost imposed only by government"},
+        {"label": "D", "text": "support that never crosses a group boundary"}
+      ],
+      "correct": "A",
+      "answer": "A bridge may reach another social circle and bring information not already circulating in the first group. 正解：A。nonredundantは「既存の情報と重複しない」です。B adds a truth guarantee, while C and D do not explain information overlap.（情報の重複性を説明しません。）",
+      "sourceRefs": ["legacy:english-reading-academic-social-capital-networks-measurement-21-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which pair best explains why a cohesive group does not necessarily produce a public good?",
+      "options": [
+        {"label": "A", "text": "It always distributes resources equally and prevents all misinformation."},
+        {"label": "B", "text": "It has no ability to coordinate mutual aid or provide support."},
+        {"label": "C", "text": "It may enforce conformity or exclude outsiders, and it may circulate unreliable information or shift burdens outward."},
+        {"label": "D", "text": "It must eliminate every tie to institutions before members can cooperate."}
+      ],
+      "correct": "C",
+      "answer": "Internal cooperation can coexist with conformity, exclusion, misinformation, and costs imposed outside the network. 正解：C。cohesiveは「結束した」、public goodは「広く共有される公共的便益」です。A・B・D contradict paragraph 3.（第3段落と矛盾します。）",
+      "sourceRefs": ["legacy:english-reading-academic-social-capital-networks-measurement-21-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Besides asking who receives a resource, what should an analyst ask when evaluating the benefits of social capital?",
+      "options": [
+        {"label": "A", "text": "Whether every relationship can be combined into one favorable score"},
+        {"label": "B", "text": "Who supplies the cost, whether burdens shift outside the network, and whether exclusionary rules remain"},
+        {"label": "C", "text": "Whether outsiders can be omitted from the analysis entirely"},
+        {"label": "D", "text": "Whether a tie has a positive label, regardless of the resource it carries"}
+      ],
+      "correct": "B",
+      "answer": "Paragraph 3 requires distributional and external-cost questions, not merely a total benefit score. 正解：B。shift burdensは「負担を別の人々へ移す」、exclusionary ruleは「人を排除する制度上の規則」です。A・C・D ignore those boundaries.（便益の境界を無視します。）",
+      "sourceRefs": ["legacy:english-reading-academic-social-capital-networks-measurement-21-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which two alternative explanations prevent a positive association between participation and health from proving that participation improved health?",
+      "options": [
+        {"label": "A", "text": "Participation must always reduce income, and healthy people cannot join communities."},
+        {"label": "B", "text": "Trust and health can never be measured at the same time."},
+        {"label": "C", "text": "Any positive association automatically proves both directions of causation."},
+        {"label": "D", "text": "Health may enable participation, and income, safe institutions, or community selection may influence both participation and health."}
+      ],
+      "correct": "D",
+      "answer": "The passage identifies reverse causation, common causes, and selection as competing explanations. 正解：D。reverse causationは「健康だから参加できるという逆因果」、confounderは「両方に影響する交絡要因」です。A・B・C are unsupported absolutes.（根拠のない絶対表現です。）",
+      "sourceRefs": ["legacy:english-reading-academic-social-capital-networks-measurement-21-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which combination would best improve a study trying to identify the causal direction of social capital's effects?",
+      "options": [
+        {"label": "A", "text": "Longitudinal data, explicit comparison groups, concrete network measures, and a plausible mechanism"},
+        {"label": "B", "text": "One cross-sectional trust score with no comparison group or proposed resource"},
+        {"label": "C", "text": "A larger list of positive labels without observing ties or outcomes"},
+        {"label": "D", "text": "Removal of time order and every alternative explanation from the report"}
+      ],
+      "correct": "A",
+      "answer": "Repeated observations establish time order, comparison groups narrow alternatives, network measures identify relations, and mechanisms specify how resources could affect outcomes. 正解：A。longitudinal dataは「同じ対象を時間に沿って追うデータ」です。B・C・D weaken causal identification.（因果識別を弱めます。）",
+      "sourceRefs": ["legacy:english-reading-academic-social-capital-networks-measurement-21-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which survey plan best evaluates community social capital without collapsing it into a single score?",
+      "options": [
+        {"label": "A", "text": "Ask only whether the community feels friendly, then assign every resident the same result."},
+        {"label": "B", "text": "Count total participation but omit the resources exchanged, excluded groups, provider costs, and later outcomes."},
+        {"label": "C", "text": "Measure trust, close support, cross-group ties, institutional access, and participation separately; map resource flows, disaggregate groups, track change, and report costs and exclusion."},
+        {"label": "D", "text": "Assume that a dense network is beneficial before collecting any data."}
+      ],
+      "correct": "C",
+      "answer": "C preserves distinct concepts and measures who exchanges which resources, who is excluded, how relations change, and who bears costs. 正解：C。disaggregateは「年齢・所得・集団などに分けて示す」です。A・B・D collapse dimensions or assume the conclusion.（異なる次元を潰すか、結論を先取りしています。）",
+      "sourceRefs": ["legacy:english-reading-academic-social-capital-networks-measurement-21-q9"]
+    }
+  ]
+}

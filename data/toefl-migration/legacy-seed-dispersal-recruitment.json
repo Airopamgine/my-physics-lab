@@ -1,0 +1,132 @@
+{
+  "id": "legacy-seed-dispersal-recruitment",
+  "title": "A Journey Is Not Yet a Success",
+  "task": 3,
+  "date": "2026-09-15T16:00:00+09:00",
+  "level": "B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "本文と元教材の解説から一意に判断できる正答を編集・確認しています。四つの原文段落と全九つの学習対象を保持し、元の記述問題は英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-academic-seed-dispersal-recruitment-22/",
+  "passages": {
+    "text": "A fruit-eating bird may swallow a seed and deposit it far from the parent plant. A burr may attach to fur, and a rodent may bury a nut for later use. All three events move seeds, but movement is only the first part of dispersal effectiveness. A transported seed must also arrive at a site where it can survive, germinate, and establish as a seedling. Distance alone therefore cannot tell us whether an animal has helped a plant reproduce.\n\nEach route creates a different sequence of filters. Passage through a digestive tract may remove fruit pulp or alter a seed coat, but it may also damage a seed; the outcome depends on the animal and plant species. Seeds carried externally avoid digestion, yet they may fall on unsuitable ground. A scatter-hoarding rodent can place seeds in shallow caches that protect them temporarily, while also returning to eat many of them. Theft and repeated caching may move a seed farther, but every new movement creates another chance of consumption.\n\nDeposition quality can matter as much as transport. A seed placed beneath a favorable canopy may escape some hazards, whereas one dropped into deep shade, flood-prone soil, or dense competition may fail. Even animal droppings are not automatically beneficial fertilizer: nutrient effects vary, and pathogens or clustered deposition may lower survival. Likewise, moving seeds away from a parent can change encounters with predators and competitors, but it does not guarantee greater genetic mixing or a more diverse forest.\n\nResearchers can separate these stages instead of assigning animals a single label such as “good disperser.” They can mark seeds, identify handlers with camera traps, compare accessible plots with animal-exclusion plots, test germination after gut passage, and follow seedlings for more than one season. A decline in animal populations may alter where seeds arrive and which plant species recruit, but the size and direction of the effect must be measured. The useful question is not simply who carries seeds, but which animals deliver which seeds to which sites, and what happens next."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What is the main idea of the passage?",
+      "options": [
+        {"label": "A", "text": "Long-distance movement always increases plant reproduction."},
+        {"label": "B", "text": "Animal dispersal should be evaluated across transport, deposition, survival, germination, and establishment."},
+        {"label": "C", "text": "Rodents are seed predators and can never be dispersers."},
+        {"label": "D", "text": "Seeds deposited in droppings always receive enough nutrients to survive."}
+      ],
+      "correct": "B",
+      "answer": "The passage separates seed movement from all the later stages required for recruitment. 正解：B。dispersal effectivenessは「運搬量だけでなく、その後の定着への寄与を含む散布の有効性」です。A・C・Dは本文が示す条件依存性を消しています。",
+      "sourceRefs": ["legacy:english-reading-academic-seed-dispersal-recruitment-22-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does paragraph 1 say that movement is only the first part of dispersal effectiveness?",
+      "options": [
+        {"label": "A", "text": "Movement guarantees genetic mixing before a seed reaches the ground."},
+        {"label": "B", "text": "After transport, a seed still needs suitable deposition, survival, germination, and seedling establishment."},
+        {"label": "C", "text": "Seed movement is impossible to observe in the field."},
+        {"label": "D", "text": "An animal must return every seed to the parent plant before it can germinate."}
+      ],
+      "correct": "B",
+      "answer": "Transport changes location, but reproduction requires the seed to survive, germinate, and establish at the destination. 正解：B。recruitmentは「新しい個体が実生として定着すること」です。Aは保証を加え、C・Dは本文と矛盾します。",
+      "sourceRefs": ["legacy:english-reading-academic-seed-dispersal-recruitment-22-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which comparison accurately gives one possible benefit and one possible failure for both gut passage and external transport?",
+      "options": [
+        {"label": "A", "text": "Gut passage always destroys seeds, while external transport guarantees favorable soil."},
+        {"label": "B", "text": "Gut passage guarantees germination, while external transport prevents a seed from falling."},
+        {"label": "C", "text": "Gut passage avoids all damage, while external transport supplies fertilizer."},
+        {"label": "D", "text": "Gut passage may remove pulp or alter the coat but can damage a seed; external transport avoids digestion but may end on unsuitable ground."}
+      ],
+      "correct": "D",
+      "answer": "Paragraph 2 presents both a conditional benefit and a failure risk for each route. 正解：D。seed coatは「種皮」、externallyは「動物の体表に付着して」です。A・B・Cは可能性を保証へ変えたり、本文にない効果を加えたりしています。",
+      "sourceRefs": ["legacy:english-reading-academic-seed-dispersal-recruitment-22-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "The word “filters” in paragraph 2 is closest in meaning to:",
+      "options": [
+        {"label": "A", "text": "stages that determine which seeds continue toward establishment"},
+        {"label": "B", "text": "devices that remove every pathogen from a seed"},
+        {"label": "C", "text": "rules that guarantee longer transport"},
+        {"label": "D", "text": "barriers used only in laboratory experiments"}
+      ],
+      "correct": "A",
+      "answer": "Here, filters are ecological conditions that reduce the number of seeds progressing from one stage to the next. 正解：A。装置そのものではなく「次の段階へ進める種子を絞る条件」です。B・C・Dは意味や範囲を誤っています。",
+      "sourceRefs": ["legacy:english-reading-academic-seed-dispersal-recruitment-22-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "How can a scatter-hoarding rodent act as both a disperser and a predator of the same kind of seed?",
+      "options": [
+        {"label": "A", "text": "It digests every seed and later recreates an identical seed in a cache."},
+        {"label": "B", "text": "It protects all cached seeds permanently and never returns to them."},
+        {"label": "C", "text": "Unrecovered caches may protect and relocate seeds, but the rodent also returns to consume many cached seeds."},
+        {"label": "D", "text": "It can disperse seeds only when another animal eats the rodent."}
+      ],
+      "correct": "C",
+      "answer": "Caching creates a chance for protected, relocated seeds to remain, while retrieval creates a chance of consumption. 正解：C。scatter-hoardingは「食物を複数の場所に分散貯蔵する行動」です。A・B・Dはこの二面性を説明しません。",
+      "sourceRefs": ["legacy:english-reading-academic-seed-dispersal-recruitment-22-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which evidence best refutes the claim that any seed moved far from its parent must establish more easily?",
+      "options": [
+        {"label": "A", "text": "A distant seed may land in deep shade, flood-prone soil, or dense competition and fail."},
+        {"label": "B", "text": "Every distant seed escapes all predators, competitors, and pathogens."},
+        {"label": "C", "text": "Distance determines germination regardless of the deposition site."},
+        {"label": "D", "text": "Seeds near a parent can never survive long enough to germinate."}
+      ],
+      "correct": "A",
+      "answer": "Paragraph 3 shows that deposition quality can outweigh distance: an unsuitable microsite can prevent survival or establishment. 正解：A。flood-proneは「冠水しやすい」です。B・C・D turn a conditional relationship into an absolute rule.（条件付きの関係を絶対視しています。）",
+      "sourceRefs": ["legacy:english-reading-academic-seed-dispersal-recruitment-22-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why would higher survival among seeds deposited with droppings not by itself prove that nutrients caused the benefit?",
+      "options": [
+        {"label": "A", "text": "Droppings can contain no nutrients under any conditions."},
+        {"label": "B", "text": "Survival cannot be measured after a seed has been deposited."},
+        {"label": "C", "text": "Nutrients always reduce survival by attracting pathogens."},
+        {"label": "D", "text": "The deposition site and other conditions may change at the same time, so nutrient effects must be separated from those alternatives."}
+      ],
+      "correct": "D",
+      "answer": "Shade, moisture, predators, pathogens, and clustering may differ together with the presence of droppings. 正解：D。A controlled comparison must separate fertilizer effects from the microsite.（肥料効果と微環境を分ける必要があります。）A・B・Cは本文の条件依存性を無視します。",
+      "sourceRefs": ["legacy:english-reading-academic-seed-dispersal-recruitment-22-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which research design would best test whether a bird contributes to plant recruitment?",
+      "options": [
+        {"label": "A", "text": "Measure only the farthest distance traveled by one seed."},
+        {"label": "B", "text": "Mark seeds, identify handlers with cameras, compare access and exclusion plots, test post-gut germination, and follow seedlings across seasons."},
+        {"label": "C", "text": "Count birds once and assume that every observed bird disperses every plant equally."},
+        {"label": "D", "text": "Record where seeds land but stop before checking germination or seedling survival."}
+      ],
+      "correct": "B",
+      "answer": "B combines the passage's methods and follows the full causal chain from handling to later seedling survival. 正解：B。animal-exclusion plotは「特定の動物が入れない比較区」です。A・C・D omit later stages or a defensible comparison.（後続段階や適切な比較を欠きます。）",
+      "sourceRefs": ["legacy:english-reading-academic-seed-dispersal-recruitment-22-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which revision would best improve a study that uses dispersal distance as its only outcome?",
+      "options": [
+        {"label": "A", "text": "Remove all information about the animal and the deposition site."},
+        {"label": "B", "text": "Treat every movement as successful reproduction without observing later fate."},
+        {"label": "C", "text": "Record the handler, distance, deposition microsite, germination, and seedling survival across seasons, with useful comparison plots."},
+        {"label": "D", "text": "Replace field observations with a label identifying each animal as either wholly good or wholly bad."}
+      ],
+      "correct": "C",
+      "answer": "Distance records only one transition, whereas recruitment requires evidence about the seed's site and later fate. 正解：C。micrositeは「種子が置かれた局所的環境」です。A・B・D preserve the original overgeneralization instead of testing what happens next.（その後の結果を検証していません。）",
+      "sourceRefs": ["legacy:english-reading-academic-seed-dispersal-recruitment-22-q9"]
+    }
+  ]
+}
