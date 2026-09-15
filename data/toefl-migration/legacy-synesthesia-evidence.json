@@ -1,0 +1,132 @@
+{
+  "id": "legacy-synesthesia-evidence",
+  "title": "When a Reliable Experience Is Not Yet a Complete Explanation",
+  "task": 3,
+  "date": "2026-09-15T20:00:00+09:00",
+  "level": "B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "本文と元教材の解説から一意に判断できる正答を編集・確認しています。四つの原文段落と全九つの学習対象を保持し、元の記述問題は英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-academic-synesthesia-evidence-04/",
+  "passages": {
+    "text": "A listener says that a trumpet note produces a patch of copper-colored light, while another person reports that the same note has no color at all. Such reports may sound poetic, but some describe synesthesia: an ordinary stimulus, called the inducer, is accompanied by an additional experience, called the concurrent. The added experience is typically described as automatic rather than deliberately imagined. Its content also differs across people. Therefore, one person's red C does not establish a universal dictionary linking notes and colors.\n\nResearchers cannot place a private color directly on a laboratory table, so they combine self-report with behavioral evidence. In a consistency test, a participant matches many inducers with colors or other concurrents and repeats the task after a delay. Unusually stable pairings can support the report because memorizing a large arbitrary set is difficult. Yet consistency is evidence, not a definition that settles every case. Learned associations can also be stable, test scores depend on the task, and a low score may reflect fatigue, unfamiliar controls, or a form of synesthesia the test does not measure well.\n\nAutomaticity requires a different question. If a printed symbol triggers a color without deliberate effort, an incongruent physical color may slow a response in some tasks. This interference suggests that the concurrent became active, but it does not reveal a single neural route. Brain-imaging and developmental studies have proposed several mechanisms, including differences in connectivity, inhibition, and learned conceptual organization. These accounts need not be mutually exclusive, and evidence for one group or type should not be extended to every synesthete.\n\nMusical synesthesia is often discussed through striking biographies. A composer's account can show what an experience meant in that person's practice, but it cannot by itself prove that synesthesia increases creativity. To test that causal claim, researchers would need comparison groups, suitable creativity measures, and attention to training, memory, personality, and selection effects. The strongest conclusion may be narrower: a stable additional experience can become one resource among many for organizing sound, remembering structure, or describing artistic choices. Scientific restraint does not make the experience less real; it makes the explanation more precise."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What is the main idea of the passage?",
+      "options": [
+        {"label": "A", "text": "Every musical note has the same synesthetic color for all listeners."},
+        {"label": "B", "text": "Synesthesia should be evaluated by separating experience, behavioral evidence, possible mechanisms, and consequences."},
+        {"label": "C", "text": "A consistency score identifies every form of synesthesia without error."},
+        {"label": "D", "text": "Biographies prove that synesthesia causes artistic creativity."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。本文は私的経験の定義、一貫性という行動証拠、自動性と神経機構、創造性への結果を異なる主張として検討します。Aは個人差を消し、Cは検査の限界を無視し、Dは事例から因果へ飛躍します。behavioral evidenceは「課題成績などの行動証拠」です。",
+      "sourceRefs": ["legacy:english-reading-academic-synesthesia-evidence-04-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "How should the trumpet note, the copper-colored light, and deliberate imagination be classified?",
+      "options": [
+        {"label": "A", "text": "Trumpet note—concurrent; copper-colored light—inducer; deliberate imagination—automatic synesthesia"},
+        {"label": "B", "text": "Trumpet note—deliberate imagination; copper-colored light—inducer; deliberate imagination—concurrent"},
+        {"label": "C", "text": "Trumpet note—inducer; copper-colored light—deliberate imagination; deliberate imagination—concurrent"},
+        {"label": "D", "text": "Trumpet note—inducer; copper-colored light—concurrent; deliberate imagination—not the automatic concurrent described here"}
+      ],
+      "correct": "D",
+      "answer": "正解：D。通常の刺激であるtrumpet noteがinducer、それに伴う追加経験のcopper-colored lightがconcurrentです。本文は追加経験を意図的想像ではなくautomaticと説明するため、deliberate imaginationは非該当です。A・B・Cは刺激・経験・行為を混同しています。",
+      "sourceRefs": ["legacy:english-reading-academic-synesthesia-evidence-04-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "The phrase “settles every case” in paragraph 2 is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "provides a final decision for all possible cases"},
+        {"label": "B", "text": "delays every experiment until the participant rests"},
+        {"label": "C", "text": "converts a private experience into a physical object"},
+        {"label": "D", "text": "teaches all participants the same color vocabulary"}
+      ],
+      "correct": "A",
+      "answer": "正解：A。settleはここでは「居住する」ではなく、論争や判定を最終的に決着させる意味です。本文は一貫性を有力な証拠としつつ、一つの得点だけでは全事例の最終判定にならないと述べています。B・C・Dは文脈に合いません。",
+      "sourceRefs": ["legacy:english-reading-academic-synesthesia-evidence-04-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why can stable inducer–concurrent pairings support a report without conclusively establishing synesthesia?",
+      "options": [
+        {"label": "A", "text": "Stable pairings prove a universal note–color dictionary, but only for trained musicians."},
+        {"label": "B", "text": "Pairings become physical objects during testing, although researchers cannot measure them."},
+        {"label": "C", "text": "Remembering many arbitrary pairings is difficult, but learned associations can also be stable and scores can depend on fatigue, controls, or the form tested."},
+        {"label": "D", "text": "A low consistency score always proves that a participant deliberately invented the experience."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。多数の恣意的対応を長期間再現する難しさが自己報告を支持しますが、学習された対応も安定し得て、疲労や操作の不慣れ、検査対象外の型も得点へ影響します。A・B・Dは証拠を過大解釈しています。arbitrary pairingは「必然的規則のない組合せ」です。",
+      "sourceRefs": ["legacy:english-reading-academic-synesthesia-evidence-04-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does the passage treat automaticity as a different question from consistency?",
+      "options": [
+        {"label": "A", "text": "Consistency concerns neural anatomy, while automaticity concerns artistic biographies."},
+        {"label": "B", "text": "Consistency asks whether pairings remain stable over time, whereas automaticity asks whether a response occurs without deliberate effort."},
+        {"label": "C", "text": "Consistency is possible only for colors, while automaticity is possible only for sounds."},
+        {"label": "D", "text": "Automaticity requires every synesthete to report the same concurrent."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。一貫性は対応内容が時間を通じて安定するか、自動性は意図的努力なしに反応が生じるかを問います。安定した暗記は自動反応とは限らないため別の検査が必要です。A・C・Dは本文にない制限です。automaticityは「意図せず処理が起こる性質」です。",
+      "sourceRefs": ["legacy:english-reading-academic-synesthesia-evidence-04-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why would a connectivity difference found in one brain-imaging group not prove that the same connection causes every form of synesthesia?",
+      "options": [
+        {"label": "A", "text": "Brain imaging can never detect any difference between groups."},
+        {"label": "B", "text": "Connectivity, inhibition, and learned organization are necessarily mutually exclusive explanations."},
+        {"label": "C", "text": "All synesthetes have identical inducers, concurrents, training, and developmental histories."},
+        {"label": "D", "text": "Synesthesia varies across people and types, several mechanisms may coexist, and a group-level association is not a universal necessary-and-sufficient cause."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。第3段落は接続性、抑制、学習された概念構成など複数機構を挙げ、それらは排他的でないと述べます。一群・一型の相関を全員の必要十分な原因へ一般化できません。Aは画像研究を全否定し、B・Cは本文と反対です。mutually exclusiveは「同時には成立しない」です。",
+      "sourceRefs": ["legacy:english-reading-academic-synesthesia-evidence-04-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What can a famous composer's biography show, and what can it not show by itself?",
+      "options": [
+        {"label": "A", "text": "It can show how the experience functioned in that person's practice, but it cannot establish that synesthesia causes greater creativity across people."},
+        {"label": "B", "text": "It can prove a universal neural mechanism, but it cannot describe the composer's experience."},
+        {"label": "C", "text": "It can measure selection effects in a population, but it cannot identify any artistic choice."},
+        {"label": "D", "text": "It can prove that every creative person is a synesthete, but it cannot identify a single inducer."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。第4段落は、伝記がその人にとって経験が持った意味を示せる一方、比較群がないため創造性を増加させたという集団レベルの因果効果までは示せないと区別します。B・C・Dはいずれも事例研究の証拠範囲を誤っています。biographyは「伝記」です。",
+      "sourceRefs": ["legacy:english-reading-academic-synesthesia-evidence-04-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which interpretation best captures the statement, “Scientific restraint does not make the experience less real; it makes the explanation more precise”?",
+      "options": [
+        {"label": "A", "text": "An experience is real only after researchers identify one complete neural mechanism."},
+        {"label": "B", "text": "Respecting self-report requires accepting every proposed cause and benefit without further evidence."},
+        {"label": "C", "text": "Researchers can take the reported experience seriously while remaining cautious about its mechanism and effects, avoiding a false choice between total acceptance and total denial."},
+        {"label": "D", "text": "Scientific precision requires removing private experiences from all research."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。「科学的な慎重さは経験の実在性を弱めず、説明を正確にする」という文は、経験を尊重しながら原因や効果の断定を保留できると述べます。A・Dは機構未確定なら経験も否定する立場、Bは報告を認めれば全説明も受け入れる立場で、本文が退ける二者択一です。restraintは「慎重な抑制」です。",
+      "sourceRefs": ["legacy:english-reading-academic-synesthesia-evidence-04-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which research design would best test the claim that synesthesia increases creativity?",
+      "options": [
+        {"label": "A", "text": "Collect one composer's autobiography and infer a causal effect for all creative fields."},
+        {"label": "B", "text": "Compare participants with verified synesthetic consistency with matched controls on several creativity tasks, measure training and memory, add longitudinal evidence, and use blinded ratings."},
+        {"label": "C", "text": "Give only synesthetes one creativity task and compare their scores with no reference group or background measures."},
+        {"label": "D", "text": "Assume that stable color associations are themselves a complete measure of creativity."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。検証済み群と対応する比較群、複数の創造性指標、訓練・記憶などの交絡要因、時間的変化、盲検評価を組み合わせるため、単なる相関や印象的事例を超えて因果主張を検討できます。A・C・Dは比較または適切な測定を欠きます。matched controlsは「背景条件を対応させた比較群」です。",
+      "sourceRefs": ["legacy:english-reading-academic-synesthesia-evidence-04-q9"]
+    }
+  ]
+}

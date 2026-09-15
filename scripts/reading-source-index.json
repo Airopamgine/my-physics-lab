@@ -650,12 +650,12 @@
     }
   ],
   "lastSource": {
-    "type": "pdf",
+    "type": "legacy",
     "ids": [
-      "pdf-task3-p007-example",
-      "pdf-task3-p014-017"
+      "legacy-stereotypes-confirmation-bias",
+      "legacy-synesthesia-evidence"
     ],
-    "convertedAt": "2026-09-15T18:00:00+09:00"
+    "convertedAt": "2026-09-15T20:00:00+09:00"
   },
   "note": "Packet paths describe a private working cache, not published files. Exact question totals require review. Answer pages referenced by the books were not supplied."
 }
