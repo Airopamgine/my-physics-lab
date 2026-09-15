@@ -614,11 +614,12 @@
     }
   ],
   "lastSource": {
-    "type": "pdf",
+    "type": "legacy",
     "ids": [
-      "task2"
+      "english-reading-academic-seed-dispersal-recruitment-22",
+      "english-reading-academic-social-capital-networks-measurement-21"
     ],
-    "convertedAt": "2026-09-15T14:00:00+09:00"
+    "convertedAt": "2026-09-15T16:00:00+09:00"
   },
   "note": "Packet paths describe a private working cache, not published files. Exact question totals require review. Answer pages referenced by the books were not supplied."
 }
