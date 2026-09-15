@@ -1,0 +1,132 @@
+{
+  "id": "legacy-black-hole-observation-model",
+  "title": "Signals, Models, and the Black-Hole Shadow",
+  "task": 3,
+  "date": "2026-09-16T08:00:00+09:00",
+  "level": "B2–C1",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "本文と元教材の解説から一意に判断できる正答を編集・確認しています。四つの原文段落と全九つの学習対象を保持し、元の記述問題は英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-advanced-black-hole-observation-model-28/",
+  "passages": {
+    "text": "In general relativity, a black hole is a region bounded by an event horizon: a causal boundary beyond which signals cannot reach distant outside observers. The horizon is not a solid shell, and a black hole is not literally a hole torn in a material fabric. Spacetime geometry determines possible paths for matter and light. Far from the hole, its gravity can resemble that of any object with the same mass; it does not automatically pull every distant object inward.\n\nThe word “black” describes the escape of signals from inside the horizon, not the absence of observable surroundings. Astronomers infer black holes from stellar orbits, gas motion, X-ray emission from hot accreting material, gravitational waves from mergers, and other effects. Each method connects data to a model. An unseen massive companion, for example, becomes a black-hole candidate only after alternative masses and measurement uncertainties are examined.\n\nIn 2019, the Event Horizon Telescope collaboration released an image of M87*. Radio observatories across Earth had recorded signals that were combined through very-long-baseline interferometry. The famous image shows a bright ring-like emission region and a dark central shadow. It does not display a solid surface, the singularity, or a simple photograph of the horizon. Light bending, plasma motion, magnetic fields, instrument resolution, and reconstruction methods all contribute to the image.\n\nAgreement between the measured ring scale and predictions for a compact object of the independently estimated mass supports the black-hole interpretation and tests gravity in an extreme regime. It does not mean that every question is settled. Researchers compare observations across years, wavelengths, polarization, and different objects to separate relatively stable gravitational features from changing plasma. The deepest lesson is methodological: we observe signals, model how they were produced, test rival explanations, and retain uncertainty where the data cannot decide."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What is the main idea of the passage?",
+      "options": [
+        {"label": "A", "text": "The 2019 image directly photographed a solid black-hole surface and its singularity."},
+        {"label": "B", "text": "Black holes are investigated by linking several kinds of signals to models, testing alternatives, and retaining uncertainty."},
+        {"label": "C", "text": "A black hole automatically pulls every distant object in the universe toward it."},
+        {"label": "D", "text": "An event horizon is a material membrane surrounding an empty hole."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。本文は軌道、ガス、X線、重力波、電波像などのsignalをmodelと結び、競合説明を検証する方法を説明します。Aは影を表面・特異点へ変え、Cは遠方重力を誇張し、Dは因果境界を物質的な殻と誤認しています。retain uncertainty は「不確実性を残す」です。",
+      "sourceRefs": ["legacy:english-reading-advanced-black-hole-observation-model-28-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "According to paragraph 1, what is an event horizon, and what is it not?",
+      "options": [
+        {"label": "A", "text": "It is a causal boundary beyond which signals cannot reach distant outside observers, not a solid shell or material wall."},
+        {"label": "B", "text": "It is the bright ring of plasma shown in the EHT image and therefore a glowing solid surface."},
+        {"label": "C", "text": "It is an ordinary empty opening cut through a material fabric."},
+        {"label": "D", "text": "It is the region where gravity becomes stronger than every force at every distance."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。event horizonは内側から遠方の外部観測者へ信号が届かなくなるcausal boundaryで、固体表面や物質的な壁ではありません。Bは放射領域との混同、Cは比喩の文字どおりの解釈、Dは同質量天体に似る遠方重力を無視します。",
+      "sourceRefs": ["legacy:english-reading-advanced-black-hole-observation-model-28-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "The word “infer” in paragraph 2 is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "directly touch the hidden object"},
+        {"label": "B", "text": "reach a reasoned conclusion from observable effects"},
+        {"label": "C", "text": "remove all measurement uncertainty"},
+        {"label": "D", "text": "replace evidence with a visual metaphor"}
+      ],
+      "correct": "B",
+      "answer": "正解：B。inferは観測可能な効果から理由ある結論を導くことです。Aは直接接触、Cは推論後にも残る不確実性を消し、Dは証拠を使う本文の方法と反対です。reasoned conclusion は「根拠に基づく結論」です。",
+      "sourceRefs": ["legacy:english-reading-advanced-black-hole-observation-model-28-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which set lists four observational routes that can support the existence of a black hole?",
+      "options": [
+        {"label": "A", "text": "Direct contact with the horizon, a sample of the singularity, visible cracks in spacetime, and universal inward motion"},
+        {"label": "B", "text": "Only optical photographs of a solid surface taken from four different angles"},
+        {"label": "C", "text": "The color of empty space, the age of Earth, the chemical formula of gravity, and unaided human vision"},
+        {"label": "D", "text": "Stellar orbits, gas motion, X-rays from hot accreting material, and gravitational waves from mergers"}
+      ],
+      "correct": "D",
+      "answer": "正解：D。第2段落は恒星軌道、ガス運動、高温の降着物質が出すX線、合体時の重力波を独立した観測経路として挙げます。A・Bは直接観測できない表面や特異点を仮定し、Cは本文の証拠と無関係です。accreting material は「降着する物質」です。",
+      "sourceRefs": ["legacy:english-reading-advanced-black-hole-observation-model-28-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which statement correctly distinguishes what the 2019 EHT image shows from what it does not show?",
+      "options": [
+        {"label": "A", "text": "It shows the singularity and a solid horizon, but not any surrounding emission."},
+        {"label": "B", "text": "It shows every physical parameter directly and therefore requires no reconstruction."},
+        {"label": "C", "text": "It shows a bright ring-like emission region and a dark central shadow, not a solid surface or the singularity."},
+        {"label": "D", "text": "It shows an ordinary hole in material space and proves that plasma does not affect the image."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。第3段落が明示する観測特徴はbright ring-like emission regionとdark central shadowです。一方、固体表面、特異点、地平面の単純写真は表示していません。Aは表示対象を逆転し、B・Dは再構成とプラズマの寄与を否定します。shadow は「影」です。",
+      "sourceRefs": ["legacy:english-reading-advanced-black-hole-observation-model-28-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which statement about the formation of the EHT image is supported by the passage?",
+      "options": [
+        {"label": "A", "text": "The image is independent of plasma physics, magnetic fields, and reconstruction."},
+        {"label": "B", "text": "The dark region alone identifies every parameter of the object."},
+        {"label": "C", "text": "Recorded signals, array geometry, astrophysical emission, gravity, instrument resolution, and analysis all shape the result."},
+        {"label": "D", "text": "The bright ring is the physical event horizon glowing like a solid surface."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。地球規模の干渉計で得たsignalに加え、光の曲がり、plasma motion、磁場、解像度、reconstruction methodが像へ寄与します。Aはそれらを消し、Bは一特徴から全量を決める飛躍、Dは放射領域と地平面を混同しています。array geometry は「観測点配置」です。",
+      "sourceRefs": ["legacy:english-reading-advanced-black-hole-observation-model-28-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why is it useful to compare the measured ring scale with predictions based on an independently estimated mass?",
+      "options": [
+        {"label": "A", "text": "It guarantees that every question about black holes and gravity has been settled."},
+        {"label": "B", "text": "It provides a less circular test: a mass estimated by other evidence predicts a gravitational scale that can be compared with the observed ring."},
+        {"label": "C", "text": "It allows researchers to ignore alternative masses and measurement uncertainties."},
+        {"label": "D", "text": "It proves that changing plasma can never influence the ring-like emission."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。画像とは独立した方法で質量を推定すれば、その質量から予測される尺度と観測リングを比較でき、同じデータで前提と結論を作る循環を弱められます。Aはsupportsを完全証明へ誇張し、Cは候補検証を弱め、Dは変動するplasmaの寄与を否定します。",
+      "sourceRefs": ["legacy:english-reading-advanced-black-hole-observation-model-28-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does the statement “An image is not the same as the object” emphasize about scientific images?",
+      "options": [
+        {"label": "A", "text": "A scientific image contains no evidence and should never be used."},
+        {"label": "B", "text": "Every scientific image is an unaided and complete copy of its target."},
+        {"label": "C", "text": "Color alone determines whether an image represents reality accurately."},
+        {"label": "D", "text": "An image is an evidence-bearing representation shaped by wavelength, detector response, resolution, noise, reconstruction, and models rather than an unmediated duplicate."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。訳は「画像は対象そのものと同じではない」です。科学画像は装置応答、波長、有限解像度、雑音、再構成、模型を経た表現ですが、それでも検証可能な証拠です。Aは証拠価値を全否定、Bは媒介過程を消し、Cは色だけへ還元します。unmediated は「媒介されていない」です。",
+      "sourceRefs": ["legacy:english-reading-advanced-black-hole-observation-model-28-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which response best explains how science can study an object that cannot be seen directly?",
+      "options": [
+        {"label": "A", "text": "Science can measure predicted consequences such as orbital motion, radiation, light bending, and gravitational waves, compare rival models, combine independent methods, and quantify uncertainty."},
+        {"label": "B", "text": "Science must accept any explanation of an invisible object because indirect evidence cannot constrain a model."},
+        {"label": "C", "text": "An object is scientific only if it can be seen with unaided human eyes."},
+        {"label": "D", "text": "One ambiguous signal is always sufficient, so alternative explanations and repeated observations are unnecessary."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。直接見えなくても、対象が生む測定可能な結果を複数の模型と比較し、独立方法の一致と予測力で推論を制約できます。Bは間接証拠を恣意的とし、Cは観測装置を排除し、Dは競合説明と反復検証を不要にします。quantify uncertainty は「不確実性を定量化する」です。",
+      "sourceRefs": ["legacy:english-reading-advanced-black-hole-observation-model-28-q9"]
+    }
+  ]
+}
