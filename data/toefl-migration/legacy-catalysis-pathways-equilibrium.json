@@ -1,0 +1,132 @@
+{
+  "id": "legacy-catalysis-pathways-equilibrium",
+  "title": "Catalysts Change Pathways, Not Equilibrium",
+  "task": 3,
+  "date": "2026-09-16T12:00:00+09:00",
+  "level": "B2–C1",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "本文と元教材の解説から一意に判断できる正答を編集・確認しています。四つの原文段落と全九つの学習対象を保持し、元の記述問題は英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-advanced-catalysis-pathways-equilibrium-25/",
+  "passages": {
+    "text": "A catalyst changes the rate of a reaction by providing a mechanism with different elementary steps. The new pathway has a lower kinetic barrier under the relevant conditions, so a larger fraction of molecular encounters can proceed. This familiar hill metaphor is useful, but it must be read carefully: the catalyst changes the route, not the initial and final thermodynamic states.\n\nConsequently, a catalyst accelerates both forward and reverse reactions and does not change the equilibrium constant. It helps a system approach equilibrium faster; it does not make an unfavorable overall reaction favorable by itself. Temperature, pressure, concentrations, and coupling to other reactions still determine what composition is attainable. Confusing rate with equilibrium turns a kinetic tool into an imaginary source of free energy.\n\nNor is a catalyst chemically absent from the process. It may bind reactants, form intermediates, change oxidation state, and release products through a catalytic cycle. “Not consumed” means regenerated in the overall cycle, not unchanged at every instant. Real catalysts can be poisoned, deactivated, or physically lost. Enzymes also change conformation, so the simple lock-and-key picture is often replaced by more flexible accounts of molecular recognition.\n\nIndustrial evaluation therefore goes beyond speed. The Haber–Bosch process uses catalysis to make ammonia, but energy use and the later environmental effects of reactive nitrogen remain important. Vehicle catalysts reduce certain harmful emissions, yet carbon dioxide is still a greenhouse gas and catalyst materials have extraction costs. A good catalyst must be active, selective, stable, recoverable, and useful within the complete process. Chemistry improves society when it counts avoided harms as carefully as desired products."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What is the main idea of the passage?",
+      "options": [
+        {"label": "A", "text": "A catalyst changes equilibrium so that any desired product becomes favorable."},
+        {"label": "B", "text": "Catalysis must be understood through pathways, rates, equilibrium, chemical cycles, selectivity, stability, and whole-process costs."},
+        {"label": "C", "text": "A catalyst never forms a chemical bond or intermediate during a reaction."},
+        {"label": "D", "text": "Carbon dioxide becomes harmless whenever a catalytic converter produces it."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。第1・2段落は経路・速度・平衡、第3段落は触媒サイクル、第4段落は工業的な性能と費用を扱います。Aは速度と平衡を混同し、Cは中間体を否定し、Dは相対的な排出削減を絶対的な無害へ強めています。",
+      "sourceRefs": ["legacy:english-reading-advanced-catalysis-pathways-equilibrium-25-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does the passage say that a catalyst changes the route but not the destination?",
+      "options": [
+        {"label": "A", "text": "It supplies different elementary steps with a lower kinetic barrier but does not change the initial and final thermodynamic states."},
+        {"label": "B", "text": "It raises the free energy of every reactant until all reactions become favorable."},
+        {"label": "C", "text": "It changes only the names of reactants and products while leaving the mechanism identical."},
+        {"label": "D", "text": "It permanently removes the reverse reaction from the system."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。触媒は別の素反応と低い障壁を与えますが、反応物と生成物の熱力学的な始状態・終状態は変えません。Bは自由エネルギー源を創作し、Cは経路変更を否定し、Dは逆反応も加速する本文と矛盾します。elementary step は「反応機構を構成する一段階」です。",
+      "sourceRefs": ["legacy:english-reading-advanced-catalysis-pathways-equilibrium-25-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "The word “regenerated” in paragraph 3 is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "returned to a usable chemical form by the end of the cycle"},
+        {"label": "B", "text": "absent from every elementary step"},
+        {"label": "C", "text": "converted permanently into the main product"},
+        {"label": "D", "text": "guaranteed never to deactivate or be lost"}
+      ],
+      "correct": "A",
+      "answer": "正解：A。触媒は途中で結合・中間体形成・酸化状態変化をしても、サイクル終了時に有効形へ戻るため正味では消費されません。Bは反応参加を否定し、Cは正味消費、Dは被毒・失活・物理損失の可能性と矛盾します。",
+      "sourceRefs": ["legacy:english-reading-advanced-catalysis-pathways-equilibrium-25-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "How can a catalyst speed a reaction without changing the equilibrium constant?",
+      "options": [
+        {"label": "A", "text": "It lowers kinetic barriers for both forward and reverse directions, while equilibrium depends on the thermodynamic difference between initial and final states."},
+        {"label": "B", "text": "It accelerates only the forward reaction and makes the reverse reaction impossible."},
+        {"label": "C", "text": "It changes the equilibrium constant by adding free energy but hides that change from measurement."},
+        {"label": "D", "text": "It keeps the system permanently away from equilibrium."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。触媒は正逆両方向の障壁を下げ、平衡への到達を速めます。平衡定数は始状態と終状態の熱力学差で決まり、経路には依存しません。Bは逆反応を消し、Cは自由エネルギー生成を仮定し、Dは本文と反対です。",
+      "sourceRefs": ["legacy:english-reading-advanced-catalysis-pathways-equilibrium-25-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does “not consumed” not mean that a catalyst remains chemically unchanged at every instant?",
+      "options": [
+        {"label": "A", "text": "A catalyst may bind reactants, form intermediates, and change oxidation state before being regenerated in the overall cycle."},
+        {"label": "B", "text": "A catalyst is never present while the reaction is occurring."},
+        {"label": "C", "text": "Every catalyst becomes part of the final product and is replaced continuously."},
+        {"label": "D", "text": "Chemical changes are impossible unless the equilibrium constant changes."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。第3段落はサイクル途中の結合、中間体、酸化状態変化と、最後の再生を区別します。Bは触媒の参加を否定し、Cは正味消費を意味し、Dは速度論的な機構と熱力学的平衡を誤って結び付けています。intermediate は「中間体」です。",
+      "sourceRefs": ["legacy:english-reading-advanced-catalysis-pathways-equilibrium-25-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which statement about enzyme models is best supported by the passage?",
+      "options": [
+        {"label": "A", "text": "Every enzyme is a perfectly rigid lock throughout the reaction."},
+        {"label": "B", "text": "Molecular recognition can involve conformational change rather than only a rigid lock-and-key fit."},
+        {"label": "C", "text": "Enzymes change the equilibrium constant of every reaction they catalyze."},
+        {"label": "D", "text": "Specificity means that reaction speed is the only relevant property of an enzyme."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。第3段落は酵素がconformationを変えるため、単純な剛体のlock-and-key像より柔軟な分子認識モデルが必要だと述べます。Aは構造変化を消し、Cは速度と平衡を混同し、Dは選択性を速度だけへ還元します。",
+      "sourceRefs": ["legacy:english-reading-advanced-catalysis-pathways-equilibrium-25-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Besides activity, which set contains four properties the passage uses to evaluate a good industrial catalyst?",
+      "options": [
+        {"label": "A", "text": "Selectivity, stability, recoverability, and usefulness within the complete process"},
+        {"label": "B", "text": "Maximum speed, permanent equilibrium change, invisibility, and unlimited availability"},
+        {"label": "C", "text": "High extraction cost, easy poisoning, low selectivity, and physical loss"},
+        {"label": "D", "text": "Rigid shape, inability to form intermediates, irreversibility, and product consumption"}
+      ],
+      "correct": "A",
+      "answer": "正解：A。第4段落はactive, selective, stable, recoverable, useful within the complete processを明示します。Bは触媒が平衡を変えるという誤り、Cは望ましくない性質、Dは第2・3段落の説明と反対です。selective は「望む生成物の経路を優先する」です。",
+      "sourceRefs": ["legacy:english-reading-advanced-catalysis-pathways-equilibrium-25-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which option best expresses the meaning of the final sentence and applies it to catalyst evaluation?",
+      "options": [
+        {"label": "A", "text": "Chemistry benefits society when desired output is counted but energy, emissions, toxicity, extraction, and waste are ignored."},
+        {"label": "B", "text": "Chemistry improves society when it evaluates avoided harms as carefully as desired products, including energy use, greenhouse gases, by-products, mining, toxicity, and spent catalyst."},
+        {"label": "C", "text": "A useful product automatically proves that every stage of its process is harmless."},
+        {"label": "D", "text": "Only the purchase price of a catalyst can represent its social effect."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。「化学は、望ましい生成物と同じ慎重さで回避された害を数えるとき、社会を改善する」という意味です。Bは完全工程の負荷を含め、A・Cは便益だけを数え、Dは評価を価格一つへ縮めます。avoided harm は「回避された害」です。",
+      "sourceRefs": ["legacy:english-reading-advanced-catalysis-pathways-equilibrium-25-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which comparison would best evaluate two proposed industrial catalysts?",
+      "options": [
+        {"label": "A", "text": "Compare only the fastest laboratory rate, even if temperature, feed, and pressure differ."},
+        {"label": "B", "text": "At matched conditions, compare conversion and selectivity, deactivation and recovery over cycles, separation needs, energy, scarce materials, toxicity, waste, emissions, and realistic scale."},
+        {"label": "C", "text": "Choose the catalyst with the most expensive metal without testing its process performance."},
+        {"label": "D", "text": "Ignore the technology being displaced and assume every new catalyst prevents the same harms."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。Bは同一条件での性能、寿命、回収、工程負荷、規模を統合します。Aは比較条件をそろえず速度だけを見て、Cは価格を性能の代理にし、Dは回避できる害を基準技術と比較していません。residence time は「反応器内の滞留時間」です。",
+      "sourceRefs": ["legacy:english-reading-advanced-catalysis-pathways-equilibrium-25-q9"]
+    }
+  ]
+}

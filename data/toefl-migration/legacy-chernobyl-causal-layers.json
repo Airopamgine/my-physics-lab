@@ -1,0 +1,132 @@
+{
+  "id": "legacy-chernobyl-causal-layers",
+  "title": "Causal Layers of the Chornobyl Disaster",
+  "task": 3,
+  "date": "2026-09-16T12:00:00+09:00",
+  "level": "B2–C1",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "本文と元教材の解説から一意に判断できる正答を編集・確認しています。四つの原文段落と全九つの学習対象を保持し、元の記述問題は英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-advanced-chernobyl-causal-layers-15/",
+  "passages": {
+    "text": "On 26 April 1986, Unit 4 at the Chornobyl nuclear power plant, then in the Ukrainian republic of the Soviet Union, lost control during a low-power test. An explosion and fire destroyed the reactor and released large amounts of radioactive material. The immediate sequence involved operator actions, test conditions, reactor characteristics, and safety arrangements. Calling the disaster only “human error” would hide design and organizational conditions; blaming design alone would erase operational decisions.\n\nConsequences must also be separated into stages. A release to the atmosphere does not give every person the same dose. Weather, location, food pathways, time, protective action, age, and the type of radiation matter. Plant staff and emergency workers received the highest early exposures; acute radiation syndrome killed dozens. Among people exposed as children or adolescents in heavily contaminated areas, increased thyroid cancer became the clearest demonstrated longer-term radiation-related effect.\n\nOther claims require careful language. Population studies face uncertain dose reconstruction, migration, changing diagnosis, screening, and background disease. Modelled risk is valuable for protection, but a projected number is not the same as a list of individually identified cases. Psychological distress, displacement, stigma, loss of livelihood, and distrust were real health and social burdens even when they cannot be described as direct biological effects of ionizing radiation.\n\nThe accident also exposed failures of communication and safety governance. Delayed, incomplete, or distrusted information can worsen exposure and make later guidance less credible. Yet it would be too strong to claim that one accident by itself caused the later dissolution of the Soviet Union. A defensible conclusion is narrower: the disaster revealed institutional weaknesses, intensified demands for openness, influenced nuclear-safety cooperation, and became one part of a larger political history. Learning requires both technical redesign and institutions in which bad news can travel faster than danger."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What is the main idea of the passage?",
+      "options": [
+        {"label": "A", "text": "One operator action fully explains the accident and every later consequence."},
+        {"label": "B", "text": "Every resident near the plant received the same radiation dose."},
+        {"label": "C", "text": "The disaster should be analyzed as linked technical, exposure, health, social, and governance processes supported by different kinds of evidence."},
+        {"label": "D", "text": "Every modelled case is an individually identified victim."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。四段落は事故原因、被ばく・健康影響、推計と社会的負担、情報・統治を別の因果層として接続します。Aは単一原因化、Bは被ばく経路の差を無視し、Dは集団モデルと個人同定を混同します。",
+      "sourceRefs": ["legacy:english-reading-advanced-chernobyl-causal-layers-15-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why are both “human error” alone and “design alone” incomplete explanations?",
+      "options": [
+        {"label": "A", "text": "Operator decisions interacted with test conditions, reactor characteristics, and organizational safety arrangements."},
+        {"label": "B", "text": "The accident occurred without any operator actions or reactor characteristics."},
+        {"label": "C", "text": "Only the later political response can explain the reactor explosion."},
+        {"label": "D", "text": "Design conditions and operational decisions are alternative stories that cannot both matter."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。第1段落は操作判断が試験条件、炉の特性、安全制度の中で連鎖したと説明します。Bは主要要因を消し、Cは事故後の政治を直前原因に置き換え、Dは相互作用する条件を排他的に扱っています。safety arrangement は「安全上の制度・配置」です。",
+      "sourceRefs": ["legacy:english-reading-advanced-chernobyl-causal-layers-15-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "The phrase “dose reconstruction” in paragraph 3 is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "estimating past radiation received from incomplete evidence"},
+        {"label": "B", "text": "rebuilding the reactor exactly as it was"},
+        {"label": "C", "text": "counting every later disease as radiation-caused"},
+        {"label": "D", "text": "measuring only the current weather"}
+      ],
+      "correct": "A",
+      "answer": "正解：A。事故当時の測定が不完全な場合に、場所、行動、環境測定などから過去の個人・集団線量を推定する作業です。Bは施設再建、Cは原因を一括断定し、Dは過去被ばくの推定に必要な情報を極端に狭めます。",
+      "sourceRefs": ["legacy:english-reading-advanced-chernobyl-causal-layers-15-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why can the amount released into the atmosphere not determine an individual's dose by itself?",
+      "options": [
+        {"label": "A", "text": "Dose also depends on weather, location, food pathways, time, protective action, age, and radiation type."},
+        {"label": "B", "text": "Every released particle reaches every person in exactly the same amount."},
+        {"label": "C", "text": "Only the reactor's construction date determines human exposure."},
+        {"label": "D", "text": "A release has no relationship to exposure under any conditions."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。第2段落は放出→環境中の移動→摂取・外部被ばく→人体線量の間に複数の条件があると説明します。Bは均等分布を仮定し、Cは本文にない単一要因、Dは放出と被ばくの関係そのものを否定します。dose は「人体が受けた放射線量」です。",
+      "sourceRefs": ["legacy:english-reading-advanced-chernobyl-causal-layers-15-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which longer-term radiation-related effect does the passage describe as the clearest demonstrated one?",
+      "options": [
+        {"label": "A", "text": "Increased thyroid cancer among people exposed as children or adolescents in heavily contaminated areas"},
+        {"label": "B", "text": "An identical increase in every disease among every European resident"},
+        {"label": "C", "text": "Psychological distress caused directly by ionizing radiation in every displaced person"},
+        {"label": "D", "text": "The dissolution of the Soviet Union as a biological radiation effect"}
+      ],
+      "correct": "A",
+      "answer": "正解：A。第2段落は高汚染地域で小児・青年期に被ばくした集団の甲状腺がん増加を、最も明確に示された長期影響とします。Bは範囲を無制限に広げ、Cは心理的影響の経路を誤り、Dは政治史を生物影響にします。",
+      "sourceRefs": ["legacy:english-reading-advanced-chernobyl-causal-layers-15-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why must a projected number of cases be distinguished from individually identified cases?",
+      "options": [
+        {"label": "A", "text": "A risk model estimates an expected excess in a population from assumptions, but it cannot normally identify which particular person's disease was caused by radiation."},
+        {"label": "B", "text": "A projected number is always a complete list containing every affected person's name."},
+        {"label": "C", "text": "Population models use no dose information or uncertainty."},
+        {"label": "D", "text": "Individual diagnoses make population risk estimation unnecessary."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。モデルは確率的な追加リスクを集団単位で推定しますが、多くの疾患では個別症例の原因を一件ずつ識別できません。Bは推計を名簿と混同し、Cはモデルの入力を否定し、Dは集団保護に必要な推計の役割を消します。projected は「推計された」です。",
+      "sourceRefs": ["legacy:english-reading-advanced-chernobyl-causal-layers-15-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why can psychological distress, displacement, and stigma be treated as important harms without calling them direct biological effects of radiation?",
+      "options": [
+        {"label": "A", "text": "Different causal pathways can still produce real losses of health, housing, work, community, and trust; accurate classification helps design suitable support."},
+        {"label": "B", "text": "Only direct ionizing-radiation effects can count as real health or social burdens."},
+        {"label": "C", "text": "Classifying causal pathways proves that displaced people experienced no harm."},
+        {"label": "D", "text": "Psychological and social outcomes are identical to acute radiation syndrome."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。第3段落は原因経路を区別しながら、移住、烙印、生計・信頼の喪失を実在する負担と認めます。BとCは分類を被害否定に変え、Dは社会心理的経路と高線量被ばくの急性症候群を混同します。stigma は「社会的な烙印」です。",
+      "sourceRefs": ["legacy:english-reading-advanced-chernobyl-causal-layers-15-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which option best explains the metaphor that bad news must travel faster than danger?",
+      "options": [
+        {"label": "A", "text": "Safety institutions should punish early problem reports so that unverified information cannot circulate."},
+        {"label": "B", "text": "Workers must be able to report hazards quickly, and credible information must reach independent review and decision makers before the physical danger spreads."},
+        {"label": "C", "text": "Technical redesign makes communication and governance unnecessary."},
+        {"label": "D", "text": "Information should be delayed until every uncertainty has disappeared."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。「学習には、悪い知らせが危険より速く伝わる制度が必要である」という比喩で、問題報告を抑圧せず迅速に意思決定へ届ける安全文化を示します。AとDは遅延を生み、Cは技術と制度の両方が必要という結論を否定します。",
+      "sourceRefs": ["legacy:english-reading-advanced-chernobyl-causal-layers-15-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which information system would best apply the passage's lesson after a major accident?",
+      "options": [
+        {"label": "A", "text": "Require immediate reporting of defined safety indicators to an independent regulator; publish data, methods, uncertainty, revisions, decision thresholds, and an auditable timeline while protecting hazard reporters."},
+        {"label": "B", "text": "Allow operators to release only final conclusions after all public decisions have already been made."},
+        {"label": "C", "text": "Silently replace earlier statements whenever measurements change so that no inconsistency remains visible."},
+        {"label": "D", "text": "Use separate unverified messages from every agency and prevent independent laboratories from reproducing measurements."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。Aは速報性、独立性、再現性、不確実性、訂正履歴、内部通報者保護を統合します。Bは意思決定より情報を遅らせ、Cは監査可能性を失い、Dは信頼できる共通情報経路と独立検証を妨げます。auditable history は「監査できる記録」です。",
+      "sourceRefs": ["legacy:english-reading-advanced-chernobyl-causal-layers-15-q9"]
+    }
+  ]
+}
