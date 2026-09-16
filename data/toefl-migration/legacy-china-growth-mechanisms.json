@@ -1,0 +1,132 @@
+{
+  "id": "legacy-china-growth-mechanisms",
+  "title": "Interacting Mechanisms of China's Economic Growth",
+  "task": 3,
+  "date": "2026-09-16T17:00:00+09:00",
+  "level": "B2–C1",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "四つの原文段落と全九つの学習対象を保持し、元の記述問題を英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-advanced-china-growth-mechanisms-07/",
+  "passages": {
+    "text": "China's economic transformation after the late 1970s is often compressed into a slogan: the country opened its markets and became the world's factory. The slogan identifies a direction but not a mechanism. Early rural reforms gave households stronger incentives and released labor from agriculture. Special economic zones tested new rules for investment and production. Local experimentation allowed some policies to expand after evidence of success, although implementation and benefits varied greatly by region.\n\nManufacturing growth then combined several inputs: a large labor force, domestic saving, foreign investment, imported knowledge, infrastructure, education, and access to overseas demand. Their interaction matters. A port has little value without roads and reliable firms; foreign machinery produces less without workers who can operate and adapt it. Growth therefore cannot be assigned to labor cost alone. Productivity depends on how resources, skills, technology, and institutions are connected.\n\nChina joined the World Trade Organization in December 2001 after lengthy negotiations. Membership deepened integration and encouraged rule changes, but it did not begin reform from zero. Nor did membership mechanically cause every later export or investment. Firms, governments, consumers, and trading partners responded to new opportunities and constraints. The proper causal claim is that accession altered incentives and credibility within an already developing process.\n\nAggregate success also hides distribution. Rapid urbanization and industrialization raised incomes and reduced material deprivation for many people, while generating regional gaps, labor insecurity, pollution, resource pressure, and difficult adjustments for workers exposed to competition. These outcomes are not footnotes to growth; they help define its quality. A complete evaluation asks who gained, who bore transition costs, whether productivity improvements were durable, and which institutions could correct environmental and social damage."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What is the main idea of the passage?",
+      "options": [
+        {"label": "A", "text": "One international agreement fully explains China's economic transformation."},
+        {"label": "B", "text": "Growth should be analyzed through interacting domestic reforms, capabilities, international integration, and distributed costs."},
+        {"label": "C", "text": "Infrastructure creates growth independently of firms, skills, and institutions."},
+        {"label": "D", "text": "Aggregate growth makes distributional and environmental effects irrelevant."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。第1段落は国内改革、第2段落は投入要素の補完関係、第3段落は国際統合、第4段落は利益と費用の分布を扱います。Aは単一原因化、CとDは本文と反対です。",
+      "sourceRefs": ["legacy:english-reading-advanced-china-growth-mechanisms-07-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why is the slogan that China “became the world's factory” not a sufficient explanation of growth?",
+      "options": [
+        {"label": "A", "text": "It names an outcome but does not explain how reforms, capital, skills, infrastructure, technology, and demand interacted."},
+        {"label": "B", "text": "It proves that rural reforms and special economic zones never occurred."},
+        {"label": "C", "text": "It shows that labor cost was the only input that mattered."},
+        {"label": "D", "text": "It gives a complete physical description of every factory."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。スローガンは工業化という方向・結果を示しますが、複数要因がどう接続したかという機構を説明しません。BとCは本文の要因を消し、Dは説明範囲を取り違えています。",
+      "sourceRefs": ["legacy:english-reading-advanced-china-growth-mechanisms-07-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "The word “productivity” in paragraph 2 is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "output produced relative to inputs"},
+        {"label": "B", "text": "the number of laws announced"},
+        {"label": "C", "text": "the price of one imported machine"},
+        {"label": "D", "text": "population size alone"}
+      ],
+      "correct": "A",
+      "answer": "正解：A。productivityは労働や資本などの投入に対して得られる産出を指します。B～Dは投入と産出の比率を表しません。",
+      "sourceRefs": ["legacy:english-reading-advanced-china-growth-mechanisms-07-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What do the examples of ports, roads, firms, machinery, and skilled workers demonstrate?",
+      "options": [
+        {"label": "A", "text": "Each input produces the same benefit regardless of the other inputs."},
+        {"label": "B", "text": "Inputs can be complementary, so the value of one depends on connections with others."},
+        {"label": "C", "text": "Imported machinery eliminates the need for education."},
+        {"label": "D", "text": "Ports are the only infrastructure relevant to manufacturing."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。港は道路や企業がなければ価値が小さく、機械も操作・改良できる労働者が必要です。これは要素間の補完性を示します。A・C・Dは相互依存を無視します。",
+      "sourceRefs": ["legacy:english-reading-advanced-china-growth-mechanisms-07-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why should China's 2001 WTO accession not be described as the beginning of reform?",
+      "options": [
+        {"label": "A", "text": "Rural reforms and special economic zones had already developed before accession."},
+        {"label": "B", "text": "Accession occurred before the late 1970s."},
+        {"label": "C", "text": "Membership produced no changes in rules or incentives."},
+        {"label": "D", "text": "China never joined the organization."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。加盟以前から農村改革や経済特区などが進んでいたため、加盟は既存過程の条件を変えた転機であって起点ではありません。B～Dは本文の年代・効果・事実と矛盾します。",
+      "sourceRefs": ["legacy:english-reading-advanced-china-growth-mechanisms-07-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why is “accession altered incentives and credibility” more defensible than “accession caused every later export”?",
+      "options": [
+        {"label": "A", "text": "The first claim allows firms, governments, consumers, and partners to mediate the response to changed rules."},
+        {"label": "B", "text": "The first claim denies that accession changed any opportunity or constraint."},
+        {"label": "C", "text": "Every export after accession had exactly one cause."},
+        {"label": "D", "text": "Credibility is unrelated to economic decisions."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。加盟は規則や期待を変えますが、実際の輸出・投資には多様な主体の反応が介在します。Aはその因果経路を残し、B～Dは本文の慎重な因果表現を否定します。",
+      "sourceRefs": ["legacy:english-reading-advanced-china-growth-mechanisms-07-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why are total output and average income insufficient measures of the quality of growth?",
+      "options": [
+        {"label": "A", "text": "Benefits and transition costs can differ across regions, sectors, income groups, and generations, while pollution and insecurity may be hidden by averages."},
+        {"label": "B", "text": "Aggregate measures already reveal every individual outcome."},
+        {"label": "C", "text": "Environmental damage always increases average income by the same amount."},
+        {"label": "D", "text": "Distribution matters only when total output falls."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。集計値は誰が利益を得て誰が移行費用や環境損失を負ったかを隠し得ます。Bは集計と分布を混同し、C・Dは本文にない限定です。",
+      "sourceRefs": ["legacy:english-reading-advanced-china-growth-mechanisms-07-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does the sentence “These outcomes are not footnotes to growth; they help define its quality” mean?",
+      "options": [
+        {"label": "A", "text": "Regional gaps, insecurity, pollution, and adjustment costs are minor details that can be omitted."},
+        {"label": "B", "text": "The costs and distribution of growth are central to judging its quality, not optional side notes."},
+        {"label": "C", "text": "Only literal footnotes can contain reliable economic data."},
+        {"label": "D", "text": "Growth quality is identical to the volume of exports."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。footnotesは「周辺的で省略可能な事項」の比喩です。本文は格差・不安定・環境負荷を成長評価の中心に置きます。Aは比喩の批判対象、Cは字義的誤読、Dは評価を一指標へ縮めます。",
+      "sourceRefs": ["legacy:english-reading-advanced-china-growth-mechanisms-07-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which indicator set would best evaluate economic growth according to the passage?",
+      "options": [
+        {"label": "A", "text": "Export value alone, without information about productivity, distribution, or damage"},
+        {"label": "B", "text": "Real income, productivity, health, education, job security, regional inequality, environmental damage, mobility, and access to services, separated by affected groups"},
+        {"label": "C", "text": "The number of ports alone, regardless of road and firm connections"},
+        {"label": "D", "text": "One short-term investment figure treated as a complete measure of durable welfare"}
+      ],
+      "correct": "B",
+      "answer": "正解：B。本文は生産性の持続性、利益と費用の分布、社会・環境影響を併せて問います。Bだけが複数指標と分布を統合し、A・C・Dは単一指標へ還元しています。",
+      "sourceRefs": ["legacy:english-reading-advanced-china-growth-mechanisms-07-q9"]
+    }
+  ]
+}
