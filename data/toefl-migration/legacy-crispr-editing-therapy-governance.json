@@ -1,0 +1,132 @@
+{
+  "id": "legacy-crispr-editing-therapy-governance",
+  "title": "Genome Editing: Therapy and Governance",
+  "task": 3,
+  "date": "2026-09-16T23:00:00+09:00",
+  "level": "B2–C1",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "四つの原文段落と全九つの学習対象を保持し、元の記述問題を英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-advanced-crispr-editing-therapy-governance-40/",
+  "passages": {
+    "text": "CRISPR–Cas systems originated in microbial defense. In one widely used laboratory design, a guide RNA helps a Cas protein recognize a related DNA sequence. The protein can then cut DNA near that target. This targeting is powerful, but “molecular scissors” is only the beginning of the explanation. The cell, not the scissors alone, repairs the break, and different repair pathways can disrupt a sequence, insert material, or produce unintended outcomes.\n\nAn edit therefore depends on more than choosing a guide. Researchers must consider off-target changes, incomplete editing, differences among cells, and how the editing machinery reaches the relevant tissue. Some therapies edit a patient's cells outside the body, test and prepare them, and return them; this is ex vivo editing. Other strategies aim to deliver components directly inside the body. Each design creates different opportunities, uncertainties, and monitoring needs.\n\nClinical success must also be stated precisely. In 2023, the U.S. regulator approved a treatment using CRISPR/Cas9-edited blood-forming stem cells for certain patients with sickle cell disease. This was a major therapeutic milestone, but it did not mean that every inherited disorder had become curable or that treatment was simple. Eligibility, conditioning treatment, specialized facilities, adverse effects, durability, and access all matter.\n\nFinally, editing a patient's somatic cells differs ethically from changing eggs, sperm, or embryos in ways that may be inherited. Germline interventions affect future persons who cannot consent and may introduce changes into later generations. Safety is essential but not sufficient: societies must also debate fairness, disability perspectives, enhancement, oversight, and who decides acceptable uses. Responsible governance neither treats uncertainty as a reason to ban every study nor treats technical capability as permission."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What is the main idea of the passage?",
+      "options": [
+        {"label": "A", "text": "Cas cutting alone determines every final DNA outcome."},
+        {"label": "B", "text": "Genome editing must be evaluated through targeting, repair, delivery, clinical design, and governance."},
+        {"label": "C", "text": "One approved treatment proves that all genetic diseases are curable."},
+        {"label": "D", "text": "Technical feasibility automatically makes germline use ethical."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。四段落は標的化と修復、送達、臨床上の制約、倫理・統治を順に扱います。Aは細胞修復を、Cは承認範囲を、Dは技術と倫理の区別を無視します。",
+      "sourceRefs": ["legacy:english-reading-advanced-crispr-editing-therapy-governance-40-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which option correctly describes the roles of guide RNA, Cas protein, and cellular repair?",
+      "options": [
+        {"label": "A", "text": "Guide RNA helps recognize the target, Cas cuts nearby DNA, and cellular repair influences the final sequence outcome."},
+        {"label": "B", "text": "Guide RNA repairs the break, Cas selects patients, and the cell only transports the treatment."},
+        {"label": "C", "text": "Cas determines every outcome without any contribution from the cell."},
+        {"label": "D", "text": "Cellular repair prevents all insertions, disruptions, and unintended outcomes."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。ガイドRNAは標的認識を助け、Casは近傍DNAを切断し、その後の細胞修復経路が破壊・挿入などの最終結果を左右します。B～Dは役割を入れ替えるか修復の多様性を否定します。",
+      "sourceRefs": ["legacy:english-reading-advanced-crispr-editing-therapy-governance-40-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "The word “durability” in paragraph 3 is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "the ability of an effect to last"},
+        {"label": "B", "text": "the exact location of a cut"},
+        {"label": "C", "text": "the price of laboratory equipment"},
+        {"label": "D", "text": "permission to edit embryos"}
+      ],
+      "correct": "A",
+      "answer": "正解：A。durabilityは治療効果が時間を超えて持続する性質です。Bは標的位置、Cは費用、Dは倫理・規制上の許可であり意味が異なります。",
+      "sourceRefs": ["legacy:english-reading-advanced-crispr-editing-therapy-governance-40-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why is the metaphor “molecular scissors” an incomplete explanation of genome editing?",
+      "options": [
+        {"label": "A", "text": "The cell's repair pathways can create different outcomes, while off-target changes, incomplete editing, cell differences, and delivery also matter."},
+        {"label": "B", "text": "CRISPR systems cannot cut DNA under any conditions."},
+        {"label": "C", "text": "Every cut produces the same sequence in every cell."},
+        {"label": "D", "text": "The metaphor already includes all clinical and ethical consequences."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。切断は一段階にすぎず、修復経路が結果を分け、標的外変化・編集の不完全性・細胞差・送達も影響します。B～Dは本文の説明を否定または過度に一般化します。",
+      "sourceRefs": ["legacy:english-reading-advanced-crispr-editing-therapy-governance-40-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "How does ex vivo editing differ from an in vivo strategy?",
+      "options": [
+        {"label": "A", "text": "Ex vivo editing removes a patient's cells for editing, testing, and preparation before returning them; in vivo strategies deliver components directly inside the body."},
+        {"label": "B", "text": "Ex vivo editing changes embryos, while in vivo editing can affect only bacteria."},
+        {"label": "C", "text": "Ex vivo editing requires no monitoring or preparation."},
+        {"label": "D", "text": "The two strategies use identical delivery routes and create identical uncertainties."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。ex vivoは細胞を体外で編集・検査・準備して戻し、in vivoは編集要素を体内の標的組織へ直接届けます。B～Dは工程や不確実性の違いを誤ります。",
+      "sourceRefs": ["legacy:english-reading-advanced-crispr-editing-therapy-governance-40-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which inference is best supported by the passage?",
+      "options": [
+        {"label": "A", "text": "Approval for one indication removes the need for long-term monitoring."},
+        {"label": "B", "text": "Delivery becomes irrelevant once a guide RNA is designed."},
+        {"label": "C", "text": "A successful therapy can still have limits involving eligibility, treatment burden, durability, and access."},
+        {"label": "D", "text": "Somatic and germline editing affect only the treated person in the same way."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。承認は重要な成果でも、適格性、前処置、専門施設、副作用、持続性、アクセスが残ります。Aは監視、Bは送達、Dは世代影響を無視します。",
+      "sourceRefs": ["legacy:english-reading-advanced-crispr-editing-therapy-governance-40-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What can and cannot be concluded from the 2023 approval described in the passage?",
+      "options": [
+        {"label": "A", "text": "It shows that a specific design became an option for certain patients after regulatory review, but it does not show that every inherited disorder is easily or permanently curable."},
+        {"label": "B", "text": "It proves that all patients with any inherited condition can receive the same simple treatment."},
+        {"label": "C", "text": "It shows that conditioning, specialized facilities, and adverse effects no longer matter."},
+        {"label": "D", "text": "It establishes that every future germline intervention is ethically acceptable."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。承認は特定設計・特定患者群についての規制判断であり、全疾患への一般化ではありません。B～Dは対象、治療負担、倫理的含意を過度に広げます。",
+      "sourceRefs": ["legacy:english-reading-advanced-crispr-editing-therapy-governance-40-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does the statement “Safety is essential but not sufficient” mean in paragraph 4?",
+      "options": [
+        {"label": "A", "text": "Acceptable safety is necessary, but it does not by itself settle fairness, consent, disability perspectives, enhancement, oversight, or decision-making authority."},
+        {"label": "B", "text": "Safety evidence is unnecessary whenever editing is technically possible."},
+        {"label": "C", "text": "A safe intervention is automatically fair and accessible."},
+        {"label": "D", "text": "Ethical questions matter only when an intervention is known to be unsafe."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。安全性は必要条件ですが、社会的正当性の十分条件ではありません。公平性、同意、障害観、能力強化、監督、決定権も検討が必要です。B～Dは必要条件と十分条件を混同します。",
+      "sourceRefs": ["legacy:english-reading-advanced-crispr-editing-therapy-governance-40-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which statement best corrects the claim that cutting the intended DNA makes an edit precise, safe, and socially desirable?",
+      "options": [
+        {"label": "A", "text": "Target cutting is one stage; repair outcomes, off-target effects, incomplete editing, delivery, durability, monitoring, consent, fairness, access, and governance must also be evaluated."},
+        {"label": "B", "text": "Correct targeting guarantees identical repair in every cell and eliminates all clinical burdens."},
+        {"label": "C", "text": "Technical accuracy alone gives permission for inheritable changes."},
+        {"label": "D", "text": "Uncertainty requires banning every genome-editing study permanently."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。本文は分子的精度、臨床的価値、社会的正当性を別々に検討します。B・Cは標的切断を十分条件にし、Dは責任ある統治を全面禁止へ置き換えます。",
+      "sourceRefs": ["legacy:english-reading-advanced-crispr-editing-therapy-governance-40-q9"]
+    }
+  ]
+}
