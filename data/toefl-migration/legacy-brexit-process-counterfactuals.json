@@ -1,0 +1,132 @@
+{
+  "id": "legacy-brexit-process-counterfactuals",
+  "title": "Brexit as a Process and a Measurement Problem",
+  "task": 3,
+  "date": "2026-09-16T10:00:00+09:00",
+  "level": "B2–C1",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "本文と元教材の解説から一意に判断できる正答を編集・確認しています。四つの原文段落と全九つの学習対象を保持し、元の記述問題は英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-advanced-brexit-process-counterfactuals-08/",
+  "passages": {
+    "text": "In June 2016, voters in the United Kingdom chose by a narrow majority to leave the European Union. The result supplied a political mandate, but it did not itself rewrite treaties or end membership that morning. The government later notified the Union of its intention to withdraw under Article 50. Negotiations, parliamentary disputes, elections, and changes of government followed. The United Kingdom formally left on 31 January 2020, while many existing arrangements continued during a transition period until the end of that year.\n\nSupporters of leaving emphasized national decision-making, control over rules, and the ability to design independent trade and migration policies. Opponents emphasized the value of shared rules, easier exchange, and influence within common institutions. These positions cannot be tested by asking whether “sovereignty” or “cooperation” is good in the abstract. Authority may return to one institution while firms face new documentation, local governments gain or lose room to act, and a country has less influence over rules it must still consider when trading.\n\nThe vote also did not reveal one uniform national preference. Nations, regions, age groups, educational groups, and local economies displayed different patterns. Such correlations do not prove why any individual voted. They do show why the phrase “the people wanted” can conceal a divided electorate. Democratic legitimacy includes the aggregate decision, but analysis must also examine how institutions translate a close result into durable policy and how costs are distributed among people who chose differently.\n\nEconomic assessment is especially difficult because the observed United Kingdom after 2016 cannot be compared with an identical country that remained. Analysts construct counterfactuals from forecasts, comparable economies, pre-existing trends, and models. Each method has assumptions. Later shocks, including the pandemic and energy-price changes, complicate attribution. A responsible conclusion therefore states the outcome measured, the comparison used, the time horizon, and uncertainty. Leaving was real; a single number claiming to capture all its consequences is not."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What is the main idea of the passage?",
+      "options": [
+        {"label": "A", "text": "The 2016 referendum instantly ended every legal relationship between the United Kingdom and the European Union."},
+        {"label": "B", "text": "Withdrawal should be analyzed as a staged process with contested objectives, divided preferences, and uncertain measured effects."},
+        {"label": "C", "text": "Every voter supported leaving for the same reason."},
+        {"label": "D", "text": "All later economic outcomes can be assigned to one cause without a comparison."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。第1段落は段階的離脱、第2・3段落は権限と選好の異質性、第4段落は効果測定の不確実性を扱います。Aは法的過程を省略し、Cは分断を否定し、Dは反実仮想と後発ショックを無視します。mandate は「政策を進める政治的根拠」です。",
+      "sourceRefs": ["legacy:english-reading-advanced-brexit-process-counterfactuals-08-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why must the referendum result be distinguished from the United Kingdom's legal withdrawal?",
+      "options": [
+        {"label": "A", "text": "The vote supplied a political mandate, but notification, negotiation, parliamentary action, formal withdrawal, and a transition period were still required to change institutions."},
+        {"label": "B", "text": "The referendum occurred after the transition period had already ended."},
+        {"label": "C", "text": "A referendum can automatically rewrite international treaties without government or parliamentary action."},
+        {"label": "D", "text": "The vote had no political meaning and was unrelated to the later withdrawal."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。第1段落は2016年の政治的決定からArticle 50通知、交渉、国内政治、2020年1月の正式離脱、同年末までの移行を区別します。Bは時系列が逆、Cは制度過程を消し、Dはmandateとしての意味を否定しています。",
+      "sourceRefs": ["legacy:english-reading-advanced-brexit-process-counterfactuals-08-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "The word “counterfactual” in paragraph 4 is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "the outcome actually observed after a policy"},
+        {"label": "B", "text": "an estimate of what might have happened without the policy"},
+        {"label": "C", "text": "a formal legal notice of withdrawal"},
+        {"label": "D", "text": "a complete list of individual votes"}
+      ],
+      "correct": "B",
+      "answer": "正解：B。反実仮想は、政策がなかった場合の未観測の比較世界をデータと仮定から推定したものです。Aは現実に観測された結果、CはArticle 50の通知、Dは投票記録であり、政策効果の比較対象ではありません。",
+      "sourceRefs": ["legacy:english-reading-advanced-brexit-process-counterfactuals-08-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "How does the passage challenge the idea that authority simply rises or falls in one direction?",
+      "options": [
+        {"label": "A", "text": "It argues that sovereignty can be measured only by counting referendum ballots."},
+        {"label": "B", "text": "It shows that central decision-making, business documentation, local room to act, and influence over external rules can change differently."},
+        {"label": "C", "text": "It claims that leaving an institution necessarily gives every level of government more power."},
+        {"label": "D", "text": "It treats cooperation and national authority as mutually exclusive in every policy area."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。第2段落は、権限がある機関へ戻る一方で企業負担が増え、地方の裁量や国外規則への影響力は別方向に動き得ると述べます。Aは投票数だけへ還元し、CとDは複数の制度層を一方向へ単純化しています。documentation は「手続書類」です。",
+      "sourceRefs": ["legacy:english-reading-advanced-brexit-process-counterfactuals-08-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why is the phrase “the people wanted” analytically incomplete in this case?",
+      "options": [
+        {"label": "A", "text": "Because no aggregate result was produced by the referendum"},
+        {"label": "B", "text": "Because a narrow aggregate majority coexisted with different patterns across nations, regions, ages, education groups, and local economies"},
+        {"label": "C", "text": "Because democratic legitimacy requires every voter to make the same choice"},
+        {"label": "D", "text": "Because only local governments, rather than individuals, were allowed to vote"}
+      ],
+      "correct": "B",
+      "answer": "正解：B。第3段落は集計上の決定の正統性を認めつつ、有権者が一枚岩ではなかったことを示します。Aは多数決結果の存在を否定し、Cは民主主義に全員一致を要求し、Dは投票主体を取り違えています。electorate は「有権者全体」です。",
+      "sourceRefs": ["legacy:english-reading-advanced-brexit-process-counterfactuals-08-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why can voting patterns by region or age group not establish any particular individual's motive?",
+      "options": [
+        {"label": "A", "text": "Group-level correlations do not show that every individual within a group voted the same way for the same reason."},
+        {"label": "B", "text": "Individual votes can never be studied with any kind of evidence."},
+        {"label": "C", "text": "Age and region were identical for every voter."},
+        {"label": "D", "text": "The referendum recorded motives rather than choices."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。集団の相関を個人へそのまま移すと生態学的誤謬になります。同じ地域や年齢層でも投票先と理由は多様です。Bは個人研究そのものを不可能とし、Cは明白に誤り、Dは投票が動機を直接記録したと誤読しています。",
+      "sourceRefs": ["legacy:english-reading-advanced-brexit-process-counterfactuals-08-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why are post-withdrawal outcomes alone insufficient to measure the effect of leaving the European Union?",
+      "options": [
+        {"label": "A", "text": "Because an identical United Kingdom that remained cannot be observed, and later shocks such as the pandemic and energy-price changes also affected outcomes"},
+        {"label": "B", "text": "Because economic outcomes can be measured only before a policy begins"},
+        {"label": "C", "text": "Because comparable economies and pre-existing trends contain no useful information"},
+        {"label": "D", "text": "Because every post-2016 change must have been caused by withdrawal"}
+      ],
+      "correct": "A",
+      "answer": "正解：A。第4段落は観測できない反実仮想と、パンデミックやエネルギー価格など同時期のショックを効果測定の難点とします。Bは事後測定を全面否定し、Cは本文が使う比較材料を捨て、Dは帰属の問題を無視します。attribution は「結果を特定原因へ帰属させること」です。",
+      "sourceRefs": ["legacy:english-reading-advanced-brexit-process-counterfactuals-08-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which option best expresses the meaning and contrast of the final sentence?",
+      "options": [
+        {"label": "A", "text": "Withdrawal did not happen, but one perfect statistic proves all of its effects."},
+        {"label": "B", "text": "Withdrawal was a real event, but no single number can credibly capture all of its different consequences, comparisons, time horizons, and uncertainties."},
+        {"label": "C", "text": "Because withdrawal was real, measurement assumptions and uncertainty no longer matter."},
+        {"label": "D", "text": "Only legal consequences are real; economic and social outcomes cannot be studied."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。「離脱は現実だが、その全帰結を捉えると主張する単一数値はそうではない」という対比です。出来事の存在と指標の過剰な完全性を分けます。Aは前半を否定し、Cは不確実性を消し、Dは研究可能性を不当に否定します。",
+      "sourceRefs": ["legacy:english-reading-advanced-brexit-process-counterfactuals-08-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which research design best follows the passage's advice for estimating one economic effect of withdrawal?",
+      "options": [
+        {"label": "A", "text": "Choose any national statistic after 2016 and label every change a withdrawal effect."},
+        {"label": "B", "text": "Define a specific outcome, compare more- and less-exposed products before and after new arrangements, test pre-policy trends, control for later shocks, and report sensitivity to comparison groups and time windows."},
+        {"label": "C", "text": "Interview one exporter and generalize the answer to every firm, region, and policy consequence."},
+        {"label": "D", "text": "Avoid stating assumptions or uncertainty so that the estimate appears precise."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。Bは結果指標、比較対象、事前トレンド、交絡する後発ショック、異質性、不確実性を明示します。Aは単純な前後比較、Cは一例の過度な一般化、Dは仮定を隠して見かけの精密さを作るため、本文のresponsible conclusionと反対です。",
+      "sourceRefs": ["legacy:english-reading-advanced-brexit-process-counterfactuals-08-q9"]
+    }
+  ]
+}
