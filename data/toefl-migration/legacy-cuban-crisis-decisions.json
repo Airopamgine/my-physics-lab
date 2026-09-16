@@ -1,0 +1,132 @@
+{
+  "id": "legacy-cuban-crisis-decisions",
+  "title": "Decision-Making in the Cuban Missile Crisis",
+  "task": 3,
+  "date": "2026-09-16T23:00:00+09:00",
+  "level": "B2–C1",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "四つの原文段落と全九つの学習対象を保持し、元の記述問題を英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-advanced-cuban-crisis-decisions-01/",
+  "passages": {
+    "text": "In October 1962, aerial photographs provided evidence that the Soviet Union was installing nuclear-capable missiles in Cuba. The photographs did not dictate a single response. Advisers considered air strikes, invasion, diplomacy, and an interception of further military shipments. Each option combined uncertain benefits with risks, including escalation between nuclear-armed states.\n\nThe United States announced a naval *quarantine* rather than a blockade. The distinction was not cosmetic. A blockade could imply that a state of war already existed, whereas the chosen term supported a legal and diplomatic argument for a limited action. It also bought time: ships could change course, messages could travel, and leaders could reconsider before an irreversible attack.\n\nCommunication was neither simple nor perfectly transparent. Public messages demanded the removal of the missiles and included an assurance against invading Cuba. A private understanding also addressed U.S. missiles in Turkey, which were to be removed later under conditions that avoided presenting the settlement as a direct public trade. The outcome therefore depended on both visible commitments and concealed bargaining.\n\nCalling the resolution a victory for one side hides the deeper lesson. Leaders did exercise judgment, but institutions, advisers, military procedures, chance events, and the opponent's choices all shaped the result. A useful history of the crisis asks not only who appeared strong, but which actions reduced the number of ways in which fear, misreading, or loss of face could produce catastrophe."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What is the main idea of the passage?",
+      "options": [
+        {"label": "A", "text": "Aerial photographs automatically required an immediate invasion."},
+        {"label": "B", "text": "The crisis ended because communication removed every uncertainty."},
+        {"label": "C", "text": "Crisis management involved evidence, reversible steps, careful language, and an exit acceptable enough for both sides."},
+        {"label": "D", "text": "The terms blockade and quarantine had identical diplomatic effects."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。本文は証拠から複数政策を比較し、限定的で可逆的な行動、言葉の選択、公開・非公開の交渉によって破局経路を減らしたと説明します。A・B・Dは本文と反対です。",
+      "sourceRefs": ["legacy:english-reading-advanced-cuban-crisis-decisions-01-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why did the photographs provide important evidence without determining a single policy response?",
+      "options": [
+        {"label": "A", "text": "They showed missile installation but did not determine the success, Soviet reaction, or escalation risk of each possible response."},
+        {"label": "B", "text": "They contained no information about missiles."},
+        {"label": "C", "text": "Photographs can directly measure every political value and future decision."},
+        {"label": "D", "text": "Only invasion was considered after the photographs appeared."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。観測証拠は配備を示しますが、空爆・侵攻・外交・阻止の便益とリスクを一意には決めません。政策選択には推論と価値比較が必要です。B～Dは証拠と選択肢を誤ります。",
+      "sourceRefs": ["legacy:english-reading-advanced-cuban-crisis-decisions-01-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "The word “cosmetic” in paragraph 2 is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "merely superficial"},
+        {"label": "B", "text": "mathematically exact"},
+        {"label": "C", "text": "permanently secret"},
+        {"label": "D", "text": "militarily unlimited"}
+      ],
+      "correct": "A",
+      "answer": "正解：A。cosmeticは「表面上だけの」です。本文はquarantineとblockadeの語の違いが表面的でなく、法的・外交的機能を持ったと述べます。",
+      "sourceRefs": ["legacy:english-reading-advanced-cuban-crisis-decisions-01-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "In what two ways did the quarantine buy time compared with an immediate attack?",
+      "options": [
+        {"label": "A", "text": "Ships could change course, and messages and reconsideration could occur before an irreversible strike."},
+        {"label": "B", "text": "It forced every ship to attack and ended communication."},
+        {"label": "C", "text": "It made all military actions irreversible immediately."},
+        {"label": "D", "text": "It removed the need to observe the opponent's response."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。限定行動は船の停止・変針と、通信・再検討の余地を残しました。可逆性は誤認を訂正する時間を生みます。B～Dはその設計を逆転させます。",
+      "sourceRefs": ["legacy:english-reading-advanced-cuban-crisis-decisions-01-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which option correctly distinguishes the public and private parts of the settlement?",
+      "options": [
+        {"label": "A", "text": "Public elements included Soviet missile removal and a U.S. assurance not to invade Cuba; a private understanding addressed later removal of U.S. missiles from Turkey."},
+        {"label": "B", "text": "The Turkish missile issue was the only public demand, and Cuba was never mentioned."},
+        {"label": "C", "text": "All commitments were published immediately as a direct trade."},
+        {"label": "D", "text": "No assurance or concealed bargaining contributed to the outcome."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。公開面はソ連ミサイル撤去とキューバ不侵攻の確約、非公開面はトルコの米国ミサイル撤去に関する了解でした。B～Dは可視の確約と隠れた交渉の併存を否定します。",
+      "sourceRefs": ["legacy:english-reading-advanced-cuban-crisis-decisions-01-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why could reducing the opponent's loss of face improve one's own security?",
+      "options": [
+        {"label": "A", "text": "An opponent that can explain withdrawal without public humiliation may be less likely to escalate for domestic or alliance reasons."},
+        {"label": "B", "text": "Public humiliation always makes military withdrawal easier."},
+        {"label": "C", "text": "Security requires defeating the opponent's government rather than stopping dangerous action."},
+        {"label": "D", "text": "Loss of face has no possible effect on crisis decisions."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。相手が撤退を国内向けに説明できれば、面目維持のための軍事抵抗を選ぶ圧力が減り得ます。安全の目的は屈辱ではなく危険行動の停止です。B～Dはこの推論に反します。",
+      "sourceRefs": ["legacy:english-reading-advanced-cuban-crisis-decisions-01-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why is the summary “the crisis was a complete U.S. victory” inadequate?",
+      "options": [
+        {"label": "A", "text": "It turns a result shaped by mutual assurances, private bargaining, Soviet choices, institutions, and avoided accidents into one side's independent achievement."},
+        {"label": "B", "text": "It gives too much attention to the Soviet missiles in Cuba."},
+        {"label": "C", "text": "It correctly captures every visible and concealed commitment."},
+        {"label": "D", "text": "It proves that judgment and chance played no role."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。解決には米国の圧力だけでなく、相互確約、非公開了解、ソ連側の判断、制度や偶発事象が関わりました。B～Dは相互依存した危機回避を正確に表しません。",
+      "sourceRefs": ["legacy:english-reading-advanced-cuban-crisis-decisions-01-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does “The photographs did not dictate a single response” mean, and how would “suggest” change the meaning?",
+      "options": [
+        {"label": "A", "text": "Dictate would mean compelling one response with no alternative; suggest would mean pointing toward a response without making it necessary."},
+        {"label": "B", "text": "Dictate and suggest both mean that the photographs contained no evidence."},
+        {"label": "C", "text": "Suggest is stronger than dictate and removes all policy choice."},
+        {"label": "D", "text": "Dictate refers only to writing words below a photograph."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。dictateは他の選択を許さない強い必然性、suggestは方向を示すが強制しない弱い関係です。本文は写真が重要でも政策を一意に命じなかったと述べます。B～Dは語の強さを誤ります。",
+      "sourceRefs": ["legacy:english-reading-advanced-cuban-crisis-decisions-01-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why is a reversible first move valuable in a nuclear crisis?",
+      "options": [
+        {"label": "A", "text": "It allows leaders to test assumptions, observe responses, preserve communication, correct errors, and show resolve without making retreat impossible."},
+        {"label": "B", "text": "It guarantees complete intelligence and eliminates every accident."},
+        {"label": "C", "text": "It prevents both sides from reconsidering their actions."},
+        {"label": "D", "text": "It is valuable only because it hides all commitments from the public."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。不完全な情報下では限定的で可逆的な一手が、仮定の検査、相手反応の観察、通信、誤りの訂正を可能にします。Bは保証を強めすぎ、C・Dは可逆性の機能を誤ります。",
+      "sourceRefs": ["legacy:english-reading-advanced-cuban-crisis-decisions-01-q9"]
+    }
+  ]
+}
