@@ -1,0 +1,79 @@
+{
+  "id": "pdf-actual-test2-module2-task3",
+  "title": "Actual Test 2 · Module 2 · Pop Art and Consumerism",
+  "task": 3,
+  "date": "2026-09-22T05:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Actual Test · PDF 22–23ページ／冊子376–377ページ · 問11–15",
+  "verificationNote": "Editorial answers（編集・確認した解答）。非公開原本の本文・選択肢・挿入位置をページ単位で照合し、本文根拠から正答を作成しました。出版社の公式解答表とは未照合です。問15は原本の四つの挿入位置をA–Dで明示しています。",
+  "passages": {
+    "pop-art": "Pop art emerged in the United Kingdom in the mid-1950s in response to the consumer culture that dominated society following World War II. Artists in this movement drew inspiration for their works from everyday products, celebrities, and advertisements.\n\nPop art reached its peak in the 1960s, when American artists like Andy Warhol and Roy Lichtenstein famously embraced mass production techniques and transformed comic book imagery into large-scale paintings, before declining in influence during the 1970s as minimalism took over the art world. By treating mundane objects as worthy subjects for fine art, artists blurred the line between the “high” art typically encountered in a museum and the “low” art associated with advertising, challenging artistic conventions and inviting viewers to reconsider the value of familiar imagery.\n\nTurning their artworks into commodities that could be bought, sold, and consumed was an extension of their stance toward consumerism. In 1964, at an exhibition called The American Supermarket, fake goods such as velour-covered fruit and vegetables and Campbell’s Soup tins were displayed for sale in New York’s Bianchini Gallery. However, instead of appearing like a traditional art gallery, the space resembled a real supermarket."
+  },
+  "questions": [
+    {
+      "passageId": "pop-art",
+      "prompt": "According to the passage, pop art developed in the United Kingdom as a reaction to",
+      "options": [
+        {"label": "A", "text": "the rise of consumerism"},
+        {"label": "B", "text": "the elitism in the art world"},
+        {"label": "C", "text": "the availability of new materials"},
+        {"label": "D", "text": "the casualties of World War II"}
+      ],
+      "correct": "A",
+      "answer": "The opening sentence says pop art emerged in response to the consumer culture that dominated postwar society. 正解：A。consumer cultureは消費主義の広がりを指します。B～Dは発生理由として本文に示されていません。",
+      "sourceRefs": ["pdf:actual:p023:q11"]
+    },
+    {
+      "passageId": "pop-art",
+      "prompt": "What is suggested about minimalism?",
+      "options": [
+        {"label": "A", "text": "It rejected the use of mass production techniques."},
+        {"label": "B", "text": "It became the dominant art movement after pop art."},
+        {"label": "C", "text": "It drew inspiration from advertising and consumer culture."},
+        {"label": "D", "text": "It prompted artists to reconsider the value of familiar imagery."}
+      ],
+      "correct": "B",
+      "answer": "Pop art declined in the 1970s as minimalism took over the art world. 正解：B。took overは「主流の地位を引き継いだ」という意味です。A・C・Dは本文中でpop artに結び付く特徴です。",
+      "sourceRefs": ["pdf:actual:p023:q12"]
+    },
+    {
+      "passageId": "pop-art",
+      "prompt": "Which of the following is NOT mentioned in the passage as an approach taken by pop artists?",
+      "options": [
+        {"label": "A", "text": "Adopting manufacturing-style processes"},
+        {"label": "B", "text": "Elevating common items to the level of fine art"},
+        {"label": "C", "text": "Satirizing celebrities and commercial imagery"},
+        {"label": "D", "text": "Using comic illustrations as the basis for large artworks"}
+      ],
+      "correct": "C",
+      "answer": "The passage says artists drew inspiration from celebrities and advertisements, but it does not say they satirized them. 正解：C。Aはmass production techniques、Bはmundane objects as fine art、Dはcomic book imageryの言い換えです。",
+      "sourceRefs": ["pdf:actual:p023:q13"]
+    },
+    {
+      "passageId": "pop-art",
+      "prompt": "Why does the author mention The American Supermarket?",
+      "options": [
+        {"label": "A", "text": "To show how artists in the 1960s were critical of the commercialization of art"},
+        {"label": "B", "text": "To illustrate how pop artists applied their perspective on consumerism to their art"},
+        {"label": "C", "text": "To provide evidence that the pop art movement reached its peak in the 1960s"},
+        {"label": "D", "text": "To emphasize the importance of the exhibition to New York’s pop art scene"}
+      ],
+      "correct": "B",
+      "answer": "The exhibition is introduced immediately after the claim that turning artworks into commodities extended the artists’ stance toward consumerism. 正解：B。展示を実例として、消費主義への見方を作品と販売空間へどう適用したか示しています。",
+      "sourceRefs": ["pdf:actual:p023:q14"]
+    },
+    {
+      "passageId": "pop-art",
+      "prompt": "Where would the following sentence best fit? “This provocative display of unconventional works created by prominent artists confronted the public with the eternal question, ‘What is art?’”",
+      "options": [
+        {"label": "A", "text": "Before “Turning their artworks into commodities that could be bought, sold, and consumed ...”"},
+        {"label": "B", "text": "After “... was an extension of their stance toward consumerism.”"},
+        {"label": "C", "text": "After “... were displayed for sale in New York’s Bianchini Gallery.”"},
+        {"label": "D", "text": "After “... the space resembled a real supermarket.”"}
+      ],
+      "correct": "D",
+      "answer": "“This provocative display” refers back to the complete description of the exhibition, including its supermarket-like setting, and then concludes the paragraph’s point. 正解：D。A・Bでは指示語Thisの具体的な先行内容がまだなく、CではHowever以下の展示空間の説明を不自然に分断します。",
+      "sourceRefs": ["pdf:actual:p023:q15"]
+    }
+  ]
+}
