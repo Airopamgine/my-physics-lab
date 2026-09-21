@@ -775,12 +775,12 @@
     }
   ],
   "lastSource": {
-    "type": "pdf",
+    "type": "legacy",
     "ids": [
-      "pdf-actual-test2-module2-task1",
-      "pdf-actual-test2-module2-task3"
+      "legacy-supernova-pathways-elements",
+      "legacy-tohoku-disaster-risk-layers"
     ],
-    "convertedAt": "2026-09-22T05:00:00+09:00"
+    "convertedAt": "2026-09-22T07:00:00+09:00"
   },
   "blockedItems": [
     {
