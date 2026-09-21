@@ -91,7 +91,12 @@
         11,
         12,
         13,
-        14
+        14,
+        16,
+        17,
+        18,
+        19,
+        20
       ],
       "packets": [
         {
@@ -187,7 +192,26 @@
           "pdf:actual:p014:q18",
           "pdf:actual:p014:q19",
           "pdf:actual:p014:q20"
-        ]
+        ],
+        "16": [
+          "pdf:actual:p016:q23",
+          "pdf:actual:p016:q24",
+          "pdf:actual:p016:q25"
+        ],
+        "17": [
+          "pdf:actual:p017:q26",
+          "pdf:actual:p017:q27",
+          "pdf:actual:p017:q28"
+        ],
+        "18": [],
+        "19": [
+          "pdf:actual:p019:q29",
+          "pdf:actual:p019:q30",
+          "pdf:actual:p019:q31",
+          "pdf:actual:p019:q32",
+          "pdf:actual:p019:q33"
+        ],
+        "20": []
       }
     },
     {
@@ -331,7 +355,12 @@
         17,
         18,
         19,
-        20
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
       ],
       "packets": [
         {
@@ -462,6 +491,29 @@
         "20": [
           "pdf:task2:p020:q01",
           "pdf:task2:p020:q02"
+        ],
+        "21": [
+          "pdf:task2:p021:q03",
+          "pdf:task2:p021:q04"
+        ],
+        "22": [
+          "pdf:task2:p022:q05",
+          "pdf:task2:p022:q06"
+        ],
+        "23": [
+          "pdf:task2:p023:q07",
+          "pdf:task2:p023:q08",
+          "pdf:task2:p023:q09"
+        ],
+        "24": [
+          "pdf:task2:p024:q10",
+          "pdf:task2:p024:q11",
+          "pdf:task2:p024:q12"
+        ],
+        "25": [
+          "pdf:task2:p025:q13",
+          "pdf:task2:p025:q14",
+          "pdf:task2:p025:q15"
         ]
       }
     },
@@ -672,18 +724,46 @@
           "pdf:vocabulary:p002:qdynamic",
           "pdf:vocabulary:p002:qefficiently",
           "pdf:vocabulary:p002:qengaging",
-          "pdf:vocabulary:p002:qerasure"
+          "pdf:vocabulary:p002:qerasure",
+          "pdf:vocabulary:p002:qesteem",
+          "pdf:vocabulary:p002:qfabric",
+          "pdf:vocabulary:p002:qfertile",
+          "pdf:vocabulary:p002:qfoster",
+          "pdf:vocabulary:p002:qfunction",
+          "pdf:vocabulary:p002:qimplementation",
+          "pdf:vocabulary:p002:qindicator",
+          "pdf:vocabulary:p002:qinformed",
+          "pdf:vocabulary:p002:qinstallment",
+          "pdf:vocabulary:p002:qinterruption",
+          "pdf:vocabulary:p002:qinvader",
+          "pdf:vocabulary:p002:qlandform",
+          "pdf:vocabulary:p002:qlavish",
+          "pdf:vocabulary:p002:qlikewise",
+          "pdf:vocabulary:p002:qmassive",
+          "pdf:vocabulary:p002:qmitigation",
+          "pdf:vocabulary:p002:qoffspring",
+          "pdf:vocabulary:p002:qpattern",
+          "pdf:vocabulary:p002:qpolicy",
+          "pdf:vocabulary:p002:qproximity"
         ]
       }
     }
   ],
   "lastSource": {
-    "type": "legacy",
+    "type": "pdf",
     "ids": [
-      "legacy-urban-park-design-equity",
-      "legacy-wind-pollination-tradeoffs"
+      "pdf-actual-test2-module1-task2",
+      "pdf-actual-test2-module1-task3"
     ],
-    "convertedAt": "2026-09-16T00:00:00+09:00"
+    "convertedAt": "2026-09-21T21:00:00+09:00"
   },
+  "blockedItems": [
+    {
+      "source": "actual",
+      "pages": [15],
+      "items": ["pdf:actual:p015:q21", "pdf:actual:p015:q22"],
+      "reason": "The email body is partially missing from the available page extraction. Hold until the full-resolution page can be read; do not infer the two answers from incomplete text."
+    }
+  ],
   "note": "Packet paths describe a private working cache, not published files. Exact question totals require review. Answer pages referenced by the books were not supplied."
 }

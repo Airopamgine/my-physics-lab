@@ -1,0 +1,79 @@
+{
+  "id": "pdf-actual-test2-module1-task3",
+  "title": "Actual Test 2 · Module 1 · Medieval Guilds",
+  "task": 3,
+  "date": "2026-09-21T21:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Actual Test · PDF 18–19ページ／冊子372–373ページ · 問29–33",
+  "verificationNote": "Editorial answers（編集・確認した解答）。非公開原本の本文・選択肢をページ単位で照合し、本文根拠から正答を作成しました。出版社の公式解答表とは未照合です。",
+  "passages": {
+    "guilds": "From the 11th to the 16th centuries, guilds flourished across Europe. These professional associations brought together those who practiced the same trade within a particular area. Guilds operated within a hierarchy, allowing members to move upward based on experience. Youths trained as apprentices for several years before becoming journeymen capable of working for wages, and those talented enough could go on to become masters. However, achieving this status not only required the presentation of a ‘masterpiece’ that met guild standards but also the funds to finance a workshop, tools, and a celebratory banquet.\n\nThis was only one of many rules guilds had; wages were controlled, and workers were prohibited from forming their own associations, a restriction that led to revolts in Flanders and Florence.\n\nGuild entry became increasingly difficult over time as established members raised membership fees. These fees helped fund administrative costs and provided services such as healthcare and funeral expenses for members. While the guild system limited competition and maintained high standards within the guilds, it also reinforced inequality. It served to protect the economic and social standing of those in charge, distancing them from workers who lacked the resources or skills to run their own businesses."
+  },
+  "questions": [
+    {
+      "passageId": "guilds",
+      "prompt": "The word “hierarchy” in the passage is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "tradition"},
+        {"label": "B", "text": "ranking"},
+        {"label": "C", "text": "setting"},
+        {"label": "D", "text": "routine"}
+      ],
+      "correct": "B",
+      "answer": "Apprentices, journeymen, and masters occupied progressively higher positions, so hierarchy means a ranking system. 正解：B。traditionは伝統、settingは環境、routineは日課で、地位の段階を表しません。",
+      "sourceRefs": ["pdf:actual:p019:q29"]
+    },
+    {
+      "passageId": "guilds",
+      "prompt": "What is indicated in the passage about journeymen?",
+      "options": [
+        {"label": "A", "text": "They received payment in exchange for their labor."},
+        {"label": "B", "text": "They trained apprentices as part of their job."},
+        {"label": "C", "text": "They used tools provided by the guild."},
+        {"label": "D", "text": "They were required to have their own workshop."}
+      ],
+      "correct": "A",
+      "answer": "The passage defines journeymen as workers capable of working for wages. 正解：A。wagesは労働への賃金です。自分の工房と資金が必要だったのはmasterになる段階で、B・Cは本文にありません。",
+      "sourceRefs": ["pdf:actual:p019:q30"]
+    },
+    {
+      "passageId": "guilds",
+      "prompt": "Why does the author mention the revolts in Flanders and Florence?",
+      "options": [
+        {"label": "A", "text": "To highlight events that led to the decline of guilds"},
+        {"label": "B", "text": "To show the consequence of workers forming their own associations"},
+        {"label": "C", "text": "To suggest guild members in distinct regions communicated with one another"},
+        {"label": "D", "text": "To demonstrate that guild members found guild regulations oppressive"}
+      ],
+      "correct": "D",
+      "answer": "The revolts illustrate resistance to the rule that prohibited workers from forming their own associations. 正解：D。規則が抑圧的と受け取られた結果を示します。Bは「結成した結果」と因果を逆にし、A・Cは本文にありません。",
+      "sourceRefs": ["pdf:actual:p019:q31"]
+    },
+    {
+      "passageId": "guilds",
+      "prompt": "How did the guild system benefit those in charge?",
+      "options": [
+        {"label": "A", "text": "By providing them with an income from administrative work"},
+        {"label": "B", "text": "By allowing them to establish the guild's quality standards"},
+        {"label": "C", "text": "By safeguarding their financial and social status from competition"},
+        {"label": "D", "text": "By exempting them from paying membership fees"}
+      ],
+      "correct": "C",
+      "answer": "The final sentence says the system protected the economic and social standing of those in charge. 正解：C。競争を制限して既得の地位を守ったという直接的な言い換えです。A・B・Dは利益として本文に示されていません。",
+      "sourceRefs": ["pdf:actual:p019:q32"]
+    },
+    {
+      "passageId": "guilds",
+      "prompt": "Which sentence identifies the specific benefits associated with the increased cost of guild admission?",
+      "options": [
+        {"label": "A", "text": "Guild entry became increasingly difficult over time as established members raised membership fees."},
+        {"label": "B", "text": "These fees helped fund administrative costs and provided services such as healthcare and funeral expenses for members."},
+        {"label": "C", "text": "While the guild system limited competition and maintained high standards within the guilds, it also reinforced inequality."},
+        {"label": "D", "text": "It served to protect the economic and social standing of those in charge, distancing them from workers who lacked the resources or skills to run their own businesses."}
+      ],
+      "correct": "B",
+      "answer": "Choice B names the services financed by the higher fees: administration, healthcare, and funeral expenses. 正解：B。Aは費用上昇そのもの、C・Dは競争と不平等への影響で、会費が提供した具体的便益ではありません。",
+      "sourceRefs": ["pdf:actual:p019:q33"]
+    }
+  ]
+}
