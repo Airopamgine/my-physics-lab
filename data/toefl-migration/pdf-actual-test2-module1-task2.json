@@ -1,0 +1,93 @@
+{
+  "id": "pdf-actual-test2-module1-task2",
+  "title": "Actual Test 2 · Module 1 · Move-In and Coding Workshop Messages",
+  "task": 2,
+  "date": "2026-09-21T21:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Actual Test · PDF 16–17ページ／冊子370–371ページ · 問23–28",
+  "verificationNote": "Editorial answers（編集・確認した解答）。非公開原本の本文・選択肢をページ単位で照合し、本文根拠から正答を作成しました。出版社の公式解答表とは未照合です。",
+  "passages": {
+    "move-in": "Date: July 20\nSubject: Dormitory Move-In\n\nDear Student,\n\nDormitory move-in for the fall semester is scheduled for August 28–30. Please review the following details carefully as you prepare for the new academic year!\n\nStudents will move in during assigned time slots, which are based on their building and floor. Your specific move-in time is available in the housing portal. All students must first check in at the Welcome Center located in the Student Union. You can also rent a cart to move your belongings or purchase a parking permit there.\n\nA reminder: Due to limited space, vehicles may be parked for unloading for up to 30 minutes only. Long-term parking in Lot C will be temporarily available during move-in with a valid student parking permit.\n\nIf you have specific accommodation needs or questions, please contact the Housing Office. Additional resources, including a campus map, are available on our website.\n\nSincerely,\nJames Wilson",
+    "coding": "William Harris\n\nAre you looking to upgrade your tech skills? Tech Hub Academy now offers virtual coding workshops every Tuesday and Thursday evening! Our interactive sessions are perfect for beginners and intermediate learners who want to master programming fundamentals.\n\nLearn from experienced instructors from leading tech companies who provide personalized feedback and guidance throughout each session. Small class sizes ensure that all students receive the attention and support they need. Many of our graduates have successfully transitioned into tech careers after completing our programs.\n\nRegister early to gain access to exclusive learning materials and coding resources worth $50. Plus, join our online community to connect with fellow learners and industry professionals for networking opportunities. Follow us on social media and share our program to receive a secret code for a 15% discount! Visit techhubacademy.com for more details and to secure your spot today."
+  },
+  "questions": [
+    {
+      "passageId": "move-in",
+      "prompt": "The email is most likely sent to",
+      "options": [
+        {"label": "A", "text": "Returning faculty members"},
+        {"label": "B", "text": "Future residents of campus housing"},
+        {"label": "C", "text": "Campus maintenance staff"},
+        {"label": "D", "text": "Students requesting parking permits"}
+      ],
+      "correct": "B",
+      "answer": "The message gives fall-semester dormitory move-in instructions to students who will live there. 正解：B。駐車許可証は付随情報にすぎず、教員や保守担当者宛てではありません。campus housingは「大学の学生寮」です。",
+      "sourceRefs": ["pdf:actual:p016:q23"]
+    },
+    {
+      "passageId": "move-in",
+      "prompt": "What will individuals do first during move-in?",
+      "options": [
+        {"label": "A", "text": "Submit a housing deposit"},
+        {"label": "B", "text": "Pick up a parking permit"},
+        {"label": "C", "text": "Attend a welcome seminar"},
+        {"label": "D", "text": "Complete a registration"}
+      ],
+      "correct": "D",
+      "answer": "All students must first check in at the Welcome Center. Check-in is the registration step described by choice D. 正解：D。駐車許可証の購入やカートの貸出しはその場所で可能ですが、最初に必須なのはcheck inです。",
+      "sourceRefs": ["pdf:actual:p016:q24"]
+    },
+    {
+      "passageId": "move-in",
+      "prompt": "What can be inferred about Lot C?",
+      "options": [
+        {"label": "A", "text": "It is not normally available for long-term student parking."},
+        {"label": "B", "text": "It is difficult to find without a campus map."},
+        {"label": "C", "text": "It is managed by the university's Housing Office."},
+        {"label": "D", "text": "It is designated for loading and unloading only."}
+      ],
+      "correct": "A",
+      "answer": "Long-term parking there will be temporarily available during move-in, implying that this is not the normal arrangement. 正解：A。Dは30分の荷下ろし規則とLot Cの一時的長時間駐車を混同しています。",
+      "sourceRefs": ["pdf:actual:p016:q25"]
+    },
+    {
+      "passageId": "coding",
+      "prompt": "What is the main purpose of the post?",
+      "options": [
+        {"label": "A", "text": "To explain how coding skills support programming tasks"},
+        {"label": "B", "text": "To promote coding workshops offered by a tech training program"},
+        {"label": "C", "text": "To compare different levels of online learning courses"},
+        {"label": "D", "text": "To announce job openings in the tech industry"}
+      ],
+      "correct": "B",
+      "answer": "The post advertises Tech Hub Academy's virtual workshops and encourages readers to register. 正解：B。講座の特徴、教材、割引、申込先を示す販促投稿です。求人案内やコース比較ではありません。",
+      "sourceRefs": ["pdf:actual:p017:q26"]
+    },
+    {
+      "passageId": "coding",
+      "prompt": "How will instructors support students?",
+      "options": [
+        {"label": "A", "text": "By providing them with supplementary resources"},
+        {"label": "B", "text": "By offering them one-on-one career counseling"},
+        {"label": "C", "text": "By giving them individual feedback and guidance"},
+        {"label": "D", "text": "By presenting them with a variety of job opportunities"}
+      ],
+      "correct": "C",
+      "answer": "The instructors explicitly provide personalized feedback and guidance throughout each session. 正解：C。教材は早期登録特典であり、個別キャリア相談や求人紹介は書かれていません。personalizedは「個人に合わせた」です。",
+      "sourceRefs": ["pdf:actual:p017:q27"]
+    },
+    {
+      "passageId": "coding",
+      "prompt": "Who will students meet in the online community?",
+      "options": [
+        {"label": "A", "text": "Tech Hub Academy instructors"},
+        {"label": "B", "text": "Previous program graduates"},
+        {"label": "C", "text": "Other students and tech professionals"},
+        {"label": "D", "text": "Hiring managers and job recruiters"}
+      ],
+      "correct": "C",
+      "answer": "The post says members can connect with fellow learners and industry professionals. 正解：C。fellow learnersは他の受講者、industry professionalsは業界の専門家を指します。卒業生や採用担当者とは限定していません。",
+      "sourceRefs": ["pdf:actual:p017:q28"]
+    }
+  ]
+}
