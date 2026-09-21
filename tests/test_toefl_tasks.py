@@ -210,6 +210,8 @@ class TaskCatalogTests(unittest.TestCase):
         test2_task1 = next(s for s in bank['sets'] if s['id'] == 'pdf-actual-test2-module1-task1')
         test2_task2 = next(s for s in bank['sets'] if s['id'] == 'pdf-actual-test2-module1-task2')
         test2_task3 = next(s for s in bank['sets'] if s['id'] == 'pdf-actual-test2-module1-task3')
+        test2_module2_task1 = next(s for s in bank['sets'] if s['id'] == 'pdf-actual-test2-module2-task1')
+        test2_module2_task3 = next(s for s in bank['sets'] if s['id'] == 'pdf-actual-test2-module2-task3')
         expected_words = [
             ('gue', 'plague'), ('nsible', 'responsible'), ('ly', 'only'),
             ('he', 'the'), ('rly', 'nearly'), ('ire', 'entire'),
@@ -264,9 +266,24 @@ class TaskCatalogTests(unittest.TestCase):
                          [[f'pdf:actual:p019:q{i:02d}'] for i in range(29, 34)])
         self.assertTrue(all(len(q['passage'].split('\n\n')) == 3
                             for q in test2_task3['questions']))
+        test2_module2_words = [
+            ('trates', 'demonstrates'), ('ur', 'our'), ('et', 'diet'),
+            ('els', 'levels'), ('en', 'even'), ('an', 'can'),
+            ('uence', 'influence'), ('idual', 'individual'),
+            ('essed', 'expressed'), ('ting', 'mutating')]
+        self.assertEqual([q['acceptedAnswers'] for q in test2_module2_task1['questions']],
+                         [list(pair) for pair in test2_module2_words])
+        self.assertEqual([q['sourceRefs'] for q in test2_module2_task1['questions']],
+                         [[f'pdf:actual:p021:q{i:02d}'] for i in range(1, 11)])
+        self.assertEqual([q['correct'] for q in test2_module2_task3['questions']],
+                         list('ABCBD'))
+        self.assertEqual([q['sourceRefs'] for q in test2_module2_task3['questions']],
+                         [[f'pdf:actual:p023:q{i:02d}'] for i in range(11, 16)])
+        self.assertTrue(all(len(q['passage'].split('\n\n')) == 3
+                            for q in test2_module2_task3['questions']))
         index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
         source = next(s for s in index['sources'] if s['id'] == 'actual')
-        self.assertEqual(source['reviewedPages'], list(range(1, 15)) + list(range(16, 21)))
+        self.assertEqual(source['reviewedPages'], list(range(1, 15)) + list(range(16, 25)))
         self.assertEqual(source['pageItems']['1'], [])
         self.assertEqual(source['pageItems']['2'], [])
         self.assertEqual(source['pageItems']['6'], [])
@@ -285,6 +302,12 @@ class TaskCatalogTests(unittest.TestCase):
         self.assertEqual(source['pageItems']['19'],
                          [f'pdf:actual:p019:q{i:02d}' for i in range(29, 34)])
         self.assertEqual(source['pageItems']['20'], [])
+        self.assertEqual(source['pageItems']['21'],
+                         [f'pdf:actual:p021:q{i:02d}' for i in range(1, 11)])
+        self.assertEqual(source['pageItems']['22'], [])
+        self.assertEqual(source['pageItems']['23'],
+                         [f'pdf:actual:p023:q{i:02d}' for i in range(11, 16)])
+        self.assertEqual(source['pageItems']['24'], [])
         blocked = next(item for item in index['blockedItems']
                        if item['source'] == 'actual' and item['pages'] == [15])
         self.assertEqual(blocked['items'],

@@ -1,0 +1,94 @@
+{
+  "id": "pdf-actual-test2-module2-task1",
+  "title": "Actual Test 2 · Module 2 · Epigenetics",
+  "task": 1,
+  "date": "2026-09-22T05:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Actual Test · PDF 21ページ／冊子375ページ · 問01–10",
+  "verificationNote": "Editorial answers（編集・確認した解答）。非公開原本の本文・接頭部分・空欄数をページ単位で照合し、文法・語法・文脈から正答を作成しました。出版社の公式解答表とは未照合です。全10空欄を提出するまで、このパッセージの正答は表示されません。",
+  "passages": {
+    "epigenetics": "Epigenetics offers a powerful link between lifestyle and genes. It demons______ that o__ environment, di__, stress lev___, and ev__ age c__ dramatically infl_____ how indiv_____ genes are expr_____, without muta____ the DNA sequence itself. Think of epigenetic marks as a memory system on the genome, recording our experiences. This means that two people with the same genetic makeup, like identical twins, can develop different health outcomes based on the adjustments their bodies make to their genes over time."
+  },
+  "questions": [
+    {
+      "passageId": "epigenetics",
+      "prompt": "Question 01: complete demons______. Enter the missing letters.",
+      "prefix": "demons",
+      "word": "demonstrates",
+      "answer": "Demonstrates means shows clearly and agrees with the singular subject It. 正解：trates → demonstrates（明らかに示す）。Itはepigeneticsを受け、that節で生活環境と遺伝子の関係を説明します。",
+      "sourceRefs": ["pdf:actual:p021:q01"]
+    },
+    {
+      "passageId": "epigenetics",
+      "prompt": "Question 02: complete o__. Enter the missing letters.",
+      "prefix": "o",
+      "word": "our",
+      "answer": "Our is the possessive determiner modifying environment. 正解：ur → our（私たちの）。後続のdiet、stress levels、ageと同様、人の生活条件を指します。",
+      "sourceRefs": ["pdf:actual:p021:q02"]
+    },
+    {
+      "passageId": "epigenetics",
+      "prompt": "Question 03: complete di__. Enter the missing letters.",
+      "prefix": "di",
+      "word": "diet",
+      "answer": "Diet is one lifestyle factor listed with environment, stress levels, and age. 正解：et → diet（食事・食生活）。遺伝子発現に影響し得る生活要因の並列です。",
+      "sourceRefs": ["pdf:actual:p021:q03"]
+    },
+    {
+      "passageId": "epigenetics",
+      "prompt": "Question 04: complete lev___. Enter the missing letters.",
+      "prefix": "lev",
+      "word": "levels",
+      "answer": "The standard expression is stress levels. 正解：els → levels（程度・水準）。さまざまな強さのストレスを一般的に表すため複数形です。",
+      "sourceRefs": ["pdf:actual:p021:q04"]
+    },
+    {
+      "passageId": "epigenetics",
+      "prompt": "Question 05: complete ev__. Enter the missing letters.",
+      "prefix": "ev",
+      "word": "even",
+      "answer": "Even emphasizes the perhaps surprising inclusion of age. 正解：en → even（～さえも）。環境や食事だけでなく年齢まで影響することを強調します。",
+      "sourceRefs": ["pdf:actual:p021:q05"]
+    },
+    {
+      "passageId": "epigenetics",
+      "prompt": "Question 06: complete c__. Enter the missing letters.",
+      "prefix": "c",
+      "word": "can",
+      "answer": "Can expresses the capacity of these factors to affect gene expression. 正解：an → can（～し得る）。後ろの動詞原形influenceと組み合わさります。",
+      "sourceRefs": ["pdf:actual:p021:q06"]
+    },
+    {
+      "passageId": "epigenetics",
+      "prompt": "Question 07: complete infl_____. Enter the missing letters.",
+      "prefix": "infl",
+      "word": "influence",
+      "answer": "Influence means affect or change how something operates. 正解：uence → influence（影響を与える）。canの後なので動詞の原形です。",
+      "sourceRefs": ["pdf:actual:p021:q07"]
+    },
+    {
+      "passageId": "epigenetics",
+      "prompt": "Question 08: complete indiv_____. Enter the missing letters.",
+      "prefix": "indiv",
+      "word": "individual",
+      "answer": "Individual modifies genes and means considered separately. 正解：idual → individual（個々の）。生活要因が個々の遺伝子の働き方に影響すると述べています。",
+      "sourceRefs": ["pdf:actual:p021:q08"]
+    },
+    {
+      "passageId": "epigenetics",
+      "prompt": "Question 09: complete expr_____. Enter the missing letters.",
+      "prefix": "expr",
+      "word": "expressed",
+      "answer": "Genes are expressed, so the passive past participle is required. 正解：essed → expressed（発現する・働きが現れる）。are expressedで遺伝子が発現される様態を表します。",
+      "sourceRefs": ["pdf:actual:p021:q09"]
+    },
+    {
+      "passageId": "epigenetics",
+      "prompt": "Question 10: complete muta____. Enter the missing letters.",
+      "prefix": "muta",
+      "word": "mutating",
+      "answer": "After without, the gerund mutating is required. 正解：ting → mutating（変異させること）。エピジェネティックな変化はDNA配列自体を変異させずに起こるという対比です。",
+      "sourceRefs": ["pdf:actual:p021:q10"]
+    }
+  ]
+}
