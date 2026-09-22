@@ -101,6 +101,29 @@ class TaskCatalogTests(unittest.TestCase):
         self.assertTrue(all(q['correct'] is None and q['options'] == []
                             for q in item['questions']))
 
+    def test_vocabulary_day01_all_fifty_five_headwords_complete_page2(self):
+        bank = self.build()
+        item = next(s for s in bank['sets']
+                    if s['id'] == 'pdf-vocabulary-day01-part3')
+        expected = [
+            ('arch', 'research'), ('bed', 'riverbed'), ('ling', 'sibling'),
+            ('tion', 'solution'), ('taneous', 'spontaneous'),
+            ('ture', 'structure'), ('pass', 'surpass'),
+            ('logical', 'technological'), ('eat', 'threat'),
+            ('parent', 'transparent'), ('tectable', 'undetectable'),
+            ('verse', 'universe'), ('age', 'usage'), ('able', 'viable'),
+            ('rior', 'warrior')]
+        self.assertEqual([q['acceptedAnswers'] for q in item['questions']],
+                         [list(pair) for pair in expected])
+        refs = [f'pdf:vocabulary:p002:q{word}' for _, word in expected]
+        self.assertEqual([q['sourceRefs'] for q in item['questions']],
+                         [[ref] for ref in refs])
+        index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
+        source = next(s for s in index['sources'] if s['id'] == 'vocabulary')
+        self.assertIn(2, source['reviewedPages'])
+        self.assertEqual(len(source['pageItems']['2']), 55)
+        self.assertEqual(source['pageItems']['2'][-15:], refs)
+
     def test_rivers_and_color_preserve_all_source_targets(self):
         bank = self.build()
         cases = [
