@@ -1,0 +1,132 @@
+{
+  "id": "legacy-technology-learning-choice",
+  "title": "Technology and Learning: Access, Attention, and Dialogue",
+  "task": 3,
+  "date": "2026-09-23T07:00:00+09:00",
+  "level": "A2–B1",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "二つの原文段落と全九つの学習対象を保持し、元の日本語記述・翻訳・発展問題を本文根拠のある英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-learning-02/",
+  "passages": {
+    "text": "Digital tools have changed not only where students find information but also how they organize their study. Recorded lectures, reference websites, and interactive exercises can supplement classroom learning. They allow a learner to pause, repeat, or review material at a pace suited to the learner's present understanding. This flexibility can be especially useful when one difficult step would otherwise prevent further progress.\n\nAccess, however, is not the same as understanding. A screen that provides an explanation may also display messages, recommendations, and other distractions. In addition, some questions become clearer through immediate dialogue with a teacher or classmate. The most effective approach is therefore not to replace every traditional method with a digital one. It is to choose a tool according to the task, protect time for concentration, and preserve opportunities to explain ideas to other people."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "The word “supplement” in paragraph 1 is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "replace completely"},
+        {"label": "B", "text": "add to and support"},
+        {"label": "C", "text": "simplify without studying"},
+        {"label": "D", "text": "evaluate publicly"}
+      ],
+      "correct": "B",
+      "answer": "正解：B。Digital materials add explanation and practice to classroom learning rather than eliminating it. supplement は「不足分を加えて補う」です。Aは本文最後の not to replace とも矛盾します。",
+      "sourceRefs": ["legacy:english-reading-learning-02-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does the word “distractions” in paragraph 2 refer to?",
+      "options": [
+        {"label": "A", "text": "Things that pull a learner’s attention away from the current task"},
+        {"label": "B", "text": "Things that make the study content remain in memory"},
+        {"label": "C", "text": "Things that deepen dialogue with a teacher"},
+        {"label": "D", "text": "Things that verify the accuracy of information"}
+      ],
+      "correct": "A",
+      "answer": "正解：A。Messages and recommendations may appear beside an explanation and divert attention from studying. distraction は「現在の目的から注意をそらすもの」で、単に楽しいものという意味ではありません。",
+      "sourceRefs": ["legacy:english-reading-learning-02-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does the phrase “at a pace suited to the learner's present understanding” mean?",
+      "options": [
+        {"label": "A", "text": "At the same speed as every other student"},
+        {"label": "B", "text": "At a speed that matches what the learner understands now"},
+        {"label": "C", "text": "At the fastest speed the digital tool permits"},
+        {"label": "D", "text": "At a speed fixed by the teacher regardless of difficulty"}
+      ],
+      "correct": "B",
+      "answer": "正解：B。suited to means appropriate for, and present means current in this context. 「学習者が現在どこまで理解しているかに合った速さで」という意味です。",
+      "sourceRefs": ["legacy:english-reading-learning-02-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "How does the sentence “Access, however, is not the same as understanding” qualify paragraph 1?",
+      "options": [
+        {"label": "A", "text": "It claims that reviewing digital material is never useful."},
+        {"label": "B", "text": "It says that classroom learning should be removed once information is online."},
+        {"label": "C", "text": "It changes the topic from learning to the commercial value of technology."},
+        {"label": "D", "text": "It accepts the convenience of access and repetition but denies that they automatically produce comprehension."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。however does not erase the first paragraph's benefits; it limits the inference drawn from them. 情報へ到達して反復できても、それだけで理解が生じるわけではないと論理を限定しています。",
+      "sourceRefs": ["legacy:english-reading-learning-02-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "According to the passage, what role can immediate dialogue and explaining ideas to others play in learning?",
+      "options": [
+        {"label": "A", "text": "They remove the need to study difficult material independently."},
+        {"label": "B", "text": "They guarantee that every explanation on a screen is accurate."},
+        {"label": "C", "text": "They can clarify questions and test understanding by requiring ideas to be expressed."},
+        {"label": "D", "text": "They prevent learners from choosing tools according to a task."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。The text says questions may become clearer through immediate dialogue and recommends preserving chances to explain ideas. 対話は疑問を明確にし、説明は理解を外へ表現して確かめる機会になります。",
+      "sourceRefs": ["legacy:english-reading-learning-02-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What can most reasonably be inferred from the passage?",
+      "options": [
+        {"label": "A", "text": "Recorded lectures eliminate the need for concentration."},
+        {"label": "B", "text": "Every kind of learning should take place only face to face."},
+        {"label": "C", "text": "The same tool can affect learning differently depending on the task and how it is used."},
+        {"label": "D", "text": "Access to information proves that its content has been understood."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。The conclusion says to choose a tool according to the task and protect concentration. AとDは第2段落が否定し、Bは第1段落で認めるデジタルの利点を消しています。",
+      "sourceRefs": ["legacy:english-reading-learning-02-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which sentence best states the main claim of the passage?",
+      "options": [
+        {"label": "A", "text": "Digital and face-to-face methods should be selected according to the task while learners protect attention and opportunities for dialogue."},
+        {"label": "B", "text": "Digital tools are valuable only because they display more information than teachers can provide."},
+        {"label": "C", "text": "Traditional methods should replace every form of interactive practice."},
+        {"label": "D", "text": "The best learning method is always the one that allows the fastest progress."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。It combines the first paragraph's flexibility with the second paragraph's cautions and selection principle. 本文は新旧の二択ではなく、課題・集中・対話に応じた使い分けを主張しています。",
+      "sourceRefs": ["legacy:english-reading-learning-02-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which option best restates “This flexibility can be especially useful when one difficult step would otherwise prevent further progress”?",
+      "options": [
+        {"label": "A", "text": "Flexible study is useful only after a learner has completed every difficult step."},
+        {"label": "B", "text": "Being able to pause and review can help when an unresolved step would otherwise block later learning."},
+        {"label": "C", "text": "A difficult step always prevents progress even when learners can repeat the material."},
+        {"label": "D", "text": "Further progress requires learners to avoid adjusting their study pace."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。otherwise means “if this flexibility were absent.” 一時停止・反復・復習がなければ難しい一段階がその先の進行を妨げる場面で、柔軟性が役立つという意味です。",
+      "sourceRefs": ["legacy:english-reading-learning-02-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which study plan best applies the passage's advice for using a recorded lecture?",
+      "options": [
+        {"label": "A", "text": "Keep every notification visible so that study and messages receive equal attention."},
+        {"label": "B", "text": "Play the lecture at maximum speed and treat access to it as proof of understanding."},
+        {"label": "C", "text": "Avoid all digital tools even when repetition would help with a difficult step."},
+        {"label": "D", "text": "Turn off messages, pause difficult explanations, and then explain the main idea aloud to check understanding."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。This plan uses digital flexibility, protects concentration, and preserves an opportunity to explain an idea. 元の発展記述で求めた、本文の語句を実際の学習行動へ適用する学習対象を保持しています。",
+      "sourceRefs": ["legacy:english-reading-learning-02-q9"]
+    }
+  ]
+}
