@@ -452,9 +452,32 @@ class TaskCatalogTests(unittest.TestCase):
 
         index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
         source = next(s for s in index['sources'] if s['id'] == 'task2')
-        self.assertEqual(source['reviewedPages'], list(range(1, 54)))
+        self.assertEqual(source['reviewedPages'][:53], list(range(1, 54)))
         self.assertEqual(source['pageItems']['46'], [])
         for page in range(47, 54):
+            page_refs = [ref for ref in expected_refs if f':p{page:03d}:' in ref]
+            self.assertEqual(source['pageItems'][str(page)], page_refs)
+
+    def test_task2_inference_and_intention_questions_preserve_pages_54_through_59(self):
+        bank = self.build()
+        item = next(s for s in bank['sets'] if s['id'] == 'pdf-task2-p054-059')
+        expected_refs = [
+            'pdf:task2:p054:q10', 'pdf:task2:p054:q11', 'pdf:task2:p054:q12',
+            'pdf:task2:p055:q13', 'pdf:task2:p055:q14', 'pdf:task2:p055:q15',
+            'pdf:task2:p057:qexample-intention',
+            'pdf:task2:p058:q01', 'pdf:task2:p058:q02',
+            'pdf:task2:p059:q03', 'pdf:task2:p059:q04']
+        self.assertEqual(len(item['questions']), 11)
+        self.assertEqual([q['sourceRefs'][0] for q in item['questions']], expected_refs)
+        self.assertEqual([q['correct'] for q in item['questions']], list('DABBBCDCBDA'))
+        self.assertEqual(len({q['passage'] for q in item['questions']}), 7)
+        self.assertTrue(all(len(q['options']) == 4 for q in item['questions']))
+
+        index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
+        source = next(s for s in index['sources'] if s['id'] == 'task2')
+        self.assertEqual(source['reviewedPages'], list(range(1, 60)))
+        self.assertEqual(source['pageItems']['56'], [])
+        for page in (54, 55, 57, 58, 59):
             page_refs = [ref for ref in expected_refs if f':p{page:03d}:' in ref]
             self.assertEqual(source['pageItems'][str(page)], page_refs)
 

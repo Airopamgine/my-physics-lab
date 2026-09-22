@@ -1,0 +1,163 @@
+{
+  "id": "pdf-task2-p054-059",
+  "title": "Read in Daily Life · 推論問題後半と意図問題",
+  "task": 2,
+  "date": "2026-09-23T05:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 2 · PDF 54–59ページ／冊子130–135ページ · Inference Test問10–15・Intention Overview・Example・Practice問01–04",
+  "verificationNote": "Editorial answers（編集・確認した解答）。スキャン原本の本文・設問・選択肢を画像で照合し、本文の明示情報と文脈上の意図に基づいて正答を作成しました。出版社の巻末解答表とは未照合です。各文書に付く設問を原本どおりすべて収録しています。",
+  "passages": {
+    "samarkand": "Taste the World — Blog\n\nIf you love finding great international food here in Scarborough, I’ve got great news. A new Central Asian restaurant called Samarkand Palace has opened downtown on Lincoln Avenue.\n\nI didn’t know much about Central Asian cuisine before but after my first visit, I’m hooked. Everything I tried was not only delicious, but also affordable for the city. My husband and I ordered four types of salads and dips, two kinds of bread, soup, dumplings, stuffed cabbage, and several lamb skewers, and our bill for the night was less than $40!\n\nThe atmosphere and staff were also worth noting. The whole place is decorated like a traditional Uzbek building with beautiful tiles everywhere. The staff were super helpful and took time to explain what all of the dishes were. After our meal, they also gave us a free dessert. Give Samarkand Palace a try!",
+    "apartment": "During a recent press conference, Mayor Roberts announced that approval for a 500-unit apartment complex on the property next to Anderson Park has been granted by city council. The developer will begin building the structure on March 28. Mayor Roberts claimed that the project will attract new residents and businesses to the city. “I’m very proud to have been able to launch this development before the end of my term and my retirement from politics,” she explained.\n\nDespite her excitement, many residents of the Mulberry Heights neighborhood have expressed opposition to the project, arguing that it will lead to increased traffic congestion and other problems. In response, the city government has posted a survey on its website and is asking everyone living in Mulberry Heights to fill it out. Once their feedback is reviewed, policies to address concerns will be considered.",
+    "parking": "Please be advised that the parking lot behind the West Building will be closed on Saturday, August 16th, due to routine maintenance. All vehicles must be removed by 8:00 P.M. on Friday. The lot will reopen at 6:00 A.M. on Sunday. During this time, employees and visitors should use the East parking lot. Thank you for your cooperation.",
+    "catering": "Subject: Catering confirmation\n\nDear Ms. Leigh,\n\nWe are confirming your catering order for Thursday’s workshop. To ensure all dietary restrictions are met with accuracy and quality, please send any updates by 5:00 P.M. today. Our kitchen requires the final confirmation this evening. We appreciate your prompt response.\n\nDerek Halloway",
+    "training": "Madison Bennett (1:00 P.M.) Hello, team. Just a reminder that the Data Literacy Training session is next Tuesday. Please make sure all preparation tasks are completed by Monday morning.\n\nLiam King (1:05 P.M.) OK, Madison. I’m finalizing the “Bias and Ethical Considerations in Data” part, and I will upload it today.\n\nRiley Hayes (1:10 P.M.) I’ll finish preparing the “Interactive Data Storytelling” case studies and share them with everyone by Monday morning.\n\nNoah Cardew (1:15 P.M.) I have an off-site meeting on Friday, but I will complete integrating the basic data analysis techniques slides over the weekend.\n\nMadison Bennett (1:20 P.M.) Thank you all for being so proactive! Your hard work will give us time to review everything before the training.",
+    "gia_express": "GIA Express Set to Open\n\nGreenville—The City Transportation Director has announced that the new airport rail line will open on Monday, June 1. The service will connect Greenville International Airport (GIA) to the city’s central transportation hub from which travelers can connect to the main subway system or to the nationwide rail and bus networks.\n\nThe GIA Express will offer only non-stop service and complete the 40-mile trip in just under 15 minutes. Trains will depart in either direction every 20 minutes from 5:00 A.M. to 11:00 P.M. Tickets will be $10 per person each way or $18 for a round trip. $2 discounts on all fares will be offered to children under 10 years of age, senior citizens, and the disabled.",
+    "nexus": "Nexus Data Solutions, the local financial technology powerhouse, announced a technological alliance with Frankfurt-based Pinnacle Consulting yesterday. This strategic move will see Nexus Data bolster its cyber-risk and compliance capabilities by integrating a specialist team focused on pioneering digital security standards for the financial sector. To prepare for this strategic integration, Nexus Data’s primary development facility in One North is set for a major upgrade.\n\nNexus Data Solutions cemented its global reputation by consistently outperforming competitors in three successive global security audits for major central banks. However, few realize that the company’s very first project was a pro-bono initiative—developing a secure data management platform for local non-profits—a legacy it continues to honor through its small independent grant foundation in Mumbai."
+  },
+  "questions": [
+    {
+      "passageId": "samarkand",
+      "prompt": "What is the main purpose of the page?",
+      "options": [
+        {"label": "A", "text": "To discuss a foreign cuisine"},
+        {"label": "B", "text": "To review the city’s dining scene"},
+        {"label": "C", "text": "To give a recipe for an Asian dish"},
+        {"label": "D", "text": "To recommend a newly opened restaurant"}
+      ],
+      "correct": "D",
+      "answer": "The writer enthusiastically describes a first visit and ends by urging readers to try Samarkand Palace. 正解：D。料理一般や市全体の飲食事情ではなく、新しく開店した一店を勧めることが中心です。",
+      "sourceRefs": ["pdf:task2:p054:q10"]
+    },
+    {
+      "passageId": "samarkand",
+      "prompt": "What can be inferred about the dishes tried?",
+      "options": [
+        {"label": "A", "text": "They were cheaper than those of other places."},
+        {"label": "B", "text": "They were served in small quantities."},
+        {"label": "C", "text": "They all contained some kind of lamb."},
+        {"label": "D", "text": "They were recommended by the staff."}
+      ],
+      "correct": "A",
+      "answer": "The writer calls the food affordable for the city and lists a large order whose total was under $40. 正解：A。市内の一般的な価格より安かったと推論できます。量が少ない、全品に羊肉が入る、店員が推薦したという記述はありません。",
+      "sourceRefs": ["pdf:task2:p054:q11"]
+    },
+    {
+      "passageId": "samarkand",
+      "prompt": "What was provided at no cost?",
+      "options": [
+        {"label": "A", "text": "A decorative tile"},
+        {"label": "B", "text": "A sweet treat"},
+        {"label": "C", "text": "A guide to Uzbek food"},
+        {"label": "D", "text": "A traditional plate"}
+      ],
+      "correct": "B",
+      "answer": "The staff gave the diners a free dessert after the meal. 正解：B。dessert はここで sweet treat（甘い食べ物）に対応します。",
+      "sourceRefs": ["pdf:task2:p054:q12"]
+    },
+    {
+      "passageId": "apartment",
+      "prompt": "What is the main topic of the article?",
+      "options": [
+        {"label": "A", "text": "The opening of a recreation facility"},
+        {"label": "B", "text": "The construction of a housing complex"},
+        {"label": "C", "text": "The revision of a government policy"},
+        {"label": "D", "text": "The results of a property inspection"}
+      ],
+      "correct": "B",
+      "answer": "The article announces approval and an upcoming start date for a 500-unit apartment complex, then reports residents’ concerns. 正解：B。中心話題は住宅団地の建設です。",
+      "sourceRefs": ["pdf:task2:p055:q13"]
+    },
+    {
+      "passageId": "apartment",
+      "prompt": "What can be inferred about Mayor Roberts?",
+      "options": [
+        {"label": "A", "text": "She owns land next to Anderson Park."},
+        {"label": "B", "text": "She does not plan to run for reelection."},
+        {"label": "C", "text": "She intends to leave Mulberry Heights next year."},
+        {"label": "D", "text": "She does not have city council’s support."}
+      ],
+      "correct": "B",
+      "answer": "Mayor Roberts says her current term will end with her retirement from politics. 正解：B。政界を引退するため、再選を目指す予定はないと推論できます。市議会は計画を承認しています。",
+      "sourceRefs": ["pdf:task2:p055:q14"]
+    },
+    {
+      "passageId": "apartment",
+      "prompt": "Residents of the Mulberry Heights neighborhood have been asked to",
+      "options": [
+        {"label": "A", "text": "read feedback on a website"},
+        {"label": "B", "text": "participate in a meeting"},
+        {"label": "C", "text": "complete a questionnaire"},
+        {"label": "D", "text": "review a business proposal"}
+      ],
+      "correct": "C",
+      "answer": "The city posted a survey online and asked all Mulberry Heights residents to fill it out. 正解：C。survey を fill out することは、questionnaire（質問票）に回答することです。",
+      "sourceRefs": ["pdf:task2:p055:q15"]
+    },
+    {
+      "passageId": "parking",
+      "prompt": "Why does the notice mention the East parking lot?",
+      "options": [
+        {"label": "A", "text": "To provide directions for maintenance staff"},
+        {"label": "B", "text": "To notify about a special event"},
+        {"label": "C", "text": "To explain a change in parking fees"},
+        {"label": "D", "text": "To suggest an alternative parking lot"}
+      ],
+      "correct": "D",
+      "answer": "The West Building lot will be closed, so the notice tells employees and visitors to use the East lot during the closure. 正解：D。東側駐車場は代替場所として示されています。",
+      "sourceRefs": ["pdf:task2:p057:qexample-intention"]
+    },
+    {
+      "passageId": "catering",
+      "prompt": "What does Mr. Halloway’s mention of requiring “the final confirmation this evening” suggest about his attitude?",
+      "options": [
+        {"label": "A", "text": "He worries that Ms. Leigh will forget to provide updates."},
+        {"label": "B", "text": "He is concerned that the requested meal quality cannot be achieved."},
+        {"label": "C", "text": "He wants to stress the final deadline."},
+        {"label": "D", "text": "He is willing to accept changes well past the specified deadline."}
+      ],
+      "correct": "C",
+      "answer": "He first requests updates by 5:00 P.M. and then explains that the kitchen needs final confirmation that evening. 正解：C。締切が最終的なものであることを強調しています。忘れる心配や品質への疑念は述べていません。",
+      "sourceRefs": ["pdf:task2:p058:q01"]
+    },
+    {
+      "passageId": "training",
+      "prompt": "At 1:20 P.M., what does Ms. Bennett most likely mean when she writes, “Thank you all for being so proactive”?",
+      "options": [
+        {"label": "A", "text": "She is urging the team to complete their tasks more quickly."},
+        {"label": "B", "text": "She is commending the team’s plans to finish before the deadline."},
+        {"label": "C", "text": "She is thanking the team for sending messages promptly."},
+        {"label": "D", "text": "She appreciates the team’s willingness to attend optional social gatherings."}
+      ],
+      "correct": "B",
+      "answer": "The team members describe plans that will finish their work by or before Monday morning, leaving time for review. 正解：B。proactive は、期限に先立って準備を進める姿勢を褒める表現です。",
+      "sourceRefs": ["pdf:task2:p058:q02"]
+    },
+    {
+      "passageId": "gia_express",
+      "prompt": "What does the term “transportation hub” most likely mean in this context?",
+      "options": [
+        {"label": "A", "text": "A location where people can reserve transportation"},
+        {"label": "B", "text": "A location where international transportation services are offered"},
+        {"label": "C", "text": "A location where transportation executives work"},
+        {"label": "D", "text": "A location where different transportation options meet"}
+      ],
+      "correct": "D",
+      "answer": "At the central hub, travelers can connect to the subway and nationwide rail and bus networks. 正解：D。複数の交通手段が接続する場所という意味です。",
+      "sourceRefs": ["pdf:task2:p059:q03"]
+    },
+    {
+      "passageId": "nexus",
+      "prompt": "Why does the article mention a grant foundation?",
+      "options": [
+        {"label": "A", "text": "To acknowledge the firm’s commitment to pro-bono work"},
+        {"label": "B", "text": "To explain the rationale behind its technological alliance with Pinnacle Consulting"},
+        {"label": "C", "text": "To forecast the company’s future revenue growth in the financial sector"},
+        {"label": "D", "text": "To describe the major physical upgrade of the One North facility"}
+      ],
+      "correct": "A",
+      "answer": "The article links the foundation to Nexus Data’s first pro-bono project and says it continues to honor that legacy. 正解：A。財団への言及は、無償の社会貢献を続ける姿勢を示すためです。",
+      "sourceRefs": ["pdf:task2:p059:q04"]
+    }
+  ]
+}
