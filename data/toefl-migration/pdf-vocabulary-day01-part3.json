@@ -1,0 +1,148 @@
+{
+  "id": "pdf-vocabulary-day01-part3",
+  "title": "Vocabulary Day 01 · Context Completion 3",
+  "task": 1,
+  "date": "2026-09-22T18:42:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 2ページ／冊子380ページ · Day 01の41〜55語（全55語）",
+  "verificationNote": "掲載語・綴り・掲載順をスキャン原本で確認済みです。各語を文脈で判断できるmissing-letter exerciseへ編集しています。出版社の公式解答表は未収録ですが、正答は掲載headwordと一致します。未回答の語の正答は、その語を提出するまで表示されません。",
+  "passages": {
+    "research": "The team conducted rese____ to test whether the new material could store more energy.",
+    "riverbed": "After the flood, coarse sand covered the river___ and changed the channel's depth.",
+    "sibling": "In the study, each child was paired with an older sib____ who already knew the task.",
+    "solution": "The chemist added a salt solu____ to the sample before measuring its acidity.",
+    "spontaneous": "The researchers observed a spon_______ recovery that occurred without any treatment.",
+    "structure": "The crystal's struc____ determines how it bends incoming light.",
+    "surpass": "By the final trial, the new battery could sur____ the older model in both capacity and lifespan.",
+    "technological": "Rapid techno_______ change can create new industries while making older skills less valuable.",
+    "threat": "Rising sea levels pose a thr___ to low-lying coastal communities.",
+    "transparent": "The membrane is trans______ enough for researchers to observe the cells beneath it.",
+    "undetectable": "At very low concentrations, the chemical was unde________ by the instrument.",
+    "universe": "Astronomers study distant galaxies to understand how the uni_____ evolved.",
+    "usage": "Electricity us___ falls during mild weather because homes need less heating and cooling.",
+    "viable": "The seed remained vi____ after decades in dry storage and germinated when watered.",
+    "warrior": "The burial goods suggest that the individual had been a high-ranking war____."
+  },
+  "questions": [
+    {
+      "passageId": "research",
+      "prompt": "Day 01 vocabulary: complete rese____. Enter the missing letters.",
+      "prefix": "rese",
+      "word": "research",
+      "answer": "Research is systematic study intended to establish facts or reach new conclusions. 正解：arch → research（研究・研究する）。新素材の蓄電性能を検証する体系的な調査を指します。",
+      "sourceRefs": ["pdf:vocabulary:p002:qresearch"]
+    },
+    {
+      "passageId": "riverbed",
+      "prompt": "Day 01 vocabulary: complete river___. Enter the missing letters.",
+      "prefix": "river",
+      "word": "riverbed",
+      "answer": "A riverbed is the ground over which a river flows. 正解：bed → riverbed（川床・河床）。洪水後の砂が川の底を覆い、水路の深さを変えた文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p002:qriverbed"]
+    },
+    {
+      "passageId": "sibling",
+      "prompt": "Day 01 vocabulary: complete sib____. Enter the missing letters.",
+      "prefix": "sib",
+      "word": "sibling",
+      "answer": "A sibling is a brother or sister. 正解：ling → sibling（兄弟姉妹）。課題を知っている年上の兄または姉と子どもを組ませた研究場面です。",
+      "sourceRefs": ["pdf:vocabulary:p002:qsibling"]
+    },
+    {
+      "passageId": "solution",
+      "prompt": "Day 01 vocabulary: complete solu____. Enter the missing letters.",
+      "prefix": "solu",
+      "word": "solution",
+      "answer": "A solution is a liquid mixture in which a substance has dissolved. 正解：tion → solution（溶液・解決策）。ここでは酸性度を測る前に加えたsalt solution（塩溶液）を指します。",
+      "sourceRefs": ["pdf:vocabulary:p002:qsolution"]
+    },
+    {
+      "passageId": "spontaneous",
+      "prompt": "Day 01 vocabulary: complete spon_______. Enter the missing letters.",
+      "prefix": "spon",
+      "word": "spontaneous",
+      "answer": "Spontaneous means occurring naturally or without being planned or caused externally. 正解：taneous → spontaneous（自発的な・自然発生的な）。治療なしで起きた回復を修飾しています。",
+      "sourceRefs": ["pdf:vocabulary:p002:qspontaneous"]
+    },
+    {
+      "passageId": "structure",
+      "prompt": "Day 01 vocabulary: complete struc____. Enter the missing letters.",
+      "prefix": "struc",
+      "word": "structure",
+      "answer": "Structure is the arrangement of parts that forms a whole. 正解：ture → structure（構造・建造物）。結晶内部の部分の配列が光の曲がり方を決める文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p002:qstructure"]
+    },
+    {
+      "passageId": "surpass",
+      "prompt": "Day 01 vocabulary: complete sur____. Enter the missing letters.",
+      "prefix": "sur",
+      "word": "surpass",
+      "answer": "Surpass means to exceed or perform better than something else. 正解：pass → surpass（上回る・凌駕する）。新しい電池が容量と寿命の両方で旧型を超えた文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p002:qsurpass"]
+    },
+    {
+      "passageId": "technological",
+      "prompt": "Day 01 vocabulary: complete techno_______. Enter the missing letters.",
+      "prefix": "techno",
+      "word": "technological",
+      "answer": "Technological means relating to technology or its development. 正解：logical → technological（技術の・科学技術上の）。技術変化が産業や技能の価値を変える場面です。",
+      "sourceRefs": ["pdf:vocabulary:p002:qtechnological"]
+    },
+    {
+      "passageId": "threat",
+      "prompt": "Day 01 vocabulary: complete thr___. Enter the missing letters.",
+      "prefix": "thr",
+      "word": "threat",
+      "answer": "A threat is something likely to cause harm or danger. 正解：eat → threat（脅威・脅迫）。海面上昇が低地の沿岸地域に被害を与える危険を指します。",
+      "sourceRefs": ["pdf:vocabulary:p002:qthreat"]
+    },
+    {
+      "passageId": "transparent",
+      "prompt": "Day 01 vocabulary: complete trans______. Enter the missing letters.",
+      "prefix": "trans",
+      "word": "transparent",
+      "answer": "Transparent means allowing light to pass through so objects behind can be seen. 正解：parent → transparent（透明な）。膜の下の細胞を観察できるほど光を通す性質を表します。",
+      "sourceRefs": ["pdf:vocabulary:p002:qtransparent"]
+    },
+    {
+      "passageId": "undetectable",
+      "prompt": "Day 01 vocabulary: complete unde________. Enter the missing letters.",
+      "prefix": "unde",
+      "word": "undetectable",
+      "answer": "Undetectable means impossible to discover or measure with the available method. 正解：tectable → undetectable（検出できない）。濃度が低すぎて機器では検出できなかった状態です。",
+      "sourceRefs": ["pdf:vocabulary:p002:qundetectable"]
+    },
+    {
+      "passageId": "universe",
+      "prompt": "Day 01 vocabulary: complete uni_____. Enter the missing letters.",
+      "prefix": "uni",
+      "word": "universe",
+      "answer": "The universe is all space, matter, energy, and everything that exists. 正解：verse → universe（宇宙・全体）。遠方銀河から宇宙全体の進化を調べる天文学の文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p002:quniverse"]
+    },
+    {
+      "passageId": "usage",
+      "prompt": "Day 01 vocabulary: complete us___. Enter the missing letters.",
+      "prefix": "us",
+      "word": "usage",
+      "answer": "Usage is the amount or manner in which something is used. 正解：age → usage（使用・用法）。ここではmild weatherに減少するelectricity usage（電力使用量）を指します。",
+      "sourceRefs": ["pdf:vocabulary:p002:qusage"]
+    },
+    {
+      "passageId": "viable",
+      "prompt": "Day 01 vocabulary: complete vi____. Enter the missing letters.",
+      "prefix": "vi",
+      "word": "viable",
+      "answer": "Viable means capable of living, developing, or working successfully. 正解：able → viable（生存可能な・実行可能な）。長期保存後も発芽できた種子の生存能力を表します。",
+      "sourceRefs": ["pdf:vocabulary:p002:qviable"]
+    },
+    {
+      "passageId": "warrior",
+      "prompt": "Day 01 vocabulary: complete war____. Enter the missing letters.",
+      "prefix": "war",
+      "word": "warrior",
+      "answer": "A warrior is a person experienced or engaged in fighting. 正解：rior → warrior（戦士）。副葬品から、その人物が高い地位の戦士だったと推測する考古学的文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p002:qwarrior"]
+    }
+  ]
+}

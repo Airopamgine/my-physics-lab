@@ -708,7 +708,8 @@
       "sha256": "62205d70c0dc08a08045e56321d417b1c7ab4497bbd966f348042bcc15fbb3a5",
       "answerKeyAvailable": false,
       "reviewedPages": [
-        1
+        1,
+        2
       ],
       "packets": [
         {
@@ -769,18 +770,32 @@
           "pdf:vocabulary:p002:qoffspring",
           "pdf:vocabulary:p002:qpattern",
           "pdf:vocabulary:p002:qpolicy",
-          "pdf:vocabulary:p002:qproximity"
+          "pdf:vocabulary:p002:qproximity",
+          "pdf:vocabulary:p002:qresearch",
+          "pdf:vocabulary:p002:qriverbed",
+          "pdf:vocabulary:p002:qsibling",
+          "pdf:vocabulary:p002:qsolution",
+          "pdf:vocabulary:p002:qspontaneous",
+          "pdf:vocabulary:p002:qstructure",
+          "pdf:vocabulary:p002:qsurpass",
+          "pdf:vocabulary:p002:qtechnological",
+          "pdf:vocabulary:p002:qthreat",
+          "pdf:vocabulary:p002:qtransparent",
+          "pdf:vocabulary:p002:qundetectable",
+          "pdf:vocabulary:p002:quniverse",
+          "pdf:vocabulary:p002:qusage",
+          "pdf:vocabulary:p002:qviable",
+          "pdf:vocabulary:p002:qwarrior"
         ]
       }
     }
   ],
   "lastSource": {
-    "type": "legacy",
+    "type": "pdf",
     "ids": [
-      "legacy-supernova-pathways-elements",
-      "legacy-tohoku-disaster-risk-layers"
+      "pdf-vocabulary-day01-part3"
     ],
-    "convertedAt": "2026-09-22T07:00:00+09:00"
+    "convertedAt": "2026-09-22T18:42:00+09:00"
   },
   "blockedItems": [
     {
