@@ -426,9 +426,35 @@ class TaskCatalogTests(unittest.TestCase):
 
         index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
         source = next(s for s in index['sources'] if s['id'] == 'task2')
-        self.assertEqual(source['reviewedPages'], list(range(1, 46)))
+        self.assertEqual(source['reviewedPages'][:45], list(range(1, 46)))
         self.assertEqual(source['pageItems']['36'], [])
         for page in range(37, 46):
+            page_refs = [ref for ref in expected_refs if f':p{page:03d}:' in ref]
+            self.assertEqual(source['pageItems'][str(page)], page_refs)
+
+    def test_task2_inference_questions_preserve_pages_46_through_53(self):
+        bank = self.build()
+        item = next(s for s in bank['sets'] if s['id'] == 'pdf-task2-p046-053')
+        expected_refs = [
+            'pdf:task2:p047:qexample-inference',
+            'pdf:task2:p048:q01', 'pdf:task2:p048:q02',
+            'pdf:task2:p049:q03', 'pdf:task2:p049:q04',
+            'pdf:task2:p050:q01', 'pdf:task2:p050:q02',
+            'pdf:task2:p051:q03', 'pdf:task2:p051:q04',
+            'pdf:task2:p052:q05', 'pdf:task2:p052:q06',
+            'pdf:task2:p053:q07', 'pdf:task2:p053:q08', 'pdf:task2:p053:q09']
+        self.assertEqual(len(item['questions']), 14)
+        self.assertEqual([q['sourceRefs'][0] for q in item['questions']], expected_refs)
+        self.assertEqual([q['correct'] for q in item['questions']],
+                         list('ABBDCCDACDBDDC'))
+        self.assertEqual(len({q['passage'] for q in item['questions']}), 9)
+        self.assertTrue(all(len(q['options']) == 4 for q in item['questions']))
+
+        index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
+        source = next(s for s in index['sources'] if s['id'] == 'task2')
+        self.assertEqual(source['reviewedPages'], list(range(1, 54)))
+        self.assertEqual(source['pageItems']['46'], [])
+        for page in range(47, 54):
             page_refs = [ref for ref in expected_refs if f':p{page:03d}:' in ref]
             self.assertEqual(source['pageItems'][str(page)], page_refs)
 

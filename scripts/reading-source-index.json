@@ -405,7 +405,15 @@
         42,
         43,
         44,
-        45
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
       ],
       "packets": [
         {
@@ -637,6 +645,35 @@
           "pdf:task2:p045:q13",
           "pdf:task2:p045:q14",
           "pdf:task2:p045:q15"
+        ],
+        "46": [],
+        "47": [
+          "pdf:task2:p047:qexample-inference"
+        ],
+        "48": [
+          "pdf:task2:p048:q01",
+          "pdf:task2:p048:q02"
+        ],
+        "49": [
+          "pdf:task2:p049:q03",
+          "pdf:task2:p049:q04"
+        ],
+        "50": [
+          "pdf:task2:p050:q01",
+          "pdf:task2:p050:q02"
+        ],
+        "51": [
+          "pdf:task2:p051:q03",
+          "pdf:task2:p051:q04"
+        ],
+        "52": [
+          "pdf:task2:p052:q05",
+          "pdf:task2:p052:q06"
+        ],
+        "53": [
+          "pdf:task2:p053:q07",
+          "pdf:task2:p053:q08",
+          "pdf:task2:p053:q09"
         ]
       }
     },
@@ -889,12 +926,11 @@
     }
   ],
   "lastSource": {
-    "type": "legacy",
+    "type": "pdf",
     "ids": [
-      "legacy-unesco-cooperation-limits",
-      "legacy-everyday-ai-decisions"
+      "pdf-task2-p046-053"
     ],
-    "convertedAt": "2026-09-23T01:01:00+09:00"
+    "convertedAt": "2026-09-23T03:00:00+09:00"
   },
   "blockedItems": [
     {

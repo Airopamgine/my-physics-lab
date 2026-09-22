@@ -1,0 +1,204 @@
+{
+  "id": "pdf-task2-p046-053",
+  "title": "Read in Daily Life · 推論問題",
+  "task": 2,
+  "date": "2026-09-23T03:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 2 · PDF 46–53ページ／冊子122–129ページ · Overview・Example・Practice問01–04・Test問01–09",
+  "verificationNote": "Editorial answers（編集・確認した解答）。スキャン原本の本文・設問・選択肢を画像で照合し、本文の明示情報とそこから導ける推論に基づいて正答を作成しました。出版社の巻末解答表とは未照合です。各文書に付く設問を原本どおりすべて収録しています。",
+  "passages": {
+    "gym": "The university gym will begin a major upgrade project on September 5 and is expected to finish by October 25. This project aims to install new equipment, expand the weight room, and add a dedicated group fitness studio. The gym undergoes small-scale maintenance and updates every winter break. However, this larger-scale upgrade was planned after a recent survey of campus fitness needs.\n\nDuring this time, all gym facilities will be closed. Scheduled classes and team practices will be held at alternate locations, and affected participants will receive separate notifications. Regular updates regarding progress will be communicated through the university website.",
+    "playbox": "Attention Customers\n\nDue to limited supply, the recently released PlayBox video game console will be limited to one per customer. We appreciate your understanding as we work to ensure more customers have the opportunity to purchase the system.",
+    "interview": "To: meganwoods@hmail.com\nFrom: careers@globaltechsolutions.com\nSubject: Interview Invitation\n\nDear Ms. Woods,\n\nThank you for your interest in the marketing specialist position at GlobalTech Solutions. We were impressed by your background in digital marketing and would like to invite you to an interview to discuss your application further. We are actively seeking a talented individual to fill the vacancy as we expand our digital presence, and your profile aligns well with our needs.\n\nWe would like to schedule an interview for Thursday, February 22, at 3:00 P.M. The interview will be held at our office located in the Apex Building, 500 Venture Plaza. During the interview, we will explore your qualifications, past experience, and understanding of the role. We will also discuss the compensation as well as the anticipated start date.\n\nPlease confirm your availability. If you are unable to attend in person, we can arrange for a video interview instead. We look forward to hearing from you soon.\n\nBest regards,\nCassian Walker",
+    "recall": "RECALL WARNING\n\nDue to potential contamination, all Lindendale Farms sausages manufactured on December 10 are being recalled. Customers are warned not to consume these products under any circumstances. Please return sausages with this manufacturing date to the place of purchase for a new package whether they have been opened or not.",
+    "walking_tour": "Erin McCarthy\n\nLast week, I joined the city’s Sunday walking tour program. It was a way to experience familiar streets in a new light. We wandered through historic neighborhoods, where the old architecture told stories of past generations. Colorful wall paintings added bursts of creativity and character to otherwise ordinary streets. We even visited an outdoor gallery with intriguing works from emerging artists.\n\nThis tour offered a combination of physical activity, exploration, and social connection—all without leaving the city limits. Walking nearly eight kilometers, I felt both energized and reflective. The guide shared fascinating insights about the city’s history, and finishing with a group lunch added a warm, communal touch.\n\nThe route changes every week, so there’s always something new to discover. If you’re looking for a way to uncover hidden corners of the city you thought you knew, give it a try! You can easily sign up for the event online through the city’s website.",
+    "parade": "Baytown—Jefferson Avenue will be closed between 9 A.M. and 6 P.M. on Saturday, July 10 due to the Founder’s Day Parade. Drivers should make plans for alternative routes. Those planning to attend the event are encouraged to use the subway system.",
+    "invoice": "INVOICE:\n\nPremier Solutions\n482 S. Washington St.\n555-2123\n\nInvoice#: 0148-249150\nDate: February 4\nBill to: Peak Energy Consultants\n\nService | Rate | Amount\nNetwork Install | $250/hr | $2,500\nSystem Training (group) | $200/hr | $600\nTotal Due: $3,100\n\nTerms: Payment due within 30 days. Late accounts will be assessed a 10 percent fee.\n\nThank you for choosing Premier Solutions",
+    "leave_requests": "To: All Employees\nSubject: Leave Requests\nDate: August 15\n\nEffective September 1, the minimum required notice for a leave request will be increased from two weeks to three. The goal is to minimize disruptions to projects. Please speak with our team member, Jared Andrews, if you have any questions. Our office is in Room 403. Thank you.\n\nViolet Parson\nHuman Resources Manager",
+    "cajun_museum": "Museum Showcases Cajun Culture and History\n\nAugust 28—The Beaumont Heritage Foundation has opened its new Museum of Cajun Culture, a facility focused on the history of the region’s Acadian people. The new museum features displays of rare documents, photographs, and artifacts that trace the group from its expulsion from East Coast Canada to the modern day.\n\nHoused in a fully restored traditional home on a homestead established in 1765, the museum offers visitors a first-hand view of what life was like for the early settlers. Staff dressed in period costumes also conduct demonstrations to show how difficult it would have been to tame the wild landscape in which they found themselves.\n\nThe Foundation hopes the museum will attract visitors interested in the region’s unique history and ignite cultural pride in local residents. It is open from Tuesday to Sunday from 10 A.M. to 6 P.M. and will offer special events on local and national holidays."
+  },
+  "questions": [
+    {
+      "passageId": "gym",
+      "prompt": "What can be inferred about the gym facility?",
+      "options": [
+        {"label": "A", "text": "It undergoes routine improvements every year."},
+        {"label": "B", "text": "It will be significantly larger after the work."},
+        {"label": "C", "text": "It will be the only gym available after the upgrade."},
+        {"label": "D", "text": "It is not used for classes."}
+      ],
+      "correct": "A",
+      "answer": "The gym receives small-scale maintenance and updates every winter break, so routine improvements occur annually. 正解：A。今回の大規模改修とは別に、毎年の冬休みに通常の改善が行われると推論できます。",
+      "sourceRefs": ["pdf:task2:p047:qexample-inference"]
+    },
+    {
+      "passageId": "playbox",
+      "prompt": "What can be inferred about the PlayBox video game console?",
+      "options": [
+        {"label": "A", "text": "It replaces an earlier model."},
+        {"label": "B", "text": "It is in high demand."},
+        {"label": "C", "text": "It must be reserved in advance."},
+        {"label": "D", "text": "It can only be played by one person."}
+      ],
+      "correct": "B",
+      "answer": "The store limits each customer to one console because supply is limited and it wants more customers to have a chance to buy one. 正解：B。これは需要が供給を上回るほど人気が高いことを示します。",
+      "sourceRefs": ["pdf:task2:p048:q01"]
+    },
+    {
+      "passageId": "interview",
+      "prompt": "What can be inferred about the marketing specialist position at GlobalTech Solutions?",
+      "options": [
+        {"label": "A", "text": "It requires extensive travel."},
+        {"label": "B", "text": "It is currently vacant."},
+        {"label": "C", "text": "It offers flexible working hours."},
+        {"label": "D", "text": "It is a managerial position."}
+      ],
+      "correct": "B",
+      "answer": "GlobalTech says it is actively seeking someone to fill the vacancy, so the position is currently open. 正解：B。vacancy は「空席・欠員」の意味です。出張、柔軟な勤務時間、管理職であることは示されていません。",
+      "sourceRefs": ["pdf:task2:p048:q02"]
+    },
+    {
+      "passageId": "recall",
+      "prompt": "What can be inferred about Lindendale Farms sausages?",
+      "options": [
+        {"label": "A", "text": "They cannot be returned if they have been opened."},
+        {"label": "B", "text": "They should be destroyed by the purchaser."},
+        {"label": "C", "text": "They are sold at only one store."},
+        {"label": "D", "text": "They can be consumed if made on a different day."}
+      ],
+      "correct": "D",
+      "answer": "The recall applies specifically to sausages manufactured on December 10, so products made on another date are not included in this warning. 正解：D。開封済みでも返品でき、購入者が廃棄する指示でもありません。",
+      "sourceRefs": ["pdf:task2:p049:q03"]
+    },
+    {
+      "passageId": "walking_tour",
+      "prompt": "What is suggested about the city’s walking tour?",
+      "options": [
+        {"label": "A", "text": "It is offered during the evening hours."},
+        {"label": "B", "text": "Its participants must bring their own refreshments."},
+        {"label": "C", "text": "It is held every week."},
+        {"label": "D", "text": "Its guides are certified in history."}
+      ],
+      "correct": "C",
+      "answer": "The post calls it a Sunday program and says the route changes every week, which indicates a weekly event. 正解：C。時間帯、飲食物の持参、ガイドの資格は本文にありません。",
+      "sourceRefs": ["pdf:task2:p049:q04"]
+    },
+    {
+      "passageId": "parade",
+      "prompt": "What are drivers advised to do?",
+      "options": [
+        {"label": "A", "text": "Leave early in the morning"},
+        {"label": "B", "text": "Park near the parade route"},
+        {"label": "C", "text": "Avoid the closed street"},
+        {"label": "D", "text": "Take the subway instead"}
+      ],
+      "correct": "C",
+      "answer": "Drivers are told to plan alternative routes because Jefferson Avenue will be closed. 正解：C。地下鉄の利用はパレード参加者への勧めであり、運転者には閉鎖道路を避けるよう求めています。",
+      "sourceRefs": ["pdf:task2:p050:q01"]
+    },
+    {
+      "passageId": "parade",
+      "prompt": "What can be inferred about the Founder’s Day Parade?",
+      "options": [
+        {"label": "A", "text": "It is expected to be attended by many people."},
+        {"label": "B", "text": "It takes place all over Baytown."},
+        {"label": "C", "text": "Its route is expected to vary."},
+        {"label": "D", "text": "Its location is accessible from a subway station."}
+      ],
+      "correct": "D",
+      "answer": "Attendees are encouraged to use the subway, so the parade area must be reachable by subway. 正解：D。多数の来場者はあり得ても明示的根拠が弱く、市内全域やルート変更については述べられていません。",
+      "sourceRefs": ["pdf:task2:p050:q02"]
+    },
+    {
+      "passageId": "invoice",
+      "prompt": "What type of service did Peak Energy Consultants purchase?",
+      "options": [
+        {"label": "A", "text": "Network installation"},
+        {"label": "B", "text": "Individual training"},
+        {"label": "C", "text": "Payment processing"},
+        {"label": "D", "text": "Energy consulting"}
+      ],
+      "correct": "A",
+      "answer": "The invoice lists “Network Install” as a purchased service. 正解：A。研修も購入されていますが group training であり、選択肢Bの individual training ではありません。",
+      "sourceRefs": ["pdf:task2:p051:q03"]
+    },
+    {
+      "passageId": "invoice",
+      "prompt": "What can be inferred about Premier Solutions?",
+      "options": [
+        {"label": "A", "text": "It offers group discounts."},
+        {"label": "B", "text": "It specializes in energy-efficient systems."},
+        {"label": "C", "text": "It is an IT company."},
+        {"label": "D", "text": "It accepts various payments."}
+      ],
+      "correct": "C",
+      "answer": "Premier Solutions provides network installation and system training, both information-technology services. 正解：C。請求先の社名に Energy とありますが、それは顧客であってPremier Solutionsの専門分野ではありません。",
+      "sourceRefs": ["pdf:task2:p051:q04"]
+    },
+    {
+      "passageId": "leave_requests",
+      "prompt": "What is the main purpose of the notice?",
+      "options": [
+        {"label": "A", "text": "To extend a project deadline"},
+        {"label": "B", "text": "To introduce a department goal"},
+        {"label": "C", "text": "To request a status update"},
+        {"label": "D", "text": "To announce a policy change"}
+      ],
+      "correct": "D",
+      "answer": "The notice announces that the required lead time for leave requests will increase from two weeks to three. 正解：D。これは休暇申請規定の変更であり、プロジェクト期限や進捗報告の依頼ではありません。",
+      "sourceRefs": ["pdf:task2:p052:q05"]
+    },
+    {
+      "passageId": "leave_requests",
+      "prompt": "What can be inferred about Mr. Andrews?",
+      "options": [
+        {"label": "A", "text": "He moved into a new office recently."},
+        {"label": "B", "text": "He belongs to the human resources team."},
+        {"label": "C", "text": "He is Ms. Parson’s immediate supervisor."},
+        {"label": "D", "text": "He was assigned to a different position."}
+      ],
+      "correct": "B",
+      "answer": "The Human Resources manager calls Jared Andrews “our team member” and directs policy questions to him. 正解：B。したがって彼は人事チームの一員だと推論できます。異動や上下関係は示されていません。",
+      "sourceRefs": ["pdf:task2:p052:q06"]
+    },
+    {
+      "passageId": "cajun_museum",
+      "prompt": "What is the main topic of the article?",
+      "options": [
+        {"label": "A", "text": "The history of the region"},
+        {"label": "B", "text": "A unique local culture"},
+        {"label": "C", "text": "Some recently discovered artifacts"},
+        {"label": "D", "text": "A newly opened museum"}
+      ],
+      "correct": "D",
+      "answer": "The article announces the new Museum of Cajun Culture and describes its exhibits, setting, mission, and hours. 正解：D。地域史や文化は博物館の内容であり、記事全体の中心は新しく開館した施設です。",
+      "sourceRefs": ["pdf:task2:p053:q07"]
+    },
+    {
+      "passageId": "cajun_museum",
+      "prompt": "What can be inferred about early settlers from the article?",
+      "options": [
+        {"label": "A", "text": "They came from multiple regions."},
+        {"label": "B", "text": "They found the area easy to live in."},
+        {"label": "C", "text": "They mixed with other local cultures."},
+        {"label": "D", "text": "They arrived in the eighteenth century."}
+      ],
+      "correct": "D",
+      "answer": "The museum’s traditional home stands on a homestead established in 1765 and represents the early settlers’ lives, supporting an eighteenth-century arrival. 正解：D。18世紀は1701〜1800年です。暮らしはむしろ困難だったと説明されています。",
+      "sourceRefs": ["pdf:task2:p053:q08"]
+    },
+    {
+      "passageId": "cajun_museum",
+      "prompt": "The word “ignite” in the final paragraph is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "prepare"},
+        {"label": "B", "text": "define"},
+        {"label": "C", "text": "awaken"},
+        {"label": "D", "text": "verify"}
+      ],
+      "correct": "C",
+      "answer": "The Foundation hopes the museum will awaken or spark cultural pride in residents. 正解：C。ignite はここでは「火をつける」から転じて、感情や関心を呼び起こす意味です。",
+      "sourceRefs": ["pdf:task2:p053:q09"]
+    }
+  ]
+}
