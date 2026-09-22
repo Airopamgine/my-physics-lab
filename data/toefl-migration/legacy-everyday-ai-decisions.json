@@ -1,0 +1,132 @@
+{
+  "id": "legacy-everyday-ai-decisions",
+  "title": "Everyday AI: Objectives, Context, and Responsibility",
+  "task": 3,
+  "date": "2026-09-23T01:01:00+09:00",
+  "level": "A2–B1",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "二つの原文段落と全九つの学習対象を保持し、元の日本語記述問題を根拠のある英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-everyday-ai-05/",
+  "passages": {
+    "text": "Artificial intelligence is already involved in many ordinary decisions. Recommendation systems rank videos or products, navigation services estimate routes, and email filters identify messages that resemble known spam. These systems can process large amounts of data quickly, which makes them convenient. Their suggestions, however, are not independent judgments formed without assumptions. The results depend on the data used, the objective selected by the designer, and the situation in which the system is applied.\n\nFor this reason, useful automation still requires human attention. A route described as \"fastest\" may not be the safest or most accessible route for every traveler. A recommended product may reflect previous clicks rather than a person's present needs. Users should also consider what information a service collects and how securely it is handled. The goal is neither to reject automated tools nor to follow them without question. It is to understand what they optimize, check whether that goal fits the current task, and retain responsibility for the final decision."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "The word “objective” in paragraph 1 is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "a goal used to guide the system"},
+        {"label": "B", "text": "a physical device used for input"},
+        {"label": "C", "text": "an error hidden from every user"},
+        {"label": "D", "text": "an opinion produced after discussion"}
+      ],
+      "correct": "A",
+      "answer": "正解：A。Here objective is a noun meaning the goal selected by the designer. objective はこの文では「目的」であり、形容詞の「客観的な」ではありません。品詞と selected の修飾関係が根拠です。",
+      "sourceRefs": ["legacy:english-reading-everyday-ai-05-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "The word “retain” in the final sentence is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "transfer completely"},
+        {"label": "B", "text": "keep and continue to have"},
+        {"label": "C", "text": "calculate automatically"},
+        {"label": "D", "text": "avoid recognizing"}
+      ],
+      "correct": "B",
+      "answer": "正解：B。retain responsibility means to keep responsibility rather than hand it over to the tool. retain は「保持する・手放さず持ち続ける」です。",
+      "sourceRefs": ["legacy:english-reading-everyday-ai-05-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does “These systems” in paragraph 1 refer to?",
+      "options": [
+        {"label": "A", "text": "Only the messages identified as spam"},
+        {"label": "B", "text": "Only navigation services and their estimated routes"},
+        {"label": "C", "text": "Recommendation systems, navigation services, and email filters"},
+        {"label": "D", "text": "The assumptions held by individual users"}
+      ],
+      "correct": "C",
+      "answer": "正解：C。The plural phrase collects all three examples immediately before it. These systems は推薦システム、ナビゲーション、メールフィルターをまとめて指し、最後の一例だけではありません。",
+      "sourceRefs": ["legacy:english-reading-everyday-ai-05-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does the pronoun “they” in “what they optimize” refer to?",
+      "options": [
+        {"label": "A", "text": "present needs"},
+        {"label": "B", "text": "previous clicks"},
+        {"label": "C", "text": "final decisions"},
+        {"label": "D", "text": "automated tools"}
+      ],
+      "correct": "D",
+      "answer": "正解：D。The preceding phrase says not to follow automated tools without question; them and they share that referent. referent は「代名詞が指す対象」です。",
+      "sourceRefs": ["legacy:english-reading-everyday-ai-05-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why might the route labeled “fastest” not be the best route for every traveler?",
+      "options": [
+        {"label": "A", "text": "Navigation systems cannot process route data quickly."},
+        {"label": "B", "text": "Minimizing travel time may not account for safety, accessibility, or another user's actual priority."},
+        {"label": "C", "text": "Every traveler always prefers the same objective."},
+        {"label": "D", "text": "The fastest route necessarily collects no personal information."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。Fastest optimizes travel time, but the user's goal may include safety or accessibility. optimize は「選んだ基準に対して最適化する」であり、あらゆる点で最高にする意味ではありません。",
+      "sourceRefs": ["legacy:english-reading-everyday-ai-05-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which statement is supported by the passage?",
+      "options": [
+        {"label": "A", "text": "AI outputs are completely independent of data, assumptions, and objectives."},
+        {"label": "B", "text": "A recommendation always represents a user's present needs."},
+        {"label": "C", "text": "Automated tools should be rejected in every situation."},
+        {"label": "D", "text": "Users should identify what a system optimizes and decide whether that objective fits the current task."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。The final sentence directly tells users to understand the optimized goal and test its fit. Aは第1段落、Bは過去クリックの例、Cは neither to reject と矛盾します。",
+      "sourceRefs": ["legacy:english-reading-everyday-ai-05-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which option best restates “The goal is neither to reject automated tools nor to follow them without question”?",
+      "options": [
+        {"label": "A", "text": "People should avoid both complete rejection and uncritical obedience."},
+        {"label": "B", "text": "People should reject tools whenever their output is inconvenient."},
+        {"label": "C", "text": "People should accept every automated suggestion as an independent judgment."},
+        {"label": "D", "text": "People should use automated tools only when no data are collected."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。neither A nor B は「AでもBでもない」です。without question は直訳の「質問せず」ではなく、ここでは uncritically（無批判に）という意味です。",
+      "sourceRefs": ["legacy:english-reading-everyday-ai-05-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which sentence best summarizes the passage?",
+      "options": [
+        {"label": "A", "text": "AI is useful only when it replaces all human judgment."},
+        {"label": "B", "text": "Users should focus only on the speed with which AI processes data."},
+        {"label": "C", "text": "Because AI outputs depend on data, objectives, and context, users should evaluate their fit and remain responsible for final decisions."},
+        {"label": "D", "text": "Recommendation systems accurately predict every present need from past clicks."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。This summary combines the dependence of outputs with the user's continuing responsibility. context は「適用される状況・文脈」で、同じ出力でも目的との適合性が変わります。",
+      "sourceRefs": ["legacy:english-reading-everyday-ai-05-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which plan best applies the passage's advice before following a recommendation system?",
+      "options": [
+        {"label": "A", "text": "Assume that past clicks perfectly represent the current purpose and choose the first result."},
+        {"label": "B", "text": "Ask what data and objective were used, compare alternatives with the present need, and keep responsibility for the choice."},
+        {"label": "C", "text": "Reject every recommendation without examining how the system works."},
+        {"label": "D", "text": "Transfer responsibility to the designer because the system processed more data."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。It checks input data, the optimized objective, present context, alternatives, and final responsibility. recommendation は「推薦」、alternative は「代替案・別の選択肢」です。",
+      "sourceRefs": ["legacy:english-reading-everyday-ai-05-q9"]
+    }
+  ]
+}

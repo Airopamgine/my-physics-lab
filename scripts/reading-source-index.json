@@ -889,11 +889,12 @@
     }
   ],
   "lastSource": {
-    "type": "pdf",
+    "type": "legacy",
     "ids": [
-      "pdf-task2-p037-045"
+      "legacy-unesco-cooperation-limits",
+      "legacy-everyday-ai-decisions"
     ],
-    "convertedAt": "2026-09-22T20:11:00+09:00"
+    "convertedAt": "2026-09-23T01:01:00+09:00"
   },
   "blockedItems": [
     {
