@@ -395,7 +395,17 @@
         32,
         33,
         34,
-        35
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
       ],
       "packets": [
         {
@@ -588,6 +598,45 @@
           "pdf:task2:p035:q13",
           "pdf:task2:p035:q14",
           "pdf:task2:p035:q15"
+        ],
+        "36": [],
+        "37": [
+          "pdf:task2:p037:qexample-vocabulary"
+        ],
+        "38": [
+          "pdf:task2:p038:q01",
+          "pdf:task2:p038:q02"
+        ],
+        "39": [
+          "pdf:task2:p039:q03",
+          "pdf:task2:p039:q04"
+        ],
+        "40": [
+          "pdf:task2:p040:q01",
+          "pdf:task2:p040:q02"
+        ],
+        "41": [
+          "pdf:task2:p041:q03",
+          "pdf:task2:p041:q04"
+        ],
+        "42": [
+          "pdf:task2:p042:q05",
+          "pdf:task2:p042:q06"
+        ],
+        "43": [
+          "pdf:task2:p043:q07",
+          "pdf:task2:p043:q08",
+          "pdf:task2:p043:q09"
+        ],
+        "44": [
+          "pdf:task2:p044:q10",
+          "pdf:task2:p044:q11",
+          "pdf:task2:p044:q12"
+        ],
+        "45": [
+          "pdf:task2:p045:q13",
+          "pdf:task2:p045:q14",
+          "pdf:task2:p045:q15"
         ]
       }
     },
@@ -842,9 +891,9 @@
   "lastSource": {
     "type": "pdf",
     "ids": [
-      "pdf-task2-p027-035"
+      "pdf-task2-p037-045"
     ],
-    "convertedAt": "2026-09-22T19:05:00+09:00"
+    "convertedAt": "2026-09-22T20:11:00+09:00"
   },
   "blockedItems": [
     {
