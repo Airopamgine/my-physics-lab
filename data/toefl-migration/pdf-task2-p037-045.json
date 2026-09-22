@@ -1,0 +1,284 @@
+{
+  "id": "pdf-task2-p037-045",
+  "title": "Read in Daily Life · 語彙と文脈",
+  "task": 2,
+  "date": "2026-09-22T20:11:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 2 · PDF 37–45ページ／冊子113–121ページ · Example・Practice問01–04・Test問01–15",
+  "verificationNote": "Editorial answers（編集・確認した解答）。スキャン原本の本文・設問・選択肢を画像で照合し、本文中の語義と文脈から正答を作成しました。出版社の巻末解答表とは未照合です。各文書に付く1～3問を原本どおりすべて収録しています。",
+  "passages": {
+    "renewables": "The cost of generating electricity from renewable methods has plummeted over the last decade, fundamentally changing market dynamics. Technological improvements, driven by intense research and development, have made solar panels and wind turbines far more efficient and significantly cheaper to produce and install. This makes green energy an increasingly compelling and often cheaper alternative to traditional, carbon-intensive power sources for consumers, businesses, and entire utility grids worldwide. The market momentum is now decisively in favor of renewables.",
+    "partnership": "Subject: Mobile Payment Partnership\n\nDear Mr. Reilly,\nThank you for meeting me yesterday. I was very happy to hear that your company is open to a partnership to develop a new mobile payment application together. I think this will be a lucrative project for both of our companies.\n\nSincerely,\nSumin Na",
+    "accommodations": "Subject: Accommodations\n\nDear Sir or Madam,\n\nI would like to get more information about the availability of rooms at your hotel in downtown Montreal.\n\nI work nearby at the headquarters of Monterra Industries. We are hosting some international clients for a meeting and will need to secure accommodations for them from October 6 to October 14. There will be six guests, but two are a couple, so we will need five rooms. We would prefer that they be suites if possible.\n\nPlease check your availability for this period and if you have vacancies, let me know what types of rooms they are and what the price would be for all of them, including the cost of your airport shuttle service. I hope to hear from you soon.\n\nJim Taylor",
+    "order": "Subject: Order confirmation\n\nDear Mr. Osborne,\n\nThank you for choosing OfficeMate for your office equipment needs. We have received your order and, as per your request, will expedite the shipment of the new XJ-2200 printer. You should receive it no later than tomorrow evening.\n\nKaty Griffin, Customer Service Representative",
+    "restaurant": "I just returned from Marrakesh Café and it may be my new favorite restaurant in town. It’s unlike anything you’ll find elsewhere.\n\nFrom the moment I walked in, the cozy ambiance and friendly staff made me feel welcome. It was more like visiting a friend’s house than going to a restaurant.\n\nHaving been to Morocco once before, I knew I wanted to order my favorite dish I had in Casablanca—lamb tagine. Unfortunately, it was already sold out for the day. The waiter gave me some other suggestions that all sounded great. I ended up ordering a stuffed chicken dish called ferakh maamer. It was so good that I was actually happy that my first choice wasn’t available.\n\nIf you’re interested in trying something new and delicious, stop by Marrakesh Café! It’s open from 11 A.M. to 11 P.M. daily, except for Tuesdays.",
+    "meeting": "Subject: Meeting Time Change\n\nDear Staff,\n\nThis afternoon’s meeting will be postponed until tomorrow morning due to the number of people out of the office. Please meet in the conference room at 10 A.M. and don’t forget to bring your project updates so we can go over them. Thanks.\n\nMax Lipscott, Team Manager",
+    "fitplus": "Attention FitPlus Members:\n\nPlease be advised that the indoor running track will be closed from May 1 to June 11 for refurbishment. During this time, members are encouraged to use the outdoor running track or other facilities at the gym.",
+    "career": "TECH CAREER DAY\n\nAre you looking for a job in the technology sector? Then come to the Tech Career Day!\n\nHundreds of technology companies will be there seeking prospective candidates for jobs in hardware development, programming, AI, and more!\n\nDate: Saturday, July 10\nLocation: Abramson Center, 442 Northwood Street",
+    "tulips": "Potterton, March 28—The city of Potterton is preparing for its annual Tulip Festival, which begins on April 13 this year. The weeklong event celebrates the blooming of nearly 600,000 of the vibrant flowers across the city.\n\nIn addition to the garden tours, spring market, and Main Street Tulip Parade featuring vehicles and floats decorated with the flowers, visitors can look forward to a fair for the first time. A variety of amusement park rides and games will be set up at Holmes Park this year. There will also be live music and fireworks displays each night.\n\nCity officials hope the expanded options will break past attendance records, possibly even topping one million attendees. According to Mayor Davies, this would make the festival Potterton’s biggest tourist draw and bring more than $100 million in revenue to the local economy.",
+    "vending": "Subject: Vending Machine\n\nDear Madam or sir,\n\nI’m writing today to request immediate service for the vending machine located in our apartment building. For the last few weeks, the tap-to-pay function has been unresponsive, so it cannot accept non-cash payments. We’ve received a lot of complaints since most of our residents prefer to use their cards or phones to pay for snacks from the machine. It’s also causing us to lose a lot of sales.\n\nI would like to schedule a service call to repair the machine as soon as possible. Our management office is open on weekdays from 9 A.M. to 5 P.M. so these times would be most convenient, but we can arrange to have a staff member escort your technician to the machine at a different time if necessary.\n\nThank you for your prompt attention to this matter.\n\nSteven Slotkin, Property Manager\nMoore Point Apartments",
+    "parking": "Attention Residents of Hudson Tower\n\nMultiple tenants have submitted formal complaints about their difficulties in finding parking spots. To address this issue, we will be implementing the following changes to the building’s parking policies:\n\n• Effective July 3, each unit will be assigned a single parking space at no charge. Please visit the administration office by this date to secure your space. One additional space per unit may be reserved for a $65 monthly fee. Note that the number of additional spaces is limited, and these will be allocated on a first-come, first-served basis.\n• The top floor of our parking facility (30 spaces in total) will be designated as the visitor-only parking area. Vehicles parked here must display a temporary parking pass, which will be issued by the security guard at the entrance to our building’s grounds.\n\nWe appreciate your understanding in this matter."
+  },
+  "questions": [
+    {
+      "passageId": "renewables",
+      "prompt": "The word “plummeted” in the passage is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "Struggled"},
+        {"label": "B", "text": "decreased"},
+        {"label": "C", "text": "hesitated"},
+        {"label": "D", "text": "weakened"}
+      ],
+      "correct": "B",
+      "answer": "The passage says renewable-electricity costs became significantly cheaper, so “plummeted” means decreased sharply. 正解：B。struggled、hesitated、weakened は費用が下がったという数量変化を表しません。",
+      "sourceRefs": ["pdf:task2:p037:qexample-vocabulary"]
+    },
+    {
+      "passageId": "partnership",
+      "prompt": "The word “lucrative” in the last sentence is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "cooperative"},
+        {"label": "B", "text": "profitable"},
+        {"label": "C", "text": "arduous"},
+        {"label": "D", "text": "risky"}
+      ],
+      "correct": "B",
+      "answer": "A lucrative project produces financial gain, so “profitable” is the closest meaning. 正解：B。cooperative は協力的、arduous は困難、risky は危険性が高いという別の意味です。",
+      "sourceRefs": ["pdf:task2:p038:q01"]
+    },
+    {
+      "passageId": "accommodations",
+      "prompt": "The word “vacancies” in the third paragraph is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "facilities"},
+        {"label": "B", "text": "halls"},
+        {"label": "C", "text": "openings"},
+        {"label": "D", "text": "reservations"}
+      ],
+      "correct": "C",
+      "answer": "Mr. Taylor asks whether rooms are available, so “vacancies” means openings—rooms not yet occupied or reserved. 正解：C。施設、ホール、予約そのものではありません。",
+      "sourceRefs": ["pdf:task2:p038:q02"]
+    },
+    {
+      "passageId": "order",
+      "prompt": "The word “expedite” in the second sentence is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "guarantee"},
+        {"label": "B", "text": "process"},
+        {"label": "C", "text": "review"},
+        {"label": "D", "text": "hasten"}
+      ],
+      "correct": "D",
+      "answer": "The printer is to arrive by tomorrow evening, so OfficeMate will “hasten,” or speed up, the shipment. 正解：D。到着を保証する、処理する、再確認するという意味ではありません。",
+      "sourceRefs": ["pdf:task2:p039:q03"]
+    },
+    {
+      "passageId": "restaurant",
+      "prompt": "The word “ambiance” in the second paragraph is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "location"},
+        {"label": "B", "text": "furniture"},
+        {"label": "C", "text": "decoration"},
+        {"label": "D", "text": "atmosphere"}
+      ],
+      "correct": "D",
+      "answer": "The cozy feeling and friendly welcome describe the restaurant’s atmosphere. 正解：D。ambiance は場所全体が与える雰囲気で、所在地・家具・装飾だけを指す語ではありません。",
+      "sourceRefs": ["pdf:task2:p039:q04"]
+    },
+    {
+      "passageId": "meeting",
+      "prompt": "What is the main purpose of the email?",
+      "options": [
+        {"label": "A", "text": "To announce an absence"},
+        {"label": "B", "text": "To remind of requirements"},
+        {"label": "C", "text": "To inform of a schedule change"},
+        {"label": "D", "text": "To inquire about attendance"}
+      ],
+      "correct": "C",
+      "answer": "The email moves the meeting from this afternoon to tomorrow morning. 正解：C。持参物にも触れますが、主目的は会議日程の変更を知らせることです。",
+      "sourceRefs": ["pdf:task2:p040:q01"]
+    },
+    {
+      "passageId": "meeting",
+      "prompt": "The phrase “go over” in the passage is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "discuss"},
+        {"label": "B", "text": "complete"},
+        {"label": "C", "text": "avoid"},
+        {"label": "D", "text": "delay"}
+      ],
+      "correct": "A",
+      "answer": "The staff will bring project updates so the group can review and discuss them. 正解：A。complete、avoid、delay は会議で更新内容を確認する文脈に合いません。",
+      "sourceRefs": ["pdf:task2:p040:q02"]
+    },
+    {
+      "passageId": "fitplus",
+      "prompt": "The word “refurbishment” in the passage is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "restoration"},
+        {"label": "B", "text": "sanitation"},
+        {"label": "C", "text": "renovation"},
+        {"label": "D", "text": "expansion"}
+      ],
+      "correct": "C",
+      "answer": "The indoor track is temporarily closed so it can be renewed or improved; “renovation” is the closest meaning. 正解：C。sanitation は衛生管理、expansion は拡張です。restoration より renovation が施設改修の文脈に直接合います。",
+      "sourceRefs": ["pdf:task2:p041:q03"]
+    },
+    {
+      "passageId": "fitplus",
+      "prompt": "What can be inferred about FitPlus?",
+      "options": [
+        {"label": "A", "text": "It has multiple running areas."},
+        {"label": "B", "text": "It will cancel all running classes."},
+        {"label": "C", "text": "Its members will receive a discount."},
+        {"label": "D", "text": "Its classes will be held outdoors."}
+      ],
+      "correct": "A",
+      "answer": "Members can use an outdoor running track while the indoor track is closed, so FitPlus has at least two running areas. 正解：A。授業の中止・屋外開催や割引は書かれていません。",
+      "sourceRefs": ["pdf:task2:p041:q04"]
+    },
+    {
+      "passageId": "career",
+      "prompt": "The word “prospective” in the passage is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "qualified"},
+        {"label": "B", "text": "potential"},
+        {"label": "C", "text": "reputable"},
+        {"label": "D", "text": "experienced"}
+      ],
+      "correct": "B",
+      "answer": "Companies are seeking people who may become employees, so prospective means potential. 正解：B。資格、評判、経験の有無はこの語自体には含まれません。",
+      "sourceRefs": ["pdf:task2:p042:q05"]
+    },
+    {
+      "passageId": "career",
+      "prompt": "What does the poster suggest about the Tech Career Day?",
+      "options": [
+        {"label": "A", "text": "It will be held over several days."},
+        {"label": "B", "text": "It will provide opportunities to meet numerous employers."},
+        {"label": "C", "text": "It includes a lecture on programming."},
+        {"label": "D", "text": "It is an annual event."}
+      ],
+      "correct": "B",
+      "answer": "Hundreds of technology companies will attend to seek candidates, so visitors can meet many employers. 正解：B。開催日は1日だけで、講演や年次開催については記載がありません。",
+      "sourceRefs": ["pdf:task2:p042:q06"]
+    },
+    {
+      "passageId": "tulips",
+      "prompt": "What is this article mainly about?",
+      "options": [
+        {"label": "A", "text": "Highlights of this year’s Tulip Festival"},
+        {"label": "B", "text": "Potterton’s famous tourist draws"},
+        {"label": "C", "text": "The ecology of tulip flowers"},
+        {"label": "D", "text": "The history of Potterton’s tourism policy"}
+      ],
+      "correct": "A",
+      "answer": "The article introduces this year’s dates, flowers, parade, new fair, music, fireworks, and attendance hopes. 正解：A。都市全般の観光地、チューリップの生態、観光政策史が中心ではありません。",
+      "sourceRefs": ["pdf:task2:p043:q07"]
+    },
+    {
+      "passageId": "tulips",
+      "prompt": "The word “vibrant” in the first paragraph is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "hardy"},
+        {"label": "B", "text": "native"},
+        {"label": "C", "text": "colorful"},
+        {"label": "D", "text": "dramatic"}
+      ],
+      "correct": "C",
+      "answer": "In the description of blooming tulips, vibrant refers to their vivid, colorful appearance. 正解：C。丈夫さ、原産地、劇的であることを述べる語ではありません。",
+      "sourceRefs": ["pdf:task2:p043:q08"]
+    },
+    {
+      "passageId": "tulips",
+      "prompt": "What will visitors NOT experience?",
+      "options": [
+        {"label": "A", "text": "Riding an amusement park ride"},
+        {"label": "B", "text": "Visiting gardens"},
+        {"label": "C", "text": "Learning how to grow tulips"},
+        {"label": "D", "text": "Enjoying nightly performances"}
+      ],
+      "correct": "C",
+      "answer": "The festival offers rides, garden tours, and nightly live music and fireworks, but no tulip-growing instruction. 正解：C。本文に記載のない体験を選ぶ問題です。",
+      "sourceRefs": ["pdf:task2:p043:q09"]
+    },
+    {
+      "passageId": "vending",
+      "prompt": "What is the main purpose of the email?",
+      "options": [
+        {"label": "A", "text": "To request a cash payment"},
+        {"label": "B", "text": "To highlight a credit card option"},
+        {"label": "C", "text": "To ask for an urgent repair service"},
+        {"label": "D", "text": "To explain the location of a machine"}
+      ],
+      "correct": "C",
+      "answer": "Mr. Slotkin requests immediate service and asks to schedule a repair as soon as possible. 正解：C。支払い請求、カード機能の宣伝、設置場所の説明が主目的ではありません。",
+      "sourceRefs": ["pdf:task2:p044:q10"]
+    },
+    {
+      "passageId": "vending",
+      "prompt": "The word “unresponsive” in the first paragraph is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "silent"},
+        {"label": "B", "text": "dormant"},
+        {"label": "C", "text": "disconnected"},
+        {"label": "D", "text": "nonfunctional"}
+      ],
+      "correct": "D",
+      "answer": "The tap-to-pay function cannot accept non-cash payments, so it is nonfunctional. 正解：D。音がしない、休止中、接続が外れているという限定的な意味ではありません。",
+      "sourceRefs": ["pdf:task2:p044:q11"]
+    },
+    {
+      "passageId": "vending",
+      "prompt": "What kind of business does Mr. Slotkin work for?",
+      "options": [
+        {"label": "A", "text": "A credit card company"},
+        {"label": "B", "text": "A housing provider"},
+        {"label": "C", "text": "A machine shop"},
+        {"label": "D", "text": "A snack maker"}
+      ],
+      "correct": "B",
+      "answer": "He is the property manager of Moore Point Apartments, so he works for a housing provider. 正解：B。自動販売機の修理を依頼している側であり、カード会社・機械店・菓子メーカーではありません。",
+      "sourceRefs": ["pdf:task2:p044:q12"]
+    },
+    {
+      "passageId": "parking",
+      "prompt": "The word “submitted” in the first paragraph is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "appealed"},
+        {"label": "B", "text": "enforced"},
+        {"label": "C", "text": "presented"},
+        {"label": "D", "text": "generated"}
+      ],
+      "correct": "C",
+      "answer": "Tenants formally presented their complaints to building management. 正解：C。appealed は訴えた、enforced は施行した、generated は生み出したという意味で、この文脈の submitted とは異なります。",
+      "sourceRefs": ["pdf:task2:p045:q13"]
+    },
+    {
+      "passageId": "parking",
+      "prompt": "What are tenants required to do by July 3?",
+      "options": [
+        {"label": "A", "text": "Make a request for a reserved spot"},
+        {"label": "B", "text": "Pay a fee at an administration office"},
+        {"label": "C", "text": "Give a visitor’s name to a security guard"},
+        {"label": "D", "text": "Confirm availability of an additional space"}
+      ],
+      "correct": "A",
+      "answer": "Residents must visit the administration office by July 3 to secure their assigned parking space. 正解：A。最初の1台分は無料で、追加枠の確認や来客名の提出が全住民に求められているわけではありません。",
+      "sourceRefs": ["pdf:task2:p045:q14"]
+    },
+    {
+      "passageId": "parking",
+      "prompt": "What can be concluded about the parking facility’s top floor?",
+      "options": [
+        {"label": "A", "text": "It will be reserved for building employees."},
+        {"label": "B", "text": "It is currently used for storing equipment."},
+        {"label": "C", "text": "It is being renovated to optimize its capacity."},
+        {"label": "D", "text": "It will be off-limits to residents’ vehicles."}
+      ],
+      "correct": "D",
+      "answer": "The top floor will be a visitor-only parking area, so residents may not park their own vehicles there. 正解：D。従業員専用、倉庫利用、改修工事については本文にありません。",
+      "sourceRefs": ["pdf:task2:p045:q15"]
+    }
+  ]
+}
