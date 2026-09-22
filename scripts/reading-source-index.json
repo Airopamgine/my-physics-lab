@@ -413,7 +413,13 @@
         50,
         51,
         52,
-        53
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
       ],
       "packets": [
         {
@@ -674,6 +680,28 @@
           "pdf:task2:p053:q07",
           "pdf:task2:p053:q08",
           "pdf:task2:p053:q09"
+        ],
+        "54": [
+          "pdf:task2:p054:q10",
+          "pdf:task2:p054:q11",
+          "pdf:task2:p054:q12"
+        ],
+        "55": [
+          "pdf:task2:p055:q13",
+          "pdf:task2:p055:q14",
+          "pdf:task2:p055:q15"
+        ],
+        "56": [],
+        "57": [
+          "pdf:task2:p057:qexample-intention"
+        ],
+        "58": [
+          "pdf:task2:p058:q01",
+          "pdf:task2:p058:q02"
+        ],
+        "59": [
+          "pdf:task2:p059:q03",
+          "pdf:task2:p059:q04"
         ]
       }
     },
@@ -928,9 +956,9 @@
   "lastSource": {
     "type": "pdf",
     "ids": [
-      "pdf-task2-p046-053"
+      "pdf-task2-p054-059"
     ],
-    "convertedAt": "2026-09-23T03:00:00+09:00"
+    "convertedAt": "2026-09-23T05:00:00+09:00"
   },
   "blockedItems": [
     {
