@@ -1,0 +1,284 @@
+{
+  "id": "pdf-task2-p027-035",
+  "title": "Read in Daily Life · 交通・選挙・住居・イベント案内",
+  "task": 2,
+  "date": "2026-09-22T19:05:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 2 · PDF 27–35ページ／冊子103–111ページ · Example・Practice問01–04・Test問01–15",
+  "verificationNote": "Editorial answers（編集・確認した解答）。スキャン原本の本文・設問・選択肢を画像で照合し、本文根拠から正答を作成しました。出版社の巻末解答表とは未照合です。各文書に付く1～3問を原本どおりすべて収録しています。",
+  "passages": {
+    "exam": "Subject: Exam Timetable Update\n\nDear Students,\n\nThe school exam schedule has been updated. All final exams will be held from June 3 to June 10, starting at 9 A.M. each day in Building B. Please check the course portal for your specific subjects and seating arrangements. If you have exam conflicts, email the academic office immediately. Should there be any updates regarding exam locations or dates, we will inform you by email. We work to maintain a fair and organized examination process. Thank you for your cooperation.",
+    "shuttle": "A new shuttle bus service will begin on August 25. The bus will operate between Downsview Station and City Hall from 7:00 A.M. to 7:00 P.M., running every 30 minutes. Please note that the service is available on weekdays only. No reservation is required, and there is no charge for using the service.",
+    "green-plate": "We are launching a new era in prepared meal solutions with Green Plate, our entry into the plant-based food industry. With our expertise in the food sector, each Green Plate meal is designed with exceptional taste and balanced nutrition. Subscribe by March 24 to get 35 percent off your first two-week trial kit.",
+    "banking": "Dear Customers,\n\nA system upgrade is scheduled, and our online banking services will be unavailable from 9:00 P.M. to 11:00 P.M. on Saturday, March 27. We recommend that customers complete any urgent online transactions before this period. ATM services will not be affected.",
+    "election": "Elmhurst—The city of Elmhurst is preparing for its upcoming elections. On November 5, residents will go to the ballot boxes to elect a new mayor to replace Sandra Moretti who is retiring after three terms in office.\n\nThe race has become heated with more than a dozen candidates vying for office. Currently in the lead is local businessperson David Smith. Recent polls show that Mr. Smith has a five-point lead over his closest rival, city council president Annie Tobin. However, the race will likely result in a run-off election between the two due to electoral rules that require the winning candidate to win at least 50 percent of the total vote. Should a second election be required, it will take place on December 10.",
+    "maintenance": "Subject: Maintenance inspection\n\nDear Residents,\n\nThis is a reminder that the annual maintenance inspection will take place on November 11. Building staff must visit each apartment to look for issues that need to be addressed. Please provide them access to your unit. Thank you for your cooperation.\n\nStan Leighton\nBuilding Superintendent",
+    "tigers": "The Dallas Tigers, a popular local baseball team, is getting ready for its season opener on March 15. Coach Brian Radcliffe, who led the Houston Hurricanes to the league championship last season, is thrilled to have signed a contract with his new team. “I am confident we will perform well this year, especially with the last-minute addition of star pitcher Davis Wilkins,” he said during a recent interview. “All of the players are training hard, and there is a high level of confidence in the locker room,” he added.\n\nTo show appreciation to its fans, the team will be handing out free baseball caps to the first 100 people to arrive at the game on March 15. If you want one of these, make sure to show up at the stadium at least an hour before the game begins.",
+    "defense": "Take Your Safety in Your Own Hands\n\nSign up for private self-defense classes with former army instructor and security expert Matthew Bates.\n• More than 30 years of military and commercial teaching experience\n• $40 for each 90-minute class\n• Classes tailored to individual needs and abilities\nCall 555-2327 for more information.",
+    "application": "To: Ray Carson <r.carson@dmail.com>\nFrom: Myra Adams <m.adams@bedforddept.com>\nDate: June 3\nSubject: Re: Application\n\nDear Mr. Carson,\n\nI am happy to inform you that we have decided to offer you the assistant manager position here at the Collingwood branch of the Bedford Department Store. Given your extensive relevant experience, I am confident that you will thrive in this role. As we discussed during the interview last week, the start date is July 5. On your first day, you will participate in a four-hour orientation. During this time, you will learn about our company policies and the various duties you will perform. I would like you to meet with a member of our HR team, Brenda Weatherford, next week. She will go over the employment contract with you and answer any questions you might have. Please let me know a date and time that is convenient for you.\n\nSincerely,\nMyra Adams",
+    "fun-run": "City of Riverside @RiversideCity | April 21\nThe big day is quickly approaching. Only 14 days until the 52nd Riverside Fun Run! Are you ready?\n\nThe annual race is open to everyone who wishes to participate, whether they want to run, walk, or roll. Participants can choose the 5K or 10K course or the full marathon. Separate winners will be awarded trophies for each race and all who take part will receive a participation certificate, water bottle, and a t-shirt.\n\nBut you don’t have to race to have fun. We will also have live music, a local vendor showcase, and a special play area for children.\n\nEvents start at City Hall at 8 A.M. on May 5.\nRegistration is open until April 30.\nRegistration fee: $25\n\nAll proceeds raised from the event will support city programs providing food for children, seniors, and families in need.",
+    "presentation": "Mitch Henderson (2:30 P.M.)\nThe client presentation for the Melville Industries contract is set for Friday. Could you please update me on your progress?\n\nRachel Norton (2:33 P.M.)\nI’ve finished the financial projections section. The cost analysis shows that implementing our automation system could cut their operating expenses by 5 percent in the first year alone.\n\nBrandon West (2:36 P.M.)\nThe technical specifications are complete. I’ve included detailed timelines for each phase of the installation, including the robotic units and sensor network components.\n\nCatherine Walsh (2:40 P.M.)\nI’m drafting the risk assessment report. I’ve identified a possible safety compliance issue with the automated conveyor systems, so I’m planning to revisit the technical documents.\n\nBrandon West (2:43 P.M.)\nLet me know what you need, Catherine. I can send over the latest data.\n\nMitch Henderson (2:45 P.M.)\nGreat. To ensure everything is aligned, let’s schedule a full rehearsal on Thursday at 3:00 P.M."
+  },
+  "questions": [
+    {
+      "passageId": "exam",
+      "prompt": "What is indicated about seating arrangements?",
+      "options": [
+        {"label": "A", "text": "They might be updated before the exams."},
+        {"label": "B", "text": "They differ for each exam."},
+        {"label": "C", "text": "They can be found on the course portal."},
+        {"label": "D", "text": "They are selected by students."}
+      ],
+      "correct": "C",
+      "answer": "The notice tells students to check the course portal for their subjects and seating arrangements. 正解：C。変更の可能性が明記されるのは試験会場や日付であり、座席を生徒が選ぶとは書かれていません。",
+      "sourceRefs": ["pdf:task2:p027:qexample-fact"]
+    },
+    {
+      "passageId": "shuttle",
+      "prompt": "What does the notice indicate about the shuttle bus service?",
+      "options": [
+        {"label": "A", "text": "It requires a reservation in advance."},
+        {"label": "B", "text": "It can be used at no cost."},
+        {"label": "C", "text": "It operates only on weekends."},
+        {"label": "D", "text": "It is available once an hour."}
+      ],
+      "correct": "B",
+      "answer": "The notice explicitly says there is no charge for using the service. 正解：B。予約は不要、運行は平日のみ、間隔は30分なので、A・C・Dはいずれも本文と反対です。",
+      "sourceRefs": ["pdf:task2:p028:q01"]
+    },
+    {
+      "passageId": "green-plate",
+      "prompt": "What does the advertisement indicate about Green Plate meals?",
+      "options": [
+        {"label": "A", "text": "They are primarily made up of plant."},
+        {"label": "B", "text": "They must be cooked by consumers."},
+        {"label": "C", "text": "They are available at major supermarkets."},
+        {"label": "D", "text": "They are shipped at no cost to customers."}
+      ],
+      "correct": "A",
+      "answer": "Green Plate is described as an entry into the plant-based food industry. 正解：A。prepared meal は調理済み食品を示しますが、購入者による調理、スーパーでの販売、送料無料は記載されていません。",
+      "sourceRefs": ["pdf:task2:p028:q02"]
+    },
+    {
+      "passageId": "banking",
+      "prompt": "What is indicated about the online banking services on the night of March 27?",
+      "options": [
+        {"label": "A", "text": "They will display warning messages."},
+        {"label": "B", "text": "They will be available only to corporate clients."},
+        {"label": "C", "text": "They will not accept deposits."},
+        {"label": "D", "text": "They will be unavailable."}
+      ],
+      "correct": "D",
+      "answer": "Online banking will be unavailable from 9:00 P.M. to 11:00 P.M. on March 27. 正解：D。ATMは影響を受けないとありますが、法人限定、入金制限、警告表示は述べられていません。",
+      "sourceRefs": ["pdf:task2:p029:q03"]
+    },
+    {
+      "passageId": "election",
+      "prompt": "All of the following are true about the election EXCEPT:",
+      "options": [
+        {"label": "A", "text": "It will be held in November."},
+        {"label": "B", "text": "It is for a city office."},
+        {"label": "C", "text": "It has two dozen candidates."},
+        {"label": "D", "text": "It requires a winner to get more than half of the votes."}
+      ],
+      "correct": "C",
+      "answer": "The article says there are more than a dozen candidates, not two dozen. 正解：C。投票日は11月5日で、市長を選ぶ市の選挙です。また、勝者には少なくとも全票の50%が必要だと説明されています。",
+      "sourceRefs": ["pdf:task2:p029:q04"]
+    },
+    {
+      "passageId": "maintenance",
+      "prompt": "What is the main purpose of the notice?",
+      "options": [
+        {"label": "A", "text": "To announce a change to the inspection schedule"},
+        {"label": "B", "text": "To ask residents to report maintenance issues in their units"},
+        {"label": "C", "text": "To notify staff members about a building maintenance inspection"},
+        {"label": "D", "text": "To remind residents to allow building staff to access their units"}
+      ],
+      "correct": "D",
+      "answer": "The superintendent reminds residents of the inspection and asks them to give staff access to their apartments. 正解：D。日程変更や不具合の申告依頼ではなく、宛先も職員ではなく住民です。",
+      "sourceRefs": ["pdf:task2:p030:q01"]
+    },
+    {
+      "passageId": "maintenance",
+      "prompt": "What is indicated about the inspection?",
+      "options": [
+        {"label": "A", "text": "It is voluntary."},
+        {"label": "B", "text": "It will take 11 days."},
+        {"label": "C", "text": "It is for safety issues."},
+        {"label": "D", "text": "It happens every year."}
+      ],
+      "correct": "D",
+      "answer": "The notice calls it the annual maintenance inspection. 正解：D。annual は「年に一度の」です。November 11は日付で11日間という意味ではなく、任意や安全問題限定とも書かれていません。",
+      "sourceRefs": ["pdf:task2:p030:q02"]
+    },
+    {
+      "passageId": "tigers",
+      "prompt": "What can be inferred about Mr. Radcliffe?",
+      "options": [
+        {"label": "A", "text": "He has not coached a team before."},
+        {"label": "B", "text": "He used to play baseball in Dallas."},
+        {"label": "C", "text": "He left the Houston Hurricanes recently."},
+        {"label": "D", "text": "He has not signed a contract yet."}
+      ],
+      "correct": "C",
+      "answer": "Mr. Radcliffe led the Houston Hurricanes last season and has now signed with the Dallas Tigers. 正解：C。したがって最近Houstonを離れたと推測できます。コーチ経験があり、契約済みで、Dallasで選手だったとは書かれていません。",
+      "sourceRefs": ["pdf:task2:p031:q03"]
+    },
+    {
+      "passageId": "tigers",
+      "prompt": "What is indicated about the Dallas Tigers?",
+      "options": [
+        {"label": "A", "text": "It won a league championship."},
+        {"label": "B", "text": "It recruited a new player."},
+        {"label": "C", "text": "It upgraded a locker room."},
+        {"label": "D", "text": "It postponed a training session."}
+      ],
+      "correct": "B",
+      "answer": "The team made a last-minute addition of star pitcher Davis Wilkins. 正解：B。優勝したのはHouston Hurricanesであり、ロッカールーム改修や練習延期は記載されていません。",
+      "sourceRefs": ["pdf:task2:p031:q04"]
+    },
+    {
+      "passageId": "defense",
+      "prompt": "What is this advertisement promoting?",
+      "options": [
+        {"label": "A", "text": "Military service"},
+        {"label": "B", "text": "Security systems"},
+        {"label": "C", "text": "Group fitness classes"},
+        {"label": "D", "text": "Protective skills training"}
+      ],
+      "correct": "D",
+      "answer": "The advertisement promotes private self-defense classes. 正解：D。self-defense は身を守る技能なので protective skills training の言い換えです。軍への入隊、警備装置、団体運動教室ではありません。",
+      "sourceRefs": ["pdf:task2:p032:q05"]
+    },
+    {
+      "passageId": "defense",
+      "prompt": "All of the following are true about Matthew Bates EXCEPT:",
+      "options": [
+        {"label": "A", "text": "He was in the army."},
+        {"label": "B", "text": "He charges $40 per hour."},
+        {"label": "C", "text": "He customizes his services for each customer."},
+        {"label": "D", "text": "He has more than three decades of experience."}
+      ],
+      "correct": "B",
+      "answer": "The fee is $40 for each 90-minute class, not $40 per hour. 正解：B。元軍教官で30年以上の経験があり、授業は個々のニーズと能力に合わせると明記されています。",
+      "sourceRefs": ["pdf:task2:p032:q06"]
+    },
+    {
+      "passageId": "application",
+      "prompt": "What can be inferred about Mr. Carson?",
+      "options": [
+        {"label": "A", "text": "He transferred to another branch."},
+        {"label": "B", "text": "He requested a start date be changed."},
+        {"label": "C", "text": "He submitted an application in June."},
+        {"label": "D", "text": "He worked at a retail outlet before."}
+      ],
+      "correct": "D",
+      "answer": "He is offered an assistant manager role at a department store because of extensive relevant experience. 正解：D。小売店での勤務経験があると推測できます。異動、開始日の変更依頼、応募月は本文からは確定できません。",
+      "sourceRefs": ["pdf:task2:p033:q07"]
+    },
+    {
+      "passageId": "application",
+      "prompt": "What will happen on July 5?",
+      "options": [
+        {"label": "A", "text": "A company policy will be updated."},
+        {"label": "B", "text": "A job interview will be conducted."},
+        {"label": "C", "text": "A training session will be held."},
+        {"label": "D", "text": "A team leader will be announced."}
+      ],
+      "correct": "C",
+      "answer": "July 5 is Mr. Carson’s first day, when he will participate in a four-hour orientation. 正解：C。orientation は職務や方針を学ぶ研修です。面接は前週に終わっています。",
+      "sourceRefs": ["pdf:task2:p033:q08"]
+    },
+    {
+      "passageId": "application",
+      "prompt": "What does the email indicate about Ms. Weatherford?",
+      "options": [
+        {"label": "A", "text": "She is a member of the management team."},
+        {"label": "B", "text": "She will discuss a legal agreement with Mr. Carson."},
+        {"label": "C", "text": "She is the facilitator of the orientation."},
+        {"label": "D", "text": "She will be Mr. Carson's direct supervisor."}
+      ],
+      "correct": "B",
+      "answer": "Ms. Weatherford is in HR and will go over the employment contract with Mr. Carson. 正解：B。employment contract は雇用契約という法的合意です。管理職、研修担当、直属上司とは書かれていません。",
+      "sourceRefs": ["pdf:task2:p033:q09"]
+    },
+    {
+      "passageId": "fun-run",
+      "prompt": "What is the main purpose of the post?",
+      "options": [
+        {"label": "A", "text": "To announce a schedule change"},
+        {"label": "B", "text": "To promote an upcoming event"},
+        {"label": "C", "text": "To encourage people to try running"},
+        {"label": "D", "text": "To raise money for charity"}
+      ],
+      "correct": "B",
+      "answer": "The post gives the activities, date, registration deadline, and fee for the upcoming Riverside Fun Run. 正解：B。収益の用途にも触れますが、投稿全体の主目的はイベントの告知・宣伝です。",
+      "sourceRefs": ["pdf:task2:p034:q10"]
+    },
+    {
+      "passageId": "fun-run",
+      "prompt": "What is indicated about the event?",
+      "options": [
+        {"label": "A", "text": "It is being held for the first time."},
+        {"label": "B", "text": "It offers only one fixed course distance."},
+        {"label": "C", "text": "It is accompanied by side events."},
+        {"label": "D", "text": "It includes a special race for children."}
+      ],
+      "correct": "C",
+      "answer": "Besides the races, the event includes live music, a vendor showcase, and a children’s play area. 正解：C。52回目で、距離は複数あり、子ども向けなのは競走ではなく遊び場です。",
+      "sourceRefs": ["pdf:task2:p034:q11"]
+    },
+    {
+      "passageId": "fun-run",
+      "prompt": "When will races be held?",
+      "options": [
+        {"label": "A", "text": "April 21"},
+        {"label": "B", "text": "April 30"},
+        {"label": "C", "text": "May 5"},
+        {"label": "D", "text": "May 10"}
+      ],
+      "correct": "C",
+      "answer": "The post says events start at City Hall at 8 A.M. on May 5. 正解：C。April 21は投稿日、April 30は登録締切です。",
+      "sourceRefs": ["pdf:task2:p034:q12"]
+    },
+    {
+      "passageId": "presentation",
+      "prompt": "What is the main purpose of the discussion?",
+      "options": [
+        {"label": "A", "text": "To gain insight into preparations for a client presentation"},
+        {"label": "B", "text": "To discuss budget adjustments for a current project"},
+        {"label": "C", "text": "To review quarterly performance targets with team members"},
+        {"label": "D", "text": "To schedule regular team meetings for project management"}
+      ],
+      "correct": "A",
+      "answer": "Mr. Henderson asks for progress updates on the team’s sections for Friday’s client presentation. 正解：A。予算変更や四半期目標、定例会議ではなく、発表準備の進捗確認です。",
+      "sourceRefs": ["pdf:task2:p035:q13"]
+    },
+    {
+      "passageId": "presentation",
+      "prompt": "At 2:40 P.M., what does Ms. Walsh imply when she writes “I’m planning to revisit the technical documents”?",
+      "options": [
+        {"label": "A", "text": "She believes the technical specifications are incorrect."},
+        {"label": "B", "text": "She needs to check on some equipment in person."},
+        {"label": "C", "text": "She intends to delay the risk assessment until Friday."},
+        {"label": "D", "text": "She needs to re-examine the technical specifications."}
+      ],
+      "correct": "D",
+      "answer": "After identifying a possible safety-compliance issue, Ms. Walsh plans to review the technical documents again. 正解：D。revisit はここでは「再検討する」です。仕様が誤りだと断定したり、現物確認や延期を示したりはしていません。",
+      "sourceRefs": ["pdf:task2:p035:q14"]
+    },
+    {
+      "passageId": "presentation",
+      "prompt": "All of the following statements are true about the automation system EXCEPT:",
+      "options": [
+        {"label": "A", "text": "It requires a multi-stage installation."},
+        {"label": "B", "text": "It is projected to result in lower operational spending."},
+        {"label": "C", "text": "It has previously been cited for safety issues."},
+        {"label": "D", "text": "It incorporates mechanized equipment."}
+      ],
+      "correct": "C",
+      "answer": "The discussion identifies only a possible safety-compliance issue; it does not say the system was previously cited. 正解：C。設置には複数段階があり、費用削減が見込まれ、ロボットや自動コンベアを含むことは本文に示されています。",
+      "sourceRefs": ["pdf:task2:p035:q15"]
+    }
+  ]
+}
