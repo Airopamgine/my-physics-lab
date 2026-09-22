@@ -376,6 +376,34 @@ class TaskCatalogTests(unittest.TestCase):
                 self.assertTrue(all(q['passage'] == passage for q in item['questions']))
                 self.assertTrue(all(len(q['options']) == 4 for q in item['questions']))
 
+    def test_task2_fact_questions_preserve_pages_27_through_35(self):
+        bank = self.build()
+        item = next(s for s in bank['sets'] if s['id'] == 'pdf-task2-p027-035')
+        expected_refs = [
+            'pdf:task2:p027:qexample-fact',
+            'pdf:task2:p028:q01', 'pdf:task2:p028:q02',
+            'pdf:task2:p029:q03', 'pdf:task2:p029:q04',
+            'pdf:task2:p030:q01', 'pdf:task2:p030:q02',
+            'pdf:task2:p031:q03', 'pdf:task2:p031:q04',
+            'pdf:task2:p032:q05', 'pdf:task2:p032:q06',
+            'pdf:task2:p033:q07', 'pdf:task2:p033:q08', 'pdf:task2:p033:q09',
+            'pdf:task2:p034:q10', 'pdf:task2:p034:q11', 'pdf:task2:p034:q12',
+            'pdf:task2:p035:q13', 'pdf:task2:p035:q14', 'pdf:task2:p035:q15']
+        self.assertEqual(len(item['questions']), 20)
+        self.assertEqual([q['sourceRefs'][0] for q in item['questions']], expected_refs)
+        self.assertEqual([q['correct'] for q in item['questions']],
+                         list('CBADCDDCBDBDCBBCCADC'))
+        self.assertEqual(len({q['passage'] for q in item['questions']}), 11)
+        self.assertTrue(all(len(q['options']) == 4 for q in item['questions']))
+
+        index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
+        source = next(s for s in index['sources'] if s['id'] == 'task2')
+        self.assertEqual(source['reviewedPages'], list(range(1, 36)))
+        self.assertEqual(source['pageItems']['26'], [])
+        for page in range(27, 36):
+            page_refs = [ref for ref in expected_refs if f':p{page:03d}:' in ref]
+            self.assertEqual(source['pageItems'][str(page)], page_refs)
+
     def test_duplicate_source_reference_rejected(self):
         self.change('data/toefl-migration/legacy-balanced-diet.json',lambda d:d['questions'][1].update(sourceRefs=d['questions'][0]['sourceRefs']))
         with self.assertRaises(ValueError): self.build()
