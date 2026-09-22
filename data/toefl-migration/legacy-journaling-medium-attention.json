@@ -1,0 +1,132 @@
+{
+  "id": "legacy-journaling-medium-attention",
+  "title": "Keeping a Journal: Medium, Purpose, and Attention",
+  "task": 3,
+  "date": "2026-09-23T07:00:00+09:00",
+  "level": "A2–B1",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "二つの原文段落と全九つの学習対象を保持し、元の日本語記述・翻訳・発展問題を本文根拠のある英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-reflection-01/",
+  "passages": {
+    "text": "Many people find that keeping a journal helps them make sense of daily life. By putting experiences, emotions, and questions into words, they may notice patterns that are difficult to see while those thoughts remain unspoken. Writing does not solve every problem, but it can create enough distance for a person to examine a situation from another perspective.\n\nThe medium also affects the experience. A digital journal is easy to search, edit, and retrieve from different devices. A paper notebook, by contrast, has no notifications and may encourage slower, more deliberate writing. Neither form is always superior. The useful choice depends on the writer's purpose: quick retrieval may matter when recording information, whereas concentration may matter more during reflection. The value of journaling therefore lies less in the tool itself than in the attention a writer gives to the act of writing."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "The phrase “make sense of” in paragraph 1 is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "avoid thinking about"},
+        {"label": "B", "text": "understand and organize"},
+        {"label": "C", "text": "record without judging"},
+        {"label": "D", "text": "explain to another person"}
+      ],
+      "correct": "B",
+      "answer": "正解：B。Putting experiences and emotions into words can reveal patterns, so make sense of means to understand and organize them. make sense と make sense of A の形も区別します。",
+      "sourceRefs": ["legacy:english-reading-reflection-01-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "The word “retrieve” in paragraph 2 is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "find and obtain again"},
+        {"label": "B", "text": "remove permanently"},
+        {"label": "C", "text": "share publicly"},
+        {"label": "D", "text": "protect with a password"}
+      ],
+      "correct": "A",
+      "answer": "正解：A。A digital journal can be accessed again from different devices. retrieve information or a file は、保存されたものを「再び見つけて取り出す」という意味です。",
+      "sourceRefs": ["legacy:english-reading-reflection-01-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does “deliberate” describe in paragraph 2?",
+      "options": [
+        {"label": "A", "text": "Writing done carelessly"},
+        {"label": "B", "text": "Writing done with conscious thought"},
+        {"label": "C", "text": "Writing completed at high speed"},
+        {"label": "D", "text": "Writing intended for publication"}
+      ],
+      "correct": "B",
+      "answer": "正解：B。deliberate is an adjective modifying writing and means thoughtful or intentional here. 紙のノートが促し得る、ゆっくり意識を向けた書き方を表します。",
+      "sourceRefs": ["legacy:english-reading-reflection-01-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why can writing help a person examine a problem?",
+      "options": [
+        {"label": "A", "text": "It guarantees that every problem will be solved immediately."},
+        {"label": "B", "text": "It removes all emotions before the situation is considered."},
+        {"label": "C", "text": "Putting thoughts into words can reveal patterns and create distance for another perspective."},
+        {"label": "D", "text": "It prevents the writer from noticing connections among experiences."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。The first paragraph links verbalizing experience with noticing patterns and gaining distance. 本文は can と does not solve every problem を使い、必ず解決するとは述べていません。",
+      "sourceRefs": ["legacy:english-reading-reflection-01-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which option correctly compares an advantage of each journaling medium mentioned in the passage?",
+      "options": [
+        {"label": "A", "text": "Digital journals remove every distraction, while paper notebooks can be retrieved from any device."},
+        {"label": "B", "text": "Digital journals guarantee privacy, while paper notebooks automatically solve problems."},
+        {"label": "C", "text": "Digital journals force slower writing, while paper notebooks make searching faster."},
+        {"label": "D", "text": "Digital journals support searching and access across devices, while paper notebooks avoid notifications and may encourage deliberate writing."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。The passage gives search, editing, and cross-device retrieval as digital strengths, and no notifications plus slower deliberate writing as paper strengths. 本文にない安全性や自動的効果は加えません。",
+      "sourceRefs": ["legacy:english-reading-reflection-01-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What can most reasonably be inferred from the passage?",
+      "options": [
+        {"label": "A", "text": "Deep reflection always requires a paper journal."},
+        {"label": "B", "text": "A digital journal cannot be used for reflection."},
+        {"label": "C", "text": "The journaling medium should be chosen according to the writer's purpose."},
+        {"label": "D", "text": "Notifications make writing impossible in every situation."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。The text directly says the useful choice depends on purpose. A・B・Dは always, cannot, impossible に相当する強すぎる断定で、may や depends on という本文の慎重さを失っています。",
+      "sourceRefs": ["legacy:english-reading-reflection-01-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which sentence best states the main idea of the passage?",
+      "options": [
+        {"label": "A", "text": "The value of a journal is determined only by using the newest tool."},
+        {"label": "B", "text": "Journaling always has the power to solve a person's problems."},
+        {"label": "C", "text": "Paper journals are superior to digital journals in every situation."},
+        {"label": "D", "text": "Journaling can support reflection, and the most useful form depends on purpose and attention."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。It combines paragraph 1's reflective benefit with paragraph 2's purpose-based choice. Aは最終文、Bは does not solve every problem、Cは Neither form is always superior と矛盾します。",
+      "sourceRefs": ["legacy:english-reading-reflection-01-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which option best restates “The value of journaling therefore lies less in the tool itself than in the attention a writer gives to the act of writing”?",
+      "options": [
+        {"label": "A", "text": "The attention devoted to writing matters more than the particular tool used."},
+        {"label": "B", "text": "A writer should pay less attention whenever a digital tool is used."},
+        {"label": "C", "text": "The tool alone determines whether journaling has value."},
+        {"label": "D", "text": "Journaling is valuable only when no device is involved."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。less in A than in B places greater emphasis on B: 「AにあるというよりBにある」です。ここでは媒体そのものより、書く行為へ向ける注意が重要だと述べています。",
+      "sourceRefs": ["legacy:english-reading-reflection-01-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which plan for keeping a study journal best applies the passage's reasoning?",
+      "options": [
+        {"label": "A", "text": "Choose paper in every case because the medium alone guarantees reflection."},
+        {"label": "B", "text": "Use a searchable digital journal to compare mistakes, but silence notifications and write attentively during reflection."},
+        {"label": "C", "text": "Record only final answers so that patterns in errors remain unexamined."},
+        {"label": "D", "text": "Select the newest application without considering the purpose of the record."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。It matches the medium to quick retrieval while protecting concentration during reflection. 元の発展記述で求めた紙・デジタルの選択理由を、本文の複数の考えを組み合わせる適用問題として保持しています。",
+      "sourceRefs": ["legacy:english-reading-reflection-01-q9"]
+    }
+  ]
+}
