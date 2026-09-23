@@ -991,11 +991,12 @@
     }
   ],
   "lastSource": {
-    "type": "pdf",
+    "type": "legacy",
     "ids": [
-      "pdf-vocabulary-day02-part2"
+      "legacy-automated-vehicle-safety",
+      "legacy-ammonia-equilibrium-systems"
     ],
-    "convertedAt": "2026-09-23T13:00:00+09:00"
+    "convertedAt": "2026-09-23T15:00:00+09:00"
   },
   "blockedItems": [
     {
