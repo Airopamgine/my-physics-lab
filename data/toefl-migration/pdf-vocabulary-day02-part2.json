@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day02-part2",
+  "title": "Vocabulary Day 02 · Context Completion 2",
+  "task": 1,
+  "date": "2026-09-23T13:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 3ページ／冊子381ページ · Day 02の16〜30語（全60語中）",
+  "verificationNote": "掲載語・綴り・掲載順をスキャン原本で確認済みです。各語を文脈で判断できるmissing-letter exerciseへ編集しています。出版社の公式解答表は未収録ですが、正答は掲載headwordと一致します。未回答の語の正答は、その語を提出するまで表示されません。",
+  "passages": {
+    "downplay": "Officials should not down____ the risk simply because the first test succeeded.",
+    "earthly": "The poem contrasts ear____ concerns with the promise of an afterlife.",
+    "elaborate": "The researcher was asked to elab_____ on how the samples were selected.",
+    "ensure": "A backup system helps ens___ that the data are not lost.",
+    "erratic": "The comet followed an apparently err____ path before astronomers refined its orbit.",
+    "evidence": "The fossil provides evi_____ that the species once lived in a warmer climate.",
+    "facial": "The software measures fac___ movements without identifying the person.",
+    "flammable": "A flam_____ liquid must be stored away from heat and open flames.",
+    "foul": "A f___ odor alerted workers to a leak in the drainage system.",
+    "fundamental": "Conservation of energy is a funda______ principle of physics.",
+    "geography": "The region's geo______ shaped its trade routes and settlement patterns.",
+    "groundbreaking": "The telescope produced ground________ observations of distant galaxies.",
+    "harsh": "Only a few plants can survive the har__ conditions of the desert.",
+    "hind": "The animal used its h___ legs to push itself forward.",
+    "illusion": "The apparent bend in the road was an optical ill_____ caused by heat."
+  },
+  "questions": [
+    {
+      "passageId": "downplay",
+      "prompt": "Day 02 vocabulary: complete down____. Enter the missing letters.",
+      "prefix": "down",
+      "word": "downplay",
+      "answer": "Downplay means to make something seem less important or serious. 正解：play → downplay（軽視する・重要性を小さく扱う）。最初の試験が成功しても危険性を過小評価してはいけない文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p003:qdownplay"
+      ]
+    },
+    {
+      "passageId": "earthly",
+      "prompt": "Day 02 vocabulary: complete ear____. Enter the missing letters.",
+      "prefix": "ear",
+      "word": "earthly",
+      "answer": "Earthly means connected with life on Earth rather than a spiritual existence. 正解：thly → earthly（地上の・世俗の）。詩が現世の関心事と死後の世界への希望を対比しています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p003:qearthly"
+      ]
+    },
+    {
+      "passageId": "elaborate",
+      "prompt": "Day 02 vocabulary: complete elab_____. Enter the missing letters.",
+      "prefix": "elab",
+      "word": "elaborate",
+      "answer": "Elaborate means to explain something in greater detail. 正解：orate → elaborate（詳しく説明する）。研究者に標本の選定方法をさらに説明するよう求めた文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p003:qelaborate"
+      ]
+    },
+    {
+      "passageId": "ensure",
+      "prompt": "Day 02 vocabulary: complete ens___. Enter the missing letters.",
+      "prefix": "ens",
+      "word": "ensure",
+      "answer": "Ensure means to make certain that something happens. 正解：ure → ensure（保証する・確実にする）。バックアップによってデータ消失を防ぐ文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p003:qensure"
+      ]
+    },
+    {
+      "passageId": "erratic",
+      "prompt": "Day 02 vocabulary: complete err____. Enter the missing letters.",
+      "prefix": "err",
+      "word": "erratic",
+      "answer": "Erratic means irregular or unpredictable. 正解：atic → erratic（不規則な・予測できない）。軌道の計算が精密になる前、彗星の動きが不規則に見えた文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p003:qerratic"
+      ]
+    },
+    {
+      "passageId": "evidence",
+      "prompt": "Day 02 vocabulary: complete evi_____. Enter the missing letters.",
+      "prefix": "evi",
+      "word": "evidence",
+      "answer": "Evidence is information or material that supports a conclusion. 正解：dence → evidence（証拠・根拠）。化石が、かつてその種がより温暖な気候に生息したことを裏づけています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p003:qevidence"
+      ]
+    },
+    {
+      "passageId": "facial",
+      "prompt": "Day 02 vocabulary: complete fac___. Enter the missing letters.",
+      "prefix": "fac",
+      "word": "facial",
+      "answer": "Facial means relating to the face. 正解：ial → facial（顔の・顔面の）。個人を特定せずに顔の動きを測定するソフトウェアの文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p003:qfacial"
+      ]
+    },
+    {
+      "passageId": "flammable",
+      "prompt": "Day 02 vocabulary: complete flam_____. Enter the missing letters.",
+      "prefix": "flam",
+      "word": "flammable",
+      "answer": "Flammable means able to catch fire easily. 正解：mable → flammable（可燃性の・燃えやすい）。液体を熱源や裸火から離して保管する必要がある文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p003:qflammable"
+      ]
+    },
+    {
+      "passageId": "foul",
+      "prompt": "Day 02 vocabulary: complete f___. Enter the missing letters.",
+      "prefix": "f",
+      "word": "foul",
+      "answer": "Foul means unpleasant, dirty, or offensive. 正解：oul → foul（不快な・汚れた）。不快な臭いによって排水設備の漏れに気づいた文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p003:qfoul"
+      ]
+    },
+    {
+      "passageId": "fundamental",
+      "prompt": "Day 02 vocabulary: complete funda______. Enter the missing letters.",
+      "prefix": "funda",
+      "word": "fundamental",
+      "answer": "Fundamental means basic, essential, or forming a necessary foundation. 正解：mental → fundamental（基本的な・根本的な）。エネルギー保存則が物理学の基礎原理である文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p003:qfundamental"
+      ]
+    },
+    {
+      "passageId": "geography",
+      "prompt": "Day 02 vocabulary: complete geo______. Enter the missing letters.",
+      "prefix": "geo",
+      "word": "geography",
+      "answer": "Geography concerns the physical features and spatial characteristics of places. 正解：graphy → geography（地理・地理学）。地域の地理的条件が交易路と居住形態を形づくった文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p003:qgeography"
+      ]
+    },
+    {
+      "passageId": "groundbreaking",
+      "prompt": "Day 02 vocabulary: complete ground________. Enter the missing letters.",
+      "prefix": "ground",
+      "word": "groundbreaking",
+      "answer": "Groundbreaking means highly innovative or introducing an important new development. 正解：breaking → groundbreaking（画期的な・革新的な）。望遠鏡が遠方銀河について前例のない観測成果を生んだ文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p003:qgroundbreaking"
+      ]
+    },
+    {
+      "passageId": "harsh",
+      "prompt": "Day 02 vocabulary: complete har__. Enter the missing letters.",
+      "prefix": "har",
+      "word": "harsh",
+      "answer": "Harsh means severe, difficult, or unpleasant. 正解：sh → harsh（厳しい・過酷な）。砂漠の過酷な環境で生存できる植物が少ないという文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p003:qharsh"
+      ]
+    },
+    {
+      "passageId": "hind",
+      "prompt": "Day 02 vocabulary: complete h___. Enter the missing letters.",
+      "prefix": "h",
+      "word": "hind",
+      "answer": "Hind means situated at the back, especially of an animal's body. 正解：ind → hind（後ろの・後方の）。動物が後ろ脚で体を前へ押し出す文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p003:qhind"
+      ]
+    },
+    {
+      "passageId": "illusion",
+      "prompt": "Day 02 vocabulary: complete ill_____. Enter the missing letters.",
+      "prefix": "ill",
+      "word": "illusion",
+      "answer": "An illusion is a false appearance or misleading perception. 正解：usion → illusion（錯覚・幻影）。熱によって道路が曲がって見える光学的錯覚の文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p003:qillusion"
+      ]
+    }
+  ]
+}

@@ -970,18 +970,32 @@
           "pdf:vocabulary:p003:qcrust",
           "pdf:vocabulary:p003:qdeliberate",
           "pdf:vocabulary:p003:qdescent",
-          "pdf:vocabulary:p003:qdiscrepancy"
+          "pdf:vocabulary:p003:qdiscrepancy",
+          "pdf:vocabulary:p003:qdownplay",
+          "pdf:vocabulary:p003:qearthly",
+          "pdf:vocabulary:p003:qelaborate",
+          "pdf:vocabulary:p003:qensure",
+          "pdf:vocabulary:p003:qerratic",
+          "pdf:vocabulary:p003:qevidence",
+          "pdf:vocabulary:p003:qfacial",
+          "pdf:vocabulary:p003:qflammable",
+          "pdf:vocabulary:p003:qfoul",
+          "pdf:vocabulary:p003:qfundamental",
+          "pdf:vocabulary:p003:qgeography",
+          "pdf:vocabulary:p003:qgroundbreaking",
+          "pdf:vocabulary:p003:qharsh",
+          "pdf:vocabulary:p003:qhind",
+          "pdf:vocabulary:p003:qillusion"
         ]
       }
     }
   ],
   "lastSource": {
-    "type": "legacy",
+    "type": "pdf",
     "ids": [
-      "legacy-ai-creativity-contributions",
-      "legacy-robots-human-cooperation"
+      "pdf-vocabulary-day02-part2"
     ],
-    "convertedAt": "2026-09-23T11:00:00+09:00"
+    "convertedAt": "2026-09-23T13:00:00+09:00"
   },
   "blockedItems": [
     {
