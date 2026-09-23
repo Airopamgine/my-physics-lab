@@ -1,0 +1,148 @@
+{
+  "id": "pdf-vocabulary-day02-part3",
+  "title": "Vocabulary Day 02 · Context Completion 3",
+  "task": 1,
+  "date": "2026-09-23T17:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 3ページ／冊子381ページ · Day 02の31〜45語（全60語中）",
+  "verificationNote": "掲載語・綴り・掲載順をスキャン原本で確認済みです。各語を文脈で判断できるmissing-letter exerciseへ編集しています。出版社の公式解答表は未収録ですが、正答は掲載headwordと一致します。未回答の語の正答は、その語を提出するまで表示されません。",
+  "passages": {
+    "impractical": "Transporting the equipment by hand would be imp________ over such a long distance.",
+    "indifference": "Public indi________ to the warning allowed the problem to grow.",
+    "ingenuity": "The bridge reflects the inge_____ of engineers working with limited materials.",
+    "insulate": "The outer layer helps insu____ the building against winter cold.",
+    "intolerance": "Religious into_______ can prevent different communities from cooperating.",
+    "investment": "The city approved a major inve______ in flood-control infrastructure.",
+    "landlocked": "The land______ country depends on neighboring ports for overseas trade.",
+    "layout": "The museum changed its lay___ so visitors could follow the exhibits in chronological order.",
+    "location": "The observatory's remote loc_____ reduces interference from city lights.",
+    "mechanical": "A mech______ failure forced the research vessel to return to port.",
+    "moderately": "The seedlings grew best in mode______ warm conditions.",
+    "opaque": "The container is opa___, so its contents cannot be seen from outside.",
+    "performer": "Each perf_____ adjusted the tempo in response to the conductor.",
+    "preserve": "The archive uses controlled humidity to pre_____ fragile manuscripts.",
+    "quest": "The expedition was part of a scientific q____ to map the ocean floor."
+  },
+  "questions": [
+    {
+      "passageId": "impractical",
+      "prompt": "Day 02 vocabulary: complete imp________. Enter the missing letters.",
+      "prefix": "imp",
+      "word": "impractical",
+      "answer": "Impractical means not suitable or realistic in practice. 正解：ractical → impractical（非実用的な・現実的でない）。長距離を手作業で運ぶ方法は現実的でないという文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p003:qimpractical"]
+    },
+    {
+      "passageId": "indifference",
+      "prompt": "Day 02 vocabulary: complete indi________. Enter the missing letters.",
+      "prefix": "indi",
+      "word": "indifference",
+      "answer": "Indifference is a lack of interest or concern. 正解：fference → indifference（無関心）。警告への無関心が問題を拡大させた文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p003:qindifference"]
+    },
+    {
+      "passageId": "ingenuity",
+      "prompt": "Day 02 vocabulary: complete inge_____. Enter the missing letters.",
+      "prefix": "inge",
+      "word": "ingenuity",
+      "answer": "Ingenuity is skill in inventing or solving problems cleverly. 正解：nuity → ingenuity（創意工夫・独創性）。限られた材料で橋を造った技術者の工夫を述べています。",
+      "sourceRefs": ["pdf:vocabulary:p003:qingenuity"]
+    },
+    {
+      "passageId": "insulate",
+      "prompt": "Day 02 vocabulary: complete insu____. Enter the missing letters.",
+      "prefix": "insu",
+      "word": "insulate",
+      "answer": "Insulate means to protect something from heat, cold, electricity, or outside influence. 正解：late → insulate（断熱する・絶縁する・隔離する）。外層が建物を冬の寒さから守る文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p003:qinsulate"]
+    },
+    {
+      "passageId": "intolerance",
+      "prompt": "Day 02 vocabulary: complete into_______. Enter the missing letters.",
+      "prefix": "into",
+      "word": "intolerance",
+      "answer": "Intolerance is unwillingness to accept beliefs or behavior different from one's own. 正解：lerance → intolerance（不寛容・偏狭さ）。宗教的不寛容が共同体間の協力を妨げる文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p003:qintolerance"]
+    },
+    {
+      "passageId": "investment",
+      "prompt": "Day 02 vocabulary: complete inve______. Enter the missing letters.",
+      "prefix": "inve",
+      "word": "investment",
+      "answer": "Investment is the use of money or resources for future benefit. 正解：stment → investment（投資）。市が治水インフラへの大規模投資を承認した文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p003:qinvestment"]
+    },
+    {
+      "passageId": "landlocked",
+      "prompt": "Day 02 vocabulary: complete land______. Enter the missing letters.",
+      "prefix": "land",
+      "word": "landlocked",
+      "answer": "Landlocked means surrounded by land and having no sea coast. 正解：locked → landlocked（内陸の・海に面していない）。海外貿易に近隣国の港を利用する内陸国の文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p003:qlandlocked"]
+    },
+    {
+      "passageId": "layout",
+      "prompt": "Day 02 vocabulary: complete lay___. Enter the missing letters.",
+      "prefix": "lay",
+      "word": "layout",
+      "answer": "Layout is the way parts are arranged. 正解：out → layout（配置・レイアウト）。展示を年代順にたどれるよう博物館が配置を変更した文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p003:qlayout"]
+    },
+    {
+      "passageId": "location",
+      "prompt": "Day 02 vocabulary: complete loc_____. Enter the missing letters.",
+      "prefix": "loc",
+      "word": "location",
+      "answer": "Location is a particular place or position. 正解：ation → location（位置・場所）。遠隔地という観測所の場所が都市光の干渉を減らす文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p003:qlocation"]
+    },
+    {
+      "passageId": "mechanical",
+      "prompt": "Day 02 vocabulary: complete mech______. Enter the missing letters.",
+      "prefix": "mech",
+      "word": "mechanical",
+      "answer": "Mechanical means relating to machines or their operation. 正解：anical → mechanical（機械の・機械的な）。機械的故障で調査船が帰港した文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p003:qmechanical"]
+    },
+    {
+      "passageId": "moderately",
+      "prompt": "Day 02 vocabulary: complete mode______. Enter the missing letters.",
+      "prefix": "mode",
+      "word": "moderately",
+      "answer": "Moderately means to a medium or reasonable degree. 正解：rately → moderately（適度に・比較的）。苗が適度に暖かい条件で最もよく育った文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p003:qmoderately"]
+    },
+    {
+      "passageId": "opaque",
+      "prompt": "Day 02 vocabulary: complete opa___. Enter the missing letters.",
+      "prefix": "opa",
+      "word": "opaque",
+      "answer": "Opaque means not allowing light through; it can also mean unclear. 正解：que → opaque（不透明な・不明瞭な）。容器が不透明で中身が外から見えない文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p003:qopaque"]
+    },
+    {
+      "passageId": "performer",
+      "prompt": "Day 02 vocabulary: complete perf_____. Enter the missing letters.",
+      "prefix": "perf",
+      "word": "performer",
+      "answer": "A performer is someone who acts, plays music, or otherwise entertains an audience. 正解：ormer → performer（演者・演奏者）。各演奏者が指揮者に合わせてテンポを調整した文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p003:qperformer"]
+    },
+    {
+      "passageId": "preserve",
+      "prompt": "Day 02 vocabulary: complete pre_____. Enter the missing letters.",
+      "prefix": "pre",
+      "word": "preserve",
+      "answer": "Preserve means to protect something and keep it in its existing condition. 正解：serve → preserve（保存する・保護する）。湿度管理によって壊れやすい写本を保存する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p003:qpreserve"]
+    },
+    {
+      "passageId": "quest",
+      "prompt": "Day 02 vocabulary: complete q____. Enter the missing letters.",
+      "prefix": "q",
+      "word": "quest",
+      "answer": "A quest is a long or determined search for something. 正解：uest → quest（探求・追求）。海底地図を作る科学的探求の一環として行われた遠征の文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p003:qquest"]
+    }
+  ]
+}
