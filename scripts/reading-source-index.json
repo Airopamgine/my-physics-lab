@@ -919,6 +919,11 @@
           "pdf:vocabulary:p002:qfertile",
           "pdf:vocabulary:p002:qfoster",
           "pdf:vocabulary:p002:qfunction",
+          "pdf:vocabulary:p002:qgenuine",
+          "pdf:vocabulary:p002:qgovernment",
+          "pdf:vocabulary:p002:qhabitat",
+          "pdf:vocabulary:p002:qherd",
+          "pdf:vocabulary:p002:qilluminated",
           "pdf:vocabulary:p002:qimplementation",
           "pdf:vocabulary:p002:qindicator",
           "pdf:vocabulary:p002:qinformed",
@@ -949,17 +954,34 @@
           "pdf:vocabulary:p002:qusage",
           "pdf:vocabulary:p002:qviable",
           "pdf:vocabulary:p002:qwarrior"
+        ],
+        "3": [
+          "pdf:vocabulary:p003:qabundant",
+          "pdf:vocabulary:p003:qanalysis",
+          "pdf:vocabulary:p003:qattire",
+          "pdf:vocabulary:p003:qbehavior",
+          "pdf:vocabulary:p003:qbond",
+          "pdf:vocabulary:p003:qburden",
+          "pdf:vocabulary:p003:qcavity",
+          "pdf:vocabulary:p003:qcoherent",
+          "pdf:vocabulary:p003:qcompress",
+          "pdf:vocabulary:p003:qcontemporary",
+          "pdf:vocabulary:p003:qcreature",
+          "pdf:vocabulary:p003:qcrust",
+          "pdf:vocabulary:p003:qdeliberate",
+          "pdf:vocabulary:p003:qdescent",
+          "pdf:vocabulary:p003:qdiscrepancy"
         ]
       }
     }
   ],
   "lastSource": {
-    "type": "legacy",
+    "type": "pdf",
     "ids": [
-      "legacy-technology-learning-choice",
-      "legacy-journaling-medium-attention"
+      "pdf-vocabulary-day01-correction",
+      "pdf-vocabulary-day02-part1"
     ],
-    "convertedAt": "2026-09-23T07:00:00+09:00"
+    "convertedAt": "2026-09-23T09:02:00+09:00"
   },
   "blockedItems": [
     {

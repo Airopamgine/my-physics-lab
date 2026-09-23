@@ -1,0 +1,68 @@
+{
+  "id": "pdf-vocabulary-day01-correction",
+  "title": "Vocabulary Day 01 · Omitted Headwords",
+  "task": 1,
+  "date": "2026-09-23T09:02:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 2ページ／冊子380ページ · Day 01未移行5語（全60語）",
+  "verificationNote": "Day 01は原本上60語です。既存移行で抜けていた左段末尾5語をスキャン原本と再照合して補いました。各語を文脈で判断できるmissing-letter exerciseへ編集しています。出版社の公式解答表は未収録ですが、正答は掲載headwordと一致します。",
+  "passages": {
+    "genuine": "The museum confirmed that the manuscript was gen____ rather than a modern copy.",
+    "government": "The national gov_______ introduced new safety standards for public buildings.",
+    "habitat": "Wetland restoration can protect the hab____ of many migratory birds.",
+    "herd": "A h___ of elephants moved toward the river during the dry season.",
+    "illuminated": "At night, the monument was illu_______ by rows of energy-efficient lamps."
+  },
+  "questions": [
+    {
+      "passageId": "genuine",
+      "prompt": "Day 01 vocabulary: complete gen____. Enter the missing letters.",
+      "prefix": "gen",
+      "word": "genuine",
+      "answer": "Genuine means real or authentic rather than copied or artificial. 正解：uine → genuine（真正の・本物の）。博物館が写本をmodern copyではないと確認した文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p002:qgenuine"
+      ]
+    },
+    {
+      "passageId": "government",
+      "prompt": "Day 01 vocabulary: complete gov_______. Enter the missing letters.",
+      "prefix": "gov",
+      "word": "government",
+      "answer": "Government is the institution or system that governs a country or community. 正解：ernment → government（政府・統治）。公共建築物の安全基準を導入する主体を表します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p002:qgovernment"
+      ]
+    },
+    {
+      "passageId": "habitat",
+      "prompt": "Day 01 vocabulary: complete hab____. Enter the missing letters.",
+      "prefix": "hab",
+      "word": "habitat",
+      "answer": "A habitat is the natural place where an organism lives. 正解：itat → habitat（生息地・生息環境）。湿地を復元して渡り鳥が暮らす場所を守る文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p002:qhabitat"
+      ]
+    },
+    {
+      "passageId": "herd",
+      "prompt": "Day 01 vocabulary: complete h___. Enter the missing letters.",
+      "prefix": "h",
+      "word": "herd",
+      "answer": "A herd is a group of animals of the same kind that live or move together. 正解：erd → herd（動物の群れ）。乾季にゾウの群れが川へ移動した場面です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p002:qherd"
+      ]
+    },
+    {
+      "passageId": "illuminated",
+      "prompt": "Day 01 vocabulary: complete illu_______. Enter the missing letters.",
+      "prefix": "illu",
+      "word": "illuminated",
+      "answer": "Illuminated means lit or made visible with light. 正解：minated → illuminated（照らされた・照明された）。夜間に照明器具が記念碑を明るくした文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p002:qilluminated"
+      ]
+    }
+  ]
+}

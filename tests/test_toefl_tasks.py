@@ -101,11 +101,11 @@ class TaskCatalogTests(unittest.TestCase):
         self.assertTrue(all(q['correct'] is None and q['options'] == []
                             for q in item['questions']))
 
-    def test_vocabulary_day01_all_fifty_five_headwords_complete_page2(self):
+    def test_vocabulary_day01_all_sixty_headwords_complete_page2(self):
         bank = self.build()
-        item = next(s for s in bank['sets']
-                    if s['id'] == 'pdf-vocabulary-day01-part3')
-        expected = [
+        part3 = next(s for s in bank['sets']
+                     if s['id'] == 'pdf-vocabulary-day01-part3')
+        part3_expected = [
             ('arch', 'research'), ('bed', 'riverbed'), ('ling', 'sibling'),
             ('tion', 'solution'), ('taneous', 'spontaneous'),
             ('ture', 'structure'), ('pass', 'surpass'),
@@ -113,16 +113,56 @@ class TaskCatalogTests(unittest.TestCase):
             ('parent', 'transparent'), ('tectable', 'undetectable'),
             ('verse', 'universe'), ('age', 'usage'), ('able', 'viable'),
             ('rior', 'warrior')]
+        self.assertEqual([q['acceptedAnswers'] for q in part3['questions']],
+                         [list(pair) for pair in part3_expected])
+
+        correction = next(s for s in bank['sets']
+                          if s['id'] == 'pdf-vocabulary-day01-correction')
+        correction_expected = [
+            ('uine', 'genuine'), ('ernment', 'government'),
+            ('itat', 'habitat'), ('erd', 'herd'),
+            ('minated', 'illuminated')]
+        self.assertEqual([q['acceptedAnswers'] for q in correction['questions']],
+                         [list(pair) for pair in correction_expected])
+
+        words = [
+            'absorb', 'ambience', 'ash', 'barrier', 'blooming', 'brilliance',
+            'cave', 'cognition', 'component', 'conservation', 'creative', 'crude',
+            'deity', 'departure', 'diet', 'drawback', 'dynamic', 'efficiently',
+            'engaging', 'erasure', 'esteem', 'fabric', 'fertile', 'foster',
+            'function', 'genuine', 'government', 'habitat', 'herd', 'illuminated',
+            'implementation', 'indicator', 'informed', 'installment',
+            'interruption', 'invader', 'landform', 'lavish', 'likewise', 'massive',
+            'mitigation', 'offspring', 'pattern', 'policy', 'proximity', 'research',
+            'riverbed', 'sibling', 'solution', 'spontaneous', 'structure', 'surpass',
+            'technological', 'threat', 'transparent', 'undetectable', 'universe',
+            'usage', 'viable', 'warrior']
+        refs = [f'pdf:vocabulary:p002:q{word}' for word in words]
+        index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
+        source = next(s for s in index['sources'] if s['id'] == 'vocabulary')
+        self.assertIn(2, source['reviewedPages'])
+        self.assertEqual(source['pageItems']['2'], refs)
+
+    def test_vocabulary_day02_first_fifteen_headwords_are_partial_page3(self):
+        bank = self.build()
+        item = next(s for s in bank['sets']
+                    if s['id'] == 'pdf-vocabulary-day02-part1')
+        expected = [
+            ('ndant', 'abundant'), ('lysis', 'analysis'), ('ire', 'attire'),
+            ('avior', 'behavior'), ('ond', 'bond'), ('den', 'burden'),
+            ('ity', 'cavity'), ('erent', 'coherent'), ('press', 'compress'),
+            ('mporary', 'contemporary'), ('ture', 'creature'), ('ust', 'crust'),
+            ('berate', 'deliberate'), ('cent', 'descent'),
+            ('repancy', 'discrepancy')]
         self.assertEqual([q['acceptedAnswers'] for q in item['questions']],
                          [list(pair) for pair in expected])
-        refs = [f'pdf:vocabulary:p002:q{word}' for _, word in expected]
+        refs = [f'pdf:vocabulary:p003:q{word}' for _, word in expected]
         self.assertEqual([q['sourceRefs'] for q in item['questions']],
                          [[ref] for ref in refs])
         index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
         source = next(s for s in index['sources'] if s['id'] == 'vocabulary')
-        self.assertIn(2, source['reviewedPages'])
-        self.assertEqual(len(source['pageItems']['2']), 55)
-        self.assertEqual(source['pageItems']['2'][-15:], refs)
+        self.assertNotIn(3, source['reviewedPages'])
+        self.assertEqual(source['pageItems']['3'], refs)
 
     def test_rivers_and_color_preserve_all_source_targets(self):
         bank = self.build()
