@@ -1,0 +1,132 @@
+{
+  "id": "legacy-ammonia-equilibrium-systems",
+  "title": "Ammonia: Equilibrium, Scale, and the Nitrogen Cycle",
+  "task": 3,
+  "date": "2026-09-23T15:01:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "原文四段落と全九つの学習対象を保持し、元の日本語記述・翻訳・発展問題を本文根拠のある英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-standard-ammonia-equilibrium-systems-33/",
+  "passages": {
+    "text": "Most of the atmosphere is molecular nitrogen, yet its strong triple bond makes it unavailable to crops in that form. In the early twentieth century, Fritz Haber and colleagues demonstrated catalytic ammonia synthesis in the laboratory, while Carl Bosch and large engineering teams developed materials, compressors, reactors, gas purification, and catalysts for continuous industrial production. The distinction matters: discovering a possible reaction is not the same achievement as keeping it safe, economical, and stable at scale.\n\nThe reversible reaction is N₂ + 3H₂ ⇌ 2NH₃ and releases heat in the forward direction. High pressure favours the side with fewer gas molecules. Lower temperature favours ammonia at equilibrium, but an extremely low temperature makes the reaction too slow for practical production. Industry therefore uses a compromise temperature and a catalyst. The catalyst accelerates both forward and reverse reactions and helps the system approach equilibrium; it does not move the equilibrium position by itself.\n\nIndustrial ammonia gave agriculture a large, transportable source of reactive nitrogen. It supported higher yields when combined with suitable crops, water, soil management, infrastructure, and farmers' knowledge. It should not be equated with the later Green Revolution, which also involved plant breeding, irrigation, pesticides, credit, and public policy. Nor was ammonia used only for food: nitrate compounds made from it also supplied explosives. The same chemical pathway entered different social systems.\n\nToday's accounting must include both production and use. Conventional hydrogen for ammonia is often made from fossil fuels, creating carbon dioxide, while fertilized soils can release nitrous oxide. Nitrogen not taken up by crops can move into water or air, contributing to eutrophication and other damage. Cleaner hydrogen and more efficient reactors can reduce production emissions, but they do not automatically prevent excess application in fields. A sustainable transition therefore requires chemistry, energy systems, precision farming, nutrient recovery, and institutions that reward efficient use."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "Which statement best expresses the main idea of the passage?",
+      "options": [
+        {"label": "A", "text": "A catalyst changes equilibrium so that only ammonia can exist."},
+        {"label": "B", "text": "Industrial ammonia must be understood as chemistry embedded in agricultural, military, energy, and environmental systems."},
+        {"label": "C", "text": "Demonstrating the laboratory reaction and achieving continuous industrial production were the same task."},
+        {"label": "D", "text": "Replacing the hydrogen source solves every nitrogen-related environmental problem."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。本文は反応と工業化、農業と軍事利用、製造・施肥段階の環境負荷を一つの窒素循環として扱います。Aは触媒、Cはscale-up、Dは利用段階の問題を誤っています。",
+      "sourceRefs": ["legacy:english-reading-standard-ammonia-equilibrium-systems-33-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which option correctly gives the reversible reaction and explains the change in the number of gas molecules?",
+      "options": [
+        {"label": "A", "text": "2NH₃ → N₂ + 3H₂; the gas count decreases from four to two in the forward direction."},
+        {"label": "B", "text": "N₂ + H₂ ⇌ NH₃; the number of gas molecules is unchanged."},
+        {"label": "C", "text": "N₂ + 3H₂ ⇌ 2NH₃; the reactant side has four gas molecules for every two on the product side, so high pressure favours ammonia."},
+        {"label": "D", "text": "N₂ + 2H₂ ⇌ 2NH₃; the product side has more gas molecules, so high pressure favours nitrogen and hydrogen."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。反応式はN₂ + 3H₂ ⇌ 2NH₃で、係数上は反応物側4から生成物側2へ気体分子数が減ります。そのため他条件が同じなら高圧はアンモニア側を有利にします。可逆矢印も核心です。",
+      "sourceRefs": ["legacy:english-reading-standard-ammonia-equilibrium-systems-33-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does industry not choose an extremely low temperature even though lower temperature favours ammonia at equilibrium?",
+      "options": [
+        {"label": "A", "text": "An extremely low temperature changes nitrogen into a different element."},
+        {"label": "B", "text": "The equilibrium yield may improve, but the reaction becomes too slow for practical production, so industry uses a compromise temperature and a catalyst."},
+        {"label": "C", "text": "Low temperature makes the forward reaction absorb heat instead of release it."},
+        {"label": "D", "text": "A low temperature shifts equilibrium completely toward nitrogen while increasing the production rate."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。発熱反応なので低温は平衡上アンモニアに有利ですが、極端に下げると反応速度が実用上遅すぎます。工業条件は平衡収率だけでなく時間当たり生産を含む妥協です。",
+      "sourceRefs": ["legacy:english-reading-standard-ammonia-equilibrium-systems-33-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which statement about the catalyst is supported by the passage?",
+      "options": [
+        {"label": "A", "text": "It changes the equilibrium constant so that only ammonia remains."},
+        {"label": "B", "text": "It creates nitrogen atoms that were not present in the reactants."},
+        {"label": "C", "text": "It speeds both forward and reverse reactions and helps the system approach equilibrium without shifting the equilibrium position by itself."},
+        {"label": "D", "text": "It eliminates the need for pressure, suitable materials, and gas purification."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。本文は触媒が正逆両反応を速め、平衡への到達を助ける一方、平衡位置自体は動かさないと説明します。A・B・Dはいずれも触媒の役割を越えています。",
+      "sourceRefs": ["legacy:english-reading-standard-ammonia-equilibrium-systems-33-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does the passage distinguish Haber's contribution from that of Bosch and the engineering teams?",
+      "options": [
+        {"label": "A", "text": "Showing that a reaction works in a laboratory differs from developing the materials, compression, reactors, purification, catalysts, and controls needed for safe, economical, stable production at scale."},
+        {"label": "B", "text": "Haber worked only on agriculture, whereas Bosch worked only on military explosives."},
+        {"label": "C", "text": "The laboratory synthesis required industrial compressors, but continuous production required no specialized equipment."},
+        {"label": "D", "text": "The distinction proves that scientific discovery never contributes to industrial production."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。少量のlaboratory synthesisを示すことと、高圧下で材料を保ち、原料を精製し、連続かつ経済的に運転するscale-upは別の成果です。本文は個人の発見と大規模な工学チームの寄与を区別します。",
+      "sourceRefs": ["legacy:english-reading-standard-ammonia-equilibrium-systems-33-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does the passage avoid equating industrial ammonia with the Green Revolution?",
+      "options": [
+        {"label": "A", "text": "Because synthetic nitrogen played no role in increasing agricultural yields."},
+        {"label": "B", "text": "Because the Green Revolution occurred before ammonia could be produced industrially."},
+        {"label": "C", "text": "Because fertilizer alone automatically supplied crops, water, soil management, infrastructure, and farmers' knowledge."},
+        {"label": "D", "text": "Because synthetic nitrogen was one important input, while the Green Revolution also depended on plant breeding, irrigation, pesticides, credit, and public policy."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。工業アンモニアは収量増加をsupportedしましたが、Green Revolutionには品種改良、灌漑、農薬、信用、公政策なども含まれます。一要素を複合的成果の単独原因へ拡大してはいけません。",
+      "sourceRefs": ["legacy:english-reading-standard-ammonia-equilibrium-systems-33-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which pair correctly identifies an environmental burden from production and one from fertilizer use?",
+      "options": [
+        {"label": "A", "text": "Production: excess irrigation water; use: compressor wear inside the ammonia plant"},
+        {"label": "B", "text": "Production: carbon dioxide from fossil-fuel-based hydrogen; use: nitrous oxide from soils or nitrogen losses that contribute to eutrophication"},
+        {"label": "C", "text": "Production: nitrate uptake by crops; use: purification of hydrogen before synthesis"},
+        {"label": "D", "text": "Production: plant breeding; use: construction of high-pressure reactors"}
+      ],
+      "correct": "B",
+      "answer": "正解：B。製造段階では化石燃料由来水素に伴うCO₂、利用段階では施肥土壌からのN₂Oや、未吸収窒素の水・大気への移動と富栄養化があります。段階を分けて物質収支を追う必要があります。",
+      "sourceRefs": ["legacy:english-reading-standard-ammonia-equilibrium-systems-33-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which option best explains “The same chemical pathway entered different social systems”?",
+      "options": [
+        {"label": "A", "text": "The route for producing reactive nitrogen compounds served agriculture through fertilizer and military activity through explosives, depending on the institutions and purposes surrounding its use."},
+        {"label": "B", "text": "The chemical equation itself guaranteed that ammonia would be used only to produce food."},
+        {"label": "C", "text": "Agriculture and military production used unrelated chemistry with no common nitrogen compounds."},
+        {"label": "D", "text": "A chemical pathway changes its equilibrium law whenever it enters a different institution."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。「同じ化学経路が異なる社会システムへ組み込まれた」という意味です。アンモニア由来の反応性窒素は制度と目的に応じて肥料にも硝酸系爆薬にも接続し、反応式だけで用途は決まりません。",
+      "sourceRefs": ["legacy:english-reading-standard-ammonia-equilibrium-systems-33-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which evaluation of the claim “Green ammonia will make fertilizer sustainable” best follows the passage?",
+      "options": [
+        {"label": "A", "text": "The claim is fully correct because cleaner hydrogen automatically prevents overapplication, nitrous oxide, and eutrophication."},
+        {"label": "B", "text": "The claim is false because reducing emissions from hydrogen production can never improve the nitrogen system."},
+        {"label": "C", "text": "Cleaner hydrogen can reduce production emissions, but sustainable fertilizer also requires efficient field application, soil management, nutrient recovery, and institutions that limit nitrogen losses."},
+        {"label": "D", "text": "The claim is correct only if industry lowers the temperature enough to stop the reaction almost completely."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。green ammoniaは製造時の排出を減らせても、過剰施肥、N₂O、流出、富栄養化を自動的に解決しません。本文はchemistry、energy systems、precision farming、nutrient recovery、効率利用を促す制度を組み合わせます。",
+      "sourceRefs": ["legacy:english-reading-standard-ammonia-equilibrium-systems-33-q9"]
+    }
+  ]
+}

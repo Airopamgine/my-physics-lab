@@ -1,0 +1,132 @@
+{
+  "id": "legacy-automated-vehicle-safety",
+  "title": "Automated Vehicles: Safety Before the Final Second",
+  "task": 3,
+  "date": "2026-09-23T15:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "原文四段落と全九つの学習対象を保持し、元の日本語記述・翻訳・発展問題を本文根拠のある英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-standard-ai-safety-21/",
+  "passages": {
+    "text": "Ethical debates about automated vehicles often begin with a dramatic question. If a crash is unavoidable, should a machine protect its passenger or a pedestrian? The question can expose a conflict between values, but it can also create a misleading picture of engineering. A road vehicle does not normally receive a complete description of the future and then choose between two certain deaths. It receives incomplete sensor data, estimates what may happen, and acts under uncertainty. The ethically important work therefore begins long before the imagined final second.\n\nDesigners first define an operational design domain: the roads, speeds, weather, visibility, and other conditions in which a function is intended to operate. Within that domain, the system must detect objects, predict movement, obey traffic rules, and preserve enough distance to brake or steer safely. Outside it, the vehicle should not pretend to possess a capability it lacks. A fallback may involve warning a responsible driver, slowing down, stopping in a safer place, or ending automated operation. The appropriate response depends on the level of automation and on whether a human can realistically take control in time.\n\nNo single test can prove safety in every possible street scene. Developers combine simulation, controlled-track testing, public-road evidence, analysis of failures, and reports of near-misses. They should also examine uneven performance across lighting conditions, body types, mobility aids, and road users. An average result can conceal a serious weakness for a smaller group. After deployment, monitoring remains necessary because software, maps, traffic patterns, and the environments in which the system is used can change.\n\nThis approach does not make ethics disappear into technical procedure. Someone must decide what level of residual risk is acceptable, who may authorize deployment, what evidence must be disclosed, and how injured people can challenge a decision. The key ethical question is not only whom a vehicle would sacrifice in a fictional instant. It is who defines the system's limits, who receives the benefits, who bears the remaining risk, and who is answerable when the safeguards fail."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "Which statement best expresses the main idea of the passage?",
+      "options": [
+        {"label": "A", "text": "Automated vehicles should always protect their passengers rather than pedestrians."},
+        {"label": "B", "text": "A final-second dilemma is sufficient for evaluating the ethics of automated vehicles."},
+        {"label": "C", "text": "Ethical evaluation should examine the entire safety system, including its limits, evidence, distribution of risk, and accountability."},
+        {"label": "D", "text": "Technical testing can remove every ethical question from automated driving."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。本文は劇的な最終秒の二択だけでなく、運用範囲、故障時対応、複数の安全証拠、集団別性能、残余リスク、説明責任までを評価対象にします。A・Bは論点を一つへ縮め、Dは第4段落と反対です。",
+      "sourceRefs": ["legacy:english-reading-standard-ai-safety-21-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why can the familiar final-second dilemma give a misleading picture of automated-vehicle engineering?",
+      "options": [
+        {"label": "A", "text": "It assumes that vehicles never receive sensor data before a collision."},
+        {"label": "B", "text": "It presents a certain binary outcome, whereas real systems act on incomplete information and make earlier choices that can reduce the danger itself."},
+        {"label": "C", "text": "It shows that all engineering decisions must be made only after a crash becomes unavoidable."},
+        {"label": "D", "text": "It proves that conflicts between values are irrelevant to vehicle design."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。思考実験は未来と二つの結果が確定しているように置きますが、実車は不完全なセンサー情報から予測し、速度、車間、運用範囲、fallbackなどで最終秒より前から危険を減らします。A・C・Dは本文の説明を歪めています。",
+      "sourceRefs": ["legacy:english-reading-standard-ai-safety-21-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which option correctly describes an operational design domain and the response required outside it?",
+      "options": [
+        {"label": "A", "text": "It is a list of people who may authorize deployment, and outside it the vehicle must protect only its passenger."},
+        {"label": "B", "text": "It is every road condition that could ever occur, so a fallback should never be needed."},
+        {"label": "C", "text": "It is a record of past crashes, and outside it the vehicle should continue at the same speed."},
+        {"label": "D", "text": "It is the set of roads, speeds, weather, visibility, and other intended operating conditions; outside it the system should not overstate its capability and should use an appropriate fallback."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。第2段落がoperational design domainを作動予定の条件集合として定義し、範囲外では能力を持つふりをせず、警告・減速・安全な停止・自動運転終了などへ移ると説明します。",
+      "sourceRefs": ["legacy:english-reading-standard-ai-safety-21-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does the word “it” in the phrase “Outside it” in paragraph 2 refer to?",
+      "options": [
+        {"label": "A", "text": "the responsible driver"},
+        {"label": "B", "text": "the level of automation"},
+        {"label": "C", "text": "the operational design domain"},
+        {"label": "D", "text": "the capability the vehicle lacks"}
+      ],
+      "correct": "C",
+      "answer": "正解：C。直前にWithin that domainとあり、その対比としてOutside itが置かれています。したがってitはoperational design domainを受け、driverやautomation levelではありません。",
+      "sourceRefs": ["legacy:english-reading-standard-ai-safety-21-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why do developers combine several forms of safety evidence, and which four are named in the passage?",
+      "options": [
+        {"label": "A", "text": "One test already covers every street scene, so additional methods are used only to shorten development time."},
+        {"label": "B", "text": "Public-road evidence is always complete, so simulation, track testing, failure analysis, and monitoring can be eliminated."},
+        {"label": "C", "text": "No single method covers every possible scene; the passage names simulation, controlled-track testing, public-road evidence, and failure analysis among the complementary sources."},
+        {"label": "D", "text": "The methods are combined so that near-miss reports can replace all monitoring after deployment."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。一つの試験では全道路場面を証明できないため、異なる弱点を持つ証拠を組み合わせます。本文はsimulation、controlled-track testing、public-road evidence、analysis of failuresに加えてnear-miss reportsも挙げています。",
+      "sourceRefs": ["legacy:english-reading-standard-ai-safety-21-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What can most reasonably be inferred from the passage?",
+      "options": [
+        {"label": "A", "text": "A high average score guarantees equal protection in every condition."},
+        {"label": "B", "text": "Monitoring may still be necessary after a system has been released."},
+        {"label": "C", "text": "A driver can always take control immediately after receiving a warning."},
+        {"label": "D", "text": "The existence of residual risk means that all safety work has failed."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。導入後もsoftware、maps、traffic patterns、使用環境が変化するため、監視が必要だと第3段落が述べます。Aは平均値が弱点を隠す記述、Cは引継ぎ可能性が条件依存という記述、Dはresidual riskの意味と矛盾します。",
+      "sourceRefs": ["legacy:english-reading-standard-ai-safety-21-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why should evaluators separate average performance from performance by group and condition?",
+      "options": [
+        {"label": "A", "text": "Because subgroup testing makes average performance mathematically impossible to calculate."},
+        {"label": "B", "text": "Because only body type matters; lighting, mobility aids, and road-user type do not affect evaluation."},
+        {"label": "C", "text": "Because a strong average proves that every smaller group receives exactly the same protection."},
+        {"label": "D", "text": "Because a strong overall average can conceal concentrated weaknesses under particular lighting conditions or for smaller groups of road users."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。本文はlighting conditions、body types、mobility aids、road usersごとの偏りを調べるよう求め、平均値が小集団の重大な弱点をconcealし得ると明示します。",
+      "sourceRefs": ["legacy:english-reading-standard-ai-safety-21-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which option best restates “Outside it, the vehicle should not pretend to possess a capability it lacks”?",
+      "options": [
+        {"label": "A", "text": "Beyond its intended operating conditions, the vehicle should not behave as though it can safely perform functions it has not been shown capable of performing."},
+        {"label": "B", "text": "Outside the domain, the vehicle may extend its abilities without testing as long as a passenger agrees."},
+        {"label": "C", "text": "The vehicle should ask people to pretend that every road condition belongs to the operating domain."},
+        {"label": "D", "text": "An operational domain is valid only if it includes every condition that could possibly occur."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。「その範囲外では、車両は自分にない能力を備えているかのように振る舞ってはならない」という意味です。pretendは表示や動作による能力の過大提示を批判し、範囲外ではfallbackが必要です。",
+      "sourceRefs": ["legacy:english-reading-standard-ai-safety-21-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which audit plan best applies the passage's reasoning both before and after an automated transport system is released?",
+      "options": [
+        {"label": "A", "text": "Test only a final-second sacrifice scenario before release, then stop collecting evidence once the product is sold."},
+        {"label": "B", "text": "Use one average accuracy score before release and allow the operator alone to decide whether any later failure should be disclosed."},
+        {"label": "C", "text": "Define the operating domain, test ordinary and rare conditions and subgroup performance, verify fallbacks with varied evidence, then monitor failures and near-misses, disclose meaningful results, and allow restriction and challenge after release."},
+        {"label": "D", "text": "Assume that warning a human always transfers control safely, so testing the timing and fallback behavior is unnecessary."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。公開前のdomain定義、通常・稀な条件、集団別性能、fallback、複数証拠と、公開後のfailure・near-miss監視、情報開示、運用制限、異議申立てを一続きにした選択肢です。A・B・Dは本文が批判する単純化です。",
+      "sourceRefs": ["legacy:english-reading-standard-ai-safety-21-q9"]
+    }
+  ]
+}
