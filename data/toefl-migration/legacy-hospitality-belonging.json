@@ -1,0 +1,132 @@
+{
+  "id": "legacy-hospitality-belonging",
+  "title": "A Welcome Is an Action and a Relationship",
+  "task": 3,
+  "date": "2026-09-23T19:01:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "原文四段落と全九つの学習対象を保持し、元の日本語記述・翻訳・発展問題を本文根拠のある英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-standard-belonging-hospitality-28/",
+  "passages": {
+    "text": "In a children’s novel first published in 1958, a bear arrives alone at a London railway station carrying a suitcase and wearing a label that asks someone to care for him. The Brown family notices him, listens to his account, gives him a name connected with the station, and takes him home. These events can be enjoyed as comedy and adventure. They can also support a reading about displacement, migration, and the uncertain beginning of belonging.\n\nSuch a reading is not invented from nothing. Michael Bond recalled wartime evacuees who travelled with labels and small cases, and he later described the bear, in one sense, as a refugee. That historical comment strengthens the interpretation, but it does not turn every episode into a direct allegory with only one correct political meaning. A literary work may grow from a memory while developing patterns and questions that exceed the author’s explanation.\n\nThe welcome itself also deserves close attention. The family’s decision provides safety and relationship, yet the hosts possess powers that the newcomer initially lacks: they control the house, explain local rules, and choose the name by which others will know him. Meanwhile, the bear is not an empty figure who simply receives British identity. His habits, judgments, politeness, mistakes, and famous hard stare affect the household. Belonging is therefore neither complete assimilation nor an unchanged private identity. It is a continuing negotiation in which both guest and home can be altered.\n\nThis interpretation also reveals a limit in the easy claim that kindness always solves exclusion. Fiction can make a generous act visible and emotionally persuasive, but real newcomers may face laws, money, language barriers, prejudice, or institutions that one welcoming family cannot remove. The story’s value need not depend on pretending these difficulties disappear. Its smaller but stronger claim is that a stranger should first be treated as a person whose history can be heard—and that hospitality creates obligations for the host as well as gratitude from the guest."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "Which statement best expresses the main idea of the passage?",
+      "options": [
+        {"label": "A", "text": "The novel has only one political meaning fixed by its author."},
+        {"label": "B", "text": "Belonging can be read as a negotiated relationship supported, but not exhausted, by authorial memory."},
+        {"label": "C", "text": "The host family completely erases the newcomer's earlier identity."},
+        {"label": "D", "text": "A fictional welcome automatically solves legal and economic exclusion."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。作者の戦時記憶は移動・難民の読みを支えますが、作品を唯一の寓意には固定しません。また所属は客と家庭の双方が変化する継続的な交渉として描かれます。A・C・Dはいずれも本文の限定を落としています。",
+      "sourceRefs": ["legacy:english-reading-standard-belonging-hospitality-28-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which pair gives the two kinds of evidence used to connect the bear with displacement or refuge?",
+      "options": [
+        {"label": "A", "text": "The family's wealth and a reader's unsupported personal preference"},
+        {"label": "B", "text": "The station's architecture and the claim that every episode is a direct allegory"},
+        {"label": "C", "text": "The bear's politeness and a law that removes every migration barrier"},
+        {"label": "D", "text": "Textual events such as arriving alone with a case and care label, plus Bond's recollection of evacuees and description of the bear as a refugee in one sense"}
+      ],
+      "correct": "D",
+      "answer": "正解：D。本文内部の到着場面・荷物・札というtextual evidenceと、作者の疎開児童の回想・限定付きのrefugee発言というauthorial evidenceを区別して組み合わせています。",
+      "sourceRefs": ["legacy:english-reading-standard-belonging-hospitality-28-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does the author's recollection not establish the only correct interpretation of the novel?",
+      "options": [
+        {"label": "A", "text": "A work can begin in an author's memory yet develop patterns and questions beyond that explanation, while interpretations still require evidence."},
+        {"label": "B", "text": "An author's comments never provide useful historical evidence."},
+        {"label": "C", "text": "Readers may assign any meaning they like without referring to the text."},
+        {"label": "D", "text": "Every episode has a separate political meaning that the author secretly fixed."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。作者の回想は重要な根拠ですが、作品の場面や反復は作者説明を越える問いを生み得ます。同時に何でもありではなく、本文と史料で支える必要があります。B・C・Dはこの両立を崩します。",
+      "sourceRefs": ["legacy:english-reading-standard-belonging-hospitality-28-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "The word “exceed” in paragraph 2 is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "go beyond"},
+        {"label": "B", "text": "repeat exactly"},
+        {"label": "C", "text": "hide permanently"},
+        {"label": "D", "text": "become less important than"}
+      ],
+      "correct": "A",
+      "answer": "正解：A。patterns and questionsがthe author's explanationの範囲を「越える」という意味です。数量だけでなく説明可能な範囲を上回る用法で、repeatやhideではありません。",
+      "sourceRefs": ["legacy:english-reading-standard-belonging-hospitality-28-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which three powers do the hosts initially possess that the newcomer lacks?",
+      "options": [
+        {"label": "A", "text": "They control national law, remove every prejudice, and determine the bear's private thoughts."},
+        {"label": "B", "text": "They write the novel, operate the railway, and decide wartime evacuation policy."},
+        {"label": "C", "text": "They control the house, explain local rules, and choose the name by which others will know him."},
+        {"label": "D", "text": "They erase his habits, prevent his mistakes, and make his identity remain unchanged."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。第3段落が家の管理、地域規則の説明、社会で使われる名前の選択を列挙します。歓迎には安全と関係だけでなく、迎える側の制度的・命名上の力も伴うという論点です。",
+      "sourceRefs": ["legacy:english-reading-standard-belonging-hospitality-28-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What can most reasonably be inferred from the passage?",
+      "options": [
+        {"label": "A", "text": "Hospitality changes only the guest and leaves the home untouched."},
+        {"label": "B", "text": "Politeness proves that a newcomer has abandoned every earlier habit."},
+        {"label": "C", "text": "A literary work can support multiple interpretations while evidence still allows readers to judge some readings as stronger than others."},
+        {"label": "D", "text": "Real migration has no barriers beyond individual unkindness."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。本文は唯一の寓意を退けつつ、物語上の出来事と作者の回想で読みをstrengthenしています。Aは双方が変化する記述、Bは新参者の主体性、Dは法・金銭・言語・制度の列挙と矛盾します。",
+      "sourceRefs": ["legacy:english-reading-standard-belonging-hospitality-28-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "How does the passage connect the story's hopeful welcome with the limits of real-world hospitality?",
+      "options": [
+        {"label": "A", "text": "It rejects the welcome as worthless because fiction cannot change national law."},
+        {"label": "B", "text": "It values treating a stranger as a person while noting that one family's kindness cannot remove legal, financial, linguistic, prejudicial, or institutional barriers."},
+        {"label": "C", "text": "It claims an emotionally persuasive story automatically supplies sufficient public policy."},
+        {"label": "D", "text": "It argues that newcomers should solve every barrier before hosts accept any obligation."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。物語の歓迎には人として話を聞く倫理的価値がありますが、それだけで法律、金銭、言語障壁、偏見、制度を除けないと限定します。希望を否定せず、個人の善意と制度的十分性を区別しています。",
+      "sourceRefs": ["legacy:english-reading-standard-belonging-hospitality-28-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which option best restates “A literary work may grow from a memory while developing patterns and questions that exceed the author’s explanation”?",
+      "options": [
+        {"label": "A", "text": "A literary work repeats an author's memory exactly and cannot support further questions."},
+        {"label": "B", "text": "Once published, a work has no meaningful connection to the author's experience."},
+        {"label": "C", "text": "A memory matters only when every scene becomes a direct political allegory."},
+        {"label": "D", "text": "A work can originate in personal memory yet develop structures and issues broader than the author's own account."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。memoryを起点として認めながら、作品が作者自身の説明範囲を越える構造や問いを発展させる可能性を示します。whileは起点と広がりの両立を表しています。",
+      "sourceRefs": ["legacy:english-reading-standard-belonging-hospitality-28-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which laboratory welcome policy best applies the passage's view that hospitality creates obligations for the host?",
+      "options": [
+        {"label": "A", "text": "Explain written and unwritten rules, safety, authorship, schedules, and ways to raise concerns; provide shared language and administrative support; and invite the student to contribute prior knowledge."},
+        {"label": "B", "text": "Hold one friendly meeting, then assume silence proves that the student understands and agrees with every rule."},
+        {"label": "C", "text": "Require the student to abandon previous methods before being allowed to participate in research."},
+        {"label": "D", "text": "Leave all support to one generous colleague and avoid changing any institutional practice."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。規則を説明する権力に説明責任を対応させ、懸念表明の経路と言語・行政支援を制度化し、新参者の主体性と既存知識も認めています。B・C・Dは一方向の同化や個人任せに縮めます。",
+      "sourceRefs": ["legacy:english-reading-standard-belonging-hospitality-28-q9"]
+    }
+  ]
+}

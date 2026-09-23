@@ -1,0 +1,132 @@
+{
+  "id": "legacy-art-object-relationship",
+  "title": "Art as an Object and a Relationship",
+  "task": 3,
+  "date": "2026-09-23T19:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "原文四段落と全九つの学習対象を保持し、元の日本語記述・翻訳・発展問題を本文根拠のある英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-standard-art-05/",
+  "passages": {
+    "text": "People often look for a property that all art must possess: beauty, technical skill, originality, or emotional expression. Each proposal captures something important, yet each also excludes works that many communities treat as art. A carefully made bowl may be used in daily life, a song may belong to a ritual, and a photograph may serve as evidence as well as expression. Function does not automatically prevent an object from having artistic meaning.\n\nThe roles assigned to art have changed across societies and historical periods. Images have preserved stories, supported religious practice, displayed political authority, decorated ordinary spaces, and recorded events. Modern institutions such as museums can remove objects from their earlier setting and present them for close visual attention. This change of context may reveal qualities that were previously overlooked, but it may also hide how the object was originally used and who gave it meaning.\n\nContemporary artists may work with paint, sound, performance, software, public space, or everyday materials. Some create objects; others organize an action or invite an audience to participate. Such works show that art can be a relationship among a maker, a material or event, an audience, and a social context. Disagreement is therefore not always evidence that one side has failed to understand. It can reveal that people are using different criteria when they decide what deserves attention as art.\n\nA useful definition should consequently do more than guard a fixed border. It should help us ask better questions: What choices shaped the work? What purpose did it serve? How did its audience respond? Whose interpretation became authoritative, and whose was ignored? The enduring role of art may lie not in one permanent essence, but in its ability to organize perception, memory, feeling, and debate."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "The word “captures” in paragraph 1 is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "expresses part of accurately"},
+        {"label": "B", "text": "takes by physical force"},
+        {"label": "C", "text": "photographs secretly"},
+        {"label": "D", "text": "prevents from changing"}
+      ],
+      "correct": "A",
+      "answer": "正解：A。目的語はsomething importantで、各提案が芸術の重要な一面を的確に捉えるという意味です。Bの捕獲、Cの撮影もcaptureの別義ですが、この抽象的な文脈には合いません。",
+      "sourceRefs": ["legacy:english-reading-standard-art-05-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "In paragraph 4, what does the phrase “guard a fixed border” suggest about a definition of art?",
+      "options": [
+        {"label": "A", "text": "It should require guards to protect valuable objects in museums."},
+        {"label": "B", "text": "It should prevent artists from changing a completed work."},
+        {"label": "C", "text": "It should use fixed conditions to separate what counts as art from what does not and maintain that boundary."},
+        {"label": "D", "text": "It should describe the physical frame around every artwork."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。guardは実際の警備ではなく、固定条件で芸術の内外を分け、その分類境界を維持する働きの比喩です。本文は有用な定義がそれ以上の問いを生むべきだと主張します。",
+      "sourceRefs": ["legacy:english-reading-standard-art-05-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why can a bowl used in daily life still have artistic meaning according to the passage?",
+      "options": [
+        {"label": "A", "text": "Only objects that have lost every practical use can become art."},
+        {"label": "B", "text": "Practical function does not automatically exclude artistic meaning, which can also arise from making, use, and communal interpretation."},
+        {"label": "C", "text": "Daily use proves that the bowl was created only as political evidence."},
+        {"label": "D", "text": "Every useful object is automatically art regardless of its context."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。第1段落は実用性と芸術的意味を排他的に扱わず、丁寧な制作、使用場面、共同体の扱いなどが意味に関わると示します。Aは逆、Dはautomaticという過剰な一般化です。",
+      "sourceRefs": ["legacy:english-reading-standard-art-05-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What benefit and drawback can result when a museum removes an object from its earlier setting?",
+      "options": [
+        {"label": "A", "text": "It restores every original use but prevents close visual study."},
+        {"label": "B", "text": "It proves the museum's interpretation is correct but destroys the object's physical form."},
+        {"label": "C", "text": "It removes all political meanings while preserving only religious ones."},
+        {"label": "D", "text": "It can reveal overlooked visual qualities while hiding the object's original use and the people who gave it meaning."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。第2段落は展示によるclose visual attentionの利点と、元の用途・意味を与えた人々との関係が隠れる欠点を対比します。博物館化を全面的な保存とも破壊ともしていません。",
+      "sourceRefs": ["legacy:english-reading-standard-art-05-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does “Such works” in paragraph 3 refer to?",
+      "options": [
+        {"label": "A", "text": "Only traditional paintings displayed inside museums"},
+        {"label": "B", "text": "Contemporary works using varied media, including actions and audience participation as well as objects"},
+        {"label": "C", "text": "Photographs used exclusively as legal evidence"},
+        {"label": "D", "text": "Ordinary objects that no community has ever interpreted"}
+      ],
+      "correct": "B",
+      "answer": "正解：B。直前にはpaint、sound、performance、software、public space、everyday materialsに加え、行為の組織や観客参加が挙げられています。Such worksはこの多様な現代作品群を受けます。",
+      "sourceRefs": ["legacy:english-reading-standard-art-05-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What can most reasonably be inferred from the passage?",
+      "options": [
+        {"label": "A", "text": "Beauty is the one property that every work of art must possess."},
+        {"label": "B", "text": "An object with a practical function cannot also be treated as art."},
+        {"label": "C", "text": "Disagreement about art can result from people applying different criteria rather than from simple misunderstanding."},
+        {"label": "D", "text": "A museum's interpretation is always more authoritative than a community's earlier use."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。第3段落が、意見の不一致は理解失敗だけでなく異なる評価基準を示す場合があると述べます。A・Bは第1段落、Dは博物館が文脈を隠し得るという第2段落と矛盾します。",
+      "sourceRefs": ["legacy:english-reading-standard-art-05-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does the author describe art as a relationship rather than only as an object?",
+      "options": [
+        {"label": "A", "text": "Because artistic meaning can be shaped by interactions among the maker, material or event, audience, social context, and institutions."},
+        {"label": "B", "text": "Because physical objects can never carry artistic meaning."},
+        {"label": "C", "text": "Because an audience alone determines meaning without reference to the maker or context."},
+        {"label": "D", "text": "Because software and performance always have one permanent essence."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。本文では意味が外見だけで決まらず、制作者、素材や出来事、観客、社会的文脈、展示制度の関係から形作られます。B・Cは関係の一部を排除し、Dは固定的本質への批判と反対です。",
+      "sourceRefs": ["legacy:english-reading-standard-art-05-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which option best restates “Function does not automatically prevent an object from having artistic meaning”?",
+      "options": [
+        {"label": "A", "text": "An object becomes art only after people stop using it."},
+        {"label": "B", "text": "Artistic meaning prevents an object from performing a practical function."},
+        {"label": "C", "text": "Every practical function gives an object the same artistic meaning."},
+        {"label": "D", "text": "Having a practical use does not by itself make artistic meaning impossible."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。「実用的な機能があるからといって芸術的意味が自動的に妨げられるわけではない」という限定です。prevent A from -ingとautomaticallyの両方を保持しています。",
+      "sourceRefs": ["legacy:english-reading-standard-art-05-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which exhibition plan best applies the passage's framework to an everyday object?",
+      "options": [
+        {"label": "A", "text": "Display a factory-made cup as art solely because every useful object must be art."},
+        {"label": "B", "text": "Present a handmade teapot with its design choices, materials, ceremonial and daily uses, makers' community, and varied audience interpretations."},
+        {"label": "C", "text": "Remove a scientific instrument from its history and state that visual beauty is the only relevant criterion."},
+        {"label": "D", "text": "Label a kitchen tool as non-art because practical use and artistic meaning can never coexist."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。制作上の選択、素材、目的、共同体、観客の反応を合わせて問うため、最終段落の枠組みを具体化しています。Aは無条件化、Cは文脈喪失、Dは実用と芸術の両立可能性を否定します。",
+      "sourceRefs": ["legacy:english-reading-standard-art-05-q9"]
+    }
+  ]
+}

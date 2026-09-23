@@ -1006,11 +1006,12 @@
     }
   ],
   "lastSource": {
-    "type": "pdf",
+    "type": "legacy",
     "ids": [
-      "pdf-vocabulary-day02-part3"
+      "legacy-art-object-relationship",
+      "legacy-hospitality-belonging"
     ],
-    "convertedAt": "2026-09-23T17:00:00+09:00"
+    "convertedAt": "2026-09-23T19:00:00+09:00"
   },
   "blockedItems": [
     {
