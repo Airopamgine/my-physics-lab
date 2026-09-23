@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day02-part1",
+  "title": "Vocabulary Day 02 · Context Completion 1",
+  "task": 1,
+  "date": "2026-09-23T09:03:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 3ページ／冊子381ページ · Day 02先頭15語（全60語中）",
+  "verificationNote": "掲載語・綴り・掲載順をスキャン原本で確認済みです。各語を文脈で判断できるmissing-letter exerciseへ編集しています。出版社の公式解答表は未収録ですが、正答は掲載headwordと一致します。未回答の語の正答は、その語を提出するまで表示されません。",
+  "passages": {
+    "abundant": "The coastal marsh provides abu_____ food for migrating birds.",
+    "analysis": "A careful ana_____ of the samples revealed traces of volcanic ash.",
+    "attire": "Formal att___ is required for the award ceremony.",
+    "behavior": "Researchers recorded the beh_____ of dolphins near fishing boats.",
+    "bond": "Shared rituals can strengthen the b___ between members of a community.",
+    "burden": "The new tax placed a heavy bur___ on small businesses.",
+    "cavity": "The scan revealed a small cav___ inside the ancient tooth.",
+    "coherent": "The evidence supports a coh_____ explanation of how the settlement developed.",
+    "compress": "The machine can com_____ the gas before it enters the storage tank.",
+    "contemporary": "The exhibition compares ancient pottery with conte_______ ceramic art.",
+    "creature": "The deep-sea crea____ survives under extreme pressure.",
+    "crust": "Earth's cr___ is divided into moving tectonic plates.",
+    "deliberate": "The repeated pattern suggests a deli______ design rather than an accident.",
+    "descent": "The hikers began their des____ before the weather worsened.",
+    "discrepancy": "A disc_______ between the two records led auditors to recheck the totals."
+  },
+  "questions": [
+    {
+      "passageId": "abundant",
+      "prompt": "Day 02 vocabulary: complete abu_____. Enter the missing letters.",
+      "prefix": "abu",
+      "word": "abundant",
+      "answer": "Abundant means present in a large quantity. 正解：ndant → abundant（豊富な・多量の）。沿岸湿地に渡り鳥の食物が十分にある文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p003:qabundant"
+      ]
+    },
+    {
+      "passageId": "analysis",
+      "prompt": "Day 02 vocabulary: complete ana_____. Enter the missing letters.",
+      "prefix": "ana",
+      "word": "analysis",
+      "answer": "Analysis is a detailed examination of information or evidence. 正解：lysis → analysis（分析・解析）。試料を詳しく調べて火山灰の痕跡を見つけた文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p003:qanalysis"
+      ]
+    },
+    {
+      "passageId": "attire",
+      "prompt": "Day 02 vocabulary: complete att___. Enter the missing letters.",
+      "prefix": "att",
+      "word": "attire",
+      "answer": "Attire means clothing, especially clothing of a particular type. 正解：ire → attire（服装・衣装）。授賞式でformal attire、つまり正装が求められています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p003:qattire"
+      ]
+    },
+    {
+      "passageId": "behavior",
+      "prompt": "Day 02 vocabulary: complete beh_____. Enter the missing letters.",
+      "prefix": "beh",
+      "word": "behavior",
+      "answer": "Behavior is the way a person or animal acts. 正解：avior → behavior（行動・振る舞い）。研究者が漁船の近くでイルカの行動を記録した文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p003:qbehavior"
+      ]
+    },
+    {
+      "passageId": "bond",
+      "prompt": "Day 02 vocabulary: complete b___. Enter the missing letters.",
+      "prefix": "b",
+      "word": "bond",
+      "answer": "A bond is a connection or relationship that unites people or groups. 正解：ond → bond（絆・結びつき）。共有する儀式が共同体の成員間の結びつきを強めます。",
+      "sourceRefs": [
+        "pdf:vocabulary:p003:qbond"
+      ]
+    },
+    {
+      "passageId": "burden",
+      "prompt": "Day 02 vocabulary: complete bur___. Enter the missing letters.",
+      "prefix": "bur",
+      "word": "burden",
+      "answer": "A burden is a difficult duty, cost, or load that must be carried. 正解：den → burden（負担・重荷）。新税が小規模企業に重い費用負担を与えた文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p003:qburden"
+      ]
+    },
+    {
+      "passageId": "cavity",
+      "prompt": "Day 02 vocabulary: complete cav___. Enter the missing letters.",
+      "prefix": "cav",
+      "word": "cavity",
+      "answer": "A cavity is a hollow space or hole within something. 正解：ity → cavity（空洞・穴）。画像検査で古代の歯の内部に小さな空洞が見つかった文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p003:qcavity"
+      ]
+    },
+    {
+      "passageId": "coherent",
+      "prompt": "Day 02 vocabulary: complete coh_____. Enter the missing letters.",
+      "prefix": "coh",
+      "word": "coherent",
+      "answer": "Coherent means logical, consistent, and easy to understand as a whole. 正解：erent → coherent（一貫した・論理的な）。証拠が集落発展について筋の通った説明を支えています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p003:qcoherent"
+      ]
+    },
+    {
+      "passageId": "compress",
+      "prompt": "Day 02 vocabulary: complete com_____. Enter the missing letters.",
+      "prefix": "com",
+      "word": "compress",
+      "answer": "Compress means to press something into a smaller volume. 正解：press → compress（圧縮する）。気体を貯蔵タンクへ送る前に体積を小さくする文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p003:qcompress"
+      ]
+    },
+    {
+      "passageId": "contemporary",
+      "prompt": "Day 02 vocabulary: complete conte_______. Enter the missing letters.",
+      "prefix": "conte",
+      "word": "contemporary",
+      "answer": "Contemporary means belonging to the present time or the same historical period. 正解：mporary → contemporary（現代の・同時代の）。古代の陶器と現代陶芸を比較する展示です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p003:qcontemporary"
+      ]
+    },
+    {
+      "passageId": "creature",
+      "prompt": "Day 02 vocabulary: complete crea____. Enter the missing letters.",
+      "prefix": "crea",
+      "word": "creature",
+      "answer": "A creature is a living being, especially an animal. 正解：ture → creature（生物・動物）。極端な水圧の下で生きる深海生物を指します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p003:qcreature"
+      ]
+    },
+    {
+      "passageId": "crust",
+      "prompt": "Day 02 vocabulary: complete cr___. Enter the missing letters.",
+      "prefix": "cr",
+      "word": "crust",
+      "answer": "The Earth's crust is its solid outermost layer. 正解：ust → crust（地殻・外皮）。移動するtectonic platesを構成する地球表層を表します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p003:qcrust"
+      ]
+    },
+    {
+      "passageId": "deliberate",
+      "prompt": "Day 02 vocabulary: complete deli______. Enter the missing letters.",
+      "prefix": "deli",
+      "word": "deliberate",
+      "answer": "Deliberate means intentional and carefully planned. 正解：berate → deliberate（意図的な・熟考した）。反復模様が偶然ではなく計画された設計だと示す文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p003:qdeliberate"
+      ]
+    },
+    {
+      "passageId": "descent",
+      "prompt": "Day 02 vocabulary: complete des____. Enter the missing letters.",
+      "prefix": "des",
+      "word": "descent",
+      "answer": "Descent is the act of moving downward. 正解：cent → descent（下降・下山）。天候悪化前に登山者が山を下り始めた場面です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p003:qdescent"
+      ]
+    },
+    {
+      "passageId": "discrepancy",
+      "prompt": "Day 02 vocabulary: complete disc_______. Enter the missing letters.",
+      "prefix": "disc",
+      "word": "discrepancy",
+      "answer": "A discrepancy is an unexplained difference between things that should agree. 正解：repancy → discrepancy（不一致・相違）。二つの記録の合計が一致せず、監査担当者が再確認しています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p003:qdiscrepancy"
+      ]
+    }
+  ]
+}
