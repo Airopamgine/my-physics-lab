@@ -985,18 +985,32 @@
           "pdf:vocabulary:p003:qgroundbreaking",
           "pdf:vocabulary:p003:qharsh",
           "pdf:vocabulary:p003:qhind",
-          "pdf:vocabulary:p003:qillusion"
+          "pdf:vocabulary:p003:qillusion",
+          "pdf:vocabulary:p003:qimpractical",
+          "pdf:vocabulary:p003:qindifference",
+          "pdf:vocabulary:p003:qingenuity",
+          "pdf:vocabulary:p003:qinsulate",
+          "pdf:vocabulary:p003:qintolerance",
+          "pdf:vocabulary:p003:qinvestment",
+          "pdf:vocabulary:p003:qlandlocked",
+          "pdf:vocabulary:p003:qlayout",
+          "pdf:vocabulary:p003:qlocation",
+          "pdf:vocabulary:p003:qmechanical",
+          "pdf:vocabulary:p003:qmoderately",
+          "pdf:vocabulary:p003:qopaque",
+          "pdf:vocabulary:p003:qperformer",
+          "pdf:vocabulary:p003:qpreserve",
+          "pdf:vocabulary:p003:qquest"
         ]
       }
     }
   ],
   "lastSource": {
-    "type": "legacy",
+    "type": "pdf",
     "ids": [
-      "legacy-automated-vehicle-safety",
-      "legacy-ammonia-equilibrium-systems"
+      "pdf-vocabulary-day02-part3"
     ],
-    "convertedAt": "2026-09-23T15:00:00+09:00"
+    "convertedAt": "2026-09-23T17:00:00+09:00"
   },
   "blockedItems": [
     {
