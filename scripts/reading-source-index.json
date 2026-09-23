@@ -976,12 +976,12 @@
     }
   ],
   "lastSource": {
-    "type": "pdf",
+    "type": "legacy",
     "ids": [
-      "pdf-vocabulary-day01-correction",
-      "pdf-vocabulary-day02-part1"
+      "legacy-ai-creativity-contributions",
+      "legacy-robots-human-cooperation"
     ],
-    "convertedAt": "2026-09-23T09:02:00+09:00"
+    "convertedAt": "2026-09-23T11:00:00+09:00"
   },
   "blockedItems": [
     {

@@ -1,0 +1,132 @@
+{
+  "id": "legacy-robots-human-cooperation",
+  "title": "Robots: From Controlled Cells to Human Cooperation",
+  "task": 3,
+  "date": "2026-09-23T11:01:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "原文三段落と全九つの学習対象を保持し、元の日本語記述・翻訳・発展問題を本文根拠のある英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-robots-06/",
+  "passages": {
+    "text": "Early industrial robots were primarily designed for repetitive or hazardous work. In a factory cell separated from people, a machine could repeat the same motion with great speed and precision. The restricted environment was not merely a limitation; it was also part of the design. Engineers could control the robot's path, the position of materials, and the timing of each operation.\n\nRobots now appear in less predictable settings. Some move through homes, carry supplies in hospitals, inspect damaged structures, or assist a surgeon under close supervision. These roles require more than strength and repetition. A robot may need to detect a person, interpret an obstacle, adjust its movement, or transfer control to a human when the situation falls outside its operating limits. In this sense, robots are becoming more versatile and interactive, but increased versatility also creates new demands for testing, communication, and responsibility.\n\nFuture systems are therefore likely to be judged not only by what they can do alone, but also by how clearly they work with people. Effective cooperation requires humans to understand a machine's limits and designers to make its behavior observable. The central change is not that robots have become independent of humans. It is that the relationship between human judgment and machine action has become more important."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "The word “primarily” in paragraph 1 is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "mainly"},
+        {"label": "B", "text": "occasionally"},
+        {"label": "C", "text": "secretly"},
+        {"label": "D", "text": "experimentally"}
+      ],
+      "correct": "A",
+      "answer": "正解：A。primarily は「主として」で、mainlyが最も近い意味です。onlyほど排他的ではなく、初期ロボットに他の用途が一切なかったとは述べていません。",
+      "sourceRefs": ["legacy:english-reading-robots-06-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "The word “hazardous” in paragraph 1 is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "requiring creativity"},
+        {"label": "B", "text": "involving danger"},
+        {"label": "C", "text": "easy to observe"},
+        {"label": "D", "text": "suitable for children"}
+      ],
+      "correct": "B",
+      "answer": "正解：B。hazardous は「危険を伴う」で、作業に危険源や危険性があることを示します。repetitive or hazardous work は反復作業または危険作業という並列です。",
+      "sourceRefs": ["legacy:english-reading-robots-06-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "The word “versatile” in paragraph 2 is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "able to perform varied roles"},
+        {"label": "B", "text": "limited to a single fixed motion"},
+        {"label": "C", "text": "unable to communicate data"},
+        {"label": "D", "text": "designed without testing"}
+      ],
+      "correct": "A",
+      "answer": "正解：A。homes, hospitals, damaged structures, surgery という複数用途が挙げられており、versatileは「多用途の」です。ただしoperating limitsがあるため「万能」という意味ではありません。",
+      "sourceRefs": ["legacy:english-reading-robots-06-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why was the restricted factory environment part of the robot's design rather than merely a disadvantage?",
+      "options": [
+        {"label": "A", "text": "It forced the robot to make moral judgments without human guidance."},
+        {"label": "B", "text": "It prevented engineers from knowing where materials would be placed."},
+        {"label": "C", "text": "It let engineers control the path, material positions, and timing so that motions could be repeated quickly and precisely."},
+        {"label": "D", "text": "It made the robot versatile enough to work in every social setting."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。制限環境ではrobot's path, position of materials, timingをあらかじめ管理でき、同じ動作をspeed and precisionを保って反復できます。制約は能力不足だけでなく予測可能性を作る設計条件でした。",
+      "sourceRefs": ["legacy:english-reading-robots-06-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which pair gives two examples included in the phrase “These roles” in paragraph 2?",
+      "options": [
+        {"label": "A", "text": "Moving through homes and carrying supplies in hospitals"},
+        {"label": "B", "text": "Programming explicit rules and training on shared benchmarks"},
+        {"label": "C", "text": "Fixing material positions and repeating one motion inside a factory cell"},
+        {"label": "D", "text": "Replacing every surgeon and making all human judgments independently"}
+      ],
+      "correct": "A",
+      "answer": "正解：A。These roles は直前の列挙全体、つまり家庭内移動・病院での運搬・損傷構造物の点検・監督下の手術支援を受けます。最も近い一語だけを指すのではありません。",
+      "sourceRefs": ["legacy:english-reading-robots-06-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What can most reasonably be inferred from the passage?",
+      "options": [
+        {"label": "A", "text": "As robot uses expand, problems of testing and responsibility decrease."},
+        {"label": "B", "text": "A robot operating around people needs a way to respond when a situation exceeds its operating limits."},
+        {"label": "C", "text": "Early industrial robots were unable to move with precision."},
+        {"label": "D", "text": "Future robots will make human judgment entirely unnecessary."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。第2段落は限界外の状況でhumanへcontrolを渡す必要を述べます。Aはcreates new demands、Cはgreat speed and precision、Dは最終二文とそれぞれ矛盾します。",
+      "sourceRefs": ["legacy:english-reading-robots-06-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which option best restates “The restricted environment was not merely a limitation; it was also part of the design”?",
+      "options": [
+        {"label": "A", "text": "The environment limited the robot and contributed nothing to its reliable operation."},
+        {"label": "B", "text": "The robot's design succeeded only after every environmental restriction was removed."},
+        {"label": "C", "text": "Although the environment constrained the robot, those controlled conditions also helped the system operate as intended."},
+        {"label": "D", "text": "The factory cell was designed mainly to make interaction with people unpredictable."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。not merely A; also B は「単にAなのではなくBでもある」です。制限は行動範囲を狭める一方、条件を制御して正確な反復を可能にする設計要素でもありました。",
+      "sourceRefs": ["legacy:english-reading-robots-06-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which statement best summarizes the change in robots' roles described in the passage?",
+      "options": [
+        {"label": "A", "text": "Robots have changed from precise machines into systems that no longer need testing."},
+        {"label": "B", "text": "Robots have left factories because controlled environments always reduce performance."},
+        {"label": "C", "text": "Robots are becoming independent agents whose actions no longer involve human responsibility."},
+        {"label": "D", "text": "Robots are moving from repetitive work in controlled settings toward varied social uses where cooperation with human judgment matters more."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。本文は制御環境での反復作業から予測しにくい社会空間への用途拡大を描き、結論でhuman judgmentとmachine actionの関係を重視します。独立・万能化の物語ではありません。",
+      "sourceRefs": ["legacy:english-reading-robots-06-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which design choice best applies the passage's reasoning to a robot that works in a hospital corridor?",
+      "options": [
+        {"label": "A", "text": "Make the robot's state and limits observable, and provide a clear handoff when an unexpected situation requires human control."},
+        {"label": "B", "text": "Hide uncertainty from staff so that the robot always appears independent."},
+        {"label": "C", "text": "Judge the robot only by its top speed inside an empty test cell."},
+        {"label": "D", "text": "Remove human supervision because varied environments eliminate operating limits."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。病院は人や障害物がある予測しにくい環境です。本文はbehaviorをobservableにし、operating limits外ではhumanへcontrolを渡すことを協働と責任に結び付けています。B・C・Dはその原則に反します。",
+      "sourceRefs": ["legacy:english-reading-robots-06-q9"]
+    }
+  ]
+}

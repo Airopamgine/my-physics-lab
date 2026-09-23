@@ -1,0 +1,132 @@
+{
+  "id": "legacy-ai-creativity-contributions",
+  "title": "AI and Creativity: Tracing Contributions Through the Process",
+  "task": 3,
+  "date": "2026-09-23T11:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "原文三段落と全九つの学習対象を保持し、元の日本語記述・翻訳・発展問題を本文根拠のある英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-standard-ai-creativity-02/",
+  "passages": {
+    "text": "Generative AI systems can produce images, music, and text by learning statistical patterns from large collections of examples. A user supplies instructions, while the system combines learned patterns under particular settings to produce an output. The result may contain an arrangement that neither the user nor the system's designers predicted in detail. Surprise, however, does not by itself settle whether the process should be called creative in the same sense as human creation.\n\nHuman creative work also builds on earlier works, conventions, tools, and collaboration. What often matters is not complete independence from influence, but the way a person selects a problem, develops an intention, evaluates alternatives, and takes responsibility for the result. In an AI-assisted process, these contributions may be distributed. One person may design the system, another may prepare data, a user may revise instructions repeatedly, and an editor may select or transform the final output.\n\nIt is therefore more useful to examine the process than to ask only whether \"the human\" or \"the machine\" made the work. Important questions include where the training material came from, what choices shaped the result, which limitations were recognized, and how the output was evaluated. AI may augment human practice by making variation faster or revealing unexpected possibilities. It may also hide sources, reproduce patterns that deserve criticism, or encourage users to accept the first result without reflection. Collaboration becomes meaningful only when the participants understand both the tool's capabilities and its limits."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "The word “settle” in paragraph 1 is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "decide conclusively"},
+        {"label": "B", "text": "copy repeatedly"},
+        {"label": "C", "text": "display publicly"},
+        {"label": "D", "text": "reduce in size"}
+      ],
+      "correct": "A",
+      "answer": "正解：A。settle whether ... は「…かどうかという論点に決着をつける」です。定住・沈殿などの別義ではなく、surpriseだけでは創造性の判断を確定できないという文脈です。",
+      "sourceRefs": ["legacy:english-reading-standard-ai-creativity-02-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "The word “augment” in paragraph 3 is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "replace and remove"},
+        {"label": "B", "text": "increase or extend"},
+        {"label": "C", "text": "hide permanently"},
+        {"label": "D", "text": "judge as illegal"}
+      ],
+      "correct": "B",
+      "answer": "正解：B。augment は「補って増やす・拡張する」です。AIがvariationを速くしunexpected possibilitiesを示すことで人の実践を拡張するので、replaceとは異なります。",
+      "sourceRefs": ["legacy:english-reading-standard-ai-creativity-02-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why is an unexpected output not sufficient by itself to prove creativity in the same sense as human creation?",
+      "options": [
+        {"label": "A", "text": "An unexpected result proves that the system formed a human intention."},
+        {"label": "B", "text": "A result cannot be unexpected if it uses patterns learned from examples."},
+        {"label": "C", "text": "Surprise shows that details were not predicted, but it does not identify where problem selection, intention, evaluation, and responsibility occurred."},
+        {"label": "D", "text": "Human creative work never uses earlier works, conventions, tools, or collaboration."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。予想外であることは細部を事前に予測しなかったことを示すだけです。第2段落が重視するproblem selection, intention, evaluation, responsibilityの所在までは証明しません。A・Dは本文と反対で、Bも誤りです。",
+      "sourceRefs": ["legacy:english-reading-standard-ai-creativity-02-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which pair gives two contributions that the passage emphasizes in human creative work?",
+      "options": [
+        {"label": "A", "text": "Avoiding every earlier influence and refusing all collaboration"},
+        {"label": "B", "text": "Predicting every output detail and accepting the first result"},
+        {"label": "C", "text": "Hiding source material and removing responsibility for the result"},
+        {"label": "D", "text": "Selecting a problem and developing an intention"}
+      ],
+      "correct": "D",
+      "answer": "正解：D。本文はselects a problem, develops an intention, evaluates alternatives, takes responsibilityを人間の創作上の寄与として挙げます。完全な無影響ではなく、どの判断と責任を引き受けたかを重視しています。",
+      "sourceRefs": ["legacy:english-reading-standard-ai-creativity-02-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does the phrase “these contributions may be distributed” refer to?",
+      "options": [
+        {"label": "A", "text": "Only the images, music, and text produced by the system"},
+        {"label": "B", "text": "Problem selection, intention, evaluation of alternatives, and responsibility, which may occur across different people and stages"},
+        {"label": "C", "text": "Only the statistical patterns stored inside a trained model"},
+        {"label": "D", "text": "The claim that every participant makes exactly the same decision"}
+      ],
+      "correct": "B",
+      "answer": "正解：B。these contributions は直前の四項目を受けます。続くsystem design, data preparation, repeated instructions, editingの例は、寄与が複数の人と工程へ分散し得ることを具体化しています。",
+      "sourceRefs": ["legacy:english-reading-standard-ai-creativity-02-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What can most reasonably be inferred from the passage?",
+      "options": [
+        {"label": "A", "text": "Humans make no choices in any work produced with AI."},
+        {"label": "B", "text": "An unexpected output by itself proves the author's intention."},
+        {"label": "C", "text": "Contributions in AI-assisted creation may be divided among several people and stages."},
+        {"label": "D", "text": "Human work influenced by earlier works cannot be creative."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。第2段落はdesigner, data preparer, user, editorが異なる寄与を担う例を示します。A・B・Dは、本文が避ける絶対的な二者択一や、surpriseとintentionの同一視です。",
+      "sourceRefs": ["legacy:english-reading-standard-ai-creativity-02-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does the author consider examining the creative process more useful than asking only whether a human or a machine made the work?",
+      "options": [
+        {"label": "A", "text": "A process analysis can show how system design, data, instruction revision, selection, editing, and responsibility are distributed."},
+        {"label": "B", "text": "A process analysis proves that training material and limitations never matter."},
+        {"label": "C", "text": "The human-or-machine question already identifies every choice that shaped the result."},
+        {"label": "D", "text": "The author believes that only the speed of producing variations should be evaluated."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。AI支援では設計・資料準備・指示修正・選択・編集が複数の人と段階へ分かれます。二者択一だけでは、training materialの由来、choices、limitations、evaluation、責任の所在を説明できません。",
+      "sourceRefs": ["legacy:english-reading-standard-ai-creativity-02-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which option best restates “Collaboration becomes meaningful only when the participants understand both the tool's capabilities and its limits”?",
+      "options": [
+        {"label": "A", "text": "Collaboration is meaningful whenever participants know only what the tool does well."},
+        {"label": "B", "text": "Participants should ignore limitations if the tool can generate surprising results."},
+        {"label": "C", "text": "Understanding both what the tool can do and where it may fail is necessary for meaningful collaboration."},
+        {"label": "D", "text": "Meaningful collaboration requires the machine to work without any human evaluation."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。only when は必要条件、both A and B は両方が必要であることを示します。能力だけでなく限界も理解して初めて協働が意味を持つ、という文です。A・Bは片方を落とし、Dはhuman evaluationと反対です。",
+      "sourceRefs": ["legacy:english-reading-standard-ai-creativity-02-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which workflow for creating learning materials with AI best follows the passage's reasoning?",
+      "options": [
+        {"label": "A", "text": "Use the first generated result because speed is more important than source quality or reflection."},
+        {"label": "B", "text": "Check the source material and its suitability, then test every question and answer and revise ambiguous choices before publication."},
+        {"label": "C", "text": "Hide the origin of training material and treat unexpected wording as proof of accuracy."},
+        {"label": "D", "text": "Let the tool determine the educational purpose so that no person must take responsibility."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。本文はmaterialの由来、結果を形作るchoices、recognized limitations、evaluationを確認し、最初の結果をreflectionなしで受け入れないよう求めます。教材では資料適合性と各設問・正答の検証が具体的な人の責任になります。",
+      "sourceRefs": ["legacy:english-reading-standard-ai-creativity-02-q9"]
+    }
+  ]
+}
