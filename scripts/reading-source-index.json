@@ -1050,17 +1050,33 @@
           "pdf:vocabulary:p003:qvaccination",
           "pdf:vocabulary:p003:qvictim",
           "pdf:vocabulary:p003:qweather"
+        ],
+        "4": [
+          "pdf:vocabulary:p004:qaccess",
+          "pdf:vocabulary:p004:qape",
+          "pdf:vocabulary:p004:qaudience",
+          "pdf:vocabulary:p004:qbeneficial",
+          "pdf:vocabulary:p004:qboost",
+          "pdf:vocabulary:p004:qburgeon",
+          "pdf:vocabulary:p004:qcentury",
+          "pdf:vocabulary:p004:qcommunication",
+          "pdf:vocabulary:p004:qconcentration",
+          "pdf:vocabulary:p004:qcontribution",
+          "pdf:vocabulary:p004:qcrisis",
+          "pdf:vocabulary:p004:qcue",
+          "pdf:vocabulary:p004:qdelicate",
+          "pdf:vocabulary:p004:qdestruct",
+          "pdf:vocabulary:p004:qdisparity"
         ]
       }
     }
   ],
   "lastSource": {
-    "type": "legacy",
+    "type": "pdf",
     "ids": [
-      "legacy-comet-structure-evidence",
-      "legacy-cultural-context-human-rights"
+      "pdf-vocabulary-day03-part1"
     ],
-    "convertedAt": "2026-09-24T15:00:00+09:00"
+    "convertedAt": "2026-09-24T17:00:00+09:00"
   },
   "blockedItems": [
     {
