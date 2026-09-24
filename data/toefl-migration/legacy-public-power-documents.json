@@ -1,0 +1,258 @@
+{
+  "id": "legacy-public-power-documents",
+  "title": "Hamilton, Jackson, and Public Power",
+  "task": 3,
+  "date": "2026-09-25T06:45:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "原文四段落と全九つの学習対象を保持し、日本語記述・翻訳・発展問題を本文根拠のある英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-standard-public-power-06/",
+  "passages": {
+    "text": "Alexander Hamilton and Andrew Jackson are often placed at opposite ends of a simple story about American government. Hamilton is said to represent national power and commerce, while Jackson is said to represent local independence and ordinary citizens. The contrast is useful, but only if it is treated as a question to investigate rather than a conclusion to repeat. Hamilton died long before Jackson's presidency, and the two men did not compete against each other in a presidential election.\n\nIn his 1791 report on manufacturing, Hamilton argued that agriculture deserved respect but should not receive exclusive preference. A more varied economy, he maintained, could enlarge employment, encourage the use of machinery, and reduce dependence on foreign suppliers. His argument therefore concerned more than the size of government. It asked whether public policy could help create economic capacities that private choices might develop too slowly. The proposed means included measures such as duties and financial encouragement, though Hamilton also discussed limits and objections.\n\nJackson's 1832 veto message addressed a different institution in a different period: the Second Bank of the United States. He acknowledged that a national bank could be convenient, yet argued that the bank's particular privileges were unjust, constitutionally doubtful, and dangerous. He presented the issue as one of unequal access to public favor, emphasizing benefits received by wealthy and foreign stockholders. At the same time, opposing the bank did not make Jackson an opponent of executive power. His veto used presidential authority forcefully and claimed an independent role for the president in interpreting the Constitution.\n\nThe documents thus reveal a tension more precise than “large government versus small government.” Hamilton justified selected public action as a way to build national capacity; Jackson attacked a privileged corporation while expanding the political force of the presidency. Both writers claimed to protect the public, but they defined the danger differently. To compare them responsibly, a reader must ask not only how much power each accepted, but which institution would exercise it, for what purpose, and under whose control."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What is the main purpose of the passage?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To prove that Hamilton and Jackson ran against each other."
+        },
+        {
+          "label": "B",
+          "text": "To replace a simple opposition with a document-based comparison of public power."
+        },
+        {
+          "label": "C",
+          "text": "To show that both men rejected all national institutions."
+        },
+        {
+          "label": "D",
+          "text": "To decide which man was morally superior."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。第1段落の単純な対立図式を二つの異なる時代の政策文書で検査します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-public-power-06-q1"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does “treated as a question to investigate” suggest about the usual contrast between the two men?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Accept it as a final conclusion without reading their documents."
+        },
+        {
+          "label": "B",
+          "text": "Reject all comparison because the men lived in different periods."
+        },
+        {
+          "label": "C",
+          "text": "Use it as a starting hypothesis and test it against each document’s time, institution, and argument."
+        },
+        {
+          "label": "D",
+          "text": "Assume they competed in the same presidential election."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。既成の人物像を結論として反復せず、史料の時期・対象・論拠を調べる仮説にします。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-public-power-06-q2"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which pair of reasons did Hamilton give for encouraging manufacturing?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To enlarge employment and machinery use while reducing dependence on foreign suppliers."
+        },
+        {
+          "label": "B",
+          "text": "To eliminate agriculture and prevent the use of machinery."
+        },
+        {
+          "label": "C",
+          "text": "To give the Second Bank exclusive privileges in 1832."
+        },
+        {
+          "label": "D",
+          "text": "To abolish all national policy and rely only on foreign imports."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。第2段落。雇用や機械利用、経済の多様化、外国供給への依存低減を論じました。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-public-power-06-q3"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does “acknowledged ... yet argued ...” convey about Jackson’s position on the bank?",
+      "options": [
+        {
+          "label": "A",
+          "text": "He denied that any national bank could ever be convenient."
+        },
+        {
+          "label": "B",
+          "text": "He supported every privilege held by the particular bank."
+        },
+        {
+          "label": "C",
+          "text": "He withdrew all concerns about constitutional interpretation."
+        },
+        {
+          "label": "D",
+          "text": "He conceded possible convenience but objected to this bank’s privileges and dangers."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。第3段落。利便性の一部を認めつつ特定の制度設計に反対する譲歩と対比です。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-public-power-06-q4"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which fact counters the claim that Jackson opposed government power in general?",
+      "options": [
+        {
+          "label": "A",
+          "text": "He accepted Hamilton’s entire manufacturing program."
+        },
+        {
+          "label": "B",
+          "text": "He forcefully used the presidential veto and asserted an independent constitutional role for the president."
+        },
+        {
+          "label": "C",
+          "text": "He refused to interpret the Constitution as president."
+        },
+        {
+          "label": "D",
+          "text": "He abolished the office of the presidency."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。銀行への反対は権力一般への反対ではなく、拒否権を強く行使しました。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-public-power-06-q5"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which inference is best supported by the passage?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A single “large versus small government” scale cannot fully explain their positions."
+        },
+        {
+          "label": "B",
+          "text": "Hamilton considered agriculture worthless."
+        },
+        {
+          "label": "C",
+          "text": "Jackson denied the president any role in constitutional interpretation."
+        },
+        {
+          "label": "D",
+          "text": "Their documents were written in the same year about the same institution."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。最終段落は権力の量に加え、機関・目的・統制を比較すべきと述べます。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-public-power-06-q6"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which restatement preserves the meaning of “Both writers claimed to protect the public, but they defined the danger differently”?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The author proves that both men successfully protected every citizen."
+        },
+        {
+          "label": "B",
+          "text": "Both men identified the same bank as the only danger."
+        },
+        {
+          "label": "C",
+          "text": "Each presented his position as serving the public, but they identified different risks."
+        },
+        {
+          "label": "D",
+          "text": "Neither man believed that public policy could affect citizens."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。claimed は本人が主張したことを示し、筆者による全面的な承認ではありません。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-public-power-06-q7"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What danger did each writer emphasize when claiming to protect the public?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hamilton feared machinery; Jackson feared all presidential authority."
+        },
+        {
+          "label": "B",
+          "text": "Both feared that agriculture alone would receive too little preference."
+        },
+        {
+          "label": "C",
+          "text": "Hamilton feared bank stockholders; Jackson feared any use of public policy."
+        },
+        {
+          "label": "D",
+          "text": "Hamilton feared inadequate national manufacturing capacity; Jackson feared unequal privileges for wealthy and foreign bank stockholders."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。第2・3段落。それぞれ不足する産業能力と特権による不平等を危険として提示しました。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-public-power-06-q8"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which framework best avoids reducing their policies to “large” or “small” government?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Count only the number of national institutions each mentioned."
+        },
+        {
+          "label": "B",
+          "text": "Compare which institution exercises power, for what purpose, who benefits, and what controls apply."
+        },
+        {
+          "label": "C",
+          "text": "Assume opposing a bank means rejecting presidential authority."
+        },
+        {
+          "label": "D",
+          "text": "Rank the men by personality without considering their documents."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。発展問題。権力の主体・目的・受益者・統制を分けて評価する方法が本文の結論です。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-public-power-06-q9"
+      ]
+    }
+  ]
+}
