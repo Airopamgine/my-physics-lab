@@ -648,9 +648,33 @@ class TaskCatalogTests(unittest.TestCase):
 
         index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
         source = next(s for s in index['sources'] if s['id'] == 'task2')
-        self.assertEqual(source['reviewedPages'], list(range(1, 60)))
+        self.assertEqual(source['reviewedPages'][:59], list(range(1, 60)))
         self.assertEqual(source['pageItems']['56'], [])
         for page in (54, 55, 57, 58, 59):
+            page_refs = [ref for ref in expected_refs if f':p{page:03d}:' in ref]
+            self.assertEqual(source['pageItems'][str(page)], page_refs)
+
+    def test_task2_intention_test_preserves_pages_60_through_65(self):
+        bank = self.build()
+        item = next(s for s in bank['sets'] if s['id'] == 'pdf-task2-p060-065')
+        expected_refs = [
+            'pdf:task2:p060:q01', 'pdf:task2:p060:q02',
+            'pdf:task2:p061:q03', 'pdf:task2:p061:q04',
+            'pdf:task2:p062:q05', 'pdf:task2:p062:q06',
+            'pdf:task2:p063:q07', 'pdf:task2:p063:q08', 'pdf:task2:p063:q09',
+            'pdf:task2:p064:q10', 'pdf:task2:p064:q11', 'pdf:task2:p064:q12',
+            'pdf:task2:p065:q13', 'pdf:task2:p065:q14', 'pdf:task2:p065:q15']
+        self.assertEqual(len(item['questions']), 15)
+        self.assertEqual([q['sourceRefs'][0] for q in item['questions']], expected_refs)
+        self.assertEqual([q['correct'] for q in item['questions']],
+                         list('DAACDADACCDBCAA'))
+        self.assertEqual(len({q['passage'] for q in item['questions']}), 6)
+        self.assertTrue(all(len(q['options']) == 4 for q in item['questions']))
+
+        index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
+        source = next(s for s in index['sources'] if s['id'] == 'task2')
+        self.assertEqual(source['reviewedPages'], list(range(1, 66)))
+        for page in range(60, 66):
             page_refs = [ref for ref in expected_refs if f':p{page:03d}:' in ref]
             self.assertEqual(source['pageItems'][str(page)], page_refs)
 

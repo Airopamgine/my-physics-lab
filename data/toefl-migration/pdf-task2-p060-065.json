@@ -1,0 +1,214 @@
+{
+  "id": "pdf-task2-p060-065",
+  "title": "Read in Daily Life · 意図問題 Test",
+  "task": 2,
+  "date": "2026-09-24T13:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 2 · PDF 60–65ページ／冊子136–141ページ · Intention Test問01–15",
+  "verificationNote": "Editorial answers（編集・確認した解答）。スキャン原本の本文・設問・選択肢を画像で照合し、本文の明示情報、文脈上の意図、語義に基づいて正答を作成しました。出版社の巻末解答表とは未照合です。各文書に付く設問を原本どおりすべて収録しています。",
+  "passages": {
+    "lost_found": "Lost and Found Procedure\n\nIf you misplace a personal item, please go to the security office immediately to file a report. You must fill out the official form and provide a detailed description. This step is necessary to initiate a fast search and secure its return.",
+    "invoice": "Subject: Invoice Review\n\nDear PrintMaster Inc. Billing Team,\n\nI received an invoice for 50 units of the “ProPrint” printers. The invoice lists the shipping fee as $125, whereas the quoted amount was $50. Please double-check the entire invoice for any other potential errors and issue a revised one. I will process payment after receiving the corrected invoice.\n\nSincerely,\n\nEmma Carrow\nAcme Technologies",
+    "book_fair": "FALL BOOK FAIR\n\nDiscover your next favorite read at Regency Books’s Fall Book Fair!\n\nGreat deals available on all books (both new and used), gift packages, and stationery in stock.\n\nDates: Friday, October 3 - Sunday, October 5\nLocation: 1724-E Second Avenue\n\nCome browse our inventory, you never know what you’ll find!",
+    "payment_update": "Melissa Watson (9:40 A.M.) Hello, team. Please note that the presentation on the mobile payment system update proposal is next Friday. Are we totally set with the final slides and demo?\n\nBen Klein (9:45 A.M.) The technical integration slides are finished, and the new checkout flow demo runs smoothly. Files are on the shared drive.\n\nLisa Payne (9:50 A.M.) The improvements to the user experience are clearly highlighted. I’ll also focus on the improved user feedback with the new interface.\n\nMelissa Watson (9:55 A.M.) Thank you, Ben and Lisa. Vanessa, what about the security part?\n\nVanessa Reed (9:57 A.M.) I’ll emphasize the security upgrades, which will dramatically reduce transaction errors. I’ll also handle any questions about future user growth.\n\nMelissa Watson (10:01 A.M.) Perfect. That should impress the executive team. See you at the conference room at 3 P.M. for the prep session.",
+    "drone_notice": "To promote safe drone flying, the city government designated Elmford Park for recreational drone use. Flying is permitted daily from 9:00 A.M. to sunset, and only drones weighing less than 55 pounds are permitted.\n\nPlease operate only inside the boundary markers. For safety, keep your device under 120 meters in altitude, maintain visual line of sight at all times, and never fly over people. In addition, to preserve situational awareness, avoid using headsets that block surrounding sounds or your field of view. Also, please yield to others so everyone can share the area comfortably.\n\nCheck cityofelmford.gov/parks for a full list of rules and regulations regarding the park and drone usage.",
+    "conference": "Jessica Martinez (3:15 P.M.) The regional marketing conference is next month. Let’s get a quick update on everyone’s progress.\n\nRobert Chang (3:18 P.M.) I’ve prepared the opening session on market trends. The slides include our third quarter analysis and industry forecasts.\n\nAmanda Foster (3:22 P.M.) My session on customer engagement strategies is ready. I’ll need the conference room set up with the interactive display by 2:00 P.M.\n\nEmilio Santos (3:25 P.M.) The networking lunch has been arranged. Catering for 150 attendees is confirmed, and the venue layout is set.\n\nJessica Martinez (3:28 P.M.) Excellent progress, everyone. Emilio, have you received confirmation from the keynote speaker yet?\n\nEmilio Santos (3:30 P.M.) I’m still waiting on Dr. Newsom’s personal schedule. Her assistant said she’ll confirm by tomorrow morning.\n\nJessica Martinez (3:33 P.M.) We should have a backup plan ready. Last year’s conference taught us a lesson."
+  },
+  "questions": [
+    {
+      "passageId": "lost_found",
+      "prompt": "Why does the notice mention the security office?",
+      "options": [
+        {"label": "A", "text": "To explain the office’s daily working hours"},
+        {"label": "B", "text": "To state the cost of filing a report"},
+        {"label": "C", "text": "To provide contact information"},
+        {"label": "D", "text": "To inform readers where to file a report"}
+      ],
+      "correct": "D",
+      "answer": "The notice directs anyone who has misplaced an item to go to the security office and file a report. 正解：D。security office は届出先を示すために言及されています。営業時間、費用、連絡先は示されていません。",
+      "sourceRefs": ["pdf:task2:p060:q01"]
+    },
+    {
+      "passageId": "lost_found",
+      "prompt": "What should people do to initiate a fast search?",
+      "options": [
+        {"label": "A", "text": "Fill out an official form"},
+        {"label": "B", "text": "File a police report"},
+        {"label": "C", "text": "Call the manager"},
+        {"label": "D", "text": "Check the lost and found list online"}
+      ],
+      "correct": "A",
+      "answer": "The notice says that filling out the official form and providing a detailed description is necessary to start a fast search. 正解：A。警察への届出、管理者への電話、オンライン確認は本文にありません。",
+      "sourceRefs": ["pdf:task2:p060:q02"]
+    },
+    {
+      "passageId": "invoice",
+      "prompt": "The word “quoted” in the passage is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "estimated"},
+        {"label": "B", "text": "excessive"},
+        {"label": "C", "text": "finalized"},
+        {"label": "D", "text": "overdue"}
+      ],
+      "correct": "A",
+      "answer": "The quoted amount is the price previously given as an estimate before the invoice was issued. 正解：A。ここで quoted は「見積もられた」の意味で、過大、確定済み、期限超過ではありません。",
+      "sourceRefs": ["pdf:task2:p061:q03"]
+    },
+    {
+      "passageId": "invoice",
+      "prompt": "What does Ms. Carrow’s mention of processing “payment after receiving the corrected invoice” suggest about her attitude?",
+      "options": [
+        {"label": "A", "text": "She is pointing out that the shipping address was incorrectly entered."},
+        {"label": "B", "text": "She is expressing dissatisfaction with the quoted amount."},
+        {"label": "C", "text": "She is showing that additional errors may be included in the invoice."},
+        {"label": "D", "text": "She is suggesting that a shipping discount was not applied."}
+      ],
+      "correct": "C",
+      "answer": "She asks the billing team to check the entire invoice for other potential errors and will pay only after receiving a corrected version. 正解：C。既知の送料誤り以外にも誤りがあり得ると考える慎重な態度です。住所や割引への言及はなく、$50の見積額そのものへの不満でもありません。",
+      "sourceRefs": ["pdf:task2:p061:q04"]
+    },
+    {
+      "passageId": "book_fair",
+      "prompt": "What will NOT be included in the event?",
+      "options": [
+        {"label": "A", "text": "Used books"},
+        {"label": "B", "text": "Gift sets"},
+        {"label": "C", "text": "Items for writing"},
+        {"label": "D", "text": "E-reader devices"}
+      ],
+      "correct": "D",
+      "answer": "The fair includes used books, gift packages, and stationery, but it does not mention e-reader devices. 正解：D。Items for writing は stationery に対応します。",
+      "sourceRefs": ["pdf:task2:p062:q05"]
+    },
+    {
+      "passageId": "book_fair",
+      "prompt": "What does the phrase “great deals” most likely mean in this context?",
+      "options": [
+        {"label": "A", "text": "Low prices"},
+        {"label": "B", "text": "Large numbers"},
+        {"label": "C", "text": "Exclusive offers"},
+        {"label": "D", "text": "Good resolutions"}
+      ],
+      "correct": "A",
+      "answer": "In an advertisement for a book fair, “great deals” refers to favorable bargains or low prices. 正解：A。数量、限定性、解決策を意味する表現ではありません。",
+      "sourceRefs": ["pdf:task2:p062:q06"]
+    },
+    {
+      "passageId": "payment_update",
+      "prompt": "At 10:01 A.M., what does Melissa Watson most likely mean when she writes, “That should impress the executive team”?",
+      "options": [
+        {"label": "A", "text": "She thinks that the executive team should be concerned about the security issues."},
+        {"label": "B", "text": "She is concerned that the presentation slides are incomplete."},
+        {"label": "C", "text": "She is indicating that the team should add more data on user satisfaction."},
+        {"label": "D", "text": "She believes the content will be very well received."}
+      ],
+      "correct": "D",
+      "answer": "Melissa responds “Perfect” after hearing that the security upgrades and future growth will be covered, so she expects a favorable reaction. 正解：D。懸念や追加作業を求めているのではありません。",
+      "sourceRefs": ["pdf:task2:p063:q07"]
+    },
+    {
+      "passageId": "payment_update",
+      "prompt": "What can be inferred about the mobile payment system?",
+      "options": [
+        {"label": "A", "text": "It is currently prone to payment errors."},
+        {"label": "B", "text": "It requires special hardware devices to process payments."},
+        {"label": "C", "text": "Its interface is a major source of user dissatisfaction."},
+        {"label": "D", "text": "Its design is based on a competitor’s platform."}
+      ],
+      "correct": "A",
+      "answer": "Vanessa says the security upgrades will dramatically reduce transaction errors, implying that such errors occur in the current system. 正解：A。特殊機器、強い利用者不満、競合製品については述べられていません。",
+      "sourceRefs": ["pdf:task2:p063:q08"]
+    },
+    {
+      "passageId": "payment_update",
+      "prompt": "What will NOT be updated in the mobile payment system?",
+      "options": [
+        {"label": "A", "text": "Checkout process"},
+        {"label": "B", "text": "User interface"},
+        {"label": "C", "text": "Refund management system"},
+        {"label": "D", "text": "Security system"}
+      ],
+      "correct": "C",
+      "answer": "The messages identify updates to the checkout flow, user interface, and security, but never mention refund management. 正解：C。",
+      "sourceRefs": ["pdf:task2:p063:q09"]
+    },
+    {
+      "passageId": "drone_notice",
+      "prompt": "What is the main purpose of the notice?",
+      "options": [
+        {"label": "A", "text": "To advertise workshops on professional drone photography"},
+        {"label": "B", "text": "To inform residents about new citywide drone regulations"},
+        {"label": "C", "text": "To provide rules for recreational drone use in a park"},
+        {"label": "D", "text": "To announce an upcoming drone festival"}
+      ],
+      "correct": "C",
+      "answer": "The notice sets hours, weight, boundary, altitude, visibility, and safety rules for recreational drone use at Elmford Park. 正解：C。市全体の規則、写真講座、祭典の告知ではありません。",
+      "sourceRefs": ["pdf:task2:p064:q10"]
+    },
+    {
+      "passageId": "drone_notice",
+      "prompt": "What is NOT a requirement for drone operators at Elmford Park?",
+      "options": [
+        {"label": "A", "text": "Staying within the marked boundary"},
+        {"label": "B", "text": "Operating only during the designated hours"},
+        {"label": "C", "text": "Allowing others to use the area"},
+        {"label": "D", "text": "Registering as a drone operator"}
+      ],
+      "correct": "D",
+      "answer": "The notice requires operators to stay within the markers, fly only from 9:00 A.M. to sunset, and yield so others can share the area. It does not require registration. 正解：D。",
+      "sourceRefs": ["pdf:task2:p064:q11"]
+    },
+    {
+      "passageId": "drone_notice",
+      "prompt": "What does the phrase “maintain visual line of sight” most likely mean in this context?",
+      "options": [
+        {"label": "A", "text": "Allow others to watch the drone while it is flying"},
+        {"label": "B", "text": "Keep the drone within eyesight at all times"},
+        {"label": "C", "text": "Use binoculars to extend viewing distance"},
+        {"label": "D", "text": "Keep the drone out of sight from other park visitors"}
+      ],
+      "correct": "B",
+      "answer": "The safety instruction requires the operator to be able to see the drone continuously. 正解：B。ほかの利用者に見せることや、双眼鏡で距離を延ばすことではありません。",
+      "sourceRefs": ["pdf:task2:p064:q12"]
+    },
+    {
+      "passageId": "conference",
+      "prompt": "What is Mr. Santos’s responsibility?",
+      "options": [
+        {"label": "A", "text": "Setting up interactive displays for sessions"},
+        {"label": "B", "text": "Handling the keynote speaker’s travel arrangements"},
+        {"label": "C", "text": "Organizing the networking lunch"},
+        {"label": "D", "text": "Confirming conference room bookings"}
+      ],
+      "correct": "C",
+      "answer": "Emilio Santos reports that the networking lunch, catering, and venue layout have been arranged. 正解：C。interactive display は Amanda の要望であり、講演者の予定確認はしていますが旅行手配とは書かれていません。",
+      "sourceRefs": ["pdf:task2:p065:q13"]
+    },
+    {
+      "passageId": "conference",
+      "prompt": "At 3:33 P.M., what does Ms. Martinez imply when she writes, “Last year’s conference taught us a lesson”?",
+      "options": [
+        {"label": "A", "text": "They faced difficulties requiring alternative arrangements."},
+        {"label": "B", "text": "They managed all conference logistics smoothly."},
+        {"label": "C", "text": "They received positive feedback from participants."},
+        {"label": "D", "text": "They learned useful presentation techniques from other speakers."}
+      ],
+      "correct": "A",
+      "answer": "Because the keynote speaker has not confirmed, Jessica urges the team to prepare a backup and says last year taught them a lesson. 正解：A。前年にも代替案を必要とする問題があったと推論できます。",
+      "sourceRefs": ["pdf:task2:p065:q14"]
+    },
+    {
+      "passageId": "conference",
+      "prompt": "What can be inferred about the conference?",
+      "options": [
+        {"label": "A", "text": "It will have 150 attendees."},
+        {"label": "B", "text": "It is an online webinar."},
+        {"label": "C", "text": "Its venue has been changed."},
+        {"label": "D", "text": "Its keynote speaker has canceled her attendance."}
+      ],
+      "correct": "A",
+      "answer": "Catering has been confirmed for 150 attendees, so that is the expected attendance. 正解：A。会議室や会場配置が必要な対面行事で、会場変更や基調講演者のキャンセルは確定していません。",
+      "sourceRefs": ["pdf:task2:p065:q15"]
+    }
+  ]
+}
