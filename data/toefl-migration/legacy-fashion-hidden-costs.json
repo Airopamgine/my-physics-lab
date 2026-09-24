@@ -1,0 +1,258 @@
+{
+  "id": "legacy-fashion-hidden-costs",
+  "title": "The Costs Outside a Fashion Price Tag",
+  "task": 3,
+  "date": "2026-09-24T19:02:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "原文四段落と全九つの学習対象を保持し、元の日本語記述・翻訳・発展問題を本文根拠のある英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-standard-fashion-03/",
+  "passages": {
+    "text": "Fast fashion is commonly described as a system that moves inexpensive, trend-based clothing from design to sale at high speed. The low purchase price is visible to the consumer, but other costs may be shifted elsewhere. Producing fibers, dyeing fabric, assembling garments, transporting them, washing them, and disposing of them all use materials and energy. The size of each impact varies by fiber, factory, energy source, transport, and length of use, so one dramatic statistic cannot describe every garment.\n\nThe speed of the business model can nevertheless encourage high volumes and short use. When clothing is treated as temporary, more material enters waste streams, while opportunities for repair, reuse, and recycling may be lost. A label such as \"sustainable\" does not solve the problem by itself. A useful claim should identify what is being improved, how it is measured, and which stage of the product's life is included.\n\nLabor is another part of the system. Garment production provides employment and income in many countries, but reports from the sector also document concerns including excessive hours, low pay, weak contracts, and unsafe conditions in some workplaces. A low price does not prove that a particular worker was mistreated, yet price pressure and short deadlines can make labor protections harder to maintain when effective safeguards are absent.\n\nConsumers can extend the use of clothing, repair items, buy fewer unnecessary pieces, or choose secondhand goods. These actions matter, but responsibility is not theirs alone. Brands, factories, governments, and waste systems shape what choices are available. The central question is therefore broader than \"What should I buy?\" It is \"How can the whole system produce value while using fewer resources and protecting the people within it?\""
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "The phrase “shifted elsewhere” in paragraph 1 is closest in meaning to",
+      "options": [
+        {
+          "label": "A",
+          "text": "transferred to another place or group"
+        },
+        {
+          "label": "B",
+          "text": "removed from existence"
+        },
+        {
+          "label": "C",
+          "text": "displayed clearly on the price tag"
+        },
+        {
+          "label": "D",
+          "text": "calculated by the consumer alone"
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。費用が消えるのではなく、環境、労働者、廃棄制度など購入価格の外側へ負担が移る可能性を表します。Bは消滅、Cは可視化で本文と反対、Dは負担先を消費者だけに限定しています。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-fashion-03-q1"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does the word “volumes” in paragraph 2 refer to?",
+      "options": [
+        {
+          "label": "A",
+          "text": "the loudness of factory machinery"
+        },
+        {
+          "label": "B",
+          "text": "the number of books about fashion"
+        },
+        {
+          "label": "C",
+          "text": "the large quantity of clothing produced and consumed"
+        },
+        {
+          "label": "D",
+          "text": "the weight of a single garment"
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。high volumesとshort useが並ぶ衣服産業の文脈では、生産・消費される衣服の量を指します。volumeの多義性は周囲の語と段落の主題から判断します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-fashion-03-q2"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does the author say that one dramatic statistic cannot describe every garment?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Because no stage of clothing production uses materials or energy."
+        },
+        {
+          "label": "B",
+          "text": "Because the size of an impact varies with the fiber, factory, energy source, transport, and length of use."
+        },
+        {
+          "label": "C",
+          "text": "Because purchase prices already measure every environmental and labor cost."
+        },
+        {
+          "label": "D",
+          "text": "Because all garments have exactly the same production and disposal conditions."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。第1段落は繊維、工場、エネルギー源、輸送、使用期間によって影響が変わると列挙します。これは統計を無視するのでなく、どの製品・工程・条件を測った値か確認すべきだという限定です。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-fashion-03-q3"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "According to paragraph 2, what information is needed to evaluate a claim that a garment is “sustainable”?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Only whether the word appears prominently on the label"
+        },
+        {
+          "label": "B",
+          "text": "Only the garment’s purchase price and current popularity"
+        },
+        {
+          "label": "C",
+          "text": "Whether consumers personally like the color and design"
+        },
+        {
+          "label": "D",
+          "text": "What is improved, how the improvement is measured, and which life-cycle stages are included"
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。本文は表示語だけでなく、改善対象、測定方法、原料・生産・使用・廃棄のどこまでを範囲に含むかを特定するよう求めます。A〜Cは主張の検証方法や対象範囲を示しません。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-fashion-03-q4"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What relationship between low prices and labor conditions is expressed by “does not prove ... yet ...” in paragraph 3?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Every inexpensive garment proves that a particular worker was mistreated."
+        },
+        {
+          "label": "B",
+          "text": "Price pressure can never affect labor protection, even when safeguards are absent."
+        },
+        {
+          "label": "C",
+          "text": "A low price alone does not establish individual mistreatment, but price pressure and short deadlines can weaken protections when safeguards are ineffective."
+        },
+        {
+          "label": "D",
+          "text": "Garment employment creates income, so unsafe conditions cannot occur in the sector."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。does not proveは個別事例を価格だけで断定することを避け、can makeは保護制度が弱い条件下で圧力が労働保護を難しくし得ると述べます。断定と条件付き因果の両方の強さを保つ選択肢です。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-fashion-03-q5"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which statement is most consistent with the passage?",
+      "options": [
+        {
+          "label": "A",
+          "text": "All inexpensive garments have exactly the same environmental impact."
+        },
+        {
+          "label": "B",
+          "text": "Consumer choice alone can solve every problem in the clothing industry."
+        },
+        {
+          "label": "C",
+          "text": "A product should be evaluated through impacts from production and use to disposal, not only through its purchase price."
+        },
+        {
+          "label": "D",
+          "text": "Garment production provides no employment or income."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。第1段落の工程列挙と最終段落のsystem全体への問いをまとめています。Aは条件差を消し、Bは責任主体を消費者だけに狭め、Dは雇用と所得を生むという本文と反対です。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-fashion-03-q6"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does the final paragraph replace “What should I buy?” with a broader question?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Because brands, factories, governments, and waste systems help shape both the available choices and their impacts, so responsibility extends beyond individual consumers."
+        },
+        {
+          "label": "B",
+          "text": "Because extending use, repairing clothes, and buying secondhand goods never have any effect."
+        },
+        {
+          "label": "C",
+          "text": "Because consumers control factory contracts, national labor law, and waste infrastructure by themselves."
+        },
+        {
+          "label": "D",
+          "text": "Because the passage recommends ignoring resource use and worker protection."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。個人の行動を有意義と認めつつ、設計、生産条件、法制度、修理・再使用の可能性、廃棄制度も選択肢と影響を形作るため、問いをsystem全体へ広げています。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-fashion-03-q7"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which option best restates “These actions matter, but responsibility is not theirs alone”?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Consumer actions are meaningless because only governments have responsibility."
+        },
+        {
+          "label": "B",
+          "text": "Consumer actions can help, but consumers are not the only actors responsible for changing the system."
+        },
+        {
+          "label": "C",
+          "text": "Consumers alone are responsible because brands and factories cannot influence choices."
+        },
+        {
+          "label": "D",
+          "text": "The actions belong to garments rather than to consumers."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。These actionsは長期使用・修理・購入削減・中古選択を指し、theirsはconsumersの所有代名詞です。行動の効果を認めながら責任を消費者だけに限定しないという対比を保っています。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-fashion-03-q8"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which research plan best tests an environmental or labor claim about a garment?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Accept a broad “sustainable” label without asking what was measured or which life-cycle stage it covers."
+        },
+        {
+          "label": "B",
+          "text": "Use the lowest purchase price as proof of both environmental harm and mistreatment of a named worker."
+        },
+        {
+          "label": "C",
+          "text": "Inspect only the garment’s color and assume that every factory, energy source, and use pattern is identical."
+        },
+        {
+          "label": "D",
+          "text": "Define the exact claim and comparison baseline, identify the life-cycle stages and workplaces covered, examine the measurement method and safeguards, and report important limits."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。検証可能な主張へ分解し、比較基準、工程範囲、労働現場、測定方法、保護制度、限界を確認します。Aは表示を証拠扱いし、Bは価格だけで断定し、Cは本文が強調する条件差を無視します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-fashion-03-q9"
+      ]
+    }
+  ]
+}

@@ -1072,11 +1072,12 @@
     }
   ],
   "lastSource": {
-    "type": "pdf",
+    "type": "legacy",
     "ids": [
-      "pdf-vocabulary-day03-part1"
+      "legacy-earthquake-risk-layers",
+      "legacy-fashion-hidden-costs"
     ],
-    "convertedAt": "2026-09-24T17:00:00+09:00"
+    "convertedAt": "2026-09-24T19:02:00+09:00"
   },
   "blockedItems": [
     {

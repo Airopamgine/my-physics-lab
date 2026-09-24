@@ -1,0 +1,258 @@
+{
+  "id": "legacy-earthquake-risk-layers",
+  "title": "Earthquake Risk: From Rupture to Resilience",
+  "task": 3,
+  "date": "2026-09-24T19:01:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "原文四段落と全九つの学習対象を保持し、元の日本語記述・翻訳・発展問題を本文根拠のある英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-standard-earthquake-risk-layers-35/",
+  "passages": {
+    "text": "Tectonic forces slowly deform rocks and load faults with stress. When friction can no longer prevent a section of a fault from slipping, stored elastic energy is released and seismic waves spread outward. The rupture begins at the *focus*, or hypocentre, inside the Earth. The *epicentre* is the point on the surface directly above it. These terms locate related points; neither one by itself tells us where the strongest damage will occur.\n\nEarthquake early warning begins only after rupture has started. Sensors detect the first arriving waves and rapidly estimate the event, allowing alerts to reach some places before stronger shaking. The available time depends on distance, wave travel, network coverage, processing, and communication. Sites near the source may receive little or no warning. The system is therefore not a prediction of the exact time of a future earthquake; it is a race between information and later-arriving shaking.\n\nBuildings reduce risk through combinations of strength, stiffness, ductility, energy dissipation, and sometimes isolation. Strength helps members carry force; ductility lets them deform without sudden brittle failure. Too much stiffness can attract force, while too little can permit damaging movement. Engineers choose a structural system for expected hazards, soil, height, use, and acceptable performance. It is misleading to say that one country uses “resistance” while another uses “flexibility”: modern codes combine principles, although details and enforcement vary.\n\nResilience also extends beyond new buildings. Retrofitting older structures, securing non-structural components, mapping faults and soft soils, planning land use, practising protective actions, maintaining utilities, and preparing recovery finance address different failure paths. No measure prevents the tectonic event. The goal is to keep a physical hazard from becoming an avoidable social catastrophe—and to ask who can access safer buildings, warnings, and recovery resources."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "Which statement best expresses the main idea of the passage?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Earthquake early warning predicts the exact time of rupture and prevents tectonic events."
+        },
+        {
+          "label": "B",
+          "text": "Earthquake risk reduction connects fault physics, rapid information, structural design, and social preparedness."
+        },
+        {
+          "label": "C",
+          "text": "The epicentre is the underground rupture point and always marks the greatest damage."
+        },
+        {
+          "label": "D",
+          "text": "Maximizing building flexibility is the only reliable way to eliminate earthquake losses."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。四段落は、断層破壊、警報情報、構造設計、社会的備えという異なる層を接続します。Aは警報を予知・地震防止と混同し、Cは震源と震央を逆転し、Dは単一性能だけで損失をなくせると誇張しています。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-earthquake-risk-layers-35-q1"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which option correctly describes the relationship between the focus (hypocentre) and the epicentre?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The focus is where rupture begins inside the Earth, and the epicentre is the point on the surface directly above it."
+        },
+        {
+          "label": "B",
+          "text": "The epicentre is where rupture begins underground, while the focus is the surface point directly above it."
+        },
+        {
+          "label": "C",
+          "text": "Both terms name the place where the strongest damage must occur."
+        },
+        {
+          "label": "D",
+          "text": "The focus and epicentre are two names for the same surface location."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。第1段落はfocus/hypocentreを地下の破壊開始点、epicentreをその直上の地表点と定義します。Bは両者を逆にし、C・Dは本文が明示する位置関係と被害分布の限定を無視しています。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-earthquake-risk-layers-35-q2"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does the author call earthquake early warning “a race between information and later-arriving shaking”?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Because warnings are issued before any rupture and compete with forecasts from other countries."
+        },
+        {
+          "label": "B",
+          "text": "Because seismic waves stop moving while sensors calculate the exact future origin time."
+        },
+        {
+          "label": "C",
+          "text": "Because rupture has already begun, and useful warning exists only if detection, estimation, and communication reach a site before stronger shaking does."
+        },
+        {
+          "label": "D",
+          "text": "Because the epicentre sends electronic alerts faster than the focus releases energy."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。警報は破壊後の初動検知から始まり、検知・推定・通信した情報が後続の強い揺れより先に届く場合だけ猶予が生まれます。Aは予知と混同し、B・Dは本文にない仕組みです。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-earthquake-risk-layers-35-q3"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "The word “ductility” in paragraph 3 is closest in meaning to",
+      "options": [
+        {
+          "label": "A",
+          "text": "the capacity to deform substantially before brittle failure"
+        },
+        {
+          "label": "B",
+          "text": "the ability to forecast the exact origin time of an earthquake"
+        },
+        {
+          "label": "C",
+          "text": "the complete absence of force in a structure"
+        },
+        {
+          "label": "D",
+          "text": "permission to ignore soil conditions during design"
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。本文はductilityを、突然の脆性破壊を起こさずに変形できる性質として説明します。Bは予知、Cは無応力、Dは設計条件の無視であり、いずれも構造材料の靭性ではありません。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-earthquake-risk-layers-35-q4"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why may a site close to the earthquake source receive little or no useful warning time?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Because all sensors are designed to ignore waves near the source."
+        },
+        {
+          "label": "B",
+          "text": "Because communication networks can operate only after every building has stopped moving."
+        },
+        {
+          "label": "C",
+          "text": "Because the epicentre prevents the first-arriving waves from being detected."
+        },
+        {
+          "label": "D",
+          "text": "Because strong shaking may arrive before detection, processing, and communication can create a meaningful time advantage."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。震源近くでは強い波の到達までの時間が短く、検知・計算・伝達に必要な有限時間との差がほとんどありません。観測網の改善で短縮できても、波源直近には物理的な限界が残ります。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-earthquake-risk-layers-35-q5"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which statement best distinguishes strength, stiffness, and ductility while explaining why “softer is always safer” is incorrect?",
+      "options": [
+        {
+          "label": "A",
+          "text": "All three terms mean the same thing, so engineers simply maximize flexibility."
+        },
+        {
+          "label": "B",
+          "text": "Strength carries force, stiffness limits deformation, and ductility permits deformation before brittle failure; both excessive and insufficient stiffness can create problems."
+        },
+        {
+          "label": "C",
+          "text": "Strength predicts earthquakes, stiffness measures warning speed, and ductility identifies soft soil."
+        },
+        {
+          "label": "D",
+          "text": "A sufficiently soft building cannot experience damaging movement, regardless of height, use, or soil."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。第3段落は各性能を分け、剛性が高すぎれば力を集め、低すぎれば有害な変位を許すと述べます。安全性は単一値の最大化ではなく、ハザード、地盤、高さ、用途に応じた組合せで決まります。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-earthquake-risk-layers-35-q6"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does the passage reject the claim that one country designs for “resistance” while another designs for “flexibility”?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Because national building codes never differ in details or enforcement."
+        },
+        {
+          "label": "B",
+          "text": "Because structural design does not depend on hazard, soil, building height, or use."
+        },
+        {
+          "label": "C",
+          "text": "Because modern codes combine strength, stiffness, ductility, dissipation, and sometimes isolation, even though their details and enforcement can vary."
+        },
+        {
+          "label": "D",
+          "text": "Because every country requires exactly the same structural system for every building."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。本文は現代設計が複数原理を用途・地盤・想定ハザードに応じて組み合わせると説明します。国別の一語の標語では、基準の詳細、施工、改修率、執行差を正確に表せません。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-earthquake-risk-layers-35-q7"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which option best explains the statement “The goal is to keep a physical hazard from becoming an avoidable social catastrophe”?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The tectonic event cannot be prevented, but vulnerability, exposure, access to warnings, and recovery capacity influence whether it produces catastrophic social loss."
+        },
+        {
+          "label": "B",
+          "text": "A hazard becomes a catastrophe only when the epicentre and focus occupy the same point."
+        },
+        {
+          "label": "C",
+          "text": "Social preparation can stop faults from slipping and eliminate seismic waves."
+        },
+        {
+          "label": "D",
+          "text": "Retrofitting new buildings is the only factor between a physical event and social loss."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。第4段落は地震そのものを防ぐのでなく、建物の脆弱性、人口・資産の曝露、警報アクセス、ライフライン、復旧資源など複数の経路で社会的損失を減らす考えです。B〜Dは原因や対策を一つに狭めています。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-earthquake-risk-layers-35-q8"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which limited-budget city plan best applies the passage’s framework for reducing earthquake risk?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Buy one highly visible warning device and describe it as a way to predict and prevent all earthquakes."
+        },
+        {
+          "label": "B",
+          "text": "Require maximum stiffness in every structure without considering soil, height, use, or failure mode."
+        },
+        {
+          "label": "C",
+          "text": "Spend the whole budget on new landmark buildings and ignore older structures, utilities, drills, and unequal access to recovery."
+        },
+        {
+          "label": "D",
+          "text": "Screen high-consequence buildings and lifelines, target vulnerable structures for retrofit, secure non-structural hazards, improve drills and warning access, and allocate funds using expected loss and social vulnerability."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。限られた予算を、学校・病院・橋・脆弱な既存建物、非構造部材、訓練、警報、社会的脆弱性へ優先配分し、本文の構造・情報・社会の各層を統合しています。A〜Cはいずれか一対策だけへ過度に集中します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-earthquake-risk-layers-35-q9"
+      ]
+    }
+  ]
+}
