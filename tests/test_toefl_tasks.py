@@ -1002,6 +1002,34 @@ class TaskCatalogTests(unittest.TestCase):
                 self.assertTrue(all(q['passage'] == originals[source_id]['passage']
                                     and len(q['options']) == 4 for q in questions))
 
+    def test_six_science_and_transport_readings_preserve_all_targets(self):
+        bank = self.build()
+        converted = {item['id']: item for item in bank['sets']}
+        originals = {item['id']: item for item in self.legacy['sets']}
+        cases = [
+            ('legacy-gps-relativity-clocks',
+             'english-reading-standard-relativity-gps-clocks-31', 'BCADBCADB'),
+            ('legacy-semiconductor-quantum-control',
+             'english-reading-standard-semiconductor-quantum-control-30', 'BACDBCADB'),
+            ('legacy-superconducting-maglev-system',
+             'english-reading-standard-superconducting-maglev-15', 'CADBCBADC'),
+            ('legacy-symbiosis-context-outcomes',
+             'english-reading-standard-symbiosis-context-outcomes-34', 'BACDBACDB'),
+            ('legacy-cyclone-names-risk',
+             'english-reading-standard-tropical-cyclones-07', 'CBADBCADB'),
+            ('legacy-future-transport-systems',
+             'english-reading-transportation-04', 'ABCDACBDA'),
+        ]
+        for set_id, source_id, keys in cases:
+            with self.subTest(set_id=set_id):
+                questions = converted[set_id]['questions']
+                self.assertEqual(len(questions), 9)
+                self.assertEqual([q['sourceRefs'] for q in questions],
+                                 [[f'legacy:{source_id}-q{i}'] for i in range(1, 10)])
+                self.assertEqual([q['correct'] for q in questions], list(keys))
+                self.assertTrue(all(q['passage'] == originals[source_id]['passage']
+                                    and len(q['options']) == 4 for q in questions))
+
     def test_duplicate_source_reference_rejected(self):
         self.change('data/toefl-migration/legacy-balanced-diet.json',lambda d:d['questions'][1].update(sourceRefs=d['questions'][0]['sourceRefs']))
         with self.assertRaises(ValueError): self.build()

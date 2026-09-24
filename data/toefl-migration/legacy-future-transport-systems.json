@@ -1,0 +1,258 @@
+{
+  "id": "legacy-future-transport-systems",
+  "title": "Future Transport as a Public System",
+  "task": 3,
+  "date": "2026-09-25T07:06:42+09:00",
+  "level": "A2–B1",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "原文と全九つの学習対象を保持し、日本語記述・翻訳・発展問題を本文根拠のある英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-transportation-04/",
+  "passages": {
+    "text": "Discussions of future transport often focus on striking new vehicles, but a technology should be judged by the problem it can actually solve. Automated driving systems may react quickly to certain road conditions, yet their performance depends on reliable sensors, suitable infrastructure, and clear rules for human oversight. Electric vertical-takeoff aircraft could connect places that are difficult to reach by road, but noise, energy use, weather, and air-traffic management will affect where they are practical.\n\nLess dramatic systems may be equally important. Frequent trains and buses can move many people through limited urban space, while safe walking and cycling routes can reduce the need for short car trips. No single option removes congestion or pollution by itself. A useful transport network combines different modes and examines their full effects, including cost, safety, accessibility, land use, and energy sources. Innovation matters, but coordination determines whether an invention becomes a workable public system."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What does “reliable” mean when describing sensors?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Able to be depended on."
+        },
+        {
+          "label": "B",
+          "text": "Inexpensive to replace."
+        },
+        {
+          "label": "C",
+          "text": "Difficult to observe."
+        },
+        {
+          "label": "D",
+          "text": "Recently invented."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。安全判断に使うセンサーが安定して信頼できるという意味です。",
+      "sourceRefs": [
+        "legacy:english-reading-transportation-04-q1"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does “practical” mean for vertical-takeoff aircraft?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Visually impressive."
+        },
+        {
+          "label": "B",
+          "text": "Workable in real conditions."
+        },
+        {
+          "label": "C",
+          "text": "Impossible to regulate."
+        },
+        {
+          "label": "D",
+          "text": "Designed only for experiments."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。騒音・エネルギー・天候・航空交通管理を考慮した実用可能性です。",
+      "sourceRefs": [
+        "legacy:english-reading-transportation-04-q2"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does “their” refer to in “their performance”?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Certain road conditions."
+        },
+        {
+          "label": "B",
+          "text": "Air-traffic managers."
+        },
+        {
+          "label": "C",
+          "text": "Automated driving systems."
+        },
+        {
+          "label": "D",
+          "text": "Cycling routes."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。第1段落。性能を持つ主体は automated driving systems であり直近名詞だけで判断しません。",
+      "sourceRefs": [
+        "legacy:english-reading-transportation-04-q3"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why might vertical-takeoff aircraft not be practical everywhere?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They can never connect difficult-to-reach locations."
+        },
+        {
+          "label": "B",
+          "text": "The text says they require no energy."
+        },
+        {
+          "label": "C",
+          "text": "They automatically remove every kind of congestion."
+        },
+        {
+          "label": "D",
+          "text": "Noise, energy use, weather, and air-traffic management limit suitable operations."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。could の可能性の後に but で実運用の制約を加えています。",
+      "sourceRefs": [
+        "legacy:english-reading-transportation-04-q4"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What role does “Less dramatic systems may be equally important” play?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It shifts attention from striking vehicles to trains, buses, walking, and cycling as comparable parts of a network."
+        },
+        {
+          "label": "B",
+          "text": "It claims buses and trains are dangerous dramas."
+        },
+        {
+          "label": "C",
+          "text": "It says existing public transport must be abolished."
+        },
+        {
+          "label": "D",
+          "text": "It proves new vehicles can never be useful."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。第2段落冒頭が目立つ新型車両から身近な大量輸送・短距離移動へ視点を広げます。",
+      "sourceRefs": [
+        "legacy:english-reading-transportation-04-q5"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which inference is best supported?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Inventing one new vehicle automatically solves transport problems."
+        },
+        {
+          "label": "B",
+          "text": "Public transit is always superior in every situation."
+        },
+        {
+          "label": "C",
+          "text": "Transport technology should be evaluated within rules, infrastructure, and its connections with other modes."
+        },
+        {
+          "label": "D",
+          "text": "Every traffic jam has only one cause."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。本文のインフラ・監督規則・複数モード・協調という繰り返しが根拠です。",
+      "sourceRefs": [
+        "legacy:english-reading-transportation-04-q6"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What is meant by “Innovation matters, but coordination determines whether an invention becomes a workable public system”?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Innovation is irrelevant to a public network."
+        },
+        {
+          "label": "B",
+          "text": "New ideas matter, yet integration with other systems decides if they can function in public use."
+        },
+        {
+          "label": "C",
+          "text": "Coordination refers only to how a vehicle looks."
+        },
+        {
+          "label": "D",
+          "text": "Every invention is automatically usable as a public system."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。whether は「～かどうか」、workable は実際に機能すること。発明と運用の区別です。",
+      "sourceRefs": [
+        "legacy:english-reading-transportation-04-q7"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which summary best represents the passage as a whole?",
+      "options": [
+        {
+          "label": "A",
+          "text": "One futuristic vehicle eliminates all costs and pollution."
+        },
+        {
+          "label": "B",
+          "text": "Walking and cycling alone can replace every other mode."
+        },
+        {
+          "label": "C",
+          "text": "Only a vehicle’s top speed matters to a city."
+        },
+        {
+          "label": "D",
+          "text": "Future transport needs realistic assessment of impacts and coordination among several modes, not faith in a single invention."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。第1段落の実用条件と第2段落の費用・安全・アクセス・土地・エネルギーを統合します。",
+      "sourceRefs": [
+        "legacy:english-reading-transportation-04-q8"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which pair of checks best evaluates a proposed new transport mode?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Test reliability in everyday weather and examine accessibility and energy sources within the wider network."
+        },
+        {
+          "label": "B",
+          "text": "Measure appearance only and ignore access to stations."
+        },
+        {
+          "label": "C",
+          "text": "Assume one successful demonstration guarantees daily service."
+        },
+        {
+          "label": "D",
+          "text": "Compare top speed while excluding safety and environmental costs."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。発展問題。悪天候の信頼性とアクセシビリティ・エネルギー源を公共システム内で評価します。",
+      "sourceRefs": [
+        "legacy:english-reading-transportation-04-q9"
+      ]
+    }
+  ]
+}
