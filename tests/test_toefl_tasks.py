@@ -1,5 +1,6 @@
 import importlib.util
 import json
+import re
 import shutil
 import tempfile
 import unittest
@@ -932,6 +933,46 @@ class TaskCatalogTests(unittest.TestCase):
                                     for q in item['questions']))
                 self.assertTrue(all(len(q['options']) == 4
                                     for q in item['questions']))
+
+    def test_vocabulary_and_two_readings_preserve_all_source_targets(self):
+        bank = self.build()
+        converted = {item['id']: item for item in bank['sets']}
+        vocabulary = [
+            ('legacy-vocabulary-context-verbs-001-025',
+             'english-vocabulary-context-verbs-001-025', range(1, 26)),
+            ('legacy-vocabulary-adjectives-context-026-050',
+             'english-vocabulary-adjectives-context-026-050', range(26, 51)),
+        ]
+        originals = {item['id']: item for item in self.legacy['sets']}
+        for set_id, source_id, numbers in vocabulary:
+            with self.subTest(set_id=set_id):
+                item = converted[set_id]
+                source = originals[source_id]
+                self.assertEqual(len(item['questions']), 25)
+                self.assertEqual([q['sourceRefs'] for q in item['questions']],
+                                 [[f'legacy:{source_id}-q{n}'] for n in numbers])
+                for source_q, converted_q in zip(source['questions'], item['questions']):
+                    word = next(option['text'] for option in source_q['options']
+                                if option['label'] == source_q['correct'])
+                    self.assertIn(word, converted_q['acceptedAnswers'])
+                    self.assertEqual(re.sub(r'[A-Za-z]+_+', '(　　　)',
+                                            converted_q['passage']), source_q['prompt'])
+                    self.assertTrue(all(option['text'] in converted_q['answer']
+                                        for option in source_q['options']))
+        for set_id, source_id, keys in [
+            ('legacy-mimicry-observer', 'english-reading-standard-mimicry-04',
+             'ABCADBCAD'),
+            ('legacy-nasca-evidence', 'english-reading-standard-nasca-evidence-12',
+             'BACDBCADB'),
+        ]:
+            with self.subTest(set_id=set_id):
+                item = converted[set_id]
+                self.assertEqual(len(item['questions']), 9)
+                self.assertEqual([q['sourceRefs'] for q in item['questions']],
+                                 [[f'legacy:{source_id}-q{i}'] for i in range(1, 10)])
+                self.assertEqual([q['correct'] for q in item['questions']], list(keys))
+                self.assertTrue(all(q['passage'] == originals[source_id]['passage']
+                                    and len(q['options']) == 4 for q in item['questions']))
 
     def test_duplicate_source_reference_rejected(self):
         self.change('data/toefl-migration/legacy-balanced-diet.json',lambda d:d['questions'][1].update(sourceRefs=d['questions'][0]['sourceRefs']))
