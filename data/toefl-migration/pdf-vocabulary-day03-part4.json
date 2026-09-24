@@ -1,0 +1,148 @@
+{
+  "id": "pdf-vocabulary-day03-part4",
+  "title": "Vocabulary Day 03 · Context Completion 4",
+  "task": 1,
+  "date": "2026-09-25T05:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 4ページ／冊子382ページ · Day 03の46〜60語（全60語中）",
+  "verificationNote": "掲載語・綴り・掲載順をスキャン原本で確認済みです。各語を文脈で判断できるmissing-letter exerciseへ編集しています。出版社の公式解答表は未収録ですが、正答は掲載headwordと一致します。未回答の語の正答は、その語を提出するまで表示されません。",
+  "passages": {
+    "resource": "The online archive is a valuable res_____ for students studying local history.",
+    "scope": "The report's sc___ includes the environmental and economic effects of the project.",
+    "skew": "A small and unrepresentative sample can sk__ the survey results.",
+    "source": "Researchers traced the sou___ of the river pollution to a damaged storage tank.",
+    "stench": "A strong ste___ from the drain caused workers to leave the room.",
+    "superficial": "A super______ inspection may miss cracks hidden beneath the surface.",
+    "swath": "The wildfire burned a wide sw___ of forest before firefighters contained it.",
+    "tentative": "The committee announced a ten______ date that may change after further consultation.",
+    "tolerate": "This species can tol_____ colder temperatures than most related plants.",
+    "triad": "The study examined a tr___ of connected factors: diet, sleep, and exercise.",
+    "unexpected": "The experiment produced an unex______ result that required additional testing.",
+    "unrealistic": "Expecting the entire bridge to be rebuilt in one day is unre_______.",
+    "vaguely": "She vag____ remembered the route but could not identify the correct street.",
+    "visual": "The graph provides a vis___ summary of the change in sea level.",
+    "weight": "The maximum wei___ of the cargo must be checked before takeoff."
+  },
+  "questions": [
+    {
+      "passageId": "resource",
+      "prompt": "Day 03 vocabulary: complete res_____. Enter the missing letters.",
+      "prefix": "res",
+      "word": "resource",
+      "answer": "A resource is something useful that can provide information, support, or materials. 正解：ource → resource（資源・資料）。オンライン資料集が地域史を学ぶ学生に役立つ文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qresource"]
+    },
+    {
+      "passageId": "scope",
+      "prompt": "Day 03 vocabulary: complete sc___. Enter the missing letters.",
+      "prefix": "sc",
+      "word": "scope",
+      "answer": "Scope is the range or extent of a subject, activity, or investigation. 正解：ope → scope（範囲・領域）。報告書が扱う影響の範囲を示す文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qscope"]
+    },
+    {
+      "passageId": "skew",
+      "prompt": "Day 03 vocabulary: complete sk__. Enter the missing letters.",
+      "prefix": "sk",
+      "word": "skew",
+      "answer": "Skew means to distort or make something unbalanced or inaccurate. 正解：ew → skew（歪める・偏らせる）。代表性のない標本が調査結果を偏らせる文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qskew"]
+    },
+    {
+      "passageId": "source",
+      "prompt": "Day 03 vocabulary: complete sou___. Enter the missing letters.",
+      "prefix": "sou",
+      "word": "source",
+      "answer": "A source is the origin or place from which something comes. 正解：rce → source（源・出所）。研究者が河川汚染の発生源を突き止めた文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qsource"]
+    },
+    {
+      "passageId": "stench",
+      "prompt": "Day 03 vocabulary: complete ste___. Enter the missing letters.",
+      "prefix": "ste",
+      "word": "stench",
+      "answer": "A stench is a very strong and unpleasant smell. 正解：nch → stench（悪臭）。排水口からの強い臭いで作業員が退室した文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qstench"]
+    },
+    {
+      "passageId": "superficial",
+      "prompt": "Day 03 vocabulary: complete super______. Enter the missing letters.",
+      "prefix": "super",
+      "word": "superficial",
+      "answer": "Superficial means limited to the surface or lacking depth and thoroughness. 正解：ficial → superficial（表面的な・浅い）。表面だけの点検では隠れた亀裂を見落とす文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qsuperficial"]
+    },
+    {
+      "passageId": "swath",
+      "prompt": "Day 03 vocabulary: complete sw___. Enter the missing letters.",
+      "prefix": "sw",
+      "word": "swath",
+      "answer": "A swath is a broad strip or area of something. 正解：ath → swath（帯状の広い地域）。山火事が森林の広い一帯を焼いた文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qswath"]
+    },
+    {
+      "passageId": "tentative",
+      "prompt": "Day 03 vocabulary: complete ten______. Enter the missing letters.",
+      "prefix": "ten",
+      "word": "tentative",
+      "answer": "Tentative means provisional and not yet final or certain. 正解：tative → tentative（暫定的な・仮の）。追加協議によって変更され得る日程の文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qtentative"]
+    },
+    {
+      "passageId": "tolerate",
+      "prompt": "Day 03 vocabulary: complete tol_____. Enter the missing letters.",
+      "prefix": "tol",
+      "word": "tolerate",
+      "answer": "Tolerate means to endure or continue to function despite a difficult condition. 正解：erate → tolerate（耐える・許容する）。近縁植物より低温に耐えられる種の文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qtolerate"]
+    },
+    {
+      "passageId": "triad",
+      "prompt": "Day 03 vocabulary: complete tr___. Enter the missing letters.",
+      "prefix": "tr",
+      "word": "triad",
+      "answer": "A triad is a group or set of three related things. 正解：iad → triad（三つ組・三要素）。食事・睡眠・運動という関連する三要素を調べる文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qtriad"]
+    },
+    {
+      "passageId": "unexpected",
+      "prompt": "Day 03 vocabulary: complete unex______. Enter the missing letters.",
+      "prefix": "unex",
+      "word": "unexpected",
+      "answer": "Unexpected means not anticipated or predicted. 正解：pected → unexpected（予想外の）。予期しない実験結果を追加検証する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qunexpected"]
+    },
+    {
+      "passageId": "unrealistic",
+      "prompt": "Day 03 vocabulary: complete unre_______. Enter the missing letters.",
+      "prefix": "unre",
+      "word": "unrealistic",
+      "answer": "Unrealistic means not based on what is practical or likely to happen. 正解：alistic → unrealistic（非現実的な）。橋全体を一日で再建する期待が実現不可能である文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qunrealistic"]
+    },
+    {
+      "passageId": "vaguely",
+      "prompt": "Day 03 vocabulary: complete vag____. Enter the missing letters.",
+      "prefix": "vag",
+      "word": "vaguely",
+      "answer": "Vaguely means in a way that is not clear, exact, or detailed. 正解：uely → vaguely（漠然と・曖昧に）。道順をぼんやり覚えているが通りを特定できない文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qvaguely"]
+    },
+    {
+      "passageId": "visual",
+      "prompt": "Day 03 vocabulary: complete vis___. Enter the missing letters.",
+      "prefix": "vis",
+      "word": "visual",
+      "answer": "Visual means related to seeing or presented in a form that can be seen. 正解：ual → visual（視覚的な・目に見える）。グラフが海面変化を視覚的に要約する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qvisual"]
+    },
+    {
+      "passageId": "weight",
+      "prompt": "Day 03 vocabulary: complete wei___. Enter the missing letters.",
+      "prefix": "wei",
+      "word": "weight",
+      "answer": "Weight is how heavy an object or load is. 正解：ght → weight（重さ・重量）。離陸前に貨物の最大重量を確認する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qweight"]
+    }
+  ]
+}
