@@ -906,7 +906,8 @@
       "reviewedPages": [
         1,
         2,
-        3
+        3,
+        4
       ],
       "packets": [
         {
@@ -1096,18 +1097,32 @@
           "pdf:vocabulary:p004:qoption",
           "pdf:vocabulary:p004:qperiod",
           "pdf:vocabulary:p004:qprobability",
-          "pdf:vocabulary:p004:qrapidly"
+          "pdf:vocabulary:p004:qrapidly",
+          "pdf:vocabulary:p004:qresource",
+          "pdf:vocabulary:p004:qscope",
+          "pdf:vocabulary:p004:qskew",
+          "pdf:vocabulary:p004:qsource",
+          "pdf:vocabulary:p004:qstench",
+          "pdf:vocabulary:p004:qsuperficial",
+          "pdf:vocabulary:p004:qswath",
+          "pdf:vocabulary:p004:qtentative",
+          "pdf:vocabulary:p004:qtolerate",
+          "pdf:vocabulary:p004:qtriad",
+          "pdf:vocabulary:p004:qunexpected",
+          "pdf:vocabulary:p004:qunrealistic",
+          "pdf:vocabulary:p004:qvaguely",
+          "pdf:vocabulary:p004:qvisual",
+          "pdf:vocabulary:p004:qweight"
         ]
       }
     }
   ],
   "lastSource": {
-    "type": "legacy",
+    "type": "pdf",
     "ids": [
-      "legacy-japan-high-growth",
-      "legacy-logarithms-calculation"
+      "pdf-vocabulary-day03-part4"
     ],
-    "convertedAt": "2026-09-25T03:00:00+09:00"
+    "convertedAt": "2026-09-25T05:00:00+09:00"
   },
   "blockedItems": [
     {
