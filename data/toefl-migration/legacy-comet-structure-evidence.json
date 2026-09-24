@@ -1,0 +1,132 @@
+{
+  "id": "legacy-comet-structure-evidence",
+  "title": "Comet Structure, Origins, and Evidence",
+  "task": 3,
+  "date": "2026-09-24T15:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "原文四段落と全九つの学習対象を保持し、元の日本語記述・翻訳・発展問題を本文根拠のある英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-standard-comet-evidence-29/",
+  "passages": {
+    "text": "Calling a comet a “dirty snowball” is a useful beginning, not a complete model. A cometary nucleus contains volatile ices together with dust, rock, and complex material. Far from the Sun it can be faint. As it approaches the Sun, heating releases gas and lifts dust, producing a temporary atmosphere called a coma. The active object we observe is therefore not only the solid nucleus but also material moving away from it.\n\nThat material can form more than one tail. Small dust grains reflect sunlight and are affected by solar radiation pressure; because they also retain orbital motion, the dust tail is often broad and curved. Gas molecules in the coma can be ionized, and the resulting plasma interacts strongly with the solar wind and its magnetic field. The ion tail is typically narrower and points approximately away from the Sun. Neither tail is simply a trail left behind like smoke from a train, and the two need not point in exactly the same direction.\n\nOrigin claims also require careful language. Many short-period comets are associated with the region beyond Neptune, while long-period comets are linked to the distant Oort Cloud. The Oort Cloud has not been photographed as a visible shell. Its existence, scale, and population are inferred from comet orbits and dynamical models. Calling it “the source of all comets” would erase both different reservoirs and the fact that scientific source regions are reconstructed from evidence.\n\nComets preserve material relevant to the early Solar System, but “ancient” does not mean chemically unchanged in every detail. Repeated heating, radiation, collisions, and internal activity can modify a body. Comets can contain water and organic molecules, so impacts may have contributed ingredients to early Earth. Whether they supplied most terrestrial water is a separate quantitative question. Measurements of deuterium-to-hydrogen ratios differ among comets; the mismatch measured at comet 67P, for example, argues against treating that particular family as a simple match for Earth’s oceans. A hypothesis becomes stronger by surviving discriminating measurements, not by sounding possible."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "Which statement best expresses the main idea of the passage?",
+      "options": [
+        {"label": "A", "text": "Every comet has one tail that always trails directly behind its motion."},
+        {"label": "B", "text": "Simple descriptions of comets must be refined by separating physical mechanisms and levels of evidence."},
+        {"label": "C", "text": "The Oort Cloud has been photographed as the only source of comets."},
+        {"label": "D", "text": "The presence of water in comets proves that they supplied all of Earth’s oceans."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。本文は核とコマ、二種類の尾、複数の供給領域、地球の水への寄与を、それぞれ機構と証拠の強さに分けて説明します。A・C・Dは本文が退ける単純化です。",
+      "sourceRefs": ["legacy:english-reading-standard-comet-evidence-29-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which sequence correctly explains how a coma forms as a comet approaches the Sun?",
+      "options": [
+        {"label": "A", "text": "The nucleus absorbs the solar wind, which turns all of its rock into plasma."},
+        {"label": "B", "text": "Orbital motion compresses the nucleus and creates a permanent solid shell."},
+        {"label": "C", "text": "Solar heating releases gas and lifts dust, creating a temporary atmosphere around the nucleus."},
+        {"label": "D", "text": "Radiation pressure pushes the entire nucleus away and leaves an empty atmosphere behind."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。第1段落は太陽への接近、加熱、ガス放出と塵の持ち上げ、コマ形成という順序を明示します。コマは固体殻でも、核全体が押し流された跡でもありません。",
+      "sourceRefs": ["legacy:english-reading-standard-comet-evidence-29-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which comparison of the dust tail and ion tail is supported by paragraph 2?",
+      "options": [
+        {"label": "A", "text": "The dust tail consists of grains affected by radiation pressure and orbital motion and is often broad and curved, whereas the ion tail consists of plasma shaped by the solar wind and magnetic field and is typically narrower."},
+        {"label": "B", "text": "The dust tail is ionized gas pointing exactly away from the Sun, whereas the ion tail is a broad trail of rock left behind the comet."},
+        {"label": "C", "text": "Both tails contain the same material and must point in precisely the same direction."},
+        {"label": "D", "text": "The dust tail is controlled only by gravity, whereas the ion tail is unaffected by the Sun."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。本文はダストテイルの構成物・放射圧と軌道運動・幅広く曲がる形と、イオンテイルのプラズマ・太陽風と磁場・より細い形を対比します。B〜Dは材料または作用を逆転・同一視しています。",
+      "sourceRefs": ["legacy:english-reading-standard-comet-evidence-29-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "The word “inferred” in paragraph 3 is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "concluded from indirect evidence"},
+        {"label": "B", "text": "photographed without uncertainty"},
+        {"label": "C", "text": "created by a passing star"},
+        {"label": "D", "text": "rejected before observation"}
+      ],
+      "correct": "A",
+      "answer": "正解：A。オールト雲は可視の殻として直接撮像されたのではなく、彗星軌道と力学モデルから存在・規模・個数を導かれています。したがって photographed とは区別されます。",
+      "sourceRefs": ["legacy:english-reading-standard-comet-evidence-29-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does the author avoid calling the Oort Cloud “the source of all comets”?",
+      "options": [
+        {"label": "A", "text": "Because every comet has been traced directly to a single photographed object beyond Neptune."},
+        {"label": "B", "text": "Because scientists have stopped using orbital evidence to study comet origins."},
+        {"label": "C", "text": "Because the Oort Cloud contains no comets and has no role in origin models."},
+        {"label": "D", "text": "Because different comet populations are linked to different reservoirs, and the Oort Cloud itself is reconstructed from orbital evidence rather than directly photographed."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。短周期彗星には海王星外側、長周期彗星にはオールト雲という異なる供給領域が関係し、後者は軌道とモデルから推論されます。A〜Cは本文と反対です。",
+      "sourceRefs": ["legacy:english-reading-standard-comet-evidence-29-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What can most reasonably be inferred from the passage?",
+      "options": [
+        {"label": "A", "text": "A comet tail must always point opposite the comet’s velocity."},
+        {"label": "B", "text": "Ancient Solar System bodies cannot be altered after they form."},
+        {"label": "C", "text": "Finding water in a comet establishes how much terrestrial water it supplied."},
+        {"label": "D", "text": "Isotopic ratios can test whether a proposed source material matches terrestrial water."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。第4段落は彗星ごとにD/H比が異なり、67Pの不一致が単純な起源対応を弱めると述べます。したがって同位体比は候補物質を識別する検査になります。A〜Cは本文が明示的に限定する主張です。",
+      "sourceRefs": ["legacy:english-reading-standard-comet-evidence-29-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why are “comets contain organic molecules” and “comets created life” not equivalent claims?",
+      "options": [
+        {"label": "A", "text": "Organic molecules cannot participate in any chemical process related to life."},
+        {"label": "B", "text": "The passage says that every organic molecule was produced on Earth after life began."},
+        {"label": "C", "text": "The presence or delivery of ingredients does not establish the additional quantities, environments, reactions, and steps required for life to arise."},
+        {"label": "D", "text": "A comet can carry water only if it contains no organic molecules."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。本文が認めるのは水や有機分子を含み、初期地球へ材料を寄与した可能性です。材料の存在・供給から生命成立までには追加の条件と過程が必要で、A・B・Dは本文にありません。",
+      "sourceRefs": ["legacy:english-reading-standard-comet-evidence-29-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which option best restates “A hypothesis becomes stronger by surviving discriminating measurements, not by sounding possible”?",
+      "options": [
+        {"label": "A", "text": "A hypothesis is strong whenever it sounds plausible, even if no observation distinguishes it from alternatives."},
+        {"label": "B", "text": "A hypothesis gains support when it withstands measurements capable of separating it from competing explanations, rather than merely appearing plausible."},
+        {"label": "C", "text": "Measurements matter only after every competing hypothesis has been rejected in advance."},
+        {"label": "D", "text": "A possible explanation becomes certain when it uses scientific vocabulary."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。discriminating measurementsは競合仮説を見分ける測定で、survivingはその検査と整合し続けることです。本文はもっともらしさだけを証拠とするA・Dを否定し、Cの事前排除も述べていません。",
+      "sourceRefs": ["legacy:english-reading-standard-comet-evidence-29-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which research plan best applies the passage’s framework to distinguish two hypotheses about the origin of Earth’s water?",
+      "options": [
+        {"label": "A", "text": "Measure deuterium-to-hydrogen distributions in many objects from identified reservoirs, compare them with oceanic and mantle water, state each hypothesis’s prediction, and account for later mixing, alteration, and sampling limits."},
+        {"label": "B", "text": "Find one comet containing water and conclude that all terrestrial water came from every comet population."},
+        {"label": "C", "text": "Choose the hypothesis with the simplest name and avoid measurements that might distinguish the sources."},
+        {"label": "D", "text": "Photograph a comet tail and use only its apparent direction to determine the chemical origin of Earth’s oceans."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。測定量、比較対象、予測、後の変化と標本の限界を明示し、複数起源仮説を識別できます。Bは一例から全体へ一般化し、Cは検証を放棄し、Dは尾の向きと水の同位体起源を混同します。",
+      "sourceRefs": ["legacy:english-reading-standard-comet-evidence-29-q9"]
+    }
+  ]
+}

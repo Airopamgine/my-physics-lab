@@ -1,0 +1,132 @@
+{
+  "id": "legacy-cultural-context-human-rights",
+  "title": "Cultural Context and Human Rights",
+  "task": 3,
+  "date": "2026-09-24T15:01:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "原文四段落と全九つの学習対象を保持し、元の日本語記述・翻訳・発展問題を本文根拠のある英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-standard-cultural-context-rights-11/",
+  "passages": {
+    "text": "When people meet an unfamiliar practice, they often begin with a comparison: “We do not do that.” The comparison itself is not necessarily a mistake. It becomes ethnocentric when the observer quietly turns a local habit into the universal standard by which every other community must be ranked. Such a judgment may hide the history, material conditions, and power relations that give the practice its meaning.\n\nCultural relativism developed in anthropology partly as a discipline of interpretation. Before deciding what an action means, a researcher asks how participants describe it, what institutions surround it, and who has the authority to define it. This approach can correct a serious error: an outsider may mistake difference for deficiency. Yet understanding a practice in context does not logically require approving it. An explanation answers how or why something occurs; an ethical judgment asks whether people are harmed, coerced, or denied meaningful choices.\n\nHuman-rights reasoning introduces another warning. Claims of universality can reproduce the assumptions of powerful societies if the people affected are excluded from defining the right. At the same time, the word “culture” can be misused by leaders to silence dissent within a community. A society is not a single speaker. Its members may disagree by gender, age, class, religion, or political position, and those with less power may interpret a tradition differently from officials who claim to represent them.\n\nResponsible comparison therefore requires two forms of humility. The observer must be willing to revise an ethnocentric first impression, but must also ask whose account of culture is being heard. Cultural context and human rights need not be treated as enemies. Context improves the evidence on which criticism is based, while rights language provides questions about dignity, participation, and protection from abuse. Neither framework removes the need to listen, argue, and examine consequences."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "Which statement best expresses the main idea of the passage?",
+      "options": [
+        {"label": "A", "text": "Cultural context makes moral evaluation impossible."},
+        {"label": "B", "text": "Every unfamiliar practice should be ranked by the observer’s customs."},
+        {"label": "C", "text": "Contextual understanding and ethical evaluation are distinct, but each can improve responsible judgment."},
+        {"label": "D", "text": "Only political leaders can explain a culture accurately."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。第2段落は説明と倫理判断を区別し、最終段落は文脈が批判の証拠を改善し、権利が尊厳・参加・保護の問いを与えると統合します。A・B・Dは本文が批判する単純化です。",
+      "sourceRefs": ["legacy:english-reading-standard-cultural-context-rights-11-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "According to paragraph 1, when does a comparison become ethnocentric?",
+      "options": [
+        {"label": "A", "text": "When an observer turns a local habit into a universal standard for ranking every other community."},
+        {"label": "B", "text": "Whenever two communities notice any difference between their practices."},
+        {"label": "C", "text": "When participants describe the history and material conditions of a practice."},
+        {"label": "D", "text": "Only when an observer openly praises another community."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。比較そのものではなく、自文化の地域的習慣を全共同体の普遍的評価基準へ無自覚に変えることがethnocentricです。Bは違いの記述だけで誤りとし、C・Dは条件を取り違えています。",
+      "sourceRefs": ["legacy:english-reading-standard-cultural-context-rights-11-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does understanding a practice in context not logically require approving it?",
+      "options": [
+        {"label": "A", "text": "Because contextual research is allowed to ask only whether a practice is old."},
+        {"label": "B", "text": "Because approval always comes before any explanation of meaning."},
+        {"label": "C", "text": "Because institutions and participant accounts can never provide useful evidence."},
+        {"label": "D", "text": "Because explanation asks how or why a practice occurs, whereas ethical judgment separately asks about harm, coercion, and meaningful choice."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。説明は発生機構や意味を問う一方、承認を含む倫理判断は害・強制・選択可能性を評価します。文脈情報は判断を精密にしますが、自動的な承認を意味しません。",
+      "sourceRefs": ["legacy:english-reading-standard-cultural-context-rights-11-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Who does “those with less power” in paragraph 3 refer to, and why are their accounts important?",
+      "options": [
+        {"label": "A", "text": "Foreign researchers, because only outsiders can define a community’s traditions."},
+        {"label": "B", "text": "Community members with less political or social influence, because their interpretations may reveal dissent or harm hidden by officials claiming to represent everyone."},
+        {"label": "C", "text": "Government leaders, because they always speak for every gender, class, religion, and political position."},
+        {"label": "D", "text": "Members of powerful societies, because universal rights should be defined without affected people."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。本文は共同体内部の性別・年齢・階級・宗教・政治的立場による意見差を挙げます。発言力の弱い構成員を聞かなければ、権力者の説明だけが「文化」とされ、内部の異議や被害が隠れます。",
+      "sourceRefs": ["legacy:english-reading-standard-cultural-context-rights-11-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which option correctly identifies the passage’s warning about the possible misuse of both universality and culture?",
+      "options": [
+        {"label": "A", "text": "Universality can be misused only by weak communities, while culture can be misused only by outsiders."},
+        {"label": "B", "text": "Both ideas are safe from misuse whenever a political leader invokes them."},
+        {"label": "C", "text": "Universal claims can reproduce powerful societies’ assumptions when affected people are excluded, while leaders can invoke culture to silence internal dissent."},
+        {"label": "D", "text": "The two ideas become dangerous only when a society has no traditions."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。第3段落は普遍性を強い社会の前提の押しつけに、文化を共同体内の異議封じに使う両方向の危険を示します。どちらか一方を安全地帯にはしていません。",
+      "sourceRefs": ["legacy:english-reading-standard-cultural-context-rights-11-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What can most reasonably be inferred from the passage?",
+      "options": [
+        {"label": "A", "text": "A community always has one uncontested interpretation of its traditions."},
+        {"label": "B", "text": "Better contextual evidence can make ethical criticism more precise."},
+        {"label": "C", "text": "Harm becomes irrelevant when a practice has a long history."},
+        {"label": "D", "text": "Researchers should never compare different societies."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。最終段落の“Context improves the evidence on which criticism is based”から、文脈理解は批判を不可能にするのでなく精密にすると推論できます。A・C・Dは本文と矛盾します。",
+      "sourceRefs": ["legacy:english-reading-standard-cultural-context-rights-11-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which option best restates “A society is not a single speaker”?",
+      "options": [
+        {"label": "A", "text": "No single official voice necessarily represents all members because people within a society may hold different interpretations and interests."},
+        {"label": "B", "text": "A society cannot communicate any shared idea in public."},
+        {"label": "C", "text": "Only people outside a society can recognize disagreements within it."},
+        {"label": "D", "text": "Every member of a society must reject all traditions."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。この比喩は、共同体が一枚岩で一人の代表者だけが正確に語れるという仮定を否定します。本文は多様な意見の存在を述べますが、共有意見や伝統をすべて否定してはいません。",
+      "sourceRefs": ["legacy:english-reading-standard-cultural-context-rights-11-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What are the “two forms of humility” described in paragraph 4?",
+      "options": [
+        {"label": "A", "text": "Refusing every ethical judgment and accepting every official cultural account."},
+        {"label": "B", "text": "Ranking other communities by local habits and excluding affected people from rights discussions."},
+        {"label": "C", "text": "Avoiding all comparisons and assuming that power relations do not affect interpretation."},
+        {"label": "D", "text": "Being willing to revise an ethnocentric first impression and asking whose account of culture is being heard or excluded."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。第一は自文化中心の初期判断を証拠で修正する用意、第二は誰の声が文化の説明として聞かれているかを点検する姿勢です。A〜Cは本文の比較・判断・権力分析の方法と逆です。",
+      "sourceRefs": ["legacy:english-reading-standard-cultural-context-rights-11-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which example best applies the distinction between explaining and approving to another academic field?",
+      "options": [
+        {"label": "A", "text": "A historian refuses to study the causes of an injustice because explanation would automatically excuse it."},
+        {"label": "B", "text": "A physicist accepts a biased result as correct as soon as the source of the bias is identified."},
+        {"label": "C", "text": "A scientist explains that calibration, sampling, or a hidden assumption produced a biased measurement, then uses that explanation to design a fairer test without accepting the original result as correct."},
+        {"label": "D", "text": "A researcher treats every causal explanation as a moral endorsement and therefore avoids investigating errors."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。誤差の生成機構を理解することは誤った結果の承認ではなく、より良い検査を設計する条件です。A・Dは説明を容認と混同して研究を止め、Bは原因を説明しただけで結果を正当化しています。",
+      "sourceRefs": ["legacy:english-reading-standard-cultural-context-rights-11-q9"]
+    }
+  ]
+}
