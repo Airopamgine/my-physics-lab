@@ -1,0 +1,289 @@
+{
+  "id": "legacy-vocabulary-context-verbs-001-025",
+  "title": "Contextual vocabulary: verbs",
+  "task": 1,
+  "date": "2026-09-25T06:35:00+09:00",
+  "level": "A2–B1",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の各語彙問題に対応",
+  "verificationNote": "元の全25文と各語彙の正答・誤答解説を保持し、文字補充式へ変換しました。",
+  "sourceUrl": "/posts/english-vocabulary-context-verbs-001-025/",
+  "passages": {
+    "q1": "I usually d_ my homework before I play video games.",
+    "q2": "When you come to my desk, please br___ the signed form with you.",
+    "q3": "Mina spe___ Spanish well enough to guide visitors from Madrid.",
+    "q4": "We are leaving the house now. Let's g_ to the station together.",
+    "q5": "My old charger no longer works, and I want to own its replacement, so I need to bu_ a new one.",
+    "q6": "Using a pencil, Leo dr__ a map showing the path to the campsite.",
+    "q7": "The door is open. Please cl___ it quietly; the baby is sleeping.",
+    "q8": "My grandparents li__ in the same town all year; they are not temporary visitors.",
+    "q9": "We wat____ the entire football match on television last night.",
+    "q10": "The two researchers agreed by email to me__ outside the library at noon.",
+    "q11": "Could you he__ me lift this table? It is too heavy for one person.",
+    "q12": "I am waiting inside the museum. What time will you co__ here?",
+    "q13": "Please re__ the instructions aloud before you turn on the machine.",
+    "q14": "Some migrating birds can fl_ thousands of kilometers without landing.",
+    "q15": "After years of training, she hopes to bec___ a professional pilot.",
+    "q16": "Do you kn__ the password, or should I ask the administrator?",
+    "q17": "Please b_ patient while the computer installs the update.",
+    "q18": "We plan to ha__ a small farewell party at our apartment on Friday.",
+    "q19": "Please cl___ your desk before placing the new computer on it.",
+    "q20": "The doctor asked whether I had ea___ any solid food before the blood test.",
+    "q21": "I will se__ you the revised schedule by email this afternoon.",
+    "q22": "The guide to__ us why the bridge had been rebuilt.",
+    "q23": "During our trip, we hope to vi___ three science museums.",
+    "q24": "Aya is a first-year student and stu____ physics at university because she wants to understand fluid motion.",
+    "q25": "I have searched every pocket, but I still cannot fi__ my key."
+  },
+  "questions": [
+    {
+      "passageId": "q1",
+      "prompt": "Complete the missing letters of the word in the sentence.",
+      "word": "do",
+      "prefix": "d",
+      "answer": "正解：do。原問の選択肢（A: do; B: make; C: take; D: have）。\n\n**正解：(A) do**\n\n**do homework** が決まった組合せです。**make** は何かを作り出す、**take** は取る、**have** は持つ・経験するという中心義をもち、この目的語には合いません。空所の後ろにある **my homework** を先に見るのが最短です。\n\n- 品詞・形：助動詞のない現在形。主語が I なので原形 **do**。\n- 文脈：習慣を表す **usually** が現在形を支える。\n- 使い分け：**do an assignment / do the dishes** のように課題や作業を行う。",
+      "sourceRefs": [
+        "legacy:english-vocabulary-context-verbs-001-025-q1"
+      ]
+    },
+    {
+      "passageId": "q2",
+      "prompt": "Complete the missing letters of the word in the sentence.",
+      "word": "bring",
+      "prefix": "br",
+      "answer": "正解：bring。原問の選択肢（A: take; B: bring; C: leave; D: put）。\n\n**正解：(B) bring**\n\n話者は **my desk** にいて、相手はそこへ来ます。物を話者側へ移すので **bring** です。**take** は基準点から離れる方向、**leave** は置いて去る、**put** は置く場所を必要とします。\n\n- 品詞・形：**please + 動詞原形**。\n- 文脈：**come to my desk** が移動の基準点を明示する。\n- 使い分け：**Bring your passport with you.** の **with you** もよく使う。",
+      "sourceRefs": [
+        "legacy:english-vocabulary-context-verbs-001-025-q2"
+      ]
+    },
+    {
+      "passageId": "q3",
+      "prompt": "Complete the missing letters of the word in the sentence.",
+      "word": "speaks",
+      "prefix": "spe",
+      "answer": "正解：speaks。原問の選択肢（A: says; B: tells; C: speaks; D: talks）。\n\n**正解：(C) speaks**\n\n言語を話す能力は **speak + 言語** で表します。**say** は発言内容、**tell** は伝える相手、**talk** は会話行為に焦点を置きます。**Spanish** が直接続くことが決め手です。\n\n- 品詞・形：主語 Mina は三人称単数なので **speaks**。\n- 文型：**say something / tell someone something / talk to someone**。\n- 文脈：**well enough to ...** は能力の程度を示す。",
+      "sourceRefs": [
+        "legacy:english-vocabulary-context-verbs-001-025-q3"
+      ]
+    },
+    {
+      "passageId": "q4",
+      "prompt": "Complete the missing letters of the word in the sentence.",
+      "word": "go",
+      "prefix": "g",
+      "answer": "正解：go。原問の選択肢（A: arrive; B: visit; C: come; D: go）。\n\n**正解：(D) go**\n\n話者たちは現在いる家を離れ、駅へ向かいます。基準点から離れるため **go** です。**come** は話者や聞き手のいる基準点へ近づく動き、**arrive** は通常 **at / in** を伴い、**visit** は目的地の前に **to** を置きません。\n\n- 品詞・形：**Let's + 動詞原形**。\n- 文脈：**leaving the house** が方向を固定する。\n- 語法：**go to the station / arrive at the station / visit the station**。",
+      "sourceRefs": [
+        "legacy:english-vocabulary-context-verbs-001-025-q4"
+      ]
+    },
+    {
+      "passageId": "q5",
+      "prompt": "Complete the missing letters of the word in the sentence.",
+      "word": "buy",
+      "prefix": "bu",
+      "answer": "正解：buy。原問の選択肢（A: lend; B: sell; C: buy; D: borrow）。\n\n**正解：(C) buy**\n\n故障した充電器の代わりを所有する必要があるので、購入する **buy** が自然です。**sell** は売る、**lend** は相手に貸す、**borrow** は相手から一時的に借りる意味です。\n\n- 品詞・形：**need to + 動詞原形**。\n- 文脈：**a new one** と交換の必要性が購入を示す。\n- 使い分け：**borrow A from B / lend A to B** と方向を確認する。",
+      "sourceRefs": [
+        "legacy:english-vocabulary-context-verbs-001-025-q5"
+      ]
+    },
+    {
+      "passageId": "q6",
+      "prompt": "Complete the missing letters of the word in the sentence.",
+      "word": "drew",
+      "prefix": "dr",
+      "answer": "正解：drew。原問の選択肢（A: looked; B: wrote; C: saw; D: drew）。\n\n**正解：(D) drew**\n\n鉛筆で地図を図として作ったので **draw** の過去形 **drew** です。**write** は文字や文章を書く、**see** は自然に目に入る、**look** は視線を向ける意味で、地図を作成した結果を表せません。\n\n- 品詞・形：完成した出来事なので過去形。\n- 文脈：**Using a pencil** と **a map showing ...** が描画を示す。\n- 語法：**draw a map / draw a picture / write a note**。",
+      "sourceRefs": [
+        "legacy:english-vocabulary-context-verbs-001-025-q6"
+      ]
+    },
+    {
+      "passageId": "q7",
+      "prompt": "Complete the missing letters of the word in the sentence.",
+      "word": "close",
+      "prefix": "cl",
+      "answer": "正解：close。原問の選択肢（A: finish; B: open; C: close; D: start）。\n\n**正解：(C) close**\n\n赤ちゃんが眠っているので、ドアを静かに閉める **close** が文脈に合います。**open** は反対の動作、**start / finish** は活動の開始・終了に用い、ドアには通常使いません。\n\n- 品詞・形：**Please + 動詞原形**。\n- 文脈：**quietly** と睡眠中という情報が判断材料。\n- 類義語：**shut** も使えるが、命令では強く響くことがある。",
+      "sourceRefs": [
+        "legacy:english-vocabulary-context-verbs-001-025-q7"
+      ]
+    },
+    {
+      "passageId": "q8",
+      "prompt": "Complete the missing letters of the word in the sentence.",
+      "word": "live",
+      "prefix": "li",
+      "answer": "正解：live。原問の選択肢（A: stay; B: stand; C: live; D: sit）。\n\n**正解：(C) live**\n\n一年を通した生活拠点なので **live** です。**stay** は一時的な滞在、**stand** は立つ、**sit** は座るという姿勢を表します。\n\n- 品詞・形：複数主語なので現在形 **live**。\n- 文脈：**all year** と **not temporary visitors** が永続性を明示する。\n- 語法：**live in a town / stay at a hotel**。",
+      "sourceRefs": [
+        "legacy:english-vocabulary-context-verbs-001-025-q8"
+      ]
+    },
+    {
+      "passageId": "q9",
+      "prompt": "Complete the missing letters of the word in the sentence.",
+      "word": "watched",
+      "prefix": "wat",
+      "answer": "正解：watched。原問の選択肢（A: looked; B: watched; C: found; D: listened）。\n\n**正解：(B) watched**\n\n動きのある試合を最初から最後まで意識して見たため **watch** です。**look** は通常 **look at**、**listen** は音へ注意を向ける、**find** は発見する意味です。\n\n- 品詞・形：**last night** により過去形。\n- 文脈：**the entire match on television** が継続的視聴を示す。\n- 語法：**watch television** では television に冠詞を付けないことが多い。",
+      "sourceRefs": [
+        "legacy:english-vocabulary-context-verbs-001-025-q9"
+      ]
+    },
+    {
+      "passageId": "q10",
+      "prompt": "Complete the missing letters of the word in the sentence.",
+      "word": "meet",
+      "prefix": "me",
+      "answer": "正解：meet。原問の選択肢（A: think; B: know; C: avoid; D: meet）。\n\n**正解：(D) meet**\n\nメールで時刻と場所を約束して会うため **meet** です。**avoid** は会わないようにするため文意と逆です。**know** は知っている、**think** は考えるです。\n\n- 品詞・形：**agree to + 動詞原形**。\n- 文脈：具体的な集合場所と時刻がある。\n- 使い分け：**meet someone** は前置詞不要。**meet with** は協議の含みをもつことがある。",
+      "sourceRefs": [
+        "legacy:english-vocabulary-context-verbs-001-025-q10"
+      ]
+    },
+    {
+      "passageId": "q11",
+      "prompt": "Complete the missing letters of the word in the sentence.",
+      "word": "help",
+      "prefix": "he",
+      "answer": "正解：help。原問の選択肢（A: use; B: try; C: help; D: work）。\n\n**正解：(C) help**\n\n一人では重い机を持ち上げられないため、手助けする **help** が必要です。**use** は物を使う、**try** は試みる、**work** は働くで、**me lift** という構文に入りません。\n\n- 品詞・形：**Could you + 動詞原形**。\n- 文型：**help + 人 + 動詞原形**。**help me to lift** も可能。\n- 文脈：**too heavy for one person** が援助の必要性を示す。",
+      "sourceRefs": [
+        "legacy:english-vocabulary-context-verbs-001-025-q11"
+      ]
+    },
+    {
+      "passageId": "q12",
+      "prompt": "Complete the missing letters of the word in the sentence.",
+      "word": "come",
+      "prefix": "co",
+      "answer": "正解：come。原問の選択肢（A: become; B: come; C: send; D: find）。\n\n**正解：(B) come**\n\n話者は博物館の中で待っており、相手は話者のいる **here** へ近づきます。そのため **come** です。**become** は状態変化、**send** は送付、**find** は発見を表し、人の到着には使えません。\n\n- 品詞・形：**will + 動詞原形**。\n- 文脈：**I am waiting inside** と **here** が視点を固定する。\n- 使い分け：**come here / go there** を対にして覚える。",
+      "sourceRefs": [
+        "legacy:english-vocabulary-context-verbs-001-025-q12"
+      ]
+    },
+    {
+      "passageId": "q13",
+      "prompt": "Complete the missing letters of the word in the sentence.",
+      "word": "read",
+      "prefix": "re",
+      "answer": "正解：read。原問の選択肢（A: learn; B: follow; C: write; D: read）。\n\n**正解：(D) read**\n\n機械を動かす前に、書かれた説明を声に出して読むので **read** です。**follow** は指示どおり行動する、**learn** は知識や技能を身に付ける、**write** は文字を作る側の行為です。\n\n- 品詞・形：命令文なので原形。\n- 文脈：目的語 **the instructions** と **carefully** が読解行為を示す。\n- 語法：**read the instructions / follow the instructions**。",
+      "sourceRefs": [
+        "legacy:english-vocabulary-context-verbs-001-025-q13"
+      ]
+    },
+    {
+      "passageId": "q14",
+      "prompt": "Complete the missing letters of the word in the sentence.",
+      "word": "fly",
+      "prefix": "fl",
+      "answer": "正解：fly。原問の選択肢（A: swim; B: fly; C: run; D: jump）。\n\n**正解：(B) fly**\n\n渡り鳥が着地せず長距離を移動する方法は **fly** です。**jump** は一回ごとの跳躍、**run** は地上走行、**swim** は水中移動です。\n\n- 品詞・形：助動詞 **can** の後なので原形。\n- 文脈：**birds** と **without landing** が空中移動を限定する。\n- 語法：距離は **fly thousands of kilometers** のように前置詞なしで置ける。",
+      "sourceRefs": [
+        "legacy:english-vocabulary-context-verbs-001-025-q14"
+      ]
+    },
+    {
+      "passageId": "q15",
+      "prompt": "Complete the missing letters of the word in the sentence.",
+      "word": "become",
+      "prefix": "bec",
+      "answer": "正解：become。原問の選択肢（A: turn; B: grow; C: become; D: change）。\n\n**正解：(C) become**\n\n訓練を経て職業上の身分が変わるので **become + 名詞** を使います。**change** は他動詞なら目的語を取り、**grow** は単独では成長、**turn** は色・年齢・状態の変化に多い語です。\n\n- 品詞・形：**hope to + 動詞原形**。\n- 文型：**become a pilot / become famous** のように名詞・形容詞を補語に取る。\n- 文脈：**After years of training** が到達する変化を示す。",
+      "sourceRefs": [
+        "legacy:english-vocabulary-context-verbs-001-025-q15"
+      ]
+    },
+    {
+      "passageId": "q16",
+      "prompt": "Complete the missing letters of the word in the sentence.",
+      "word": "know",
+      "prefix": "kn",
+      "answer": "正解：know。原問の選択肢（A: think; B: forget; C: recognize; D: know）。\n\n**正解：(D) know**\n\nパスワードという情報を知識として持っているかを尋ねるため **know** です。**recognize** は見聞きしたものを以前のものだと識別する、**forget** は忘れる、**think** は考えるため、この目的語と問い方には合いません。\n\n- 品詞・形：**Do you + 動詞原形**。\n- 文脈：**the password** は知識内容。\n- 使い分け：**know the answer** は情報を知る、**remember the answer** は以前知った情報を思い出せる。",
+      "sourceRefs": [
+        "legacy:english-vocabulary-context-verbs-001-025-q16"
+      ]
+    },
+    {
+      "passageId": "q17",
+      "prompt": "Complete the missing letters of the word in the sentence.",
+      "word": "be",
+      "prefix": "b",
+      "answer": "正解：be。原問の選択肢（A: feel; B: hear; C: be; D: listen）。\n\n**正解：(C) be**\n\n**patient** は形容詞なので、状態を作る連結動詞 **be** が必要です。**feel patient** は通常の組合せではなく、**hear / listen** は聴覚の動詞です。\n\n- 品詞・形：**Please + 動詞原形**。\n- 文型：**be + 形容詞**。\n- 語法：**be patient with someone / be patient while waiting**。",
+      "sourceRefs": [
+        "legacy:english-vocabulary-context-verbs-001-025-q17"
+      ]
+    },
+    {
+      "passageId": "q18",
+      "prompt": "Complete the missing letters of the word in the sentence.",
+      "word": "have",
+      "prefix": "ha",
+      "answer": "正解：have。原問の選択肢（A: go; B: join; C: have; D: held）。\n\n**正解：(C) have**\n\n**have a party** はパーティーを開くという定型表現です。**join** は開催中の集団や活動へ参加する、**go** なら **go to a party**、**held** は過去形・過去分詞で **plan to** の後に置けません。\n\n- 品詞・形：**plan to + 動詞原形**。\n- 文脈：場所と曜日を決めて主催する計画。\n- 語法：**hold a party** も意味は合うが、必要な形は **hold** であり、選択肢の **held** ではない。",
+      "sourceRefs": [
+        "legacy:english-vocabulary-context-verbs-001-025-q18"
+      ]
+    },
+    {
+      "passageId": "q19",
+      "prompt": "Complete the missing letters of the word in the sentence.",
+      "word": "clean",
+      "prefix": "cl",
+      "answer": "正解：clean。原問の選択肢（A: wash; B: clean; C: take; D: draw）。\n\n**正解：(B) clean**\n\n新しいコンピューターを置く前に机の汚れや物を取り除くので **clean** です。**wash** は水などで洗うことに焦点を置き、**draw** は絵や線を描き、**take** は取るだけです。\n\n- 品詞・形：**Please + 動詞原形**。\n- 文脈：**before placing ... on it** が作業場所を整える目的を示す。\n- 語法：散らかった物を整えるなら **tidy the desk** も使える。",
+      "sourceRefs": [
+        "legacy:english-vocabulary-context-verbs-001-025-q19"
+      ]
+    },
+    {
+      "passageId": "q20",
+      "prompt": "Complete the missing letters of the word in the sentence.",
+      "word": "eaten",
+      "prefix": "ea",
+      "answer": "正解：eaten。原問の選択肢（A: eaten; B: cooked; C: drunk; D: got）。\n\n**正解：(A) eaten**\n\n血液検査前に固形物を摂取したかを尋ねています。**had + 過去分詞** が必要なので **eaten** です。**cooked** は調理した、**drunk** は液体を飲んだ、**got** は得たという別の行為です。\n\n- 品詞・形：診察時点より前を表す過去完了 **had eaten**。\n- 文脈：目的語 **anything** は食事の有無を広く問う。\n- 監査：医療上の指示は検査ごとに異なるため、本文は一般的な絶食指示を断定していない。",
+      "sourceRefs": [
+        "legacy:english-vocabulary-context-verbs-001-025-q20"
+      ]
+    },
+    {
+      "passageId": "q21",
+      "prompt": "Complete the missing letters of the word in the sentence.",
+      "word": "send",
+      "prefix": "se",
+      "answer": "正解：send。原問の選択肢（A: receive; B: take; C: send; D: bring）。\n\n**正解：(C) send**\n\n修正版をメールで相手へ届けるので **send** です。**receive** は受け取る側、**take** は持っていく、**bring** は話者側へ持ってくる動作で、**by email** の伝送には合いません。\n\n- 品詞・形：**will + 動詞原形**。\n- 文型：**send + 人 + 物**。**send the schedule to you** も可能。\n- 文脈：**by email this afternoon** が伝送手段と予定時を示す。",
+      "sourceRefs": [
+        "legacy:english-vocabulary-context-verbs-001-025-q21"
+      ]
+    },
+    {
+      "passageId": "q22",
+      "prompt": "Complete the missing letters of the word in the sentence.",
+      "word": "told",
+      "prefix": "to",
+      "answer": "正解：told。原問の選択肢（A: spoke; B: said; C: talked; D: told）。\n\n**正解：(D) told**\n\n**tell + 人 + 内容** の形で、目的語 **us** を直接取れる **told** が正解です。**said** なら **said to us**、**spoke** なら **spoke to us**、**talked** なら **talked to us about ...** が必要です。\n\n- 品詞・形：再建理由を説明した過去の出来事なので **told**。\n- 文型：**tell someone why / tell someone a story**。\n- 読み方：空所直後の **us** を見れば、意味より先に文型で絞れる。",
+      "sourceRefs": [
+        "legacy:english-vocabulary-context-verbs-001-025-q22"
+      ]
+    },
+    {
+      "passageId": "q23",
+      "prompt": "Complete the missing letters of the word in the sentence.",
+      "word": "visit",
+      "prefix": "vi",
+      "answer": "正解：visit。原問の選択肢（A: enter; B: leave; C: visit; D: watch）。\n\n**正解：(C) visit**\n\n旅行中に三つの博物館を訪れるので **visit** です。**visit** は場所を直接目的語に取ります。**enter** は中へ入る瞬間、**leave** は去る、**watch** は動く対象を継続して見る語で、建物を目的語にしません。\n\n- 品詞・形：**hope to + 動詞原形**。\n- 文型：**visit a museum**。**visit to a museum** とはしない。\n- 文脈：**During our trip** と施設数が旅程上の訪問を示す。",
+      "sourceRefs": [
+        "legacy:english-vocabulary-context-verbs-001-025-q23"
+      ]
+    },
+    {
+      "passageId": "q24",
+      "prompt": "Complete the missing letters of the word in the sentence.",
+      "word": "studies",
+      "prefix": "stu",
+      "answer": "正解：studies。原問の選択肢（A: uses; B: studies; C: speaks; D: knows）。\n\n**正解：(B) studies**\n\n大学で物理を専攻・学習しているので **study** です。**speak** は言語を話す、**know** は知識状態、**use** は利用する行為で、学問分野を継続的に学ぶ意味になりません。\n\n- 品詞・形：主語 Aya は三人称単数なので **studies**。\n- 文脈：**at university** と目的を表す **because** が履修・専攻を示す。\n- 語法：**study physics / learn about fluid motion**。",
+      "sourceRefs": [
+        "legacy:english-vocabulary-context-verbs-001-025-q24"
+      ]
+    },
+    {
+      "passageId": "q25",
+      "prompt": "Complete the missing letters of the word in the sentence.",
+      "word": "find",
+      "prefix": "fi",
+      "answer": "正解：find。原問の選択肢（A: search; B: lose; C: look; D: find）。\n\n**正解：(D) find**\n\n探した結果として鍵を発見することができないので **find** です。**look** は **look for**、**search** は **search a place for an object** または **search for an object** とするのが基本です。**lose** は紛失する原因側の動作です。\n\n- 品詞・形：**cannot + 動詞原形**。\n- 文脈：**searched every pocket, but still ...** が「探索したが発見できない」という対比を作る。\n- 文型：**find my key / look for my key / search my pockets for my key**。\n\n## 語彙監査のまとめ\n\n- **目的語で選ぶ**：do homework、speak Spanish、read instructions、study physics。\n- **話者の位置で選ぶ**：bring は基準点へ、take は基準点から離れる。come は基準点へ、go は離れる。\n- **文型で選ぶ**：tell someone why、say something to someone、talk to someone about something。\n- **形で選ぶ**：can / will / to の後は原形、三人称単数現在は語尾、過去完了は過去分詞。\n- **過程を分ける**：look for / search は探索、find は発見。learn は身に付ける変化、know は知識状態。\n\n## 学問を深める問い\n\n英和辞典で同じ訳語が付く二つの動詞を選び、目的語、視点、文型、動作の段階のどれが使い分けを決めるか、用例を集めて説明してみましょう。\n\n## 参考資料\n\n- [Cambridge Dictionary：bring と take の使い分け](https://dictionary.cambridge.org/grammar/british-grammar/bring-take-and-fetch)\n- [Cambridge Dictionary：say と tell の使い分け](https://dictionary.cambridge.org/grammar/british-grammar/say-or-tell)\n- [British Council：現在形と習慣](https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/present-simple)\n- [British Council：過去完了](https://learnenglish.britishcouncil.org/grammar/b1-b2-grammar/past-perfect)",
+      "sourceRefs": [
+        "legacy:english-vocabulary-context-verbs-001-025-q25"
+      ]
+    }
+  ]
+}

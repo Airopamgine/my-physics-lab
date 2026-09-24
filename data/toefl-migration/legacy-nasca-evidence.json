@@ -1,0 +1,258 @@
+{
+  "id": "legacy-nasca-evidence",
+  "title": "Nasca Geoglyphs: Evidence, Hypotheses, and Preservation",
+  "task": 3,
+  "date": "2026-09-25T06:40:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "原文四段落と全九つの学習対象を保持し、日本語記述・翻訳・発展問題を根拠ある英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-standard-nasca-evidence-12/",
+  "passages": {
+    "text": "Across the dry coastal plain of southern Peru, ancient communities created lines, geometric forms, and figures of animals, plants, and humanlike beings. The works now called the Lines and Geoglyphs of Nasca and Palpa were not produced in a single moment. Evidence indicates long and repeated activity by pre-Hispanic societies over many centuries. Some designs extend for kilometres, while others are much smaller. Their scale is striking from the air, but hills, paths, and the surrounding landscape also matter for understanding how people encountered them.\n\nThe basic construction method is better established than the purpose. Makers removed darker, weathered surface stones and exposed lighter material below. This technique did not require an unknown machine, but planning a large form still required coordination and geometric control. Archaeologists can study the lines' positions, overlaps, nearby remains, and similarities to other images. These observations constrain interpretation, yet they do not produce one certain explanation.\n\nRitual movement, water, social gathering, and relations between earth and sky have all been discussed. Astronomical alignment may be relevant to some features, but the existence of one alignment does not prove that every line served as a calendar. Nor does a figure's visibility from above prove that it was made for airborne viewers. A responsible hypothesis must explain many kinds of evidence and state what would count against it.\n\nExtreme aridity and low rainfall helped preserve the geoglyphs by limiting erosion. That fortunate condition does not make the site indestructible. A road crossing the property has damaged some sectors, and occasional water activity can affect the desert surface. Protection therefore combines law, documentation, research, maintenance, and control of human access. Preservation is not the act of freezing a solved mystery; it keeps evidence available for questions that future methods may answer differently."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What is the main purpose of the passage?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To prove one final astronomical explanation for every geoglyph."
+        },
+        {
+          "label": "B",
+          "text": "To distinguish established evidence from hypotheses about purpose and preservation."
+        },
+        {
+          "label": "C",
+          "text": "To argue that the figures were made with unknown machinery."
+        },
+        {
+          "label": "D",
+          "text": "To show that the site can only be understood from an aircraft."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。制作方法の証拠、目的の複数仮説、保存の条件を確実性の違いとともに扱います。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-nasca-evidence-12-q1"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which construction method is relatively well established?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Removing dark weathered surface stones to expose lighter material underneath."
+        },
+        {
+          "label": "B",
+          "text": "Using unknown machines to dig deep trenches through the desert."
+        },
+        {
+          "label": "C",
+          "text": "Painting every line on the rocks with pigments brought from the coast."
+        },
+        {
+          "label": "D",
+          "text": "Creating all designs at one moment from an aircraft."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。第2段落。暗い表面石を除き、下の明るい地表を露出させました。大きな形には計画も必要です。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-nasca-evidence-12-q2"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does “better established than” compare in paragraph 2?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The size of the largest and smallest designs."
+        },
+        {
+          "label": "B",
+          "text": "The age of the road and the age of the geoglyphs."
+        },
+        {
+          "label": "C",
+          "text": "Evidence for how the designs were made and evidence for their purpose."
+        },
+        {
+          "label": "D",
+          "text": "The visibility of hills and the visibility from aircraft."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。制作方法は目的より比較的よく確立されていますが、目的について何も言えないという意味ではありません。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-nasca-evidence-12-q3"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does visibility from above not prove that airborne viewers were intended?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The designs are invisible from the surrounding hills."
+        },
+        {
+          "label": "B",
+          "text": "The figures were all created by modern aircraft."
+        },
+        {
+          "label": "C",
+          "text": "Aerial visibility is identical to evidence of ritual movement."
+        },
+        {
+          "label": "D",
+          "text": "A convenient present-day viewpoint does not establish the makers’ intended audience; other ways of encountering the lines remain possible."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。第1・3段落。上空から見える事実と制作時の想定受け手は別で、丘・道・儀礼的移動も考慮します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-nasca-evidence-12-q4"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which two conditions should a responsible hypothesis meet?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Explain only one attractive alignment and resist every possible test."
+        },
+        {
+          "label": "B",
+          "text": "Explain varied evidence and specify observations that would count against it."
+        },
+        {
+          "label": "C",
+          "text": "Be visible from the air and have no archaeological remains nearby."
+        },
+        {
+          "label": "D",
+          "text": "Assume all geoglyphs had one purpose and no later damage occurred."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。第3段落。多種類の証拠を説明し、反証となる観察も明示すべきです。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-nasca-evidence-12-q5"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which inference is supported by the archaeological observations described?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Every line had exactly the same use."
+        },
+        {
+          "label": "B",
+          "text": "A simple technique means that planning was unnecessary."
+        },
+        {
+          "label": "C",
+          "text": "Overlaps and nearby remains can restrict possible interpretations."
+        },
+        {
+          "label": "D",
+          "text": "Aridity guarantees permanent preservation."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。第2段落の位置・重なり・周辺遺物は解釈を制約しますが一つの確実な説明は生みません。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-nasca-evidence-12-q6"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which restatement best captures “These observations constrain interpretation, yet they do not produce one certain explanation”?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The observations narrow the range of plausible interpretations without yielding a single certain answer."
+        },
+        {
+          "label": "B",
+          "text": "The observations prove one explanation and rule out all others."
+        },
+        {
+          "label": "C",
+          "text": "The observations provide no useful limits on interpretation."
+        },
+        {
+          "label": "D",
+          "text": "The observations make every possible story equally likely."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。constrain は可能な解釈を制限することで、唯一の説明を決定することとは異なります。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-nasca-evidence-12-q7"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why is protection still necessary despite the desert’s aridity?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Aridity has never helped preserve any part of the site."
+        },
+        {
+          "label": "B",
+          "text": "The figures can only be harmed by rainfall every day."
+        },
+        {
+          "label": "C",
+          "text": "Documentation alone can prevent all physical damage."
+        },
+        {
+          "label": "D",
+          "text": "Roads and human access can damage sectors, and occasional water activity can alter the surface."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。最終段落。乾燥による低侵食は将来の無条件保証ではなく、人為的損傷や時折の水の作用があります。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-nasca-evidence-12-q8"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which research plan would test a proposed explanation rather than merely tell an attractive story?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Select one striking alignment and reinterpret every contradictory discovery as support."
+        },
+        {
+          "label": "B",
+          "text": "Compare positions, overlaps, nearby remains, dates, and similar images; state what evidence would weaken the proposal."
+        },
+        {
+          "label": "C",
+          "text": "Avoid all independent observations so the explanation remains simple."
+        },
+        {
+          "label": "D",
+          "text": "Declare the purpose certain because the designs are striking from the air."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。発展問題の学習対象。複数の独立資料を照合し、反証条件を設定して仮説を検査します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-nasca-evidence-12-q9"
+      ]
+    }
+  ]
+}

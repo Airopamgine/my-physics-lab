@@ -1118,11 +1118,14 @@
     }
   ],
   "lastSource": {
-    "type": "pdf",
+    "type": "legacy",
     "ids": [
-      "pdf-vocabulary-day03-part4"
+      "legacy-vocabulary-adjectives-context-026-050",
+      "legacy-vocabulary-context-verbs-001-025",
+      "legacy-mimicry-observer",
+      "legacy-nasca-evidence"
     ],
-    "convertedAt": "2026-09-25T05:00:00+09:00"
+    "convertedAt": "2026-09-25T06:40:00+09:00"
   },
   "blockedItems": [
     {

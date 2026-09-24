@@ -1,0 +1,258 @@
+{
+  "id": "legacy-mimicry-observer",
+  "title": "Mimicry, Camouflage, and the Observer",
+  "task": 3,
+  "date": "2026-09-25T06:40:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "原文四段落と全九つの学習対象を保持し、日本語記述・翻訳・発展問題を根拠ある英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-standard-mimicry-04/",
+  "passages": {
+    "text": "An insect's appearance can carry information for a predator. Bright colors may be associated with an unpleasant taste or another defense, while a body outline that matches leaves or bark may make an insect difficult to detect. These effects are not properties of color or shape alone. They depend on the visual system, experience, and behavior of the animal that observes them.\n\nIn Batesian mimicry, a species with little or no relevant defense resembles a defended species. Some hoverflies, for example, resemble stinging wasps. If a predator has learned to avoid the warning appearance, the harmless mimic may also be avoided. The protection is not guaranteed. It can weaken when undefended mimics become too common relative to defended models, because the warning pattern then becomes a less reliable signal.\n\nIn Mullerian mimicry, two or more defended species share a similar warning pattern. A predator that has a negative encounter with one species may then avoid others with the same signal. The species do not make a conscious agreement; rather, natural selection can favor resemblance when it reduces the number of harmful encounters needed for predators to learn.\n\nCamouflage works differently. A stick insect that resembles a twig benefits mainly by remaining unnoticed, not by being mistaken for a dangerous species. The comparison shows why the observer matters: the same appearance can function as a warning, a misleading signal, or concealment depending on what information the predator receives and how it responds."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "In paragraph 1, the word “detect” is closest in meaning to:",
+      "options": [
+        {
+          "label": "A",
+          "text": "notice the presence of"
+        },
+        {
+          "label": "B",
+          "text": "imitate the shape of"
+        },
+        {
+          "label": "C",
+          "text": "develop a defense against"
+        },
+        {
+          "label": "D",
+          "text": "classify scientifically"
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。第1段落の輪郭が背景に合うと捕食者が昆虫の存在に気づきにくい。detect は「発見する」。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-mimicry-04-q1"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "In paragraph 2, “relative to” is closest in meaning to:",
+      "options": [
+        {
+          "label": "A",
+          "text": "hidden from"
+        },
+        {
+          "label": "B",
+          "text": "in comparison with"
+        },
+        {
+          "label": "C",
+          "text": "descended from"
+        },
+        {
+          "label": "D",
+          "text": "protected by"
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。擬態種の数を防御されたモデル種の数と比較しています。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-mimicry-04-q2"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why may protection weaken when undefended Batesian mimics become too common?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The mimics become poisonous when numerous."
+        },
+        {
+          "label": "B",
+          "text": "Predators lose the ability to see warning patterns."
+        },
+        {
+          "label": "C",
+          "text": "The warning appearance becomes less reliable as a sign of a defended prey."
+        },
+        {
+          "label": "D",
+          "text": "The defended models stop displaying any warning pattern."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。第2段落。無害な擬態種への遭遇が増すと警告模様が危険の信号として信頼できなくなります。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-mimicry-04-q3"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "How do Batesian and Mullerian mimicry differ in the defenses of the species involved?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Batesian mimicry pairs a weakly defended mimic with a defended model; Mullerian mimicry joins defended species sharing a pattern."
+        },
+        {
+          "label": "B",
+          "text": "Both involve only undefended species that hide by looking like twigs."
+        },
+        {
+          "label": "C",
+          "text": "Batesian mimicry joins two defended species; Mullerian mimicry requires an undefended mimic."
+        },
+        {
+          "label": "D",
+          "text": "Neither has any connection to a predator’s learned avoidance."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。第2・3段落。ベイツ型は無防御または弱い防御の擬態種と防御されたモデル、ミュラー型は複数の防御された種です。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-mimicry-04-q4"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does the author state that the species do not make a conscious agreement?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To deny that different species may look alike."
+        },
+        {
+          "label": "B",
+          "text": "To claim that predators never learn from harmful encounters."
+        },
+        {
+          "label": "C",
+          "text": "To show that every warning pattern is caused by camouflage."
+        },
+        {
+          "label": "D",
+          "text": "To distinguish resemblance favored by natural selection from deliberate cooperation."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。第3段落。共通模様は種の相談や計画ではなく、自然選択により有利になり得る類似です。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-mimicry-04-q5"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "How is the stick insect’s resemblance to a twig different from warning mimicry?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It alerts predators that the twig is poisonous."
+        },
+        {
+          "label": "B",
+          "text": "It helps the insect remain unnoticed instead of being mistaken for a dangerous species."
+        },
+        {
+          "label": "C",
+          "text": "It requires a conscious agreement with defended insects."
+        },
+        {
+          "label": "D",
+          "text": "It works only when harmless mimics outnumber defended models."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。最終段落。ナナフシは危険な種に似せるのでなく枝に紛れ、発見されにくくなります。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-mimicry-04-q6"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which inference about studying mimicry is best supported by the passage?",
+      "options": [
+        {
+          "label": "A",
+          "text": "An insect’s color has the same effect on every predator."
+        },
+        {
+          "label": "B",
+          "text": "Shared warning patterns are consciously chosen by the species."
+        },
+        {
+          "label": "C",
+          "text": "Researchers should investigate how the predator perceives and responds to the appearance."
+        },
+        {
+          "label": "D",
+          "text": "Camouflage succeeds only when a twig looks dangerous."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。第1段落と結論は捕食者の視覚・経験・反応が外見の効果を左右すると述べます。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-mimicry-04-q7"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which restatement best preserves the meaning of “These effects are not properties of color or shape alone”?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Color and shape matter, but their effects also depend on the animal observing them."
+        },
+        {
+          "label": "B",
+          "text": "Color and shape have no role in an insect’s appearance."
+        },
+        {
+          "label": "C",
+          "text": "Every observer responds to the same color in exactly the same way."
+        },
+        {
+          "label": "D",
+          "text": "An insect can choose which properties its color will have."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。not ... alone は色や形を無関係とせず、それだけでは効果を決められないという限定です。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-mimicry-04-q8"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which experiment best tests whether an appearance protects an insect as the passage describes?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Measure only the insect’s color and infer the predator’s behavior without observing it."
+        },
+        {
+          "label": "B",
+          "text": "Observe only one insect and ignore the predator’s earlier experience."
+        },
+        {
+          "label": "C",
+          "text": "Count mimics but omit the defended models and all predator encounters."
+        },
+        {
+          "label": "D",
+          "text": "Record predator detection, approach, attack, and avoidance while varying prior experience and mimic-to-model frequency."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。発展問題の学習対象。捕食者の発見・接近・攻撃・回避、経験、擬態種とモデル種の相対頻度を測ります。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-mimicry-04-q9"
+      ]
+    }
+  ]
+}

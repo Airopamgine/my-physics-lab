@@ -6,6 +6,13 @@ TOEFL formats, and make EVERY exercise in all six supplied PDFs answerable there
 Continue bounded batches on the existing four-hour ChatGPT schedule to save
 credits. Do not substitute unrelated original questions or create another task.
 
+Owner's later request prioritizes finishing the remaining existing-post material
+in larger verified batches before resuming the PDF rotation. The old 10–20-answer
+alternation limit is waived for this legacy-completion phase only. Preserve every
+source question and passage, review the English choices and answer key, and never
+mark the legacy corpus complete until all 1,040 source references are covered.
+After legacy completion, resume the PDF review, including blocked original pages.
+
 Normal: https://airopamgine.github.io/my-physics-lab/toefl/
 Same catalog / updates: https://airopamgine.github.io/my-physics-lab/toefl/reading/
 Unconverted originals: https://airopamgine.github.io/my-physics-lab/toefl/archive/
