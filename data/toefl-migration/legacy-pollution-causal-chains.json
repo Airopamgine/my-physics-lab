@@ -1,0 +1,258 @@
+{
+  "id": "legacy-pollution-causal-chains",
+  "title": "Pollution Diseases and Causal Evidence",
+  "task": 3,
+  "date": "2026-09-25T06:45:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "原文四段落と全九つの学習対象を保持し、日本語記述・翻訳・発展問題を本文根拠のある英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-standard-pollution-evidence-20/",
+  "passages": {
+    "text": "Japan's “four major pollution diseases” are Minamata disease in Kumamoto, Niigata Minamata disease, Itai-itai disease, and Yokkaichi asthma. The label groups landmark cases of pollution-related health damage, but the cases did not share one chemical or one exposure route. Grouping helps memory; explanation requires separation.\n\nIn the two Minamata outbreaks, methylmercury compounds discharged from chemical plants entered aquatic environments. Contaminated fish and shellfish became the route by which residents consumed the substance, and severe neurological damage followed. Itai-itai disease involved chronic cadmium exposure in the Jinzu River basin. Cadmium pollution affected agricultural land and food, while kidney dysfunction and osteomalacia were central to the recognized disease. In Yokkaichi, sulfur oxides from the combustion of sulfur-containing fuels contributed to severe air pollution and respiratory illness. Here inhalation, not seafood or rice, was the crucial route.\n\nThese chains show why identifying a hazardous substance is not enough. Investigators must connect a source to movement through water, soil, food, or air; measure human exposure; characterize health effects; and examine alternative explanations. Delay can occur at each link. Companies or authorities may dispute measurements, withhold information, demand an unrealistically high level of proof, or separate environmental data from patients' experiences.\n\nLegal judgments, public protest, research, compensation systems, and stronger controls changed environmental administration. Yet later regulation should not be narrated as if suffering were merely a useful lesson that automatically produced reform. Recognition and compensation were contested, and health loss could be irreversible. The lasting lesson is procedural: monitor emissions before visible injury, make data accessible, investigate clusters early, protect people while uncertainty remains, and ensure that those who create risks cannot simply transfer the costs to those with less power."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What is the central argument of the passage?",
+      "options": [
+        {
+          "label": "A",
+          "text": "All four diseases had the same chemical and route."
+        },
+        {
+          "label": "B",
+          "text": "Disease names are sufficient explanations of pollution."
+        },
+        {
+          "label": "C",
+          "text": "The cases should be distinguished by causal chains and used to improve early protection and accountability."
+        },
+        {
+          "label": "D",
+          "text": "Compensation automatically restored every victim’s health."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。第2・3段落の個別の因果鎖と最終段落の早期保護・責任を統合します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-pollution-evidence-20-q1"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which mapping correctly distinguishes the substances and principal exposure routes?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Both Minamata outbreaks: methylmercury via contaminated seafood; Itai-itai: cadmium through polluted land and food; Yokkaichi: sulfur oxides in inhaled air."
+        },
+        {
+          "label": "B",
+          "text": "Both Minamata outbreaks: sulfur oxides through air; Itai-itai: methylmercury through seafood; Yokkaichi: cadmium through rice."
+        },
+        {
+          "label": "C",
+          "text": "All four: the same substance consumed through contaminated fish."
+        },
+        {
+          "label": "D",
+          "text": "All four: a single infectious agent transmitted from person to person."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。第2段落。水俣の魚介類、イタイイタイの農地・食物、四日市の吸入という経路を区別します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-pollution-evidence-20-q2"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why is identifying a hazardous substance alone insufficient to explain disease?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A substance’s name proves that every resident received the same dose."
+        },
+        {
+          "label": "B",
+          "text": "A causal account must trace source, movement through media, human exposure, health effects, and alternative explanations."
+        },
+        {
+          "label": "C",
+          "text": "A substance’s hazard makes measurements of exposure unnecessary."
+        },
+        {
+          "label": "D",
+          "text": "Only a disease name can establish the mechanism."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。第3段落。有害性と実際の曝露・発症の因果連鎖を区別します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-pollution-evidence-20-q3"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does “Grouping helps memory; explanation requires separation” mean?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The four labels show that every disease had one chemical."
+        },
+        {
+          "label": "B",
+          "text": "Memorizing names removes the need to investigate exposure routes."
+        },
+        {
+          "label": "C",
+          "text": "Separate cases should never be grouped for study."
+        },
+        {
+          "label": "D",
+          "text": "The collective label aids recall, but each case requires its own substance, route, and health-effect explanation."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。一括名は整理に役立ちますが、物質・媒体・曝露・臓器影響を同一視できません。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-pollution-evidence-20-q4"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which sequence best represents the investigative chain described in the passage?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Symptoms → compensation → assume a source without measuring exposure."
+        },
+        {
+          "label": "B",
+          "text": "Disease name → public protest → ignore competing explanations."
+        },
+        {
+          "label": "C",
+          "text": "Emission source → movement through water, soil, food, or air → human exposure → health effects, while testing alternatives."
+        },
+        {
+          "label": "D",
+          "text": "Risk label → immediate certainty about every individual case."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。排出源から媒体・曝露・健康影響へ順に追い、競合する説明も検査します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-pollution-evidence-20-q5"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which inference is best supported by the passage?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Uncertainty always justifies waiting until every mechanism is proven."
+        },
+        {
+          "label": "B",
+          "text": "Environmental measurements and patient experience should be examined together."
+        },
+        {
+          "label": "C",
+          "text": "Air pollution is transmitted mainly through seafood."
+        },
+        {
+          "label": "D",
+          "text": "Later regulation makes the original harm reversible."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。データと患者経験の切断を遅延要因として批判し、不確実性の間も保護すべきと述べます。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-pollution-evidence-20-q6"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which set lists three actions that can delay recognition or relief?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Disputing measurements, withholding information, and demanding an unrealistically high standard of proof."
+        },
+        {
+          "label": "B",
+          "text": "Publishing data, investigating clusters early, and offering medical support."
+        },
+        {
+          "label": "C",
+          "text": "Monitoring emissions, preserving records, and reducing exposure."
+        },
+        {
+          "label": "D",
+          "text": "Comparing environmental and patient data, testing alternatives, and sharing findings."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。第3段落の遅延要因です。環境データと患者経験を分離することも該当します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-pollution-evidence-20-q7"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What is meant by preventing risk creators from transferring costs to people with less power?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Polluters should be free to shift health and remediation burdens to residents."
+        },
+        {
+          "label": "B",
+          "text": "Only product prices count as costs; health and proof burdens do not."
+        },
+        {
+          "label": "C",
+          "text": "Later compensation always reverses neurological and respiratory injury."
+        },
+        {
+          "label": "D",
+          "text": "Those responsible should not impose health, environmental, and evidentiary burdens on less powerful communities without accountability."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。costs は金銭に限らず健康・生活・立証負担も含むという訳出上の要点です。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-pollution-evidence-20-q8"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which system would respond to a credible environmental health risk before causation is fully settled?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Wait for irreversible injury before collecting any emissions data."
+        },
+        {
+          "label": "B",
+          "text": "Let only the suspected company control the investigation and hide records."
+        },
+        {
+          "label": "C",
+          "text": "Monitor emissions and exposure, share data, reduce serious risks provisionally, support patients, review evidence, and involve affected residents."
+        },
+        {
+          "label": "D",
+          "text": "Treat every uncertain claim as either fully proven or necessarily false."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。発展問題。早期監視・公開・暫定的な曝露低減と独立調査を並行させます。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-pollution-evidence-20-q9"
+      ]
+    }
+  ]
+}

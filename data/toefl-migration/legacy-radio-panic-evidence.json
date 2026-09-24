@@ -1,0 +1,258 @@
+{
+  "id": "legacy-radio-panic-evidence",
+  "title": "The Radio Panic Story and Its Evidence",
+  "task": 3,
+  "date": "2026-09-25T06:45:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "原文四段落と全九つの学習対象を保持し、日本語記述・翻訳・発展問題を本文根拠のある英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-standard-radio-evidence-10/",
+  "passages": {
+    "text": "On October 30, 1938, a radio drama adapted a novel about an invasion from Mars. Part of the program imitated news interruptions: music gave way to reports, named officials, and descriptions of events in recognizable places. The program identified itself as drama at several points, but not every listener heard every announcement. Contemporary letters and records show that some listeners were frightened, that telephone calls reached police and news organizations, and that a smaller number of people described taking action.\n\nThese records establish that confusion was real; they do not, by themselves, measure a uniform nationwide panic. Letters sent to a broadcaster or regulator are self-selected. People with unusually strong praise or anger are more likely to write than an average listener. Interviews that intentionally recruit frightened people can explain how fear developed, but they cannot directly tell us what proportion of all households panicked. To estimate prevalence, a historian also needs a defensible denominator: how many people were listening, how they were sampled, and what counted as panic rather than surprise, fear, or an attempt to verify the report.\n\nThe following day's newspapers had powerful anecdotes and a dramatic frame. Reports about traffic, flight, and overloaded telephones made the event visible, while calm listeners were less newsworthy. Later retellings often compressed uneven reactions into the image of a nation in hysteria. The result is not a choice between “nothing happened” and “everyone panicked.” Real confusion can coexist with exaggerated claims about its scale.\n\nThe case still matters for media literacy, but its lesson changes. A realistic format can mislead some people, especially when they enter midway or when existing anxiety makes the report seem plausible. Yet audiences also check other stations, call trusted sources, consult schedules, and interpret messages differently. Media power is therefore neither imaginary nor unlimited. Critical reading requires us to examine the message, the situation of the audience, and the evidence used later to describe the audience's response."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "Which two features helped the radio drama sound like a news report?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Interrupted music and reports naming officials or recognizable places."
+        },
+        {
+          "label": "B",
+          "text": "A continuous comedy routine and an anonymous fantasy setting."
+        },
+        {
+          "label": "C",
+          "text": "A printed survey and a televised map of the country."
+        },
+        {
+          "label": "D",
+          "text": "A silent broadcast and a warning repeated before every sentence."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。第1段落。音楽を中断する速報形式と役職者・実在地名などがニュースらしさを作ります。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-radio-evidence-10-q1"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What can contemporary letters and records directly establish?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Every household in the country heard the program."
+        },
+        {
+          "label": "B",
+          "text": "Some listeners were frightened and some contacted institutions."
+        },
+        {
+          "label": "C",
+          "text": "No listener understood that the program was drama."
+        },
+        {
+          "label": "D",
+          "text": "The exact national panic rate is contained in the letters."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。第1段落。恐怖や警察等への電話は確認できますが全国割合は分かりません。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-radio-evidence-10-q2"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why do letters to broadcasters not represent all listeners automatically?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Every letter was written by a journalist rather than a listener."
+        },
+        {
+          "label": "B",
+          "text": "The broadcast contained no dramatic announcements."
+        },
+        {
+          "label": "C",
+          "text": "People with unusually strong reactions are more likely to write, creating self-selection."
+        },
+        {
+          "label": "D",
+          "text": "All calm listeners wrote letters at the same rate as frightened listeners."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。第2段落。強い怒りや恐怖・称賛を持つ人が自発的に書きやすい自己選択バイアスです。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-radio-evidence-10-q3"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What can interviews deliberately recruiting frightened listeners show, and what can they not directly estimate?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They prove that no one else heard the program."
+        },
+        {
+          "label": "B",
+          "text": "They measure a random national panic percentage but reveal no mechanism."
+        },
+        {
+          "label": "C",
+          "text": "They show only the number of newspaper articles printed the next day."
+        },
+        {
+          "label": "D",
+          "text": "They can explain how fear developed but not the proportion of all households that panicked."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。恐怖を感じた人の経験や機構は調べられますが、偏った標本から全世帯の割合は出せません。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-radio-evidence-10-q4"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does a “defensible denominator” require in this context?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The number of letters, regardless of who listened."
+        },
+        {
+          "label": "B",
+          "text": "A defined population and listening sample, with a clear criterion distinguishing panic from other reactions."
+        },
+        {
+          "label": "C",
+          "text": "Only the most dramatic police call reported in a newspaper."
+        },
+        {
+          "label": "D",
+          "text": "An assumption that every person in the country heard the drama."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。母集団・実際の聴取者・抽出方法・パニックの定義が分子に対応する必要があります。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-radio-evidence-10-q5"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why were calm listeners less prominent in the following day’s reports?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Their ordinary reactions were less newsworthy than flight, traffic, or overloaded phones."
+        },
+        {
+          "label": "B",
+          "text": "The passage says all calm listeners were legally forbidden to speak."
+        },
+        {
+          "label": "C",
+          "text": "Every calm listener had immediately left the country."
+        },
+        {
+          "label": "D",
+          "text": "Newspapers had measured and published a complete random sample."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。第3段落。劇的な逸話が報道に選ばれやすく、落ち着いた反応は見出しになりにくい。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-radio-evidence-10-q6"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which false either-or interpretation does the author reject?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Some listeners called institutions while others checked stations."
+        },
+        {
+          "label": "B",
+          "text": "News-like form and varied audience response can coexist."
+        },
+        {
+          "label": "C",
+          "text": "Either nothing happened or the entire nation panicked uniformly."
+        },
+        {
+          "label": "D",
+          "text": "A historian should distinguish fear from action."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。本文は実在する一部の混乱と全国的規模についての誇張の両立を認めます。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-radio-evidence-10-q7"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does “Real confusion can coexist with exaggerated claims about its scale” mean?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Any claim of confusion is necessarily fabricated."
+        },
+        {
+          "label": "B",
+          "text": "Once some fear is observed, a nationwide panic is proven."
+        },
+        {
+          "label": "C",
+          "text": "Exaggeration about scale means no individual felt afraid."
+        },
+        {
+          "label": "D",
+          "text": "Actual confusion among some people does not validate inflated claims about how widespread it was."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。coexist は実際の混乱と規模についての誇張が同時に存在し得るという意味です。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-radio-evidence-10-q8"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which design would best test a claim that a message panicked an entire society?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Interview only the most frightened people and treat them as the population."
+        },
+        {
+          "label": "B",
+          "text": "Define panic, sample the exposed population, estimate its prevalence, and compare interviews, calls, letters, and news while assessing selection bias."
+        },
+        {
+          "label": "C",
+          "text": "Count dramatic headlines without identifying how many people encountered the message."
+        },
+        {
+          "label": "D",
+          "text": "Treat fear, verification calls, and harmful action as interchangeable."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。発展問題。曝露と反応の定義、適切な標本と分母、複数資料のバイアス検査が必要です。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-radio-evidence-10-q9"
+      ]
+    }
+  ]
+}

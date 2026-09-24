@@ -1,0 +1,258 @@
+{
+  "id": "legacy-secondary-school-comparison",
+  "title": "Comparing Japanese and American High Schools",
+  "task": 3,
+  "date": "2026-09-25T06:45:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "原文四段落と全九つの学習対象を保持し、日本語記述・翻訳・発展問題を本文根拠のある英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-standard-secondary-systems-16/",
+  "passages": {
+    "text": "Comparisons between Japanese and American high schools often begin with visible differences: uniforms, classroom movement, clubs, or course choice. These observations can be useful, but they become misleading when a national average is turned into the personality of every student. A school system is not a single classroom, and a country is not a single school.\n\nOne important difference concerns where broad curriculum decisions are made. Japan's Ministry of Education establishes national Courses of Study as standards for schools, including upper secondary education. Schools and teachers still interpret and implement those standards, and Japanese upper secondary schools include general, specialized, and integrated courses. In the United States, education authority is distributed more heavily across states and local districts. This can produce greater variation in graduation requirements, course sequences, and available electives. It does not mean that an individual American student can choose any course without prerequisites, staffing limits, or state requirements.\n\nDaily organization also varies within both countries. A Japanese class may remain in a homeroom while subject teachers move, whereas many American students change rooms. Yet vocational programs, advanced courses, small schools, and local scheduling practices complicate the pattern. Extracurricular activities likewise serve several purposes: belonging, skill development, competition, leadership, and sometimes preparation for later applications. The amount of time and pressure depends on the particular activity and institution.\n\nA responsible comparison therefore asks two questions. First, at what level is the claim true—national policy, school rule, classroom practice, or individual experience? Second, how much variation does the claim allow? The goal is not to avoid comparison. It is to make comparison testable. Instead of saying that one society values harmony and the other individuality, we can examine who sets requirements, what choices are actually available, and how students experience those choices."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What is the central claim of the passage?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Every American student freely designs a personal curriculum."
+        },
+        {
+          "label": "B",
+          "text": "National character is the best explanation of school life."
+        },
+        {
+          "label": "C",
+          "text": "School systems should be compared by decision levels and variation, not stereotypes."
+        },
+        {
+          "label": "D",
+          "text": "Visible differences between schools are always meaningless."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。最終段落の「どの階層の主張か」「変動をどこまで許すか」という二問に対応します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-secondary-systems-16-q1"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What inference does “A school system is not a single classroom” warn against?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Generalizing from one classroom or school to every school and student in a country."
+        },
+        {
+          "label": "B",
+          "text": "Using classroom observations as one source among several."
+        },
+        {
+          "label": "C",
+          "text": "Comparing national standards with local implementation."
+        },
+        {
+          "label": "D",
+          "text": "Sampling several school types in each country."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。観察単位と結論の単位を混同する過度な一般化を戒めます。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-secondary-systems-16-q2"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why do national Courses of Study not make every Japanese high school identical?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They apply only to American districts and not to Japan."
+        },
+        {
+          "label": "B",
+          "text": "Schools and teachers interpret the standards, and general, specialized, and integrated courses differ."
+        },
+        {
+          "label": "C",
+          "text": "Every teacher can ignore all national standards without exception."
+        },
+        {
+          "label": "D",
+          "text": "They require all students to choose exactly the same extracurricular club."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。第2段落。全国基準の実施には学校・教員の解釈と複数の課程の違いがあります。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-secondary-systems-16-q3"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What follows, and what does not follow, from distributed U.S. state and district authority?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Every state must provide exactly the same electives and requirements."
+        },
+        {
+          "label": "B",
+          "text": "Each student can take any course without prerequisites or staffing limits."
+        },
+        {
+          "label": "C",
+          "text": "A national ministry sets an identical timetable for every American school."
+        },
+        {
+          "label": "D",
+          "text": "Requirements and offerings may vary, but individual choice is still limited by prerequisites, staff, and rules."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。制度の分散は要件や科目の変動を生み得ますが、個人の無制限の選択を意味しません。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-secondary-systems-16-q4"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "In paragraph 2, what does “implement” mean?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Merely memorize the names of national standards."
+        },
+        {
+          "label": "B",
+          "text": "Abolish the standards before any lessons begin."
+        },
+        {
+          "label": "C",
+          "text": "Put standards into practice through teaching, schedules, and assessment."
+        },
+        {
+          "label": "D",
+          "text": "Transfer all curricular authority to individual students."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。implement は定められた基準を具体的な教育実践に移す「実施する」です。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-secondary-systems-16-q5"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which inference is best supported by the passage?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A national standard and local interpretation can coexist."
+        },
+        {
+          "label": "B",
+          "text": "Extracurricular activities have one identical purpose everywhere."
+        },
+        {
+          "label": "C",
+          "text": "Room-changing practices determine a student’s personality."
+        },
+        {
+          "label": "D",
+          "text": "Variation makes international comparison impossible."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。全国基準と学校・教員の実施上の違いが第2段落に併記されています。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-secondary-systems-16-q6"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What are “those choices” in the final paragraph, and why is counting options alone insufficient?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Only national stereotypes; counting them proves what every student values."
+        },
+        {
+          "label": "B",
+          "text": "Actually available courses and activities; prerequisites, timetables, staffing, and student experience affect usable choice."
+        },
+        {
+          "label": "C",
+          "text": "Only which classroom a subject teacher visits; no school rules affect it."
+        },
+        {
+          "label": "D",
+          "text": "Only a country’s number of schools, regardless of individual access."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。名目上の一覧だけでなく、履修条件や提供体制と生徒が経験する実質的選択を問います。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-secondary-systems-16-q7"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does “The goal is not to avoid comparison. It is to make comparison testable” mean?",
+      "options": [
+        {
+          "label": "A",
+          "text": "International comparison should be abandoned entirely."
+        },
+        {
+          "label": "B",
+          "text": "Only a written school examination can compare two countries."
+        },
+        {
+          "label": "C",
+          "text": "National personalities should replace evidence about institutions."
+        },
+        {
+          "label": "D",
+          "text": "Claims should be framed so policy, school rules, and experience can be checked with evidence and counterexamples."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。testable は試験問題にできるではなく、資料や反例で検査できるという意味です。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-secondary-systems-16-q8"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which study design would avoid stereotypes when comparing the two systems?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Observe one classroom in each country and generalize to all students."
+        },
+        {
+          "label": "B",
+          "text": "Use only a national average and ignore school types and local rules."
+        },
+        {
+          "label": "C",
+          "text": "Sample regions and school types, compare policy with timetables and observations, interview students, and report variation by level."
+        },
+        {
+          "label": "D",
+          "text": "Treat any difference in course choice as proof of a fixed national personality."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。発展問題。複数地域・校種、制度資料と現場資料、生徒経験を分けて変動幅を示します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-secondary-systems-16-q9"
+      ]
+    }
+  ]
+}

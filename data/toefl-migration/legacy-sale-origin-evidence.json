@@ -1,0 +1,258 @@
+{
+  "id": "legacy-sale-origin-evidence",
+  "title": "Sale Narratives, Origins, and Costs",
+  "task": 3,
+  "date": "2026-09-25T06:45:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "原文四段落と全九つの学習対象を保持し、日本語記述・翻訳・発展問題を本文根拠のある英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-standard-sale-narratives-08/",
+  "passages": {
+    "text": "In the United States, the Friday after Thanksgiving is now associated with heavily promoted sales. A popular explanation says that retailers once recorded losses in red ink and profits in black ink, so the day marked their annual move “into the black.” The image is memorable, but a memorable explanation is not automatically the earliest explanation. A history of a phrase must ask when a meaning appears in surviving records and how widely it was used.\n\nMid-twentieth-century evidence connects the expression to more than one complaint. A trade publication used it for workers calling in sick after the holiday. In and around Philadelphia, the expression was also associated with difficult traffic, dense crowds, and long working hours for police. These uses shared a negative tone. They did not yet present the day as a celebration of retail profit, and they were not necessarily parts of one single, nationwide origin story.\n\nAs the shopping expression spread, businesses had a reason to make the dark label sound positive. The red-ink/black-ink account supplied a convenient reinterpretation. It may describe the importance of the holiday season to some businesses, but that does not make it evidence that the phrase began as an accounting term. The distinction is between a statement about commerce and a statement about language history. One can be plausible while the other remains unsupported.\n\nThe event has since expanded across countries and digital platforms, often lasting far longer than one Friday. Its consequences cannot be measured by sales totals alone. A low price may benefit a household, while rapid replacement of usable goods may increase material extraction, manufacturing emissions, packaging, and waste. The relevant question is not whether every purchase is harmful. It is whether the promotion changes what, how much, and how soon people buy—and whether producers and consumers bear the full costs across a product's life."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "Which approach to the phrase’s history does the passage recommend?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The most popular origin story must be the oldest."
+        },
+        {
+          "label": "B",
+          "text": "A phrase’s history should be tested against dated and contextualized evidence."
+        },
+        {
+          "label": "C",
+          "text": "All retail promotion is necessarily fraudulent."
+        },
+        {
+          "label": "D",
+          "text": "One city created every meaning of the expression at the same moment."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。語源は覚えやすい物語ではなく、日付と文脈のある初期用例で検査します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-sale-narratives-08-q1"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does “memorable” describe, and what does it not guarantee?",
+      "options": [
+        {
+          "label": "A",
+          "text": "An explanation is easy to remember, but need not be the earliest or historically correct one."
+        },
+        {
+          "label": "B",
+          "text": "An explanation is both popular and necessarily supported by the oldest surviving record."
+        },
+        {
+          "label": "C",
+          "text": "An explanation was used uniformly in every city at one moment."
+        },
+        {
+          "label": "D",
+          "text": "An explanation is impossible to reinterpret in a later period."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。第1段落。記憶に残りやすいことと史料に裏付けられた語源であることは別です。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-sale-narratives-08-q2"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which two early negative uses are described in paragraph 2?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A national celebration of profit and the birth of online shopping."
+        },
+        {
+          "label": "B",
+          "text": "A complaint about damaged goods and a ban on holiday discounts."
+        },
+        {
+          "label": "C",
+          "text": "Workers calling in sick after the holiday, and Philadelphia-area traffic, crowds, and long police hours."
+        },
+        {
+          "label": "D",
+          "text": "Retailers reporting the same accounting loss in every state."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。職場の病欠とフィラデルフィア周辺の交通・群衆・警察勤務という異なる不満です。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-sale-narratives-08-q3"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does a plausible red-ink/black-ink account not establish the phrase’s origin?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Because no retailer has ever used accounting records."
+        },
+        {
+          "label": "B",
+          "text": "Because later meanings cannot change the social meaning of a phrase."
+        },
+        {
+          "label": "C",
+          "text": "Because the holiday season can never be important to businesses."
+        },
+        {
+          "label": "D",
+          "text": "A claim about business profits is different from evidence of when and how the phrase was first used."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。商業上もっともらしい話と語の歴史上の初出は別の主張で、後者には初期用例が必要です。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-sale-narratives-08-q4"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What do “One” and “the other” refer to in paragraph 3?",
+      "options": [
+        {
+          "label": "A",
+          "text": "One city and a second city in the same state."
+        },
+        {
+          "label": "B",
+          "text": "A statement about holiday commerce and a statement about the phrase’s linguistic history."
+        },
+        {
+          "label": "C",
+          "text": "One Friday sale and a second Saturday sale."
+        },
+        {
+          "label": "D",
+          "text": "A household benefit and a manufacturing emission."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。直前の二つの statement、商業の重要性と語源の主張をそれぞれ受けます。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-sale-narratives-08-q5"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which inference is most consistent with the passage?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A later reinterpretation can change the social meaning associated with a phrase."
+        },
+        {
+          "label": "B",
+          "text": "Red and black ink were never used in accounting."
+        },
+        {
+          "label": "C",
+          "text": "Early uses were identical and nationwide."
+        },
+        {
+          "label": "D",
+          "text": "Every discounted purchase is environmentally harmful."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。第3段落で企業の再解釈が暗い呼称を肯定的な販促表現に変えています。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-sale-narratives-08-q6"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does the author avoid equating every sale with environmental harm?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Because sales totals include every environmental cost automatically."
+        },
+        {
+          "label": "B",
+          "text": "Because rapid replacement of goods never changes emissions or waste."
+        },
+        {
+          "label": "C",
+          "text": "Because some discounts help households, while impacts depend on purchasing timing, quantity, and the product life cycle."
+        },
+        {
+          "label": "D",
+          "text": "Because all purchases outside a sale are harmless."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。最終段落。家計の便益と、買い替え・生産・包装・廃棄による費用を区別します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-sale-narratives-08-q7"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "How should “One can be plausible while the other remains unsupported” be read?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Both statements must be false whenever they differ."
+        },
+        {
+          "label": "B",
+          "text": "The two statements become equally well evidenced over time."
+        },
+        {
+          "label": "C",
+          "text": "The word “while” describes only simultaneous events in a store."
+        },
+        {
+          "label": "D",
+          "text": "The commercial claim may be credible while the proposed origin still lacks adequate historical evidence."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。while は対比、unsupported は十分な証拠がないという意味で誤りの証明ではありません。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-sale-narratives-08-q8"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which method would most responsibly investigate the origin of a phrase?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Repeat an attractive modern story and assume it records the first spoken use."
+        },
+        {
+          "label": "B",
+          "text": "Compare dated examples in original contexts and independent records, distinguishing local use, later reinterpretation, and earliest surviving evidence."
+        },
+        {
+          "label": "C",
+          "text": "Use only current advertisements, disregarding older documents."
+        },
+        {
+          "label": "D",
+          "text": "Treat the earliest surviving printed use as proof of the first utterance anywhere."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。発展問題。年代と文脈、独立資料、地域差を調べ、最古の現存用例と最初の発話を区別します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-sale-narratives-08-q9"
+      ]
+    }
+  ]
+}

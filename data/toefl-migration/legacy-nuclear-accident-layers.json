@@ -1,0 +1,258 @@
+{
+  "id": "legacy-nuclear-accident-layers",
+  "title": "Nuclear Accidents and Layers of Safety",
+  "task": 3,
+  "date": "2026-09-25T06:45:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "原文四段落と全九つの学習対象を保持し、日本語記述・翻訳・発展問題を本文根拠のある英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-standard-nuclear-accident-layers-26/",
+  "passages": {
+    "text": "Comparing nuclear accidents by a single label such as “more serious” hides the path by which each event developed. A reactor is protected by several layers: physical barriers, cooling equipment, instruments, operating procedures, regulation, and emergency plans. An initiating event becomes a disaster only through its interaction with these layers. The useful question is therefore not simply which accident was worst, but which barriers failed, which remained effective, and what evidence supports each claimed consequence.\n\nAt Three Mile Island in 1979, equipment malfunction, design problems, misleading indications, and operator actions combined in a partial core meltdown. Operators did not merely forget a correct answer; the control room gave them an incomplete picture of coolant loss. The containment structure and other barriers limited off-site releases. U.S. regulators report that the small releases produced no detectable health effects in workers or the public. That wording does not mean that the reactor suffered little damage. It separates severe damage inside the plant from measured effects outside it.\n\nAt Chernobyl in 1986, an unstable test condition interacted with serious features of the reactor design and violations of operating rules. The resulting power excursion, explosions, and fire destroyed the reactor and released radionuclides widely. Emergency workers experienced acute radiation injury, and increased thyroid cancer was later documented among people exposed when young, especially through radioactive iodine. Other long-term totals depend on dose reconstruction and statistical models. A responsible comparison must not replace this uneven evidence with either “no lasting effect” or one certain number for every possible future cancer.\n\nAt Fukushima Daiichi in 2011, the earthquake and tsunami were the external hazards, but they were not a complete causal explanation. Flooding disabled power and cooling functions needed after the reactors had shut down; fuel damage and hydrogen explosions followed. The accident revealed the importance of planning for hazards beyond familiar assumptions, protecting multiple power sources, managing severe accidents, and communicating under uncertainty. Across all three cases, “human versus natural cause” is a false choice. Technology is designed, operated, regulated, and repaired by institutions. Safety improves when investigators reconstruct interactions instead of choosing one convenient culprit."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What is the central argument of the passage?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Every nuclear accident can be explained by one careless operator."
+        },
+        {
+          "label": "B",
+          "text": "Accident comparison should reconstruct interacting failures and surviving barriers."
+        },
+        {
+          "label": "C",
+          "text": "External hazards are unrelated to technological safety."
+        },
+        {
+          "label": "D",
+          "text": "Health consequences can always be expressed by one certain total."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。第1段落と結論。起点だけでなく失敗した防護層と機能した層を事故経路として比較します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-nuclear-accident-layers-26-q1"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "How does an initiating event relate to the eventual disaster?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It begins a chain whose consequences depend on interactions with barriers, equipment, procedures, and institutions."
+        },
+        {
+          "label": "B",
+          "text": "It alone determines every later health effect regardless of safety systems."
+        },
+        {
+          "label": "C",
+          "text": "It is always an operator’s forgotten instruction."
+        },
+        {
+          "label": "D",
+          "text": "It is relevant only after all emergency plans have worked perfectly."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。trigger は単独の全原因ではなく、冷却・表示・手順などとの相互作用で進展が変わります。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-nuclear-accident-layers-26-q2"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "How can severe reactor damage coexist with no detectable off-site health effects in the Three Mile Island account?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Because a partial core meltdown cannot damage the reactor."
+        },
+        {
+          "label": "B",
+          "text": "Because workers and the public received identical doses inside and outside the plant."
+        },
+        {
+          "label": "C",
+          "text": "Because containment and other barriers can limit releases even when the core is badly damaged."
+        },
+        {
+          "label": "D",
+          "text": "Because the passage claims that the plant had no equipment malfunction."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。第2段落。炉内損傷と敷地外への放出・測定影響は別の尺度で、防護層が移動を抑え得ます。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-nuclear-accident-layers-26-q3"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "In paragraph 2, “misleading” is closest in meaning to:",
+      "options": [
+        {
+          "label": "A",
+          "text": "likely to create a wrong understanding"
+        },
+        {
+          "label": "B",
+          "text": "designed to measure radiation precisely"
+        },
+        {
+          "label": "C",
+          "text": "easy to repair after an accident"
+        },
+        {
+          "label": "D",
+          "text": "hidden deliberately from every operator"
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。計器表示が運転員に冷却材喪失の不完全な状況像を与えた文脈です。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-nuclear-accident-layers-26-q4"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "How does the passage distinguish observed effects from model-dependent estimates at Chernobyl?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It describes all future cancer cases as individually proven consequences."
+        },
+        {
+          "label": "B",
+          "text": "It says neither acute injury nor thyroid cancer increases were observed."
+        },
+        {
+          "label": "C",
+          "text": "It treats all long-term totals as directly counted without dose estimates."
+        },
+        {
+          "label": "D",
+          "text": "It identifies acute worker injuries and increased thyroid cancer among those exposed young, while broader long-term totals require dose and statistical models."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。第3段落。観察された急性障害・甲状腺がん増加と、線量再構成・統計モデルに依存する総数を区別します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-nuclear-accident-layers-26-q5"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which inference is best supported by the Fukushima discussion?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Calling the tsunami a trigger completes the entire causal analysis."
+        },
+        {
+          "label": "B",
+          "text": "Reactor shutdown immediately removes every need for cooling."
+        },
+        {
+          "label": "C",
+          "text": "External hazards must be considered together with plant and emergency design."
+        },
+        {
+          "label": "D",
+          "text": "Hydrogen explosions caused the earthquake."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。第4段落。洪水が電源・冷却を損ない、配置・備え・過酷事故対応も経路を左右しました。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-nuclear-accident-layers-26-q6"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does the author call “human versus natural cause” a false choice?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Because natural hazards never affect engineered systems."
+        },
+        {
+          "label": "B",
+          "text": "Because natural events interact with human choices about design, operation, regulation, and emergency planning."
+        },
+        {
+          "label": "C",
+          "text": "Because every accident is caused solely by a single person."
+        },
+        {
+          "label": "D",
+          "text": "Because institutions are irrelevant once a reactor shuts down."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。自然ハザードも影響しますが、防護・電源・計画は人と制度による選択です。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-nuclear-accident-layers-26-q7"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which restatement preserves the point about the Three Mile Island operators and the control room?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Their actions cannot be reduced to forgetting an answer, because the control room gave an incomplete picture of coolant loss."
+        },
+        {
+          "label": "B",
+          "text": "They received a complete picture but deliberately ignored every indication."
+        },
+        {
+          "label": "C",
+          "text": "The passage says coolant loss never occurred."
+        },
+        {
+          "label": "D",
+          "text": "The statement proves that equipment and design were irrelevant."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。セミコロン後半が単純な人的過誤説を修正し、不完全な表示の役割を示します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-nuclear-accident-layers-26-q8"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which investigation plan applies the passage’s trigger-versus-contributing-factors framework to a failed simulation?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Blame the last person to run it without preserving inputs or logs."
+        },
+        {
+          "label": "B",
+          "text": "Call every problem a trigger and avoid examining boundaries or defaults."
+        },
+        {
+          "label": "C",
+          "text": "Record only the final error message and assume no reference solution matters."
+        },
+        {
+          "label": "D",
+          "text": "Identify the first deviation, preserve inputs and logs, test time-step, grid, boundary, defaults, and warnings separately, and distinguish necessary conditions from amplifiers."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。発展問題。最初の逸脱と、設定・格子・境界・警告・検証不足という寄与因子を分けて再現します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-nuclear-accident-layers-26-q9"
+      ]
+    }
+  ]
+}

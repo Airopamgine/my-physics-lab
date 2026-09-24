@@ -1120,12 +1120,14 @@
   "lastSource": {
     "type": "legacy",
     "ids": [
-      "legacy-vocabulary-adjectives-context-026-050",
-      "legacy-vocabulary-context-verbs-001-025",
-      "legacy-mimicry-observer",
-      "legacy-nasca-evidence"
+      "legacy-public-power-documents",
+      "legacy-radio-panic-evidence",
+      "legacy-sale-origin-evidence",
+      "legacy-secondary-school-comparison",
+      "legacy-nuclear-accident-layers",
+      "legacy-pollution-causal-chains"
     ],
-    "convertedAt": "2026-09-25T06:40:00+09:00"
+    "convertedAt": "2026-09-25T06:45:00+09:00"
   },
   "blockedItems": [
     {
