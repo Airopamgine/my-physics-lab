@@ -1,0 +1,258 @@
+{
+  "id": "legacy-semiconductor-quantum-control",
+  "title": "Quantum Structure and Semiconductor Control",
+  "task": 3,
+  "date": "2026-09-25T07:06:42+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "原文と全九つの学習対象を保持し、日本語記述・翻訳・発展問題を本文根拠のある英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-standard-semiconductor-quantum-control-30/",
+  "passages": {
+    "text": "Quantum mechanics is essential to semiconductor technology, but a correct explanation requires more than attaching the word “quantum” to every electron motion. In an isolated atom, electrons occupy allowed quantum states rather than classical planetary orbits. When many atoms form a periodic crystal, interactions among a vast number of states produce ranges of allowed energy called bands. The filling and separation of these bands help explain why materials conduct differently.\n\nIn a simplified picture, a metal has available states that carriers can occupy with little additional energy. A semiconductor has a valence band and a conduction band separated by a moderate band gap. Thermal energy or absorbed light can excite an electron into the conduction band, leaving a mobile hole in the valence band. An insulator usually has a larger gap under comparable conditions. The boundary is not a magical number: temperature, crystal structure, impurities, and the intended device operation all matter.\n\nEngineers make conductivity controllable through doping and electric fields. Donor impurities can provide electrons, while acceptor impurities create holes. Joining differently doped regions produces junctions whose internal electric fields guide carrier motion. In a field-effect transistor, a voltage applied to an insulated gate changes the carrier population and potential near a semiconductor surface, creating or removing a conducting channel. The gate need not mechanically open, and ordinary channel formation is not the same process as an electron tunneling through a forbidden barrier.\n\nTunneling is real and technologically important: a quantum wave can cross a barrier even when classical energy would be insufficient. It appears in specialized devices and as leakage when insulating layers become extremely thin. That fact makes the distinction more—not less—important. Finally, digital zero and one are robust ranges of circuit voltage chosen by engineers, not tiny labels carried by individual electrons. Quantum theory makes semiconductor behavior intelligible; materials science, fabrication, device geometry, and circuit design turn that behavior into reliable computation."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What is the central argument?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Every transistor operates mainly by tunneling."
+        },
+        {
+          "label": "B",
+          "text": "Quantum band structure enables devices, while materials, carrier control, and circuits turn it into robust logic."
+        },
+        {
+          "label": "C",
+          "text": "A smartphone bit is the label of one individual electron."
+        },
+        {
+          "label": "D",
+          "text": "Semiconductor operation requires no material engineering."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。量子状態・バンドから不純物やゲート制御、回路論理までの層を結ぶ主旨です。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-semiconductor-quantum-control-30-q1"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why do energy bands form in a semiconductor crystal?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Many atomic states interact in a periodic arrangement, producing ranges of allowed energies."
+        },
+        {
+          "label": "B",
+          "text": "All atoms become identical free electrons with no energy constraints."
+        },
+        {
+          "label": "C",
+          "text": "A battery draws permanent lines between individual atoms."
+        },
+        {
+          "label": "D",
+          "text": "The crystal loses every available quantum state."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。第1段落。周期的結晶中で多数の原子状態が相互作用し、許容エネルギー帯になります。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-semiconductor-quantum-control-30-q2"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What are an electron and a hole after an electron is promoted across the gap?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Two names for the same fixed positive ion."
+        },
+        {
+          "label": "B",
+          "text": "A pair of newly created atoms outside the crystal."
+        },
+        {
+          "label": "C",
+          "text": "A mobile conduction-band electron and a mobile absence of an electron in the valence band."
+        },
+        {
+          "label": "D",
+          "text": "Two digital bits that can never move."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。価電子帯から伝導帯へ移った電子と、価電子帯に残る正電荷のように動く空孔です。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-semiconductor-quantum-control-30-q3"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does doping do?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Replace a circuit with software."
+        },
+        {
+          "label": "B",
+          "text": "Remove the need for any band gap."
+        },
+        {
+          "label": "C",
+          "text": "Force all electrons to tunnel through an insulating gate."
+        },
+        {
+          "label": "D",
+          "text": "Introduce selected impurities to alter the availability of charge carriers."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。第2段落。不純物添加によって電子や正孔の供給を制御します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-semiconductor-quantum-control-30-q4"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "How does an insulated gate control a transistor channel?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It pumps air through the crystal."
+        },
+        {
+          "label": "B",
+          "text": "Its voltage changes the local potential and carrier population, allowing current to be controlled."
+        },
+        {
+          "label": "C",
+          "text": "It permanently converts every atom into a metal."
+        },
+        {
+          "label": "D",
+          "text": "It sends each electron a digital instruction."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。ゲート電圧が電位とキャリアの分布を変えて導通路を形成・制御します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-semiconductor-quantum-control-30-q5"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "How does the passage distinguish tunneling from ordinary channel formation?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They are identical names for all transistor currents."
+        },
+        {
+          "label": "B",
+          "text": "Tunneling is impossible in any semiconductor."
+        },
+        {
+          "label": "C",
+          "text": "Tunneling can serve particular devices or cause leakage, but is not the generic explanation of a gate-controlled channel."
+        },
+        {
+          "label": "D",
+          "text": "Every use of tunneling makes a circuit more energy efficient."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。第3段落。特定の用途・漏れの原因となるトンネル効果と通常のチャネル形成を区別します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-semiconductor-quantum-control-30-q6"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which sequence best connects quantum mechanics to digital logic?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Allowed energy bands → material and doping choices → device junctions and fields → robust circuit voltage ranges."
+        },
+        {
+          "label": "B",
+          "text": "Binary labels → no carrier movement → no device structure → quantum theory."
+        },
+        {
+          "label": "C",
+          "text": "Software icons → pure tunneling → no fabrication → atoms."
+        },
+        {
+          "label": "D",
+          "text": "Voltage ranges → elimination of bands → random impurities → logic."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。第1～4段落の量子・材料・素子・回路という四層を順に保ちます。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-semiconductor-quantum-control-30-q7"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does “more—not less—important” mean in the discussion of tunneling?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Tunneling is unreal, so it should never be discussed."
+        },
+        {
+          "label": "B",
+          "text": "The author wants to remove all distinctions between mechanisms."
+        },
+        {
+          "label": "C",
+          "text": "Tunneling explains every channel and every bit identically."
+        },
+        {
+          "label": "D",
+          "text": "Because tunneling is real, it is especially important to distinguish where it occurs from other device processes."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。実在する効果だからこそ、通常のチャネル形成との機構の違いを明確にします。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-semiconductor-quantum-control-30-q8"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "How should one qualify the phrase “a smartphone runs on quantum mechanics”?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It means each screen icon corresponds to one stationary electron."
+        },
+        {
+          "label": "B",
+          "text": "Quantum structure is essential, but fabrication, geometry, carrier control, circuits, and software are also required."
+        },
+        {
+          "label": "C",
+          "text": "It means all phone functions are direct tunneling events."
+        },
+        {
+          "label": "D",
+          "text": "It means no engineering can affect electronic behavior."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。発展問題。量子論は必要でも、材料・製造・回路・ソフトウェアの媒介を省きません。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-semiconductor-quantum-control-30-q9"
+      ]
+    }
+  ]
+}

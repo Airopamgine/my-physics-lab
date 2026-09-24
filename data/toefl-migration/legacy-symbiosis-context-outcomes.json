@@ -1,0 +1,258 @@
+{
+  "id": "legacy-symbiosis-context-outcomes",
+  "title": "Symbiosis Depends on Context and Measurement",
+  "task": 3,
+  "date": "2026-09-25T07:06:42+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "原文と全九つの学習対象を保持し、日本語記述・翻訳・発展問題を本文根拠のある英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-standard-symbiosis-context-outcomes-34/",
+  "passages": {
+    "text": "Ecologists often summarize interactions between species with signs. In mutualism, both partners receive a net benefit (+/+). In commensalism, one benefits while the effect on the other is approximately neutral (+/0). In parasitism, the parasite benefits while the host pays a cost (+/−). The table is useful, but the signs are conclusions about effects on survival or reproduction, not permanent name tags carried by organisms.\n\nConsider fungi associated with plant roots. A fungus may obtain carbon compounds from a plant while increasing the plant's access to phosphorus or water. Under nutrient-poor conditions, the exchange can benefit both partners. If nutrients are already abundant, however, the carbon cost to the plant may exceed the service received. Describing the association requires specifying the environment, the partners, and the quantity being measured.\n\nCommensalism is especially difficult to demonstrate. A small organism riding on a larger animal may gain transport and access to food, while researchers initially detect little effect on the carrier. Yet “no detectable effect” may reflect limited measurements. Added drag, cleaning, protection, disease transmission, or altered behaviour could appear over a different time scale. Zero is therefore a hypothesis that must be tested, not an empty space in a table.\n\nParasites also reveal why moral language can mislead. Natural selection does not require a parasite to intend harm, and many parasites gain by keeping a host alive long enough to feed or reproduce. Hosts, meanwhile, evolve defences, and parasites may evolve counter-defences. These feedbacks can alter population size, food webs, and disease dynamics. Classification remains valuable when it starts inquiry; it becomes misleading when it replaces measurement."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What is the passage’s central claim?",
+      "options": [
+        {
+          "label": "A",
+          "text": "An interaction has one permanent label in every environment."
+        },
+        {
+          "label": "B",
+          "text": "Interaction labels summarize effects, but their signs depend on measured context and outcomes."
+        },
+        {
+          "label": "C",
+          "text": "Commensalism means the second species should not be studied."
+        },
+        {
+          "label": "D",
+          "text": "Parasites intend to punish their hosts."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。第1・4段落。分類は有用でも、符号は生存・繁殖への正味効果の測定結果です。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-symbiosis-context-outcomes-34-q1"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which sequence correctly gives the signs for mutualism, commensalism, and parasitism?",
+      "options": [
+        {
+          "label": "A",
+          "text": "+/+, +/0, and +/−, respectively."
+        },
+        {
+          "label": "B",
+          "text": "+/−, +/+, and +/0, respectively."
+        },
+        {
+          "label": "C",
+          "text": "0/0, −/−, and +/+, respectively."
+        },
+        {
+          "label": "D",
+          "text": "+/0, +/−, and −/−, respectively."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。相利は双方利益、片利は一方利益・他方ほぼ中立、寄生は寄生者利益・宿主費用です。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-symbiosis-context-outcomes-34-q2"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "When might a root fungus stop being beneficial to its plant partner?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Whenever phosphorus is scarce and the fungus supplies more of it."
+        },
+        {
+          "label": "B",
+          "text": "Whenever the plant receives water at no carbon cost."
+        },
+        {
+          "label": "C",
+          "text": "When nutrients are abundant and the plant’s carbon cost exceeds the added phosphorus or water benefit."
+        },
+        {
+          "label": "D",
+          "text": "Only when both partners cease reproducing at the same moment."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。第2段落。植物が与える炭素の費用と得る養分・水の追加利益の差を比べます。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-symbiosis-context-outcomes-34-q3"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does “net” mean in “a net benefit”?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Caught with a fishing device."
+        },
+        {
+          "label": "B",
+          "text": "Equal for every organism."
+        },
+        {
+          "label": "C",
+          "text": "Measured before subtracting any cost."
+        },
+        {
+          "label": "D",
+          "text": "Remaining after costs are taken into account."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。net benefit は費用控除後の正味利益であり、網の意味ではありません。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-symbiosis-context-outcomes-34-q4"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why is “zero” called a hypothesis in the account of commensalism?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The carrier organism is absent from the association."
+        },
+        {
+          "label": "B",
+          "text": "No effect has been detected under current measurements, but other effects or time scales might reveal one."
+        },
+        {
+          "label": "C",
+          "text": "It proves that no future measurement is needed."
+        },
+        {
+          "label": "D",
+          "text": "It means both species always pay identical costs."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。第3段落。検出されないことは真に影響ゼロの証明ではなく、測定対象と期間に依存します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-symbiosis-context-outcomes-34-q5"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why could longer study reclassify an association first called commensal?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Drag or behavioral costs might accumulate, and protection, cleaning, or disease effects might emerge."
+        },
+        {
+          "label": "B",
+          "text": "The signs are permanent even when survival changes."
+        },
+        {
+          "label": "C",
+          "text": "A longer study necessarily turns every interaction into parasitism."
+        },
+        {
+          "label": "D",
+          "text": "Only the rider can ever have measurable outcomes."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。抵抗・行動変化・病原体伝播・清掃や防御などを長期に測ると他方の効果が分かり得ます。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-symbiosis-context-outcomes-34-q6"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which explanation avoids the moral language the author rejects?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The parasite consciously chooses evil."
+        },
+        {
+          "label": "B",
+          "text": "The host is being punished for its actions."
+        },
+        {
+          "label": "C",
+          "text": "Selection can favor parasite reproduction and host defenses without requiring an intention to harm."
+        },
+        {
+          "label": "D",
+          "text": "A parasite must kill its host as quickly as possible."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。第4段落。意図・悪意でなく、利益・費用と自然選択のフィードバックで説明します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-symbiosis-context-outcomes-34-q7"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What contrast does “Classification remains valuable when it starts inquiry; it becomes misleading when it replaces measurement” express?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Classification is always worthless, even for framing questions."
+        },
+        {
+          "label": "B",
+          "text": "Measurement should be replaced with a permanent label."
+        },
+        {
+          "label": "C",
+          "text": "The semicolon states two unrelated definitions."
+        },
+        {
+          "label": "D",
+          "text": "Labels can guide investigation but mislead when treated as substitutes for measuring effects."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。前半の分類の役割と後半の限界をセミコロン・when の条件差で対比します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-symbiosis-context-outcomes-34-q8"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which study design best classifies a newly observed two-species interaction?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Observe only a single feeding event and assign a permanent sign."
+        },
+        {
+          "label": "B",
+          "text": "Compare both species with and without the partner across conditions and generations, measuring survival and reproduction with uncertainty."
+        },
+        {
+          "label": "C",
+          "text": "Measure the smaller species only and assume the carrier is unaffected."
+        },
+        {
+          "label": "D",
+          "text": "Infer motives and ignore nutrient levels or time scale."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。発展問題。両者の対照群、環境・世代、成長・生存・繁殖と不確実性を明示します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-symbiosis-context-outcomes-34-q9"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "id": "legacy-gps-relativity-clocks",
+  "title": "Relativity and GPS Clock Corrections",
+  "task": 3,
+  "date": "2026-09-25T07:06:42+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "原文と全九つの学習対象を保持し、日本語記述・翻訳・発展問題を本文根拠のある英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-standard-relativity-gps-clocks-31/",
+  "passages": {
+    "text": "A satellite-navigation receiver does not see its position directly. Each satellite broadcasts a time-tagged signal together with information about its orbit. By comparing transmission and reception times, the receiver estimates a *pseudorange*: a distance-like quantity that includes both geometric distance and clock error. Signals from several satellites let the receiver solve for three spatial coordinates and the offset of its own imperfect clock.\n\nThis method makes timing part of the measuring instrument. Light travels about 300 metres in one microsecond, so a clock-rate error that accumulates for a day cannot be dismissed merely because the number of microseconds looks small. Satellite clocks also do not tick at exactly the same rate as clocks on Earth's surface. Their orbital motion makes them run more slowly relative to an Earth-centred reference, an effect associated with special relativity. Their greater altitude places them in a weaker gravitational potential, making them run faster, an effect described by general relativity.\n\nFor the main GPS orbit, the commonly quoted contributions are approximately minus 7 microseconds per day from motion and plus 45 microseconds per day from gravity. The net rate is therefore about plus 38 microseconds per day. If that net offset were allowed to accumulate without compensation, multiplying it by the speed of light gives an error scale of roughly 11 kilometres after one day—not because every user's error would grow in one simple straight line, but because the ranging data would become badly inconsistent.\n\nEngineers do not wait for the error to appear and then subtract a slogan-sized correction. Satellite clock frequencies are offset before operation, navigation messages supply further corrections, and receivers account for orbit geometry, atmospheric delay, Earth rotation, and other effects. Relativity supplies indispensable relations between clocks and coordinates; atomic clocks, control systems, estimation algorithms, and repeated calibration make those relations useful. The deeper lesson is that a theory becomes practical when its assumptions are translated into an error budget."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What is the passage’s main point?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A GPS receiver can ignore clocks whenever four satellites are visible."
+        },
+        {
+          "label": "B",
+          "text": "Relativity becomes useful in GPS through a wider system of timing, measurement, and correction."
+        },
+        {
+          "label": "C",
+          "text": "Satellite speed is the only source of GPS error."
+        },
+        {
+          "label": "D",
+          "text": "Relativity replaces the need for orbit and atmospheric models."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。相対論の時計補正を衛星信号、受信機推定、軌道・大気補正を含む全体の測定系に位置づけます。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-relativity-gps-clocks-31-q1"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What fourth unknown does the receiver estimate along with three position coordinates?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The color of each satellite."
+        },
+        {
+          "label": "B",
+          "text": "The speed of light in a vacuum."
+        },
+        {
+          "label": "C",
+          "text": "Its own clock offset."
+        },
+        {
+          "label": "D",
+          "text": "The mass of every nearby building."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。第1段落。距離に時計誤差が入るため、三座標に加え受信機の時計ずれを解きます。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-relativity-gps-clocks-31-q2"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "How do satellite motion and altitude affect the onboard clock relative to an Earth clock?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Motion makes it run slower, while higher altitude makes it run faster."
+        },
+        {
+          "label": "B",
+          "text": "Both effects make it run slower by the same amount."
+        },
+        {
+          "label": "C",
+          "text": "Motion makes it run faster, while higher altitude makes it run slower."
+        },
+        {
+          "label": "D",
+          "text": "Neither effect matters to GPS timing."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。第2段落。特殊相対論の運動による遅れと一般相対論の高度による進みを分けます。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-relativity-gps-clocks-31-q3"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What is a “pseudorange” in this context?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A satellite orbit measured without using time."
+        },
+        {
+          "label": "B",
+          "text": "A perfectly exact physical distance with no correction."
+        },
+        {
+          "label": "C",
+          "text": "A range that applies only to imaginary satellites."
+        },
+        {
+          "label": "D",
+          "text": "A distance-like estimate from signal travel time that includes clock-related error."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。第1段落。到着時刻から作る距離相当値には時計ずれも含まれます。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-relativity-gps-clocks-31-q4"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "About how far does light travel in 38 microseconds at 3 × 10^8 m/s?",
+      "options": [
+        {
+          "label": "A",
+          "text": "About 11 meters."
+        },
+        {
+          "label": "B",
+          "text": "About 11 kilometers."
+        },
+        {
+          "label": "C",
+          "text": "About 114 kilometers."
+        },
+        {
+          "label": "D",
+          "text": "About 1,140 kilometers."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。38×10^-6 秒に 3×10^8 m/s を掛けると約1.14×10^4 mです。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-relativity-gps-clocks-31-q5"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why is the 11-kilometer figure not a fixed straight-line error for every user?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Relativity affects only stationary receivers."
+        },
+        {
+          "label": "B",
+          "text": "The speed of light changes to zero near the receiver."
+        },
+        {
+          "label": "C",
+          "text": "Satellite geometry, receiver clock estimation, and other corrections shape the final position solution."
+        },
+        {
+          "label": "D",
+          "text": "Every satellite contributes exactly the same geometrical error vector."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。本文は時間差を距離尺度に換算しつつ、星座配置と推定・補正のため一律の位置誤差でないと限定します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-relativity-gps-clocks-31-q6"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which mapping correctly separates three GPS corrections?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Clock-frequency pre-offset: onboard timing; atmosphere: signal propagation; orbit and Earth rotation: geometry."
+        },
+        {
+          "label": "B",
+          "text": "Clock-frequency pre-offset: cloud cover; atmosphere: atomic structure; orbit: receiver battery life."
+        },
+        {
+          "label": "C",
+          "text": "All three are names for the same relativistic motion effect."
+        },
+        {
+          "label": "D",
+          "text": "Atmosphere determines satellite clock frequency, while geometry changes the speed of light."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。第3段落の時計、伝搬、幾何の役割を混同せず対応させます。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-relativity-gps-clocks-31-q7"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does “translated into an error budget” mean in the final paragraph?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The theory is rewritten into several spoken languages."
+        },
+        {
+          "label": "B",
+          "text": "All measurement uncertainty is declared irrelevant."
+        },
+        {
+          "label": "C",
+          "text": "Engineers estimate only the financial cost of satellites."
+        },
+        {
+          "label": "D",
+          "text": "Theoretical effects are quantified and allocated within an operational account of measurement errors."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。translated は言語翻訳でなく、理論の前提を定量的な誤差見積もりへ落とす意味です。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-relativity-gps-clocks-31-q8"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which assessment best develops the claim “GPS proves Einstein was useful”?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Relativity alone supplies coordinates without satellites or clocks."
+        },
+        {
+          "label": "B",
+          "text": "Relativistic corrections matter, but atomic clocks, orbital models, atmosphere, calibration, and algorithms also make the system work."
+        },
+        {
+          "label": "C",
+          "text": "The claim is false because GPS never measures signal travel time."
+        },
+        {
+          "label": "D",
+          "text": "All positioning errors can be explained by special relativity alone."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。発展問題。相対論の実用性を認めつつ、本文にある他の技術層を消しません。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-relativity-gps-clocks-31-q9"
+      ]
+    }
+  ]
+}
