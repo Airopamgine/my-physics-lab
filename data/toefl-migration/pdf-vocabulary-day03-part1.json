@@ -1,0 +1,148 @@
+{
+  "id": "pdf-vocabulary-day03-part1",
+  "title": "Vocabulary Day 03 · Context Completion 1",
+  "task": 1,
+  "date": "2026-09-24T17:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 4ページ／冊子382ページ · Day 03先頭15語（全60語中）",
+  "verificationNote": "掲載語・綴り・掲載順をスキャン原本で確認済みです。各語を文脈で判断できるmissing-letter exerciseへ編集しています。出版社の公式解答表は未収録ですが、正答は掲載headwordと一致します。未回答の語の正答は、その語を提出するまで表示されません。",
+  "passages": {
+    "access": "Students in remote areas gained acc___ to the university's digital archives.",
+    "ape": "The young a__ learned to use a stick to reach fruit on a high branch.",
+    "audience": "The lecturer invited questions from the aud_____ at the end of the presentation.",
+    "beneficial": "Regular exercise has a bene______ effect on both physical and mental health.",
+    "boost": "The new rail connection may bo___ trade between the two regions.",
+    "burgeon": "Demand for electric bicycles began to bur____ after fuel prices rose.",
+    "century": "The observatory was built during the nineteenth cen____.",
+    "communication": "Clear comm_________ between pilots and controllers is essential for safety.",
+    "concentration": "The experiment required complete concen_______ during each measurement.",
+    "contribution": "Her cont________ to climate research changed how scientists model ocean currents.",
+    "crisis": "Emergency restrictions were introduced when the water shortage became a cri___.",
+    "cue": "A sudden change in the birds' calls served as a c__ that a predator was nearby.",
+    "delicate": "The conservator used a soft brush to clean the del_____ manuscript.",
+    "destruct": "Flight control can des_____ the rocket remotely if it leaves the safe corridor.",
+    "disparity": "The report identified a large dis______ in school funding between the two districts."
+  },
+  "questions": [
+    {
+      "passageId": "access",
+      "prompt": "Day 03 vocabulary: complete acc___. Enter the missing letters.",
+      "prefix": "acc",
+      "word": "access",
+      "answer": "Access means the opportunity or right to use or reach something. 正解：ess → access（利用する機会・接近）。遠隔地の学生が大学のデジタル資料を利用できるようになった文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qaccess"]
+    },
+    {
+      "passageId": "ape",
+      "prompt": "Day 03 vocabulary: complete a__. Enter the missing letters.",
+      "prefix": "a",
+      "word": "ape",
+      "answer": "An ape is a primate such as a gorilla, chimpanzee, or orangutan. 正解：pe → ape（類人猿）。若い類人猿が道具を使って果物を取る文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qape"]
+    },
+    {
+      "passageId": "audience",
+      "prompt": "Day 03 vocabulary: complete aud_____. Enter the missing letters.",
+      "prefix": "aud",
+      "word": "audience",
+      "answer": "An audience is a group of people watching or listening to a presentation or performance. 正解：ience → audience（聴衆・観客）。講演を聞いた人々が質問する場面です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qaudience"]
+    },
+    {
+      "passageId": "beneficial",
+      "prompt": "Day 03 vocabulary: complete bene______. Enter the missing letters.",
+      "prefix": "bene",
+      "word": "beneficial",
+      "answer": "Beneficial means producing a helpful or favorable result. 正解：ficial → beneficial（有益な・効果のある）。運動が心身の健康へ良い効果を与える文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qbeneficial"]
+    },
+    {
+      "passageId": "boost",
+      "prompt": "Day 03 vocabulary: complete bo___. Enter the missing letters.",
+      "prefix": "bo",
+      "word": "boost",
+      "answer": "Boost means to increase, improve, or encourage something. 正解：ost → boost（増加させる・促進する）。新しい鉄道接続が地域間の貿易を活発にする文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qboost"]
+    },
+    {
+      "passageId": "burgeon",
+      "prompt": "Day 03 vocabulary: complete bur____. Enter the missing letters.",
+      "prefix": "bur",
+      "word": "burgeon",
+      "answer": "Burgeon means to grow or develop rapidly. 正解：geon → burgeon（急速に成長する・増大する）。燃料価格上昇後に電動自転車の需要が急増した文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qburgeon"]
+    },
+    {
+      "passageId": "century",
+      "prompt": "Day 03 vocabulary: complete cen____. Enter the missing letters.",
+      "prefix": "cen",
+      "word": "century",
+      "answer": "A century is a period of one hundred years. 正解：tury → century（世紀・100年間）。天文台が19世紀に建設された文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qcentury"]
+    },
+    {
+      "passageId": "communication",
+      "prompt": "Day 03 vocabulary: complete comm_________. Enter the missing letters.",
+      "prefix": "comm",
+      "word": "communication",
+      "answer": "Communication is the exchange of information between people or groups. 正解：unication → communication（意思疎通・通信）。操縦士と管制官の明確な情報交換が安全に不可欠な文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qcommunication"]
+    },
+    {
+      "passageId": "concentration",
+      "prompt": "Day 03 vocabulary: complete concen_______. Enter the missing letters.",
+      "prefix": "concen",
+      "word": "concentration",
+      "answer": "Concentration is the act of directing close attention to one task. 正解：tration → concentration（集中・専念）。測定中に注意を途切れさせない必要がある文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qconcentration"]
+    },
+    {
+      "passageId": "contribution",
+      "prompt": "Day 03 vocabulary: complete cont________. Enter the missing letters.",
+      "prefix": "cont",
+      "word": "contribution",
+      "answer": "A contribution is something given or done that helps produce a result. 正解：ribution → contribution（貢献・寄与）。研究者の仕事が海流モデルの発展へ貢献した文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qcontribution"]
+    },
+    {
+      "passageId": "crisis",
+      "prompt": "Day 03 vocabulary: complete cri___. Enter the missing letters.",
+      "prefix": "cri",
+      "word": "crisis",
+      "answer": "A crisis is a time of serious danger or difficulty requiring urgent action. 正解：sis → crisis（危機）。水不足が緊急規制を要する深刻な段階になった文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qcrisis"]
+    },
+    {
+      "passageId": "cue",
+      "prompt": "Day 03 vocabulary: complete c__. Enter the missing letters.",
+      "prefix": "c",
+      "word": "cue",
+      "answer": "A cue is a signal or indication that prompts a response. 正解：ue → cue（合図・手がかり）。鳥の鳴き声の変化が捕食者の存在を示す信号となる文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qcue"]
+    },
+    {
+      "passageId": "delicate",
+      "prompt": "Day 03 vocabulary: complete del_____. Enter the missing letters.",
+      "prefix": "del",
+      "word": "delicate",
+      "answer": "Delicate means easily damaged and requiring careful handling. 正解：icate → delicate（繊細な・壊れやすい）。傷みやすい古文書を柔らかいブラシで扱う文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qdelicate"]
+    },
+    {
+      "passageId": "destruct",
+      "prompt": "Day 03 vocabulary: complete des_____. Enter the missing letters.",
+      "prefix": "des",
+      "word": "destruct",
+      "answer": "Destruct means to deliberately destroy a vehicle or device, especially for safety. 正解：truct → destruct（破壊する）。安全な飛行経路を外れたロケットを遠隔で破壊する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qdestruct"]
+    },
+    {
+      "passageId": "disparity",
+      "prompt": "Day 03 vocabulary: complete dis______. Enter the missing letters.",
+      "prefix": "dis",
+      "word": "disparity",
+      "answer": "A disparity is a noticeable and often unfair difference between things. 正解：parity → disparity（格差・不均衡）。二つの学区の教育資金に大きな差がある文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qdisparity"]
+    }
+  ]
+}
