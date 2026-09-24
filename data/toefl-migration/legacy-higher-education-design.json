@@ -1,0 +1,132 @@
+{
+  "id": "legacy-higher-education-design",
+  "title": "Designing Breadth and Depth in University Education",
+  "task": 3,
+  "date": "2026-09-24T23:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "原文四段落と全九つの学習対象を保持し、元の日本語記述・翻訳・発展問題を本文根拠のある英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-standard-higher-education-design-17/",
+  "passages": {
+    "text": "University education is often described as a choice between breadth and specialization. In this picture, liberal education exposes students to several fields, while professional education develops expertise for a defined occupation. The distinction identifies different emphases, but it becomes false when treated as a complete map. An engineering student may study ethics and history; a history student may learn statistics and archival technology. Most curricula combine elements rather than joining one rival camp.\n\nBreadth has value only when students learn how fields ask different questions and use different evidence. Taking unrelated introductory courses does not automatically produce integration. A student must compare methods: what counts as explanation in physics, interpretation in history, or evidence in sociology? General abilities such as critical thinking and communication are also not detached tools that operate identically everywhere. Evaluating a laboratory result and evaluating a political speech both require judgment, but the relevant evidence and conventions differ.\n\nSpecialization has a parallel risk. A dense sequence of required courses can build powerful knowledge, yet coverage alone does not guarantee that students can use it in a new situation. Programs need opportunities to design, investigate, write, revise, and receive feedback. Practical education is therefore more than training on today's equipment. If students understand principles and limits, they can adapt when tools and standards change.\n\nThe better question is not “Which side wins?” but “How is learning arranged?” A coherent curriculum explains when breadth is introduced, when depth increases, and where students connect them. Projects, laboratories, placements, and seminars may serve as bridges, but their names do not guarantee quality. Evidence should include student work and demonstrated learning, not only the number of required credits. Breadth without connection can become sampling; depth without transfer can become confinement."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "Which statement best expresses the main idea of the passage?",
+      "options": [
+        {"label": "A", "text": "Every university student should avoid professional subjects."},
+        {"label": "B", "text": "Breadth and depth should be judged by how they are arranged, connected, and demonstrated in student learning."},
+        {"label": "C", "text": "A curriculum's quality can be determined by counting its course titles and required credits."},
+        {"label": "D", "text": "General abilities operate in exactly the same way in every academic discipline."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。本文は教養か専門かの二者択一を退け、幅と深さの配置・接続・学習成果によって教育課程を評価すべきだと論じます。A、C、Dはいずれも本文が明確に否定する単純化です。",
+      "sourceRefs": ["legacy:english-reading-standard-higher-education-design-17-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does paragraph 1 say that the distinction between liberal and professional education is not “a complete map”?",
+      "options": [
+        {"label": "A", "text": "Because neither type of education has any identifiable emphasis."},
+        {"label": "B", "text": "Because the distinction describes the physical locations of universities rather than their curricula."},
+        {"label": "C", "text": "Because it identifies different emphases but does not capture curricula that combine professional, liberal, and cross-disciplinary elements."},
+        {"label": "D", "text": "Because all students take exactly the same courses regardless of their field."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。complete mapは教育課程全体を過不足なく表す分類の比喩です。実際には工学と倫理・歴史、歴史学と統計・技術のように要素が混ざるため、二分類は重点を示しても全配置を表しません。",
+      "sourceRefs": ["legacy:english-reading-standard-higher-education-design-17-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "According to paragraph 2, why do several unrelated introductory courses fail to guarantee integration?",
+      "options": [
+        {"label": "A", "text": "Introductory courses never present evidence or explanations."},
+        {"label": "B", "text": "Integration requires every discipline to adopt the methods of physics."},
+        {"label": "C", "text": "Students must specialize before they can encounter any other field."},
+        {"label": "D", "text": "Without comparing and connecting the questions, methods, and evidence of the fields, the courses may remain separate pieces."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。履修科目の数は入力にすぎず、統合には各分野の問い・方法・証拠を比較して接続する活動が必要です。A〜Cは本文にない絶対条件を加えています。",
+      "sourceRefs": ["legacy:english-reading-standard-higher-education-design-17-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "How does the passage reconcile the general value of critical thinking with its dependence on a discipline?",
+      "options": [
+        {"label": "A", "text": "It argues that critical thinking is useful only in laboratory sciences."},
+        {"label": "B", "text": "It is needed across fields, but the evidence and conventions used to exercise it differ by context."},
+        {"label": "C", "text": "It treats critical thinking as a detached tool that works identically everywhere."},
+        {"label": "D", "text": "It claims that disciplinary knowledge prevents students from making judgments."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。批判的思考は複数分野で必要という意味では一般的ですが、実験結果と政治演説では判断する証拠と慣行が異なります。Cは引用文と正反対です。",
+      "sourceRefs": ["legacy:english-reading-standard-higher-education-design-17-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does paragraph 3 say that “coverage alone” cannot guarantee?",
+      "options": [
+        {"label": "A", "text": "That students can transfer knowledge to unfamiliar situations and carry out practices such as designing, investigating, writing, and revising."},
+        {"label": "B", "text": "That a program will contain a dense sequence of required courses."},
+        {"label": "C", "text": "That today's equipment will eventually be replaced by newer tools."},
+        {"label": "D", "text": "That students will be exposed to a large quantity of course content."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。多くの内容を授業で扱ったことと、その知識を新状況で使い、設計・調査・執筆・修正できることは別です。BとDはcoverageそのもの、Cは本文の論点ではありません。",
+      "sourceRefs": ["legacy:english-reading-standard-higher-education-design-17-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which statement can most reasonably be inferred from the passage?",
+      "options": [
+        {"label": "A", "text": "A laboratory is effective simply because it is called a laboratory."},
+        {"label": "B", "text": "Understanding principles and limits can help students adapt when tools and standards change."},
+        {"label": "C", "text": "Breadth is successful only when courses remain unrelated."},
+        {"label": "D", "text": "Professional programs should teach only the equipment currently in use."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。第3段落は原理と限界の理解が新しい道具や基準への適応を支えると述べます。Aは活動名だけで質は保証されない点、CとDは統合・適応の主張に反します。",
+      "sourceRefs": ["legacy:english-reading-standard-higher-education-design-17-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "In the final sentence, what failures do “sampling” and “confinement” represent?",
+      "options": [
+        {"label": "A", "text": "Sampling means studying one field deeply, while confinement means connecting many fields successfully."},
+        {"label": "B", "text": "Both terms mean that students have taken too few required credits."},
+        {"label": "C", "text": "Sampling is breadth without connections, while confinement is depth that cannot be transferred beyond familiar problems."},
+        {"label": "D", "text": "Sampling concerns laboratory measurement, while confinement concerns the physical size of a classroom."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。samplingは分野を少しずつ味見するだけで相互接続しない失敗、confinementは深い知識が既知の課題内に閉じて新状況へ移せない失敗です。",
+      "sourceRefs": ["legacy:english-reading-standard-higher-education-design-17-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which option best restates “General abilities are not detached tools that operate identically everywhere”?",
+      "options": [
+        {"label": "A", "text": "Broad abilities are expressed through field-specific knowledge, evidence, and conventions rather than functioning independently of context."},
+        {"label": "B", "text": "General abilities should be removed from all professional curricula."},
+        {"label": "C", "text": "Communication and judgment have no value outside a single discipline."},
+        {"label": "D", "text": "The same method of evaluation should be used for a laboratory result and a political speech."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。引用文は「一般的能力とは、どこでも同一に働く文脈から切り離された道具ではない」という意味です。後続の実験結果と政治演説の対比が、分野ごとに証拠規則が異なることを示します。",
+      "sourceRefs": ["legacy:english-reading-standard-higher-education-design-17-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which curriculum plan best applies the passage's principles to a physics program?",
+      "options": [
+        {"label": "A", "text": "Offer many unrelated introductory subjects and assume their coexistence automatically produces integration."},
+        {"label": "B", "text": "Teach only the current version of laboratory equipment and judge success by the number of required credits."},
+        {"label": "C", "text": "Require advanced theory alone and avoid projects that transfer knowledge to unfamiliar problems."},
+        {"label": "D", "text": "Combine physics, computation, scientific writing, and history with laboratories and projects that require modeling, measurement, uncertainty analysis, revision, and evidence of transfer."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。幅のある科目を、同一現象のモデル化・測定・不確かさ・説明・修正を行う課題で深い専門知識へ接続し、成果物で学習を示します。A〜Cは本文が警告するsamplingまたはconfinementです。",
+      "sourceRefs": ["legacy:english-reading-standard-higher-education-design-17-q9"]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "legacy-inca-networks",
+  "title": "Inca Networks and Multi-Causal History",
+  "task": 3,
+  "date": "2026-09-24T23:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "原文四段落と全九つの学習対象を保持し、元の日本語記述・翻訳・発展問題を本文根拠のある英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-standard-inca-networks-13/",
+  "passages": {
+    "text": "At its greatest extent, the Inca state connected communities across a long and environmentally varied region of the Andes. Mountains, deserts, and deep valleys made movement difficult, yet a road system of roughly 30,000 kilometres linked administrative and ceremonial centres. Some routes had been built by earlier societies and were incorporated into an expanding imperial network. Roads did not erase distance. They made distance governable through bridges, storehouses, relay runners, and organized labour.\n\nAdministration also challenges a common equation between literacy and information. The Inca did not use an alphabetic script of the European kind, but officials employed khipus—cords with knots, colours, and structured positions—to record and communicate information. Surviving evidence indicates uses involving quantities, censuses, goods, and obligations; researchers continue to study whether some khipus encoded additional kinds of meaning. It is therefore careless to move from “not alphabetic” to “without records.” The important question is not which familiar tool was absent, but what work another tool performed.\n\nThe network was powerful, but power was uneven. The state moved labour and resources, negotiated with some groups, and compelled others. Local communities did not all experience expansion in the same way. This matters when explaining the Spanish invasion in the sixteenth century. Metal weapons, horses, and battlefield tactics affected particular encounters, but they did not act in isolation. An internal succession conflict had divided political authority. Epidemic disease had destabilized populations. Invaders also gained Indigenous allies whose reasons included local rivalries and opposition to Inca rule.\n\nA single-cause story is attractive because it converts a complex process into a contest between two technologies. It is also analytically weak. Remove any one factor and the outcome may change, but that does not prove the removed factor was sufficient by itself. A better explanation asks how military tools interacted with disease, political fragmentation, information, logistics, and local decisions. It also asks whose testimony survives. Many written accounts were produced within colonial institutions, so roads, objects, landscapes, and Indigenous knowledge must be read alongside them."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "Which statement best expresses the main idea of the passage?",
+      "options": [
+        {"label": "A", "text": "Alphabetic writing is the only reliable basis for administration."},
+        {"label": "B", "text": "Metal weapons alone completely explain the Spanish invasion."},
+        {"label": "C", "text": "Inca integration and Spanish success should be understood through interacting systems, causes, and kinds of evidence."},
+        {"label": "D", "text": "Every Andean community experienced and supported Inca expansion in the same way."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。前半は道路・労働・情報手段の結合、後半は軍事技術・疾病・政治分裂・現地判断・資料の相互作用を扱います。A、B、Dは本文が退ける単純化です。",
+      "sourceRefs": ["legacy:english-reading-standard-inca-networks-13-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does paragraph 1 state that “Roads did not erase distance”?",
+      "options": [
+        {"label": "A", "text": "To argue that the road network had no administrative purpose."},
+        {"label": "B", "text": "To avoid treating roads as magic solutions and instead show how institutions made difficult distances governable."},
+        {"label": "C", "text": "To claim that mountains and deserts disappeared after roads were built."},
+        {"label": "D", "text": "To show that earlier societies had never constructed routes in the Andes."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。道路が地理的障害を消したのではなく、橋、倉庫、伝令走者、組織労働を通じて距離を管理可能にしたという評価軸へ修正しています。A、C、Dは本文と反対です。",
+      "sourceRefs": ["legacy:english-reading-standard-inca-networks-13-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What faulty reasoning is criticized by the phrase “careless to move from ‘not alphabetic’ to ‘without records’”?",
+      "options": [
+        {"label": "A", "text": "Assuming that every alphabetic document contains accurate information."},
+        {"label": "B", "text": "Investigating whether khipus encoded meanings beyond quantities and obligations."},
+        {"label": "C", "text": "Comparing the administrative work performed by several information tools."},
+        {"label": "D", "text": "Concluding that record keeping was absent merely because the information system did not resemble European alphabetic writing."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。見慣れた文字形式がないことを、記録機能そのものがないことへ飛躍させる推論を批判しています。本文は形ではなくkhipuが果たした仕事を調べるよう求めます。",
+      "sourceRefs": ["legacy:english-reading-standard-inca-networks-13-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which option correctly distinguishes what the passage treats as supported and what it leaves open about khipus?",
+      "options": [
+        {"label": "A", "text": "Evidence supports their use for quantities, censuses, goods, and obligations, while additional kinds of encoded meaning remain under study."},
+        {"label": "B", "text": "It is certain that every khipu recorded a complete alphabetic narrative, but their numerical use is unknown."},
+        {"label": "C", "text": "Their colors and knots had no structured positions, although they clearly recorded battlefield tactics."},
+        {"label": "D", "text": "Researchers have proved that khipus were decorative objects with no administrative function."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。indicatesは数量・人口・物資・義務への使用を支持し、continue to study whetherは追加の意味について判断を保留します。B〜Dは確実性の方向または内容を逆転しています。",
+      "sourceRefs": ["legacy:english-reading-standard-inca-networks-13-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which three non-military conditions does the passage identify as helping explain the success of the Spanish invasion?",
+      "options": [
+        {"label": "A", "text": "A unified succession, population growth, and universal support for Inca rule."},
+        {"label": "B", "text": "The disappearance of roads, the absence of storehouses, and the end of organized labor."},
+        {"label": "C", "text": "A succession conflict, epidemic disruption, and Indigenous alliances shaped by rivalries or opposition to Inca rule."},
+        {"label": "D", "text": "Alphabetic literacy, identical local motives, and the complete isolation of military technology."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。本文は政治権力を割った継承争い、人口を不安定にした感染症、地域対立やインカ支配への反発を背景とする先住民同盟を挙げます。これらは軍事技術と相互作用しました。",
+      "sourceRefs": ["legacy:english-reading-standard-inca-networks-13-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which statement can most reasonably be inferred from the passage?",
+      "options": [
+        {"label": "A", "text": "All Indigenous allies joined the invaders for exactly the same reason."},
+        {"label": "B", "text": "A factor can be important to an outcome without being sufficient to produce that outcome by itself."},
+        {"label": "C", "text": "Earlier societies contributed nothing to the Inca road network."},
+        {"label": "D", "text": "Colonial written accounts should be discarded rather than compared with other evidence."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。最終段落は一要因を除けば結果が変わり得ても、その要因単独で十分だった証明にはならないと区別します。A、C、Dは本文が示す複数動機・既存道路・資料併読に反します。",
+      "sourceRefs": ["legacy:english-reading-standard-inca-networks-13-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "In the final sentence, what does “them” refer to, and why should other evidence be read alongside it?",
+      "options": [
+        {"label": "A", "text": "It refers to military tools, which should be compared only by their material strength."},
+        {"label": "B", "text": "It refers to Indigenous allies, whose motives can be learned from one colonial author."},
+        {"label": "C", "text": "It refers to roads and landscapes, which make written testimony unnecessary."},
+        {"label": "D", "text": "It refers to colonial written accounts, whose institutional perspective should be checked against roads, objects, landscapes, and Indigenous knowledge."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。themは植民地制度内で作られたwritten accountsを指します。作成者や制度が記録内容を選ぶため、異なる偏りをもつ物質資料・景観・先住民知識と照合します。",
+      "sourceRefs": ["legacy:english-reading-standard-inca-networks-13-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which option best restates “The important question is not which familiar tool was absent, but what work another tool performed”?",
+      "options": [
+        {"label": "A", "text": "Instead of judging a society by a familiar technology it lacked, examine the function performed by the different technology it used."},
+        {"label": "B", "text": "A tool can perform administrative work only if it uses a European alphabet."},
+        {"label": "C", "text": "The absence of a familiar tool proves that no information was recorded."},
+        {"label": "D", "text": "The word “work” refers only to paid employment for relay runners."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。「重要なのは、どの見慣れた道具が欠けていたかではなく、別の道具がどのような機能を果たしたかである」というnot A, but Bの焦点移動です。workはここでは機能を指します。",
+      "sourceRefs": ["legacy:english-reading-standard-inca-networks-13-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which research method best follows the passage when explaining a major historical change?",
+      "options": [
+        {"label": "A", "text": "Select the most dramatic technology and treat it as sufficient without examining timing, institutions, or local choices."},
+        {"label": "B", "text": "List several causes as equally strong but avoid studying how they changed one another."},
+        {"label": "C", "text": "Separate contributing conditions from sufficient causes, trace interactions over time, test limited counterfactuals, and compare sources produced by different groups."},
+        {"label": "D", "text": "Use only records created by the institutions that gained power because other evidence cannot inform history."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。本文は技術・疾病・政治対立・物流・現地判断の時間的相互作用を調べ、反実仮想を重要度の検討に限定し、異なる立場の資料を併読する方法を求めます。A、B、Dは単純化を残します。",
+      "sourceRefs": ["legacy:english-reading-standard-inca-networks-13-q9"]
+    }
+  ]
+}
