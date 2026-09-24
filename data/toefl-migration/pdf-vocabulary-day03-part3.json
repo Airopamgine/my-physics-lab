@@ -1,0 +1,148 @@
+{
+  "id": "pdf-vocabulary-day03-part3",
+  "title": "Vocabulary Day 03 · Context Completion 3",
+  "task": 1,
+  "date": "2026-09-25T01:01:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 4ページ／冊子382ページ · Day 03の31〜45語（全60語中）",
+  "verificationNote": "掲載語・綴り・掲載順をスキャン原本で確認済みです。各語を文脈で判断できるmissing-letter exerciseへ編集しています。出版社の公式解答表は未収録ですが、正答は掲載headwordと一致します。未回答の語の正答は、その語を提出するまで表示されません。",
+  "passages": {
+    "impression": "The candidate made a strong impr______ by explaining the evidence clearly.",
+    "indispensable": "Accurate timing is indis________ to the success of the experiment.",
+    "injustice": "The investigation exposed an inj______ in the way public funds were distributed.",
+    "intact": "The protective case kept the instrument in____ during transport.",
+    "intricate": "The fossil revealed an intri____ pattern of tiny channels inside the bone.",
+    "island": "The species evolved on an is____ separated from the mainland.",
+    "landscape": "Glaciers shaped the mountain land_____ over thousands of years.",
+    "league": "The club joined a regional lea___ to compete against nearby teams.",
+    "logical": "Her conclusion is log____ because each step follows from the evidence.",
+    "mental": "Regular sleep supports men___ performance as well as physical health.",
+    "multiple": "The result was confirmed by mul_____ independent measurements.",
+    "option": "Remote participation is an op____ for students who cannot travel.",
+    "period": "The instrument recorded temperature over a twenty-four-hour per___.",
+    "probability": "The forecast assigns a high proba______ to heavy rain this evening.",
+    "rapidly": "The gas expanded rap____ when the pressure was released."
+  },
+  "questions": [
+    {
+      "passageId": "impression",
+      "prompt": "Day 03 vocabulary: complete impr______. Enter the missing letters.",
+      "prefix": "impr",
+      "word": "impression",
+      "answer": "An impression is an idea or feeling formed about someone or something. 正解：ession → impression（印象）。証拠を明確に説明した候補者への評価を表す文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qimpression"]
+    },
+    {
+      "passageId": "indispensable",
+      "prompt": "Day 03 vocabulary: complete indis________. Enter the missing letters.",
+      "prefix": "indis",
+      "word": "indispensable",
+      "answer": "Indispensable means absolutely necessary. 正解：pensable → indispensable（なくてはならない・不可欠な）。正確な時刻測定が実験成功に必須である文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qindispensable"]
+    },
+    {
+      "passageId": "injustice",
+      "prompt": "Day 03 vocabulary: complete inj______. Enter the missing letters.",
+      "prefix": "inj",
+      "word": "injustice",
+      "answer": "An injustice is an unfair act or situation. 正解：ustice → injustice（不当・不公平）。公的資金の配分に不公平が見つかった文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qinjustice"]
+    },
+    {
+      "passageId": "intact",
+      "prompt": "Day 03 vocabulary: complete in____. Enter the missing letters.",
+      "prefix": "in",
+      "word": "intact",
+      "answer": "Intact means complete and not damaged. 正解：tact → intact（完全な・損なわれていない）。輸送後も機器が無傷だった文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qintact"]
+    },
+    {
+      "passageId": "intricate",
+      "prompt": "Day 03 vocabulary: complete intri____. Enter the missing letters.",
+      "prefix": "intri",
+      "word": "intricate",
+      "answer": "Intricate means having many small, complex details. 正解：cate → intricate（複雑な・精巧な）。化石内部の細い管が作る複雑な模様の文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qintricate"]
+    },
+    {
+      "passageId": "island",
+      "prompt": "Day 03 vocabulary: complete is____. Enter the missing letters.",
+      "prefix": "is",
+      "word": "island",
+      "answer": "An island is land surrounded by water. 正解：land → island（島）。本土から隔離された場所で生物が進化した文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qisland"]
+    },
+    {
+      "passageId": "landscape",
+      "prompt": "Day 03 vocabulary: complete land_____. Enter the missing letters.",
+      "prefix": "land",
+      "word": "landscape",
+      "answer": "A landscape is the visible features of an area of land. 正解：scape → landscape（景観・風景）。氷河が長期間かけて山地の景観を形成した文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qlandscape"]
+    },
+    {
+      "passageId": "league",
+      "prompt": "Day 03 vocabulary: complete lea___. Enter the missing letters.",
+      "prefix": "lea",
+      "word": "league",
+      "answer": "A league is a group of teams or an association formed for a shared purpose. 正解：gue → league（リーグ・同盟）。地域の複数チームが競技する組織の文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qleague"]
+    },
+    {
+      "passageId": "logical",
+      "prompt": "Day 03 vocabulary: complete log____. Enter the missing letters.",
+      "prefix": "log",
+      "word": "logical",
+      "answer": "Logical means based on clear and valid reasoning. 正解：ical → logical（論理的な・合理的な）。結論の各段階が証拠から導かれる文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qlogical"]
+    },
+    {
+      "passageId": "mental",
+      "prompt": "Day 03 vocabulary: complete men___. Enter the missing letters.",
+      "prefix": "men",
+      "word": "mental",
+      "answer": "Mental means related to the mind. 正解：tal → mental（精神の・心の）。睡眠が認知面の働きと身体の健康を支える文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qmental"]
+    },
+    {
+      "passageId": "multiple",
+      "prompt": "Day 03 vocabulary: complete mul_____. Enter the missing letters.",
+      "prefix": "mul",
+      "word": "multiple",
+      "answer": "Multiple means many or more than one. 正解：tiple → multiple（複数の・多数の）。独立した複数の測定で結果を確認した文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qmultiple"]
+    },
+    {
+      "passageId": "option",
+      "prompt": "Day 03 vocabulary: complete op____. Enter the missing letters.",
+      "prefix": "op",
+      "word": "option",
+      "answer": "An option is one possible choice. 正解：tion → option（選択肢）。移動できない学生が遠隔参加を選べる文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qoption"]
+    },
+    {
+      "passageId": "period",
+      "prompt": "Day 03 vocabulary: complete per___. Enter the missing letters.",
+      "prefix": "per",
+      "word": "period",
+      "answer": "A period is a length or division of time. 正解：iod → period（期間・時代）。機器が24時間にわたり温度を記録した文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qperiod"]
+    },
+    {
+      "passageId": "probability",
+      "prompt": "Day 03 vocabulary: complete proba______. Enter the missing letters.",
+      "prefix": "proba",
+      "word": "probability",
+      "answer": "Probability is the chance that something will happen. 正解：bility → probability（確率・可能性）。夕方の大雨が起こる見込みを予報が示す文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qprobability"]
+    },
+    {
+      "passageId": "rapidly",
+      "prompt": "Day 03 vocabulary: complete rap____. Enter the missing letters.",
+      "prefix": "rap",
+      "word": "rapidly",
+      "answer": "Rapidly means very quickly. 正解：idly → rapidly（急速に・素早く）。圧力解放後に気体が急速に膨張した文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p004:qrapidly"]
+    }
+  ]
+}
