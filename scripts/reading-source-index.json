@@ -419,7 +419,13 @@
         56,
         57,
         58,
-        59
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65
       ],
       "packets": [
         {
@@ -702,6 +708,33 @@
         "59": [
           "pdf:task2:p059:q03",
           "pdf:task2:p059:q04"
+        ],
+        "60": [
+          "pdf:task2:p060:q01",
+          "pdf:task2:p060:q02"
+        ],
+        "61": [
+          "pdf:task2:p061:q03",
+          "pdf:task2:p061:q04"
+        ],
+        "62": [
+          "pdf:task2:p062:q05",
+          "pdf:task2:p062:q06"
+        ],
+        "63": [
+          "pdf:task2:p063:q07",
+          "pdf:task2:p063:q08",
+          "pdf:task2:p063:q09"
+        ],
+        "64": [
+          "pdf:task2:p064:q10",
+          "pdf:task2:p064:q11",
+          "pdf:task2:p064:q12"
+        ],
+        "65": [
+          "pdf:task2:p065:q13",
+          "pdf:task2:p065:q14",
+          "pdf:task2:p065:q15"
         ]
       }
     },
@@ -1022,12 +1055,11 @@
     }
   ],
   "lastSource": {
-    "type": "legacy",
+    "type": "pdf",
     "ids": [
-      "legacy-classified-history-restraint",
-      "legacy-collectibles-food-waste"
+      "pdf-task2-p060-065"
     ],
-    "convertedAt": "2026-09-24T11:00:00+09:00"
+    "convertedAt": "2026-09-24T13:00:00+09:00"
   },
   "blockedItems": [
     {
