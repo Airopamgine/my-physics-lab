@@ -1,0 +1,132 @@
+{
+  "id": "legacy-collectibles-food-waste",
+  "title": "Collectibles, Food Waste, and Choice Design",
+  "task": 3,
+  "date": "2026-09-24T11:01:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "原文四段落と全九つの学習対象を保持し、元の日本語記述・翻訳・発展問題を本文根拠のある英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-standard-collectibles-food-waste-24/",
+  "passages": {
+    "text": "Some food products are sold with collectible cards, figures, or codes. The combination can be enjoyable: a small surprise may encourage play, conversation, or interest in a series. A problem can arise, however, when the buyer mainly wants the bonus and cannot choose which version is included. Obtaining a complete set may then require repeated purchases, and the amount of food purchased can exceed the amount the buyer intends to eat.\n\nIt is tempting to explain any waste by calling consumers careless. Individual responsibility matters, but the sales design also structures the choice. Random allocation, rare items, limited periods, and visible collection lists can increase the value of another purchase without increasing the buyer's appetite. This does not prove that every campaign produces large-scale food waste. To establish an outcome, investigators would need evidence such as discarded quantities, purchase and consumption records, or carefully designed surveys. Photographs of one bin may reveal a case, not its prevalence.\n\nBetter design can intervene before edible material becomes surplus. A company might sell the collectible separately, allow buyers to select it, limit repeated purchases, reduce the food portion, or provide a method for exchanging duplicates. Retailers can explain the contents clearly, while consumers can plan sharing and stop when the food will not be used. Donation or recycling may help after surplus exists, but prevention avoids the materials, energy, transport, and labor embodied in an unwanted product.\n\nThe deeper issue is not whether pleasure, collecting, or marketing is morally impure. It is whether the people who benefit from a sales system also observe and reduce its predictable costs. A fair evaluation should ask what behavior the design invites, what evidence shows about actual waste, and which actor can change the outcome at the lowest cost. Responsibility can be shared without being made so vague that no one is answerable."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "Which statement best expresses the main idea of the passage?",
+      "options": [
+        {"label": "A", "text": "Collecting should be prohibited because it can never be enjoyable."},
+        {"label": "B", "text": "A photograph of discarded food proves the national scale of waste."},
+        {"label": "C", "text": "Waste risk should be evaluated through sales design, measured outcomes, prevention, and shared but specific responsibility."},
+        {"label": "D", "text": "Recycling removes the need to prevent unwanted surplus."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。四段落は購買設計、実害を示す証拠、発生前の予防、変更能力に応じた責任を順に扱います。Aは楽しさを否定し、Bは一事例を規模へ一般化し、Dは予防と事後処理を混同しています。",
+      "sourceRefs": ["legacy:english-reading-standard-collectibles-food-waste-24-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which sequence best explains how the sales design can produce more food purchases than the buyer intends to consume?",
+      "options": [
+        {"label": "A", "text": "The buyer mainly wants an unselectable bonus; rare versions or a complete set make repeated purchases valuable; appetite does not rise with those purchases; food can therefore become surplus."},
+        {"label": "B", "text": "The buyer's appetite rises automatically whenever a rare item is offered, so every purchase is consumed."},
+        {"label": "C", "text": "Retailers reduce the food portion, which forces consumers to discard more food."},
+        {"label": "D", "text": "A photograph of a bin causes companies to introduce random allocation."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。特典への需要、種類を選べないこと、反復購入の誘因、食欲とのずれが順に結びつきます。Bは本文が分離するappetiteを増加させ、Cは予防策を原因へ逆転し、Dは証拠と原因の順序が不合理です。",
+      "sourceRefs": ["legacy:english-reading-standard-collectibles-food-waste-24-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "How does the passage distinguish a plausible waste mechanism from a measured large-scale outcome?",
+      "options": [
+        {"label": "A", "text": "Once a mechanism is imaginable, no observation or denominator is needed."},
+        {"label": "B", "text": "A single photograph measures both the total amount discarded and the national rate."},
+        {"label": "C", "text": "The mechanism matters only if every purchaser throws away all of the food."},
+        {"label": "D", "text": "Random allocation can explain how waste might arise, but its frequency and quantity require separate evidence such as discarded amounts, purchase-consumption records, or designed surveys."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。因果機構が論理的に成立することと、社会全体で実害が大きいことは別の命題です。後者には量・分母・代表性を持つ測定が必要で、A・Bは証拠水準を飛躍させ、Cは全員への一般化です。",
+      "sourceRefs": ["legacy:english-reading-standard-collectibles-food-waste-24-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "The word “prevalence” in paragraph 2 is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "how widespread a condition is"},
+        {"label": "B", "text": "how attractive a package looks"},
+        {"label": "C", "text": "who first invented a product"},
+        {"label": "D", "text": "whether an act is legal"}
+      ],
+      "correct": "A",
+      "answer": "正解：A。ここでは廃棄という現象がどの程度広く起きているかを指します。一枚の写真は存在を示せても、分母や代表性がないため広がりまでは測れません。B・C・Dは文脈外です。",
+      "sourceRefs": ["legacy:english-reading-standard-collectibles-food-waste-24-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which option contains four company actions that paragraph 3 proposes for reducing the mismatch between collecting and eating?",
+      "options": [
+        {"label": "A", "text": "Hide the contents, enlarge portions, shorten exchanges, and require random allocation"},
+        {"label": "B", "text": "Sell collectibles separately, let buyers select them, limit repeated purchases, and reduce the food portion"},
+        {"label": "C", "text": "Increase rare items, display longer collection lists, prevent sharing, and remove purchase limits"},
+        {"label": "D", "text": "Measure one bin, prohibit all collecting, raise appetite, and avoid explaining contents"}
+      ],
+      "correct": "B",
+      "answer": "正解：B。本文は別売り、種類選択、反復購入制限、食品量縮小に加え、重複品交換も提案します。いずれも欲しい特典量と必要食品量の結合を弱めます。A・C・Dは逆効果または証拠と介入の混同です。",
+      "sourceRefs": ["legacy:english-reading-standard-collectibles-food-waste-24-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What can most reasonably be inferred from the passage?",
+      "options": [
+        {"label": "A", "text": "Shared responsibility means that no actor can be evaluated separately."},
+        {"label": "B", "text": "Prevention can avoid production and transport impacts that recycling addresses only after surplus has already been created."},
+        {"label": "C", "text": "Every purchaser of a bonus product discards the accompanying food."},
+        {"label": "D", "text": "A rare collectible necessarily increases the buyer's appetite."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。予防は不要な製品に投入される材料、エネルギー、輸送、労働自体を避けます。Aは変更能力に応じた具体的責任を消し、C・Dはcanやwithout increasing appetiteという限定に反します。",
+      "sourceRefs": ["legacy:english-reading-standard-collectibles-food-waste-24-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does the passage place prevention before donation or recycling?",
+      "options": [
+        {"label": "A", "text": "Donation and recycling are never useful after surplus exists."},
+        {"label": "B", "text": "Prevention guarantees that consumers will stop enjoying collectible products."},
+        {"label": "C", "text": "Prevention avoids creating the unwanted product and its embodied materials, energy, transport, and labor, while donation and recycling act after surplus exists."},
+        {"label": "D", "text": "Prevention requires companies to transfer all responsibility to consumers."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。発生前に余剰を防げば、製造・包装・輸送などの投入も不要になります。本文は発生済み余剰への寄附・再資源化も認めるためAは強すぎ、B・Dは目的と責任の説明を歪めています。",
+      "sourceRefs": ["legacy:english-reading-standard-collectibles-food-waste-24-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which option best restates “Photographs of one bin may reveal a case, not its prevalence”?",
+      "options": [
+        {"label": "A", "text": "A photograph cannot provide evidence that any discarded food existed."},
+        {"label": "B", "text": "One bin represents every buyer because photographed cases are always randomly selected."},
+        {"label": "C", "text": "The appearance of a bin determines whether a campaign is lawful."},
+        {"label": "D", "text": "An image may document one instance, but without a denominator and representative sampling it cannot show how widespread the behavior is."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。一事例の存在証明と集団での発生頻度を区別しています。Aは事例証拠まで否定し、Bは代表性を勝手に仮定し、Cは証拠の対象を法的評価へ変えています。",
+      "sourceRefs": ["legacy:english-reading-standard-collectibles-food-waste-24-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which research plan would best test whether a collectible campaign increased food waste?",
+      "options": [
+        {"label": "A", "text": "Compare matched stores before, during, and after the campaign; record sales, edible contents discarded, and buyer reports of consumption, sharing, storage, and disposal; use stores without the campaign as controls and report missing data."},
+        {"label": "B", "text": "Photograph the fullest bin available and treat it as the denominator for all purchases nationwide."},
+        {"label": "C", "text": "Count every repeated purchase as waste without checking whether the food was eaten, shared, or stored."},
+        {"label": "D", "text": "Survey only collectors who already complain about the campaign and omit stores with no visible waste."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。企画前後、対照店舗、販売数、廃棄量、摂取・共有・保存を分けて記録するため、機構から測定可能な結果へ進めます。Bは分母と代表性、Cは利用形態、Dは選択バイアスを無視しています。",
+      "sourceRefs": ["legacy:english-reading-standard-collectibles-food-waste-24-q9"]
+    }
+  ]
+}

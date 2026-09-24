@@ -1022,11 +1022,12 @@
     }
   ],
   "lastSource": {
-    "type": "pdf",
+    "type": "legacy",
     "ids": [
-      "pdf-vocabulary-day02-part4"
+      "legacy-classified-history-restraint",
+      "legacy-collectibles-food-waste"
     ],
-    "convertedAt": "2026-09-24T09:00:00+09:00"
+    "convertedAt": "2026-09-24T11:00:00+09:00"
   },
   "blockedItems": [
     {
