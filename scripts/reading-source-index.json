@@ -1066,18 +1066,32 @@
           "pdf:vocabulary:p004:qcue",
           "pdf:vocabulary:p004:qdelicate",
           "pdf:vocabulary:p004:qdestruct",
-          "pdf:vocabulary:p004:qdisparity"
+          "pdf:vocabulary:p004:qdisparity",
+          "pdf:vocabulary:p004:qdownstream",
+          "pdf:vocabulary:p004:qecological",
+          "pdf:vocabulary:p004:qelevated",
+          "pdf:vocabulary:p004:qentertainer",
+          "pdf:vocabulary:p004:qeruption",
+          "pdf:vocabulary:p004:qevoke",
+          "pdf:vocabulary:p004:qfactor",
+          "pdf:vocabulary:p004:qflaw",
+          "pdf:vocabulary:p004:qfoundation",
+          "pdf:vocabulary:p004:qfungus",
+          "pdf:vocabulary:p004:qgesture",
+          "pdf:vocabulary:p004:qgroundwork",
+          "pdf:vocabulary:p004:qhazard",
+          "pdf:vocabulary:p004:qhotspot",
+          "pdf:vocabulary:p004:qimaging"
         ]
       }
     }
   ],
   "lastSource": {
-    "type": "legacy",
+    "type": "pdf",
     "ids": [
-      "legacy-earthquake-risk-layers",
-      "legacy-fashion-hidden-costs"
+      "pdf-vocabulary-day03-part2"
     ],
-    "convertedAt": "2026-09-24T19:02:00+09:00"
+    "convertedAt": "2026-09-24T21:00:00+09:00"
   },
   "blockedItems": [
     {

@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day03-part2",
+  "title": "Vocabulary Day 03 · Context Completion 2",
+  "task": 1,
+  "date": "2026-09-24T21:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 4ページ／冊子382ページ · Day 03の16〜30語（全60語中）",
+  "verificationNote": "掲載語・綴り・掲載順をスキャン原本で確認済みです。各語を文脈で判断できるmissing-letter exerciseへ編集しています。出版社の公式解答表は未収録ですが、正答は掲載headwordと一致します。未回答の語の正答は、その語を提出するまで表示されません。",
+  "passages": {
+    "downstream": "Water samples collected down______ from the mine contained higher concentrations of metal.",
+    "ecological": "Restoring the wetland produced eco_______ benefits for fish, birds, and nearby communities.",
+    "elevated": "The satellite recorded ele_____ surface temperatures during the heat wave.",
+    "entertainer": "The street enter______ kept the audience laughing while performing simple magic tricks.",
+    "eruption": "Flights were cancelled after the volcanic eru_____ sent ash high into the atmosphere.",
+    "evoke": "The familiar melody can e____ memories of childhood for many listeners.",
+    "factor": "Access to clean water is an important fac___ in public health.",
+    "flaw": "Inspectors discovered a serious f___ in the bridge's support structure.",
+    "foundation": "Reliable observations provide the found_____ for a scientific explanation.",
+    "fungus": "A fun___ decomposes dead organic matter and returns nutrients to the soil.",
+    "gesture": "Her small ges____ of thanks made the volunteers feel appreciated.",
+    "groundwork": "Early laboratory studies laid the ground____ for the later clinical trial.",
+    "hazard": "Loose equipment can become a serious haz___ during an earthquake.",
+    "hotspot": "The reef is a biodiversity hot____ because it supports many rare species.",
+    "imaging": "Medical ima____ allowed doctors to examine the organ without surgery."
+  },
+  "questions": [
+    {
+      "passageId": "downstream",
+      "prompt": "Day 03 vocabulary: complete down______. Enter the missing letters.",
+      "prefix": "down",
+      "word": "downstream",
+      "answer": "Downstream means in the direction in which a river or stream flows. 正解：stream → downstream（下流へ・下流の）。鉱山から川下で採取した水を調べる文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p004:qdownstream"
+      ]
+    },
+    {
+      "passageId": "ecological",
+      "prompt": "Day 03 vocabulary: complete eco_______. Enter the missing letters.",
+      "prefix": "eco",
+      "word": "ecological",
+      "answer": "Ecological means related to the relationships between living things and their environment. 正解：logical → ecological（生態学的な・生態系の）。湿地再生が生物と地域へ利益を与える文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p004:qecological"
+      ]
+    },
+    {
+      "passageId": "elevated",
+      "prompt": "Day 03 vocabulary: complete ele_____. Enter the missing letters.",
+      "prefix": "ele",
+      "word": "elevated",
+      "answer": "Elevated means raised or higher than the normal level. 正解：vated → elevated（高い・上昇した）。熱波の間に地表温度が通常より高くなった文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p004:qelevated"
+      ]
+    },
+    {
+      "passageId": "entertainer",
+      "prompt": "Day 03 vocabulary: complete enter______. Enter the missing letters.",
+      "prefix": "enter",
+      "word": "entertainer",
+      "answer": "An entertainer is a person whose work is to amuse an audience. 正解：tainer → entertainer（芸能人・演者）。路上で手品を披露し観客を楽しませる人の文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p004:qentertainer"
+      ]
+    },
+    {
+      "passageId": "eruption",
+      "prompt": "Day 03 vocabulary: complete eru_____. Enter the missing letters.",
+      "prefix": "eru",
+      "word": "eruption",
+      "answer": "An eruption is a sudden release of lava, ash, or gas from a volcano. 正解：ption → eruption（噴火・爆発）。火山灰が上空へ噴き上がり航空便が欠航した文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p004:qeruption"
+      ]
+    },
+    {
+      "passageId": "evoke",
+      "prompt": "Day 03 vocabulary: complete e____. Enter the missing letters.",
+      "prefix": "e",
+      "word": "evoke",
+      "answer": "Evoke means to bring a feeling, memory, or image to mind. 正解：voke → evoke（呼び起こす・想起させる）。なじみの旋律が幼少期の記憶を呼び起こす文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p004:qevoke"
+      ]
+    },
+    {
+      "passageId": "factor",
+      "prompt": "Day 03 vocabulary: complete fac___. Enter the missing letters.",
+      "prefix": "fac",
+      "word": "factor",
+      "answer": "A factor is one of the causes or conditions that influences a result. 正解：tor → factor（要因・因子）。清潔な水へのアクセスが公衆衛生へ影響する条件の一つである文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p004:qfactor"
+      ]
+    },
+    {
+      "passageId": "flaw",
+      "prompt": "Day 03 vocabulary: complete f___. Enter the missing letters.",
+      "prefix": "f",
+      "word": "flaw",
+      "answer": "A flaw is a fault, weakness, or defect in something. 正解：law → flaw（欠陥・弱点）。橋の支持構造に重大な欠陥が見つかった文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p004:qflaw"
+      ]
+    },
+    {
+      "passageId": "foundation",
+      "prompt": "Day 03 vocabulary: complete found_____. Enter the missing letters.",
+      "prefix": "found",
+      "word": "foundation",
+      "answer": "A foundation is the basic support on which something is built or developed. 正解：ation → foundation（基礎・土台）。信頼できる観測が科学的説明の基盤となる文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p004:qfoundation"
+      ]
+    },
+    {
+      "passageId": "fungus",
+      "prompt": "Day 03 vocabulary: complete fun___. Enter the missing letters.",
+      "prefix": "fun",
+      "word": "fungus",
+      "answer": "A fungus is an organism such as a mushroom, mold, or yeast. 正解：gus → fungus（菌類・菌）。死んだ有機物を分解し、土へ栄養を戻す生物の文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p004:qfungus"
+      ]
+    },
+    {
+      "passageId": "gesture",
+      "prompt": "Day 03 vocabulary: complete ges____. Enter the missing letters.",
+      "prefix": "ges",
+      "word": "gesture",
+      "answer": "A gesture is a movement or action that expresses an idea or feeling. 正解：ture → gesture（身振り・意思を示す行為）。小さな感謝の行為がボランティアへ気持ちを伝えた文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p004:qgesture"
+      ]
+    },
+    {
+      "passageId": "groundwork",
+      "prompt": "Day 03 vocabulary: complete ground____. Enter the missing letters.",
+      "prefix": "ground",
+      "word": "groundwork",
+      "answer": "Groundwork is the preliminary work that makes later progress possible. 正解：work → groundwork（基礎工事・下準備）。初期の実験室研究が後の臨床試験を可能にした文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p004:qgroundwork"
+      ]
+    },
+    {
+      "passageId": "hazard",
+      "prompt": "Day 03 vocabulary: complete haz___. Enter the missing letters.",
+      "prefix": "haz",
+      "word": "hazard",
+      "answer": "A hazard is something that can cause harm or danger. 正解：ard → hazard（危険・危険要因）。固定されていない設備が地震時の危険になる文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p004:qhazard"
+      ]
+    },
+    {
+      "passageId": "hotspot",
+      "prompt": "Day 03 vocabulary: complete hot____. Enter the missing letters.",
+      "prefix": "hot",
+      "word": "hotspot",
+      "answer": "A hotspot is a place with unusually intense activity or concentration. 正解：spot → hotspot（中心地・集中地域）。多くの希少種が集中する生物多様性の重要地域という文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p004:qhotspot"
+      ]
+    },
+    {
+      "passageId": "imaging",
+      "prompt": "Day 03 vocabulary: complete ima____. Enter the missing letters.",
+      "prefix": "ima",
+      "word": "imaging",
+      "answer": "Imaging is the process of producing a visual representation of an object or internal structure. 正解：ging → imaging（画像化・画像診断）。手術をせず臓器を調べる医療画像の文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p004:qimaging"
+      ]
+    }
+  ]
+}

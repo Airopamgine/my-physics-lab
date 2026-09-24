@@ -219,11 +219,11 @@ class TaskCatalogTests(unittest.TestCase):
         self.assertIn(3, source['reviewedPages'])
         self.assertEqual(source['pageItems']['3'], refs1 + refs2 + refs3 + refs4)
 
-    def test_vocabulary_day03_first_fifteen_headwords_start_page4(self):
+    def test_vocabulary_day03_first_thirty_headwords_start_page4(self):
         bank = self.build()
-        item = next(s for s in bank['sets']
-                    if s['id'] == 'pdf-vocabulary-day03-part1')
-        expected = [
+        part1 = next(s for s in bank['sets']
+                     if s['id'] == 'pdf-vocabulary-day03-part1')
+        expected1 = [
             ('ess', 'access'), ('pe', 'ape'), ('ience', 'audience'),
             ('ficial', 'beneficial'), ('ost', 'boost'),
             ('geon', 'burgeon'), ('tury', 'century'),
@@ -231,18 +231,37 @@ class TaskCatalogTests(unittest.TestCase):
             ('ribution', 'contribution'), ('sis', 'crisis'), ('ue', 'cue'),
             ('icate', 'delicate'), ('truct', 'destruct'),
             ('parity', 'disparity')]
-        self.assertEqual([q['acceptedAnswers'] for q in item['questions']],
-                         [list(pair) for pair in expected])
-        refs = [f'pdf:vocabulary:p004:q{word}' for _, word in expected]
-        self.assertEqual([q['sourceRefs'] for q in item['questions']],
-                         [[ref] for ref in refs])
+        self.assertEqual([q['acceptedAnswers'] for q in part1['questions']],
+                         [list(pair) for pair in expected1])
+
+        part2 = next(s for s in bank['sets']
+                     if s['id'] == 'pdf-vocabulary-day03-part2')
+        expected2 = [
+            ('stream', 'downstream'), ('logical', 'ecological'),
+            ('vated', 'elevated'), ('tainer', 'entertainer'),
+            ('ption', 'eruption'), ('voke', 'evoke'),
+            ('tor', 'factor'), ('law', 'flaw'),
+            ('ation', 'foundation'), ('gus', 'fungus'),
+            ('ture', 'gesture'), ('work', 'groundwork'),
+            ('ard', 'hazard'), ('spot', 'hotspot'),
+            ('ging', 'imaging')]
+        self.assertEqual([q['acceptedAnswers'] for q in part2['questions']],
+                         [list(pair) for pair in expected2])
+
+        refs1 = [f'pdf:vocabulary:p004:q{word}' for _, word in expected1]
+        refs2 = [f'pdf:vocabulary:p004:q{word}' for _, word in expected2]
+        self.assertEqual([q['sourceRefs'] for q in part1['questions']],
+                         [[ref] for ref in refs1])
+        self.assertEqual([q['sourceRefs'] for q in part2['questions']],
+                         [[ref] for ref in refs2])
         self.assertTrue(all(q['correct'] is None and q['options'] == []
+                            for item in (part1, part2)
                             for q in item['questions']))
 
         index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
         source = next(s for s in index['sources'] if s['id'] == 'vocabulary')
         self.assertNotIn(4, source['reviewedPages'])
-        self.assertEqual(source['pageItems']['4'], refs)
+        self.assertEqual(source['pageItems']['4'], refs1 + refs2)
 
     def test_rivers_and_color_preserve_all_source_targets(self):
         bank = self.build()
