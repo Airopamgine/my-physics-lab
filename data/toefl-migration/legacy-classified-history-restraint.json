@@ -1,0 +1,132 @@
+{
+  "id": "legacy-classified-history-restraint",
+  "title": "Classified History and Prior Restraint",
+  "task": 3,
+  "date": "2026-09-24T11:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "原文四段落と全九つの学習対象を保持し、元の日本語記述・翻訳・発展問題を本文根拠のある英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-standard-classified-history-restraint-27/",
+  "passages": {
+    "text": "In 1967, the U.S. Department of Defense commissioned a classified historical study of decision-making about Vietnam. The study covered several administrations and included internal records that differed from some public accounts. Daniel Ellsberg, who had worked with the material, later provided copies to newspapers. Publication in 1971 gave citizens evidence with which to compare official statements and internal deliberations. Yet the phrase “the documents proved that everything was a lie” is too broad: a large historical archive contains disagreements, changing plans, accurate claims, misleading claims, and judgments made under uncertainty.\n\nAfter one newspaper began publishing, the federal government sought injunctions against it and another newspaper. This was a request for prior restraint—an order stopping publication before the disputed material appeared—not a final trial deciding every possible consequence after publication. The government argued that disclosure threatened national security. The newspapers argued that the First Amendment placed a very heavy burden on a government that wished to stop the press in advance.\n\nIn *New York Times Co. v. United States*, the Supreme Court ruled six to three that the government had not met that burden in these cases, so the injunctions could not stand. The short controlling opinion did not announce that every classified document may always be published, nor did it create a general legal right for anyone to obtain any government record. Moreover, the six justices in the majority wrote separate concurring opinions with different views about executive power, congressional authority, secrecy, and the circumstances in which restraint might be possible.\n\nThe episode mattered politically and journalistically, but its effects should also be expressed with care. It contributed to public scrutiny of wartime decision-making and became an important example in debates over secrecy and press freedom. It did not single-handedly create distrust, end the war, or resolve every conflict between national security and publication. A strong historical explanation connects the documents, existing protest, court procedure, editorial choices, and later interpretation without turning one event into the sole cause of a changed society."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "Which statement best expresses the main idea of the passage?",
+      "options": [
+        {"label": "A", "text": "A classified label proves that every statement in a document is false."},
+        {"label": "B", "text": "The Supreme Court gave everyone an unlimited right to publish and obtain every government secret."},
+        {"label": "C", "text": "The episode should be analyzed by separating the archive, editorial action, prior-restraint procedure, the limited holding, and broader historical effects."},
+        {"label": "D", "text": "The leak alone ended the Vietnam War and created public distrust."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。本文は資料内容、漏えいと編集、事前差止め、判決の限定、社会的影響を段階ごとに区別します。Aは機密指定と真偽を混同し、BとDは本文が明示的に退ける過度な一般化です。",
+      "sourceRefs": ["legacy:english-reading-standard-classified-history-restraint-27-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does the author call the claim that “the documents proved that everything was a lie” too broad?",
+      "options": [
+        {"label": "A", "text": "The archive contained only public speeches and no internal records."},
+        {"label": "B", "text": "A large archive contains disagreement, changing plans, accurate and misleading claims, and judgments under uncertainty, so every difference cannot be treated as an intentional lie."},
+        {"label": "C", "text": "The Court found that every public account about Vietnam was accurate."},
+        {"label": "D", "text": "Classified studies are too short to support any historical conclusion."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。第1段落は資料群の内容を複数の型へ分け、公式説明との差異がすべて故意の虚偽を意味するわけではないと限定します。A・C・Dはいずれも本文の資料記述と一致しません。",
+      "sourceRefs": ["legacy:english-reading-standard-classified-history-restraint-27-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "How does prior restraint differ from a decision about responsibility after publication?",
+      "options": [
+        {"label": "A", "text": "Prior restraint determines every criminal and civil consequence only after material has appeared."},
+        {"label": "B", "text": "Prior restraint automatically gives citizens access to classified archives."},
+        {"label": "C", "text": "Prior restraint is a newspaper's voluntary editorial delay with no court involvement."},
+        {"label": "D", "text": "Prior restraint seeks a court order stopping publication in advance, while later proceedings may address conduct, harm, or liability after release."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。prior restraintは公開前に表現を止める措置で、公開後の責任や損害を判断する手続とは時点と争点が異なります。Aは順序を逆転し、Bは情報取得権、Cは自主判断と混同しています。",
+      "sourceRefs": ["legacy:english-reading-standard-classified-history-restraint-27-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "The word “injunction” in paragraph 2 is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "a court order requiring or preventing an action"},
+        {"label": "B", "text": "an internal historical disagreement"},
+        {"label": "C", "text": "a newspaper's editorial comment"},
+        {"label": "D", "text": "a public opinion poll"}
+      ],
+      "correct": "A",
+      "answer": "正解：A。本文では政府が新聞社によるpublicationを止める裁判所命令を求めています。Bは資料内容、Cは編集上の意見、Dは世論調査であり、法的命令ではありません。",
+      "sourceRefs": ["legacy:english-reading-standard-classified-history-restraint-27-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which option correctly identifies both what the Supreme Court decided and what it did not decide?",
+      "options": [
+        {"label": "A", "text": "It decided that all classified material was false and that no national-security claim could ever be raised."},
+        {"label": "B", "text": "It decided every possible liability of the newspapers and the source after publication."},
+        {"label": "C", "text": "It decided that the government had not met the heavy burden needed for these injunctions, but it did not establish blanket permission to publish or a general right to obtain every government record."},
+        {"label": "D", "text": "It decided that all six majority justices agreed on one complete theory of executive power."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。判決はthese casesで事前差止めの立証責任が満たされなかったという結論です。全機密の公開許可、一般的な取得権、公開後のあらゆる責任までは決めていません。A・B・Dは射程を広げすぎています。",
+      "sourceRefs": ["legacy:english-reading-standard-classified-history-restraint-27-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What can most reasonably be inferred from the passage?",
+      "options": [
+        {"label": "A", "text": "All six justices in the majority used identical reasoning."},
+        {"label": "B", "text": "Because the controlling opinion was short and the concurring opinions differed, the ruling should be summarized cautiously rather than as one broad rule."},
+        {"label": "C", "text": "The government did not mention national security in seeking the injunctions."},
+        {"label": "D", "text": "The decision gave every citizen automatic access to classified archives."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。多数側は結論を共有しましたが、行政権、議会権限、秘密、規制可能性について理由が異なりました。そのため一つの広い命題へ単純化できません。A・C・Dは本文と直接矛盾します。",
+      "sourceRefs": ["legacy:english-reading-standard-classified-history-restraint-27-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which explanation of the episode's social impact best follows paragraph 4?",
+      "options": [
+        {"label": "A", "text": "It connects the documents, existing protest, court procedure, editorial choices, and later interpretation without treating the leak as the sole cause of social change."},
+        {"label": "B", "text": "It treats the ruling as the only cause of distrust and the immediate end of the war."},
+        {"label": "C", "text": "It ignores editorial decisions because only the documents can affect public opinion."},
+        {"label": "D", "text": "It assumes that later interpretations cannot change the episode's public meaning."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。最終段落は文書、既存の抗議、裁判手続、編集判断、後世の解釈を接続する多要因説明を求めます。contributed toは寄与を表しますが、Bのsole causeまでは意味しません。",
+      "sourceRefs": ["legacy:english-reading-standard-classified-history-restraint-27-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which option best restates “This was a request for prior restraint—not a final trial deciding every possible consequence after publication”?",
+      "options": [
+        {"label": "A", "text": "The case settled every consequence of publication before the newspapers printed anything."},
+        {"label": "B", "text": "The newspapers asked the Court to make all classified records public."},
+        {"label": "C", "text": "The final trial concerned only whether citizens approved of the newspapers' choices."},
+        {"label": "D", "text": "The immediate request was to stop publication beforehand, not to resolve all legal consequences that might be considered after release."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。ダッシュ後は訴訟対象を限定し、公開前の差止請求と公開後に生じ得る責任判断を分けています。Aは全結果を決めたと誤読し、B・Cは当事者と争点を取り違えています。",
+      "sourceRefs": ["legacy:english-reading-standard-classified-history-restraint-27-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "A university asks researchers to delay publication for safety reasons. Which response best applies the passage's framework?",
+      "options": [
+        {"label": "A", "text": "Accept any mention of security as sufficient for a permanent ban without asking for evidence."},
+        {"label": "B", "text": "Identify the specific and immediate harm, the rule and evidence supporting restraint, narrower alternatives such as removing operational details, and a time-limited independent review while keeping prepublication restraint distinct from later responsibility."},
+        {"label": "C", "text": "Publish every operational detail immediately because prior restraint can never be justified under any circumstances."},
+        {"label": "D", "text": "Let only the most senior researcher decide, without recording reasons or considering public value."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。危険を具体化し、証拠、範囲、期間、より狭い代替策、独立審査を検討するため、本文のissue・remedy・burden・limited holdingという枠組みを応用しています。A・Cは絶対化、Dは説明責任を欠きます。",
+      "sourceRefs": ["legacy:english-reading-standard-classified-history-restraint-27-q9"]
+    }
+  ]
+}
