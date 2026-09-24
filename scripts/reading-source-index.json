@@ -872,7 +872,8 @@
       "answerKeyAvailable": false,
       "reviewedPages": [
         1,
-        2
+        2,
+        3
       ],
       "packets": [
         {
@@ -1000,18 +1001,32 @@
           "pdf:vocabulary:p003:qopaque",
           "pdf:vocabulary:p003:qperformer",
           "pdf:vocabulary:p003:qpreserve",
-          "pdf:vocabulary:p003:qquest"
+          "pdf:vocabulary:p003:qquest",
+          "pdf:vocabulary:p003:qresilience",
+          "pdf:vocabulary:p003:qrural",
+          "pdf:vocabulary:p003:qsignificantly",
+          "pdf:vocabulary:p003:qsophisticated",
+          "pdf:vocabulary:p003:qstem",
+          "pdf:vocabulary:p003:qsubstandard",
+          "pdf:vocabulary:p003:qsurvival",
+          "pdf:vocabulary:p003:qtectonic",
+          "pdf:vocabulary:p003:qthrive",
+          "pdf:vocabulary:p003:qtransportation",
+          "pdf:vocabulary:p003:quneven",
+          "pdf:vocabulary:p003:qunofficial",
+          "pdf:vocabulary:p003:qvaccination",
+          "pdf:vocabulary:p003:qvictim",
+          "pdf:vocabulary:p003:qweather"
         ]
       }
     }
   ],
   "lastSource": {
-    "type": "legacy",
+    "type": "pdf",
     "ids": [
-      "legacy-art-object-relationship",
-      "legacy-hospitality-belonging"
+      "pdf-vocabulary-day02-part4"
     ],
-    "convertedAt": "2026-09-23T19:00:00+09:00"
+    "convertedAt": "2026-09-24T09:00:00+09:00"
   },
   "blockedItems": [
     {
