@@ -1087,11 +1087,12 @@
     }
   ],
   "lastSource": {
-    "type": "pdf",
+    "type": "legacy",
     "ids": [
-      "pdf-vocabulary-day03-part2"
+      "legacy-higher-education-design",
+      "legacy-inca-networks"
     ],
-    "convertedAt": "2026-09-24T21:00:00+09:00"
+    "convertedAt": "2026-09-24T23:00:00+09:00"
   },
   "blockedItems": [
     {
