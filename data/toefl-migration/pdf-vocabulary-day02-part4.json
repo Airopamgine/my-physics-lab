@@ -1,0 +1,148 @@
+{
+  "id": "pdf-vocabulary-day02-part4",
+  "title": "Vocabulary Day 02 · Context Completion 4",
+  "task": 1,
+  "date": "2026-09-24T09:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 3ページ／冊子381ページ · Day 02の46〜60語（全60語中）",
+  "verificationNote": "掲載語・綴り・掲載順をスキャン原本で確認済みです。各語を文脈で判断できるmissing-letter exerciseへ編集しています。出版社の公式解答表は未収録ですが、正答は掲載headwordと一致します。未回答の語の正答は、その語を提出するまで表示されません。",
+  "passages": {
+    "resilience": "The community showed remarkable resi______ after the flood damaged many homes.",
+    "rural": "The survey compared access to medical care in urban and rur__ areas.",
+    "significantly": "The new insulation reduced the building's energy use signi________.",
+    "sophisticated": "The spacecraft relies on sophi________ guidance software to adjust its course.",
+    "stem": "Many coastal problems st__ from the loss of protective wetlands.",
+    "substandard": "Inspectors closed the building because its electrical wiring was subs_______.",
+    "survival": "Stored body fat improves the animal's chances of sur_____ during winter.",
+    "tectonic": "Earthquakes often occur where tect____ plates move against one another.",
+    "thrive": "These plants th____ in moist soil but struggle during long droughts.",
+    "transportation": "Reliable public trans_________ can reduce traffic congestion and air pollution.",
+    "uneven": "The benefits of economic growth were une___ across regions.",
+    "unofficial": "The figures remain unof______ until the agency publishes its final report.",
+    "vaccination": "A broad vacc_______ campaign reduced the spread of the disease.",
+    "victim": "The emergency fund provides temporary housing for each disaster vic___.",
+    "weather": "Mountain wea____ can change rapidly even during summer."
+  },
+  "questions": [
+    {
+      "passageId": "resilience",
+      "prompt": "Day 02 vocabulary: complete resi______. Enter the missing letters.",
+      "prefix": "resi",
+      "word": "resilience",
+      "answer": "Resilience is the ability to recover or adapt after difficulty. 正解：lience → resilience（回復力・復元力）。洪水被害後に共同体が立ち直る文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p003:qresilience"]
+    },
+    {
+      "passageId": "rural",
+      "prompt": "Day 02 vocabulary: complete rur__. Enter the missing letters.",
+      "prefix": "rur",
+      "word": "rural",
+      "answer": "Rural means relating to the countryside rather than a city. 正解：al → rural（農村の・田舎の）。都市部と農村部の医療アクセスを比較しています。",
+      "sourceRefs": ["pdf:vocabulary:p003:qrural"]
+    },
+    {
+      "passageId": "significantly",
+      "prompt": "Day 02 vocabulary: complete signi________. Enter the missing letters.",
+      "prefix": "signi",
+      "word": "significantly",
+      "answer": "Significantly means by a large or important amount. 正解：ficantly → significantly（大幅に・著しく）。断熱材によってエネルギー使用量が大きく減った文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p003:qsignificantly"]
+    },
+    {
+      "passageId": "sophisticated",
+      "prompt": "Day 02 vocabulary: complete sophi________. Enter the missing letters.",
+      "prefix": "sophi",
+      "word": "sophisticated",
+      "answer": "Sophisticated means advanced, complex, or highly developed. 正解：sticated → sophisticated（高度な・洗練された）。宇宙船が高度な誘導ソフトウェアを使う文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p003:qsophisticated"]
+    },
+    {
+      "passageId": "stem",
+      "prompt": "Day 02 vocabulary: complete st__. Enter the missing letters.",
+      "prefix": "st",
+      "word": "stem",
+      "answer": "Stem from means to originate in or be caused by. 正解：em → stem（～に由来する・生じる）。沿岸問題の多くが湿地の喪失に由来する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p003:qstem"]
+    },
+    {
+      "passageId": "substandard",
+      "prompt": "Day 02 vocabulary: complete subs_______. Enter the missing letters.",
+      "prefix": "subs",
+      "word": "substandard",
+      "answer": "Substandard means below an acceptable level of quality or safety. 正解：tandard → substandard（標準以下の）。基準未満の配線を理由に建物が閉鎖された文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p003:qsubstandard"]
+    },
+    {
+      "passageId": "survival",
+      "prompt": "Day 02 vocabulary: complete sur_____. Enter the missing letters.",
+      "prefix": "sur",
+      "word": "survival",
+      "answer": "Survival is the state of continuing to live or exist. 正解：vival → survival（生存）。蓄えた脂肪が冬の生存可能性を高める文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p003:qsurvival"]
+    },
+    {
+      "passageId": "tectonic",
+      "prompt": "Day 02 vocabulary: complete tect____. Enter the missing letters.",
+      "prefix": "tect",
+      "word": "tectonic",
+      "answer": "Tectonic means relating to the structure and movement of Earth's crust. 正解：onic → tectonic（地殻構造の・プレート運動の）。プレート境界で地震が起こる文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p003:qtectonic"]
+    },
+    {
+      "passageId": "thrive",
+      "prompt": "Day 02 vocabulary: complete th____. Enter the missing letters.",
+      "prefix": "th",
+      "word": "thrive",
+      "answer": "Thrive means to grow, develop, or succeed well. 正解：rive → thrive（繁栄する・よく育つ）。湿った土壌で植物がよく育つ文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p003:qthrive"]
+    },
+    {
+      "passageId": "transportation",
+      "prompt": "Day 02 vocabulary: complete trans_________. Enter the missing letters.",
+      "prefix": "trans",
+      "word": "transportation",
+      "answer": "Transportation is the movement of people or goods from one place to another. 正解：portation → transportation（交通・輸送）。公共交通が渋滞と大気汚染を減らす文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p003:qtransportation"]
+    },
+    {
+      "passageId": "uneven",
+      "prompt": "Day 02 vocabulary: complete une___. Enter the missing letters.",
+      "prefix": "une",
+      "word": "uneven",
+      "answer": "Uneven means not equal, level, or consistent. 正解：ven → uneven（不均一な・偏りのある）。経済成長の恩恵が地域間で均等でない文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p003:quneven"]
+    },
+    {
+      "passageId": "unofficial",
+      "prompt": "Day 02 vocabulary: complete unof______. Enter the missing letters.",
+      "prefix": "unof",
+      "word": "unofficial",
+      "answer": "Unofficial means not formally authorized or confirmed. 正解：ficial → unofficial（非公式の）。機関の最終発表前で数値が未確定な文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p003:qunofficial"]
+    },
+    {
+      "passageId": "vaccination",
+      "prompt": "Day 02 vocabulary: complete vacc_______. Enter the missing letters.",
+      "prefix": "vacc",
+      "word": "vaccination",
+      "answer": "Vaccination is the administration of a vaccine to provide protection against disease. 正解：ination → vaccination（予防接種）。広範な接種活動が感染拡大を抑えた文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p003:qvaccination"]
+    },
+    {
+      "passageId": "victim",
+      "prompt": "Day 02 vocabulary: complete vic___. Enter the missing letters.",
+      "prefix": "vic",
+      "word": "victim",
+      "answer": "A victim is a person harmed by a crime, accident, or disaster. 正解：tim → victim（被害者）。災害被害者へ仮住居を提供する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p003:qvictim"]
+    },
+    {
+      "passageId": "weather",
+      "prompt": "Day 02 vocabulary: complete wea____. Enter the missing letters.",
+      "prefix": "wea",
+      "word": "weather",
+      "answer": "Weather is the condition of the atmosphere at a particular time and place. 正解：ther → weather（天候・気象）。山の天候が夏でも急変する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p003:qweather"]
+    }
+  ]
+}
