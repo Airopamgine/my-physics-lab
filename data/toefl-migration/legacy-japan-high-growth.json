@@ -1,0 +1,132 @@
+{
+  "id": "legacy-japan-high-growth",
+  "title": "Growth, Costs, and Distribution in Postwar Japan",
+  "task": 3,
+  "date": "2026-09-25T03:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "原文四段落と全九つの学習対象を保持し、元の日本語記述・翻訳・発展問題を本文根拠のある英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-standard-japan-high-growth-19/",
+  "passages": {
+    "text": "From the mid-1950s to the early 1970s, Japan experienced exceptionally rapid economic growth. One Bank of Japan study estimates average real growth near ten percent for 1955–1970. Calling this period a “miracle” communicates its speed, but the word can hide mechanisms. Growth involved high investment, expanding manufacturing, infrastructure, imported and adapted technology, an educated workforce, export demand, and connections among industries. No single corporation or national character can carry the whole explanation.\n\nAggregate figures describe the economy as a whole; they do not show how every household lived. Rising production and income supported wider access to appliances, transport, housing improvements, and education for many people. At the same time, workers and families moved rapidly toward industrial cities, where housing, commuting, public services, and workplace conditions did not always expand at the same speed. An increase in average output can coexist with uneven benefits and new forms of strain.\n\nPollution reveals another distribution problem. Industrial output created products and profits, but untreated emissions and wastewater transferred part of the cost to nearby residents, workers, fisheries, farms, and future remediation. A market price did not automatically include damaged health or contaminated land. The issue was not that growth and environmental protection were logically incompatible. It was that rules, monitoring, information, and liability often failed to make decision makers bear the full consequences of production.\n\nEvaluation should therefore avoid a balance sheet with one positive and one negative column that simply cancel each other. Economic gains cannot reverse neurological injury, and severe harm does not erase every improvement in material life. A stronger analysis asks which mechanism produced each outcome, who gained, who paid, what alternatives were available, and when authorities acted. Progress is not measured responsibly until its boundaries and distribution are made visible."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "Which statement best expresses the main idea of the passage?",
+      "options": [
+        {"label": "A", "text": "Japan's rapid growth can be explained entirely by national character."},
+        {"label": "B", "text": "Economic growth should be evaluated through its mechanisms and the distribution of both gains and costs."},
+        {"label": "C", "text": "Pollution proves that no household benefited from economic growth."},
+        {"label": "D", "text": "Average output accurately describes the experience of every individual household."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。本文は成長を複数の仕組みで説明し、平均値だけでなく利益と費用が誰に分配されたかを問うべきだと論じます。A、C、Dは本文が退ける単純化です。",
+      "sourceRefs": ["legacy:english-reading-standard-japan-high-growth-19-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does calling the period a “miracle” communicate, and what can the word conceal?",
+      "options": [
+        {"label": "A", "text": "It communicates that growth was slow and conceals that no technology was imported."},
+        {"label": "B", "text": "It communicates that one corporation caused growth and conceals the exact growth rate."},
+        {"label": "C", "text": "It communicates the remarkable speed of growth but can conceal observable mechanisms such as investment, technology, labor, demand, and industrial links."},
+        {"label": "D", "text": "It communicates the distribution of household gains but conceals the growth of manufacturing."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。miracleは成長の速さと驚異性を簡潔に伝える一方、投資・技術・労働力・需要・産業連関という説明可能な仕組みを神秘化する危険があります。",
+      "sourceRefs": ["legacy:english-reading-standard-japan-high-growth-19-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which group contains four mechanisms that the passage explicitly associates with rapid growth?",
+      "options": [
+        {"label": "A", "text": "High investment, expanding manufacturing, infrastructure, and imported and adapted technology."},
+        {"label": "B", "text": "Falling investment, shrinking cities, untreated wastewater, and reduced education."},
+        {"label": "C", "text": "National character, one corporation, neurological injury, and future remediation."},
+        {"label": "D", "text": "Contaminated land, longer commutes, unequal benefits, and weak liability rules."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。第1段落はこの四要素に加え、教育を受けた労働力、輸出需要、産業間の結びつきも列挙します。B〜Dは成長機構ではない要素や本文が単独説明として否定する要素を含みます。",
+      "sourceRefs": ["legacy:english-reading-standard-japan-high-growth-19-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What can aggregate figures about economic growth not show directly?",
+      "options": [
+        {"label": "A", "text": "Whether total production changed over a period of time."},
+        {"label": "B", "text": "Whether an economy as a whole grew rapidly."},
+        {"label": "C", "text": "Whether average real growth can be estimated for a span of years."},
+        {"label": "D", "text": "How income, improvements, strains, and environmental costs were distributed among particular households and communities."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。集計値は経済全体の変化を示せますが、各世帯や地域が平均より上か下か、誰が生活改善や環境費用を経験したかを直接は示しません。",
+      "sourceRefs": ["legacy:english-reading-standard-japan-high-growth-19-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which two conditions does the phrase “can coexist” connect in paragraph 2?",
+      "options": [
+        {"label": "A", "text": "A decline in national production and equal benefits for every household."},
+        {"label": "B", "text": "Growth in average output and income, together with uneven benefits and new strains involving housing, commuting, services, and work."},
+        {"label": "C", "text": "Complete environmental protection and the absence of manufacturing."},
+        {"label": "D", "text": "A single national cause and the disappearance of regional differences."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。coexistは、平均的な生産・所得の増加と、不均等な利益や都市生活上の新しい負担が同時に真であり得ることを示し、単純な二者択一を避けます。",
+      "sourceRefs": ["legacy:english-reading-standard-japan-high-growth-19-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which statement can most reasonably be inferred from the passage?",
+      "options": [
+        {"label": "A", "text": "If output rises, public services must expand at exactly the same rate."},
+        {"label": "B", "text": "A product's market price may omit health and environmental costs imposed on other people."},
+        {"label": "C", "text": "Environmental protection and industrial production are logically incompatible."},
+        {"label": "D", "text": "Later remediation makes every earlier injury disappear."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。第3段落は、排出や排水の費用が住民・労働者・漁業・農業・将来の修復へ移され、市場価格に健康被害や土地汚染が自動的には含まれないと説明します。",
+      "sourceRefs": ["legacy:english-reading-standard-japan-high-growth-19-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does paragraph 3 list rules, monitoring, information, and liability?",
+      "options": [
+        {"label": "A", "text": "To prove that pollution has no identifiable institutional causes."},
+        {"label": "B", "text": "To show that every environmental cost can be repaired completely after production."},
+        {"label": "C", "text": "To identify the institutional chain that determines who detects harm, knows about it, restrains it, and bears its cost."},
+        {"label": "D", "text": "To argue that one company's intentions fully explain every environmental outcome."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。この列挙は、有害な結果の検出・共有・抑制・費用負担を左右する制度の因果鎖を示します。企業一社の性格だけでなく、被害を長期化または抑制する仕組みを分析するためです。",
+      "sourceRefs": ["legacy:english-reading-standard-japan-high-growth-19-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which option best restates “Progress is not measured responsibly until its boundaries and distribution are made visible”?",
+      "options": [
+        {"label": "A", "text": "A responsible measure of progress must reveal the limits of its scope and how benefits and costs are distributed."},
+        {"label": "B", "text": "Progress can be measured responsibly as soon as one national average is available."},
+        {"label": "C", "text": "The boundaries of progress refer only to Japan's national borders."},
+        {"label": "D", "text": "Distribution matters only after economic gains and injuries have canceled each other out."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。boundariesは指標が扱う地域・時期・対象者などの範囲を、distributionは利益と費用の配分を指します。平均値だけで進歩を断定せず、測定の限界と偏りを可視化する必要があります。",
+      "sourceRefs": ["legacy:english-reading-standard-japan-high-growth-19-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which evaluation plan best applies the passage's approach to an economic-growth policy?",
+      "options": [
+        {"label": "A", "text": "Report only total output, treat the average as every household's experience, and omit delayed costs."},
+        {"label": "B", "text": "Add every benefit and injury into one monetary total and assume that a positive result reverses all harm."},
+        {"label": "C", "text": "Compare growth only with doing nothing and ignore when regulation or public services were introduced."},
+        {"label": "D", "text": "Measure output and income, identify recipients and cost bearers, trace regulation and services over time, compare realistic alternatives, and report irreversible harms separately."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。本文の方法は、利益と健康・住宅・通勤・環境・修復費用の分配、政策対応の時期、現実的代替案、不可逆的被害を区別して評価します。A〜Cは平均値への還元や不適切な相殺を行います。",
+      "sourceRefs": ["legacy:english-reading-standard-japan-high-growth-19-q9"]
+    }
+  ]
+}
