@@ -1102,11 +1102,12 @@
     }
   ],
   "lastSource": {
-    "type": "pdf",
+    "type": "legacy",
     "ids": [
-      "pdf-vocabulary-day03-part3"
+      "legacy-japan-high-growth",
+      "legacy-logarithms-calculation"
     ],
-    "convertedAt": "2026-09-25T01:01:00+09:00"
+    "convertedAt": "2026-09-25T03:00:00+09:00"
   },
   "blockedItems": [
     {

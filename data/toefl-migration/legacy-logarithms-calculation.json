@@ -1,0 +1,132 @@
+{
+  "id": "legacy-logarithms-calculation",
+  "title": "Logarithms as a Tool and a Historical Process",
+  "task": 3,
+  "date": "2026-09-25T03:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "原文四段落と全九つの学習対象を保持し、元の日本語記述・翻訳・発展問題を本文根拠のある英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-standard-logarithms-calculation-14/",
+  "passages": {
+    "text": "Long before electronic calculators, astronomers, navigators, surveyors, and merchants repeatedly multiplied large numbers and extracted roots. A single error could spread through a long chain of work. The growth of oceanic navigation increased some demands for reliable tables and calculations, but it was not the only source of pressure. Astronomy, land measurement, finance, and calendar making also created problems that were slow to solve by hand. A need can shape an invention without being its single cause.\n\nLogarithms offered a new representation. For positive numbers, a relation such as $\\log(ab)=\\log a+\\log b$ turns multiplication into addition after the numbers have been converted to logarithms. Division can similarly be changed into subtraction. The transformation does not make arithmetic disappear: users must find entries in a table, add or subtract accurately, and convert back. Its advantage is that a difficult operation is replaced by a more manageable sequence.\n\nJohn Napier published an influential account of logarithms in 1614 after years of work. His system was not simply the modern base-ten notation taught at school. Henry Briggs later worked with Napier and developed tables arranged around a form closer to common logarithms, in which $\\log_{10}100=2$. At about the same historical period, Jost Bürgi developed a related method independently, although publication and circulation differed. “Who invented logarithms?” therefore has a useful short answer for orientation, but a fuller history separates independent construction, publication, refinement, and adoption.\n\nTables also remind us that a mathematical idea and a dependable instrument are not identical. Thousands of values had to be calculated, checked, printed, corrected, and used with attention to significant figures. Later mechanical and electronic tools reduced the everyday role of printed logarithm tables, but the concept did not vanish. Logarithmic scales still express multiplicative change, orders of magnitude, information, and many processes whose relative change matters more than an absolute difference. A historical tool can become a general way of seeing structure."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "Which statement best expresses the main idea of the passage?",
+      "options": [
+        {"label": "A", "text": "Oceanic navigation alone directly caused the invention of modern base-ten logarithms."},
+        {"label": "B", "text": "Logarithms mattered because they transformed operations, while their development and use involved multiple needs, contributors, and dependable tables."},
+        {"label": "C", "text": "Logarithms removed every possible source of numerical error."},
+        {"label": "D", "text": "Printed tables remain the only practical use of logarithms."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。第2段落の演算変換と、第1・3・4段落の複数需要、複数の貢献、信頼できる表の整備を統合しています。A、C、Dは本文が否定する単純化です。",
+      "sourceRefs": ["legacy:english-reading-standard-logarithms-calculation-14-q1"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What kind of historical explanation does “A need can shape an invention without being its single cause” reject?",
+      "options": [
+        {"label": "A", "text": "An explanation that compares several fields' needs for calculation."},
+        {"label": "B", "text": "An explanation that distinguishes demand from later adoption."},
+        {"label": "C", "text": "An explanation that examines mathematical ideas and individual research alongside social needs."},
+        {"label": "D", "text": "A one-step claim that a growing practical need, such as navigation, was by itself the complete cause of logarithms."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。需要は研究の方向や受容を形作りますが、数学的発想、他分野の需要、既存知識、個々の研究過程を置き換える唯一の十分原因ではありません。",
+      "sourceRefs": ["legacy:english-reading-standard-logarithms-calculation-14-q2"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "How does the relation $\\log(ab)=\\log a+\\log b$ change a multiplication performed with logarithm tables?",
+      "options": [
+        {"label": "A", "text": "Convert both positive numbers to logarithms, add those logarithms, and convert the result back to the corresponding number."},
+        {"label": "B", "text": "Add the original numbers first and then multiply their logarithms."},
+        {"label": "C", "text": "Look up one number, discard the other, and treat the table entry as the product."},
+        {"label": "D", "text": "Convert multiplication into subtraction without using a table or an inverse conversion."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。正の二数を対数へ変換し、その対数を加え、対応する元の数へ戻します。乗算は加算へ置換されますが、表引きと逆変換を含む一連の手順です。",
+      "sourceRefs": ["legacy:english-reading-standard-logarithms-calculation-14-q3"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why does the passage warn that the transformation “does not make arithmetic disappear”?",
+      "options": [
+        {"label": "A", "text": "Because logarithms leave multiplication completely unchanged."},
+        {"label": "B", "text": "Because only astronomers were permitted to use logarithm tables."},
+        {"label": "C", "text": "Because users must still find table entries, add or subtract accurately, convert back, and handle significant figures."},
+        {"label": "D", "text": "Because the method can operate only after electronic calculators perform the arithmetic."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。対数は難しい演算を扱いやすい連続手順へ変えますが、検索・加減・逆変換・有効数字の作業と誤差の可能性は残ります。演算の種類を変えることと作業を消すことは別です。",
+      "sourceRefs": ["legacy:english-reading-standard-logarithms-calculation-14-q4"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which option correctly distinguishes the roles of Napier, Briggs, and Bürgi as presented in the passage?",
+      "options": [
+        {"label": "A", "text": "Napier invented modern electronic calculation, Briggs rejected logarithms, and Bürgi printed Napier's tables."},
+        {"label": "B", "text": "Napier published an influential account in 1614; Briggs worked with him and developed tables closer to common logarithms; Bürgi independently developed a related method whose publication and circulation differed."},
+        {"label": "C", "text": "Briggs published the first account in 1614, while Napier and Bürgi merely copied his modern base-ten system."},
+        {"label": "D", "text": "All three men made exactly the same contribution at the same time and circulated it identically."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。本文はNapierの公刊、Briggsの協働と常用対数に近い表の発展、Bürgiの独立した関連方法を区別します。功績を一人へ還元せず、構築・公刊・改良・流通の動詞を分けています。",
+      "sourceRefs": ["legacy:english-reading-standard-logarithms-calculation-14-q5"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which statement can most reasonably be inferred from the passage?",
+      "options": [
+        {"label": "A", "text": "The date of publication and the first independent discovery are always the same fact."},
+        {"label": "B", "text": "A correct mathematical formula automatically produces an error-free table."},
+        {"label": "C", "text": "Adoption depends partly on calculation, checking, printing, correction, and circulation."},
+        {"label": "D", "text": "Electronic tools made logarithmic concepts useless."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。第3段落は構築・公刊・流通を区別し、第4段落は表を信頼できる道具にする計算・点検・印刷・訂正を挙げます。正しい発想だけで普及や無誤差が自動的に実現するわけではありません。",
+      "sourceRefs": ["legacy:english-reading-standard-logarithms-calculation-14-q6"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does “orientation” most nearly mean in the statement that a short answer about the inventor is useful for orientation?",
+      "options": [
+        {"label": "A", "text": "A final judgment that makes further historical study unnecessary."},
+        {"label": "B", "text": "The physical direction in which logarithm tables should be printed."},
+        {"label": "C", "text": "A claim that publication, refinement, and adoption are the same action."},
+        {"label": "D", "text": "An initial guide to a complex history that remains useful but cannot replace its finer distinctions."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。ここでorientationは複雑な歴史へ入るための最初の見取り図です。短い答えは入口になりますが、独立構築・公刊・改良・普及の違いを最終的に置き換えません。",
+      "sourceRefs": ["legacy:english-reading-standard-logarithms-calculation-14-q7"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which option best explains “A historical tool can become a general way of seeing structure” with an example from the passage?",
+      "options": [
+        {"label": "A", "text": "The idea that once converted multiplication into addition now also provides scales for orders of magnitude, relative change, and information."},
+        {"label": "B", "text": "Printed logarithm tables remain the only way to perform multiplication in modern science."},
+        {"label": "C", "text": "A historical instrument becomes general only when its original mathematical idea is forgotten."},
+        {"label": "D", "text": "Electronic calculators preserved every everyday use of printed tables without changing it."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。「歴史上の道具が構造を見る一般的な方法になる」とは、乗算を加算へ写す発想が、現在も桁の規模・相対変化・情報などを表す概念枠組みとして働くことです。",
+      "sourceRefs": ["legacy:english-reading-standard-logarithms-calculation-14-q8"]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which research approach makes “Who invented logarithms?” more precise without erasing anyone's contribution?",
+      "options": [
+        {"label": "A", "text": "Choose the person with the earliest familiar name and assign every later action to that person."},
+        {"label": "B", "text": "Ask separately who constructed a method independently, published and explained it, refined its notation, calculated dependable tables, circulated it, and supported adoption."},
+        {"label": "C", "text": "Treat invention as one indivisible event and ignore the labor needed to turn an idea into a working instrument."},
+        {"label": "D", "text": "Remove Napier's role because Briggs and Bürgi also made contributions."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。本文は「発明」を独立構築・公刊・改良・表の計算・流通・採用という行為へ分けます。これは発明者の功績を減らすのでなく、その功績が何だったかを精密に示します。",
+      "sourceRefs": ["legacy:english-reading-standard-logarithms-calculation-14-q9"]
+    }
+  ]
+}
