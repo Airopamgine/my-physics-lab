@@ -1030,6 +1030,44 @@ class TaskCatalogTests(unittest.TestCase):
                 self.assertTrue(all(q['passage'] == originals[source_id]['passage']
                                     and len(q['options']) == 4 for q in questions))
 
+    def test_final_seven_legacy_readings_complete_source_coverage(self):
+        bank = self.build()
+        converted = {item['id']: item for item in bank['sets']}
+        originals = {item['id']: item for item in self.legacy['sets']}
+        cases = [
+            ('legacy-social-media-conditions',
+             'english-reading-standard-social-media-01', 'ABCDACBDA'),
+            ('legacy-space-race-systems',
+             'english-reading-standard-space-race-09', 'BCADBCADB'),
+            ('legacy-tokyo-tower-memory',
+             'english-reading-standard-tokyo-tower-memory-32', 'BACDBACDB'),
+            ('legacy-transition-audit-evidence',
+             'english-reading-standard-transition-evidence-25', 'CABADCBDA'),
+            ('legacy-animation-transnational-reception',
+             'english-reading-standard-transnational-animation-23', 'CBADBCADB'),
+            ('legacy-trends-influence-evidence',
+             'english-reading-standard-trends-social-evidence-22', 'BCABDACDB'),
+            ('legacy-western-rome-process',
+             'english-reading-standard-western-rome-18', 'CABDCBADC'),
+        ]
+        for set_id, source_id, keys in cases:
+            with self.subTest(set_id=set_id):
+                questions = converted[set_id]['questions']
+                self.assertEqual(len(questions), 9)
+                self.assertEqual([q['sourceRefs'] for q in questions],
+                                 [[f'legacy:{source_id}-q{i}'] for i in range(1, 10)])
+                self.assertEqual([q['correct'] for q in questions], list(keys))
+                self.assertTrue(all(q['passage'] == originals[source_id]['passage']
+                                    and len(q['options']) == 4 for q in questions))
+
+        original_refs = {f"legacy:{q['id']}" for s in self.legacy['sets']
+                         for q in s['questions']}
+        converted_refs = [ref for s in converted.values() for q in s['questions']
+                          for ref in q.get('sourceRefs', []) if ref.startswith('legacy:')]
+        self.assertEqual(len(original_refs), 1040)
+        self.assertEqual(set(converted_refs), original_refs)
+        self.assertEqual(len(converted_refs), len(original_refs))
+
     def test_duplicate_source_reference_rejected(self):
         self.change('data/toefl-migration/legacy-balanced-diet.json',lambda d:d['questions'][1].update(sourceRefs=d['questions'][0]['sourceRefs']))
         with self.assertRaises(ValueError): self.build()

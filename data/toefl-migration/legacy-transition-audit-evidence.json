@@ -1,0 +1,258 @@
+{
+  "id": "legacy-transition-audit-evidence",
+  "title": "Transition Allegations and Evidence",
+  "task": 3,
+  "date": "2026-09-25T09:02:52+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "原文と全九つの学習対象を保持し、日本語記述・翻訳・発展問題を本文根拠のある英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-standard-transition-evidence-25/",
+  "passages": {
+    "text": "During the 2001 transition between U.S. presidential administrations, reports described damaged equipment, missing items, offensive signs, excessive trash, and practical jokes in offices used by the Executive Office of the President. Some incoming staff believed that outgoing staff had acted deliberately. Former staff disputed parts of the account, offered non-malicious explanations for some conditions, and denied responsibility for missing property. A vivid allegation could be true, false, exaggerated, or correctly observed but wrongly attributed.\n\nThe U.S. General Accounting Office, now named the Government Accountability Office, examined the allegations and released a report in 2002. It interviewed incoming and former staff, spoke with people who prepared office space, and reviewed available records. The report concluded that damage, theft, vandalism, and pranks had occurred. That conclusion did not make every reported detail equally documented, nor did it settle the responsible person and intention behind every condition.\n\nComparison with earlier transitions was also difficult. If previous administrations did not inspect rooms in the same way or preserve comparable repair records, investigators cannot calculate a reliable increase from one transition to another. The absence of a record is not proof that no earlier damage occurred; it is also not proof that the current allegation is false. It limits the comparison that can honestly be made.\n\nThe audit therefore led beyond a partisan story to a procedural recommendation. Offices and equipment should be inspected before departure and arrival, damage should be documented, expectations should be communicated, and records should be retained. Such procedures cannot prevent every dispute. They can, however, replace later memories with time-stamped evidence and make future comparisons more defensible. The lesson is not to distrust every witness. It is to design institutions so that important claims do not depend on memory and political loyalty alone."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What is the central claim?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Denial makes every allegation false."
+        },
+        {
+          "label": "B",
+          "text": "An audit identifies the person and intent behind every item."
+        },
+        {
+          "label": "C",
+          "text": "Evidence should distinguish an event, its details and attribution, historical comparison, and future documentation."
+        },
+        {
+          "label": "D",
+          "text": "A vivid political story is enough for reliable comparison."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。発生・細部・行為者・比較・記録制度を区別する本文全体の主旨です。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-transition-evidence-25-q1"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What four possibilities are allowed for a vivid allegation?",
+      "options": [
+        {
+          "label": "A",
+          "text": "True, false, exaggerated, or accurately observed but wrongly attributed."
+        },
+        {
+          "label": "B",
+          "text": "Always true, always deliberate, always partisan, or always recorded."
+        },
+        {
+          "label": "C",
+          "text": "True only if no one disputes it; false otherwise."
+        },
+        {
+          "label": "D",
+          "text": "Damaged, repaired, replaced, or sold, with no question about evidence."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。第1段落末。状態を観察できても、誰の意図的行為かは別の主張です。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-transition-evidence-25-q2"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What did the audit conclude, and what did it leave unsettled?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It concluded no damage occurred and identified every prankster."
+        },
+        {
+          "label": "B",
+          "text": "Damage, theft, vandalism, and pranks occurred, but not every detail, responsible person, or intention was established."
+        },
+        {
+          "label": "C",
+          "text": "It proved every vivid story had equal documentation."
+        },
+        {
+          "label": "D",
+          "text": "It compared transitions through identical records going back centuries."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。第2段落。発生の確認と個別の逸話・帰属・意図の確定を分けます。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-transition-evidence-25-q3"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does “settle” mean in “nor did it settle the responsible person and intention”?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Reach a final determination about."
+        },
+        {
+          "label": "B",
+          "text": "Move permanently to a new city."
+        },
+        {
+          "label": "C",
+          "text": "Clean an office quickly."
+        },
+        {
+          "label": "D",
+          "text": "Reduce the price of equipment."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。目的語が人物と意図なので、争点に決着をつけるという語義です。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-transition-evidence-25-q4"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why is a reliable increase over earlier transitions hard to calculate?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A missing record proves zero earlier damage."
+        },
+        {
+          "label": "B",
+          "text": "Every past transition used identical inspections."
+        },
+        {
+          "label": "C",
+          "text": "Current damage was never investigated."
+        },
+        {
+          "label": "D",
+          "text": "Earlier rooms and repairs may not have been inspected and recorded comparably."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。同じ点検・保存基準がない過去記録をゼロ件として比較できません。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-transition-evidence-25-q5"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which inference is best supported?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Missing records prove earlier transitions were undamaged."
+        },
+        {
+          "label": "B",
+          "text": "A damaged object identifies who damaged it automatically."
+        },
+        {
+          "label": "C",
+          "text": "Standard inspections can improve both prevention and later investigation."
+        },
+        {
+          "label": "D",
+          "text": "Witness accounts have no value in audits."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。第4段落。事前事後点検と時刻入り記録で紛争を減らし、後の比較も改善します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-transition-evidence-25-q6"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which package of procedures best follows the audit’s recommendation?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Inspect only after memories have faded and discard records."
+        },
+        {
+          "label": "B",
+          "text": "Inspect before departure and arrival, document damage, communicate expectations, and retain records."
+        },
+        {
+          "label": "C",
+          "text": "Rely on political loyalty and exclude preparatory staff."
+        },
+        {
+          "label": "D",
+          "text": "Document only the most amusing anecdote without a dated inventory."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。第4段落の点検・損傷記録・期待の伝達・保存という四つの対象を保ちます。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-transition-evidence-25-q7"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does “correctly observed but wrongly attributed” mean?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The observer imagined the damaged item entirely."
+        },
+        {
+          "label": "B",
+          "text": "The observer proved the motive without seeing the office."
+        },
+        {
+          "label": "C",
+          "text": "Every allegation about the office was false."
+        },
+        {
+          "label": "D",
+          "text": "The condition was real, but the claim about who caused it was mistaken."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。観察の正確さと行為者の帰属の正確さは別です。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-transition-evidence-25-q8"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which handover protocol would reduce disputes over laboratory equipment?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Use a numbered inventory, joint dated condition and calibration record, photos, signed handover, and separate logs for later failures."
+        },
+        {
+          "label": "B",
+          "text": "Let one person recall all equipment months later with no written record."
+        },
+        {
+          "label": "C",
+          "text": "Assume normal wear proves the previous user deliberately broke equipment."
+        },
+        {
+          "label": "D",
+          "text": "Discard accessories and data records before the new member arrives."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。発展問題。署名・時刻・状態・写真と後発故障の区別を含む研究室の引継ぎ案です。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-transition-evidence-25-q9"
+      ]
+    }
+  ]
+}

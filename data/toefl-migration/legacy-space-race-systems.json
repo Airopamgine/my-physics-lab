@@ -1,0 +1,258 @@
+{
+  "id": "legacy-space-race-systems",
+  "title": "The Space Race as a Coordinated Goal",
+  "task": 3,
+  "date": "2026-09-25T09:02:52+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "原文と全九つの学習対象を保持し、日本語記述・翻訳・発展問題を本文根拠のある英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-standard-space-race-09/",
+  "passages": {
+    "text": "The early space competition between the Soviet Union and the United States was conducted with rockets and instruments, but its audience was the world. The launch of the first artificial satellite in 1957 and the first human orbital flight in 1961 demonstrated engineering capacity in a form that could be observed internationally. These achievements mattered scientifically, yet governments also treated them as evidence about education, industry, military capability, and political organization.\n\nAfter the Soviet successes, the United States did not merely choose the next event on a fixed list. In May 1961, President John F. Kennedy proposed landing a person on the Moon and returning that person safely before the decade ended. The target was attractive not because lunar flight was the only valuable scientific project, but because it was distant, dramatic, measurable, and not yet achieved by either side. It created a finish line around which funding, institutions, contractors, universities, and public attention could be organized.\n\nReaching that finish line required a system rather than a single invention. Launch vehicles, navigation, communication, life support, computing, materials, testing, and crew training had to work together. Apollo 11 landed on the Moon in July 1969, but the visible landing rested on many less visible trials, failures, redesigns, and missions. The achievement should therefore be understood both as an extraordinary human voyage and as the product of large-scale coordination under political pressure.\n\nThe competition accelerated research and created demanding uses for existing and emerging technologies. However, it is too strong to claim that every later material or computer product was invented solely by the space program. Innovations usually have several lineages: public laboratories, military projects, universities, private companies, and civilian markets may all contribute. The deeper legacy of the space race is not a simple list of household products. It is a question about how ambitious public goals can concentrate resources, accept risk, produce knowledge, and also crowd out other possible goals."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What is the passage’s main purpose?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To list spacecraft without historical context."
+        },
+        {
+          "label": "B",
+          "text": "To explain how political competition selected and coordinated a technological goal, with benefits and costs."
+        },
+        {
+          "label": "C",
+          "text": "To prove lunar flight was the only valuable science."
+        },
+        {
+          "label": "D",
+          "text": "To attribute every modern computer to one space program."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。月目標の選択、組織統合、成果の複数系譜と機会費用まで論じます。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-space-race-09-q1"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Besides science, what were early space achievements treated as evidence of?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Only the weather on the launch day."
+        },
+        {
+          "label": "B",
+          "text": "Proof that every citizen preferred space travel."
+        },
+        {
+          "label": "C",
+          "text": "Education, industry, military capacity, and political organization."
+        },
+        {
+          "label": "D",
+          "text": "The absence of international audiences."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。第1段落。政府がこれらの能力の象徴的証拠として扱ったので、完全な直接測定とは言いません。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-space-race-09-q2"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which four qualities made the Moon goal politically attractive?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It was distant, dramatic, measurable, and not yet achieved by either side."
+        },
+        {
+          "label": "B",
+          "text": "It was inexpensive, immediate, secret, and already completed."
+        },
+        {
+          "label": "C",
+          "text": "It involved no deadlines, public audience, or engineering."
+        },
+        {
+          "label": "D",
+          "text": "It was the only scientifically valuable project in 1961."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。第2段落の distant, dramatic, measurable, not yet achieved の四要素です。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-space-race-09-q3"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What is “that finish line” in paragraph 3?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A painted line at a rocket launch site."
+        },
+        {
+          "label": "B",
+          "text": "The first satellite launch in 1957."
+        },
+        {
+          "label": "C",
+          "text": "Any product invented after Apollo."
+        },
+        {
+          "label": "D",
+          "text": "Landing a person on the Moon and returning that person safely before the decade ended."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。第2段落の期限と達成条件を備えた比喩的ゴールを指します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-space-race-09-q4"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What lies behind the visible Apollo 11 landing in the passage?",
+      "options": [
+        {
+          "label": "A",
+          "text": "One invention with no prior trials."
+        },
+        {
+          "label": "B",
+          "text": "Less visible testing, failures, redesigns, preceding missions, and integrated technical systems."
+        },
+        {
+          "label": "C",
+          "text": "A complete absence of political coordination."
+        },
+        {
+          "label": "D",
+          "text": "Only the decisions of the crew on the final day."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。第3段落。可視的着陸の基盤に試験・失敗・再設計・先行任務・技術統合があります。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-space-race-09-q5"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which inference is best supported?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A single invention always completes a major technological program."
+        },
+        {
+          "label": "B",
+          "text": "Political deadlines cannot affect engineering."
+        },
+        {
+          "label": "C",
+          "text": "A clear goal and deadline can organize diverse institutions around a shared effort."
+        },
+        {
+          "label": "D",
+          "text": "Universities and private firms never contribute to innovation."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。finish line を中心に資金・請負企業・大学・公衆の注意を組織したという記述が根拠です。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-space-race-09-q6"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "How does the author qualify claims about later products and the space program?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The program accelerated research and demanding uses, but later products often have several contributing lineages."
+        },
+        {
+          "label": "B",
+          "text": "Every later material was invented solely for Apollo."
+        },
+        {
+          "label": "C",
+          "text": "The space program had no role in any technology."
+        },
+        {
+          "label": "D",
+          "text": "Only household-product lists can reveal the program’s legacy."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。第4段落。加速や用途の形成を認めつつ、単独発明の因果主張を避けます。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-space-race-09-q7"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does “required a system rather than a single invention” mean?",
+      "options": [
+        {
+          "label": "A",
+          "text": "No inventions were used in lunar flight."
+        },
+        {
+          "label": "B",
+          "text": "Only one device mattered and coordination was unnecessary."
+        },
+        {
+          "label": "C",
+          "text": "The goal was a literal line drawn on the Moon."
+        },
+        {
+          "label": "D",
+          "text": "Many interdependent technologies and organizations had to work together."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。rather than は説明の中心を単一発明から統合システムへ移します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-space-race-09-q8"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which assessment includes both an advantage and an opportunity cost of an ambitious public goal?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It consumes no labor and therefore cannot displace alternatives."
+        },
+        {
+          "label": "B",
+          "text": "It can coordinate long-term investment and knowledge creation, while concentrated resources may postpone other valuable goals."
+        },
+        {
+          "label": "C",
+          "text": "It guarantees every later consumer product has one origin."
+        },
+        {
+          "label": "D",
+          "text": "It eliminates all engineering risk and political trade-offs."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。発展問題。組織・投資の利益と資金・人材・注意を他の目標に使えない機会費用を統合します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-space-race-09-q9"
+      ]
+    }
+  ]
+}

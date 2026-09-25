@@ -1,0 +1,258 @@
+{
+  "id": "legacy-western-rome-process",
+  "title": "Western Rome: Event, Process, and Continuity",
+  "task": 3,
+  "date": "2026-09-25T09:02:52+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "原文と全九つの学習対象を保持し、日本語記述・翻訳・発展問題を本文根拠のある英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-standard-western-rome-18/",
+  "passages": {
+    "text": "The statement “Rome fell in 476” is useful, but only after its nouns and date are defined. In that year, the Germanic military leader Odoacer removed Romulus Augustulus, conventionally called the last western Roman emperor. The western imperial office ended, yet the city, its inhabitants, Roman law, Christian institutions, and many administrative practices did not vanish overnight. More importantly, an emperor continued to rule the eastern Roman Empire from Constantinople. That state survived for centuries and understood itself as Roman.\n\nHistorians therefore distinguish an event from a process. The deposition in 476 is a convenient marker; the weakening and transformation of western imperial government developed over a longer period. Civil wars and rapid changes of rulers consumed military and financial resources. Tax collection and the maintenance of armies became harder in some regions. At the same time, groups including Goths and Vandals crossed, settled within, negotiated with, fought against, and sometimes served the empire. The category “invader” alone cannot describe all these relationships.\n\nExternal pressure mattered, but pressure produces different outcomes depending on the system that receives it. A frontier attack is more dangerous when rival commanders are fighting one another, revenue has declined, or troops cannot be supplied. Conversely, internal difficulty does not automatically end a state if institutions can reorganize. Explanations must therefore trace mechanisms: how did one conflict reduce revenue, redirect an army, weaken an alliance, or change control of a province?\n\nReligious change also belongs to late Roman history, but treating Christianity as a single cause of collapse confuses coexistence with causation. Christianity expanded in both western and eastern regions, while their political trajectories differed. The period was not only decline; it involved new kingdoms, transformed cities, legal continuity, and cultural experimentation. Asking “Why did Rome fall?” remains valuable if we add two questions: which Roman institutions, in which region, and over what timescale?"
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What is the passage’s central claim?",
+      "options": [
+        {
+          "label": "A",
+          "text": "All Roman institutions vanished on one day in 476."
+        },
+        {
+          "label": "B",
+          "text": "Christianity alone ended both western and eastern rule."
+        },
+        {
+          "label": "C",
+          "text": "The western imperial office ended, but regional, institutional, and causal distinctions are needed to explain transformation."
+        },
+        {
+          "label": "D",
+          "text": "External pressure had no effect."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。西方皇帝職の終わりと法・都市・東方国家などの継続を分け、原因の機構を問います。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-western-rome-18-q1"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What ended in 476, and what did not?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The western imperial office ended; Roman law, urban life, other institutions, and eastern imperial rule did not disappear overnight."
+        },
+        {
+          "label": "B",
+          "text": "The entire Roman world and all inhabitants ended at once."
+        },
+        {
+          "label": "C",
+          "text": "Only the eastern imperial office ended, while the west was unchanged."
+        },
+        {
+          "label": "D",
+          "text": "All legal and Christian institutions vanished immediately."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。第1段落。西方の皇帝職という対象を特定し、東方と社会制度の継続を区別します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-western-rome-18-q2"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why separate the event of deposition from a longer process?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The deposition never happened."
+        },
+        {
+          "label": "B",
+          "text": "A convenient date does not capture the extended weakening and reorganization of government."
+        },
+        {
+          "label": "C",
+          "text": "Every cause and effect began exactly in 476."
+        },
+        {
+          "label": "D",
+          "text": "Long-term changes make all dates useless."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。第2段落。日付は便利な標識ですが、財政・軍事・政治の長期的変化と同一でありません。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-western-rome-18-q3"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why is “invader” alone inadequate for groups such as Goths and Vandals?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They never interacted with the empire."
+        },
+        {
+          "label": "B",
+          "text": "They had exactly one role in all periods."
+        },
+        {
+          "label": "C",
+          "text": "The passage mentions only their language."
+        },
+        {
+          "label": "D",
+          "text": "They also settled, negotiated, fought, and sometimes served within the empire."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。第2段落。一つの敵対ラベルでは定住・交渉・軍務など異なる関係を表せません。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-western-rome-18-q4"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which pair of conditions can make frontier pressure more dangerous?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Stable revenue and reliable troop supplies."
+        },
+        {
+          "label": "B",
+          "text": "A well-coordinated alliance and peace among commanders."
+        },
+        {
+          "label": "C",
+          "text": "Civil conflict among commanders and declining revenue or troop supply."
+        },
+        {
+          "label": "D",
+          "text": "The mere coexistence of two religious traditions."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。第3段落。内戦・歳入減・補給難が外圧への対応力を弱めます。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-western-rome-18-q5"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which inference best follows?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The same pressure always causes the same outcome."
+        },
+        {
+          "label": "B",
+          "text": "A date can mark an event usefully without explaining an entire process."
+        },
+        {
+          "label": "C",
+          "text": "The eastern state ceased to consider itself Roman in 476."
+        },
+        {
+          "label": "D",
+          "text": "Continuity rules out every political change."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。476年は convenient marker ですが、地域や制度の変化を一日で尽くしません。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-western-rome-18-q6"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "How does the eastern empire weaken a single-cause claim about Christianity?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Christianity expanded in both regions, yet their political outcomes differed; religion alone cannot explain that contrast."
+        },
+        {
+          "label": "B",
+          "text": "Christianity was absent in the eastern empire."
+        },
+        {
+          "label": "C",
+          "text": "The contrast proves religion had no historical role at all."
+        },
+        {
+          "label": "D",
+          "text": "Both imperial offices ended simultaneously in 476."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。第4段落。同じ宗教的拡大と異なる政治結果は、単独で十分な原因説を弱めます。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-western-rome-18-q7"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does “Pressure produces different outcomes depending on the system that receives it” mean?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A frontier attack always has identical effects regardless of institutions."
+        },
+        {
+          "label": "B",
+          "text": "Pressure is unrelated to military supplies and revenue."
+        },
+        {
+          "label": "C",
+          "text": "The sentence states that only outside events matter."
+        },
+        {
+          "label": "D",
+          "text": "The same external challenge can have different effects depending on internal capacity such as command, revenue, and supply."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。外圧と、それを受ける側の内戦・歳入・補給などの状態との相互作用です。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-western-rome-18-q8"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which method best investigates a historical “collapse”?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Choose one dramatic date and call every institution extinct."
+        },
+        {
+          "label": "B",
+          "text": "Use a single label without specifying region or timescale."
+        },
+        {
+          "label": "C",
+          "text": "Define the institution, build regional timelines, trace causal mechanisms, compare different outcomes, and record continuities."
+        },
+        {
+          "label": "D",
+          "text": "Assume any contemporary religious change was the sole cause."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。発展問題。対象・地域・時間を定義し、歳入や兵站の機構、比較と継続を併記します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-western-rome-18-q9"
+      ]
+    }
+  ]
+}
