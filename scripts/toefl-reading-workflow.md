@@ -19,10 +19,11 @@ Unconverted originals: https://airopamgine.github.io/my-physics-lab/toefl/archiv
 
 ## Sources and private working files
 
-`scripts/reading-source-index.json` inventories ALL 410 PDF pages and their OCR
-private packet path hints, checksums and coverage. Include overview/diagnostic, actual tests,
+`scripts/reading-source-index.json` inventories ALL 410 PDF pages and their public
+review coverage and source references. Private OCR packet paths and source-file
+hashes are deliberately excluded. Include overview/diagnostic, actual tests,
 Task 1, Task 2, Task 3 and vocabulary, including examples and short drills.
-The ignored local `scripts/reading-source-text/*.json.gz.b64` cache contains
+The ignored local `scripts/reading-source-text/*.json.gz.b64` cache, if present, contains
 unverified OCR, ten pages per packet. These files are NOT on GitHub and must
 NEVER be uploaded there. Use the original private attachments from the task
 context when the cache is unavailable; regenerate locally with the preparation
@@ -33,9 +34,10 @@ Use original uploaded PDFs to render uncertain pages when available. Never
 publish raw OCR: labels, blank lengths, letters and line breaks may be corrupted.
 If critical text cannot be recovered confidently, record the unresolved page/item
 and continue elsewhere. Do not silently omit it or invent a reconstruction.
-If the private PDFs cannot be accessed, record that blocker, continue converting
-the existing GitHub posts, and request the exact missing attachments once. Do not
-retry unavailable source access every four hours. No raw PDF/OCR belongs in a PR.
+The owner reattached all six original PDFs on September 25, 2026. If they cannot
+be accessed in a later ephemeral workspace, use the existing reviewed coverage,
+report that blocker once, and request the exact missing attachments. Do not
+retry unavailable source access repeatedly. No raw PDF/OCR belongs in a PR.
 
 The supplied files reference answer pages around printed pages 402–502 that were
 NOT supplied. `answerKeyAvailable` is false. Derive a learning answer only when

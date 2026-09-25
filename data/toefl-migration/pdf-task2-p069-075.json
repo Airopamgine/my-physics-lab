@@ -1,0 +1,105 @@
+{
+  "id": "pdf-task2-p069-075",
+  "title": "Read in Daily Life · Email Example and Test",
+  "task": 2,
+  "date": "2026-09-25T12:01:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 2 · PDF 69–75ページ／冊子145–151ページ · Email Example問1–2・Test問01–15",
+  "verificationNote": "Exampleの解答は掲載ページの解説とも照合しました。Testの解答は本文の明示情報と文脈から編集・確認したものです。出版社の巻末解答表（冊子434ページ）は未提供で、未照合です。各メールの本文・全設問・選択肢・順序を原本画像で確認しました。",
+  "passages": {
+    "department": "To: danielspencer@sqmail.com\nFrom: susanbaxter@sqmail.com\nDate: August 11\nSubject: Department Meeting\n\nDear Mr. Spencer,\n\nI am writing to notify you about the upcoming department meeting scheduled for Monday, August 25, at 2:00 P.M. in Conference Room B of the main office.\n\nThe meeting will address finalizing budget allocations for the second half of the year and review updates to project timelines.\n\nPlease bring a copy of your latest budget report and be prepared to discuss progress on current initiatives.\n\nIf you have specific topics to include in the agenda, please email them to me by Friday, August 22. For questions or concerns, contact me at 555-1147.\n\nBest regards,\nSusan Baxter",
+    "apprenticeship": "To: KevinL@timemail.com\nFrom: ChefKen@MoltoBeneRest.com\nDate: August 1\nSubject: Apprenticeship Program\n\nHi Kevin,\n\nFollowing up on your impressive interview, we are delighted to formally offer you a position in our apprenticeship program. The program will run from September 1 to November 30. As discussed, this is a paid role with an hourly wage of $20. Please confirm your acceptance by August 10.\n\nBest regards,\nKen Cuccio\nExecutive Chef\nMolto Bene Restaurant",
+    "dance": "Subject: Rescheduling of Your Dance Class\n\nDear Mr. Clark,\n\nThe October 26 5:00 P.M. dance class you registered for has been rescheduled due to a sudden conflict with the instructor’s personal schedule. The session will now be held on October 28 at 6:00 P.M. If this new time does not work for you, your registration fee will be fully refunded.\n\nBest regards,\nSophie Allen",
+    "baggage": "To: Service@ForthAir.com\nFrom: ABKant@mailape.com\nDate: August 9\nSubject: Baggage compensation\n\nTo whom it may concern,\n\nI still haven’t received my checked baggage from my flight on August 7. Luckily, I had a few changes of clothes in my carry-on, but I’m running out of them. I need to know whether I can get compensation by tomorrow.\n\nThank you,\nAbigail Kant",
+    "atm": "Subject: ATM Service Request\n\nDear SmartATM Service Group Support Team,\n\nThis is an urgent service request for our lobby ATM (Unit #4721) at the Turner Plaza Branch. Since approximately 9:15 A.M. today, the unit has been failing all withdrawal attempts, displaying the error: “Unable to process transaction – contact support” although it is fully stocked with cash. Other functions like balance inquiries are still working normally.\n\nThis malfunction is significantly disrupting service during our peak morning hours. To manage the disruption, we are currently redirecting customers to our nearby locations.\n\nWe require the dispatch of a technician to diagnose and repair this issue. Please confirm their estimated time of arrival.\n\nContact me directly at 1-555-3321-7890 for coordination upon dispatch. Thank you for your prompt attention.\n\nBest regards,\nEmily Carter\nBranch Operations Manager\nContinental Bridge Bank",
+    "sofa": "Date: July 7\nSubject: Verona Sofa Delivery Date Change\n\nDear Mr. Pryce,\n\nWe’re writing regarding your recent order for the Verona Sofa. Unfortunately, due to unforeseen supply chain disruptions, the estimated delivery date has shifted from July 16 to July 28.\n\nWe apologize for this inconvenience. To compensate for this unexpected change, we are offering you a 5 percent refund, which will be credited back to your original payment method. This adjustment is being processed automatically today, and you should see the credit reflected in your account within 3–5 business days. This will not affect your existing warranty or support services.\n\nIf you wish to cancel your order entirely, please reply to this email by July 21.\n\nYour satisfaction is our priority, and we’re committed to resolving this issue promptly. Thank you for your understanding.\n\nSincerely,\nSarah Lee",
+    "air": "Subject: Scheduled Air Conditioning Service (September 19th)\n\nDear Ms. Jackson,\n\nThis is to confirm the scheduled air conditioning maintenance service for your unit on September 19th. Technicians from CoolPro Air Conditioning are expected to arrive between 9:00 A.M. and 11:00 A.M. They will call you approximately 30 minutes before arrival.\n\nTo assist the technicians, please clear at least three feet around the air conditioning units and ensure valuable items are secured in advance. For safety, they will turn off the power before starting. The service includes drainage system testing and, if necessary, air filter replacement.\n\nIf this time is inconvenient, please notify us by 5:00 P.M. on September 12th via email or phone so we can reschedule. After the service, a notice tag or service summary will be left detailing the work completed.\n\nRegards,\nLeo Koval\nEast Corner Apartments"
+  },
+  "questions": [
+    {
+      "passageId": "department", "prompt": "What is the main purpose of the email?",
+      "options": [{"label":"A","text":"To explain the details of a meeting"},{"label":"B","text":"To announce a new office policy"},{"label":"C","text":"To request feedback on a report"},{"label":"D","text":"To confirm a budget decision"}],
+      "correct": "A", "answer": "The first sentence announces the department meeting; the rest gives its agenda, time, location, and preparation. 正解：A（例題の掲載解説とも一致）。予算決定の確認や新方針の告知ではありません。", "sourceRefs": ["pdf:task2:p069:qexample1"]
+    },
+    {
+      "passageId": "department", "prompt": "What should Mr. Spencer bring?",
+      "options": [{"label":"A","text":"An annual review"},{"label":"B","text":"A new business proposal"},{"label":"C","text":"A recent fiscal overview"},{"label":"D","text":"A progress report"}],
+      "correct": "C", "answer": "“Please bring a copy of your latest budget report” corresponds to a recent fiscal overview. 正解：C（例題の掲載解説とも一致）。進捗は話し合う準備を求められますが、持参する報告書ではありません。", "sourceRefs": ["pdf:task2:p069:qexample2"]
+    },
+    {
+      "passageId": "apprenticeship", "prompt": "What is the main purpose of the email?",
+      "options": [{"label":"A","text":"To offer a job to a candidate"},{"label":"B","text":"To discuss the employment period"},{"label":"C","text":"To arrange a follow-up interview"},{"label":"D","text":"To provide a list of required supplies"}],
+      "correct": "A", "answer": "“We are delighted to formally offer you a position” states the central purpose. 正解：A。期間と時給はオファーの詳細です。面接はすでに行われています。", "sourceRefs": ["pdf:task2:p070:q01"]
+    },
+    {
+      "passageId": "apprenticeship", "prompt": "When is the first day of the program?",
+      "options": [{"label":"A","text":"August 1"},{"label":"B","text":"August 10"},{"label":"C","text":"September 1"},{"label":"D","text":"November 30"}],
+      "correct": "C", "answer": "The program runs from September 1 to November 30. 正解：C。August 1は送信日、August 10は承諾期限です。", "sourceRefs": ["pdf:task2:p070:q02"]
+    },
+    {
+      "passageId": "dance", "prompt": "Why was the dance class rescheduled?",
+      "options": [{"label":"A","text":"The dance studio needed urgent repairs."},{"label":"B","text":"The instructor had an unexpected schedule change."},{"label":"C","text":"The original class was canceled due to low enrollment."},{"label":"D","text":"The dance studio had a scheduling conflict with another event."}],
+      "correct": "B", "answer": "The message gives a sudden conflict with the instructor’s personal schedule as the reason. 正解：B。スタジオの修繕や別イベント、参加者数は挙げていません。", "sourceRefs": ["pdf:task2:p071:q03"]
+    },
+    {
+      "passageId": "dance", "prompt": "When is the revised date and time for the dance class?",
+      "options": [{"label":"A","text":"October 26 at 5:00 P.M."},{"label":"B","text":"October 26 at 6:00 P.M."},{"label":"C","text":"October 28 at 5:00 P.M."},{"label":"D","text":"October 28 at 6:00 P.M."}],
+      "correct": "D", "answer": "The new session is October 28 at 6:00 P.M. 正解：D。October 26 at 5:00 P.M.は元の日程です。", "sourceRefs": ["pdf:task2:p071:q04"]
+    },
+    {
+      "passageId": "baggage", "prompt": "When was Ms. Kant’s flight?",
+      "options": [{"label":"A","text":"August 7"},{"label":"B","text":"August 8"},{"label":"C","text":"August 9"},{"label":"D","text":"August 10"}],
+      "correct": "A", "answer": "She writes “my flight on August 7.” 正解：A。August 9はメールの日付で、翌日は補償を知りたい期限です。", "sourceRefs": ["pdf:task2:p072:q05"]
+    },
+    {
+      "passageId": "baggage", "prompt": "What can be inferred about Ms. Kant?",
+      "options": [{"label":"A","text":"She is a regular customer."},{"label":"B","text":"She had multiple bags."},{"label":"C","text":"She received payment already."},{"label":"D","text":"She bought expensive clothing."}],
+      "correct": "B", "answer": "She mentions both checked baggage that has not arrived and a carry-on containing clothes. 正解：B。少なくとも預け荷物と機内持ち込みの二つを持っていました。補償はまだ問い合わせ中です。", "sourceRefs": ["pdf:task2:p072:q06"]
+    },
+    {
+      "passageId": "atm", "prompt": "What is the main purpose of the email?",
+      "options": [{"label":"A","text":"To demand prompt service due to a system error"},{"label":"B","text":"To outline a strategy for handling customer service"},{"label":"C","text":"To ask for advice on repairing a malfunctioning machine"},{"label":"D","text":"To schedule a routine maintenance check"}],
+      "correct": "A", "answer": "The urgent request asks for a technician to diagnose and repair a failing ATM and for an arrival estimate. 正解：A。顧客の誘導は既に講じた対応で、定期点検の予約ではありません。", "sourceRefs": ["pdf:task2:p073:q07"]
+    },
+    {
+      "passageId": "atm", "prompt": "What did the Turner Plaza Branch do before sending the email?",
+      "options": [{"label":"A","text":"It contacted the support line to log the error code."},{"label":"B","text":"It guided customers to alternative bank locations."},{"label":"C","text":"It received confirmation of the technician’s estimated arrival time."},{"label":"D","text":"It conducted a thorough review of the ATM unit."}],
+      "correct": "B", "answer": "“We are currently redirecting customers to our nearby locations” describes the action already under way. 正解：B。技術者の到着時刻はこれから確認を求めています。", "sourceRefs": ["pdf:task2:p073:q08"]
+    },
+    {
+      "passageId": "atm", "prompt": "What can be inferred about the lobby ATM?",
+      "options": [{"label":"A","text":"The component involved in dispensing cash has failed."},{"label":"B","text":"It is currently out of service because of a network outage."},{"label":"C","text":"It has run out of cash and cannot dispense money."},{"label":"D","text":"It will be completely replaced by a technician today."}],
+      "correct": "A", "answer": "Withdrawals fail although cash is stocked, while balance inquiries still work; a cash-dispensing function is therefore the likely fault. 正解：A。正確な故障部品は診断前なので推論であり、通信障害・現金切れ・本日交換の根拠はありません。", "sourceRefs": ["pdf:task2:p073:q09"]
+    },
+    {
+      "passageId": "sofa", "prompt": "What does the company offer to do?",
+      "options": [{"label":"A","text":"Change the delivery company"},{"label":"B","text":"Extend the product warranty"},{"label":"C","text":"Give a discount on a future purchase"},{"label":"D","text":"Provide monetary compensation"}],
+      "correct": "D", "answer": "A 5 percent refund to the original payment method is monetary compensation. 正解：D。今後の購入割引ではなく、保証は変わらないと明記されています。", "sourceRefs": ["pdf:task2:p074:q10"]
+    },
+    {
+      "passageId": "sofa", "prompt": "What was the original delivery date?",
+      "options": [{"label":"A","text":"July 7"},{"label":"B","text":"July 16"},{"label":"C","text":"July 21"},{"label":"D","text":"July 28"}],
+      "correct": "B", "answer": "The estimated delivery date shifted “from July 16 to July 28.” 正解：B。July 28は変更後、July 21はキャンセル返信期限です。", "sourceRefs": ["pdf:task2:p074:q11"]
+    },
+    {
+      "passageId": "sofa", "prompt": "What should Mr. Pryce do in order to cancel his order?",
+      "options": [{"label":"A","text":"Send an email"},{"label":"B","text":"Call a salesperson"},{"label":"C","text":"Visit a store"},{"label":"D","text":"Fill out an online form"}],
+      "correct": "A", "answer": "The sender asks him to “reply to this email by July 21” if he wants to cancel. 正解：A。電話・店舗・フォームは指定されていません。", "sourceRefs": ["pdf:task2:p074:q12"]
+    },
+    {
+      "passageId": "air", "prompt": "What is the main purpose of the email?",
+      "options": [{"label":"A","text":"To confirm an air conditioning service appointment"},{"label":"B","text":"To explain how to replace an air filter"},{"label":"C","text":"To request payment for the air conditioning service"},{"label":"D","text":"To provide safety guidelines regarding air conditioners"}],
+      "correct": "A", "answer": "The opening sentence confirms the scheduled maintenance visit on September 19. 正解：A。フィルター交換や安全措置は作業の補足で、支払い請求はありません。", "sourceRefs": ["pdf:task2:p075:q13"]
+    },
+    {
+      "passageId": "air", "prompt": "Which is Ms. Jackson NOT required to do?",
+      "options": [{"label":"A","text":"Put away personal belongings beforehand"},{"label":"B","text":"Vacate the apartment during the service"},{"label":"C","text":"Clear space around the air conditioner"},{"label":"D","text":"Contact the office if the appointment is unsuitable"}],
+      "correct": "B", "answer": "The message requests space around the units and secured valuables, with contact if rescheduling is needed; it never asks her to leave the apartment. 正解：B。NOT の否定を確認しましょう。", "sourceRefs": ["pdf:task2:p075:q14"]
+    },
+    {
+      "passageId": "air", "prompt": "What is the earliest time that the technicians may contact Ms. Jackson?",
+      "options": [{"label":"A","text":"September 19th, 8:30 A.M."},{"label":"B","text":"September 19th, 9:00 A.M."},{"label":"C","text":"September 19th, 10:30 A.M."},{"label":"D","text":"September 19th, 11:00 A.M."}],
+      "correct": "A", "answer": "Arrival begins at 9:00 A.M., and they will call approximately 30 minutes before arrival, so the earliest call is about 8:30 A.M. on September 19. 正解：A。", "sourceRefs": ["pdf:task2:p075:q15"]
+    }
+  ]
+}

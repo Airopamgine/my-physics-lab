@@ -1,0 +1,40 @@
+{
+  "id": "pdf-actual-test2-module1-task2-water",
+  "title": "Actual Test 2 · Module 1 · Water Shutdown Notice",
+  "task": 2,
+  "date": "2026-09-25T12:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Actual Test · PDF 15ページ／冊子369ページ · 問21–22",
+  "verificationNote": "Editorial answers（編集・確認した解答）。従来の抽出で欠けていたメール本文を再提供の原本画像から確認し、本文・選択肢・設問順を照合しました。出版社の公式解答表とは未照合です。",
+  "passages": {
+    "water_shutdown": "Date: August 10\nSubject: Water Shutdown\n\nDear Tenant,\n\nWe regret to inform you that water service will be unavailable on August 15th from 9:00 A.M. to 2:00 P.M. We recommend that you store water in advance to cover your basic needs. This interruption is necessary in order to perform regular maintenance on the building’s water pipes. We apologize for any inconvenience this may cause.\n\nSincerely,\nBuilding Management"
+  },
+  "questions": [
+    {
+      "passageId": "water_shutdown",
+      "prompt": "What is the main purpose of the email?",
+      "options": [
+        {"label": "A", "text": "To schedule a tenant meeting about the building’s water pipes"},
+        {"label": "B", "text": "To request that tenants make an effort to conserve water"},
+        {"label": "C", "text": "To inform tenants about new water billing procedures for the building"},
+        {"label": "D", "text": "To notify tenants about upcoming maintenance work"}
+      ],
+      "correct": "D",
+      "answer": "The management announces an August 15 water interruption for regular pipe maintenance. 正解：D。水の備蓄は付随する勧めで、会議・節水要請・請求手続きの変更は述べていません。",
+      "sourceRefs": ["pdf:actual:p015:q21"]
+    },
+    {
+      "passageId": "water_shutdown",
+      "prompt": "Why must the service be interrupted?",
+      "options": [
+        {"label": "A", "text": "To carry out routine upkeep on the plumbing system"},
+        {"label": "B", "text": "To install new water meters in the units"},
+        {"label": "C", "text": "To inspect a possible leak in the main water line"},
+        {"label": "D", "text": "To upgrade the building’s water pressure equipment"}
+      ],
+      "correct": "A",
+      "answer": "The email explicitly says the interruption is necessary to perform regular maintenance on the building’s water pipes. 正解：A。routine upkeepは定期的な保守を意味し、メーター設置・漏水調査・設備更新ではありません。",
+      "sourceRefs": ["pdf:actual:p015:q22"]
+    }
+  ]
+}

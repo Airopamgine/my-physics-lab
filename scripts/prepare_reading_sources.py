@@ -7,7 +7,6 @@ The text is unverified OCR. It is NEVER automatically added to the quiz bank.
 import argparse
 import base64
 import gzip
-import hashlib
 import json
 import subprocess
 from pathlib import Path
@@ -40,19 +39,16 @@ def main():
         pages = text.split("\f")
         if not pages[-1].strip():
             pages.pop()
-        packets = []
         for offset in range(0, len(pages), 10):
             name = f"{source_id}-p{offset+1:03}-p{min(offset+10,len(pages)):03}.json.gz.b64"
             payload = {"source": filename, "status": "unverified-ocr",
                        "pages": [{"number": i+1, "text": pages[i]} for i in range(offset,min(offset+10,len(pages)))]}
             encoded = base64.b64encode(gzip.compress(json.dumps(payload, ensure_ascii=False).encode(), mtime=0)).decode() + "\n"
             (destination / name).write_text(encoded)
-            packets.append({"path": "scripts/reading-source-text/" + name, "firstPage": offset+1,
-                            "lastPage": min(offset+10,len(pages))})
         sources.append({"id": source_id, "file": filename, "pageCount": len(pages),
-                        "sha256": hashlib.sha256(path.read_bytes()).hexdigest(),
-                        "answerKeyAvailable": False, "reviewedPages": [], "packets": packets})
-    index = {"schemaVersion": 1, "sources": sources, "note": "Packet paths describe a private working cache, not published files. Exact question totals require review. Answer pages referenced by the books were not supplied."}
+                        "answerKeyAvailable": False, "reviewedPages": []})
+    index = {"schemaVersion": 1, "sources": sources,
+             "note": "Public review progress only. Private PDF hashes and OCR cache paths are excluded. Exact question totals require review. Answer pages referenced by the books were not supplied."}
     # This command is an initial cache operation. Never overwrite progress later.
     index_path = repo / "scripts/reading-source-index.json"
     if index_path.exists():
