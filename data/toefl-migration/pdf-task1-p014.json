@@ -1,0 +1,175 @@
+{
+  "id": "pdf-task1-p014",
+  "title": "Complete the Words · Hippocampus and Black Holes",
+  "task": 1,
+  "date": "2026-09-25T19:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 14ページ／冊子42ページ · Intuitive Blanks Test問01–20",
+  "verificationNote": "Editorial answers（編集・確認した解答）。PDF原本画像で本文、表示済み文字、空欄数、設問順を照合し、文法・語法・文脈から各語を確定しました。出版社の解答ページ（405ページ）は未提供・未照合です。各パッセージの10空欄をすべて提出するまで正答は表示されません。",
+  "passages": {
+    "hippocampus": "The hippocampus is a small, curved region deep within the temporal lobe of the brain. It pl___ a ro__ in th_ creation o_ new memo____ and the organi______ of exper______. It bec____ active dur___ tasks th__ involve learning information or recalling specific events. Damage to this area can weaken one’s ability to remember events after an injury. Treating post-injury patients and others suffering from memory-related disorders, therefore, requires more research into and understanding of the hippocampus.",
+    "black-holes": "Black holes are regions in space where gravity is so strong that not even light can escape. Because o_ this charact_______, it i_ not poss____ to s__ them wi__ our ey__. Astronomers ins____ figure o__ their loca_____ by observing their effects on nearby stars and gas. The effects that black holes have on their surroundings help astronomers discover new facts about the universe, such as how galaxies are formed. This is what makes the study of black holes an important area of research in astronomy."
+  },
+  "questions": [
+    {
+      "passageId": "hippocampus",
+      "prompt": "Test 01: complete pl___. Enter the missing letters.",
+      "prefix": "pl",
+      "word": "plays",
+      "answer": "Plays completes the expression play a role in. 正解：ays → plays（役割を果たす）。主語Itはhippocampusを指す単数なので、動詞に-sが必要です。hippocampusは『海馬』です。",
+      "sourceRefs": ["pdf:task1:p014:q01-gap1"]
+    },
+    {
+      "passageId": "hippocampus",
+      "prompt": "Test 02: complete ro__. Enter the missing letters.",
+      "prefix": "ro",
+      "word": "role",
+      "answer": "Role is the function something performs. 正解：le → role（役割）。play a role in the creation of memoriesで『記憶の形成に役割を果たす』となります。",
+      "sourceRefs": ["pdf:task1:p014:q02-gap1"]
+    },
+    {
+      "passageId": "hippocampus",
+      "prompt": "Test 03: complete th_. Enter the missing letters.",
+      "prefix": "th",
+      "word": "the",
+      "answer": "The specifies the process of memory creation. 正解：e → the。creation is followed by the prepositional phrase of new memories, so the definite article forms the creation of ....",
+      "sourceRefs": ["pdf:task1:p014:q03-gap1"]
+    },
+    {
+      "passageId": "hippocampus",
+      "prompt": "Test 04: complete o_. Enter the missing letters.",
+      "prefix": "o",
+      "word": "of",
+      "answer": "Of links creation with what is created. 正解：f → of。the creation of new memoriesは『新しい記憶の形成』という名詞句です。",
+      "sourceRefs": ["pdf:task1:p014:q04-gap1"]
+    },
+    {
+      "passageId": "hippocampus",
+      "prompt": "Test 05: complete memo____. Enter the missing letters.",
+      "prefix": "memo",
+      "word": "memories",
+      "answer": "Memories are stored experiences or information that can be recalled. 正解：ries → memories（記憶）。newの後で、海馬が形成に関わる複数の記憶を表します。",
+      "sourceRefs": ["pdf:task1:p014:q05-gap1"]
+    },
+    {
+      "passageId": "hippocampus",
+      "prompt": "Test 06: complete organi______. Enter the missing letters.",
+      "prefix": "organi",
+      "word": "organization",
+      "answer": "Organization means arranging information into a coherent structure. 正解：zation → organization（整理・組織化）。the organization of experiencesは『経験の整理』です。coherentは『首尾一貫した』という意味です。",
+      "sourceRefs": ["pdf:task1:p014:q06-gap1"]
+    },
+    {
+      "passageId": "hippocampus",
+      "prompt": "Test 07: complete exper______. Enter the missing letters.",
+      "prefix": "exper",
+      "word": "experiences",
+      "answer": "Experiences are events a person lives through. 正解：iences → experiences（経験）。前置詞ofの後に複数名詞を置き、海馬が経験を整理する働きを示します。",
+      "sourceRefs": ["pdf:task1:p014:q07-gap1"]
+    },
+    {
+      "passageId": "hippocampus",
+      "prompt": "Test 08: complete bec____. Enter the missing letters.",
+      "prefix": "bec",
+      "word": "becomes",
+      "answer": "Becomes links the hippocampus to the state active. 正解：omes → becomes（〜になる）。単数主語Itに対応する現在形で、becomes activeは『活発になる』です。",
+      "sourceRefs": ["pdf:task1:p014:q08-gap1"]
+    },
+    {
+      "passageId": "hippocampus",
+      "prompt": "Test 09: complete dur___. Enter the missing letters.",
+      "prefix": "dur",
+      "word": "during",
+      "answer": "During introduces the period in which the hippocampus becomes active. 正解：ing → during（〜の間に）。後ろに名詞tasksを取る前置詞です。",
+      "sourceRefs": ["pdf:task1:p014:q09-gap1"]
+    },
+    {
+      "passageId": "hippocampus",
+      "prompt": "Test 10: complete th__. Enter the missing letters.",
+      "prefix": "th",
+      "word": "that",
+      "answer": "That introduces a relative clause describing the tasks. 正解：at → that。tasks that involve learning informationは『情報学習を伴う課題』です。recallは『思い出す』を意味します。",
+      "sourceRefs": ["pdf:task1:p014:q10-gap1"]
+    },
+    {
+      "passageId": "black-holes",
+      "prompt": "Test 11: complete o_. Enter the missing letters.",
+      "prefix": "o",
+      "word": "of",
+      "answer": "Of completes the causal expression because of. 正解：f → of。because of this characteristicは『この特徴のために』という意味で、後ろに名詞句を取ります。",
+      "sourceRefs": ["pdf:task1:p014:q11-gap1"]
+    },
+    {
+      "passageId": "black-holes",
+      "prompt": "Test 12: complete charact_______. Enter the missing letters.",
+      "prefix": "charact",
+      "word": "characteristic",
+      "answer": "Characteristic is a distinguishing feature. 正解：eristic → characteristic（特徴）。ここでは、光さえ脱出できないというブラックホールの性質を指します。distinguishingは『他と区別する』です。",
+      "sourceRefs": ["pdf:task1:p014:q12-gap1"]
+    },
+    {
+      "passageId": "black-holes",
+      "prompt": "Test 13: complete i_. Enter the missing letters.",
+      "prefix": "i",
+      "word": "is",
+      "answer": "Is forms the expression it is not possible. 正解：s → is。形式主語itを用いたit is possible to doの否定形です。",
+      "sourceRefs": ["pdf:task1:p014:q13-gap1"]
+    },
+    {
+      "passageId": "black-holes",
+      "prompt": "Test 14: complete poss____. Enter the missing letters.",
+      "prefix": "poss",
+      "word": "possible",
+      "answer": "Possible means able to be done. 正解：ible → possible（可能な）。not possible to seeは『見ることができない』という意味です。",
+      "sourceRefs": ["pdf:task1:p014:q14-gap1"]
+    },
+    {
+      "passageId": "black-holes",
+      "prompt": "Test 15: complete s__. Enter the missing letters.",
+      "prefix": "s",
+      "word": "see",
+      "answer": "See is the base-form verb after to. 正解：ee → see（見る）。ブラックホールから光が届かないため、目で直接見ることはできません。",
+      "sourceRefs": ["pdf:task1:p014:q15-gap1"]
+    },
+    {
+      "passageId": "black-holes",
+      "prompt": "Test 16: complete wi__. Enter the missing letters.",
+      "prefix": "wi",
+      "word": "with",
+      "answer": "With identifies the instrument used for seeing. 正解：th → with（〜で）。with our eyesは『自分たちの目で』という意味です。",
+      "sourceRefs": ["pdf:task1:p014:q16-gap1"]
+    },
+    {
+      "passageId": "black-holes",
+      "prompt": "Test 17: complete ey__. Enter the missing letters.",
+      "prefix": "ey",
+      "word": "eyes",
+      "answer": "Eyes are the organs of sight. 正解：es → eyes（目）。ourの後に複数名詞を置き、肉眼で直接観測できないことを示します。",
+      "sourceRefs": ["pdf:task1:p014:q17-gap1"]
+    },
+    {
+      "passageId": "black-holes",
+      "prompt": "Test 18: complete ins____. Enter the missing letters.",
+      "prefix": "ins",
+      "word": "instead",
+      "answer": "Instead signals the alternative method astronomers use. 正解：tead → instead（その代わりに）。直接見る代わりに、周囲への影響から位置を推定します。",
+      "sourceRefs": ["pdf:task1:p014:q18-gap1"]
+    },
+    {
+      "passageId": "black-holes",
+      "prompt": "Test 19: complete o__. Enter the missing letters.",
+      "prefix": "o",
+      "word": "out",
+      "answer": "Out completes the phrasal verb figure out. 正解：ut → out。figure outは『理解する・突き止める』で、観測から位置を割り出す文脈です。",
+      "sourceRefs": ["pdf:task1:p014:q19-gap1"]
+    },
+    {
+      "passageId": "black-holes",
+      "prompt": "Test 20: complete loca_____. Enter the missing letters.",
+      "prefix": "loca",
+      "word": "locations",
+      "answer": "Locations are the places where the black holes are situated. 正解：tions → locations（位置）。theirは複数のblack holesを指すため、複数形locationsが自然です。surroundingsは『周辺環境』です。",
+      "sourceRefs": ["pdf:task1:p014:q20-gap1"]
+    }
+  ]
+}
