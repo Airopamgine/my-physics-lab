@@ -102,6 +102,33 @@ class TaskCatalogTests(unittest.TestCase):
         self.assertTrue(all(q['correct'] is None and q['options'] == []
                             for q in item['questions']))
 
+    def test_pdf_task1_page14_preserves_all_twenty_test_blanks(self):
+        bank = self.build()
+        item = next(s for s in bank['sets'] if s['id'] == 'pdf-task1-p014')
+        expected = [
+            ('ays', 'plays'), ('le', 'role'), ('e', 'the'), ('f', 'of'),
+            ('ries', 'memories'), ('zation', 'organization'),
+            ('iences', 'experiences'), ('omes', 'becomes'),
+            ('ing', 'during'), ('at', 'that'), ('f', 'of'),
+            ('eristic', 'characteristic'), ('s', 'is'), ('ible', 'possible'),
+            ('ee', 'see'), ('th', 'with'), ('es', 'eyes'),
+            ('tead', 'instead'), ('ut', 'out'), ('tions', 'locations')]
+        self.assertEqual(item['collection'], 'Task 1')
+        self.assertEqual([q['acceptedAnswers'] for q in item['questions']],
+                         [list(pair) for pair in expected])
+        refs = [f'pdf:task1:p014:q{i:02d}-gap1' for i in range(1, 21)]
+        self.assertEqual([q['sourceRefs'][0] for q in item['questions']], refs)
+        self.assertEqual(len({q['passage'] for q in item['questions']}), 2)
+        self.assertTrue(all(q['correct'] is None and q['options'] == []
+                            for q in item['questions']))
+
+        index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
+        source = next(s for s in index['sources'] if s['id'] == 'task1')
+        self.assertEqual(source['reviewedPages'], list(range(1, 15)))
+        self.assertEqual(source['pageItems']['14'], refs)
+        self.assertTrue(all(source['pageItems'][str(page)] == []
+                            for page in range(3, 10)))
+
     def test_pdf_task3_detail_questions_preserve_all_fifteen_answers(self):
         bank = self.build()
         item = next(s for s in bank['sets'] if s['id'] == 'pdf-task3-p019-025')

@@ -274,10 +274,18 @@
       "reviewedPages": [
         1,
         2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
         10,
         11,
         12,
-        13
+        13,
+        14
       ],
       "pageItems": {
         "1": [],
@@ -293,6 +301,13 @@
           "pdf:task1:p002:qpreview-gap9",
           "pdf:task1:p002:qpreview-gap10"
         ],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": [],
         "10": [
           "pdf:task1:p010:q01-gap1",
           "pdf:task1:p010:q02-gap1",
@@ -350,6 +365,28 @@
           "pdf:task1:p013:q20-gap2",
           "pdf:task1:p013:q20-gap3",
           "pdf:task1:p013:q20-gap4"
+        ],
+        "14": [
+          "pdf:task1:p014:q01-gap1",
+          "pdf:task1:p014:q02-gap1",
+          "pdf:task1:p014:q03-gap1",
+          "pdf:task1:p014:q04-gap1",
+          "pdf:task1:p014:q05-gap1",
+          "pdf:task1:p014:q06-gap1",
+          "pdf:task1:p014:q07-gap1",
+          "pdf:task1:p014:q08-gap1",
+          "pdf:task1:p014:q09-gap1",
+          "pdf:task1:p014:q10-gap1",
+          "pdf:task1:p014:q11-gap1",
+          "pdf:task1:p014:q12-gap1",
+          "pdf:task1:p014:q13-gap1",
+          "pdf:task1:p014:q14-gap1",
+          "pdf:task1:p014:q15-gap1",
+          "pdf:task1:p014:q16-gap1",
+          "pdf:task1:p014:q17-gap1",
+          "pdf:task1:p014:q18-gap1",
+          "pdf:task1:p014:q19-gap1",
+          "pdf:task1:p014:q20-gap1"
         ]
       }
     },
@@ -1027,7 +1064,7 @@
       }
     }
   ],
-  "lastSource": "reading",
+  "lastSource": "task1",
   "blockedItems": [],
   "note": "Public progress manifest only: source labels, page counts, reviewed pages, source references and answer-key availability. Private PDFs, OCR cache paths, and file hashes are excluded. Exact PDF question totals require review; publisher answer pages have not been supplied."
 }
