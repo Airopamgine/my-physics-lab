@@ -1,0 +1,258 @@
+{
+  "id": "legacy-animation-transnational-reception",
+  "title": "Animation Across Languages and Audiences",
+  "task": 3,
+  "date": "2026-09-25T09:02:52+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "原文と全九つの学習対象を保持し、日本語記述・翻訳・発展問題を本文根拠のある英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-standard-transnational-animation-23/",
+  "passages": {
+    "text": "Japanese animation is often described as a cultural export. The phrase captures movement across national borders, but it can hide the number of people and decisions involved. A work may be selected by a distributor, translated, subtitled or dubbed, scheduled for a particular audience, promoted under a new genre label, discussed by critics, and recirculated by fans. Distribution makes encounter possible; it does not determine what the encounter will mean.\n\nLocalization is sometimes presented as a choice between faithful preservation and complete alteration. In practice, translators work among several constraints. Speech must fit time, subtitles must remain readable, humor may depend on sound or shared knowledge, and age ratings or broadcasting rules may affect presentation. Every solution preserves some relations and changes others. A useful analysis therefore asks not simply whether a version is “accurate,” but what it makes visible, what it explains, and what it leaves the audience to infer.\n\nAudiences are not empty containers into which a national culture is poured. Viewers interpret stories through prior experiences, local debates, available media, and communities of discussion. Some may value visual technique; others may connect a story to a local social issue, learn selected Japanese terms, create costumes or art, or simply enjoy an unfamiliar narrative form. These activities can influence later creators, but resemblance alone does not prove a direct causal line from one work to another.\n\nThe idea of one uniform “overseas audience” is therefore misleading. Access, regulation, translation, and cultural memory differ across countries and generations. Studying transnational media requires movement in both directions: tracing how institutions package a work and how audiences reinterpret it. Influence is not a substance shipped intact from one nation. It is a relationship produced through repeated acts of selection, translation, response, and creation."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What is the passage’s central argument?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A work retains identical meaning in every country."
+        },
+        {
+          "label": "B",
+          "text": "Every translation necessarily damages its source."
+        },
+        {
+          "label": "C",
+          "text": "Transnational influence emerges through distribution, localization, audience interpretation, and later creation."
+        },
+        {
+          "label": "D",
+          "text": "Popularity alone proves a direct causal line to every later work."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。制度による選択・翻訳・受容・創作が相互作用するという全段落の主旨です。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-transnational-animation-23-q1"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does “Distribution makes encounter possible; it does not determine what the encounter will mean” mean?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Access to a work guarantees identical interpretation everywhere."
+        },
+        {
+          "label": "B",
+          "text": "Circulation allows viewing, but translation and audience context shape the meaning viewers make."
+        },
+        {
+          "label": "C",
+          "text": "Distribution never affects who can see a work."
+        },
+        {
+          "label": "D",
+          "text": "The distributor directly controls every viewer’s thoughts."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。配信は出会いの条件でも、その後の理解を一つに固定しません。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-transnational-animation-23-q2"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "How does the passage revise the faithful-versus-altered binary for localization?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Ask what each choice preserves, explains, changes, or leaves to inference under timing, readability, humor, and regulatory constraints."
+        },
+        {
+          "label": "B",
+          "text": "Assume every subtitle can preserve all relations without trade-offs."
+        },
+        {
+          "label": "C",
+          "text": "Judge a version only by whether the title remains unchanged."
+        },
+        {
+          "label": "D",
+          "text": "Ignore technical constraints and audience knowledge."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。第2段落。忠実／改変の一軸でなく、複数の制約と保存・説明・省略の選択を検討します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-transnational-animation-23-q3"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does “infer” mean in “what it leaves the audience to infer”?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Copy without change."
+        },
+        {
+          "label": "B",
+          "text": "Speak at greater volume."
+        },
+        {
+          "label": "C",
+          "text": "Legally prohibit a program."
+        },
+        {
+          "label": "D",
+          "text": "Conclude from indirect clues."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。infer は受け手が手掛かりから推論することです。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-transnational-animation-23-q4"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which four audience responses are all mentioned?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Only watching, purchasing, advertising, and forgetting."
+        },
+        {
+          "label": "B",
+          "text": "Valuing visual technique, linking a story to local issues, learning selected Japanese terms, and creating costumes or art."
+        },
+        {
+          "label": "C",
+          "text": "Rejecting all unfamiliar stories and ignoring community discussion."
+        },
+        {
+          "label": "D",
+          "text": "Making identical interpretations in every country."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。第3段落の多様な評価・結びつけ・語彙学習・創作から四つを挙げます。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-transnational-animation-23-q5"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which inference is best supported?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Visual resemblance alone proves direct influence."
+        },
+        {
+          "label": "B",
+          "text": "All overseas audiences form one uniform group."
+        },
+        {
+          "label": "C",
+          "text": "Dubbing and subtitles may solve timing and audience constraints differently."
+        },
+        {
+          "label": "D",
+          "text": "Institutions have no role once a work crosses a border."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。字幕の可読性と発話時間など異なる制約が翻訳判断へ影響します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-transnational-animation-23-q6"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What are the two directions of inquiry in studying overseas reception?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Trace institutional selection and packaging, and trace audiences’ local interpretation and later responses."
+        },
+        {
+          "label": "B",
+          "text": "Compare only the original artist’s intention with sales totals."
+        },
+        {
+          "label": "C",
+          "text": "Study only the distributor and ignore viewers."
+        },
+        {
+          "label": "D",
+          "text": "Study only viewers and assume works arrived without translation or regulation."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。最終段落。届ける制度と受け取って読み替える視聴者の双方です。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-transnational-animation-23-q7"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does “Audiences are not empty containers into which a national culture is poured” suggest?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Viewers receive every meaning passively and identically."
+        },
+        {
+          "label": "B",
+          "text": "National culture is a measurable liquid."
+        },
+        {
+          "label": "C",
+          "text": "Prior experience and discussion cannot affect interpretation."
+        },
+        {
+          "label": "D",
+          "text": "Viewers actively interpret works using their experiences and communities."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。空の容器の比喩を否定し、視聴者の能動的な選択・解釈を強調します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-transnational-animation-23-q8"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which research design best compares subtitles and a dubbed version of one scene?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Compare only the title and claim all responses are caused by translation."
+        },
+        {
+          "label": "B",
+          "text": "Record wording, timing, omissions and humor, compare viewers of each version, and account for technical constraints and other influences."
+        },
+        {
+          "label": "C",
+          "text": "Ask only the translator whether the result is perfect."
+        },
+        {
+          "label": "D",
+          "text": "Treat the original as a complete answer key and ignore reception."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。発展問題。二版の技術的条件と視聴者反応を比較し、翻訳だけへ因果を即断しません。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-transnational-animation-23-q9"
+      ]
+    }
+  ]
+}

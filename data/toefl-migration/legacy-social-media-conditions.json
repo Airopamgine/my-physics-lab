@@ -1,0 +1,258 @@
+{
+  "id": "legacy-social-media-conditions",
+  "title": "Social Media and Contextual Effects",
+  "task": 3,
+  "date": "2026-09-25T09:02:52+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "原文と全九つの学習対象を保持し、日本語記述・翻訳・発展問題を本文根拠のある英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-standard-social-media-01/",
+  "passages": {
+    "text": "Social media is not inherently beneficial or harmful to every young person. Its effects depend on several interacting factors, including the content a person encounters, the features a platform uses, the reason for going online, and the conditions of the user's offline life. For someone who feels isolated, an online community may provide information or a sense of belonging that is difficult to find nearby. The same platform, however, may expose another user to harassment, unwanted content, or constant pressure to compare an ordinary life with carefully selected images of other people's lives.\n\nTime and timing also matter. Late-night use can displace sleep, while repeated notifications can interrupt homework or face-to-face conversation. Yet counting minutes alone cannot explain every outcome: an hour spent exchanging support is not identical to an hour spent receiving abuse. A careful evaluation therefore asks not only \"How long?\" but also \"Doing what, with whom, and under what conditions?\"\n\nResponsibility should not be placed on young users alone. Families and schools can support media literacy and open discussion; technology companies can test designs and provide effective safety tools; researchers and public institutions can continue examining benefits, risks, and unanswered questions. A balanced response neither ignores possible harm nor assumes that one rule will fit everyone."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What does “inherently” mean in the first sentence?",
+      "options": [
+        {
+          "label": "A",
+          "text": "By its basic nature."
+        },
+        {
+          "label": "B",
+          "text": "Only in the past."
+        },
+        {
+          "label": "C",
+          "text": "According to law."
+        },
+        {
+          "label": "D",
+          "text": "Without being noticed."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。媒体そのものが常に同じ影響を持つのでなく、内容・機能・状況に依存すると続きます。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-social-media-01-q1"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What are “carefully selected images” in the comparison described?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Unfiltered records of every ordinary moment."
+        },
+        {
+          "label": "B",
+          "text": "Images chosen to present particular parts of someone’s life."
+        },
+        {
+          "label": "C",
+          "text": "Images produced only by public institutions."
+        },
+        {
+          "label": "D",
+          "text": "Pictures no other person can see."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。selected は見せる部分を選んで構成されたという意味で、生活全体の無作為標本ではありません。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-social-media-01-q2"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does “Late-night use can displace sleep” mean?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Social media necessarily cures insomnia."
+        },
+        {
+          "label": "B",
+          "text": "Sleep physically moves to a different room."
+        },
+        {
+          "label": "C",
+          "text": "Online time can take time that otherwise would be used for sleep."
+        },
+        {
+          "label": "D",
+          "text": "Every late-night user sleeps the same number of hours."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。displace は限られた時間配分で睡眠を押しのけること。必ず不眠症になるとは述べません。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-social-media-01-q3"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why are two equally long hours online contrasted?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To show that every hour online has the same effect."
+        },
+        {
+          "label": "B",
+          "text": "To prove supportive exchanges are always harmful."
+        },
+        {
+          "label": "C",
+          "text": "To measure the exact number of notifications."
+        },
+        {
+          "label": "D",
+          "text": "To show that support and harassment can differ in impact despite equal duration."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。第2段落。長さが同じでも交流内容と経験が違うため、時間だけでは影響を説明できません。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-social-media-01-q4"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which pair of factors should be checked in addition to duration?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The content encountered and the people involved in the interaction."
+        },
+        {
+          "label": "B",
+          "text": "Only the device’s color and purchase date."
+        },
+        {
+          "label": "C",
+          "text": "Only the total number of hours, counted again."
+        },
+        {
+          "label": "D",
+          "text": "The user’s age alone, ignoring purpose and offline life."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。Doing what, with whom の問いに加え、目的・機能・現実生活も本文が挙げます。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-social-media-01-q5"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which inference best follows from the passage?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Equal screen time produces identical outcomes for all users."
+        },
+        {
+          "label": "B",
+          "text": "Online support is always superior to offline relationships."
+        },
+        {
+          "label": "C",
+          "text": "Effects on well-being should be evaluated with both usage content and the user’s circumstances."
+        },
+        {
+          "label": "D",
+          "text": "Safety belongs solely to young users."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。第1・2段落は内容と状況を重視し、第3段落は責任を利用者だけに置きません。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-social-media-01-q6"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why is the author cautious about a single rule for everyone?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Every platform is necessarily harmless."
+        },
+        {
+          "label": "B",
+          "text": "Content, contacts, features, motives, and offline circumstances vary among users."
+        },
+        {
+          "label": "C",
+          "text": "Late-night use can never interfere with sleep."
+        },
+        {
+          "label": "D",
+          "text": "The passage says research has already answered every question."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。複数条件の組み合わせで影響が変わり、一律の時間規則では全員の経験を表せません。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-social-media-01-q7"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does “neither ignores possible harm nor assumes that one rule will fit everyone” mean?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It denies that any online harm is possible."
+        },
+        {
+          "label": "B",
+          "text": "It promises one rule has been proved safe for all."
+        },
+        {
+          "label": "C",
+          "text": "It treats every user and interaction as identical."
+        },
+        {
+          "label": "D",
+          "text": "It rejects both dismissing risks and imposing a universal one-size-fits-all rule."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。neither A nor B は二つの極端を退けます。possible harm は「必ず生じる害」ではありません。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-social-media-01-q8"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which evaluation plan best follows the passage?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Compare supportive and abusive interactions, notification effects on sleep or study, and available offline support."
+        },
+        {
+          "label": "B",
+          "text": "Record only total minutes and infer identical mental-health effects."
+        },
+        {
+          "label": "C",
+          "text": "Ask only the user to solve all design and safety problems."
+        },
+        {
+          "label": "D",
+          "text": "Ignore whom the user meets and what content appears."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。発展問題。内容、通知と睡眠、現実の支援という元の英作文の三点を保持します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-social-media-01-q9"
+      ]
+    }
+  ]
+}

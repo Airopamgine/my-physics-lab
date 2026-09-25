@@ -1,0 +1,258 @@
+{
+  "id": "legacy-trends-influence-evidence",
+  "title": "Trends and Distinct Social Mechanisms",
+  "task": 3,
+  "date": "2026-09-25T09:02:52+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "原文と全九つの学習対象を保持し、日本語記述・翻訳・発展問題を本文根拠のある英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-standard-trends-social-evidence-22/",
+  "passages": {
+    "text": "When many people choose the same song, style, or phrase, an observer may say that they are merely following the crowd. The description is too simple. A visible trend can emerge from several processes that produce similar behavior for different reasons. A person may use other people's choices as information, seek acceptance from a group, express membership, or independently prefer the same object. To explain a trend, we must ask what evidence could separate these mechanisms.\n\nInformational influence is especially plausible when the situation is uncertain. If a student cannot judge which technical book is reliable, recommendations from experienced readers may contain useful knowledge. Normative influence is different: a person may publicly adopt a choice to avoid rejection or gain approval even while privately doubting it. The distinction concerns the reason for the response, not whether the chosen object is objectively good or bad. The same purchase can be informed by both processes.\n\nClassic conformity experiments demonstrate that majority judgments can affect responses under controlled conditions. They do not show that every participant always yields or that laboratory behavior predicts every fashion market. Some participants remained independent, and changes in the task, group, culture, and presence of a supporting partner can alter the result. A study identifies a mechanism under specified conditions; it does not license the sentence “people always copy majorities.”\n\nDigital platforms add another layer by making popularity visible. Counts, rankings, repeated recommendations, and prominent placement can direct attention toward items that already appear successful. Attention can then generate more interaction, producing a feedback loop between measured popularity and future exposure. Yet a high count does not reveal one motive shared by every user. Critical awareness therefore means neither rejecting everything popular nor obeying it. It means identifying the signal, checking independent evidence, and deciding whether the choice still serves one's own purpose."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What is the central argument?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Every popular choice is irrational."
+        },
+        {
+          "label": "B",
+          "text": "Similar visible trends can arise from different mechanisms that need different evidence."
+        },
+        {
+          "label": "C",
+          "text": "Laboratory results exactly predict all online markets."
+        },
+        {
+          "label": "D",
+          "text": "Independent people never use recommendations."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。第1段落の問題設定と情報的・規範的影響、実験、プラットフォームの構成を表します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-trends-social-evidence-22-q1"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "How does informational influence differ from normative influence?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The first always concerns bad objects; the second always concerns good ones."
+        },
+        {
+          "label": "B",
+          "text": "Both are identical forms of private agreement."
+        },
+        {
+          "label": "C",
+          "text": "The first uses others’ choices as evidence under uncertainty; the second seeks acceptance or avoids rejection."
+        },
+        {
+          "label": "D",
+          "text": "The first is only online; the second occurs only in laboratories."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。前者は知識の手掛かり、後者は集団との関係。対象の良し悪しではなく動機の違いです。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-trends-social-evidence-22-q2"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why may one purchase involve both influences?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The buyer may learn about quality from experienced people and also seek approval from the group."
+        },
+        {
+          "label": "B",
+          "text": "One act can have only one motive by definition."
+        },
+        {
+          "label": "C",
+          "text": "A public purchase proves private certainty."
+        },
+        {
+          "label": "D",
+          "text": "The book’s objective quality is the sole determinant of motive."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。第2段落。情報と承認の動機が同じ行動に共存し得ます。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-trends-social-evidence-22-q3"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does “license” mean in “does not license the sentence”?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Legally register a vehicle."
+        },
+        {
+          "label": "B",
+          "text": "Provide sufficient grounds for a conclusion."
+        },
+        {
+          "label": "C",
+          "text": "Hide a research result."
+        },
+        {
+          "label": "D",
+          "text": "Repeat words aloud without scrutiny."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。名詞の免許でなく動詞で、強い一般化を正当化する根拠を与えるという意味です。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-trends-social-evidence-22-q4"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What can classic conformity experiments show, and what can they not show?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They prove every participant always copies every majority."
+        },
+        {
+          "label": "B",
+          "text": "They prove lab behavior predicts all fashion markets."
+        },
+        {
+          "label": "C",
+          "text": "They show majority judgments can never affect responses."
+        },
+        {
+          "label": "D",
+          "text": "They show majority influence under specified conditions, not universal yielding or automatic generalization to all markets."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。第3段落。条件付き機構と全員・全市場への無制限な外挿を区別します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-trends-social-evidence-22-q5"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which inference is supported about digital popularity counts?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Visible counts can direct attention and thereby affect future exposure and interaction."
+        },
+        {
+          "label": "B",
+          "text": "High rank proves an item was initially the best."
+        },
+        {
+          "label": "C",
+          "text": "Public agreement proves private belief."
+        },
+        {
+          "label": "D",
+          "text": "Independence requires rejecting all popular objects."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。第4段落の件数→注意→反応→露出という循環が根拠です。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-trends-social-evidence-22-q6"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which sequence describes the feedback loop?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A recommendation makes an item invisible, reducing all responses permanently."
+        },
+        {
+          "label": "B",
+          "text": "Popularity counts reveal one identical motive for every user."
+        },
+        {
+          "label": "C",
+          "text": "Visible rank draws attention; interaction raises the count; rankings and recommendations can then increase exposure again."
+        },
+        {
+          "label": "D",
+          "text": "The loop has no relation between measured popularity and future attention."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。人気の可視化と後の露出・反応が相互に増幅する順序を保ちます。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-trends-social-evidence-22-q7"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does “a mechanism under specified conditions” not justify?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A careful description of the tested situation."
+        },
+        {
+          "label": "B",
+          "text": "A hypothesis about when majority influence occurs."
+        },
+        {
+          "label": "C",
+          "text": "The possibility that some participants remain independent."
+        },
+        {
+          "label": "D",
+          "text": "The universal claim that people always copy majorities."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。特定条件の機構を、常に・全員という無条件な断定へ拡張しません。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-trends-social-evidence-22-q8"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "How can someone use a popularity ranking while judging independently?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Assume high counts are a direct measure of quality."
+        },
+        {
+          "label": "B",
+          "text": "Inspect how the ranking is produced, check independent evidence and one’s purpose, then reconsider without the count."
+        },
+        {
+          "label": "C",
+          "text": "Reject every popular item regardless of its merits."
+        },
+        {
+          "label": "D",
+          "text": "Treat paid promotion and genuine preference as indistinguishable."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。発展問題。順位の仕組み・独立資料・自分の目的と件数を隠した再判断を含みます。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-trends-social-evidence-22-q9"
+      ]
+    }
+  ]
+}

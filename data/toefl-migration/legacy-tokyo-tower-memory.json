@@ -1,0 +1,258 @@
+{
+  "id": "legacy-tokyo-tower-memory",
+  "title": "Tokyo Tower: Infrastructure and Memory",
+  "task": 3,
+  "date": "2026-09-25T09:02:52+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "既存教材をTOEFL形式へ変換 · 元の問1–9に対応",
+  "verificationNote": "原文と全九つの学習対象を保持し、日本語記述・翻訳・発展問題を本文根拠のある英語四択へ変換しました。",
+  "sourceUrl": "/posts/english-reading-standard-tokyo-tower-memory-32/",
+  "passages": {
+    "text": "When Tokyo Tower opened in 1958, television broadcasting was expanding rapidly and separate transmission facilities created practical difficulties. The 333-metre steel tower gathered antenna functions at a prominent site and included observatories and visitor facilities. Its height, lattice frame, and orange-and-white appearance made it visible across a city whose skyline was still comparatively low.\n\nIt is tempting to describe the tower as if a single committee had designed every part of it to symbolize national recovery. The history is more interesting. Broadcasting and commercial operation were concrete purposes. At the same time, the tower's completion during a period of rebuilding and economic expansion allowed newspapers, advertisers, filmmakers, visitors, and residents to attach broader meanings to it. A structure can acquire symbolic force through repeated public use even when symbolism is not a complete account of its original brief.\n\nEngineering details also became part of the story. A light steel lattice could reach the required height while resisting wind and earthquake loads. The alternating international-orange and white bands followed aviation-visibility rules of the period rather than a simple attempt to imitate national colours. Observation decks converted infrastructure into a place from which people could view the changing metropolis, so the tower was simultaneously a technical system and a stage for interpreting the city.\n\nThe opening of a much taller broadcasting tower in 2012 shifted major transmission roles and changed the skyline. Yet *shifted* does not mean that every technical function vanished, nor does *older* mean *irrelevant*. Tokyo Tower continues to host communications functions and visitors, while its age now gives it an additional role as historical evidence. Its meaning lies neither in steel alone nor in nostalgia alone, but in the changing relationship among infrastructure, memory, and urban life."
+  },
+  "questions": [
+    {
+      "passageId": "text",
+      "prompt": "What is the passage’s main argument?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Tokyo Tower has always had only one unchanging role."
+        },
+        {
+          "label": "B",
+          "text": "Its technical roles and symbolic meanings developed at different times through engineering and public use."
+        },
+        {
+          "label": "C",
+          "text": "Its colors were chosen to imitate the Japanese flag."
+        },
+        {
+          "label": "D",
+          "text": "A newer tower made it wholly obsolete."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。放送施設という当初の機能と、その後の利用・記憶による象徴性を分けます。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-tokyo-tower-memory-32-q1"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which two concrete functions appear in paragraph 1?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Broadcast antenna functions and visitor facilities such as observatories."
+        },
+        {
+          "label": "B",
+          "text": "Only government offices and factories."
+        },
+        {
+          "label": "C",
+          "text": "A national flag and a railway station."
+        },
+        {
+          "label": "D",
+          "text": "A symbolic purpose without any broadcasting use."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。第1段落。アンテナの集約と展望施設という具体的機能です。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-tokyo-tower-memory-32-q2"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "How did the tower acquire broader symbolic meaning?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A single committee fixed all later meanings before construction."
+        },
+        {
+          "label": "B",
+          "text": "Its lattice automatically became a symbol without public contact."
+        },
+        {
+          "label": "C",
+          "text": "Media, advertisers, filmmakers, visitors, and residents repeatedly used and interpreted it amid rebuilding and growth."
+        },
+        {
+          "label": "D",
+          "text": "All broadcasting functions disappeared in 1958."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。第2段落。時代背景と多様な人々による繰り返しの利用・意味づけです。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-tokyo-tower-memory-32-q3"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does “shifted” mean when discussing transmission roles?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Destroyed every technical function."
+        },
+        {
+          "label": "B",
+          "text": "Proved the history false."
+        },
+        {
+          "label": "C",
+          "text": "Repainted the tower."
+        },
+        {
+          "label": "D",
+          "text": "Redistributed or moved in importance."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。2012年の新塔で主要な役割が移ったのであり、全機能の消滅ではありません。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-tokyo-tower-memory-32-q4"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Why were the international-orange and white bands used according to the passage?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To reproduce national flag colors."
+        },
+        {
+          "label": "B",
+          "text": "To follow period aviation-visibility rules."
+        },
+        {
+          "label": "C",
+          "text": "To make the lattice invisible to aircraft."
+        },
+        {
+          "label": "D",
+          "text": "To indicate the exact number of antennas."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。第3段落。外観から象徴的動機を決めず、当時の航空視認規則と説明します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-tokyo-tower-memory-32-q5"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does “a stage for interpreting the city” suggest about the observation decks?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They let visitors view and understand the changing metropolis, not only use the tower as transmission infrastructure."
+        },
+        {
+          "label": "B",
+          "text": "They were built solely for theatrical plays."
+        },
+        {
+          "label": "C",
+          "text": "They prevented people from seeing urban change."
+        },
+        {
+          "label": "D",
+          "text": "They ended every communications function."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。展望台は都市の変化を眺めて意味づける場を作った、という stage の比喩です。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-tokyo-tower-memory-32-q6"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "Which timeline best matches “opened,” “was expanding,” “continues,” and “now gives”?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Four actions completed at the same instant in 1958."
+        },
+        {
+          "label": "B",
+          "text": "Only future events with no present function."
+        },
+        {
+          "label": "C",
+          "text": "A 1958 opening, an ongoing contemporary expansion, a continuing function, and a newly acquired historical role."
+        },
+        {
+          "label": "D",
+          "text": "A present opening and a vanished broadcasting past with no continuity."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。過去の一点、進行中の背景、現在の継続、経年による新しい史料的役割を時制で区別します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-tokyo-tower-memory-32-q7"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What does “acquire symbolic force through repeated public use” mean?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The building physically gains more steel with each visit."
+        },
+        {
+          "label": "B",
+          "text": "Its symbolic meaning was permanently finished before anyone saw it."
+        },
+        {
+          "label": "C",
+          "text": "Public use cannot affect the meaning of infrastructure."
+        },
+        {
+          "label": "D",
+          "text": "A structure can gain symbolic significance over time as people repeatedly engage with it."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。acquire は最初から備えるのでなく、時間の中で獲得する変化を示します。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-tokyo-tower-memory-32-q8"
+      ]
+    },
+    {
+      "passageId": "text",
+      "prompt": "What evidence would best support calling a building a national symbol?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Its height alone, with no records of use or memory."
+        },
+        {
+          "label": "B",
+          "text": "Original project documents, contemporary media, repeated public use, later representations, and whose memories they include or omit."
+        },
+        {
+          "label": "C",
+          "text": "One modern tourist advertisement as proof of every earlier intention."
+        },
+        {
+          "label": "D",
+          "text": "An assumption that everyone interprets the building identically."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。発展問題。設計目的と同時代・後世の受容、含まれる／欠ける記憶を調べます。",
+      "sourceRefs": [
+        "legacy:english-reading-standard-tokyo-tower-memory-32-q9"
+      ]
+    }
+  ]
+}
