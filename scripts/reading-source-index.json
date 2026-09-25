@@ -285,7 +285,8 @@
         11,
         12,
         13,
-        14
+        14,
+        15
       ],
       "pageItems": {
         "1": [],
@@ -387,6 +388,28 @@
           "pdf:task1:p014:q18-gap1",
           "pdf:task1:p014:q19-gap1",
           "pdf:task1:p014:q20-gap1"
+        ],
+        "15": [
+          "pdf:task1:p015:q21-gap1",
+          "pdf:task1:p015:q22-gap1",
+          "pdf:task1:p015:q23-gap1",
+          "pdf:task1:p015:q24-gap1",
+          "pdf:task1:p015:q25-gap1",
+          "pdf:task1:p015:q26-gap1",
+          "pdf:task1:p015:q27-gap1",
+          "pdf:task1:p015:q28-gap1",
+          "pdf:task1:p015:q29-gap1",
+          "pdf:task1:p015:q30-gap1",
+          "pdf:task1:p015:q31-gap1",
+          "pdf:task1:p015:q32-gap1",
+          "pdf:task1:p015:q33-gap1",
+          "pdf:task1:p015:q34-gap1",
+          "pdf:task1:p015:q35-gap1",
+          "pdf:task1:p015:q36-gap1",
+          "pdf:task1:p015:q37-gap1",
+          "pdf:task1:p015:q38-gap1",
+          "pdf:task1:p015:q39-gap1",
+          "pdf:task1:p015:q40-gap1"
         ]
       }
     },
@@ -1118,7 +1141,7 @@
       }
     }
   ],
-  "lastSource": "vocabulary",
+  "lastSource": "task1",
   "blockedItems": [],
   "note": "Public progress manifest only: source labels, page counts, reviewed pages, source references and answer-key availability. Private PDFs, OCR cache paths, and file hashes are excluded. Exact PDF question totals require review; publisher answer pages have not been supplied."
 }
