@@ -558,7 +558,7 @@ class TaskCatalogTests(unittest.TestCase):
                             for q in test2_module2_task3['questions']))
         index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
         source = next(s for s in index['sources'] if s['id'] == 'actual')
-        self.assertEqual(source['reviewedPages'], list(range(1, 15)) + list(range(16, 25)))
+        self.assertEqual(source['reviewedPages'], list(range(1, 25)))
         self.assertEqual(source['pageItems']['1'], [])
         self.assertEqual(source['pageItems']['2'], [])
         self.assertEqual(source['pageItems']['6'], [])
@@ -569,6 +569,8 @@ class TaskCatalogTests(unittest.TestCase):
                          [f'pdf:actual:p013:q{i:02d}' for i in range(1, 11)])
         self.assertEqual(source['pageItems']['14'],
                          [f'pdf:actual:p014:q{i:02d}' for i in range(11, 21)])
+        self.assertEqual(source['pageItems']['15'],
+                         ['pdf:actual:p015:q21', 'pdf:actual:p015:q22'])
         self.assertEqual(source['pageItems']['16'],
                          [f'pdf:actual:p016:q{i:02d}' for i in range(23, 26)])
         self.assertEqual(source['pageItems']['17'],
@@ -583,10 +585,30 @@ class TaskCatalogTests(unittest.TestCase):
         self.assertEqual(source['pageItems']['23'],
                          [f'pdf:actual:p023:q{i:02d}' for i in range(11, 16)])
         self.assertEqual(source['pageItems']['24'], [])
-        blocked = next(item for item in index['blockedItems']
-                       if item['source'] == 'actual' and item['pages'] == [15])
-        self.assertEqual(blocked['items'],
+        self.assertFalse(any(item['source'] == 'actual' for item in index['blockedItems']))
+
+    def test_recovered_actual_email_and_email_test_cover_every_source_question(self):
+        bank = self.build()
+        sets = {item['id']: item for item in bank['sets']}
+        recovered = sets['pdf-actual-test2-module1-task2-water']
+        email = sets['pdf-task2-p069-075']
+        self.assertEqual([q['sourceRefs'][0] for q in recovered['questions']],
                          ['pdf:actual:p015:q21', 'pdf:actual:p015:q22'])
+        self.assertEqual([q['correct'] for q in recovered['questions']], ['D', 'A'])
+        expected = ['pdf:task2:p069:qexample1', 'pdf:task2:p069:qexample2']
+        expected += [f'pdf:task2:p{page:03d}:q{i:02d}'
+                     for page, start, end in ((70, 1, 2), (71, 3, 4), (72, 5, 6),
+                                              (73, 7, 9), (74, 10, 12), (75, 13, 15))
+                     for i in range(start, end + 1)]
+        self.assertEqual([q['sourceRefs'][0] for q in email['questions']], expected)
+        self.assertEqual([q['correct'] for q in email['questions']], list('ACACBDABABADBAABA'))
+        self.assertEqual(len({q['passage'] for q in email['questions']}), 7)
+        self.assertEqual(bank['migration']['pdfReviewedPages'], 142)
+        self.assertEqual(bank['migration']['pdfPublished'], 486)
+        index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
+        self.assertNotIn('scripts/reading-source-text/', json.dumps(index))
+        self.assertTrue(all('packets' not in s and 'sha256' not in s
+                            for s in index['sources']))
 
     def test_hyena_and_industrial_revolution_preserve_passages_and_all_targets(self):
         bank = self.build()
@@ -752,7 +774,7 @@ class TaskCatalogTests(unittest.TestCase):
 
         index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
         source = next(s for s in index['sources'] if s['id'] == 'task2')
-        self.assertEqual(source['reviewedPages'], list(range(1, 66)))
+        self.assertEqual(source['reviewedPages'], list(range(1, 76)))
         for page in range(60, 66):
             page_refs = [ref for ref in expected_refs if f':p{page:03d}:' in ref]
             self.assertEqual(source['pageItems'][str(page)], page_refs)
@@ -1092,14 +1114,11 @@ class TaskCatalogTests(unittest.TestCase):
         index=json.loads((ROOT/'scripts/reading-source-index.json').read_text())
         total=0
         for source in index['sources']:
-            pages=[]
-            for packet in source['packets']:
-                # Private OCR is deliberately absent from the public checkout.
-                self.assertTrue(packet['path'].startswith('scripts/reading-source-text/'))
-                self.assertLessEqual(packet['firstPage'],packet['lastPage'])
-                pages.extend(range(packet['firstPage'],packet['lastPage']+1))
-            self.assertEqual(pages,list(range(1,source['pageCount']+1)))
-            total += len(pages)
+            reviewed=source['reviewedPages']
+            self.assertEqual(len(reviewed),len(set(reviewed)))
+            self.assertTrue(all(1 <= page <= source['pageCount'] for page in reviewed))
+            self.assertEqual({int(page) for page in source['pageItems']},set(reviewed))
+            total += source['pageCount']
         self.assertEqual(total,410)
 
 
