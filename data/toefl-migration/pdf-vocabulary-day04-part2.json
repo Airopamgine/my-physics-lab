@@ -1,0 +1,148 @@
+{
+  "id": "pdf-vocabulary-day04-part2",
+  "title": "Vocabulary Day 04 · Context Completion 2",
+  "task": 1,
+  "date": "2026-09-26T01:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 5ページ／冊子383ページ · Day 04の16〜30語（全60語中）",
+  "verificationNote": "掲載語・綴り・掲載順をPDF原本画像で確認済みです。各語を文脈で判断できるmissing-letter exerciseへ編集しています。出版社の公式解答表は未収録ですが、正答は掲載headwordと一致します。未回答の語の正答は、その語を提出するまで表示されません。",
+  "passages": {
+    "drastically": "The river's flow fell dra________ after several months without rain.",
+    "economy": "A stable eco____ needs reliable infrastructure and skilled workers.",
+    "elongate": "Heating can cause the metal rod to elo_____ slightly.",
+    "environment": "Protecting the marine envi_______ requires reducing plastic waste and chemical pollution.",
+    "escalate": "If the wind becomes stronger, a small wildfire can esc_____ rapidly.",
+    "evolution": "Fossils and genetic evidence help scientists study the evo______ of living organisms.",
+    "faint": "The radio telescope detected a fa___ signal from a distant galaxy.",
+    "fluctuation": "A short-term fluc_______ in temperature does not by itself establish a long-term trend.",
+    "fragile": "The ancient manuscript is so fra____ that researchers handle it only with special tools.",
+    "gap": "Engineers designed a bridge to span the g__ between the two cliffs.",
+    "giant": "Jupiter is a gas gi___ with a mass far greater than Earth's.",
+    "groupthink": "The committee invited outside criticism to reduce the risk of group_____.",
+    "health": "Regular exercise, sufficient sleep, and a balanced diet support long-term hea___.",
+    "humidity": "High hum_____ slows the evaporation of sweat and can make the air feel hotter.",
+    "imminent": "A warning of an imm_____ volcanic eruption prompted residents to evacuate."
+  },
+  "questions": [
+    {
+      "passageId": "drastically",
+      "prompt": "Day 04 vocabulary: complete dra________. Enter the missing letters.",
+      "prefix": "dra",
+      "word": "drastically",
+      "answer": "Drastically means severely, suddenly, or to a very great degree. 正解：stically → drastically（劇的に・大幅に）。数か月の少雨で河川流量が大幅に減った文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qdrastically"]
+    },
+    {
+      "passageId": "economy",
+      "prompt": "Day 04 vocabulary: complete eco____. Enter the missing letters.",
+      "prefix": "eco",
+      "word": "economy",
+      "answer": "An economy is the system through which a society produces, distributes, and uses goods and services. 正解：nomy → economy（経済・経済体制）。安定した経済を支える条件を述べる文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qeconomy"]
+    },
+    {
+      "passageId": "elongate",
+      "prompt": "Day 04 vocabulary: complete elo_____. Enter the missing letters.",
+      "prefix": "elo",
+      "word": "elongate",
+      "answer": "Elongate means to become or make something longer. 正解：ngate → elongate（長くする・伸びる）。加熱によって金属棒がわずかに伸びる文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qelongate"]
+    },
+    {
+      "passageId": "environment",
+      "prompt": "Day 04 vocabulary: complete envi_______. Enter the missing letters.",
+      "prefix": "envi",
+      "word": "environment",
+      "answer": "The environment is the natural world or the surrounding conditions in which organisms live. 正解：ronment → environment（環境・周囲）。海洋環境を廃棄物や化学汚染から守る文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qenvironment"]
+    },
+    {
+      "passageId": "escalate",
+      "prompt": "Day 04 vocabulary: complete esc_____. Enter the missing letters.",
+      "prefix": "esc",
+      "word": "escalate",
+      "answer": "Escalate means to become or make something more serious, intense, or extensive. 正解：alate → escalate（拡大する・悪化させる）。強風で小規模な山火事が急速に拡大し得る文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qescalate"]
+    },
+    {
+      "passageId": "evolution",
+      "prompt": "Day 04 vocabulary: complete evo______. Enter the missing letters.",
+      "prefix": "evo",
+      "word": "evolution",
+      "answer": "Evolution is gradual biological change in populations across generations; more generally, it can mean development over time. 正解：lution → evolution（進化・発展）。化石と遺伝的証拠から生物の進化を研究する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qevolution"]
+    },
+    {
+      "passageId": "faint",
+      "prompt": "Day 04 vocabulary: complete fa___. Enter the missing letters.",
+      "prefix": "fa",
+      "word": "faint",
+      "answer": "Faint means weak, slight, or difficult to see, hear, or detect. 正解：int → faint（かすかな・弱い）。電波望遠鏡が遠方銀河の微弱な信号を検出する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qfaint"]
+    },
+    {
+      "passageId": "fluctuation",
+      "prompt": "Day 04 vocabulary: complete fluc_______. Enter the missing letters.",
+      "prefix": "fluc",
+      "word": "fluctuation",
+      "answer": "A fluctuation is an irregular rise and fall or variation. 正解：tuation → fluctuation（変動・揺れ）。短期的な気温変動と長期傾向を区別する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qfluctuation"]
+    },
+    {
+      "passageId": "fragile",
+      "prompt": "Day 04 vocabulary: complete fra____. Enter the missing letters.",
+      "prefix": "fra",
+      "word": "fragile",
+      "answer": "Fragile means easily damaged, broken, or harmed. 正解：gile → fragile（壊れやすい・脆弱な）。古代の写本を専用器具で扱う必要がある文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qfragile"]
+    },
+    {
+      "passageId": "gap",
+      "prompt": "Day 04 vocabulary: complete g__. Enter the missing letters.",
+      "prefix": "g",
+      "word": "gap",
+      "answer": "A gap is an opening, empty space, or difference between things. 正解：ap → gap（隙間・隔たり）。二つの崖の間の隔たりに橋を架ける文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qgap"]
+    },
+    {
+      "passageId": "giant",
+      "prompt": "Day 04 vocabulary: complete gi___. Enter the missing letters.",
+      "prefix": "gi",
+      "word": "giant",
+      "answer": "A giant is something or someone of unusually great size; as an adjective, it means enormous. 正解：ant → giant（巨大なもの・巨大な）。木星を地球よりはるかに質量の大きい巨大ガス惑星として説明する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qgiant"]
+    },
+    {
+      "passageId": "groupthink",
+      "prompt": "Day 04 vocabulary: complete group_____. Enter the missing letters.",
+      "prefix": "group",
+      "word": "groupthink",
+      "answer": "Groupthink is poor collective decision-making caused by pressure to agree and avoid dissent. 正解：think → groupthink（集団思考）。外部の批判を招いて同調圧力による判断ミスを防ぐ文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qgroupthink"]
+    },
+    {
+      "passageId": "health",
+      "prompt": "Day 04 vocabulary: complete hea___. Enter the missing letters.",
+      "prefix": "hea",
+      "word": "health",
+      "answer": "Health is the condition of a person's or organism's body and mind. 正解：lth → health（健康）。運動・睡眠・食事が長期的な健康を支える文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qhealth"]
+    },
+    {
+      "passageId": "humidity",
+      "prompt": "Day 04 vocabulary: complete hum_____. Enter the missing letters.",
+      "prefix": "hum",
+      "word": "humidity",
+      "answer": "Humidity is the amount of water vapor present in the air. 正解：idity → humidity（湿度・湿気）。高湿度では汗が蒸発しにくく、体感温度が上がる文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qhumidity"]
+    },
+    {
+      "passageId": "imminent",
+      "prompt": "Day 04 vocabulary: complete imm_____. Enter the missing letters.",
+      "prefix": "imm",
+      "word": "imminent",
+      "answer": "Imminent means expected to happen very soon. 正解：inent → imminent（差し迫った・間近の）。火山噴火が迫っているとの警報を受けて住民が避難する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qimminent"]
+    }
+  ]
+}
