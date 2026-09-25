@@ -1,0 +1,145 @@
+{
+  "id": "pdf-task3-p026-029",
+  "title": "Academic Reading · Radiocarbon Dating and Yeast Fermentation",
+  "task": 3,
+  "date": "2026-09-25T23:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 3 · PDF 26–29ページ／冊子226–229ページ · Detail Questions Test 11–20",
+  "verificationNote": "PDF原本画像で2本文の全段落、設問、選択肢、強調語、順序を照合しました。出版社の巻末解答ページ（459ページ）は未提供・未照合のため、本文の明示情報、段落関係、文脈上の語義に基づく編集解答です。",
+  "passages": {
+    "radiocarbon": "Radiocarbon dating is a technique used to determine the age of objects that include substances once part of a living organism. It is based on measuring the amount of a special type of carbon, called carbon-14, found in organic materials such as wood, bone, or charcoal. Carbon-14 is created in the atmosphere and absorbed by living things throughout their life. When the organism dies, it stops absorbing carbon-14, and the carbon-14 inside starts to decrease.\n\nScientists can estimate how long it has been since the organism died by measuring the residual carbon-14. This method makes it possible to determine the age of items that are up to 50,000 years old. Archaeologists use radiocarbon dating to study human history and learn about past environments. It has helped to identify the age of prehistoric tools, fossils, cave art, and ancient buildings.\n\nRadiocarbon dating is not always accurate because the results are affected by previous variations in atmospheric concentrations of carbon-14. To account for this, scientists collect tree-ring and marine reservoir data to track changes over extended periods of time. This information is then used to calibrate findings from radiocarbon dating.",
+    "yeast": "Yeast fermentation is the metabolic process by which yeast cells convert sugars into energy. This reaction typically occurs in environments with little or no oxygen. Fermentation begins when enzymes produced by yeast break down glucose or other simple sugars. As the sugar is broken down inside the yeast, intermediate compounds are released that then change into ethanol and carbon dioxide.\n\nThe process is essential in making bread, beer, and wine. In bread making, carbon dioxide causes the dough to rise, creating a light texture. In alcoholic beverage production, fermentation is controlled to obtain the desired ethanol content. Yeast fermentation also plays a key role in the production of biofuels and pharmaceuticals.\n\nThe speed and efficiency of fermentation depend on the yeast strain. Different yeast strains possess unique metabolic characteristics that influence how rapidly and completely they convert sugars into ethanol and carbon dioxide. For example, baker’s yeast ferments sugars quickly and is commonly used for baking, while ale yeast achieves a more complete sugar conversion and is, therefore, optimal for beer brewing. Some yeast strains can tolerate higher alcohol concentrations, making them suitable for producing wine and spirits."
+  },
+  "questions": [
+    {
+      "passageId": "radiocarbon",
+      "prompt": "The word “residual” in the passage is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "lacking"},
+        {"label": "B", "text": "remaining"},
+        {"label": "C", "text": "diminishing"},
+        {"label": "D", "text": "growing"}
+      ],
+      "correct": "B",
+      "answer": "Scientists measure the carbon-14 that remains after the organism dies. 正解：B。residualは『残っている』という意味で、remainingが最も近いです。diminishingは減少中という動作を表します。",
+      "sourceRefs": ["pdf:task3:p027:q11"]
+    },
+    {
+      "passageId": "radiocarbon",
+      "prompt": "What does the passage indicate about radiocarbon dating?",
+      "options": [
+        {"label": "A", "text": "It cannot be used to date natural objects."},
+        {"label": "B", "text": "Its findings do not require calibration."},
+        {"label": "C", "text": "It cannot determine the age of inorganic objects."},
+        {"label": "D", "text": "Its accuracy depends on the age of the object."}
+      ],
+      "correct": "C",
+      "answer": "The technique dates objects containing material that was once part of a living organism, such as wood, bone, or charcoal. 正解：C。無機物そのものの年代測定には使えません。本文は校正が必要だと述べるためBは逆です。",
+      "sourceRefs": ["pdf:task3:p027:q12"]
+    },
+    {
+      "passageId": "radiocarbon",
+      "prompt": "How does carbon-14 respond once an organism dies?",
+      "options": [
+        {"label": "A", "text": "It gradually accumulates over time."},
+        {"label": "B", "text": "It remains constant without change."},
+        {"label": "C", "text": "It diminishes gradually."},
+        {"label": "D", "text": "It transforms into oxygen."}
+      ],
+      "correct": "C",
+      "answer": "Once the organism stops absorbing carbon-14, the carbon-14 inside begins to decrease. 正解：C。diminishは『徐々に減少する』という意味です。",
+      "sourceRefs": ["pdf:task3:p027:q13"]
+    },
+    {
+      "passageId": "radiocarbon",
+      "prompt": "What is the relationship between paragraphs 2 and 3?",
+      "options": [
+        {"label": "A", "text": "Paragraph 3 provides an alternative explanation for the phenomenon described in paragraph 2."},
+        {"label": "B", "text": "Paragraph 3 introduces a flaw in the technique detailed in paragraph 2 and provides the solution."},
+        {"label": "C", "text": "Paragraph 3 elaborates on the scientific uses of radiocarbon dating discussed in paragraph 2."},
+        {"label": "D", "text": "Paragraph 3 provides additional scientific background to the explanations given in paragraph 2."}
+      ],
+      "correct": "B",
+      "answer": "Paragraph 2 explains what the method can determine and how it is used; paragraph 3 identifies variation in atmospheric carbon-14 as an accuracy problem and explains calibration with other data. 正解：B。flawは欠点、calibrateは校正するという意味です。",
+      "sourceRefs": ["pdf:task3:p027:q14"]
+    },
+    {
+      "passageId": "radiocarbon",
+      "prompt": "What can be inferred about the tree-ring and marine reservoir data used by scientists?",
+      "options": [
+        {"label": "A", "text": "It suggests that calibration techniques need to be improved."},
+        {"label": "B", "text": "It enables an alternative way of calculating an object’s age."},
+        {"label": "C", "text": "It directly contradicts the findings from radiocarbon dating."},
+        {"label": "D", "text": "It indicates previous variations of atmospheric carbon-14."}
+      ],
+      "correct": "D",
+      "answer": "Scientists use these records to track changes in atmospheric carbon-14 over long periods and then calibrate radiocarbon results. 正解：D。別の年代計算法や矛盾する証拠ではなく、過去の濃度変動を示す資料です。",
+      "sourceRefs": ["pdf:task3:p027:q15"]
+    },
+    {
+      "passageId": "yeast",
+      "prompt": "How does yeast begin the fermentation process?",
+      "options": [
+        {"label": "A", "text": "It transforms into ethanol and carbon dioxide."},
+        {"label": "B", "text": "It absorbs nutrients from the sugar solution."},
+        {"label": "C", "text": "It produces enzymes that break down sugars."},
+        {"label": "D", "text": "It combines carbon dioxide with alcohol."}
+      ],
+      "correct": "C",
+      "answer": "Fermentation begins when enzymes produced by yeast break down glucose or other simple sugars. 正解：C。酵母自体がエタノールへ変化するのではなく、糖を分解します。",
+      "sourceRefs": ["pdf:task3:p029:q16"]
+    },
+    {
+      "passageId": "yeast",
+      "prompt": "The word “intermediate” in the passage is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "elaborate"},
+        {"label": "B", "text": "momentary"},
+        {"label": "C", "text": "in-between"},
+        {"label": "D", "text": "mandatory"}
+      ],
+      "correct": "C",
+      "answer": "The compounds occur between the breakdown of sugar and their later conversion into ethanol and carbon dioxide. 正解：C。intermediateは『中間の』で、in-betweenが最も近いです。",
+      "sourceRefs": ["pdf:task3:p029:q17"]
+    },
+    {
+      "passageId": "yeast",
+      "prompt": "What causes bread dough to rise during yeast fermentation?",
+      "options": [
+        {"label": "A", "text": "The production of ethanol"},
+        {"label": "B", "text": "The absorption of water"},
+        {"label": "C", "text": "The release of carbon dioxide"},
+        {"label": "D", "text": "The absence of oxygen"}
+      ],
+      "correct": "C",
+      "answer": "Paragraph 2 explicitly states that carbon dioxide causes the dough to rise. 正解：C。エタノール、水の吸収、酸素不足は膨張の直接原因として示されていません。",
+      "sourceRefs": ["pdf:task3:p029:q18"]
+    },
+    {
+      "passageId": "yeast",
+      "prompt": "Why does the author mention “baker’s yeast” and “ale yeast”?",
+      "options": [
+        {"label": "A", "text": "To describe the history of fermentation in different cultures"},
+        {"label": "B", "text": "To provide examples of yeast strains used for different purposes"},
+        {"label": "C", "text": "To suggest that baker’s yeast is generally more suitable for fermentation"},
+        {"label": "D", "text": "To show that fermentation cannot occur without modern technology"}
+      ],
+      "correct": "B",
+      "answer": "The examples illustrate how different strains have different metabolic traits: baker’s yeast works quickly for baking, while ale yeast converts sugar more completely for brewing. 正解：B。",
+      "sourceRefs": ["pdf:task3:p029:q19"]
+    },
+    {
+      "passageId": "yeast",
+      "prompt": "What is one industrial application of yeast fermentation mentioned in the passage?",
+      "options": [
+        {"label": "A", "text": "The development of food preservatives"},
+        {"label": "B", "text": "The extraction of carbon dioxide"},
+        {"label": "C", "text": "The production of medicine"},
+        {"label": "D", "text": "The refinement of crude oil"}
+      ],
+      "correct": "C",
+      "answer": "The passage says yeast fermentation plays a key role in producing pharmaceuticals, which are medicines. 正解：C。food preservatives、二酸化炭素の抽出、原油精製は挙げられていません。",
+      "sourceRefs": ["pdf:task3:p029:q20"]
+    }
+  ]
+}

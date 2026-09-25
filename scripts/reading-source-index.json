@@ -814,7 +814,11 @@
         22,
         23,
         24,
-        25
+        25,
+        26,
+        27,
+        28,
+        29
       ],
       "pageItems": {
         "1": [],
@@ -893,6 +897,22 @@
           "pdf:task3:p025:q08",
           "pdf:task3:p025:q09",
           "pdf:task3:p025:q10"
+        ],
+        "26": [],
+        "27": [
+          "pdf:task3:p027:q11",
+          "pdf:task3:p027:q12",
+          "pdf:task3:p027:q13",
+          "pdf:task3:p027:q14",
+          "pdf:task3:p027:q15"
+        ],
+        "28": [],
+        "29": [
+          "pdf:task3:p029:q16",
+          "pdf:task3:p029:q17",
+          "pdf:task3:p029:q18",
+          "pdf:task3:p029:q19",
+          "pdf:task3:p029:q20"
         ]
       }
     },
@@ -1098,7 +1118,7 @@
       }
     }
   ],
-  "lastSource": "task2",
+  "lastSource": "task3",
   "blockedItems": [],
   "note": "Public progress manifest only: source labels, page counts, reviewed pages, source references and answer-key availability. Private PDFs, OCR cache paths, and file hashes are excluded. Exact PDF question totals require review; publisher answer pages have not been supplied."
 }
