@@ -1,0 +1,201 @@
+{
+  "id": "pdf-task2-p076-082",
+  "title": "Read in Daily Life · Text-Message Chains",
+  "task": 2,
+  "date": "2026-09-25T21:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 2 · PDF 76–82ページ／冊子152–158ページ · Text-Message Chain Example・Test問01–12",
+  "verificationNote": "原本画像で本文、時刻、話者、設問、選択肢、順序を照合しました。Example 2問は紙面掲載の解答と一致しています。Test 12問は出版社の巻末解答表が未提供のため、本文の明示情報、発言意図、文脈上の語義に基づく編集解答です。各メッセージチェーンに付く設問を原本どおりすべて収録しています。",
+  "passages": {
+    "investor_presentation": "Nina Park (9:00 A.M.) Good morning, team! Reminder: All investor presentation slides and demo videos for Friday’s meeting must be finalized by Thursday.\n\nMohammed Aziz (9:05 A.M.) I’ll finish the slide design and send it out for initial feedback by Wednesday.\n\nMarco Enriquez (9:09 A.M.) I’ll gather updated user feedback from last month’s beta test and highlight key points for the demo video.\n\nNina Park (9:12 A.M.) Great. We also need to double-check the compatibility for the devices in advance. Remember what happened with the webinar last month.\n\nMarco Enriquez (9:15 A.M.) Yes, the webinar last month had some glitches. I’ll conduct a thorough compatibility check on all devices by Wednesday.\n\nNina Park (9:20 A.M.) Great job, team! I’m confident we’ll deliver a flawless presentation together.",
+    "financial_reports": "Sam Howe (10:14 A.M.) Hi, team. I wanted to remind everyone that the deadline for our financial reports has changed. Since Monday is now a holiday, we need to have everything completed by Friday.\n\nGrace Malone (10:16 A.M.) Thanks for reminding us. I’m almost finished compiling all of the data. I’ll send it to Jacob this afternoon. Hopefully, he will be able to create the graphs needed for the report and the presentation materials by Wednesday.\n\nJacob Cho (10:17 A.M.) That shouldn’t be a problem. It will only take me a few hours to do them.\n\nTanner Gonzalez (10:21 A.M.) That’s perfect. Send them to me as soon as they’re done and I’ll get everything edited and print things out.\n\nSam Howe (10:25 A.M.) Thanks, everyone. It looks we’ve got everything handled and we’ll finish on time.",
+    "budget_presentation": "Marc Bishop (1:11 P.M.) Our department head is unable to attend our budget presentation on Monday. He’s meeting with a client in Chicago and won’t be back until Tuesday. Maybe we should push back our presentation until the day after he returns.\n\nDanielle Newman (1:13 P.M.) OK. Let’s reserve the main conference room from 2 to 4 P.M. on that day.\n\nLiu Zhou (1:15 P.M.) I just checked the reservation schedule. The marketing team has a workshop planned. We’ll have to do the presentation in the morning instead. We could start at 10 A.M.\n\nMarc Bishop (1:16 P.M.) That works. And since we have a few more days to prepare, we should consider how to improve our presentation.\n\nDanielle Newman (1:18 P.M.) Why don’t I go through all of the data in the charts to make sure everything is accurate?\n\nLiu Zhou (1:20 P.M.) Great. While you do that, I’m going to see if any improvements can be made to the handouts.",
+    "restaurant_reservation": "Genet Tesfaye (6:00 P.M.) Thank you for contacting Saffron Table. How may I assist you today?\n\nAarav Sharma (6:01 P.M.) I’d like to make a reservation for 7:00 P.M. this Friday.\n\nGenet Tesfaye (6:02 P.M.) I apologize, but we are fully booked for this Friday evening. However, we currently have availability for Thursday at 8:00 P.M. That also happens to be our Wine & Appetizer Special night, which offers a 5 percent discount on all appetizers and select wines.\n\nAarav Sharma (6:03 P.M.) In that case, I’ll go with Thursday at 8:00 P.M.\n\nGenet Tesfaye (6:05 P.M.) How many guests will be attending?\n\nAarav Sharma (6:07 P.M.) A table for 2, please.\n\nGenet Tesfaye (6:09 P.M.) Thank you. Your table for 2 at 8:00 P.M. on Thursday is now confirmed. The discount will be applied automatically to eligible items.\n\nAarav Sharma (6:10 P.M.) Sounds good.",
+    "packaging_design": "Dana Scott (2:00 P.M.) Afternoon, team. The client reviewed our packaging draft for their GlowHerb line and requested two more options that better highlight the product’s benefits and natural ingredients.\n\nNatalie Jones (2:05 P.M.) I’ll edit the current labeling to make it more visible with an emphasis on the “organic” and “vegan” ingredients.\n\nPaul Dunaway (2:10 P.M.) I’ll come up with a new design concept and send drafts by Friday. Should I emphasize the “soothing” and “hydrating” benefits?\n\nDana Scott (2:15 P.M.) Yes, highlight those benefits. Also, the client wanted to feature the texture and natural appearance of the product to visually represent those benefits.\n\nPaul Dunaway (2:20 P.M.) To do that, I’ll need more high-resolution images of the product. Should I reach out to the client directly to ask for them?\n\nDana Scott (2:25 P.M.) I’ll take the lead on reaching out for those.",
+    "innovation_showcase": "Lena Thompson (8:45 A.M.) For our Innovation Showcase next week, several guests from partner companies will be coming.\n\nMaya Patel (8:46 A.M.) Are there special parking arrangements for visitors?\n\nLena Thompson (8:47 A.M.) The spots in the east parking lot will be reserved for guests only. Signage will be in place, and our security team will assist.\n\nJulio Rivera (8:50 A.M.) I have a client, Sophia Baumgartner, who will be arriving from London. Where should I tell her to go when she arrives?\n\nLena Thompson (8:52 A.M.) Tell her to go to the front desk to check in. One of our staff will escort her to reserved seating.\n\nJoshua O’Connor (8:55 A.M.) Will we need to wear special badges tomorrow?\n\nLena Thompson (8:57 A.M.) No, but please use the west entrance for all staff and bring your security card at all times."
+  },
+  "questions": [
+    {
+      "passageId": "investor_presentation",
+      "prompt": "What is Mr. Aziz’s responsibility?",
+      "options": [
+        {"label": "A", "text": "Collecting user feedback"},
+        {"label": "B", "text": "Finalizing a slide design"},
+        {"label": "C", "text": "Sending feedback for presentation slides"},
+        {"label": "D", "text": "Presenting a demo video"}
+      ],
+      "correct": "B",
+      "answer": "Mr. Aziz says he will finish the slide design. 正解：B。利用者の意見収集はMr. Enriquezの担当で、Mr. Azizはスライドへのフィードバックを送る側ではなく受け取る側です。",
+      "sourceRefs": ["pdf:task2:p077:qexample1"]
+    },
+    {
+      "passageId": "investor_presentation",
+      "prompt": "At 9:12 A.M., what does Ms. Park most likely mean when she writes, “Remember what happened with the webinar last month”?",
+      "options": [
+        {"label": "A", "text": "She wants to make sure technical issues do not occur again."},
+        {"label": "B", "text": "She is suggesting to reschedule the upcoming meeting."},
+        {"label": "C", "text": "She believes last month’s webinar was unnecessary."},
+        {"label": "D", "text": "She wants to skip the device compatibility check this time."}
+      ],
+      "correct": "A",
+      "answer": "She recalls the previous webinar’s glitches while asking the team to double-check device compatibility. 正解：A。前回の技術的問題を繰り返さないよう求めています。",
+      "sourceRefs": ["pdf:task2:p077:qexample2"]
+    },
+    {
+      "passageId": "financial_reports",
+      "prompt": "At 10:17 A.M., what does Jacob Cho mean when he writes, “That shouldn’t be a problem”?",
+      "options": [
+        {"label": "A", "text": "He agrees with Ms. Malone’s statement."},
+        {"label": "B", "text": "He has already accomplished a task."},
+        {"label": "C", "text": "He is willing to work overtime."},
+        {"label": "D", "text": "He can finish by Wednesday."}
+      ],
+      "correct": "D",
+      "answer": "Jacob says the graphs will take only a few hours, so Grace’s Wednesday deadline is manageable. 正解：D。作業済みでも残業の申し出でもありません。",
+      "sourceRefs": ["pdf:task2:p078:q01"]
+    },
+    {
+      "passageId": "financial_reports",
+      "prompt": "What can be inferred about Tanner Gonzalez?",
+      "options": [
+        {"label": "A", "text": "He is the newest team member."},
+        {"label": "B", "text": "He will correct the materials."},
+        {"label": "C", "text": "He needs some additional time."},
+        {"label": "D", "text": "He is presenting the material."}
+      ],
+      "correct": "B",
+      "answer": "Tanner asks for the completed materials so he can edit and print them. 正解：B。edit は資料を修正・整えることを示します。",
+      "sourceRefs": ["pdf:task2:p078:q02"]
+    },
+    {
+      "passageId": "budget_presentation",
+      "prompt": "Why does Mr. Bishop suggest postponing a presentation?",
+      "options": [
+        {"label": "A", "text": "He plans to take a business trip."},
+        {"label": "B", "text": "He needs to meet with a client."},
+        {"label": "C", "text": "He wants a manager to attend."},
+        {"label": "D", "text": "He intends to revise a budget."}
+      ],
+      "correct": "C",
+      "answer": "The department head cannot attend on Monday, so Mr. Bishop proposes presenting after the head returns. 正解：C。出張と顧客面談をするのはMr. Bishopではなくdepartment headです。",
+      "sourceRefs": ["pdf:task2:p079:q03"]
+    },
+    {
+      "passageId": "budget_presentation",
+      "prompt": "At 1:15 P.M., what does Ms. Zhou imply when she writes, “The marketing team has a workshop planned”?",
+      "options": [
+        {"label": "A", "text": "A group project has been canceled."},
+        {"label": "B", "text": "A weekly schedule was updated."},
+        {"label": "C", "text": "A training session will be useful."},
+        {"label": "D", "text": "A meeting space is unavailable."}
+      ],
+      "correct": "D",
+      "answer": "The workshop occupies the main conference room from 2 to 4 P.M., forcing the presentation into the morning. 正解：D。会議スペースがその時間帯に使えないという意味です。",
+      "sourceRefs": ["pdf:task2:p079:q04"]
+    },
+    {
+      "passageId": "restaurant_reservation",
+      "prompt": "What does Ms. Tesfaye’s mention of the “Wine & Appetizer Special night” suggest about her attitude?",
+      "options": [
+        {"label": "A", "text": "She thinks a discount might appeal to the customer."},
+        {"label": "B", "text": "She is trying to encourage the customer to order more food and drinks."},
+        {"label": "C", "text": "She is encouraging the customer to visit on the weekend."},
+        {"label": "D", "text": "She wants to emphasize the popularity of the restaurant on Thursday."}
+      ],
+      "correct": "A",
+      "answer": "She offers Thursday as an alternative and highlights its discount as an added attraction. 正解：A。注文量を増やすよう直接促しているのではなく、代替日時を魅力的に示しています。",
+      "sourceRefs": ["pdf:task2:p080:q05"]
+    },
+    {
+      "passageId": "restaurant_reservation",
+      "prompt": "What does the phrase “eligible items” most likely mean in this context?",
+      "options": [
+        {"label": "A", "text": "All food and drink items available that evening"},
+        {"label": "B", "text": "The most expensive items on the menu"},
+        {"label": "C", "text": "Appetizers and wines that qualify for the special offer"},
+        {"label": "D", "text": "Main courses served on Thursdays"}
+      ],
+      "correct": "C",
+      "answer": "The special applies to all appetizers and selected wines, so eligible items are those qualifying for that offer. 正解：C。すべての飲食物や主菜ではありません。",
+      "sourceRefs": ["pdf:task2:p080:q06"]
+    },
+    {
+      "passageId": "packaging_design",
+      "prompt": "What does Natalie Jones indicate?",
+      "options": [
+        {"label": "A", "text": "She believes the current design already sufficiently features the key ingredients."},
+        {"label": "B", "text": "She will begin by consulting with the client about the new labeling options."},
+        {"label": "C", "text": "She will revise the packaging to better highlight the product components."},
+        {"label": "D", "text": "She is responsible for designing new packaging concepts."}
+      ],
+      "correct": "C",
+      "answer": "Natalie will edit the current labeling to emphasize the organic and vegan ingredients. 正解：C。新しいデザイン案はPaulの担当で、顧客への相談を先に行うとは述べていません。",
+      "sourceRefs": ["pdf:task2:p081:q07"]
+    },
+    {
+      "passageId": "packaging_design",
+      "prompt": "At 2:25 P.M., what does Dana Scott most likely mean when she writes, “I’ll take the lead on reaching out for those”?",
+      "options": [
+        {"label": "A", "text": "She will wait for the client to contact her with the images."},
+        {"label": "B", "text": "She is worried that Paul will forget to ask for the images."},
+        {"label": "C", "text": "She will be the one to contact the client to request the images."},
+        {"label": "D", "text": "She will focus on the design concept before requesting the images."}
+      ],
+      "correct": "C",
+      "answer": "“Those” refers to the high-resolution product images, and Dana volunteers to contact the client for them. 正解：C。顧客からの連絡を待つ意味ではありません。",
+      "sourceRefs": ["pdf:task2:p081:q08"]
+    },
+    {
+      "passageId": "packaging_design",
+      "prompt": "The client wants the packaging design to highlight all of the following aspects of their product EXCEPT",
+      "options": [
+        {"label": "A", "text": "Therapeutic effects"},
+        {"label": "B", "text": "Price"},
+        {"label": "C", "text": "Physical texture"},
+        {"label": "D", "text": "Components"}
+      ],
+      "correct": "B",
+      "answer": "The client wants benefits such as soothing and hydrating effects, texture, natural appearance, and ingredients highlighted. Price is never mentioned. 正解：B。",
+      "sourceRefs": ["pdf:task2:p081:q09"]
+    },
+    {
+      "passageId": "innovation_showcase",
+      "prompt": "Which of the following is true about the Innovation Showcase?",
+      "options": [
+        {"label": "A", "text": "It will feature presentations from guests."},
+        {"label": "B", "text": "It will be attended by many non-employees."},
+        {"label": "C", "text": "It will require all staff to wear special badges."},
+        {"label": "D", "text": "It will take place in London."}
+      ],
+      "correct": "B",
+      "answer": "Several guests from partner companies will attend, so the event includes multiple people who are not employees. 正解：B。ゲストが発表するとは書かれず、特別バッジも不要です。",
+      "sourceRefs": ["pdf:task2:p082:q10"]
+    },
+    {
+      "passageId": "innovation_showcase",
+      "prompt": "What does the phrase “parking arrangements” most likely mean in this context?",
+      "options": [
+        {"label": "A", "text": "The act of parking one’s car in a designated spot"},
+        {"label": "B", "text": "The written rules and fines for parking on company property"},
+        {"label": "C", "text": "The construction and maintenance of a parking lot"},
+        {"label": "D", "text": "The details or plans for organizing parking spaces"}
+      ],
+      "correct": "D",
+      "answer": "Maya asks what plans have been made for visitor parking, and Lena explains the reserved spaces, signs, and assistance. 正解：D。ここで arrangements は駐車場所を手配する計画・詳細です。",
+      "sourceRefs": ["pdf:task2:p082:q11"]
+    },
+    {
+      "passageId": "innovation_showcase",
+      "prompt": "What can be inferred about Sophia Baumgartner?",
+      "options": [
+        {"label": "A", "text": "She will have to wait for the general staff to park their cars first."},
+        {"label": "B", "text": "She will be escorted by Mr. Rivera."},
+        {"label": "C", "text": "She will be seated in a reserved area upon arrival."},
+        {"label": "D", "text": "She will check in at the east parking lot."}
+      ],
+      "correct": "C",
+      "answer": "After checking in at the front desk, a staff member will escort Sophia to reserved seating. 正解：C。Mr. Rivera本人が案内するとは書かれず、駐車場でチェックインするのでもありません。",
+      "sourceRefs": ["pdf:task2:p082:q12"]
+    }
+  ]
+}
