@@ -976,9 +976,39 @@ class TaskCatalogTests(unittest.TestCase):
 
         index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
         source = next(s for s in index['sources'] if s['id'] == 'task2')
-        self.assertEqual(source['reviewedPages'], list(range(1, 83)))
+        self.assertEqual(source['reviewedPages'][:82], list(range(1, 83)))
         self.assertEqual(source['pageItems']['76'], [])
         for page in range(77, 83):
+            page_refs = [ref for ref in expected_refs if f':p{page:03d}:' in ref]
+            self.assertEqual(source['pageItems'][str(page)], page_refs)
+
+    def test_task2_text_message_conclusion_and_notices_preserve_twenty_answers(self):
+        bank = self.build()
+        item = next(s for s in bank['sets'] if s['id'] == 'pdf-task2-p083-091')
+        expected_refs = [
+            'pdf:task2:p083:q13', 'pdf:task2:p083:q14',
+            'pdf:task2:p083:q15', 'pdf:task2:p085:qexample1',
+            'pdf:task2:p085:qexample2', 'pdf:task2:p086:q01',
+            'pdf:task2:p086:q02', 'pdf:task2:p087:q03',
+            'pdf:task2:p087:q04', 'pdf:task2:p088:q05',
+            'pdf:task2:p088:q06', 'pdf:task2:p089:q07',
+            'pdf:task2:p089:q08', 'pdf:task2:p089:q09',
+            'pdf:task2:p090:q10', 'pdf:task2:p090:q11',
+            'pdf:task2:p090:q12', 'pdf:task2:p091:q13',
+            'pdf:task2:p091:q14', 'pdf:task2:p091:q15']
+        self.assertEqual(item['collection'], 'Task 2')
+        self.assertEqual(len(item['questions']), 20)
+        self.assertEqual([q['sourceRefs'][0] for q in item['questions']], expected_refs)
+        self.assertEqual([q['correct'] for q in item['questions']],
+                         list('CABBBCBCCBACBCBDCADA'))
+        self.assertEqual(len({q['passage'] for q in item['questions']}), 8)
+        self.assertTrue(all(len(q['options']) == 4 for q in item['questions']))
+
+        index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
+        source = next(s for s in index['sources'] if s['id'] == 'task2')
+        self.assertEqual(source['reviewedPages'], list(range(1, 92)))
+        self.assertEqual(source['pageItems']['84'], [])
+        for page in [83, 85, 86, 87, 88, 89, 90, 91]:
             page_refs = [ref for ref in expected_refs if f':p{page:03d}:' in ref]
             self.assertEqual(source['pageItems'][str(page)], page_refs)
 
