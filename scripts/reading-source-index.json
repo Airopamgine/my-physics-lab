@@ -500,7 +500,16 @@
         79,
         80,
         81,
-        82
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91
       ],
       "pageItems": {
         "1": [],
@@ -804,6 +813,43 @@
           "pdf:task2:p082:q10",
           "pdf:task2:p082:q11",
           "pdf:task2:p082:q12"
+        ],
+        "83": [
+          "pdf:task2:p083:q13",
+          "pdf:task2:p083:q14",
+          "pdf:task2:p083:q15"
+        ],
+        "84": [],
+        "85": [
+          "pdf:task2:p085:qexample1",
+          "pdf:task2:p085:qexample2"
+        ],
+        "86": [
+          "pdf:task2:p086:q01",
+          "pdf:task2:p086:q02"
+        ],
+        "87": [
+          "pdf:task2:p087:q03",
+          "pdf:task2:p087:q04"
+        ],
+        "88": [
+          "pdf:task2:p088:q05",
+          "pdf:task2:p088:q06"
+        ],
+        "89": [
+          "pdf:task2:p089:q07",
+          "pdf:task2:p089:q08",
+          "pdf:task2:p089:q09"
+        ],
+        "90": [
+          "pdf:task2:p090:q10",
+          "pdf:task2:p090:q11",
+          "pdf:task2:p090:q12"
+        ],
+        "91": [
+          "pdf:task2:p091:q13",
+          "pdf:task2:p091:q14",
+          "pdf:task2:p091:q15"
         ]
       }
     },
@@ -1141,7 +1187,7 @@
       }
     }
   ],
-  "lastSource": "task1",
+  "lastSource": "task2",
   "blockedItems": [],
   "note": "Public progress manifest only: source labels, page counts, reviewed pages, source references and answer-key availability. Private PDFs, OCR cache paths, and file hashes are excluded. Exact PDF question totals require review; publisher answer pages have not been supplied."
 }

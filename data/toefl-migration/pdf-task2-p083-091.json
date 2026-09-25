@@ -1,0 +1,281 @@
+{
+  "id": "pdf-task2-p083-091",
+  "title": "Read in Daily Life · Text-Message Conclusion and Notices",
+  "task": 2,
+  "date": "2026-09-26T05:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 2 · PDF 83–91ページ／冊子159–167ページ · Text-Message Chain Test問13–15・Notice Example問1–2・Test問01–15",
+  "verificationNote": "原本画像で各文書、話者、時刻、設問、選択肢、順序を照合しました。Notice Example 2問は紙面掲載の解答と一致しています。Text-Message Chain Test 3問とNotice Test 15問は出版社の巻末解答表（冊子437・440ページ）が未提供のため、本文の明示情報と文脈に基づく編集解答です。各文書に付く設問を原本どおりすべて収録しています。",
+  "passages": {
+    "summit_delegation": "James Holloway (1:00 P.M.) Due to an unexpected client issue, our ATAC Tech Summit delegation must be reduced from five to three. The remaining delegates are Alex, Maria, and myself.\n\nAlex Wright (1:03 P.M.) That significantly impacts our goals. The other two members were focusing on the two high-priority vendor meetings, and Maria and I were preparing for the presentation on AI.\n\nJames Holloway (1:05 P.M.) Securing those deals is now our top priority. I want you to work on that, Alex. Let’s meet via videoconference at 3 P.M. to finalize the revised task list.\n\nMaria Perez (1:07 P.M.) Understood. In the meantime, should I contact the airline and hotel to see whether the two team members’ non-refundable costs can be converted into credits for future use?\n\nJames Holloway (1:08 P.M.) Good catch. Let me know what you can salvage before the 3 P.M. meeting.",
+    "pest_control": "Dear Residents,\n\nPlease be advised that regular pest control will be conducted on October 28, from 10:00 A.M. to 12:00 P.M.\n\nFor your safety, please vacate your apartment during the service. In addition, please store all food items in sealed containers and ensure all windows are closed and locked.",
+    "shuttle_route": "Due to construction on Sunset Avenue, the employee shuttle will temporarily bypass this road from January 28 to February 2. Instead, it will use Maple Avenue, one block west. Staff are advised to board at the temporary stops along the alternative route. We apologize for any inconvenience.",
+    "boutique_opening": "TRES CHIC BOUTIQUE GRAND OPENING!\n\nCelebrate our grand opening this Saturday!\n\nSave 10–20 percent on accessories, 25 percent on clothing items, and 30 percent on perfumes.\n\nDoors open at 9 A.M. and the first 100 customers will receive a free tote bag!\n\nStore Hours:\nMonday–Friday: 10 A.M.–9 P.M.\nSaturday–Sunday: 9 A.M.–10 P.M.",
+    "fitness_move": "CITY FITNESS MOVING\n\nWe’re moving to a larger location to better serve our members.\n\nNew Location: San Pedro Shopping Center, 133 East Elm Drive\nOpening Day: Monday, October 1\n\nMemberships will automatically transfer to the new location.\n\nIf you have questions or concerns, please call 555-8210.",
+    "rental_registration": "Short-Term Rentals Registration\n\nAll hosts must register their short-term rentals by Friday, November 1st. Failure to register will result in a penalty of up to $500 per day for noncompliant properties, starting November 2nd. Additionally, hosts are required to display the city registration number on all accommodation advertisements.\n\nYou can register your short-term rentals either online or in person. A $75 fee is due upon submission.\n\nOnline Registration: Visit brookdale.gov/short_term_rentals. The required documents include a photo ID, your latest property tax bill, a parking plan, and a floor plan.\n\nIn-Person Registration: Register at City Hall, Room 204, on weekdays from 9:00 A.M. to 5:00 P.M. Please bring the same documents as for online registration.\n\nOnline applications are processed within 3 to 5 business days once all required documents and payment are received. In-person applications may take up to 7 business days as staff must enter records manually.",
+    "icu_visitors": "Notice for Visitors to the Intensive Care Unit (ICU)\n\nPlease follow these guidelines. Your cooperation is vital for patient recovery and safety.\n\n1. Visiting Hours: Visiting hours are strictly observed. They are 11:00 A.M. to 12:00 P.M. and 6:00 P.M. to 7:00 P.M.\n2. Infection Control: If you have any symptoms of illness (cold, flu, fever, cough), please do not enter the ICU.\n3. Hand Hygiene: Before entering and upon leaving the ICU, you must thoroughly sanitize your hands. Use the provided antiseptic gel.\n4. Personal Items: For patient safety and infection control, only minimal personal items are permitted. Outside food and drinks are strictly prohibited. Please leave all large coats and bags (e.g., backpacks, shopping bags) outside the unit.\n5. Noise: Please speak softly and keep conversations brief in the hallways and patient rooms. Silence or turn off all mobile phones to prevent disturbance.",
+    "vehicle_charging": "Dear Residents,\n\nManagement would like to remind everyone about the complex’s rules regarding the charging of personal electric vehicles, including electric bicycles and electric scooters, following recent safety concerns about fire hazards. Charging of these electric vehicles is prohibited in individual residences, balconies, common areas, or stairwells.\n\nPersonal electric vehicles must only be charged at the designated charging stations, which are equipped with fire-safety equipment and proper ventilation. The stations are located in the outdoor parking lot (near the main management office) and near the main gate. More locations will be added in the near future.\n\nAny resident found charging a personal mobility device in an unauthorized area will first receive a written warning. Repeated noncompliance will lead to further disciplinary action as outlined in the lease agreement. Please note that we recently refused to renew a resident’s lease because of this issue.\n\nWe appreciate your cooperation for the well-being of all residents."
+  },
+  "questions": [
+    {
+      "passageId": "summit_delegation",
+      "prompt": "What can be inferred about Alex Wright?",
+      "options": [
+        {"label": "A", "text": "He will remain at the office."},
+        {"label": "B", "text": "He will prepare a report on company finances."},
+        {"label": "C", "text": "He will attend a vendor meeting."},
+        {"label": "D", "text": "He will travel for a client meeting next week."}
+      ],
+      "correct": "C",
+      "answer": "James assigns Alex to securing the high-priority vendor deals that the removed delegates had been handling. 正解：C。オフィスに残ること、財務報告、翌週の顧客訪問は述べられていません。",
+      "sourceRefs": ["pdf:task2:p083:q13"]
+    },
+    {
+      "passageId": "summit_delegation",
+      "prompt": "What will Maria Perez do before a videoconference?",
+      "options": [
+        {"label": "A", "text": "Contact service providers to minimize financial losses"},
+        {"label": "B", "text": "Manage the unexpected client crisis"},
+        {"label": "C", "text": "Choose the three delegates"},
+        {"label": "D", "text": "Prepare for a presentation"}
+      ],
+      "correct": "A",
+      "answer": "Maria proposes contacting the airline and hotel to convert non-refundable costs into credits, and James asks for the result before 3 P.M. 正解：A。これは損失を抑えるためのサービス提供者への連絡です。",
+      "sourceRefs": ["pdf:task2:p083:q14"]
+    },
+    {
+      "passageId": "summit_delegation",
+      "prompt": "At 1:08 P.M., what does James Holloway most likely mean when he writes, “Good catch”?",
+      "options": [
+        {"label": "A", "text": "He agrees that Alex made an error."},
+        {"label": "B", "text": "He is complimenting Maria for identifying a task that was overlooked."},
+        {"label": "C", "text": "He is reminding Maria to contact the high-priority vendors."},
+        {"label": "D", "text": "He is acknowledging Maria for reserving the meeting room in advance."}
+      ],
+      "correct": "B",
+      "answer": "Maria notices the unaddressed airline and hotel costs, and James approves her suggestion. 正解：B。Good catch は、見落とされていた点に気づいたことへの称賛です。",
+      "sourceRefs": ["pdf:task2:p083:q15"]
+    },
+    {
+      "passageId": "pest_control",
+      "prompt": "What is the main purpose of the notice?",
+      "options": [
+        {"label": "A", "text": "To explain a change in building management"},
+        {"label": "B", "text": "To announce scheduled pest control"},
+        {"label": "C", "text": "To inform of a building’s exterior cleaning"},
+        {"label": "D", "text": "To notify of some elevator maintenance"}
+      ],
+      "correct": "B",
+      "answer": "The notice gives the date and time for regular pest control and tells residents how to prepare. 正解：B（紙面掲載の解答と一致）。建物管理の変更、外壁清掃、エレベーター保守ではありません。",
+      "sourceRefs": ["pdf:task2:p085:qexample1"]
+    },
+    {
+      "passageId": "pest_control",
+      "prompt": "What are residents NOT required to do?",
+      "options": [
+        {"label": "A", "text": "Leave their home temporarily"},
+        {"label": "B", "text": "Clean the apartment in advance"},
+        {"label": "C", "text": "Keep food items in airtight containers"},
+        {"label": "D", "text": "Shut all windows in the building"}
+      ],
+      "correct": "B",
+      "answer": "Residents must leave during service, seal food, and close and lock windows; advance cleaning is never requested. 正解：B（紙面掲載の解答と一致）。",
+      "sourceRefs": ["pdf:task2:p085:qexample2"]
+    },
+    {
+      "passageId": "shuttle_route",
+      "prompt": "What is the main purpose of the notice?",
+      "options": [
+        {"label": "A", "text": "To announce the introduction of a new bus service"},
+        {"label": "B", "text": "To explain a construction plan on a road"},
+        {"label": "C", "text": "To inform staff of the temporary route change"},
+        {"label": "D", "text": "To warn about traffic congestion on a road"}
+      ],
+      "correct": "C",
+      "answer": "The notice explains that the employee shuttle will temporarily bypass Sunset Avenue and use Maple Avenue instead. 正解：C。工事そのものの計画説明や新サービスの告知ではありません。",
+      "sourceRefs": ["pdf:task2:p086:q01"]
+    },
+    {
+      "passageId": "shuttle_route",
+      "prompt": "What are the staff advised to do?",
+      "options": [
+        {"label": "A", "text": "Delay travel until the construction ends"},
+        {"label": "B", "text": "Use bus stops one block west"},
+        {"label": "C", "text": "Find alternative transportation"},
+        {"label": "D", "text": "Check the construction schedule"}
+      ],
+      "correct": "B",
+      "answer": "Staff should board at temporary stops along Maple Avenue, which is one block west. 正解：B。シャトル利用の中止や旅行延期は求められていません。",
+      "sourceRefs": ["pdf:task2:p086:q02"]
+    },
+    {
+      "passageId": "boutique_opening",
+      "prompt": "How can customers receive a free tote bag?",
+      "options": [
+        {"label": "A", "text": "By making a minimum purchase"},
+        {"label": "B", "text": "By buying select perfumes"},
+        {"label": "C", "text": "By going to the store early"},
+        {"label": "D", "text": "By contacting a store"}
+      ],
+      "correct": "C",
+      "answer": "The first 100 customers receive the tote bag, so arriving early is what matters. 正解：C。購入額や特定商品の購入は条件として示されていません。",
+      "sourceRefs": ["pdf:task2:p087:q03"]
+    },
+    {
+      "passageId": "boutique_opening",
+      "prompt": "What discount is available on shirts?",
+      "options": [
+        {"label": "A", "text": "10 percent"},
+        {"label": "B", "text": "20 percent"},
+        {"label": "C", "text": "25 percent"},
+        {"label": "D", "text": "30 percent"}
+      ],
+      "correct": "C",
+      "answer": "Shirts are clothing items, and clothing is discounted by 25 percent. 正解：C。10–20 percentはアクセサリー、30 percentは香水です。",
+      "sourceRefs": ["pdf:task2:p087:q04"]
+    },
+    {
+      "passageId": "fitness_move",
+      "prompt": "What will change after the move?",
+      "options": [
+        {"label": "A", "text": "The cost of membership"},
+        {"label": "B", "text": "The facility’s size"},
+        {"label": "C", "text": "The opening times"},
+        {"label": "D", "text": "The facility staff"}
+      ],
+      "correct": "B",
+      "answer": "City Fitness says it is moving to a larger location. 正解：B。料金、営業時間、スタッフの変更は告知されていません。",
+      "sourceRefs": ["pdf:task2:p088:q05"]
+    },
+    {
+      "passageId": "fitness_move",
+      "prompt": "What can be inferred about members?",
+      "options": [
+        {"label": "A", "text": "They do not have to reregister."},
+        {"label": "B", "text": "They should respond by October 1."},
+        {"label": "C", "text": "They can choose from multiple locations."},
+        {"label": "D", "text": "They must call a number."}
+      ],
+      "correct": "A",
+      "answer": "Memberships transfer automatically to the new location, so members need not register again. 正解：A。電話は質問がある場合だけで、複数店舗を選べるとは書かれていません。",
+      "sourceRefs": ["pdf:task2:p088:q06"]
+    },
+    {
+      "passageId": "rental_registration",
+      "prompt": "What is the main purpose of the notice?",
+      "options": [
+        {"label": "A", "text": "To announce an increase in taxes for short-term rentals"},
+        {"label": "B", "text": "To explain parking regulations for accommodations"},
+        {"label": "C", "text": "To provide guidance on a required procedure"},
+        {"label": "D", "text": "To promote recommended accommodations"}
+      ],
+      "correct": "C",
+      "answer": "The notice tells hosts that registration is mandatory and explains the deadline, fee, documents, and submission methods. 正解：C。税金や推奨宿泊施設の告知ではありません。",
+      "sourceRefs": ["pdf:task2:p089:q07"]
+    },
+    {
+      "passageId": "rental_registration",
+      "prompt": "What can be concluded about online registration?",
+      "options": [
+        {"label": "A", "text": "It requires fewer documents than in-person registration."},
+        {"label": "B", "text": "It does not require manual record entry by staff."},
+        {"label": "C", "text": "It allows more time to submit after the November 1st deadline."},
+        {"label": "D", "text": "It is free of charge for all applicants."}
+      ],
+      "correct": "B",
+      "answer": "The notice attributes the longer in-person processing time to staff manually entering records, distinguishing it from online registration. 正解：B。両方式は同じ書類と75ドルの手数料が必要で、締切も共通です。",
+      "sourceRefs": ["pdf:task2:p089:q08"]
+    },
+    {
+      "passageId": "rental_registration",
+      "prompt": "Which of the following is NOT required of hosts?",
+      "options": [
+        {"label": "A", "text": "Property tax bill"},
+        {"label": "B", "text": "Floor plan"},
+        {"label": "C", "text": "Proof of insurance"},
+        {"label": "D", "text": "Photo ID"}
+      ],
+      "correct": "C",
+      "answer": "The required list includes a photo ID, property tax bill, parking plan, and floor plan, but not proof of insurance. 正解：C。",
+      "sourceRefs": ["pdf:task2:p089:q09"]
+    },
+    {
+      "passageId": "icu_visitors",
+      "prompt": "What is the main purpose of the notice?",
+      "options": [
+        {"label": "A", "text": "To advertise the facilities at the ICU"},
+        {"label": "B", "text": "To provide guidelines to ensure patient safety and recovery"},
+        {"label": "C", "text": "To promote volunteer opportunities in the ICU"},
+        {"label": "D", "text": "To explain how to use the medical equipment"}
+      ],
+      "correct": "B",
+      "answer": "The notice explicitly says cooperation with the listed visitor rules is vital for patient recovery and safety. 正解：B。施設広告や医療機器の説明ではありません。",
+      "sourceRefs": ["pdf:task2:p090:q10"]
+    },
+    {
+      "passageId": "icu_visitors",
+      "prompt": "Why does the notice mention an antiseptic gel?",
+      "options": [
+        {"label": "A", "text": "To give an example of a drug used on critical patients"},
+        {"label": "B", "text": "To specify an item prohibited in the intensive care unit"},
+        {"label": "C", "text": "To ask visitors to bring their own hand sanitizer"},
+        {"label": "D", "text": "To instruct visitors on how to clean their hands"}
+      ],
+      "correct": "D",
+      "answer": "Visitors are told to sanitize their hands before entering and after leaving by using the provided gel. 正解：D。持参する物や患者用の薬ではありません。",
+      "sourceRefs": ["pdf:task2:p090:q11"]
+    },
+    {
+      "passageId": "icu_visitors",
+      "prompt": "What can the visitors bring to the Intensive Care Unit?",
+      "options": [
+        {"label": "A", "text": "A backpack"},
+        {"label": "B", "text": "A cup of coffee"},
+        {"label": "C", "text": "A mobile phone"},
+        {"label": "D", "text": "A large coat"}
+      ],
+      "correct": "C",
+      "answer": "Mobile phones may be brought in but must be silenced or turned off. 正解：C。飲食物は禁止され、大きなコートやバッグは外に置く必要があります。",
+      "sourceRefs": ["pdf:task2:p090:q12"]
+    },
+    {
+      "passageId": "vehicle_charging",
+      "prompt": "What is the main purpose of the notice?",
+      "options": [
+        {"label": "A", "text": "To remind residents of a regulation"},
+        {"label": "B", "text": "To announce the opening of new charging stations"},
+        {"label": "C", "text": "To explain how to use fire-safety equipment"},
+        {"label": "D", "text": "To inform residents about lease renewal procedures"}
+      ],
+      "correct": "A",
+      "answer": "Management reminds residents that personal electric vehicles may be charged only at designated stations. 正解：A。新しい充電所は将来追加予定であり、中心目的は既存規則の再周知です。",
+      "sourceRefs": ["pdf:task2:p091:q13"]
+    },
+    {
+      "passageId": "vehicle_charging",
+      "prompt": "What could happen if someone repeatedly charges an electric vehicle in an unauthorized area?",
+      "options": [
+        {"label": "A", "text": "They might be fined."},
+        {"label": "B", "text": "They might receive a written warning."},
+        {"label": "C", "text": "Their device might be confiscated."},
+        {"label": "D", "text": "Their lease might not be renewed."}
+      ],
+      "correct": "D",
+      "answer": "Repeated violations can lead to lease-based disciplinary action, and management cites a recent refusal to renew a lease for this issue. 正解：D。書面警告は最初の違反への対応です。",
+      "sourceRefs": ["pdf:task2:p091:q14"]
+    },
+    {
+      "passageId": "vehicle_charging",
+      "prompt": "What can be inferred about the management office?",
+      "options": [
+        {"label": "A", "text": "It plans to build more charging stations soon."},
+        {"label": "B", "text": "It has heard complaints about electric vehicle charging."},
+        {"label": "C", "text": "It is located near the main gate."},
+        {"label": "D", "text": "It was recently damaged in a fire."}
+      ],
+      "correct": "A",
+      "answer": "Management states that more designated charging locations will be added in the near future. 正解：A。本文は安全上の懸念に触れますが苦情や実際の火災は示さず、管理事務所と正門は別々の充電所の目印です。",
+      "sourceRefs": ["pdf:task2:p091:q15"]
+    }
+  ]
+}
