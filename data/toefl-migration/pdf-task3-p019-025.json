@@ -1,0 +1,140 @@
+{
+  "id": "pdf-task3-p019-025",
+  "title": "Academic Reading · 詳細情報を読み取る",
+  "task": 3,
+  "date": "2026-09-25T13:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 3 · PDF 19–25ページ／冊子219–225ページ · Detail Questions Example・Practice 01–04・Test 01–10",
+  "verificationNote": "PDF原本画像で本文・段落・設問・選択肢を照合しました。ExampleのBは冊子に印刷された正答です。ほかは本文根拠に基づく編集解答で、出版社の巻末解答ページ（457ページ）は未提供・未照合です。",
+  "passages": {
+    "migration": "Human migration has shaped societies across the globe for thousands of years. Throughout history, various forces—such as wars, famines, economic conditions, and political changes—have prompted waves of people to relocate, shaping the cultural landscapes of entire continents. The story of human migration is a testament to human adaptability and the constant search for opportunity and security.\n\nEarly migrations occurred as nomadic groups moved in search of food and favorable climates, spreading human populations across distant regions. The Silk Road facilitated movement between East and West, allowing not only goods but also languages, religions, and ideas to travel vast distances. In the nineteenth and twentieth centuries, industrialization and urban growth prompted millions to seek new lives in rapidly expanding cities. Migration continues today, driven by factors such as globalization and environmental changes.\n\nWhile migration can foster cultural exchange and diversity, it also presents challenges, such as adaptation and integration, for both migrants and host communities. Modern societies rely on effective policies to manage population movement, safeguard rights, and promote social cohesion. Understanding the causes and effects of migration is essential for addressing contemporary issues related to displacement and identity.",
+    "anthropomorphism": "Anthropomorphism is the attribution of human qualities to non-human entities. It is rooted in our evolutionary history and helps us make sense of the world, but we must be cautious when applying it to other species. Drawing conclusions about the behavior of non-human animals feels natural because we are animals too. Like them, we seek food and warmth and care for our young. However, non-human animals have evolved under different conditions, and assuming they have feelings or motives identical to ours can lead to misunderstanding or even harm.\n\nFor instance, visitors at a zoo might worry that a tiger living alone in its enclosure is lonely, because that is how they themselves would feel in such a situation. In reality, tigers are territorial, and introducing another tiger into the enclosure would cause stress to the animal.\n\nResearchers who study animals must be wary of anthropomorphism, as it can bias their work. Chimpanzees, for example, often display what looks like a smile when they are distressed. If this expression is misinterpreted through a human lens, it could be mistaken for happiness instead.",
+    "mri": "Magnetic Resonance Imaging (MRI) is a non-invasive medical method used to create images of the inside of the body. During an MRI, the patient is placed within a strong magnetic field, which causes many of the hydrogen atoms in the body to temporarily align in a specific direction. Hydrogen atoms are ideal targets for scanning because the human body consists mainly of water and fat, which are rich in hydrogen.\n\nThe MRI machine emits short pulses of radio waves. These waves disrupt the protons at the center of the hydrogen atoms, forcing them out of their aligned state. When the radio waves stop, the protons return to their original position. During this process, they emit faint signals. The scanner captures these signals, which computers convert into detailed cross-sectional images.",
+    "presolar": "Presolar grains are tiny, solid particles ejected by dying stars over 4.6 billion years ago, before the Sun formed. They are older than anything on Earth.\n\nScientists first suspected the grains’ existence in the 1960s while studying the composition of ancient meteorites. They discovered elements whose high quantities did not match models of the solar system. Their suspicions were later confirmed in the 1980s when laboratory technology had sufficiently advanced. Researchers got a further boost in the 2010s when samples with high concentrations were obtained from nearby asteroids. Because asteroids float in space, they are less exposed to chemical processes that impact grain preservation.\n\nScientists have now cataloged thousands of grains and organized them into the Presolar Grain Database. Most of these are carbon-based materials such as diamonds, graphite, and more. They not only provide direct evidence of early stars but also reveal clues about the evolution of our solar system.",
+    "tcks": "Third culture kids (TCKs) are children who spend a significant part of their formative years in a culture different from that of their parents. The reason is often an international relocation related to their parents’ jobs. TCKs grow up balancing the values and customs of their parents’ culture (the first culture) with those of the host country (the second culture) to create a unique third culture.\n\nGrowing up as a TCK offers several advantages. These children typically develop strong cross-cultural communication skills, global awareness, and flexibility in unfamiliar environments. They tend to be open-minded, making it easier to build friendships across diverse communities.\n\nHowever, the TCK experience also has its challenges. It can disrupt social networks and leave these children feeling rootless and unsure of their cultural identity. Some TCKs might feel permanently unsettled and find it hard to define where they are from.",
+    "lactose": "Lactose intolerance is a condition in which adults have difficulty digesting lactose, the main sugar in milk. The reason for this issue is that, for most mammals after the juvenile stage, the body produces much less of an enzyme called lactase, which breaks down lactose in the digestive system. When there is not enough lactase, lactose passes into the colon undigested, where it interacts with bacteria and leads to symptoms such as bloating and diarrhea. While found throughout the world, lactose intolerance is prominent among East Asians, Africans, and Indigenous populations in the Americas and Australia.\n\nIf lactose intolerance is the norm, how did some people gain the ability to digest lactose into adulthood? It is the result of evolutionary history and cultural dietary practices. Over many generations, certain groups, especially people of Northern European descent, developed a genetic adaptation allowing them to continue lactase production in response to their longstanding consumption of dairy products. Interestingly, Mongolian herders exhibit very few symptoms of lactose intolerance despite lacking the genetic mutation for lactase persistence. This phenomenon is attributed to their consumption of a diet rich in fermented dairy products, which facilitate lactose digestion by supplying probiotic microbes.",
+    "projection": "Psychological projection is a protective response through which individuals attribute their own undesirable thoughts or feelings to others. Projection allows a person to protect their self-image by avoiding inner conflicts and shifting unwanted emotions outward. In psychological theory, this process is seen as an unconscious strategy, not a deliberate action.\n\nSuppose an employee is experiencing intense anxiety about their job performance. Instead of acknowledging their own personal insecurity and seeking help, the employee insists that it is the colleagues who feel anxious and then judges them critically. This pattern of assigning anxiety to others instead of recognizing it internally is common. And it may persist until the employee receives feedback or gains insight into their behavior. Without intervention, such a projection can escalate workplace tensions and affect team dynamics.\n\nProjection can delay personal growth. By externalizing internal conflict, people may be less likely to resolve their own emotional issues, which can lead to communication difficulties and tense relationships with others. Awareness and recognition of projection are considered central to therapeutic approaches, helping individuals develop healthier coping strategies and improve social interactions."
+  },
+  "questions": [
+    {
+      "passageId": "migration",
+      "prompt": "What change did industrialization bring during the nineteenth and twentieth centuries?",
+      "options": [{"label":"A","text":"Decline in the quality of urban life"},{"label":"B","text":"Shift of population to urban areas"},{"label":"C","text":"Increase in employment opportunities"},{"label":"D","text":"Exchange of languages and religions"}],
+      "correct": "B",
+      "answer": "正解：B。第2段落はindustrialization and urban growthにより何百万人も拡大する都市に新生活を求めたと明記します。Aの生活の質の低下、Cの雇用増は述べられず、DはSilk Roadの説明です。shift of populationは人口の移動です。",
+      "sourceRefs": ["pdf:task3:p019:qexample-detail"]
+    },
+    {
+      "passageId": "anthropomorphism",
+      "prompt": "What is a common misunderstanding about non-human animals?",
+      "options": [{"label":"A","text":"They take care of their young."},{"label":"B","text":"They prefer solitary lives."},{"label":"C","text":"They prioritize emotional needs over physical ones."},{"label":"D","text":"They experience the same emotions as humans."}],
+      "correct": "D",
+      "answer": "正解：D。第1段落は動物にも人と同じfeelings or motivesがあると想定すると誤解や害を生むと警告します。Aは共通の行動、Bはトラの例だけ、Cは記述がありません。anthropomorphismは擬人化です。",
+      "sourceRefs": ["pdf:task3:p020:q01"]
+    },
+    {
+      "passageId": "mri",
+      "prompt": "What happens when the radio waves in an MRI scan stop?",
+      "options": [{"label":"A","text":"Protons disappear from the magnetic field."},{"label":"B","text":"The magnetic field starts to generate current."},{"label":"C","text":"Protons revert to their prior, aligned state."},{"label":"D","text":"The scanner produces cross-sectional images."}],
+      "correct": "C",
+      "answer": "正解：C。第2段落でradio wavesが止まるとprotons return to their original positionと明記されています。Dの画像生成はその後に信号を捕捉・変換する段階で、A・Bは本文にありません。revertは元に戻るという意味です。",
+      "sourceRefs": ["pdf:task3:p020:q02"]
+    },
+    {
+      "passageId": "presolar",
+      "prompt": "What have scientists learned about presolar grains?",
+      "options": [{"label":"A","text":"They can be artificially recreated in a lab."},{"label":"B","text":"They mainly consist of carbon compounds."},{"label":"C","text":"They have properties with practical applications."},{"label":"D","text":"They are more common than other solar particles."}],
+      "correct": "B",
+      "answer": "正解：B。第3段落はMost of these are carbon-based materialsと述べます。Aは実験室で確認したことと人工再現を混同、Cの用途やDの相対的な豊富さは記載なし。carbon-basedは炭素を主成分とする、の意です。",
+      "sourceRefs": ["pdf:task3:p021:q03"]
+    },
+    {
+      "passageId": "tcks",
+      "prompt": "Which of the following is NOT mentioned as a challenge faced by TCKs in the passage?",
+      "options": [{"label":"A","text":"Losing social connections"},{"label":"B","text":"Struggling to determine their sense of cultural belonging"},{"label":"C","text":"Having difficulty with communication"},{"label":"D","text":"Experiencing a lingering sense of instability"}],
+      "correct": "C",
+      "answer": "正解：C。第2段落はcross-cultural communication skillsを長所として示します。第3段落はsocial networksの断絶、文化的identityの不確かさ、permanently unsettledという不安定感を課題としています。rootlessは帰属先がない感覚です。",
+      "sourceRefs": ["pdf:task3:p021:q04"]
+    },
+    {
+      "passageId": "lactose",
+      "prompt": "The word “adaptation” in the passage is closest in meaning to",
+      "options": [{"label":"A","text":"disease"},{"label":"B","text":"change"},{"label":"C","text":"composition"},{"label":"D","text":"reaction"}],
+      "correct": "B",
+      "answer": "正解：B。遺伝的なadaptationにより成人後もlactaseを作れるようになった、という文脈でchange（変化）が最も近いです。Aは病気、Cは組成、Dは反応です。",
+      "sourceRefs": ["pdf:task3:p023:q01"]
+    },
+    {
+      "passageId": "lactose",
+      "prompt": "What happens when there is not enough lactase?",
+      "options": [{"label":"A","text":"Lactose is absorbed in the stomach more easily."},{"label":"B","text":"Lactose is converted into protein by gut bacteria."},{"label":"C","text":"Lactose passes into the colon without being digested."},{"label":"D","text":"Lactose interacts with stomach acid to cause bloating."}],
+      "correct": "C",
+      "answer": "正解：C。第1段落のlactose passes into the colon undigestedを直接言い換えています。腸内細菌との相互作用はその後に起き、胃での吸収・胃酸との反応・タンパク質への変換は書かれていません。undigestedは未消化の意です。",
+      "sourceRefs": ["pdf:task3:p023:q02"]
+    },
+    {
+      "passageId": "lactose",
+      "prompt": "According to the passage, people of Northern European descent",
+      "options": [{"label":"A","text":"are more likely to suffer from bloating than diarrhea due to lactose"},{"label":"B","text":"normally continue to produce lactase as adults"},{"label":"C","text":"usually develop severe lactose intolerance symptoms"},{"label":"D","text":"tend to lose the ability to digest lactose after childhood"}],
+      "correct": "B",
+      "answer": "正解：B。第2段落はNorthern European descentの集団が成人後もlactase productionを継続できる遺伝的適応を発達させたと説明します。Aの症状比較やCの重症化はなく、Dは逆です。lactase persistenceは乳糖分解酵素を作り続ける性質です。",
+      "sourceRefs": ["pdf:task3:p023:q03"]
+    },
+    {
+      "passageId": "lactose",
+      "prompt": "Why does the author mention Mongolian herders?",
+      "options": [{"label":"A","text":"To introduce the historical origins of dairy consumption in Central Asia"},{"label":"B","text":"To argue that lactose intolerance is primarily determined by genetics across populations"},{"label":"C","text":"To highlight an exception where diet enables lactose digestion despite genetic limits"},{"label":"D","text":"To suggest that Asian populations generally avoid dairy products"}],
+      "correct": "C",
+      "answer": "正解：C。乳糖分解酵素を作り続ける遺伝子変異がなくても、発酵乳製品に含まれるprobiotic microbesの助けで症状が少ない例です。Aの起源やDの乳製品回避は述べず、Bの遺伝だけで決まるという主張をむしろ弱めます。fermentedは発酵した、です。",
+      "sourceRefs": ["pdf:task3:p023:q04"]
+    },
+    {
+      "passageId": "lactose",
+      "prompt": "What does the passage suggest about lactose intolerance?",
+      "options": [{"label":"A","text":"It can lead to serious health consequences."},{"label":"B","text":"It is caused by a failure in the colon’s function."},{"label":"C","text":"Its geographic distribution is extensive."},{"label":"D","text":"Its primary cause is the consumption of fermented products."}],
+      "correct": "C",
+      "answer": "正解：C。第1段落はfound throughout the worldとし、各地域の人口集団も例示します。Aの深刻な健康被害は書かれず、Bはlactase不足と取り違え、Dは発酵食品が消化を助ける説明と逆です。geographic distributionは地理的分布です。",
+      "sourceRefs": ["pdf:task3:p023:q05"]
+    },
+    {
+      "passageId": "projection",
+      "prompt": "The word “attribute” in the passage is closest in meaning to",
+      "options": [{"label":"A","text":"question"},{"label":"B","text":"ascribe"},{"label":"C","text":"reject"},{"label":"D","text":"express"}],
+      "correct": "B",
+      "answer": "正解：B。自分の望ましくない思考や感情を他者にattributeする、つまり他者のものだとみなす意味なのでascribeが最適です。Aは疑う、Cは拒む、Dは表すで、帰属させる意味になりません。",
+      "sourceRefs": ["pdf:task3:p025:q06"]
+    },
+    {
+      "passageId": "projection",
+      "prompt": "Why might a person use projection?",
+      "options": [{"label":"A","text":"To control their environment"},{"label":"B","text":"To prevent confrontation with others"},{"label":"C","text":"To gain approval from colleagues"},{"label":"D","text":"To avoid facing inner conflicts"}],
+      "correct": "D",
+      "answer": "正解：D。第1段落にprotect their self-image by avoiding inner conflictsと明記されています。環境の制御、他者との対立回避、同僚の承認は動機として挙げられません。projectionは心理的な投影です。",
+      "sourceRefs": ["pdf:task3:p025:q07"]
+    },
+    {
+      "passageId": "projection",
+      "prompt": "Why does the author mention the employee who insists colleagues are anxious?",
+      "options": [{"label":"A","text":"To show that clear communication can resolve misunderstandings"},{"label":"B","text":"To critique contemporary dynamics in workplaces"},{"label":"C","text":"To explain how projection operates in everyday situations"},{"label":"D","text":"To suggest that anxiety is common in professional settings"}],
+      "correct": "C",
+      "answer": "正解：C。自分の不安を認めず同僚の不安だと判断する社員は、投影の仕組みを具体化する例です。Aの解決法、Bの職場批判、Dの不安の有病率が主眼ではありません。insistは強く言い張る、の意です。",
+      "sourceRefs": ["pdf:task3:p025:q08"]
+    },
+    {
+      "passageId": "projection",
+      "prompt": "What does the passage suggest about therapeutic approaches to projection?",
+      "options": [{"label":"A","text":"They focus on increasing awareness of projection."},{"label":"B","text":"They encourage people to project only difficult emotions."},{"label":"C","text":"They help people project their emotions in a controlled setting."},{"label":"D","text":"They prioritize analyzing others’ feelings over self-reflection."}],
+      "correct": "A",
+      "answer": "正解：A。最終段落はAwareness and recognition of projection are considered central to therapeutic approachesと記します。B・Cは投影を促す誤解、Dは自己認識より他者分析を優先する逆の方向です。self-reflectionは内省です。",
+      "sourceRefs": ["pdf:task3:p025:q09"]
+    },
+    {
+      "passageId": "projection",
+      "prompt": "What is one possible consequence of using projection?",
+      "options": [{"label":"A","text":"It may prevent people from resolving their own emotional problems."},{"label":"B","text":"It can cause people to become overly critical of their own behavior."},{"label":"C","text":"It leads people to aggressively attack the character of others."},{"label":"D","text":"It may reduce the individual’s ability to empathize with others."}],
+      "correct": "A",
+      "answer": "正解：A。最終段落はinternal conflictを外へ向けると自分のemotional issuesを解決しにくくなると述べます。Bは自己批判でなく他者への帰属、Cの攻撃性・Dの共感力低下は本文に明示されません。resolveは解決する、の意です。",
+      "sourceRefs": ["pdf:task3:p025:q10"]
+    }
+  ]
+}

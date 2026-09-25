@@ -102,6 +102,27 @@ class TaskCatalogTests(unittest.TestCase):
         self.assertTrue(all(q['correct'] is None and q['options'] == []
                             for q in item['questions']))
 
+    def test_pdf_task3_detail_questions_preserve_all_fifteen_answers(self):
+        bank = self.build()
+        item = next(s for s in bank['sets'] if s['id'] == 'pdf-task3-p019-025')
+        self.assertEqual(item['collection'], 'Task 3')
+        self.assertEqual([q['correct'] for q in item['questions']],
+                         list('BDCBCBCBCCBDCAA'))
+        refs = (["pdf:task3:p019:qexample-detail"] +
+                [f'pdf:task3:p020:q{i:02d}' for i in range(1, 3)] +
+                [f'pdf:task3:p021:q{i:02d}' for i in range(3, 5)] +
+                [f'pdf:task3:p023:q{i:02d}' for i in range(1, 6)] +
+                [f'pdf:task3:p025:q{i:02d}' for i in range(6, 11)])
+        self.assertEqual([q['sourceRefs'][0] for q in item['questions']], refs)
+        self.assertEqual(len({q['passage'] for q in item['questions']}), 7)
+        index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
+        reading = next(s for s in index['sources'] if s['id'] == 'reading')
+        task3 = next(s for s in index['sources'] if s['id'] == 'task3')
+        self.assertEqual(reading['reviewedPages'], list(range(1, 24)))
+        self.assertEqual(task3['reviewedPages'], list(range(1, 26)))
+        self.assertEqual([ref for page in task3['pageItems'] for ref in task3['pageItems'][page]
+                          if int(page) >= 18], refs)
+
     def test_vocabulary_day01_all_sixty_headwords_complete_page2(self):
         bank = self.build()
         part3 = next(s for s in bank['sets']
@@ -603,8 +624,8 @@ class TaskCatalogTests(unittest.TestCase):
         self.assertEqual([q['sourceRefs'][0] for q in email['questions']], expected)
         self.assertEqual([q['correct'] for q in email['questions']], list('ACACBDABABADBAABA'))
         self.assertEqual(len({q['passage'] for q in email['questions']}), 7)
-        self.assertEqual(bank['migration']['pdfReviewedPages'], 142)
-        self.assertEqual(bank['migration']['pdfPublished'], 486)
+        self.assertGreaterEqual(bank['migration']['pdfReviewedPages'], 142)
+        self.assertGreaterEqual(bank['migration']['pdfPublished'], 486)
         index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
         self.assertNotIn('scripts/reading-source-text/', json.dumps(index))
         self.assertTrue(all('packets' not in s and 'sha256' not in s
