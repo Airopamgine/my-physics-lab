@@ -146,9 +146,32 @@ class TaskCatalogTests(unittest.TestCase):
         reading = next(s for s in index['sources'] if s['id'] == 'reading')
         task3 = next(s for s in index['sources'] if s['id'] == 'task3')
         self.assertEqual(reading['reviewedPages'], list(range(1, 39)))
-        self.assertEqual(task3['reviewedPages'], list(range(1, 26)))
+        self.assertEqual(task3['reviewedPages'][:25], list(range(1, 26)))
         self.assertEqual([ref for page in task3['pageItems'] for ref in task3['pageItems'][page]
-                          if int(page) >= 18], refs)
+                          if 18 <= int(page) <= 25], refs)
+
+    def test_pdf_task3_detail_test_preserves_questions_eleven_through_twenty(self):
+        bank = self.build()
+        item = next(s for s in bank['sets'] if s['id'] == 'pdf-task3-p026-029')
+        refs = ([f'pdf:task3:p027:q{i:02d}' for i in range(11, 16)] +
+                [f'pdf:task3:p029:q{i:02d}' for i in range(16, 21)])
+        self.assertEqual(item['collection'], 'Task 3')
+        self.assertEqual(len(item['questions']), 10)
+        self.assertEqual([q['sourceRefs'][0] for q in item['questions']], refs)
+        self.assertEqual([q['correct'] for q in item['questions']],
+                         list('BCCBDCCCBC'))
+        self.assertEqual(len({q['passage'] for q in item['questions']}), 2)
+        self.assertTrue(all(len(q['passage'].split('\n\n')) == 3
+                            for q in item['questions']))
+        self.assertTrue(all(len(q['options']) == 4 for q in item['questions']))
+
+        index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
+        source = next(s for s in index['sources'] if s['id'] == 'task3')
+        self.assertEqual(source['reviewedPages'], list(range(1, 30)))
+        self.assertEqual(source['pageItems']['26'], [])
+        self.assertEqual(source['pageItems']['27'], refs[:5])
+        self.assertEqual(source['pageItems']['28'], [])
+        self.assertEqual(source['pageItems']['29'], refs[5:])
 
     def test_reading_diagnostic_preserves_all_twenty_answers(self):
         bank = self.build()
