@@ -29,7 +29,22 @@
         20,
         21,
         22,
-        23
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
       ],
       "pageItems": {
         "1": [],
@@ -54,7 +69,46 @@
         "20": [],
         "21": [],
         "22": [],
-        "23": []
+        "23": [],
+        "24": [],
+        "25": [],
+        "26": [],
+        "27": [],
+        "28": [],
+        "29": [],
+        "30": [],
+        "31": [],
+        "32": [
+          "pdf:reading:p032:q01-gap1",
+          "pdf:reading:p032:q02-gap1",
+          "pdf:reading:p032:q03-gap1",
+          "pdf:reading:p032:q04-gap1",
+          "pdf:reading:p032:q05-gap1",
+          "pdf:reading:p032:q06-gap1",
+          "pdf:reading:p032:q07-gap1",
+          "pdf:reading:p032:q08-gap1",
+          "pdf:reading:p032:q09-gap1",
+          "pdf:reading:p032:q10-gap1"
+        ],
+        "33": [
+          "pdf:reading:p033:q11",
+          "pdf:reading:p033:q12"
+        ],
+        "34": [],
+        "35": [
+          "pdf:reading:p035:q13",
+          "pdf:reading:p035:q14",
+          "pdf:reading:p035:q15"
+        ],
+        "36": [],
+        "37": [
+          "pdf:reading:p037:q16",
+          "pdf:reading:p037:q17",
+          "pdf:reading:p037:q18",
+          "pdf:reading:p037:q19",
+          "pdf:reading:p037:q20"
+        ],
+        "38": []
       }
     },
     {
@@ -973,7 +1027,7 @@
       }
     }
   ],
-  "lastSource": "vocabulary",
+  "lastSource": "reading",
   "blockedItems": [],
   "note": "Public progress manifest only: source labels, page counts, reviewed pages, source references and answer-key availability. Private PDFs, OCR cache paths, and file hashes are excluded. Exact PDF question totals require review; publisher answer pages have not been supplied."
 }
