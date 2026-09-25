@@ -118,10 +118,45 @@ class TaskCatalogTests(unittest.TestCase):
         index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
         reading = next(s for s in index['sources'] if s['id'] == 'reading')
         task3 = next(s for s in index['sources'] if s['id'] == 'task3')
-        self.assertEqual(reading['reviewedPages'], list(range(1, 24)))
+        self.assertEqual(reading['reviewedPages'], list(range(1, 39)))
         self.assertEqual(task3['reviewedPages'], list(range(1, 26)))
         self.assertEqual([ref for page in task3['pageItems'] for ref in task3['pageItems'][page]
                           if int(page) >= 18], refs)
+
+    def test_reading_diagnostic_preserves_all_twenty_answers(self):
+        bank = self.build()
+        sets = {item['id']: item for item in bank['sets']}
+        task1 = sets['pdf-reading-diagnostic-task1-p032']
+        task2 = sets['pdf-reading-diagnostic-task2-p033-035']
+        task3 = sets['pdf-reading-diagnostic-task3-p036-037']
+
+        self.assertEqual([task1['collection'], task2['collection'], task3['collection']],
+                         ['Task 1', 'Task 2', 'Task 3'])
+        expected_words = [
+            ('pes', 'types'), ('oss', 'across'), ('ions', 'regions'),
+            ('rences', 'differences'), ('nmental', 'environmental'),
+            ('ese', 'These'), ('n', 'in'), ('uence', 'influence'),
+            ('ation', 'vegetation'), ('ch', 'each')]
+        self.assertEqual([q['acceptedAnswers'] for q in task1['questions']],
+                         [list(pair) for pair in expected_words])
+        self.assertEqual([q['correct'] for q in task2['questions']], list('CBACD'))
+        self.assertEqual([q['correct'] for q in task3['questions']], list('CBDCA'))
+
+        expected_refs = [f'pdf:reading:p032:q{i:02d}-gap1' for i in range(1, 11)]
+        expected_refs += [f'pdf:reading:p033:q{i}' for i in range(11, 13)]
+        expected_refs += [f'pdf:reading:p035:q{i}' for i in range(13, 16)]
+        expected_refs += [f'pdf:reading:p037:q{i}' for i in range(16, 21)]
+        actual_refs = [q['sourceRefs'][0]
+                       for item in (task1, task2, task3) for q in item['questions']]
+        self.assertEqual(actual_refs, expected_refs)
+
+        index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
+        source = next(s for s in index['sources'] if s['id'] == 'reading')
+        self.assertEqual(source['reviewedPages'], list(range(1, 39)))
+        indexed_refs = [ref for page in source['pageItems'].values() for ref in page]
+        self.assertEqual(indexed_refs, expected_refs)
+        self.assertTrue(all(source['pageItems'][str(page)] == []
+                            for page in list(range(24, 32)) + [34, 36, 38]))
 
     def test_vocabulary_day01_all_sixty_headwords_complete_page2(self):
         bank = self.build()

@@ -1,0 +1,79 @@
+{
+  "id": "pdf-reading-diagnostic-task3-p036-037",
+  "title": "Diagnostic Test · Cultural Placemaking",
+  "task": 3,
+  "date": "2026-09-25T17:02:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Reading · PDF 36–37ページ／冊子26–27ページ · Diagnostic Test 問16–20",
+  "verificationNote": "Editorial answers（編集・確認した解答）。PDF原本画像で本文、段落、設問、選択肢、設問順を照合し、本文根拠に基づいて正答を作成しました。出版社の解答ページ（402ページ）は未提供・未照合です。",
+  "passages": {
+    "placemaking": "Cultural Placemaking in Urban Environments\n\nCultural placemaking, an emerging approach in urban planning, refers to the practice of incorporating arts and cultural activities to transform public spaces. By integrating cultural expressions into existing environments, successful cultural placemaking can foster community engagement and cultural exchange.\n\nResearch indicates that a successful cultural placemaking initiative typically involves collaborative partnerships between artists, residents, and local governments. For example, Milwaukee’s Beerline Trail project transformed an abandoned railway corridor into a vibrant public space with sculptures, community tables, lighting, and performance areas—all co-designed with residents. The project is regarded as a representative success story of inclusive urban space regeneration. However, significant challenges remain. One of the most pressing concerns is the displacement of original residents, which often occurs when new investments and more affluent populations enter the area.\n\nNevertheless, cultural placemaking can pursue a balance between artistic innovation and community preservation. Its long-term sustainability depends on maintaining that balance. In Boston’s Dudley Square, the Dudley Street Neighborhood Initiative (DSNI) combined placemaking and affordable housing strategies. By creating inexpensive homes in a formerly neglected area, the initiative stabilized the neighborhood and helped prevent displacement while also creating spaces where diverse populations could develop shared ownership and collective identity."
+  },
+  "questions": [
+    {
+      "passageId": "placemaking",
+      "prompt": "The word “engagement” in the passage is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "identity"},
+        {"label": "B", "text": "creativity"},
+        {"label": "C", "text": "participation"},
+        {"label": "D", "text": "appointment"}
+      ],
+      "correct": "C",
+      "answer": "Community engagement means active community participation. 正解：C。identityはアイデンティティ、creativityは創造性、appointmentは約束・任命で、この文脈の住民参加とは異なります。fosterは『促進する』です。",
+      "sourceRefs": ["pdf:reading:p037:q16"]
+    },
+    {
+      "passageId": "placemaking",
+      "prompt": "What does the passage suggest about Milwaukee’s Beerline Trail project?",
+      "options": [
+        {"label": "A", "text": "It prevented residents from intervening in the design process."},
+        {"label": "B", "text": "It is an example of successful community collaboration."},
+        {"label": "C", "text": "It primarily aimed to construct a new railway corridor."},
+        {"label": "D", "text": "It only utilized the work of residents."}
+      ],
+      "correct": "B",
+      "answer": "The project was co-designed with residents and is described as a representative success story. 正解：B。住民の関与を妨げたのではなく促し、廃線跡を公共空間へ変えました。collaborative partnershipは『協働関係』です。",
+      "sourceRefs": ["pdf:reading:p037:q17"]
+    },
+    {
+      "passageId": "placemaking",
+      "prompt": "What does the passage indicate about cultural placemaking?",
+      "options": [
+        {"label": "A", "text": "It is an initiative primarily directed by government agencies."},
+        {"label": "B", "text": "It features artistic contributions solely from local artists."},
+        {"label": "C", "text": "It aims to improve the artistic appreciation of the local population."},
+        {"label": "D", "text": "It can cause the displacement of the area’s original residents."}
+      ],
+      "correct": "D",
+      "answer": "The second paragraph identifies displacement of original residents as a pressing concern. 正解：D。活動は行政だけでも地元芸術家だけでもなく、芸術鑑賞力の向上が主目的とも書かれていません。displacementは『立ち退き・移住を余儀なくされること』です。",
+      "sourceRefs": ["pdf:reading:p037:q18"]
+    },
+    {
+      "passageId": "placemaking",
+      "prompt": "What is the relationship between paragraphs 2 and 3?",
+      "options": [
+        {"label": "A", "text": "Paragraph 3 provides evidence supporting the idea described in paragraph 2."},
+        {"label": "B", "text": "Paragraph 3 extends the discussion of challenges introduced in paragraph 2."},
+        {"label": "C", "text": "Paragraph 3 proposes a solution to the problems presented in paragraph 2."},
+        {"label": "D", "text": "Paragraph 3 examines the long-term effects of the concept introduced in paragraph 2."}
+      ],
+      "correct": "C",
+      "answer": "Paragraph 2 raises displacement as a problem, while paragraph 3 explains how affordable housing and community preservation can counter it. 正解：C。第3段落は問題を単に追加するのではなく、均衡を保つ解決策と実例を示します。preservationは『保全』です。",
+      "sourceRefs": ["pdf:reading:p037:q19"]
+    },
+    {
+      "passageId": "placemaking",
+      "prompt": "Why does the author mention the Dudley Street Neighborhood Initiative?",
+      "options": [
+        {"label": "A", "text": "To illustrate how the inclusion of original residents can be ensured"},
+        {"label": "B", "text": "To criticize traditional approaches to urban design"},
+        {"label": "C", "text": "To demonstrate the financial benefits of cultural placemaking"},
+        {"label": "D", "text": "To highlight the importance of government funding"}
+      ],
+      "correct": "A",
+      "answer": "DSNI combined placemaking with affordable housing, stabilizing the neighborhood and helping prevent displacement. 正解：A。元から住む人々を地域に含め続ける方法の実例です。伝統的設計への批判、収益、政府資金が焦点ではありません。affordable housingは『手頃な価格の住宅』です。",
+      "sourceRefs": ["pdf:reading:p037:q20"]
+    }
+  ]
+}

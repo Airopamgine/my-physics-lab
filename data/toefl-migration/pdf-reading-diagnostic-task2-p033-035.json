@@ -1,0 +1,80 @@
+{
+  "id": "pdf-reading-diagnostic-task2-p033-035",
+  "title": "Diagnostic Test · Museum Membership and Wellness Workshop",
+  "task": 2,
+  "date": "2026-09-25T17:01:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Reading · PDF 33–35ページ／冊子23–25ページ · Diagnostic Test 問11–15",
+  "verificationNote": "Editorial answers（編集・確認した解答）。PDF原本画像で文書、設問、選択肢、設問順を照合し、本文の明示情報と文脈に基づいて正答を作成しました。出版社の解答ページ（402ページ）は未提供・未照合です。",
+  "passages": {
+    "museum": "Date: February 20\nSubject: City Museum Membership\n\nDear Ms. Miller,\n\nAs your City Museum annual membership is about to expire, please renew it by March 31 to keep your benefits. This year, members will receive a special exhibition invitation. A 15% discount is available exclusively on our recently released mobile application, so we recommend that you download it to take advantage of this special offer.\n\nSincerely,\nAva Mitchell",
+    "wellness": "Subject: Wellness Workshop Series\n\nDear Ms. Johnson,\n\nWe’re pleased to extend an invitation to our Comprehensive Wellness Workshop Series, taking place from March 12 to 14 at the Grand Convention Center.\n\nThis year’s focus is “Nutrition, Fitness, and Mindfulness Integration.” The event will feature a keynote address from esteemed nutritionist Dr. Sarah Williams, alongside four dynamic expert panel discussions and interactive, hands-on sessions. A full schedule will be shared shortly.\n\nWe’re also bringing back the popular Participant Showcase, where attendees can share their own healthy recipes or personal fitness routines. If you’d like to be a part of the showcase, please send a brief proposal to the organizing team by February 25.\n\nWarm regards,\nMichael Hughes"
+  },
+  "questions": [
+    {
+      "passageId": "museum",
+      "prompt": "What is the main purpose of the email?",
+      "options": [
+        {"label": "A", "text": "To announce the renewal of a museum program"},
+        {"label": "B", "text": "To invite a member to a special event"},
+        {"label": "C", "text": "To provide a reminder about continuing a museum membership"},
+        {"label": "D", "text": "To advertise a curator job at the museum"}
+      ],
+      "correct": "C",
+      "answer": "The membership is about to expire, and Ms. Miller is asked to renew it by March 31. 正解：C。展示会の招待は会員特典の一つで、メール全体の目的ではありません。expireは『期限が切れる』、renewは『更新する』です。",
+      "sourceRefs": ["pdf:reading:p033:q11"]
+    },
+    {
+      "passageId": "museum",
+      "prompt": "What is Ms. Miller advised to do?",
+      "options": [
+        {"label": "A", "text": "Take advantage of her benefits"},
+        {"label": "B", "text": "Install a program on a device"},
+        {"label": "C", "text": "Visit the museum to see an exhibition"},
+        {"label": "D", "text": "Submit payment online"}
+      ],
+      "correct": "B",
+      "answer": "The email recommends downloading the museum’s mobile application to receive the special discount. 正解：B。download the applicationは端末へプログラムを導入することです。展示会訪問やオンライン支払いは勧められていません。exclusivelyは『限定で』です。",
+      "sourceRefs": ["pdf:reading:p033:q12"]
+    },
+    {
+      "passageId": "wellness",
+      "prompt": "What is the main purpose of the email?",
+      "options": [
+        {"label": "A", "text": "To invite Ms. Johnson to a wellness workshop"},
+        {"label": "B", "text": "To provide a schedule of upcoming wellness events"},
+        {"label": "C", "text": "To collect feedback from past participants"},
+        {"label": "D", "text": "To announce the winners of the Participant Showcase sessions"}
+      ],
+      "correct": "A",
+      "answer": "The opening sentence explicitly extends an invitation to the Comprehensive Wellness Workshop Series. 正解：A。日程の詳細は後日共有されるためBではなく、感想募集や受賞者発表もありません。extend an invitationは『招待する』です。",
+      "sourceRefs": ["pdf:reading:p035:q13"]
+    },
+    {
+      "passageId": "wellness",
+      "prompt": "Dr. Sarah Williams will",
+      "options": [
+        {"label": "A", "text": "moderate panel discussions"},
+        {"label": "B", "text": "teach hands-on workshops"},
+        {"label": "C", "text": "deliver the main presentation on wellness"},
+        {"label": "D", "text": "judge the Participant Showcase submissions"}
+      ],
+      "correct": "C",
+      "answer": "Dr. Williams will give the keynote address, the event’s principal presentation. 正解：C。panel discussionsとhands-on sessionsは併催内容ですが、彼女が司会・指導するとは書かれていません。keynote addressは『基調講演』です。",
+      "sourceRefs": ["pdf:reading:p035:q14"]
+    },
+    {
+      "passageId": "wellness",
+      "prompt": "What can be inferred about the Participant Showcase sessions?",
+      "options": [
+        {"label": "A", "text": "They will be held on February 25."},
+        {"label": "B", "text": "They are exclusively for nutrition experts."},
+        {"label": "C", "text": "They require payment of an additional fee."},
+        {"label": "D", "text": "They have been offered in previous workshops."}
+      ],
+      "correct": "D",
+      "answer": "The phrase “bringing back” shows that the Participant Showcase was offered before. 正解：D。February 25は提案の提出期限で、開催日ではありません。参加者がレシピや運動法を共有でき、専門家限定や追加料金の記載もありません。",
+      "sourceRefs": ["pdf:reading:p035:q15"]
+    }
+  ]
+}

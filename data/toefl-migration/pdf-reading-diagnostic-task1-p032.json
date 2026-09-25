@@ -1,0 +1,94 @@
+{
+  "id": "pdf-reading-diagnostic-task1-p032",
+  "title": "Diagnostic Test · Soil Geography",
+  "task": 1,
+  "date": "2026-09-25T17:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Reading · PDF 32ページ／冊子22ページ · Diagnostic Test 問01–10",
+  "verificationNote": "Editorial answers（編集・確認した解答）。PDF原本画像で本文、表示済み文字、空欄数を照合し、文法・語法・文脈から各語を確定しました。出版社の解答ページ（402ページ）は未提供・未照合です。10空欄をすべて提出するまで正答は表示されません。",
+  "passages": {
+    "soil": "Soil is an often-overlooked natural resource despite being one of the most essential since it forms the foundation of terrestrial ecosystems. Soil ty___ vary acr___ different reg____ due to diffe______ in enviro_______ conditions. Th___ variations i_ turn infl_____ the veget_____ within ea__ distinct area, as well as the crops that are cultivated by farmers. Understanding soil geography helps planners to make informed decisions about sustainable land use, effective agricultural practices, and environmental conservation efforts around the world."
+  },
+  "questions": [
+    {
+      "passageId": "soil",
+      "prompt": "Question 01: complete ty___. Enter the missing letters.",
+      "prefix": "ty",
+      "word": "types",
+      "answer": "Types names different categories of soil. 正解：pes → types（種類）。主語Soil typesは複数で、後ろの動詞varyと一致します。terrestrial ecosystemsは『陸上生態系』です。",
+      "sourceRefs": ["pdf:reading:p032:q01-gap1"]
+    },
+    {
+      "passageId": "soil",
+      "prompt": "Question 02: complete acr___. Enter the missing letters.",
+      "prefix": "acr",
+      "word": "across",
+      "answer": "Across means throughout or from one part to another. 正解：oss → across（〜にわたって）。across different regionsで『異なる地域にわたって』となります。",
+      "sourceRefs": ["pdf:reading:p032:q02-gap1"]
+    },
+    {
+      "passageId": "soil",
+      "prompt": "Question 03: complete reg____. Enter the missing letters.",
+      "prefix": "reg",
+      "word": "regions",
+      "answer": "Regions are large geographic areas. 正解：ions → regions（地域）。differentの後で複数の地域を指し、across different regionsというまとまりを作ります。",
+      "sourceRefs": ["pdf:reading:p032:q03-gap1"]
+    },
+    {
+      "passageId": "soil",
+      "prompt": "Question 04: complete diffe______. Enter the missing letters.",
+      "prefix": "diffe",
+      "word": "differences",
+      "answer": "Differences explains why soil types vary. 正解：rences → differences（相違）。due toの後には名詞が必要で、複数の環境条件の相違を表します。",
+      "sourceRefs": ["pdf:reading:p032:q04-gap1"]
+    },
+    {
+      "passageId": "soil",
+      "prompt": "Question 05: complete enviro_______. Enter the missing letters.",
+      "prefix": "enviro",
+      "word": "environmental",
+      "answer": "Environmental modifies conditions. 正解：nmental → environmental（環境の）。environmental conditionsは土壌の違いを生む『環境条件』です。",
+      "sourceRefs": ["pdf:reading:p032:q05-gap1"]
+    },
+    {
+      "passageId": "soil",
+      "prompt": "Question 06: complete Th___. Enter the missing letters.",
+      "prefix": "Th",
+      "word": "These",
+      "answer": "These refers to the variations just described. 正解：ese → These（これらの）。複数名詞variationsを指すためThisではなくTheseです。",
+      "sourceRefs": ["pdf:reading:p032:q06-gap1"]
+    },
+    {
+      "passageId": "soil",
+      "prompt": "Question 07: complete i_. Enter the missing letters.",
+      "prefix": "i",
+      "word": "in",
+      "answer": "In completes the fixed phrase in turn. 正解：n → in。in turnは『その結果・今度は』という意味で、土壌の変化が植生へ影響する因果をつなぎます。",
+      "sourceRefs": ["pdf:reading:p032:q07-gap1"]
+    },
+    {
+      "passageId": "soil",
+      "prompt": "Question 08: complete infl_____. Enter the missing letters.",
+      "prefix": "infl",
+      "word": "influence",
+      "answer": "Influence means affect. 正解：uence → influence（影響を与える）。複数主語These variationsに対応する動詞の原形です。",
+      "sourceRefs": ["pdf:reading:p032:q08-gap1"]
+    },
+    {
+      "passageId": "soil",
+      "prompt": "Question 09: complete veget_____. Enter the missing letters.",
+      "prefix": "veget",
+      "word": "vegetation",
+      "answer": "Vegetation means the plants growing in an area. 正解：ation → vegetation（植生）。the vegetation within each distinct areaで、その地域に生育する植物全体を指します。",
+      "sourceRefs": ["pdf:reading:p032:q09-gap1"]
+    },
+    {
+      "passageId": "soil",
+      "prompt": "Question 10: complete ea__. Enter the missing letters.",
+      "prefix": "ea",
+      "word": "each",
+      "answer": "Each modifies the singular noun area. 正解：ch → each（それぞれの）。each distinct areaは『それぞれの異なる地域』という意味です。",
+      "sourceRefs": ["pdf:reading:p032:q10-gap1"]
+    }
+  ]
+}
