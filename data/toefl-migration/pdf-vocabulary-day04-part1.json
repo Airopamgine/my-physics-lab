@@ -1,0 +1,148 @@
+{
+  "id": "pdf-vocabulary-day04-part1",
+  "title": "Vocabulary Day 04 · Context Completion 1",
+  "task": 1,
+  "date": "2026-09-25T15:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 5ページ／冊子383ページ · Day 04先頭15語（全60語中）",
+  "verificationNote": "掲載語・綴り・掲載順をPDF原本画像で確認済みです。各語を文脈で判断できるmissing-letter exerciseへ編集しています。出版社の公式解答表は未収録ですが、正答は掲載headwordと一致します。未回答の語の正答は、その語を提出するまで表示されません。",
+  "passages": {
+    "adapt": "Desert plants ad___ to dry conditions by storing water and reducing evaporation.",
+    "architectural": "The cathedral is famous for its arch_________ design and stone arches.",
+    "authentic": "The museum verified that the signed letter was au_______ rather than a modern copy.",
+    "bias": "Researchers used blind scoring to reduce bi__ in the evaluation process.",
+    "boredom": "Long periods without meaningful activity can produce bor____ in isolated crews.",
+    "capture": "The telescope can cap____ faint light from galaxies billions of years away.",
+    "challenge": "Reducing aircraft noise without sacrificing performance remains a major chal_____.",
+    "community": "The coastal comm_____ organized volunteers to restore the damaged wetlands.",
+    "conclusion": "After reviewing all the measurements, the team reached the conc______ that the sensor was faulty.",
+    "cornerstone": "Accurate observation is a corner_____ of the scientific method.",
+    "criticism": "The proposal drew crit_____ because it did not explain how the project would be funded.",
+    "cultural": "Food traditions often reflect a region's cul_____ history and environment.",
+    "demise": "The dem___ of the local fish population followed years of excessive harvesting.",
+    "devastating": "The earthquake had a devas______ effect on roads, homes, and hospitals.",
+    "distinct": "The two minerals look similar, but their crystal structures are dis_____."
+  },
+  "questions": [
+    {
+      "passageId": "adapt",
+      "prompt": "Day 04 vocabulary: complete ad___. Enter the missing letters.",
+      "prefix": "ad",
+      "word": "adapt",
+      "answer": "Adapt means to change in order to suit new conditions. 正解：apt → adapt（適応する・適合させる）。砂漠の植物が乾燥した環境に合わせて性質を変える文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qadapt"]
+    },
+    {
+      "passageId": "architectural",
+      "prompt": "Day 04 vocabulary: complete arch_________. Enter the missing letters.",
+      "prefix": "arch",
+      "word": "architectural",
+      "answer": "Architectural means relating to the design and construction of buildings. 正解：itectural → architectural（建築の・建築学の）。大聖堂の設計と石造アーチを説明する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qarchitectural"]
+    },
+    {
+      "passageId": "authentic",
+      "prompt": "Day 04 vocabulary: complete au_______. Enter the missing letters.",
+      "prefix": "au",
+      "word": "authentic",
+      "answer": "Authentic means genuine and not copied or false. 正解：thentic → authentic（本物の・真正な）。署名入りの手紙が現代の複製ではないと確認した文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qauthentic"]
+    },
+    {
+      "passageId": "bias",
+      "prompt": "Day 04 vocabulary: complete bi__. Enter the missing letters.",
+      "prefix": "bi",
+      "word": "bias",
+      "answer": "Bias is an unfair preference or tendency that affects judgment. 正解：as → bias（偏見・偏り）。採点者の先入観が評価へ影響しないようblind scoringを使う文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qbias"]
+    },
+    {
+      "passageId": "boredom",
+      "prompt": "Day 04 vocabulary: complete bor____. Enter the missing letters.",
+      "prefix": "bor",
+      "word": "boredom",
+      "answer": "Boredom is the state of feeling uninterested because there is too little to do. 正解：edom → boredom（退屈・倦怠）。隔離された乗組員が活動不足で退屈する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qboredom"]
+    },
+    {
+      "passageId": "capture",
+      "prompt": "Day 04 vocabulary: complete cap____. Enter the missing letters.",
+      "prefix": "cap",
+      "word": "capture",
+      "answer": "Capture means to catch, collect, or record something. 正解：ture → capture（捉える・記録する）。望遠鏡が遠方銀河のかすかな光を捉える文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qcapture"]
+    },
+    {
+      "passageId": "challenge",
+      "prompt": "Day 04 vocabulary: complete chal_____. Enter the missing letters.",
+      "prefix": "chal",
+      "word": "challenge",
+      "answer": "A challenge is a difficult task or problem that requires effort to solve. 正解：lenge → challenge（課題・挑戦）。性能を保ちながら航空機騒音を減らす難題の文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qchallenge"]
+    },
+    {
+      "passageId": "community",
+      "prompt": "Day 04 vocabulary: complete comm_____. Enter the missing letters.",
+      "prefix": "comm",
+      "word": "community",
+      "answer": "A community is a group of people living in the same area or sharing common interests. 正解：unity → community（共同体・地域社会）。沿岸地域の住民が湿地再生のために協力する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qcommunity"]
+    },
+    {
+      "passageId": "conclusion",
+      "prompt": "Day 04 vocabulary: complete conc______. Enter the missing letters.",
+      "prefix": "conc",
+      "word": "conclusion",
+      "answer": "A conclusion is a judgment reached after considering evidence. 正解：lusion → conclusion（結論・結末）。測定結果を検討してセンサーの故障と判断する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qconclusion"]
+    },
+    {
+      "passageId": "cornerstone",
+      "prompt": "Day 04 vocabulary: complete corner_____. Enter the missing letters.",
+      "prefix": "corner",
+      "word": "cornerstone",
+      "answer": "A cornerstone is a fundamental part on which something depends. 正解：stone → cornerstone（礎石・基礎）。正確な観察が科学的方法の土台である文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qcornerstone"]
+    },
+    {
+      "passageId": "criticism",
+      "prompt": "Day 04 vocabulary: complete crit_____. Enter the missing letters.",
+      "prefix": "crit",
+      "word": "criticism",
+      "answer": "Criticism is the expression of disapproval or an analysis of faults. 正解：icism → criticism（批判・批評）。資金計画のない提案が批判を受ける文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qcriticism"]
+    },
+    {
+      "passageId": "cultural",
+      "prompt": "Day 04 vocabulary: complete cul_____. Enter the missing letters.",
+      "prefix": "cul",
+      "word": "cultural",
+      "answer": "Cultural means relating to the customs, arts, and shared way of life of a society. 正解：tural → cultural（文化の・文化的な）。食の伝統が地域の歴史や環境を反映する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qcultural"]
+    },
+    {
+      "passageId": "demise",
+      "prompt": "Day 04 vocabulary: complete dem___. Enter the missing letters.",
+      "prefix": "dem",
+      "word": "demise",
+      "answer": "Demise means death, disappearance, or the end of something. 正解：ise → demise（死・終焉）。長年の乱獲後に地域の魚類個体群が消滅した文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qdemise"]
+    },
+    {
+      "passageId": "devastating",
+      "prompt": "Day 04 vocabulary: complete devas______. Enter the missing letters.",
+      "prefix": "devas",
+      "word": "devastating",
+      "answer": "Devastating means causing severe damage or destruction. 正解：tating → devastating（壊滅的な・甚大な被害を与える）。地震が交通・住宅・病院へ深刻な被害を及ぼした文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qdevastating"]
+    },
+    {
+      "passageId": "distinct",
+      "prompt": "Day 04 vocabulary: complete dis_____. Enter the missing letters.",
+      "prefix": "dis",
+      "word": "distinct",
+      "answer": "Distinct means clearly different or separate. 正解：tinct → distinct（明確に異なる・別個の）。外見が似た二つの鉱物でも結晶構造は異なるという文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qdistinct"]
+    }
+  ]
+}

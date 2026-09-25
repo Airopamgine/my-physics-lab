@@ -165,6 +165,29 @@ class TaskCatalogTests(unittest.TestCase):
         self.assertIn(2, source['reviewedPages'])
         self.assertEqual(source['pageItems']['2'], refs)
 
+    def test_vocabulary_day04_part1_preserves_first_fifteen_headwords(self):
+        bank = self.build()
+        item = next(s for s in bank['sets']
+                    if s['id'] == 'pdf-vocabulary-day04-part1')
+        words = [
+            'adapt', 'architectural', 'authentic', 'bias', 'boredom',
+            'capture', 'challenge', 'community', 'conclusion', 'cornerstone',
+            'criticism', 'cultural', 'demise', 'devastating', 'distinct']
+        self.assertEqual([q['sourceRefs'][0] for q in item['questions']],
+                         [f'pdf:vocabulary:p005:q{word}' for word in words])
+        suffixes = [
+            'apt', 'itectural', 'thentic', 'as', 'edom', 'ture', 'lenge',
+            'unity', 'lusion', 'stone', 'icism', 'tural', 'ise', 'tating',
+            'tinct']
+        self.assertEqual([q['acceptedAnswers'] for q in item['questions']],
+                         [[suffix, word] for suffix, word in zip(suffixes, words)])
+        self.assertTrue(all(q['correct'] is None and q['options'] == []
+                            for q in item['questions']))
+        index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
+        source = next(s for s in index['sources'] if s['id'] == 'vocabulary')
+        self.assertNotIn(5, source['reviewedPages'])
+        self.assertNotIn('5', source['pageItems'])
+
     def test_vocabulary_day02_all_sixty_headwords_complete_page3(self):
         bank = self.build()
         part1 = next(s for s in bank['sets']
