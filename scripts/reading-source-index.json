@@ -887,7 +887,15 @@
         26,
         27,
         28,
-        29
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
       ],
       "pageItems": {
         "1": [],
@@ -982,6 +990,34 @@
           "pdf:task3:p029:q18",
           "pdf:task3:p029:q19",
           "pdf:task3:p029:q20"
+        ],
+        "30": [],
+        "31": [
+          "pdf:task3:p031:qexample-fact"
+        ],
+        "32": [
+          "pdf:task3:p032:q01",
+          "pdf:task3:p032:q02"
+        ],
+        "33": [
+          "pdf:task3:p033:q03",
+          "pdf:task3:p033:q04"
+        ],
+        "34": [],
+        "35": [
+          "pdf:task3:p035:q01",
+          "pdf:task3:p035:q02",
+          "pdf:task3:p035:q03",
+          "pdf:task3:p035:q04",
+          "pdf:task3:p035:q05"
+        ],
+        "36": [],
+        "37": [
+          "pdf:task3:p037:q06",
+          "pdf:task3:p037:q07",
+          "pdf:task3:p037:q08",
+          "pdf:task3:p037:q09",
+          "pdf:task3:p037:q10"
         ]
       }
     },
@@ -1187,7 +1223,7 @@
       }
     }
   ],
-  "lastSource": "task2",
+  "lastSource": "task3",
   "blockedItems": [],
   "note": "Public progress manifest only: source labels, page counts, reviewed pages, source references and answer-key availability. Private PDFs, OCR cache paths, and file hashes are excluded. Exact PDF question totals require review; publisher answer pages have not been supplied."
 }

@@ -1,0 +1,140 @@
+{
+  "id": "pdf-task3-p030-037",
+  "title": "Academic Reading · Fact and Negative Fact Questions",
+  "task": 3,
+  "date": "2026-09-26T07:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 3 · PDF 30–37ページ／冊子230–237ページ · Fact/Negative Fact Example・Practice 01–04・Test 01–10",
+  "verificationNote": "PDF原本画像で7本文の全段落、設問、選択肢、強調語、順序を照合しました。ExampleのAは冊子に印刷された正答です。PracticeとTestは本文根拠に基づく編集解答で、出版社の巻末解答ページ（462ページ）は未提供・未照合です。",
+  "passages": {
+    "acoustic": "Acoustic camouflage is an adaptive strategy employed by various animal species to avoid detection by predators or prey through the manipulation of sound. Some moths, for example, possess specialized wing scales that scatter or absorb sound waves used by predators for detection, making them less detectable. Owls possess specialized feathers that enable silent flight, preventing prey from hearing their approach.\n\nIn addition to anatomical adaptations, behavioral strategies play a crucial role. Certain insects, such as katydids, exploit background environmental noise to mask their own calls, blending into the acoustic environment and reducing the risk of predation. Similarly, frogs may synchronize their calls to create overlapping noise, making it difficult for predators to isolate an individual call. Bats, on the other hand, may modulate the timing or frequency of their calls to avoid interference or to reduce detectability by prey.\n\nResearch indicates that many acoustic camouflage mechanisms have evolved in response to specific listening technologies used by predators, such as echolocation. This evolutionary arms race highlights the importance of sound in predator-prey interactions. Scientists continue to study these interactions to better understand how animals exploit acoustic properties for survival, revealing intricate adaptations tied to sensory ecology.",
+    "gaia": "The Gaia hypothesis argues that Earth and its life forms collectively function as a self-regulating system that sustains habitability. Chemist James Lovelock introduced the idea in the 1970s while examining how life might alter the chemical composition of planetary atmospheres.\n\nAccording to this hypothesis, Earth’s biological and physical systems operate like organs in a body to keep the planet stable. For instance, ocean plankton release certain compounds that boost cloud formation, which cools the planet to livable temperatures. Also, plants absorb carbon dioxide and release oxygen, helping modulate atmospheric composition to support life.\n\nThere are “weak” and “strong” versions of the hypothesis. The weak version suggests that biological and physical processes passively influence environmental conditions on Earth. The strong version, however, claims that life intentionally maintains Earth’s stability.",
+    "gentrification": "Gentrification is the process by which affluent individuals move into lower-income urban neighborhoods, leading to significant changes in the local environment and community. This influx typically results in new businesses, renovated buildings, and increased property values. While the transformation may improve infrastructure and provide new amenities, it also tends to drive up living costs and alter the social fabric of the area.\n\nFor example, New York City’s Williamsburg has experienced waves of gentrification. This area became trendy as artists and young professionals settled there, followed by the arrival of upscale shops. However, long-time residents often found themselves facing higher rent and property taxes, making it difficult to remain in their homes. Businesses with long-term ties to the neighborhood were sometimes replaced by establishments that catered to newer, wealthier customers.",
+    "stendhal": "Stendhal syndrome is a condition characterized by intense psychological and physical symptoms when individuals are exposed to exceptional works of art or overwhelming beauty. The syndrome was named after the nineteenth-century French author Stendhal, who described experiencing such symptoms while viewing Renaissance masterpieces in Florence.\n\nSeveral cases have been reported, especially among tourists visiting art-rich locations such as Florence’s Uffizi Gallery. Symptoms can include rapid heartbeat, dizziness, confusion, fainting, and panic in response to powerful artistic or architectural displays. Some visitors have also experienced strong feelings of existential anxiety and even hallucinations.",
+    "gallstones": "Gallstones are solid deposits that form in the gallbladder, which is a small organ beneath the liver and stores digestive fluid called bile. They form when substances in bile, such as cholesterol, become concentrated and crystallize. They can range from tiny particles to stones the size of golf balls. When gallstones block the bile ducts, this obstruction results in extreme pain. They affect millions of people worldwide, with certain populations being more susceptible than others.\n\nUntreated stones can cause cholangitis, a serious bile duct infection, or migrate to block the pancreas and trigger acute pancreatitis. When gallbladder inflammation progresses to tissue death, emergency surgery becomes unavoidable. However, these life-threatening complications are largely preventable through lifestyle modifications that address the root causes of stone formation.",
+    "phantom": "Phantom pain is a phenomenon in which individuals feel sensations, often pain, in a part of the body that is no longer present, typically after amputation. This type of pain is not caused by external injury and can vary from mild tingling to intense discomfort. For example, a person who has lost a leg may experience stinging, burning, or pressure where the leg used to be.\n\nThe most widely accepted explanation is that the brain and nervous system are responsible for phantom pain. After an amputation, the nerves that once carried signals from the missing limb to the brain are still active. These nerves may send unexpected signals, which the brain interprets as coming from the absent body part. Also, the areas of the brain that once processed information from the lost limb remain active and can respond to stimuli from nearby body regions.\n\nPhantom pain can last for a short period after surgery or persist for months or years. Treatments focus on managing symptoms with pain relief methods, physical therapy, and mirror therapy, which uses visual feedback to retrain the brain’s response to pain signals. Phantom pain reveals the complexity of how the nervous system and brain generate perception.",
+    "exposure": "First identified by psychologist Robert Zajonc, the mere exposure effect shows that the more frequently people encounter something, the more they tend to like it, even with minimal interaction or awareness. This process operates unconsciously and can influence attitudes toward people, products, or even ideas.\n\nFor example, hearing a new song may result in indifference or even dislike. However, after several plays, it usually becomes more appealing. Similarly, the products in advertisements that are repeatedly shown are often perceived more positively, even if viewers pay little direct attention to the promotions themselves.\n\nThe effect is also evident in social situations. People tend to prefer the coworkers or neighbors they see regularly, even if their interactions are superficial. Within teams and clubs, repeated exposure increases perceived trustworthiness and willingness to cooperate, which strengthens group coordination and leads to the development of shared norms.\n\nDespite its strengths, the effect has limits. It mostly affects neutral or mildly positive stimuli. And even when the stimuli are positive, overexposure can eventually provoke negative reactions. Being aware of this effect can help individuals reflect on whether their current interests stem from mere familiarity. If so, they may choose to explore pursuits they genuinely enjoy."
+  },
+  "questions": [
+    {
+      "passageId": "acoustic",
+      "prompt": "What does the passage indicate about frogs?",
+      "options": [{"label":"A","text":"They coordinate their calls to obscure individual sounds."},{"label":"B","text":"They exploit background environmental noise to mask their calls."},{"label":"C","text":"They mainly use anatomical adaptations."},{"label":"D","text":"They modulate the timing of their echolocation calls."}],
+      "correct": "A",
+      "answer": "正解：A。第2段落は、カエルが鳴き声を同期させて音を重ね、捕食者が個々の鳴き声を特定しにくくすると述べます。Bはkatydids、Dはbatsの行動です。synchronizeは同期させるという意味です。",
+      "sourceRefs": ["pdf:task3:p031:qexample-fact"]
+    },
+    {
+      "passageId": "gaia",
+      "prompt": "What does the passage indicate about ocean plankton?",
+      "options": [{"label":"A","text":"They release greenhouse gases and warm the atmosphere."},{"label":"B","text":"They absorb oxygen and release carbon dioxide."},{"label":"C","text":"They stimulate the production of clouds, leading to a cooler global climate."},{"label":"D","text":"They prevent water evaporation to balance low rainfall."}],
+      "correct": "C",
+      "answer": "正解：C。第2段落は、海洋プランクトンが雲の形成を促す化合物を放出し、それが地球を冷やすと説明します。A・Bは逆で、Dは本文にありません。boostは促進するという意味です。",
+      "sourceRefs": ["pdf:task3:p032:q01"]
+    },
+    {
+      "passageId": "gentrification",
+      "prompt": "What is indicated about New York City’s Williamsburg?",
+      "options": [{"label":"A","text":"Its residents include young individuals with professional careers."},{"label":"B","text":"Its local businesses opposed the neighborhood’s transformation."},{"label":"C","text":"It had many upscale shops before its redevelopment."},{"label":"D","text":"It has become less attractive to new businesses and investors."}],
+      "correct": "A",
+      "answer": "正解：A。Williamsburgにはartists and young professionalsが移り住んだと明記されています。高級店はその後に進出したためCは時系列が逆で、B・Dは本文にありません。affluentは裕福なという意味です。",
+      "sourceRefs": ["pdf:task3:p032:q02"]
+    },
+    {
+      "passageId": "stendhal",
+      "prompt": "All of the following are mentioned about Stendhal syndrome EXCEPT",
+      "options": [{"label":"A","text":"It can cause rapid heartbeat and dizziness."},{"label":"B","text":"It affects tourists visiting locations that are rich in art."},{"label":"C","text":"It occurs most frequently among professional artists."},{"label":"D","text":"It can induce hallucinations in response to artistic displays."}],
+      "correct": "C",
+      "answer": "正解：C。本文は美術の豊富な場所を訪れる観光客、動悸・めまい、幻覚を挙げますが、職業芸術家に最も多いとは述べません。induceは引き起こすという意味です。",
+      "sourceRefs": ["pdf:task3:p033:q03"]
+    },
+    {
+      "passageId": "gallstones",
+      "prompt": "All of the following are true about gallstones EXCEPT:",
+      "options": [{"label":"A","text":"They form when bile substances become concentrated."},{"label":"B","text":"They may trigger acute pancreatitis."},{"label":"C","text":"They require immediate surgical intervention."},{"label":"D","text":"They are more prevalent among some groups of individuals."}],
+      "correct": "C",
+      "answer": "正解：C。緊急手術が避けられないのは炎症が組織壊死まで進行した場合で、すべての胆石が直ちに手術を要するわけではありません。A・B・Dは本文に明記されています。susceptibleは影響を受けやすいという意味です。",
+      "sourceRefs": ["pdf:task3:p033:q04"]
+    },
+    {
+      "passageId": "phantom",
+      "prompt": "What is a reason that the brain perceives sensations in a missing limb?",
+      "options": [{"label":"A","text":"The amputation creates nerve gaps that cause electrical misfiring."},{"label":"B","text":"Active nerves send unexpected signals to the brain."},{"label":"C","text":"Damaged nerve endings regenerate incorrectly and send wrong messages."},{"label":"D","text":"Muscle contractions trigger false nerve signals."}],
+      "correct": "B",
+      "answer": "正解：B。切断後も神経は活動しており、予期しない信号を送るため、脳が失われた部位からの感覚として解釈します。A・C・Dは本文にありません。absentは存在しないという意味です。",
+      "sourceRefs": ["pdf:task3:p035:q01"]
+    },
+    {
+      "passageId": "phantom",
+      "prompt": "Why does the author mention stinging, burning, and pressure?",
+      "options": [{"label":"A","text":"To explain the medical treatment options for phantom pain"},{"label":"B","text":"To give an example of how doctors diagnose phantom pain"},{"label":"C","text":"To illustrate sensations that people may feel as phantom pain"},{"label":"D","text":"To argue that phantom pain is less severe than other pain types"}],
+      "correct": "C",
+      "answer": "正解：C。stinging、burning、pressureは、失われた脚の位置に感じうる幻肢痛の具体例として挙げられています。治療・診断・重症度比較の説明ではありません。illustrateは具体例で示すという意味です。",
+      "sourceRefs": ["pdf:task3:p035:q02"]
+    },
+    {
+      "passageId": "phantom",
+      "prompt": "The word “responsible” in the passage is closest in meaning to",
+      "options": [{"label":"A","text":"negligent"},{"label":"B","text":"auxiliary"},{"label":"C","text":"accountable"},{"label":"D","text":"susceptible"}],
+      "correct": "C",
+      "answer": "正解：C。the brain and nervous system are responsible for phantom painは、それらが幻肢痛の原因を担うという意味で、accountableが最も近いです。negligentは怠慢な、auxiliaryは補助の、susceptibleは影響を受けやすいです。",
+      "sourceRefs": ["pdf:task3:p035:q03"]
+    },
+    {
+      "passageId": "phantom",
+      "prompt": "All of the following are true about phantom pain EXCEPT:",
+      "options": [{"label":"A","text":"It can endure for months or years after the limb’s removal."},{"label":"B","text":"It may be eased by therapies that adjust the brain’s reaction."},{"label":"C","text":"It requires surgical removal of the remaining nerve tissue."},{"label":"D","text":"It results from the combined activity of the brain and the nervous system."}],
+      "correct": "C",
+      "answer": "正解：C。本文の治療は鎮痛法、理学療法、鏡療法で、残存神経組織の外科的切除は挙げられていません。Aは持続期間、Bは鏡療法、Dは原因の説明に対応します。persistは持続するという意味です。",
+      "sourceRefs": ["pdf:task3:p035:q04"]
+    },
+    {
+      "passageId": "phantom",
+      "prompt": "Which of the following best describes the purpose of the third paragraph?",
+      "options": [{"label":"A","text":"Paragraph 3 compares phantom pain with other types of neurological pain."},{"label":"B","text":"Paragraph 3 discusses the possible treatment options for phantom pain."},{"label":"C","text":"Paragraph 3 summarizes the causes of phantom pain mentioned earlier."},{"label":"D","text":"Paragraph 3 suggests that phantom pain is psychological."}],
+      "correct": "B",
+      "answer": "正解：B。第3段落は持続期間に触れた後、pain relief、physical therapy、mirror therapyという治療法を説明します。他の痛みとの比較、原因の要約、心理的原因の主張ではありません。manage symptomsは症状を管理するという意味です。",
+      "sourceRefs": ["pdf:task3:p035:q05"]
+    },
+    {
+      "passageId": "exposure",
+      "prompt": "The word “superficial” in the passage is closest in meaning to",
+      "options": [{"label":"A","text":"polite"},{"label":"B","text":"casual"},{"label":"C","text":"serious"},{"label":"D","text":"permanent"}],
+      "correct": "B",
+      "answer": "正解：B。regularly見る同僚や隣人とのinteractionsが深い関係ではなく表面的・軽いものだという文脈なので、casualが最も近いです。seriousとpermanentは反対方向で、politeは礼儀正しさです。",
+      "sourceRefs": ["pdf:task3:p037:q06"]
+    },
+    {
+      "passageId": "exposure",
+      "prompt": "Why does the author mention “a new song”?",
+      "options": [{"label":"A","text":"To illustrate how familiarity can gradually increase appeal"},{"label":"B","text":"To highlight how repetition can sometimes cause boredom"},{"label":"C","text":"To show how songs are effective tools in advertisements"},{"label":"D","text":"To emphasize the role of conscious choice in music preference"}],
+      "correct": "A",
+      "answer": "正解：A。最初は無関心または嫌いでも、何度か聞くと魅力が増す例で、親しみが好意を高める単純接触効果を示します。退屈、広告、意識的選択が目的ではありません。appealは魅力という意味です。",
+      "sourceRefs": ["pdf:task3:p037:q07"]
+    },
+    {
+      "passageId": "exposure",
+      "prompt": "All of the following are true about the mere exposure effect EXCEPT",
+      "options": [{"label":"A","text":"It can also be applied to ideas."},{"label":"B","text":"It is typically beyond the scope of a person’s conscious control."},{"label":"C","text":"It occurs when audience engagement is high."},{"label":"D","text":"It explains why people may prefer those they see regularly."}],
+      "correct": "C",
+      "answer": "正解：C。単純接触効果はminimal interaction or awarenessでも働き、広告に直接注意を払わなくても起こるため、高いengagementは条件ではありません。A・B・Dは本文に対応します。unconsciouslyは無意識にという意味です。",
+      "sourceRefs": ["pdf:task3:p037:q08"]
+    },
+    {
+      "passageId": "exposure",
+      "prompt": "In which of the following situations is the mere exposure effect most clearly observed?",
+      "options": [{"label":"A","text":"When people encounter something they initially detest"},{"label":"B","text":"When a TV commercial is deliberately designed to be memorable"},{"label":"C","text":"When coworkers seldom interact beyond greetings"},{"label":"D","text":"When the stimulus is neither strongly attractive nor repulsive"}],
+      "correct": "D",
+      "answer": "正解：D。最終段落は、この効果が主にneutral or mildly positive stimuliに働くと述べます。強く嫌う対象には当てはまりにくく、広告設計や挨拶の少なさ自体は決め手ではありません。stimulusは刺激です。",
+      "sourceRefs": ["pdf:task3:p037:q09"]
+    },
+    {
+      "passageId": "exposure",
+      "prompt": "What is the relationship between paragraphs 3 and 4?",
+      "options": [{"label":"A","text":"Paragraph 4 introduces limitations not mentioned in paragraph 3."},{"label":"B","text":"Paragraph 4 adds to the examples presented in paragraph 3."},{"label":"C","text":"Paragraph 4 criticizes the examples discussed in paragraph 3."},{"label":"D","text":"Paragraph 4 provides cases that contradict the information in paragraph 3."}],
+      "correct": "A",
+      "answer": "正解：A。第3段落は社会場面での効果を説明し、第4段落は中性・弱い肯定的刺激に主に働くことや過剰接触で否定的反応が起こるという限界を加えます。例の追加・批判・矛盾ではありません。overexposureは過度な接触です。",
+      "sourceRefs": ["pdf:task3:p037:q10"]
+    }
+  ]
+}
