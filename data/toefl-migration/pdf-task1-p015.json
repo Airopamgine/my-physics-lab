@@ -1,0 +1,175 @@
+{
+  "id": "pdf-task1-p015",
+  "title": "Complete the Words · Urban Traffic and Sand Dunes",
+  "task": 1,
+  "date": "2026-09-26T03:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 15ページ／冊子43ページ · Intuitive Blanks Test問21–40",
+  "verificationNote": "Editorial answers（編集・確認した解答）。PDF原本画像で本文、表示済み文字、空欄数、設問順を照合し、文法・語法・文脈から各語を確定しました。出版社の解答ページ（405ページ）は未提供・未照合です。各パッセージの10空欄をすべて提出するまで正答は表示されません。",
+  "passages": {
+    "urban-traffic": "One major challenge that rapidly growing cities face is traffic congestion. The incr______ reliance o_ personal vehi____ gradually ma___ the str____ crowded, resu_____ in del___ and acci_____. Simply buil____ more ro___ may not reduce traffic congestion, as it can cause even more people to choose to drive. A better solution would be to improve public transit systems; they transport a significantly greater number of people using less road space. Efficient transit networks not only reduce congestion but also improve the overall quality of urban life.",
+    "sand-dunes": "Dunes are landforms created by the deposition of sand, typically found in deserts and coastal areas. They fo__ when wi__ energy i_ high eno___ to tran_____ sand part_____, which accum_____ around obst_____. Their sh___ is deter_____ by factors like wind direction, wind speed, and sand availability.\n\nCrescent-shaped dunes form when there is a steady wind from one direction and a limited supply of sand. In contrast, star dunes, characterized by multiple arms radiating from a central point, form in locations with multi-directional winds and an abundant supply of sand."
+  },
+  "questions": [
+    {
+      "passageId": "urban-traffic",
+      "prompt": "Test 21: complete incr______. Enter the missing letters.",
+      "prefix": "incr",
+      "word": "increasing",
+      "answer": "Increasing means becoming greater in amount or degree. 正解：easing → increasing（増大する）。定冠詞Theと名詞relianceの間で、個人用車両への依存が増えていることを表す形容詞です。",
+      "sourceRefs": ["pdf:task1:p015:q21-gap1"]
+    },
+    {
+      "passageId": "urban-traffic",
+      "prompt": "Test 22: complete o_. Enter the missing letters.",
+      "prefix": "o",
+      "word": "on",
+      "answer": "On completes the expression reliance on. 正解：n → on。reliance on personal vehiclesは「自家用車への依存」です。",
+      "sourceRefs": ["pdf:task1:p015:q22-gap1"]
+    },
+    {
+      "passageId": "urban-traffic",
+      "prompt": "Test 23: complete vehi____. Enter the missing letters.",
+      "prefix": "vehi",
+      "word": "vehicles",
+      "answer": "Vehicles are machines used for transportation. 正解：cles → vehicles（車両）。personal vehiclesは都市住民が利用する複数の自家用車を指します。",
+      "sourceRefs": ["pdf:task1:p015:q23-gap1"]
+    },
+    {
+      "passageId": "urban-traffic",
+      "prompt": "Test 24: complete ma___. Enter the missing letters.",
+      "prefix": "ma",
+      "word": "makes",
+      "answer": "Makes forms the structure make + object + adjective. 正解：kes → makes（〜を…にする）。単数主語The increasing relianceに対応し、makes the streets crowdedとなります。",
+      "sourceRefs": ["pdf:task1:p015:q24-gap1"]
+    },
+    {
+      "passageId": "urban-traffic",
+      "prompt": "Test 25: complete str____. Enter the missing letters.",
+      "prefix": "str",
+      "word": "streets",
+      "answer": "Streets are public roads in a city. 正解：eets → streets（街路）。都市内の複数の道路が混雑するため複数形です。",
+      "sourceRefs": ["pdf:task1:p015:q25-gap1"]
+    },
+    {
+      "passageId": "urban-traffic",
+      "prompt": "Test 26: complete resu_____. Enter the missing letters.",
+      "prefix": "resu",
+      "word": "resulting",
+      "answer": "Resulting in introduces a consequence. 正解：lting → resulting。前の節全体の結果として遅延と事故が生じることを現在分詞句で示します。",
+      "sourceRefs": ["pdf:task1:p015:q26-gap1"]
+    },
+    {
+      "passageId": "urban-traffic",
+      "prompt": "Test 27: complete del___. Enter the missing letters.",
+      "prefix": "del",
+      "word": "delays",
+      "answer": "Delays are periods in which something happens later than planned. 正解：ays → delays（遅延）。andで複数名詞accidentsと並列されています。",
+      "sourceRefs": ["pdf:task1:p015:q27-gap1"]
+    },
+    {
+      "passageId": "urban-traffic",
+      "prompt": "Test 28: complete acci_____. Enter the missing letters.",
+      "prefix": "acci",
+      "word": "accidents",
+      "answer": "Accidents are unexpected events that cause damage or injury. 正解：dents → accidents（事故）。交通混雑がもたらす複数の悪影響としてdelaysと並びます。",
+      "sourceRefs": ["pdf:task1:p015:q28-gap1"]
+    },
+    {
+      "passageId": "urban-traffic",
+      "prompt": "Test 29: complete buil____. Enter the missing letters.",
+      "prefix": "buil",
+      "word": "building",
+      "answer": "Building is the gerund form required after simply to name the proposed action. 正解：ding → building（建設すること）。Simply building more roadsが文の主語です。",
+      "sourceRefs": ["pdf:task1:p015:q29-gap1"]
+    },
+    {
+      "passageId": "urban-traffic",
+      "prompt": "Test 30: complete ro___. Enter the missing letters.",
+      "prefix": "ro",
+      "word": "roads",
+      "answer": "Roads are routes built for vehicles. 正解：ads → roads（道路）。moreの後で追加建設される複数の道路を表します。",
+      "sourceRefs": ["pdf:task1:p015:q30-gap1"]
+    },
+    {
+      "passageId": "sand-dunes",
+      "prompt": "Test 31: complete fo__. Enter the missing letters.",
+      "prefix": "fo",
+      "word": "form",
+      "answer": "Form means to come into existence or take shape. 正解：rm → form（形成される）。複数主語Theyはdunesを指すため原形の現在形です。",
+      "sourceRefs": ["pdf:task1:p015:q31-gap1"]
+    },
+    {
+      "passageId": "sand-dunes",
+      "prompt": "Test 32: complete wi__. Enter the missing letters.",
+      "prefix": "wi",
+      "word": "wind",
+      "answer": "Wind is moving air. 正解：nd → wind（風）。wind energyは砂を運ぶ風のエネルギーを意味します。",
+      "sourceRefs": ["pdf:task1:p015:q32-gap1"]
+    },
+    {
+      "passageId": "sand-dunes",
+      "prompt": "Test 33: complete i_. Enter the missing letters.",
+      "prefix": "i",
+      "word": "is",
+      "answer": "Is links the singular subject wind energy to the adjective high. 正解：s → is。energyは不可算の単数扱いなのでisを使います。",
+      "sourceRefs": ["pdf:task1:p015:q33-gap1"]
+    },
+    {
+      "passageId": "sand-dunes",
+      "prompt": "Test 34: complete eno___. Enter the missing letters.",
+      "prefix": "eno",
+      "word": "enough",
+      "answer": "Enough follows an adjective to mean sufficient for a purpose. 正解：ugh → enough（十分に）。high enough to transportは「運ぶのに十分強い」です。",
+      "sourceRefs": ["pdf:task1:p015:q34-gap1"]
+    },
+    {
+      "passageId": "sand-dunes",
+      "prompt": "Test 35: complete tran_____. Enter the missing letters.",
+      "prefix": "tran",
+      "word": "transport",
+      "answer": "Transport means to carry something from one place to another. 正解：sport → transport（運ぶ）。toの後に動詞原形を置き、風が砂を運ぶことを表します。",
+      "sourceRefs": ["pdf:task1:p015:q35-gap1"]
+    },
+    {
+      "passageId": "sand-dunes",
+      "prompt": "Test 36: complete part_____. Enter the missing letters.",
+      "prefix": "part",
+      "word": "particles",
+      "answer": "Particles are very small pieces of matter. 正解：icles → particles（粒子）。砂を構成する多数の粒を表すため複数形です。",
+      "sourceRefs": ["pdf:task1:p015:q36-gap1"]
+    },
+    {
+      "passageId": "sand-dunes",
+      "prompt": "Test 37: complete accum_____. Enter the missing letters.",
+      "prefix": "accum",
+      "word": "accumulate",
+      "answer": "Accumulate means to collect or build up gradually. 正解：ulate → accumulate（蓄積する）。関係代名詞whichの先行詞は複数のsand particlesなので、現在形は-sを付けません。",
+      "sourceRefs": ["pdf:task1:p015:q37-gap1"]
+    },
+    {
+      "passageId": "sand-dunes",
+      "prompt": "Test 38: complete obst_____. Enter the missing letters.",
+      "prefix": "obst",
+      "word": "obstacles",
+      "answer": "Obstacles are objects that block movement. 正解：acles → obstacles（障害物）。砂粒が周囲に堆積する複数の物体を指します。",
+      "sourceRefs": ["pdf:task1:p015:q38-gap1"]
+    },
+    {
+      "passageId": "sand-dunes",
+      "prompt": "Test 39: complete sh___. Enter the missing letters.",
+      "prefix": "sh",
+      "word": "shape",
+      "answer": "Shape is the external form of something. 正解：ape → shape（形状）。Theirはdunesを指し、砂丘の形が複数要因で決まることを説明します。",
+      "sourceRefs": ["pdf:task1:p015:q39-gap1"]
+    },
+    {
+      "passageId": "sand-dunes",
+      "prompt": "Test 40: complete deter_____. Enter the missing letters.",
+      "prefix": "deter",
+      "word": "determined",
+      "answer": "Determined means decided or controlled by particular factors. 正解：mined → determined（決定される）。is determined byは受動態で、形状を決める要因を導きます。",
+      "sourceRefs": ["pdf:task1:p015:q40-gap1"]
+    }
+  ]
+}
