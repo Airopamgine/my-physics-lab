@@ -245,7 +245,7 @@ class TaskCatalogTests(unittest.TestCase):
 
         index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
         source = next(s for s in index['sources'] if s['id'] == 'task3')
-        self.assertEqual(source['reviewedPages'], list(range(1, 38)))
+        self.assertEqual(source['reviewedPages'][:37], list(range(1, 38)))
         self.assertEqual(source['pageItems']['30'], [])
         self.assertEqual(source['pageItems']['31'], refs[:1])
         self.assertEqual(source['pageItems']['32'], refs[1:3])
@@ -254,6 +254,33 @@ class TaskCatalogTests(unittest.TestCase):
         self.assertEqual(source['pageItems']['35'], refs[5:10])
         self.assertEqual(source['pageItems']['36'], [])
         self.assertEqual(source['pageItems']['37'], refs[10:])
+
+    def test_pdf_task3_fact_and_negative_fact_conclusion_preserves_ten_answers(self):
+        bank = self.build()
+        item = next(s for s in bank['sets'] if s['id'] == 'pdf-task3-p038-041')
+        refs = ([f'pdf:task3:p039:q{i:02d}' for i in range(11, 16)] +
+                [f'pdf:task3:p041:q{i:02d}' for i in range(16, 21)])
+
+        self.assertEqual(item['collection'], 'Task 3')
+        self.assertEqual(len(item['questions']), 10)
+        self.assertEqual([q['sourceRefs'][0] for q in item['questions']], refs)
+        self.assertEqual([q['correct'] for q in item['questions']],
+                         list('BCDBCDCBAD'))
+        self.assertEqual(len({q['passage'] for q in item['questions']}), 2)
+        self.assertTrue(all(len(q['options']) == 4 for q in item['questions']))
+
+        insertion = item['questions'][4]
+        self.assertIn('Even opposing theories acknowledge', insertion['prompt'])
+        self.assertEqual([option['label'] for option in insertion['options']],
+                         list('ABCD'))
+
+        index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
+        source = next(s for s in index['sources'] if s['id'] == 'task3')
+        self.assertEqual(source['reviewedPages'], list(range(1, 42)))
+        self.assertEqual(source['pageItems']['38'], [])
+        self.assertEqual(source['pageItems']['39'], refs[:5])
+        self.assertEqual(source['pageItems']['40'], [])
+        self.assertEqual(source['pageItems']['41'], refs[5:])
 
     def test_reading_diagnostic_preserves_all_twenty_answers(self):
         bank = self.build()
