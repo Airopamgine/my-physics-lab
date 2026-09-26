@@ -1,0 +1,148 @@
+{
+  "id": "pdf-vocabulary-day04-part3",
+  "title": "Vocabulary Day 04 · Context Completion 3",
+  "task": 1,
+  "date": "2026-09-26T09:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 5ページ／冊子383ページ · Day 04の31〜45語（全60語中）",
+  "verificationNote": "掲載語・綴り・掲載順をPDF原本画像で確認済みです。各語を文脈で判断できるmissing-letter exerciseへ編集しています。出版社の公式解答表は未収録ですが、正答は掲載headwordと一致します。未回答の語の正答は、その語を提出するまで表示されません。",
+  "passages": {
+    "improve": "Engineers modified the wing to imp____ its lift-to-drag ratio.",
+    "infectious": "Vaccination can reduce the spread of inf_______ diseases within a population.",
+    "innovation": "The lighter battery was an important inn_______ in electric aircraft design.",
+    "intelligent": "Dolphins are highly int________ animals capable of complex communication.",
+    "intriguing": "The unexpected signal raised an int_______ question about the distant planet.",
+    "jewelry": "Archaeologists discovered gold jew____ in the ancient burial chamber.",
+    "lapse": "A brief la___ in concentration can cause a pilot to miss a warning signal.",
+    "legacy": "The ancient road network remains an enduring leg___ of the empire.",
+    "manageable": "Dividing the project into stages made the workload man_______ for the small team.",
+    "migration": "Scientists track the seasonal mig______ of birds across continents.",
+    "navigate": "Some whales may use Earth's magnetic field to nav_____ across the ocean.",
+    "origin": "Isotopic analysis helped researchers determine the ori___ of the meteorite.",
+    "pierce": "The bird's narrow beak can pie___ the hard shell of its prey.",
+    "process": "The laboratory uses a careful pro____ to remove impurities from the sample.",
+    "ratio": "The oxygen-to-nitrogen ra___ in the atmosphere remains relatively stable."
+  },
+  "questions": [
+    {
+      "passageId": "improve",
+      "prompt": "Day 04 vocabulary: complete imp____. Enter the missing letters.",
+      "prefix": "imp",
+      "word": "improve",
+      "answer": "Improve means to make or become better. 正解：rove → improve（改善する・向上させる）。翼を変更して揚抗比を高める文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qimprove"]
+    },
+    {
+      "passageId": "infectious",
+      "prompt": "Day 04 vocabulary: complete inf_______. Enter the missing letters.",
+      "prefix": "inf",
+      "word": "infectious",
+      "answer": "Infectious means capable of spreading from one person or organism to another. 正解：ectious → infectious（伝染性の・感染性の）。予防接種によって感染症の拡大を抑える文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qinfectious"]
+    },
+    {
+      "passageId": "innovation",
+      "prompt": "Day 04 vocabulary: complete inn_______. Enter the missing letters.",
+      "prefix": "inn",
+      "word": "innovation",
+      "answer": "An innovation is a new idea, method, or product. 正解：ovation → innovation（革新・新しいもの）。軽量な電池が電動航空機設計の重要な革新となった文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qinnovation"]
+    },
+    {
+      "passageId": "intelligent",
+      "prompt": "Day 04 vocabulary: complete int________. Enter the missing letters.",
+      "prefix": "int",
+      "word": "intelligent",
+      "answer": "Intelligent means able to learn, understand, and reason well. 正解：elligent → intelligent（知的な・賢い）。複雑なコミュニケーションができるイルカの知性を述べる文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qintelligent"]
+    },
+    {
+      "passageId": "intriguing",
+      "prompt": "Day 04 vocabulary: complete int_______. Enter the missing letters.",
+      "prefix": "int",
+      "word": "intriguing",
+      "answer": "Intriguing means very interesting because it is unusual or mysterious. 正解：riguing → intriguing（興味をそそる・好奇心を刺激する）。予想外の信号が遠方惑星について興味深い疑問を生んだ文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qintriguing"]
+    },
+    {
+      "passageId": "jewelry",
+      "prompt": "Day 04 vocabulary: complete jew____. Enter the missing letters.",
+      "prefix": "jew",
+      "word": "jewelry",
+      "answer": "Jewelry means decorative objects worn on the body, such as rings or necklaces. 正解：elry → jewelry（宝石・装身具）。古代の埋葬室で金製装身具を発見した文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qjewelry"]
+    },
+    {
+      "passageId": "lapse",
+      "prompt": "Day 04 vocabulary: complete la___. Enter the missing letters.",
+      "prefix": "la",
+      "word": "lapse",
+      "answer": "A lapse is a temporary failure, mistake, or decline in attention. 正解：pse → lapse（失策・一時的な注意力低下）。一瞬の集中力低下で警告を見落とし得る文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qlapse"]
+    },
+    {
+      "passageId": "legacy",
+      "prompt": "Day 04 vocabulary: complete leg___. Enter the missing letters.",
+      "prefix": "leg",
+      "word": "legacy",
+      "answer": "A legacy is something handed down from the past. 正解：acy → legacy（遺産・受け継がれたもの）。古代帝国の道路網が今も残る遺産である文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qlegacy"]
+    },
+    {
+      "passageId": "manageable",
+      "prompt": "Day 04 vocabulary: complete man_______. Enter the missing letters.",
+      "prefix": "man",
+      "word": "manageable",
+      "answer": "Manageable means able to be handled, controlled, or completed without excessive difficulty. 正解：ageable → manageable（管理できる・扱いやすい）。作業を段階に分け、小規模チームでも処理可能にした文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qmanageable"]
+    },
+    {
+      "passageId": "migration",
+      "prompt": "Day 04 vocabulary: complete mig______. Enter the missing letters.",
+      "prefix": "mig",
+      "word": "migration",
+      "answer": "Migration is the movement of people or animals from one region to another. 正解：ration → migration（移動・移住）。鳥が季節ごとに大陸間を移動する現象を追跡する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qmigration"]
+    },
+    {
+      "passageId": "navigate",
+      "prompt": "Day 04 vocabulary: complete nav_____. Enter the missing letters.",
+      "prefix": "nav",
+      "word": "navigate",
+      "answer": "Navigate means to find or direct a route from one place to another. 正解：igate → navigate（航行する・道を見つける）。クジラが地球の磁場を使って海を進む可能性を述べる文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qnavigate"]
+    },
+    {
+      "passageId": "origin",
+      "prompt": "Day 04 vocabulary: complete ori___. Enter the missing letters.",
+      "prefix": "ori",
+      "word": "origin",
+      "answer": "Origin means the point, place, or source from which something begins. 正解：gin → origin（起源・出発点）。同位体分析から隕石の起源を特定する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qorigin"]
+    },
+    {
+      "passageId": "pierce",
+      "prompt": "Day 04 vocabulary: complete pie___. Enter the missing letters.",
+      "prefix": "pie",
+      "word": "pierce",
+      "answer": "Pierce means to make a hole through something with a sharp point. 正解：rce → pierce（突き刺す・貫く）。鳥の細いくちばしが獲物の硬い殻を突き通す文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qpierce"]
+    },
+    {
+      "passageId": "process",
+      "prompt": "Day 04 vocabulary: complete pro____. Enter the missing letters.",
+      "prefix": "pro",
+      "word": "process",
+      "answer": "A process is a series of actions used to achieve a result; as a verb, it means to treat or handle something. 正解：cess → process（過程・工程・処理する）。試料から不純物を除くための慎重な工程を述べる文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qprocess"]
+    },
+    {
+      "passageId": "ratio",
+      "prompt": "Day 04 vocabulary: complete ra___. Enter the missing letters.",
+      "prefix": "ra",
+      "word": "ratio",
+      "answer": "A ratio expresses the quantitative relationship between two amounts. 正解：tio → ratio（比率・割合）。大気中の酸素と窒素の量的な比を述べる文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qratio"]
+    }
+  ]
+}
