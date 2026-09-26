@@ -538,7 +538,15 @@
         88,
         89,
         90,
-        91
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99
       ],
       "pageItems": {
         "1": [],
@@ -879,6 +887,38 @@
           "pdf:task2:p091:q13",
           "pdf:task2:p091:q14",
           "pdf:task2:p091:q15"
+        ],
+        "92": [],
+        "93": [
+          "pdf:task2:p093:qexample1",
+          "pdf:task2:p093:qexample2"
+        ],
+        "94": [
+          "pdf:task2:p094:q01",
+          "pdf:task2:p094:q02"
+        ],
+        "95": [
+          "pdf:task2:p095:q03",
+          "pdf:task2:p095:q04"
+        ],
+        "96": [
+          "pdf:task2:p096:q05",
+          "pdf:task2:p096:q06"
+        ],
+        "97": [
+          "pdf:task2:p097:q07",
+          "pdf:task2:p097:q08",
+          "pdf:task2:p097:q09"
+        ],
+        "98": [
+          "pdf:task2:p098:q10",
+          "pdf:task2:p098:q11",
+          "pdf:task2:p098:q12"
+        ],
+        "99": [
+          "pdf:task2:p099:q13",
+          "pdf:task2:p099:q14",
+          "pdf:task2:p099:q15"
         ]
       }
     },
@@ -1252,7 +1292,7 @@
       }
     }
   ],
-  "lastSource": "task1",
+  "lastSource": "task2",
   "blockedItems": [],
   "note": "Public progress manifest only: source labels, page counts, reviewed pages, source references and answer-key availability. Private PDFs, OCR cache paths, and file hashes are excluded. Exact PDF question totals require review; publisher answer pages have not been supplied."
 }
