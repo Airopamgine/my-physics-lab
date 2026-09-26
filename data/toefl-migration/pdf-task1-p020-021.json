@@ -1,0 +1,173 @@
+{
+  "id": "pdf-task1-p020-021",
+  "title": "Complete the Words · Contextual Blanks Practice",
+  "task": 1,
+  "date": "2026-09-27T03:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 20–21ページ／冊子48–49ページ · Contextual Blanks Practice問01–10（15空欄）",
+  "verificationNote": "Editorial answers（編集・確認した解答）。PDF原本画像で全10文、表示済み文字、空欄数、設問順を照合し、文法・語法・文脈から15語を確定しました。出版社の解答ページ（405ページ）は未提供・未照合です。同じ設問に複数空欄がある場合は、すべて提出するまで正答は表示されません。",
+  "passages": {
+    "01": "To pre____ the concentration of authority and protect liberty, many modern democracies adopt the doctrine of the separation of powers.",
+    "02": "An important task for any historian is distinguishing between pri____ sources and secondary sources, as this distinction determines the reliability and directness of evidence.",
+    "03": "Kant urges us to exa____ our actions not based on their consequences, but on the universal principle—the Categorical Imperative—that guides them.",
+    "04": "Following the introduction of the steam engine, textile production became increasingly mecha_____.",
+    "05": "Deductive reasoning starts from general laws, but inductive reasoning starts with specific observ______.",
+    "06": "Situating observ_______ at high altitudes is essential for minimizing atmospheric interference and capturing clear astronomical data. Higher sites ben____ from thinner air, reduced light pollution, and lower humidity, all of which contribute to superior viewing conditions.",
+    "07": "Before the advent of widespread digitization, scholars who were not flu___ in Old Norse struggled to acc___ the original source material for Viking-age studies, relying solely on translated and often filtered secondary accounts.",
+    "08": "Human wants and needs are virtually limitless, yet the resources available to satisfy those des____—time, land, labor, and capital—are fin___.",
+    "09": "The arts involve var____ creative media. For instance, literature, music, and painting use different techniques to exp____ ideas.",
+    "10": "Providing con____ is important for historians. This means that they construct mea____ by clearly delineating the settings and surrounding events."
+  },
+  "questions": [
+    {
+      "passageId": "01",
+      "prompt": "Practice 01: complete pre____. Enter the missing letters.",
+      "prefix": "pre",
+      "word": "prevent",
+      "answer": "Prevent means to stop something from happening. 正解：vent → prevent（防ぐ）。To prevent the concentration of authorityは「権力の集中を防ぐために」で、toの後に動詞原形を置きます。",
+      "sourceRefs": [
+        "pdf:task1:p020:q01-gap1"
+      ]
+    },
+    {
+      "passageId": "02",
+      "prompt": "Practice 02: complete pri____. Enter the missing letters.",
+      "prefix": "pri",
+      "word": "primary",
+      "answer": "Primary sources are original records or evidence from the period being studied. 正解：mary → primary（一次の）。secondary sources（二次資料）と対比され、historianが資料の直接性を判断する文脈です。",
+      "sourceRefs": [
+        "pdf:task1:p020:q02-gap1"
+      ]
+    },
+    {
+      "passageId": "03",
+      "prompt": "Practice 03: complete exa____. Enter the missing letters.",
+      "prefix": "exa",
+      "word": "examine",
+      "answer": "Examine means to consider something carefully. 正解：mine → examine（吟味する）。urge + 人 + to doの形で、Kant urges us to examine our actionsとなります。Categorical Imperativeは「定言命法」です。",
+      "sourceRefs": [
+        "pdf:task1:p020:q03-gap1"
+      ]
+    },
+    {
+      "passageId": "04",
+      "prompt": "Practice 04: complete mecha_____. Enter the missing letters.",
+      "prefix": "mecha",
+      "word": "mechanized",
+      "answer": "Mechanized means changed so that machines perform the work. 正解：nized → mechanized（機械化された）。becameの補語となり、蒸気機関の導入後に繊維生産が機械化されたことを表します。",
+      "sourceRefs": [
+        "pdf:task1:p020:q04-gap1"
+      ]
+    },
+    {
+      "passageId": "05",
+      "prompt": "Practice 05: complete observ______. Enter the missing letters.",
+      "prefix": "observ",
+      "word": "observations",
+      "answer": "Observations are facts or events noticed and recorded. 正解：ations → observations（観察事実）。inductive reasoningは複数の具体的観察から一般化するため、specific observationsが自然です。",
+      "sourceRefs": [
+        "pdf:task1:p020:q05-gap1"
+      ]
+    },
+    {
+      "passageId": "06",
+      "prompt": "Practice 06: complete observ_______. Enter the missing letters.",
+      "prefix": "observ",
+      "word": "observatories",
+      "answer": "Observatories are buildings or sites equipped for astronomical observation. 正解：atories → observatories（天文台）。高地に設置する複数の施設を表し、動名詞Situatingの目的語になります。",
+      "sourceRefs": [
+        "pdf:task1:p021:q06-gap1"
+      ]
+    },
+    {
+      "passageId": "06",
+      "prompt": "Practice 06: complete ben____. Enter the missing letters.",
+      "prefix": "ben",
+      "word": "benefit",
+      "answer": "Benefit from means to gain an advantage from something. 正解：efit → benefit（恩恵を受ける）。複数主語Higher sitesに対応する現在形で、薄い空気や少ない光害の利点を示します。",
+      "sourceRefs": [
+        "pdf:task1:p021:q06-gap2"
+      ]
+    },
+    {
+      "passageId": "07",
+      "prompt": "Practice 07: complete flu___. Enter the missing letters.",
+      "prefix": "flu",
+      "word": "fluent",
+      "answer": "Fluent means able to use a language smoothly and accurately. 正解：ent → fluent（流暢な）。be fluent in a languageという組合せで、Old Norse（古ノルド語）を扱う能力を表します。",
+      "sourceRefs": [
+        "pdf:task1:p021:q07-gap1"
+      ]
+    },
+    {
+      "passageId": "07",
+      "prompt": "Practice 07: complete acc___. Enter the missing letters.",
+      "prefix": "acc",
+      "word": "access",
+      "answer": "Access as a verb means to obtain or use information or materials. 正解：ess → access（利用する・入手する）。struggled toの後に動詞原形を置き、原資料へ直接アクセスできなかったことを示します。",
+      "sourceRefs": [
+        "pdf:task1:p021:q07-gap2"
+      ]
+    },
+    {
+      "passageId": "08",
+      "prompt": "Practice 08: complete des____. Enter the missing letters.",
+      "prefix": "des",
+      "word": "desires",
+      "answer": "Desires are strong wants. 正解：ires → desires（欲求）。thoseは前のHuman wants and needsを指し、利用可能な資源が満たそうとする複数の欲求を表します。",
+      "sourceRefs": [
+        "pdf:task1:p021:q08-gap1"
+      ]
+    },
+    {
+      "passageId": "08",
+      "prompt": "Practice 08: complete fin___. Enter the missing letters.",
+      "prefix": "fin",
+      "word": "finite",
+      "answer": "Finite means limited in quantity or extent. 正解：ite → finite（有限の）。virtually limitlessな人間の欲求と、限りのあるtime, land, labor, and capitalを対比しています。",
+      "sourceRefs": [
+        "pdf:task1:p021:q08-gap2"
+      ]
+    },
+    {
+      "passageId": "09",
+      "prompt": "Practice 09: complete var____. Enter the missing letters.",
+      "prefix": "var",
+      "word": "various",
+      "answer": "Various means several different kinds of. 正解：ious → various（さまざまな）。creative mediaを修飾し、後のliterature, music, and paintingという例につながります。",
+      "sourceRefs": [
+        "pdf:task1:p021:q09-gap1"
+      ]
+    },
+    {
+      "passageId": "09",
+      "prompt": "Practice 09: complete exp____. Enter the missing letters.",
+      "prefix": "exp",
+      "word": "express",
+      "answer": "Express means to communicate an idea or feeling. 正解：ress → express（表現する）。toの後に動詞原形を置き、各芸術媒体が異なる技法でideasを表すことを説明します。",
+      "sourceRefs": [
+        "pdf:task1:p021:q09-gap2"
+      ]
+    },
+    {
+      "passageId": "10",
+      "prompt": "Practice 10: complete con____. Enter the missing letters.",
+      "prefix": "con",
+      "word": "context",
+      "answer": "Context is the surrounding situation needed to understand an event. 正解：text → context（文脈・背景）。historiansが時代や周辺の出来事を明確にして史料の背景を示すことを指します。",
+      "sourceRefs": [
+        "pdf:task1:p021:q10-gap1"
+      ]
+    },
+    {
+      "passageId": "10",
+      "prompt": "Practice 10: complete mea____. Enter the missing letters.",
+      "prefix": "mea",
+      "word": "meaning",
+      "answer": "Meaning is the significance conveyed by facts or events. 正解：ning → meaning（意味）。construct meaningは「意味を組み立てる」で、settings and surrounding eventsを区切って示すことが理解につながります。",
+      "sourceRefs": [
+        "pdf:task1:p021:q10-gap2"
+      ]
+    }
+  ]
+}

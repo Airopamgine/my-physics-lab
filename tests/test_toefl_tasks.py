@@ -151,8 +151,37 @@ class TaskCatalogTests(unittest.TestCase):
 
         index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
         source = next(s for s in index['sources'] if s['id'] == 'task1')
-        self.assertEqual(source['reviewedPages'], list(range(1, 16)))
+        self.assertEqual(source['reviewedPages'][:15], list(range(1, 16)))
         self.assertEqual(source['pageItems']['15'], refs)
+
+    def test_pdf_task1_contextual_blanks_preserve_all_fifteen_answers(self):
+        bank = self.build()
+        item = next(s for s in bank['sets'] if s['id'] == 'pdf-task1-p020-021')
+        expected = [
+            ('vent', 'prevent'), ('mary', 'primary'), ('mine', 'examine'),
+            ('nized', 'mechanized'), ('ations', 'observations'),
+            ('atories', 'observatories'), ('efit', 'benefit'),
+            ('ent', 'fluent'), ('ess', 'access'), ('ires', 'desires'),
+            ('ite', 'finite'), ('ious', 'various'), ('ress', 'express'),
+            ('text', 'context'), ('ning', 'meaning')]
+        self.assertEqual(item['collection'], 'Task 1')
+        self.assertEqual([q['acceptedAnswers'] for q in item['questions']],
+                         [list(pair) for pair in expected])
+        refs = ([f'pdf:task1:p020:q{i:02d}-gap1' for i in range(1, 6)] +
+                [f'pdf:task1:p021:q{i:02d}-gap{gap}'
+                 for i in range(6, 11) for gap in range(1, 3)])
+        self.assertEqual([q['sourceRefs'][0] for q in item['questions']], refs)
+        self.assertEqual(len({q['passage'] for q in item['questions']}), 10)
+        self.assertTrue(all(q['correct'] is None and q['options'] == []
+                            for q in item['questions']))
+
+        index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
+        source = next(s for s in index['sources'] if s['id'] == 'task1')
+        self.assertEqual(source['reviewedPages'], list(range(1, 22)))
+        self.assertTrue(all(source['pageItems'][str(page)] == []
+                            for page in range(16, 20)))
+        self.assertEqual(source['pageItems']['20'], refs[:5])
+        self.assertEqual(source['pageItems']['21'], refs[5:])
 
     def test_pdf_task3_detail_questions_preserve_all_fifteen_answers(self):
         bank = self.build()
