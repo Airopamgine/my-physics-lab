@@ -1,0 +1,145 @@
+{
+  "id": "pdf-task3-p038-041",
+  "title": "Academic Reading · Fact and Negative Fact Questions II",
+  "task": 3,
+  "date": "2026-09-27T07:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 3 · PDF 38–41ページ／冊子238–241ページ · Fact/Negative Fact Test 11–20",
+  "verificationNote": "PDF原本画像で2本文の全段落、設問、選択肢、強調語、挿入位置A–D、順序を照合しました。出版社の巻末解答ページ（463ページ）は未提供・未照合のため、本文の明示情報、語義、談話のつながりに基づく編集解答です。",
+  "passages": {
+    "totemism": "Totemism\n\nTotemism is a system of belief and social organization in which natural objects, animals, or plants (totems) are regarded as spiritually significant and symbolically linked to human groups. In many societies, a community might treat a certain animal as sacred, refraining from hunting it, and use its image in rituals. Such practices strengthen the community’s shared values and provide moral lessons about respect for nature and social responsibility.\n\nA totem represents a collective identity, such as a clan or lineage, and establishes a sense of belonging and cooperation among its members. These symbols serve as markers of kinship, defining obligations within the community and guiding rules about marriage. For example, a clan might prohibit marriage between members who share the same totem, as they are considered siblings.\n\n[A] Totemism encompasses a broad array of social and cultural practices. [B] In this broader frame, scholars debate whether totemism should be understood primarily as a social system or a way of interpreting the environment. [C] Despite these disagreements, most agree that it illustrates how humans assign symbolic meaning to the natural world in order to structure social life. [D] In this sense, totemism highlights the deep connections between culture, belief, and ecology.",
+    "hypnagogic": "Hypnagogic Hallucinations\n\nHypnagogic hallucinations are vivid sensory experiences that occur during the moments just before falling asleep. These perceptions can involve visual, auditory, or tactile sensations that feel strikingly real. Unlike ordinary dreams, hypnagogic hallucinations blend elements of the waking environment with the mind’s own creations, producing hybrid experiences that bridge consciousness and sleep. This phenomenon offers a fascinating glimpse into the brain’s transition from wakefulness to sleep. Hypnagogic hallucinations are especially common in those with sleep disorders such as narcolepsy.\n\nResearchers have confirmed several roles of hypnagogic hallucinations. They appear linked to the brain’s process of disengaging from external reality while preparing for rest. Some scientists suggest these hallucinations help the brain sort or integrate impressions accumulated during the day.\n\nResearch suggests that hypnagogic hallucinations may stem from unstable interactions between neural systems that regulate wakefulness and those that initiate sleep. Neuroimaging studies indicate that certain brain regions remain partially active during these transitional states, while others begin to decrease their activity as sleep sets in. However, the precise neurochemical processes driving hypnagogic hallucinations are still not fully understood and remain an ongoing area of investigation."
+  },
+  "questions": [
+    {
+      "passageId": "totemism",
+      "prompt": "The word “obligations” in the passage is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "decorations"},
+        {"label": "B", "text": "duties"},
+        {"label": "C", "text": "inputs"},
+        {"label": "D", "text": "celebrations"}
+      ],
+      "correct": "B",
+      "answer": "正解：B。ここでobligationsは、親族集団の成員が果たすべき義務や責任を指すためdutiesが最も近いです。装飾、意見の投入、祝祭ではありません。",
+      "sourceRefs": ["pdf:task3:p039:q11"]
+    },
+    {
+      "passageId": "totemism",
+      "prompt": "What can be inferred about totemism’s role?",
+      "options": [
+        {"label": "A", "text": "It ensures that every individual adopts identical ritual practices."},
+        {"label": "B", "text": "It primarily functions as a way to influence neighboring communities."},
+        {"label": "C", "text": "It integrates natural symbols into systems of social organization."},
+        {"label": "D", "text": "It serves as direct evidence of early scientific reasoning."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。自然物・動植物を象徴として氏族の帰属、親族関係、婚姻規則へ結び付けるため、自然の象徴を社会組織へ統合する役割だと推測できます。全員同一の儀式、近隣への影響、科学的推論は示されません。",
+      "sourceRefs": ["pdf:task3:p039:q12"]
+    },
+    {
+      "passageId": "totemism",
+      "prompt": "Why does the author mention a sacred animal?",
+      "options": [
+        {"label": "A", "text": "To show how religious practices replaced political institutions in early cultures"},
+        {"label": "B", "text": "To argue that animals were more important than plants in traditional societies"},
+        {"label": "C", "text": "To suggest that totemism primarily developed as a form of animal worship"},
+        {"label": "D", "text": "To illustrate how natural symbols can serve as a basis for community identity"}
+      ],
+      "correct": "D",
+      "answer": "正解：D。神聖な動物を狩らず儀式でその像を用いる例は、自然の象徴が共有価値や共同体の結び付きの基盤になることを具体化しています。政治制度の代替や動物崇拝の起源を論じる例ではありません。",
+      "sourceRefs": ["pdf:task3:p039:q13"]
+    },
+    {
+      "passageId": "totemism",
+      "prompt": "All of the following are true about totems EXCEPT:",
+      "options": [
+        {"label": "A", "text": "They provide moral lessons."},
+        {"label": "B", "text": "They explain natural phenomena."},
+        {"label": "C", "text": "They guide community rules."},
+        {"label": "D", "text": "They strengthen group solidarity."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。本文は道徳的教訓、婚姻などの共同体規則、帰属意識と協力の強化を説明しますが、トーテムが自然現象を説明するとは述べません。",
+      "sourceRefs": ["pdf:task3:p039:q14"]
+    },
+    {
+      "passageId": "totemism",
+      "prompt": "Where would the sentence “Even opposing theories acknowledge that totems translate physical landscapes into social rules.” best fit in the final paragraph?",
+      "options": [
+        {"label": "A", "text": "Before “Totemism encompasses a broad array of social and cultural practices.”"},
+        {"label": "B", "text": "After that sentence and before “In this broader frame, scholars debate ...”"},
+        {"label": "C", "text": "After the sentence ending “a way of interpreting the environment.”"},
+        {"label": "D", "text": "After the sentence ending “in order to structure social life.”"}
+      ],
+      "correct": "C",
+      "answer": "正解：C。直前に社会制度説と環境解釈説の対立を提示しているため、“Even opposing theories”がその両論を直接受けます。続く“Despite these disagreements”も、対立はありながら共有される理解へ自然につながります。",
+      "sourceRefs": ["pdf:task3:p039:q15"]
+    },
+    {
+      "passageId": "hypnagogic",
+      "prompt": "How do hypnagogic hallucinations differ from ordinary dreams?",
+      "options": [
+        {"label": "A", "text": "They occur mainly during the deepest stages of sleep."},
+        {"label": "B", "text": "They are more likely to cause sleep paralysis."},
+        {"label": "C", "text": "They have a higher chance of being recalled upon waking."},
+        {"label": "D", "text": "They happen while the mind is still partially aware of the real world."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。入眠時幻覚は覚醒環境の要素と心の創作を混ぜ、意識と睡眠の橋渡しとなるため、現実世界への意識が一部残る点が通常の夢との違いです。深い睡眠、金縛り、記憶率は本文にありません。",
+      "sourceRefs": ["pdf:task3:p041:q16"]
+    },
+    {
+      "passageId": "hypnagogic",
+      "prompt": "All of the following are true about hypnagogic hallucinations EXCEPT:",
+      "options": [
+        {"label": "A", "text": "They can take the form of sights, sounds, or physical feelings."},
+        {"label": "B", "text": "They contribute to the brain’s effort to organize daily experiences."},
+        {"label": "C", "text": "They reflect a disengagement from internal thought."},
+        {"label": "D", "text": "They involve some brain regions decreasing their level of activity."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。本文は外界からの離脱を述べており、内的思考からの離脱ではありません。視覚・聴覚・触覚、日中の印象の整理、一部脳領域の活動低下は本文にあります。",
+      "sourceRefs": ["pdf:task3:p041:q17"]
+    },
+    {
+      "passageId": "hypnagogic",
+      "prompt": "Why does the author mention narcolepsy?",
+      "options": [
+        {"label": "A", "text": "To suggest that narcolepsy is the primary cause of hypnagogic hallucinations"},
+        {"label": "B", "text": "To point out the link between hypnagogic hallucinations and sleep disorders"},
+        {"label": "C", "text": "To demonstrate that narcolepsy patients have a heightened response to external stimuli"},
+        {"label": "D", "text": "To argue that hypnagogic hallucinations are mostly harmless experiences"}
+      ],
+      "correct": "B",
+      "answer": "正解：B。ナルコレプシーは入眠時幻覚が特に多い睡眠障害の例として挙げられ、両者の関連を示します。主要原因、外部刺激への反応、無害性の主張ではありません。",
+      "sourceRefs": ["pdf:task3:p041:q18"]
+    },
+    {
+      "passageId": "hypnagogic",
+      "prompt": "The word “integrate” in the second paragraph is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "combine"},
+        {"label": "B", "text": "isolate"},
+        {"label": "C", "text": "erase"},
+        {"label": "D", "text": "identify"}
+      ],
+      "correct": "A",
+      "answer": "正解：A。日中に蓄積した印象をsort or integrateする文脈なので、まとめて統合するcombineが最も近いです。isolateは分離、eraseは消去、identifyは特定です。",
+      "sourceRefs": ["pdf:task3:p041:q19"]
+    },
+    {
+      "passageId": "hypnagogic",
+      "prompt": "What does the passage indicate about neural systems?",
+      "options": [
+        {"label": "A", "text": "They allow people to be creative."},
+        {"label": "B", "text": "They stimulate the release of neurochemicals."},
+        {"label": "C", "text": "They stay fully active during sleep transitions."},
+        {"label": "D", "text": "They govern the body’s cycle of rest and alertness."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。本文は、神経系の一部が覚醒を調節し、別の系が睡眠を開始すると説明するため、休息と覚醒の周期を担います。全領域が完全に活動し続けるわけではありません。",
+      "sourceRefs": ["pdf:task3:p041:q20"]
+    }
+  ]
+}
