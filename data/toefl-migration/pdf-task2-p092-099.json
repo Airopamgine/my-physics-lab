@@ -1,0 +1,241 @@
+{
+  "id": "pdf-task2-p092-099",
+  "title": "Read in Daily Life · Advertisements",
+  "task": 2,
+  "date": "2026-09-27T05:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 2 · PDF 92–99ページ／冊子168–175ページ · Advertisement Example問1–2・Test問01–15",
+  "verificationNote": "原本画像で各広告の本文、日付、時刻、金額、設問、選択肢、順序を照合しました。Example 2問は紙面掲載の解答と一致しています。Test 15問は出版社の巻末解答表（冊子442ページ）が未提供のため、本文の明示情報と文脈に基づく編集解答です。各広告に付く設問を原本どおりすべて収録しています。",
+  "passages": {
+    "horizon_haven": "Horizon Haven Resort\n\nWe are thrilled to announce the grand reopening of Horizon Haven Resort on June 15th. We invite you to discover a sanctuary of wellness and serenity.\n\nNestled along the pristine beaches, our resort offers a tranquil environment with lush tropical gardens and ocean views. The newly upgraded suites include a fully equipped kitchen, a spacious bathroom, and a private terrace.\n\nOther features include:\n• On-site spa offering massages, facials, and wellness treatments\n• Organic dining options with locally sourced ingredients\n• Fitness center and outdoor pool access\n• Utilities and resort fees fully covered in booking price\n• Fresh linens, bathrobes, and wellness kits provided\n• High-speed Wi-Fi available throughout the resort\n\nSecure your wellness escape today! Confirm your booking by May 5th to receive a 15 percent discount. To reserve your dates, visit http://www.horizonhavenresort.com/reservation",
+    "campus_bookstore": "This week, swing by the Campus Bookstore for the Spring Semester Sale! Save 30 percent on all used textbooks and 20 percent on new books and computer software. You can also get up to half off on all school-branded apparel. Purchase more than $100 and get a free coffee mug!",
+    "language_exchange": "Language Exchange\n\nDo you want to practice speaking another language? Then come to the Language Exchange Night at the Central Brew Café every Friday at 7 P.M. People from around the world participate and share their native languages with others. $5 entry fee includes coffee, tea, and finger foods all evening.",
+    "fitness_classes": "New Fitness Classes\n\nThe community center will offer free fitness classes for all residents. Classes on offer will range from yoga and Pilates to dance and strength training. Each class will last one hour. Space is limited, so register in person at the center’s front desk as early as possible.",
+    "semester_abroad": "Learn the World\n\nDo you dream of taking a long trip to another country? The Semester Abroad program can make your dreams come true without interrupting your current studies. This exciting program allows students to immerse themselves in the local culture while studying for a semester at a partner university in one of more than 50 countries, including Japan, Italy, and Australia. Participants earn full academic credit for all courses they take and have the opportunity to learn outside the classroom on cultural excursions.\n\nProgram fees, which cover tuition, meals, health insurance, and a homestay, are affordable and some students may even qualify for grants and other financial aid packages that cover the entire cost. To learn more about the program, attend the orientation session being held in Fletcher Hall on Monday, June 13 at 10 A.M. It may be the first step on an incredible journey!",
+    "managerial_workshop": "Managerial Excellence Workshop\n\nIn today’s dynamic business environment, effective management is the key to organizational success. Elevate your leadership skills and drive better results by enrolling in the managerial excellence workshop.\n\nThe workshop will be held at Innovation Valley Center on Tuesday, January 15th, from 9 A.M. to 5 P.M. and is designed for supervisors and managers across various departments, including operations, finance, human resources, and sales.\n\nIt is a crucial opportunity to gain insights into modern leadership strategies, conflict resolution, performance coaching, and effective delegation, directly from industry-leading consultants. Whether you need to master setting clear goals or provide constructive feedback, our expert facilitators will teach you how.\n\nThis year, for the first time, the workshop will also include a specialized module on digital transformation and remote team management to help you navigate the future of work. You don’t want to miss this vital professional development opportunity.",
+    "cozy_corner": "Cozy Corner\n\nCozy Corner is hiring enthusiastic full-time and part-time staff.\n\nThe role involves all aspects of the dining experience, including taking orders, serving, preparing drinks, processing payments, and cleaning.\n\nRequirements & Compensation:\n• Ability to stand for long periods\n• Prior experience helpful but not required (we welcome trainees!)\n• Flexible availability, including nights and weekends\n• Competitive starting wage of $15.00/hour plus tips\n\nAll new hires must submit the necessary food safety certification within 30 days of the hiring date.\n\nTo apply: Visit the diner with your résumé between 2 P.M. and 4 P.M., Monday to Friday."
+  },
+  "questions": [
+    {
+      "passageId": "horizon_haven",
+      "prompt": "What can be inferred about Horizon Haven Resort?",
+      "options": [
+        {"label": "A", "text": "It provides a special area for internet access."},
+        {"label": "B", "text": "It offers private training sessions."},
+        {"label": "C", "text": "It allows guests to cook food in their rooms."},
+        {"label": "D", "text": "It requires an additional charge for some utilities."}
+      ],
+      "correct": "C",
+      "answer": "The upgraded suites include fully equipped kitchens, so guests can prepare food in their rooms. 正解：C（紙面掲載の解答と一致）。Wi-Fiは全館で利用でき、公共料金とリゾート料金は予約価格に含まれます。",
+      "sourceRefs": ["pdf:task2:p093:qexample1"]
+    },
+    {
+      "passageId": "horizon_haven",
+      "prompt": "By when should an individual reserve a date in order to get a discount?",
+      "options": [
+        {"label": "A", "text": "May 5th"},
+        {"label": "B", "text": "May 15th"},
+        {"label": "C", "text": "June 5th"},
+        {"label": "D", "text": "June 15th"}
+      ],
+      "correct": "A",
+      "answer": "Bookings confirmed by May 5th receive a 15 percent discount. 正解：A（紙面掲載の解答と一致）。June 15thは再開日です。",
+      "sourceRefs": ["pdf:task2:p093:qexample2"]
+    },
+    {
+      "passageId": "campus_bookstore",
+      "prompt": "The phrase “swing by” in the passage is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "visit"},
+        {"label": "B", "text": "contact"},
+        {"label": "C", "text": "explore"},
+        {"label": "D", "text": "follow"}
+      ],
+      "correct": "A",
+      "answer": "In this sales invitation, “swing by” means to visit or stop at the bookstore. 正解：A。連絡する・探索する・後について行くという意味ではありません。",
+      "sourceRefs": ["pdf:task2:p094:q01"]
+    },
+    {
+      "passageId": "campus_bookstore",
+      "prompt": "What items are being given away with qualifying purchases?",
+      "options": [
+        {"label": "A", "text": "Used textbooks"},
+        {"label": "B", "text": "School-branded clothing"},
+        {"label": "C", "text": "Computer software"},
+        {"label": "D", "text": "Coffee cups"}
+      ],
+      "correct": "D",
+      "answer": "A purchase over $100 comes with a free coffee mug, which is a coffee cup. 正解：D。他の品目は値引き対象で、無料配布品ではありません。",
+      "sourceRefs": ["pdf:task2:p094:q02"]
+    },
+    {
+      "passageId": "language_exchange",
+      "prompt": "What is indicated about the event?",
+      "options": [
+        {"label": "A", "text": "It takes place once a week."},
+        {"label": "B", "text": "It has been held for many years."},
+        {"label": "C", "text": "It changes venues regularly."},
+        {"label": "D", "text": "It features fun foreign language games."}
+      ],
+      "correct": "A",
+      "answer": "The Language Exchange Night is held every Friday, which means it occurs weekly. 正解：A。開催年数、会場変更、ゲームについては述べられていません。",
+      "sourceRefs": ["pdf:task2:p095:q03"]
+    },
+    {
+      "passageId": "language_exchange",
+      "prompt": "What is NOT covered by the $5 fee?",
+      "options": [
+        {"label": "A", "text": "Entry to the event"},
+        {"label": "B", "text": "Complimentary beverages"},
+        {"label": "C", "text": "Free snacks"},
+        {"label": "D", "text": "A practice book"}
+      ],
+      "correct": "D",
+      "answer": "The fee includes entry, coffee, tea, and finger foods; no practice book is included. 正解：D。",
+      "sourceRefs": ["pdf:task2:p095:q04"]
+    },
+    {
+      "passageId": "fitness_classes",
+      "prompt": "What is this advertisement promoting?",
+      "options": [
+        {"label": "A", "text": "Wellness programs at a community center"},
+        {"label": "B", "text": "Free equipment rentals for residents"},
+        {"label": "C", "text": "Local sports tournaments and competitions"},
+        {"label": "D", "text": "Nutrition workshops and meal planning"}
+      ],
+      "correct": "A",
+      "answer": "The advertisement offers yoga, Pilates, dance, and strength-training classes at a community center. 正解：A。器具貸出、大会、栄養講座の案内ではありません。",
+      "sourceRefs": ["pdf:task2:p096:q05"]
+    },
+    {
+      "passageId": "fitness_classes",
+      "prompt": "How can residents sign up?",
+      "options": [
+        {"label": "A", "text": "By attending the first class"},
+        {"label": "B", "text": "By visiting the center’s front desk"},
+        {"label": "C", "text": "By calling the community center"},
+        {"label": "D", "text": "By accessing the center’s website"}
+      ],
+      "correct": "B",
+      "answer": "Residents are told to register in person at the center’s front desk. 正解：B。電話、ウェブ、初回授業での登録ではありません。",
+      "sourceRefs": ["pdf:task2:p096:q06"]
+    },
+    {
+      "passageId": "semester_abroad",
+      "prompt": "What is a benefit of the program?",
+      "options": [
+        {"label": "A", "text": "It takes place between semesters."},
+        {"label": "B", "text": "It allows travel to multiple countries."},
+        {"label": "C", "text": "It provides academic credit for studies."},
+        {"label": "D", "text": "It is conducted entirely out of classrooms."}
+      ],
+      "correct": "C",
+      "answer": "Participants earn full academic credit for all courses taken at the partner university. 正解：C。一学期間に一つの提携大学で学び、授業外活動だけで構成されるわけではありません。",
+      "sourceRefs": ["pdf:task2:p097:q07"]
+    },
+    {
+      "passageId": "semester_abroad",
+      "prompt": "What is NOT included in the cost of the program?",
+      "options": [
+        {"label": "A", "text": "Course costs"},
+        {"label": "B", "text": "Health insurance"},
+        {"label": "C", "text": "Food and lodging"},
+        {"label": "D", "text": "Travel expenses"}
+      ],
+      "correct": "D",
+      "answer": "The fees cover tuition, meals, health insurance, and a homestay, but travel expenses are not listed. 正解：D。",
+      "sourceRefs": ["pdf:task2:p097:q08"]
+    },
+    {
+      "passageId": "semester_abroad",
+      "prompt": "What can be inferred about the program?",
+      "options": [
+        {"label": "A", "text": "It takes place only during one semester a year."},
+        {"label": "B", "text": "It is free for some participants."},
+        {"label": "C", "text": "It requires students to speak a foreign language."},
+        {"label": "D", "text": "It begins on June 13."}
+      ],
+      "correct": "B",
+      "answer": "Some students may receive grants or aid packages that cover the entire cost, making the program free for them. 正解：B。June 13thは説明会の日で、プログラム開始日ではありません。",
+      "sourceRefs": ["pdf:task2:p097:q09"]
+    },
+    {
+      "passageId": "managerial_workshop",
+      "prompt": "What can be inferred about the workshop?",
+      "options": [
+        {"label": "A", "text": "It will primarily focus on finance and sales."},
+        {"label": "B", "text": "It has been held before."},
+        {"label": "C", "text": "Its attendees are required to bring a detailed professional portfolio."},
+        {"label": "D", "text": "Its primary goal is to help managers find a new job."}
+      ],
+      "correct": "B",
+      "answer": "The specialized module is being included “for the first time” this year, implying that the workshop itself has taken place before. 正解：B。財務・営業は参加対象部門の例で、履歴書や転職支援は述べられていません。",
+      "sourceRefs": ["pdf:task2:p098:q10"]
+    },
+    {
+      "passageId": "managerial_workshop",
+      "prompt": "Why does the advertisement mention a specialized module?",
+      "options": [
+        {"label": "A", "text": "To emphasize the need for technical IT training"},
+        {"label": "B", "text": "To inform attendees of a prerequisite skill"},
+        {"label": "C", "text": "To offer an added benefit of the workshop"},
+        {"label": "D", "text": "To explain a required change in the company’s operating structure"}
+      ],
+      "correct": "C",
+      "answer": "The new module on digital transformation and remote team management is presented as an additional feature of this year’s workshop. 正解：C。受講前提や組織変更の義務ではありません。",
+      "sourceRefs": ["pdf:task2:p098:q11"]
+    },
+    {
+      "passageId": "managerial_workshop",
+      "prompt": "What will the attendees learn?",
+      "options": [
+        {"label": "A", "text": "How to supervise employees working outside the office"},
+        {"label": "B", "text": "How to implement an efficient performance review system"},
+        {"label": "C", "text": "How to facilitate communication among team members"},
+        {"label": "D", "text": "How to receive an official certificate for digital transformation"}
+      ],
+      "correct": "A",
+      "answer": "The workshop includes remote team management, which covers supervising employees who work away from the office. 正解：A。評価制度、社内交流、資格取得は明記されていません。",
+      "sourceRefs": ["pdf:task2:p098:q12"]
+    },
+    {
+      "passageId": "cozy_corner",
+      "prompt": "What is this advertisement promoting?",
+      "options": [
+        {"label": "A", "text": "A job opening at a local diner"},
+        {"label": "B", "text": "A training session on customer service skills"},
+        {"label": "C", "text": "A short-term course on food safety"},
+        {"label": "D", "text": "A new menu at a restaurant"}
+      ],
+      "correct": "A",
+      "answer": "Cozy Corner is hiring full-time and part-time staff and explains duties, requirements, pay, and how to apply. 正解：A。研修、食品安全講座、新メニューの広告ではありません。",
+      "sourceRefs": ["pdf:task2:p099:q13"]
+    },
+    {
+      "passageId": "cozy_corner",
+      "prompt": "What can be inferred about Cozy Corner?",
+      "options": [
+        {"label": "A", "text": "It does not operate between 2 P.M. and 4 P.M."},
+        {"label": "B", "text": "It only hires experienced staff."},
+        {"label": "C", "text": "Its most popular items are drinks."},
+        {"label": "D", "text": "Its employees may work only on nights and weekends."}
+      ],
+      "correct": "D",
+      "answer": "The diner hires both full-time and part-time staff and asks for flexible availability including nights and weekends, so some employees may have only night and weekend shifts. 正解：D。応募は午後2〜4時に受け付け、未経験者も歓迎しています。",
+      "sourceRefs": ["pdf:task2:p099:q14"]
+    },
+    {
+      "passageId": "cozy_corner",
+      "prompt": "Why does the advertisement mention food safety certification?",
+      "options": [
+        {"label": "A", "text": "To specify a job requirement"},
+        {"label": "B", "text": "To inform that training is available"},
+        {"label": "C", "text": "To suggest a compensation package"},
+        {"label": "D", "text": "To give instructions on how to apply"}
+      ],
+      "correct": "A",
+      "answer": "Every new hire must submit the certification within 30 days, making it a job requirement. 正解：A。研修の提供、報酬、応募方法を示すためではありません。",
+      "sourceRefs": ["pdf:task2:p099:q15"]
+    }
+  ]
+}
