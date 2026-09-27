@@ -1,0 +1,215 @@
+{
+  "id": "pdf-task3-p042-049",
+  "title": "Academic Reading · Vocabulary Questions",
+  "task": 3,
+  "date": "2026-09-27T15:00:00+09:00",
+  "level": "B2–C1",
+  "sourceLabel": "提供PDF Task 3 · PDF 42–49ページ／冊子242–249ページ · Vocabulary Questions Example・Practice 01–04・Test 01–10",
+  "verificationNote": "PDF原本画像で7本文、全設問、選択肢、強調語、順序を照合しました。Exampleの正答は紙面掲載の解答と一致しています。PracticeとTestの出版社解答ページ（466–467ページ）は未提供・未照合のため、語義と本文の明示情報に基づく編集解答です。",
+  "passages": {
+    "printing_press": "Printing Press\n\nThe invention of the printing press played a pivotal role in shaping modern civilization. Before its creation, books were copied by hand, a laborious process that limited the spread of knowledge to a small, privileged class. In the mid-fifteenth century, Johannes Gutenberg introduced movable type printing in Europe, revolutionizing access to information. This technology made it possible to produce books quickly, efficiently, and in large quantities.\n\nAs the technology developed, early printing workshops began to appear across Europe, spreading the new method of book production. Artisans and merchants saw opportunities in the rapid duplication of religious texts, scientific treatises, and literature. The demand for printed materials grew quickly, leading to the establishment of printing centers in cities such as Venice, Paris, and London. This dissemination created a network of printers and publishers, accelerating the flow of information throughout the continent.\n\nThe spread of the printing press led to significant social and cultural changes. Wider book distribution promoted literacy among broader segments of society. Ideas and scientific discoveries circulated rapidly, initiating major movements such as the Renaissance and the Reformation. The printing press also facilitated the standardization of languages and texts, reducing inconsistencies caused by manual copying. Newspapers and pamphlets became common, fostering the development of public opinion and political engagement.",
+    "white_bicycle_plan": "Launched in 1965, Amsterdam’s White Bicycle Plan was the first public bike-sharing system in Europe. This project made several white bicycles available for use by the public at no charge. The scheme was short-lived due to theft and vandalism, but it inspired similar projects.\n\nCities like Copenhagen and Paris implemented their own bike-sharing systems. Copenhagen’s Bycyklen introduced improved bike designs and designated stations for pick-up and drop-off. Paris launched its large-scale Vélib’ system, using automated stations across the city. Each city took steps to prevent theft and vandalism. Copenhagen used custom parts incompatible with other bicycles to ensure components were not stolen, while Paris employed GPS to keep track of the bikes.",
+    "humor_theories": "Researchers have presented theories to explain the psychological basis of different types of humor. One is the incongruity theory, which suggests that people find things funny when there is a disparity between expectations and reality. For example, a punch line that unexpectedly disrupts a familiar story structure leads to laughter because it surprises the listener.\n\nAnother is the relief theory. It states that humor allows for the release of psychological tension. Jokes about stressful situations, such as work or exams, often serve to reduce anxiety among listeners. Laughter acts as an emotional release, making challenging events more manageable for individuals and groups.\n\nThe superiority theory offers a different explanation. According to this theory, people experience humor when they feel a sense of superiority over others. For instance, slapstick comedy—where one character repeatedly fails or makes mistakes—evokes laughter because the audience feels superior to the person on stage or screen.",
+    "ukiyo_e": "Japanese woodblock prints are known as ukiyo-e, meaning “pictures of the transient world.” The term ukiyo (meaning “transient world”) was first used to describe the Buddhist concept of life’s transience but later came to represent the pleasure-focused lifestyle of urban Japan from the seventeenth to the nineteenth centuries. The ukiyo-e prints include scenes from everyday life, nature, and entertainment.\n\nThe creation of these prints required collaboration. Artists designed the images, carvers prepared the wooden blocks, and printers applied ink to paper in precise layers. The use of vivid colors, strong outlines, and nuanced details, such as slight variations in paper texture, distinguished these prints. They were widely produced and affordable, making art accessible to newly emerging middle-class people.",
+    "oncoviruses": "Oncoviruses are viruses that can cause cancer in humans or animals. Many of these viruses work by inserting their genetic material into host cells, which can disrupt normal cell regulation and potentially lead to unhampered cell growth and tumor formation. Common examples of oncoviruses include human papillomavirus (HPV), which is linked to cervical and other types of cancer, and hepatitis B and C viruses, which are associated with liver cancer.\n\nNot everyone infected with an oncovirus will develop cancer. The cancer risk depends on additional factors, such as the individual’s genetic background, immune system status, and environmental influences. For example, about 90 percent of young and healthy individuals infected with HPV naturally clear the virus through their immune system within two years without developing any symptoms. Advances such as HPV vaccination have also proven successful in reducing infection rates and lowering cancer risk.",
+    "efficient_market": "Efficient-market Hypothesis\n\nThe efficient-market hypothesis (EMH) posits that asset prices in financial markets reflect available information so efficiently that achieving returns above the average market return, known as excess returns, becomes impossible. It was developed by American economist Eugene Fama, who received the 2013 Nobel Prize in Economics for his work.\n\nIt was traditionally believed that investors mainly profited from arbitrage, which exploits temporary price differences for the same asset between markets or gaps in people’s information. However, Fama observed that markets incorporated relevant price information so quickly that they eliminated opportunities for arbitrage. He also found that short-term asset prices were impossible to predict and essentially followed a “random walk,” a statistical term for the arbitrary fluctuations a data series takes over time.\n\nEMH implied that no investor could consistently outperform the market by employing active investment strategies like market timing—the strategy of trying to predict future market price movements. Rather, EMH suggested that better results could be obtained by tracking overall market performance through an index fund, which is a type of fund designed to match the performance of a specific market index, such as the S&P 500, by holding all the stocks in that index.",
+    "spotted_hyena": "Spotted Hyena Clans\n\nSpotted hyena clans exemplify matriarchal social structures in which females outrank males. In these groups, the dominant female, or matriarch, determines the movement of the group and has priority access to food.\n\nA key feature of the spotted hyena society is the inheritance of rank. Female cubs gradually inherit their mother’s social status and surpass adult males in dominance. For example, young females of high social status have been frequently observed asserting control over feeding sites, with adult males deferring to them by eating last and avoiding challenging females to maintain clan harmony.\n\nThe matriarchal hierarchy of hyena clans significantly impacts group dynamics and survival strategies. Researchers have noted that related females form powerful alliances within the clan, supporting one another during conflicts or when defending territory from outsiders. Their leadership also ensures that food is distributed efficiently, reducing competition and supporting the survival of all clan members. At the same time, high-ranking females and their young gain priority access to carcasses and kills. This food availability promotes higher reproductive success, shorter interbirth intervals, and greater juvenile survival, reinforcing lineage dominance and supporting the clan’s social stability."
+  },
+  "questions": [
+    {
+      "passageId": "printing_press",
+      "prompt": "The word “initiating” in the passage is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "causing"},
+        {"label": "B", "text": "sustaining"},
+        {"label": "C", "text": "highlighting"},
+        {"label": "D", "text": "hindering"}
+      ],
+      "correct": "A",
+      "answer": "正解：A。印刷物を通じて思想や発見が急速に広まり、ルネサンスや宗教改革を引き起こしたという文脈なので、initiatingはcausing（起こす）に最も近いです。",
+      "sourceRefs": ["pdf:task3:p043:qexample-initiating"]
+    },
+    {
+      "passageId": "white_bicycle_plan",
+      "prompt": "The word “inspired” in the first paragraph is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "developed"},
+        {"label": "B", "text": "influenced"},
+        {"label": "C", "text": "abandoned"},
+        {"label": "D", "text": "interrupted"}
+      ],
+      "correct": "B",
+      "answer": "正解：B。短命に終わった計画が、コペンハーゲンやパリの同種の事業へ影響を与えたという流れなので、influencedが最も近いです。",
+      "sourceRefs": ["pdf:task3:p044:qpractice01-inspired"]
+    },
+    {
+      "passageId": "humor_theories",
+      "prompt": "The word “disparity” in the passage is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "difficulty"},
+        {"label": "B", "text": "comparison"},
+        {"label": "C", "text": "difference"},
+        {"label": "D", "text": "reason"}
+      ],
+      "correct": "C",
+      "answer": "正解：C。不一致理論では、期待と現実の食い違いによって笑いが生じると説明されるため、disparityはdifference（相違）を表します。",
+      "sourceRefs": ["pdf:task3:p044:qpractice02-disparity"]
+    },
+    {
+      "passageId": "ukiyo_e",
+      "prompt": "The word “nuanced” in the passage is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "apparent"},
+        {"label": "B", "text": "repetitive"},
+        {"label": "C", "text": "subtle"},
+        {"label": "D", "text": "intricate"}
+      ],
+      "correct": "C",
+      "answer": "正解：C。紙の質感のわずかな違いを例にした細やかな表現を指すため、nuancedはsubtle（微妙な、繊細な）に最も近いです。",
+      "sourceRefs": ["pdf:task3:p045:qpractice03-nuanced"]
+    },
+    {
+      "passageId": "oncoviruses",
+      "prompt": "The word “unhampered” in the passage is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "unfinished"},
+        {"label": "B", "text": "inconsistent"},
+        {"label": "C", "text": "unrestrained"},
+        {"label": "D", "text": "invisible"}
+      ],
+      "correct": "C",
+      "answer": "正解：C。細胞の正常な調節が乱れ、成長が抑えられなくなる文脈なので、unhamperedはunrestrained（制限されない）を意味します。",
+      "sourceRefs": ["pdf:task3:p045:qpractice04-unhampered"]
+    },
+    {
+      "passageId": "efficient_market",
+      "prompt": "The word “reflect” in the first paragraph is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "mirror"},
+        {"label": "B", "text": "display"},
+        {"label": "C", "text": "affect"},
+        {"label": "D", "text": "contain"}
+      ],
+      "correct": "A",
+      "answer": "正解：A。資産価格が利用可能な情報をそのまま反映するという意味なので、mirror（映し出す）が最も近いです。",
+      "sourceRefs": ["pdf:task3:p047:q01"]
+    },
+    {
+      "passageId": "efficient_market",
+      "prompt": "Which of the following best states the main idea of the passage?",
+      "options": [
+        {"label": "A", "text": "Only well-informed investors can achieve excess returns."},
+        {"label": "B", "text": "It is impossible to consistently earn excess returns based on information."},
+        {"label": "C", "text": "Statistical analysis of stock data yields positive results."},
+        {"label": "D", "text": "No market satisfies Fama’s definition of efficiency."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。利用可能な情報が価格へ素早く織り込まれるため、情報や市場予測によって平均を継続的に上回ることはできない、というEMHの中心主張を要約しています。",
+      "sourceRefs": ["pdf:task3:p047:q02"]
+    },
+    {
+      "passageId": "efficient_market",
+      "prompt": "All of the following are true about Eugene Fama EXCEPT:",
+      "options": [
+        {"label": "A", "text": "He was awarded the Nobel Prize in Economics in 2013 for his research."},
+        {"label": "B", "text": "He developed the popular investment vehicle known as the index fund."},
+        {"label": "C", "text": "He found that short-term price movements are unpredictable."},
+        {"label": "D", "text": "He demonstrated that fast information processing eliminated arbitrage opportunities."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。本文はFamaがEMHを発展させ、短期価格の予測不能性や裁定機会の消失を示したと述べますが、インデックスファンドを開発したとは述べていません。",
+      "sourceRefs": ["pdf:task3:p047:q03"]
+    },
+    {
+      "passageId": "efficient_market",
+      "prompt": "Why does the author mention arbitrage?",
+      "options": [
+        {"label": "A", "text": "To show how profits were understood before the efficient-market hypothesis"},
+        {"label": "B", "text": "To explain the mechanism by which an efficient market operates"},
+        {"label": "C", "text": "To argue that arbitrage is the only way for active investors to succeed"},
+        {"label": "D", "text": "To illustrate how to exploit information gaps to achieve excess returns"}
+      ],
+      "correct": "A",
+      "answer": "正解：A。本文は“traditionally believed”として、EMH以前には一時的な価格差や情報格差を利用する裁定が利益の源と考えられていたことを示すために挙げています。",
+      "sourceRefs": ["pdf:task3:p047:q04"]
+    },
+    {
+      "passageId": "efficient_market",
+      "prompt": "What investment strategy is supported by the efficient-market hypothesis?",
+      "options": [
+        {"label": "A", "text": "Studying short-term price fluctuations"},
+        {"label": "B", "text": "Exploiting temporary price differences"},
+        {"label": "C", "text": "Trying to predict future price movements"},
+        {"label": "D", "text": "Tracking the performance of a specific market index"}
+      ],
+      "correct": "D",
+      "answer": "正解：D。EMHは市場を予測する能動的戦略ではなく、特定の市場指数に連動するインデックスファンドで市場全体を追跡する方法を支持します。",
+      "sourceRefs": ["pdf:task3:p047:q05"]
+    },
+    {
+      "passageId": "spotted_hyena",
+      "prompt": "What can be inferred about female cubs of high social status in hyena clans?",
+      "options": [
+        {"label": "A", "text": "They assert authority over adult males."},
+        {"label": "B", "text": "They rarely join alliances within the clan."},
+        {"label": "C", "text": "They usually have a lower status than males."},
+        {"label": "D", "text": "They leave the clan when they grow older."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。高位の若い雌が餌場を支配し、成体の雄が最後に食べて挑戦を避けるという記述から、雌の子が成体の雄に権威を行使すると推測できます。",
+      "sourceRefs": ["pdf:task3:p049:q06"]
+    },
+    {
+      "passageId": "spotted_hyena",
+      "prompt": "How is rank determined in spotted hyena clans?",
+      "options": [
+        {"label": "A", "text": "Older hyenas automatically gain a higher rank."},
+        {"label": "B", "text": "Males inherit social status from their fathers."},
+        {"label": "C", "text": "Female cubs inherit their mother’s status."},
+        {"label": "D", "text": "Each member is ranked by their physical strength."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。第2段落で、雌の子は母親の社会的地位を徐々に受け継ぐと明記されています。年齢、父親、体力による順位ではありません。",
+      "sourceRefs": ["pdf:task3:p049:q07"]
+    },
+    {
+      "passageId": "spotted_hyena",
+      "prompt": "The word “deferring” in the second paragraph is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "clinging"},
+        {"label": "B", "text": "opposing"},
+        {"label": "C", "text": "yielding"},
+        {"label": "D", "text": "advising"}
+      ],
+      "correct": "C",
+      "answer": "正解：C。成体の雄が最後に食べ、雌への挑戦を避けるという行動なので、deferringはyielding（譲る、従う）を意味します。",
+      "sourceRefs": ["pdf:task3:p049:q08"]
+    },
+    {
+      "passageId": "spotted_hyena",
+      "prompt": "Why does the author mention that high-ranking females tend to have higher reproductive success?",
+      "options": [
+        {"label": "A", "text": "To show how reproductive patterns reflect ecological adaptation mechanisms"},
+        {"label": "B", "text": "To explain how hierarchical social structure benefits the clan’s survival"},
+        {"label": "C", "text": "To demonstrate that reduced competition correlates with matriarchal leadership"},
+        {"label": "D", "text": "To highlight that gender does not affect hyena social rank"}
+      ],
+      "correct": "B",
+      "answer": "正解：B。高位の雌と子が餌を優先的に得て、繁殖成功と幼獣の生存率を高める例は、階層構造が血統の維持と群れの安定・生存に寄与することを説明しています。",
+      "sourceRefs": ["pdf:task3:p049:q09"]
+    },
+    {
+      "passageId": "spotted_hyena",
+      "prompt": "What is the relationship between paragraphs 2 and 3?",
+      "options": [
+        {"label": "A", "text": "Paragraph 3 provides problems that result from the social status described in paragraph 2."},
+        {"label": "B", "text": "Paragraph 3 expands upon the information about clan cooperation mentioned in paragraph 2."},
+        {"label": "C", "text": "Paragraph 3 presents exceptions to the social dynamics described in paragraph 2."},
+        {"label": "D", "text": "Paragraph 3 introduces a broader impact of the social structure explained in paragraph 2."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。第2段落は母系で順位を受け継ぐ仕組みを説明し、第3段落はその階層が同盟、餌の分配、繁殖、群れの安定へ及ぼすより広い影響を示します。",
+      "sourceRefs": ["pdf:task3:p049:q10"]
+    }
+  ]
+}

@@ -1026,7 +1026,15 @@
         38,
         39,
         40,
-        41
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
       ],
       "pageItems": {
         "1": [],
@@ -1165,6 +1173,34 @@
           "pdf:task3:p041:q18",
           "pdf:task3:p041:q19",
           "pdf:task3:p041:q20"
+        ],
+        "42": [],
+        "43": [
+          "pdf:task3:p043:qexample-initiating"
+        ],
+        "44": [
+          "pdf:task3:p044:qpractice01-inspired",
+          "pdf:task3:p044:qpractice02-disparity"
+        ],
+        "45": [
+          "pdf:task3:p045:qpractice03-nuanced",
+          "pdf:task3:p045:qpractice04-unhampered"
+        ],
+        "46": [],
+        "47": [
+          "pdf:task3:p047:q01",
+          "pdf:task3:p047:q02",
+          "pdf:task3:p047:q03",
+          "pdf:task3:p047:q04",
+          "pdf:task3:p047:q05"
+        ],
+        "48": [],
+        "49": [
+          "pdf:task3:p049:q06",
+          "pdf:task3:p049:q07",
+          "pdf:task3:p049:q08",
+          "pdf:task3:p049:q09",
+          "pdf:task3:p049:q10"
         ]
       }
     },
@@ -1433,7 +1469,7 @@
       }
     }
   ],
-  "lastSource": "task2",
+  "lastSource": "task3",
   "blockedItems": [],
   "note": "Public progress manifest only: source labels, page counts, reviewed pages, source references and answer-key availability. Private PDFs, OCR cache paths, and file hashes are excluded. Exact PDF question totals require review; publisher answer pages have not been supplied."
 }
