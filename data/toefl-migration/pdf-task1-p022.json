@@ -1,0 +1,138 @@
+{
+  "id": "pdf-task1-p022",
+  "title": "Complete the Words · Contextual Blanks Practice II",
+  "task": 1,
+  "date": "2026-09-27T11:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 22ページ／冊子50ページ · Contextual Blanks Practice問11–15（15空欄）",
+  "verificationNote": "Editorial answers（編集・確認した解答）。PDF原本画像で全5文、表示済み文字、空欄数、設問順を照合し、文法・語法・文脈から15語を確定しました。出版社の解答ページ（406ページ）は未提供・未照合です。同じ設問の3空欄は、すべて提出するまで正答が表示されません。",
+  "passages": {
+    "11": "Newton's First Law of Motion sta___ that an object at rest remains at rest, and an object in motion remains in motion with the same sp___ and in the same dire_____, unless acted upon by an unbalanced external force.",
+    "12": "Culture is typically div____ into two main categories: nonmaterial culture, which incl____ ideas and attitudes, and material culture, which cons____ of tangible artifacts like tools and architecture.",
+    "13": "The Doppler effect describes the cha___ in frequency or wavelength of a wave in rela____ to an observer who is moving relative to the wave source. For example, when a celestial object moves tow___ Earth, its light waves are compressed; when it moves away, the waves are stretched.",
+    "14": "Modern research relies on dist____ methods that compl_____ one another. For instance, quantitative research identifies broad statistical patterns but lacks depth, while qualitative research offers rich det____ but struggles with generalizability.",
+    "15": "Sustainable design seeks to minimize the negative environmental imp___ of buildings by efficiently using resources, creating hea____ environments, and reducing energy consumption. This approach considers the building's ent___ lifecycle, from the sourcing of materials to construction, operation, and eventual demolition or reuse."
+  },
+  "questions": [
+    {
+      "passageId": "11",
+      "prompt": "Practice 11: complete sta___. Enter the missing letters.",
+      "prefix": "sta",
+      "word": "states",
+      "answer": "State means to express something formally or clearly. 正解：tes → states（述べる）。主語Newton's First Law of Motionが三人称単数で、法則の内容を述べるためstatesとなります。",
+      "sourceRefs": ["pdf:task1:p022:q11-gap1"]
+    },
+    {
+      "passageId": "11",
+      "prompt": "Practice 11: complete sp___. Enter the missing letters.",
+      "prefix": "sp",
+      "word": "speed",
+      "answer": "Speed is the rate at which an object moves. 正解：eed → speed（速さ）。同じ速さと同じ方向で運動を続けるという慣性の法則の説明です。",
+      "sourceRefs": ["pdf:task1:p022:q11-gap2"]
+    },
+    {
+      "passageId": "11",
+      "prompt": "Practice 11: complete dire_____. Enter the missing letters.",
+      "prefix": "dire",
+      "word": "direction",
+      "answer": "Direction is the course along which something moves. 正解：ction → direction（方向）。the same speed and in the same directionという並列です。",
+      "sourceRefs": ["pdf:task1:p022:q11-gap3"]
+    },
+    {
+      "passageId": "12",
+      "prompt": "Practice 12: complete div____. Enter the missing letters.",
+      "prefix": "div",
+      "word": "divided",
+      "answer": "Divide means to separate something into parts or groups. 正解：ided → divided（分けられた）。be divided into two categoriesで「二つの分類に分けられる」となります。",
+      "sourceRefs": ["pdf:task1:p022:q12-gap1"]
+    },
+    {
+      "passageId": "12",
+      "prompt": "Practice 12: complete incl____. Enter the missing letters.",
+      "prefix": "incl",
+      "word": "includes",
+      "answer": "Include means to contain something as part of a whole. 正解：udes → includes（含む）。関係代名詞whichの先行詞nonmaterial cultureが単数なのでincludesです。",
+      "sourceRefs": ["pdf:task1:p022:q12-gap2"]
+    },
+    {
+      "passageId": "12",
+      "prompt": "Practice 12: complete cons____. Enter the missing letters.",
+      "prefix": "cons",
+      "word": "consists",
+      "answer": "Consist of means to be composed of particular parts. 正解：ists → consists（〜から成る）。material cultureが道具や建築物などの有形物から成ることを説明します。",
+      "sourceRefs": ["pdf:task1:p022:q12-gap3"]
+    },
+    {
+      "passageId": "13",
+      "prompt": "Practice 13: complete cha___. Enter the missing letters.",
+      "prefix": "cha",
+      "word": "change",
+      "answer": "A change is a difference or alteration. 正解：nge → change（変化）。ドップラー効果が波の周波数または波長の変化を表す文脈です。",
+      "sourceRefs": ["pdf:task1:p022:q13-gap1"]
+    },
+    {
+      "passageId": "13",
+      "prompt": "Practice 13: complete rela____. Enter the missing letters.",
+      "prefix": "rela",
+      "word": "relation",
+      "answer": "In relation to means with reference to or compared with something. 正解：tion → relation（関係）。波源に対して移動する観測者との関係を説明します。",
+      "sourceRefs": ["pdf:task1:p022:q13-gap2"]
+    },
+    {
+      "passageId": "13",
+      "prompt": "Practice 13: complete tow___. Enter the missing letters.",
+      "prefix": "tow",
+      "word": "toward",
+      "answer": "Toward means in the direction of something. 正解：ard → toward（〜の方へ）。天体が地球へ近づく場合と遠ざかる場合を対比しています。",
+      "sourceRefs": ["pdf:task1:p022:q13-gap3"]
+    },
+    {
+      "passageId": "14",
+      "prompt": "Practice 14: complete dist____. Enter the missing letters.",
+      "prefix": "dist",
+      "word": "distinct",
+      "answer": "Distinct means clearly different or separate. 正解：inct → distinct（異なる・別個の）。量的研究と質的研究という異なる方法を述べています。",
+      "sourceRefs": ["pdf:task1:p022:q14-gap1"]
+    },
+    {
+      "passageId": "14",
+      "prompt": "Practice 14: complete compl_____. Enter the missing letters.",
+      "prefix": "compl",
+      "word": "complement",
+      "answer": "Complement means to complete or improve something by adding a different strength. 正解：ement → complement（補完する）。量的研究の広さと質的研究の深さが互いを補う文脈です。",
+      "sourceRefs": ["pdf:task1:p022:q14-gap2"]
+    },
+    {
+      "passageId": "14",
+      "prompt": "Practice 14: complete det____. Enter the missing letters.",
+      "prefix": "det",
+      "word": "details",
+      "answer": "Details are specific pieces of information. 正解：ails → details（詳細）。qualitative researchがrich detailsを提供する一方、一般化には限界があるという対比です。",
+      "sourceRefs": ["pdf:task1:p022:q14-gap3"]
+    },
+    {
+      "passageId": "15",
+      "prompt": "Practice 15: complete imp___. Enter the missing letters.",
+      "prefix": "imp",
+      "word": "impact",
+      "answer": "Impact means a strong effect or influence. 正解：act → impact（影響）。建物が環境へ与える悪影響を最小化する文脈です。",
+      "sourceRefs": ["pdf:task1:p022:q15-gap1"]
+    },
+    {
+      "passageId": "15",
+      "prompt": "Practice 15: complete hea____. Enter the missing letters.",
+      "prefix": "hea",
+      "word": "healthy",
+      "answer": "Healthy means beneficial to physical or environmental well-being. 正解：lthy → healthy（健康的な）。資源効率と省エネルギーに加え、利用者に健全な環境を作る設計を表します。",
+      "sourceRefs": ["pdf:task1:p022:q15-gap2"]
+    },
+    {
+      "passageId": "15",
+      "prompt": "Practice 15: complete ent___. Enter the missing letters.",
+      "prefix": "ent",
+      "word": "entire",
+      "answer": "Entire means whole or complete. 正解：ire → entire（全体の）。材料調達から解体・再利用まで建物のライフサイクル全体を考慮する文脈です。",
+      "sourceRefs": ["pdf:task1:p022:q15-gap3"]
+    }
+  ]
+}
