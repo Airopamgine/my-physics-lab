@@ -1,0 +1,178 @@
+{
+  "id": "pdf-task1-p023",
+  "title": "Complete the Words · Contextual Blanks Practice III",
+  "task": 1,
+  "date": "2026-09-27T17:00:00+03:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 23ページ／冊子51ページ · Contextual Blanks Practice問16–20（20空欄）",
+  "verificationNote": "Editorial answers（編集・確認した解答）。PDF原本画像で全5文、表示済み文字、空欄数、設問順を照合し、文法・語法・文脈から20語を確定しました。出版社の解答ページ（406ページ）は未提供・未照合です。同じ設問の4空欄は、すべて提出するまで正答が表示されません。",
+  "passages": {
+    "16": "The law of sup___ and dem___ is the bedrock prin_____ of market economics, describing the inter______ between the availability of a resource and the desire for that resource.",
+    "17": "Motivation is the process that starts, directs, and sustains someone's beha____ toward goals. It can be driven by internal satisf______ or fueled by external incen_____ like rewards or pra___.",
+    "18": "Language is not a fi___ system but a constantly evolving one. New words eme___, old forms disappear, and meanings shift over time. Linguists ana____ these changes to understand both cogn_____ processes and social dynamics.",
+    "19": "Mod___ telescopes, both on Earth and in space, allow scientists to observe dis____ galaxies, nebulae, and exoplanets orbiting other stars. The discovery of these exoplanets has intensified the search for extraterrestrial life, rai____ questions about whether Earth is uni___.",
+    "20": "The concept of the longue durée (long term) emphasizes the profound influence of slow-moving, structural fac____—such as geography, cli____ patterns, or demographics—that shape civilizations over generations. This period of sub___, gra____ transformation is considered by many scholars to be more fundamental to human history than the spectacular, instantaneous events that capture headlines."
+  },
+  "questions": [
+    {
+      "passageId": "16",
+      "prompt": "Practice 16: complete sup___. Enter the missing letters.",
+      "prefix": "sup",
+      "word": "supply",
+      "answer": "Supply is the amount of a resource or product available. 正解：ply → supply（供給）。市場経済の基本原理であるthe law of supply and demandという定型表現です。",
+      "sourceRefs": ["pdf:task1:p023:q16-gap1"]
+    },
+    {
+      "passageId": "16",
+      "prompt": "Practice 16: complete dem___. Enter the missing letters.",
+      "prefix": "dem",
+      "word": "demand",
+      "answer": "Demand is the desire or need for a product or resource. 正解：and → demand（需要）。resourceへのdesireを説明するthe law of supply and demandの一部です。",
+      "sourceRefs": ["pdf:task1:p023:q16-gap2"]
+    },
+    {
+      "passageId": "16",
+      "prompt": "Practice 16: complete prin_____. Enter the missing letters.",
+      "prefix": "prin",
+      "word": "principle",
+      "answer": "A principle is a fundamental rule, idea, or belief. 正解：ciple → principle（原理・原則）。需要と供給の法則を市場経済のbedrock principleと呼ぶ文脈です。",
+      "sourceRefs": ["pdf:task1:p023:q16-gap3"]
+    },
+    {
+      "passageId": "16",
+      "prompt": "Practice 16: complete inter______. Enter the missing letters.",
+      "prefix": "inter",
+      "word": "interaction",
+      "answer": "Interaction is the way two or more things affect one another. 正解：action → interaction（相互作用）。資源の供給量とその資源への需要が互いに関係する仕組みを説明します。",
+      "sourceRefs": ["pdf:task1:p023:q16-gap4"]
+    },
+    {
+      "passageId": "17",
+      "prompt": "Practice 17: complete beha____. Enter the missing letters.",
+      "prefix": "beha",
+      "word": "behavior",
+      "answer": "Behavior is the way a person or organism acts. 正解：vior → behavior（行動）。motivationが目標に向かう人の行動を開始・方向付け・維持する文脈です。",
+      "sourceRefs": ["pdf:task1:p023:q17-gap1"]
+    },
+    {
+      "passageId": "17",
+      "prompt": "Practice 17: complete satisf______. Enter the missing letters.",
+      "prefix": "satisf",
+      "word": "satisfaction",
+      "answer": "Satisfaction is the feeling of pleasure or fulfillment gained from achieving or doing something. 正解：action → satisfaction（満足・充足）。報酬などの外的要因と対比されるinternal satisfactionの文脈です。",
+      "sourceRefs": ["pdf:task1:p023:q17-gap2"]
+    },
+    {
+      "passageId": "17",
+      "prompt": "Practice 17: complete incen_____. Enter the missing letters.",
+      "prefix": "incen",
+      "word": "incentives",
+      "answer": "Incentives are rewards or other factors that encourage action. 正解：tives → incentives（動機付け・奨励策）。rewardsやpraiseを外的な動機付けの例として挙げています。",
+      "sourceRefs": ["pdf:task1:p023:q17-gap3"]
+    },
+    {
+      "passageId": "17",
+      "prompt": "Practice 17: complete pra___. Enter the missing letters.",
+      "prefix": "pra",
+      "word": "praise",
+      "answer": "Praise is approval or admiration expressed for someone's actions or achievements. 正解：ise → praise（称賛）。報酬と並ぶexternal incentiveの例です。",
+      "sourceRefs": ["pdf:task1:p023:q17-gap4"]
+    },
+    {
+      "passageId": "18",
+      "prompt": "Practice 18: complete fi___. Enter the missing letters.",
+      "prefix": "fi",
+      "word": "fixed",
+      "answer": "Fixed means not changing or developing. 正解：xed → fixed（固定された）。言語は固定された体系ではなく常に進化する、という対比です。",
+      "sourceRefs": ["pdf:task1:p023:q18-gap1"]
+    },
+    {
+      "passageId": "18",
+      "prompt": "Practice 18: complete eme___. Enter the missing letters.",
+      "prefix": "eme",
+      "word": "emerge",
+      "answer": "Emerge means to appear or come into existence. 正解：rge → emerge（現れる・生じる）。新語が生まれ、古い形が消える言語変化の文脈です。",
+      "sourceRefs": ["pdf:task1:p023:q18-gap2"]
+    },
+    {
+      "passageId": "18",
+      "prompt": "Practice 18: complete ana____. Enter the missing letters.",
+      "prefix": "ana",
+      "word": "analyze",
+      "answer": "Analyze means to examine something carefully by considering its parts or evidence. 正解：lyze → analyze（分析する）。言語学者が言語変化を調べる文脈です。",
+      "sourceRefs": ["pdf:task1:p023:q18-gap3"]
+    },
+    {
+      "passageId": "18",
+      "prompt": "Practice 18: complete cogn_____. Enter the missing letters.",
+      "prefix": "cogn",
+      "word": "cognitive",
+      "answer": "Cognitive means relating to thinking, learning, memory, and other mental processes. 正解：itive → cognitive（認知の）。言語変化から認知過程と社会的力学を理解する文脈です。",
+      "sourceRefs": ["pdf:task1:p023:q18-gap4"]
+    },
+    {
+      "passageId": "19",
+      "prompt": "Practice 19: complete Mod___. Enter the missing letters.",
+      "prefix": "Mod",
+      "word": "Modern",
+      "answer": "Modern means relating to the present or recent times. 正解：ern → Modern（現代の）。地上と宇宙にある現代の望遠鏡の能力を説明する文脈です。",
+      "sourceRefs": ["pdf:task1:p023:q19-gap1"]
+    },
+    {
+      "passageId": "19",
+      "prompt": "Practice 19: complete dis____. Enter the missing letters.",
+      "prefix": "dis",
+      "word": "distant",
+      "answer": "Distant means far away in space or time. 正解：tant → distant（遠方の）。望遠鏡で観測する遠い銀河、星雲、系外惑星の文脈です。",
+      "sourceRefs": ["pdf:task1:p023:q19-gap2"]
+    },
+    {
+      "passageId": "19",
+      "prompt": "Practice 19: complete rai____. Enter the missing letters.",
+      "prefix": "rai",
+      "word": "raising",
+      "answer": "Raise a question means to bring a question up for consideration. 正解：sing → raising（提起している）。系外惑星の発見が地球の独自性について疑問を投げかける文脈です。",
+      "sourceRefs": ["pdf:task1:p023:q19-gap3"]
+    },
+    {
+      "passageId": "19",
+      "prompt": "Practice 19: complete uni___. Enter the missing letters.",
+      "prefix": "uni",
+      "word": "unique",
+      "answer": "Unique means being the only one of its kind or unlike anything else. 正解：que → unique（唯一の・独特な）。地球外生命の探索が、地球は唯一なのかという問いを生む文脈です。",
+      "sourceRefs": ["pdf:task1:p023:q19-gap4"]
+    },
+    {
+      "passageId": "20",
+      "prompt": "Practice 20: complete fac____. Enter the missing letters.",
+      "prefix": "fac",
+      "word": "factors",
+      "answer": "Factors are conditions or elements that contribute to a result. 正解：tors → factors（要因）。地理、気候パターン、人口動態を文明形成に影響する構造的要因として挙げています。",
+      "sourceRefs": ["pdf:task1:p023:q20-gap1"]
+    },
+    {
+      "passageId": "20",
+      "prompt": "Practice 20: complete cli____. Enter the missing letters.",
+      "prefix": "cli",
+      "word": "climate",
+      "answer": "Climate is the typical weather pattern of a region over a long period. 正解：mate → climate（気候）。文明を長期的に形作るgeography、climate patterns、demographicsの並列です。",
+      "sourceRefs": ["pdf:task1:p023:q20-gap2"]
+    },
+    {
+      "passageId": "20",
+      "prompt": "Practice 20: complete sub___. Enter the missing letters.",
+      "prefix": "sub",
+      "word": "subtle",
+      "answer": "Subtle means not immediately obvious and involving small or gradual changes. 正解：tle → subtle（微妙な・目立たない）。派手な瞬間的事件と対比される、気づきにくい長期変化の文脈です。",
+      "sourceRefs": ["pdf:task1:p023:q20-gap3"]
+    },
+    {
+      "passageId": "20",
+      "prompt": "Practice 20: complete gra____. Enter the missing letters.",
+      "prefix": "gra",
+      "word": "gradual",
+      "answer": "Gradual means happening slowly over a period of time. 正解：dual → gradual（徐々の・段階的な）。世代を超えて進む長期的な変容を説明します。",
+      "sourceRefs": ["pdf:task1:p023:q20-gap4"]
+    }
+  ]
+}
