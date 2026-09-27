@@ -1,0 +1,148 @@
+{
+  "id": "pdf-vocabulary-day04-part4",
+  "title": "Vocabulary Day 04 · Context Completion 4",
+  "task": 1,
+  "date": "2026-09-27T09:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 5ページ／冊子383ページ · Day 04の46〜60語（全60語完了）",
+  "verificationNote": "掲載語・綴り・掲載順をPDF原本画像で確認済みです。各語を文脈で判断できるmissing-letter exerciseへ編集しています。出版社の公式解答表は未収録ですが、正答は掲載headwordと一致します。未回答の語の正答は、その語を提出するまで表示されません。",
+  "passages": {
+    "responsible": "The engineering team was res________ for checking the bridge before it reopened.",
+    "seasonal": "The lake's water level follows a sea_____ pattern, rising during the rainy months.",
+    "soar": "Warm rising air can help large birds so__ without repeatedly flapping their wings.",
+    "spark": "A single lightning strike can sp___ a wildfire during a prolonged drought.",
+    "strain": "The added load placed a str___ on the support cable.",
+    "superior": "The new composite proved sup_____ to aluminum in strength-to-weight tests.",
+    "symbiotic": "Coral and algae maintain a sym______ relationship in which both organisms benefit.",
+    "texture": "Cooling conditions can change the tex____ of volcanic rock.",
+    "tradition": "The annual ceremony is a tra______ passed down through many generations.",
+    "unclear": "Because the signal was weak, its exact source remained unc____.",
+    "unintended": "Introducing a new predator had uni_______ effects on the island ecosystem.",
+    "unrelated": "The second temperature change was unr______ to the first experiment.",
+    "various": "The survey compared var____ methods for measuring air pollution.",
+    "vital": "Reliable communication is vi___ for coordinating emergency teams.",
+    "wildlife": "The protected wetland provides food and shelter for local wil_____."
+  },
+  "questions": [
+    {
+      "passageId": "responsible",
+      "prompt": "Day 04 vocabulary: complete res________. Enter the missing letters.",
+      "prefix": "res",
+      "word": "responsible",
+      "answer": "Responsible means having a duty to do something or being accountable for it. 正解：ponsible → responsible（責任がある・責任を負う）。橋の再開前点検を担当する技術チームの文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qresponsible"]
+    },
+    {
+      "passageId": "seasonal",
+      "prompt": "Day 04 vocabulary: complete sea_____. Enter the missing letters.",
+      "prefix": "sea",
+      "word": "seasonal",
+      "answer": "Seasonal means occurring in or changing with a particular season. 正解：sonal → seasonal（季節の・季節的な）。雨季に上昇する湖の水位の周期を説明する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qseasonal"]
+    },
+    {
+      "passageId": "soar",
+      "prompt": "Day 04 vocabulary: complete so__. Enter the missing letters.",
+      "prefix": "so",
+      "word": "soar",
+      "answer": "Soar means to fly or rise high in the air. 正解：ar → soar（舞い上がる・急上昇する）。大型の鳥が上昇気流を利用して羽ばたかずに飛ぶ文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qsoar"]
+    },
+    {
+      "passageId": "spark",
+      "prompt": "Day 04 vocabulary: complete sp___. Enter the missing letters.",
+      "prefix": "sp",
+      "word": "spark",
+      "answer": "Spark means to cause something to begin; as a noun, it is a tiny flash of fire or electricity. 正解：ark → spark（引き起こす・火花）。落雷が干ばつ時の山火事を引き起こす文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qspark"]
+    },
+    {
+      "passageId": "strain",
+      "prompt": "Day 04 vocabulary: complete str___. Enter the missing letters.",
+      "prefix": "str",
+      "word": "strain",
+      "answer": "Strain is pressure or tension placed on something. 正解：ain → strain（負担・緊張）。追加荷重が支持ケーブルに負担をかける文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qstrain"]
+    },
+    {
+      "passageId": "superior",
+      "prompt": "Day 04 vocabulary: complete sup_____. Enter the missing letters.",
+      "prefix": "sup",
+      "word": "superior",
+      "answer": "Superior means better in quality, performance, or rank. 正解：erior → superior（優れた・上位の）。新しい複合材料が強度重量比でアルミニウムより優れる文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qsuperior"]
+    },
+    {
+      "passageId": "symbiotic",
+      "prompt": "Day 04 vocabulary: complete sym______. Enter the missing letters.",
+      "prefix": "sym",
+      "word": "symbiotic",
+      "answer": "Symbiotic means involving a close relationship between different organisms, often benefiting both. 正解：biotic → symbiotic（共生の・相互依存的な）。サンゴと藻類が互いに利益を得る関係の文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qsymbiotic"]
+    },
+    {
+      "passageId": "texture",
+      "prompt": "Day 04 vocabulary: complete tex____. Enter the missing letters.",
+      "prefix": "tex",
+      "word": "texture",
+      "answer": "Texture is the way a surface or material feels or appears. 正解：ture → texture（質感・組織）。冷却条件によって火山岩の質感が変わる文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qtexture"]
+    },
+    {
+      "passageId": "tradition",
+      "prompt": "Day 04 vocabulary: complete tra______. Enter the missing letters.",
+      "prefix": "tra",
+      "word": "tradition",
+      "answer": "A tradition is a custom or belief passed from one generation to another. 正解：dition → tradition（伝統・慣習）。毎年の儀式が世代を超えて受け継がれる文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qtradition"]
+    },
+    {
+      "passageId": "unclear",
+      "prompt": "Day 04 vocabulary: complete unc____. Enter the missing letters.",
+      "prefix": "unc",
+      "word": "unclear",
+      "answer": "Unclear means not easy to understand, see, or determine. 正解：lear → unclear（不明確な・はっきりしない）。弱い信号の発生源を特定できない文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qunclear"]
+    },
+    {
+      "passageId": "unintended",
+      "prompt": "Day 04 vocabulary: complete uni_______. Enter the missing letters.",
+      "prefix": "uni",
+      "word": "unintended",
+      "answer": "Unintended means not planned or meant to happen. 正解：ntended → unintended（意図しない・予期しない）。捕食者の導入が島の生態系に予期しない影響を与えた文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qunintended"]
+    },
+    {
+      "passageId": "unrelated",
+      "prompt": "Day 04 vocabulary: complete unr______. Enter the missing letters.",
+      "prefix": "unr",
+      "word": "unrelated",
+      "answer": "Unrelated means having no connection with something else. 正解：elated → unrelated（無関係な）。二度目の温度変化が最初の実験とは関係しない文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qunrelated"]
+    },
+    {
+      "passageId": "various",
+      "prompt": "Day 04 vocabulary: complete var____. Enter the missing letters.",
+      "prefix": "var",
+      "word": "various",
+      "answer": "Various means several different kinds or types. 正解：ious → various（さまざまな・いろいろな）。大気汚染を測る複数の異なる方法を比較する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qvarious"]
+    },
+    {
+      "passageId": "vital",
+      "prompt": "Day 04 vocabulary: complete vi___. Enter the missing letters.",
+      "prefix": "vi",
+      "word": "vital",
+      "answer": "Vital means essential, extremely important, or necessary for life. 正解：tal → vital（不可欠な・生命の）。緊急対応チームの連携に信頼できる通信が不可欠な文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qvital"]
+    },
+    {
+      "passageId": "wildlife",
+      "prompt": "Day 04 vocabulary: complete wil_____. Enter the missing letters.",
+      "prefix": "wil",
+      "word": "wildlife",
+      "answer": "Wildlife means animals and plants living in their natural environment. 正解：dlife → wildlife（野生生物）。保護湿地が地域の野生生物に食物とすみかを提供する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p005:qwildlife"]
+    }
+  ]
+}
