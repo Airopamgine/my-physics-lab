@@ -292,7 +292,8 @@
         18,
         19,
         20,
-        21
+        21,
+        22
       ],
       "pageItems": {
         "1": [],
@@ -439,6 +440,23 @@
           "pdf:task1:p021:q09-gap2",
           "pdf:task1:p021:q10-gap1",
           "pdf:task1:p021:q10-gap2"
+        ],
+        "22": [
+          "pdf:task1:p022:q11-gap1",
+          "pdf:task1:p022:q11-gap2",
+          "pdf:task1:p022:q11-gap3",
+          "pdf:task1:p022:q12-gap1",
+          "pdf:task1:p022:q12-gap2",
+          "pdf:task1:p022:q12-gap3",
+          "pdf:task1:p022:q13-gap1",
+          "pdf:task1:p022:q13-gap2",
+          "pdf:task1:p022:q13-gap3",
+          "pdf:task1:p022:q14-gap1",
+          "pdf:task1:p022:q14-gap2",
+          "pdf:task1:p022:q14-gap3",
+          "pdf:task1:p022:q15-gap1",
+          "pdf:task1:p022:q15-gap2",
+          "pdf:task1:p022:q15-gap3"
         ]
       }
     },
@@ -1375,7 +1393,7 @@
       }
     }
   ],
-  "lastSource": "vocabulary",
+  "lastSource": "task1",
   "blockedItems": [],
   "note": "Public progress manifest only: source labels, page counts, reviewed pages, source references and answer-key availability. Private PDFs, OCR cache paths, and file hashes are excluded. Exact PDF question totals require review; publisher answer pages have not been supplied."
 }
