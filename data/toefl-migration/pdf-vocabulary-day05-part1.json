@@ -1,0 +1,148 @@
+{
+  "id": "pdf-vocabulary-day05-part1",
+  "title": "Vocabulary Day 05 · Context Completion 1",
+  "task": 1,
+  "date": "2026-09-27T17:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 6ページ／冊子384ページ · Day 05先頭15語（全60語中）",
+  "verificationNote": "掲載語・綴り・掲載順をPDF原本画像で確認済みです。各語を文脈で判断できるmissing-letter exerciseへ編集しています。出版社の公式解答表は未収録ですが、正答は掲載headwordと一致します。未回答の語の正答は、その語を提出するまで表示されません。",
+  "passages": {
+    "adore": "Many visitors ad___ the ancient temple for its intricate stonework.",
+    "arduous": "Climbing the steep, icy slope was an ar_____ task for the expedition.",
+    "aware": "Scientists are aw___ that small sampling errors can distort the results.",
+    "blend": "The artist used soft colors that bl___ naturally into one another.",
+    "boundary": "The river forms a natural bou_____ between the two regions.",
+    "cartography": "Modern car________ combines satellite data with geographic analysis to produce maps.",
+    "classical": "The library preserves clas_____ texts from ancient Greece and Rome.",
+    "competition": "Strong com________ among species can occur when food is scarce.",
+    "conflict": "A con_____ arose when the two teams interpreted the data differently.",
+    "cosmic": "Telescopes detect cos___ radiation from distant objects.",
+    "critique": "The journal published a cri_____ of the new research method.",
+    "cycle": "Water moves through a continuous cy___ of evaporation and precipitation.",
+    "democracy": "In a dem______, citizens choose representatives through elections.",
+    "developer": "The software dev______ released an update to fix the security flaw.",
+    "diverse": "The rainforest supports a di_____ range of plant and animal species."
+  },
+  "questions": [
+    {
+      "passageId": "adore",
+      "prompt": "Day 05 vocabulary: complete ad___. Enter the missing letters.",
+      "prefix": "ad",
+      "word": "adore",
+      "answer": "Adore means to love or admire someone or something very much. 正解：ore → adore（崇拝する・とても好む）。訪問者が古代寺院の精巧な石造装飾を高く評価する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qadore"]
+    },
+    {
+      "passageId": "arduous",
+      "prompt": "Day 05 vocabulary: complete ar_____. Enter the missing letters.",
+      "prefix": "ar",
+      "word": "arduous",
+      "answer": "Arduous means very difficult and requiring great effort. 正解：duous → arduous（骨の折れる・困難な）。探検隊が急な氷の斜面を登る厳しい課題の文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qarduous"]
+    },
+    {
+      "passageId": "aware",
+      "prompt": "Day 05 vocabulary: complete aw___. Enter the missing letters.",
+      "prefix": "aw",
+      "word": "aware",
+      "answer": "Aware means knowing or realizing that something exists or is true. 正解：are → aware（認識している・気づいている）。科学者が標本誤差の影響を理解している文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qaware"]
+    },
+    {
+      "passageId": "blend",
+      "prompt": "Day 05 vocabulary: complete bl___. Enter the missing letters.",
+      "prefix": "bl",
+      "word": "blend",
+      "answer": "Blend means to mix or combine smoothly. 正解：end → blend（混ぜる・溶け合う）。柔らかな色同士が自然になじむ文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qblend"]
+    },
+    {
+      "passageId": "boundary",
+      "prompt": "Day 05 vocabulary: complete bou_____. Enter the missing letters.",
+      "prefix": "bou",
+      "word": "boundary",
+      "answer": "A boundary is a line or limit separating two areas. 正解：ndary → boundary（境界・限界）。川が二つの地域を分ける自然の境界になる文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qboundary"]
+    },
+    {
+      "passageId": "cartography",
+      "prompt": "Day 05 vocabulary: complete car________. Enter the missing letters.",
+      "prefix": "car",
+      "word": "cartography",
+      "answer": "Cartography is the science or practice of making maps. 正解：tography → cartography（地図学・地図製作）。衛星データと地理分析を使って地図を作る文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qcartography"]
+    },
+    {
+      "passageId": "classical",
+      "prompt": "Day 05 vocabulary: complete clas_____. Enter the missing letters.",
+      "prefix": "clas",
+      "word": "classical",
+      "answer": "Classical means relating to the culture, art, or literature of ancient Greece and Rome, or following an established traditional form. 正解：sical → classical（古典の・伝統的な）。図書館が古代ギリシャ・ローマの文献を保存する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qclassical"]
+    },
+    {
+      "passageId": "competition",
+      "prompt": "Day 05 vocabulary: complete com________. Enter the missing letters.",
+      "prefix": "com",
+      "word": "competition",
+      "answer": "Competition is a situation in which people or organisms try to gain the same limited resource or advantage. 正解：petition → competition（競争・競合）。食物が乏しいときに生物種同士が資源を奪い合う文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qcompetition"]
+    },
+    {
+      "passageId": "conflict",
+      "prompt": "Day 05 vocabulary: complete con_____. Enter the missing letters.",
+      "prefix": "con",
+      "word": "conflict",
+      "answer": "A conflict is a serious disagreement or clash. 正解：flict → conflict（対立・衝突）。二つのチームがデータを異なって解釈し、意見の対立が起きる文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qconflict"]
+    },
+    {
+      "passageId": "cosmic",
+      "prompt": "Day 05 vocabulary: complete cos___. Enter the missing letters.",
+      "prefix": "cos",
+      "word": "cosmic",
+      "answer": "Cosmic means relating to the universe or outer space. 正解：mic → cosmic（宇宙の）。望遠鏡が遠方天体から届く宇宙放射線を検出する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qcosmic"]
+    },
+    {
+      "passageId": "critique",
+      "prompt": "Day 05 vocabulary: complete cri_____. Enter the missing letters.",
+      "prefix": "cri",
+      "word": "critique",
+      "answer": "A critique is a detailed analysis and evaluation, often pointing out strengths and weaknesses. 正解：tique → critique（批評・批評する）。学術誌が新しい研究手法への評価を掲載する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qcritique"]
+    },
+    {
+      "passageId": "cycle",
+      "prompt": "Day 05 vocabulary: complete cy___. Enter the missing letters.",
+      "prefix": "cy",
+      "word": "cycle",
+      "answer": "A cycle is a series of events that repeats in the same order. 正解：cle → cycle（循環・周期）。蒸発と降水を繰り返す水の循環を説明する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qcycle"]
+    },
+    {
+      "passageId": "democracy",
+      "prompt": "Day 05 vocabulary: complete dem______. Enter the missing letters.",
+      "prefix": "dem",
+      "word": "democracy",
+      "answer": "Democracy is a system of government in which citizens exercise power directly or through elected representatives. 正解：ocracy → democracy（民主主義）。市民が選挙で代表者を選ぶ政治制度の文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qdemocracy"]
+    },
+    {
+      "passageId": "developer",
+      "prompt": "Day 05 vocabulary: complete dev______. Enter the missing letters.",
+      "prefix": "dev",
+      "word": "developer",
+      "answer": "A developer is a person or organization that creates or improves a product, system, or property. 正解：eloper → developer（開発者）。ソフトウェア開発者が安全上の欠陥を直す更新を公開する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qdeveloper"]
+    },
+    {
+      "passageId": "diverse",
+      "prompt": "Day 05 vocabulary: complete di_____. Enter the missing letters.",
+      "prefix": "di",
+      "word": "diverse",
+      "answer": "Diverse means including many different types or varieties. 正解：verse → diverse（多様な・さまざまな）。熱帯雨林に多種多様な動植物が生息する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qdiverse"]
+    }
+  ]
+}
