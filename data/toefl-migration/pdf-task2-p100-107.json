@@ -1,0 +1,241 @@
+{
+  "id": "pdf-task2-p100-107",
+  "title": "Read in Daily Life · Social Media Posts",
+  "task": 2,
+  "date": "2026-09-27T13:00:00+09:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 2 · PDF 100–107ページ／冊子176–183ページ · Social Media Post Example問1–2・Test問01–15",
+  "verificationNote": "原本画像で各投稿の本文、日付、数値、設問、選択肢、順序を照合しました。Example 2問は紙面掲載の解答と一致しています。Test 15問は出版社の巻末解答表（冊子445ページ）が未提供のため、本文の明示情報と文脈に基づく編集解答です。各投稿に付く設問を原本どおりすべて収録しています。",
+  "passages": {
+    "book_fair": "Marie Sanders\n\nBook lovers, get ready! The community book fair is just around the corner, and it’s going to be bigger and better than ever. Visit the local community center this Saturday to celebrate the simple joy of reading.\n\nWe have something for every reader. Browse dozens of tables with everything from beloved classics and bestselling graphic novels to the latest picture books for kids. You can also explore your favorite genres at our lively themed sections like mystery, memoirs, and science fiction.\n\nBeyond the books, enjoy a variety of interactive activities. We have storytelling circles, a fun bookmark-making station, and a silent auction for unique collectibles. Friendly volunteers will be on hand to help you find exactly what you’re looking for.\n\nAll proceeds support our library’s literacy programs. Bring your friends and share your favorite recommendations. We can’t wait to see you there!",
+    "tyler_ride": "Tyler Banks @tylerrides | April 10\n\nJust went on my first ride with the Plymouth Pedal Pushers cycling club. It was so much fun! There were more than 40 participants for today’s ride. We got to see a lot of beautiful scenery on our 25 km trip. Can’t wait for our next ride on May 1!",
+    "millerville_concert": "MillervilleEvents.com/Blog\n\nMillerville’s first public concert of the summer series was held in Pine Tree Park last night, and the atmosphere was electric! Local rock bands performed for about 5 hours, drawing a huge crowd. Many people were seen enjoying picnics on the square while listening and dancing.",
+    "temple_waste": "City of Temple @TempleOfficial | Thursday, May 1\n\nQuick heads-up, Temple residents! We’ve updated our waste collection schedule to help keep our city clean and green!\n\nThe New Schedule:\n• General Trash: Collected every Tuesday and Friday\n• Food Scraps: Collected on Thursdays only\n• Recycling: Collected on Wednesdays only\n\nColor Code Reminder (Let’s get this right!):\n• Black Bins: General Trash\n• Green Bins: Compost & Food Scraps (That includes leftovers!)\n• Blue Bins: Recycling (Including food boxes and drink cans)\n\nThanks for pitching in and keeping our neighborhoods tidy!\n\n#TempleCares #WasteCollection #CityUpdate",
+    "bao_wow": "BIG ANNOUNCEMENT\n\nFirst off, we would like to thank you all for the support you’ve shown at our Bao Wow pop-up events. The reception to our fusion buns has been so positive that we’ve decided to take a big step—we’re getting a food truck!\n\nStarting next month, Bao Wow will have a location at the Second Street Food Truck Park (2824 Second Street across from the City Pier). We’ll be serving all of your favorite buns from our pop-up events, including the bestselling Korean chicken buns and the Mexican street corn buns, as well as adding several exciting new options and weekly specials.\n\nTo celebrate the grand opening, we’re going to offer all of our social media followers a 20 percent discount for the first two weeks. All you have to do is show that you follow us to get the discount.\n\nSee you next month!!!",
+    "gleeman_review": "www.gleemanbistro.com · Reviews\n\nCustomer Name: Janice Waters\nDate of Visit: June 15\n\nOne of my clients recommended that I try Gleeman’s Bistro. So when my colleague was moved up into a supervisor position, I organized a small party at this restaurant. I knew that we would likely be kind of noisy, so I decided to pay the extra $30 for our own dining area. The room we were seated in was spacious and comfortable.\n\nAlmost everything was to my satisfaction. The food we ordered was prepared well, and our waiter was highly competent. My only complaint is that the parking lot was quite small. I actually had to wait for another diner to leave to get a spot. But this was a minor issue. I should also mention that the prices were very reasonable.",
+    "willow_science": "The annual Willow Creek Neighborhood Science Fair was an absolute success, showcasing the thriving spirit of scientific inquiry locally. The Community Center was filled with infectious energy as young minds from Willow Creek and the surrounding area shared the projects they had poured their efforts into.\n\nThe event featured incredibly diverse projects, from dynamic solar system models to sharp, well-researched experiments on sustainable local farming. Another standout project was a smart recycling sorting device designed to address local waste management issues. The creativity and ingenuity on display made the judging—carried out by local engineers and scientists—quite challenging.\n\nBeyond the competition, the fair was a wonderful community event. Parents and neighbors came together to cheer on the participants. This day demonstrated the huge potential within Willow Creek. A massive well done to all participants!"
+  },
+  "questions": [
+    {
+      "passageId": "book_fair",
+      "prompt": "What is the main purpose of the post?",
+      "options": [
+        {"label": "A", "text": "To compare various literary genres"},
+        {"label": "B", "text": "To recruit volunteers for a book fair"},
+        {"label": "C", "text": "To highlight literacy issues in the community"},
+        {"label": "D", "text": "To promote a community book fair"}
+      ],
+      "correct": "D",
+      "answer": "The post invites readers to visit the community book fair and describes its books and activities. 正解：D（紙面掲載の解答と一致）。ジャンル比較、ボランティア募集、問題提起が主目的ではありません。",
+      "sourceRefs": ["pdf:task2:p101:qexample1"]
+    },
+    {
+      "passageId": "book_fair",
+      "prompt": "What will visitors NOT experience?",
+      "options": [
+        {"label": "A", "text": "Exploring themed sections"},
+        {"label": "B", "text": "Bidding in an auction"},
+        {"label": "C", "text": "Attending a book signing"},
+        {"label": "D", "text": "Making bookmarks"}
+      ],
+      "correct": "C",
+      "answer": "The post lists themed sections, a silent auction, and bookmark making, but no book signing. 正解：C（紙面掲載の解答と一致）。",
+      "sourceRefs": ["pdf:task2:p101:qexample2"]
+    },
+    {
+      "passageId": "tyler_ride",
+      "prompt": "What is the main purpose of the post?",
+      "options": [
+        {"label": "A", "text": "To promote a cycling club"},
+        {"label": "B", "text": "To advertise an upcoming trip"},
+        {"label": "C", "text": "To give bicycle safety advice"},
+        {"label": "D", "text": "To describe a bike ride"}
+      ],
+      "correct": "D",
+      "answer": "Tyler recounts his first club ride, including the number of riders, distance, and scenery. 正解：D。クラブの広告や安全助言ではありません。",
+      "sourceRefs": ["pdf:task2:p102:q01"]
+    },
+    {
+      "passageId": "tyler_ride",
+      "prompt": "What is suggested about Tyler Banks?",
+      "options": [
+        {"label": "A", "text": "He got a new bike."},
+        {"label": "B", "text": "He lives in Plymouth."},
+        {"label": "C", "text": "He recently joined a group."},
+        {"label": "D", "text": "He took pictures of the scenery."}
+      ],
+      "correct": "C",
+      "answer": "Calling this his first ride with the cycling club suggests that he recently joined the group. 正解：C。自転車の購入、居住地、写真撮影は述べられていません。",
+      "sourceRefs": ["pdf:task2:p102:q02"]
+    },
+    {
+      "passageId": "millerville_concert",
+      "prompt": "Where did the performance take place?",
+      "options": [
+        {"label": "A", "text": "At a concert hall"},
+        {"label": "B", "text": "At a park"},
+        {"label": "C", "text": "At a rock club"},
+        {"label": "D", "text": "At a stadium"}
+      ],
+      "correct": "B",
+      "answer": "The concert was held in Pine Tree Park. 正解：B。",
+      "sourceRefs": ["pdf:task2:p103:q03"]
+    },
+    {
+      "passageId": "millerville_concert",
+      "prompt": "What can be inferred about the concert?",
+      "options": [
+        {"label": "A", "text": "It will be followed by more."},
+        {"label": "B", "text": "It included multiple music genres."},
+        {"label": "C", "text": "It attracted bands from different areas."},
+        {"label": "D", "text": "It featured a professional dance routine."}
+      ],
+      "correct": "A",
+      "answer": "It was the first public concert of a summer series, so further concerts are expected. 正解：A。出演者は地元のロックバンドで、他の選択肢は本文にありません。",
+      "sourceRefs": ["pdf:task2:p103:q04"]
+    },
+    {
+      "passageId": "temple_waste",
+      "prompt": "When will food boxes be collected?",
+      "options": [
+        {"label": "A", "text": "On Tuesdays"},
+        {"label": "B", "text": "On Wednesdays"},
+        {"label": "C", "text": "On Thursdays"},
+        {"label": "D", "text": "On Fridays"}
+      ],
+      "correct": "B",
+      "answer": "Food boxes go in blue recycling bins, and recycling is collected on Wednesdays. 正解：B。木曜日は生ごみの回収日です。",
+      "sourceRefs": ["pdf:task2:p104:q05"]
+    },
+    {
+      "passageId": "temple_waste",
+      "prompt": "What should residents do with leftover food?",
+      "options": [
+        {"label": "A", "text": "Put it in a green bin"},
+        {"label": "B", "text": "Add it to the general waste"},
+        {"label": "C", "text": "Throw it out daily"},
+        {"label": "D", "text": "Wrap it in a black bag"}
+      ],
+      "correct": "A",
+      "answer": "Green bins are for compost and food scraps, explicitly including leftovers. 正解：A。",
+      "sourceRefs": ["pdf:task2:p104:q06"]
+    },
+    {
+      "passageId": "bao_wow",
+      "prompt": "What can be inferred about Bao Wow?",
+      "options": [
+        {"label": "A", "text": "It does not have a permanent location."},
+        {"label": "B", "text": "It currently provides food for receptions."},
+        {"label": "C", "text": "It received positive reviews from critics."},
+        {"label": "D", "text": "It serves traditional Chinese food."}
+      ],
+      "correct": "A",
+      "answer": "Bao Wow has operated through pop-up events and is only now getting a food truck, implying it lacks a permanent location. 正解：A。支持者の反応は好評ですが、批評家のレビューとは書かれていません。",
+      "sourceRefs": ["pdf:task2:p105:q07"]
+    },
+    {
+      "passageId": "bao_wow",
+      "prompt": "What is located at 2824 Second Street?",
+      "options": [
+        {"label": "A", "text": "A city pier"},
+        {"label": "B", "text": "A new restaurant"},
+        {"label": "C", "text": "A pop-up location"},
+        {"label": "D", "text": "A food truck complex"}
+      ],
+      "correct": "D",
+      "answer": "The Second Street Food Truck Park is at 2824 Second Street, so the address is a food truck complex. 正解：D。City Pierはその向かい側です。",
+      "sourceRefs": ["pdf:task2:p105:q08"]
+    },
+    {
+      "passageId": "bao_wow",
+      "prompt": "What do guests have to do to receive a discount?",
+      "options": [
+        {"label": "A", "text": "Purchase more than $20 in food"},
+        {"label": "B", "text": "Prove that they follow an account"},
+        {"label": "C", "text": "Make a social media post"},
+        {"label": "D", "text": "Present a discount coupon"}
+      ],
+      "correct": "B",
+      "answer": "Guests must show that they follow Bao Wow on social media. 正解：B。購入額、投稿、クーポンは条件ではありません。",
+      "sourceRefs": ["pdf:task2:p105:q09"]
+    },
+    {
+      "passageId": "gleeman_review",
+      "prompt": "Why did Ms. Waters visit Gleeman’s Bistro?",
+      "options": [
+        {"label": "A", "text": "To attend a retirement party"},
+        {"label": "B", "text": "To meet with a customer"},
+        {"label": "C", "text": "To celebrate a promotion"},
+        {"label": "D", "text": "To take part in a family event"}
+      ],
+      "correct": "C",
+      "answer": "She organized a party because her colleague had been promoted to a supervisor position. 正解：C。推薦した顧客と会うためではありません。",
+      "sourceRefs": ["pdf:task2:p106:q10"]
+    },
+    {
+      "passageId": "gleeman_review",
+      "prompt": "What are diners charged extra for?",
+      "options": [
+        {"label": "A", "text": "A delivery service"},
+        {"label": "B", "text": "A parking space"},
+        {"label": "C", "text": "A private room"},
+        {"label": "D", "text": "A special dish"}
+      ],
+      "correct": "C",
+      "answer": "Ms. Waters paid an extra $30 for the group’s own dining area, a private room. 正解：C。",
+      "sourceRefs": ["pdf:task2:p106:q11"]
+    },
+    {
+      "passageId": "gleeman_review",
+      "prompt": "Ms. Waters was NOT satisfied with",
+      "options": [
+        {"label": "A", "text": "the size of a facility"},
+        {"label": "B", "text": "the skill of the staff"},
+        {"label": "C", "text": "the quality of the food"},
+        {"label": "D", "text": "the cost of a meal"}
+      ],
+      "correct": "A",
+      "answer": "Her only complaint was that the parking lot was quite small, so she disliked the size of a facility. 正解：A。料理、給仕、価格は好意的に評価しています。",
+      "sourceRefs": ["pdf:task2:p106:q12"]
+    },
+    {
+      "passageId": "willow_science",
+      "prompt": "What is the main purpose of the post?",
+      "options": [
+        {"label": "A", "text": "To introduce the winning projects of a science fair"},
+        {"label": "B", "text": "To describe the success of a science fair"},
+        {"label": "C", "text": "To share an experience as a judge at a science fair"},
+        {"label": "D", "text": "To criticize the organization of a science fair"}
+      ],
+      "correct": "B",
+      "answer": "The post celebrates the fair as an absolute success and describes its projects, judging, and community participation. 正解：B。受賞作の発表や運営批判ではありません。",
+      "sourceRefs": ["pdf:task2:p107:q13"]
+    },
+    {
+      "passageId": "willow_science",
+      "prompt": "What can be inferred about the science fair?",
+      "options": [
+        {"label": "A", "text": "It involved only students from Willow Creek."},
+        {"label": "B", "text": "It accompanied a community event."},
+        {"label": "C", "text": "It was open to young participants."},
+        {"label": "D", "text": "It was judged by local educators."}
+      ],
+      "correct": "C",
+      "answer": "The projects were presented by “young minds,” showing that young participants could enter. 正解：C。参加者には周辺地域の若者も含まれ、審査員は技術者と科学者です。",
+      "sourceRefs": ["pdf:task2:p107:q14"]
+    },
+    {
+      "passageId": "willow_science",
+      "prompt": "Which of the following was NOT exhibited at the science fair?",
+      "options": [
+        {"label": "A", "text": "Dynamic solar system models"},
+        {"label": "B", "text": "Experiments on sustainable local farming"},
+        {"label": "C", "text": "Smart recycling sorting device"},
+        {"label": "D", "text": "Student-created robots"}
+      ],
+      "correct": "D",
+      "answer": "Solar-system models, sustainable-farming experiments, and a smart recycling device are named; student-created robots are not. 正解：D。",
+      "sourceRefs": ["pdf:task2:p107:q15"]
+    }
+  ]
+}
