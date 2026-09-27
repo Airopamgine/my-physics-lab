@@ -301,11 +301,42 @@ class TaskCatalogTests(unittest.TestCase):
 
         index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
         source = next(s for s in index['sources'] if s['id'] == 'task3')
-        self.assertEqual(source['reviewedPages'], list(range(1, 42)))
+        self.assertEqual(source['reviewedPages'][:41], list(range(1, 42)))
         self.assertEqual(source['pageItems']['38'], [])
         self.assertEqual(source['pageItems']['39'], refs[:5])
         self.assertEqual(source['pageItems']['40'], [])
         self.assertEqual(source['pageItems']['41'], refs[5:])
+
+    def test_pdf_task3_vocabulary_questions_preserve_all_fifteen_answers(self):
+        bank = self.build()
+        item = next(s for s in bank['sets'] if s['id'] == 'pdf-task3-p042-049')
+        refs = (["pdf:task3:p043:qexample-initiating",
+                 "pdf:task3:p044:qpractice01-inspired",
+                 "pdf:task3:p044:qpractice02-disparity",
+                 "pdf:task3:p045:qpractice03-nuanced",
+                 "pdf:task3:p045:qpractice04-unhampered"] +
+                [f'pdf:task3:p047:q{i:02d}' for i in range(1, 6)] +
+                [f'pdf:task3:p049:q{i:02d}' for i in range(6, 11)])
+
+        self.assertEqual(item['collection'], 'Task 3')
+        self.assertEqual(len(item['questions']), 15)
+        self.assertEqual([q['sourceRefs'][0] for q in item['questions']], refs)
+        self.assertEqual([q['correct'] for q in item['questions']],
+                         list('ABCCCABBADACCBD'))
+        self.assertEqual(len({q['passage'] for q in item['questions']}), 7)
+        self.assertTrue(all(len(q['options']) == 4 for q in item['questions']))
+
+        index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
+        source = next(s for s in index['sources'] if s['id'] == 'task3')
+        self.assertEqual(source['reviewedPages'], list(range(1, 50)))
+        self.assertEqual(source['pageItems']['42'], [])
+        self.assertEqual(source['pageItems']['43'], refs[:1])
+        self.assertEqual(source['pageItems']['44'], refs[1:3])
+        self.assertEqual(source['pageItems']['45'], refs[3:5])
+        self.assertEqual(source['pageItems']['46'], [])
+        self.assertEqual(source['pageItems']['47'], refs[5:10])
+        self.assertEqual(source['pageItems']['48'], [])
+        self.assertEqual(source['pageItems']['49'], refs[10:])
 
     def test_reading_diagnostic_preserves_all_twenty_answers(self):
         bank = self.build()
