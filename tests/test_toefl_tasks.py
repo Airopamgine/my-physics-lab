@@ -379,8 +379,9 @@ class TaskCatalogTests(unittest.TestCase):
                             for q in item['questions']))
         index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
         source = next(s for s in index['sources'] if s['id'] == 'vocabulary')
-        self.assertNotIn(5, source['reviewedPages'])
-        self.assertNotIn('5', source['pageItems'])
+        self.assertIn(5, source['reviewedPages'])
+        self.assertEqual(source['pageItems']['5'][:15],
+                         [f'pdf:vocabulary:p005:q{word}' for word in words])
 
     def test_vocabulary_day04_part2_preserves_headwords_sixteen_through_thirty(self):
         bank = self.build()
@@ -402,8 +403,9 @@ class TaskCatalogTests(unittest.TestCase):
                             for q in item['questions']))
         index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
         source = next(s for s in index['sources'] if s['id'] == 'vocabulary')
-        self.assertNotIn(5, source['reviewedPages'])
-        self.assertNotIn('5', source['pageItems'])
+        self.assertIn(5, source['reviewedPages'])
+        self.assertEqual(source['pageItems']['5'][15:30],
+                         [f'pdf:vocabulary:p005:q{word}' for word in words])
 
     def test_vocabulary_day04_part3_preserves_headwords_thirty_one_through_forty_five(self):
         bank = self.build()
@@ -425,8 +427,34 @@ class TaskCatalogTests(unittest.TestCase):
                             for q in item['questions']))
         index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
         source = next(s for s in index['sources'] if s['id'] == 'vocabulary')
-        self.assertNotIn(5, source['reviewedPages'])
-        self.assertNotIn('5', source['pageItems'])
+        self.assertIn(5, source['reviewedPages'])
+        self.assertEqual(source['pageItems']['5'][30:45],
+                         [f'pdf:vocabulary:p005:q{word}' for word in words])
+
+    def test_vocabulary_day04_part4_completes_all_sixty_headwords(self):
+        bank = self.build()
+        item = next(s for s in bank['sets']
+                    if s['id'] == 'pdf-vocabulary-day04-part4')
+        words = [
+            'responsible', 'seasonal', 'soar', 'spark', 'strain', 'superior',
+            'symbiotic', 'texture', 'tradition', 'unclear', 'unintended',
+            'unrelated', 'various', 'vital', 'wildlife']
+        refs = [f'pdf:vocabulary:p005:q{word}' for word in words]
+        self.assertEqual([q['sourceRefs'][0] for q in item['questions']], refs)
+        suffixes = [
+            'ponsible', 'sonal', 'ar', 'ark', 'ain', 'erior', 'biotic',
+            'ture', 'dition', 'lear', 'ntended', 'elated', 'ious', 'tal',
+            'dlife']
+        self.assertEqual([q['acceptedAnswers'] for q in item['questions']],
+                         [[suffix, word] for suffix, word in zip(suffixes, words)])
+        self.assertTrue(all(q['correct'] is None and q['options'] == []
+                            for q in item['questions']))
+
+        index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
+        source = next(s for s in index['sources'] if s['id'] == 'vocabulary')
+        self.assertEqual(source['reviewedPages'], list(range(1, 6)))
+        self.assertEqual(len(source['pageItems']['5']), 60)
+        self.assertEqual(source['pageItems']['5'][45:], refs)
 
     def test_vocabulary_day02_all_sixty_headwords_complete_page3(self):
         bank = self.build()
