@@ -1,0 +1,241 @@
+{
+  "id": "pdf-task2-p108-115",
+  "title": "Read in Daily Life · News Articles",
+  "task": 2,
+  "date": "2026-09-28T05:00:00+03:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 2 · PDF 108–115ページ／冊子184–191ページ · News Article Example問1–2・Test問01–15",
+  "verificationNote": "原本画像で全7記事の本文、固有名詞、日付、数値、設問、選択肢、順序を照合しました。Example 2問は紙面掲載の解答と一致しています。Test 15問は出版社の巻末解答表（冊子447ページ）が未提供のため、本文の明示情報と文脈に基づく編集解答です。各記事に付く設問を原本どおりすべて収録しています。",
+  "passages": {
+    "autumn_art": "Artists in Their Autumn Years Find a New Purpose on Canvas\n\nA new exhibition at the Amherst Mills Art Center, “Lifelong Studio,” is proving that it’s never too late to embrace artistic creativity. This exhibition highlights seniors who have found a new purpose through art after retirement.\n\nAmong the featured artists is 78-year-old Beverly Kendrick, who began painting for the first time in her golden years. Kendrick shared that painting has helped her find new vitality. Her oil painting, “Twilight Reflections,” captures a vibrant cityscape and is a highlight of the exhibition.\n\nThe art center’s spokesperson noted that the exhibit was designed to showcase how seniors remain an active and vital part of the community, continuously learning new skills and contributing to culture.\n\nThe exhibition runs through the end of next month.",
+    "city_pool": "City Pool One-Day Closure\n\nMeadville—The city swimming pool will be closed for maintenance on July 10. The closure will allow for the installation of a new water filtration system. The pool will resume its usual afternoon operating hours on July 11, and all swimming lessons will continue as scheduled.",
+    "quantum_innovations": "Quantum Innovations, a local tech company, donated $10,000 to Harrington High School to upgrade its outdated science laboratories and establish a new, fully-funded after-school robotics club. The contribution aims to inspire student interest and enhance the overall quality of local education and future job skills.",
+    "eastwick_brand": "The City of Eastwick is introducing a new brand identity. The new logo features a multi-colored design, a stark contrast to the old one. The website has been updated, and official documents and signs are to follow. Official merchandise featuring the new brand will also be released.",
+    "winter_storm": "The National Weather Service has issued a winter storm warning for all communities in the northwestern area of the state. People living in this region should be aware that heavy snow, icy roads, and high winds are expected, and take the necessary precautions. The weather is expected to begin deteriorating on December 2, and the storm will last two or three days. During this period, state road crews will work extra shifts to ensure that all major roads remain clear of snow and ice, but there is concern that the large amount of snow expected may make this impossible. Therefore, residents are asked to drive only when absolutely necessary. In light of this situation, the education department has already made the decision to shut down numerous schools temporarily. These are listed on its website, which will be updated as necessary.",
+    "library_changes": "Library Announces Changes\n\nFranklinton—In order to better serve the community, the Franklinton Public Library has announced a major expansion of its hours of operation. Beginning next week, the library will be open from 8 A.M. to 10 P.M. on weekdays and 10 A.M. to 8 P.M. on weekends. Library staff hope that by closing its doors two hours later every day, it will be able to better accommodate students who need study spaces, professionals involved in research, and those who use the library’s other services, such as its free Internet and video-viewing room.\n\nIn addition, the library will implement other changes to answer the demands of their patrons. These include adding more private study areas and group meeting rooms, as well as offering evening workshops on research techniques, database usage, and basic digital literacy. Officials hope these changes will serve the community better and offer more opportunities for lifelong learning.",
+    "sedona_bike": "The Sedona Transportation Department is testing a new bike-sharing program, hoping to improve commuting in the city.\n\nIn the initial phases of the pilot program, 200 bicycles will be available at 20 docking stations located throughout the downtown area. To borrow a bike, users simply log on to the service’s mobile application. When finished, the bike can be returned to any of the stations. The cost of each ride will depend on the time and distance traveled, but the program’s director estimates the average cost per trip to be less than $3, making it an economical option for people in all income levels.\n\nCity officials expect the program to reduce traffic congestion, as fewer cars will be needed. If successful, they say that the program will be expanded to other areas of the city and dedicated bike lanes will be added to all city streets."
+  },
+  "questions": [
+    {
+      "passageId": "autumn_art",
+      "prompt": "What is the main purpose of the article?",
+      "options": [
+        {"label": "A", "text": "To advertise a painting class for seniors"},
+        {"label": "B", "text": "To announce an art exhibition featuring senior artists"},
+        {"label": "C", "text": "To encourage retired people to take up oil painting"},
+        {"label": "D", "text": "To critique the works of art featured in an exhibition"}
+      ],
+      "correct": "B",
+      "answer": "The article announces “Lifelong Studio,” an exhibition featuring seniors who found a new purpose through art. 正解：B（紙面掲載の解答と一致）。",
+      "sourceRefs": ["pdf:task2:p109:qexample1"]
+    },
+    {
+      "passageId": "autumn_art",
+      "prompt": "What does “Twilight Reflections” depict?",
+      "options": [
+        {"label": "A", "text": "A quiet, rural landscape at sunset"},
+        {"label": "B", "text": "A self-portrait of the artist"},
+        {"label": "C", "text": "A lively urban scene"},
+        {"label": "D", "text": "An artist’s studio"}
+      ],
+      "correct": "C",
+      "answer": "The painting captures a vibrant cityscape, meaning a lively urban scene. 正解：C（紙面掲載の解答と一致）。",
+      "sourceRefs": ["pdf:task2:p109:qexample2"]
+    },
+    {
+      "passageId": "city_pool",
+      "prompt": "Why is the pool being temporarily closed?",
+      "options": [
+        {"label": "A", "text": "To accommodate swimming lessons"},
+        {"label": "B", "text": "To check on some systems"},
+        {"label": "C", "text": "To clean the pool’s water"},
+        {"label": "D", "text": "To install new equipment"}
+      ],
+      "correct": "D",
+      "answer": "The closure allows workers to install a new water filtration system, which is new equipment. 正解：D。",
+      "sourceRefs": ["pdf:task2:p110:q01"]
+    },
+    {
+      "passageId": "city_pool",
+      "prompt": "What can be inferred about the pool?",
+      "options": [
+        {"label": "A", "text": "It is closed every morning."},
+        {"label": "B", "text": "It is experiencing staffing problems."},
+        {"label": "C", "text": "It is hiring new maintenance workers."},
+        {"label": "D", "text": "It is adding more times for lessons."}
+      ],
+      "correct": "A",
+      "answer": "The pool will resume its usual afternoon operating hours, implying that it normally does not operate in the morning. 正解：A。人員不足や授業時間の追加は述べられていません。",
+      "sourceRefs": ["pdf:task2:p110:q02"]
+    },
+    {
+      "passageId": "quantum_innovations",
+      "prompt": "What is the main purpose of the article?",
+      "options": [
+        {"label": "A", "text": "To ask for further donations for a local school"},
+        {"label": "B", "text": "To detail the science curriculum of a local school"},
+        {"label": "C", "text": "To report on a company’s financial contribution to a local school"},
+        {"label": "D", "text": "To criticize the outdated facilities at a local school"}
+      ],
+      "correct": "C",
+      "answer": "The article reports that Quantum Innovations donated $10,000 to Harrington High School and explains what it will fund. 正解：C。",
+      "sourceRefs": ["pdf:task2:p111:q03"]
+    },
+    {
+      "passageId": "quantum_innovations",
+      "prompt": "What area did Quantum Innovations’ donation fund?",
+      "options": [
+        {"label": "A", "text": "Establishing job-training classes"},
+        {"label": "B", "text": "Modernizing science facilities"},
+        {"label": "C", "text": "Hiring science teachers"},
+        {"label": "D", "text": "Purchasing new textbooks"}
+      ],
+      "correct": "B",
+      "answer": "Part of the donation will upgrade the school’s outdated science laboratories, directly modernizing science facilities. 正解：B。",
+      "sourceRefs": ["pdf:task2:p111:q04"]
+    },
+    {
+      "passageId": "eastwick_brand",
+      "prompt": "What can be inferred about the old logo?",
+      "options": [
+        {"label": "A", "text": "It did not have multiple colors."},
+        {"label": "B", "text": "It was designed by a local company."},
+        {"label": "C", "text": "It was intended for printed use only."},
+        {"label": "D", "text": "It was not liked by residents."}
+      ],
+      "correct": "A",
+      "answer": "The new multi-colored design is described as a stark contrast to the old logo, implying that the old one was not multi-colored. 正解：A。",
+      "sourceRefs": ["pdf:task2:p112:q05"]
+    },
+    {
+      "passageId": "eastwick_brand",
+      "prompt": "The new logo is currently found on",
+      "options": [
+        {"label": "A", "text": "public street signs"},
+        {"label": "B", "text": "official merchandise"},
+        {"label": "C", "text": "the official online page"},
+        {"label": "D", "text": "government-issued documents"}
+      ],
+      "correct": "C",
+      "answer": "The website has already been updated, while documents, signs, and merchandise will follow later. 正解：C。",
+      "sourceRefs": ["pdf:task2:p112:q06"]
+    },
+    {
+      "passageId": "winter_storm",
+      "prompt": "What is the main purpose of the article?",
+      "options": [
+        {"label": "A", "text": "To welcome visitors to a community"},
+        {"label": "B", "text": "To explain the cancellation of an event"},
+        {"label": "C", "text": "To warn residents of unsafe conditions"},
+        {"label": "D", "text": "To correct an earlier weather forecast"}
+      ],
+      "correct": "C",
+      "answer": "The article warns residents about heavy snow, icy roads, and high winds and asks them to take precautions. 正解：C。",
+      "sourceRefs": ["pdf:task2:p113:q07"]
+    },
+    {
+      "passageId": "winter_storm",
+      "prompt": "The article suggests that state road crews will be",
+      "options": [
+        {"label": "A", "text": "assigned to other regions temporarily"},
+        {"label": "B", "text": "unable to perform an assigned task"},
+        {"label": "C", "text": "prepared to work with other departments"},
+        {"label": "D", "text": "helping drivers who are stranded"}
+      ],
+      "correct": "B",
+      "answer": "Crews are assigned to keep major roads clear, but the expected snowfall may make that impossible. 正解：B。",
+      "sourceRefs": ["pdf:task2:p113:q08"]
+    },
+    {
+      "passageId": "winter_storm",
+      "prompt": "What can be found online?",
+      "options": [
+        {"label": "A", "text": "An update on project costs"},
+        {"label": "B", "text": "A map of alternative routes"},
+        {"label": "C", "text": "A report on school policies"},
+        {"label": "D", "text": "A list of closed schools"}
+      ],
+      "correct": "D",
+      "answer": "The education department’s website lists the schools that have been temporarily closed. 正解：D。",
+      "sourceRefs": ["pdf:task2:p113:q09"]
+    },
+    {
+      "passageId": "library_changes",
+      "prompt": "What can be inferred about the library before the changes?",
+      "options": [
+        {"label": "A", "text": "It had a smaller location."},
+        {"label": "B", "text": "It closed at 8 P.M. on weekdays."},
+        {"label": "C", "text": "It had fewer staff members."},
+        {"label": "D", "text": "It did not offer free Internet service."}
+      ],
+      "correct": "B",
+      "answer": "The new weekday closing time is 10 P.M., two hours later than before, so the former closing time was 8 P.M. 正解：B。",
+      "sourceRefs": ["pdf:task2:p114:q10"]
+    },
+    {
+      "passageId": "library_changes",
+      "prompt": "The word “patrons” in the passage is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "visitors"},
+        {"label": "B", "text": "employees"},
+        {"label": "C", "text": "observers"},
+        {"label": "D", "text": "volunteers"}
+      ],
+      "correct": "A",
+      "answer": "In this context, patrons are the people who use or visit the library. 正解：A。",
+      "sourceRefs": ["pdf:task2:p114:q11"]
+    },
+    {
+      "passageId": "library_changes",
+      "prompt": "What new change will the library implement?",
+      "options": [
+        {"label": "A", "text": "Extending the hours of operation further"},
+        {"label": "B", "text": "Offering training sessions on digital and research skills"},
+        {"label": "C", "text": "Launching a support program for local researchers"},
+        {"label": "D", "text": "Adding new multimedia facilities"}
+      ],
+      "correct": "B",
+      "answer": "The library will offer evening workshops on research techniques, database use, and basic digital literacy. 正解：B。",
+      "sourceRefs": ["pdf:task2:p114:q12"]
+    },
+    {
+      "passageId": "sedona_bike",
+      "prompt": "What is this article mainly about?",
+      "options": [
+        {"label": "A", "text": "How a city managed traffic congestion"},
+        {"label": "B", "text": "The growing popularity of bike-sharing programs"},
+        {"label": "C", "text": "A sharp rise in demand for bike lanes"},
+        {"label": "D", "text": "A new transportation initiative in a city"}
+      ],
+      "correct": "D",
+      "answer": "The article introduces Sedona’s new bike-sharing pilot program and explains how it will operate. 正解：D。",
+      "sourceRefs": ["pdf:task2:p115:q13"]
+    },
+    {
+      "passageId": "sedona_bike",
+      "prompt": "What can be inferred about the new program?",
+      "options": [
+        {"label": "A", "text": "It will target low-income earners."},
+        {"label": "B", "text": "It will require private donations."},
+        {"label": "C", "text": "It may cost more than expected."},
+        {"label": "D", "text": "It may lead to new infrastructure."}
+      ],
+      "correct": "D",
+      "answer": "If the program succeeds, dedicated bike lanes will be added to city streets, so it may lead to new infrastructure. 正解：D。",
+      "sourceRefs": ["pdf:task2:p115:q14"]
+    },
+    {
+      "passageId": "sedona_bike",
+      "prompt": "What does the term “pilot program” most likely mean in this context?",
+      "options": [
+        {"label": "A", "text": "A small-scale test of a new project"},
+        {"label": "B", "text": "A program for professional cyclists"},
+        {"label": "C", "text": "A city-wide transportation plan"},
+        {"label": "D", "text": "A marketing campaign for the new service"}
+      ],
+      "correct": "A",
+      "answer": "The city is testing the program in an initial phase and will expand it only if successful, so “pilot program” means a small-scale test. 正解：A。",
+      "sourceRefs": ["pdf:task2:p115:q15"]
+    }
+  ]
+}
