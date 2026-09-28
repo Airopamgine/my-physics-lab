@@ -235,7 +235,7 @@ class TaskCatalogTests(unittest.TestCase):
         source = next(s for s in index['sources'] if s['id'] == 'task1')
         self.assertEqual(source['reviewedPages'], list(range(1, 24)))
         self.assertEqual(source['pageItems']['23'], refs)
-        self.assertEqual(index['lastSource'], 'task1')
+        self.assertIn(index['lastSource'], {item['id'] for item in index['sources']})
 
     def test_pdf_task3_detail_questions_preserve_all_fifteen_answers(self):
         bank = self.build()
@@ -1309,11 +1309,41 @@ class TaskCatalogTests(unittest.TestCase):
 
         index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
         source = next(s for s in index['sources'] if s['id'] == 'task2')
-        self.assertEqual(source['reviewedPages'], list(range(1, 108)))
+        self.assertEqual(source['reviewedPages'][:107], list(range(1, 108)))
         self.assertEqual(source['pageItems']['100'], [])
         for page in range(101, 108):
             page_refs = [ref for ref in expected_refs if f':p{page:03d}:' in ref]
             self.assertEqual(source['pageItems'][str(page)], page_refs)
+
+    def test_task2_news_articles_preserve_all_seventeen_answers(self):
+        bank = self.build()
+        item = next(s for s in bank['sets'] if s['id'] == 'pdf-task2-p108-115')
+        expected_refs = [
+            'pdf:task2:p109:qexample1', 'pdf:task2:p109:qexample2',
+            'pdf:task2:p110:q01', 'pdf:task2:p110:q02',
+            'pdf:task2:p111:q03', 'pdf:task2:p111:q04',
+            'pdf:task2:p112:q05', 'pdf:task2:p112:q06',
+            'pdf:task2:p113:q07', 'pdf:task2:p113:q08',
+            'pdf:task2:p113:q09', 'pdf:task2:p114:q10',
+            'pdf:task2:p114:q11', 'pdf:task2:p114:q12',
+            'pdf:task2:p115:q13', 'pdf:task2:p115:q14',
+            'pdf:task2:p115:q15']
+        self.assertEqual(item['collection'], 'Task 2')
+        self.assertEqual(len(item['questions']), 17)
+        self.assertEqual([q['sourceRefs'][0] for q in item['questions']], expected_refs)
+        self.assertEqual([q['correct'] for q in item['questions']],
+                         list('BCDACBACCBDBABDDA'))
+        self.assertEqual(len({q['passage'] for q in item['questions']}), 7)
+        self.assertTrue(all(len(q['options']) == 4 for q in item['questions']))
+
+        index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
+        source = next(s for s in index['sources'] if s['id'] == 'task2')
+        self.assertEqual(source['reviewedPages'], list(range(1, 116)))
+        self.assertEqual(source['pageItems']['108'], [])
+        for page in range(109, 116):
+            page_refs = [ref for ref in expected_refs if f':p{page:03d}:' in ref]
+            self.assertEqual(source['pageItems'][str(page)], page_refs)
+        self.assertEqual(index['lastSource'], 'task2')
 
     def test_unesco_and_everyday_ai_preserve_passages_and_all_targets(self):
         bank = self.build()
