@@ -357,7 +357,7 @@ class TaskCatalogTests(unittest.TestCase):
 
         index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
         source = next(s for s in index['sources'] if s['id'] == 'task3')
-        self.assertEqual(source['reviewedPages'], list(range(1, 50)))
+        self.assertEqual(source['reviewedPages'][:49], list(range(1, 50)))
         self.assertEqual(source['pageItems']['42'], [])
         self.assertEqual(source['pageItems']['43'], refs[:1])
         self.assertEqual(source['pageItems']['44'], refs[1:3])
@@ -366,6 +366,29 @@ class TaskCatalogTests(unittest.TestCase):
         self.assertEqual(source['pageItems']['47'], refs[5:10])
         self.assertEqual(source['pageItems']['48'], [])
         self.assertEqual(source['pageItems']['49'], refs[10:])
+
+    def test_pdf_task3_vocabulary_test_11_20_preserves_all_ten_answers(self):
+        bank = self.build()
+        item = next(s for s in bank['sets'] if s['id'] == 'pdf-task3-p050-053')
+        refs = ([f'pdf:task3:p051:q{i:02d}' for i in range(11, 16)] +
+                [f'pdf:task3:p053:q{i:02d}' for i in range(16, 21)])
+
+        self.assertEqual(item['collection'], 'Task 3')
+        self.assertEqual(len(item['questions']), 10)
+        self.assertEqual([q['sourceRefs'][0] for q in item['questions']], refs)
+        self.assertEqual([q['correct'] for q in item['questions']],
+                         list('BADBCACAAD'))
+        self.assertEqual(len({q['passage'] for q in item['questions']}), 2)
+        self.assertTrue(all(len(q['options']) == 4 for q in item['questions']))
+
+        index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
+        source = next(s for s in index['sources'] if s['id'] == 'task3')
+        self.assertEqual(source['reviewedPages'], list(range(1, 54)))
+        self.assertEqual(source['pageItems']['50'], [])
+        self.assertEqual(source['pageItems']['51'], refs[:5])
+        self.assertEqual(source['pageItems']['52'], [])
+        self.assertEqual(source['pageItems']['53'], refs[5:])
+        self.assertEqual(index['lastSource'], 'task3')
 
     def test_reading_diagnostic_preserves_all_twenty_answers(self):
         bank = self.build()
@@ -1343,7 +1366,6 @@ class TaskCatalogTests(unittest.TestCase):
         for page in range(109, 116):
             page_refs = [ref for ref in expected_refs if f':p{page:03d}:' in ref]
             self.assertEqual(source['pageItems'][str(page)], page_refs)
-        self.assertEqual(index['lastSource'], 'task2')
 
     def test_unesco_and_everyday_ai_preserve_passages_and_all_targets(self):
         bank = self.build()

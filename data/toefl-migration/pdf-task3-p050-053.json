@@ -1,0 +1,145 @@
+{
+  "id": "pdf-task3-p050-053",
+  "title": "Academic Reading · Vocabulary Questions Test 11–20",
+  "task": 3,
+  "date": "2026-09-28T17:00:00+03:00",
+  "level": "B2–C1",
+  "sourceLabel": "提供PDF Task 3 · PDF 50–53ページ／冊子250–253ページ · Vocabulary Questions Test 11–20",
+  "verificationNote": "PDF原本画像で2本文、問11–20、全選択肢、強調語、設問順を照合しました。出版社解答ページ（467ページ）は未提供・未照合のため、語義と本文の明示情報に基づく編集解答です。",
+  "passages": {
+    "atmospheric_rivers": "Atmospheric Rivers\n\nAtmospheric rivers are long, narrow bands of concentrated moisture that travel through the atmosphere, often spanning hundreds to thousands of kilometers. When these streams make landfall, they can release vast amounts of rain, mainly along coastal regions. The heavy rainfall associated with atmospheric rivers accounts for a large portion of the annual precipitation in places like California.\n\nAtmospheric rivers function as both essential water suppliers and destructive forces, depending on their severity and regional conditions. These moisture-laden systems provide crucial precipitation for agricultural regions and help replenish reservoirs during dry seasons. However, when atmospheric rivers get stronger, they unleash devastating floods that damage infrastructure, displace communities, and cause billions in economic losses. The same phenomenon that delivers life-sustaining water can transform into life-threatening disasters.\n\nClimate change amplifies these risks by increasing air and ocean temperatures, which strengthens the formation of atmospheric rivers by enabling them to carry significantly more moisture. Scientists predict more extreme precipitation events as these enhanced systems reach land. With atmospheric rivers becoming increasingly unpredictable and destructive, comprehensive monitoring and adaptive management strategies are essential for balancing water security with flood protection.",
+    "hotellings_law": "Hotelling’s Law\n\nHotelling’s law is a competition theory proposed by economist Harold Hotelling in 1929. This principle explains why competing businesses, which otherwise offer the same products at comparable prices, tend to cluster together rather than spread out to different locations. By positioning themselves near the center of consumer demand, they seek to capture the largest possible market share.\n\nConsider the concentration of coffee shops in a city. According to Hotelling’s law, each competitor aims to position itself optimally to attract customers approaching from different parts of the area. If one coffee shop moves closer to the center of foot traffic, its competitor will follow suit to avoid losing market share, resulting in the clustering phenomenon we observe in urban business districts, where major chains and local coffee shops are located within blocks of each other.\n\nHotelling’s law illustrates the adverse effects of individual profit maximization. While the socially optimal solution would have businesses spread out geographically to minimize consumer travel costs and expand service location options, competitive dynamics drive firms toward convergence, which ultimately reduces overall social welfare."
+  },
+  "questions": [
+    {
+      "passageId": "atmospheric_rivers",
+      "prompt": "Why does the author mention California?",
+      "options": [
+        {"label": "A", "text": "To give an example of a location affected by recent changes in the global climate"},
+        {"label": "B", "text": "To highlight a region that receives much of its rainfall from atmospheric rivers"},
+        {"label": "C", "text": "To show a place where atmospheric rivers caused flooding and property damage"},
+        {"label": "D", "text": "To illustrate a region where water management is particularly important"}
+      ],
+      "correct": "B",
+      "answer": "正解：B。第1段落は、カリフォルニアの年間降水量の大部分を大気の川による豪雨が占める例として同州を挙げています。近年の気候変動や具体的な洪水被害を示す言及ではありません。",
+      "sourceRefs": ["pdf:task3:p051:q11"]
+    },
+    {
+      "passageId": "atmospheric_rivers",
+      "prompt": "The word “adaptive” in the passage is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "flexible"},
+        {"label": "B", "text": "rigid"},
+        {"label": "C", "text": "defensive"},
+        {"label": "D", "text": "conventional"}
+      ],
+      "correct": "A",
+      "answer": "正解：A。予測しにくくなる大気の川に応じて管理策を調整する文脈なので、adaptiveはflexible（状況に合わせて変えられる）に最も近いです。",
+      "sourceRefs": ["pdf:task3:p051:q12"]
+    },
+    {
+      "passageId": "atmospheric_rivers",
+      "prompt": "How can atmospheric rivers pose risks?",
+      "options": [
+        {"label": "A", "text": "By transporting pollutants across long distances"},
+        {"label": "B", "text": "By enabling warmer air temperatures to reduce atmospheric pressure"},
+        {"label": "C", "text": "By carrying moisture that disrupts the ocean temperature balance"},
+        {"label": "D", "text": "By triggering severe flooding in coastal areas"}
+      ],
+      "correct": "D",
+      "answer": "正解：D。本文は、大気の川が上陸時に沿岸部へ大量の雨を降らせ、強まると壊滅的な洪水を引き起こすと説明しています。",
+      "sourceRefs": ["pdf:task3:p051:q13"]
+    },
+    {
+      "passageId": "atmospheric_rivers",
+      "prompt": "Why are atmospheric rivers predicted to be more intense in the future?",
+      "options": [
+        {"label": "A", "text": "They will travel longer distances across oceans."},
+        {"label": "B", "text": "They will be strengthened by rising ocean temperatures."},
+        {"label": "C", "text": "They will create stronger wind patterns due to changes in atmospheric pressure."},
+        {"label": "D", "text": "They will become less detectable to the current monitoring systems."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。第3段落は、気候変動による空気と海洋の温度上昇が大気の川の形成を強め、より多くの水分を運べるようにすると述べています。",
+      "sourceRefs": ["pdf:task3:p051:q14"]
+    },
+    {
+      "passageId": "atmospheric_rivers",
+      "prompt": "Which of the following best describes the purpose of the third paragraph?",
+      "options": [
+        {"label": "A", "text": "Paragraph 3 analyzes how monitoring systems can predict atmospheric river formation."},
+        {"label": "B", "text": "Paragraph 3 introduces solutions to mitigate the negative effects of atmospheric rivers."},
+        {"label": "C", "text": "Paragraph 3 explains the mechanisms by which climate change enhances atmospheric river risks."},
+        {"label": "D", "text": "Paragraph 3 contrasts the beneficial and harmful aspects of atmospheric rivers."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。第3段落は、温暖化した空気と海洋がより多くの水分を運ぶ大気の川を形成し、極端な降水リスクを高める仕組みを説明しています。",
+      "sourceRefs": ["pdf:task3:p051:q15"]
+    },
+    {
+      "passageId": "hotellings_law",
+      "prompt": "The word “adverse” in the passage is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "harmful"},
+        {"label": "B", "text": "helpful"},
+        {"label": "C", "text": "regular"},
+        {"label": "D", "text": "primary"}
+      ],
+      "correct": "A",
+      "answer": "正解：A。個別企業の利益最大化が店舗の集中を招き、社会全体の厚生を低下させるという文脈なので、adverseはharmful（有害な）に最も近いです。",
+      "sourceRefs": ["pdf:task3:p053:q16"]
+    },
+    {
+      "passageId": "hotellings_law",
+      "prompt": "What is one factor that drives businesses to cluster near competitors?",
+      "options": [
+        {"label": "A", "text": "The desire to reduce operational costs"},
+        {"label": "B", "text": "The need to minimize consumer travel distances"},
+        {"label": "C", "text": "The effort to capture maximum market share"},
+        {"label": "D", "text": "The requirement to differentiate their services"}
+      ],
+      "correct": "C",
+      "answer": "正解：C。各企業は消費者需要の中心近くへ移動して最大の市場シェアを得ようとし、競合も顧客を失わないため追随すると説明されています。",
+      "sourceRefs": ["pdf:task3:p053:q17"]
+    },
+    {
+      "passageId": "hotellings_law",
+      "prompt": "What is the purpose of the second paragraph?",
+      "options": [
+        {"label": "A", "text": "It illustrates the theoretical principle with a concrete example of clustering."},
+        {"label": "B", "text": "It compares different business models used by competing coffee shops."},
+        {"label": "C", "text": "It presents statistical evidence about coffee shop locations across the city."},
+        {"label": "D", "text": "It proves that stores clustering together makes it easier for customers to access them."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。第2段落は、コーヒー店が人通りの中心へ集まる具体例を用いて、第1段落で説明したホテリングの法則を例証しています。",
+      "sourceRefs": ["pdf:task3:p053:q18"]
+    },
+    {
+      "passageId": "hotellings_law",
+      "prompt": "What can be inferred about individual profit maximization?",
+      "options": [
+        {"label": "A", "text": "It can conflict with what benefits consumers most."},
+        {"label": "B", "text": "It maximizes the total combined revenue of all competitors."},
+        {"label": "C", "text": "It ensures equal distribution of customers among competitors."},
+        {"label": "D", "text": "It tends to lead to optimal social outcomes."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。企業が個別利益を最大化すると店舗が集中しますが、消費者の移動費を抑える社会的最適解は店舗を地理的に分散させることだと本文は対比しています。",
+      "sourceRefs": ["pdf:task3:p053:q19"]
+    },
+    {
+      "passageId": "hotellings_law",
+      "prompt": "How does the convergence of businesses affect the consumers’ shopping experience?",
+      "options": [
+        {"label": "A", "text": "It makes it harder to find products that consumers need."},
+        {"label": "B", "text": "It reduces the variety of products available at different locations."},
+        {"label": "C", "text": "It allows consumers to visit multiple competing businesses on one trip."},
+        {"label": "D", "text": "It limits the convenience of accessing services in different areas."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。本文では、店舗が分散すれば消費者の移動費を最小化しサービス地点の選択肢を広げられるのに、集中するとそれが失われるため、地域ごとの利用しやすさが制限されます。",
+      "sourceRefs": ["pdf:task3:p053:q20"]
+    }
+  ]
+}
