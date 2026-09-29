@@ -233,9 +233,36 @@ class TaskCatalogTests(unittest.TestCase):
 
         index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
         source = next(s for s in index['sources'] if s['id'] == 'task1')
-        self.assertEqual(source['reviewedPages'], list(range(1, 24)))
+        self.assertEqual(source['reviewedPages'][:23], list(range(1, 24)))
         self.assertEqual(source['pageItems']['23'], refs)
         self.assertIn(index['lastSource'], {item['id'] for item in index['sources']})
+
+    def test_pdf_task1_hackers_test_page24_preserves_all_twenty_answers(self):
+        bank = self.build()
+        item = next(s for s in bank['sets'] if s['id'] == 'pdf-task1-p024')
+        expected = [
+            ('ribes', 'describes'), ('ere', 'where'), ('empt', 'attempt'),
+            ('sor', 'censor'), ('ove', 'remove'), ('mation', 'information'),
+            ('sing', 'causing'), ('o', 'to'), ('en', 'even'),
+            ('ely', 'widely'), ('ter', 'foster'), ('ong', 'among'),
+            ('ups', 'groups'), ('vide', 'provide'), ('ction', 'protection'),
+            ('use', 'abuse'), ('ination', 'discrimination'),
+            ('rable', 'vulnerable'), ('ery', 'Every'), ('ives', 'strives')]
+        refs = [f'pdf:task1:p024:q{i:02d}-gap1' for i in range(1, 21)]
+
+        self.assertEqual(item['collection'], 'Task 1')
+        self.assertEqual([q['acceptedAnswers'] for q in item['questions']],
+                         [list(pair) for pair in expected])
+        self.assertEqual([q['sourceRefs'][0] for q in item['questions']], refs)
+        self.assertEqual(len({q['passage'] for q in item['questions']}), 2)
+        self.assertTrue(all(q['correct'] is None and q['options'] == []
+                            for q in item['questions']))
+
+        index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
+        source = next(s for s in index['sources'] if s['id'] == 'task1')
+        self.assertEqual(source['reviewedPages'], list(range(1, 25)))
+        self.assertEqual(source['pageItems']['24'], refs)
+        self.assertEqual(index['lastSource'], 'task1')
 
     def test_pdf_task3_detail_questions_preserve_all_fifteen_answers(self):
         bank = self.build()
@@ -611,7 +638,7 @@ class TaskCatalogTests(unittest.TestCase):
         source = next(s for s in index['sources'] if s['id'] == 'vocabulary')
         self.assertNotIn(6, source['reviewedPages'])
         self.assertNotIn('6', source['pageItems'])
-        self.assertEqual(index['lastSource'], 'vocabulary')
+        self.assertIn(index['lastSource'], {item['id'] for item in index['sources']})
 
     def test_vocabulary_day02_all_sixty_headwords_complete_page3(self):
         bank = self.build()
