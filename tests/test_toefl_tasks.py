@@ -388,7 +388,7 @@ class TaskCatalogTests(unittest.TestCase):
         self.assertEqual(source['pageItems']['51'], refs[:5])
         self.assertEqual(source['pageItems']['52'], [])
         self.assertEqual(source['pageItems']['53'], refs[5:])
-        self.assertEqual(index['lastSource'], 'task3')
+        self.assertIn(index['lastSource'], {item['id'] for item in index['sources']})
 
     def test_reading_diagnostic_preserves_all_twenty_answers(self):
         bank = self.build()
@@ -588,6 +588,30 @@ class TaskCatalogTests(unittest.TestCase):
         self.assertNotIn(6, source['reviewedPages'])
         self.assertNotIn('6', source['pageItems'])
         self.assertIn(index['lastSource'], {item['id'] for item in index['sources']})
+
+    def test_vocabulary_day05_part2_preserves_headwords_sixteen_to_thirty(self):
+        bank = self.build()
+        item = next(s for s in bank['sets']
+                    if s['id'] == 'pdf-vocabulary-day05-part2')
+        words = [
+            'dough', 'ecosystem', 'empathize', 'epic', 'essential', 'examine',
+            'feasibility', 'formation', 'fragment', 'gear', 'glimpse', 'gutter',
+            'heartbeat', 'hypothesis', 'impact']
+        refs = [f'pdf:vocabulary:p006:q{word}' for word in words]
+        self.assertEqual([q['sourceRefs'][0] for q in item['questions']], refs)
+        suffixes = [
+            'ugh', 'system', 'athize', 'ic', 'ential', 'mine', 'sibility',
+            'mation', 'ment', 'ar', 'mpse', 'tter', 'tbeat', 'othesis', 'pact']
+        self.assertEqual([q['acceptedAnswers'] for q in item['questions']],
+                         [[suffix, word] for suffix, word in zip(suffixes, words)])
+        self.assertTrue(all(q['correct'] is None and q['options'] == []
+                            for q in item['questions']))
+
+        index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
+        source = next(s for s in index['sources'] if s['id'] == 'vocabulary')
+        self.assertNotIn(6, source['reviewedPages'])
+        self.assertNotIn('6', source['pageItems'])
+        self.assertEqual(index['lastSource'], 'vocabulary')
 
     def test_vocabulary_day02_all_sixty_headwords_complete_page3(self):
         bank = self.build()
