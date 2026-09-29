@@ -1,0 +1,175 @@
+{
+  "id": "pdf-task1-p024",
+  "title": "Complete the Words · Hackers Test I",
+  "task": 1,
+  "date": "2026-09-29T17:00:00+03:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 24ページ／冊子52ページ · Hackers Test問01–20（20空欄）",
+  "verificationNote": "Editorial answers（編集・確認した解答）。PDF原本画像で2本文、表示済み文字、空欄数、設問順を照合し、文法・語法・文脈から20語を確定しました。出版社の解答ページ（408ページ）は未提供・未照合です。同じ本文の10空欄は、すべて提出するまで正答が表示されません。",
+  "passages": {
+    "01-10": "The Streisand Effect is a phenomenon that reveals the paradox of censorship. It desc_____ situations wh___ people att____ to cen___ or rem___ certain infor______, instead cau____ it t_ spread ev__ more wid___ than it would have. It is named after Barbra Streisand, who took legal action to have aerial photographs of her Malibu home taken down from a website. Her action ironically drew huge public attention to the photos, and the photos were viewed more than 400,000 times. This illustrates the psychological concept of reactance, where the suppression of freedom impels individuals to restore that freedom.",
+    "11-20": "Human rights are the basic freedoms that everyone is entitled to, regardless of nationality, gender, or background. They fos___ equality am___ various gro___ and pro____ essential prote_____ from ab___ and discrim_______ against vulne_____ people. Ev___ government str____ to ensure that these rights are upheld. International treaties and local laws are in place to protect them. Citizens can also advocate for these rights when they are violated. By understanding them, people can recognize injustices and work toward a fairer society, which benefits everyone."
+  },
+  "questions": [
+    {
+      "passageId": "01-10",
+      "prompt": "Hackers Test 01: complete desc_____. Enter the missing letters.",
+      "prefix": "desc",
+      "word": "describes",
+      "answer": "Describe means to explain what something is like or how it works. 正解：ribes → describes（説明する・描写する）。主語ItはThe Streisand Effectを指し、この現象がどのような状況を表すか説明する文脈です。",
+      "sourceRefs": ["pdf:task1:p024:q01-gap1"]
+    },
+    {
+      "passageId": "01-10",
+      "prompt": "Hackers Test 02: complete wh___. Enter the missing letters.",
+      "prefix": "wh",
+      "word": "where",
+      "answer": "Where can introduce a situation in which something happens. 正解：ere → where（〜する状況で）。situations where people attempt ...で、検閲しようとする状況を説明しています。",
+      "sourceRefs": ["pdf:task1:p024:q02-gap1"]
+    },
+    {
+      "passageId": "01-10",
+      "prompt": "Hackers Test 03: complete att____. Enter the missing letters.",
+      "prefix": "att",
+      "word": "attempt",
+      "answer": "Attempt means to try to do something. 正解：empt → attempt（試みる）。people attempt to censor or remove informationで、情報を抑えようとする行為を表します。",
+      "sourceRefs": ["pdf:task1:p024:q03-gap1"]
+    },
+    {
+      "passageId": "01-10",
+      "prompt": "Hackers Test 04: complete cen___. Enter the missing letters.",
+      "prefix": "cen",
+      "word": "censor",
+      "answer": "Censor means to suppress or remove information judged unacceptable. 正解：sor → censor（検閲する）。removeとorで並び、情報を公開させない行為を示します。",
+      "sourceRefs": ["pdf:task1:p024:q04-gap1"]
+    },
+    {
+      "passageId": "01-10",
+      "prompt": "Hackers Test 05: complete rem___. Enter the missing letters.",
+      "prefix": "rem",
+      "word": "remove",
+      "answer": "Remove means to take something away or make it no longer available. 正解：ove → remove（取り除く）。certain informationを消そうとする検閲の文脈です。",
+      "sourceRefs": ["pdf:task1:p024:q05-gap1"]
+    },
+    {
+      "passageId": "01-10",
+      "prompt": "Hackers Test 06: complete infor______. Enter the missing letters.",
+      "prefix": "infor",
+      "word": "information",
+      "answer": "Information means facts or knowledge communicated about something. 正解：mation → information（情報）。検閲や削除の対象となる内容を指します。",
+      "sourceRefs": ["pdf:task1:p024:q06-gap1"]
+    },
+    {
+      "passageId": "01-10",
+      "prompt": "Hackers Test 07: complete cau____. Enter the missing letters.",
+      "prefix": "cau",
+      "word": "causing",
+      "answer": "Cause means to make something happen. 正解：sing → causing（引き起こして）。instead causing it to spreadで、情報を抑える試みが逆に拡散を招くという対比です。",
+      "sourceRefs": ["pdf:task1:p024:q07-gap1"]
+    },
+    {
+      "passageId": "01-10",
+      "prompt": "Hackers Test 08: complete t_. Enter the missing letter.",
+      "prefix": "t",
+      "word": "to",
+      "answer": "Cause something to do is the required infinitive pattern. 正解：o → to（〜するように）。causing it to spreadで「それを拡散させる」となります。",
+      "sourceRefs": ["pdf:task1:p024:q08-gap1"]
+    },
+    {
+      "passageId": "01-10",
+      "prompt": "Hackers Test 09: complete ev__. Enter the missing letters.",
+      "prefix": "ev",
+      "word": "even",
+      "answer": "Even is used for emphasis when a result is surprising or greater than expected. 正解：en → even（さらに・いっそう）。more widelyを強調し、抑制前より一層広く拡散する逆説を示します。",
+      "sourceRefs": ["pdf:task1:p024:q09-gap1"]
+    },
+    {
+      "passageId": "01-10",
+      "prompt": "Hackers Test 10: complete wid___. Enter the missing letters.",
+      "prefix": "wid",
+      "word": "widely",
+      "answer": "Widely means over a large area or among many people. 正解：ely → widely（広く）。spreadを修飾し、情報が本来より広範囲に拡散することを表します。",
+      "sourceRefs": ["pdf:task1:p024:q10-gap1"]
+    },
+    {
+      "passageId": "11-20",
+      "prompt": "Hackers Test 11: complete fos___. Enter the missing letters.",
+      "prefix": "fos",
+      "word": "foster",
+      "answer": "Foster means to encourage the development of something. 正解：ter → foster（促進する）。Human rightsがequalityの発展を促す文脈です。",
+      "sourceRefs": ["pdf:task1:p024:q11-gap1"]
+    },
+    {
+      "passageId": "11-20",
+      "prompt": "Hackers Test 12: complete am___. Enter the missing letters.",
+      "prefix": "am",
+      "word": "among",
+      "answer": "Among means in or shared by a group of three or more people or things. 正解：ong → among（〜の間で）。various groupsの間の平等を表します。",
+      "sourceRefs": ["pdf:task1:p024:q12-gap1"]
+    },
+    {
+      "passageId": "11-20",
+      "prompt": "Hackers Test 13: complete gro___. Enter the missing letters.",
+      "prefix": "gro",
+      "word": "groups",
+      "answer": "Groups are sets of people considered together. 正解：ups → groups（集団・グループ）。国籍、性別、背景などの異なる集団を指す複数形です。",
+      "sourceRefs": ["pdf:task1:p024:q13-gap1"]
+    },
+    {
+      "passageId": "11-20",
+      "prompt": "Hackers Test 14: complete pro____. Enter the missing letters.",
+      "prefix": "pro",
+      "word": "provide",
+      "answer": "Provide means to give or supply something needed. 正解：vide → provide（提供する）。Human rightsがessential protectionを与えるという文脈です。",
+      "sourceRefs": ["pdf:task1:p024:q14-gap1"]
+    },
+    {
+      "passageId": "11-20",
+      "prompt": "Hackers Test 15: complete prote_____. Enter the missing letters.",
+      "prefix": "prote",
+      "word": "protection",
+      "answer": "Protection is the act of keeping someone safe from harm or abuse. 正解：ction → protection（保護）。provide essential protection from ...という語法で、人権が与える重要な保護を表します。",
+      "sourceRefs": ["pdf:task1:p024:q15-gap1"]
+    },
+    {
+      "passageId": "11-20",
+      "prompt": "Hackers Test 16: complete ab___. Enter the missing letters.",
+      "prefix": "ab",
+      "word": "abuse",
+      "answer": "Abuse is cruel, violent, or improper treatment. 正解：use → abuse（虐待・不当な扱い）。人権が人々を守る危害の一つとして挙げられています。",
+      "sourceRefs": ["pdf:task1:p024:q16-gap1"]
+    },
+    {
+      "passageId": "11-20",
+      "prompt": "Hackers Test 17: complete discrim_______. Enter the missing letters.",
+      "prefix": "discrim",
+      "word": "discrimination",
+      "answer": "Discrimination is unfair treatment based on a person's group or characteristics. 正解：ination → discrimination（差別）。discrimination against vulnerable peopleという定型的な組み合わせです。",
+      "sourceRefs": ["pdf:task1:p024:q17-gap1"]
+    },
+    {
+      "passageId": "11-20",
+      "prompt": "Hackers Test 18: complete vulne_____. Enter the missing letters.",
+      "prefix": "vulne",
+      "word": "vulnerable",
+      "answer": "Vulnerable means easily harmed, attacked, or treated unfairly. 正解：rable → vulnerable（弱い立場の・傷つきやすい）。虐待や差別から特に保護を必要とする人々を説明します。",
+      "sourceRefs": ["pdf:task1:p024:q18-gap1"]
+    },
+    {
+      "passageId": "11-20",
+      "prompt": "Hackers Test 19: complete Ev___. Enter the missing letters.",
+      "prefix": "Ev",
+      "word": "Every",
+      "answer": "Every refers to each member of a group without exception. 正解：ery → Every（すべての）。単数名詞governmentを修飾し、各政府の責務を述べます。",
+      "sourceRefs": ["pdf:task1:p024:q19-gap1"]
+    },
+    {
+      "passageId": "11-20",
+      "prompt": "Hackers Test 20: complete str____. Enter the missing letters.",
+      "prefix": "str",
+      "word": "strives",
+      "answer": "Strive means to make a determined effort to achieve something. 正解：ives → strives（努力する）。Every governmentが主語のため三人称単数形となり、人権を守る努力を表します。",
+      "sourceRefs": ["pdf:task1:p024:q20-gap1"]
+    }
+  ]
+}
