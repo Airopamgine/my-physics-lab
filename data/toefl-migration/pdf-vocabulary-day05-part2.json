@@ -1,0 +1,148 @@
+{
+  "id": "pdf-vocabulary-day05-part2",
+  "title": "Vocabulary Day 05 · Context Completion 2",
+  "task": 1,
+  "date": "2026-09-29T05:00:00+03:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 6ページ／冊子384ページ · Day 05の16〜30語（全60語中）",
+  "verificationNote": "掲載語・綴り・掲載順をPDF原本画像で確認済みです。各語を文脈で判断できるmissing-letter exerciseへ編集しています。出版社の公式解答表は未収録ですが、正答は掲載headwordと一致します。未回答の語の正答は、その語を提出するまで表示されません。",
+  "passages": {
+    "dough": "The baker kneaded the do___ until it became smooth and elastic.",
+    "ecosystem": "Removing a top predator can disrupt the entire eco______.",
+    "empathize": "A counselor should emp______ with students who are under severe stress.",
+    "epic": "The poem tells an ep__ tale of a hero's long journey home.",
+    "essential": "Clean water is ess______ for human survival.",
+    "examine": "Researchers exa____ the samples under a microscope.",
+    "feasibility": "Engineers conducted a fea________ study before approving the bridge project.",
+    "formation": "Cold temperatures accelerated the for______ of ice on the lake.",
+    "fragment": "Archaeologists found a frag____ of pottery near the ancient wall.",
+    "gear": "The climbers checked their ge__ before beginning the ascent.",
+    "glimpse": "The clouds briefly parted, giving astronomers a gli____ of the comet.",
+    "gutter": "Rainwater flowed through the gu____ and into the drainage pipe.",
+    "heartbeat": "The monitor recorded each hear_____ during the medical examination.",
+    "hypothesis": "The experiment was designed to test the hyp_______ about plant growth.",
+    "impact": "The report measured the im____ of air pollution on public health."
+  },
+  "questions": [
+    {
+      "passageId": "dough",
+      "prompt": "Day 05 vocabulary: complete do___. Enter the missing letters.",
+      "prefix": "do",
+      "word": "dough",
+      "answer": "Dough is a mixture of flour and liquid used for making bread or pastry. 正解：ugh → dough（生地・練り粉）。パン職人が滑らかで弾力が出るまで生地をこねる文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qdough"]
+    },
+    {
+      "passageId": "ecosystem",
+      "prompt": "Day 05 vocabulary: complete eco______. Enter the missing letters.",
+      "prefix": "eco",
+      "word": "ecosystem",
+      "answer": "An ecosystem is a community of organisms and the environment in which they interact. 正解：system → ecosystem（生態系）。上位捕食者を除くと生態系全体が乱れる文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qecosystem"]
+    },
+    {
+      "passageId": "empathize",
+      "prompt": "Day 05 vocabulary: complete emp______. Enter the missing letters.",
+      "prefix": "emp",
+      "word": "empathize",
+      "answer": "Empathize means to understand and share another person's feelings. 正解：athize → empathize（共感する）。カウンセラーが強いストレスを抱える学生の気持ちを理解する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qempathize"]
+    },
+    {
+      "passageId": "epic",
+      "prompt": "Day 05 vocabulary: complete ep__. Enter the missing letters.",
+      "prefix": "ep",
+      "word": "epic",
+      "answer": "Epic describes a long, heroic story or something impressive in scale. 正解：ic → epic（叙事詩的な・壮大な）。英雄の長い帰郷の旅を描く詩の文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qepic"]
+    },
+    {
+      "passageId": "essential",
+      "prompt": "Day 05 vocabulary: complete ess______. Enter the missing letters.",
+      "prefix": "ess",
+      "word": "essential",
+      "answer": "Essential means completely necessary or extremely important. 正解：ential → essential（不可欠な・必須の）。清潔な水が人間の生存に欠かせないという文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qessential"]
+    },
+    {
+      "passageId": "examine",
+      "prompt": "Day 05 vocabulary: complete exa____. Enter the missing letters.",
+      "prefix": "exa",
+      "word": "examine",
+      "answer": "Examine means to inspect or study something carefully. 正解：mine → examine（調べる・検査する）。研究者が顕微鏡で試料を詳しく調べる文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qexamine"]
+    },
+    {
+      "passageId": "feasibility",
+      "prompt": "Day 05 vocabulary: complete fea________. Enter the missing letters.",
+      "prefix": "fea",
+      "word": "feasibility",
+      "answer": "Feasibility is the degree to which a plan can be carried out successfully. 正解：sibility → feasibility（実現可能性）。橋の計画を承認する前に実現可能性を調査する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qfeasibility"]
+    },
+    {
+      "passageId": "formation",
+      "prompt": "Day 05 vocabulary: complete for______. Enter the missing letters.",
+      "prefix": "for",
+      "word": "formation",
+      "answer": "Formation is the process by which something develops or takes shape. 正解：mation → formation（形成・生成）。低温によって湖面の氷の形成が速まる文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qformation"]
+    },
+    {
+      "passageId": "fragment",
+      "prompt": "Day 05 vocabulary: complete frag____. Enter the missing letters.",
+      "prefix": "frag",
+      "word": "fragment",
+      "answer": "A fragment is a small piece broken off from a larger object. 正解：ment → fragment（破片・断片）。考古学者が古い壁の近くで陶器の破片を見つける文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qfragment"]
+    },
+    {
+      "passageId": "gear",
+      "prompt": "Day 05 vocabulary: complete ge__. Enter the missing letters.",
+      "prefix": "ge",
+      "word": "gear",
+      "answer": "Gear is equipment or clothing used for a particular activity. 正解：ar → gear（装備・用具）。登山者が登り始める前に装備を点検する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qgear"]
+    },
+    {
+      "passageId": "glimpse",
+      "prompt": "Day 05 vocabulary: complete gli____. Enter the missing letters.",
+      "prefix": "gli",
+      "word": "glimpse",
+      "answer": "A glimpse is a brief or incomplete view of something. 正解：mpse → glimpse（ちらりと見ること・一見）。雲が一時的に切れ、天文学者が彗星を短時間観測できる文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qglimpse"]
+    },
+    {
+      "passageId": "gutter",
+      "prompt": "Day 05 vocabulary: complete gu____. Enter the missing letters.",
+      "prefix": "gu",
+      "word": "gutter",
+      "answer": "A gutter is a channel that carries rainwater away from a roof or street. 正解：tter → gutter（雨どい・排水溝）。雨水が排水管へ流れる文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qgutter"]
+    },
+    {
+      "passageId": "heartbeat",
+      "prompt": "Day 05 vocabulary: complete hear_____. Enter the missing letters.",
+      "prefix": "hear",
+      "word": "heartbeat",
+      "answer": "A heartbeat is one complete movement or sound of the heart as it pumps blood. 正解：tbeat → heartbeat（心拍・鼓動）。医療検査中に装置が一回ごとの心拍を記録する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qheartbeat"]
+    },
+    {
+      "passageId": "hypothesis",
+      "prompt": "Day 05 vocabulary: complete hyp_______. Enter the missing letters.",
+      "prefix": "hyp",
+      "word": "hypothesis",
+      "answer": "A hypothesis is a proposed explanation that can be tested through investigation. 正解：othesis → hypothesis（仮説）。植物の成長についての仮説を実験で検証する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qhypothesis"]
+    },
+    {
+      "passageId": "impact",
+      "prompt": "Day 05 vocabulary: complete im____. Enter the missing letters.",
+      "prefix": "im",
+      "word": "impact",
+      "answer": "Impact is a strong effect or influence on someone or something. 正解：pact → impact（影響・衝撃）。大気汚染が公衆衛生に与える影響を報告書で測る文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qimpact"]
+    }
+  ]
+}
