@@ -1,0 +1,148 @@
+{
+  "id": "pdf-vocabulary-day05-part3",
+  "title": "Vocabulary Day 05 · Context Completion 3",
+  "task": 1,
+  "date": "2026-09-30T16:56:00+03:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 6ページ／冊子384ページ · Day 05の31〜45語（全60語中）",
+  "verificationNote": "掲載語・綴り・掲載順をPDF原本画像で確認済みです。各語を文脈で判断できるmissing-letter exerciseへ編集しています。出版社の公式解答表は未収録ですが、正答は掲載headwordと一致します。未回答の語の正答は、その語を提出するまで表示されません。",
+  "passages": {
+    "inaction": "The committee's in______ allowed the environmental damage to continue.",
+    "infinitely": "The mathematical sequence can continue inf_______ without reaching a final term.",
+    "insight": "The fossil record provides valuable ins____ into ancient climates.",
+    "internal": "The machine's int_____ components were damaged by heat.",
+    "intruder": "The alarm sounded when an int_____ entered the restricted laboratory.",
+    "labor": "Building the stone wall required months of physical la___.",
+    "latitude": "Locations at high lat_____ receive less direct sunlight in winter.",
+    "legal": "The court examined whether the new policy was le___.",
+    "manual": "The technician consulted the equipment man___ before replacing the sensor.",
+    "mimic": "Some harmless insects mi___ the colors of poisonous species.",
+    "network": "The satellites form a global net____ for communication.",
+    "output": "The factory increased its daily out___ after installing new machines.",
+    "planet": "Mars is the fourth pla___ from the Sun.",
+    "professional": "A pro_________ photographer documented the archaeological site.",
+    "recycle": "The facility can re_____ glass and aluminum into new products."
+  },
+  "questions": [
+    {
+      "passageId": "inaction",
+      "prompt": "Day 05 vocabulary: complete in______. Enter the missing letters.",
+      "prefix": "in",
+      "word": "inaction",
+      "answer": "Inaction means a failure to act or a lack of activity. 正解：action → inaction（不活動・行動しないこと）。委員会が行動しなかったため環境被害が続いたという文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qinaction"]
+    },
+    {
+      "passageId": "infinitely",
+      "prompt": "Day 05 vocabulary: complete inf_______. Enter the missing letters.",
+      "prefix": "inf",
+      "word": "infinitely",
+      "answer": "Infinitely means endlessly or without any limit. 正解：initely → infinitely（無限に・際限なく）。数列が終点なく続き得るという文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qinfinitely"]
+    },
+    {
+      "passageId": "insight",
+      "prompt": "Day 05 vocabulary: complete ins____. Enter the missing letters.",
+      "prefix": "ins",
+      "word": "insight",
+      "answer": "Insight is a clear and deep understanding of a subject. 正解：ight → insight（洞察・理解）。化石記録から古代の気候について深い理解が得られるという文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qinsight"]
+    },
+    {
+      "passageId": "internal",
+      "prompt": "Day 05 vocabulary: complete int_____. Enter the missing letters.",
+      "prefix": "int",
+      "word": "internal",
+      "answer": "Internal means located or occurring inside something. 正解：ernal → internal（内部の・内側の）。熱で機械の内部部品が損傷したという文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qinternal"]
+    },
+    {
+      "passageId": "intruder",
+      "prompt": "Day 05 vocabulary: complete int_____. Enter the missing letters.",
+      "prefix": "int",
+      "word": "intruder",
+      "answer": "An intruder is someone who enters a place without permission. 正解：ruder → intruder（侵入者）。立入制限区域に無断で入った人物を警報が検知したという文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qintruder"]
+    },
+    {
+      "passageId": "labor",
+      "prompt": "Day 05 vocabulary: complete la___. Enter the missing letters.",
+      "prefix": "la",
+      "word": "labor",
+      "answer": "Labor is physical or mental work, especially difficult work. 正解：bor → labor（労働・作業）。石壁を築くために何か月もの肉体労働が必要だったという文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qlabor"]
+    },
+    {
+      "passageId": "latitude",
+      "prompt": "Day 05 vocabulary: complete lat_____. Enter the missing letters.",
+      "prefix": "lat",
+      "word": "latitude",
+      "answer": "Latitude is angular distance north or south of the equator. 正解：itude → latitude（緯度）。高緯度地域では冬の日射がより弱いという文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qlatitude"]
+    },
+    {
+      "passageId": "legal",
+      "prompt": "Day 05 vocabulary: complete le___. Enter the missing letters.",
+      "prefix": "le",
+      "word": "legal",
+      "answer": "Legal means permitted by or relating to the law. 正解：gal → legal（合法の・法律上の）。裁判所が新しい方針の適法性を検討する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qlegal"]
+    },
+    {
+      "passageId": "manual",
+      "prompt": "Day 05 vocabulary: complete man___. Enter the missing letters.",
+      "prefix": "man",
+      "word": "manual",
+      "answer": "A manual is a book of instructions; manual can also mean operated by hand. 正解：ual → manual（手引書・手動の）。技術者が部品交換前に機器の取扱説明書を確認する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qmanual"]
+    },
+    {
+      "passageId": "mimic",
+      "prompt": "Day 05 vocabulary: complete mi___. Enter the missing letters.",
+      "prefix": "mi",
+      "word": "mimic",
+      "answer": "Mimic means to imitate the appearance or behavior of something. 正解：mic → mimic（まねる・模倣する）。無害な昆虫が有毒種の色をまねるという文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qmimic"]
+    },
+    {
+      "passageId": "network",
+      "prompt": "Day 05 vocabulary: complete net____. Enter the missing letters.",
+      "prefix": "net",
+      "word": "network",
+      "answer": "A network is a connected system of people, devices, or routes. 正解：work → network（網・ネットワーク）。衛星群が世界規模の通信網を形成する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qnetwork"]
+    },
+    {
+      "passageId": "output",
+      "prompt": "Day 05 vocabulary: complete out___. Enter the missing letters.",
+      "prefix": "out",
+      "word": "output",
+      "answer": "Output is the amount or result produced by a person, machine, or system. 正解：put → output（生産量・出力）。新しい機械の導入後に工場の日間生産量が増えたという文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qoutput"]
+    },
+    {
+      "passageId": "planet",
+      "prompt": "Day 05 vocabulary: complete pla___. Enter the missing letters.",
+      "prefix": "pla",
+      "word": "planet",
+      "answer": "A planet is a large body that moves around a star. 正解：net → planet（惑星）。火星が太陽から4番目の惑星であるという文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qplanet"]
+    },
+    {
+      "passageId": "professional",
+      "prompt": "Day 05 vocabulary: complete pro_________. Enter the missing letters.",
+      "prefix": "pro",
+      "word": "professional",
+      "answer": "Professional means relating to a paid occupation or having expert skill. 正解：fessional → professional（職業上の・専門的な）。専門の写真家が遺跡を記録したという文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qprofessional"]
+    },
+    {
+      "passageId": "recycle",
+      "prompt": "Day 05 vocabulary: complete re_____. Enter the missing letters.",
+      "prefix": "re",
+      "word": "recycle",
+      "answer": "Recycle means to process used materials so that they can be used again. 正解：cycle → recycle（再利用する・再生する）。施設がガラスとアルミニウムを新製品へ再生できるという文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qrecycle"]
+    }
+  ]
+}
