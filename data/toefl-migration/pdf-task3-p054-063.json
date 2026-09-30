@@ -1,0 +1,281 @@
+{
+  "id": "pdf-task3-p054-063",
+  "title": "Academic Reading · Rhetorical Purpose Questions",
+  "task": 3,
+  "date": "2026-09-30T04:55:00+03:00",
+  "level": "B2–C1",
+  "sourceLabel": "提供PDF Task 3 · PDF 54–63ページ／冊子254–263ページ · Rhetorical Purpose Questions",
+  "verificationNote": "PDF原本画像で例題1問、練習4問、テスト15問、全本文、全選択肢、設問順を照合しました。例題の正答は紙面掲載の解答で確認済みです。出版社解答ページ（471ページ）は未提供・未照合のため、練習・テストの正答は本文の明示情報に基づく編集解答です。",
+  "passages": {
+    "gut_brain_interaction": "Gut-Brain Interaction\n\nOne emerging field in neuroscience focuses on gut-brain interactions, examining how the gut nervous system communicates with the central nervous system. This bidirectional communication occurs through neural, hormonal, and immune pathways, and has been shown to influence mood, cognition, and stress responses. Recent research suggests that the gut microbiota may play a central role in shaping neural activity by producing metabolites and neurotransmitter-like molecules that can cross into circulation and affect brain function.\n\nA particularly intriguing discovery is the relationship between gut health and mental health conditions. Alterations in microbial composition have been linked to disorders such as depression and anxiety, suggesting that manipulating the microbiome through diet, probiotics, or targeted therapies could modulate brain activity. Animal studies have suggested that transferring gut bacteria from stressed or anxious individuals can lead to comparable behavioral patterns in the recipient, raising the possibility of a causal relationship.\n\nFuture research aims to map the precise mechanisms by which the gut influences specific brain circuits and behaviors. Advances in neuroimaging and molecular profiling are expected to reveal new therapeutic strategies that integrate nutrition, microbiology, and neuroscience. This integrative perspective may redefine our understanding of the brain as a system deeply interconnected with the body.",
+    "diaspora_communities": "Diaspora Communities\n\nDiaspora communities refer to groups of people who have migrated from their country of origin and settled in new locations, forming distinct cultural groups abroad. These communities are typically created in response to economic necessity and environmental pressure in their homelands. Transportation and communication networks then facilitate sustained growth by enabling the displaced population to form connections with communities abroad and build a transnational network.\n\nDiaspora communities can create economic and professional networks to support members in their new environments. For instance, Jewish diaspora communities maintain the International Association of Jewish Free Loans. Organizations under this network offer interest-free loans to Jewish people around the world, helping old and new immigrants establish small businesses and purchase homes.",
+    "asch_conformity": "Asch’s Conformity Experiments\n\nIn 1951, social psychologist Solomon Asch conducted a series of experiments on conformity and group psychology, demonstrating how a person could be influenced by pressure to conform to a group.\n\nFor the experiments, Asch recruited groups of students for simple tests of visual perception, which consisted of identifying two lines of matching length. However, only one participant in each group was a true test subject. The rest were actors whom Asch instructed to occasionally pick the wrong answer on purpose, thus forcing the subjects to choose between the evidently correct answer and an incorrect one that nonetheless conformed to the group’s opinion.\n\nWithout the pressure to conform, subjects chose incorrectly less than 1 percent of the time. However, under the experimental conditions, that number rose to 36 percent. When asked to explain their decisions, most said they wanted to avoid the group’s disapproval, while a smaller number said the group’s influence had caused them to genuinely doubt their beliefs.",
+    "deep_sea_brine_pools": "Deep-Sea Brine Pools\n\nDeep-sea brine pools are unique environments located in isolated areas of the ocean floor at great depths. These pools contain water with extremely high concentrations of salt, which makes them much denser than the surrounding seawater. This difference in density creates a distinct boundary, resulting in what some describe as underwater lakes. They have extremely low to nonexistent levels of oxygen and are highly toxic to many forms of marine life.\n\nDespite these inhospitable conditions, certain microorganisms, such as halophilic bacteria and archaea, can thrive in brine pools. These organisms have adapted to survive in water with high salt and low oxygen levels, and their metabolic processes can reveal important information about the limits of life. Scientists study these microorganisms to better understand how life can exist in extreme environments.",
+    "platypus": "The Platypus\n\nNative to eastern Australia, the platypus is one of the most unusual animals in the world. It is classified as a mammal because of its ability to produce milk and its furry body. But it also possesses a duck-like bill and webbed feet. Especially rare among mammals, it lays eggs and uses electroreception to detect movements of prey underwater. Male platypuses even produce venom from spurs on their hind legs, which they use to deter predators.\n\nThe existence of the platypus challenged our understanding of animal classification. When the first platypus specimen was sent from Australia to Britain in the late eighteenth century, scientists thought it was a hoax. They believed someone had sewn together parts of different animals. This skepticism persisted for several decades until more specimens were studied and dissected, confirming its authenticity.",
+    "central_park": "Central Park\n\nCovering over 800 acres in the heart of Manhattan, Central Park in New York City is one of the most iconic urban parks in the United States. Conceived during the mid-nineteenth century, the park was created as a response to rapid urbanization and industrial growth, which left city residents with little access to natural spaces. Frederick Law Olmsted, who co-designed the park with Calvert Vaux, saw parks as integral in creating healthier and more democratic cities.\n\nOlmsted and Vaux employed a naturalistic style, incorporating meadows, woodlands, and bodies of water to evoke the countryside within the city. They also planned winding paths, scenic viewpoints, and diverse plantings that offered both beauty and function. This balance of utility and aesthetics marked a significant development in American landscape architecture.\n\nFor urban dwellers of all backgrounds, the park provided relief from the pressures of industrial city life. Its green spaces demonstrated how thoughtful planning could improve public health and enhance community well-being. Today, Central Park remains a case study for urban park planners and a lasting symbol of how landscape design can shape urban life through both aesthetics and social benefits.",
+    "invasive_plants": "Invasive Plants\n\nInvasive plants are plants that spread outside their native range. When these plants possess traits such as aggressive growth, high reproductive rates, and resistance to local pests, they can outcompete indigenous vegetation for sunlight, water, and nutrients. Invasive species can be found in many ecosystems, from wetlands and forests to urban areas. Their presence may reduce biodiversity, alter soil composition, and disrupt water cycles.\n\nThese plants impact both natural and managed ecosystems. Natural areas may lose native plant populations, which negatively affects the insects and animals that rely on them. Agricultural lands often suffer from diminished crop yields, as invasive plants are difficult to control. Some species can also increase the risk of flooding. For example, Japanese knotweed overruns stream banks and makes it easy for water to overflow, while purple loosestrife forms dense clusters in wetlands.\n\nInvasive plants often spread as a result of human activity, such as the unintentional transportation of seeds in cargo. Ornamental plants in gardens may also establish new populations in nearby areas. Animals and wind further aid the spread of invasive plants by dispersing seeds over large distances. Additionally, changes in land use, such as deforestation, can create environments that favor invasive species.",
+    "habitus": "Habitus\n\nHabitus is a concept developed by French sociologist Pierre Bourdieu. It refers to the deeply embedded habits, skills, and ways of perceiving the world that individuals develop through their cultural and social experiences. Habitus shapes unconscious actions, patterns of thought, and preferences in daily life and explains why people from similar backgrounds often display comparable behaviors.\n\nA familiar example of habitus can be seen in classroom etiquette. Children who grow up in families emphasizing punctuality, quiet listening, and respect for authority often retain these dispositions until they graduate. Such students instinctively understand classroom expectations and adapt accordingly. On the other hand, children who were not exposed to these norms early in life may struggle to fit in despite wanting to, and this demonstrates how habitus operates below conscious awareness.\n\nHabitus continues to influence behaviors in adulthood. For instance, professionals today who were raised in families working in the corporate world may feel more comfortable in formal business settings, understand unwritten rules of networking, and select business attire that suits the context. This invisible framework created by habitus guides choices and reactions throughout life, reflecting how social position and life experiences shape both individual identity and collective cultural practices."
+  },
+  "questions": [
+    {
+      "passageId": "gut_brain_interaction",
+      "prompt": "Why does the author mention depression and anxiety?",
+      "options": [
+        {"label": "A", "text": "To describe the hormonal changes caused by stress"},
+        {"label": "B", "text": "To propose a link between immune pathways and the brain"},
+        {"label": "C", "text": "To give examples of conditions associated with changes in gut microbiota"},
+        {"label": "D", "text": "To highlight the effectiveness of probiotics in treating mental health disorders"}
+      ],
+      "correct": "C",
+      "answer": "正解：C。第2段落は腸内微生物の構成変化と関連する疾患の具体例として、うつ病と不安症を挙げています。プロバイオティクスの治療効果が実証されたという説明ではありません。",
+      "sourceRefs": ["pdf:task3:p055:qexample-purpose"]
+    },
+    {
+      "passageId": "diaspora_communities",
+      "prompt": "Why does the author mention the International Association of Jewish Free Loans?",
+      "options": [
+        {"label": "A", "text": "To suggest that diaspora communities rely on financial aid for adaptation"},
+        {"label": "B", "text": "To show that the Jews were the first to provide financial assistance to diaspora groups"},
+        {"label": "C", "text": "To illustrate how diaspora communities create support networks for their members"},
+        {"label": "D", "text": "To indicate that diaspora networks are limited to housing and small business support"}
+      ],
+      "correct": "C",
+      "answer": "正解：C。直前の主張である「ディアスポラ共同体は成員を支える経済的・専門的ネットワークを作る」を、無利子融資の組織という具体例で示しています。",
+      "sourceRefs": ["pdf:task3:p056:qpractice01"]
+    },
+    {
+      "passageId": "asch_conformity",
+      "prompt": "What is the relationship between paragraphs 2 and 3?",
+      "options": [
+        {"label": "A", "text": "Paragraph 3 presents the results of the experiment described in paragraph 2."},
+        {"label": "B", "text": "Paragraph 3 questions the validity of the experiment explained in paragraph 2."},
+        {"label": "C", "text": "Paragraph 3 offers alternative explanations for the behaviors discussed in paragraph 2."},
+        {"label": "D", "text": "Paragraph 3 introduces a new experiment unrelated to the one mentioned in paragraph 2."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。第2段落が実験方法を説明し、第3段落が誤答率の上昇と参加者の説明という実験結果を提示しています。",
+      "sourceRefs": ["pdf:task3:p056:qpractice02"]
+    },
+    {
+      "passageId": "deep_sea_brine_pools",
+      "prompt": "What can be concluded about paragraph 2?",
+      "options": [
+        {"label": "A", "text": "It explains why microorganisms in an unusual environment are studied."},
+        {"label": "B", "text": "It offers an example of a biotechnology application in marine research."},
+        {"label": "C", "text": "It describes how brine pools contribute to global biogeochemical cycles."},
+        {"label": "D", "text": "It highlights the role of deep-sea brine pools in regulating ocean temperature."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。第2段落は、極限環境に適応した微生物の代謝を調べることで生命の限界と生存の仕組みを理解できるため、科学者が研究すると説明しています。",
+      "sourceRefs": ["pdf:task3:p057:qpractice03"]
+    },
+    {
+      "passageId": "platypus",
+      "prompt": "Select the sentence in paragraph 2 that illustrates how difficult it was to validate the discovery of the platypus.",
+      "options": [
+        {"label": "A", "text": "The existence of the platypus challenged our understanding of animal classification."},
+        {"label": "B", "text": "When the first platypus specimen was sent from Australia to Britain in the late eighteenth century, scientists thought it was a hoax."},
+        {"label": "C", "text": "They believed someone had sewn together parts of different animals."},
+        {"label": "D", "text": "This skepticism persisted for several decades until more specimens were studied and dissected, confirming its authenticity."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。疑いが数十年間続き、追加標本の研究と解剖を経てようやく真正性が確認されたという文が、検証の難しさと長さを直接示しています。",
+      "sourceRefs": ["pdf:task3:p057:qpractice04"]
+    },
+    {
+      "passageId": "central_park",
+      "prompt": "What was the historical context in which Central Park was built?",
+      "options": [
+        {"label": "A", "text": "A period when industrial development and urban growth accelerated"},
+        {"label": "B", "text": "An era of suburban expansion with abundant access to natural areas"},
+        {"label": "C", "text": "A time when New York City was losing population and farmland was plentiful"},
+        {"label": "D", "text": "A phase dominated by postwar reconstruction and modern city planning"}
+      ],
+      "correct": "A",
+      "answer": "正解：A。第1段落は、19世紀半ばの急速な都市化と産業成長により市民が自然へ接しにくくなったことへの対応として公園が造られたと述べています。",
+      "sourceRefs": ["pdf:task3:p059:q01"]
+    },
+    {
+      "passageId": "central_park",
+      "prompt": "The word “integral” in the first paragraph is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "adequate"},
+        {"label": "B", "text": "typical"},
+        {"label": "C", "text": "essential"},
+        {"label": "D", "text": "functional"}
+      ],
+      "correct": "C",
+      "answer": "正解：C。Olmstedは公園を、より健康で民主的な都市を作るうえで不可欠なものと考えているため、integralはessentialに最も近いです。",
+      "sourceRefs": ["pdf:task3:p059:q02"]
+    },
+    {
+      "passageId": "central_park",
+      "prompt": "Why does the author mention Frederick Law Olmsted’s view of parks?",
+      "options": [
+        {"label": "A", "text": "To demonstrate that Olmsted was the originator of the naturalistic landscape style"},
+        {"label": "B", "text": "To provide the underlying philosophical reason for the park’s design"},
+        {"label": "C", "text": "To highlight that Olmsted focused only on aesthetic beauty"},
+        {"label": "D", "text": "To show the importance of democratic processes in city planning"}
+      ],
+      "correct": "B",
+      "answer": "正解：B。公園が健康で民主的な都市に不可欠だというOlmstedの考えは、Central Parkを設計した根本理念を説明しています。",
+      "sourceRefs": ["pdf:task3:p059:q03"]
+    },
+    {
+      "passageId": "central_park",
+      "prompt": "Which of the following best describes the purpose of paragraph 2?",
+      "options": [
+        {"label": "A", "text": "Paragraph 2 details the social benefits derived from Central Park."},
+        {"label": "B", "text": "Paragraph 2 compares Central Park with other urban parks."},
+        {"label": "C", "text": "Paragraph 2 outlines the goals behind the establishment of Central Park."},
+        {"label": "D", "text": "Paragraph 2 describes the specific design features of Central Park."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。第2段落は、草地、森林、水域、曲がりくねった小道、展望地点、植栽など、公園の具体的な設計要素を列挙しています。",
+      "sourceRefs": ["pdf:task3:p059:q04"]
+    },
+    {
+      "passageId": "central_park",
+      "prompt": "What can be inferred about modern urban parks?",
+      "options": [
+        {"label": "A", "text": "They are frequently located on city outskirts to maximize land availability."},
+        {"label": "B", "text": "They are often designed with lessons learned from Central Park."},
+        {"label": "C", "text": "They are primarily intended to replicate Central Park in design and purpose."},
+        {"label": "D", "text": "They are mainly valued for their aesthetic appeal rather than social benefits."}
+      ],
+      "correct": "B",
+      "answer": "正解：B。Central Parkが今日も都市公園計画者のケーススタディであるという記述から、現代の公園設計にその教訓が利用されていると推測できます。",
+      "sourceRefs": ["pdf:task3:p059:q05"]
+    },
+    {
+      "passageId": "invasive_plants",
+      "prompt": "The word “unintentional” in the passage is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "deliberate"},
+        {"label": "B", "text": "accidental"},
+        {"label": "C", "text": "necessary"},
+        {"label": "D", "text": "frequent"}
+      ],
+      "correct": "B",
+      "answer": "正解：B。貨物による種子の運搬が意図せず起こるという文脈なので、unintentionalはaccidental（偶発的な）に最も近いです。",
+      "sourceRefs": ["pdf:task3:p061:q06"]
+    },
+    {
+      "passageId": "invasive_plants",
+      "prompt": "What is the impact invasive plants have on agricultural lands?",
+      "options": [
+        {"label": "A", "text": "Faster soil erosion"},
+        {"label": "B", "text": "Lower crop yields"},
+        {"label": "C", "text": "Disruption of pollination"},
+        {"label": "D", "text": "Transmission of plant diseases"}
+      ],
+      "correct": "B",
+      "answer": "正解：B。第2段落は、侵入植物を制御しにくいため農地では収穫量が減少すると明記しています。",
+      "sourceRefs": ["pdf:task3:p061:q07"]
+    },
+    {
+      "passageId": "invasive_plants",
+      "prompt": "Why does the author mention Japanese knotweed and purple loosestrife?",
+      "options": [
+        {"label": "A", "text": "To highlight that invasive species reduce populations of local wildlife"},
+        {"label": "B", "text": "To introduce unusual invasive plants that are economically valuable"},
+        {"label": "C", "text": "To show how certain invasive species increase the risk of water-related hazards"},
+        {"label": "D", "text": "To suggest that some invasive plants may actually be of benefit to farmers"}
+      ],
+      "correct": "C",
+      "answer": "正解：C。直前の「一部の種は洪水リスクを高める」という主張を、河岸を覆うイタドリと湿地に密生するエゾミソハギの例で具体化しています。",
+      "sourceRefs": ["pdf:task3:p061:q08"]
+    },
+    {
+      "passageId": "invasive_plants",
+      "prompt": "Which of the following is NOT mentioned as a cause of the spread of invasive plants in the passage?",
+      "options": [
+        {"label": "A", "text": "Human activity"},
+        {"label": "B", "text": "Seasonal flooding"},
+        {"label": "C", "text": "Dispersal by animals"},
+        {"label": "D", "text": "Modification of landscapes"}
+      ],
+      "correct": "B",
+      "answer": "正解：B。本文は人間活動、動物による種子散布、森林伐採などの土地利用変化を挙げていますが、季節的洪水は拡散原因として述べていません。",
+      "sourceRefs": ["pdf:task3:p061:q09"]
+    },
+    {
+      "passageId": "invasive_plants",
+      "prompt": "What is the relationship between paragraphs 2 and 3?",
+      "options": [
+        {"label": "A", "text": "Paragraph 3 describes possible causes for the problems discussed in paragraph 2."},
+        {"label": "B", "text": "Paragraph 3 gives examples of native plants affected by the issues described in paragraph 2."},
+        {"label": "C", "text": "Paragraph 3 introduces another negative impact of invasive plants not mentioned in paragraph 2."},
+        {"label": "D", "text": "Paragraph 3 provides the economic benefits of invasive plants in contrast to paragraph 2."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。第2段落が侵入植物による自然・農地・洪水への悪影響を示し、第3段落が人間活動、庭園、動物、風、土地利用変化という拡散原因を説明しています。",
+      "sourceRefs": ["pdf:task3:p061:q10"]
+    },
+    {
+      "passageId": "habitus",
+      "prompt": "The word “dispositions” in the passage is closest in meaning to",
+      "options": [
+        {"label": "A", "text": "instructions"},
+        {"label": "B", "text": "appearances"},
+        {"label": "C", "text": "tendencies"},
+        {"label": "D", "text": "resources"}
+      ],
+      "correct": "C",
+      "answer": "正解：C。家庭で身につけた時間厳守、静かに聞くこと、権威への敬意といった持続的な行動傾向を指すため、dispositionsはtendenciesに最も近いです。",
+      "sourceRefs": ["pdf:task3:p063:q11"]
+    },
+    {
+      "passageId": "habitus",
+      "prompt": "What is the passage mainly about?",
+      "options": [
+        {"label": "A", "text": "The importance of employment history in developing habitus"},
+        {"label": "B", "text": "The influence of habitus on individual and group behavior"},
+        {"label": "C", "text": "The impact of habitus on the classroom etiquette of students"},
+        {"label": "D", "text": "The role of formal public education in shaping habitus"}
+      ],
+      "correct": "B",
+      "answer": "正解：B。本文はhabitusの定義、教室での例、成人後の職場での例を通じて、それが個人の行動と集団に共通する文化的実践を形作ることを説明しています。",
+      "sourceRefs": ["pdf:task3:p063:q12"]
+    },
+    {
+      "passageId": "habitus",
+      "prompt": "What can be inferred about people with similar habitus?",
+      "options": [
+        {"label": "A", "text": "They may develop nearly identical personal interests."},
+        {"label": "B", "text": "They will achieve the same level of academic success."},
+        {"label": "C", "text": "They tend to display comparable behaviors in the same contexts."},
+        {"label": "D", "text": "They could eventually reach equal status in their communities."}
+      ],
+      "correct": "C",
+      "answer": "正解：C。似た背景の人はしばしば比較可能な行動を示すという第1段落の説明から、同じ状況では似た行動傾向が現れると推測できます。",
+      "sourceRefs": ["pdf:task3:p063:q13"]
+    },
+    {
+      "passageId": "habitus",
+      "prompt": "Click on the sentence in paragraph 2 that demonstrates how habitus shapes behavior independently of a person’s intentional actions.",
+      "options": [
+        {"label": "A", "text": "A familiar example of habitus can be seen in classroom etiquette."},
+        {"label": "B", "text": "Children who grow up in families emphasizing punctuality, quiet listening, and respect for authority often retain these dispositions until they graduate."},
+        {"label": "C", "text": "Such students instinctively understand classroom expectations and adapt accordingly."},
+        {"label": "D", "text": "On the other hand, children who were not exposed to these norms early in life may struggle to fit in despite wanting to, and this demonstrates how habitus operates below conscious awareness."}
+      ],
+      "correct": "D",
+      "answer": "正解：D。本人は溶け込みたいと意図していても苦労し、habitusが意識の下で作用すると明記するため、意図とは独立した影響を最も直接示しています。",
+      "sourceRefs": ["pdf:task3:p063:q14"]
+    },
+    {
+      "passageId": "habitus",
+      "prompt": "What can be concluded about paragraph 3?",
+      "options": [
+        {"label": "A", "text": "It illustrates that the effects of habitus extend beyond adolescence."},
+        {"label": "B", "text": "It shows that adults are less affected by habitus than children."},
+        {"label": "C", "text": "It offers a critique of Bourdieu’s theory based on modern workplaces."},
+        {"label": "D", "text": "It explains how professional families foster ambitions in their children."}
+      ],
+      "correct": "A",
+      "answer": "正解：A。第3段落は、habitusが成人後も職場での快適さ、暗黙の規則、服装選択に影響すると述べ、効果が青年期以降にも続くことを例証しています。",
+      "sourceRefs": ["pdf:task3:p063:q15"]
+    }
+  ]
+}
