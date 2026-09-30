@@ -262,7 +262,7 @@ class TaskCatalogTests(unittest.TestCase):
         source = next(s for s in index['sources'] if s['id'] == 'task1')
         self.assertEqual(source['reviewedPages'], list(range(1, 25)))
         self.assertEqual(source['pageItems']['24'], refs)
-        self.assertEqual(index['lastSource'], 'task1')
+        self.assertIn(index['lastSource'], {item['id'] for item in index['sources']})
 
     def test_pdf_task3_detail_questions_preserve_all_fifteen_answers(self):
         bank = self.build()
@@ -410,12 +410,50 @@ class TaskCatalogTests(unittest.TestCase):
 
         index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
         source = next(s for s in index['sources'] if s['id'] == 'task3')
-        self.assertEqual(source['reviewedPages'], list(range(1, 54)))
+        self.assertEqual(source['reviewedPages'][:53], list(range(1, 54)))
         self.assertEqual(source['pageItems']['50'], [])
         self.assertEqual(source['pageItems']['51'], refs[:5])
         self.assertEqual(source['pageItems']['52'], [])
         self.assertEqual(source['pageItems']['53'], refs[5:])
         self.assertIn(index['lastSource'], {item['id'] for item in index['sources']})
+
+    def test_pdf_task3_rhetorical_purpose_preserves_all_twenty_answers(self):
+        bank = self.build()
+        item = next(s for s in bank['sets'] if s['id'] == 'pdf-task3-p054-063')
+        refs = (["pdf:task3:p055:qexample-purpose",
+                 "pdf:task3:p056:qpractice01",
+                 "pdf:task3:p056:qpractice02",
+                 "pdf:task3:p057:qpractice03",
+                 "pdf:task3:p057:qpractice04"] +
+                [f'pdf:task3:p059:q{i:02d}' for i in range(1, 6)] +
+                [f'pdf:task3:p061:q{i:02d}' for i in range(6, 11)] +
+                [f'pdf:task3:p063:q{i:02d}' for i in range(11, 16)])
+
+        self.assertEqual(item['collection'], 'Task 3')
+        self.assertEqual(len(item['questions']), 20)
+        self.assertEqual([q['sourceRefs'][0] for q in item['questions']], refs)
+        self.assertEqual([q['correct'] for q in item['questions']],
+                         list('CCAADACBDBBBCBACBCDA'))
+        self.assertEqual(len({q['passage'] for q in item['questions']}), 8)
+        self.assertTrue(all(len(q['options']) == 4 for q in item['questions']))
+
+        index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
+        source = next(s for s in index['sources'] if s['id'] == 'task3')
+        self.assertEqual(source['reviewedPages'], list(range(1, 64)))
+        self.assertEqual(source['pageItems']['54'], [])
+        self.assertEqual(source['pageItems']['55'], refs[:1])
+        self.assertEqual(source['pageItems']['56'], refs[1:3])
+        self.assertEqual(source['pageItems']['57'], refs[3:5])
+        self.assertEqual(source['pageItems']['58'], [])
+        self.assertEqual(source['pageItems']['59'], refs[5:10])
+        self.assertEqual(source['pageItems']['60'], [])
+        self.assertEqual(source['pageItems']['61'], refs[10:15])
+        self.assertEqual(source['pageItems']['62'], [])
+        self.assertEqual(source['pageItems']['63'], refs[15:])
+        self.assertEqual(index['lastSource'], 'task3')
+        blocker = next(item for item in index['blockedItems']
+                       if item['source'] == 'task2')
+        self.assertEqual(blocker['pages'], list(range(116, 125)))
 
     def test_reading_diagnostic_preserves_all_twenty_answers(self):
         bank = self.build()
