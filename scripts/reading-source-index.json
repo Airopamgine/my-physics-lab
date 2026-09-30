@@ -1124,7 +1124,17 @@
         50,
         51,
         52,
-        53
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
       ],
       "pageItems": {
         "1": [],
@@ -1307,6 +1317,42 @@
           "pdf:task3:p053:q18",
           "pdf:task3:p053:q19",
           "pdf:task3:p053:q20"
+        ],
+        "54": [],
+        "55": [
+          "pdf:task3:p055:qexample-purpose"
+        ],
+        "56": [
+          "pdf:task3:p056:qpractice01",
+          "pdf:task3:p056:qpractice02"
+        ],
+        "57": [
+          "pdf:task3:p057:qpractice03",
+          "pdf:task3:p057:qpractice04"
+        ],
+        "58": [],
+        "59": [
+          "pdf:task3:p059:q01",
+          "pdf:task3:p059:q02",
+          "pdf:task3:p059:q03",
+          "pdf:task3:p059:q04",
+          "pdf:task3:p059:q05"
+        ],
+        "60": [],
+        "61": [
+          "pdf:task3:p061:q06",
+          "pdf:task3:p061:q07",
+          "pdf:task3:p061:q08",
+          "pdf:task3:p061:q09",
+          "pdf:task3:p061:q10"
+        ],
+        "62": [],
+        "63": [
+          "pdf:task3:p063:q11",
+          "pdf:task3:p063:q12",
+          "pdf:task3:p063:q13",
+          "pdf:task3:p063:q14",
+          "pdf:task3:p063:q15"
         ]
       }
     },
@@ -1575,7 +1621,14 @@
       }
     }
   ],
-  "lastSource": "task1",
-  "blockedItems": [],
+  "lastSource": "task3",
+  "blockedItems": [
+    {
+      "source": "task2",
+      "pages": [116, 117, 118, 119, 120, 121, 122, 123, 124],
+      "reason": "The currently available private source PDF ends before these pages, so the page text and answer choices cannot be verified.",
+      "needs": "A complete copy of TOEFL-reading_task2.pdf containing PDF pages 116–124."
+    }
+  ],
   "note": "Public progress manifest only: source labels, page counts, reviewed pages, source references and answer-key availability. Private PDFs, OCR cache paths, and file hashes are excluded. Exact PDF question totals require review; publisher answer pages have not been supplied."
 }
