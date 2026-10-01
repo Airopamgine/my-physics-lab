@@ -295,7 +295,8 @@
         21,
         22,
         23,
-        24
+        24,
+        25
       ],
       "pageItems": {
         "1": [],
@@ -503,6 +504,28 @@
           "pdf:task1:p024:q18-gap1",
           "pdf:task1:p024:q19-gap1",
           "pdf:task1:p024:q20-gap1"
+        ],
+        "25": [
+          "pdf:task1:p025:q21-gap1",
+          "pdf:task1:p025:q22-gap1",
+          "pdf:task1:p025:q23-gap1",
+          "pdf:task1:p025:q24-gap1",
+          "pdf:task1:p025:q25-gap1",
+          "pdf:task1:p025:q26-gap1",
+          "pdf:task1:p025:q27-gap1",
+          "pdf:task1:p025:q28-gap1",
+          "pdf:task1:p025:q29-gap1",
+          "pdf:task1:p025:q30-gap1",
+          "pdf:task1:p025:q31-gap1",
+          "pdf:task1:p025:q32-gap1",
+          "pdf:task1:p025:q33-gap1",
+          "pdf:task1:p025:q34-gap1",
+          "pdf:task1:p025:q35-gap1",
+          "pdf:task1:p025:q36-gap1",
+          "pdf:task1:p025:q37-gap1",
+          "pdf:task1:p025:q38-gap1",
+          "pdf:task1:p025:q39-gap1",
+          "pdf:task1:p025:q40-gap1"
         ]
       }
     },
@@ -1621,7 +1644,7 @@
       }
     }
   ],
-  "lastSource": "vocabulary",
+  "lastSource": "task1",
   "blockedItems": [
     {
       "source": "task2",
