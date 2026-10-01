@@ -290,7 +290,7 @@ class TaskCatalogTests(unittest.TestCase):
         source = next(s for s in index['sources'] if s['id'] == 'task1')
         self.assertEqual(source['reviewedPages'], list(range(1, 26)))
         self.assertEqual(source['pageItems']['25'], refs)
-        self.assertEqual(index['lastSource'], 'task1')
+        self.assertIn(index['lastSource'], {item['id'] for item in index['sources']})
 
     def test_pdf_task3_detail_questions_preserve_all_fifteen_answers(self):
         bank = self.build()
@@ -653,7 +653,7 @@ class TaskCatalogTests(unittest.TestCase):
 
         index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
         source = next(s for s in index['sources'] if s['id'] == 'vocabulary')
-        self.assertEqual(source['reviewedPages'], list(range(1, 6)))
+        self.assertEqual(source['reviewedPages'][:5], list(range(1, 6)))
         self.assertEqual(len(source['pageItems']['5']), 60)
         self.assertEqual(source['pageItems']['5'][45:], refs)
 
@@ -678,8 +678,8 @@ class TaskCatalogTests(unittest.TestCase):
 
         index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
         source = next(s for s in index['sources'] if s['id'] == 'vocabulary')
-        self.assertNotIn(6, source['reviewedPages'])
-        self.assertNotIn('6', source['pageItems'])
+        self.assertIn(6, source['reviewedPages'])
+        self.assertEqual(source['pageItems']['6'][:15], refs)
         self.assertIn(index['lastSource'], {item['id'] for item in index['sources']})
 
     def test_vocabulary_day05_part2_preserves_headwords_sixteen_to_thirty(self):
@@ -702,8 +702,8 @@ class TaskCatalogTests(unittest.TestCase):
 
         index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
         source = next(s for s in index['sources'] if s['id'] == 'vocabulary')
-        self.assertNotIn(6, source['reviewedPages'])
-        self.assertNotIn('6', source['pageItems'])
+        self.assertIn(6, source['reviewedPages'])
+        self.assertEqual(source['pageItems']['6'][15:30], refs)
         self.assertIn(index['lastSource'], {item['id'] for item in index['sources']})
 
     def test_vocabulary_day05_part3_preserves_headwords_thirty_one_to_forty_five(self):
@@ -727,11 +727,41 @@ class TaskCatalogTests(unittest.TestCase):
 
         index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
         source = next(s for s in index['sources'] if s['id'] == 'vocabulary')
-        self.assertNotIn(6, source['reviewedPages'])
-        self.assertNotIn('6', source['pageItems'])
+        self.assertIn(6, source['reviewedPages'])
+        self.assertEqual(source['pageItems']['6'][30:45], refs)
         self.assertIn(index['lastSource'], {item['id'] for item in index['sources']})
         blocker = next(item for item in index['blockedItems']
                        if item['source'] == 'task2')
+        self.assertEqual(blocker['pages'], list(range(116, 125)))
+
+    def test_vocabulary_day05_part4_completes_all_sixty_headwords(self):
+        bank = self.build()
+        item = next(s for s in bank['sets']
+                    if s['id'] == 'pdf-vocabulary-day05-part4')
+        words = [
+            'retreat', 'sedimentary', 'soil', 'specific', 'strategy',
+            'supposedly', 'sync', 'thematic', 'trait', 'underground',
+            'unintentional', 'unsettled', 'vary', 'vivid', 'worldwide']
+        refs = [f'pdf:vocabulary:p006:q{word}' for word in words]
+        self.assertEqual(item['collection'], 'Task 1')
+        self.assertEqual([q['sourceRefs'][0] for q in item['questions']], refs)
+        suffixes = [
+            'treat', 'imentary', 'il', 'cific', 'tegy', 'posedly', 'nc',
+            'matic', 'ait', 'ground', 'tentional', 'settled', 'ry', 'vid',
+            'wide']
+        self.assertEqual([q['acceptedAnswers'] for q in item['questions']],
+                         [[suffix, word] for suffix, word in zip(suffixes, words)])
+        self.assertTrue(all(q['correct'] is None and q['options'] == []
+                            for q in item['questions']))
+
+        index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
+        source = next(s for s in index['sources'] if s['id'] == 'vocabulary')
+        self.assertEqual(source['reviewedPages'], list(range(1, 7)))
+        self.assertEqual(len(source['pageItems']['6']), 60)
+        self.assertEqual(source['pageItems']['6'][45:], refs)
+        self.assertEqual(index['lastSource'], 'vocabulary')
+        blocker = next(entry for entry in index['blockedItems']
+                       if entry['source'] == 'task2')
         self.assertEqual(blocker['pages'], list(range(116, 125)))
 
     def test_vocabulary_day02_all_sixty_headwords_complete_page3(self):
