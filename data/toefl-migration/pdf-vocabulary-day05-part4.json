@@ -1,0 +1,148 @@
+{
+  "id": "pdf-vocabulary-day05-part4",
+  "title": "Vocabulary Day 05 · Context Completion 4",
+  "task": 1,
+  "date": "2026-10-01T17:03:00+03:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 6ページ／冊子384ページ · Day 05の46〜60語（全60語中）",
+  "verificationNote": "掲載語・綴り・掲載順をPDF原本画像で確認済みです。各語を文脈で判断できるmissing-letter exerciseへ編集しています。出版社の公式解答表は未収録ですが、正答は掲載headwordと一致します。未回答の語の正答は、その語を提出するまで表示されません。",
+  "passages": {
+    "retreat": "The troops were forced to re_____ when the river began to flood.",
+    "sedimentary": "Sandstone is a sed________ rock formed from layers of compacted sediment.",
+    "soil": "Plant roots help hold the so__ in place during heavy rain.",
+    "specific": "The report identifies the spe_____ conditions needed for the species to survive.",
+    "strategy": "The conservation team developed a stra____ to protect the wetland.",
+    "supposedly": "The artifact was sup_______ discovered near the ancient settlement, though the claim remains unverified.",
+    "sync": "The two instruments must sy__ before they can record the same event accurately.",
+    "thematic": "The museum arranged the exhibition in the_____ sections rather than chronological order.",
+    "trait": "A thick coat is a useful tr___ for animals living in cold climates.",
+    "underground": "The roots spread through an under______ network beneath the forest floor.",
+    "unintentional": "The change in water flow was an unin_________ consequence of the dam project.",
+    "unsettled": "The cause of the sudden population decline remains un_______ among researchers.",
+    "vary": "Average rainfall can va__ greatly from one region to another.",
+    "vivid": "The explorer's journal gives a vi___ description of the volcanic eruption.",
+    "worldwide": "The discovery attracted world____ attention from scientists and the public."
+  },
+  "questions": [
+    {
+      "passageId": "retreat",
+      "prompt": "Day 05 vocabulary: complete re_____. Enter the missing letters.",
+      "prefix": "re",
+      "word": "retreat",
+      "answer": "Retreat means to move back or withdraw from a dangerous or difficult position. 正解：treat → retreat（後退する・撤退する）。川の増水によって部隊が引き返さざるを得ない文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qretreat"]
+    },
+    {
+      "passageId": "sedimentary",
+      "prompt": "Day 05 vocabulary: complete sed________. Enter the missing letters.",
+      "prefix": "sed",
+      "word": "sedimentary",
+      "answer": "Sedimentary describes rock formed from material deposited in layers. 正解：imentary → sedimentary（堆積性の・堆積岩の）。砂岩が圧縮された堆積物の層から形成されるという文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qsedimentary"]
+    },
+    {
+      "passageId": "soil",
+      "prompt": "Day 05 vocabulary: complete so__. Enter the missing letters.",
+      "prefix": "so",
+      "word": "soil",
+      "answer": "Soil is the upper layer of earth in which plants grow. 正解：il → soil（土壌・土）。植物の根が大雨の際に土壌の流出を防ぐ文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qsoil"]
+    },
+    {
+      "passageId": "specific",
+      "prompt": "Day 05 vocabulary: complete spe_____. Enter the missing letters.",
+      "prefix": "spe",
+      "word": "specific",
+      "answer": "Specific means clearly defined, exact, or particular. 正解：cific → specific（具体的な・特定の）。生存に必要な条件を明確に特定する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qspecific"]
+    },
+    {
+      "passageId": "strategy",
+      "prompt": "Day 05 vocabulary: complete stra____. Enter the missing letters.",
+      "prefix": "stra",
+      "word": "strategy",
+      "answer": "A strategy is a carefully designed plan for achieving a goal. 正解：tegy → strategy（戦略・計画）。保全チームが湿地を守るための計画を立てた文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qstrategy"]
+    },
+    {
+      "passageId": "supposedly",
+      "prompt": "Day 05 vocabulary: complete sup_______. Enter the missing letters.",
+      "prefix": "sup",
+      "word": "supposedly",
+      "answer": "Supposedly means according to what is claimed or generally believed, though it may not be true. 正解：posedly → supposedly（いわゆる・推定では）。遺物の発見場所が主張されているものの未確認である文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qsupposedly"]
+    },
+    {
+      "passageId": "sync",
+      "prompt": "Day 05 vocabulary: complete sy__. Enter the missing letters.",
+      "prefix": "sy",
+      "word": "sync",
+      "answer": "Sync means to make two or more things operate at the same time or rate. 正解：nc → sync（同期する・合わせる）。二つの計器が同じ事象を正確に記録できるよう同期する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qsync"]
+    },
+    {
+      "passageId": "thematic",
+      "prompt": "Day 05 vocabulary: complete the_____. Enter the missing letters.",
+      "prefix": "the",
+      "word": "thematic",
+      "answer": "Thematic means organized around or relating to a particular theme. 正解：matic → thematic（主題別の・テーマに関する）。展示を年代順ではなく主題別に構成する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qthematic"]
+    },
+    {
+      "passageId": "trait",
+      "prompt": "Day 05 vocabulary: complete tr___. Enter the missing letters.",
+      "prefix": "tr",
+      "word": "trait",
+      "answer": "A trait is a particular characteristic or quality. 正解：ait → trait（特性・特徴）。厚い毛皮が寒冷地の動物に役立つ特性であるという文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qtrait"]
+    },
+    {
+      "passageId": "underground",
+      "prompt": "Day 05 vocabulary: complete under______. Enter the missing letters.",
+      "prefix": "under",
+      "word": "underground",
+      "answer": "Underground means below the surface of the earth. 正解：ground → underground（地下の・地下に）。根が林床の下に網状に広がる文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qunderground"]
+    },
+    {
+      "passageId": "unintentional",
+      "prompt": "Day 05 vocabulary: complete unin_________. Enter the missing letters.",
+      "prefix": "unin",
+      "word": "unintentional",
+      "answer": "Unintentional means not planned or intended. 正解：tentional → unintentional（意図しない・故意でない）。ダム建設による水流変化が意図しない結果だったという文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qunintentional"]
+    },
+    {
+      "passageId": "unsettled",
+      "prompt": "Day 05 vocabulary: complete un_______. Enter the missing letters.",
+      "prefix": "un",
+      "word": "unsettled",
+      "answer": "Unsettled means not yet decided, resolved, or stable. 正解：settled → unsettled（未解決の・不安定な）。個体数減少の原因について研究者の結論が出ていない文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qunsettled"]
+    },
+    {
+      "passageId": "vary",
+      "prompt": "Day 05 vocabulary: complete va__. Enter the missing letters.",
+      "prefix": "va",
+      "word": "vary",
+      "answer": "Vary means to differ or change according to circumstances. 正解：ry → vary（異なる・変化する）。平均降水量が地域ごとに大きく異なる文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qvary"]
+    },
+    {
+      "passageId": "vivid",
+      "prompt": "Day 05 vocabulary: complete vi___. Enter the missing letters.",
+      "prefix": "vi",
+      "word": "vivid",
+      "answer": "Vivid means producing a strong, clear, and detailed impression. 正解：vid → vivid（鮮明な・生き生きした）。探検家の日誌が噴火を鮮やかに描写する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qvivid"]
+    },
+    {
+      "passageId": "worldwide",
+      "prompt": "Day 05 vocabulary: complete world____. Enter the missing letters.",
+      "prefix": "world",
+      "word": "worldwide",
+      "answer": "Worldwide means extending or occurring throughout the world. 正解：wide → worldwide（世界中の・世界的に）。発見が科学者と一般の人々から世界的な注目を集めた文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p006:qworldwide"]
+    }
+  ]
+}
