@@ -1,0 +1,175 @@
+{
+  "id": "pdf-task1-p025",
+  "title": "Complete the Words · Hackers Test II",
+  "task": 1,
+  "date": "2026-10-01T05:00:00+03:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 25ページ／冊子53ページ · Hackers Test問21–40（20空欄）",
+  "verificationNote": "Editorial answers（編集・確認した解答）。PDF原本画像で2本文、表示済み文字、空欄数、設問順を照合し、文法・語法・文脈から20語を確定しました。出版社の解答ページ（408ページ）は未提供・未照合です。同じ本文の10空欄は、すべて提出するまで正答が表示されません。",
+  "passages": {
+    "21-30": "Urbanization draws people from rural areas into expanding cities across the globe. This mas____ shift, dri___ by more car___ opportunities a__ a bet___ quality o_ life, cre____ vibrant cen____ of innov_____. Cities n__ serve as the primary engines of economic activity, fostering technological advancement and social progress. However, this rapid growth also presents challenges, including sustainability issues and social inequality, which require thoughtful planning and solutions.",
+    "31-40": "The application of pesticides in modern agriculture has significantly boosted crop yields and improved food security. However, th_ widespread prac____ has rai___ considerable con_____ regarding to___ residues o_ fresh pro____. These subst_____ can ha__ long-term chr____ effects. Consequently, regulatory bodies worldwide are balancing the need for effective pest control with the imperative of protecting public health. They have implemented stringent monitoring, testing harvested goods to detect and measure any residual harmful chemicals. They also enforce strict residue limits, which define the maximum allowable levels for pesticides in support of sustainable agricultural practices."
+  },
+  "questions": [
+    {
+      "passageId": "21-30",
+      "prompt": "Hackers Test 21: complete mas____. Enter the missing letters.",
+      "prefix": "mas",
+      "word": "massive",
+      "answer": "Massive means very large in scale or extent. 正解：sive → massive（大規模な）。世界規模で農村から都市へ人口が移る大きな変化を説明しています。",
+      "sourceRefs": ["pdf:task1:p025:q21-gap1"]
+    },
+    {
+      "passageId": "21-30",
+      "prompt": "Hackers Test 22: complete dri___. Enter the missing letters.",
+      "prefix": "dri",
+      "word": "driven",
+      "answer": "Driven by means caused or motivated by something. 正解：ven → driven（〜によって促された）。人口移動を促す要因として仕事の機会と生活の質が続きます。",
+      "sourceRefs": ["pdf:task1:p025:q22-gap1"]
+    },
+    {
+      "passageId": "21-30",
+      "prompt": "Hackers Test 23: complete car___. Enter the missing letters.",
+      "prefix": "car",
+      "word": "career",
+      "answer": "Career refers to a person's professional working life. 正解：eer → career（職業・キャリア）。more career opportunitiesで、都市へ移る動機となる雇用機会を表します。",
+      "sourceRefs": ["pdf:task1:p025:q23-gap1"]
+    },
+    {
+      "passageId": "21-30",
+      "prompt": "Hackers Test 24: complete a__. Enter the missing letters.",
+      "prefix": "a",
+      "word": "and",
+      "answer": "And connects two parallel reasons. 正解：nd → and（そして）。career opportunitiesとa better quality of lifeを並列で結びます。",
+      "sourceRefs": ["pdf:task1:p025:q24-gap1"]
+    },
+    {
+      "passageId": "21-30",
+      "prompt": "Hackers Test 25: complete bet___. Enter the missing letters.",
+      "prefix": "bet",
+      "word": "better",
+      "answer": "Better is the comparative form of good. 正解：ter → better（より良い）。a better quality of lifeで、都市生活に期待される生活の質を表します。",
+      "sourceRefs": ["pdf:task1:p025:q25-gap1"]
+    },
+    {
+      "passageId": "21-30",
+      "prompt": "Hackers Test 26: complete o_. Enter the missing letter.",
+      "prefix": "o",
+      "word": "of",
+      "answer": "Of links quality with life in the fixed phrase quality of life. 正解：f → of（〜の）。quality of lifeで「生活の質」となります。",
+      "sourceRefs": ["pdf:task1:p025:q26-gap1"]
+    },
+    {
+      "passageId": "21-30",
+      "prompt": "Hackers Test 27: complete cre____. Enter the missing letters.",
+      "prefix": "cre",
+      "word": "creates",
+      "answer": "Create means to bring something into existence. 正解：ates → creates（生み出す）。主語This massive shiftは単数なのでcreatesとなり、人口移動が活気ある都市中心部を生み出すことを示します。",
+      "sourceRefs": ["pdf:task1:p025:q27-gap1"]
+    },
+    {
+      "passageId": "21-30",
+      "prompt": "Hackers Test 28: complete cen____. Enter the missing letters.",
+      "prefix": "cen",
+      "word": "centers",
+      "answer": "Centers are places where an activity is concentrated. 正解：ters → centers（中心地・拠点）。vibrant centers of innovationで、革新が集まる活気ある拠点を表します。",
+      "sourceRefs": ["pdf:task1:p025:q28-gap1"]
+    },
+    {
+      "passageId": "21-30",
+      "prompt": "Hackers Test 29: complete innov_____. Enter the missing letters.",
+      "prefix": "innov",
+      "word": "innovation",
+      "answer": "Innovation is the introduction of new ideas, methods, or technologies. 正解：ation → innovation（革新）。cities as centers of innovationという都市の役割を説明しています。",
+      "sourceRefs": ["pdf:task1:p025:q29-gap1"]
+    },
+    {
+      "passageId": "21-30",
+      "prompt": "Hackers Test 30: complete n__. Enter the missing letters.",
+      "prefix": "n",
+      "word": "now",
+      "answer": "Now refers to the present situation. 正解：ow → now（現在では）。Cities now serve as ...で、現在の都市が経済活動の主要な原動力であることを述べます。",
+      "sourceRefs": ["pdf:task1:p025:q30-gap1"]
+    },
+    {
+      "passageId": "31-40",
+      "prompt": "Hackers Test 31: complete th_. Enter the missing letter.",
+      "prefix": "th",
+      "word": "the",
+      "answer": "The identifies the specific widespread practice just described: applying pesticides. 正解：e → the（その）。前文の農薬使用を受けてthe widespread practiceと特定しています。",
+      "sourceRefs": ["pdf:task1:p025:q31-gap1"]
+    },
+    {
+      "passageId": "31-40",
+      "prompt": "Hackers Test 32: complete prac____. Enter the missing letters.",
+      "prefix": "prac",
+      "word": "practice",
+      "answer": "Practice is a customary or repeated way of doing something. 正解：tice → practice（慣行・行為）。ここでは現代農業で広く行われる農薬使用を指します。",
+      "sourceRefs": ["pdf:task1:p025:q32-gap1"]
+    },
+    {
+      "passageId": "31-40",
+      "prompt": "Hackers Test 33: complete rai___. Enter the missing letters.",
+      "prefix": "rai",
+      "word": "raised",
+      "answer": "Raise concerns means to cause people to worry about an issue. 正解：sed → raised（引き起こした・提起した）。has raised considerable concernsという現在完了の定型表現です。",
+      "sourceRefs": ["pdf:task1:p025:q33-gap1"]
+    },
+    {
+      "passageId": "31-40",
+      "prompt": "Hackers Test 34: complete con_____. Enter the missing letters.",
+      "prefix": "con",
+      "word": "concerns",
+      "answer": "Concerns are worries about possible problems or harm. 正解：cerns → concerns（懸念）。農産物に残る農薬への強い懸念を表す複数形です。",
+      "sourceRefs": ["pdf:task1:p025:q34-gap1"]
+    },
+    {
+      "passageId": "31-40",
+      "prompt": "Hackers Test 35: complete to___. Enter the missing letters.",
+      "prefix": "to",
+      "word": "toxic",
+      "answer": "Toxic means poisonous or harmful to health. 正解：xic → toxic（有毒な）。fresh produceに残る健康に有害な農薬残留物を説明します。",
+      "sourceRefs": ["pdf:task1:p025:q35-gap1"]
+    },
+    {
+      "passageId": "31-40",
+      "prompt": "Hackers Test 36: complete o_. Enter the missing letter.",
+      "prefix": "o",
+      "word": "on",
+      "answer": "On indicates that residues remain on the surface of produce. 正解：n → on（〜の上に）。toxic residues on fresh produceという自然な前置詞の組み合わせです。",
+      "sourceRefs": ["pdf:task1:p025:q36-gap1"]
+    },
+    {
+      "passageId": "31-40",
+      "prompt": "Hackers Test 37: complete pro____. Enter the missing letters.",
+      "prefix": "pro",
+      "word": "produce",
+      "answer": "Produce means fresh fruit and vegetables considered as food. 正解：duce → produce（農産物・青果物）。fresh produceに農薬が残留するという食品安全の文脈です。",
+      "sourceRefs": ["pdf:task1:p025:q37-gap1"]
+    },
+    {
+      "passageId": "31-40",
+      "prompt": "Hackers Test 38: complete subst_____. Enter the missing letters.",
+      "prefix": "subst",
+      "word": "substances",
+      "answer": "Substances are particular kinds of material or chemical matter. 正解：ances → substances（物質）。These substancesは直前のtoxic residuesを受ける複数形です。",
+      "sourceRefs": ["pdf:task1:p025:q38-gap1"]
+    },
+    {
+      "passageId": "31-40",
+      "prompt": "Hackers Test 39: complete ha__. Enter the missing letters.",
+      "prefix": "ha",
+      "word": "have",
+      "answer": "Have is used here to state that the substances produce lasting effects. 正解：ve → have（持つ・もたらす）。複数主語These substancesに対応し、long-term effectsを目的語に取ります。",
+      "sourceRefs": ["pdf:task1:p025:q39-gap1"]
+    },
+    {
+      "passageId": "31-40",
+      "prompt": "Hackers Test 40: complete chr____. Enter the missing letters.",
+      "prefix": "chr",
+      "word": "chronic",
+      "answer": "Chronic describes a condition or effect that continues for a long time. 正解：onic → chronic（慢性的な）。long-term chronic effectsとして、長期に続く健康影響を表します。",
+      "sourceRefs": ["pdf:task1:p025:q40-gap1"]
+    }
+  ]
+}
