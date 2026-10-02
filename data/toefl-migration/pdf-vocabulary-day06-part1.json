@@ -1,0 +1,148 @@
+{
+  "id": "pdf-vocabulary-day06-part1",
+  "title": "Vocabulary Day 06 · Context Completion 1",
+  "task": 1,
+  "date": "2026-10-02T17:00:00+03:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 7ページ／冊子385ページ · Day 06先頭15語（全60語中）",
+  "verificationNote": "掲載語・綴り・掲載順をPDF原本画像で確認済みです。各語を文脈で判断できるmissing-letter exerciseへ編集しています。出版社の公式解答表は未収録ですが、正答は掲載headwordと一致します。未回答の語の正答は、その語を提出するまで表示されません。",
+  "passages": {
+    "altitude": "At high alt_____, air pressure decreases and breathing becomes more difficult.",
+    "array": "The museum displayed an ar___ of tools from several ancient cultures.",
+    "balance": "The inner ear helps the body maintain bal____ while walking.",
+    "blizzard": "The bli_____ closed roads and reduced visibility across the region.",
+    "breathing": "Slow, deep bre______ can help a person relax before a stressful event.",
+    "casual": "The office permits cas___ clothing on Fridays.",
+    "climate": "A region's cli____ is its long-term pattern of temperature and rainfall.",
+    "complex": "A coral reef is a com____ ecosystem with many interacting species.",
+    "consciousness": "The patient gradually regained con__________ after the anesthesia wore off.",
+    "craft": "The community preserves the traditional cr___ of weaving baskets by hand.",
+    "crucial": "Reliable evidence is cru____ to a sound scientific conclusion.",
+    "debunk": "Researchers used new data to de____ the widespread myth.",
+    "dense": "The forest became so de___ that little sunlight reached the ground.",
+    "diagnosis": "An accurate dia______ depends on careful examination and reliable test results.",
+    "divine": "The ancient temple was dedicated to a di____ being believed to protect the city."
+  },
+  "questions": [
+    {
+      "passageId": "altitude",
+      "prompt": "Day 06 vocabulary: complete alt_____. Enter the missing letters.",
+      "prefix": "alt",
+      "word": "altitude",
+      "answer": "Altitude is height above sea level or the ground. 正解：itude → altitude（高度・標高）。高度が上がると気圧が下がる文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p007:qaltitude"]
+    },
+    {
+      "passageId": "array",
+      "prompt": "Day 06 vocabulary: complete ar___. Enter the missing letters.",
+      "prefix": "ar",
+      "word": "array",
+      "answer": "An array is a large or varied collection of things. 正解：ray → array（配列・多様な集まり）。博物館が複数の古代文化の道具を並べて展示する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p007:qarray"]
+    },
+    {
+      "passageId": "balance",
+      "prompt": "Day 06 vocabulary: complete bal____. Enter the missing letters.",
+      "prefix": "bal",
+      "word": "balance",
+      "answer": "Balance is the ability to remain steady and not fall. 正解：ance → balance（均衡・平衡を保つ）。内耳が歩行時の身体の安定を助ける文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p007:qbalance"]
+    },
+    {
+      "passageId": "blizzard",
+      "prompt": "Day 06 vocabulary: complete bli_____. Enter the missing letters.",
+      "prefix": "bli",
+      "word": "blizzard",
+      "answer": "A blizzard is a severe snowstorm with strong winds. 正解：zzard → blizzard（吹雪）。激しい雪と風で道路が閉鎖され視界が悪くなる文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p007:qblizzard"]
+    },
+    {
+      "passageId": "breathing",
+      "prompt": "Day 06 vocabulary: complete bre______. Enter the missing letters.",
+      "prefix": "bre",
+      "word": "breathing",
+      "answer": "Breathing is the process of taking air into and sending it out of the lungs. 正解：athing → breathing（呼吸）。ゆっくり深く呼吸して緊張を和らげる文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p007:qbreathing"]
+    },
+    {
+      "passageId": "casual",
+      "prompt": "Day 06 vocabulary: complete cas___. Enter the missing letters.",
+      "prefix": "cas",
+      "word": "casual",
+      "answer": "Casual means informal or suitable for ordinary situations. 正解：ual → casual（普段の・非公式な）。職場が金曜日に普段着を認める文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p007:qcasual"]
+    },
+    {
+      "passageId": "climate",
+      "prompt": "Day 06 vocabulary: complete cli____. Enter the missing letters.",
+      "prefix": "cli",
+      "word": "climate",
+      "answer": "Climate is the long-term pattern of weather in a place. 正解：mate → climate（気候・風土）。地域の長期的な気温と降水の傾向を説明する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p007:qclimate"]
+    },
+    {
+      "passageId": "complex",
+      "prompt": "Day 06 vocabulary: complete com____. Enter the missing letters.",
+      "prefix": "com",
+      "word": "complex",
+      "answer": "Complex means consisting of many connected parts and not simple. 正解：plex → complex（複雑な・複合体）。多くの生物種が関わり合うサンゴ礁生態系の文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p007:qcomplex"]
+    },
+    {
+      "passageId": "consciousness",
+      "prompt": "Day 06 vocabulary: complete con__________. Enter the missing letters.",
+      "prefix": "con",
+      "word": "consciousness",
+      "answer": "Consciousness is the state of being awake and aware. 正解：sciousness → consciousness（意識・自覚）。麻酔が切れた患者が徐々に意識を取り戻す文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p007:qconsciousness"]
+    },
+    {
+      "passageId": "craft",
+      "prompt": "Day 06 vocabulary: complete cr___. Enter the missing letters.",
+      "prefix": "cr",
+      "word": "craft",
+      "answer": "A craft is an activity requiring skill in making things by hand. 正解：aft → craft（工芸・技術）。共同体が手作業のかご編み技術を守る文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p007:qcraft"]
+    },
+    {
+      "passageId": "crucial",
+      "prompt": "Day 06 vocabulary: complete cru____. Enter the missing letters.",
+      "prefix": "cru",
+      "word": "crucial",
+      "answer": "Crucial means extremely important or decisive. 正解：cial → crucial（極めて重要な・決定的な）。信頼できる証拠が科学的結論に不可欠だという文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p007:qcrucial"]
+    },
+    {
+      "passageId": "debunk",
+      "prompt": "Day 06 vocabulary: complete de____. Enter the missing letters.",
+      "prefix": "de",
+      "word": "debunk",
+      "answer": "Debunk means to show that an idea or belief is false. 正解：bunk → debunk（誤りを暴く・論破する）。新しいデータで広く信じられた俗説を否定する文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p007:qdebunk"]
+    },
+    {
+      "passageId": "dense",
+      "prompt": "Day 06 vocabulary: complete de___. Enter the missing letters.",
+      "prefix": "de",
+      "word": "dense",
+      "answer": "Dense means closely packed together. 正解：nse → dense（密集した・密度の高い）。木々が密集して地面に光が届かない森の文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p007:qdense"]
+    },
+    {
+      "passageId": "diagnosis",
+      "prompt": "Day 06 vocabulary: complete dia______. Enter the missing letters.",
+      "prefix": "dia",
+      "word": "diagnosis",
+      "answer": "A diagnosis is the identification of an illness or other condition from its signs and tests. 正解：gnosis → diagnosis（診断）。診察と検査結果から正確な診断を下す文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p007:qdiagnosis"]
+    },
+    {
+      "passageId": "divine",
+      "prompt": "Day 06 vocabulary: complete di____. Enter the missing letters.",
+      "prefix": "di",
+      "word": "divine",
+      "answer": "Divine means relating to a god or having the nature of a god. 正解：vine → divine（神の・神聖な）。古代都市を守ると信じられた神的存在に神殿が捧げられた文脈です。",
+      "sourceRefs": ["pdf:vocabulary:p007:qdivine"]
+    }
+  ]
+}
