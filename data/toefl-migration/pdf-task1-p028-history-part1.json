@@ -1,0 +1,166 @@
+{
+  "id": "pdf-task1-p028-history-part1",
+  "title": "Humanities Vocabulary · History 1",
+  "task": 1,
+  "date": "2026-10-02T05:03:00+03:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 28ページ／冊子56ページ · Humanities: History左列17語（全34語中）",
+  "verificationNote": "PDF原本画像で掲載語・綴り・掲載順を確認済みです。各headwordの意味を保った文脈付きmissing-letter exerciseへ編集しています。出版社の公式解答表は未収録ですが、正答は掲載headwordと一致します。未回答の語の正答は、その語を提出するまで表示されません。",
+  "passages": {
+    "abolition": "The abo______ of slavery required both legal reform and sustained political pressure.",
+    "absolute-power": "The monarch sought absolute p____, but the assembly demanded limits on royal authority.",
+    "alliance": "The two kingdoms formed an al______ to defend their shared border.",
+    "antiquity": "The temple ruins date from ant______ and reveal how the ancient city was organized.",
+    "chronological-order": "The curator arranged the documents in chronological o____ so visitors could follow events over time.",
+    "chronology": "Researchers established a chro______ of the dynasty by comparing inscriptions and coins.",
+    "civil-war": "The civil w__ divided the country and displaced thousands of residents.",
+    "colonialism": "Through colo_______, foreign powers controlled distant territories and their resources.",
+    "colony": "The island became a col___ governed by officials sent from overseas.",
+    "conquest": "Military con_____ expanded the kingdom far beyond its original borders.",
+    "contemporary": "A con_________ diary provides a firsthand description written during the uprising.",
+    "divine-right": "The king defended his rule through the doctrine of divine r____.",
+    "dynasty": "The dyn____ ruled the region for several generations before losing power.",
+    "empire": "At its height, the em____ extended across three continents.",
+    "enlightenment": "The enl__________ emphasized reason, inquiry, and individual rights.",
+    "feudalism": "Under feu______, landholding and personal obligations shaped political authority.",
+    "heritage": "The restoration project protects the city's architectural her_____ for future generations."
+  },
+  "questions": [
+    {
+      "passageId": "abolition",
+      "prompt": "History vocabulary: complete abo______. Enter the missing letters.",
+      "prefix": "abo",
+      "word": "abolition",
+      "answer": "Abolition is the formal ending of a system, practice, or institution. 正解：lition → abolition（廃止）。法改正と政治運動によって奴隷制度を終わらせる文脈です。",
+      "sourceRefs": ["pdf:task1:p028:qabolition"]
+    },
+    {
+      "passageId": "absolute-power",
+      "prompt": "History vocabulary: complete absolute p____. Enter the missing letters.",
+      "prefix": "p",
+      "word": "power",
+      "answer": "Absolute power is authority without effective legal or political limits. 正解：ower → absolute power（絶対権力）。議会が制限を求める一方、君主が無制限の権限を求める文脈です。",
+      "sourceRefs": ["pdf:task1:p028:qabsolute-power"]
+    },
+    {
+      "passageId": "alliance",
+      "prompt": "History vocabulary: complete al______. Enter the missing letters.",
+      "prefix": "al",
+      "word": "alliance",
+      "answer": "An alliance is an agreement between states or groups to cooperate for a shared purpose. 正解：liance → alliance（同盟）。二つの王国が国境を共同防衛するため協力関係を結ぶ文脈です。",
+      "sourceRefs": ["pdf:task1:p028:qalliance"]
+    },
+    {
+      "passageId": "antiquity",
+      "prompt": "History vocabulary: complete ant______. Enter the missing letters.",
+      "prefix": "ant",
+      "word": "antiquity",
+      "answer": "Antiquity refers to the ancient past, especially classical civilizations. 正解：iquity → antiquity（古代）。神殿遺跡が古代にさかのぼるという文脈です。",
+      "sourceRefs": ["pdf:task1:p028:qantiquity"]
+    },
+    {
+      "passageId": "chronological-order",
+      "prompt": "History vocabulary: complete chronological o____. Enter the missing letters.",
+      "prefix": "o",
+      "word": "order",
+      "answer": "Chronological order arranges events according to when they occurred. 正解：rder → chronological order（年代順）。来館者が時間の流れを追えるよう史料を並べる文脈です。",
+      "sourceRefs": ["pdf:task1:p028:qchronological-order"]
+    },
+    {
+      "passageId": "chronology",
+      "prompt": "History vocabulary: complete chro______. Enter the missing letters.",
+      "prefix": "chro",
+      "word": "chronology",
+      "answer": "A chronology is a record or arrangement of events in time order. 正解：nology → chronology（年代記・年表）。碑文と硬貨を比較して王朝の年代を確定する文脈です。",
+      "sourceRefs": ["pdf:task1:p028:qchronology"]
+    },
+    {
+      "passageId": "civil-war",
+      "prompt": "History vocabulary: complete civil w__. Enter the missing letters.",
+      "prefix": "w",
+      "word": "war",
+      "answer": "A civil war is an armed conflict between groups within the same country. 正解：ar → civil war（内戦）。国内の対立が国を分断し、住民を避難させる文脈です。",
+      "sourceRefs": ["pdf:task1:p028:qcivil-war"]
+    },
+    {
+      "passageId": "colonialism",
+      "prompt": "History vocabulary: complete colo_______. Enter the missing letters.",
+      "prefix": "colo",
+      "word": "colonialism",
+      "answer": "Colonialism is the practice of controlling and exploiting another territory and its people. 正解：nialism → colonialism（植民地主義）。外国勢力が遠隔地と資源を支配する文脈です。",
+      "sourceRefs": ["pdf:task1:p028:qcolonialism"]
+    },
+    {
+      "passageId": "colony",
+      "prompt": "History vocabulary: complete col___. Enter the missing letters.",
+      "prefix": "col",
+      "word": "colony",
+      "answer": "A colony is a territory governed by another country. 正解：ony → colony（植民地）。海外から派遣された役人が島を統治する文脈です。",
+      "sourceRefs": ["pdf:task1:p028:qcolony"]
+    },
+    {
+      "passageId": "conquest",
+      "prompt": "History vocabulary: complete con_____. Enter the missing letters.",
+      "prefix": "con",
+      "word": "conquest",
+      "answer": "Conquest is the act of taking control of a place by military force. 正解：quest → conquest（征服）。軍事行動によって王国の領土が拡大する文脈です。",
+      "sourceRefs": ["pdf:task1:p028:qconquest"]
+    },
+    {
+      "passageId": "contemporary",
+      "prompt": "History vocabulary: complete con_________. Enter the missing letters.",
+      "prefix": "con",
+      "word": "contemporary",
+      "answer": "Contemporary means existing or occurring during the same period. 正解：temporary → contemporary（同時代の・現代の）。蜂起の当時に書かれた日記を一次的な証言として用いる文脈です。",
+      "sourceRefs": ["pdf:task1:p028:qcontemporary"]
+    },
+    {
+      "passageId": "divine-right",
+      "prompt": "History vocabulary: complete divine r____. Enter the missing letters.",
+      "prefix": "r",
+      "word": "right",
+      "answer": "Divine right is the doctrine that a monarch's authority comes directly from God. 正解：ight → divine right（王権神授説）。国王がその教義を根拠に統治を正当化する文脈です。",
+      "sourceRefs": ["pdf:task1:p028:qdivine-right"]
+    },
+    {
+      "passageId": "dynasty",
+      "prompt": "History vocabulary: complete dyn____. Enter the missing letters.",
+      "prefix": "dyn",
+      "word": "dynasty",
+      "answer": "A dynasty is a succession of rulers from the same family. 正解：asty → dynasty（王朝）。同じ支配家系が数世代にわたって地域を治める文脈です。",
+      "sourceRefs": ["pdf:task1:p028:qdynasty"]
+    },
+    {
+      "passageId": "empire",
+      "prompt": "History vocabulary: complete em____. Enter the missing letters.",
+      "prefix": "em",
+      "word": "empire",
+      "answer": "An empire is a group of territories ruled by one sovereign state or ruler. 正解：pire → empire（帝国）。一つの支配体制が三大陸に及ぶ領域を統治する文脈です。",
+      "sourceRefs": ["pdf:task1:p028:qempire"]
+    },
+    {
+      "passageId": "enlightenment",
+      "prompt": "History vocabulary: complete enl__________. Enter the missing letters.",
+      "prefix": "enl",
+      "word": "enlightenment",
+      "answer": "The Enlightenment was an intellectual movement that emphasized reason, inquiry, and individual rights. 正解：ightenment → enlightenment（啓蒙主義）。理性と個人の権利を重視した思想運動の文脈です。",
+      "sourceRefs": ["pdf:task1:p028:qenlightenment"]
+    },
+    {
+      "passageId": "feudalism",
+      "prompt": "History vocabulary: complete feu______. Enter the missing letters.",
+      "prefix": "feu",
+      "word": "feudalism",
+      "answer": "Feudalism is a political and social system based on landholding and obligations between lords and dependents. 正解：dalism → feudalism（封建制）。土地保有と人的義務が政治権力を形づくる文脈です。",
+      "sourceRefs": ["pdf:task1:p028:qfeudalism"]
+    },
+    {
+      "passageId": "heritage",
+      "prompt": "History vocabulary: complete her_____. Enter the missing letters.",
+      "prefix": "her",
+      "word": "heritage",
+      "answer": "Heritage is the cultural, historical, or natural legacy passed to later generations. 正解：itage → heritage（文化遺産・継承物）。都市の歴史的建築を将来世代のため保護する文脈です。",
+      "sourceRefs": ["pdf:task1:p028:qheritage"]
+    }
+  ]
+}

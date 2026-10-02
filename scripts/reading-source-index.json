@@ -296,7 +296,9 @@
         22,
         23,
         24,
-        25
+        25,
+        26,
+        27
       ],
       "pageItems": {
         "1": [],
@@ -526,7 +528,9 @@
           "pdf:task1:p025:q38-gap1",
           "pdf:task1:p025:q39-gap1",
           "pdf:task1:p025:q40-gap1"
-        ]
+        ],
+        "26": [],
+        "27": []
       }
     },
     {
@@ -1707,7 +1711,7 @@
       }
     }
   ],
-  "lastSource": "vocabulary",
+  "lastSource": "task1",
   "blockedItems": [
     {
       "source": "task2",

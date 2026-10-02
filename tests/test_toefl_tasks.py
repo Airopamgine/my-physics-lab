@@ -288,9 +288,45 @@ class TaskCatalogTests(unittest.TestCase):
 
         index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
         source = next(s for s in index['sources'] if s['id'] == 'task1')
-        self.assertEqual(source['reviewedPages'], list(range(1, 26)))
+        self.assertEqual(source['reviewedPages'][:25], list(range(1, 26)))
         self.assertEqual(source['pageItems']['25'], refs)
         self.assertIn(index['lastSource'], {item['id'] for item in index['sources']})
+
+    def test_pdf_task1_history_vocabulary_part1_preserves_left_column(self):
+        bank = self.build()
+        item = next(s for s in bank['sets']
+                    if s['id'] == 'pdf-task1-p028-history-part1')
+        expected = [
+            ('lition', 'abolition'), ('ower', 'power'),
+            ('liance', 'alliance'), ('iquity', 'antiquity'),
+            ('rder', 'order'), ('nology', 'chronology'),
+            ('ar', 'war'), ('nialism', 'colonialism'),
+            ('ony', 'colony'), ('quest', 'conquest'),
+            ('temporary', 'contemporary'), ('ight', 'right'),
+            ('asty', 'dynasty'), ('pire', 'empire'),
+            ('ightenment', 'enlightenment'), ('dalism', 'feudalism'),
+            ('itage', 'heritage')]
+        slugs = [
+            'abolition', 'absolute-power', 'alliance', 'antiquity',
+            'chronological-order', 'chronology', 'civil-war', 'colonialism',
+            'colony', 'conquest', 'contemporary', 'divine-right', 'dynasty',
+            'empire', 'enlightenment', 'feudalism', 'heritage']
+        refs = [f'pdf:task1:p028:q{slug}' for slug in slugs]
+
+        self.assertEqual(item['collection'], 'Task 1')
+        self.assertEqual([q['acceptedAnswers'] for q in item['questions']],
+                         [list(pair) for pair in expected])
+        self.assertEqual([q['sourceRefs'][0] for q in item['questions']], refs)
+        self.assertTrue(all(q['correct'] is None and q['options'] == []
+                            for q in item['questions']))
+
+        index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
+        source = next(s for s in index['sources'] if s['id'] == 'task1')
+        self.assertEqual(source['reviewedPages'], list(range(1, 28)))
+        self.assertEqual(source['pageItems']['26'], [])
+        self.assertEqual(source['pageItems']['27'], [])
+        self.assertNotIn('28', source['pageItems'])
+        self.assertEqual(index['lastSource'], 'task1')
 
     def test_pdf_task3_detail_questions_preserve_all_fifteen_answers(self):
         bank = self.build()
@@ -759,7 +795,7 @@ class TaskCatalogTests(unittest.TestCase):
         self.assertEqual(source['reviewedPages'], list(range(1, 7)))
         self.assertEqual(len(source['pageItems']['6']), 60)
         self.assertEqual(source['pageItems']['6'][45:], refs)
-        self.assertEqual(index['lastSource'], 'vocabulary')
+        self.assertIn(index['lastSource'], {item['id'] for item in index['sources']})
         blocker = next(entry for entry in index['blockedItems']
                        if entry['source'] == 'task2')
         self.assertEqual(blocker['pages'], list(range(116, 125)))
