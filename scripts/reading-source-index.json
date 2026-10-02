@@ -1718,6 +1718,12 @@
       "pages": [116, 117, 118, 119, 120, 121, 122, 123, 124],
       "reason": "The currently available private source PDF ends before these pages, so the page text and answer choices cannot be verified.",
       "needs": "A complete copy of TOEFL-reading_task2.pdf containing PDF pages 116–124."
+    },
+    {
+      "source": "task3",
+      "pages": [64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154],
+      "reason": "The currently available private source PDF is unreadable because its cross-reference data is corrupted, so the remaining page text and answer choices cannot be verified.",
+      "needs": "A valid complete copy of TOEFL-reading_task3.pdf containing PDF pages 64–154."
     }
   ],
   "note": "Public progress manifest only: source labels, page counts, reviewed pages, source references and answer-key availability. Private PDFs, OCR cache paths, and file hashes are excluded. Exact PDF question totals require review; publisher answer pages have not been supplied."

@@ -825,6 +825,10 @@ class TaskCatalogTests(unittest.TestCase):
         self.assertEqual(source['reviewedPages'], list(range(1, 7)))
         self.assertNotIn('7', source['pageItems'])
         self.assertEqual(index['lastSource'], 'vocabulary')
+        blocker = next(entry for entry in index['blockedItems']
+                       if entry['source'] == 'task3')
+        self.assertEqual(blocker['pages'], list(range(64, 155)))
+        self.assertIn('valid complete copy', blocker['needs'])
 
     def test_vocabulary_day02_all_sixty_headwords_complete_page3(self):
         bank = self.build()
