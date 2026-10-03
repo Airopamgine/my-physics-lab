@@ -13,6 +13,12 @@ source question and passage, review the English choices and answer key, and neve
 mark the legacy corpus complete until all 1,040 source references are covered.
 After legacy completion, resume the PDF review, including blocked original pages.
 
+The owner's October 3 request also authorizes larger verified PDF batches: advance
+as much accessible source material as possible while preserving answer and
+explanation accuracy. Keep passage integrity, check rendering and grading, and
+retain every unresolved source/key blocker. This supersedes the 10–20-answer
+limit for the currently requested bulk migration.
+
 Normal: https://airopamgine.github.io/my-physics-lab/toefl/
 Same catalog / updates: https://airopamgine.github.io/my-physics-lab/toefl/reading/
 Unconverted originals: https://airopamgine.github.io/my-physics-lab/toefl/archive/

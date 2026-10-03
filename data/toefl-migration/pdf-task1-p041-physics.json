@@ -1,0 +1,255 @@
+{
+  "id": "pdf-task1-p041-physics",
+  "title": "Physics · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 41ページ／冊子69ページ · Physics",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "acceleration": "The rate at which an object's velocity changes with time is its acc_________.",
+    "amplitude": "The maximum displacement of an oscillating object from its equilibrium position is its amp______.",
+    "convection": "Heat transfer caused by the bulk motion of a fluid is con_______.",
+    "electric-charge": "An electric cha___ can be positive or negative and determines how a particle interacts electromagnetically.",
+    "frequency": "A wave's fre______ is the number of complete oscillations per second.",
+    "friction": "Sliding fri_____ resists the relative motion of two surfaces in contact.",
+    "gravity": "The attractive interaction between masses is called gra____.",
+    "inertia": "An object's tendency to maintain its state of motion unless acted on by a net force is ine____.",
+    "kinetic-energy": "An object possesses kinetic ene___ because of its motion.",
+    "magnetic-field": "A magnetic fi___ surrounds a bar magnet and influences moving charges.",
+    "momentum": "In classical mechanics, an object's linear mom_____ equals its mass multiplied by its velocity.",
+    "nuclear-reaction": "A nuclear rea_____ changes an atomic nucleus, unlike an ordinary chemical reaction involving electrons.",
+    "oscillation": "Repeated motion back and forth about an equilibrium position is an osc________.",
+    "potential-energy": "An elevated object has gravitational potential ene___ because of its position.",
+    "pressure": "The normal force exerted per unit area is pre_____.",
+    "radioactivity": "The spontaneous transformation of unstable nuclei with the emission of radiation is rad__________.",
+    "reflection": "Light returning from a mirror instead of passing through it undergoes ref_______.",
+    "refraction": "The change in a light ray's direction as it crosses obliquely into a medium with a different refractive index is ref_______.",
+    "resistance": "Electrical res_______ describes opposition to the flow of electric current.",
+    "temperature": "A thermometer measures tem________ rather than the total thermal energy of an object.",
+    "voltage": "The vol____ between two points is their difference in electric potential.",
+    "wave-length": "The wave len___ is the spatial distance between successive crests of a periodic wave."
+  },
+  "questions": [
+    {
+      "passageId": "acceleration",
+      "prompt": "Physics: complete acc_________. Enter the missing letters.",
+      "word": "acceleration",
+      "prefix": "acc",
+      "answer": "正解：eleration → acceleration。学習語：acceleration。accelerationは「加速度」。速度の時間変化率で、速さだけでなく方向の変化も含みます。",
+      "sourceRefs": [
+        "pdf:task1:p041:qacceleration"
+      ]
+    },
+    {
+      "passageId": "amplitude",
+      "prompt": "Physics: complete amp______. Enter the missing letters.",
+      "word": "amplitude",
+      "prefix": "amp",
+      "answer": "正解：litude → amplitude。学習語：amplitude。amplitudeは「振幅」。平衡位置からの変位の最大の大きさです。",
+      "sourceRefs": [
+        "pdf:task1:p041:qamplitude"
+      ]
+    },
+    {
+      "passageId": "convection",
+      "prompt": "Physics: complete con_______. Enter the missing letters.",
+      "word": "convection",
+      "prefix": "con",
+      "answer": "正解：vection → convection。学習語：convection。convectionは「対流」。流体そのものの移動による熱輸送です。",
+      "sourceRefs": [
+        "pdf:task1:p041:qconvection"
+      ]
+    },
+    {
+      "passageId": "electric-charge",
+      "prompt": "Physics: complete cha___. Enter the missing letters.",
+      "word": "charge",
+      "prefix": "cha",
+      "answer": "正解：rge → charge。学習語：electric charge。electric chargeは「電荷」。正負の符号を持ち、電磁相互作用に関わる性質です。",
+      "sourceRefs": [
+        "pdf:task1:p041:qelectric-charge"
+      ]
+    },
+    {
+      "passageId": "frequency",
+      "prompt": "Physics: complete fre______. Enter the missing letters.",
+      "word": "frequency",
+      "prefix": "fre",
+      "answer": "正解：quency → frequency。学習語：frequency。frequencyは「周波数・振動数」。単位時間当たりの振動回数で、通常ヘルツで表します。",
+      "sourceRefs": [
+        "pdf:task1:p041:qfrequency"
+      ]
+    },
+    {
+      "passageId": "friction",
+      "prompt": "Physics: complete fri_____. Enter the missing letters.",
+      "word": "friction",
+      "prefix": "fri",
+      "answer": "正解：ction → friction。学習語：friction。frictionは「摩擦」。接触した二つの面の相対的な滑りを妨げる働きです。",
+      "sourceRefs": [
+        "pdf:task1:p041:qfriction"
+      ]
+    },
+    {
+      "passageId": "gravity",
+      "prompt": "Physics: complete gra____. Enter the missing letters.",
+      "word": "gravity",
+      "prefix": "gra",
+      "answer": "正解：vity → gravity。学習語：gravity。gravityは「重力」。質量を持つ物体間の引力を指す文脈です。",
+      "sourceRefs": [
+        "pdf:task1:p041:qgravity"
+      ]
+    },
+    {
+      "passageId": "inertia",
+      "prompt": "Physics: complete ine____. Enter the missing letters.",
+      "word": "inertia",
+      "prefix": "ine",
+      "answer": "正解：rtia → inertia。学習語：inertia。inertiaは「慣性」。合力がなければ静止や等速直線運動を保つ性質です。",
+      "sourceRefs": [
+        "pdf:task1:p041:qinertia"
+      ]
+    },
+    {
+      "passageId": "kinetic-energy",
+      "prompt": "Physics: complete ene___. Enter the missing letters.",
+      "word": "energy",
+      "prefix": "ene",
+      "answer": "正解：rgy → energy。学習語：kinetic energy。kinetic energyは「運動エネルギー」。物体の運動に伴うエネルギーです。",
+      "sourceRefs": [
+        "pdf:task1:p041:qkinetic-energy"
+      ]
+    },
+    {
+      "passageId": "magnetic-field",
+      "prompt": "Physics: complete fi___. Enter the missing letters.",
+      "word": "field",
+      "prefix": "fi",
+      "answer": "正解：eld → field。学習語：magnetic field。magnetic fieldは「磁場」。磁石の周囲などに存在し、運動する電荷などに作用します。",
+      "sourceRefs": [
+        "pdf:task1:p041:qmagnetic-field"
+      ]
+    },
+    {
+      "passageId": "momentum",
+      "prompt": "Physics: complete mom_____. Enter the missing letters.",
+      "word": "momentum",
+      "prefix": "mom",
+      "answer": "正解：entum → momentum。学習語：momentum。momentumは「運動量」。古典力学では質量と速度の積で、向きも持つ量です。",
+      "sourceRefs": [
+        "pdf:task1:p041:qmomentum"
+      ]
+    },
+    {
+      "passageId": "nuclear-reaction",
+      "prompt": "Physics: complete rea_____. Enter the missing letters.",
+      "word": "reaction",
+      "prefix": "rea",
+      "answer": "正解：ction → reaction。学習語：nuclear reaction。nuclear reactionは「核反応」。原子核が変化する反応で、通常の化学反応とは区別します。",
+      "sourceRefs": [
+        "pdf:task1:p041:qnuclear-reaction"
+      ]
+    },
+    {
+      "passageId": "oscillation",
+      "prompt": "Physics: complete osc________. Enter the missing letters.",
+      "word": "oscillation",
+      "prefix": "osc",
+      "answer": "正解：illation → oscillation。学習語：oscillation。oscillationは「振動」。平衡位置の周りで繰り返し往復する運動です。",
+      "sourceRefs": [
+        "pdf:task1:p041:qoscillation"
+      ]
+    },
+    {
+      "passageId": "potential-energy",
+      "prompt": "Physics: complete ene___. Enter the missing letters.",
+      "word": "energy",
+      "prefix": "ene",
+      "answer": "正解：rgy → energy。学習語：potential energy。potential energyは「位置エネルギー」。この文では重力場内での位置によるエネルギーです。",
+      "sourceRefs": [
+        "pdf:task1:p041:qpotential-energy"
+      ]
+    },
+    {
+      "passageId": "pressure",
+      "prompt": "Physics: complete pre_____. Enter the missing letters.",
+      "word": "pressure",
+      "prefix": "pre",
+      "answer": "正解：ssure → pressure。学習語：pressure。pressureは「圧力」。面に垂直な力を面積で割った量です。",
+      "sourceRefs": [
+        "pdf:task1:p041:qpressure"
+      ]
+    },
+    {
+      "passageId": "radioactivity",
+      "prompt": "Physics: complete rad__________. Enter the missing letters.",
+      "word": "radioactivity",
+      "prefix": "rad",
+      "answer": "正解：ioactivity → radioactivity。学習語：radioactivity。radioactivityは「放射能・放射性」。不安定な原子核が自発的に変化し、放射線を放出する性質・現象です。",
+      "sourceRefs": [
+        "pdf:task1:p041:qradioactivity"
+      ]
+    },
+    {
+      "passageId": "reflection",
+      "prompt": "Physics: complete ref_______. Enter the missing letters.",
+      "word": "reflection",
+      "prefix": "ref",
+      "answer": "正解：lection → reflection。学習語：reflection。reflectionは「反射」。光が境界で元の側へ戻る現象です。",
+      "sourceRefs": [
+        "pdf:task1:p041:qreflection"
+      ]
+    },
+    {
+      "passageId": "refraction",
+      "prompt": "Physics: complete ref_______. Enter the missing letters.",
+      "word": "refraction",
+      "prefix": "ref",
+      "answer": "正解：raction → refraction。学習語：refraction。refractionは「屈折」。光が異なる屈折率の媒質へ斜めに入るとき、進行方向が変わる現象です。",
+      "sourceRefs": [
+        "pdf:task1:p041:qrefraction"
+      ]
+    },
+    {
+      "passageId": "resistance",
+      "prompt": "Physics: complete res_______. Enter the missing letters.",
+      "word": "resistance",
+      "prefix": "res",
+      "answer": "正解：istance → resistance。学習語：resistance。resistanceは「電気抵抗」。電流の流れにくさを表す量です。",
+      "sourceRefs": [
+        "pdf:task1:p041:qresistance"
+      ]
+    },
+    {
+      "passageId": "temperature",
+      "prompt": "Physics: complete tem________. Enter the missing letters.",
+      "word": "temperature",
+      "prefix": "tem",
+      "answer": "正解：perature → temperature。学習語：temperature。temperatureは「温度」。熱的な状態を表す量で、物体の熱エネルギー総量とは異なります。",
+      "sourceRefs": [
+        "pdf:task1:p041:qtemperature"
+      ]
+    },
+    {
+      "passageId": "voltage",
+      "prompt": "Physics: complete vol____. Enter the missing letters.",
+      "word": "voltage",
+      "prefix": "vol",
+      "answer": "正解：tage → voltage。学習語：voltage。voltageは「電圧」。二点間の電位差です。",
+      "sourceRefs": [
+        "pdf:task1:p041:qvoltage"
+      ]
+    },
+    {
+      "passageId": "wave-length",
+      "prompt": "Physics: complete len___. Enter the missing letters.",
+      "word": "length",
+      "prefix": "len",
+      "answer": "正解：gth → length。学習語：wave length。wave lengthは「波長」。周期的な波の隣り合う山の間の距離です。原本の二語表記を保持していますが、通常の綴りはwavelengthです。",
+      "sourceRefs": [
+        "pdf:task1:p041:qwave-length"
+      ]
+    }
+  ]
+}

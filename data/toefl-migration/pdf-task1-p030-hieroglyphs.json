@@ -1,0 +1,114 @@
+{
+  "id": "pdf-task1-p030-hieroglyphs",
+  "title": "Humanities Test · Egyptian Hieroglyphs",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 30ページ／冊子58ページ · Test 11–20",
+  "verificationNote": "原本画像で本文・初出文字・空欄長・設問順を照合済みです。出版社の解答p.409は未提供のため、正答は文法・語法・文脈に基づく編集解答です。同じ本文の全10空欄を提出するまで、解答・解説は表示されません。",
+  "passages": {
+    "hieroglyphs": "One of the world’s earliest writing systems was developed by the ancient Egyptians around 3000 BC using pictures called hieroglyphs. Hieroglyph sym____ can repr_____ both conc____ and sou___. The im___ that rese_____ an e__ has the mea____ of lis___ and corre______ to the consonants j, d, and n. These multiple layers of significance made it extremely difficult for modern linguists to understand hieroglyphs. The script remained a mystery until 1822, when researchers finally deciphered it by studying an artifact called the Rosetta Stone, which included the exact same text in both hieroglyphs and Greek letters."
+  },
+  "questions": [
+    {
+      "passageId": "hieroglyphs",
+      "prompt": "Question 11: complete sym____. Enter the missing letters.",
+      "word": "symbols",
+      "prefix": "sym",
+      "answer": "正解：bols → symbols。symbolsは「記号」。can representの主語で、複数の象形文字の記号を指します。",
+      "sourceRefs": [
+        "pdf:task1:p030:q11-gap1"
+      ]
+    },
+    {
+      "passageId": "hieroglyphs",
+      "prompt": "Question 12: complete repr_____. Enter the missing letters.",
+      "word": "represent",
+      "prefix": "repr",
+      "answer": "正解：esent → represent。canの後ろなので動詞の原形represent。「表す」という意味です。",
+      "sourceRefs": [
+        "pdf:task1:p030:q12-gap1"
+      ]
+    },
+    {
+      "passageId": "hieroglyphs",
+      "prompt": "Question 13: complete conc____. Enter the missing letters.",
+      "word": "concepts",
+      "prefix": "conc",
+      "answer": "正解：epts → concepts。both concepts and soundsは「概念と音の両方」。後文の複数の意味の層に対応します。",
+      "sourceRefs": [
+        "pdf:task1:p030:q13-gap1"
+      ]
+    },
+    {
+      "passageId": "hieroglyphs",
+      "prompt": "Question 14: complete sou___. Enter the missing letters.",
+      "word": "sounds",
+      "prefix": "sou",
+      "answer": "正解：nds → sounds。soundsは「音」。記号が概念だけでなく発音も表すという対比です。",
+      "sourceRefs": [
+        "pdf:task1:p030:q14-gap1"
+      ]
+    },
+    {
+      "passageId": "hieroglyphs",
+      "prompt": "Question 15: complete im___. Enter the missing letters.",
+      "word": "image",
+      "prefix": "im",
+      "answer": "正解：age → image。The imageは「その図像」。後ろの関係節that resembles an earがどの図像かを説明します。",
+      "sourceRefs": [
+        "pdf:task1:p030:q15-gap1"
+      ]
+    },
+    {
+      "passageId": "hieroglyphs",
+      "prompt": "Question 16: complete rese_____. Enter the missing letters.",
+      "word": "resembles",
+      "prefix": "rese",
+      "answer": "正解：mbles → resembles。単数のimageを受けるのでresembles。「耳に似ている」という意味です。",
+      "sourceRefs": [
+        "pdf:task1:p030:q16-gap1"
+      ]
+    },
+    {
+      "passageId": "hieroglyphs",
+      "prompt": "Question 17: complete e__. Enter the missing letters.",
+      "word": "ear",
+      "prefix": "e",
+      "answer": "正解：ar → ear。an earは「耳」。earは母音の音から始まるのでanが使われています。",
+      "sourceRefs": [
+        "pdf:task1:p030:q17-gap1"
+      ]
+    },
+    {
+      "passageId": "hieroglyphs",
+      "prompt": "Question 18: complete mea____. Enter the missing letters.",
+      "word": "meaning",
+      "prefix": "mea",
+      "answer": "正解：ning → meaning。the meaning ofは「〜という意味」。図像が表す内容を述べています。",
+      "sourceRefs": [
+        "pdf:task1:p030:q18-gap1"
+      ]
+    },
+    {
+      "passageId": "hieroglyphs",
+      "prompt": "Question 19: complete lis___. Enter the missing letters.",
+      "word": "listen",
+      "prefix": "lis",
+      "answer": "正解：ten → listen。listenは「聞く」。原本のlis＋3文字に一致します。ofの後はその語の意味を指しており、listeningを入れると原本の文字数に合いません。",
+      "sourceRefs": [
+        "pdf:task1:p030:q19-gap1"
+      ]
+    },
+    {
+      "passageId": "hieroglyphs",
+      "prompt": "Question 20: complete corre______. Enter the missing letters.",
+      "word": "corresponds",
+      "prefix": "corre",
+      "answer": "正解：sponds → corresponds。corresponds toは「〜に対応する」。The imageが単数なので三人称単数形です。後続の子音表記j, d, and nは原本通り保持しています。",
+      "sourceRefs": [
+        "pdf:task1:p030:q20-gap1"
+      ]
+    }
+  ]
+}

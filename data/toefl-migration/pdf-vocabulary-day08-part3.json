@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day08-part3",
+  "title": "Vocabulary Day 08 · Words 31–45 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 9ページ／冊子387ページ · Vocabulary Day 08 · Words 31–45",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "list": "Please li__ the required materials one by one so nothing is omitted.",
+    "maybe": "The weather is uncertain; ma___ we will move the picnic indoors.",
+    "modification": "The requested mod_________ changes the design without replacing it entirely.",
+    "offer": "The center will of___ free training by making lessons available without a fee.",
+    "order": "Place an or___ at the counter to request the food you want.",
+    "painter": "The pai____ applies colors to canvas to create works of art.",
+    "patron": "A regular pat___ returns to the restaurant often and supports it as a customer.",
+    "picnic": "The family planned a pic___, bringing food to eat outdoors in the park.",
+    "poster": "The large pos___ on the wall advertised the upcoming concert with a picture and its date.",
+    "presentation": "The researcher gave a pre_________ to explain the findings to an audience.",
+    "program": "The theater's printed pro____ lists the evening's performances in order.",
+    "question": "Please ask a que_____ if you want the speaker to explain something further.",
+    "reference": "Keep the handbook for ref______ so you can consult it when needed.",
+    "remark": "The speaker made a brief rem___ commenting on the success of the event.",
+    "report": "The written rep___ summarizes what happened during the inspection."
+  },
+  "questions": [
+    {
+      "passageId": "list",
+      "prompt": "Vocabulary Day 08 · Words 31–45: complete li__. Enter the missing letters.",
+      "word": "list",
+      "prefix": "li",
+      "answer": "正解：st → list。学習語：list。listはこの文では「列挙する」。必要な物を一つずつ書き出す動詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qlist"
+      ]
+    },
+    {
+      "passageId": "maybe",
+      "prompt": "Vocabulary Day 08 · Words 31–45: complete ma___. Enter the missing letters.",
+      "word": "maybe",
+      "prefix": "ma",
+      "answer": "正解：ybe → maybe。学習語：maybe。maybeは「もしかすると」。室内へ変更する可能性を述べる副詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qmaybe"
+      ]
+    },
+    {
+      "passageId": "modification",
+      "prompt": "Vocabulary Day 08 · Words 31–45: complete mod_________. Enter the missing letters.",
+      "word": "modification",
+      "prefix": "mod",
+      "answer": "正解：ification → modification。学習語：modification。modificationは「修正・変更」。全体を作り直すのではなく、一部を変えることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qmodification"
+      ]
+    },
+    {
+      "passageId": "offer",
+      "prompt": "Vocabulary Day 08 · Words 31–45: complete of___. Enter the missing letters.",
+      "word": "offer",
+      "prefix": "of",
+      "answer": "正解：fer → offer。学習語：offer。offerは「提供する」。無料で受けられる授業を用意します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qoffer"
+      ]
+    },
+    {
+      "passageId": "order",
+      "prompt": "Vocabulary Day 08 · Words 31–45: complete or___. Enter the missing letters.",
+      "word": "order",
+      "prefix": "or",
+      "answer": "正解：der → order。学習語：order。orderはこの文では「注文」。食べたい物を店に頼むことです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qorder"
+      ]
+    },
+    {
+      "passageId": "painter",
+      "prompt": "Vocabulary Day 08 · Words 31–45: complete pai____. Enter the missing letters.",
+      "word": "painter",
+      "prefix": "pai",
+      "answer": "正解：nter → painter。学習語：painter。painterはこの文では「画家」。キャンバスに絵を描く人です。原本には塗装職人の意味も載っています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qpainter"
+      ]
+    },
+    {
+      "passageId": "patron",
+      "prompt": "Vocabulary Day 08 · Words 31–45: complete pat___. Enter the missing letters.",
+      "word": "patron",
+      "prefix": "pat",
+      "answer": "正解：ron → patron。学習語：patron。patronは「顧客・常連客」。何度も訪れ、店を利用する人です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qpatron"
+      ]
+    },
+    {
+      "passageId": "picnic",
+      "prompt": "Vocabulary Day 08 · Words 31–45: complete pic___. Enter the missing letters.",
+      "word": "picnic",
+      "prefix": "pic",
+      "answer": "正解：nic → picnic。学習語：picnic。picnicは「ピクニック」。食べ物を持参し、公園などの屋外で食べる活動です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qpicnic"
+      ]
+    },
+    {
+      "passageId": "poster",
+      "prompt": "Vocabulary Day 08 · Words 31–45: complete pos___. Enter the missing letters.",
+      "word": "poster",
+      "prefix": "pos",
+      "answer": "正解：ter → poster。学習語：poster。posterは「ポスター」。写真や日付で公演を宣伝する大きな掲示物です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qposter"
+      ]
+    },
+    {
+      "passageId": "presentation",
+      "prompt": "Vocabulary Day 08 · Words 31–45: complete pre_________. Enter the missing letters.",
+      "word": "presentation",
+      "prefix": "pre",
+      "answer": "正解：sentation → presentation。学習語：presentation。presentationは「発表」。聴衆に研究結果を説明することです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qpresentation"
+      ]
+    },
+    {
+      "passageId": "program",
+      "prompt": "Vocabulary Day 08 · Words 31–45: complete pro____. Enter the missing letters.",
+      "word": "program",
+      "prefix": "pro",
+      "answer": "正解：gram → program。学習語：program。programはこの文では「プログラム」。公演の内容と順番を示す印刷物です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qprogram"
+      ]
+    },
+    {
+      "passageId": "question",
+      "prompt": "Vocabulary Day 08 · Words 31–45: complete que_____. Enter the missing letters.",
+      "word": "question",
+      "prefix": "que",
+      "answer": "正解：stion → question。学習語：question。questionは「質問」。さらに説明を求める問いです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qquestion"
+      ]
+    },
+    {
+      "passageId": "reference",
+      "prompt": "Vocabulary Day 08 · Words 31–45: complete ref______. Enter the missing letters.",
+      "word": "reference",
+      "prefix": "ref",
+      "answer": "正解：erence → reference。学習語：reference。referenceは「参照」。必要なときに手引きを確認することです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qreference"
+      ]
+    },
+    {
+      "passageId": "remark",
+      "prompt": "Vocabulary Day 08 · Words 31–45: complete rem___. Enter the missing letters.",
+      "word": "remark",
+      "prefix": "rem",
+      "answer": "正解：ark → remark。学習語：remark。remarkは「発言・コメント」。催しの成功について短く述べた言葉です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qremark"
+      ]
+    },
+    {
+      "passageId": "report",
+      "prompt": "Vocabulary Day 08 · Words 31–45: complete rep___. Enter the missing letters.",
+      "word": "report",
+      "prefix": "rep",
+      "answer": "正解：ort → report。学習語：report。reportは「報告書」。点検中の出来事や結果をまとめた文書です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qreport"
+      ]
+    }
+  ]
+}

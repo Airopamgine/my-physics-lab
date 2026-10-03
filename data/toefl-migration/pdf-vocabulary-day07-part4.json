@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day07-part4",
+  "title": "Vocabulary Day 07 · Words 46–60 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 8ページ／冊子386ページ · Vocabulary Day 07 · Words 46–60",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "resident": "Each res_____ of the building received a notice about changes to the entrance.",
+    "seat": "Please reserve a se__ for the lecture so you will have a place to sit.",
+    "server": "The ser___ brought the menu and took our order at the restaurant.",
+    "shuttle": "A free shu____ runs back and forth between the hotel and the airport.",
+    "smock": "The painter wore a loose sm___ over ordinary clothes to protect them from paint.",
+    "speaker": "The invited spe____ will give a talk on the history of the city.",
+    "station": "Passengers waited at the railway sta____ before boarding the train.",
+    "subscription": "A monthly sub_________ gives readers regular access to the magazine.",
+    "tenant": "The ten___ rents the apartment from its owner rather than owning it.",
+    "torrential": "The tor_______ rain fell extremely heavily and quickly flooded the street.",
+    "unavailable": "The room is una________ for booking because another group has already reserved it.",
+    "upper": "The reading room is on the up___ floor, above the ground-level entrance.",
+    "vendor": "A street ven___ sells food from a small stall near the square.",
+    "volume": "Please reduce the vol___ of the music so people nearby can hear one another.",
+    "wastewater": "The treatment plant removes pollutants from was_______ before the used water is released."
+  },
+  "questions": [
+    {
+      "passageId": "resident",
+      "prompt": "Vocabulary Day 07 · Words 46–60: complete res_____. Enter the missing letters.",
+      "word": "resident",
+      "prefix": "res",
+      "answer": "正解：ident → resident。学習語：resident。residentは「居住者」。その建物に住む人です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qresident"
+      ]
+    },
+    {
+      "passageId": "seat",
+      "prompt": "Vocabulary Day 07 · Words 46–60: complete se__. Enter the missing letters.",
+      "word": "seat",
+      "prefix": "se",
+      "answer": "正解：at → seat。学習語：seat。seatは「座席」。講演中に座る場所を予約します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qseat"
+      ]
+    },
+    {
+      "passageId": "server",
+      "prompt": "Vocabulary Day 07 · Words 46–60: complete ser___. Enter the missing letters.",
+      "word": "server",
+      "prefix": "ser",
+      "answer": "正解：ver → server。学習語：server。serverはこの文では「給仕」。飲食店で客に対応する人です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qserver"
+      ]
+    },
+    {
+      "passageId": "shuttle",
+      "prompt": "Vocabulary Day 07 · Words 46–60: complete shu____. Enter the missing letters.",
+      "word": "shuttle",
+      "prefix": "shu",
+      "answer": "正解：ttle → shuttle。学習語：shuttle。shuttleは「シャトル便」。二つの場所を繰り返し往復する交通サービスです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qshuttle"
+      ]
+    },
+    {
+      "passageId": "smock",
+      "prompt": "Vocabulary Day 07 · Words 46–60: complete sm___. Enter the missing letters.",
+      "word": "smock",
+      "prefix": "sm",
+      "answer": "正解：ock → smock。学習語：smock。smockは「作業着」。衣服を絵具から守るために上から着る、ゆったりした服です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qsmock"
+      ]
+    },
+    {
+      "passageId": "speaker",
+      "prompt": "Vocabulary Day 07 · Words 46–60: complete spe____. Enter the missing letters.",
+      "word": "speaker",
+      "prefix": "spe",
+      "answer": "正解：aker → speaker。学習語：speaker。speakerはこの文では「講演者」。人前で講演する人です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qspeaker"
+      ]
+    },
+    {
+      "passageId": "station",
+      "prompt": "Vocabulary Day 07 · Words 46–60: complete sta____. Enter the missing letters.",
+      "word": "station",
+      "prefix": "sta",
+      "answer": "正解：tion → station。学習語：station。stationは「駅」。列車に乗るために待つ場所です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qstation"
+      ]
+    },
+    {
+      "passageId": "subscription",
+      "prompt": "Vocabulary Day 07 · Words 46–60: complete sub_________. Enter the missing letters.",
+      "word": "subscription",
+      "prefix": "sub",
+      "answer": "正解：scription → subscription。学習語：subscription。subscriptionは「定期購読・契約」。継続的に雑誌を読むための仕組みです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qsubscription"
+      ]
+    },
+    {
+      "passageId": "tenant",
+      "prompt": "Vocabulary Day 07 · Words 46–60: complete ten___. Enter the missing letters.",
+      "word": "tenant",
+      "prefix": "ten",
+      "answer": "正解：ant → tenant。学習語：tenant。tenantは「借家人・借り手」。所有者から住まいを借りる人です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qtenant"
+      ]
+    },
+    {
+      "passageId": "torrential",
+      "prompt": "Vocabulary Day 07 · Words 46–60: complete tor_______. Enter the missing letters.",
+      "word": "torrential",
+      "prefix": "tor",
+      "answer": "正解：rential → torrential。学習語：torrential。torrentialは「激しい・滝のような」。非常に強い雨を修飾します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qtorrential"
+      ]
+    },
+    {
+      "passageId": "unavailable",
+      "prompt": "Vocabulary Day 07 · Words 46–60: complete una________. Enter the missing letters.",
+      "word": "unavailable",
+      "prefix": "una",
+      "answer": "正解：vailable → unavailable。学習語：unavailable。unavailableは「利用できない」。別の予約があり、空いていません。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qunavailable"
+      ]
+    },
+    {
+      "passageId": "upper",
+      "prompt": "Vocabulary Day 07 · Words 46–60: complete up___. Enter the missing letters.",
+      "word": "upper",
+      "prefix": "up",
+      "answer": "正解：per → upper。学習語：upper。upperは「上の」。地上階より上にある階を修飾します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qupper"
+      ]
+    },
+    {
+      "passageId": "vendor",
+      "prompt": "Vocabulary Day 07 · Words 46–60: complete ven___. Enter the missing letters.",
+      "word": "vendor",
+      "prefix": "ven",
+      "answer": "正解：dor → vendor。学習語：vendor。vendorは「販売者」。屋台などで商品を売る人です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qvendor"
+      ]
+    },
+    {
+      "passageId": "volume",
+      "prompt": "Vocabulary Day 07 · Words 46–60: complete vol___. Enter the missing letters.",
+      "word": "volume",
+      "prefix": "vol",
+      "answer": "正解：ume → volume。学習語：volume。volumeはこの文では「音量」。音の大きさを下げるよう求めています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qvolume"
+      ]
+    },
+    {
+      "passageId": "wastewater",
+      "prompt": "Vocabulary Day 07 · Words 46–60: complete was_______. Enter the missing letters.",
+      "word": "wastewater",
+      "prefix": "was",
+      "answer": "正解：tewater → wastewater。学習語：wastewater。wastewaterは「廃水」。使用後の水を処理して汚染物質を除きます。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qwastewater"
+      ]
+    }
+  ]
+}

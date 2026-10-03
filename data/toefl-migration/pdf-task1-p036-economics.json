@@ -1,0 +1,409 @@
+{
+  "id": "pdf-task1-p036-economics",
+  "title": "Economics · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 36ページ／冊子64ページ · Economics",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "adverse-selection": "Adverse sel______ can occur when people with higher risks are more likely to buy insurance and the seller cannot distinguish them.",
+    "bankruptcy": "Unable to repay its debts, the company entered formal ban_______ proceedings.",
+    "bond-market": "Investors trade debt securities in the bond mar___.",
+    "budget-deficit": "A budget def____ occurs when government spending exceeds government revenue over a period.",
+    "commodity": "Wheat is a traded com______ that can serve as a raw material for food production.",
+    "comparative-advantage": "A country has a comparative adv______ in a good when it can produce it at a lower opportunity cost than another country.",
+    "consumption": "Household con________ includes spending on goods and services used to satisfy current needs.",
+    "deflation": "A sustained decline in the general level of prices is called def______.",
+    "demand": "Consumer dem___ is the quantity buyers are willing and able to purchase at a given price.",
+    "exchange-rate": "The exchange ra__ expresses the value of one currency in terms of another.",
+    "expenditure": "The report lists the department's exp________ on salaries, equipment, and maintenance.",
+    "fiscal-policy": "The government used fiscal pol___ by changing taxes and public spending.",
+    "free-trade": "Under free tr___, goods can cross borders with few tariffs or other trade barriers.",
+    "gross-domestic-product": "Gross domestic pro____ measures the value of final goods and services produced within a country during a period.",
+    "gross-national-income": "Gross national inc___ includes income earned by residents, including net income received from abroad.",
+    "human-capital": "Education and job training can increase human cap____ by improving people's skills and knowledge.",
+    "income-inequality": "The large gap between high and low earners indicates income ine_______.",
+    "inflation": "A sustained rise in the general price level is called inf______.",
+    "interest-rate": "The interest ra__ states the amount charged or paid for borrowing or saving, expressed as a percentage over a period.",
+    "labor-market": "Workers seek jobs and employers seek staff in the labor mar___.",
+    "marginal-cost": "The marginal co__ is the additional expense of producing one more unit of output.",
+    "marginal-utility": "The satisfaction gained from consuming one additional unit is marginal uti____.",
+    "market-failure": "Pollution that imposes unpaid costs on others is one possible cause of market fai____.",
+    "monetary-policy": "The central bank used monetary pol___ to influence money and credit conditions.",
+    "monopoly": "A mon_____ exists when a single seller supplies a market without close competing alternatives.",
+    "opportunity-cost": "The opportunity co__ of attending class is the value of the best alternative use of that time.",
+    "poverty-line": "The poverty li__ is an income threshold used to classify people as living in poverty.",
+    "recession": "The economy entered a rec______ marked by a broad decline in economic activity.",
+    "revenue": "The firm's sales rev____ is its income from selling goods before expenses are subtracted.",
+    "speculation": "Buying an asset mainly in the hope of profiting from a future price change is spe________.",
+    "stock-market": "Shares of publicly listed companies are traded in the stock mar___.",
+    "sunk-cost": "The payment already made and impossible to recover is a sunk co__.",
+    "supply": "Producer sup___ is the quantity sellers are willing and able to offer at a given price.",
+    "tariff": "The government imposed a tar___ on imported steel, raising the tax paid at the border.",
+    "taxation": "The government raises public revenue through tax_____ on income, sales, and property.",
+    "unemployment-rate": "The unemployment ra__ is the percentage of the labor force that is unemployed and seeking work."
+  },
+  "questions": [
+    {
+      "passageId": "adverse-selection",
+      "prompt": "Economics: complete sel______. Enter the missing letters.",
+      "word": "selection",
+      "prefix": "sel",
+      "answer": "正解：ection → selection。学習語：adverse selection。adverse selectionは「逆選択」。取引前の情報の非対称性により、高リスクの買い手が集まりやすい状況です。契約後の行動変化を指すmoral hazardとは区別します。",
+      "sourceRefs": [
+        "pdf:task1:p036:qadverse-selection"
+      ]
+    },
+    {
+      "passageId": "bankruptcy",
+      "prompt": "Economics: complete ban_______. Enter the missing letters.",
+      "word": "bankruptcy",
+      "prefix": "ban",
+      "answer": "正解：kruptcy → bankruptcy。学習語：bankruptcy。bankruptcyは「破産」。債務を返せず法的な手続きに入る文脈です。",
+      "sourceRefs": [
+        "pdf:task1:p036:qbankruptcy"
+      ]
+    },
+    {
+      "passageId": "bond-market",
+      "prompt": "Economics: complete mar___. Enter the missing letters.",
+      "word": "market",
+      "prefix": "mar",
+      "answer": "正解：ket → market。学習語：bond market。bond marketは「債券市場」。企業や政府などの債務証券を売買する市場です。",
+      "sourceRefs": [
+        "pdf:task1:p036:qbond-market"
+      ]
+    },
+    {
+      "passageId": "budget-deficit",
+      "prompt": "Economics: complete def____. Enter the missing letters.",
+      "word": "deficit",
+      "prefix": "def",
+      "answer": "正解：icit → deficit。学習語：budget deficit。budget deficitは「財政赤字」。一定期間の政府支出が収入を上回ることです。",
+      "sourceRefs": [
+        "pdf:task1:p036:qbudget-deficit"
+      ]
+    },
+    {
+      "passageId": "commodity",
+      "prompt": "Economics: complete com______. Enter the missing letters.",
+      "word": "commodity",
+      "prefix": "com",
+      "answer": "正解：modity → commodity。学習語：commodity。commodityは「商品・一次産品」。小麦のような取引される原材料を例にしています。",
+      "sourceRefs": [
+        "pdf:task1:p036:qcommodity"
+      ]
+    },
+    {
+      "passageId": "comparative-advantage",
+      "prompt": "Economics: complete adv______. Enter the missing letters.",
+      "word": "advantage",
+      "prefix": "adv",
+      "answer": "正解：antage → advantage。学習語：comparative advantage。comparative advantageは「比較優位」。他国より低い機会費用で生産できることです。単純な生産量の多さでは判断しません。",
+      "sourceRefs": [
+        "pdf:task1:p036:qcomparative-advantage"
+      ]
+    },
+    {
+      "passageId": "consumption",
+      "prompt": "Economics: complete con________. Enter the missing letters.",
+      "word": "consumption",
+      "prefix": "con",
+      "answer": "正解：sumption → consumption。学習語：consumption。consumptionは「消費」。現在の必要を満たす商品・サービスの利用です。",
+      "sourceRefs": [
+        "pdf:task1:p036:qconsumption"
+      ]
+    },
+    {
+      "passageId": "deflation",
+      "prompt": "Economics: complete def______. Enter the missing letters.",
+      "word": "deflation",
+      "prefix": "def",
+      "answer": "正解：lation → deflation。学習語：deflation。deflationは「デフレーション」。個別商品の値下げではなく、全般的な物価水準の継続的な低下です。",
+      "sourceRefs": [
+        "pdf:task1:p036:qdeflation"
+      ]
+    },
+    {
+      "passageId": "demand",
+      "prompt": "Economics: complete dem___. Enter the missing letters.",
+      "word": "demand",
+      "prefix": "dem",
+      "answer": "正解：and → demand。学習語：demand。demandは経済学の「需要」。ある価格で購入する意思と支払能力がある量を表します。",
+      "sourceRefs": [
+        "pdf:task1:p036:qdemand"
+      ]
+    },
+    {
+      "passageId": "exchange-rate",
+      "prompt": "Economics: complete ra__. Enter the missing letters.",
+      "word": "rate",
+      "prefix": "ra",
+      "answer": "正解：te → rate。学習語：exchange rate。exchange rateは「為替レート」。ある通貨を別の通貨で表した交換比率です。",
+      "sourceRefs": [
+        "pdf:task1:p036:qexchange-rate"
+      ]
+    },
+    {
+      "passageId": "expenditure",
+      "prompt": "Economics: complete exp________. Enter the missing letters.",
+      "word": "expenditure",
+      "prefix": "exp",
+      "answer": "正解：enditure → expenditure。学習語：expenditure。expenditureは「支出」。給与・設備・維持管理に使った金額です。",
+      "sourceRefs": [
+        "pdf:task1:p036:qexpenditure"
+      ]
+    },
+    {
+      "passageId": "fiscal-policy",
+      "prompt": "Economics: complete pol___. Enter the missing letters.",
+      "word": "policy",
+      "prefix": "pol",
+      "answer": "正解：icy → policy。学習語：fiscal policy。fiscal policyは「財政政策」。政府の税と支出を通じる政策です。中央銀行によるmonetary policyとは区別します。",
+      "sourceRefs": [
+        "pdf:task1:p036:qfiscal-policy"
+      ]
+    },
+    {
+      "passageId": "free-trade",
+      "prompt": "Economics: complete tr___. Enter the missing letters.",
+      "word": "trade",
+      "prefix": "tr",
+      "answer": "正解：ade → trade。学習語：free trade。free tradeは「自由貿易」。関税などの貿易障壁を減らして国境を越えた取引を行います。",
+      "sourceRefs": [
+        "pdf:task1:p036:qfree-trade"
+      ]
+    },
+    {
+      "passageId": "gross-domestic-product",
+      "prompt": "Economics: complete pro____. Enter the missing letters.",
+      "word": "product",
+      "prefix": "pro",
+      "answer": "正解：duct → product。学習語：gross domestic product。gross domestic productは「国内総生産（GDP）」。一定期間に国内で生産された最終財・サービスの価値を表します。",
+      "sourceRefs": [
+        "pdf:task1:p036:qgross-domestic-product"
+      ]
+    },
+    {
+      "passageId": "gross-national-income",
+      "prompt": "Economics: complete inc___. Enter the missing letters.",
+      "word": "income",
+      "prefix": "inc",
+      "answer": "正解：ome → income。学習語：gross national income。gross national incomeは「国民総所得（GNI）」。居住者の所得を対象とし、海外との所得の純受取を含みます。",
+      "sourceRefs": [
+        "pdf:task1:p036:qgross-national-income"
+      ]
+    },
+    {
+      "passageId": "human-capital",
+      "prompt": "Economics: complete cap____. Enter the missing letters.",
+      "word": "capital",
+      "prefix": "cap",
+      "answer": "正解：ital → capital。学習語：human capital。human capitalは「人的資本」。生産活動に役立つ人の知識・技能を指します。",
+      "sourceRefs": [
+        "pdf:task1:p036:qhuman-capital"
+      ]
+    },
+    {
+      "passageId": "income-inequality",
+      "prompt": "Economics: complete ine_______. Enter the missing letters.",
+      "word": "inequality",
+      "prefix": "ine",
+      "answer": "正解：quality → inequality。学習語：income inequality。income inequalityは「所得格差・所得の不平等」。高所得者と低所得者の所得差が根拠です。",
+      "sourceRefs": [
+        "pdf:task1:p036:qincome-inequality"
+      ]
+    },
+    {
+      "passageId": "inflation",
+      "prompt": "Economics: complete inf______. Enter the missing letters.",
+      "word": "inflation",
+      "prefix": "inf",
+      "answer": "正解：lation → inflation。学習語：inflation。inflationは「インフレーション」。全般的な物価水準の継続的な上昇です。",
+      "sourceRefs": [
+        "pdf:task1:p036:qinflation"
+      ]
+    },
+    {
+      "passageId": "interest-rate",
+      "prompt": "Economics: complete ra__. Enter the missing letters.",
+      "word": "rate",
+      "prefix": "ra",
+      "answer": "正解：te → rate。学習語：interest rate。interest rateは「金利」。一定期間の借入・預金に対する利息の割合です。",
+      "sourceRefs": [
+        "pdf:task1:p036:qinterest-rate"
+      ]
+    },
+    {
+      "passageId": "labor-market",
+      "prompt": "Economics: complete mar___. Enter the missing letters.",
+      "word": "market",
+      "prefix": "mar",
+      "answer": "正解：ket → market。学習語：labor market。labor marketは「労働市場」。労働の供給側である働き手と、需要側である雇用者が関わります。",
+      "sourceRefs": [
+        "pdf:task1:p036:qlabor-market"
+      ]
+    },
+    {
+      "passageId": "marginal-cost",
+      "prompt": "Economics: complete co__. Enter the missing letters.",
+      "word": "cost",
+      "prefix": "co",
+      "answer": "正解：st → cost。学習語：marginal cost。marginal costは「限界費用」。生産量を一単位増やすことによる追加費用です。",
+      "sourceRefs": [
+        "pdf:task1:p036:qmarginal-cost"
+      ]
+    },
+    {
+      "passageId": "marginal-utility",
+      "prompt": "Economics: complete uti____. Enter the missing letters.",
+      "word": "utility",
+      "prefix": "uti",
+      "answer": "正解：lity → utility。学習語：marginal utility。marginal utilityは「限界効用」。一単位を追加で消費したときに得られる効用です。",
+      "sourceRefs": [
+        "pdf:task1:p036:qmarginal-utility"
+      ]
+    },
+    {
+      "passageId": "market-failure",
+      "prompt": "Economics: complete fai____. Enter the missing letters.",
+      "word": "failure",
+      "prefix": "fai",
+      "answer": "正解：lure → failure。学習語：market failure。market failureは「市場の失敗」。外部費用などにより市場が効率的な資源配分を実現できない場合です。",
+      "sourceRefs": [
+        "pdf:task1:p036:qmarket-failure"
+      ]
+    },
+    {
+      "passageId": "monetary-policy",
+      "prompt": "Economics: complete pol___. Enter the missing letters.",
+      "word": "policy",
+      "prefix": "pol",
+      "answer": "正解：icy → policy。学習語：monetary policy。monetary policyは「金融政策」。中央銀行が貨幣や信用の条件に働きかける政策です。",
+      "sourceRefs": [
+        "pdf:task1:p036:qmonetary-policy"
+      ]
+    },
+    {
+      "passageId": "monopoly",
+      "prompt": "Economics: complete mon_____. Enter the missing letters.",
+      "word": "monopoly",
+      "prefix": "mon",
+      "answer": "正解：opoly → monopoly。学習語：monopoly。monopolyは「独占」。市場で競争する近い代替供給者がなく、一社が供給する状況です。",
+      "sourceRefs": [
+        "pdf:task1:p036:qmonopoly"
+      ]
+    },
+    {
+      "passageId": "opportunity-cost",
+      "prompt": "Economics: complete co__. Enter the missing letters.",
+      "word": "cost",
+      "prefix": "co",
+      "answer": "正解：st → cost。学習語：opportunity cost。opportunity costは「機会費用」。選ばなかった最良の代替案から得られたはずの価値です。",
+      "sourceRefs": [
+        "pdf:task1:p036:qopportunity-cost"
+      ]
+    },
+    {
+      "passageId": "poverty-line",
+      "prompt": "Economics: complete li__. Enter the missing letters.",
+      "word": "line",
+      "prefix": "li",
+      "answer": "正解：ne → line。学習語：poverty line。poverty lineは「貧困線」。貧困を区分するための所得などの基準値です。",
+      "sourceRefs": [
+        "pdf:task1:p036:qpoverty-line"
+      ]
+    },
+    {
+      "passageId": "recession",
+      "prompt": "Economics: complete rec______. Enter the missing letters.",
+      "word": "recession",
+      "prefix": "rec",
+      "answer": "正解：ession → recession。学習語：recession。recessionは「景気後退」。経済活動が広い範囲で減少する局面です。",
+      "sourceRefs": [
+        "pdf:task1:p036:qrecession"
+      ]
+    },
+    {
+      "passageId": "revenue",
+      "prompt": "Economics: complete rev____. Enter the missing letters.",
+      "word": "revenue",
+      "prefix": "rev",
+      "answer": "正解：enue → revenue。学習語：revenue。revenueは「売上・収入」。この文では費用を引く前の販売収入で、利益profitとは異なります。",
+      "sourceRefs": [
+        "pdf:task1:p036:qrevenue"
+      ]
+    },
+    {
+      "passageId": "speculation",
+      "prompt": "Economics: complete spe________. Enter the missing letters.",
+      "word": "speculation",
+      "prefix": "spe",
+      "answer": "正解：culation → speculation。学習語：speculation。speculationは「投機」。将来の価格変動から利益を得ることを主な狙いにしています。",
+      "sourceRefs": [
+        "pdf:task1:p036:qspeculation"
+      ]
+    },
+    {
+      "passageId": "stock-market",
+      "prompt": "Economics: complete mar___. Enter the missing letters.",
+      "word": "market",
+      "prefix": "mar",
+      "answer": "正解：ket → market。学習語：stock market。stock marketは「株式市場」。上場企業の株式を売買します。",
+      "sourceRefs": [
+        "pdf:task1:p036:qstock-market"
+      ]
+    },
+    {
+      "passageId": "sunk-cost",
+      "prompt": "Economics: complete co__. Enter the missing letters.",
+      "word": "cost",
+      "prefix": "co",
+      "answer": "正解：st → cost。学習語：sunk cost。sunk costは「埋没費用」。既に支払い、今後の選択で回収できない費用です。",
+      "sourceRefs": [
+        "pdf:task1:p036:qsunk-cost"
+      ]
+    },
+    {
+      "passageId": "supply",
+      "prompt": "Economics: complete sup___. Enter the missing letters.",
+      "word": "supply",
+      "prefix": "sup",
+      "answer": "正解：ply → supply。学習語：supply。supplyは「供給」。ある価格で売り手が提供する意思と能力を持つ量です。",
+      "sourceRefs": [
+        "pdf:task1:p036:qsupply"
+      ]
+    },
+    {
+      "passageId": "tariff",
+      "prompt": "Economics: complete tar___. Enter the missing letters.",
+      "word": "tariff",
+      "prefix": "tar",
+      "answer": "正解：iff → tariff。学習語：tariff。tariffは「関税」。輸入品に課す税という説明です。",
+      "sourceRefs": [
+        "pdf:task1:p036:qtariff"
+      ]
+    },
+    {
+      "passageId": "taxation",
+      "prompt": "Economics: complete tax_____. Enter the missing letters.",
+      "word": "taxation",
+      "prefix": "tax",
+      "answer": "正解：ation → taxation。学習語：taxation。taxationは「課税」。所得・販売・財産などに税を課して公的収入を得ます。",
+      "sourceRefs": [
+        "pdf:task1:p036:qtaxation"
+      ]
+    },
+    {
+      "passageId": "unemployment-rate",
+      "prompt": "Economics: complete ra__. Enter the missing letters.",
+      "word": "rate",
+      "prefix": "ra",
+      "answer": "正解：te → rate。学習語：unemployment rate。unemployment rateは「失業率」。労働力人口に占める失業者の割合です。全人口に占める割合ではありません。",
+      "sourceRefs": [
+        "pdf:task1:p036:qunemployment-rate"
+      ]
+    }
+  ]
+}

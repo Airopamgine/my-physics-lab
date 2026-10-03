@@ -1,0 +1,189 @@
+{
+  "id": "pdf-task1-p040-chemistry",
+  "title": "Chemistry · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 40ページ／冊子68ページ · Chemistry",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "acid": "In the Brønsted–Lowry model, an ac__ donates a proton to another substance.",
+    "atom": "An at__ consists of a nucleus surrounded by electrons.",
+    "base": "In the Brønsted–Lowry model, a ba__ accepts a proton from another substance.",
+    "boiling-point": "The boiling po___ is the temperature at which a liquid's vapor pressure equals the surrounding pressure.",
+    "carbohydrate": "Glucose is a car_________ that can serve as a source of energy.",
+    "catalyst": "A cat_____ increases a reaction's rate without being consumed overall in the reaction.",
+    "compound": "Water is a chemical com_____ containing hydrogen and oxygen in a fixed ratio.",
+    "distillation": "The mixture was separated by dis_________, using vaporization followed by condensation.",
+    "element": "A chemical ele____ contains atoms with the same number of protons.",
+    "fatty-acid": "A fatty ac__ contains a carboxyl group attached to a hydrocarbon chain.",
+    "freezing-point": "The freezing po___ is the temperature at which a liquid changes into a solid under specified conditions.",
+    "melting-point": "The melting po___ is the temperature at which a solid changes into a liquid under specified conditions.",
+    "molecule": "A water mol_____ contains two hydrogen atoms bonded to one oxygen atom.",
+    "oxidation": "The loss of electrons by a chemical species is called oxi______.",
+    "solution": "A homogeneous mixture in which salt is dissolved in water is a sol_____.",
+    "solvent": "Water acts as the sol____ when it dissolves the salt in the mixture."
+  },
+  "questions": [
+    {
+      "passageId": "acid",
+      "prompt": "Chemistry: complete ac__. Enter the missing letters.",
+      "word": "acid",
+      "prefix": "ac",
+      "answer": "正解：id → acid。学習語：acid。acidは「酸」。この定義では他の物質へプロトンを与える物質です。",
+      "sourceRefs": [
+        "pdf:task1:p040:qacid"
+      ]
+    },
+    {
+      "passageId": "atom",
+      "prompt": "Chemistry: complete at__. Enter the missing letters.",
+      "word": "atom",
+      "prefix": "at",
+      "answer": "正解：om → atom。学習語：atom。atomは「原子」。原子核と、その周囲の電子から構成されます。",
+      "sourceRefs": [
+        "pdf:task1:p040:qatom"
+      ]
+    },
+    {
+      "passageId": "base",
+      "prompt": "Chemistry: complete ba__. Enter the missing letters.",
+      "word": "base",
+      "prefix": "ba",
+      "answer": "正解：se → base。学習語：base。baseは「塩基」。この定義ではプロトンを受け取る物質です。酸と対になる用語です。",
+      "sourceRefs": [
+        "pdf:task1:p040:qbase"
+      ]
+    },
+    {
+      "passageId": "boiling-point",
+      "prompt": "Chemistry: complete po___. Enter the missing letters.",
+      "word": "point",
+      "prefix": "po",
+      "answer": "正解：int → point。学習語：boiling point。boiling pointは「沸点」。液体の蒸気圧が周囲の圧力と等しくなる温度で、圧力に依存します。",
+      "sourceRefs": [
+        "pdf:task1:p040:qboiling-point"
+      ]
+    },
+    {
+      "passageId": "carbohydrate",
+      "prompt": "Chemistry: complete car_________. Enter the missing letters.",
+      "word": "carbohydrate",
+      "prefix": "car",
+      "answer": "正解：bohydrate → carbohydrate。学習語：carbohydrate。carbohydrateは「炭水化物」。グルコースのような糖類を含む物質群です。",
+      "sourceRefs": [
+        "pdf:task1:p040:qcarbohydrate"
+      ]
+    },
+    {
+      "passageId": "catalyst",
+      "prompt": "Chemistry: complete cat_____. Enter the missing letters.",
+      "word": "catalyst",
+      "prefix": "cat",
+      "answer": "正解：alyst → catalyst。学習語：catalyst。catalystは「触媒」。反応を速め、反応全体では消費されない物質です。",
+      "sourceRefs": [
+        "pdf:task1:p040:qcatalyst"
+      ]
+    },
+    {
+      "passageId": "compound",
+      "prompt": "Chemistry: complete com_____. Enter the missing letters.",
+      "word": "compound",
+      "prefix": "com",
+      "answer": "正解：pound → compound。学習語：compound。compoundは「化合物」。異なる元素が一定の割合で結合した物質です。混合物とは区別します。",
+      "sourceRefs": [
+        "pdf:task1:p040:qcompound"
+      ]
+    },
+    {
+      "passageId": "distillation",
+      "prompt": "Chemistry: complete dis_________. Enter the missing letters.",
+      "word": "distillation",
+      "prefix": "dis",
+      "answer": "正解：tillation → distillation。学習語：distillation。distillationは「蒸留」。蒸発させた成分を凝縮させ、成分の揮発性の違いで分離する操作です。",
+      "sourceRefs": [
+        "pdf:task1:p040:qdistillation"
+      ]
+    },
+    {
+      "passageId": "element",
+      "prompt": "Chemistry: complete ele____. Enter the missing letters.",
+      "word": "element",
+      "prefix": "ele",
+      "answer": "正解：ment → element。学習語：element。elementは「元素」。原子核内の陽子数が同じ原子の種類を指します。",
+      "sourceRefs": [
+        "pdf:task1:p040:qelement"
+      ]
+    },
+    {
+      "passageId": "fatty-acid",
+      "prompt": "Chemistry: complete ac__. Enter the missing letters.",
+      "word": "acid",
+      "prefix": "ac",
+      "answer": "正解：id → acid。学習語：fatty acid。fatty acidは「脂肪酸」。炭化水素の鎖とカルボキシ基を持つ物質です。",
+      "sourceRefs": [
+        "pdf:task1:p040:qfatty-acid"
+      ]
+    },
+    {
+      "passageId": "freezing-point",
+      "prompt": "Chemistry: complete po___. Enter the missing letters.",
+      "word": "point",
+      "prefix": "po",
+      "answer": "正解：int → point。学習語：freezing point。freezing pointは「凝固点」。指定した条件で液体が固体へ変わる温度です。",
+      "sourceRefs": [
+        "pdf:task1:p040:qfreezing-point"
+      ]
+    },
+    {
+      "passageId": "melting-point",
+      "prompt": "Chemistry: complete po___. Enter the missing letters.",
+      "word": "point",
+      "prefix": "po",
+      "answer": "正解：int → point。学習語：melting point。melting pointは「融点」。指定した条件で固体が液体へ変わる温度です。",
+      "sourceRefs": [
+        "pdf:task1:p040:qmelting-point"
+      ]
+    },
+    {
+      "passageId": "molecule",
+      "prompt": "Chemistry: complete mol_____. Enter the missing letters.",
+      "word": "molecule",
+      "prefix": "mol",
+      "answer": "正解：ecule → molecule。学習語：molecule。moleculeは「分子」。水では水素原子二つと酸素原子一つが結び付いています。",
+      "sourceRefs": [
+        "pdf:task1:p040:qmolecule"
+      ]
+    },
+    {
+      "passageId": "oxidation",
+      "prompt": "Chemistry: complete oxi______. Enter the missing letters.",
+      "word": "oxidation",
+      "prefix": "oxi",
+      "answer": "正解：dation → oxidation。学習語：oxidation。oxidationは「酸化」。電子を失うことという定義です。酸素との結合だけに限定しません。",
+      "sourceRefs": [
+        "pdf:task1:p040:qoxidation"
+      ]
+    },
+    {
+      "passageId": "solution",
+      "prompt": "Chemistry: complete sol_____. Enter the missing letters.",
+      "word": "solution",
+      "prefix": "sol",
+      "answer": "正解：ution → solution。学習語：solution。solutionは化学の「溶液」。溶質が溶媒に均一に溶けた混合物です。",
+      "sourceRefs": [
+        "pdf:task1:p040:qsolution"
+      ]
+    },
+    {
+      "passageId": "solvent",
+      "prompt": "Chemistry: complete sol____. Enter the missing letters.",
+      "word": "solvent",
+      "prefix": "sol",
+      "answer": "正解：vent → solvent。学習語：solvent。solventは「溶媒」。塩を溶かす側の物質で、溶かされるsoluteと区別します。",
+      "sourceRefs": [
+        "pdf:task1:p040:qsolvent"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "id": "pdf-task1-p029-linguistics",
+  "title": "Linguistics · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 29ページ／冊子57ページ · Linguistics",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "bilingualism": "The study of bil_________ examines the use of two languages by the same person or community.",
+    "compound-word": "The term toothbrush is a compound wo__ formed by joining tooth and brush.",
+    "consonant": "The sound represented by the letter b is a con______ rather than a vowel.",
+    "dialect": "Residents use a regional dia____ with vocabulary and pronunciation different from the standard variety.",
+    "discourse": "The linguist analyzed classroom dis______ to see how speakers organize extended conversations.",
+    "grammar": "The textbook explains the gra____ governing word order and verb agreement.",
+    "jargon": "The technical jar___ used by engineers was unfamiliar to readers outside the profession.",
+    "language-acquisition": "The researcher studied language acq________ by observing how children gradually learn to speak.",
+    "native-speaker": "A native spe____ learned the language from early childhood as a first language.",
+    "second-language": "She learned French as a second lan_____ after acquiring her first language at home.",
+    "slang": "The teenagers used informal sl___ that was rarely found in formal academic writing.",
+    "spoken-language": "The study compares spoken lan_____ in conversation with the wording of written essays.",
+    "vowel": "The sound represented by the letter a in the word father is a vo___.",
+    "written-language": "The archive preserves written lan_____ in letters and official records rather than audio recordings."
+  },
+  "questions": [
+    {
+      "passageId": "bilingualism",
+      "prompt": "Linguistics: complete bil_________. Enter the missing letters.",
+      "word": "bilingualism",
+      "prefix": "bil",
+      "answer": "正解：ingualism → bilingualism。学習語：bilingualism。bilingualismは「二言語使用」。同じ人・共同体が二つの言語を用いることです。",
+      "sourceRefs": [
+        "pdf:task1:p029:qbilingualism"
+      ]
+    },
+    {
+      "passageId": "compound-word",
+      "prompt": "Linguistics: complete wo__. Enter the missing letters.",
+      "word": "word",
+      "prefix": "wo",
+      "answer": "正解：rd → word。学習語：compound word。compound wordは「複合語」。二つの語を結び付けて一語を作っています。",
+      "sourceRefs": [
+        "pdf:task1:p029:qcompound-word"
+      ]
+    },
+    {
+      "passageId": "consonant",
+      "prompt": "Linguistics: complete con______. Enter the missing letters.",
+      "word": "consonant",
+      "prefix": "con",
+      "answer": "正解：sonant → consonant。学習語：consonant。consonantは「子音」。bの音を母音と区別しています。",
+      "sourceRefs": [
+        "pdf:task1:p029:qconsonant"
+      ]
+    },
+    {
+      "passageId": "dialect",
+      "prompt": "Linguistics: complete dia____. Enter the missing letters.",
+      "word": "dialect",
+      "prefix": "dia",
+      "answer": "正解：lect → dialect。学習語：dialect。dialectは「方言」。地域特有の語彙・発音を持つ言語変種です。",
+      "sourceRefs": [
+        "pdf:task1:p029:qdialect"
+      ]
+    },
+    {
+      "passageId": "discourse",
+      "prompt": "Linguistics: complete dis______. Enter the missing letters.",
+      "word": "discourse",
+      "prefix": "dis",
+      "answer": "正解：course → discourse。学習語：discourse。discourseは「談話」。単語だけでなく、まとまった会話の構成を調べています。",
+      "sourceRefs": [
+        "pdf:task1:p029:qdiscourse"
+      ]
+    },
+    {
+      "passageId": "grammar",
+      "prompt": "Linguistics: complete gra____. Enter the missing letters.",
+      "word": "grammar",
+      "prefix": "gra",
+      "answer": "正解：mmar → grammar。学習語：grammar。grammarは「文法」。語順や動詞の一致を定める規則が根拠です。",
+      "sourceRefs": [
+        "pdf:task1:p029:qgrammar"
+      ]
+    },
+    {
+      "passageId": "jargon",
+      "prompt": "Linguistics: complete jar___. Enter the missing letters.",
+      "word": "jargon",
+      "prefix": "jar",
+      "answer": "正解：gon → jargon。学習語：jargon。jargonは「専門用語」。専門家の間では通じても他分野の人には難しい語です。",
+      "sourceRefs": [
+        "pdf:task1:p029:qjargon"
+      ]
+    },
+    {
+      "passageId": "language-acquisition",
+      "prompt": "Linguistics: complete acq________. Enter the missing letters.",
+      "word": "acquisition",
+      "prefix": "acq",
+      "answer": "正解：uisition → acquisition。学習語：language acquisition。language acquisitionは「言語習得」。子供が話せるようになる過程を調べています。",
+      "sourceRefs": [
+        "pdf:task1:p029:qlanguage-acquisition"
+      ]
+    },
+    {
+      "passageId": "native-speaker",
+      "prompt": "Linguistics: complete spe____. Enter the missing letters.",
+      "word": "speaker",
+      "prefix": "spe",
+      "answer": "正解：aker → speaker。学習語：native speaker。native speakerは「母語話者」。幼少期から第一言語として身に付けた人です。",
+      "sourceRefs": [
+        "pdf:task1:p029:qnative-speaker"
+      ]
+    },
+    {
+      "passageId": "second-language",
+      "prompt": "Linguistics: complete lan_____. Enter the missing letters.",
+      "word": "language",
+      "prefix": "lan",
+      "answer": "正解：guage → language。学習語：second language。second languageは「第二言語」。母語を身に付けた後に学んだ別の言語です。",
+      "sourceRefs": [
+        "pdf:task1:p029:qsecond-language"
+      ]
+    },
+    {
+      "passageId": "slang",
+      "prompt": "Linguistics: complete sl___. Enter the missing letters.",
+      "word": "slang",
+      "prefix": "sl",
+      "answer": "正解：ang → slang。学習語：slang。slangは「俗語」。親しい集団内で使うくだけた表現を指します。",
+      "sourceRefs": [
+        "pdf:task1:p029:qslang"
+      ]
+    },
+    {
+      "passageId": "spoken-language",
+      "prompt": "Linguistics: complete lan_____. Enter the missing letters.",
+      "word": "language",
+      "prefix": "lan",
+      "answer": "正解：guage → language。学習語：spoken language。spoken languageは「話し言葉」。会話で発せられる言葉と文章を比較しています。",
+      "sourceRefs": [
+        "pdf:task1:p029:qspoken-language"
+      ]
+    },
+    {
+      "passageId": "vowel",
+      "prompt": "Linguistics: complete vo___. Enter the missing letters.",
+      "word": "vowel",
+      "prefix": "vo",
+      "answer": "正解：wel → vowel。学習語：vowel。vowelは「母音」。fatherのaの音を例にしています。",
+      "sourceRefs": [
+        "pdf:task1:p029:qvowel"
+      ]
+    },
+    {
+      "passageId": "written-language",
+      "prompt": "Linguistics: complete lan_____. Enter the missing letters.",
+      "word": "language",
+      "prefix": "lan",
+      "answer": "正解：guage → language。学習語：written language。written languageは「書き言葉」。音声ではなく手紙や文書に残っています。",
+      "sourceRefs": [
+        "pdf:task1:p029:qwritten-language"
+      ]
+    }
+  ]
+}

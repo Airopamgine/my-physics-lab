@@ -1,0 +1,145 @@
+{
+  "id": "pdf-task1-p041-geology",
+  "title": "Geology · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 41ページ／冊子69ページ · Geology",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "continental-crust": "Continental cr___ is the outer rocky layer that forms the continents.",
+    "continental-drift": "The idea of continental dr___ proposes that continents have changed position over geological time.",
+    "deposition": "Sediment dep_______ occurs when transported particles settle and accumulate.",
+    "erosion": "The removal and transport of rock or soil by water or wind is ero____.",
+    "fault-line": "The mapped fault li__ marks where a fracture with displacement intersects the ground surface.",
+    "glacier": "The slowly moving mass of land ice is a gla____.",
+    "mineral": "Quartz is a naturally occurring crystalline min____ with a defined chemical composition.",
+    "plate-boundary": "A plate bou_____ is a region where two tectonic plates meet.",
+    "plate-tectonics": "Plate tec______ explains large-scale geological activity through the motion of lithospheric plates.",
+    "seismic-wave": "A seismic wa__ carries energy released by an earthquake through or along Earth.",
+    "tectonic-plate": "A tectonic pl___ is a large, relatively rigid piece of Earth's lithosphere.",
+    "weathering": "The breakdown of rock in place through physical or chemical processes is wea_______."
+  },
+  "questions": [
+    {
+      "passageId": "continental-crust",
+      "prompt": "Geology: complete cr___. Enter the missing letters.",
+      "word": "crust",
+      "prefix": "cr",
+      "answer": "正解：ust → crust。学習語：continental crust。continental crustは「大陸地殻」。大陸を形成する外側の岩石層です。",
+      "sourceRefs": [
+        "pdf:task1:p041:qcontinental-crust"
+      ]
+    },
+    {
+      "passageId": "continental-drift",
+      "prompt": "Geology: complete dr___. Enter the missing letters.",
+      "word": "drift",
+      "prefix": "dr",
+      "answer": "正解：ift → drift。学習語：continental drift。continental driftは「大陸移動」。地質学的な時間の間に大陸の位置が変わることです。",
+      "sourceRefs": [
+        "pdf:task1:p041:qcontinental-drift"
+      ]
+    },
+    {
+      "passageId": "deposition",
+      "prompt": "Geology: complete dep_______. Enter the missing letters.",
+      "word": "deposition",
+      "prefix": "dep",
+      "answer": "正解：osition → deposition。学習語：deposition。depositionは「堆積」。運ばれた粒子が沈み、積み重なる過程です。",
+      "sourceRefs": [
+        "pdf:task1:p041:qdeposition"
+      ]
+    },
+    {
+      "passageId": "erosion",
+      "prompt": "Geology: complete ero____. Enter the missing letters.",
+      "word": "erosion",
+      "prefix": "ero",
+      "answer": "正解：sion → erosion。学習語：erosion。erosionは「侵食」。岩石や土壌が削られ、運び去られることです。現地で崩れるweatheringと区別します。",
+      "sourceRefs": [
+        "pdf:task1:p041:qerosion"
+      ]
+    },
+    {
+      "passageId": "fault-line",
+      "prompt": "Geology: complete li__. Enter the missing letters.",
+      "word": "line",
+      "prefix": "li",
+      "answer": "正解：ne → line。学習語：fault line。fault lineは「断層線」。変位を伴う割れ目である断層が地表と交わる線です。",
+      "sourceRefs": [
+        "pdf:task1:p041:qfault-line"
+      ]
+    },
+    {
+      "passageId": "glacier",
+      "prompt": "Geology: complete gla____. Enter the missing letters.",
+      "word": "glacier",
+      "prefix": "gla",
+      "answer": "正解：cier → glacier。学習語：glacier。glacierは「氷河」。陸上にある、ゆっくり流動する氷の塊です。",
+      "sourceRefs": [
+        "pdf:task1:p041:qglacier"
+      ]
+    },
+    {
+      "passageId": "mineral",
+      "prompt": "Geology: complete min____. Enter the missing letters.",
+      "word": "mineral",
+      "prefix": "min",
+      "answer": "正解：eral → mineral。学習語：mineral。mineralは「鉱物」。石英のような自然に生じる結晶性の物質です。",
+      "sourceRefs": [
+        "pdf:task1:p041:qmineral"
+      ]
+    },
+    {
+      "passageId": "plate-boundary",
+      "prompt": "Geology: complete bou_____. Enter the missing letters.",
+      "word": "boundary",
+      "prefix": "bou",
+      "answer": "正解：ndary → boundary。学習語：plate boundary。plate boundaryは「プレート境界」。二つのプレートが接する領域です。",
+      "sourceRefs": [
+        "pdf:task1:p041:qplate-boundary"
+      ]
+    },
+    {
+      "passageId": "plate-tectonics",
+      "prompt": "Geology: complete tec______. Enter the missing letters.",
+      "word": "tectonics",
+      "prefix": "tec",
+      "answer": "正解：tonics → tectonics。学習語：plate tectonics。plate tectonicsは「プレートテクトニクス」。岩石圏のプレート運動で大規模な地質活動を説明する理論です。",
+      "sourceRefs": [
+        "pdf:task1:p041:qplate-tectonics"
+      ]
+    },
+    {
+      "passageId": "seismic-wave",
+      "prompt": "Geology: complete wa__. Enter the missing letters.",
+      "word": "wave",
+      "prefix": "wa",
+      "answer": "正解：ve → wave。学習語：seismic wave。seismic waveは「地震波」。地震などが放出したエネルギーを伝える波です。",
+      "sourceRefs": [
+        "pdf:task1:p041:qseismic-wave"
+      ]
+    },
+    {
+      "passageId": "tectonic-plate",
+      "prompt": "Geology: complete pl___. Enter the missing letters.",
+      "word": "plate",
+      "prefix": "pl",
+      "answer": "正解：ate → plate。学習語：tectonic plate。tectonic plateは「地殻プレート」。厳密には地殻だけでなく上部マントルの一部も含む岩石圏の板です。",
+      "sourceRefs": [
+        "pdf:task1:p041:qtectonic-plate"
+      ]
+    },
+    {
+      "passageId": "weathering",
+      "prompt": "Geology: complete wea_______. Enter the missing letters.",
+      "word": "weathering",
+      "prefix": "wea",
+      "answer": "正解：thering → weathering。学習語：weathering。weatheringは「風化」。岩石がその場所で物理的・化学的に変化し崩れる過程です。",
+      "sourceRefs": [
+        "pdf:task1:p041:qweathering"
+      ]
+    }
+  ]
+}

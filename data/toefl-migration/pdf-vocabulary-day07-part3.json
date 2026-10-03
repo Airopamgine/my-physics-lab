@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day07-part3",
+  "title": "Vocabulary Day 07 · Words 31–45 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 8ページ／冊子386ページ · Vocabulary Day 07 · Words 31–45",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "link": "Click the li__ to open the booking page from this message.",
+    "maximum": "The max____ number of visitors allowed is fifty; no larger group can enter.",
+    "mindful": "Please be min____ of nearby residents and keep the noise low.",
+    "objective": "Our main obj______ is to finish the repairs before the store reopens.",
+    "opportunity": "The workshop offers an opp________ to learn new skills from experienced instructors.",
+    "packet": "The receptionist handed each visitor a pac___ containing several information sheets.",
+    "pastry": "The bakery sells a pas___ made from dough with a sweet fruit filling.",
+    "photography": "The course teaches pho________, including how to compose and take pictures with a camera.",
+    "post": "Please po__ the announcement on the noticeboard where everyone can read it.",
+    "preparation": "Allow enough time for pre________ before the event, including setting up chairs and testing the equipment.",
+    "procedure": "Follow the registration pro______ by completing the form and then paying the fee.",
+    "quarter": "The first qua____ of the year includes January, February, and March.",
+    "recommendation": "The adviser gave a rec___________ suggesting which course would suit the student's goals.",
+    "reliability": "Repeated tests confirmed the machine's rel________ because it worked consistently without failure.",
+    "renowned": "The ren_____ artist is widely known and respected for years of outstanding work."
+  },
+  "questions": [
+    {
+      "passageId": "link",
+      "prompt": "Vocabulary Day 07 · Words 31–45: complete li__. Enter the missing letters.",
+      "word": "link",
+      "prefix": "li",
+      "answer": "正解：nk → link。学習語：link。linkは「リンク」。別のページにつながる箇所です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qlink"
+      ]
+    },
+    {
+      "passageId": "maximum",
+      "prompt": "Vocabulary Day 07 · Words 31–45: complete max____. Enter the missing letters.",
+      "word": "maximum",
+      "prefix": "max",
+      "answer": "正解：imum → maximum。学習語：maximum。maximumは「最大の」。許可される人数の上限です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qmaximum"
+      ]
+    },
+    {
+      "passageId": "mindful",
+      "prompt": "Vocabulary Day 07 · Words 31–45: complete min____. Enter the missing letters.",
+      "word": "mindful",
+      "prefix": "min",
+      "answer": "正解：dful → mindful。学習語：mindful。mindfulは「気を配る」。mindful ofで、周囲の住民を考慮することです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qmindful"
+      ]
+    },
+    {
+      "passageId": "objective",
+      "prompt": "Vocabulary Day 07 · Words 31–45: complete obj______. Enter the missing letters.",
+      "word": "objective",
+      "prefix": "obj",
+      "answer": "正解：ective → objective。学習語：objective。objectiveはこの文では「目標」。完了させたいことを指し、形容詞の「客観的な」とは異なります。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qobjective"
+      ]
+    },
+    {
+      "passageId": "opportunity",
+      "prompt": "Vocabulary Day 07 · Words 31–45: complete opp________. Enter the missing letters.",
+      "word": "opportunity",
+      "prefix": "opp",
+      "answer": "正解：ortunity → opportunity。学習語：opportunity。opportunityは「機会」。経験豊かな講師から学べるチャンスです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qopportunity"
+      ]
+    },
+    {
+      "passageId": "packet",
+      "prompt": "Vocabulary Day 07 · Words 31–45: complete pac___. Enter the missing letters.",
+      "word": "packet",
+      "prefix": "pac",
+      "answer": "正解：ket → packet。学習語：packet。packetは「小包・ひとまとめの資料」。この文では複数の案内をまとめた一式です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qpacket"
+      ]
+    },
+    {
+      "passageId": "pastry",
+      "prompt": "Vocabulary Day 07 · Words 31–45: complete pas___. Enter the missing letters.",
+      "word": "pastry",
+      "prefix": "pas",
+      "answer": "正解：try → pastry。学習語：pastry。pastryは「ペイストリー・焼き菓子」。生地で果物の詰め物を包んだ菓子です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qpastry"
+      ]
+    },
+    {
+      "passageId": "photography",
+      "prompt": "Vocabulary Day 07 · Words 31–45: complete pho________. Enter the missing letters.",
+      "word": "photography",
+      "prefix": "pho",
+      "answer": "正解：tography → photography。学習語：photography。photographyは「写真撮影・写真術」。写真の構図や撮り方を学ぶ分野です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qphotography"
+      ]
+    },
+    {
+      "passageId": "post",
+      "prompt": "Vocabulary Day 07 · Words 31–45: complete po__. Enter the missing letters.",
+      "word": "post",
+      "prefix": "po",
+      "answer": "正解：st → post。学習語：post。postは「掲示する」。掲示板に知らせを貼る動作です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qpost"
+      ]
+    },
+    {
+      "passageId": "preparation",
+      "prompt": "Vocabulary Day 07 · Words 31–45: complete pre________. Enter the missing letters.",
+      "word": "preparation",
+      "prefix": "pre",
+      "answer": "正解：paration → preparation。学習語：preparation。preparationは「準備」。催しの前に必要な作業です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qpreparation"
+      ]
+    },
+    {
+      "passageId": "procedure",
+      "prompt": "Vocabulary Day 07 · Words 31–45: complete pro______. Enter the missing letters.",
+      "word": "procedure",
+      "prefix": "pro",
+      "answer": "正解：cedure → procedure。学習語：procedure。procedureは「手続き」。登録のために行う一連の決まった段階です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qprocedure"
+      ]
+    },
+    {
+      "passageId": "quarter",
+      "prompt": "Vocabulary Day 07 · Words 31–45: complete qua____. Enter the missing letters.",
+      "word": "quarter",
+      "prefix": "qua",
+      "answer": "正解：rter → quarter。学習語：quarter。quarterは「四半期」。一年を四つに分けた三か月間で、この例は1〜3月です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qquarter"
+      ]
+    },
+    {
+      "passageId": "recommendation",
+      "prompt": "Vocabulary Day 07 · Words 31–45: complete rec___________. Enter the missing letters.",
+      "word": "recommendation",
+      "prefix": "rec",
+      "answer": "正解：ommendation → recommendation。学習語：recommendation。recommendationは「推薦・勧め」。目標に合う授業を提案しています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qrecommendation"
+      ]
+    },
+    {
+      "passageId": "reliability",
+      "prompt": "Vocabulary Day 07 · Words 31–45: complete rel________. Enter the missing letters.",
+      "word": "reliability",
+      "prefix": "rel",
+      "answer": "正解：iability → reliability。学習語：reliability。reliabilityは「信頼性」。何度試しても安定して動くことです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qreliability"
+      ]
+    },
+    {
+      "passageId": "renowned",
+      "prompt": "Vocabulary Day 07 · Words 31–45: complete ren_____. Enter the missing letters.",
+      "word": "renowned",
+      "prefix": "ren",
+      "answer": "正解：owned → renowned。学習語：renowned。renownedは「著名な」。優れた作品によって広く知られています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qrenowned"
+      ]
+    }
+  ]
+}

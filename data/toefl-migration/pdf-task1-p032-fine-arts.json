@@ -1,0 +1,189 @@
+{
+  "id": "pdf-task1-p032-fine-arts",
+  "title": "Fine Arts · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 32ページ／冊子60ページ · Fine Arts",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "abstract-art": "The painting is abstract a__ because it uses shapes and colors without depicting recognizable objects.",
+    "aesthetics": "The study of aes_______ examines beauty and how people judge works of art.",
+    "avant-garde": "The exhibition features avant-ga___ works that challenge established artistic conventions.",
+    "canvas": "The painter stretched the can___ over a wooden frame before applying the first layer of paint.",
+    "curator": "The museum's cur____ selected the paintings and planned how to display them.",
+    "gallery": "Visitors entered the gal____ to view an exhibition of contemporary paintings.",
+    "landscape": "The lan______ depicts mountains, a river, and fields rather than a person's face.",
+    "mural": "The artist painted a large mu___ directly on the wall of the public library.",
+    "perspective": "The artist used per________ to make a flat painting suggest three-dimensional space.",
+    "pigment": "The blue pig____ was ground into a fine powder and mixed with a binding medium.",
+    "portrait": "The por_____ shows the sitter's face and expression in careful detail.",
+    "saturation": "Increasing the color's sat_______ makes it more intense and less gray.",
+    "sculpture": "The marble scu______ was carved into the shape of a standing human figure.",
+    "still-life": "The still li__ depicts a bowl of fruit and a vase arranged on a table.",
+    "vanishing-point": "In the drawing, parallel railway tracks appear to meet at a vanishing po___ on the horizon.",
+    "watercolor": "The artist used wat_______, applying pigments mixed with water to paper."
+  },
+  "questions": [
+    {
+      "passageId": "abstract-art",
+      "prompt": "Fine Arts: complete a__. Enter the missing letters.",
+      "word": "art",
+      "prefix": "a",
+      "answer": "正解：rt → art。学習語：abstract art。abstract artは「抽象美術」。具体的な物の再現ではなく形や色で表現しています。",
+      "sourceRefs": [
+        "pdf:task1:p032:qabstract-art"
+      ]
+    },
+    {
+      "passageId": "aesthetics",
+      "prompt": "Fine Arts: complete aes_______. Enter the missing letters.",
+      "word": "aesthetics",
+      "prefix": "aes",
+      "answer": "正解：thetics → aesthetics。学習語：aesthetics。aestheticsは「美学」。美や芸術作品の評価を研究する分野です。",
+      "sourceRefs": [
+        "pdf:task1:p032:qaesthetics"
+      ]
+    },
+    {
+      "passageId": "avant-garde",
+      "prompt": "Fine Arts: complete ga___. Enter the missing letters.",
+      "word": "garde",
+      "prefix": "ga",
+      "answer": "正解：rde → garde。学習語：avant-garde。avant-gardeは「前衛的な芸術・前衛」。従来の芸術上の慣習に挑む作品です。",
+      "sourceRefs": [
+        "pdf:task1:p032:qavant-garde"
+      ]
+    },
+    {
+      "passageId": "canvas",
+      "prompt": "Fine Arts: complete can___. Enter the missing letters.",
+      "word": "canvas",
+      "prefix": "can",
+      "answer": "正解：vas → canvas。学習語：canvas。canvasは絵画に用いる「画布」。木枠に張る布という描写が根拠です。",
+      "sourceRefs": [
+        "pdf:task1:p032:qcanvas"
+      ]
+    },
+    {
+      "passageId": "curator",
+      "prompt": "Fine Arts: complete cur____. Enter the missing letters.",
+      "word": "curator",
+      "prefix": "cur",
+      "answer": "正解：ator → curator。学習語：curator。curatorは「学芸員・展覧会の企画担当者」。作品を選び展示を計画する役割です。",
+      "sourceRefs": [
+        "pdf:task1:p032:qcurator"
+      ]
+    },
+    {
+      "passageId": "gallery",
+      "prompt": "Fine Arts: complete gal____. Enter the missing letters.",
+      "word": "gallery",
+      "prefix": "gal",
+      "answer": "正解：lery → gallery。学習語：gallery。galleryは「画廊・展示室」。絵画の展覧会を見る場所です。",
+      "sourceRefs": [
+        "pdf:task1:p032:qgallery"
+      ]
+    },
+    {
+      "passageId": "landscape",
+      "prompt": "Fine Arts: complete lan______. Enter the missing letters.",
+      "word": "landscape",
+      "prefix": "lan",
+      "answer": "正解：dscape → landscape。学習語：landscape。landscapeはこの文では「風景画」。自然の景色を描いた作品です。",
+      "sourceRefs": [
+        "pdf:task1:p032:qlandscape"
+      ]
+    },
+    {
+      "passageId": "mural",
+      "prompt": "Fine Arts: complete mu___. Enter the missing letters.",
+      "word": "mural",
+      "prefix": "mu",
+      "answer": "正解：ral → mural。学習語：mural。muralは「壁画」。図書館の壁に直接描かれた絵を指します。",
+      "sourceRefs": [
+        "pdf:task1:p032:qmural"
+      ]
+    },
+    {
+      "passageId": "perspective",
+      "prompt": "Fine Arts: complete per________. Enter the missing letters.",
+      "word": "perspective",
+      "prefix": "per",
+      "answer": "正解：spective → perspective。学習語：perspective。perspectiveは絵画の「遠近法」。平面上に奥行きを表す技法です。",
+      "sourceRefs": [
+        "pdf:task1:p032:qperspective"
+      ]
+    },
+    {
+      "passageId": "pigment",
+      "prompt": "Fine Arts: complete pig____. Enter the missing letters.",
+      "word": "pigment",
+      "prefix": "pig",
+      "answer": "正解：ment → pigment。学習語：pigment。pigmentは「顔料」。色を与える粉末を絵具の媒材に混ぜています。",
+      "sourceRefs": [
+        "pdf:task1:p032:qpigment"
+      ]
+    },
+    {
+      "passageId": "portrait",
+      "prompt": "Fine Arts: complete por_____. Enter the missing letters.",
+      "word": "portrait",
+      "prefix": "por",
+      "answer": "正解：trait → portrait。学習語：portrait。portraitは「肖像画」。人物の顔や表情を描いています。",
+      "sourceRefs": [
+        "pdf:task1:p032:qportrait"
+      ]
+    },
+    {
+      "passageId": "saturation",
+      "prompt": "Fine Arts: complete sat_______. Enter the missing letters.",
+      "word": "saturation",
+      "prefix": "sat",
+      "answer": "正解：uration → saturation。学習語：saturation。saturationは色の「彩度」。灰色に近い鈍い色から鮮やかな色へ変える性質です。",
+      "sourceRefs": [
+        "pdf:task1:p032:qsaturation"
+      ]
+    },
+    {
+      "passageId": "sculpture",
+      "prompt": "Fine Arts: complete scu______. Enter the missing letters.",
+      "word": "sculpture",
+      "prefix": "scu",
+      "answer": "正解：lpture → sculpture。学習語：sculpture。sculptureは「彫刻」。大理石を立体的な人物像に彫っています。",
+      "sourceRefs": [
+        "pdf:task1:p032:qsculpture"
+      ]
+    },
+    {
+      "passageId": "still-life",
+      "prompt": "Fine Arts: complete li__. Enter the missing letters.",
+      "word": "life",
+      "prefix": "li",
+      "answer": "正解：fe → life。学習語：still life。still lifeは「静物画」。果物や花瓶など動かない物を配置して描いています。",
+      "sourceRefs": [
+        "pdf:task1:p032:qstill-life"
+      ]
+    },
+    {
+      "passageId": "vanishing-point",
+      "prompt": "Fine Arts: complete po___. Enter the missing letters.",
+      "word": "point",
+      "prefix": "po",
+      "answer": "正解：int → point。学習語：vanishing point。vanishing pointは「消失点」。遠近法で平行線が見かけ上集まる点です。",
+      "sourceRefs": [
+        "pdf:task1:p032:qvanishing-point"
+      ]
+    },
+    {
+      "passageId": "watercolor",
+      "prompt": "Fine Arts: complete wat_______. Enter the missing letters.",
+      "word": "watercolor",
+      "prefix": "wat",
+      "answer": "正解：ercolor → watercolor。学習語：watercolor。watercolorは「水彩画・水彩絵具」。水で溶いた色を紙に塗る文脈です。",
+      "sourceRefs": [
+        "pdf:task1:p032:qwatercolor"
+      ]
+    }
+  ]
+}

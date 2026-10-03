@@ -1,0 +1,114 @@
+{
+  "id": "pdf-task1-p047-fight-or-flight",
+  "title": "Life Science Test · Fight-or-Flight Response",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 47ページ／冊子75ページ · Test 31–40",
+  "verificationNote": "原本画像で本文・初出文字・空欄長・設問順を照合済みです。出版社の解答p.412は未提供のため、正答は文法・語法・文脈に基づく編集解答です。同じ本文の全10空欄を提出するまで、解答・解説は表示されません。",
+  "passages": {
+    "fight-or-flight": "When facing danger, a person’s body swiftly initiates several physiological shifts known as the fight-or-flight response. This mech_____ starts wi__ a dist____ signal aler____ the ner____ system, wh___ promptly secr____ the chem____ adrenaline in__ the blood______. Circulating throughout the body, adrenaline triggers an expansion of lung capacity and an acceleration of the heart rate. The resulting surge of oxygen delivers a burst of energy that enhances readiness and thereby increases the individual’s ability to either successfully address the threat or flee from it."
+  },
+  "questions": [
+    {
+      "passageId": "fight-or-flight",
+      "prompt": "Question 31: complete mech_____. Enter the missing letters.",
+      "word": "mechanism",
+      "prefix": "mech",
+      "answer": "正解：anism → mechanism。mechanismは「仕組み」。前文のfight-or-flight responseをThis mechanismで受けます。",
+      "sourceRefs": [
+        "pdf:task1:p047:q31-gap1"
+      ]
+    },
+    {
+      "passageId": "fight-or-flight",
+      "prompt": "Question 32: complete wi__. Enter the missing letters.",
+      "word": "with",
+      "prefix": "wi",
+      "answer": "正解：th → with。starts withは「〜から始まる」。最初の信号をwith以下で説明します。",
+      "sourceRefs": [
+        "pdf:task1:p047:q32-gap1"
+      ]
+    },
+    {
+      "passageId": "fight-or-flight",
+      "prompt": "Question 33: complete dist____. Enter the missing letters.",
+      "word": "distress",
+      "prefix": "dist",
+      "answer": "正解：ress → distress。a distress signalは「危険・苦痛を知らせる信号」。危険に直面するという前文に対応します。",
+      "sourceRefs": [
+        "pdf:task1:p047:q33-gap1"
+      ]
+    },
+    {
+      "passageId": "fight-or-flight",
+      "prompt": "Question 34: complete aler____. Enter the missing letters.",
+      "word": "alerting",
+      "prefix": "aler",
+      "answer": "正解：ting → alerting。alerting the ... systemは「〜系に警告する」。前のsignalを説明する現在分詞です。",
+      "sourceRefs": [
+        "pdf:task1:p047:q34-gap1"
+      ]
+    },
+    {
+      "passageId": "fight-or-flight",
+      "prompt": "Question 35: complete ner____. Enter the missing letters.",
+      "word": "nervous",
+      "prefix": "ner",
+      "answer": "正解：vous → nervous。the nervous systemは「神経系」。nervousがsystemを修飾します。",
+      "sourceRefs": [
+        "pdf:task1:p047:q35-gap1"
+      ]
+    },
+    {
+      "passageId": "fight-or-flight",
+      "prompt": "Question 36: complete wh___. Enter the missing letters.",
+      "word": "which",
+      "prefix": "wh",
+      "answer": "正解：ich → which。whichは直前のnervous systemを説明する関係代名詞。後ろの動詞につながります。",
+      "sourceRefs": [
+        "pdf:task1:p047:q36-gap1"
+      ]
+    },
+    {
+      "passageId": "fight-or-flight",
+      "prompt": "Question 37: complete secr____. Enter the missing letters.",
+      "word": "secretes",
+      "prefix": "secr",
+      "answer": "正解：etes → secretes。secretesは「分泌する」。関係節の主語が単数なので三人称単数形です。原本は神経系がadrenalineを分泌する形に簡略化しています。実際には交感神経の刺激を受け、副腎髄質の細胞から血中へ放出されます。本文は原本通り保持しています（生理学的補足の参考：https://pubmed.ncbi.nlm.nih.gov/31688964/）。",
+      "sourceRefs": [
+        "pdf:task1:p047:q37-gap1"
+      ]
+    },
+    {
+      "passageId": "fight-or-flight",
+      "prompt": "Question 38: complete chem____. Enter the missing letters.",
+      "word": "chemical",
+      "prefix": "chem",
+      "answer": "正解：ical → chemical。the chemical adrenalineは「化学物質のアドレナリン」。chemicalが名詞で、adrenalineが具体名です。",
+      "sourceRefs": [
+        "pdf:task1:p047:q38-gap1"
+      ]
+    },
+    {
+      "passageId": "fight-or-flight",
+      "prompt": "Question 39: complete in__. Enter the missing letters.",
+      "word": "into",
+      "prefix": "in",
+      "answer": "正解：to → into。secretes ... into ...は「〜を〜の中へ分泌する」。分泌先をintoで示します。",
+      "sourceRefs": [
+        "pdf:task1:p047:q39-gap1"
+      ]
+    },
+    {
+      "passageId": "fight-or-flight",
+      "prompt": "Question 40: complete blood______. Enter the missing letters.",
+      "word": "bloodstream",
+      "prefix": "blood",
+      "answer": "正解：stream → bloodstream。bloodstreamは「血流」。次のCirculating throughout the bodyとつながり、全身へ運ばれる経路です。",
+      "sourceRefs": [
+        "pdf:task1:p047:q40-gap1"
+      ]
+    }
+  ]
+}

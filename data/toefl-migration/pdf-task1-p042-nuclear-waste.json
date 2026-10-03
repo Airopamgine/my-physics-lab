@@ -1,0 +1,114 @@
+{
+  "id": "pdf-task1-p042-nuclear-waste",
+  "title": "Physical Science Test · Nuclear Waste",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 42ページ／冊子70ページ · Test 11–20",
+  "verificationNote": "原本画像で本文・初出文字・空欄長・設問順を照合済みです。出版社の解答p.411は未提供のため、正答は文法・語法・文脈に基づく編集解答です。同じ本文の全10空欄を提出するまで、解答・解説は表示されません。",
+  "passages": {
+    "nuclear-waste": "The residue remaining after nuclear fuel has been utilized is known as nuclear waste. This mate____ is gene_____ primarily i_ the cou___ of prod_____ electrical po___, which invo____ nuclear reac_____ that em__ tremendous amo____ of energy. Given that this waste can retain its perilous nature for millennia, an important task for global societies is developing safe, long-term disposal strategies to shield both human populations and natural habitats from enduring damage. Common methods include placing the highly radioactive matter deep beneath the Earth’s surface in purpose-built geological repositories."
+  },
+  "questions": [
+    {
+      "passageId": "nuclear-waste",
+      "prompt": "Question 11: complete mate____. Enter the missing letters.",
+      "word": "material",
+      "prefix": "mate",
+      "answer": "正解：rial → material。materialは「物質」。前文のnuclear wasteをThis materialと言い換えます。原本の初出文字はmateです。",
+      "sourceRefs": [
+        "pdf:task1:p042:q11-gap1"
+      ]
+    },
+    {
+      "passageId": "nuclear-waste",
+      "prompt": "Question 12: complete gene_____. Enter the missing letters.",
+      "word": "generated",
+      "prefix": "gene",
+      "answer": "正解：rated → generated。is generatedは「生じる・生成される」。isと組み合わさる過去分詞です。",
+      "sourceRefs": [
+        "pdf:task1:p042:q12-gap1"
+      ]
+    },
+    {
+      "passageId": "nuclear-waste",
+      "prompt": "Question 13: complete i_. Enter the missing letters.",
+      "word": "in",
+      "prefix": "i",
+      "answer": "正解：n → in。in the course ofは「〜の過程で」。核廃棄物が生じる過程を示す定型表現です。",
+      "sourceRefs": [
+        "pdf:task1:p042:q13-gap1"
+      ]
+    },
+    {
+      "passageId": "nuclear-waste",
+      "prompt": "Question 14: complete cou___. Enter the missing letters.",
+      "word": "course",
+      "prefix": "cou",
+      "answer": "正解：rse → course。the course ofは「〜の過程」。courseはinとofの間に入ります。",
+      "sourceRefs": [
+        "pdf:task1:p042:q14-gap1"
+      ]
+    },
+    {
+      "passageId": "nuclear-waste",
+      "prompt": "Question 15: complete prod_____. Enter the missing letters.",
+      "word": "producing",
+      "prefix": "prod",
+      "answer": "正解：ucing → producing。ofの後ろに動名詞producingを置きます。「電力を作ること」の過程です。",
+      "sourceRefs": [
+        "pdf:task1:p042:q15-gap1"
+      ]
+    },
+    {
+      "passageId": "nuclear-waste",
+      "prompt": "Question 16: complete po___. Enter the missing letters.",
+      "word": "power",
+      "prefix": "po",
+      "answer": "正解：wer → power。electrical powerは「電力」。producingの目的語です。",
+      "sourceRefs": [
+        "pdf:task1:p042:q16-gap1"
+      ]
+    },
+    {
+      "passageId": "nuclear-waste",
+      "prompt": "Question 17: complete invo____. Enter the missing letters.",
+      "word": "involves",
+      "prefix": "invo",
+      "answer": "正解：lves → involves。involvesは「伴う・含む」。発電の過程が核反応を伴うと述べる単数形です。",
+      "sourceRefs": [
+        "pdf:task1:p042:q17-gap1"
+      ]
+    },
+    {
+      "passageId": "nuclear-waste",
+      "prompt": "Question 18: complete reac_____. Enter the missing letters.",
+      "word": "reactions",
+      "prefix": "reac",
+      "answer": "正解：tions → reactions。nuclear reactionsは「核反応」。後ろのthat節が反応の働きを説明します。",
+      "sourceRefs": [
+        "pdf:task1:p042:q18-gap1"
+      ]
+    },
+    {
+      "passageId": "nuclear-waste",
+      "prompt": "Question 19: complete em__. Enter the missing letters.",
+      "word": "emit",
+      "prefix": "em",
+      "answer": "正解：it → emit。emitは「放出する」。複数主語reactionsに対応し、エネルギーを出すことを述べます。",
+      "sourceRefs": [
+        "pdf:task1:p042:q19-gap1"
+      ]
+    },
+    {
+      "passageId": "nuclear-waste",
+      "prompt": "Question 20: complete amo____. Enter the missing letters.",
+      "word": "amounts",
+      "prefix": "amo",
+      "answer": "正解：unts → amounts。tremendous amounts of energyは「非常に大量のエネルギー」。amounts ofの組み合わせです。",
+      "sourceRefs": [
+        "pdf:task1:p042:q20-gap1"
+      ]
+    }
+  ]
+}

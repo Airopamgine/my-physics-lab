@@ -1,0 +1,233 @@
+{
+  "id": "pdf-task1-p040-astronomy",
+  "title": "Astronomy · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 40ページ／冊子68ページ · Astronomy",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "asteroid": "The small rocky ast_____ orbits the Sun but is much smaller than a planet.",
+    "astronomical-unit": "An astronomical un__ is approximately the average distance between Earth and the Sun.",
+    "big-bang-theory": "The big bang the___ describes an expanding universe that evolved from an early hot, dense state.",
+    "celestial-body": "A planet, star, or natural satellite is a celestial bo__.",
+    "constellation": "The named pattern of stars called Orion is a con__________.",
+    "dark-matter": "Dark mat___ is inferred from gravitational effects even though it does not emit detectable light.",
+    "equator": "Earth's equ____ is the imaginary circle halfway between the North and South Poles.",
+    "exoplanet": "A planet orbiting a star outside our solar system is an exo______.",
+    "extraterrestrial": "The researchers searched for ext_____________ life originating beyond Earth.",
+    "giant-star": "A giant st__ has a much larger radius than a typical main-sequence star of similar temperature.",
+    "light-year": "A light ye__ is the distance light travels in a vacuum in one year.",
+    "lunar-eclipse": "During a lunar ecl____, Earth moves between the Sun and Moon, and its shadow falls on the Moon.",
+    "meteorite": "A fragment from space that reaches Earth's surface is a met______.",
+    "nebula": "The telescope revealed a neb___, a cloud of gas and dust in space.",
+    "observatory": "The astronomers used telescopes at an obs________ built on a remote mountain.",
+    "revolution": "Earth's rev_______ around the Sun takes approximately one year.",
+    "rotation": "Earth's rot_____ on its axis produces the regular cycle of day and night.",
+    "solar-system": "The solar sys___ consists of the Sun and the objects gravitationally bound to it.",
+    "supernova": "The explosive stellar event briefly became extraordinarily bright and was identified as a sup______.",
+    "terrestrial-planet": "Earth is a terrestrial pla___ with a solid rocky surface."
+  },
+  "questions": [
+    {
+      "passageId": "asteroid",
+      "prompt": "Astronomy: complete ast_____. Enter the missing letters.",
+      "word": "asteroid",
+      "prefix": "ast",
+      "answer": "正解：eroid → asteroid。学習語：asteroid。asteroidは「小惑星」。惑星より小さい、太陽を回る岩石質の天体という描写です。",
+      "sourceRefs": [
+        "pdf:task1:p040:qasteroid"
+      ]
+    },
+    {
+      "passageId": "astronomical-unit",
+      "prompt": "Astronomy: complete un__. Enter the missing letters.",
+      "word": "unit",
+      "prefix": "un",
+      "answer": "正解：it → unit。学習語：astronomical unit。astronomical unitは「天文単位」。地球と太陽の平均距離にほぼ相当する長さの単位です。",
+      "sourceRefs": [
+        "pdf:task1:p040:qastronomical-unit"
+      ]
+    },
+    {
+      "passageId": "big-bang-theory",
+      "prompt": "Astronomy: complete the___. Enter the missing letters.",
+      "word": "theory",
+      "prefix": "the",
+      "answer": "正解：ory → theory。学習語：big bang theory。big bang theoryは「ビッグバン理論」。初期の高温・高密度状態から宇宙が膨張し発展してきたとする説明です。",
+      "sourceRefs": [
+        "pdf:task1:p040:qbig-bang-theory"
+      ]
+    },
+    {
+      "passageId": "celestial-body",
+      "prompt": "Astronomy: complete bo__. Enter the missing letters.",
+      "word": "body",
+      "prefix": "bo",
+      "answer": "正解：dy → body。学習語：celestial body。celestial bodyは「天体」。惑星・恒星・自然の衛星などを指します。",
+      "sourceRefs": [
+        "pdf:task1:p040:qcelestial-body"
+      ]
+    },
+    {
+      "passageId": "constellation",
+      "prompt": "Astronomy: complete con__________. Enter the missing letters.",
+      "word": "constellation",
+      "prefix": "con",
+      "answer": "正解：stellation → constellation。学習語：constellation。constellationは「星座」。オリオン座のように名付けられた星の配置です。",
+      "sourceRefs": [
+        "pdf:task1:p040:qconstellation"
+      ]
+    },
+    {
+      "passageId": "dark-matter",
+      "prompt": "Astronomy: complete mat___. Enter the missing letters.",
+      "word": "matter",
+      "prefix": "mat",
+      "answer": "正解：ter → matter。学習語：dark matter。dark matterは「暗黒物質」。光を放つ姿が直接見えなくても、重力の影響から存在が推定されます。",
+      "sourceRefs": [
+        "pdf:task1:p040:qdark-matter"
+      ]
+    },
+    {
+      "passageId": "equator",
+      "prompt": "Astronomy: complete equ____. Enter the missing letters.",
+      "word": "equator",
+      "prefix": "equ",
+      "answer": "正解：ator → equator。学習語：equator。equatorは「赤道」。北極と南極の中間にある仮想の円です。",
+      "sourceRefs": [
+        "pdf:task1:p040:qequator"
+      ]
+    },
+    {
+      "passageId": "exoplanet",
+      "prompt": "Astronomy: complete exo______. Enter the missing letters.",
+      "word": "exoplanet",
+      "prefix": "exo",
+      "answer": "正解：planet → exoplanet。学習語：exoplanet。exoplanetは「太陽系外惑星」。太陽系の外にある恒星を回る惑星が例です。",
+      "sourceRefs": [
+        "pdf:task1:p040:qexoplanet"
+      ]
+    },
+    {
+      "passageId": "extraterrestrial",
+      "prompt": "Astronomy: complete ext_____________. Enter the missing letters.",
+      "word": "extraterrestrial",
+      "prefix": "ext",
+      "answer": "正解：raterrestrial → extraterrestrial。学習語：extraterrestrial。extraterrestrialは「地球外の」。地球の外に由来する生命を探す文脈です。",
+      "sourceRefs": [
+        "pdf:task1:p040:qextraterrestrial"
+      ]
+    },
+    {
+      "passageId": "giant-star",
+      "prompt": "Astronomy: complete st__. Enter the missing letters.",
+      "word": "star",
+      "prefix": "st",
+      "answer": "正解：ar → star。学習語：giant star。giant starは「巨星」。同程度の表面温度の主系列星と比べて半径が大きい星です。必ず質量が非常に大きいという意味ではありません。",
+      "sourceRefs": [
+        "pdf:task1:p040:qgiant-star"
+      ]
+    },
+    {
+      "passageId": "light-year",
+      "prompt": "Astronomy: complete ye__. Enter the missing letters.",
+      "word": "year",
+      "prefix": "ye",
+      "answer": "正解：ar → year。学習語：light year。light yearは「光年」。一年という時間ではなく、光が一年で進む距離を表す単位です。",
+      "sourceRefs": [
+        "pdf:task1:p040:qlight-year"
+      ]
+    },
+    {
+      "passageId": "lunar-eclipse",
+      "prompt": "Astronomy: complete ecl____. Enter the missing letters.",
+      "word": "eclipse",
+      "prefix": "ecl",
+      "answer": "正解：ipse → eclipse。学習語：lunar eclipse。lunar eclipseは「月食」。地球の影に月が入る現象です。太陽が隠れる日食とは異なります。",
+      "sourceRefs": [
+        "pdf:task1:p040:qlunar-eclipse"
+      ]
+    },
+    {
+      "passageId": "meteorite",
+      "prompt": "Astronomy: complete met______. Enter the missing letters.",
+      "word": "meteorite",
+      "prefix": "met",
+      "answer": "正解：eorite → meteorite。学習語：meteorite。meteoriteは「隕石」。宇宙から来た物質が地表まで到達したものです。",
+      "sourceRefs": [
+        "pdf:task1:p040:qmeteorite"
+      ]
+    },
+    {
+      "passageId": "nebula",
+      "prompt": "Astronomy: complete neb___. Enter the missing letters.",
+      "word": "nebula",
+      "prefix": "neb",
+      "answer": "正解：ula → nebula。学習語：nebula。nebulaは「星雲」。宇宙空間のガスや塵の雲です。",
+      "sourceRefs": [
+        "pdf:task1:p040:qnebula"
+      ]
+    },
+    {
+      "passageId": "observatory",
+      "prompt": "Astronomy: complete obs________. Enter the missing letters.",
+      "word": "observatory",
+      "prefix": "obs",
+      "answer": "正解：ervatory → observatory。学習語：observatory。observatoryは「天文台」。望遠鏡などで天体を観測する施設です。",
+      "sourceRefs": [
+        "pdf:task1:p040:qobservatory"
+      ]
+    },
+    {
+      "passageId": "revolution",
+      "prompt": "Astronomy: complete rev_______. Enter the missing letters.",
+      "word": "revolution",
+      "prefix": "rev",
+      "answer": "正解：olution → revolution。学習語：revolution。revolutionはこの文では「公転」。地球が太陽の周りを一周する運動です。",
+      "sourceRefs": [
+        "pdf:task1:p040:qrevolution"
+      ]
+    },
+    {
+      "passageId": "rotation",
+      "prompt": "Astronomy: complete rot_____. Enter the missing letters.",
+      "word": "rotation",
+      "prefix": "rot",
+      "answer": "正解：ation → rotation。学習語：rotation。rotationは「自転」。地軸の周りを回る運動が昼夜の交代を生みます。",
+      "sourceRefs": [
+        "pdf:task1:p040:qrotation"
+      ]
+    },
+    {
+      "passageId": "solar-system",
+      "prompt": "Astronomy: complete sys___. Enter the missing letters.",
+      "word": "system",
+      "prefix": "sys",
+      "answer": "正解：tem → system。学習語：solar system。solar systemは「太陽系」。太陽と、その重力に束縛された天体の集まりです。",
+      "sourceRefs": [
+        "pdf:task1:p040:qsolar-system"
+      ]
+    },
+    {
+      "passageId": "supernova",
+      "prompt": "Astronomy: complete sup______. Enter the missing letters.",
+      "word": "supernova",
+      "prefix": "sup",
+      "answer": "正解：ernova → supernova。学習語：supernova。supernovaは「超新星」。恒星の爆発に関連する非常に明るい現象です。",
+      "sourceRefs": [
+        "pdf:task1:p040:qsupernova"
+      ]
+    },
+    {
+      "passageId": "terrestrial-planet",
+      "prompt": "Astronomy: complete pla___. Enter the missing letters.",
+      "word": "planet",
+      "prefix": "pla",
+      "answer": "正解：net → planet。学習語：terrestrial planet。terrestrial planetは「地球型惑星」。地球のような岩石質の惑星です。",
+      "sourceRefs": [
+        "pdf:task1:p040:qterrestrial-planet"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "id": "pdf-task1-p031-language-acquisition",
+  "title": "Humanities Test · Language Acquisition",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 31ページ／冊子59ページ · Test 21–30",
+  "verificationNote": "原本画像で本文・初出文字・空欄長・設問順を照合済みです。出版社の解答p.409は未提供のため、正答は文法・語法・文脈に基づく編集解答です。同じ本文の全10空欄を提出するまで、解答・解説は表示されません。",
+  "passages": {
+    "language-acquisition": "Language acquisition involves the process through which humans develop the ability to understand and produce language. Children aro___ the wo___ follow sim____ developmental sta___, regardless o_ what spec____ language th__ are lear____. They fi___ babble, prog____ to single words, and eventually construct complex sentences. Research suggests that humans possess an innate capacity for language, a trait that distinguishes us from other species. This innate capacity suggests a biological predisposition—often referred to as “universal grammar”—that guides the acquisition process."
+  },
+  "questions": [
+    {
+      "passageId": "language-acquisition",
+      "prompt": "Question 21: complete aro___. Enter the missing letters.",
+      "word": "around",
+      "prefix": "aro",
+      "answer": "正解：und → around。around the worldは「世界中の」。世界各地の子供を指します。",
+      "sourceRefs": [
+        "pdf:task1:p031:q21-gap1"
+      ]
+    },
+    {
+      "passageId": "language-acquisition",
+      "prompt": "Question 22: complete wo___. Enter the missing letters.",
+      "word": "world",
+      "prefix": "wo",
+      "answer": "正解：rld → world。the worldは「世界」。aroundと組み合わさって範囲を示します。",
+      "sourceRefs": [
+        "pdf:task1:p031:q22-gap1"
+      ]
+    },
+    {
+      "passageId": "language-acquisition",
+      "prompt": "Question 23: complete sim____. Enter the missing letters.",
+      "word": "similar",
+      "prefix": "sim",
+      "answer": "正解：ilar → similar。similar developmental stagesは「似た発達段階」。similarが後ろの名詞句を修飾します。",
+      "sourceRefs": [
+        "pdf:task1:p031:q23-gap1"
+      ]
+    },
+    {
+      "passageId": "language-acquisition",
+      "prompt": "Question 24: complete sta___. Enter the missing letters.",
+      "word": "stages",
+      "prefix": "sta",
+      "answer": "正解：ges → stages。stagesは「段階」。後文の喃語・単語・複雑な文という段階的な説明に対応します。",
+      "sourceRefs": [
+        "pdf:task1:p031:q24-gap1"
+      ]
+    },
+    {
+      "passageId": "language-acquisition",
+      "prompt": "Question 25: complete o_. Enter the missing letters.",
+      "word": "of",
+      "prefix": "o",
+      "answer": "正解：f → of。regardless ofは「〜に関係なく」。ofが必要な定型表現です。",
+      "sourceRefs": [
+        "pdf:task1:p031:q25-gap1"
+      ]
+    },
+    {
+      "passageId": "language-acquisition",
+      "prompt": "Question 26: complete spec____. Enter the missing letters.",
+      "word": "specific",
+      "prefix": "spec",
+      "answer": "正解：ific → specific。what specific languageは「具体的にどの言語か」。どの言語を学んでいてもという文脈です。",
+      "sourceRefs": [
+        "pdf:task1:p031:q26-gap1"
+      ]
+    },
+    {
+      "passageId": "language-acquisition",
+      "prompt": "Question 27: complete th__. Enter the missing letters.",
+      "word": "they",
+      "prefix": "th",
+      "answer": "正解：ey → they。theyは前のChildrenを受けます。they are learningで進行形を作ります。",
+      "sourceRefs": [
+        "pdf:task1:p031:q27-gap1"
+      ]
+    },
+    {
+      "passageId": "language-acquisition",
+      "prompt": "Question 28: complete lear____. Enter the missing letters.",
+      "word": "learning",
+      "prefix": "lear",
+      "answer": "正解：ning → learning。areの後ろで進行形なのでlearning。「学んでいる」という意味です。",
+      "sourceRefs": [
+        "pdf:task1:p031:q28-gap1"
+      ]
+    },
+    {
+      "passageId": "language-acquisition",
+      "prompt": "Question 29: complete fi___. Enter the missing letters.",
+      "word": "first",
+      "prefix": "fi",
+      "answer": "正解：rst → first。firstは「最初に」。eventually「最終的に」と対比して発達の順序を示します。",
+      "sourceRefs": [
+        "pdf:task1:p031:q29-gap1"
+      ]
+    },
+    {
+      "passageId": "language-acquisition",
+      "prompt": "Question 30: complete prog____. Enter the missing letters.",
+      "word": "progress",
+      "prefix": "prog",
+      "answer": "正解：ress → progress。progress toは「〜へ進む」。They babble, progress, and constructと動詞の原形が並びます。",
+      "sourceRefs": [
+        "pdf:task1:p031:q30-gap1"
+      ]
+    }
+  ]
+}

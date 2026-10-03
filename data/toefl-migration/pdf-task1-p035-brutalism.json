@@ -1,0 +1,114 @@
+{
+  "id": "pdf-task1-p035-brutalism",
+  "title": "Arts Test · Brutalism",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 35ページ／冊子63ページ · Test 31–40",
+  "verificationNote": "原本画像で本文・初出文字・空欄長・設問順を照合済みです。出版社の解答p.409は未提供のため、正答は文法・語法・文脈に基づく編集解答です。同じ本文の全10空欄を提出するまで、解答・解説は表示されません。",
+  "passages": {
+    "brutalism": "Brutalism emerged in the mid-twentieth century, prioritizing practical design over decorative elements. Brutalist struc_____ are so___ and impo____ because th__ use bo__ shapes a__ raw, exp____ materials su__ as conc____. Brutalist archit____ sought to develop buildings that highlight simple forms to promote social goals like openness and collective benefit, especially in public institutions. While opinions on Brutalism vary, it remains an influential movement that challenged traditional notions of beauty and design in modern architecture."
+  },
+  "questions": [
+    {
+      "passageId": "brutalism",
+      "prompt": "Question 31: complete struc_____. Enter the missing letters.",
+      "word": "structures",
+      "prefix": "struc",
+      "answer": "正解：tures → structures。structuresは「建造物」。areが続くため複数形です。",
+      "sourceRefs": [
+        "pdf:task1:p035:q31-gap1"
+      ]
+    },
+    {
+      "passageId": "brutalism",
+      "prompt": "Question 32: complete so___. Enter the missing letters.",
+      "word": "solid",
+      "prefix": "so",
+      "answer": "正解：lid → solid。solidは「頑丈な・重厚な」。and imposingと並ぶ形容詞です。",
+      "sourceRefs": [
+        "pdf:task1:p035:q32-gap1"
+      ]
+    },
+    {
+      "passageId": "brutalism",
+      "prompt": "Question 33: complete impo____. Enter the missing letters.",
+      "word": "imposing",
+      "prefix": "impo",
+      "answer": "正解：sing → imposing。imposingは「堂々とした・威圧的な」。建物の外観の印象を表します。",
+      "sourceRefs": [
+        "pdf:task1:p035:q33-gap1"
+      ]
+    },
+    {
+      "passageId": "brutalism",
+      "prompt": "Question 34: complete th__. Enter the missing letters.",
+      "word": "they",
+      "prefix": "th",
+      "answer": "正解：ey → they。theyはBrutalist structuresを受けます。複数の建物についてuseと述べています。",
+      "sourceRefs": [
+        "pdf:task1:p035:q34-gap1"
+      ]
+    },
+    {
+      "passageId": "brutalism",
+      "prompt": "Question 35: complete bo__. Enter the missing letters.",
+      "word": "bold",
+      "prefix": "bo",
+      "answer": "正解：ld → bold。bold shapesは「大胆な形」。boldが建物の形状を修飾します。",
+      "sourceRefs": [
+        "pdf:task1:p035:q35-gap1"
+      ]
+    },
+    {
+      "passageId": "brutalism",
+      "prompt": "Question 36: complete a__. Enter the missing letters.",
+      "word": "and",
+      "prefix": "a",
+      "answer": "正解：nd → and。bold shapes and ... materialsと、使用する二つの対象を結ぶandです。",
+      "sourceRefs": [
+        "pdf:task1:p035:q36-gap1"
+      ]
+    },
+    {
+      "passageId": "brutalism",
+      "prompt": "Question 37: complete exp____. Enter the missing letters.",
+      "word": "exposed",
+      "prefix": "exp",
+      "answer": "正解：osed → exposed。exposed materialsは「露出した材料」。仕上げで覆い隠さない材料の見せ方です。",
+      "sourceRefs": [
+        "pdf:task1:p035:q37-gap1"
+      ]
+    },
+    {
+      "passageId": "brutalism",
+      "prompt": "Question 38: complete su__. Enter the missing letters.",
+      "word": "such",
+      "prefix": "su",
+      "answer": "正解：ch → such。such asは「〜のような」。具体的な材料の例を導きます。",
+      "sourceRefs": [
+        "pdf:task1:p035:q38-gap1"
+      ]
+    },
+    {
+      "passageId": "brutalism",
+      "prompt": "Question 39: complete conc____. Enter the missing letters.",
+      "word": "concrete",
+      "prefix": "conc",
+      "answer": "正解：rete → concrete。concreteは「コンクリート」。建築に使う材料の具体例です。",
+      "sourceRefs": [
+        "pdf:task1:p035:q39-gap1"
+      ]
+    },
+    {
+      "passageId": "brutalism",
+      "prompt": "Question 40: complete archit____. Enter the missing letters.",
+      "word": "architects",
+      "prefix": "archit",
+      "answer": "正解：ects → architects。architectsは「建築家」。建物を設計しようとした人物を主語にします。",
+      "sourceRefs": [
+        "pdf:task1:p035:q40-gap1"
+      ]
+    }
+  ]
+}

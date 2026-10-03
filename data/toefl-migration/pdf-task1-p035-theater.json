@@ -1,0 +1,114 @@
+{
+  "id": "pdf-task1-p035-theater",
+  "title": "Arts Test · Theater",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 35ページ／冊子63ページ · Test 21–30",
+  "verificationNote": "原本画像で本文・初出文字・空欄長・設問順を照合済みです。出版社の解答p.409は未提供のため、正答は文法・語法・文脈に基づく編集解答です。同じ本文の全10空欄を提出するまで、解答・解説は表示されません。",
+  "passages": {
+    "theater": "Theater, in its diverse forms, has been a central part of human culture across the globe. Unlike fi__, which c__ be reco____ and proj_____, theater rel___ on t__ immediate, liv___ connection bet____ the act___ and audi____ in a shared space. This interaction allows for an energy and spontaneity that cannot be replicated, making each performance a singular, unrepeatable event. Theater’s reliance on physical presence also means that lighting, set design, and sound are experienced organically, directly influencing the audience’s emotional and intellectual engagement."
+  },
+  "questions": [
+    {
+      "passageId": "theater",
+      "prompt": "Question 21: complete fi__. Enter the missing letters.",
+      "word": "film",
+      "prefix": "fi",
+      "answer": "正解：lm → film。filmは「映画」。記録・上映できる映画と、その場の交流に依存する演劇を対比しています。",
+      "sourceRefs": [
+        "pdf:task1:p035:q21-gap1"
+      ]
+    },
+    {
+      "passageId": "theater",
+      "prompt": "Question 22: complete c__. Enter the missing letters.",
+      "word": "can",
+      "prefix": "c",
+      "answer": "正解：an → can。can be ...は「〜されることができる」。受動態に可能の助動詞を加えています。",
+      "sourceRefs": [
+        "pdf:task1:p035:q22-gap1"
+      ]
+    },
+    {
+      "passageId": "theater",
+      "prompt": "Question 23: complete reco____. Enter the missing letters.",
+      "word": "recorded",
+      "prefix": "reco",
+      "answer": "正解：rded → recorded。be recordedは「記録される」。beに続く過去分詞です。",
+      "sourceRefs": [
+        "pdf:task1:p035:q23-gap1"
+      ]
+    },
+    {
+      "passageId": "theater",
+      "prompt": "Question 24: complete proj_____. Enter the missing letters.",
+      "word": "projected",
+      "prefix": "proj",
+      "answer": "正解：ected → projected。projectedはこの文では「上映される」。映画をスクリーンに投影することです。",
+      "sourceRefs": [
+        "pdf:task1:p035:q24-gap1"
+      ]
+    },
+    {
+      "passageId": "theater",
+      "prompt": "Question 25: complete rel___. Enter the missing letters.",
+      "word": "relies",
+      "prefix": "rel",
+      "answer": "正解：ies → relies。relies onは「〜に依存する」。theaterが単数なのでreliesです。",
+      "sourceRefs": [
+        "pdf:task1:p035:q25-gap1"
+      ]
+    },
+    {
+      "passageId": "theater",
+      "prompt": "Question 26: complete t__. Enter the missing letters.",
+      "word": "the",
+      "prefix": "t",
+      "answer": "正解：he → the。the immediate, living connectionという特定のつながりを導く定冠詞です。",
+      "sourceRefs": [
+        "pdf:task1:p035:q26-gap1"
+      ]
+    },
+    {
+      "passageId": "theater",
+      "prompt": "Question 27: complete liv___. Enter the missing letters.",
+      "word": "living",
+      "prefix": "liv",
+      "answer": "正解：ing → living。living connectionは「生きたつながり」。その場にいる者同士の即時の交流を表します。",
+      "sourceRefs": [
+        "pdf:task1:p035:q27-gap1"
+      ]
+    },
+    {
+      "passageId": "theater",
+      "prompt": "Question 28: complete bet____. Enter the missing letters.",
+      "word": "between",
+      "prefix": "bet",
+      "answer": "正解：ween → between。between ... and ...は「〜と〜の間の」。俳優と観客のつながりです。",
+      "sourceRefs": [
+        "pdf:task1:p035:q28-gap1"
+      ]
+    },
+    {
+      "passageId": "theater",
+      "prompt": "Question 29: complete act___. Enter the missing letters.",
+      "word": "actors",
+      "prefix": "act",
+      "answer": "正解：ors → actors。actorsは「俳優」。次のaudienceと対になる、演じる側です。",
+      "sourceRefs": [
+        "pdf:task1:p035:q29-gap1"
+      ]
+    },
+    {
+      "passageId": "theater",
+      "prompt": "Question 30: complete audi____. Enter the missing letters.",
+      "word": "audience",
+      "prefix": "audi",
+      "answer": "正解：ence → audience。audienceは「観客」。演劇を見て、俳優との交流に参加する側です。",
+      "sourceRefs": [
+        "pdf:task1:p035:q30-gap1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day07-part2",
+  "title": "Vocabulary Day 07 · Words 16–30 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 8ページ／冊子386ページ · Vocabulary Day 07 · Words 16–30",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "correspondence": "The archive stores the written cor___________ between the two researchers, including their letters.",
+    "dental": "The den___ clinic treats teeth and gums rather than general injuries.",
+    "discount": "The store offers a dis_____ that reduces the usual price by ten percent.",
+    "drill": "The school held a fire dr___ so students could practice leaving the building safely.",
+    "enhancement": "The upgrade provides an enh________ in sound quality, making the audio clearer.",
+    "exchange": "Customers may exc_____ an unused item for another size within seven days.",
+    "exploration": "The expedition's main purpose was the exp________ of an unfamiliar cave system.",
+    "facility": "The new sports fac_____ has a swimming pool and an indoor court.",
+    "furnished": "The apartment is fur______, so it already contains beds, tables, and chairs.",
+    "guest": "The hotel welcomed each gu___ arriving for an overnight stay.",
+    "heating": "The building's hea____ system keeps the rooms warm during winter.",
+    "inconvenience": "The closure caused an inc__________ by forcing passengers to take a longer route.",
+    "inquiry": "Send an inq____ to the office if you need to ask about available courses.",
+    "invitation": "The written inv_______ asks recipients to attend the opening ceremony.",
+    "late": "The train arrived la__, twenty minutes after its scheduled time."
+  },
+  "questions": [
+    {
+      "passageId": "correspondence",
+      "prompt": "Vocabulary Day 07 · Words 16–30: complete cor___________. Enter the missing letters.",
+      "word": "correspondence",
+      "prefix": "cor",
+      "answer": "正解：respondence → correspondence。学習語：correspondence。correspondenceは「文通・書簡」。二人がやり取りした手紙などです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qcorrespondence"
+      ]
+    },
+    {
+      "passageId": "dental",
+      "prompt": "Vocabulary Day 07 · Words 16–30: complete den___. Enter the missing letters.",
+      "word": "dental",
+      "prefix": "den",
+      "answer": "正解：tal → dental。学習語：dental。dentalは「歯科の」。歯や歯茎を扱う医院を修飾します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qdental"
+      ]
+    },
+    {
+      "passageId": "discount",
+      "prompt": "Vocabulary Day 07 · Words 16–30: complete dis_____. Enter the missing letters.",
+      "word": "discount",
+      "prefix": "dis",
+      "answer": "正解：count → discount。学習語：discount。discountは「割引」。通常の価格を下げることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qdiscount"
+      ]
+    },
+    {
+      "passageId": "drill",
+      "prompt": "Vocabulary Day 07 · Words 16–30: complete dr___. Enter the missing letters.",
+      "word": "drill",
+      "prefix": "dr",
+      "answer": "正解：ill → drill。学習語：drill。drillは「訓練」。この文では実際の火事に備えた避難練習です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qdrill"
+      ]
+    },
+    {
+      "passageId": "enhancement",
+      "prompt": "Vocabulary Day 07 · Words 16–30: complete enh________. Enter the missing letters.",
+      "word": "enhancement",
+      "prefix": "enh",
+      "answer": "正解：ancement → enhancement。学習語：enhancement。enhancementは「改善・向上」。音声の質が良くなっています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qenhancement"
+      ]
+    },
+    {
+      "passageId": "exchange",
+      "prompt": "Vocabulary Day 07 · Words 16–30: complete exc_____. Enter the missing letters.",
+      "word": "exchange",
+      "prefix": "exc",
+      "answer": "正解：hange → exchange。学習語：exchange。exchangeは「交換する」。未使用品を別のサイズに替えることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qexchange"
+      ]
+    },
+    {
+      "passageId": "exploration",
+      "prompt": "Vocabulary Day 07 · Words 16–30: complete exp________. Enter the missing letters.",
+      "word": "exploration",
+      "prefix": "exp",
+      "answer": "正解：loration → exploration。学習語：exploration。explorationは「探検・探索」。未知の洞窟を調べる活動です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qexploration"
+      ]
+    },
+    {
+      "passageId": "facility",
+      "prompt": "Vocabulary Day 07 · Words 16–30: complete fac_____. Enter the missing letters.",
+      "word": "facility",
+      "prefix": "fac",
+      "answer": "正解：ility → facility。学習語：facility。facilityは「施設」。水泳や運動のための設備を備えた場所です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qfacility"
+      ]
+    },
+    {
+      "passageId": "furnished",
+      "prompt": "Vocabulary Day 07 · Words 16–30: complete fur______. Enter the missing letters.",
+      "word": "furnished",
+      "prefix": "fur",
+      "answer": "正解：nished → furnished。学習語：furnished。furnishedは「家具付きの」。借りる時点で家具が用意されています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qfurnished"
+      ]
+    },
+    {
+      "passageId": "guest",
+      "prompt": "Vocabulary Day 07 · Words 16–30: complete gu___. Enter the missing letters.",
+      "word": "guest",
+      "prefix": "gu",
+      "answer": "正解：est → guest。学習語：guest。guestは「客・宿泊客」。ホテルに泊まるために来た人です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qguest"
+      ]
+    },
+    {
+      "passageId": "heating",
+      "prompt": "Vocabulary Day 07 · Words 16–30: complete hea____. Enter the missing letters.",
+      "word": "heating",
+      "prefix": "hea",
+      "answer": "正解：ting → heating。学習語：heating。heatingは「暖房」。冬に室温を保つ仕組みです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qheating"
+      ]
+    },
+    {
+      "passageId": "inconvenience",
+      "prompt": "Vocabulary Day 07 · Words 16–30: complete inc__________. Enter the missing letters.",
+      "word": "inconvenience",
+      "prefix": "inc",
+      "answer": "正解：onvenience → inconvenience。学習語：inconvenience。inconvenienceは「不便」。閉鎖により遠回りが必要になっています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qinconvenience"
+      ]
+    },
+    {
+      "passageId": "inquiry",
+      "prompt": "Vocabulary Day 07 · Words 16–30: complete inq____. Enter the missing letters.",
+      "word": "inquiry",
+      "prefix": "inq",
+      "answer": "正解：uiry → inquiry。学習語：inquiry。inquiryは「問い合わせ」。授業について質問を送ることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qinquiry"
+      ]
+    },
+    {
+      "passageId": "invitation",
+      "prompt": "Vocabulary Day 07 · Words 16–30: complete inv_______. Enter the missing letters.",
+      "word": "invitation",
+      "prefix": "inv",
+      "answer": "正解：itation → invitation。学習語：invitation。invitationは「招待」。開会式への参加を求める案内です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qinvitation"
+      ]
+    },
+    {
+      "passageId": "late",
+      "prompt": "Vocabulary Day 07 · Words 16–30: complete la__. Enter the missing letters.",
+      "word": "late",
+      "prefix": "la",
+      "answer": "正解：te → late。学習語：late。lateはこの文では「遅れて」。予定時刻を過ぎて到着しています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p008:qlate"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "id": "pdf-task1-p030-renaissance",
+  "title": "Humanities Test · The Renaissance",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 30ページ／冊子58ページ · Test 01–10",
+  "verificationNote": "原本画像で本文・初出文字・空欄長・設問順を照合済みです。出版社の解答p.409は未提供のため、正答は文法・語法・文脈に基づく編集解答です。同じ本文の全10空欄を提出するまで、解答・解説は表示されません。",
+  "passages": {
+    "renaissance": "The Renaissance was a period in European history from the fourteenth to the seventeenth centuries. This e__ is charac_______ by ren____ interest i_ classical cul____. It sta____ a flour______ in a__ and sci____. Artists li__ Leonardo da Vinci and Michelangelo created masterpieces that celebrated human potential, while the rise in rationality challenged traditional beliefs. The Renaissance led to major shifts in thought and society, paving the way for the Age of Exploration and the Scientific Revolution. The intense focus on humanism and empirical inquiry marked the Renaissance as the dawn of modernity."
+  },
+  "questions": [
+    {
+      "passageId": "renaissance",
+      "prompt": "Question 01: complete e__. Enter the missing letters.",
+      "word": "era",
+      "prefix": "e",
+      "answer": "正解：ra → era。eraは「時代」。前文のperiodをThis eraと言い換えています。",
+      "sourceRefs": [
+        "pdf:task1:p030:q01-gap1"
+      ]
+    },
+    {
+      "passageId": "renaissance",
+      "prompt": "Question 02: complete charac_______. Enter the missing letters.",
+      "word": "characterized",
+      "prefix": "charac",
+      "answer": "正解：terized → characterized。is characterized byは「〜によって特徴付けられる」。受動態なので過去分詞です。",
+      "sourceRefs": [
+        "pdf:task1:p030:q02-gap1"
+      ]
+    },
+    {
+      "passageId": "renaissance",
+      "prompt": "Question 03: complete ren____. Enter the missing letters.",
+      "word": "renewed",
+      "prefix": "ren",
+      "answer": "正解：ewed → renewed。renewed interestは「再び高まった関心」。古典文化への関心の復活を述べています。",
+      "sourceRefs": [
+        "pdf:task1:p030:q03-gap1"
+      ]
+    },
+    {
+      "passageId": "renaissance",
+      "prompt": "Question 04: complete i_. Enter the missing letters.",
+      "word": "in",
+      "prefix": "i",
+      "answer": "正解：n → in。interest inは「〜への関心」。後ろのclassical cultureが関心の対象です。",
+      "sourceRefs": [
+        "pdf:task1:p030:q04-gap1"
+      ]
+    },
+    {
+      "passageId": "renaissance",
+      "prompt": "Question 05: complete cul____. Enter the missing letters.",
+      "word": "culture",
+      "prefix": "cul",
+      "answer": "正解：ture → culture。classical cultureは「古典文化」。cultureが形容詞classicalに修飾されます。",
+      "sourceRefs": [
+        "pdf:task1:p030:q05-gap1"
+      ]
+    },
+    {
+      "passageId": "renaissance",
+      "prompt": "Question 06: complete sta____. Enter the missing letters.",
+      "word": "started",
+      "prefix": "sta",
+      "answer": "正解：rted → started。過去の時代についてIt startedと述べています。startedは「始めた・引き起こした」。",
+      "sourceRefs": [
+        "pdf:task1:p030:q06-gap1"
+      ]
+    },
+    {
+      "passageId": "renaissance",
+      "prompt": "Question 07: complete flour______. Enter the missing letters.",
+      "word": "flourishing",
+      "prefix": "flour",
+      "answer": "正解：ishing → flourishing。a flourishingは「繁栄・隆盛」。aの後ろに名詞として使われています。",
+      "sourceRefs": [
+        "pdf:task1:p030:q07-gap1"
+      ]
+    },
+    {
+      "passageId": "renaissance",
+      "prompt": "Question 08: complete a__. Enter the missing letters.",
+      "word": "art",
+      "prefix": "a",
+      "answer": "正解：rt → art。art and scienceは「芸術と科学」。次の芸術家の例にもつながります。",
+      "sourceRefs": [
+        "pdf:task1:p030:q08-gap1"
+      ]
+    },
+    {
+      "passageId": "renaissance",
+      "prompt": "Question 09: complete sci____. Enter the missing letters.",
+      "word": "science",
+      "prefix": "sci",
+      "answer": "正解：ence → science。scienceは「科学」。後のScientific Revolutionとも意味がつながります。",
+      "sourceRefs": [
+        "pdf:task1:p030:q09-gap1"
+      ]
+    },
+    {
+      "passageId": "renaissance",
+      "prompt": "Question 10: complete li__. Enter the missing letters.",
+      "word": "like",
+      "prefix": "li",
+      "answer": "正解：ke → like。Artists like Leonardo da Vinciは「レオナルド・ダ・ヴィンチのような芸術家」。具体例を導くlikeです。",
+      "sourceRefs": [
+        "pdf:task1:p030:q10-gap1"
+      ]
+    }
+  ]
+}

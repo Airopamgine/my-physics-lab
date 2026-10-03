@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day08-part4",
+  "title": "Vocabulary Day 08 · Words 46–60 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 9ページ／冊子387ページ · Vocabulary Day 08 · Words 46–60",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "restriction": "The age res________ means that only adults may join the activity.",
+    "secure": "Please sec___ the door by locking it before you leave.",
+    "serving": "One ser____ of the soup is the amount prepared for a single person.",
+    "sight": "The old castle was an impressive si___ visible from the hill.",
+    "smooth": "The polished surface is smo___, with no rough edges or bumps.",
+    "spot": "We chose a quiet sp__ in the park as the place to meet.",
+    "stay": "Visitors can st__ at the hotel for two nights before continuing their trip.",
+    "substitution": "Using oat milk instead of cow's milk is a sub_________ of one ingredient for another.",
+    "textile": "The factory makes cotton tex____ used in clothing and household fabrics.",
+    "tourism": "The city promotes tou____ by attracting people who visit for leisure and sightseeing.",
+    "understanding": "The clear explanation improved our und__________ of how the system works.",
+    "upscale": "The ups____ restaurant offers expensive meals and a high standard of service.",
+    "vessel": "A large cargo ves___ carries goods by sea between ports.",
+    "voluntary": "Participation is vol______, so people may choose whether to join.",
+    "webinar": "The online web____ allows participants to attend a seminar through the internet."
+  },
+  "questions": [
+    {
+      "passageId": "restriction",
+      "prompt": "Vocabulary Day 08 · Words 46–60: complete res________. Enter the missing letters.",
+      "word": "restriction",
+      "prefix": "res",
+      "answer": "正解：triction → restriction。学習語：restriction。restrictionは「制限」。参加できる年齢を限定する条件です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qrestriction"
+      ]
+    },
+    {
+      "passageId": "secure",
+      "prompt": "Vocabulary Day 08 · Words 46–60: complete sec___. Enter the missing letters.",
+      "word": "secure",
+      "prefix": "sec",
+      "answer": "正解：ure → secure。学習語：secure。secureはこの文では「安全に固定する」。鍵を掛けて扉を安全な状態にします。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qsecure"
+      ]
+    },
+    {
+      "passageId": "serving",
+      "prompt": "Vocabulary Day 08 · Words 46–60: complete ser____. Enter the missing letters.",
+      "word": "serving",
+      "prefix": "ser",
+      "answer": "正解：ving → serving。学習語：serving。servingは「一人前」。一人に出す量を指します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qserving"
+      ]
+    },
+    {
+      "passageId": "sight",
+      "prompt": "Vocabulary Day 08 · Words 46–60: complete si___. Enter the missing letters.",
+      "word": "sight",
+      "prefix": "si",
+      "answer": "正解：ght → sight。学習語：sight。sightはこの文では「眺め・光景」。丘から見える城の景色です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qsight"
+      ]
+    },
+    {
+      "passageId": "smooth",
+      "prompt": "Vocabulary Day 08 · Words 46–60: complete smo___. Enter the missing letters.",
+      "word": "smooth",
+      "prefix": "smo",
+      "answer": "正解：oth → smooth。学習語：smooth。smoothは「滑らかな」。表面にざらつきや凹凸がありません。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qsmooth"
+      ]
+    },
+    {
+      "passageId": "spot",
+      "prompt": "Vocabulary Day 08 · Words 46–60: complete sp__. Enter the missing letters.",
+      "word": "spot",
+      "prefix": "sp",
+      "answer": "正解：ot → spot。学習語：spot。spotはこの文では「場所」。公園内の特定の地点です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qspot"
+      ]
+    },
+    {
+      "passageId": "stay",
+      "prompt": "Vocabulary Day 08 · Words 46–60: complete st__. Enter the missing letters.",
+      "word": "stay",
+      "prefix": "st",
+      "answer": "正解：ay → stay。学習語：stay。stayは「滞在する」。旅行の途中で二晩ホテルに泊まることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qstay"
+      ]
+    },
+    {
+      "passageId": "substitution",
+      "prompt": "Vocabulary Day 08 · Words 46–60: complete sub_________. Enter the missing letters.",
+      "word": "substitution",
+      "prefix": "sub",
+      "answer": "正解：stitution → substitution。学習語：substitution。substitutionは「代用・置き換え」。一つの材料の代わりに別の材料を使っています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qsubstitution"
+      ]
+    },
+    {
+      "passageId": "textile",
+      "prompt": "Vocabulary Day 08 · Words 46–60: complete tex____. Enter the missing letters.",
+      "word": "textile",
+      "prefix": "tex",
+      "answer": "正解：tile → textile。学習語：textile。textileは「織物」。衣服などに使う綿の布を作る文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qtextile"
+      ]
+    },
+    {
+      "passageId": "tourism",
+      "prompt": "Vocabulary Day 08 · Words 46–60: complete tou____. Enter the missing letters.",
+      "word": "tourism",
+      "prefix": "tou",
+      "answer": "正解：rism → tourism。学習語：tourism。tourismは「観光・観光業」。余暇や見物のために訪れる人々に関わる活動です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qtourism"
+      ]
+    },
+    {
+      "passageId": "understanding",
+      "prompt": "Vocabulary Day 08 · Words 46–60: complete und__________. Enter the missing letters.",
+      "word": "understanding",
+      "prefix": "und",
+      "answer": "正解：erstanding → understanding。学習語：understanding。understandingは「理解」。説明によって仕組みがよく分かるようになりました。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qunderstanding"
+      ]
+    },
+    {
+      "passageId": "upscale",
+      "prompt": "Vocabulary Day 08 · Words 46–60: complete ups____. Enter the missing letters.",
+      "word": "upscale",
+      "prefix": "ups",
+      "answer": "正解：cale → upscale。学習語：upscale。upscaleは「高級な」。価格やサービスの水準が高い飲食店です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qupscale"
+      ]
+    },
+    {
+      "passageId": "vessel",
+      "prompt": "Vocabulary Day 08 · Words 46–60: complete ves___. Enter the missing letters.",
+      "word": "vessel",
+      "prefix": "ves",
+      "answer": "正解：sel → vessel。学習語：vessel。vesselはこの文では「船舶」。海上で貨物を運ぶ船です。容器という意味も原本に載っています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qvessel"
+      ]
+    },
+    {
+      "passageId": "voluntary",
+      "prompt": "Vocabulary Day 08 · Words 46–60: complete vol______. Enter the missing letters.",
+      "word": "voluntary",
+      "prefix": "vol",
+      "answer": "正解：untary → voluntary。学習語：voluntary。voluntaryは「任意の・自発的な」。参加は義務ではなく、自分で選べます。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qvoluntary"
+      ]
+    },
+    {
+      "passageId": "webinar",
+      "prompt": "Vocabulary Day 08 · Words 46–60: complete web____. Enter the missing letters.",
+      "word": "webinar",
+      "prefix": "web",
+      "answer": "正解：inar → webinar。学習語：webinar。webinarは「オンラインセミナー」。インターネットを通じて参加する講習です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qwebinar"
+      ]
+    }
+  ]
+}

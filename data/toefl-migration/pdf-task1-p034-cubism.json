@@ -1,0 +1,114 @@
+{
+  "id": "pdf-task1-p034-cubism",
+  "title": "Arts Test · Cubism",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 34ページ／冊子62ページ · Test 11–20",
+  "verificationNote": "原本画像で本文・初出文字・空欄長・設問順を照合済みです。出版社の解答p.409は未提供のため、正答は文法・語法・文脈に基づく編集解答です。同じ本文の全10空欄を提出するまで、解答・解説は表示されません。",
+  "passages": {
+    "cubism": "Cubism, as exemplified by the influential works of Pablo Picasso and Georges Braque, is often hailed as one of the most significant modern art movements. Its subj____ were bro___ and rearr_____ in an abst____ form th__ simultaneously empha_____ multiple perspe______. Critics ar___ that th___ techniques capt____ the atmosphere of the early 20th century, including industrialization and the tensions that led up to World War I. Thus, Cubism is considered an ideal representation of the period."
+  },
+  "questions": [
+    {
+      "passageId": "cubism",
+      "prompt": "Question 11: complete subj____. Enter the missing letters.",
+      "word": "subjects",
+      "prefix": "subj",
+      "answer": "正解：ects → subjects。subjectsは絵画の「題材」。wereの主語なので複数形です。",
+      "sourceRefs": [
+        "pdf:task1:p034:q11-gap1"
+      ]
+    },
+    {
+      "passageId": "cubism",
+      "prompt": "Question 12: complete bro___. Enter the missing letters.",
+      "word": "broken",
+      "prefix": "bro",
+      "answer": "正解：ken → broken。were brokenは「分割された」。wereと組み合わさる過去分詞です。",
+      "sourceRefs": [
+        "pdf:task1:p034:q12-gap1"
+      ]
+    },
+    {
+      "passageId": "cubism",
+      "prompt": "Question 13: complete rearr_____. Enter the missing letters.",
+      "word": "rearranged",
+      "prefix": "rearr",
+      "answer": "正解：anged → rearranged。were broken and rearrangedは「分割され、再配置された」。二つの過去分詞が並びます。",
+      "sourceRefs": [
+        "pdf:task1:p034:q13-gap1"
+      ]
+    },
+    {
+      "passageId": "cubism",
+      "prompt": "Question 14: complete abst____. Enter the missing letters.",
+      "word": "abstract",
+      "prefix": "abst",
+      "answer": "正解：ract → abstract。an abstract formは「抽象的な形」。abstractは母音の音で始まるためanです。",
+      "sourceRefs": [
+        "pdf:task1:p034:q14-gap1"
+      ]
+    },
+    {
+      "passageId": "cubism",
+      "prompt": "Question 15: complete th__. Enter the missing letters.",
+      "word": "that",
+      "prefix": "th",
+      "answer": "正解：at → that。thatはformを説明する関係代名詞。後ろの強調する働きを持つ形を述べます。",
+      "sourceRefs": [
+        "pdf:task1:p034:q15-gap1"
+      ]
+    },
+    {
+      "passageId": "cubism",
+      "prompt": "Question 16: complete empha_____. Enter the missing letters.",
+      "word": "emphasized",
+      "prefix": "empha",
+      "answer": "正解：sized → emphasized。emphasizedは「強調した」。過去の技法を述べる関係節の動詞です。",
+      "sourceRefs": [
+        "pdf:task1:p034:q16-gap1"
+      ]
+    },
+    {
+      "passageId": "cubism",
+      "prompt": "Question 17: complete perspe______. Enter the missing letters.",
+      "word": "perspectives",
+      "prefix": "perspe",
+      "answer": "正解：ctives → perspectives。multiple perspectivesは「複数の視点」。一つの視点に限定しないキュビズムの表現です。",
+      "sourceRefs": [
+        "pdf:task1:p034:q17-gap1"
+      ]
+    },
+    {
+      "passageId": "cubism",
+      "prompt": "Question 18: complete ar___. Enter the missing letters.",
+      "word": "argue",
+      "prefix": "ar",
+      "answer": "正解：gue → argue。Critics argue that ...は「批評家は〜と論じる」。複数のCriticsに対応する形です。",
+      "sourceRefs": [
+        "pdf:task1:p034:q18-gap1"
+      ]
+    },
+    {
+      "passageId": "cubism",
+      "prompt": "Question 19: complete th___. Enter the missing letters.",
+      "word": "these",
+      "prefix": "th",
+      "answer": "正解：ese → these。these techniquesは「これらの技法」。前文の分割・再配置・複数視点を指します。",
+      "sourceRefs": [
+        "pdf:task1:p034:q19-gap1"
+      ]
+    },
+    {
+      "passageId": "cubism",
+      "prompt": "Question 20: complete capt____. Enter the missing letters.",
+      "word": "captured",
+      "prefix": "capt",
+      "answer": "正解：ured → captured。captured the atmosphereは「時代の雰囲気を捉えた」。後文のrepresentation of the periodにも対応します。",
+      "sourceRefs": [
+        "pdf:task1:p034:q20-gap1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "id": "pdf-task1-p043-neutron-stars",
+  "title": "Physical Science Test · Neutron Stars",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 43ページ／冊子71ページ · Test 31–40",
+  "verificationNote": "原本画像で本文・初出文字・空欄長・設問順を照合済みです。出版社の解答p.411は未提供のため、正答は文法・語法・文脈に基づく編集解答です。同じ本文の全10空欄を提出するまで、解答・解説は表示されません。",
+  "passages": {
+    "neutron-stars": "A neutron star is a stellar remnant that marks the final stage in the life cycle of a massive star. When gi___ stars hea____ than t__ Sun exh____ their fu__, their co__ implodes. Wh__ remains i_ a sph___ so den____ packed that its gravity crushes protons and electrons together, forming a mass composed almost entirely of neutrons. These stars are only about 12 miles (20 km) in diameter, yet they contain more mass than the Sun. This means just a teaspoon of a neutron star would weigh billions of tons."
+  },
+  "questions": [
+    {
+      "passageId": "neutron-stars",
+      "prompt": "Question 31: complete gi___. Enter the missing letters.",
+      "word": "giant",
+      "prefix": "gi",
+      "answer": "正解：ant → giant。giant starsは「巨大な星」。前文のmassive starを受ける形容詞です。",
+      "sourceRefs": [
+        "pdf:task1:p043:q31-gap1"
+      ]
+    },
+    {
+      "passageId": "neutron-stars",
+      "prompt": "Question 32: complete hea____. Enter the missing letters.",
+      "word": "heavier",
+      "prefix": "hea",
+      "answer": "正解：vier → heavier。heavier thanは「〜より重い」。thanを伴う比較級です。",
+      "sourceRefs": [
+        "pdf:task1:p043:q32-gap1"
+      ]
+    },
+    {
+      "passageId": "neutron-stars",
+      "prompt": "Question 33: complete t__. Enter the missing letters.",
+      "word": "the",
+      "prefix": "t",
+      "answer": "正解：he → the。the Sunは「太陽」。この文のように太陽を指すときは定冠詞theを付けます。",
+      "sourceRefs": [
+        "pdf:task1:p043:q33-gap1"
+      ]
+    },
+    {
+      "passageId": "neutron-stars",
+      "prompt": "Question 34: complete exh____. Enter the missing letters.",
+      "word": "exhaust",
+      "prefix": "exh",
+      "answer": "正解：aust → exhaust。exhaust their fuelは「燃料を使い果たす」。starsが複数なのでexhaustです。",
+      "sourceRefs": [
+        "pdf:task1:p043:q34-gap1"
+      ]
+    },
+    {
+      "passageId": "neutron-stars",
+      "prompt": "Question 35: complete fu__. Enter the missing letters.",
+      "word": "fuel",
+      "prefix": "fu",
+      "answer": "正解：el → fuel。fuelは「燃料」。核融合反応などで使われる物質を述べる文脈です。",
+      "sourceRefs": [
+        "pdf:task1:p043:q35-gap1"
+      ]
+    },
+    {
+      "passageId": "neutron-stars",
+      "prompt": "Question 36: complete co__. Enter the missing letters.",
+      "word": "core",
+      "prefix": "co",
+      "answer": "正解：re → core。coreは「中心核」。their core implodesで中心部が内側へ崩壊することを述べます。",
+      "sourceRefs": [
+        "pdf:task1:p043:q36-gap1"
+      ]
+    },
+    {
+      "passageId": "neutron-stars",
+      "prompt": "Question 37: complete Wh__. Enter the missing letters.",
+      "word": "What",
+      "prefix": "Wh",
+      "answer": "正解：at → What。What remainsは「残るもの」。whatが名詞節を作り、文頭なので大文字です。",
+      "sourceRefs": [
+        "pdf:task1:p043:q37-gap1"
+      ]
+    },
+    {
+      "passageId": "neutron-stars",
+      "prompt": "Question 38: complete i_. Enter the missing letters.",
+      "word": "is",
+      "prefix": "i",
+      "answer": "正解：s → is。What remains is ...と、主語である名詞節に単数のisを使います。",
+      "sourceRefs": [
+        "pdf:task1:p043:q38-gap1"
+      ]
+    },
+    {
+      "passageId": "neutron-stars",
+      "prompt": "Question 39: complete sph___. Enter the missing letters.",
+      "word": "sphere",
+      "prefix": "sph",
+      "answer": "正解：ere → sphere。a sphereは「球」。中性子星の形を表す単数名詞です。",
+      "sourceRefs": [
+        "pdf:task1:p043:q39-gap1"
+      ]
+    },
+    {
+      "passageId": "neutron-stars",
+      "prompt": "Question 40: complete den____. Enter the missing letters.",
+      "word": "densely",
+      "prefix": "den",
+      "answer": "正解：sely → densely。densely packedは「高密度に詰まった」。packedを修飾する副詞です。",
+      "sourceRefs": [
+        "pdf:task1:p043:q40-gap1"
+      ]
+    }
+  ]
+}

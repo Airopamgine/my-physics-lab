@@ -1,0 +1,114 @@
+{
+  "id": "pdf-task1-p046-bacteria",
+  "title": "Life Science Test · Bacteria",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 46ページ／冊子74ページ · Test 01–10",
+  "verificationNote": "原本画像で本文・初出文字・空欄長・設問順を照合済みです。出版社の解答p.412は未提供のため、正答は文法・語法・文脈に基づく編集解答です。同じ本文の全10空欄を提出するまで、解答・解説は表示されません。",
+  "passages": {
+    "bacteria": "Bacteria are microscopic single-celled organisms that exist in virtually every environment on Earth. These sim___ microorganisms la__ complex struc_____ found i_ more adva____ cells. Th__ reproduce rap____, which all___ them t_ adapt qui____ to changing conditions. Some species cause diseases such as pneumonia and tuberculosis, while others are beneficial, helping with digestion or producing antibiotics. With over 30,000 species identified, they represent one of the three major domains of life."
+  },
+  "questions": [
+    {
+      "passageId": "bacteria",
+      "prompt": "Question 01: complete sim___. Enter the missing letters.",
+      "word": "simple",
+      "prefix": "sim",
+      "answer": "正解：ple → simple。simple microorganismsは「単純な微生物」。後ろのcomplex structuresとの対比です。",
+      "sourceRefs": [
+        "pdf:task1:p046:q01-gap1"
+      ]
+    },
+    {
+      "passageId": "bacteria",
+      "prompt": "Question 02: complete la__. Enter the missing letters.",
+      "word": "lack",
+      "prefix": "la",
+      "answer": "正解：ck → lack。lackは「欠いている」。複数主語microorganismsに続く動詞です。",
+      "sourceRefs": [
+        "pdf:task1:p046:q02-gap1"
+      ]
+    },
+    {
+      "passageId": "bacteria",
+      "prompt": "Question 03: complete struc_____. Enter the missing letters.",
+      "word": "structures",
+      "prefix": "struc",
+      "answer": "正解：tures → structures。complex structuresは「複雑な構造」。lackの目的語になる複数名詞です。",
+      "sourceRefs": [
+        "pdf:task1:p046:q03-gap1"
+      ]
+    },
+    {
+      "passageId": "bacteria",
+      "prompt": "Question 04: complete i_. Enter the missing letters.",
+      "word": "in",
+      "prefix": "i",
+      "answer": "正解：n → in。found in ... cellsは「〜な細胞の中に見られる」。構造がある場所をinで示します。",
+      "sourceRefs": [
+        "pdf:task1:p046:q04-gap1"
+      ]
+    },
+    {
+      "passageId": "bacteria",
+      "prompt": "Question 05: complete adva____. Enter the missing letters.",
+      "word": "advanced",
+      "prefix": "adva",
+      "answer": "正解：nced → advanced。more advanced cellsは「より高度な細胞」。advancedがcellsを修飾します。",
+      "sourceRefs": [
+        "pdf:task1:p046:q05-gap1"
+      ]
+    },
+    {
+      "passageId": "bacteria",
+      "prompt": "Question 06: complete Th__. Enter the missing letters.",
+      "word": "They",
+      "prefix": "Th",
+      "answer": "正解：ey → They。TheyはBacteriaを受ける複数の代名詞。文頭なので大文字です。",
+      "sourceRefs": [
+        "pdf:task1:p046:q06-gap1"
+      ]
+    },
+    {
+      "passageId": "bacteria",
+      "prompt": "Question 07: complete rap____. Enter the missing letters.",
+      "word": "rapidly",
+      "prefix": "rap",
+      "answer": "正解：idly → rapidly。rapidlyは「急速に」。reproduce「増殖する」を修飾する副詞です。",
+      "sourceRefs": [
+        "pdf:task1:p046:q07-gap1"
+      ]
+    },
+    {
+      "passageId": "bacteria",
+      "prompt": "Question 08: complete all___. Enter the missing letters.",
+      "word": "allows",
+      "prefix": "all",
+      "answer": "正解：ows → allows。which allows ...と、前の急速な増殖の事実を単数扱いで受けます。allow A to doは「Aが〜できるようにする」。",
+      "sourceRefs": [
+        "pdf:task1:p046:q08-gap1"
+      ]
+    },
+    {
+      "passageId": "bacteria",
+      "prompt": "Question 09: complete t_. Enter the missing letters.",
+      "word": "to",
+      "prefix": "t",
+      "answer": "正解：o → to。allows them to adaptのto。allow A to doの定型に従います。",
+      "sourceRefs": [
+        "pdf:task1:p046:q09-gap1"
+      ]
+    },
+    {
+      "passageId": "bacteria",
+      "prompt": "Question 10: complete qui____. Enter the missing letters.",
+      "word": "quickly",
+      "prefix": "qui",
+      "answer": "正解：ckly → quickly。quicklyは「素早く」。変わる条件への適応の速さを示す副詞です。",
+      "sourceRefs": [
+        "pdf:task1:p046:q10-gap1"
+      ]
+    }
+  ]
+}

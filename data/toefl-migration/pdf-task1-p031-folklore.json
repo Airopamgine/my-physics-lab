@@ -1,0 +1,114 @@
+{
+  "id": "pdf-task1-p031-folklore",
+  "title": "Humanities Test · Folklore",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 31ページ／冊子59ページ · Test 31–40",
+  "verificationNote": "原本画像で本文・初出文字・空欄長・設問順を照合済みです。出版社の解答p.409は未提供のため、正答は文法・語法・文脈に基づく編集解答です。同じ本文の全10空欄を提出するまで、解答・解説は表示されません。",
+  "passages": {
+    "folklore": "Folklore is a collection of traditional stories, customs, and beliefs shared by groups of people. It i_ passed fr__ one gener_____ to ano____ through spo___ words. Th___ stories te___ moral les____, help exp____ natural phen_____, and give people a sense of cultural identity. Many folktales use imaginary characters, magical objects, or talking animals to make the stories entertaining. This tradition contributes to bringing communities together and keeping shared values alive."
+  },
+  "questions": [
+    {
+      "passageId": "folklore",
+      "prompt": "Question 31: complete i_. Enter the missing letters.",
+      "word": "is",
+      "prefix": "i",
+      "answer": "正解：s → is。It is passedは「それは伝えられる」。passedと組み合わさって受動態です。",
+      "sourceRefs": [
+        "pdf:task1:p031:q31-gap1"
+      ]
+    },
+    {
+      "passageId": "folklore",
+      "prompt": "Question 32: complete fr__. Enter the missing letters.",
+      "word": "from",
+      "prefix": "fr",
+      "answer": "正解：om → from。from one generation to anotherは「ある世代から次の世代へ」。fromとtoが対になります。",
+      "sourceRefs": [
+        "pdf:task1:p031:q32-gap1"
+      ]
+    },
+    {
+      "passageId": "folklore",
+      "prompt": "Question 33: complete gener_____. Enter the missing letters.",
+      "word": "generation",
+      "prefix": "gener",
+      "answer": "正解：ation → generation。generationは「世代」。伝承が世代を越えて受け継がれることを説明します。",
+      "sourceRefs": [
+        "pdf:task1:p031:q33-gap1"
+      ]
+    },
+    {
+      "passageId": "folklore",
+      "prompt": "Question 34: complete ano____. Enter the missing letters.",
+      "word": "another",
+      "prefix": "ano",
+      "answer": "正解：ther → another。one ... anotherは「一つの〜、別の〜」。ここでは別の世代を指し、generationの反復を省いています。",
+      "sourceRefs": [
+        "pdf:task1:p031:q34-gap1"
+      ]
+    },
+    {
+      "passageId": "folklore",
+      "prompt": "Question 35: complete spo___. Enter the missing letters.",
+      "word": "spoken",
+      "prefix": "spo",
+      "answer": "正解：ken → spoken。spoken wordsは「話された言葉」。文字ではなく口承で伝える文脈です。",
+      "sourceRefs": [
+        "pdf:task1:p031:q35-gap1"
+      ]
+    },
+    {
+      "passageId": "folklore",
+      "prompt": "Question 36: complete Th___. Enter the missing letters.",
+      "word": "These",
+      "prefix": "Th",
+      "answer": "正解：ese → These。These storiesは「これらの物語」。前のfolkloreを受け、文頭なので大文字です。",
+      "sourceRefs": [
+        "pdf:task1:p031:q36-gap1"
+      ]
+    },
+    {
+      "passageId": "folklore",
+      "prompt": "Question 37: complete te___. Enter the missing letters.",
+      "word": "teach",
+      "prefix": "te",
+      "answer": "正解：ach → teach。storiesが複数なのでteach。「教える」で、giveと同様に物語の役割を表す動詞です。",
+      "sourceRefs": [
+        "pdf:task1:p031:q37-gap1"
+      ]
+    },
+    {
+      "passageId": "folklore",
+      "prompt": "Question 38: complete les____. Enter the missing letters.",
+      "word": "lessons",
+      "prefix": "les",
+      "answer": "正解：sons → lessons。moral lessonsは「道徳的教訓」。物語が教える内容です。",
+      "sourceRefs": [
+        "pdf:task1:p031:q38-gap1"
+      ]
+    },
+    {
+      "passageId": "folklore",
+      "prompt": "Question 39: complete exp____. Enter the missing letters.",
+      "word": "explain",
+      "prefix": "exp",
+      "answer": "正解：lain → explain。help explainは「説明するのを助ける」。helpの後ろに動詞の原形を置く形です。",
+      "sourceRefs": [
+        "pdf:task1:p031:q39-gap1"
+      ]
+    },
+    {
+      "passageId": "folklore",
+      "prompt": "Question 40: complete phen_____. Enter the missing letters.",
+      "word": "phenomena",
+      "prefix": "phen",
+      "answer": "正解：omena → phenomena。natural phenomenaは「自然現象」。phenomenonの複数形です。",
+      "sourceRefs": [
+        "pdf:task1:p031:q40-gap1"
+      ]
+    }
+  ]
+}

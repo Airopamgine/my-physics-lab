@@ -1,0 +1,277 @@
+{
+  "id": "pdf-task1-p044-biology",
+  "title": "Biology · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 44ページ／冊子72ページ · Biology",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "appendage": "A limb projecting from an animal's body is an app______.",
+    "cellular": "The scientist studied cel_____ structures by examining individual cells under a microscope.",
+    "chromosome": "A chr_______ carries genetic information in a long DNA molecule associated with proteins.",
+    "convergent-evolution": "Convergent evo______ produces similar traits independently in lineages exposed to similar pressures.",
+    "embryo": "The developing organism in an early stage after fertilization is an emb___.",
+    "enzyme": "An enz___ is a biological catalyst that helps a reaction proceed more rapidly.",
+    "evolution": "Biological evo______ involves changes in heritable characteristics of populations across generations.",
+    "fertilization": "The fusion of a sperm cell and an egg cell is fer__________.",
+    "gene-expression": "Gene exp_______ is the process by which genetic information is used to produce a functional RNA or protein.",
+    "genetic-engineering": "Genetic eng________ uses biotechnology to deliberately alter an organism's DNA.",
+    "genetic-modification": "Genetic mod_________ is a deliberate change to an organism's genetic material.",
+    "heredity": "The transmission of genetic characteristics from parents to offspring is her_____.",
+    "infection": "An inf______ occurs when a pathogen enters a host and multiplies there.",
+    "metamorphosis": "The transformation of a caterpillar into an adult butterfly is met__________.",
+    "microorganism": "A bacterium is a mic__________ too small to be seen clearly without magnification.",
+    "mutation": "A mut_____ is a change in the DNA sequence of an organism.",
+    "natural-selection": "Natural sel______ favors heritable traits that improve reproductive success in a given environment.",
+    "nucleus": "In a eukaryotic cell, the nuc____ contains most of the cell's DNA.",
+    "organism": "An individual living thing, such as a plant or bacterium, is an org_____.",
+    "pathogen": "A disease-causing biological agent is a pat_____.",
+    "photosynthesis": "During pho___________, plants use light energy to produce organic compounds from carbon dioxide and water.",
+    "pollination": "The transfer of pollen to the receptive part of a flower is pol________.",
+    "regeneration": "The regrowth of a lost body part is called reg_________.",
+    "stem-cell": "A stem ce__ can self-renew and give rise to more specialized cell types."
+  },
+  "questions": [
+    {
+      "passageId": "appendage",
+      "prompt": "Biology: complete app______. Enter the missing letters.",
+      "word": "appendage",
+      "prefix": "app",
+      "answer": "正解：endage → appendage。学習語：appendage。appendageは「付属肢・付属器官」。体から伸びる脚などの器官です。",
+      "sourceRefs": [
+        "pdf:task1:p044:qappendage"
+      ]
+    },
+    {
+      "passageId": "cellular",
+      "prompt": "Biology: complete cel_____. Enter the missing letters.",
+      "word": "cellular",
+      "prefix": "cel",
+      "answer": "正解：lular → cellular。学習語：cellular。cellularは「細胞の」。顕微鏡で個々の細胞の構造を調べる文脈です。",
+      "sourceRefs": [
+        "pdf:task1:p044:qcellular"
+      ]
+    },
+    {
+      "passageId": "chromosome",
+      "prompt": "Biology: complete chr_______. Enter the missing letters.",
+      "word": "chromosome",
+      "prefix": "chr",
+      "answer": "正解：omosome → chromosome。学習語：chromosome。chromosomeは「染色体」。DNAと関連するタンパク質から成り、遺伝情報を担います。",
+      "sourceRefs": [
+        "pdf:task1:p044:qchromosome"
+      ]
+    },
+    {
+      "passageId": "convergent-evolution",
+      "prompt": "Biology: complete evo______. Enter the missing letters.",
+      "word": "evolution",
+      "prefix": "evo",
+      "answer": "正解：lution → evolution。学習語：convergent evolution。convergent evolutionは「収斂進化」。異なる系統で、似た環境などに応じて類似した特徴が独立に生じることです。",
+      "sourceRefs": [
+        "pdf:task1:p044:qconvergent-evolution"
+      ]
+    },
+    {
+      "passageId": "embryo",
+      "prompt": "Biology: complete emb___. Enter the missing letters.",
+      "word": "embryo",
+      "prefix": "emb",
+      "answer": "正解：ryo → embryo。学習語：embryo。embryoは「胚」。受精後の初期の発生段階にある個体です。",
+      "sourceRefs": [
+        "pdf:task1:p044:qembryo"
+      ]
+    },
+    {
+      "passageId": "enzyme",
+      "prompt": "Biology: complete enz___. Enter the missing letters.",
+      "word": "enzyme",
+      "prefix": "enz",
+      "answer": "正解：yme → enzyme。学習語：enzyme。enzymeは「酵素」。生体内の反応を促進する触媒です。",
+      "sourceRefs": [
+        "pdf:task1:p044:qenzyme"
+      ]
+    },
+    {
+      "passageId": "evolution",
+      "prompt": "Biology: complete evo______. Enter the missing letters.",
+      "word": "evolution",
+      "prefix": "evo",
+      "answer": "正解：lution → evolution。学習語：evolution。evolutionは「進化」。集団の遺伝する特徴が世代を通じて変化することです。",
+      "sourceRefs": [
+        "pdf:task1:p044:qevolution"
+      ]
+    },
+    {
+      "passageId": "fertilization",
+      "prompt": "Biology: complete fer__________. Enter the missing letters.",
+      "word": "fertilization",
+      "prefix": "fer",
+      "answer": "正解：tilization → fertilization。学習語：fertilization。fertilizationは「受精」。精子と卵が融合する過程です。",
+      "sourceRefs": [
+        "pdf:task1:p044:qfertilization"
+      ]
+    },
+    {
+      "passageId": "gene-expression",
+      "prompt": "Biology: complete exp_______. Enter the missing letters.",
+      "word": "expression",
+      "prefix": "exp",
+      "answer": "正解：ression → expression。学習語：gene expression。gene expressionは「遺伝子発現」。遺伝情報を使って機能するRNAやタンパク質を作る過程です。",
+      "sourceRefs": [
+        "pdf:task1:p044:qgene-expression"
+      ]
+    },
+    {
+      "passageId": "genetic-engineering",
+      "prompt": "Biology: complete eng________. Enter the missing letters.",
+      "word": "engineering",
+      "prefix": "eng",
+      "answer": "正解：ineering → engineering。学習語：genetic engineering。genetic engineeringは「遺伝子工学」。バイオ技術を用いてDNAを意図的に操作します。",
+      "sourceRefs": [
+        "pdf:task1:p044:qgenetic-engineering"
+      ]
+    },
+    {
+      "passageId": "genetic-modification",
+      "prompt": "Biology: complete mod_________. Enter the missing letters.",
+      "word": "modification",
+      "prefix": "mod",
+      "answer": "正解：ification → modification。学習語：genetic modification。genetic modificationは「遺伝子改変」。生物の遺伝物質を意図的に変えることです。",
+      "sourceRefs": [
+        "pdf:task1:p044:qgenetic-modification"
+      ]
+    },
+    {
+      "passageId": "heredity",
+      "prompt": "Biology: complete her_____. Enter the missing letters.",
+      "word": "heredity",
+      "prefix": "her",
+      "answer": "正解：edity → heredity。学習語：heredity。heredityは「遺伝」。親から子へ遺伝的な特徴が伝わることです。",
+      "sourceRefs": [
+        "pdf:task1:p044:qheredity"
+      ]
+    },
+    {
+      "passageId": "infection",
+      "prompt": "Biology: complete inf______. Enter the missing letters.",
+      "word": "infection",
+      "prefix": "inf",
+      "answer": "正解：ection → infection。学習語：infection。infectionは「感染」。病原体が宿主に入り、そこで増えることです。",
+      "sourceRefs": [
+        "pdf:task1:p044:qinfection"
+      ]
+    },
+    {
+      "passageId": "metamorphosis",
+      "prompt": "Biology: complete met__________. Enter the missing letters.",
+      "word": "metamorphosis",
+      "prefix": "met",
+      "answer": "正解：amorphosis → metamorphosis。学習語：metamorphosis。metamorphosisは「変態」。成長の過程で体の形や生活様式が大きく変わることです。",
+      "sourceRefs": [
+        "pdf:task1:p044:qmetamorphosis"
+      ]
+    },
+    {
+      "passageId": "microorganism",
+      "prompt": "Biology: complete mic__________. Enter the missing letters.",
+      "word": "microorganism",
+      "prefix": "mic",
+      "answer": "正解：roorganism → microorganism。学習語：microorganism。microorganismは「微生物」。細菌のように通常は肉眼で詳しく見えない小さな生物です。",
+      "sourceRefs": [
+        "pdf:task1:p044:qmicroorganism"
+      ]
+    },
+    {
+      "passageId": "mutation",
+      "prompt": "Biology: complete mut_____. Enter the missing letters.",
+      "word": "mutation",
+      "prefix": "mut",
+      "answer": "正解：ation → mutation。学習語：mutation。mutationは「突然変異」。DNAの配列の変化です。すべての変異が有害なわけではありません。",
+      "sourceRefs": [
+        "pdf:task1:p044:qmutation"
+      ]
+    },
+    {
+      "passageId": "natural-selection",
+      "prompt": "Biology: complete sel______. Enter the missing letters.",
+      "word": "selection",
+      "prefix": "sel",
+      "answer": "正解：ection → selection。学習語：natural selection。natural selectionは「自然選択」。ある環境で繁殖成功を高める遺伝的な特徴が広まりやすい仕組みです。",
+      "sourceRefs": [
+        "pdf:task1:p044:qnatural-selection"
+      ]
+    },
+    {
+      "passageId": "nucleus",
+      "prompt": "Biology: complete nuc____. Enter the missing letters.",
+      "word": "nucleus",
+      "prefix": "nuc",
+      "answer": "正解：leus → nucleus。学習語：nucleus。nucleusは「核」。真核細胞のDNAの大部分を含む構造です。",
+      "sourceRefs": [
+        "pdf:task1:p044:qnucleus"
+      ]
+    },
+    {
+      "passageId": "organism",
+      "prompt": "Biology: complete org_____. Enter the missing letters.",
+      "word": "organism",
+      "prefix": "org",
+      "answer": "正解：anism → organism。学習語：organism。organismは「生物・個体」。植物や細菌など、一つの生きた存在です。",
+      "sourceRefs": [
+        "pdf:task1:p044:qorganism"
+      ]
+    },
+    {
+      "passageId": "pathogen",
+      "prompt": "Biology: complete pat_____. Enter the missing letters.",
+      "word": "pathogen",
+      "prefix": "pat",
+      "answer": "正解：hogen → pathogen。学習語：pathogen。pathogenは「病原体」。病気を引き起こす生物学的な因子です。",
+      "sourceRefs": [
+        "pdf:task1:p044:qpathogen"
+      ]
+    },
+    {
+      "passageId": "photosynthesis",
+      "prompt": "Biology: complete pho___________. Enter the missing letters.",
+      "word": "photosynthesis",
+      "prefix": "pho",
+      "answer": "正解：tosynthesis → photosynthesis。学習語：photosynthesis。photosynthesisは「光合成」。植物が光エネルギーを利用して二酸化炭素や水から有機物を作ります。",
+      "sourceRefs": [
+        "pdf:task1:p044:qphotosynthesis"
+      ]
+    },
+    {
+      "passageId": "pollination",
+      "prompt": "Biology: complete pol________. Enter the missing letters.",
+      "word": "pollination",
+      "prefix": "pol",
+      "answer": "正解：lination → pollination。学習語：pollination。pollinationは「受粉」。花粉が花の受け取る部分へ運ばれることです。受精そのものとは区別します。",
+      "sourceRefs": [
+        "pdf:task1:p044:qpollination"
+      ]
+    },
+    {
+      "passageId": "regeneration",
+      "prompt": "Biology: complete reg_________. Enter the missing letters.",
+      "word": "regeneration",
+      "prefix": "reg",
+      "answer": "正解：eneration → regeneration。学習語：regeneration。regenerationは「再生」。失った体の部分が再び作られることです。",
+      "sourceRefs": [
+        "pdf:task1:p044:qregeneration"
+      ]
+    },
+    {
+      "passageId": "stem-cell",
+      "prompt": "Biology: complete ce__. Enter the missing letters.",
+      "word": "cell",
+      "prefix": "ce",
+      "answer": "正解：ll → cell。学習語：stem cell。stem cellは「幹細胞」。自己複製し、より専門化した細胞を生み出す能力を持ちます。",
+      "sourceRefs": [
+        "pdf:task1:p044:qstem-cell"
+      ]
+    }
+  ]
+}

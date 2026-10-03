@@ -1,0 +1,114 @@
+{
+  "id": "pdf-task1-p039-bronze-age",
+  "title": "Social Science Test · The Bronze Age",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 39ページ／冊子67ページ · Test 21–30",
+  "verificationNote": "原本画像で本文・初出文字・空欄長・設問順を照合済みです。出版社の解答p.410は未提供のため、正答は文法・語法・文脈に基づく編集解答です。同じ本文の全10空欄を提出するまで、解答・解説は表示されません。",
+  "passages": {
+    "bronze-age": "The Bronze Age marked a pivotal era in human history, characterized by the extensive adoption of bronze in crafting superior tools, weaponry, and decorative items. This innov_____ yielded stro____ implements, wh___ not on__ advanced agric______ and constr______ but al__ transformed war____. Consequently, com____ social sys____ began to develop, establishing specialized roles within communities that enhanced the efficient organization of both labor and essential resources. The Bronze Age served as a crucial bridge between the earlier Neolithic period and the subsequent rise of advanced early civilizations, laying the groundwork for major cultural and technological progress."
+  },
+  "questions": [
+    {
+      "passageId": "bronze-age",
+      "prompt": "Question 21: complete innov_____. Enter the missing letters.",
+      "word": "innovation",
+      "prefix": "innov",
+      "answer": "正解：ation → innovation。innovationは「革新」。前文の青銅の広範な利用という新しい技術を受けます。",
+      "sourceRefs": [
+        "pdf:task1:p039:q21-gap1"
+      ]
+    },
+    {
+      "passageId": "bronze-age",
+      "prompt": "Question 22: complete stro____. Enter the missing letters.",
+      "word": "stronger",
+      "prefix": "stro",
+      "answer": "正解：nger → stronger。stronger implementsは「より強い道具」。strongの比較級です。",
+      "sourceRefs": [
+        "pdf:task1:p039:q22-gap1"
+      ]
+    },
+    {
+      "passageId": "bronze-age",
+      "prompt": "Question 23: complete wh___. Enter the missing letters.",
+      "word": "which",
+      "prefix": "wh",
+      "answer": "正解：ich → which。whichは前のimplementsを受ける関係代名詞。道具がもたらした影響を説明します。",
+      "sourceRefs": [
+        "pdf:task1:p039:q23-gap1"
+      ]
+    },
+    {
+      "passageId": "bronze-age",
+      "prompt": "Question 24: complete on__. Enter the missing letters.",
+      "word": "only",
+      "prefix": "on",
+      "answer": "正解：ly → only。not only ... but also ...は「〜だけでなく〜も」。onlyがalsoと対になります。",
+      "sourceRefs": [
+        "pdf:task1:p039:q24-gap1"
+      ]
+    },
+    {
+      "passageId": "bronze-age",
+      "prompt": "Question 25: complete agric______. Enter the missing letters.",
+      "word": "agriculture",
+      "prefix": "agric",
+      "answer": "正解：ulture → agriculture。agricultureは「農業」。道具によって発展した分野の一つです。",
+      "sourceRefs": [
+        "pdf:task1:p039:q25-gap1"
+      ]
+    },
+    {
+      "passageId": "bronze-age",
+      "prompt": "Question 26: complete constr______. Enter the missing letters.",
+      "word": "construction",
+      "prefix": "constr",
+      "answer": "正解：uction → construction。constructionは「建設」。agricultureと並列の名詞です。",
+      "sourceRefs": [
+        "pdf:task1:p039:q26-gap1"
+      ]
+    },
+    {
+      "passageId": "bronze-age",
+      "prompt": "Question 27: complete al__. Enter the missing letters.",
+      "word": "also",
+      "prefix": "al",
+      "answer": "正解：so → also。but also transformed ...で、農業・建設に加えて戦争も変えたことを述べます。",
+      "sourceRefs": [
+        "pdf:task1:p039:q27-gap1"
+      ]
+    },
+    {
+      "passageId": "bronze-age",
+      "prompt": "Question 28: complete war____. Enter the missing letters.",
+      "word": "warfare",
+      "prefix": "war",
+      "answer": "正解：fare → warfare。warfareは「戦争・戦闘」。weaponry「武器」の改良にも対応する文脈です。",
+      "sourceRefs": [
+        "pdf:task1:p039:q28-gap1"
+      ]
+    },
+    {
+      "passageId": "bronze-age",
+      "prompt": "Question 29: complete com____. Enter the missing letters.",
+      "word": "complex",
+      "prefix": "com",
+      "answer": "正解：plex → complex。complex social systemsは「複雑な社会制度」。専門的な役割の分化を伴う社会です。",
+      "sourceRefs": [
+        "pdf:task1:p039:q29-gap1"
+      ]
+    },
+    {
+      "passageId": "bronze-age",
+      "prompt": "Question 30: complete sys____. Enter the missing letters.",
+      "word": "systems",
+      "prefix": "sys",
+      "answer": "正解：tems → systems。systemsは「制度・仕組み」。複数の社会的な仕組みが発達したと述べます。",
+      "sourceRefs": [
+        "pdf:task1:p039:q30-gap1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "id": "pdf-task1-p034-jazz",
+  "title": "Arts Test · Jazz",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 34ページ／冊子62ページ · Test 01–10",
+  "verificationNote": "原本画像で本文・初出文字・空欄長・設問順を照合済みです。出版社の解答p.409は未提供のため、正答は文法・語法・文脈に基づく編集解答です。同じ本文の全10空欄を提出するまで、解答・解説は表示されません。",
+  "passages": {
+    "jazz": "Jazz is a highly influential music style recognized for its profound history and distinctive character. This uni___ genre w__ born fr__ the crea____ fusion o_ diverse tradi_____—a powe____ expression b_ artists ba___ on th___ cultural backgrounds. The work of these musicians resulted in music that was both deeply rooted in various ethnic heritages and entirely fresh, quickly attracting a global following. Widely performed and enjoyed today, this expressive genre has subsequently shaped and influenced countless other musical styles, including R&B, funk, and progressive rock."
+  },
+  "questions": [
+    {
+      "passageId": "jazz",
+      "prompt": "Question 01: complete uni___. Enter the missing letters.",
+      "word": "unique",
+      "prefix": "uni",
+      "answer": "正解：que → unique。unique genreは「独特なジャンル」。前文のdistinctive characterを言い換えています。",
+      "sourceRefs": [
+        "pdf:task1:p034:q01-gap1"
+      ]
+    },
+    {
+      "passageId": "jazz",
+      "prompt": "Question 02: complete w__. Enter the missing letters.",
+      "word": "was",
+      "prefix": "w",
+      "answer": "正解：as → was。genreは単数で過去の誕生を述べるためwas born。「生まれた」という受動形です。",
+      "sourceRefs": [
+        "pdf:task1:p034:q02-gap1"
+      ]
+    },
+    {
+      "passageId": "jazz",
+      "prompt": "Question 03: complete fr__. Enter the missing letters.",
+      "word": "from",
+      "prefix": "fr",
+      "answer": "正解：om → from。born fromは「〜から生まれた」。異なる伝統の融合を起源として示します。",
+      "sourceRefs": [
+        "pdf:task1:p034:q03-gap1"
+      ]
+    },
+    {
+      "passageId": "jazz",
+      "prompt": "Question 04: complete crea____. Enter the missing letters.",
+      "word": "creative",
+      "prefix": "crea",
+      "answer": "正解：tive → creative。creative fusionは「創造的な融合」。creativeがfusionを修飾します。",
+      "sourceRefs": [
+        "pdf:task1:p034:q04-gap1"
+      ]
+    },
+    {
+      "passageId": "jazz",
+      "prompt": "Question 05: complete o_. Enter the missing letters.",
+      "word": "of",
+      "prefix": "o",
+      "answer": "正解：f → of。the fusion of ...は「〜の融合」。何が組み合わさったかをof以下で説明します。",
+      "sourceRefs": [
+        "pdf:task1:p034:q05-gap1"
+      ]
+    },
+    {
+      "passageId": "jazz",
+      "prompt": "Question 06: complete tradi_____. Enter the missing letters.",
+      "word": "traditions",
+      "prefix": "tradi",
+      "answer": "正解：tions → traditions。diverse traditionsは「多様な伝統」。後文のvarious ethnic heritagesが根拠です。",
+      "sourceRefs": [
+        "pdf:task1:p034:q06-gap1"
+      ]
+    },
+    {
+      "passageId": "jazz",
+      "prompt": "Question 07: complete powe____. Enter the missing letters.",
+      "word": "powerful",
+      "prefix": "powe",
+      "answer": "正解：rful → powerful。a powerful expressionは「力強い表現」。powerfulが名詞expressionを修飾します。",
+      "sourceRefs": [
+        "pdf:task1:p034:q07-gap1"
+      ]
+    },
+    {
+      "passageId": "jazz",
+      "prompt": "Question 08: complete b_. Enter the missing letters.",
+      "word": "by",
+      "prefix": "b",
+      "answer": "正解：y → by。expression by artistsは「芸術家による表現」。表現する人をbyで示します。",
+      "sourceRefs": [
+        "pdf:task1:p034:q08-gap1"
+      ]
+    },
+    {
+      "passageId": "jazz",
+      "prompt": "Question 09: complete ba___. Enter the missing letters.",
+      "word": "based",
+      "prefix": "ba",
+      "answer": "正解：sed → based。based onは「〜に基づく」。音楽表現が文化的背景に根差していることを表します。",
+      "sourceRefs": [
+        "pdf:task1:p034:q09-gap1"
+      ]
+    },
+    {
+      "passageId": "jazz",
+      "prompt": "Question 10: complete th___. Enter the missing letters.",
+      "word": "their",
+      "prefix": "th",
+      "answer": "正解：eir → their。theirはartistsを受ける所有格。「彼らの文化的背景」です。",
+      "sourceRefs": [
+        "pdf:task1:p034:q10-gap1"
+      ]
+    }
+  ]
+}
