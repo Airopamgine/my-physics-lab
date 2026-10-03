@@ -1,0 +1,114 @@
+{
+  "id": "pdf-task1-p047-owls",
+  "title": "Life Science Test · Owls",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 47ページ／冊子75ページ · Test 21–30",
+  "verificationNote": "原本画像で本文・初出文字・空欄長・設問順を照合済みです。出版社の解答p.412は未提供のため、正答は文法・語法・文脈に基づく編集解答です。同じ本文の全10空欄を提出するまで、解答・解説は表示されません。",
+  "passages": {
+    "owls": "Owls are nocturnal birds found in diverse habitats around the world. They hu__ primarily a_ night, us___ their excep______ sensory abil_____ to loc___ a tar___. Many o_ these pred_____ fly sile____, reducing the chance that the animals being hunted notice them. Their large, forward-facing eyes, along with the fact that they can rotate their heads up to 270 degrees, characterize this unique bird. Their characteristics and mysterious nighttime habits have inspired countless myths and legends in many cultures."
+  },
+  "questions": [
+    {
+      "passageId": "owls",
+      "prompt": "Question 21: complete hu__. Enter the missing letters.",
+      "word": "hunt",
+      "prefix": "hu",
+      "answer": "正解：nt → hunt。They huntは「彼らは狩りをする」。後文のanimals being huntedが根拠です。",
+      "sourceRefs": [
+        "pdf:task1:p047:q21-gap1"
+      ]
+    },
+    {
+      "passageId": "owls",
+      "prompt": "Question 22: complete a_. Enter the missing letters.",
+      "word": "at",
+      "prefix": "a",
+      "answer": "正解：t → at。at nightは「夜に」。前文のnocturnal「夜行性の」と対応します。",
+      "sourceRefs": [
+        "pdf:task1:p047:q22-gap1"
+      ]
+    },
+    {
+      "passageId": "owls",
+      "prompt": "Question 23: complete us___. Enter the missing letters.",
+      "word": "using",
+      "prefix": "us",
+      "answer": "正解：ing → using。using ...は「〜を使って」。狩りの手段を説明する分詞です。",
+      "sourceRefs": [
+        "pdf:task1:p047:q23-gap1"
+      ]
+    },
+    {
+      "passageId": "owls",
+      "prompt": "Question 24: complete excep______. Enter the missing letters.",
+      "word": "exceptional",
+      "prefix": "excep",
+      "answer": "正解：tional → exceptional。exceptional sensory abilitiesは「並外れた感覚能力」。exceptionalが名詞句を修飾します。",
+      "sourceRefs": [
+        "pdf:task1:p047:q24-gap1"
+      ]
+    },
+    {
+      "passageId": "owls",
+      "prompt": "Question 25: complete abil_____. Enter the missing letters.",
+      "word": "abilities",
+      "prefix": "abil",
+      "answer": "正解：ities → abilities。abilitiesは「能力」。sensory「感覚の」に修飾される複数名詞です。",
+      "sourceRefs": [
+        "pdf:task1:p047:q25-gap1"
+      ]
+    },
+    {
+      "passageId": "owls",
+      "prompt": "Question 26: complete loc___. Enter the missing letters.",
+      "word": "locate",
+      "prefix": "loc",
+      "answer": "正解：ate → locate。to locateは「場所を突き止めるために」。to不定詞の後ろは原形です。",
+      "sourceRefs": [
+        "pdf:task1:p047:q26-gap1"
+      ]
+    },
+    {
+      "passageId": "owls",
+      "prompt": "Question 27: complete tar___. Enter the missing letters.",
+      "word": "target",
+      "prefix": "tar",
+      "answer": "正解：get → target。a targetは「標的」。狩りで見つけようとする対象を指します。",
+      "sourceRefs": [
+        "pdf:task1:p047:q27-gap1"
+      ]
+    },
+    {
+      "passageId": "owls",
+      "prompt": "Question 28: complete o_. Enter the missing letters.",
+      "word": "of",
+      "prefix": "o",
+      "answer": "正解：f → of。Many of these predatorsは「これらの捕食者の多く」。many of＋限定された集団という構造です。",
+      "sourceRefs": [
+        "pdf:task1:p047:q28-gap1"
+      ]
+    },
+    {
+      "passageId": "owls",
+      "prompt": "Question 29: complete pred_____. Enter the missing letters.",
+      "word": "predators",
+      "prefix": "pred",
+      "answer": "正解：ators → predators。predatorsは「捕食者」。狩りをするフクロウを言い換えています。",
+      "sourceRefs": [
+        "pdf:task1:p047:q29-gap1"
+      ]
+    },
+    {
+      "passageId": "owls",
+      "prompt": "Question 30: complete sile____. Enter the missing letters.",
+      "word": "silently",
+      "prefix": "sile",
+      "answer": "正解：ntly → silently。silentlyは「静かに・音を立てずに」。獲物に気付かれにくいという後続の説明が根拠です。",
+      "sourceRefs": [
+        "pdf:task1:p047:q30-gap1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "id": "pdf-task1-p042-geysers",
+  "title": "Physical Science Test · Geysers",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 42ページ／冊子70ページ · Test 01–10",
+  "verificationNote": "原本画像で本文・初出文字・空欄長・設問順を照合済みです。出版社の解答p.411は未提供のため、正答は文法・語法・文脈に基づく編集解答です。同じ本文の全10空欄を提出するまで、解答・解説は表示されません。",
+  "passages": {
+    "geysers": "Unlike a simple hot spring that flows continuously, a geyser is defined by its intermittent and forceful eruptions. It requ____ a parti_____ geological config_______: a he__ source, abun____ water, a__ a tig____ constricted under______ plumbing system th__ allows pres____ to build. This setup traps superheated water until it can no longer be contained and bursts forth in a signature column of water and steam that reflects the volatile conditions below the surface. The sheer power released during an eruption makes geysers among Earth’s most dynamic hydrothermal features."
+  },
+  "questions": [
+    {
+      "passageId": "geysers",
+      "prompt": "Question 01: complete requ____. Enter the missing letters.",
+      "word": "requires",
+      "prefix": "requ",
+      "answer": "正解：ires → requires。requiresは「必要とする」。Itは間欠泉を受ける単数主語なので三人称単数形です。",
+      "sourceRefs": [
+        "pdf:task1:p042:q01-gap1"
+      ]
+    },
+    {
+      "passageId": "geysers",
+      "prompt": "Question 02: complete parti_____. Enter the missing letters.",
+      "word": "particular",
+      "prefix": "parti",
+      "answer": "正解：cular → particular。a particular geological configurationは「特定の地質学的配置」。必要な条件を限定します。",
+      "sourceRefs": [
+        "pdf:task1:p042:q02-gap1"
+      ]
+    },
+    {
+      "passageId": "geysers",
+      "prompt": "Question 03: complete config_______. Enter the missing letters.",
+      "word": "configuration",
+      "prefix": "config",
+      "answer": "正解：uration → configuration。configurationは「配置・構成」。コロンの後ろで熱源・水・配管系の組み合わせを説明しています。",
+      "sourceRefs": [
+        "pdf:task1:p042:q03-gap1"
+      ]
+    },
+    {
+      "passageId": "geysers",
+      "prompt": "Question 04: complete he__. Enter the missing letters.",
+      "word": "heat",
+      "prefix": "he",
+      "answer": "正解：at → heat。a heat sourceは「熱源」。熱い水を作るための熱を供給します。",
+      "sourceRefs": [
+        "pdf:task1:p042:q04-gap1"
+      ]
+    },
+    {
+      "passageId": "geysers",
+      "prompt": "Question 05: complete abun____. Enter the missing letters.",
+      "word": "abundant",
+      "prefix": "abun",
+      "answer": "正解：dant → abundant。abundant waterは「豊富な水」。waterを修飾する形容詞です。",
+      "sourceRefs": [
+        "pdf:task1:p042:q05-gap1"
+      ]
+    },
+    {
+      "passageId": "geysers",
+      "prompt": "Question 06: complete a__. Enter the missing letters.",
+      "word": "and",
+      "prefix": "a",
+      "answer": "正解：nd → and。熱源、水、地下の配管系という列挙の最後を結ぶandです。",
+      "sourceRefs": [
+        "pdf:task1:p042:q06-gap1"
+      ]
+    },
+    {
+      "passageId": "geysers",
+      "prompt": "Question 07: complete tig____. Enter the missing letters.",
+      "word": "tightly",
+      "prefix": "tig",
+      "answer": "正解：htly → tightly。tightly constrictedは「強く狭められた」。過去分詞constrictedを修飾する副詞です。",
+      "sourceRefs": [
+        "pdf:task1:p042:q07-gap1"
+      ]
+    },
+    {
+      "passageId": "geysers",
+      "prompt": "Question 08: complete under______. Enter the missing letters.",
+      "word": "underground",
+      "prefix": "under",
+      "answer": "正解：ground → underground。underground plumbing systemは「地下の配管系」。below the surfaceという後文にも対応します。",
+      "sourceRefs": [
+        "pdf:task1:p042:q08-gap1"
+      ]
+    },
+    {
+      "passageId": "geysers",
+      "prompt": "Question 09: complete th__. Enter the missing letters.",
+      "word": "that",
+      "prefix": "th",
+      "answer": "正解：at → that。thatはsystemを説明する関係代名詞。圧力が高まることを可能にする仕組みです。",
+      "sourceRefs": [
+        "pdf:task1:p042:q09-gap1"
+      ]
+    },
+    {
+      "passageId": "geysers",
+      "prompt": "Question 10: complete pres____. Enter the missing letters.",
+      "word": "pressure",
+      "prefix": "pres",
+      "answer": "正解：sure → pressure。allows pressure to buildは「圧力が高まることを可能にする」。噴出前に蓄積するものです。",
+      "sourceRefs": [
+        "pdf:task1:p042:q10-gap1"
+      ]
+    }
+  ]
+}

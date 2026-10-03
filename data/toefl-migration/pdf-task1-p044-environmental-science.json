@@ -1,0 +1,167 @@
+{
+  "id": "pdf-task1-p044-environmental-science",
+  "title": "Environmental Science · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 44ページ／冊子72ページ · Environmental Science",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "acid-rain": "Acid ra__ is precipitation made unusually acidic by pollutants such as sulfur and nitrogen compounds.",
+    "atmosphere": "Earth's atm_______ is the layer of gases surrounding the planet.",
+    "carbon-cycle": "The carbon cy___ describes how carbon moves among air, organisms, oceans, and rocks.",
+    "carbon-footprint": "A product's carbon foo______ estimates the greenhouse-gas emissions associated with its life cycle.",
+    "climate-change": "Climate cha___ refers to long-term shifts in temperature and other features of climate.",
+    "deforestation": "The large-scale clearing of forested land is def__________.",
+    "ecological-footprint": "An ecological foo______ estimates the biologically productive area needed to support a population's resource use and waste demands.",
+    "greenhouse-gas": "Carbon dioxide is a greenhouse g__ that absorbs and emits infrared radiation.",
+    "hazardous-waste": "Hazardous wa___ requires special handling because it can harm people or the environment.",
+    "natural-resource": "Fresh water is a natural res_____ that people use for drinking and agriculture.",
+    "ozone-layer": "The ozone la___ in the stratosphere absorbs much of the Sun's harmful ultraviolet radiation.",
+    "pollution": "The release of harmful substances into air, water, or soil causes pol______.",
+    "renewable-energy": "Solar power is renewable ene___ because its source is naturally replenished.",
+    "sustainability": "Environmental sus___________ means meeting present needs while preserving the capacity to meet future needs."
+  },
+  "questions": [
+    {
+      "passageId": "acid-rain",
+      "prompt": "Environmental Science: complete ra__. Enter the missing letters.",
+      "word": "rain",
+      "prefix": "ra",
+      "answer": "正解：in → rain。学習語：acid rain。acid rainは「酸性雨」。硫黄や窒素の化合物などの汚染物質によって酸性が強くなった降水です。",
+      "sourceRefs": [
+        "pdf:task1:p044:qacid-rain"
+      ]
+    },
+    {
+      "passageId": "atmosphere",
+      "prompt": "Environmental Science: complete atm_______. Enter the missing letters.",
+      "word": "atmosphere",
+      "prefix": "atm",
+      "answer": "正解：osphere → atmosphere。学習語：atmosphere。atmosphereは「大気」。地球を取り囲む気体の層です。",
+      "sourceRefs": [
+        "pdf:task1:p044:qatmosphere"
+      ]
+    },
+    {
+      "passageId": "carbon-cycle",
+      "prompt": "Environmental Science: complete cy___. Enter the missing letters.",
+      "word": "cycle",
+      "prefix": "cy",
+      "answer": "正解：cle → cycle。学習語：carbon cycle。carbon cycleは「炭素循環」。大気・生物・海洋・岩石などの間で炭素が移動する仕組みです。",
+      "sourceRefs": [
+        "pdf:task1:p044:qcarbon-cycle"
+      ]
+    },
+    {
+      "passageId": "carbon-footprint",
+      "prompt": "Environmental Science: complete foo______. Enter the missing letters.",
+      "word": "footprint",
+      "prefix": "foo",
+      "answer": "正解：tprint → footprint。学習語：carbon footprint。carbon footprintは「カーボンフットプリント」。製品のライフサイクルなどに伴う温室効果ガス排出量を表す指標です。",
+      "sourceRefs": [
+        "pdf:task1:p044:qcarbon-footprint"
+      ]
+    },
+    {
+      "passageId": "climate-change",
+      "prompt": "Environmental Science: complete cha___. Enter the missing letters.",
+      "word": "change",
+      "prefix": "cha",
+      "answer": "正解：nge → change。学習語：climate change。climate changeは「気候変動」。気温などの気候の特徴が長期にわたり変化することです。",
+      "sourceRefs": [
+        "pdf:task1:p044:qclimate-change"
+      ]
+    },
+    {
+      "passageId": "deforestation",
+      "prompt": "Environmental Science: complete def__________. Enter the missing letters.",
+      "word": "deforestation",
+      "prefix": "def",
+      "answer": "正解：orestation → deforestation。学習語：deforestation。deforestationは「森林伐採・森林減少」。広い森林が取り除かれることです。",
+      "sourceRefs": [
+        "pdf:task1:p044:qdeforestation"
+      ]
+    },
+    {
+      "passageId": "ecological-footprint",
+      "prompt": "Environmental Science: complete foo______. Enter the missing letters.",
+      "word": "footprint",
+      "prefix": "foo",
+      "answer": "正解：tprint → footprint。学習語：ecological footprint。ecological footprintは「エコロジカルフットプリント」。資源消費や廃棄物への対応に必要な、生物生産力のある土地・水域の面積を推定する指標です。",
+      "sourceRefs": [
+        "pdf:task1:p044:qecological-footprint"
+      ]
+    },
+    {
+      "passageId": "greenhouse-gas",
+      "prompt": "Environmental Science: complete g__. Enter the missing letters.",
+      "word": "gas",
+      "prefix": "g",
+      "answer": "正解：as → gas。学習語：greenhouse gas。greenhouse gasは「温室効果ガス」。赤外線を吸収・放射する二酸化炭素などの気体です。",
+      "sourceRefs": [
+        "pdf:task1:p044:qgreenhouse-gas"
+      ]
+    },
+    {
+      "passageId": "hazardous-waste",
+      "prompt": "Environmental Science: complete wa___. Enter the missing letters.",
+      "word": "waste",
+      "prefix": "wa",
+      "answer": "正解：ste → waste。学習語：hazardous waste。hazardous wasteは「有害廃棄物」。人や環境に害を与えるおそれがあり、特別な管理が必要な廃棄物です。",
+      "sourceRefs": [
+        "pdf:task1:p044:qhazardous-waste"
+      ]
+    },
+    {
+      "passageId": "natural-resource",
+      "prompt": "Environmental Science: complete res_____. Enter the missing letters.",
+      "word": "resource",
+      "prefix": "res",
+      "answer": "正解：ource → resource。学習語：natural resource。natural resourceは「天然資源」。自然から得られ、人間が利用する水などです。",
+      "sourceRefs": [
+        "pdf:task1:p044:qnatural-resource"
+      ]
+    },
+    {
+      "passageId": "ozone-layer",
+      "prompt": "Environmental Science: complete la___. Enter the missing letters.",
+      "word": "layer",
+      "prefix": "la",
+      "answer": "正解：yer → layer。学習語：ozone layer。ozone layerは「オゾン層」。成層圏にあり、有害な紫外線の多くを吸収します。",
+      "sourceRefs": [
+        "pdf:task1:p044:qozone-layer"
+      ]
+    },
+    {
+      "passageId": "pollution",
+      "prompt": "Environmental Science: complete pol______. Enter the missing letters.",
+      "word": "pollution",
+      "prefix": "pol",
+      "answer": "正解：lution → pollution。学習語：pollution。pollutionは「汚染」。空気・水・土壌などへ有害物質が入り込むことです。",
+      "sourceRefs": [
+        "pdf:task1:p044:qpollution"
+      ]
+    },
+    {
+      "passageId": "renewable-energy",
+      "prompt": "Environmental Science: complete ene___. Enter the missing letters.",
+      "word": "energy",
+      "prefix": "ene",
+      "answer": "正解：rgy → energy。学習語：renewable energy。renewable energyは「再生可能エネルギー」。太陽光など、自然に補充される資源を使うエネルギーです。",
+      "sourceRefs": [
+        "pdf:task1:p044:qrenewable-energy"
+      ]
+    },
+    {
+      "passageId": "sustainability",
+      "prompt": "Environmental Science: complete sus___________. Enter the missing letters.",
+      "word": "sustainability",
+      "prefix": "sus",
+      "answer": "正解：tainability → sustainability。学習語：sustainability。sustainabilityは「持続可能性」。現在の必要を満たしつつ、将来の必要を満たす能力を保つことです。",
+      "sourceRefs": [
+        "pdf:task1:p044:qsustainability"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day06-part3",
+  "title": "Vocabulary Day 06 · Words 31–45 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 7ページ／冊子385ページ · Vocabulary Day 06 · Words 31–45",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "indelible": "The visit left an ind______ impression that remained vivid many years later.",
+    "information": "The brochure provides inf________ about opening hours and admission fees.",
+    "inspiration": "The natural landscape was a source of ins________ for the artist's new paintings.",
+    "interpersonal": "The course develops int__________ skills used when communicating and working with other people.",
+    "intuitive": "Her int______ understanding of the pattern came immediately, without a conscious step-by-step analysis.",
+    "laden": "The wagon was la___ with heavy boxes and could barely move.",
+    "lava": "The volcano released la__, molten rock that flowed across the surface.",
+    "lifestyle": "Regular exercise and sleep are important features of a healthy lif______.",
+    "marine": "The biologist studies mar___ animals that live in the ocean.",
+    "mission": "The team's mis____ was to collect samples from the remote island.",
+    "occasional": "The region receives occ_______ showers, but rain is not a daily event.",
+    "outrage": "The unfair decision caused public out____, with many people expressing intense anger.",
+    "plate": "The server placed the food on a clean pl___ before bringing it to the table.",
+    "profoundly": "The experience pro_______ changed her outlook, affecting it at a very deep level.",
+    "region": "The survey focused on a coastal reg___ rather than the entire country."
+  },
+  "questions": [
+    {
+      "passageId": "indelible",
+      "prompt": "Vocabulary Day 06 · Words 31–45: complete ind______. Enter the missing letters.",
+      "word": "indelible",
+      "prefix": "ind",
+      "answer": "正解：elible → indelible。学習語：indelible。indelibleは「消えない」。何年たっても記憶に残る印象です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p007:qindelible"
+      ]
+    },
+    {
+      "passageId": "information",
+      "prompt": "Vocabulary Day 06 · Words 31–45: complete inf________. Enter the missing letters.",
+      "word": "information",
+      "prefix": "inf",
+      "answer": "正解：ormation → information。学習語：information。informationは「情報」。営業時間や料金について知らせています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p007:qinformation"
+      ]
+    },
+    {
+      "passageId": "inspiration",
+      "prompt": "Vocabulary Day 06 · Words 31–45: complete ins________. Enter the missing letters.",
+      "word": "inspiration",
+      "prefix": "ins",
+      "answer": "正解：piration → inspiration。学習語：inspiration。inspirationは「着想・ひらめき」。自然の風景が新作のアイデアを与えています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p007:qinspiration"
+      ]
+    },
+    {
+      "passageId": "interpersonal",
+      "prompt": "Vocabulary Day 06 · Words 31–45: complete int__________. Enter the missing letters.",
+      "word": "interpersonal",
+      "prefix": "int",
+      "answer": "正解：erpersonal → interpersonal。学習語：interpersonal。interpersonalは「対人関係の」。他の人との会話や協働に関わる技能です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p007:qinterpersonal"
+      ]
+    },
+    {
+      "passageId": "intuitive",
+      "prompt": "Vocabulary Day 06 · Words 31–45: complete int______. Enter the missing letters.",
+      "word": "intuitive",
+      "prefix": "int",
+      "answer": "正解：uitive → intuitive。学習語：intuitive。intuitiveは「直観的な」。意識的に順序立てて分析することなく、すぐに理解しています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p007:qintuitive"
+      ]
+    },
+    {
+      "passageId": "laden",
+      "prompt": "Vocabulary Day 06 · Words 31–45: complete la___. Enter the missing letters.",
+      "word": "laden",
+      "prefix": "la",
+      "answer": "正解：den → laden。学習語：laden。ladenは「積んだ・満載の」。重い箱をたくさん載せた状態です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p007:qladen"
+      ]
+    },
+    {
+      "passageId": "lava",
+      "prompt": "Vocabulary Day 06 · Words 31–45: complete la__. Enter the missing letters.",
+      "word": "lava",
+      "prefix": "la",
+      "answer": "正解：va → lava。学習語：lava。lavaは「溶岩」。地表に出て流れる溶けた岩石です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p007:qlava"
+      ]
+    },
+    {
+      "passageId": "lifestyle",
+      "prompt": "Vocabulary Day 06 · Words 31–45: complete lif______. Enter the missing letters.",
+      "word": "lifestyle",
+      "prefix": "lif",
+      "answer": "正解：estyle → lifestyle。学習語：lifestyle。lifestyleは「生活様式」。日常の習慣や暮らし方を指します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p007:qlifestyle"
+      ]
+    },
+    {
+      "passageId": "marine",
+      "prompt": "Vocabulary Day 06 · Words 31–45: complete mar___. Enter the missing letters.",
+      "word": "marine",
+      "prefix": "mar",
+      "answer": "正解：ine → marine。学習語：marine。marineは「海の・海洋の」。海に生息する動物を修飾します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p007:qmarine"
+      ]
+    },
+    {
+      "passageId": "mission",
+      "prompt": "Vocabulary Day 06 · Words 31–45: complete mis____. Enter the missing letters.",
+      "word": "mission",
+      "prefix": "mis",
+      "answer": "正解：sion → mission。学習語：mission。missionは「任務」。チームに与えられた目的・仕事です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p007:qmission"
+      ]
+    },
+    {
+      "passageId": "occasional",
+      "prompt": "Vocabulary Day 06 · Words 31–45: complete occ_______. Enter the missing letters.",
+      "word": "occasional",
+      "prefix": "occ",
+      "answer": "正解：asional → occasional。学習語：occasional。occasionalは「時折の」。雨が毎日ではなく、たまに降ることを示します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p007:qoccasional"
+      ]
+    },
+    {
+      "passageId": "outrage",
+      "prompt": "Vocabulary Day 06 · Words 31–45: complete out____. Enter the missing letters.",
+      "word": "outrage",
+      "prefix": "out",
+      "answer": "正解：rage → outrage。学習語：outrage。outrageは「激怒・憤り」。強い怒りが広がったことです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p007:qoutrage"
+      ]
+    },
+    {
+      "passageId": "plate",
+      "prompt": "Vocabulary Day 06 · Words 31–45: complete pl___. Enter the missing letters.",
+      "word": "plate",
+      "prefix": "pl",
+      "answer": "正解：ate → plate。学習語：plate。plateは「皿」。食べ物を載せて運ぶ物です。原本には板という意味も載っています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p007:qplate"
+      ]
+    },
+    {
+      "passageId": "profoundly",
+      "prompt": "Vocabulary Day 06 · Words 31–45: complete pro_______. Enter the missing letters.",
+      "word": "profoundly",
+      "prefix": "pro",
+      "answer": "正解：foundly → profoundly。学習語：profoundly。profoundlyは「深く・大きく」。考え方の変化の深さを表す副詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p007:qprofoundly"
+      ]
+    },
+    {
+      "passageId": "region",
+      "prompt": "Vocabulary Day 06 · Words 31–45: complete reg___. Enter the missing letters.",
+      "word": "region",
+      "prefix": "reg",
+      "answer": "正解：ion → region。学習語：region。regionは「地域」。国全体のうち、沿岸の一定の範囲です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p007:qregion"
+      ]
+    }
+  ]
+}

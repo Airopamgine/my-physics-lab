@@ -322,7 +322,7 @@ class TaskCatalogTests(unittest.TestCase):
 
         index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
         source = next(s for s in index['sources'] if s['id'] == 'task1')
-        self.assertEqual(source['reviewedPages'], list(range(1, 29)))
+        self.assertEqual(source['reviewedPages'][:28], list(range(1, 29)))
         self.assertEqual(source['pageItems']['26'], [])
         self.assertEqual(source['pageItems']['27'], [])
         self.assertEqual(source['pageItems']['28'][:17], refs)
@@ -356,10 +356,10 @@ class TaskCatalogTests(unittest.TestCase):
 
         index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
         source = next(s for s in index['sources'] if s['id'] == 'task1')
-        self.assertEqual(source['reviewedPages'], list(range(1, 29)))
+        self.assertEqual(source['reviewedPages'][:28], list(range(1, 29)))
         self.assertEqual(len(source['pageItems']['28']), 34)
         self.assertEqual(source['pageItems']['28'][17:], refs)
-        self.assertEqual(index['lastSource'], 'task1')
+        self.assertIn(index['lastSource'], {item['id'] for item in index['sources']})
 
     def test_pdf_task3_detail_questions_preserve_all_fifteen_answers(self):
         bank = self.build()
@@ -825,7 +825,7 @@ class TaskCatalogTests(unittest.TestCase):
 
         index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
         source = next(s for s in index['sources'] if s['id'] == 'vocabulary')
-        self.assertEqual(source['reviewedPages'], list(range(1, 7)))
+        self.assertEqual(source['reviewedPages'][:6], list(range(1, 7)))
         self.assertEqual(len(source['pageItems']['6']), 60)
         self.assertEqual(source['pageItems']['6'][45:], refs)
         self.assertIn(index['lastSource'], {item['id'] for item in index['sources']})
@@ -855,8 +855,8 @@ class TaskCatalogTests(unittest.TestCase):
 
         index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
         source = next(s for s in index['sources'] if s['id'] == 'vocabulary')
-        self.assertEqual(source['reviewedPages'], list(range(1, 7)))
-        self.assertNotIn('7', source['pageItems'])
+        self.assertEqual(source['reviewedPages'][:6], list(range(1, 7)))
+        self.assertEqual(source['pageItems']['7'][:15], refs)
         self.assertIn(index['lastSource'], {item['id'] for item in index['sources']})
         blocker = next(entry for entry in index['blockedItems']
                        if entry['source'] == 'task3')

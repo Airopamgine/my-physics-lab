@@ -1,0 +1,114 @@
+{
+  "id": "pdf-task1-p038-social-norms",
+  "title": "Social Science Test · Social Norms",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 38ページ／冊子66ページ · Test 01–10",
+  "verificationNote": "原本画像で本文・初出文字・空欄長・設問順を照合済みです。出版社の解答p.410は未提供のため、正答は文法・語法・文脈に基づく編集解答です。同じ本文の全10空欄を提出するまで、解答・解説は表示されません。",
+  "passages": {
+    "social-norms": "Social norms represent shared understandings about acceptable conduct within communities. They gu___ the beha____ of mem____ of soci_____ and main____ order wit___ a gr___. For inst____, it i_ a com___ expectation in many places to stand in line at a bus stop, which guarantees fairness among waiting passengers. Norms shape how people interact and make choices every day. By following social norms, people feel more connected, forming stronger social bonds with others."
+  },
+  "questions": [
+    {
+      "passageId": "social-norms",
+      "prompt": "Question 01: complete gu___. Enter the missing letters.",
+      "word": "guide",
+      "prefix": "gu",
+      "answer": "正解：ide → guide。guideは「導く・方向付ける」。Theyは社会規範を受け、行動への働きを説明します。",
+      "sourceRefs": [
+        "pdf:task1:p038:q01-gap1"
+      ]
+    },
+    {
+      "passageId": "social-norms",
+      "prompt": "Question 02: complete beha____. Enter the missing letters.",
+      "word": "behavior",
+      "prefix": "beha",
+      "answer": "正解：vior → behavior。the behavior of ...は「〜の行動」。社会規範が方向付ける対象です。",
+      "sourceRefs": [
+        "pdf:task1:p038:q02-gap1"
+      ]
+    },
+    {
+      "passageId": "social-norms",
+      "prompt": "Question 03: complete mem____. Enter the missing letters.",
+      "word": "members",
+      "prefix": "mem",
+      "answer": "正解：bers → members。members of societiesは「社会の構成員」。複数の人々を指します。",
+      "sourceRefs": [
+        "pdf:task1:p038:q03-gap1"
+      ]
+    },
+    {
+      "passageId": "social-norms",
+      "prompt": "Question 04: complete soci_____. Enter the missing letters.",
+      "word": "societies",
+      "prefix": "soci",
+      "answer": "正解：eties → societies。societiesは「社会」。前文のcommunitiesに対応する複数形です。",
+      "sourceRefs": [
+        "pdf:task1:p038:q04-gap1"
+      ]
+    },
+    {
+      "passageId": "social-norms",
+      "prompt": "Question 05: complete main____. Enter the missing letters.",
+      "word": "maintain",
+      "prefix": "main",
+      "answer": "正解：tain → maintain。guide ... and maintain orderと、規範の二つの働きを並べます。maintainは「維持する」。",
+      "sourceRefs": [
+        "pdf:task1:p038:q05-gap1"
+      ]
+    },
+    {
+      "passageId": "social-norms",
+      "prompt": "Question 06: complete wit___. Enter the missing letters.",
+      "word": "within",
+      "prefix": "wit",
+      "answer": "正解：hin → within。within a groupは「集団内で」。秩序が保たれる範囲を表します。",
+      "sourceRefs": [
+        "pdf:task1:p038:q06-gap1"
+      ]
+    },
+    {
+      "passageId": "social-norms",
+      "prompt": "Question 07: complete gr___. Enter the missing letters.",
+      "word": "group",
+      "prefix": "gr",
+      "answer": "正解：oup → group。a groupは「集団」。aに続く単数名詞です。",
+      "sourceRefs": [
+        "pdf:task1:p038:q07-gap1"
+      ]
+    },
+    {
+      "passageId": "social-norms",
+      "prompt": "Question 08: complete inst____. Enter the missing letters.",
+      "word": "instance",
+      "prefix": "inst",
+      "answer": "正解：ance → instance。For instanceは「例えば」。バス停で列に並ぶ具体例を導きます。",
+      "sourceRefs": [
+        "pdf:task1:p038:q08-gap1"
+      ]
+    },
+    {
+      "passageId": "social-norms",
+      "prompt": "Question 09: complete i_. Enter the missing letters.",
+      "word": "is",
+      "prefix": "i",
+      "answer": "正解：s → is。it is a ... expectationの形です。itを受ける単数のbe動詞です。",
+      "sourceRefs": [
+        "pdf:task1:p038:q09-gap1"
+      ]
+    },
+    {
+      "passageId": "social-norms",
+      "prompt": "Question 10: complete com___. Enter the missing letters.",
+      "word": "common",
+      "prefix": "com",
+      "answer": "正解：mon → common。a common expectationは「一般的な期待」。多くの場所で列に並ぶことが当然視される文脈です。",
+      "sourceRefs": [
+        "pdf:task1:p038:q10-gap1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "id": "pdf-task1-p045-ecology",
+  "title": "Ecology · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 45ページ／冊子73ページ · Ecology",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "apex-predator": "An apex pre_____ occupies the top of a food chain and has no regular natural predators as an adult.",
+    "biodiversity": "The variety of genes, species, and ecosystems in a region contributes to its bio_________.",
+    "camouflage": "The insect's leaf-like appearance provides cam_______ that makes it difficult to see against vegetation.",
+    "carnivore": "An animal that feeds mainly on other animals is a car______.",
+    "decomposer": "A dec_______ breaks down dead organic material and helps recycle nutrients.",
+    "ecological-niche": "A species' ecological ni___ includes its resource use and role within its environment.",
+    "ecosystem": "An eco______ includes living organisms and the nonliving environment with which they interact.",
+    "endemic-species": "An endemic spe____ is naturally restricted to a particular geographic area.",
+    "food-web": "The interconnected feeding relationships in a community form a food w__.",
+    "greenhouse-effect": "The greenhouse eff___ warms Earth's surface as atmospheric gases absorb and emit infrared radiation.",
+    "habitat": "The wetland is the bird's hab____, providing the place and conditions in which it lives.",
+    "herbivore": "An animal that feeds mainly on plants is a her______.",
+    "homing-instinct": "A homing ins_____ helps the animal return to its familiar home area after traveling away.",
+    "indicator-species": "An indicator spe____ provides evidence about environmental conditions through its presence or absence.",
+    "invasive-species": "An invasive spe____ spreads outside its native range and causes ecological or other harm.",
+    "keystone-species": "A keystone spe____ has an ecological effect disproportionately large relative to its abundance.",
+    "mimicry": "An edible insect resembling a toxic species benefits from mim____.",
+    "mutualism": "A relationship in which both participating species benefit is mut______.",
+    "nocturnal-animal": "A nocturnal ani___ is active mainly at night rather than during daylight.",
+    "omnivore": "An animal that regularly eats both plants and other animals is an omn_____.",
+    "parasitism": "A relationship in which one organism benefits while harming its host is par_______.",
+    "predator": "A pre_____ captures and feeds on other animals called prey.",
+    "scavenging": "Feeding on animals that are already dead is sca_______.",
+    "species-diversity": "Species div______ considers the variety of species and their relative abundances in a community."
+  },
+  "questions": [
+    {
+      "passageId": "apex-predator",
+      "prompt": "Ecology: complete pre_____. Enter the missing letters.",
+      "word": "predator",
+      "prefix": "pre",
+      "answer": "正解：dator → predator。学習語：apex predator。apex predatorは「頂点捕食者」。成体では通常の天敵を持たず、食物連鎖の頂点に位置する捕食者です。",
+      "sourceRefs": [
+        "pdf:task1:p045:qapex-predator"
+      ]
+    },
+    {
+      "passageId": "biodiversity",
+      "prompt": "Ecology: complete bio_________. Enter the missing letters.",
+      "word": "biodiversity",
+      "prefix": "bio",
+      "answer": "正解：diversity → biodiversity。学習語：biodiversity。biodiversityは「生物多様性」。遺伝子・種・生態系などの多様さを含みます。",
+      "sourceRefs": [
+        "pdf:task1:p045:qbiodiversity"
+      ]
+    },
+    {
+      "passageId": "camouflage",
+      "prompt": "Ecology: complete cam_______. Enter the missing letters.",
+      "word": "camouflage",
+      "prefix": "cam",
+      "answer": "正解：ouflage → camouflage。学習語：camouflage。camouflageは「カモフラージュ・保護色」。背景と似た姿で見つかりにくくなります。",
+      "sourceRefs": [
+        "pdf:task1:p045:qcamouflage"
+      ]
+    },
+    {
+      "passageId": "carnivore",
+      "prompt": "Ecology: complete car______. Enter the missing letters.",
+      "word": "carnivore",
+      "prefix": "car",
+      "answer": "正解：nivore → carnivore。学習語：carnivore。carnivoreは「肉食動物」。主として他の動物を食べる動物です。",
+      "sourceRefs": [
+        "pdf:task1:p045:qcarnivore"
+      ]
+    },
+    {
+      "passageId": "decomposer",
+      "prompt": "Ecology: complete dec_______. Enter the missing letters.",
+      "word": "decomposer",
+      "prefix": "dec",
+      "answer": "正解：omposer → decomposer。学習語：decomposer。decomposerは「分解者」。死んだ有機物を分解し、栄養分の循環に関わります。",
+      "sourceRefs": [
+        "pdf:task1:p045:qdecomposer"
+      ]
+    },
+    {
+      "passageId": "ecological-niche",
+      "prompt": "Ecology: complete ni___. Enter the missing letters.",
+      "word": "niche",
+      "prefix": "ni",
+      "answer": "正解：che → niche。学習語：ecological niche。ecological nicheは「生態的地位」。資源利用や環境内の役割を指し、単なる住所のような生息場所とは区別します。",
+      "sourceRefs": [
+        "pdf:task1:p045:qecological-niche"
+      ]
+    },
+    {
+      "passageId": "ecosystem",
+      "prompt": "Ecology: complete eco______. Enter the missing letters.",
+      "word": "ecosystem",
+      "prefix": "eco",
+      "answer": "正解：system → ecosystem。学習語：ecosystem。ecosystemは「生態系」。生物と、それらが相互作用する非生物的な環境を含みます。",
+      "sourceRefs": [
+        "pdf:task1:p045:qecosystem"
+      ]
+    },
+    {
+      "passageId": "endemic-species",
+      "prompt": "Ecology: complete spe____. Enter the missing letters.",
+      "word": "species",
+      "prefix": "spe",
+      "answer": "正解：cies → species。学習語：endemic species。endemic speciesは「固有種」。自然の分布が特定の地域に限られる種です。",
+      "sourceRefs": [
+        "pdf:task1:p045:qendemic-species"
+      ]
+    },
+    {
+      "passageId": "food-web",
+      "prompt": "Ecology: complete w__. Enter the missing letters.",
+      "word": "web",
+      "prefix": "w",
+      "answer": "正解：eb → web。学習語：food web。food webは「食物網」。食べる・食べられる関係が複数の経路としてつながる網です。",
+      "sourceRefs": [
+        "pdf:task1:p045:qfood-web"
+      ]
+    },
+    {
+      "passageId": "greenhouse-effect",
+      "prompt": "Ecology: complete eff___. Enter the missing letters.",
+      "word": "effect",
+      "prefix": "eff",
+      "answer": "正解：ect → effect。学習語：greenhouse effect。greenhouse effectは「温室効果」。大気中の気体の赤外線の吸収・放射が地表を暖める働きです。自然にも存在する現象です。",
+      "sourceRefs": [
+        "pdf:task1:p045:qgreenhouse-effect"
+      ]
+    },
+    {
+      "passageId": "habitat",
+      "prompt": "Ecology: complete hab____. Enter the missing letters.",
+      "word": "habitat",
+      "prefix": "hab",
+      "answer": "正解：itat → habitat。学習語：habitat。habitatは「生息地」。その生物が暮らす場所と環境です。",
+      "sourceRefs": [
+        "pdf:task1:p045:qhabitat"
+      ]
+    },
+    {
+      "passageId": "herbivore",
+      "prompt": "Ecology: complete her______. Enter the missing letters.",
+      "word": "herbivore",
+      "prefix": "her",
+      "answer": "正解：bivore → herbivore。学習語：herbivore。herbivoreは「草食動物」。主として植物を食べる動物です。",
+      "sourceRefs": [
+        "pdf:task1:p045:qherbivore"
+      ]
+    },
+    {
+      "passageId": "homing-instinct",
+      "prompt": "Ecology: complete ins_____. Enter the missing letters.",
+      "word": "instinct",
+      "prefix": "ins",
+      "answer": "正解：tinct → instinct。学習語：homing instinct。homing instinctは「帰巣本能」。離れた場所から、なじみのある巣や生活場所へ戻る傾向です。",
+      "sourceRefs": [
+        "pdf:task1:p045:qhoming-instinct"
+      ]
+    },
+    {
+      "passageId": "indicator-species",
+      "prompt": "Ecology: complete spe____. Enter the missing letters.",
+      "word": "species",
+      "prefix": "spe",
+      "answer": "正解：cies → species。学習語：indicator species。indicator speciesは「指標種」。出現や不在などから環境の状態を知る手掛かりになる種です。",
+      "sourceRefs": [
+        "pdf:task1:p045:qindicator-species"
+      ]
+    },
+    {
+      "passageId": "invasive-species",
+      "prompt": "Ecology: complete spe____. Enter the missing letters.",
+      "word": "species",
+      "prefix": "spe",
+      "answer": "正解：cies → species。学習語：invasive species。invasive speciesは「侵略的外来種」。本来の分布外で広がり、害を生じさせる種です。すべての外来種が侵略的とは限りません。",
+      "sourceRefs": [
+        "pdf:task1:p045:qinvasive-species"
+      ]
+    },
+    {
+      "passageId": "keystone-species",
+      "prompt": "Ecology: complete spe____. Enter the missing letters.",
+      "word": "species",
+      "prefix": "spe",
+      "answer": "正解：cies → species。学習語：keystone species。keystone speciesは「キーストーン種」。その量・数に比べて生態系への影響が大きい種です。",
+      "sourceRefs": [
+        "pdf:task1:p045:qkeystone-species"
+      ]
+    },
+    {
+      "passageId": "mimicry",
+      "prompt": "Ecology: complete mim____. Enter the missing letters.",
+      "word": "mimicry",
+      "prefix": "mim",
+      "answer": "正解：icry → mimicry。学習語：mimicry。mimicryは「擬態」。この例では食べられる昆虫が有毒な種に似ることで、捕食を避けやすくなります。",
+      "sourceRefs": [
+        "pdf:task1:p045:qmimicry"
+      ]
+    },
+    {
+      "passageId": "mutualism",
+      "prompt": "Ecology: complete mut______. Enter the missing letters.",
+      "word": "mutualism",
+      "prefix": "mut",
+      "answer": "正解：ualism → mutualism。学習語：mutualism。mutualismは「相利共生」。関係する双方の種が利益を得る関係です。",
+      "sourceRefs": [
+        "pdf:task1:p045:qmutualism"
+      ]
+    },
+    {
+      "passageId": "nocturnal-animal",
+      "prompt": "Ecology: complete ani___. Enter the missing letters.",
+      "word": "animal",
+      "prefix": "ani",
+      "answer": "正解：mal → animal。学習語：nocturnal animal。nocturnal animalは「夜行性動物」。主に夜に活動する動物です。",
+      "sourceRefs": [
+        "pdf:task1:p045:qnocturnal-animal"
+      ]
+    },
+    {
+      "passageId": "omnivore",
+      "prompt": "Ecology: complete omn_____. Enter the missing letters.",
+      "word": "omnivore",
+      "prefix": "omn",
+      "answer": "正解：ivore → omnivore。学習語：omnivore。omnivoreは「雑食動物」。植物と動物の両方を食べます。",
+      "sourceRefs": [
+        "pdf:task1:p045:qomnivore"
+      ]
+    },
+    {
+      "passageId": "parasitism",
+      "prompt": "Ecology: complete par_______. Enter the missing letters.",
+      "word": "parasitism",
+      "prefix": "par",
+      "answer": "正解：asitism → parasitism。学習語：parasitism。parasitismは「寄生」。一方が利益を得て、宿主側に害が生じる関係です。",
+      "sourceRefs": [
+        "pdf:task1:p045:qparasitism"
+      ]
+    },
+    {
+      "passageId": "predator",
+      "prompt": "Ecology: complete pre_____. Enter the missing letters.",
+      "word": "predator",
+      "prefix": "pre",
+      "answer": "正解：dator → predator。学習語：predator。predatorは「捕食者」。獲物である他の動物を捕らえて食べます。",
+      "sourceRefs": [
+        "pdf:task1:p045:qpredator"
+      ]
+    },
+    {
+      "passageId": "scavenging",
+      "prompt": "Ecology: complete sca_______. Enter the missing letters.",
+      "word": "scavenging",
+      "prefix": "sca",
+      "answer": "正解：venging → scavenging。学習語：scavenging。scavengingは「腐肉食」。既に死んでいる動物を食べる行動です。",
+      "sourceRefs": [
+        "pdf:task1:p045:qscavenging"
+      ]
+    },
+    {
+      "passageId": "species-diversity",
+      "prompt": "Ecology: complete div______. Enter the missing letters.",
+      "word": "diversity",
+      "prefix": "div",
+      "answer": "正解：ersity → diversity。学習語：species diversity。species diversityは「種多様性」。種の種類の多さに加え、それぞれの相対的な多さも考慮します。",
+      "sourceRefs": [
+        "pdf:task1:p045:qspecies-diversity"
+      ]
+    }
+  ]
+}

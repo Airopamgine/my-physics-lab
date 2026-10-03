@@ -1,0 +1,145 @@
+{
+  "id": "pdf-task1-p033-music",
+  "title": "Music · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 33ページ／冊子61ページ · Music",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "chamber-music": "The quartet performed chamber mu___ for a small group of instruments, with one player per part.",
+    "chord": "The pianist played a ch___ by sounding several notes together.",
+    "composer": "The com_____ wrote the score that the orchestra later performed.",
+    "concerto": "The con_____ features a solo violin accompanied by an orchestra.",
+    "conductor": "The con______ used hand movements to coordinate the orchestra's tempo and entrances.",
+    "harmony": "The passage's har____ comes from the way different notes sound together.",
+    "melody": "The flute carries the mel___, a recognizable sequence of musical notes.",
+    "orchestra": "The orc______ includes strings, woodwinds, brass, and percussion instruments.",
+    "performer": "The per______ interpreted the written score during the live concert.",
+    "rhythm": "The drummer established the rhy___ through a repeated pattern of beats.",
+    "symphony": "The orchestra played a four-movement sym_____ without a featured soloist.",
+    "time-signature": "The time sig______ at the beginning of the score indicates how beats are grouped in each measure."
+  },
+  "questions": [
+    {
+      "passageId": "chamber-music",
+      "prompt": "Music: complete mu___. Enter the missing letters.",
+      "word": "music",
+      "prefix": "mu",
+      "answer": "正解：sic → music。学習語：chamber music。chamber musicは「室内楽」。少人数の楽器編成で各声部を一人ずつ担当する演奏です。",
+      "sourceRefs": [
+        "pdf:task1:p033:qchamber-music"
+      ]
+    },
+    {
+      "passageId": "chord",
+      "prompt": "Music: complete ch___. Enter the missing letters.",
+      "word": "chord",
+      "prefix": "ch",
+      "answer": "正解：ord → chord。学習語：chord。chordは「和音」。複数の音を同時に鳴らしています。",
+      "sourceRefs": [
+        "pdf:task1:p033:qchord"
+      ]
+    },
+    {
+      "passageId": "composer",
+      "prompt": "Music: complete com_____. Enter the missing letters.",
+      "word": "composer",
+      "prefix": "com",
+      "answer": "正解：poser → composer。学習語：composer。composerは「作曲家」。オーケストラが演奏する曲を書いた人です。",
+      "sourceRefs": [
+        "pdf:task1:p033:qcomposer"
+      ]
+    },
+    {
+      "passageId": "concerto",
+      "prompt": "Music: complete con_____. Enter the missing letters.",
+      "word": "concerto",
+      "prefix": "con",
+      "answer": "正解：certo → concerto。学習語：concerto。concertoは「協奏曲」。独奏楽器とオーケストラを組み合わせています。",
+      "sourceRefs": [
+        "pdf:task1:p033:qconcerto"
+      ]
+    },
+    {
+      "passageId": "conductor",
+      "prompt": "Music: complete con______. Enter the missing letters.",
+      "word": "conductor",
+      "prefix": "con",
+      "answer": "正解：ductor → conductor。学習語：conductor。conductorは「指揮者」。テンポや各奏者の入りを手の動きで統率します。",
+      "sourceRefs": [
+        "pdf:task1:p033:qconductor"
+      ]
+    },
+    {
+      "passageId": "harmony",
+      "prompt": "Music: complete har____. Enter the missing letters.",
+      "word": "harmony",
+      "prefix": "har",
+      "answer": "正解：mony → harmony。学習語：harmony。harmonyは音楽の「和声」。異なる音を組み合わせた響き・関係を指します。",
+      "sourceRefs": [
+        "pdf:task1:p033:qharmony"
+      ]
+    },
+    {
+      "passageId": "melody",
+      "prompt": "Music: complete mel___. Enter the missing letters.",
+      "word": "melody",
+      "prefix": "mel",
+      "answer": "正解：ody → melody。学習語：melody。melodyは「旋律」。連続する音が作る、聞き取れる曲のまとまりです。",
+      "sourceRefs": [
+        "pdf:task1:p033:qmelody"
+      ]
+    },
+    {
+      "passageId": "orchestra",
+      "prompt": "Music: complete orc______. Enter the missing letters.",
+      "word": "orchestra",
+      "prefix": "orc",
+      "answer": "正解：hestra → orchestra。学習語：orchestra。orchestraは「管弦楽団」。弦・木管・金管・打楽器からなる編成です。",
+      "sourceRefs": [
+        "pdf:task1:p033:qorchestra"
+      ]
+    },
+    {
+      "passageId": "performer",
+      "prompt": "Music: complete per______. Enter the missing letters.",
+      "word": "performer",
+      "prefix": "per",
+      "answer": "正解：former → performer。学習語：performer。performerは「演奏者」。作曲済みの楽譜を実際の舞台で演奏しています。",
+      "sourceRefs": [
+        "pdf:task1:p033:qperformer"
+      ]
+    },
+    {
+      "passageId": "rhythm",
+      "prompt": "Music: complete rhy___. Enter the missing letters.",
+      "word": "rhythm",
+      "prefix": "rhy",
+      "answer": "正解：thm → rhythm。学習語：rhythm。rhythmは「リズム・律動」。反復される拍の配列が根拠です。",
+      "sourceRefs": [
+        "pdf:task1:p033:qrhythm"
+      ]
+    },
+    {
+      "passageId": "symphony",
+      "prompt": "Music: complete sym_____. Enter the missing letters.",
+      "word": "symphony",
+      "prefix": "sym",
+      "answer": "正解：phony → symphony。学習語：symphony。symphonyは「交響曲」。一般に複数楽章からなるオーケストラの大規模な作品です。",
+      "sourceRefs": [
+        "pdf:task1:p033:qsymphony"
+      ]
+    },
+    {
+      "passageId": "time-signature",
+      "prompt": "Music: complete sig______. Enter the missing letters.",
+      "word": "signature",
+      "prefix": "sig",
+      "answer": "正解：nature → signature。学習語：time signature。time signatureは「拍子記号」。各小節の拍のまとまり方を示す記号です。",
+      "sourceRefs": [
+        "pdf:task1:p033:qtime-signature"
+      ]
+    }
+  ]
+}

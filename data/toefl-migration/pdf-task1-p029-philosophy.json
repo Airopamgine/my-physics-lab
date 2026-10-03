@@ -1,0 +1,145 @@
+{
+  "id": "pdf-task1-p029-philosophy",
+  "title": "Philosophy · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 29ページ／冊子57ページ · Philosophy",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "deduction": "Reasoning from a general rule to a conclusion about a particular case is ded______.",
+    "determinism": "The philosopher defended det________, the view that events are fixed by prior causes and natural laws.",
+    "fallacy": "The argument contains a fal____: it attacks the speaker instead of addressing the claim.",
+    "free-will": "The debate concerns free wi__ and whether people can genuinely choose among alternatives.",
+    "human-nature": "The essay asks whether cooperation or competition is more fundamental to human nat___.",
+    "idealism": "The thinker defended ide_____, holding that mind or ideas are fundamental to reality.",
+    "induction": "Inferring a general pattern from many particular observations is ind______.",
+    "metaphysics": "Questions about existence, causation, and the nature of reality belong to met________.",
+    "moral-relativism": "The position called moral rel_______ holds that moral judgments depend on a cultural or other framework.",
+    "objectivity": "The investigator sought obj________ by judging the evidence independently of personal preferences.",
+    "skepticism": "Philosophical ske_______ questions whether a claimed source of knowledge can provide certainty.",
+    "utilitarianism": "Under uti___________, an action is judged by its consequences for overall well-being."
+  },
+  "questions": [
+    {
+      "passageId": "deduction",
+      "prompt": "Philosophy: complete ded______. Enter the missing letters.",
+      "word": "deduction",
+      "prefix": "ded",
+      "answer": "正解：uction → deduction。学習語：deduction。deductionは「演繹」。一般的な前提から個別の結論を導く推論です。",
+      "sourceRefs": [
+        "pdf:task1:p029:qdeduction"
+      ]
+    },
+    {
+      "passageId": "determinism",
+      "prompt": "Philosophy: complete det________. Enter the missing letters.",
+      "word": "determinism",
+      "prefix": "det",
+      "answer": "正解：erminism → determinism。学習語：determinism。determinismは「決定論」。出来事が先行原因と法則によって定まるという立場です。",
+      "sourceRefs": [
+        "pdf:task1:p029:qdeterminism"
+      ]
+    },
+    {
+      "passageId": "fallacy",
+      "prompt": "Philosophy: complete fal____. Enter the missing letters.",
+      "word": "fallacy",
+      "prefix": "fal",
+      "answer": "正解：lacy → fallacy。学習語：fallacy。fallacyは「論理的誤り」。主張への反論を人物攻撃で置き換える誤りです。",
+      "sourceRefs": [
+        "pdf:task1:p029:qfallacy"
+      ]
+    },
+    {
+      "passageId": "free-will",
+      "prompt": "Philosophy: complete wi__. Enter the missing letters.",
+      "word": "will",
+      "prefix": "wi",
+      "answer": "正解：ll → will。学習語：free will。free willは「自由意志」。人が選択肢の中から自ら選べるかという論点です。",
+      "sourceRefs": [
+        "pdf:task1:p029:qfree-will"
+      ]
+    },
+    {
+      "passageId": "human-nature",
+      "prompt": "Philosophy: complete nat___. Enter the missing letters.",
+      "word": "nature",
+      "prefix": "nat",
+      "answer": "正解：ure → nature。学習語：human nature。human natureは「人間の本性」。人間に基本的な性質を問う文脈です。",
+      "sourceRefs": [
+        "pdf:task1:p029:qhuman-nature"
+      ]
+    },
+    {
+      "passageId": "idealism",
+      "prompt": "Philosophy: complete ide_____. Enter the missing letters.",
+      "word": "idealism",
+      "prefix": "ide",
+      "answer": "正解：alism → idealism。学習語：idealism。idealismは哲学の「観念論」。実在の根本に精神・観念を置く立場です。日常語の理想主義とは区別します。",
+      "sourceRefs": [
+        "pdf:task1:p029:qidealism"
+      ]
+    },
+    {
+      "passageId": "induction",
+      "prompt": "Philosophy: complete ind______. Enter the missing letters.",
+      "word": "induction",
+      "prefix": "ind",
+      "answer": "正解：uction → induction。学習語：induction。inductionは「帰納」。個々の観察から一般的な傾向を推論します。演繹と異なり結論は必ずしも確実ではありません。",
+      "sourceRefs": [
+        "pdf:task1:p029:qinduction"
+      ]
+    },
+    {
+      "passageId": "metaphysics",
+      "prompt": "Philosophy: complete met________. Enter the missing letters.",
+      "word": "metaphysics",
+      "prefix": "met",
+      "answer": "正解：aphysics → metaphysics。学習語：metaphysics。metaphysicsは「形而上学」。存在・原因・実在の根本的な性質を扱います。",
+      "sourceRefs": [
+        "pdf:task1:p029:qmetaphysics"
+      ]
+    },
+    {
+      "passageId": "moral-relativism",
+      "prompt": "Philosophy: complete rel_______. Enter the missing letters.",
+      "word": "relativism",
+      "prefix": "rel",
+      "answer": "正解：ativism → relativism。学習語：moral relativism。moral relativismは「道徳的相対主義」。道徳判断が文化などの枠組みに依存する立場です。",
+      "sourceRefs": [
+        "pdf:task1:p029:qmoral-relativism"
+      ]
+    },
+    {
+      "passageId": "objectivity",
+      "prompt": "Philosophy: complete obj________. Enter the missing letters.",
+      "word": "objectivity",
+      "prefix": "obj",
+      "answer": "正解：ectivity → objectivity。学習語：objectivity。objectivityは「客観性」。個人の好みから独立して証拠を判断することです。",
+      "sourceRefs": [
+        "pdf:task1:p029:qobjectivity"
+      ]
+    },
+    {
+      "passageId": "skepticism",
+      "prompt": "Philosophy: complete ske_______. Enter the missing letters.",
+      "word": "skepticism",
+      "prefix": "ske",
+      "answer": "正解：pticism → skepticism。学習語：skepticism。skepticismは「懐疑主義」。知識の根拠や確実性を問い直す姿勢です。",
+      "sourceRefs": [
+        "pdf:task1:p029:qskepticism"
+      ]
+    },
+    {
+      "passageId": "utilitarianism",
+      "prompt": "Philosophy: complete uti___________. Enter the missing letters.",
+      "word": "utilitarianism",
+      "prefix": "uti",
+      "answer": "正解：litarianism → utilitarianism。学習語：utilitarianism。utilitarianismは「功利主義」。行為の結果が全体の幸福・福祉に及ぼす影響を重視します。",
+      "sourceRefs": [
+        "pdf:task1:p029:qutilitarianism"
+      ]
+    }
+  ]
+}

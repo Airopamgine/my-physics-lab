@@ -1,0 +1,145 @@
+{
+  "id": "pdf-task1-p033-architecture",
+  "title": "Architecture · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 33ページ／冊子61ページ · Architecture",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "arch": "The stone ar__ forms a curved support above the entrance.",
+    "balcony": "The apartment has a bal____ projecting from the upper floor, enclosed by a railing.",
+    "ceiling": "The lamp hangs from the cei____ above the room.",
+    "column": "A stone col___ supports the roof of the ancient building.",
+    "concrete": "The builder poured wet con_____ into molds, where it hardened into a strong structural material.",
+    "demolition": "The scheduled dem_______ will remove the unsafe building before construction begins.",
+    "insulation": "The wall's ins_______ reduces heat transfer between the building's interior and exterior.",
+    "monument": "The city erected a mon_____ to commemorate the people who founded it.",
+    "skyscraper": "The sky_______ rises far above neighboring buildings and contains many floors.",
+    "terrace": "The restaurant's outdoor ter____ provides a level area where diners can sit.",
+    "urban-planning": "Urban pla_____ coordinates land use, housing, and transport within a city.",
+    "ventilation": "Opening the windows improved ven________ by allowing fresh air to circulate through the room."
+  },
+  "questions": [
+    {
+      "passageId": "arch",
+      "prompt": "Architecture: complete ar__. Enter the missing letters.",
+      "word": "arch",
+      "prefix": "ar",
+      "answer": "正解：ch → arch。学習語：arch。archは「アーチ」。入口上部の曲線状の支持構造です。",
+      "sourceRefs": [
+        "pdf:task1:p033:qarch"
+      ]
+    },
+    {
+      "passageId": "balcony",
+      "prompt": "Architecture: complete bal____. Enter the missing letters.",
+      "word": "balcony",
+      "prefix": "bal",
+      "answer": "正解：cony → balcony。学習語：balcony。balconyは「バルコニー」。上階から張り出し手すりに囲まれた場所です。",
+      "sourceRefs": [
+        "pdf:task1:p033:qbalcony"
+      ]
+    },
+    {
+      "passageId": "ceiling",
+      "prompt": "Architecture: complete cei____. Enter the missing letters.",
+      "word": "ceiling",
+      "prefix": "cei",
+      "answer": "正解：ling → ceiling。学習語：ceiling。ceilingは「天井」。部屋の上面から照明が下がっています。",
+      "sourceRefs": [
+        "pdf:task1:p033:qceiling"
+      ]
+    },
+    {
+      "passageId": "column",
+      "prompt": "Architecture: complete col___. Enter the missing letters.",
+      "word": "column",
+      "prefix": "col",
+      "answer": "正解：umn → column。学習語：column。columnは建築の「柱」。屋根の荷重を支える部材です。",
+      "sourceRefs": [
+        "pdf:task1:p033:qcolumn"
+      ]
+    },
+    {
+      "passageId": "concrete",
+      "prompt": "Architecture: complete con_____. Enter the missing letters.",
+      "word": "concrete",
+      "prefix": "con",
+      "answer": "正解：crete → concrete。学習語：concrete。concreteは「コンクリート」。型に流し込んで硬化させる材料です。",
+      "sourceRefs": [
+        "pdf:task1:p033:qconcrete"
+      ]
+    },
+    {
+      "passageId": "demolition",
+      "prompt": "Architecture: complete dem_______. Enter the missing letters.",
+      "word": "demolition",
+      "prefix": "dem",
+      "answer": "正解：olition → demolition。学習語：demolition。demolitionは「建物の解体」。新築前に危険な既存建物を取り壊します。",
+      "sourceRefs": [
+        "pdf:task1:p033:qdemolition"
+      ]
+    },
+    {
+      "passageId": "insulation",
+      "prompt": "Architecture: complete ins_______. Enter the missing letters.",
+      "word": "insulation",
+      "prefix": "ins",
+      "answer": "正解：ulation → insulation。学習語：insulation。insulationは「断熱・断熱材」。建物の内外で熱が移動しにくくなることが根拠です。",
+      "sourceRefs": [
+        "pdf:task1:p033:qinsulation"
+      ]
+    },
+    {
+      "passageId": "monument",
+      "prompt": "Architecture: complete mon_____. Enter the missing letters.",
+      "word": "monument",
+      "prefix": "mon",
+      "answer": "正解：ument → monument。学習語：monument。monumentは「記念碑・記念建造物」。人々の功績を記念するために建てています。",
+      "sourceRefs": [
+        "pdf:task1:p033:qmonument"
+      ]
+    },
+    {
+      "passageId": "skyscraper",
+      "prompt": "Architecture: complete sky_______. Enter the missing letters.",
+      "word": "skyscraper",
+      "prefix": "sky",
+      "answer": "正解：scraper → skyscraper。学習語：skyscraper。skyscraperは「超高層建築」。周囲より非常に高く、多数の階を持つ建物です。",
+      "sourceRefs": [
+        "pdf:task1:p033:qskyscraper"
+      ]
+    },
+    {
+      "passageId": "terrace",
+      "prompt": "Architecture: complete ter____. Enter the missing letters.",
+      "word": "terrace",
+      "prefix": "ter",
+      "answer": "正解：race → terrace。学習語：terrace。terraceは「テラス」。屋外の平らな床面・空間を指します。",
+      "sourceRefs": [
+        "pdf:task1:p033:qterrace"
+      ]
+    },
+    {
+      "passageId": "urban-planning",
+      "prompt": "Architecture: complete pla_____. Enter the missing letters.",
+      "word": "planning",
+      "prefix": "pla",
+      "answer": "正解：nning → planning。学習語：urban planning。urban planningは「都市計画」。土地利用・住宅・交通を総合的に計画する活動です。",
+      "sourceRefs": [
+        "pdf:task1:p033:qurban-planning"
+      ]
+    },
+    {
+      "passageId": "ventilation",
+      "prompt": "Architecture: complete ven________. Enter the missing letters.",
+      "word": "ventilation",
+      "prefix": "ven",
+      "answer": "正解：tilation → ventilation。学習語：ventilation。ventilationは「換気」。新鮮な空気が室内を循環しています。",
+      "sourceRefs": [
+        "pdf:task1:p033:qventilation"
+      ]
+    }
+  ]
+}

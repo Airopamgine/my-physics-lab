@@ -1,0 +1,114 @@
+{
+  "id": "pdf-task1-p043-hail",
+  "title": "Physical Science Test · Hail",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 43ページ／冊子71ページ · Test 21–30",
+  "verificationNote": "原本画像で本文・初出文字・空欄長・設問順を照合済みです。出版社の解答p.411は未提供のため、正答は文法・語法・文脈に基づく編集解答です。同じ本文の全10空欄を提出するまで、解答・解説は表示されません。",
+  "passages": {
+    "hail": "Hail is a type of precipitation consisting of solid ice spheres, called hailstones, that fall from thunderstorm clouds. They fo__ when str___ updraft wi___ carry wa___ droplets hi__ into extr_____ cold reg____ of clo___. Hailstones fre___ and gr__ in size as they collide with and collect supercooled water until they become too heavy for the updrafts to support. They can vary in size, ranging from small pea-sized pellets to stones as large as golf balls or even larger, posing a major threat to crops and property."
+  },
+  "questions": [
+    {
+      "passageId": "hail",
+      "prompt": "Question 21: complete fo__. Enter the missing letters.",
+      "word": "form",
+      "prefix": "fo",
+      "answer": "正解：rm → form。They formは「それらは形成される」。Theyは前文のhailstonesを指します。",
+      "sourceRefs": [
+        "pdf:task1:p043:q21-gap1"
+      ]
+    },
+    {
+      "passageId": "hail",
+      "prompt": "Question 22: complete str___. Enter the missing letters.",
+      "word": "strong",
+      "prefix": "str",
+      "answer": "正解：ong → strong。strong updraft windsは「強い上昇気流」。水滴を持ち上げる風の強さです。",
+      "sourceRefs": [
+        "pdf:task1:p043:q22-gap1"
+      ]
+    },
+    {
+      "passageId": "hail",
+      "prompt": "Question 23: complete wi___. Enter the missing letters.",
+      "word": "winds",
+      "prefix": "wi",
+      "answer": "正解：nds → winds。windsは「風」。carryの主語となる複数名詞です。",
+      "sourceRefs": [
+        "pdf:task1:p043:q23-gap1"
+      ]
+    },
+    {
+      "passageId": "hail",
+      "prompt": "Question 24: complete wa___. Enter the missing letters.",
+      "word": "water",
+      "prefix": "wa",
+      "answer": "正解：ter → water。water dropletsは「水滴」。上昇気流が雲の高い部分へ運ぶものです。",
+      "sourceRefs": [
+        "pdf:task1:p043:q24-gap1"
+      ]
+    },
+    {
+      "passageId": "hail",
+      "prompt": "Question 25: complete hi__. Enter the missing letters.",
+      "word": "high",
+      "prefix": "hi",
+      "answer": "正解：gh → high。high into ...は「〜の高い所へ」。運ばれる位置を表します。",
+      "sourceRefs": [
+        "pdf:task1:p043:q25-gap1"
+      ]
+    },
+    {
+      "passageId": "hail",
+      "prompt": "Question 26: complete extr_____. Enter the missing letters.",
+      "word": "extremely",
+      "prefix": "extr",
+      "answer": "正解：emely → extremely。extremely coldは「非常に冷たい」。形容詞coldを強める副詞です。",
+      "sourceRefs": [
+        "pdf:task1:p043:q26-gap1"
+      ]
+    },
+    {
+      "passageId": "hail",
+      "prompt": "Question 27: complete reg____. Enter the missing letters.",
+      "word": "regions",
+      "prefix": "reg",
+      "answer": "正解：ions → regions。cold regions of cloudsは「雲の冷たい領域」。水滴が凍る場所です。",
+      "sourceRefs": [
+        "pdf:task1:p043:q27-gap1"
+      ]
+    },
+    {
+      "passageId": "hail",
+      "prompt": "Question 28: complete clo___. Enter the missing letters.",
+      "word": "clouds",
+      "prefix": "clo",
+      "answer": "正解：uds → clouds。cloudsは「雲」。前文のthunderstorm cloudsに対応します。",
+      "sourceRefs": [
+        "pdf:task1:p043:q28-gap1"
+      ]
+    },
+    {
+      "passageId": "hail",
+      "prompt": "Question 29: complete fre___. Enter the missing letters.",
+      "word": "freeze",
+      "prefix": "fre",
+      "answer": "正解：eze → freeze。freezeは「凍る」。過冷却の水を取り込み、氷となる過程です。",
+      "sourceRefs": [
+        "pdf:task1:p043:q29-gap1"
+      ]
+    },
+    {
+      "passageId": "hail",
+      "prompt": "Question 30: complete gr__. Enter the missing letters.",
+      "word": "grow",
+      "prefix": "gr",
+      "answer": "正解：ow → grow。grow in sizeは「大きくなる」。重くなり、気流で支えきれなくなるという後文につながります。",
+      "sourceRefs": [
+        "pdf:task1:p043:q30-gap1"
+      ]
+    }
+  ]
+}

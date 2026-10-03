@@ -1,0 +1,233 @@
+{
+  "id": "pdf-task1-p029-literature",
+  "title": "Literature · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 29ページ／冊子57ページ · Literature",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "allusion": "The poem makes an all_____ to a well-known Greek myth without naming it directly.",
+    "antagonist": "The ant_______ opposes the hero and creates the central conflict of the novel.",
+    "fiction": "The story is fic____: its characters and events were invented by the author.",
+    "flashback": "A fla______ interrupts the present action to show an event from the character's childhood.",
+    "foreshadowing": "The early mention of a cracked bridge is for__________ of the disaster in the final chapter.",
+    "genre": "The librarian classified the novel's ge___ as historical fiction.",
+    "literary-device": "The critic identified repetition as a literary dev___ used to emphasize the speaker's grief.",
+    "metaphor": "Calling the city a sleeping giant is a met_____ that compares it to a living creature.",
+    "narrative-structure": "The novel's narrative str______ alternates between two characters' viewpoints.",
+    "narrator": "The nar_____ tells the story in the first person but does not know every character's thoughts.",
+    "oxymoron": "The phrase deafening silence is an oxy_____ because it combines contradictory ideas.",
+    "personification": "Describing the wind as whispering to the trees is per____________ of a natural force.",
+    "poetry": "The collection of verse uses rhythm and imagery characteristic of poe___.",
+    "prose": "Unlike the poet's verse, the essay is written in pr___ with ordinary sentences and paragraphs.",
+    "protagonist": "The pro________ is the central character whose decisions drive the plot.",
+    "rhetorical-device": "A question asked for emphasis rather than an answer is a rhetorical dev___.",
+    "satire": "The novel uses sat___ to criticize political corruption through humor and exaggeration.",
+    "setting": "The story's set____ is a coastal village during the nineteenth century.",
+    "soliloquy": "Alone on stage, the character delivers a sol______ revealing private fears to the audience.",
+    "theme": "A central th___ of the novel is the tension between personal freedom and social duty."
+  },
+  "questions": [
+    {
+      "passageId": "allusion",
+      "prompt": "Literature: complete all_____. Enter the missing letters.",
+      "word": "allusion",
+      "prefix": "all",
+      "answer": "正解：usion → allusion。学習語：allusion。allusionは「暗示・間接的な言及」。神話の名前を出さずに読者へ連想させる点が根拠です。",
+      "sourceRefs": [
+        "pdf:task1:p029:qallusion"
+      ]
+    },
+    {
+      "passageId": "antagonist",
+      "prompt": "Literature: complete ant_______. Enter the missing letters.",
+      "word": "antagonist",
+      "prefix": "ant",
+      "answer": "正解：agonist → antagonist。学習語：antagonist。antagonistは主人公に対立する人物。物語の中心的な対立を生む役割です。",
+      "sourceRefs": [
+        "pdf:task1:p029:qantagonist"
+      ]
+    },
+    {
+      "passageId": "fiction",
+      "prompt": "Literature: complete fic____. Enter the missing letters.",
+      "word": "fiction",
+      "prefix": "fic",
+      "answer": "正解：tion → fiction。学習語：fiction。fictionは「創作・小説」。著者が人物や出来事を作ったことが根拠です。",
+      "sourceRefs": [
+        "pdf:task1:p029:qfiction"
+      ]
+    },
+    {
+      "passageId": "flashback",
+      "prompt": "Literature: complete fla______. Enter the missing letters.",
+      "word": "flashback",
+      "prefix": "fla",
+      "answer": "正解：shback → flashback。学習語：flashback。flashbackは過去の場面への回想。現在の展開から子供時代へ戻っています。",
+      "sourceRefs": [
+        "pdf:task1:p029:qflashback"
+      ]
+    },
+    {
+      "passageId": "foreshadowing",
+      "prompt": "Literature: complete for__________. Enter the missing letters.",
+      "word": "foreshadowing",
+      "prefix": "for",
+      "answer": "正解：eshadowing → foreshadowing。学習語：foreshadowing。foreshadowingは「伏線」。後の災害を序盤の描写で予告しています。",
+      "sourceRefs": [
+        "pdf:task1:p029:qforeshadowing"
+      ]
+    },
+    {
+      "passageId": "genre",
+      "prompt": "Literature: complete ge___. Enter the missing letters.",
+      "word": "genre",
+      "prefix": "ge",
+      "answer": "正解：nre → genre。学習語：genre。genreは作品の種類・ジャンル。歴史小説という分類が根拠です。",
+      "sourceRefs": [
+        "pdf:task1:p029:qgenre"
+      ]
+    },
+    {
+      "passageId": "literary-device",
+      "prompt": "Literature: complete dev___. Enter the missing letters.",
+      "word": "device",
+      "prefix": "dev",
+      "answer": "正解：ice → device。学習語：literary device。literary deviceは「文学的技法」。反復によって悲しみを強調しています。",
+      "sourceRefs": [
+        "pdf:task1:p029:qliterary-device"
+      ]
+    },
+    {
+      "passageId": "metaphor",
+      "prompt": "Literature: complete met_____. Enter the missing letters.",
+      "word": "metaphor",
+      "prefix": "met",
+      "answer": "正解：aphor → metaphor。学習語：metaphor。metaphorは「隠喩」。都市を巨人と直接呼んで別のものにたとえています。",
+      "sourceRefs": [
+        "pdf:task1:p029:qmetaphor"
+      ]
+    },
+    {
+      "passageId": "narrative-structure",
+      "prompt": "Literature: complete str______. Enter the missing letters.",
+      "word": "structure",
+      "prefix": "str",
+      "answer": "正解：ucture → structure。学習語：narrative structure。narrative structureは物語の構成。二人の視点を交互に配置する仕組みを述べています。",
+      "sourceRefs": [
+        "pdf:task1:p029:qnarrative-structure"
+      ]
+    },
+    {
+      "passageId": "narrator",
+      "prompt": "Literature: complete nar_____. Enter the missing letters.",
+      "word": "narrator",
+      "prefix": "nar",
+      "answer": "正解：rator → narrator。学習語：narrator。narratorは「語り手」。一人称で物語を伝える存在です。",
+      "sourceRefs": [
+        "pdf:task1:p029:qnarrator"
+      ]
+    },
+    {
+      "passageId": "oxymoron",
+      "prompt": "Literature: complete oxy_____. Enter the missing letters.",
+      "word": "oxymoron",
+      "prefix": "oxy",
+      "answer": "正解：moron → oxymoron。学習語：oxymoron。oxymoronは「撞着語法」。耳をつんざくことと沈黙という矛盾する語を結び付けています。",
+      "sourceRefs": [
+        "pdf:task1:p029:qoxymoron"
+      ]
+    },
+    {
+      "passageId": "personification",
+      "prompt": "Literature: complete per____________. Enter the missing letters.",
+      "word": "personification",
+      "prefix": "per",
+      "answer": "正解：sonification → personification。学習語：personification。personificationは「擬人法」。風に人間の囁く動作を与えています。",
+      "sourceRefs": [
+        "pdf:task1:p029:qpersonification"
+      ]
+    },
+    {
+      "passageId": "poetry",
+      "prompt": "Literature: complete poe___. Enter the missing letters.",
+      "word": "poetry",
+      "prefix": "poe",
+      "answer": "正解：try → poetry。学習語：poetry。poetryは「詩」。韻文・リズム・イメージという特徴が根拠です。",
+      "sourceRefs": [
+        "pdf:task1:p029:qpoetry"
+      ]
+    },
+    {
+      "passageId": "prose",
+      "prompt": "Literature: complete pr___. Enter the missing letters.",
+      "word": "prose",
+      "prefix": "pr",
+      "answer": "正解：ose → prose。学習語：prose。proseは「散文」。韻文と異なり通常の文と段落で書かれています。",
+      "sourceRefs": [
+        "pdf:task1:p029:qprose"
+      ]
+    },
+    {
+      "passageId": "protagonist",
+      "prompt": "Literature: complete pro________. Enter the missing letters.",
+      "word": "protagonist",
+      "prefix": "pro",
+      "answer": "正解：tagonist → protagonist。学習語：protagonist。protagonistは「主人公」。筋を動かす中心人物という説明です。",
+      "sourceRefs": [
+        "pdf:task1:p029:qprotagonist"
+      ]
+    },
+    {
+      "passageId": "rhetorical-device",
+      "prompt": "Literature: complete dev___. Enter the missing letters.",
+      "word": "device",
+      "prefix": "dev",
+      "answer": "正解：ice → device。学習語：rhetorical device。rhetorical deviceは「修辞技法」。答えを求めず強調のために用いる問いが例です。",
+      "sourceRefs": [
+        "pdf:task1:p029:qrhetorical-device"
+      ]
+    },
+    {
+      "passageId": "satire",
+      "prompt": "Literature: complete sat___. Enter the missing letters.",
+      "word": "satire",
+      "prefix": "sat",
+      "answer": "正解：ire → satire。学習語：satire。satireは「風刺」。ユーモアと誇張で政治腐敗を批判する文脈です。",
+      "sourceRefs": [
+        "pdf:task1:p029:qsatire"
+      ]
+    },
+    {
+      "passageId": "setting",
+      "prompt": "Literature: complete set____. Enter the missing letters.",
+      "word": "setting",
+      "prefix": "set",
+      "answer": "正解：ting → setting。学習語：setting。settingは物語の「舞台・時代背景」。場所と時代の両方が示されています。",
+      "sourceRefs": [
+        "pdf:task1:p029:qsetting"
+      ]
+    },
+    {
+      "passageId": "soliloquy",
+      "prompt": "Literature: complete sol______. Enter the missing letters.",
+      "word": "soliloquy",
+      "prefix": "sol",
+      "answer": "正解：iloquy → soliloquy。学習語：soliloquy。soliloquyは演劇の「独白」。舞台に一人で内心を語る点が根拠です。",
+      "sourceRefs": [
+        "pdf:task1:p029:qsoliloquy"
+      ]
+    },
+    {
+      "passageId": "theme",
+      "prompt": "Literature: complete th___. Enter the missing letters.",
+      "word": "theme",
+      "prefix": "th",
+      "answer": "正解：eme → theme。学習語：theme。themeは「主題」。作品全体に通じる自由と義務の対立を指しています。",
+      "sourceRefs": [
+        "pdf:task1:p029:qtheme"
+      ]
+    }
+  ]
+}

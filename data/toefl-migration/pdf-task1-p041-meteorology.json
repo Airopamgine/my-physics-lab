@@ -1,0 +1,123 @@
+{
+  "id": "pdf-task1-p041-meteorology",
+  "title": "Meteorology · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 41ページ／冊子69ページ · Meteorology",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "air-pressure": "Air pre_____ is the force per unit area exerted by the atmosphere.",
+    "blizzard": "A bli_____ combines strong winds with blowing or falling snow that greatly reduces visibility.",
+    "climatology": "The scientific study of long-term climate patterns is cli________.",
+    "condensation": "The change of water vapor into liquid droplets is con_________.",
+    "evaporation": "The change of liquid water into vapor at its surface is eva________.",
+    "hail": "The storm produced ha__, solid ice pellets that fell from thunderclouds.",
+    "humidity": "Relative hum_____ compares the actual amount of water vapor with the saturation amount at the same temperature.",
+    "jet-stream": "The jet str___ is a narrow band of strong winds high in the atmosphere.",
+    "precipitation": "Rain, snow, and hail falling from the atmosphere are forms of pre__________.",
+    "weather-front": "A weather fr___ separates air masses with different properties."
+  },
+  "questions": [
+    {
+      "passageId": "air-pressure",
+      "prompt": "Meteorology: complete pre_____. Enter the missing letters.",
+      "word": "pressure",
+      "prefix": "pre",
+      "answer": "正解：ssure → pressure。学習語：air pressure。air pressureは「気圧」。大気が単位面積当たりに及ぼす力です。",
+      "sourceRefs": [
+        "pdf:task1:p041:qair-pressure"
+      ]
+    },
+    {
+      "passageId": "blizzard",
+      "prompt": "Meteorology: complete bli_____. Enter the missing letters.",
+      "word": "blizzard",
+      "prefix": "bli",
+      "answer": "正解：zzard → blizzard。学習語：blizzard。blizzardは「猛吹雪」。強風と雪によって視界が大きく悪化する状況です。",
+      "sourceRefs": [
+        "pdf:task1:p041:qblizzard"
+      ]
+    },
+    {
+      "passageId": "climatology",
+      "prompt": "Meteorology: complete cli________. Enter the missing letters.",
+      "word": "climatology",
+      "prefix": "cli",
+      "answer": "正解：matology → climatology。学習語：climatology。climatologyは「気候学」。長期間の気候の傾向を研究する分野です。",
+      "sourceRefs": [
+        "pdf:task1:p041:qclimatology"
+      ]
+    },
+    {
+      "passageId": "condensation",
+      "prompt": "Meteorology: complete con_________. Enter the missing letters.",
+      "word": "condensation",
+      "prefix": "con",
+      "answer": "正解：densation → condensation。学習語：condensation。condensationは「凝結」。水蒸気が液体の水滴に変わる過程です。",
+      "sourceRefs": [
+        "pdf:task1:p041:qcondensation"
+      ]
+    },
+    {
+      "passageId": "evaporation",
+      "prompt": "Meteorology: complete eva________. Enter the missing letters.",
+      "word": "evaporation",
+      "prefix": "eva",
+      "answer": "正解：poration → evaporation。学習語：evaporation。evaporationは「蒸発」。液体表面から気体へ変わることです。",
+      "sourceRefs": [
+        "pdf:task1:p041:qevaporation"
+      ]
+    },
+    {
+      "passageId": "hail",
+      "prompt": "Meteorology: complete ha__. Enter the missing letters.",
+      "word": "hail",
+      "prefix": "ha",
+      "answer": "正解：il → hail。学習語：hail。hailは「雹」。雷雲から降る氷の粒です。",
+      "sourceRefs": [
+        "pdf:task1:p041:qhail"
+      ]
+    },
+    {
+      "passageId": "humidity",
+      "prompt": "Meteorology: complete hum_____. Enter the missing letters.",
+      "word": "humidity",
+      "prefix": "hum",
+      "answer": "正解：idity → humidity。学習語：humidity。humidityは「湿度」。この文のrelative humidityは同じ温度の飽和量に対する水蒸気量の比です。",
+      "sourceRefs": [
+        "pdf:task1:p041:qhumidity"
+      ]
+    },
+    {
+      "passageId": "jet-stream",
+      "prompt": "Meteorology: complete str___. Enter the missing letters.",
+      "word": "stream",
+      "prefix": "str",
+      "answer": "正解：eam → stream。学習語：jet stream。jet streamは「ジェット気流」。上空を流れる帯状の強い風です。",
+      "sourceRefs": [
+        "pdf:task1:p041:qjet-stream"
+      ]
+    },
+    {
+      "passageId": "precipitation",
+      "prompt": "Meteorology: complete pre__________. Enter the missing letters.",
+      "word": "precipitation",
+      "prefix": "pre",
+      "answer": "正解：cipitation → precipitation。学習語：precipitation。precipitationは「降水」。大気から地表へ落ちてくる雨・雪・雹などの総称です。",
+      "sourceRefs": [
+        "pdf:task1:p041:qprecipitation"
+      ]
+    },
+    {
+      "passageId": "weather-front",
+      "prompt": "Meteorology: complete fr___. Enter the missing letters.",
+      "word": "front",
+      "prefix": "fr",
+      "answer": "正解：ont → front。学習語：weather front。weather frontは「前線」。温度などの性質が異なる気団の境界です。",
+      "sourceRefs": [
+        "pdf:task1:p041:qweather-front"
+      ]
+    }
+  ]
+}

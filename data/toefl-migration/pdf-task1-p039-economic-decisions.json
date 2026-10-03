@@ -1,0 +1,114 @@
+{
+  "id": "pdf-task1-p039-economic-decisions",
+  "title": "Social Science Test · Economic Decisions",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 39ページ／冊子67ページ · Test 31–40",
+  "verificationNote": "原本画像で本文・初出文字・空欄長・設問順を照合済みです。出版社の解答p.410は未提供のため、正答は文法・語法・文脈に基づく編集解答です。同じ本文の全10空欄を提出するまで、解答・解説は表示されません。",
+  "passages": {
+    "economic-decisions": "Economics examines how individuals and societies make decisions in the face of limited resources. To incr____ profitability, comp_____ must ass___ marginal co__, the exp____ of prod_____ an addit_____ unit o_ output. Simi_____, a gover_____ must weigh the utility of allocating a significant portion of its annual budget to one major public sector initiative rather than another. These calculated decisions mirror how economic agents allocate resources and affect both market behavior and indicators such as gross domestic product. Economic models use quantitative data and behavioral insights to forecast market trends and evaluate policy effectiveness."
+  },
+  "questions": [
+    {
+      "passageId": "economic-decisions",
+      "prompt": "Question 31: complete incr____. Enter the missing letters.",
+      "word": "increase",
+      "prefix": "incr",
+      "answer": "正解：ease → increase。To increase profitabilityは「収益性を高めるために」。to不定詞なのでincreaseは原形です。",
+      "sourceRefs": [
+        "pdf:task1:p039:q31-gap1"
+      ]
+    },
+    {
+      "passageId": "economic-decisions",
+      "prompt": "Question 32: complete comp_____. Enter the missing letters.",
+      "word": "companies",
+      "prefix": "comp",
+      "answer": "正解：anies → companies。companiesは「企業」。収益性や生産費用を検討する主語です。",
+      "sourceRefs": [
+        "pdf:task1:p039:q32-gap1"
+      ]
+    },
+    {
+      "passageId": "economic-decisions",
+      "prompt": "Question 33: complete ass___. Enter the missing letters.",
+      "word": "assess",
+      "prefix": "ass",
+      "answer": "正解：ess → assess。must assessは「評価しなければならない」。助動詞mustの後ろは原形です。",
+      "sourceRefs": [
+        "pdf:task1:p039:q33-gap1"
+      ]
+    },
+    {
+      "passageId": "economic-decisions",
+      "prompt": "Question 34: complete co__. Enter the missing letters.",
+      "word": "cost",
+      "prefix": "co",
+      "answer": "正解：st → cost。marginal costは「限界費用」。直後の同格の説明が一単位を追加生産する費用を示します。",
+      "sourceRefs": [
+        "pdf:task1:p039:q34-gap1"
+      ]
+    },
+    {
+      "passageId": "economic-decisions",
+      "prompt": "Question 35: complete exp____. Enter the missing letters.",
+      "word": "expense",
+      "prefix": "exp",
+      "answer": "正解：ense → expense。the expense of ...は「〜にかかる費用」。marginal costを言い換える名詞です。",
+      "sourceRefs": [
+        "pdf:task1:p039:q35-gap1"
+      ]
+    },
+    {
+      "passageId": "economic-decisions",
+      "prompt": "Question 36: complete prod_____. Enter the missing letters.",
+      "word": "producing",
+      "prefix": "prod",
+      "answer": "正解：ucing → producing。前置詞ofの後ろに動名詞producingを置きます。「生産すること」です。",
+      "sourceRefs": [
+        "pdf:task1:p039:q36-gap1"
+      ]
+    },
+    {
+      "passageId": "economic-decisions",
+      "prompt": "Question 37: complete addit_____. Enter the missing letters.",
+      "word": "additional",
+      "prefix": "addit",
+      "answer": "正解：ional → additional。an additional unitは「追加の一単位」。additionalがunitを修飾します。",
+      "sourceRefs": [
+        "pdf:task1:p039:q37-gap1"
+      ]
+    },
+    {
+      "passageId": "economic-decisions",
+      "prompt": "Question 38: complete o_. Enter the missing letters.",
+      "word": "of",
+      "prefix": "o",
+      "answer": "正解：f → of。a unit of outputは「生産量の一単位」。ofが単位と対象をつなぎます。",
+      "sourceRefs": [
+        "pdf:task1:p039:q38-gap1"
+      ]
+    },
+    {
+      "passageId": "economic-decisions",
+      "prompt": "Question 39: complete Simi_____. Enter the missing letters.",
+      "word": "Similarly",
+      "prefix": "Simi",
+      "answer": "正解：larly → Similarly。Similarlyは「同様に」。企業と政府の資源配分を対応させる接続副詞で、文頭は大文字です。",
+      "sourceRefs": [
+        "pdf:task1:p039:q39-gap1"
+      ]
+    },
+    {
+      "passageId": "economic-decisions",
+      "prompt": "Question 40: complete gover_____. Enter the missing letters.",
+      "word": "government",
+      "prefix": "gover",
+      "answer": "正解：nment → government。governmentは「政府」。annual budgetやpublic sector initiativeを判断する主体です。",
+      "sourceRefs": [
+        "pdf:task1:p039:q40-gap1"
+      ]
+    }
+  ]
+}

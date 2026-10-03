@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day08-part1",
+  "title": "Vocabulary Day 08 · Words 1–15 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 9ページ／冊子387ページ · Vocabulary Day 08 · Words 1–15",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "accommodation": "The organizers arranged acc__________ for visitors who needed a place to stay overnight.",
+    "admission": "The museum charges an adm______ fee that visitors pay to enter.",
+    "announce": "The manager will ann_____ the new opening hours so all customers are informed.",
+    "appreciate": "We app_______ your help and are grateful for the time you spent assisting us.",
+    "assistance": "Visitors who need ass_______ can ask the staff for help.",
+    "authorization": "Only employees with written aut__________ may enter the restricted storage area.",
+    "beverage": "Choose a hot or cold bev_____, such as tea, coffee, or juice.",
+    "bottle": "The glass bot___ held the juice and was closed with a cap.",
+    "cabin": "The visitors stayed in a small wooden ca___ in the forest.",
+    "charge": "There is no extra cha___ for borrowing a towel; it is included in the price.",
+    "citywide": "The cit_____ festival includes events in neighborhoods throughout the whole city.",
+    "collaborative": "The col__________ project requires the two teams to work together and share ideas.",
+    "completion": "The com_______ of the renovation will allow the building to reopen after all work is finished.",
+    "confirmation": "The office sent a written con_________ stating that the reservation had been accepted.",
+    "cooking": "The coo____ class teaches participants how to prepare food using heat."
+  },
+  "questions": [
+    {
+      "passageId": "accommodation",
+      "prompt": "Vocabulary Day 08 · Words 1–15: complete acc__________. Enter the missing letters.",
+      "word": "accommodation",
+      "prefix": "acc",
+      "answer": "正解：ommodation → accommodation。学習語：accommodation。accommodationは「宿泊施設」。訪問者の泊まる場所です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qaccommodation"
+      ]
+    },
+    {
+      "passageId": "admission",
+      "prompt": "Vocabulary Day 08 · Words 1–15: complete adm______. Enter the missing letters.",
+      "word": "admission",
+      "prefix": "adm",
+      "answer": "正解：ission → admission。学習語：admission。admissionはこの文では「入場」。admission feeは入場料です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qadmission"
+      ]
+    },
+    {
+      "passageId": "announce",
+      "prompt": "Vocabulary Day 08 · Words 1–15: complete ann_____. Enter the missing letters.",
+      "word": "announce",
+      "prefix": "ann",
+      "answer": "正解：ounce → announce。学習語：announce。announceは「発表する・知らせる」。営業時間の変更を公に伝えます。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qannounce"
+      ]
+    },
+    {
+      "passageId": "appreciate",
+      "prompt": "Vocabulary Day 08 · Words 1–15: complete app_______. Enter the missing letters.",
+      "word": "appreciate",
+      "prefix": "app",
+      "answer": "正解：reciate → appreciate。学習語：appreciate。appreciateは「感謝する」。手助けと費やした時間への感謝を述べています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qappreciate"
+      ]
+    },
+    {
+      "passageId": "assistance",
+      "prompt": "Vocabulary Day 08 · Words 1–15: complete ass_______. Enter the missing letters.",
+      "word": "assistance",
+      "prefix": "ass",
+      "answer": "正解：istance → assistance。学習語：assistance。assistanceは「援助・支援」。困った訪問者が受ける助けです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qassistance"
+      ]
+    },
+    {
+      "passageId": "authorization",
+      "prompt": "Vocabulary Day 08 · Words 1–15: complete aut__________. Enter the missing letters.",
+      "word": "authorization",
+      "prefix": "aut",
+      "answer": "正解：horization → authorization。学習語：authorization。authorizationは「許可・権限」。制限区域への立入りに必要な承認です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qauthorization"
+      ]
+    },
+    {
+      "passageId": "beverage",
+      "prompt": "Vocabulary Day 08 · Words 1–15: complete bev_____. Enter the missing letters.",
+      "word": "beverage",
+      "prefix": "bev",
+      "answer": "正解：erage → beverage。学習語：beverage。beverageは「飲み物」。紅茶・コーヒー・ジュースの総称です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qbeverage"
+      ]
+    },
+    {
+      "passageId": "bottle",
+      "prompt": "Vocabulary Day 08 · Words 1–15: complete bot___. Enter the missing letters.",
+      "word": "bottle",
+      "prefix": "bot",
+      "answer": "正解：tle → bottle。学習語：bottle。bottleは「瓶」。蓋を付けて液体を入れる容器です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qbottle"
+      ]
+    },
+    {
+      "passageId": "cabin",
+      "prompt": "Vocabulary Day 08 · Words 1–15: complete ca___. Enter the missing letters.",
+      "word": "cabin",
+      "prefix": "ca",
+      "answer": "正解：bin → cabin。学習語：cabin。cabinは「小屋」。この文では森の中の木造の宿です。船室という意味も原本に載っています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qcabin"
+      ]
+    },
+    {
+      "passageId": "charge",
+      "prompt": "Vocabulary Day 08 · Words 1–15: complete cha___. Enter the missing letters.",
+      "word": "charge",
+      "prefix": "cha",
+      "answer": "正解：rge → charge。学習語：charge。chargeは「料金」。タオルを借りる追加料金がないと述べています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qcharge"
+      ]
+    },
+    {
+      "passageId": "citywide",
+      "prompt": "Vocabulary Day 08 · Words 1–15: complete cit_____. Enter the missing letters.",
+      "word": "citywide",
+      "prefix": "cit",
+      "answer": "正解：ywide → citywide。学習語：citywide。citywideは「市全域の」。市内の各地区で行われる祭りを修飾します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qcitywide"
+      ]
+    },
+    {
+      "passageId": "collaborative",
+      "prompt": "Vocabulary Day 08 · Words 1–15: complete col__________. Enter the missing letters.",
+      "word": "collaborative",
+      "prefix": "col",
+      "answer": "正解：laborative → collaborative。学習語：collaborative。collaborativeは「共同の・協働的な」。複数のチームが協力する作業です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qcollaborative"
+      ]
+    },
+    {
+      "passageId": "completion",
+      "prompt": "Vocabulary Day 08 · Words 1–15: complete com_______. Enter the missing letters.",
+      "word": "completion",
+      "prefix": "com",
+      "answer": "正解：pletion → completion。学習語：completion。completionは「完了」。改修作業をすべて終えることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qcompletion"
+      ]
+    },
+    {
+      "passageId": "confirmation",
+      "prompt": "Vocabulary Day 08 · Words 1–15: complete con_________. Enter the missing letters.",
+      "word": "confirmation",
+      "prefix": "con",
+      "answer": "正解：firmation → confirmation。学習語：confirmation。confirmationは「確認」。予約が受理されたことを明記した通知です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qconfirmation"
+      ]
+    },
+    {
+      "passageId": "cooking",
+      "prompt": "Vocabulary Day 08 · Words 1–15: complete coo____. Enter the missing letters.",
+      "word": "cooking",
+      "prefix": "coo",
+      "answer": "正解：king → cooking。学習語：cooking。cookingは「料理・調理」。熱を使って食事を作る方法を学びます。",
+      "sourceRefs": [
+        "pdf:vocabulary:p009:qcooking"
+      ]
+    }
+  ]
+}

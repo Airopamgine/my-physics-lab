@@ -1,0 +1,211 @@
+{
+  "id": "pdf-task1-p045-physiology",
+  "title": "Physiology · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 45ページ／冊子73ページ · Physiology",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "absorption": "Nutrient abs_______ transfers digested substances from the intestine into blood or lymph.",
+    "antibody": "An ant_____ is an immune protein that binds to a particular antigen.",
+    "cardiovascular-system": "The cardiovascular sys___ includes the heart and blood vessels.",
+    "circadian": "A cir______ rhythm repeats on an approximately twenty-four-hour cycle.",
+    "circulatory": "The heart and vessels form a cir________ network that transports blood through the body.",
+    "digestive": "The stomach and intestines are parts of the dig______ system that processes food.",
+    "homeostasis": "Maintaining relatively stable internal conditions despite external change is hom________.",
+    "hormonal-balance": "Hormonal bal____ involves regulation of hormone levels rather than an equal amount of every hormone.",
+    "immune-system": "The immune sys___ helps defend the body against pathogens.",
+    "immunity": "Protection against a particular infectious agent is a form of imm_____.",
+    "inflammation": "The local response to injury can produce inf_________, with redness, heat, swelling, and pain.",
+    "metabolism": "The chemical reactions that sustain life in an organism are its met_______.",
+    "nervous-system": "The nervous sys___ receives information and coordinates responses through specialized cells.",
+    "neuron": "A neu___ is a specialized cell that transmits information through electrical and chemical signals.",
+    "receptor": "A cell-surface rec_____ binds a specific signaling molecule and can trigger a response.",
+    "respiration": "Cellular res________ releases usable energy from nutrients through a series of reactions.",
+    "respiratory-system": "The respiratory sys___ includes organs that exchange gases between the body and the environment.",
+    "skeletal": "The ske_____ system includes bones that support and protect the body."
+  },
+  "questions": [
+    {
+      "passageId": "absorption",
+      "prompt": "Physiology: complete abs_______. Enter the missing letters.",
+      "word": "absorption",
+      "prefix": "abs",
+      "answer": "正解：orption → absorption。学習語：absorption。absorptionは「吸収」。消化された物質が腸から血液・リンパへ取り込まれる過程です。",
+      "sourceRefs": [
+        "pdf:task1:p045:qabsorption"
+      ]
+    },
+    {
+      "passageId": "antibody",
+      "prompt": "Physiology: complete ant_____. Enter the missing letters.",
+      "word": "antibody",
+      "prefix": "ant",
+      "answer": "正解：ibody → antibody。学習語：antibody。antibodyは「抗体」。特定の抗原に結合する免疫系のタンパク質です。",
+      "sourceRefs": [
+        "pdf:task1:p045:qantibody"
+      ]
+    },
+    {
+      "passageId": "cardiovascular-system",
+      "prompt": "Physiology: complete sys___. Enter the missing letters.",
+      "word": "system",
+      "prefix": "sys",
+      "answer": "正解：tem → system。学習語：cardiovascular system。cardiovascular systemは「心血管系」。心臓と血管を含む仕組みです。",
+      "sourceRefs": [
+        "pdf:task1:p045:qcardiovascular-system"
+      ]
+    },
+    {
+      "passageId": "circadian",
+      "prompt": "Physiology: complete cir______. Enter the missing letters.",
+      "word": "circadian",
+      "prefix": "cir",
+      "answer": "正解：cadian → circadian。学習語：circadian。circadianは「概日の」。約24時間周期で繰り返すことを表します。",
+      "sourceRefs": [
+        "pdf:task1:p045:qcircadian"
+      ]
+    },
+    {
+      "passageId": "circulatory",
+      "prompt": "Physiology: complete cir________. Enter the missing letters.",
+      "word": "circulatory",
+      "prefix": "cir",
+      "answer": "正解：culatory → circulatory。学習語：circulatory。circulatoryは「循環の」。心臓や血管による血液輸送の仕組みを修飾します。",
+      "sourceRefs": [
+        "pdf:task1:p045:qcirculatory"
+      ]
+    },
+    {
+      "passageId": "digestive",
+      "prompt": "Physiology: complete dig______. Enter the missing letters.",
+      "word": "digestive",
+      "prefix": "dig",
+      "answer": "正解：estive → digestive。学習語：digestive。digestiveは「消化の」。食べ物を処理する消化器系を修飾します。",
+      "sourceRefs": [
+        "pdf:task1:p045:qdigestive"
+      ]
+    },
+    {
+      "passageId": "homeostasis",
+      "prompt": "Physiology: complete hom________. Enter the missing letters.",
+      "word": "homeostasis",
+      "prefix": "hom",
+      "answer": "正解：eostasis → homeostasis。学習語：homeostasis。homeostasisは「恒常性」。外部が変化しても、体内の条件を比較的安定させる働きです。",
+      "sourceRefs": [
+        "pdf:task1:p045:qhomeostasis"
+      ]
+    },
+    {
+      "passageId": "hormonal-balance",
+      "prompt": "Physiology: complete bal____. Enter the missing letters.",
+      "word": "balance",
+      "prefix": "bal",
+      "answer": "正解：ance → balance。学習語：hormonal balance。hormonal balanceは「ホルモンの調整・バランス」。必要に応じて各ホルモンの量が調節されることで、全種類が同量という意味ではありません。",
+      "sourceRefs": [
+        "pdf:task1:p045:qhormonal-balance"
+      ]
+    },
+    {
+      "passageId": "immune-system",
+      "prompt": "Physiology: complete sys___. Enter the missing letters.",
+      "word": "system",
+      "prefix": "sys",
+      "answer": "正解：tem → system。学習語：immune system。immune systemは「免疫系」。病原体などに対して体を守る仕組みです。",
+      "sourceRefs": [
+        "pdf:task1:p045:qimmune-system"
+      ]
+    },
+    {
+      "passageId": "immunity",
+      "prompt": "Physiology: complete imm_____. Enter the missing letters.",
+      "word": "immunity",
+      "prefix": "imm",
+      "answer": "正解：unity → immunity。学習語：immunity。immunityは「免疫」。特定の感染源などから体を守る能力・状態です。",
+      "sourceRefs": [
+        "pdf:task1:p045:qimmunity"
+      ]
+    },
+    {
+      "passageId": "inflammation",
+      "prompt": "Physiology: complete inf_________. Enter the missing letters.",
+      "word": "inflammation",
+      "prefix": "inf",
+      "answer": "正解：lammation → inflammation。学習語：inflammation。inflammationは「炎症」。損傷などへの反応で、発赤・熱感・腫れ・痛みなどが生じます。",
+      "sourceRefs": [
+        "pdf:task1:p045:qinflammation"
+      ]
+    },
+    {
+      "passageId": "metabolism",
+      "prompt": "Physiology: complete met_______. Enter the missing letters.",
+      "word": "metabolism",
+      "prefix": "met",
+      "answer": "正解：abolism → metabolism。学習語：metabolism。metabolismは「代謝」。生命を維持する化学反応の総体です。",
+      "sourceRefs": [
+        "pdf:task1:p045:qmetabolism"
+      ]
+    },
+    {
+      "passageId": "nervous-system",
+      "prompt": "Physiology: complete sys___. Enter the missing letters.",
+      "word": "system",
+      "prefix": "sys",
+      "answer": "正解：tem → system。学習語：nervous system。nervous systemは「神経系」。情報を受け取り、専用の細胞を通じて反応を調整します。",
+      "sourceRefs": [
+        "pdf:task1:p045:qnervous-system"
+      ]
+    },
+    {
+      "passageId": "neuron",
+      "prompt": "Physiology: complete neu___. Enter the missing letters.",
+      "word": "neuron",
+      "prefix": "neu",
+      "answer": "正解：ron → neuron。学習語：neuron。neuronは「神経細胞」。電気的・化学的な信号で情報を伝えます。",
+      "sourceRefs": [
+        "pdf:task1:p045:qneuron"
+      ]
+    },
+    {
+      "passageId": "receptor",
+      "prompt": "Physiology: complete rec_____. Enter the missing letters.",
+      "word": "receptor",
+      "prefix": "rec",
+      "answer": "正解：eptor → receptor。学習語：receptor。receptorは「受容体」。この文では特定のシグナル分子を認識し、細胞の反応につなげる構造です。",
+      "sourceRefs": [
+        "pdf:task1:p045:qreceptor"
+      ]
+    },
+    {
+      "passageId": "respiration",
+      "prompt": "Physiology: complete res________. Enter the missing letters.",
+      "word": "respiration",
+      "prefix": "res",
+      "answer": "正解：piration → respiration。学習語：respiration。respirationは「呼吸」。この文では息を吸う行為ではなく、栄養から利用可能なエネルギーを得る細胞呼吸です。",
+      "sourceRefs": [
+        "pdf:task1:p045:qrespiration"
+      ]
+    },
+    {
+      "passageId": "respiratory-system",
+      "prompt": "Physiology: complete sys___. Enter the missing letters.",
+      "word": "system",
+      "prefix": "sys",
+      "answer": "正解：tem → system。学習語：respiratory system。respiratory systemは「呼吸器系」。体と外界の間で酸素・二酸化炭素などを交換する器官の仕組みです。",
+      "sourceRefs": [
+        "pdf:task1:p045:qrespiratory-system"
+      ]
+    },
+    {
+      "passageId": "skeletal",
+      "prompt": "Physiology: complete ske_____. Enter the missing letters.",
+      "word": "skeletal",
+      "prefix": "ske",
+      "answer": "正解：letal → skeletal。学習語：skeletal。skeletalは「骨格の」。体を支え保護する骨などの系を修飾します。",
+      "sourceRefs": [
+        "pdf:task1:p045:qskeletal"
+      ]
+    }
+  ]
+}

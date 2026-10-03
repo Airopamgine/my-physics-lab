@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day06-part4",
+  "title": "Vocabulary Day 06 · Words 46–60 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 7ページ／冊子385ページ · Vocabulary Day 06 · Words 46–60",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "ritualistic": "The repeated ceremony had a rit________ character, following the same symbolic steps each year.",
+    "shift": "The new evidence caused a sh___ in opinion, moving support toward a different explanation.",
+    "solid": "Unlike a liquid, a so___ generally retains its own shape.",
+    "spectator": "A spe______ watched the game from the stands without taking part in it.",
+    "strikingly": "The two designs were str_______ different, and everyone immediately noticed the contrast.",
+    "suppress": "The editor tried to sup_____ the report by preventing it from being published.",
+    "task": "The assistant's first ta__ was to organize the files by date.",
+    "theory": "The researcher proposed a the___ that explains how the observed process works.",
+    "transitional": "The school arranged a tra_________ program to help students move from secondary school to university.",
+    "underwater": "The camera can take und_______ photographs while submerged below the surface.",
+    "unique": "Each handmade object is uni___, with no other piece exactly like it.",
+    "unwritten": "The team follows an unw______ rule that everyone understands even though it is not recorded.",
+    "vast": "The desert covers a va__ area stretching far beyond the horizon.",
+    "vulnerable": "The unprotected coast is vul_______ to damage from severe storms.",
+    "yeast": "The baker added ye___, a fungus that ferments sugars and helps bread dough rise."
+  },
+  "questions": [
+    {
+      "passageId": "ritualistic",
+      "prompt": "Vocabulary Day 06 · Words 46–60: complete rit________. Enter the missing letters.",
+      "word": "ritualistic",
+      "prefix": "rit",
+      "answer": "正解：ualistic → ritualistic。学習語：ritualistic。ritualisticは「儀式的な」。決まった象徴的な手順を繰り返すことです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p007:qritualistic"
+      ]
+    },
+    {
+      "passageId": "shift",
+      "prompt": "Vocabulary Day 06 · Words 46–60: complete sh___. Enter the missing letters.",
+      "word": "shift",
+      "prefix": "sh",
+      "answer": "正解：ift → shift。学習語：shift。shiftは「変化・移行」。支持する説明が別のものへ変わっています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p007:qshift"
+      ]
+    },
+    {
+      "passageId": "solid",
+      "prompt": "Vocabulary Day 06 · Words 46–60: complete so___. Enter the missing letters.",
+      "word": "solid",
+      "prefix": "so",
+      "answer": "正解：lid → solid。学習語：solid。solidは「固体」。液体と対比し、自らの形を保つ物質の状態を指します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p007:qsolid"
+      ]
+    },
+    {
+      "passageId": "spectator",
+      "prompt": "Vocabulary Day 06 · Words 46–60: complete spe______. Enter the missing letters.",
+      "word": "spectator",
+      "prefix": "spe",
+      "answer": "正解：ctator → spectator。学習語：spectator。spectatorは「観客」。競技に参加せず、観戦する人です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p007:qspectator"
+      ]
+    },
+    {
+      "passageId": "strikingly",
+      "prompt": "Vocabulary Day 06 · Words 46–60: complete str_______. Enter the missing letters.",
+      "word": "strikingly",
+      "prefix": "str",
+      "answer": "正解：ikingly → strikingly。学習語：strikingly。strikinglyは「著しく」。誰もがすぐ気付くほど違いが大きいことです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p007:qstrikingly"
+      ]
+    },
+    {
+      "passageId": "suppress",
+      "prompt": "Vocabulary Day 06 · Words 46–60: complete sup_____. Enter the missing letters.",
+      "word": "suppress",
+      "prefix": "sup",
+      "answer": "正解：press → suppress。学習語：suppress。suppressは「抑える・隠す」。この文では報告を公開させず、情報を抑え込むことです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p007:qsuppress"
+      ]
+    },
+    {
+      "passageId": "task",
+      "prompt": "Vocabulary Day 06 · Words 46–60: complete ta__. Enter the missing letters.",
+      "word": "task",
+      "prefix": "ta",
+      "answer": "正解：sk → task。学習語：task。taskは「仕事・課題」。最初に行うべき作業です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p007:qtask"
+      ]
+    },
+    {
+      "passageId": "theory",
+      "prompt": "Vocabulary Day 06 · Words 46–60: complete the___. Enter the missing letters.",
+      "word": "theory",
+      "prefix": "the",
+      "answer": "正解：ory → theory。学習語：theory。theoryは「理論」。観察した過程の仕組みを説明する体系です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p007:qtheory"
+      ]
+    },
+    {
+      "passageId": "transitional",
+      "prompt": "Vocabulary Day 06 · Words 46–60: complete tra_________. Enter the missing letters.",
+      "word": "transitional",
+      "prefix": "tra",
+      "answer": "正解：nsitional → transitional。学習語：transitional。transitionalは「移行期の」。高校から大学への移行を助けるプログラムです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p007:qtransitional"
+      ]
+    },
+    {
+      "passageId": "underwater",
+      "prompt": "Vocabulary Day 06 · Words 46–60: complete und_______. Enter the missing letters.",
+      "word": "underwater",
+      "prefix": "und",
+      "answer": "正解：erwater → underwater。学習語：underwater。underwaterは「水中の」。水面下で撮影することを表します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p007:qunderwater"
+      ]
+    },
+    {
+      "passageId": "unique",
+      "prompt": "Vocabulary Day 06 · Words 46–60: complete uni___. Enter the missing letters.",
+      "word": "unique",
+      "prefix": "uni",
+      "answer": "正解：que → unique。学習語：unique。uniqueは「唯一の・独特の」。まったく同じ物がないという文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p007:qunique"
+      ]
+    },
+    {
+      "passageId": "unwritten",
+      "prompt": "Vocabulary Day 06 · Words 46–60: complete unw______. Enter the missing letters.",
+      "word": "unwritten",
+      "prefix": "unw",
+      "answer": "正解：ritten → unwritten。学習語：unwritten。unwrittenは「書かれていない」。文書にはないものの、全員が理解する慣行です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p007:qunwritten"
+      ]
+    },
+    {
+      "passageId": "vast",
+      "prompt": "Vocabulary Day 06 · Words 46–60: complete va__. Enter the missing letters.",
+      "word": "vast",
+      "prefix": "va",
+      "answer": "正解：st → vast。学習語：vast。vastは「広大な」。地平線の先まで広がる面積を強調しています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p007:qvast"
+      ]
+    },
+    {
+      "passageId": "vulnerable",
+      "prompt": "Vocabulary Day 06 · Words 46–60: complete vul_______. Enter the missing letters.",
+      "word": "vulnerable",
+      "prefix": "vul",
+      "answer": "正解：nerable → vulnerable。学習語：vulnerable。vulnerableは「弱い・被害を受けやすい」。vulnerable toで、嵐による損害への弱さを表します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p007:qvulnerable"
+      ]
+    },
+    {
+      "passageId": "yeast",
+      "prompt": "Vocabulary Day 06 · Words 46–60: complete ye___. Enter the missing letters.",
+      "word": "yeast",
+      "prefix": "ye",
+      "answer": "正解：ast → yeast。学習語：yeast。yeastは「酵母」。糖を発酵させ、パン生地を膨らませる菌です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p007:qyeast"
+      ]
+    }
+  ]
+}

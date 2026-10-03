@@ -1,0 +1,114 @@
+{
+  "id": "pdf-task1-p038-cognitive-dissonance",
+  "title": "Social Science Test · Cognitive Dissonance",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 38ページ／冊子66ページ · Test 11–20",
+  "verificationNote": "原本画像で本文・初出文字・空欄長・設問順を照合済みです。出版社の解答p.410は未提供のため、正答は文法・語法・文脈に基づく編集解答です。同じ本文の全10空欄を提出するまで、解答・解説は表示されません。",
+  "passages": {
+    "cognitive-dissonance": "Cognitive dissonance refers to a state of mental discomfort that occurs when a person’s values conflict with new information. People inher_____ seek alig_____ of th___ thoughts a__ actions. Discr______ between wh__ one beli____ and h__ one beh____ brings ab___ mental distress. To mitigate this unease, individuals may justify their behavior or deny information that challenges their views. The magnitude of this dissonance is greatest when the conflicting elements are central to one’s self-concept and values. This psychological process affects many aspects of daily life, from personal decisions to how people interpret new information."
+  },
+  "questions": [
+    {
+      "passageId": "cognitive-dissonance",
+      "prompt": "Question 11: complete inher_____. Enter the missing letters.",
+      "word": "inherently",
+      "prefix": "inher",
+      "answer": "正解：ently → inherently。inherentlyは「本来・本質的に」。seekを修飾する副詞です。",
+      "sourceRefs": [
+        "pdf:task1:p038:q11-gap1"
+      ]
+    },
+    {
+      "passageId": "cognitive-dissonance",
+      "prompt": "Question 12: complete alig_____. Enter the missing letters.",
+      "word": "alignment",
+      "prefix": "alig",
+      "answer": "正解：nment → alignment。alignmentは「一致・整合」。思考と行動の整合を求めると述べています。",
+      "sourceRefs": [
+        "pdf:task1:p038:q12-gap1"
+      ]
+    },
+    {
+      "passageId": "cognitive-dissonance",
+      "prompt": "Question 13: complete th___. Enter the missing letters.",
+      "word": "their",
+      "prefix": "th",
+      "answer": "正解：eir → their。theirはPeopleを受ける所有格。「人々自身の思考と行動」です。",
+      "sourceRefs": [
+        "pdf:task1:p038:q13-gap1"
+      ]
+    },
+    {
+      "passageId": "cognitive-dissonance",
+      "prompt": "Question 14: complete a__. Enter the missing letters.",
+      "word": "and",
+      "prefix": "a",
+      "answer": "正解：nd → and。thoughts and actionsは「思考と行動」。一致するべき二つの対象を結びます。",
+      "sourceRefs": [
+        "pdf:task1:p038:q14-gap1"
+      ]
+    },
+    {
+      "passageId": "cognitive-dissonance",
+      "prompt": "Question 15: complete Discr______. Enter the missing letters.",
+      "word": "Discrepancy",
+      "prefix": "Discr",
+      "answer": "正解：epancy → Discrepancy。Discrepancyは「不一致」。between以下の信念と行動の食い違いが苦痛を生むと述べ、文頭なので大文字です。",
+      "sourceRefs": [
+        "pdf:task1:p038:q15-gap1"
+      ]
+    },
+    {
+      "passageId": "cognitive-dissonance",
+      "prompt": "Question 16: complete wh__. Enter the missing letters.",
+      "word": "what",
+      "prefix": "wh",
+      "answer": "正解：at → what。what one believesは「人が信じること」。whatが内容を表す名詞節を導きます。",
+      "sourceRefs": [
+        "pdf:task1:p038:q16-gap1"
+      ]
+    },
+    {
+      "passageId": "cognitive-dissonance",
+      "prompt": "Question 17: complete beli____. Enter the missing letters.",
+      "word": "believes",
+      "prefix": "beli",
+      "answer": "正解：eves → believes。oneを主語にするので三人称単数のbelieves。「信じる」という意味です。",
+      "sourceRefs": [
+        "pdf:task1:p038:q17-gap1"
+      ]
+    },
+    {
+      "passageId": "cognitive-dissonance",
+      "prompt": "Question 18: complete h__. Enter the missing letters.",
+      "word": "how",
+      "prefix": "h",
+      "answer": "正解：ow → how。how one behavesは「人がどのように行動するか」。行動のあり方を表す節です。",
+      "sourceRefs": [
+        "pdf:task1:p038:q18-gap1"
+      ]
+    },
+    {
+      "passageId": "cognitive-dissonance",
+      "prompt": "Question 19: complete beh____. Enter the missing letters.",
+      "word": "behaves",
+      "prefix": "beh",
+      "answer": "正解：aves → behaves。oneが単数なのでbehaves。「行動する」で、believesと対応します。",
+      "sourceRefs": [
+        "pdf:task1:p038:q19-gap1"
+      ]
+    },
+    {
+      "passageId": "cognitive-dissonance",
+      "prompt": "Question 20: complete ab___. Enter the missing letters.",
+      "word": "about",
+      "prefix": "ab",
+      "answer": "正解：out → about。bring aboutは「引き起こす」。不一致がmental distressを生むという因果関係です。",
+      "sourceRefs": [
+        "pdf:task1:p038:q20-gap1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "id": "pdf-task1-p037-psychology",
+  "title": "Psychology · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 37ページ／冊子65ページ · Psychology",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "anxiety-disorder": "An anxiety dis_____ involves persistent fear or worry that significantly interferes with daily life.",
+    "attachment-theory": "Attachment the___ examines how close emotional bonds with caregivers influence development.",
+    "behavior-pattern": "The researcher recorded a recurring behavior pat____ rather than a single isolated action.",
+    "bystander-effect": "The bystander eff___ describes how the presence of other witnesses can reduce an individual's likelihood of offering help.",
+    "cognition": "Mental processes such as attention, memory, and reasoning are studied under cog______.",
+    "cognitive-dissonance": "Cognitive dis_______ is the discomfort experienced when beliefs and actions conflict.",
+    "confirmation-bias": "Confirmation bi__ leads people to favor evidence that supports beliefs they already hold.",
+    "conformity": "The participant changed an answer to match the group's answer, demonstrating con_______.",
+    "consciousness": "The researcher studied con__________, including awareness of one's surroundings and internal experiences.",
+    "defense-mechanism": "A defense mec______ can protect a person from anxiety by keeping distressing thoughts outside awareness.",
+    "depression": "The study examined dep_______, a condition associated with persistent low mood or loss of interest.",
+    "disposition": "Her stable dis________ to approach new situations cautiously was evident across several years.",
+    "egocentrism": "The child's difficulty recognizing another person's viewpoint is an example of ego________.",
+    "emotional-stability": "Emotional sta______ describes the tendency to maintain a relatively steady mood under stress.",
+    "extroversion": "The personality trait of ext_________ is associated with sociability and a preference for active interaction.",
+    "introversion": "The trait of int_________ is associated with a preference for quieter settings and less external stimulation.",
+    "mood-disorder": "A mood dis_____ primarily involves disturbances in a person's emotional state.",
+    "motivation": "The prospect of mastering a new skill increased the student's mot_______ to practice.",
+    "obedience": "Following a direct order from an authority figure is an example of obe______.",
+    "perception": "Visual per_______ involves interpreting information received through the eyes.",
+    "personality-test": "The personality te__ uses a structured set of questions to assess characteristic traits.",
+    "psychotherapy": "In psy__________, a trained professional uses psychological methods to help a client address difficulties.",
+    "punishment": "In behavioral learning, pun_______ is a consequence that reduces the future frequency of a behavior.",
+    "rationalization": "Explaining a selfish decision as necessary for everyone else's benefit can be a form of rat____________.",
+    "repression": "In psychoanalytic theory, rep_______ keeps threatening thoughts outside conscious awareness.",
+    "self-esteem": "Positive self-est___ means having a generally favorable sense of one's own worth.",
+    "sensation": "The initial detection of a stimulus by a sensory system is sen______.",
+    "stereotype": "Assuming that every member of a group shares the same traits is a ste_______.",
+    "temperament": "The infant's consistent level of activity and emotional reactivity reflected an early tem________.",
+    "theory-of-mind": "Theory of mi__ is the capacity to recognize that other people can have beliefs different from one's own."
+  },
+  "questions": [
+    {
+      "passageId": "anxiety-disorder",
+      "prompt": "Psychology: complete dis_____. Enter the missing letters.",
+      "word": "disorder",
+      "prefix": "dis",
+      "answer": "正解：order → disorder。学習語：anxiety disorder。anxiety disorderは「不安障害」。日常生活に大きく支障を来す持続的な不安を指します。普通の一時的な心配とは区別します。",
+      "sourceRefs": [
+        "pdf:task1:p037:qanxiety-disorder"
+      ]
+    },
+    {
+      "passageId": "attachment-theory",
+      "prompt": "Psychology: complete the___. Enter the missing letters.",
+      "word": "theory",
+      "prefix": "the",
+      "answer": "正解：ory → theory。学習語：attachment theory。attachment theoryは「愛着理論」。養育者との情緒的な結び付きと発達との関係を扱います。",
+      "sourceRefs": [
+        "pdf:task1:p037:qattachment-theory"
+      ]
+    },
+    {
+      "passageId": "behavior-pattern",
+      "prompt": "Psychology: complete pat____. Enter the missing letters.",
+      "word": "pattern",
+      "prefix": "pat",
+      "answer": "正解：tern → pattern。学習語：behavior pattern。behavior patternは「行動様式・行動パターン」。一度だけの行為ではなく繰り返される傾向です。",
+      "sourceRefs": [
+        "pdf:task1:p037:qbehavior-pattern"
+      ]
+    },
+    {
+      "passageId": "bystander-effect",
+      "prompt": "Psychology: complete eff___. Enter the missing letters.",
+      "word": "effect",
+      "prefix": "eff",
+      "answer": "正解：ect → effect。学習語：bystander effect。bystander effectは「傍観者効果」。目撃者が他にもいると、一人の人が援助する可能性が下がる現象です。必ず起きるという意味ではありません。",
+      "sourceRefs": [
+        "pdf:task1:p037:qbystander-effect"
+      ]
+    },
+    {
+      "passageId": "cognition",
+      "prompt": "Psychology: complete cog______. Enter the missing letters.",
+      "word": "cognition",
+      "prefix": "cog",
+      "answer": "正解：nition → cognition。学習語：cognition。cognitionは「認知」。注意・記憶・推論などの精神的な情報処理です。",
+      "sourceRefs": [
+        "pdf:task1:p037:qcognition"
+      ]
+    },
+    {
+      "passageId": "cognitive-dissonance",
+      "prompt": "Psychology: complete dis_______. Enter the missing letters.",
+      "word": "dissonance",
+      "prefix": "dis",
+      "answer": "正解：sonance → dissonance。学習語：cognitive dissonance。cognitive dissonanceは「認知的不協和」。信念と行動などの不一致が生む心理的不快感です。",
+      "sourceRefs": [
+        "pdf:task1:p037:qcognitive-dissonance"
+      ]
+    },
+    {
+      "passageId": "confirmation-bias",
+      "prompt": "Psychology: complete bi__. Enter the missing letters.",
+      "word": "bias",
+      "prefix": "bi",
+      "answer": "正解：as → bias。学習語：confirmation bias。confirmation biasは「確証バイアス」。既存の考えを支持する証拠を優先しやすい傾向です。",
+      "sourceRefs": [
+        "pdf:task1:p037:qconfirmation-bias"
+      ]
+    },
+    {
+      "passageId": "conformity",
+      "prompt": "Psychology: complete con_______. Enter the missing letters.",
+      "word": "conformity",
+      "prefix": "con",
+      "answer": "正解：formity → conformity。学習語：conformity。conformityは「同調」。集団の判断に合わせて自分の反応を変えています。",
+      "sourceRefs": [
+        "pdf:task1:p037:qconformity"
+      ]
+    },
+    {
+      "passageId": "consciousness",
+      "prompt": "Psychology: complete con__________. Enter the missing letters.",
+      "word": "consciousness",
+      "prefix": "con",
+      "answer": "正解：sciousness → consciousness。学習語：consciousness。consciousnessは「意識」。周囲や自分の内的経験を自覚することが根拠です。",
+      "sourceRefs": [
+        "pdf:task1:p037:qconsciousness"
+      ]
+    },
+    {
+      "passageId": "defense-mechanism",
+      "prompt": "Psychology: complete mec______. Enter the missing letters.",
+      "word": "mechanism",
+      "prefix": "mec",
+      "answer": "正解：hanism → mechanism。学習語：defense mechanism。defense mechanismは心理学の「防衛機制」。不安などから心を守る心理的な働きです。",
+      "sourceRefs": [
+        "pdf:task1:p037:qdefense-mechanism"
+      ]
+    },
+    {
+      "passageId": "depression",
+      "prompt": "Psychology: complete dep_______. Enter the missing letters.",
+      "word": "depression",
+      "prefix": "dep",
+      "answer": "正解：ression → depression。学習語：depression。depressionは「抑うつ・うつ病」。持続的な気分の落ち込みや興味の喪失を扱う文脈です。一時的な悲しみだけを指していません。",
+      "sourceRefs": [
+        "pdf:task1:p037:qdepression"
+      ]
+    },
+    {
+      "passageId": "disposition",
+      "prompt": "Psychology: complete dis________. Enter the missing letters.",
+      "word": "disposition",
+      "prefix": "dis",
+      "answer": "正解：position → disposition。学習語：disposition。dispositionは「性向・気質」。複数年にわたり見られる慎重な傾向です。",
+      "sourceRefs": [
+        "pdf:task1:p037:qdisposition"
+      ]
+    },
+    {
+      "passageId": "egocentrism",
+      "prompt": "Psychology: complete ego________. Enter the missing letters.",
+      "word": "egocentrism",
+      "prefix": "ego",
+      "answer": "正解：centrism → egocentrism。学習語：egocentrism。egocentrismは「自己中心性」。自分とは異なる視点を理解しにくい状態を示しています。",
+      "sourceRefs": [
+        "pdf:task1:p037:qegocentrism"
+      ]
+    },
+    {
+      "passageId": "emotional-stability",
+      "prompt": "Psychology: complete sta______. Enter the missing letters.",
+      "word": "stability",
+      "prefix": "sta",
+      "answer": "正解：bility → stability。学習語：emotional stability。emotional stabilityは「情緒的安定性」。ストレスの下でも感情が比較的安定している傾向です。",
+      "sourceRefs": [
+        "pdf:task1:p037:qemotional-stability"
+      ]
+    },
+    {
+      "passageId": "extroversion",
+      "prompt": "Psychology: complete ext_________. Enter the missing letters.",
+      "word": "extroversion",
+      "prefix": "ext",
+      "answer": "正解：roversion → extroversion。学習語：extroversion。extroversionは「外向性」。社交性や活発な対人交流を好む傾向です。",
+      "sourceRefs": [
+        "pdf:task1:p037:qextroversion"
+      ]
+    },
+    {
+      "passageId": "introversion",
+      "prompt": "Psychology: complete int_________. Enter the missing letters.",
+      "word": "introversion",
+      "prefix": "int",
+      "answer": "正解：roversion → introversion。学習語：introversion。introversionは「内向性」。静かな環境や外からの刺激が少ない状況を好む傾向です。人付き合いができないという意味ではありません。",
+      "sourceRefs": [
+        "pdf:task1:p037:qintroversion"
+      ]
+    },
+    {
+      "passageId": "mood-disorder",
+      "prompt": "Psychology: complete dis_____. Enter the missing letters.",
+      "word": "disorder",
+      "prefix": "dis",
+      "answer": "正解：order → disorder。学習語：mood disorder。mood disorderは「気分障害」。気分・感情の状態の持続的な問題を中心とする分類です。",
+      "sourceRefs": [
+        "pdf:task1:p037:qmood-disorder"
+      ]
+    },
+    {
+      "passageId": "motivation",
+      "prompt": "Psychology: complete mot_______. Enter the missing letters.",
+      "word": "motivation",
+      "prefix": "mot",
+      "answer": "正解：ivation → motivation。学習語：motivation。motivationは「動機付け・意欲」。技能を身に付ける見込みが練習を促しています。",
+      "sourceRefs": [
+        "pdf:task1:p037:qmotivation"
+      ]
+    },
+    {
+      "passageId": "obedience",
+      "prompt": "Psychology: complete obe______. Enter the missing letters.",
+      "word": "obedience",
+      "prefix": "obe",
+      "answer": "正解：dience → obedience。学習語：obedience。obedienceは「服従」。権威者の明確な命令に従う行動です。集団に合わせるconformityとは区別します。",
+      "sourceRefs": [
+        "pdf:task1:p037:qobedience"
+      ]
+    },
+    {
+      "passageId": "perception",
+      "prompt": "Psychology: complete per_______. Enter the missing letters.",
+      "word": "perception",
+      "prefix": "per",
+      "answer": "正解：ception → perception。学習語：perception。perceptionは「知覚」。感覚器官から得た情報を意味のあるものとして捉える働きです。",
+      "sourceRefs": [
+        "pdf:task1:p037:qperception"
+      ]
+    },
+    {
+      "passageId": "personality-test",
+      "prompt": "Psychology: complete te__. Enter the missing letters.",
+      "word": "test",
+      "prefix": "te",
+      "answer": "正解：st → test。学習語：personality test。personality testは「性格検査」。一定の質問を用いて性格特性を評価します。",
+      "sourceRefs": [
+        "pdf:task1:p037:qpersonality-test"
+      ]
+    },
+    {
+      "passageId": "psychotherapy",
+      "prompt": "Psychology: complete psy__________. Enter the missing letters.",
+      "word": "psychotherapy",
+      "prefix": "psy",
+      "answer": "正解：chotherapy → psychotherapy。学習語：psychotherapy。psychotherapyは「心理療法」。専門家が心理的な方法で問題への対処を支援します。",
+      "sourceRefs": [
+        "pdf:task1:p037:qpsychotherapy"
+      ]
+    },
+    {
+      "passageId": "punishment",
+      "prompt": "Psychology: complete pun_______. Enter the missing letters.",
+      "word": "punishment",
+      "prefix": "pun",
+      "answer": "正解：ishment → punishment。学習語：punishment。punishmentは行動学習の「罰」。行動後の結果が、その行動の将来の頻度を減らす場合を指します。",
+      "sourceRefs": [
+        "pdf:task1:p037:qpunishment"
+      ]
+    },
+    {
+      "passageId": "rationalization",
+      "prompt": "Psychology: complete rat____________. Enter the missing letters.",
+      "word": "rationalization",
+      "prefix": "rat",
+      "answer": "正解：ionalization → rationalization。学習語：rationalization。rationalizationは心理学の「合理化」。受け入れにくい動機を、もっともらしい理由で正当化することです。",
+      "sourceRefs": [
+        "pdf:task1:p037:qrationalization"
+      ]
+    },
+    {
+      "passageId": "repression",
+      "prompt": "Psychology: complete rep_______. Enter the missing letters.",
+      "word": "repression",
+      "prefix": "rep",
+      "answer": "正解：ression → repression。学習語：repression。repressionは精神分析の「抑圧」。受け入れにくい思考などを意識から締め出すとされる働きです。特定の理論上の用語として説明しています。",
+      "sourceRefs": [
+        "pdf:task1:p037:qrepression"
+      ]
+    },
+    {
+      "passageId": "self-esteem",
+      "prompt": "Psychology: complete est___. Enter the missing letters.",
+      "word": "esteem",
+      "prefix": "est",
+      "answer": "正解：eem → esteem。学習語：self-esteem。self-esteemは「自尊心」。自分に価値があると感じることです。",
+      "sourceRefs": [
+        "pdf:task1:p037:qself-esteem"
+      ]
+    },
+    {
+      "passageId": "sensation",
+      "prompt": "Psychology: complete sen______. Enter the missing letters.",
+      "word": "sensation",
+      "prefix": "sen",
+      "answer": "正解：sation → sensation。学習語：sensation。sensationは「感覚」。刺激を最初に受け取る働きで、意味を解釈するperceptionと区別します。",
+      "sourceRefs": [
+        "pdf:task1:p037:qsensation"
+      ]
+    },
+    {
+      "passageId": "stereotype",
+      "prompt": "Psychology: complete ste_______. Enter the missing letters.",
+      "word": "stereotype",
+      "prefix": "ste",
+      "answer": "正解：reotype → stereotype。学習語：stereotype。stereotypeは「固定観念」。集団の全員に同じ特徴があると一般化する考えです。",
+      "sourceRefs": [
+        "pdf:task1:p037:qstereotype"
+      ]
+    },
+    {
+      "passageId": "temperament",
+      "prompt": "Psychology: complete tem________. Enter the missing letters.",
+      "word": "temperament",
+      "prefix": "tem",
+      "answer": "正解：perament → temperament。学習語：temperament。temperamentは「気質」。早い時期から見られる活動性や感情反応の傾向です。",
+      "sourceRefs": [
+        "pdf:task1:p037:qtemperament"
+      ]
+    },
+    {
+      "passageId": "theory-of-mind",
+      "prompt": "Psychology: complete mi__. Enter the missing letters.",
+      "word": "mind",
+      "prefix": "mi",
+      "answer": "正解：nd → mind。学習語：theory of mind。theory of mindは「心の理論」。他者が自分と異なる信念や心的状態を持つと理解する能力です。",
+      "sourceRefs": [
+        "pdf:task1:p037:qtheory-of-mind"
+      ]
+    }
+  ]
+}

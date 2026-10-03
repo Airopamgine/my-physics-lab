@@ -1,0 +1,123 @@
+{
+  "id": "pdf-task1-p032-film",
+  "title": "Film · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 32ページ／冊子60ページ · Film",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "blockbuster": "The film became a blo________, attracting huge audiences and earning exceptional box-office revenue.",
+    "box-office": "The film's box off___ revenue exceeded the amount spent on producing it.",
+    "camera-angle": "The director chose a low camera an___ so the character would appear more powerful.",
+    "cinematography": "The film's cin___________ includes its lighting, camera movement, and visual composition.",
+    "director": "The dir_____ guided the actors and decided how each scene should be filmed.",
+    "documentary": "The doc________ presents real events using interviews and archival footage.",
+    "film-festival": "At the film fes_____, new movies were screened and discussed by audiences and critics.",
+    "soundtrack": "The film's sou_______ combines music, dialogue, and other recorded sounds.",
+    "special-effects": "The crew used practical special eff____, including miniature models and mechanical props.",
+    "visual-effects": "Digital visual eff____ added a computer-generated creature to the filmed scene."
+  },
+  "questions": [
+    {
+      "passageId": "blockbuster",
+      "prompt": "Film: complete blo________. Enter the missing letters.",
+      "word": "blockbuster",
+      "prefix": "blo",
+      "answer": "正解：ckbuster → blockbuster。学習語：blockbuster。blockbusterは「大ヒット作品」。多くの観客と大きな興行収入が根拠です。",
+      "sourceRefs": [
+        "pdf:task1:p032:qblockbuster"
+      ]
+    },
+    {
+      "passageId": "box-office",
+      "prompt": "Film: complete off___. Enter the missing letters.",
+      "word": "office",
+      "prefix": "off",
+      "answer": "正解：ice → office。学習語：box office。box officeは映画の「興行収入」、または切符売場。この文ではrevenueと組み合わさり興行収入を表します。",
+      "sourceRefs": [
+        "pdf:task1:p032:qbox-office"
+      ]
+    },
+    {
+      "passageId": "camera-angle",
+      "prompt": "Film: complete an___. Enter the missing letters.",
+      "word": "angle",
+      "prefix": "an",
+      "answer": "正解：gle → angle。学習語：camera angle。camera angleは「撮影角度」。低い位置から人物を撮る構図です。",
+      "sourceRefs": [
+        "pdf:task1:p032:qcamera-angle"
+      ]
+    },
+    {
+      "passageId": "cinematography",
+      "prompt": "Film: complete cin___________. Enter the missing letters.",
+      "word": "cinematography",
+      "prefix": "cin",
+      "answer": "正解：ematography → cinematography。学習語：cinematography。cinematographyは「映画撮影術」。照明・カメラの動き・画面構成に関わる技術です。",
+      "sourceRefs": [
+        "pdf:task1:p032:qcinematography"
+      ]
+    },
+    {
+      "passageId": "director",
+      "prompt": "Film: complete dir_____. Enter the missing letters.",
+      "word": "director",
+      "prefix": "dir",
+      "answer": "正解：ector → director。学習語：director。directorは映画の「監督」。演技や各場面の撮影方針を指示します。",
+      "sourceRefs": [
+        "pdf:task1:p032:qdirector"
+      ]
+    },
+    {
+      "passageId": "documentary",
+      "prompt": "Film: complete doc________. Enter the missing letters.",
+      "word": "documentary",
+      "prefix": "doc",
+      "answer": "正解：umentary → documentary。学習語：documentary。documentaryは「ドキュメンタリー」。取材や記録映像で実際の出来事を扱っています。",
+      "sourceRefs": [
+        "pdf:task1:p032:qdocumentary"
+      ]
+    },
+    {
+      "passageId": "film-festival",
+      "prompt": "Film: complete fes_____. Enter the missing letters.",
+      "word": "festival",
+      "prefix": "fes",
+      "answer": "正解：tival → festival。学習語：film festival。film festivalは「映画祭」。複数の映画を上映し評価する催しです。",
+      "sourceRefs": [
+        "pdf:task1:p032:qfilm-festival"
+      ]
+    },
+    {
+      "passageId": "soundtrack",
+      "prompt": "Film: complete sou_______. Enter the missing letters.",
+      "word": "soundtrack",
+      "prefix": "sou",
+      "answer": "正解：ndtrack → soundtrack。学習語：soundtrack。soundtrackは「映画の音声部分・音楽」。ここでは音楽だけでなく台詞や効果音も含みます。",
+      "sourceRefs": [
+        "pdf:task1:p032:qsoundtrack"
+      ]
+    },
+    {
+      "passageId": "special-effects",
+      "prompt": "Film: complete eff____. Enter the missing letters.",
+      "word": "effects",
+      "prefix": "eff",
+      "answer": "正解：ects → effects。学習語：special effects。special effectsは「特殊効果」。模型や機械仕掛けの小道具による演出を例にしています。",
+      "sourceRefs": [
+        "pdf:task1:p032:qspecial-effects"
+      ]
+    },
+    {
+      "passageId": "visual-effects",
+      "prompt": "Film: complete eff____. Enter the missing letters.",
+      "word": "effects",
+      "prefix": "eff",
+      "answer": "正解：ects → effects。学習語：visual effects。visual effectsは「視覚効果」。撮影した映像にコンピューターで作った生物を加えています。",
+      "sourceRefs": [
+        "pdf:task1:p032:qvisual-effects"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "id": "pdf-task1-p037-sociology",
+  "title": "Sociology · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T11:30:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 37ページ／冊子65ページ · Sociology",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "alienation": "Workers described ali_______ as a sense of separation from their work and the wider community.",
+    "ascribed-status": "An ascribed sta___ is a social position assigned without being earned through personal achievement.",
+    "assimilation": "Cultural ass_________ occurs when a group adopts many practices of the surrounding dominant culture.",
+    "civil-society": "Voluntary associations operating outside the state and family are part of civil soc____.",
+    "collective-behavior": "A spontaneous crowd reaction is an example of collective beh_____ involving many people together.",
+    "counterculture": "The movement formed a cou___________ by openly rejecting the dominant society's values.",
+    "cultural-capital": "Knowledge of prestigious art and social conventions can function as cultural cap____.",
+    "discrimination": "Denying someone a job because of group membership rather than qualifications is dis___________.",
+    "gender-role": "A gender ro__ is a socially expected pattern of behavior linked to a person's perceived gender.",
+    "governance": "The study of gov_______ examines how decisions are made, implemented, and held accountable.",
+    "hierarchy": "The organization has a hie______ in which positions are ranked from senior leaders to junior staff.",
+    "minority-group": "A minority gr___ may have less social power even when its members are not few in number.",
+    "peer-group": "The teenager's peer gr___ consists of people of a similar age and social position.",
+    "social-mobility": "Social mob_____ is movement between different positions in a society's social hierarchy.",
+    "social-norm": "A social no__ is a shared expectation about acceptable behavior within a group.",
+    "social-status": "A person's social sta___ is the position that person occupies within society.",
+    "socialization": "Through soc__________, children learn the values and practices of their community.",
+    "socioeconomic-status": "Socioeconomic sta___ is commonly assessed using indicators such as education, income, and occupation."
+  },
+  "questions": [
+    {
+      "passageId": "alienation",
+      "prompt": "Sociology: complete ali_______. Enter the missing letters.",
+      "word": "alienation",
+      "prefix": "ali",
+      "answer": "正解：enation → alienation。学習語：alienation。alienationは「疎外」。仕事や社会とのつながりを失った感覚です。",
+      "sourceRefs": [
+        "pdf:task1:p037:qalienation"
+      ]
+    },
+    {
+      "passageId": "ascribed-status",
+      "prompt": "Sociology: complete sta___. Enter the missing letters.",
+      "word": "status",
+      "prefix": "sta",
+      "answer": "正解：tus → status。学習語：ascribed status。ascribed statusは「生得的・付与的地位」。自らの達成によって獲得した地位ではありません。",
+      "sourceRefs": [
+        "pdf:task1:p037:qascribed-status"
+      ]
+    },
+    {
+      "passageId": "assimilation",
+      "prompt": "Sociology: complete ass_________. Enter the missing letters.",
+      "word": "assimilation",
+      "prefix": "ass",
+      "answer": "正解：imilation → assimilation。学習語：assimilation。assimilationは「同化」。周囲の主要な文化の慣習を取り入れる過程です。",
+      "sourceRefs": [
+        "pdf:task1:p037:qassimilation"
+      ]
+    },
+    {
+      "passageId": "civil-society",
+      "prompt": "Sociology: complete soc____. Enter the missing letters.",
+      "word": "society",
+      "prefix": "soc",
+      "answer": "正解：iety → society。学習語：civil society。civil societyは「市民社会」。国家などとは別の、自発的な結社・団体の領域を指します。",
+      "sourceRefs": [
+        "pdf:task1:p037:qcivil-society"
+      ]
+    },
+    {
+      "passageId": "collective-behavior",
+      "prompt": "Sociology: complete beh_____. Enter the missing letters.",
+      "word": "behavior",
+      "prefix": "beh",
+      "answer": "正解：avior → behavior。学習語：collective behavior。collective behaviorは「集合行動」。人々が集団として取る行動で、突発的な群衆の反応を例にしています。",
+      "sourceRefs": [
+        "pdf:task1:p037:qcollective-behavior"
+      ]
+    },
+    {
+      "passageId": "counterculture",
+      "prompt": "Sociology: complete cou___________. Enter the missing letters.",
+      "word": "counterculture",
+      "prefix": "cou",
+      "answer": "正解：nterculture → counterculture。学習語：counterculture。countercultureは「対抗文化」。支配的な文化の価値観に反対する文化です。",
+      "sourceRefs": [
+        "pdf:task1:p037:qcounterculture"
+      ]
+    },
+    {
+      "passageId": "cultural-capital",
+      "prompt": "Sociology: complete cap____. Enter the missing letters.",
+      "word": "capital",
+      "prefix": "cap",
+      "answer": "正解：ital → capital。学習語：cultural capital。cultural capitalは「文化資本」。知識・技能・文化的な習慣など、社会で有利に働く資源です。",
+      "sourceRefs": [
+        "pdf:task1:p037:qcultural-capital"
+      ]
+    },
+    {
+      "passageId": "discrimination",
+      "prompt": "Sociology: complete dis___________. Enter the missing letters.",
+      "word": "discrimination",
+      "prefix": "dis",
+      "answer": "正解：crimination → discrimination。学習語：discrimination。discriminationは「差別」。能力ではなく集団への所属を理由に不利益を与えています。",
+      "sourceRefs": [
+        "pdf:task1:p037:qdiscrimination"
+      ]
+    },
+    {
+      "passageId": "gender-role",
+      "prompt": "Sociology: complete ro__. Enter the missing letters.",
+      "word": "role",
+      "prefix": "ro",
+      "answer": "正解：le → role。学習語：gender role。gender roleは「ジェンダー役割」。性別に関連して社会が期待する行動様式です。",
+      "sourceRefs": [
+        "pdf:task1:p037:qgender-role"
+      ]
+    },
+    {
+      "passageId": "governance",
+      "prompt": "Sociology: complete gov_______. Enter the missing letters.",
+      "word": "governance",
+      "prefix": "gov",
+      "answer": "正解：ernance → governance。学習語：governance。governanceは「統治・管理運営の仕組み」。意思決定・実施・説明責任を扱います。",
+      "sourceRefs": [
+        "pdf:task1:p037:qgovernance"
+      ]
+    },
+    {
+      "passageId": "hierarchy",
+      "prompt": "Sociology: complete hie______. Enter the missing letters.",
+      "word": "hierarchy",
+      "prefix": "hie",
+      "answer": "正解：rarchy → hierarchy。学習語：hierarchy。hierarchyは「階層構造」。役職が上下の段階に分けられています。",
+      "sourceRefs": [
+        "pdf:task1:p037:qhierarchy"
+      ]
+    },
+    {
+      "passageId": "minority-group",
+      "prompt": "Sociology: complete gr___. Enter the missing letters.",
+      "word": "group",
+      "prefix": "gr",
+      "answer": "正解：oup → group。学習語：minority group。minority groupは「少数派・社会的少数集団」。社会学では単なる人数の少なさだけでなく、力関係上の不利も重視します。",
+      "sourceRefs": [
+        "pdf:task1:p037:qminority-group"
+      ]
+    },
+    {
+      "passageId": "peer-group",
+      "prompt": "Sociology: complete gr___. Enter the missing letters.",
+      "word": "group",
+      "prefix": "gr",
+      "answer": "正解：oup → group。学習語：peer group。peer groupは「仲間集団」。年齢や社会的立場が近い人々の集まりです。",
+      "sourceRefs": [
+        "pdf:task1:p037:qpeer-group"
+      ]
+    },
+    {
+      "passageId": "social-mobility",
+      "prompt": "Sociology: complete mob_____. Enter the missing letters.",
+      "word": "mobility",
+      "prefix": "mob",
+      "answer": "正解：ility → mobility。学習語：social mobility。social mobilityは「社会移動」。社会階層上の位置が変わることです。",
+      "sourceRefs": [
+        "pdf:task1:p037:qsocial-mobility"
+      ]
+    },
+    {
+      "passageId": "social-norm",
+      "prompt": "Sociology: complete no__. Enter the missing letters.",
+      "word": "norm",
+      "prefix": "no",
+      "answer": "正解：rm → norm。学習語：social norm。social normは「社会規範」。集団の中で適切とされる行動について共有する期待です。",
+      "sourceRefs": [
+        "pdf:task1:p037:qsocial-norm"
+      ]
+    },
+    {
+      "passageId": "social-status",
+      "prompt": "Sociology: complete sta___. Enter the missing letters.",
+      "word": "status",
+      "prefix": "sta",
+      "answer": "正解：tus → status。学習語：social status。social statusは「社会的地位」。社会の中で占める位置・立場です。",
+      "sourceRefs": [
+        "pdf:task1:p037:qsocial-status"
+      ]
+    },
+    {
+      "passageId": "socialization",
+      "prompt": "Sociology: complete soc__________. Enter the missing letters.",
+      "word": "socialization",
+      "prefix": "soc",
+      "answer": "正解：ialization → socialization。学習語：socialization。socializationは「社会化」。共同体の価値観や行動様式を身に付ける過程です。",
+      "sourceRefs": [
+        "pdf:task1:p037:qsocialization"
+      ]
+    },
+    {
+      "passageId": "socioeconomic-status",
+      "prompt": "Sociology: complete sta___. Enter the missing letters.",
+      "word": "status",
+      "prefix": "sta",
+      "answer": "正解：tus → status。学習語：socioeconomic status。socioeconomic statusは「社会経済的地位」。教育・所得・職業などを用いて捉える社会的な位置です。",
+      "sourceRefs": [
+        "pdf:task1:p037:qsocioeconomic-status"
+      ]
+    }
+  ]
+}
