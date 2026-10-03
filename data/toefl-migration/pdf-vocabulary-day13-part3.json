@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day13-part3",
+  "title": "Vocabulary Day 13 · Words 31–45 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 14ページ／冊子392ページ · Vocabulary Day 13 · Words 31–45",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "imbalance": "The report found an imb______ between the resources given to the two departments.",
+    "impulse": "She resisted the sudden imp____ to interrupt the speaker.",
+    "inheritance": "The will describes the inh________ that the heirs will receive from the estate.",
+    "intellectual": "The course encourages int_________ curiosity and careful reasoning.",
+    "irritability": "The character's irr_________ was shown by how easily small delays made him annoyed.",
+    "lineage": "The family records trace her lin____ through several generations of ancestors.",
+    "malfunction": "A mal________ caused the machine to stop working correctly.",
+    "marital": "The form asks for mar____ status, including whether the applicant is married.",
+    "meadow": "The cattle grazed in a mea___ covered with grass and wildflowers.",
+    "metabolism": "The textbook uses met_______ for the chemical processes by which living organisms maintain life.",
+    "molecule": "A water mol_____ consists of atoms joined together as one chemical unit.",
+    "newfound": "The discovery gave her a new_____ interest that she had not felt before.",
+    "perception": "Visual per_______ allows a person to interpret information received through the eyes.",
+    "pesticide": "The farm uses a pes______ to control organisms that damage crops.",
+    "physiological": "The study measured phy__________ changes in bodily functions during exercise."
+  },
+  "questions": [
+    {
+      "passageId": "imbalance",
+      "prompt": "Vocabulary Day 13 · Words 31–45: complete imb______. Enter the missing letters.",
+      "word": "imbalance",
+      "prefix": "imb",
+      "answer": "正解：alance → imbalance。学習語：imbalance。「不均衡」。二つの部署への資源配分が釣り合っていません。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qimbalance"
+      ]
+    },
+    {
+      "passageId": "impulse",
+      "prompt": "Vocabulary Day 13 · Words 31–45: complete imp____. Enter the missing letters.",
+      "word": "impulse",
+      "prefix": "imp",
+      "answer": "正解：ulse → impulse。学習語：impulse。「衝動」。急に口を挟みたくなる気持ちです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qimpulse"
+      ]
+    },
+    {
+      "passageId": "inheritance",
+      "prompt": "Vocabulary Day 13 · Words 31–45: complete inh________. Enter the missing letters.",
+      "word": "inheritance",
+      "prefix": "inh",
+      "answer": "正解：eritance → inheritance。学習語：inheritance。「相続・遺産」。遺言によって受け継ぐ財産です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qinheritance"
+      ]
+    },
+    {
+      "passageId": "intellectual",
+      "prompt": "Vocabulary Day 13 · Words 31–45: complete int_________. Enter the missing letters.",
+      "word": "intellectual",
+      "prefix": "int",
+      "answer": "正解：ellectual → intellectual。学習語：intellectual。「知的な；知識人」。ここでは学ぶことや思考に関わる好奇心を修飾します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qintellectual"
+      ]
+    },
+    {
+      "passageId": "irritability",
+      "prompt": "Vocabulary Day 13 · Words 31–45: complete irr_________. Enter the missing letters.",
+      "word": "irritability",
+      "prefix": "irr",
+      "answer": "正解：itability → irritability。学習語：irritability。「いら立ちやすさ・過敏さ」。小さな遅れですぐ不機嫌になる性質です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qirritability"
+      ]
+    },
+    {
+      "passageId": "lineage",
+      "prompt": "Vocabulary Day 13 · Words 31–45: complete lin____. Enter the missing letters.",
+      "word": "lineage",
+      "prefix": "lin",
+      "answer": "正解：eage → lineage。学習語：lineage。「血統・家系」。複数世代の先祖につながる系譜です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qlineage"
+      ]
+    },
+    {
+      "passageId": "malfunction",
+      "prompt": "Vocabulary Day 13 · Words 31–45: complete mal________. Enter the missing letters.",
+      "word": "malfunction",
+      "prefix": "mal",
+      "answer": "正解：function → malfunction。学習語：malfunction。「故障・誤作動；故障する」。ここでは機械が正常に動かなくなる不具合です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qmalfunction"
+      ]
+    },
+    {
+      "passageId": "marital",
+      "prompt": "Vocabulary Day 13 · Words 31–45: complete mar____. Enter the missing letters.",
+      "word": "marital",
+      "prefix": "mar",
+      "answer": "正解：ital → marital。学習語：marital。「結婚の・夫婦の」。marital statusで結婚しているかなどの婚姻状態です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qmarital"
+      ]
+    },
+    {
+      "passageId": "meadow",
+      "prompt": "Vocabulary Day 13 · Words 31–45: complete mea___. Enter the missing letters.",
+      "word": "meadow",
+      "prefix": "mea",
+      "answer": "正解：dow → meadow。学習語：meadow。「草地・草原」。草や野の花のある開けた土地です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qmeadow"
+      ]
+    },
+    {
+      "passageId": "metabolism",
+      "prompt": "Vocabulary Day 13 · Words 31–45: complete met_______. Enter the missing letters.",
+      "word": "metabolism",
+      "prefix": "met",
+      "answer": "正解：abolism → metabolism。学習語：metabolism。「代謝」。生命を維持するために生物で行われる化学的な過程です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qmetabolism"
+      ]
+    },
+    {
+      "passageId": "molecule",
+      "prompt": "Vocabulary Day 13 · Words 31–45: complete mol_____. Enter the missing letters.",
+      "word": "molecule",
+      "prefix": "mol",
+      "answer": "正解：ecule → molecule。学習語：molecule。「分子」。複数の原子が結び付いた化学的な単位です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qmolecule"
+      ]
+    },
+    {
+      "passageId": "newfound",
+      "prompt": "Vocabulary Day 13 · Words 31–45: complete new_____. Enter the missing letters.",
+      "word": "newfound",
+      "prefix": "new",
+      "answer": "正解：found → newfound。学習語：newfound。「新たに得た」。それまでなかった関心が生まれています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qnewfound"
+      ]
+    },
+    {
+      "passageId": "perception",
+      "prompt": "Vocabulary Day 13 · Words 31–45: complete per_______. Enter the missing letters.",
+      "word": "perception",
+      "prefix": "per",
+      "answer": "正解：ception → perception。学習語：perception。「知覚・認識」。目を通じて得た情報を捉えることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qperception"
+      ]
+    },
+    {
+      "passageId": "pesticide",
+      "prompt": "Vocabulary Day 13 · Words 31–45: complete pes______. Enter the missing letters.",
+      "word": "pesticide",
+      "prefix": "pes",
+      "answer": "正解：ticide → pesticide。学習語：pesticide。「害虫などを防除する薬剤」。作物を害する生物を抑えるものです。広い語で、insecticide（殺虫剤）より対象範囲が広いことがあります。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qpesticide"
+      ]
+    },
+    {
+      "passageId": "physiological",
+      "prompt": "Vocabulary Day 13 · Words 31–45: complete phy__________. Enter the missing letters.",
+      "word": "physiological",
+      "prefix": "phy",
+      "answer": "正解：siological → physiological。学習語：physiological。「生理学的な」。運動中の体の機能の変化を修飾します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qphysiological"
+      ]
+    }
+  ]
+}

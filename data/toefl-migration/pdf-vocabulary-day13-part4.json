@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day13-part4",
+  "title": "Vocabulary Day 13 · Words 46–60 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 14ページ／冊子392ページ · Vocabulary Day 13 · Words 46–60",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "premature": "The conclusion was pre______ because it was announced before enough evidence had been gathered.",
+    "prominent": "The pro______ researcher is widely known for important work in the field.",
+    "rally": "Supporters held a ra___ to gather together and express their views.",
+    "reestablish": "The two groups hope to ree________ contact after several years without communication.",
+    "repel": "The coating is designed to re___ water so it does not soak into the fabric.",
+    "residual": "A small res_____ amount remained after most of the liquid had been removed.",
+    "ritual": "The annual rit___ follows a fixed sequence of symbolic actions.",
+    "sanctuary": "The island is a wildlife san______ where animals are protected from disturbance.",
+    "sedentary": "The sed______ job involves sitting at a desk for most of the day.",
+    "shrub": "The garden contains a small woody sh___ with several stems near the ground.",
+    "solitary": "The sol_____ traveler went alone without companions.",
+    "starvation": "The account describes sta_______ caused by a prolonged lack of food.",
+    "teeming": "The pond was tee____ with insects, which were present in large numbers.",
+    "tragedy": "The play is a tra____ that ends in the main character's downfall.",
+    "tumor": "The doctor described the abnormal mass of tissue as a tu___."
+  },
+  "questions": [
+    {
+      "passageId": "premature",
+      "prompt": "Vocabulary Day 13 · Words 46–60: complete pre______. Enter the missing letters.",
+      "word": "premature",
+      "prefix": "pre",
+      "answer": "正解：mature → premature。学習語：premature。「時期尚早の・早すぎる」。十分な証拠を集める前に結論を出しています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qpremature"
+      ]
+    },
+    {
+      "passageId": "prominent",
+      "prompt": "Vocabulary Day 13 · Words 46–60: complete pro______. Enter the missing letters.",
+      "word": "prominent",
+      "prefix": "pro",
+      "answer": "正解：minent → prominent。学習語：prominent。「著名な・目立つ・突き出た」。この文では業績でよく知られた研究者です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qprominent"
+      ]
+    },
+    {
+      "passageId": "rally",
+      "prompt": "Vocabulary Day 13 · Words 46–60: complete ra___. Enter the missing letters.",
+      "word": "rally",
+      "prefix": "ra",
+      "answer": "正解：lly → rally。学習語：rally。「集会；集結する」。ここでは支持者が集まる会という名詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qrally"
+      ]
+    },
+    {
+      "passageId": "reestablish",
+      "prompt": "Vocabulary Day 13 · Words 46–60: complete ree________. Enter the missing letters.",
+      "word": "reestablish",
+      "prefix": "ree",
+      "answer": "正解：stablish → reestablish。学習語：reestablish。「再び築く・回復する」。途絶えた連絡を再開する動詞です。原本の一語の綴りを保持しています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qreestablish"
+      ]
+    },
+    {
+      "passageId": "repel",
+      "prompt": "Vocabulary Day 13 · Words 46–60: complete re___. Enter the missing letters.",
+      "word": "repel",
+      "prefix": "re",
+      "answer": "正解：pel → repel。学習語：repel。「はじく・退ける」。水が布に染み込まないようにします。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qrepel"
+      ]
+    },
+    {
+      "passageId": "residual",
+      "prompt": "Vocabulary Day 13 · Words 46–60: complete res_____. Enter the missing letters.",
+      "word": "residual",
+      "prefix": "res",
+      "answer": "正解：idual → residual。学習語：residual。「残った・残余の」。大部分を除去した後に残る量です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qresidual"
+      ]
+    },
+    {
+      "passageId": "ritual",
+      "prompt": "Vocabulary Day 13 · Words 46–60: complete rit___. Enter the missing letters.",
+      "word": "ritual",
+      "prefix": "rit",
+      "answer": "正解：ual → ritual。学習語：ritual。「儀式；儀式の」。決まった象徴的な手順の行事です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qritual"
+      ]
+    },
+    {
+      "passageId": "sanctuary",
+      "prompt": "Vocabulary Day 13 · Words 46–60: complete san______. Enter the missing letters.",
+      "word": "sanctuary",
+      "prefix": "san",
+      "answer": "正解：ctuary → sanctuary。学習語：sanctuary。「保護区・聖域・避難所」。ここでは動物を守るための区域です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qsanctuary"
+      ]
+    },
+    {
+      "passageId": "sedentary",
+      "prompt": "Vocabulary Day 13 · Words 46–60: complete sed______. Enter the missing letters.",
+      "word": "sedentary",
+      "prefix": "sed",
+      "answer": "正解：entary → sedentary。学習語：sedentary。「座って行う・定住性の」。この文では一日の多くを座って過ごす仕事です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qsedentary"
+      ]
+    },
+    {
+      "passageId": "shrub",
+      "prompt": "Vocabulary Day 13 · Words 46–60: complete sh___. Enter the missing letters.",
+      "word": "shrub",
+      "prefix": "sh",
+      "answer": "正解：rub → shrub。学習語：shrub。「低木」。地面の近くから複数の茎が出る比較的小さな木本植物です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qshrub"
+      ]
+    },
+    {
+      "passageId": "solitary",
+      "prompt": "Vocabulary Day 13 · Words 46–60: complete sol_____. Enter the missing letters.",
+      "word": "solitary",
+      "prefix": "sol",
+      "answer": "正解：itary → solitary。学習語：solitary。「一人の・孤独な」。同行者を伴わず旅をする人です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qsolitary"
+      ]
+    },
+    {
+      "passageId": "starvation",
+      "prompt": "Vocabulary Day 13 · Words 46–60: complete sta_______. Enter the missing letters.",
+      "word": "starvation",
+      "prefix": "sta",
+      "answer": "正解：rvation → starvation。学習語：starvation。「飢餓」。長期間食べ物が不足する状態です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qstarvation"
+      ]
+    },
+    {
+      "passageId": "teeming",
+      "prompt": "Vocabulary Day 13 · Words 46–60: complete tee____. Enter the missing letters.",
+      "word": "teeming",
+      "prefix": "tee",
+      "answer": "正解：ming → teeming。学習語：teeming。「多数いる・豊富な」。teeming withで、昆虫がたくさんいることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qteeming"
+      ]
+    },
+    {
+      "passageId": "tragedy",
+      "prompt": "Vocabulary Day 13 · Words 46–60: complete tra____. Enter the missing letters.",
+      "word": "tragedy",
+      "prefix": "tra",
+      "answer": "正解：gedy → tragedy。学習語：tragedy。「悲劇」。主人公の破滅で終わる劇を指します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qtragedy"
+      ]
+    },
+    {
+      "passageId": "tumor",
+      "prompt": "Vocabulary Day 13 · Words 46–60: complete tu___. Enter the missing letters.",
+      "word": "tumor",
+      "prefix": "tu",
+      "answer": "正解：mor → tumor。学習語：tumor。「腫瘍」。異常な組織の塊を指します。この語だけで必ず悪性であるとは限りません。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qtumor"
+      ]
+    }
+  ]
+}

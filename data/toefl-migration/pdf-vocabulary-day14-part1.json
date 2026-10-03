@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day14-part1",
+  "title": "Vocabulary Day 14 · Words 1–15 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 15ページ／冊子393ページ · Vocabulary Day 14 · Words 1–15",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "abrasion": "Repeated rubbing caused abr_____, gradually wearing away the surface.",
+    "aesthetic": "The critic discussed the painting's aes______ qualities, including color and visual balance.",
+    "aloft": "The balloon remained al___, floating high above the ground.",
+    "anthology": "The book is an ant______ containing selected poems by several writers.",
+    "architecture": "The course studies arc_________, including the design and construction of buildings.",
+    "astounding": "The speed of the recovery was ast_______ and surprised the whole team.",
+    "awareness": "The campaign increased public awa______ of the issue by explaining it clearly.",
+    "caregiver": "A car______ assists someone who needs help with daily activities.",
+    "clan": "The story describes a cl__ whose members claim descent from a common ancestor.",
+    "collision": "The two moving objects struck each other in a col______.",
+    "congregate": "Birds con_______ near the water, gathering there in large groups.",
+    "convergence": "The diagram shows the con________ of several paths as they come together at one point.",
+    "counterpart": "The local official met her cou________ from another city, who held an equivalent position.",
+    "cult": "The historian studied a religious cu__ and its distinctive beliefs and practices.",
+    "depict": "The mural will dep___ the town's history through a series of images."
+  },
+  "questions": [
+    {
+      "passageId": "abrasion",
+      "prompt": "Vocabulary Day 14 · Words 1–15: complete abr_____. Enter the missing letters.",
+      "word": "abrasion",
+      "prefix": "abr",
+      "answer": "正解：asion → abrasion。学習語：abrasion。「摩耗・すり傷」。この文では摩擦で表面が削れることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qabrasion"
+      ]
+    },
+    {
+      "passageId": "aesthetic",
+      "prompt": "Vocabulary Day 14 · Words 1–15: complete aes______. Enter the missing letters.",
+      "word": "aesthetic",
+      "prefix": "aes",
+      "answer": "正解：thetic → aesthetic。学習語：aesthetic。「美的な；美学」。色や見た目の調和に関わる性質です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qaesthetic"
+      ]
+    },
+    {
+      "passageId": "aloft",
+      "prompt": "Vocabulary Day 14 · Words 1–15: complete al___. Enter the missing letters.",
+      "word": "aloft",
+      "prefix": "al",
+      "answer": "正解：oft → aloft。学習語：aloft。「空中に・高く」。地面より高い所に浮いています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qaloft"
+      ]
+    },
+    {
+      "passageId": "anthology",
+      "prompt": "Vocabulary Day 14 · Words 1–15: complete ant______. Enter the missing letters.",
+      "word": "anthology",
+      "prefix": "ant",
+      "answer": "正解：hology → anthology。学習語：anthology。「選集・作品集」。複数の作家の作品を選んでまとめた本です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qanthology"
+      ]
+    },
+    {
+      "passageId": "architecture",
+      "prompt": "Vocabulary Day 14 · Words 1–15: complete arc_________. Enter the missing letters.",
+      "word": "architecture",
+      "prefix": "arc",
+      "answer": "正解：hitecture → architecture。学習語：architecture。「建築・建築学」。建物の設計や建設を扱います。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qarchitecture"
+      ]
+    },
+    {
+      "passageId": "astounding",
+      "prompt": "Vocabulary Day 14 · Words 1–15: complete ast_______. Enter the missing letters.",
+      "word": "astounding",
+      "prefix": "ast",
+      "answer": "正解：ounding → astounding。学習語：astounding。「驚くべき」。回復の速さに全員が驚いています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qastounding"
+      ]
+    },
+    {
+      "passageId": "awareness",
+      "prompt": "Vocabulary Day 14 · Words 1–15: complete awa______. Enter the missing letters.",
+      "word": "awareness",
+      "prefix": "awa",
+      "answer": "正解：reness → awareness。学習語：awareness。「認識・自覚」。問題への理解や気付きを高めています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qawareness"
+      ]
+    },
+    {
+      "passageId": "caregiver",
+      "prompt": "Vocabulary Day 14 · Words 1–15: complete car______. Enter the missing letters.",
+      "word": "caregiver",
+      "prefix": "car",
+      "answer": "正解：egiver → caregiver。学習語：caregiver。「介護者・世話をする人」。日常生活の支援を行う人です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qcaregiver"
+      ]
+    },
+    {
+      "passageId": "clan",
+      "prompt": "Vocabulary Day 14 · Words 1–15: complete cl__. Enter the missing letters.",
+      "word": "clan",
+      "prefix": "cl",
+      "answer": "正解：an → clan。学習語：clan。「氏族・一族」。共通の先祖につながるとされる人々の集団です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qclan"
+      ]
+    },
+    {
+      "passageId": "collision",
+      "prompt": "Vocabulary Day 14 · Words 1–15: complete col______. Enter the missing letters.",
+      "word": "collision",
+      "prefix": "col",
+      "answer": "正解：lision → collision。学習語：collision。「衝突」。二つの物体がぶつかることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qcollision"
+      ]
+    },
+    {
+      "passageId": "congregate",
+      "prompt": "Vocabulary Day 14 · Words 1–15: complete con_______. Enter the missing letters.",
+      "word": "congregate",
+      "prefix": "con",
+      "answer": "正解：gregate → congregate。学習語：congregate。「集まる・集合する」。鳥が水辺に集まっています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qcongregate"
+      ]
+    },
+    {
+      "passageId": "convergence",
+      "prompt": "Vocabulary Day 14 · Words 1–15: complete con________. Enter the missing letters.",
+      "word": "convergence",
+      "prefix": "con",
+      "answer": "正解：vergence → convergence。学習語：convergence。「収束・集中」。別々の経路が一つの地点に集まることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qconvergence"
+      ]
+    },
+    {
+      "passageId": "counterpart",
+      "prompt": "Vocabulary Day 14 · Words 1–15: complete cou________. Enter the missing letters.",
+      "word": "counterpart",
+      "prefix": "cou",
+      "answer": "正解：nterpart → counterpart。学習語：counterpart。「対応する人物・対応物」。別の市で同等の役職にある人です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qcounterpart"
+      ]
+    },
+    {
+      "passageId": "cult",
+      "prompt": "Vocabulary Day 14 · Words 1–15: complete cu__. Enter the missing letters.",
+      "word": "cult",
+      "prefix": "cu",
+      "answer": "正解：lt → cult。学習語：cult。「宗派・崇拝」。この文では特有の信仰や儀礼を持つ宗教集団です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qcult"
+      ]
+    },
+    {
+      "passageId": "depict",
+      "prompt": "Vocabulary Day 14 · Words 1–15: complete dep___. Enter the missing letters.",
+      "word": "depict",
+      "prefix": "dep",
+      "answer": "正解：ict → depict。学習語：depict。「描く・描写する」。壁画の画像で歴史を表します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qdepict"
+      ]
+    }
+  ]
+}

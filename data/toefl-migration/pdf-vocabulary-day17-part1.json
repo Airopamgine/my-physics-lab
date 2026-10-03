@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day17-part1",
+  "title": "Vocabulary Day 17 · Words 1–15 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 18ページ／冊子396ページ · Vocabulary Day 17 · Words 1–15",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "accelerate": "The new method will acc_______ the process and make it happen faster.",
+    "adjacent": "The two rooms are adj_____, sharing the same wall.",
+    "afterlife": "The myth describes an aft______ in which existence continues after death.",
+    "alignment": "The technician checked the ali______ of the wheels to make sure they were correctly positioned.",
+    "amputation": "The historical medical text uses amp_______ for the surgical removal of a limb or part of one.",
+    "appealing": "The design is app______ because viewers find its colors and shape attractive.",
+    "augment": "The grant will aug____ the existing resources by adding more funds.",
+    "bleach": "The process will ble___ the cloth, removing its color and making it whiter.",
+    "bystander": "A bys______ watched the event without taking part in it.",
+    "catalyst": "The new idea acted as a cat_____ for change, helping the reform happen more quickly.",
+    "chronological": "The events are in chr__________ order, beginning with the earliest and ending with the latest.",
+    "concession": "As a con_______ in the negotiation, one side agreed to reduce its demands.",
+    "constraint": "Limited time is a con_______ that restricts how much work the team can complete.",
+    "conviction": "She spoke with strong con_______ because she firmly believed the argument was correct.",
+    "courtship": "The biologist observed cou______ behavior used by the birds before mating."
+  },
+  "questions": [
+    {
+      "passageId": "accelerate",
+      "prompt": "Vocabulary Day 17 · Words 1–15: complete acc_______. Enter the missing letters.",
+      "word": "accelerate",
+      "prefix": "acc",
+      "answer": "正解：elerate → accelerate。学習語：accelerate。「速める・促進する」。処理の速度を上げる動詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qaccelerate"
+      ]
+    },
+    {
+      "passageId": "adjacent",
+      "prompt": "Vocabulary Day 17 · Words 1–15: complete adj_____. Enter the missing letters.",
+      "word": "adjacent",
+      "prefix": "adj",
+      "answer": "正解：acent → adjacent。学習語：adjacent。「隣接する」。同じ壁を挟んで隣り合う部屋です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qadjacent"
+      ]
+    },
+    {
+      "passageId": "afterlife",
+      "prompt": "Vocabulary Day 17 · Words 1–15: complete aft______. Enter the missing letters.",
+      "word": "afterlife",
+      "prefix": "aft",
+      "answer": "正解：erlife → afterlife。学習語：afterlife。「死後の世界・来世」。神話が描く死後の存在を指します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qafterlife"
+      ]
+    },
+    {
+      "passageId": "alignment",
+      "prompt": "Vocabulary Day 17 · Words 1–15: complete ali______. Enter the missing letters.",
+      "word": "alignment",
+      "prefix": "ali",
+      "answer": "正解：gnment → alignment。学習語：alignment。「整列・位置の一致」。車輪が適切な位置にそろっているか確認します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qalignment"
+      ]
+    },
+    {
+      "passageId": "amputation",
+      "prompt": "Vocabulary Day 17 · Words 1–15: complete amp_______. Enter the missing letters.",
+      "word": "amputation",
+      "prefix": "amp",
+      "answer": "正解：utation → amputation。学習語：amputation。「切断」。ここでは手足の全部または一部を外科的に取り除くという語の意味です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qamputation"
+      ]
+    },
+    {
+      "passageId": "appealing",
+      "prompt": "Vocabulary Day 17 · Words 1–15: complete app______. Enter the missing letters.",
+      "word": "appealing",
+      "prefix": "app",
+      "answer": "正解：ealing → appealing。学習語：appealing。「魅力的な・訴えかける」。色や形が好ましく感じられます。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qappealing"
+      ]
+    },
+    {
+      "passageId": "augment",
+      "prompt": "Vocabulary Day 17 · Words 1–15: complete aug____. Enter the missing letters.",
+      "word": "augment",
+      "prefix": "aug",
+      "answer": "正解：ment → augment。学習語：augment。「増やす；増加分」。追加の資金で資源を増やす動詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qaugment"
+      ]
+    },
+    {
+      "passageId": "bleach",
+      "prompt": "Vocabulary Day 17 · Words 1–15: complete ble___. Enter the missing letters.",
+      "word": "bleach",
+      "prefix": "ble",
+      "answer": "正解：ach → bleach。学習語：bleach。「漂白する；漂白剤」。この文では布の色を抜く動詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qbleach"
+      ]
+    },
+    {
+      "passageId": "bystander",
+      "prompt": "Vocabulary Day 17 · Words 1–15: complete bys______. Enter the missing letters.",
+      "word": "bystander",
+      "prefix": "bys",
+      "answer": "正解：tander → bystander。学習語：bystander。「傍観者・居合わせた人」。出来事に参加せず、その場で見る人です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qbystander"
+      ]
+    },
+    {
+      "passageId": "catalyst",
+      "prompt": "Vocabulary Day 17 · Words 1–15: complete cat_____. Enter the missing letters.",
+      "word": "catalyst",
+      "prefix": "cat",
+      "answer": "正解：alyst → catalyst。学習語：catalyst。「触媒・促進するきっかけ」。この文では改革を早めるきっかけという比喩的用法です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qcatalyst"
+      ]
+    },
+    {
+      "passageId": "chronological",
+      "prompt": "Vocabulary Day 17 · Words 1–15: complete chr__________. Enter the missing letters.",
+      "word": "chronological",
+      "prefix": "chr",
+      "answer": "正解：onological → chronological。学習語：chronological。「時間順の・年代順の」。古い出来事から新しい出来事へ並べます。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qchronological"
+      ]
+    },
+    {
+      "passageId": "concession",
+      "prompt": "Vocabulary Day 17 · Words 1–15: complete con_______. Enter the missing letters.",
+      "word": "concession",
+      "prefix": "con",
+      "answer": "正解：cession → concession。学習語：concession。「譲歩・承認」。交渉相手に合わせて要求を一部下げることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qconcession"
+      ]
+    },
+    {
+      "passageId": "constraint",
+      "prompt": "Vocabulary Day 17 · Words 1–15: complete con_______. Enter the missing letters.",
+      "word": "constraint",
+      "prefix": "con",
+      "answer": "正解：straint → constraint。学習語：constraint。「制約」。時間の少なさが作業量を制限します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qconstraint"
+      ]
+    },
+    {
+      "passageId": "conviction",
+      "prompt": "Vocabulary Day 17 · Words 1–15: complete con_______. Enter the missing letters.",
+      "word": "conviction",
+      "prefix": "con",
+      "answer": "正解：viction → conviction。学習語：conviction。「確信；有罪判決」。この文では自分の主張が正しいという強い信念です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qconviction"
+      ]
+    },
+    {
+      "passageId": "courtship",
+      "prompt": "Vocabulary Day 17 · Words 1–15: complete cou______. Enter the missing letters.",
+      "word": "courtship",
+      "prefix": "cou",
+      "answer": "正解：rtship → courtship。学習語：courtship。「求愛」。鳥が交尾に先立って示す行動です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qcourtship"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day10-part3",
+  "title": "Vocabulary Day 10 · Words 31–45 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 11ページ／冊子389ページ · Vocabulary Day 10 · Words 31–45",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "lodge": "The hikers stayed in a small mountain lo___ during their trip.",
+    "meeting": "The committee scheduled a mee____ so its members could discuss the issue together.",
+    "notice": "The office posted a not___ announcing the change in opening hours.",
+    "open": "The entrance will remain op__ until six, allowing visitors to come inside.",
+    "overview": "The first page gives an ove_____ of the report before presenting the details.",
+    "parking": "The building has a space for par____, where drivers may leave their cars.",
+    "perfect": "The fit was per____, with no adjustment needed.",
+    "playground": "The children played on the swings in the pla_______.",
+    "preliminary": "The team presented pre________ results before completing the final analysis.",
+    "preside": "The chair will pre____ over the meeting and guide the discussion.",
+    "prominently": "The warning is displayed pro________ at the entrance so everyone will notice it.",
+    "reading": "Regular rea____ of books and articles helps students encounter new words.",
+    "refund": "The shop will ref___ the payment if the unused product is returned.",
+    "remit": "Please re___ the amount due by sending the payment to the office.",
+    "requirement": "A valid identity document is a req________ for entering the examination room."
+  },
+  "questions": [
+    {
+      "passageId": "lodge",
+      "prompt": "Vocabulary Day 10 · Words 31–45: complete lo___. Enter the missing letters.",
+      "word": "lodge",
+      "prefix": "lo",
+      "answer": "正解：dge → lodge。学習語：lodge。「山小屋・宿泊施設；宿泊する」。ここでは山の宿という名詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qlodge"
+      ]
+    },
+    {
+      "passageId": "meeting",
+      "prompt": "Vocabulary Day 10 · Words 31–45: complete mee____. Enter the missing letters.",
+      "word": "meeting",
+      "prefix": "mee",
+      "answer": "正解：ting → meeting。学習語：meeting。「会議・面会」。委員が集まって問題を話し合う機会です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qmeeting"
+      ]
+    },
+    {
+      "passageId": "notice",
+      "prompt": "Vocabulary Day 10 · Words 31–45: complete not___. Enter the missing letters.",
+      "word": "notice",
+      "prefix": "not",
+      "answer": "正解：ice → notice。学習語：notice。「告知；気付く」。営業時間の変更を知らせる掲示という名詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qnotice"
+      ]
+    },
+    {
+      "passageId": "open",
+      "prompt": "Vocabulary Day 10 · Words 31–45: complete op__. Enter the missing letters.",
+      "word": "open",
+      "prefix": "op",
+      "answer": "正解：en → open。学習語：open。「開いた；開ける」。ここではremainの後の形容詞で、入場できる状態です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qopen"
+      ]
+    },
+    {
+      "passageId": "overview",
+      "prompt": "Vocabulary Day 10 · Words 31–45: complete ove_____. Enter the missing letters.",
+      "word": "overview",
+      "prefix": "ove",
+      "answer": "正解：rview → overview。学習語：overview。「概要・概観」。細部の前に全体の内容を大まかに示します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qoverview"
+      ]
+    },
+    {
+      "passageId": "parking",
+      "prompt": "Vocabulary Day 10 · Words 31–45: complete par____. Enter the missing letters.",
+      "word": "parking",
+      "prefix": "par",
+      "answer": "正解：king → parking。学習語：parking。「駐車」。車を止めておくことです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qparking"
+      ]
+    },
+    {
+      "passageId": "perfect",
+      "prompt": "Vocabulary Day 10 · Words 31–45: complete per____. Enter the missing letters.",
+      "word": "perfect",
+      "prefix": "per",
+      "answer": "正解：fect → perfect。学習語：perfect。「完璧な；完成させる」。ここでは修正が不要なぴったりの状態を表す形容詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qperfect"
+      ]
+    },
+    {
+      "passageId": "playground",
+      "prompt": "Vocabulary Day 10 · Words 31–45: complete pla_______. Enter the missing letters.",
+      "word": "playground",
+      "prefix": "pla",
+      "answer": "正解：yground → playground。学習語：playground。「遊び場」。子供が遊ぶ遊具を備えた場所です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qplayground"
+      ]
+    },
+    {
+      "passageId": "preliminary",
+      "prompt": "Vocabulary Day 10 · Words 31–45: complete pre________. Enter the missing letters.",
+      "word": "preliminary",
+      "prefix": "pre",
+      "answer": "正解：liminary → preliminary。学習語：preliminary。「予備的な・初期の」。最終分析の前段階の結果です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qpreliminary"
+      ]
+    },
+    {
+      "passageId": "preside",
+      "prompt": "Vocabulary Day 10 · Words 31–45: complete pre____. Enter the missing letters.",
+      "word": "preside",
+      "prefix": "pre",
+      "answer": "正解：side → preside。学習語：preside。「議長を務める・司会をする」。preside overで会議を主宰することです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qpreside"
+      ]
+    },
+    {
+      "passageId": "prominently",
+      "prompt": "Vocabulary Day 10 · Words 31–45: complete pro________. Enter the missing letters.",
+      "word": "prominently",
+      "prefix": "pro",
+      "answer": "正解：minently → prominently。学習語：prominently。「目立つように・顕著に」。入口で誰もが気付くよう掲示されています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qprominently"
+      ]
+    },
+    {
+      "passageId": "reading",
+      "prompt": "Vocabulary Day 10 · Words 31–45: complete rea____. Enter the missing letters.",
+      "word": "reading",
+      "prefix": "rea",
+      "answer": "正解：ding → reading。学習語：reading。「読書・読むこと」。本や記事を読む活動です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qreading"
+      ]
+    },
+    {
+      "passageId": "refund",
+      "prompt": "Vocabulary Day 10 · Words 31–45: complete ref___. Enter the missing letters.",
+      "word": "refund",
+      "prefix": "ref",
+      "answer": "正解：und → refund。学習語：refund。「返金する；返金」。この文では支払金を返す動詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qrefund"
+      ]
+    },
+    {
+      "passageId": "remit",
+      "prompt": "Vocabulary Day 10 · Words 31–45: complete re___. Enter the missing letters.",
+      "word": "remit",
+      "prefix": "re",
+      "answer": "正解：mit → remit。学習語：remit。「送金する」。支払うべき金額を送ることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qremit"
+      ]
+    },
+    {
+      "passageId": "requirement",
+      "prompt": "Vocabulary Day 10 · Words 31–45: complete req________. Enter the missing letters.",
+      "word": "requirement",
+      "prefix": "req",
+      "answer": "正解：uirement → requirement。学習語：requirement。「必要条件・要求事項」。入室のために満たす必要がある条件です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qrequirement"
+      ]
+    }
+  ]
+}

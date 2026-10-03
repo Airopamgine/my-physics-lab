@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day14-part3",
+  "title": "Vocabulary Day 14 · Words 31–45 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 15ページ／冊子393ページ · Vocabulary Day 14 · Words 31–45",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "interject": "Please do not int______ while the speaker is finishing the explanation.",
+    "isolation": "The island's iso______ made contact with distant communities difficult.",
+    "landfall": "The voyage ended with lan_____ when the ship reached the coast after weeks at sea.",
+    "linear": "The diagram shows a lin___ path that follows a straight line.",
+    "longevity": "The study compares the lon______ of the materials by measuring how long they remain usable.",
+    "mammal": "A mam___ is an animal of the group characterized by features such as milk-producing glands.",
+    "marketer": "The mar_____ plans how to promote the product and reach potential customers.",
+    "meager": "The family had only mea___ supplies, far too little for the long journey.",
+    "misfiring": "The mechanic investigated the engine's mis______ because it was not firing properly.",
+    "monument": "The stone mon_____ commemorates an important event in the town's history.",
+    "niche": "The small shop found a ni___ in the market by serving customers with unusual needs.",
+    "parsimonious": "The par_________ manager was reluctant to spend even a small amount on necessary supplies.",
+    "perfection": "The artist sought per_______, aiming to produce a work with no flaws.",
+    "petition": "Residents signed a pet_____ formally asking the council to protect the park.",
+    "pioneer": "The researcher was a pio____ who introduced a method that later became widely used."
+  },
+  "questions": [
+    {
+      "passageId": "interject",
+      "prompt": "Vocabulary Day 14 · Words 31–45: complete int______. Enter the missing letters.",
+      "word": "interject",
+      "prefix": "int",
+      "answer": "正解：erject → interject。学習語：interject。「口を挟む」。説明の途中で話を差し挟むことです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qinterject"
+      ]
+    },
+    {
+      "passageId": "isolation",
+      "prompt": "Vocabulary Day 14 · Words 31–45: complete iso______. Enter the missing letters.",
+      "word": "isolation",
+      "prefix": "iso",
+      "answer": "正解：lation → isolation。学習語：isolation。「孤立・隔離」。離れた場所にあり、他の共同体と接触しにくいことです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qisolation"
+      ]
+    },
+    {
+      "passageId": "landfall",
+      "prompt": "Vocabulary Day 14 · Words 31–45: complete lan_____. Enter the missing letters.",
+      "word": "landfall",
+      "prefix": "lan",
+      "answer": "正解：dfall → landfall。学習語：landfall。「陸地への到達・上陸」。航海後に海岸へ到達したことです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qlandfall"
+      ]
+    },
+    {
+      "passageId": "linear",
+      "prompt": "Vocabulary Day 14 · Words 31–45: complete lin___. Enter the missing letters.",
+      "word": "linear",
+      "prefix": "lin",
+      "answer": "正解：ear → linear。学習語：linear。「直線の・線形の」。この文ではまっすぐな経路です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qlinear"
+      ]
+    },
+    {
+      "passageId": "longevity",
+      "prompt": "Vocabulary Day 14 · Words 31–45: complete lon______. Enter the missing letters.",
+      "word": "longevity",
+      "prefix": "lon",
+      "answer": "正解：gevity → longevity。学習語：longevity。「寿命・長命」。ここでは材料が使える状態で保つ期間です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qlongevity"
+      ]
+    },
+    {
+      "passageId": "mammal",
+      "prompt": "Vocabulary Day 14 · Words 31–45: complete mam___. Enter the missing letters.",
+      "word": "mammal",
+      "prefix": "mam",
+      "answer": "正解：mal → mammal。学習語：mammal。「哺乳類」。乳腺などの特徴で分類される動物です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qmammal"
+      ]
+    },
+    {
+      "passageId": "marketer",
+      "prompt": "Vocabulary Day 14 · Words 31–45: complete mar_____. Enter the missing letters.",
+      "word": "marketer",
+      "prefix": "mar",
+      "answer": "正解：keter → marketer。学習語：marketer。「マーケティング担当者」。製品の宣伝や顧客への働き掛けを企画する人です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qmarketer"
+      ]
+    },
+    {
+      "passageId": "meager",
+      "prompt": "Vocabulary Day 14 · Words 31–45: complete mea___. Enter the missing letters.",
+      "word": "meager",
+      "prefix": "mea",
+      "answer": "正解：ger → meager。学習語：meager。「乏しい・不足した」。長旅には足りない物資しかありません。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qmeager"
+      ]
+    },
+    {
+      "passageId": "misfiring",
+      "prompt": "Vocabulary Day 14 · Words 31–45: complete mis______. Enter the missing letters.",
+      "word": "misfiring",
+      "prefix": "mis",
+      "answer": "正解：firing → misfiring。学習語：misfiring。「点火不良・不発；失敗」。この文ではエンジンが正しく点火しないことです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qmisfiring"
+      ]
+    },
+    {
+      "passageId": "monument",
+      "prompt": "Vocabulary Day 14 · Words 31–45: complete mon_____. Enter the missing letters.",
+      "word": "monument",
+      "prefix": "mon",
+      "answer": "正解：ument → monument。学習語：monument。「記念碑・記念建造物」。歴史上の出来事を記念する構造物です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qmonument"
+      ]
+    },
+    {
+      "passageId": "niche",
+      "prompt": "Vocabulary Day 14 · Words 31–45: complete ni___. Enter the missing letters.",
+      "word": "niche",
+      "prefix": "ni",
+      "answer": "正解：che → niche。学習語：niche。「適所・隙間」。ここでは特定の需要を満たす市場の一区分です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qniche"
+      ]
+    },
+    {
+      "passageId": "parsimonious",
+      "prompt": "Vocabulary Day 14 · Words 31–45: complete par_________. Enter the missing letters.",
+      "word": "parsimonious",
+      "prefix": "par",
+      "answer": "正解：simonious → parsimonious。学習語：parsimonious。「けちな・出し惜しみする」。原本の意味に合わせ、必要な品にもお金を使いたがらない人物です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qparsimonious"
+      ]
+    },
+    {
+      "passageId": "perfection",
+      "prompt": "Vocabulary Day 14 · Words 31–45: complete per_______. Enter the missing letters.",
+      "word": "perfection",
+      "prefix": "per",
+      "answer": "正解：fection → perfection。学習語：perfection。「完全・完璧」。欠点のない状態を目指しています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qperfection"
+      ]
+    },
+    {
+      "passageId": "petition",
+      "prompt": "Vocabulary Day 14 · Words 31–45: complete pet_____. Enter the missing letters.",
+      "word": "petition",
+      "prefix": "pet",
+      "answer": "正解：ition → petition。学習語：petition。「請願書；請願する」。市議会への正式な要望をまとめた書類です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qpetition"
+      ]
+    },
+    {
+      "passageId": "pioneer",
+      "prompt": "Vocabulary Day 14 · Words 31–45: complete pio____. Enter the missing letters.",
+      "word": "pioneer",
+      "prefix": "pio",
+      "answer": "正解：neer → pioneer。学習語：pioneer。「先駆者；切り開く」。後の研究に広がる方法を最初に導入した人です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qpioneer"
+      ]
+    }
+  ]
+}

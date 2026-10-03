@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day15-part2",
+  "title": "Vocabulary Day 15 · Words 16–30 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 16ページ／冊子394ページ · Vocabulary Day 15 · Words 16–30",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "counterweight": "The heavy cou__________ balances the load on the other side of the mechanism.",
+    "cultivation": "The cul________ of crops requires preparing the soil and caring for the plants.",
+    "deduce": "From the available clues, the investigator could ded___ that the window had been opened earlier.",
+    "deplete": "Using the remaining supplies too quickly will dep____ the store before help arrives.",
+    "digestion": "The lesson explains dig______ as the process of breaking food down in the body.",
+    "disengagement": "The mechanism allows dis__________ of the two connected parts so they can move separately.",
+    "distract": "The loud noise may dis_____ students and draw their attention away from the lesson.",
+    "elevation": "The map gives the ele______ of the summit as its height above sea level.",
+    "entail": "Expanding the project will ent___ additional work and require more time.",
+    "evaporation": "The experiment observed eva________ as liquid water gradually became vapor.",
+    "extinction": "The species faced ext_______ when its last remaining population disappeared.",
+    "feudalism": "The history lesson discusses feu______ as a traditional system involving landholding and service obligations.",
+    "geographic": "The report compares geo_______ features such as rivers, mountains, and coastlines.",
+    "hull": "The boat's hu__ forms the main body that keeps the vessel afloat.",
+    "imperial": "The museum displays an imp_____ decree issued by the emperor."
+  },
+  "questions": [
+    {
+      "passageId": "counterweight",
+      "prompt": "Vocabulary Day 15 · Words 16–30: complete cou__________. Enter the missing letters.",
+      "word": "counterweight",
+      "prefix": "cou",
+      "answer": "正解：nterweight → counterweight。学習語：counterweight。「釣り合いおもり」。反対側の荷重とバランスを取るための重りです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qcounterweight"
+      ]
+    },
+    {
+      "passageId": "cultivation",
+      "prompt": "Vocabulary Day 15 · Words 16–30: complete cul________. Enter the missing letters.",
+      "word": "cultivation",
+      "prefix": "cul",
+      "answer": "正解：tivation → cultivation。学習語：cultivation。「耕作・育成」。作物を育てるための作業です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qcultivation"
+      ]
+    },
+    {
+      "passageId": "deduce",
+      "prompt": "Vocabulary Day 15 · Words 16–30: complete ded___. Enter the missing letters.",
+      "word": "deduce",
+      "prefix": "ded",
+      "answer": "正解：uce → deduce。学習語：deduce。「推論する・演繹する」。手掛かりから結論を導く動詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qdeduce"
+      ]
+    },
+    {
+      "passageId": "deplete",
+      "prompt": "Vocabulary Day 15 · Words 16–30: complete dep____. Enter the missing letters.",
+      "word": "deplete",
+      "prefix": "dep",
+      "answer": "正解：lete → deplete。学習語：deplete。「使い果たす・減らす」。支援が来る前に物資を消耗させることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qdeplete"
+      ]
+    },
+    {
+      "passageId": "digestion",
+      "prompt": "Vocabulary Day 15 · Words 16–30: complete dig______. Enter the missing letters.",
+      "word": "digestion",
+      "prefix": "dig",
+      "answer": "正解：estion → digestion。学習語：digestion。「消化」。体内で食べ物を分解する過程です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qdigestion"
+      ]
+    },
+    {
+      "passageId": "disengagement",
+      "prompt": "Vocabulary Day 15 · Words 16–30: complete dis__________. Enter the missing letters.",
+      "word": "disengagement",
+      "prefix": "dis",
+      "answer": "正解：engagement → disengagement。学習語：disengagement。「離脱・分離」。結合した部品を切り離すことです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qdisengagement"
+      ]
+    },
+    {
+      "passageId": "distract",
+      "prompt": "Vocabulary Day 15 · Words 16–30: complete dis_____. Enter the missing letters.",
+      "word": "distract",
+      "prefix": "dis",
+      "answer": "正解：tract → distract。学習語：distract。「注意をそらす」。騒音によって授業への集中が妨げられます。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qdistract"
+      ]
+    },
+    {
+      "passageId": "elevation",
+      "prompt": "Vocabulary Day 15 · Words 16–30: complete ele______. Enter the missing letters.",
+      "word": "elevation",
+      "prefix": "ele",
+      "answer": "正解：vation → elevation。学習語：elevation。「標高・上昇・立面図」。ここでは海面から測った山頂の高さです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qelevation"
+      ]
+    },
+    {
+      "passageId": "entail",
+      "prompt": "Vocabulary Day 15 · Words 16–30: complete ent___. Enter the missing letters.",
+      "word": "entail",
+      "prefix": "ent",
+      "answer": "正解：ail → entail。学習語：entail。「伴う・必要とする」。拡大により追加作業が必要になります。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qentail"
+      ]
+    },
+    {
+      "passageId": "evaporation",
+      "prompt": "Vocabulary Day 15 · Words 16–30: complete eva________. Enter the missing letters.",
+      "word": "evaporation",
+      "prefix": "eva",
+      "answer": "正解：poration → evaporation。学習語：evaporation。「蒸発」。液体が気体になる過程です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qevaporation"
+      ]
+    },
+    {
+      "passageId": "extinction",
+      "prompt": "Vocabulary Day 15 · Words 16–30: complete ext_______. Enter the missing letters.",
+      "word": "extinction",
+      "prefix": "ext",
+      "answer": "正解：inction → extinction。学習語：extinction。「絶滅・消滅」。その種が残らなくなることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qextinction"
+      ]
+    },
+    {
+      "passageId": "feudalism",
+      "prompt": "Vocabulary Day 15 · Words 16–30: complete feu______. Enter the missing letters.",
+      "word": "feudalism",
+      "prefix": "feu",
+      "answer": "正解：dalism → feudalism。学習語：feudalism。「封建制」。土地の保有や奉仕の義務に基づく歴史的な制度を指します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qfeudalism"
+      ]
+    },
+    {
+      "passageId": "geographic",
+      "prompt": "Vocabulary Day 15 · Words 16–30: complete geo_______. Enter the missing letters.",
+      "word": "geographic",
+      "prefix": "geo",
+      "answer": "正解：graphic → geographic。学習語：geographic。「地理的な」。地形や位置に関わる特徴を修飾します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qgeographic"
+      ]
+    },
+    {
+      "passageId": "hull",
+      "prompt": "Vocabulary Day 15 · Words 16–30: complete hu__. Enter the missing letters.",
+      "word": "hull",
+      "prefix": "hu",
+      "answer": "正解：ll → hull。学習語：hull。「船体・外殻・穀物の殻」。この文では船の主要な胴体部分です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qhull"
+      ]
+    },
+    {
+      "passageId": "imperial",
+      "prompt": "Vocabulary Day 15 · Words 16–30: complete imp_____. Enter the missing letters.",
+      "word": "imperial",
+      "prefix": "imp",
+      "answer": "正解：erial → imperial。学習語：imperial。「帝国の・皇帝の」。皇帝が発した命令を修飾します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qimperial"
+      ]
+    }
+  ]
+}

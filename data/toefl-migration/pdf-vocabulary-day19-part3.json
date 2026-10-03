@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day19-part3",
+  "title": "Vocabulary Day 19 · Words 31–45 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 20ページ／冊子398ページ · Vocabulary Day 19 · Words 31–45",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "inflammation": "The anatomy lesson describes inf_________ as a response of tissue to injury or other harmful stimuli.",
+    "insurmountable": "The team regarded the obstacle as ins___________ because it seemed impossible to overcome.",
+    "irregularity": "The report notes an irr_________ in the pattern: the intervals are not all the same.",
+    "keystone": "The key_____ is the central stone at the top of the arch that helps hold the other stones in position.",
+    "lifespan": "The record gives the organism's lif_____, the length of time it lives.",
+    "mating": "The observations concern mat___, the reproductive pairing behavior of the animals.",
+    "megalithic": "The archaeologist studies a meg_______ monument built with very large stones.",
+    "modulate": "The speaker can mod_____ her voice by varying its pitch and volume.",
+    "neural": "The diagram traces neu___ pathways involved in sending signals through the nervous system.",
+    "nutrition": "The course studies nut______, including how food provides substances needed by the body.",
+    "pancreas": "The diagram identifies the pan_____ as a gland involved in digestion and blood sugar regulation.",
+    "people": "Settlers began to peo___ the previously uninhabited region by moving there to live.",
+    "perspiration": "After the strenuous activity, per_________ appeared on her skin as sweat.",
+    "phrase": "Please phr___ the question clearly by choosing words that express exactly what you mean.",
+    "plagiarism": "Submitting another person's writing as one's own is pla_______."
+  },
+  "questions": [
+    {
+      "passageId": "inflammation",
+      "prompt": "Vocabulary Day 19 · Words 31–45: complete inf_________. Enter the missing letters.",
+      "word": "inflammation",
+      "prefix": "inf",
+      "answer": "正解：lammation → inflammation。学習語：inflammation。「炎症」。組織が損傷などの刺激に反応することです。感染そのものを意味する語ではありません。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qinflammation"
+      ]
+    },
+    {
+      "passageId": "insurmountable",
+      "prompt": "Vocabulary Day 19 · Words 31–45: complete ins___________. Enter the missing letters.",
+      "word": "insurmountable",
+      "prefix": "ins",
+      "answer": "正解：urmountable → insurmountable。学習語：insurmountable。「克服できない」。乗り越えられそうにない障害です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qinsurmountable"
+      ]
+    },
+    {
+      "passageId": "irregularity",
+      "prompt": "Vocabulary Day 19 · Words 31–45: complete irr_________. Enter the missing letters.",
+      "word": "irregularity",
+      "prefix": "irr",
+      "answer": "正解：egularity → irregularity。学習語：irregularity。「不規則性・不整」。間隔が一定でないことです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qirregularity"
+      ]
+    },
+    {
+      "passageId": "keystone",
+      "prompt": "Vocabulary Day 19 · Words 31–45: complete key_____. Enter the missing letters.",
+      "word": "keystone",
+      "prefix": "key",
+      "answer": "正解：stone → keystone。学習語：keystone。「要石・核心」。この文ではアーチの頂部中央にある石です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qkeystone"
+      ]
+    },
+    {
+      "passageId": "lifespan",
+      "prompt": "Vocabulary Day 19 · Words 31–45: complete lif_____. Enter the missing letters.",
+      "word": "lifespan",
+      "prefix": "lif",
+      "answer": "正解：espan → lifespan。学習語：lifespan。「寿命」。生物が生きている期間です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qlifespan"
+      ]
+    },
+    {
+      "passageId": "mating",
+      "prompt": "Vocabulary Day 19 · Words 31–45: complete mat___. Enter the missing letters.",
+      "word": "mating",
+      "prefix": "mat",
+      "answer": "正解：ing → mating。学習語：mating。「交尾・つがい形成」。動物の繁殖に関わる組合せや行動です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qmating"
+      ]
+    },
+    {
+      "passageId": "megalithic",
+      "prompt": "Vocabulary Day 19 · Words 31–45: complete meg_______. Enter the missing letters.",
+      "word": "megalithic",
+      "prefix": "meg",
+      "answer": "正解：alithic → megalithic。学習語：megalithic。「巨石の・巨石を用いた」。巨大な石で造られた記念建造物を修飾します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qmegalithic"
+      ]
+    },
+    {
+      "passageId": "modulate",
+      "prompt": "Vocabulary Day 19 · Words 31–45: complete mod_____. Enter the missing letters.",
+      "word": "modulate",
+      "prefix": "mod",
+      "answer": "正解：ulate → modulate。学習語：modulate。「調整する・変調する」。声の高さや大きさを変えることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qmodulate"
+      ]
+    },
+    {
+      "passageId": "neural",
+      "prompt": "Vocabulary Day 19 · Words 31–45: complete neu___. Enter the missing letters.",
+      "word": "neural",
+      "prefix": "neu",
+      "answer": "正解：ral → neural。学習語：neural。「神経の」。神経系で信号を伝える経路を修飾します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qneural"
+      ]
+    },
+    {
+      "passageId": "nutrition",
+      "prompt": "Vocabulary Day 19 · Words 31–45: complete nut______. Enter the missing letters.",
+      "word": "nutrition",
+      "prefix": "nut",
+      "answer": "正解：rition → nutrition。学習語：nutrition。「栄養・栄養学」。食物から体に必要なものを得ることを扱います。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qnutrition"
+      ]
+    },
+    {
+      "passageId": "pancreas",
+      "prompt": "Vocabulary Day 19 · Words 31–45: complete pan_____. Enter the missing letters.",
+      "word": "pancreas",
+      "prefix": "pan",
+      "answer": "正解：creas → pancreas。学習語：pancreas。「膵臓」。消化や血糖の調節に関わる器官です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qpancreas"
+      ]
+    },
+    {
+      "passageId": "people",
+      "prompt": "Vocabulary Day 19 · Words 31–45: complete peo___. Enter the missing letters.",
+      "word": "people",
+      "prefix": "peo",
+      "answer": "正解：ple → people。学習語：people。「人々；人を住まわせる・居住する」。この文では後者の動詞用法です。名詞としての複数形も原本の学習対象です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qpeople"
+      ]
+    },
+    {
+      "passageId": "perspiration",
+      "prompt": "Vocabulary Day 19 · Words 31–45: complete per_________. Enter the missing letters.",
+      "word": "perspiration",
+      "prefix": "per",
+      "answer": "正解：spiration → perspiration。学習語：perspiration。「汗・発汗」。激しい活動の後に汗をかいたことです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qperspiration"
+      ]
+    },
+    {
+      "passageId": "phrase",
+      "prompt": "Vocabulary Day 19 · Words 31–45: complete phr___. Enter the missing letters.",
+      "word": "phrase",
+      "prefix": "phr",
+      "answer": "正解：ase → phrase。学習語：phrase。「言い表す；句」。この文では言葉を選んで表現する動詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qphrase"
+      ]
+    },
+    {
+      "passageId": "plagiarism",
+      "prompt": "Vocabulary Day 19 · Words 31–45: complete pla_______. Enter the missing letters.",
+      "word": "plagiarism",
+      "prefix": "pla",
+      "answer": "正解：giarism → plagiarism。学習語：plagiarism。「盗用・剽窃」。他人の文章を自分のものとして提出することです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qplagiarism"
+      ]
+    }
+  ]
+}

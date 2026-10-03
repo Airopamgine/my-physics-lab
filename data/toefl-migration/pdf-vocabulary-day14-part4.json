@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day14-part4",
+  "title": "Vocabulary Day 14 · Words 46–60 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 15ページ／冊子393ページ · Vocabulary Day 14 · Words 46–60",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "policymaker": "A pol________ helps develop rules and plans used to guide public decisions.",
+    "precipitation": "The weather station records pre__________, including rain and snow falling from the atmosphere.",
+    "preservative": "The manufacturer added a pre_________ to help prevent the food from spoiling.",
+    "prone": "The old machine is pr___ to breakdowns, so failures occur frequently.",
+    "ramification": "An unexpected ram_________ of the change was an increase in waiting time.",
+    "refinement": "A small ref_______ of the design made it more accurate and easier to use.",
+    "repetition": "Learning the sequence required rep_______, with students practicing it many times.",
+    "resurface": "The debate may res______ when the subject is discussed again next year.",
+    "robust": "The rob___ container withstands rough handling without breaking.",
+    "sanitation": "The project improves san_______ by providing safe waste disposal and clean facilities.",
+    "segregation": "The policy enforced seg________ by keeping different groups apart.",
+    "sovereign": "The sov______ state governs itself rather than being controlled by another state.",
+    "suburb": "They moved to a sub___, a residential area outside the city center.",
+    "transfer": "Please tra_____ the files from the old computer to the new one.",
+    "undeniably": "The repair is und_______ necessary because the bridge cannot safely be used as it is."
+  },
+  "questions": [
+    {
+      "passageId": "policymaker",
+      "prompt": "Vocabulary Day 14 · Words 46–60: complete pol________. Enter the missing letters.",
+      "word": "policymaker",
+      "prefix": "pol",
+      "answer": "正解：icymaker → policymaker。学習語：policymaker。「政策立案者」。公共の判断を導く方針を作る人です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qpolicymaker"
+      ]
+    },
+    {
+      "passageId": "precipitation",
+      "prompt": "Vocabulary Day 14 · Words 46–60: complete pre__________. Enter the missing letters.",
+      "word": "precipitation",
+      "prefix": "pre",
+      "answer": "正解：cipitation → precipitation。学習語：precipitation。「降水・降水量；沈殿」。この文では大気から落ちる雨や雪です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qprecipitation"
+      ]
+    },
+    {
+      "passageId": "preservative",
+      "prompt": "Vocabulary Day 14 · Words 46–60: complete pre_________. Enter the missing letters.",
+      "word": "preservative",
+      "prefix": "pre",
+      "answer": "正解：servative → preservative。学習語：preservative。「保存料；保存する」。この文では食品の劣化を抑える添加物です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qpreservative"
+      ]
+    },
+    {
+      "passageId": "prone",
+      "prompt": "Vocabulary Day 14 · Words 46–60: complete pr___. Enter the missing letters.",
+      "word": "prone",
+      "prefix": "pr",
+      "answer": "正解：one → prone。学習語：prone。「〜しがちな・うつ伏せの」。prone toで、故障しやすいことです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qprone"
+      ]
+    },
+    {
+      "passageId": "ramification",
+      "prompt": "Vocabulary Day 14 · Words 46–60: complete ram_________. Enter the missing letters.",
+      "word": "ramification",
+      "prefix": "ram",
+      "answer": "正解：ification → ramification。学習語：ramification。「派生する影響・結果」。変更から生じた予期しない影響です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qramification"
+      ]
+    },
+    {
+      "passageId": "refinement",
+      "prompt": "Vocabulary Day 14 · Words 46–60: complete ref_______. Enter the missing letters.",
+      "word": "refinement",
+      "prefix": "ref",
+      "answer": "正解：inement → refinement。学習語：refinement。「改良・洗練・精製」。ここでは設計をさらによくする調整です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qrefinement"
+      ]
+    },
+    {
+      "passageId": "repetition",
+      "prompt": "Vocabulary Day 14 · Words 46–60: complete rep_______. Enter the missing letters.",
+      "word": "repetition",
+      "prefix": "rep",
+      "answer": "正解：etition → repetition。学習語：repetition。「反復」。同じ手順を何度も練習しています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qrepetition"
+      ]
+    },
+    {
+      "passageId": "resurface",
+      "prompt": "Vocabulary Day 14 · Words 46–60: complete res______. Enter the missing letters.",
+      "word": "resurface",
+      "prefix": "res",
+      "answer": "正解：urface → resurface。学習語：resurface。「再び現れる」。来年その話題を扱うと議論が再燃するかもしれません。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qresurface"
+      ]
+    },
+    {
+      "passageId": "robust",
+      "prompt": "Vocabulary Day 14 · Words 46–60: complete rob___. Enter the missing letters.",
+      "word": "robust",
+      "prefix": "rob",
+      "answer": "正解：ust → robust。学習語：robust。「頑丈な・強健な」。乱暴に扱っても壊れにくい容器です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qrobust"
+      ]
+    },
+    {
+      "passageId": "sanitation",
+      "prompt": "Vocabulary Day 14 · Words 46–60: complete san_______. Enter the missing letters.",
+      "word": "sanitation",
+      "prefix": "san",
+      "answer": "正解：itation → sanitation。学習語：sanitation。「衛生・環境衛生」。廃棄物の処理や清潔な設備を整えることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qsanitation"
+      ]
+    },
+    {
+      "passageId": "segregation",
+      "prompt": "Vocabulary Day 14 · Words 46–60: complete seg________. Enter the missing letters.",
+      "word": "segregation",
+      "prefix": "seg",
+      "answer": "正解：regation → segregation。学習語：segregation。「分離・隔離」。異なる集団を別々にする措置です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qsegregation"
+      ]
+    },
+    {
+      "passageId": "sovereign",
+      "prompt": "Vocabulary Day 14 · Words 46–60: complete sov______. Enter the missing letters.",
+      "word": "sovereign",
+      "prefix": "sov",
+      "answer": "正解：ereign → sovereign。学習語：sovereign。「主権を持つ；君主」。ここでは他国の支配を受けず統治する国です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qsovereign"
+      ]
+    },
+    {
+      "passageId": "suburb",
+      "prompt": "Vocabulary Day 14 · Words 46–60: complete sub___. Enter the missing letters.",
+      "word": "suburb",
+      "prefix": "sub",
+      "answer": "正解：urb → suburb。学習語：suburb。「郊外」。市の中心の外側にある住宅地です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qsuburb"
+      ]
+    },
+    {
+      "passageId": "transfer",
+      "prompt": "Vocabulary Day 14 · Words 46–60: complete tra_____. Enter the missing letters.",
+      "word": "transfer",
+      "prefix": "tra",
+      "answer": "正解：nsfer → transfer。学習語：transfer。「移す；移動」。ファイルを別のコンピューターへ移す動詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qtransfer"
+      ]
+    },
+    {
+      "passageId": "undeniably",
+      "prompt": "Vocabulary Day 14 · Words 46–60: complete und_______. Enter the missing letters.",
+      "word": "undeniably",
+      "prefix": "und",
+      "answer": "正解：eniably → undeniably。学習語：undeniably。「否定できないほど・明らかに」。現状では安全に使えず、修理が必要であることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qundeniably"
+      ]
+    }
+  ]
+}

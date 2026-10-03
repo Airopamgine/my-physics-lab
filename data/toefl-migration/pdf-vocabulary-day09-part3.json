@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day09-part3",
+  "title": "Vocabulary Day 09 · Words 31–45 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 10ページ／冊子388ページ · Vocabulary Day 09 · Words 31–45",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "local": "The lo___ newspaper reports mainly on events in this town.",
+    "meal": "The restaurant serves a complete me__ with soup, a main dish, and dessert.",
+    "nominal": "Students pay only a nom____ fee of one dollar to register.",
+    "office": "The adviser works in an off___ on the second floor of the building.",
+    "outdoor": "The out____ concert will be held in the park rather than inside the hall.",
+    "paperwork": "Completing the required forms is part of the pap______ for registration.",
+    "payment": "Your order will be processed after we receive the pay____ for the goods.",
+    "platform": "The speaker stood on a raised pla_____ so everyone could see her.",
+    "preference": "Please indicate your pre_______ for a window seat or an aisle seat.",
+    "presenter": "The pre______ introduced the topic and explained the main findings to the audience.",
+    "project": "The team began a new pro____ to renovate the public garden.",
+    "quiet": "The library asks visitors to remain qu___ so others can concentrate.",
+    "refreshment": "Cold water was offered as ref________ after the long walk.",
+    "reminder": "The calendar sends a rem_____ to help you remember the appointment.",
+    "request": "The visitor made a req____ for permission to use the archive."
+  },
+  "questions": [
+    {
+      "passageId": "local",
+      "prompt": "Vocabulary Day 09 · Words 31–45: complete lo___. Enter the missing letters.",
+      "word": "local",
+      "prefix": "lo",
+      "answer": "正解：cal → local。学習語：local。「地元の・地域の」。その町の出来事を中心に扱う新聞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qlocal"
+      ]
+    },
+    {
+      "passageId": "meal",
+      "prompt": "Vocabulary Day 09 · Words 31–45: complete me__. Enter the missing letters.",
+      "word": "meal",
+      "prefix": "me",
+      "answer": "正解：al → meal。学習語：meal。「食事」。スープからデザートまでを含む一回の食事です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qmeal"
+      ]
+    },
+    {
+      "passageId": "nominal",
+      "prompt": "Vocabulary Day 09 · Words 31–45: complete nom____. Enter the missing letters.",
+      "word": "nominal",
+      "prefix": "nom",
+      "answer": "正解：inal → nominal。学習語：nominal。「少額の・名目上の」。ここでは一ドルだけというわずかな料金を修飾します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qnominal"
+      ]
+    },
+    {
+      "passageId": "office",
+      "prompt": "Vocabulary Day 09 · Words 31–45: complete off___. Enter the missing letters.",
+      "word": "office",
+      "prefix": "off",
+      "answer": "正解：ice → office。学習語：office。「事務室・オフィス」。建物の二階にある仕事用の部屋です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qoffice"
+      ]
+    },
+    {
+      "passageId": "outdoor",
+      "prompt": "Vocabulary Day 09 · Words 31–45: complete out____. Enter the missing letters.",
+      "word": "outdoor",
+      "prefix": "out",
+      "answer": "正解：door → outdoor。学習語：outdoor。「屋外の」。ホール内ではなく公園で行うコンサートです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qoutdoor"
+      ]
+    },
+    {
+      "passageId": "paperwork",
+      "prompt": "Vocabulary Day 09 · Words 31–45: complete pap______. Enter the missing letters.",
+      "word": "paperwork",
+      "prefix": "pap",
+      "answer": "正解：erwork → paperwork。学習語：paperwork。「書類事務」。登録に必要な書式を記入する作業です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qpaperwork"
+      ]
+    },
+    {
+      "passageId": "payment",
+      "prompt": "Vocabulary Day 09 · Words 31–45: complete pay____. Enter the missing letters.",
+      "word": "payment",
+      "prefix": "pay",
+      "answer": "正解：ment → payment。学習語：payment。「支払い・決済」。代金の受領後に注文を処理します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qpayment"
+      ]
+    },
+    {
+      "passageId": "platform",
+      "prompt": "Vocabulary Day 09 · Words 31–45: complete pla_____. Enter the missing letters.",
+      "word": "platform",
+      "prefix": "pla",
+      "answer": "正解：tform → platform。学習語：platform。「壇・プラットフォーム」。話者が立つ高くした台を指します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qplatform"
+      ]
+    },
+    {
+      "passageId": "preference",
+      "prompt": "Vocabulary Day 09 · Words 31–45: complete pre_______. Enter the missing letters.",
+      "word": "preference",
+      "prefix": "pre",
+      "answer": "正解：ference → preference。学習語：preference。「好み・選好」。どちらの座席を望むかを示します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qpreference"
+      ]
+    },
+    {
+      "passageId": "presenter",
+      "prompt": "Vocabulary Day 09 · Words 31–45: complete pre______. Enter the missing letters.",
+      "word": "presenter",
+      "prefix": "pre",
+      "answer": "正解：senter → presenter。学習語：presenter。「発表者」。聴衆に研究内容を説明する人です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qpresenter"
+      ]
+    },
+    {
+      "passageId": "project",
+      "prompt": "Vocabulary Day 09 · Words 31–45: complete pro____. Enter the missing letters.",
+      "word": "project",
+      "prefix": "pro",
+      "answer": "正解：ject → project。学習語：project。「事業・プロジェクト；投射する」。この文では庭園を改修する計画という名詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qproject"
+      ]
+    },
+    {
+      "passageId": "quiet",
+      "prompt": "Vocabulary Day 09 · Words 31–45: complete qu___. Enter the missing letters.",
+      "word": "quiet",
+      "prefix": "qu",
+      "answer": "正解：iet → quiet。学習語：quiet。「静かな；静けさ」。ここではremainの後の形容詞で、音を立てない状態です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qquiet"
+      ]
+    },
+    {
+      "passageId": "refreshment",
+      "prompt": "Vocabulary Day 09 · Words 31–45: complete ref________. Enter the missing letters.",
+      "word": "refreshment",
+      "prefix": "ref",
+      "answer": "正解：reshment → refreshment。学習語：refreshment。「軽食・飲み物による休息」。長い散歩の後に喉を潤す水が提供されています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qrefreshment"
+      ]
+    },
+    {
+      "passageId": "reminder",
+      "prompt": "Vocabulary Day 09 · Words 31–45: complete rem_____. Enter the missing letters.",
+      "word": "reminder",
+      "prefix": "rem",
+      "answer": "正解：inder → reminder。学習語：reminder。「通知・思い出させるもの」。面会の予定を忘れないようにする通知です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qreminder"
+      ]
+    },
+    {
+      "passageId": "request",
+      "prompt": "Vocabulary Day 09 · Words 31–45: complete req____. Enter the missing letters.",
+      "word": "request",
+      "prefix": "req",
+      "answer": "正解：uest → request。学習語：request。「依頼・要求；依頼する」。資料庫の利用許可を求める名詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qrequest"
+      ]
+    }
+  ]
+}

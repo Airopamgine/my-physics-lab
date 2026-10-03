@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day10-part2",
+  "title": "Vocabulary Day 10 · Words 16–30 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 11ページ／冊子389ページ · Vocabulary Day 10 · Words 16–30",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "deadline": "The dea_____ for submitting applications is Friday, and late submissions are not accepted.",
+    "device": "The small electronic dev___ measures the room's temperature.",
+    "documentation": "The instructions require doc__________ proving that the equipment was inspected.",
+    "emergency": "In an eme______ such as a fire, leave by the nearest safe exit.",
+    "evacuation": "The drill practices the safe eva_______ of everyone from the building.",
+    "expenditure": "The report lists the company's exp________ on equipment and supplies.",
+    "external": "The damage affected only the ext_____ surface, leaving the inside untouched.",
+    "fee": "There is a small f__ to enter the exhibition.",
+    "glad": "I am gl__ that the missing notebook has been found.",
+    "headquarters": "The organization's hea_________ houses its central management team.",
+    "iconic": "The building has an ico___ shape that is widely recognized as a symbol of the city.",
+    "infringe": "Copying the protected design without permission may inf_____ the creator's rights.",
+    "intensive": "The course offers int______ training with many hours of practice each day.",
+    "keynote": "The conference begins with a key____ speech setting out its main theme.",
+    "least": "Choose the option that requires the le___ amount of time."
+  },
+  "questions": [
+    {
+      "passageId": "deadline",
+      "prompt": "Vocabulary Day 10 · Words 16–30: complete dea_____. Enter the missing letters.",
+      "word": "deadline",
+      "prefix": "dea",
+      "answer": "正解：dline → deadline。学習語：deadline。「締切日・期限」。申請を提出できる最終日です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qdeadline"
+      ]
+    },
+    {
+      "passageId": "device",
+      "prompt": "Vocabulary Day 10 · Words 16–30: complete dev___. Enter the missing letters.",
+      "word": "device",
+      "prefix": "dev",
+      "answer": "正解：ice → device。学習語：device。「装置・機器」。温度を測る電子機器です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qdevice"
+      ]
+    },
+    {
+      "passageId": "documentation",
+      "prompt": "Vocabulary Day 10 · Words 16–30: complete doc__________. Enter the missing letters.",
+      "word": "documentation",
+      "prefix": "doc",
+      "answer": "正解：umentation → documentation。学習語：documentation。「書類・文書化」。点検した事実を証明する文書が必要です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qdocumentation"
+      ]
+    },
+    {
+      "passageId": "emergency",
+      "prompt": "Vocabulary Day 10 · Words 16–30: complete eme______. Enter the missing letters.",
+      "word": "emergency",
+      "prefix": "eme",
+      "answer": "正解：rgency → emergency。学習語：emergency。「緊急事態」。火事のように直ちに対応すべき状況です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qemergency"
+      ]
+    },
+    {
+      "passageId": "evacuation",
+      "prompt": "Vocabulary Day 10 · Words 16–30: complete eva_______. Enter the missing letters.",
+      "word": "evacuation",
+      "prefix": "eva",
+      "answer": "正解：cuation → evacuation。学習語：evacuation。「避難・撤収」。建物から全員を安全に退出させることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qevacuation"
+      ]
+    },
+    {
+      "passageId": "expenditure",
+      "prompt": "Vocabulary Day 10 · Words 16–30: complete exp________. Enter the missing letters.",
+      "word": "expenditure",
+      "prefix": "exp",
+      "answer": "正解：enditure → expenditure。学習語：expenditure。「支出・経費」。設備や消耗品に使った金額です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qexpenditure"
+      ]
+    },
+    {
+      "passageId": "external",
+      "prompt": "Vocabulary Day 10 · Words 16–30: complete ext_____. Enter the missing letters.",
+      "word": "external",
+      "prefix": "ext",
+      "answer": "正解：ernal → external。学習語：external。「外部の・外的な」。内部と対比して、外側の表面を指します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qexternal"
+      ]
+    },
+    {
+      "passageId": "fee",
+      "prompt": "Vocabulary Day 10 · Words 16–30: complete f__. Enter the missing letters.",
+      "word": "fee",
+      "prefix": "f",
+      "answer": "正解：ee → fee。学習語：fee。「料金・手数料」。展示へ入場する際に払う代金です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qfee"
+      ]
+    },
+    {
+      "passageId": "glad",
+      "prompt": "Vocabulary Day 10 · Words 16–30: complete gl__. Enter the missing letters.",
+      "word": "glad",
+      "prefix": "gl",
+      "answer": "正解：ad → glad。学習語：glad。「うれしい・喜んでいる」。ノートが見つかったことを喜ぶ形容詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qglad"
+      ]
+    },
+    {
+      "passageId": "headquarters",
+      "prompt": "Vocabulary Day 10 · Words 16–30: complete hea_________. Enter the missing letters.",
+      "word": "headquarters",
+      "prefix": "hea",
+      "answer": "正解：dquarters → headquarters。学習語：headquarters。「本部」。組織の中心的な運営を行う場所です。語尾にsがありますが一つの本部にも使います。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qheadquarters"
+      ]
+    },
+    {
+      "passageId": "iconic",
+      "prompt": "Vocabulary Day 10 · Words 16–30: complete ico___. Enter the missing letters.",
+      "word": "iconic",
+      "prefix": "ico",
+      "answer": "正解：nic → iconic。学習語：iconic。「象徴的な」。町の象徴としてよく知られた形を持っています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qiconic"
+      ]
+    },
+    {
+      "passageId": "infringe",
+      "prompt": "Vocabulary Day 10 · Words 16–30: complete inf_____. Enter the missing letters.",
+      "word": "infringe",
+      "prefix": "inf",
+      "answer": "正解：ringe → infringe。学習語：infringe。「侵害する」。権利を損なうことを表す動詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qinfringe"
+      ]
+    },
+    {
+      "passageId": "intensive",
+      "prompt": "Vocabulary Day 10 · Words 16–30: complete int______. Enter the missing letters.",
+      "word": "intensive",
+      "prefix": "int",
+      "answer": "正解：ensive → intensive。学習語：intensive。「集中的な・集約的な」。一日に多くの時間を費やす密度の高い研修です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qintensive"
+      ]
+    },
+    {
+      "passageId": "keynote",
+      "prompt": "Vocabulary Day 10 · Words 16–30: complete key____. Enter the missing letters.",
+      "word": "keynote",
+      "prefix": "key",
+      "answer": "正解：note → keynote。学習語：keynote。「基調・基調講演の」。会議全体の主題を示す冒頭の講演です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qkeynote"
+      ]
+    },
+    {
+      "passageId": "least",
+      "prompt": "Vocabulary Day 10 · Words 16–30: complete le___. Enter the missing letters.",
+      "word": "least",
+      "prefix": "le",
+      "answer": "正解：ast → least。学習語：least。「最少の；最も少なく」。時間が最も少なくて済む選択肢です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qleast"
+      ]
+    }
+  ]
+}

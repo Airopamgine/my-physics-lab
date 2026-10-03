@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day20-part2",
+  "title": "Vocabulary Day 20 · Words 16–30 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 21ページ／冊子399ページ · Vocabulary Day 20 · Words 16–30",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "deter": "The warning is intended to de___ visitors from entering by discouraging them from doing so.",
+    "discourse": "The linguist studied classroom dis______ by analyzing how extended conversations are organized.",
+    "disruption": "The sudden dis_______ interrupted the normal schedule and prevented activities from continuing.",
+    "emulate": "The apprentice tried to emu____ the expert's technique by matching the skill of the original.",
+    "equator": "The equ____ is the imaginary line around Earth halfway between the North and South Poles.",
+    "exonerate": "The new evidence helped exo______ the accused person by clearing her of blame.",
+    "fleet": "The company operates a fl___ of delivery vehicles rather than a single truck.",
+    "fragility": "The object's fra______ required careful handling because it could easily break.",
+    "grocery": "The shop sells gro____ items such as bread, fruit, and rice.",
+    "hereditary": "The study examines a her_______ trait that can be passed from parents to offspring.",
+    "horizontal": "The shelf is hor_______, extending level from side to side rather than vertically.",
+    "improvisational": "The musician used an imp____________ approach, creating parts of the performance on the spot.",
+    "irrigation": "The farm uses irr_______ to supply water to crops through channels and pipes.",
+    "kinship": "The family records show kin____, the relationships between relatives.",
+    "lime": "The builder used li__, a calcium-based material, in making the mortar."
+  },
+  "questions": [
+    {
+      "passageId": "deter",
+      "prompt": "Vocabulary Day 20 · Words 16–30: complete de___. Enter the missing letters.",
+      "word": "deter",
+      "prefix": "de",
+      "answer": "正解：ter → deter。学習語：deter。「思いとどまらせる・抑止する」。deter someone from doingで行動を控えさせる形です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qdeter"
+      ]
+    },
+    {
+      "passageId": "discourse",
+      "prompt": "Vocabulary Day 20 · Words 16–30: complete dis______. Enter the missing letters.",
+      "word": "discourse",
+      "prefix": "dis",
+      "answer": "正解：course → discourse。学習語：discourse。「談話・講話」。単語単体ではなく、まとまった言語使用を指します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qdiscourse"
+      ]
+    },
+    {
+      "passageId": "disruption",
+      "prompt": "Vocabulary Day 20 · Words 16–30: complete dis_______. Enter the missing letters.",
+      "word": "disruption",
+      "prefix": "dis",
+      "answer": "正解：ruption → disruption。学習語：disruption。「中断・混乱」。通常の予定や活動が途切れたことです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qdisruption"
+      ]
+    },
+    {
+      "passageId": "emulate",
+      "prompt": "Vocabulary Day 20 · Words 16–30: complete emu____. Enter the missing letters.",
+      "word": "emulate",
+      "prefix": "emu",
+      "answer": "正解：late → emulate。学習語：emulate。「見習う・模倣して肩を並べようとする」。手本の技術に近づこうとすることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qemulate"
+      ]
+    },
+    {
+      "passageId": "equator",
+      "prompt": "Vocabulary Day 20 · Words 16–30: complete equ____. Enter the missing letters.",
+      "word": "equator",
+      "prefix": "equ",
+      "answer": "正解：ator → equator。学習語：equator。「赤道」。南北の極から等距離の地球を一周する仮想の線です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qequator"
+      ]
+    },
+    {
+      "passageId": "exonerate",
+      "prompt": "Vocabulary Day 20 · Words 16–30: complete exo______. Enter the missing letters.",
+      "word": "exonerate",
+      "prefix": "exo",
+      "answer": "正解：nerate → exonerate。学習語：exonerate。「無実を証明する・責任を免れさせる」。証拠によって非難や疑いが晴れたことです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qexonerate"
+      ]
+    },
+    {
+      "passageId": "fleet",
+      "prompt": "Vocabulary Day 20 · Words 16–30: complete fl___. Enter the missing letters.",
+      "word": "fleet",
+      "prefix": "fl",
+      "answer": "正解：eet → fleet。学習語：fleet。「船団・車両群」。この文では企業が運用する複数の配達車両です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qfleet"
+      ]
+    },
+    {
+      "passageId": "fragility",
+      "prompt": "Vocabulary Day 20 · Words 16–30: complete fra______. Enter the missing letters.",
+      "word": "fragility",
+      "prefix": "fra",
+      "answer": "正解：gility → fragility。学習語：fragility。「壊れやすさ・脆弱性」。簡単に破損する性質です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qfragility"
+      ]
+    },
+    {
+      "passageId": "grocery",
+      "prompt": "Vocabulary Day 20 · Words 16–30: complete gro____. Enter the missing letters.",
+      "word": "grocery",
+      "prefix": "gro",
+      "answer": "正解：cery → grocery。学習語：grocery。「食料品・食料雑貨」。パンや果物などの食品を修飾する用法です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qgrocery"
+      ]
+    },
+    {
+      "passageId": "hereditary",
+      "prompt": "Vocabulary Day 20 · Words 16–30: complete her_______. Enter the missing letters.",
+      "word": "hereditary",
+      "prefix": "her",
+      "answer": "正解：editary → hereditary。学習語：hereditary。「遺伝の・世襲の」。この文では親から子へ伝わる生物の特徴です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qhereditary"
+      ]
+    },
+    {
+      "passageId": "horizontal",
+      "prompt": "Vocabulary Day 20 · Words 16–30: complete hor_______. Enter the missing letters.",
+      "word": "horizontal",
+      "prefix": "hor",
+      "answer": "正解：izontal → horizontal。学習語：horizontal。「水平の」。垂直と対比して、左右へ平らに延びています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qhorizontal"
+      ]
+    },
+    {
+      "passageId": "improvisational",
+      "prompt": "Vocabulary Day 20 · Words 16–30: complete imp____________. Enter the missing letters.",
+      "word": "improvisational",
+      "prefix": "imp",
+      "answer": "正解：rovisational → improvisational。学習語：improvisational。「即興の」。その場で演奏内容を作る方法です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qimprovisational"
+      ]
+    },
+    {
+      "passageId": "irrigation",
+      "prompt": "Vocabulary Day 20 · Words 16–30: complete irr_______. Enter the missing letters.",
+      "word": "irrigation",
+      "prefix": "irr",
+      "answer": "正解：igation → irrigation。学習語：irrigation。「灌漑」。水路や管で作物へ水を供給することです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qirrigation"
+      ]
+    },
+    {
+      "passageId": "kinship",
+      "prompt": "Vocabulary Day 20 · Words 16–30: complete kin____. Enter the missing letters.",
+      "word": "kinship",
+      "prefix": "kin",
+      "answer": "正解：ship → kinship。学習語：kinship。「親族関係・つながり」。この文では親類同士の関係です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qkinship"
+      ]
+    },
+    {
+      "passageId": "lime",
+      "prompt": "Vocabulary Day 20 · Words 16–30: complete li__. Enter the missing letters.",
+      "word": "lime",
+      "prefix": "li",
+      "answer": "正解：me → lime。学習語：lime。「石灰」。原本の意味に従い、果実のライムではなく建築材料を表しています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qlime"
+      ]
+    }
+  ]
+}

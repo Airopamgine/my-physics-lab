@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day12-part3",
+  "title": "Vocabulary Day 12 · Words 31–45 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 13ページ／冊子391ページ · Vocabulary Day 12 · Words 31–45",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "maintenance": "Regular mai________ keeps the equipment in good working condition.",
+    "milestone": "Finishing the first stage was a mil______ marking important progress in the project.",
+    "notify": "Please not___ the office of any change in your address.",
+    "operate": "Only trained staff may ope____ the machine and control its settings.",
+    "package": "The courier delivered a pac____ containing the ordered books.",
+    "participation": "The activity requires the par__________ of everyone in the group.",
+    "permit": "The rules do not per___ visitors to enter the storage room.",
+    "ponder": "Take time to pon___ the question and consider it carefully before answering.",
+    "premium": "The store charges a pre____ for the specially packaged version, making it more expensive.",
+    "prior": "You must obtain approval pr___ to beginning the work.",
+    "purchase": "Customers may pur_____ tickets online by paying through the website.",
+    "recipient": "The rec______ of the letter is the person to whom it is addressed.",
+    "registration": "Complete your reg_________ by entering your name and contact details in the form.",
+    "renew": "You can re___ the loan to keep the library book for another week.",
+    "reservation": "The restaurant confirmed our table res________ for seven o'clock."
+  },
+  "questions": [
+    {
+      "passageId": "maintenance",
+      "prompt": "Vocabulary Day 12 · Words 31–45: complete mai________. Enter the missing letters.",
+      "word": "maintenance",
+      "prefix": "mai",
+      "answer": "正解：ntenance → maintenance。学習語：maintenance。「保守・管理」。機器が正常に動く状態を保つ作業です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qmaintenance"
+      ]
+    },
+    {
+      "passageId": "milestone",
+      "prompt": "Vocabulary Day 12 · Words 31–45: complete mil______. Enter the missing letters.",
+      "word": "milestone",
+      "prefix": "mil",
+      "answer": "正解：estone → milestone。学習語：milestone。「節目・重要な到達点」。計画の進展を示す大切な段階です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qmilestone"
+      ]
+    },
+    {
+      "passageId": "notify",
+      "prompt": "Vocabulary Day 12 · Words 31–45: complete not___. Enter the missing letters.",
+      "word": "notify",
+      "prefix": "not",
+      "answer": "正解：ify → notify。学習語：notify。「通知する・知らせる」。notify A of Bで、住所変更を事務所へ伝えます。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qnotify"
+      ]
+    },
+    {
+      "passageId": "operate",
+      "prompt": "Vocabulary Day 12 · Words 31–45: complete ope____. Enter the missing letters.",
+      "word": "operate",
+      "prefix": "ope",
+      "answer": "正解：rate → operate。学習語：operate。「操作する・運営する」。この文では機械を作動させる動詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qoperate"
+      ]
+    },
+    {
+      "passageId": "package",
+      "prompt": "Vocabulary Day 12 · Words 31–45: complete pac____. Enter the missing letters.",
+      "word": "package",
+      "prefix": "pac",
+      "answer": "正解：kage → package。学習語：package。「小包・包装した物；包装する」。注文した本が入った荷物です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qpackage"
+      ]
+    },
+    {
+      "passageId": "participation",
+      "prompt": "Vocabulary Day 12 · Words 31–45: complete par__________. Enter the missing letters.",
+      "word": "participation",
+      "prefix": "par",
+      "answer": "正解：ticipation → participation。学習語：participation。「参加」。全員が活動に加わることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qparticipation"
+      ]
+    },
+    {
+      "passageId": "permit",
+      "prompt": "Vocabulary Day 12 · Words 31–45: complete per___. Enter the missing letters.",
+      "word": "permit",
+      "prefix": "per",
+      "answer": "正解：mit → permit。学習語：permit。「許可する；許可証」。この文では入室を許すという動詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qpermit"
+      ]
+    },
+    {
+      "passageId": "ponder",
+      "prompt": "Vocabulary Day 12 · Words 31–45: complete pon___. Enter the missing letters.",
+      "word": "ponder",
+      "prefix": "pon",
+      "answer": "正解：der → ponder。学習語：ponder。「熟考する・考える」。答える前にじっくり検討することです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qponder"
+      ]
+    },
+    {
+      "passageId": "premium",
+      "prompt": "Vocabulary Day 12 · Words 31–45: complete pre____. Enter the missing letters.",
+      "word": "premium",
+      "prefix": "pre",
+      "answer": "正解：mium → premium。学習語：premium。「割増料金・保険料；高級の」。この文では特別包装に対する追加料金です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qpremium"
+      ]
+    },
+    {
+      "passageId": "prior",
+      "prompt": "Vocabulary Day 12 · Words 31–45: complete pr___. Enter the missing letters.",
+      "word": "prior",
+      "prefix": "pr",
+      "answer": "正解：ior → prior。学習語：prior。「前の・事前に」。prior toで、作業開始より前にという意味です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qprior"
+      ]
+    },
+    {
+      "passageId": "purchase",
+      "prompt": "Vocabulary Day 12 · Words 31–45: complete pur_____. Enter the missing letters.",
+      "word": "purchase",
+      "prefix": "pur",
+      "answer": "正解：chase → purchase。学習語：purchase。「購入する；購入」。代金を払ってチケットを買う動詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qpurchase"
+      ]
+    },
+    {
+      "passageId": "recipient",
+      "prompt": "Vocabulary Day 12 · Words 31–45: complete rec______. Enter the missing letters.",
+      "word": "recipient",
+      "prefix": "rec",
+      "answer": "正解：ipient → recipient。学習語：recipient。「受取人・受領者」。宛先に指定された人です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qrecipient"
+      ]
+    },
+    {
+      "passageId": "registration",
+      "prompt": "Vocabulary Day 12 · Words 31–45: complete reg_________. Enter the missing letters.",
+      "word": "registration",
+      "prefix": "reg",
+      "answer": "正解：istration → registration。学習語：registration。「登録」。名前や連絡先を入力して手続きを終えます。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qregistration"
+      ]
+    },
+    {
+      "passageId": "renew",
+      "prompt": "Vocabulary Day 12 · Words 31–45: complete re___. Enter the missing letters.",
+      "word": "renew",
+      "prefix": "re",
+      "answer": "正解：new → renew。学習語：renew。「更新する・新たにする」。貸出期間を延長することです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qrenew"
+      ]
+    },
+    {
+      "passageId": "reservation",
+      "prompt": "Vocabulary Day 12 · Words 31–45: complete res________. Enter the missing letters.",
+      "word": "reservation",
+      "prefix": "res",
+      "answer": "正解：ervation → reservation。学習語：reservation。「予約」。七時に使う席を確保しています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qreservation"
+      ]
+    }
+  ]
+}

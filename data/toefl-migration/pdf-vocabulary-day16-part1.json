@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day16-part1",
+  "title": "Vocabulary Day 16 · Words 1–15 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 17ページ／冊子395ページ · Vocabulary Day 16 · Words 1–15",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "abundance": "The garden has an abu______ of flowers, with far more blooms than we expected.",
+    "adaptation": "The film is an ada_______ of the novel, changing the written story into a screen work.",
+    "affordability": "The survey considers aff__________ by asking whether households can pay the cost without excessive strain.",
+    "alienation": "The character feels ali_______, a sense of being separated from the surrounding community.",
+    "amphibian": "A frog is an amp______, belonging to the group that also includes salamanders.",
+    "anxiety": "Waiting for the uncertain result caused anx____ and worry.",
+    "bipedalism": "The study of bip_______ examines walking on two legs.",
+    "byproduct": "The factory uses the byp______ left over from making its main product.",
+    "cataclysmic": "The account describes a cat________ event that caused sudden, widespread destruction.",
+    "chronic": "The village faces a chr____ shortage that has persisted for many years.",
+    "coarse": "The coa___ fabric has a rough texture rather than a smooth surface.",
+    "column": "The figures are arranged in a vertical col___ running down the page.",
+    "compulsion": "He described a com_______ to repeat the task, an urge that was difficult to resist.",
+    "consensus": "After discussion, the committee reached a con______ and broadly agreed on the plan.",
+    "conveyance": "The bus provided a means of con_______, carrying people between the town and the station."
+  },
+  "questions": [
+    {
+      "passageId": "abundance",
+      "prompt": "Vocabulary Day 16 · Words 1–15: complete abu______. Enter the missing letters.",
+      "word": "abundance",
+      "prefix": "abu",
+      "answer": "正解：ndance → abundance。学習語：abundance。「豊富さ・大量」。花が予想以上にたくさんあります。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qabundance"
+      ]
+    },
+    {
+      "passageId": "adaptation",
+      "prompt": "Vocabulary Day 16 · Words 1–15: complete ada_______. Enter the missing letters.",
+      "word": "adaptation",
+      "prefix": "ada",
+      "answer": "正解：ptation → adaptation。学習語：adaptation。「翻案・適応」。この文では小説を映像作品にすることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qadaptation"
+      ]
+    },
+    {
+      "passageId": "affordability",
+      "prompt": "Vocabulary Day 16 · Words 1–15: complete aff__________. Enter the missing letters.",
+      "word": "affordability",
+      "prefix": "aff",
+      "answer": "正解：ordability → affordability。学習語：affordability。「手頃な価格であること・購入可能性」。費用を無理なく負担できるかという性質です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qaffordability"
+      ]
+    },
+    {
+      "passageId": "alienation",
+      "prompt": "Vocabulary Day 16 · Words 1–15: complete ali_______. Enter the missing letters.",
+      "word": "alienation",
+      "prefix": "ali",
+      "answer": "正解：enation → alienation。学習語：alienation。「疎外・分離」。周囲の共同体から切り離されている感覚です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qalienation"
+      ]
+    },
+    {
+      "passageId": "amphibian",
+      "prompt": "Vocabulary Day 16 · Words 1–15: complete amp______. Enter the missing letters.",
+      "word": "amphibian",
+      "prefix": "amp",
+      "answer": "正解：hibian → amphibian。学習語：amphibian。「両生類」。カエルやサンショウウオを含む動物の分類です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qamphibian"
+      ]
+    },
+    {
+      "passageId": "anxiety",
+      "prompt": "Vocabulary Day 16 · Words 1–15: complete anx____. Enter the missing letters.",
+      "word": "anxiety",
+      "prefix": "anx",
+      "answer": "正解：iety → anxiety。学習語：anxiety。「不安・心配」。結果が分からず気掛かりな状態です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qanxiety"
+      ]
+    },
+    {
+      "passageId": "bipedalism",
+      "prompt": "Vocabulary Day 16 · Words 1–15: complete bip_______. Enter the missing letters.",
+      "word": "bipedalism",
+      "prefix": "bip",
+      "answer": "正解：edalism → bipedalism。学習語：bipedalism。「二足歩行」。二本の脚で歩くことを指します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qbipedalism"
+      ]
+    },
+    {
+      "passageId": "byproduct",
+      "prompt": "Vocabulary Day 16 · Words 1–15: complete byp______. Enter the missing letters.",
+      "word": "byproduct",
+      "prefix": "byp",
+      "answer": "正解：roduct → byproduct。学習語：byproduct。「副産物」。主な製品を作る過程で生じた別の物です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qbyproduct"
+      ]
+    },
+    {
+      "passageId": "cataclysmic",
+      "prompt": "Vocabulary Day 16 · Words 1–15: complete cat________. Enter the missing letters.",
+      "word": "cataclysmic",
+      "prefix": "cat",
+      "answer": "正解：aclysmic → cataclysmic。学習語：cataclysmic。「大変動の・破壊的な」。急激で大規模な破壊を伴う出来事です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qcataclysmic"
+      ]
+    },
+    {
+      "passageId": "chronic",
+      "prompt": "Vocabulary Day 16 · Words 1–15: complete chr____. Enter the missing letters.",
+      "word": "chronic",
+      "prefix": "chr",
+      "answer": "正解：onic → chronic。学習語：chronic。「長く続く・慢性の」。何年も続いている不足です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qchronic"
+      ]
+    },
+    {
+      "passageId": "coarse",
+      "prompt": "Vocabulary Day 16 · Words 1–15: complete coa___. Enter the missing letters.",
+      "word": "coarse",
+      "prefix": "coa",
+      "answer": "正解：rse → coarse。学習語：coarse。「粗い・粗悪な・下品な」。ここではざらついた布の質感です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qcoarse"
+      ]
+    },
+    {
+      "passageId": "column",
+      "prompt": "Vocabulary Day 16 · Words 1–15: complete col___. Enter the missing letters.",
+      "word": "column",
+      "prefix": "col",
+      "answer": "正解：umn → column。学習語：column。「縦列・柱」。この文では数値が縦に並ぶ列です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qcolumn"
+      ]
+    },
+    {
+      "passageId": "compulsion",
+      "prompt": "Vocabulary Day 16 · Words 1–15: complete com_______. Enter the missing letters.",
+      "word": "compulsion",
+      "prefix": "com",
+      "answer": "正解：pulsion → compulsion。学習語：compulsion。「強い衝動・強迫」。繰り返さずにはいられない強い欲求です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qcompulsion"
+      ]
+    },
+    {
+      "passageId": "consensus",
+      "prompt": "Vocabulary Day 16 · Words 1–15: complete con______. Enter the missing letters.",
+      "word": "consensus",
+      "prefix": "con",
+      "answer": "正解：sensus → consensus。学習語：consensus。「合意・意見の一致」。議論を経て共通の判断に達しています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qconsensus"
+      ]
+    },
+    {
+      "passageId": "conveyance",
+      "prompt": "Vocabulary Day 16 · Words 1–15: complete con_______. Enter the missing letters.",
+      "word": "conveyance",
+      "prefix": "con",
+      "answer": "正解：veyance → conveyance。学習語：conveyance。「輸送・乗り物；譲渡」。この文では人を運ぶ手段です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qconveyance"
+      ]
+    }
+  ]
+}

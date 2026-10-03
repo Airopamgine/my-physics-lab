@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day17-part2",
+  "title": "Vocabulary Day 17 · Words 16–30 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 18ページ／冊子396ページ · Vocabulary Day 17 · Words 16–30",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "cumulative": "The cum_______ total includes all the amounts added since the project began.",
+    "deficiency": "The analysis found a def_______ of the material needed to complete the work.",
+    "deposit": "Please pay a small dep____ now to reserve the room, with the balance due later.",
+    "diplomacy": "The two governments used dip______, negotiating through their representatives to resolve the dispute.",
+    "disposition": "Her cheerful dis________ is reflected in the friendly way she greets everyone.",
+    "domesticate": "The account describes efforts to dom________ wild animals for human use.",
+    "embodiment": "The building is an emb_______ of the architect's ideals, expressing them in a physical form.",
+    "ephemeral": "The eph______ display lasts only a day before it disappears.",
+    "excavation": "The exc_______ removed layers of soil to expose the buried structure.",
+    "fortification": "The stone wall served as a for__________ to strengthen the city's defenses.",
+    "hemisphere": "Each hem_______ is one half of Earth; the equator divides the northern half from the southern half.",
+    "hierarchy": "The organization has a hie______ with different levels of authority.",
+    "impermeable": "The imp________ layer does not allow water to pass through it.",
+    "inexplicably": "The instrument stopped ine_________, and nobody could explain why.",
+    "instantaneous": "The response was ins__________, occurring at once with no noticeable delay."
+  },
+  "questions": [
+    {
+      "passageId": "cumulative",
+      "prompt": "Vocabulary Day 17 · Words 16–30: complete cum_______. Enter the missing letters.",
+      "word": "cumulative",
+      "prefix": "cum",
+      "answer": "正解：ulative → cumulative。学習語：cumulative。「累積の」。開始時から加えた全額を含む合計です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qcumulative"
+      ]
+    },
+    {
+      "passageId": "deficiency",
+      "prompt": "Vocabulary Day 17 · Words 16–30: complete def_______. Enter the missing letters.",
+      "word": "deficiency",
+      "prefix": "def",
+      "answer": "正解：iciency → deficiency。学習語：deficiency。「不足・欠乏」。作業に必要な材料が足りません。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qdeficiency"
+      ]
+    },
+    {
+      "passageId": "deposit",
+      "prompt": "Vocabulary Day 17 · Words 16–30: complete dep____. Enter the missing letters.",
+      "word": "deposit",
+      "prefix": "dep",
+      "answer": "正解：osit → deposit。学習語：deposit。「保証金・手付金；預け入れる」。ここでは残額を後で払う予約のための金額です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qdeposit"
+      ]
+    },
+    {
+      "passageId": "diplomacy",
+      "prompt": "Vocabulary Day 17 · Words 16–30: complete dip______. Enter the missing letters.",
+      "word": "diplomacy",
+      "prefix": "dip",
+      "answer": "正解：lomacy → diplomacy。学習語：diplomacy。「外交」。政府の代表が交渉によって対立を解決しようとします。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qdiplomacy"
+      ]
+    },
+    {
+      "passageId": "disposition",
+      "prompt": "Vocabulary Day 17 · Words 16–30: complete dis________. Enter the missing letters.",
+      "word": "disposition",
+      "prefix": "dis",
+      "answer": "正解：position → disposition。学習語：disposition。「性質・気質；配置」。この文では普段から明るい人柄です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qdisposition"
+      ]
+    },
+    {
+      "passageId": "domesticate",
+      "prompt": "Vocabulary Day 17 · Words 16–30: complete dom________. Enter the missing letters.",
+      "word": "domesticate",
+      "prefix": "dom",
+      "answer": "正解：esticate → domesticate。学習語：domesticate。「家畜化する・飼い慣らす」。野生動物を人の管理下で利用する過程です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qdomesticate"
+      ]
+    },
+    {
+      "passageId": "embodiment",
+      "prompt": "Vocabulary Day 17 · Words 16–30: complete emb_______. Enter the missing letters.",
+      "word": "embodiment",
+      "prefix": "emb",
+      "answer": "正解：odiment → embodiment。学習語：embodiment。「具現化・体現」。抽象的な理念が建物という形になります。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qembodiment"
+      ]
+    },
+    {
+      "passageId": "ephemeral",
+      "prompt": "Vocabulary Day 17 · Words 16–30: complete eph______. Enter the missing letters.",
+      "word": "ephemeral",
+      "prefix": "eph",
+      "answer": "正解：emeral → ephemeral。学習語：ephemeral。「短命な・一時的な」。一日しか続かない展示です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qephemeral"
+      ]
+    },
+    {
+      "passageId": "excavation",
+      "prompt": "Vocabulary Day 17 · Words 16–30: complete exc_______. Enter the missing letters.",
+      "word": "excavation",
+      "prefix": "exc",
+      "answer": "正解：avation → excavation。学習語：excavation。「発掘」。土を取り除いて埋まった構造物を調べる作業です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qexcavation"
+      ]
+    },
+    {
+      "passageId": "fortification",
+      "prompt": "Vocabulary Day 17 · Words 16–30: complete for__________. Enter the missing letters.",
+      "word": "fortification",
+      "prefix": "for",
+      "answer": "正解：tification → fortification。学習語：fortification。「要塞化・防御施設・強化」。ここでは都市を守る壁という防御施設です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qfortification"
+      ]
+    },
+    {
+      "passageId": "hemisphere",
+      "prompt": "Vocabulary Day 17 · Words 16–30: complete hem_______. Enter the missing letters.",
+      "word": "hemisphere",
+      "prefix": "hem",
+      "answer": "正解：isphere → hemisphere。学習語：hemisphere。「半球」。この文では地球の北半分または南半分です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qhemisphere"
+      ]
+    },
+    {
+      "passageId": "hierarchy",
+      "prompt": "Vocabulary Day 17 · Words 16–30: complete hie______. Enter the missing letters.",
+      "word": "hierarchy",
+      "prefix": "hie",
+      "answer": "正解：rarchy → hierarchy。学習語：hierarchy。「階層構造・序列」。権限に上下の段階がある組織です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qhierarchy"
+      ]
+    },
+    {
+      "passageId": "impermeable",
+      "prompt": "Vocabulary Day 17 · Words 16–30: complete imp________. Enter the missing letters.",
+      "word": "impermeable",
+      "prefix": "imp",
+      "answer": "正解：ermeable → impermeable。学習語：impermeable。「水を通さない・不透過性の」。水が通り抜けない層です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qimpermeable"
+      ]
+    },
+    {
+      "passageId": "inexplicably",
+      "prompt": "Vocabulary Day 17 · Words 16–30: complete ine_________. Enter the missing letters.",
+      "word": "inexplicably",
+      "prefix": "ine",
+      "answer": "正解：xplicably → inexplicably。学習語：inexplicably。「説明できないことに」。停止の理由が分からないことを表す副詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qinexplicably"
+      ]
+    },
+    {
+      "passageId": "instantaneous",
+      "prompt": "Vocabulary Day 17 · Words 16–30: complete ins__________. Enter the missing letters.",
+      "word": "instantaneous",
+      "prefix": "ins",
+      "answer": "正解：tantaneous → instantaneous。学習語：instantaneous。「瞬時の」。目に見える遅れなく起こる反応です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qinstantaneous"
+      ]
+    }
+  ]
+}

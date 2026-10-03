@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day16-part4",
+  "title": "Vocabulary Day 16 · Words 46–60 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 17ページ／冊子395ページ · Vocabulary Day 16 · Words 46–60",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "pollutant": "The sample contained a pol______ that made the water less clean.",
+    "predecessor": "The new director continued a project started by her pre________, the person who held the job before her.",
+    "probe": "The space pr___ carries instruments to investigate the distant planet.",
+    "propagation": "The study measures the pro________ of a wave as it travels through the material.",
+    "quarry": "Workers removed stone from the qua___ to use in construction.",
+    "refraction": "The diagram illustrates ref_______, the change in a ray's direction as it passes between different media.",
+    "replicate": "Other teams will try to rep______ the experiment by repeating its procedures.",
+    "rugged": "The route crosses rug___ terrain with rough surfaces and steep slopes.",
+    "skepticism": "The claim was met with ske_______ because people doubted that the evidence was sufficient.",
+    "spatial": "The task tests spa____ relationships, such as where one object is placed relative to another.",
+    "symmetry": "The design has sym_____, with corresponding parts balanced on either side.",
+    "tenet": "A central te___ of the philosophy is a principle accepted by its followers.",
+    "transnational": "The tra__________ project involves institutions in several countries and crosses national boundaries.",
+    "unearth": "The archaeologists hope to une____ an ancient wall by digging at the site.",
+    "vigilant": "The guard remained vig_____, watching carefully for signs of trouble."
+  },
+  "questions": [
+    {
+      "passageId": "pollutant",
+      "prompt": "Vocabulary Day 16 · Words 46–60: complete pol______. Enter the missing letters.",
+      "word": "pollutant",
+      "prefix": "pol",
+      "answer": "正解：lutant → pollutant。学習語：pollutant。「汚染物質」。水を汚す物質が含まれています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qpollutant"
+      ]
+    },
+    {
+      "passageId": "predecessor",
+      "prompt": "Vocabulary Day 16 · Words 46–60: complete pre________. Enter the missing letters.",
+      "word": "predecessor",
+      "prefix": "pre",
+      "answer": "正解：decessor → predecessor。学習語：predecessor。「前任者・先行するもの・祖先」。ここでは同じ役職に前にいた人です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qpredecessor"
+      ]
+    },
+    {
+      "passageId": "probe",
+      "prompt": "Vocabulary Day 16 · Words 46–60: complete pr___. Enter the missing letters.",
+      "word": "probe",
+      "prefix": "pr",
+      "answer": "正解：obe → probe。学習語：probe。「探査機；調査する」。この文では惑星を調べる装置です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qprobe"
+      ]
+    },
+    {
+      "passageId": "propagation",
+      "prompt": "Vocabulary Day 16 · Words 46–60: complete pro________. Enter the missing letters.",
+      "word": "propagation",
+      "prefix": "pro",
+      "answer": "正解：pagation → propagation。学習語：propagation。「伝播・繁殖」。この文では波が物質の中を伝わることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qpropagation"
+      ]
+    },
+    {
+      "passageId": "quarry",
+      "prompt": "Vocabulary Day 16 · Words 46–60: complete qua___. Enter the missing letters.",
+      "word": "quarry",
+      "prefix": "qua",
+      "answer": "正解：rry → quarry。学習語：quarry。「採石場・獲物」。ここでは建築用の石を掘り出す場所です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qquarry"
+      ]
+    },
+    {
+      "passageId": "refraction",
+      "prompt": "Vocabulary Day 16 · Words 46–60: complete ref_______. Enter the missing letters.",
+      "word": "refraction",
+      "prefix": "ref",
+      "answer": "正解：raction → refraction。学習語：refraction。「屈折」。異なる媒質の間を通る光線の向きの変化を示します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qrefraction"
+      ]
+    },
+    {
+      "passageId": "replicate",
+      "prompt": "Vocabulary Day 16 · Words 46–60: complete rep______. Enter the missing letters.",
+      "word": "replicate",
+      "prefix": "rep",
+      "answer": "正解：licate → replicate。学習語：replicate。「再現する・複製する」。同じ手順で実験を行い、再現を試みます。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qreplicate"
+      ]
+    },
+    {
+      "passageId": "rugged",
+      "prompt": "Vocabulary Day 16 · Words 46–60: complete rug___. Enter the missing letters.",
+      "word": "rugged",
+      "prefix": "rug",
+      "answer": "正解：ged → rugged。学習語：rugged。「起伏の多い・険しい・頑丈な」。ここでは険しい地形です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qrugged"
+      ]
+    },
+    {
+      "passageId": "skepticism",
+      "prompt": "Vocabulary Day 16 · Words 46–60: complete ske_______. Enter the missing letters.",
+      "word": "skepticism",
+      "prefix": "ske",
+      "answer": "正解：pticism → skepticism。学習語：skepticism。「懐疑・疑い」。証拠が足りるか疑問を持っています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qskepticism"
+      ]
+    },
+    {
+      "passageId": "spatial",
+      "prompt": "Vocabulary Day 16 · Words 46–60: complete spa____. Enter the missing letters.",
+      "word": "spatial",
+      "prefix": "spa",
+      "answer": "正解：tial → spatial。学習語：spatial。「空間の」。物体同士の位置関係を扱います。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qspatial"
+      ]
+    },
+    {
+      "passageId": "symmetry",
+      "prompt": "Vocabulary Day 16 · Words 46–60: complete sym_____. Enter the missing letters.",
+      "word": "symmetry",
+      "prefix": "sym",
+      "answer": "正解：metry → symmetry。学習語：symmetry。「対称性」。左右などの対応する部分が釣り合っています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qsymmetry"
+      ]
+    },
+    {
+      "passageId": "tenet",
+      "prompt": "Vocabulary Day 16 · Words 46–60: complete te___. Enter the missing letters.",
+      "word": "tenet",
+      "prefix": "te",
+      "answer": "正解：net → tenet。学習語：tenet。「信条・教義」。その思想で受け入れられた基本原則です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qtenet"
+      ]
+    },
+    {
+      "passageId": "transnational",
+      "prompt": "Vocabulary Day 16 · Words 46–60: complete tra__________. Enter the missing letters.",
+      "word": "transnational",
+      "prefix": "tra",
+      "answer": "正解：nsnational → transnational。学習語：transnational。「国境を越える」。複数の国の機関が関わる計画です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qtransnational"
+      ]
+    },
+    {
+      "passageId": "unearth",
+      "prompt": "Vocabulary Day 16 · Words 46–60: complete une____. Enter the missing letters.",
+      "word": "unearth",
+      "prefix": "une",
+      "answer": "正解：arth → unearth。学習語：unearth。「発掘する・明らかにする」。土を掘って埋まった壁を見つける動詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qunearth"
+      ]
+    },
+    {
+      "passageId": "vigilant",
+      "prompt": "Vocabulary Day 16 · Words 46–60: complete vig_____. Enter the missing letters.",
+      "word": "vigilant",
+      "prefix": "vig",
+      "answer": "正解：ilant → vigilant。学習語：vigilant。「警戒している」。問題の兆候を注意深く見ています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qvigilant"
+      ]
+    }
+  ]
+}

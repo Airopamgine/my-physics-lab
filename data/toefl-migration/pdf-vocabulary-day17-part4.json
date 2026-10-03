@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day17-part4",
+  "title": "Vocabulary Day 17 · Words 46–60 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 18ページ／冊子396ページ · Vocabulary Day 17 · Words 46–60",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "quintessence": "The critic called the small work the qui_________ of the style because it perfectly represents its defining qualities.",
+    "reclamation": "The project involves land rec________, restoring the damaged area so it can be used again.",
+    "refute": "The evidence can ref___ the claim by showing that it is false.",
+    "repository": "The museum serves as a rep_______ where historical records are stored and preserved.",
+    "retrain": "The company will ret____ employees to prepare them for the new equipment.",
+    "rupture": "Excess pressure could cause a rup____, tearing the container open.",
+    "scholar": "The sch____ studies ancient texts and conducts research in the field.",
+    "sewage": "The treatment plant receives sew___, the wastewater carried from homes and other buildings.",
+    "societal": "The article examines soc_____ changes affecting the way people live together.",
+    "speculation": "Without firm evidence, the suggestion remains spe________ rather than an established fact.",
+    "stimulate": "The question is intended to sti______ discussion and encourage students to exchange ideas.",
+    "synthetic": "The syn______ fabric is made artificially rather than obtained directly as a natural fiber.",
+    "territory": "The map outlines the ter______ controlled by the community.",
+    "traverse": "The hikers will tra_____ the valley, crossing it from one side to the other.",
+    "virtue": "A major vir___ of the design is its simplicity, which makes it easy to use."
+  },
+  "questions": [
+    {
+      "passageId": "quintessence",
+      "prompt": "Vocabulary Day 17 · Words 46–60: complete qui_________. Enter the missing letters.",
+      "word": "quintessence",
+      "prefix": "qui",
+      "answer": "正解：ntessence → quintessence。学習語：quintessence。「真髄・典型」。様式の特徴を最もよく表すものです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qquintessence"
+      ]
+    },
+    {
+      "passageId": "reclamation",
+      "prompt": "Vocabulary Day 17 · Words 46–60: complete rec________. Enter the missing letters.",
+      "word": "reclamation",
+      "prefix": "rec",
+      "answer": "正解：lamation → reclamation。学習語：reclamation。「土地の改良・埋立て・再生」。この文では傷んだ土地を再利用できるようにすることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qreclamation"
+      ]
+    },
+    {
+      "passageId": "refute",
+      "prompt": "Vocabulary Day 17 · Words 46–60: complete ref___. Enter the missing letters.",
+      "word": "refute",
+      "prefix": "ref",
+      "answer": "正解：ute → refute。学習語：refute。「反証する・論駁する」。単に否定するのではなく、証拠で誤りを示します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qrefute"
+      ]
+    },
+    {
+      "passageId": "repository",
+      "prompt": "Vocabulary Day 17 · Words 46–60: complete rep_______. Enter the missing letters.",
+      "word": "repository",
+      "prefix": "rep",
+      "answer": "正解：ository → repository。学習語：repository。「保管場所・収蔵所」。歴史資料を保存する場所です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qrepository"
+      ]
+    },
+    {
+      "passageId": "retrain",
+      "prompt": "Vocabulary Day 17 · Words 46–60: complete ret____. Enter the missing letters.",
+      "word": "retrain",
+      "prefix": "ret",
+      "answer": "正解：rain → retrain。学習語：retrain。「再教育する・再訓練する」。新しい機器に対応する技能を教え直します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qretrain"
+      ]
+    },
+    {
+      "passageId": "rupture",
+      "prompt": "Vocabulary Day 17 · Words 46–60: complete rup____. Enter the missing letters.",
+      "word": "rupture",
+      "prefix": "rup",
+      "answer": "正解：ture → rupture。学習語：rupture。「破裂・裂け目；破裂させる」。この文では容器が裂けることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qrupture"
+      ]
+    },
+    {
+      "passageId": "scholar",
+      "prompt": "Vocabulary Day 17 · Words 46–60: complete sch____. Enter the missing letters.",
+      "word": "scholar",
+      "prefix": "sch",
+      "answer": "正解：olar → scholar。学習語：scholar。「学者」。専門の研究を行う人です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qscholar"
+      ]
+    },
+    {
+      "passageId": "sewage",
+      "prompt": "Vocabulary Day 17 · Words 46–60: complete sew___. Enter the missing letters.",
+      "word": "sewage",
+      "prefix": "sew",
+      "answer": "正解：age → sewage。学習語：sewage。「下水・汚水」。建物から排出される使った水です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qsewage"
+      ]
+    },
+    {
+      "passageId": "societal",
+      "prompt": "Vocabulary Day 17 · Words 46–60: complete soc_____. Enter the missing letters.",
+      "word": "societal",
+      "prefix": "soc",
+      "answer": "正解：ietal → societal。学習語：societal。「社会の」。社会全体の暮らし方の変化を修飾します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qsocietal"
+      ]
+    },
+    {
+      "passageId": "speculation",
+      "prompt": "Vocabulary Day 17 · Words 46–60: complete spe________. Enter the missing letters.",
+      "word": "speculation",
+      "prefix": "spe",
+      "answer": "正解：culation → speculation。学習語：speculation。「推測・投機」。この文では十分な証拠のない推測です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qspeculation"
+      ]
+    },
+    {
+      "passageId": "stimulate",
+      "prompt": "Vocabulary Day 17 · Words 46–60: complete sti______. Enter the missing letters.",
+      "word": "stimulate",
+      "prefix": "sti",
+      "answer": "正解：mulate → stimulate。学習語：stimulate。「刺激する・促進する」。話し合いを起こし、活発にすることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qstimulate"
+      ]
+    },
+    {
+      "passageId": "synthetic",
+      "prompt": "Vocabulary Day 17 · Words 46–60: complete syn______. Enter the missing letters.",
+      "word": "synthetic",
+      "prefix": "syn",
+      "answer": "正解：thetic → synthetic。学習語：synthetic。「合成の・人工の」。天然の繊維と対比して人工的に作る布です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qsynthetic"
+      ]
+    },
+    {
+      "passageId": "territory",
+      "prompt": "Vocabulary Day 17 · Words 46–60: complete ter______. Enter the missing letters.",
+      "word": "territory",
+      "prefix": "ter",
+      "answer": "正解：ritory → territory。学習語：territory。「領土・区域」。共同体が管理する範囲です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qterritory"
+      ]
+    },
+    {
+      "passageId": "traverse",
+      "prompt": "Vocabulary Day 17 · Words 46–60: complete tra_____. Enter the missing letters.",
+      "word": "traverse",
+      "prefix": "tra",
+      "answer": "正解：verse → traverse。学習語：traverse。「横断する；横断」。この文では谷を通り抜ける動詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qtraverse"
+      ]
+    },
+    {
+      "passageId": "virtue",
+      "prompt": "Vocabulary Day 17 · Words 46–60: complete vir___. Enter the missing letters.",
+      "word": "virtue",
+      "prefix": "vir",
+      "answer": "正解：tue → virtue。学習語：virtue。「長所・美徳」。この文では使いやすい単純さという利点です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qvirtue"
+      ]
+    }
+  ]
+}

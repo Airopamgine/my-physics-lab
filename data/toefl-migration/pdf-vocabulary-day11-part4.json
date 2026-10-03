@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day11-part4",
+  "title": "Vocabulary Day 11 · Words 46–60 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 12ページ／冊子390ページ · Vocabulary Day 11 · Words 46–60",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "scenery": "Visitors admire the mountain sce____, including the peaks and valleys.",
+    "selection": "The shop offers a wide sel______ of notebooks in different sizes and colors.",
+    "shareholder": "A sha________ owns one or more shares in a company.",
+    "slot": "We reserved a one-hour time sl__ for the presentation.",
+    "souvenir": "She bought a small sou_____ to remember her visit to the museum.",
+    "stairwell": "The sta______ contains the stairs connecting the different floors of the building.",
+    "street": "The shop is on a busy str___ lined with other buildings.",
+    "swap": "The students agreed to sw__ seats, each taking the other's place.",
+    "timeline": "The exhibit uses a tim_____ to show the events in chronological order.",
+    "treat": "The host will tr___ the guests to dinner by paying for their meals.",
+    "untapped": "The report described an unt_____ resource that had not yet been used or developed.",
+    "vegan": "A ve___ avoids eating meat, dairy products, eggs, and other animal products.",
+    "viewpoint": "The article presents the issue from the resident's vie______.",
+    "warehouse": "The goods are stored in a large war______ before being sent to shops.",
+    "workout": "The morning wor____ includes exercises to improve strength and flexibility."
+  },
+  "questions": [
+    {
+      "passageId": "scenery",
+      "prompt": "Vocabulary Day 11 · Words 46–60: complete sce____. Enter the missing letters.",
+      "word": "scenery",
+      "prefix": "sce",
+      "answer": "正解：nery → scenery。学習語：scenery。「景色・風景」。山頂や谷からなる自然の眺めです。通常は不可算名詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qscenery"
+      ]
+    },
+    {
+      "passageId": "selection",
+      "prompt": "Vocabulary Day 11 · Words 46–60: complete sel______. Enter the missing letters.",
+      "word": "selection",
+      "prefix": "sel",
+      "answer": "正解：ection → selection。学習語：selection。「品ぞろえ・選択・選抜」。この文では選べる商品の種類を指します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qselection"
+      ]
+    },
+    {
+      "passageId": "shareholder",
+      "prompt": "Vocabulary Day 11 · Words 46–60: complete sha________. Enter the missing letters.",
+      "word": "shareholder",
+      "prefix": "sha",
+      "answer": "正解：reholder → shareholder。学習語：shareholder。「株主」。会社の株式を保有する人です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qshareholder"
+      ]
+    },
+    {
+      "passageId": "slot",
+      "prompt": "Vocabulary Day 11 · Words 46–60: complete sl__. Enter the missing letters.",
+      "word": "slot",
+      "prefix": "sl",
+      "answer": "正解：ot → slot。学習語：slot。「時間枠・空き」。発表のために確保した一時間の枠です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qslot"
+      ]
+    },
+    {
+      "passageId": "souvenir",
+      "prompt": "Vocabulary Day 11 · Words 46–60: complete sou_____. Enter the missing letters.",
+      "word": "souvenir",
+      "prefix": "sou",
+      "answer": "正解：venir → souvenir。学習語：souvenir。「土産・記念品」。訪問を思い出すために買った品物です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qsouvenir"
+      ]
+    },
+    {
+      "passageId": "stairwell",
+      "prompt": "Vocabulary Day 11 · Words 46–60: complete sta______. Enter the missing letters.",
+      "word": "stairwell",
+      "prefix": "sta",
+      "answer": "正解：irwell → stairwell。学習語：stairwell。「階段室」。各階をつなぐ階段が入った縦の空間です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qstairwell"
+      ]
+    },
+    {
+      "passageId": "street",
+      "prompt": "Vocabulary Day 11 · Words 46–60: complete str___. Enter the missing letters.",
+      "word": "street",
+      "prefix": "str",
+      "answer": "正解：eet → street。学習語：street。「通り」。建物が並ぶ町の道路です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qstreet"
+      ]
+    },
+    {
+      "passageId": "swap",
+      "prompt": "Vocabulary Day 11 · Words 46–60: complete sw__. Enter the missing letters.",
+      "word": "swap",
+      "prefix": "sw",
+      "answer": "正解：ap → swap。学習語：swap。「交換する；交換」。互いの席を取り替える動詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qswap"
+      ]
+    },
+    {
+      "passageId": "timeline",
+      "prompt": "Vocabulary Day 11 · Words 46–60: complete tim_____. Enter the missing letters.",
+      "word": "timeline",
+      "prefix": "tim",
+      "answer": "正解：eline → timeline。学習語：timeline。「年表・時系列表」。出来事を時間順に並べた図です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qtimeline"
+      ]
+    },
+    {
+      "passageId": "treat",
+      "prompt": "Vocabulary Day 11 · Words 46–60: complete tr___. Enter the missing letters.",
+      "word": "treat",
+      "prefix": "tr",
+      "answer": "正解：eat → treat。学習語：treat。「おごる・扱う；もてなし」。treat someone toで、ここでは食事代を払ってごちそうします。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qtreat"
+      ]
+    },
+    {
+      "passageId": "untapped",
+      "prompt": "Vocabulary Day 11 · Words 46–60: complete unt_____. Enter the missing letters.",
+      "word": "untapped",
+      "prefix": "unt",
+      "answer": "正解：apped → untapped。学習語：untapped。「未利用の・未開発の」。まだ活用されていない資源です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:quntapped"
+      ]
+    },
+    {
+      "passageId": "vegan",
+      "prompt": "Vocabulary Day 11 · Words 46–60: complete ve___. Enter the missing letters.",
+      "word": "vegan",
+      "prefix": "ve",
+      "answer": "正解：gan → vegan。学習語：vegan。「完全菜食の人・ヴィーガン」。動物由来の食品を食べない人という名詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qvegan"
+      ]
+    },
+    {
+      "passageId": "viewpoint",
+      "prompt": "Vocabulary Day 11 · Words 46–60: complete vie______. Enter the missing letters.",
+      "word": "viewpoint",
+      "prefix": "vie",
+      "answer": "正解：wpoint → viewpoint。学習語：viewpoint。「観点・見方」。住民の立場からの捉え方です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qviewpoint"
+      ]
+    },
+    {
+      "passageId": "warehouse",
+      "prompt": "Vocabulary Day 11 · Words 46–60: complete war______. Enter the missing letters.",
+      "word": "warehouse",
+      "prefix": "war",
+      "answer": "正解：ehouse → warehouse。学習語：warehouse。「倉庫」。販売先へ送る前の商品を保管する建物です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qwarehouse"
+      ]
+    },
+    {
+      "passageId": "workout",
+      "prompt": "Vocabulary Day 11 · Words 46–60: complete wor____. Enter the missing letters.",
+      "word": "workout",
+      "prefix": "wor",
+      "answer": "正解：kout → workout。学習語：workout。「運動・トレーニング」。筋力や柔軟性を高めるための一回の運動です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qworkout"
+      ]
+    }
+  ]
+}

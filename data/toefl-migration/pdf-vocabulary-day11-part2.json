@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day11-part2",
+  "title": "Vocabulary Day 11 · Words 16–30 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 12ページ／冊子390ページ · Vocabulary Day 11 · Words 16–30",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "dedicated": "The ded______ volunteer worked tirelessly to help the community.",
+    "dietary": "The menu lists die____ information to help guests choose food that suits their needs.",
+    "downtown": "The new library is located dow_____, in the center of the city.",
+    "emotional": "The farewell was an emo______ occasion, and several people were moved to tears.",
+    "evaluation": "The committee's eva_______ of the plan considered both its strengths and weaknesses.",
+    "expensive": "The handmade chair is exp______ and costs much more than the standard model.",
+    "extra": "Please bring an ex___ chair because one more guest is coming.",
+    "fellowship": "The university awarded her a research fel_______ that funded a year of study.",
+    "graduate": "Students who complete all the requirements will gra_____ at the end of the year.",
+    "healthcare": "The clinic provides hea_______, including medical consultations and treatment.",
+    "inbox": "The new message appeared in her email in___ with the other received messages.",
+    "ingredient": "Flour is an important ing_______ in the recipe for bread.",
+    "interview": "The employer invited her to an int______ to discuss her experience and suitability for the job.",
+    "language": "The course teaches the lan_____ used by people in the neighboring country.",
+    "liable": "The agreement says that the person who causes damage is lia___ for paying the repair cost."
+  },
+  "questions": [
+    {
+      "passageId": "dedicated",
+      "prompt": "Vocabulary Day 11 · Words 16–30: complete ded______. Enter the missing letters.",
+      "word": "dedicated",
+      "prefix": "ded",
+      "answer": "正解：icated → dedicated。学習語：dedicated。「献身的な・専用の」。ここでは地域を支えることに熱心な人です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qdedicated"
+      ]
+    },
+    {
+      "passageId": "dietary",
+      "prompt": "Vocabulary Day 11 · Words 16–30: complete die____. Enter the missing letters.",
+      "word": "dietary",
+      "prefix": "die",
+      "answer": "正解：tary → dietary。学習語：dietary。「食事の・食事に関する」。食べ物の選択に関わる情報を修飾します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qdietary"
+      ]
+    },
+    {
+      "passageId": "downtown",
+      "prompt": "Vocabulary Day 11 · Words 16–30: complete dow_____. Enter the missing letters.",
+      "word": "downtown",
+      "prefix": "dow",
+      "answer": "正解：ntown → downtown。学習語：downtown。「市街地・市街地の；中心街で」。ここでは市の中心にあるという副詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qdowntown"
+      ]
+    },
+    {
+      "passageId": "emotional",
+      "prompt": "Vocabulary Day 11 · Words 16–30: complete emo______. Enter the missing letters.",
+      "word": "emotional",
+      "prefix": "emo",
+      "answer": "正解：tional → emotional。学習語：emotional。「感情的な・感情を動かす」。別れの場で人々が涙を流しています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qemotional"
+      ]
+    },
+    {
+      "passageId": "evaluation",
+      "prompt": "Vocabulary Day 11 · Words 16–30: complete eva_______. Enter the missing letters.",
+      "word": "evaluation",
+      "prefix": "eva",
+      "answer": "正解：luation → evaluation。学習語：evaluation。「評価・査定」。計画の長所と短所を検討して判断します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qevaluation"
+      ]
+    },
+    {
+      "passageId": "expensive",
+      "prompt": "Vocabulary Day 11 · Words 16–30: complete exp______. Enter the missing letters.",
+      "word": "expensive",
+      "prefix": "exp",
+      "answer": "正解：ensive → expensive。学習語：expensive。「高価な」。通常品より価格がずっと高いことが根拠です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qexpensive"
+      ]
+    },
+    {
+      "passageId": "extra",
+      "prompt": "Vocabulary Day 11 · Words 16–30: complete ex___. Enter the missing letters.",
+      "word": "extra",
+      "prefix": "ex",
+      "answer": "正解：tra → extra。学習語：extra。「追加の；余分なもの」。人数が増えるため、椅子を一脚追加します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qextra"
+      ]
+    },
+    {
+      "passageId": "fellowship",
+      "prompt": "Vocabulary Day 11 · Words 16–30: complete fel_______. Enter the missing letters.",
+      "word": "fellowship",
+      "prefix": "fel",
+      "answer": "正解：lowship → fellowship。学習語：fellowship。「研究奨学金・親交」。ここでは一年間の研究を支援する奨学金です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qfellowship"
+      ]
+    },
+    {
+      "passageId": "graduate",
+      "prompt": "Vocabulary Day 11 · Words 16–30: complete gra_____. Enter the missing letters.",
+      "word": "graduate",
+      "prefix": "gra",
+      "answer": "正解：duate → graduate。学習語：graduate。「卒業する；卒業生」。ここでは要件を満たして卒業する動詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qgraduate"
+      ]
+    },
+    {
+      "passageId": "healthcare",
+      "prompt": "Vocabulary Day 11 · Words 16–30: complete hea_______. Enter the missing letters.",
+      "word": "healthcare",
+      "prefix": "hea",
+      "answer": "正解：lthcare → healthcare。学習語：healthcare。「医療・健康管理」。診察や治療などのサービスです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qhealthcare"
+      ]
+    },
+    {
+      "passageId": "inbox",
+      "prompt": "Vocabulary Day 11 · Words 16–30: complete in___. Enter the missing letters.",
+      "word": "inbox",
+      "prefix": "in",
+      "answer": "正解：box → inbox。学習語：inbox。「受信箱」。受け取ったメールを保管する場所です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qinbox"
+      ]
+    },
+    {
+      "passageId": "ingredient",
+      "prompt": "Vocabulary Day 11 · Words 16–30: complete ing_______. Enter the missing letters.",
+      "word": "ingredient",
+      "prefix": "ing",
+      "answer": "正解：redient → ingredient。学習語：ingredient。「材料・成分」。パンを作る際に使う一つの材料です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qingredient"
+      ]
+    },
+    {
+      "passageId": "interview",
+      "prompt": "Vocabulary Day 11 · Words 16–30: complete int______. Enter the missing letters.",
+      "word": "interview",
+      "prefix": "int",
+      "answer": "正解：erview → interview。学習語：interview。「面接；面接する」。ここでは採用のために話を聞く機会です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qinterview"
+      ]
+    },
+    {
+      "passageId": "language",
+      "prompt": "Vocabulary Day 11 · Words 16–30: complete lan_____. Enter the missing letters.",
+      "word": "language",
+      "prefix": "lan",
+      "answer": "正解：guage → language。学習語：language。「言語」。人々が意思を伝えるために使う言葉です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qlanguage"
+      ]
+    },
+    {
+      "passageId": "liable",
+      "prompt": "Vocabulary Day 11 · Words 16–30: complete lia___. Enter the missing letters.",
+      "word": "liable",
+      "prefix": "lia",
+      "answer": "正解：ble → liable。学習語：liable。「責任を負う」。liable forで、修理費を払う責任があることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qliable"
+      ]
+    }
+  ]
+}

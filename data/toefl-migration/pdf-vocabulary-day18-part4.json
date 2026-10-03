@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day18-part4",
+  "title": "Vocabulary Day 18 · Words 46–60 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 19ページ／冊子397ページ · Vocabulary Day 18 · Words 46–60",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "prosperity": "The town enjoyed pro_______ during a period of strong economic growth.",
+    "quota": "Each team received a qu___ specifying the amount it was expected to produce.",
+    "recognizable": "The restored image is now rec_________, and viewers can identify the person it shows.",
+    "reminiscent": "The new melody is rem________ of an older song and brings it to mind.",
+    "reproduction": "The museum displays a rep_________ of the painting, a copy made from the original.",
+    "safeguard": "The backup system provides a saf______ against losing the records.",
+    "sculpture": "The artist carved a marble scu______ into the shape of a standing figure.",
+    "sewer": "Wastewater from the building enters a se___, a pipe that carries it away.",
+    "socioeconomic": "The study considers soc__________ factors such as income, education, and occupation.",
+    "spiritually": "The retreat helped participants reflect spi________ on their beliefs and sense of meaning.",
+    "stunted": "The tree's growth was stu____, leaving it much smaller than expected.",
+    "systemic": "The failure was sys_____, affecting the whole system rather than one isolated part.",
+    "tribal": "The archive preserves tri___ traditions associated with a particular tribe.",
+    "unparalleled": "The achievement was unp_________; no earlier performance could match it.",
+    "weaponry": "The museum's wea_____ collection includes weapons from several historical periods."
+  },
+  "questions": [
+    {
+      "passageId": "prosperity",
+      "prompt": "Vocabulary Day 18 · Words 46–60: complete pro_______. Enter the missing letters.",
+      "word": "prosperity",
+      "prefix": "pro",
+      "answer": "正解：sperity → prosperity。学習語：prosperity。「繁栄」。経済的に豊かになった状態です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qprosperity"
+      ]
+    },
+    {
+      "passageId": "quota",
+      "prompt": "Vocabulary Day 18 · Words 46–60: complete qu___. Enter the missing letters.",
+      "word": "quota",
+      "prefix": "qu",
+      "answer": "正解：ota → quota。学習語：quota。「割当量」。生産するよう割り当てられた量です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qquota"
+      ]
+    },
+    {
+      "passageId": "recognizable",
+      "prompt": "Vocabulary Day 18 · Words 46–60: complete rec_________. Enter the missing letters.",
+      "word": "recognizable",
+      "prefix": "rec",
+      "answer": "正解：ognizable → recognizable。学習語：recognizable。「見分けられる・認識できる」。画像の人物を識別できます。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qrecognizable"
+      ]
+    },
+    {
+      "passageId": "reminiscent",
+      "prompt": "Vocabulary Day 18 · Words 46–60: complete rem________. Enter the missing letters.",
+      "word": "reminiscent",
+      "prefix": "rem",
+      "answer": "正解：iniscent → reminiscent。学習語：reminiscent。「思い出させる・連想させる」。reminiscent ofで別の歌を想起させることを表します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qreminiscent"
+      ]
+    },
+    {
+      "passageId": "reproduction",
+      "prompt": "Vocabulary Day 18 · Words 46–60: complete rep_________. Enter the missing letters.",
+      "word": "reproduction",
+      "prefix": "rep",
+      "answer": "正解：roduction → reproduction。学習語：reproduction。「複製・再生産・繁殖」。この文では原画から作った複製です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qreproduction"
+      ]
+    },
+    {
+      "passageId": "safeguard",
+      "prompt": "Vocabulary Day 18 · Words 46–60: complete saf______. Enter the missing letters.",
+      "word": "safeguard",
+      "prefix": "saf",
+      "answer": "正解：eguard → safeguard。学習語：safeguard。「保護策・安全装置；保護する」。この文では記録の紛失を防ぐ仕組みです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qsafeguard"
+      ]
+    },
+    {
+      "passageId": "sculpture",
+      "prompt": "Vocabulary Day 18 · Words 46–60: complete scu______. Enter the missing letters.",
+      "word": "sculpture",
+      "prefix": "scu",
+      "answer": "正解：lpture → sculpture。学習語：sculpture。「彫刻・彫刻すること」。大理石を立体の人物像にした作品です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qsculpture"
+      ]
+    },
+    {
+      "passageId": "sewer",
+      "prompt": "Vocabulary Day 18 · Words 46–60: complete se___. Enter the missing letters.",
+      "word": "sewer",
+      "prefix": "se",
+      "answer": "正解：wer → sewer。学習語：sewer。「下水管・下水道」。建物の汚水を運ぶ管です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qsewer"
+      ]
+    },
+    {
+      "passageId": "socioeconomic",
+      "prompt": "Vocabulary Day 18 · Words 46–60: complete soc__________. Enter the missing letters.",
+      "word": "socioeconomic",
+      "prefix": "soc",
+      "answer": "正解：ioeconomic → socioeconomic。学習語：socioeconomic。「社会経済の」。社会的な状況と経済的な状況に関わる要因です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qsocioeconomic"
+      ]
+    },
+    {
+      "passageId": "spiritually",
+      "prompt": "Vocabulary Day 18 · Words 46–60: complete spi________. Enter the missing letters.",
+      "word": "spiritually",
+      "prefix": "spi",
+      "answer": "正解：ritually → spiritually。学習語：spiritually。「精神的に・霊的に」。信念や生きる意味についての内面的な振り返りです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qspiritually"
+      ]
+    },
+    {
+      "passageId": "stunted",
+      "prompt": "Vocabulary Day 18 · Words 46–60: complete stu____. Enter the missing letters.",
+      "word": "stunted",
+      "prefix": "stu",
+      "answer": "正解：nted → stunted。学習語：stunted。「発育を阻害された・小さくとどまった」。十分に育たず予想より小さい状態です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qstunted"
+      ]
+    },
+    {
+      "passageId": "systemic",
+      "prompt": "Vocabulary Day 18 · Words 46–60: complete sys_____. Enter the missing letters.",
+      "word": "systemic",
+      "prefix": "sys",
+      "answer": "正解：temic → systemic。学習語：systemic。「体系全体に関わる・全身性の」。この文では問題が仕組み全体に及ぶことです。秩序立った方法を表すsystematicとは区別します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qsystemic"
+      ]
+    },
+    {
+      "passageId": "tribal",
+      "prompt": "Vocabulary Day 18 · Words 46–60: complete tri___. Enter the missing letters.",
+      "word": "tribal",
+      "prefix": "tri",
+      "answer": "正解：bal → tribal。学習語：tribal。「部族の」。ある部族に受け継がれる習慣を修飾します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qtribal"
+      ]
+    },
+    {
+      "passageId": "unparalleled",
+      "prompt": "Vocabulary Day 18 · Words 46–60: complete unp_________. Enter the missing letters.",
+      "word": "unparalleled",
+      "prefix": "unp",
+      "answer": "正解：aralleled → unparalleled。学習語：unparalleled。「比類のない」。同等の先例がないほど優れていることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qunparalleled"
+      ]
+    },
+    {
+      "passageId": "weaponry",
+      "prompt": "Vocabulary Day 18 · Words 46–60: complete wea_____. Enter the missing letters.",
+      "word": "weaponry",
+      "prefix": "wea",
+      "answer": "正解：ponry → weaponry。学習語：weaponry。「兵器・武器類」。複数の時代の武器を集合的に指します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qweaponry"
+      ]
+    }
+  ]
+}

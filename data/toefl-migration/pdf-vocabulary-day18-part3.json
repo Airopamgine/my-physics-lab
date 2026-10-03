@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day18-part3",
+  "title": "Vocabulary Day 18 · Words 31–45 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 19ページ／冊子397ページ · Vocabulary Day 18 · Words 31–45",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "instinctively": "The animal reacted ins__________, without a learned plan or conscious calculation.",
+    "invasive": "The report describes an inv_____ species that has spread into the area and caused harm.",
+    "kaleidoscopic": "The display was kal__________, with patterns and colors changing like those in a kaleidoscope.",
+    "meditation": "The daily med_______ session gives participants time for quiet, focused reflection.",
+    "millennium": "A mil_______ is a period of one thousand years.",
+    "mobility": "The transport plan aims to improve mob_____ by making it easier to move between places.",
+    "negotiation": "The two sides entered neg________ to discuss terms and try to reach an agreement.",
+    "nutrient": "The label identifies a nut_____, a substance needed for growth and normal body functions.",
+    "paleontology": "The scientist studies pal_________, using fossils to investigate life in the geological past.",
+    "pendulum": "The clock has a pen_____, a suspended weight that swings back and forth.",
+    "personnel": "The notice is addressed to all per______, meaning the people employed by the organization.",
+    "placement": "The diagram specifies the pla______ of each component, showing where it should go.",
+    "portrait": "The por_____ depicts a person's face and expression rather than a landscape.",
+    "predictably": "The event ended pre________, exactly as observers had expected.",
+    "profound": "The discussion raised a pro_____ question that required deep thought."
+  },
+  "questions": [
+    {
+      "passageId": "instinctively",
+      "prompt": "Vocabulary Day 18 · Words 31–45: complete ins__________. Enter the missing letters.",
+      "word": "instinctively",
+      "prefix": "ins",
+      "answer": "正解：tinctively → instinctively。学習語：instinctively。「本能的に」。学習した計画や意識的な計算によらない反応です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qinstinctively"
+      ]
+    },
+    {
+      "passageId": "invasive",
+      "prompt": "Vocabulary Day 18 · Words 31–45: complete inv_____. Enter the missing letters.",
+      "word": "invasive",
+      "prefix": "inv",
+      "answer": "正解：asive → invasive。学習語：invasive。「侵入する・侵襲性の」。この文では移入先に広がり害を及ぼす外来種を修飾します。単に非在来であることだけでなく、害をもたらす点が含まれます。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qinvasive"
+      ]
+    },
+    {
+      "passageId": "kaleidoscopic",
+      "prompt": "Vocabulary Day 18 · Words 31–45: complete kal__________. Enter the missing letters.",
+      "word": "kaleidoscopic",
+      "prefix": "kal",
+      "answer": "正解：eidoscopic → kaleidoscopic。学習語：kaleidoscopic。「万華鏡のような・変幻自在の」。模様や色が多様に変わる様子です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qkaleidoscopic"
+      ]
+    },
+    {
+      "passageId": "meditation",
+      "prompt": "Vocabulary Day 18 · Words 31–45: complete med_______. Enter the missing letters.",
+      "word": "meditation",
+      "prefix": "med",
+      "answer": "正解：itation → meditation。学習語：meditation。「瞑想」。静かに意識を集中する時間です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qmeditation"
+      ]
+    },
+    {
+      "passageId": "millennium",
+      "prompt": "Vocabulary Day 18 · Words 31–45: complete mil_______. Enter the missing letters.",
+      "word": "millennium",
+      "prefix": "mil",
+      "answer": "正解：lennium → millennium。学習語：millennium。「千年・千年間」。千年という時間の単位です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qmillennium"
+      ]
+    },
+    {
+      "passageId": "mobility",
+      "prompt": "Vocabulary Day 18 · Words 31–45: complete mob_____. Enter the missing letters.",
+      "word": "mobility",
+      "prefix": "mob",
+      "answer": "正解：ility → mobility。学習語：mobility。「移動性・可動性」。場所から場所へ移動しやすくすることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qmobility"
+      ]
+    },
+    {
+      "passageId": "negotiation",
+      "prompt": "Vocabulary Day 18 · Words 31–45: complete neg________. Enter the missing letters.",
+      "word": "negotiation",
+      "prefix": "neg",
+      "answer": "正解：otiation → negotiation。学習語：negotiation。「交渉」。条件を話し合い、合意を目指す過程です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qnegotiation"
+      ]
+    },
+    {
+      "passageId": "nutrient",
+      "prompt": "Vocabulary Day 18 · Words 31–45: complete nut_____. Enter the missing letters.",
+      "word": "nutrient",
+      "prefix": "nut",
+      "answer": "正解：rient → nutrient。学習語：nutrient。「栄養素」。成長や体の働きに必要な物質です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qnutrient"
+      ]
+    },
+    {
+      "passageId": "paleontology",
+      "prompt": "Vocabulary Day 18 · Words 31–45: complete pal_________. Enter the missing letters.",
+      "word": "paleontology",
+      "prefix": "pal",
+      "answer": "正解：eontology → paleontology。学習語：paleontology。「古生物学」。化石から地質時代の生物を研究する分野です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qpaleontology"
+      ]
+    },
+    {
+      "passageId": "pendulum",
+      "prompt": "Vocabulary Day 18 · Words 31–45: complete pen_____. Enter the missing letters.",
+      "word": "pendulum",
+      "prefix": "pen",
+      "answer": "正解：dulum → pendulum。学習語：pendulum。「振り子」。つるされた重りが往復するものです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qpendulum"
+      ]
+    },
+    {
+      "passageId": "personnel",
+      "prompt": "Vocabulary Day 18 · Words 31–45: complete per______. Enter the missing letters.",
+      "word": "personnel",
+      "prefix": "per",
+      "answer": "正解：sonnel → personnel。学習語：personnel。「職員・人員」。組織で働く人々を集合的に指します。personal（個人的な）とは別語です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qpersonnel"
+      ]
+    },
+    {
+      "passageId": "placement",
+      "prompt": "Vocabulary Day 18 · Words 31–45: complete pla______. Enter the missing letters.",
+      "word": "placement",
+      "prefix": "pla",
+      "answer": "正解：cement → placement。学習語：placement。「配置・就職の斡旋」。この文では部品を置く位置です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qplacement"
+      ]
+    },
+    {
+      "passageId": "portrait",
+      "prompt": "Vocabulary Day 18 · Words 31–45: complete por_____. Enter the missing letters.",
+      "word": "portrait",
+      "prefix": "por",
+      "answer": "正解：trait → portrait。学習語：portrait。「肖像画」。人物を描いた作品です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qportrait"
+      ]
+    },
+    {
+      "passageId": "predictably",
+      "prompt": "Vocabulary Day 18 · Words 31–45: complete pre________. Enter the missing letters.",
+      "word": "predictably",
+      "prefix": "pre",
+      "answer": "正解：dictably → predictably。学習語：predictably。「予想どおりに・予測可能な形で」。予想していた結果になったことです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qpredictably"
+      ]
+    },
+    {
+      "passageId": "profound",
+      "prompt": "Vocabulary Day 18 · Words 31–45: complete pro_____. Enter the missing letters.",
+      "word": "profound",
+      "prefix": "pro",
+      "answer": "正解：found → profound。学習語：profound。「深い・深遠な」。十分な思索が必要な根本的な問いです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qprofound"
+      ]
+    }
+  ]
+}

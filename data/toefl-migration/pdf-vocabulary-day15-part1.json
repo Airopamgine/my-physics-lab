@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day15-part1",
+  "title": "Vocabulary Day 15 · Words 1–15 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 16ページ／冊子394ページ · Vocabulary Day 15 · Words 1–15",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "absorbent": "The abs______ cloth soaks up water quickly.",
+    "activist": "The environmental act_____ campaigns for changes to protect the river.",
+    "affluent": "The aff_____ neighborhood contains many expensive homes owned by wealthy residents.",
+    "amenity": "A swimming pool is an ame____ that makes the hotel more convenient and pleasant.",
+    "anthropomorphism": "Giving human emotions to the animal characters is an example of ant_____________.",
+    "arid": "The ar__ region receives very little rain and remains extremely dry.",
+    "asylum": "The account describes people seeking asy___ as a place of protection from danger.",
+    "biodiversity": "The survey measures bio_________ by examining the variety of life in the region.",
+    "buildup": "A gradual bui____ of dust eventually covered the unused equipment.",
+    "chromosome": "The textbook describes a chr_______ as a structure that carries genetic information in the form of DNA.",
+    "clot": "The liquid formed a cl__, becoming a thick lump rather than remaining freely flowing.",
+    "colossal": "The statue is col_____, towering far above the people beside it.",
+    "competitor": "Each com_______ in the race tries to finish before the other runners.",
+    "connectivity": "The map shows the con_________ of the network by indicating which points are linked.",
+    "convey": "The letter will con___ the main idea clearly to its readers."
+  },
+  "questions": [
+    {
+      "passageId": "absorbent",
+      "prompt": "Vocabulary Day 15 · Words 1–15: complete abs______. Enter the missing letters.",
+      "word": "absorbent",
+      "prefix": "abs",
+      "answer": "正解：orbent → absorbent。学習語：absorbent。「吸収性の；吸収材」。ここでは水を吸い取る性質のある布です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qabsorbent"
+      ]
+    },
+    {
+      "passageId": "activist",
+      "prompt": "Vocabulary Day 15 · Words 1–15: complete act_____. Enter the missing letters.",
+      "word": "activist",
+      "prefix": "act",
+      "answer": "正解：ivist → activist。学習語：activist。「活動家」。環境を守るために働き掛ける人です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qactivist"
+      ]
+    },
+    {
+      "passageId": "affluent",
+      "prompt": "Vocabulary Day 15 · Words 1–15: complete aff_____. Enter the missing letters.",
+      "word": "affluent",
+      "prefix": "aff",
+      "answer": "正解：luent → affluent。学習語：affluent。「裕福な・豊かな」。財産のある住民が多い地域です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qaffluent"
+      ]
+    },
+    {
+      "passageId": "amenity",
+      "prompt": "Vocabulary Day 15 · Words 1–15: complete ame____. Enter the missing letters.",
+      "word": "amenity",
+      "prefix": "ame",
+      "answer": "正解：nity → amenity。学習語：amenity。「快適な設備・便宜施設；快適さ」。宿泊客が便利に使える施設です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qamenity"
+      ]
+    },
+    {
+      "passageId": "anthropomorphism",
+      "prompt": "Vocabulary Day 15 · Words 1–15: complete ant_____________. Enter the missing letters.",
+      "word": "anthropomorphism",
+      "prefix": "ant",
+      "answer": "正解：hropomorphism → anthropomorphism。学習語：anthropomorphism。「擬人化」。人間以外のものに人の感情や特性を与えています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qanthropomorphism"
+      ]
+    },
+    {
+      "passageId": "arid",
+      "prompt": "Vocabulary Day 15 · Words 1–15: complete ar__. Enter the missing letters.",
+      "word": "arid",
+      "prefix": "ar",
+      "answer": "正解：id → arid。学習語：arid。「乾燥した・不毛の」。雨が少なく乾いた地域です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qarid"
+      ]
+    },
+    {
+      "passageId": "asylum",
+      "prompt": "Vocabulary Day 15 · Words 1–15: complete asy___. Enter the missing letters.",
+      "word": "asylum",
+      "prefix": "asy",
+      "answer": "正解：lum → asylum。学習語：asylum。「避難所・保護・亡命」。危険から守られる場所や保護を求める文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qasylum"
+      ]
+    },
+    {
+      "passageId": "biodiversity",
+      "prompt": "Vocabulary Day 15 · Words 1–15: complete bio_________. Enter the missing letters.",
+      "word": "biodiversity",
+      "prefix": "bio",
+      "answer": "正解：diversity → biodiversity。学習語：biodiversity。「生物多様性」。地域に見られる生物の多様さを調べています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qbiodiversity"
+      ]
+    },
+    {
+      "passageId": "buildup",
+      "prompt": "Vocabulary Day 15 · Words 1–15: complete bui____. Enter the missing letters.",
+      "word": "buildup",
+      "prefix": "bui",
+      "answer": "正解：ldup → buildup。学習語：buildup。「蓄積・増大」。ほこりが少しずつたまったことです。名詞は一語です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qbuildup"
+      ]
+    },
+    {
+      "passageId": "chromosome",
+      "prompt": "Vocabulary Day 15 · Words 1–15: complete chr_______. Enter the missing letters.",
+      "word": "chromosome",
+      "prefix": "chr",
+      "answer": "正解：omosome → chromosome。学習語：chromosome。「染色体」。DNAによる遺伝情報を持つ構造です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qchromosome"
+      ]
+    },
+    {
+      "passageId": "clot",
+      "prompt": "Vocabulary Day 15 · Words 1–15: complete cl__. Enter the missing letters.",
+      "word": "clot",
+      "prefix": "cl",
+      "answer": "正解：ot → clot。学習語：clot。「凝固した塊；凝固する」。この文では流れる液体からできた塊という名詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qclot"
+      ]
+    },
+    {
+      "passageId": "colossal",
+      "prompt": "Vocabulary Day 15 · Words 1–15: complete col_____. Enter the missing letters.",
+      "word": "colossal",
+      "prefix": "col",
+      "answer": "正解：ossal → colossal。学習語：colossal。「巨大な・途方もない」。人よりはるかに大きい像です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qcolossal"
+      ]
+    },
+    {
+      "passageId": "competitor",
+      "prompt": "Vocabulary Day 15 · Words 1–15: complete com_______. Enter the missing letters.",
+      "word": "competitor",
+      "prefix": "com",
+      "answer": "正解：petitor → competitor。学習語：competitor。「競争相手・競技参加者」。同じ競走で速さを競う人です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qcompetitor"
+      ]
+    },
+    {
+      "passageId": "connectivity",
+      "prompt": "Vocabulary Day 15 · Words 1–15: complete con_________. Enter the missing letters.",
+      "word": "connectivity",
+      "prefix": "con",
+      "answer": "正解：nectivity → connectivity。学習語：connectivity。「接続性・連結性」。どの地点同士がつながるかという性質です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qconnectivity"
+      ]
+    },
+    {
+      "passageId": "convey",
+      "prompt": "Vocabulary Day 15 · Words 1–15: complete con___. Enter the missing letters.",
+      "word": "convey",
+      "prefix": "con",
+      "answer": "正解：vey → convey。学習語：convey。「伝える・運ぶ」。この文では内容を読者へ伝達する動詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qconvey"
+      ]
+    }
+  ]
+}

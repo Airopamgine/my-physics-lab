@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day11-part3",
+  "title": "Vocabulary Day 11 · Words 31–45 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 12ページ／冊子390ページ · Vocabulary Day 11 · Words 31–45",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "magazine": "The monthly mag_____ contains articles, photographs, and interviews.",
+    "membership": "A library mem_______ gives you the right to borrow books.",
+    "notification": "The app sends a not_________ to tell you that a new message has arrived.",
+    "opening": "The company advertised a job ope____ for a new assistant.",
+    "owner": "The ow___ of the bicycle can collect it by proving that it belongs to them.",
+    "participant": "Each par________ in the workshop will complete a practical activity.",
+    "perform": "The orchestra will per____ the symphony for the audience tonight.",
+    "playlist": "She created a pla_____ of songs to play during the event.",
+    "premiere": "The film's pre_____ was its first public showing.",
+    "preview": "The museum offered a pre____ so guests could see the exhibition before it officially opened.",
+    "provider": "The internet service pro_____ supplies the connection used in the office.",
+    "receive": "You will rec____ a confirmation email after registering.",
+    "regard": "Many residents reg___ the old building as an important part of their community.",
+    "remote": "The rem___ village is far from major towns and difficult to reach.",
+    "reschedule": "We need to res_______ the appointment by moving it to another day."
+  },
+  "questions": [
+    {
+      "passageId": "magazine",
+      "prompt": "Vocabulary Day 11 · Words 31–45: complete mag_____. Enter the missing letters.",
+      "word": "magazine",
+      "prefix": "mag",
+      "answer": "正解：azine → magazine。学習語：magazine。「雑誌」。定期的に刊行する記事や写真の冊子です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qmagazine"
+      ]
+    },
+    {
+      "passageId": "membership",
+      "prompt": "Vocabulary Day 11 · Words 31–45: complete mem_______. Enter the missing letters.",
+      "word": "membership",
+      "prefix": "mem",
+      "answer": "正解：bership → membership。学習語：membership。「会員資格・会員数」。この文では図書館の会員としての資格です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qmembership"
+      ]
+    },
+    {
+      "passageId": "notification",
+      "prompt": "Vocabulary Day 11 · Words 31–45: complete not_________. Enter the missing letters.",
+      "word": "notification",
+      "prefix": "not",
+      "answer": "正解：ification → notification。学習語：notification。「通知・告知」。新着メッセージを知らせます。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qnotification"
+      ]
+    },
+    {
+      "passageId": "opening",
+      "prompt": "Vocabulary Day 11 · Words 31–45: complete ope____. Enter the missing letters.",
+      "word": "opening",
+      "prefix": "ope",
+      "answer": "正解：ning → opening。学習語：opening。「空き・開始・開放」。ここでは新たに人を採用する空きポストです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qopening"
+      ]
+    },
+    {
+      "passageId": "owner",
+      "prompt": "Vocabulary Day 11 · Words 31–45: complete ow___. Enter the missing letters.",
+      "word": "owner",
+      "prefix": "ow",
+      "answer": "正解：ner → owner。学習語：owner。「所有者」。自分の物であると証明して自転車を受け取る人です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qowner"
+      ]
+    },
+    {
+      "passageId": "participant",
+      "prompt": "Vocabulary Day 11 · Words 31–45: complete par________. Enter the missing letters.",
+      "word": "participant",
+      "prefix": "par",
+      "answer": "正解：ticipant → participant。学習語：participant。「参加者」。ワークショップに参加する人です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qparticipant"
+      ]
+    },
+    {
+      "passageId": "perform",
+      "prompt": "Vocabulary Day 11 · Words 31–45: complete per____. Enter the missing letters.",
+      "word": "perform",
+      "prefix": "per",
+      "answer": "正解：form → perform。学習語：perform。「演奏する・公演する；遂行する」。ここでは聴衆に交響曲を演奏します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qperform"
+      ]
+    },
+    {
+      "passageId": "playlist",
+      "prompt": "Vocabulary Day 11 · Words 31–45: complete pla_____. Enter the missing letters.",
+      "word": "playlist",
+      "prefix": "pla",
+      "answer": "正解：ylist → playlist。学習語：playlist。「再生リスト」。順に再生する曲の一覧です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qplaylist"
+      ]
+    },
+    {
+      "passageId": "premiere",
+      "prompt": "Vocabulary Day 11 · Words 31–45: complete pre_____. Enter the missing letters.",
+      "word": "premiere",
+      "prefix": "pre",
+      "answer": "正解：miere → premiere。学習語：premiere。「初上映・初演；初公開する」。初めて観客に見せる上映です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qpremiere"
+      ]
+    },
+    {
+      "passageId": "preview",
+      "prompt": "Vocabulary Day 11 · Words 31–45: complete pre____. Enter the missing letters.",
+      "word": "preview",
+      "prefix": "pre",
+      "answer": "正解：view → preview。学習語：preview。「内覧・試写；事前に見る」。正式公開前に展示を見る機会です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qpreview"
+      ]
+    },
+    {
+      "passageId": "provider",
+      "prompt": "Vocabulary Day 11 · Words 31–45: complete pro_____. Enter the missing letters.",
+      "word": "provider",
+      "prefix": "pro",
+      "answer": "正解：vider → provider。学習語：provider。「供給者・サービス提供者」。インターネット接続を提供する会社です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qprovider"
+      ]
+    },
+    {
+      "passageId": "receive",
+      "prompt": "Vocabulary Day 11 · Words 31–45: complete rec____. Enter the missing letters.",
+      "word": "receive",
+      "prefix": "rec",
+      "answer": "正解：eive → receive。学習語：receive。「受け取る」。登録後に確認のメールが届きます。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qreceive"
+      ]
+    },
+    {
+      "passageId": "regard",
+      "prompt": "Vocabulary Day 11 · Words 31–45: complete reg___. Enter the missing letters.",
+      "word": "regard",
+      "prefix": "reg",
+      "answer": "正解：ard → regard。学習語：regard。「見なす；関心」。regard A as Bで、建物を地域の大切な一部と見なします。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qregard"
+      ]
+    },
+    {
+      "passageId": "remote",
+      "prompt": "Vocabulary Day 11 · Words 31–45: complete rem___. Enter the missing letters.",
+      "word": "remote",
+      "prefix": "rem",
+      "answer": "正解：ote → remote。学習語：remote。「遠く離れた・遠隔の」。大きな町から離れた村です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qremote"
+      ]
+    },
+    {
+      "passageId": "reschedule",
+      "prompt": "Vocabulary Day 11 · Words 31–45: complete res_______. Enter the missing letters.",
+      "word": "reschedule",
+      "prefix": "res",
+      "answer": "正解：chedule → reschedule。学習語：reschedule。「予定を変更する」。約束を別の日へ移します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qreschedule"
+      ]
+    }
+  ]
+}

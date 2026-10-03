@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day19-part4",
+  "title": "Vocabulary Day 19 · Words 46–60 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 20ページ／冊子398ページ · Vocabulary Day 19 · Words 46–60",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "postwar": "The chapter examines the pos____ period following the end of the conflict.",
+    "predictive": "The model has pre_______ value because it helps estimate what may happen next.",
+    "progression": "The exhibit shows the pro________ of the design through successive stages of development.",
+    "protest": "Residents organized a pro____ to express their objection to the decision.",
+    "radiation": "The physics lesson defines rad______ as energy emitted and transmitted in waves or particles.",
+    "rectangular": "The rec________ table has four right angles and opposite sides of equal length.",
+    "remoteness": "The village's rem_______ made it hard to reach because it was far from other settlements.",
+    "reservoir": "The town stores water in a res______ for use when it is needed.",
+    "secrete": "The gland can sec____ a substance by producing and releasing it.",
+    "sociopolitical": "The article discusses soc___________ issues linking social conditions with political decisions.",
+    "spore": "The illustration shows a sp___, a reproductive cell released by the fungus.",
+    "sublime": "The critic described the mountain scene as sub____ because of its overwhelming grandeur.",
+    "tantalizing": "The brief glimpse was tan________, making the viewer eager to see more without satisfying that desire.",
+    "topography": "The survey records the top_______ of the area, including the shape of its hills and valleys.",
+    "trillion": "In current common English usage, a tri_____ is one thousand billion, or one million million."
+  },
+  "questions": [
+    {
+      "passageId": "postwar",
+      "prompt": "Vocabulary Day 19 · Words 46–60: complete pos____. Enter the missing letters.",
+      "word": "postwar",
+      "prefix": "pos",
+      "answer": "正解：twar → postwar。学習語：postwar。「戦後の」。戦争が終わった後の時期を修飾します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qpostwar"
+      ]
+    },
+    {
+      "passageId": "predictive",
+      "prompt": "Vocabulary Day 19 · Words 46–60: complete pre_______. Enter the missing letters.",
+      "word": "predictive",
+      "prefix": "pre",
+      "answer": "正解：dictive → predictive。学習語：predictive。「予測の」。将来の出来事を推定する役割を示します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qpredictive"
+      ]
+    },
+    {
+      "passageId": "progression",
+      "prompt": "Vocabulary Day 19 · Words 46–60: complete pro________. Enter the missing letters.",
+      "word": "progression",
+      "prefix": "pro",
+      "answer": "正解：gression → progression。学習語：progression。「進行・発展」。段階を追って設計が変わっていくことです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qprogression"
+      ]
+    },
+    {
+      "passageId": "protest",
+      "prompt": "Vocabulary Day 19 · Words 46–60: complete pro____. Enter the missing letters.",
+      "word": "protest",
+      "prefix": "pro",
+      "answer": "正解：test → protest。学習語：protest。「抗議；抗議する」。この文では決定への反対を表す行動という名詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qprotest"
+      ]
+    },
+    {
+      "passageId": "radiation",
+      "prompt": "Vocabulary Day 19 · Words 46–60: complete rad______. Enter the missing letters.",
+      "word": "radiation",
+      "prefix": "rad",
+      "answer": "正解：iation → radiation。学習語：radiation。「放射・放射線」。波や粒子としてエネルギーが放出され、伝わることです。放射すべてが電離放射線とは限りません。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qradiation"
+      ]
+    },
+    {
+      "passageId": "rectangular",
+      "prompt": "Vocabulary Day 19 · Words 46–60: complete rec________. Enter the missing letters.",
+      "word": "rectangular",
+      "prefix": "rec",
+      "answer": "正解：tangular → rectangular。学習語：rectangular。「長方形の」。四つの角が直角で、向かい合う辺の長さが等しい形です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qrectangular"
+      ]
+    },
+    {
+      "passageId": "remoteness",
+      "prompt": "Vocabulary Day 19 · Words 46–60: complete rem_______. Enter the missing letters.",
+      "word": "remoteness",
+      "prefix": "rem",
+      "answer": "正解：oteness → remoteness。学習語：remoteness。「遠隔性・人里から離れていること」。他の集落から遠く交通が難しい状態です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qremoteness"
+      ]
+    },
+    {
+      "passageId": "reservoir",
+      "prompt": "Vocabulary Day 19 · Words 46–60: complete res______. Enter the missing letters.",
+      "word": "reservoir",
+      "prefix": "res",
+      "answer": "正解：ervoir → reservoir。学習語：reservoir。「貯水池・貯蔵場所」。後で利用する水をためる場所です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qreservoir"
+      ]
+    },
+    {
+      "passageId": "secrete",
+      "prompt": "Vocabulary Day 19 · Words 46–60: complete sec____. Enter the missing letters.",
+      "word": "secrete",
+      "prefix": "sec",
+      "answer": "正解：rete → secrete。学習語：secrete。「分泌する；隠す」。この文では物質を作って放出する用法です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qsecrete"
+      ]
+    },
+    {
+      "passageId": "sociopolitical",
+      "prompt": "Vocabulary Day 19 · Words 46–60: complete soc___________. Enter the missing letters.",
+      "word": "sociopolitical",
+      "prefix": "soc",
+      "answer": "正解：iopolitical → sociopolitical。学習語：sociopolitical。「社会政治の」。社会状況と政治判断の関係に関わる問題です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qsociopolitical"
+      ]
+    },
+    {
+      "passageId": "spore",
+      "prompt": "Vocabulary Day 19 · Words 46–60: complete sp___. Enter the missing letters.",
+      "word": "spore",
+      "prefix": "sp",
+      "answer": "正解：ore → spore。学習語：spore。「胞子」。菌類が繁殖のため放出する細胞を例にしています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qspore"
+      ]
+    },
+    {
+      "passageId": "sublime",
+      "prompt": "Vocabulary Day 19 · Words 46–60: complete sub____. Enter the missing letters.",
+      "word": "sublime",
+      "prefix": "sub",
+      "answer": "正解：lime → sublime。学習語：sublime。「崇高な・壮大な；崇高さ」。圧倒的な雄大さのある景色を修飾します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qsublime"
+      ]
+    },
+    {
+      "passageId": "tantalizing",
+      "prompt": "Vocabulary Day 19 · Words 46–60: complete tan________. Enter the missing letters.",
+      "word": "tantalizing",
+      "prefix": "tan",
+      "answer": "正解：talizing → tantalizing。学習語：tantalizing。「じらすような・魅力的な」。少し見せられて、もっと見たい気持ちが強まっています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qtantalizing"
+      ]
+    },
+    {
+      "passageId": "topography",
+      "prompt": "Vocabulary Day 19 · Words 46–60: complete top_______. Enter the missing letters.",
+      "word": "topography",
+      "prefix": "top",
+      "answer": "正解：ography → topography。学習語：topography。「地形・地形学」。この文では土地の高低や形状です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qtopography"
+      ]
+    },
+    {
+      "passageId": "trillion",
+      "prompt": "Vocabulary Day 19 · Words 46–60: complete tri_____. Enter the missing letters.",
+      "word": "trillion",
+      "prefix": "tri",
+      "answer": "正解：llion → trillion。学習語：trillion。「一兆」。ここでは1,000,000,000,000を表す現在一般的な英語の用法です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qtrillion"
+      ]
+    }
+  ]
+}

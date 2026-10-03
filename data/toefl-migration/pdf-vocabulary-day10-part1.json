@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day10-part1",
+  "title": "Vocabulary Day 10 · Words 1–15 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 11ページ／冊子389ページ · Vocabulary Day 10 · Words 1–15",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "account": "She opened a bank acc____ to keep her savings in one place.",
+    "affiliate": "The regional company is an aff______ of the larger organization.",
+    "apartment": "They rented an apa______ with a bedroom, a kitchen, and a living room.",
+    "apron": "The cook wore an ap___ over her clothes to keep them clean.",
+    "attach": "Please att___ the receipt to your application using a paper clip.",
+    "availability": "The booking page shows the ava_________ of rooms for each date.",
+    "biweekly": "The club meets on a biw_____ schedule: once every two weeks.",
+    "breakfast": "The hotel serves bre______ in the morning before guests begin their day.",
+    "career": "She built a car___ in engineering and worked in the field for many years.",
+    "check": "Please ch___ the address to make sure it is correct before sending the parcel.",
+    "classroom": "The students entered the cla______ where their lesson would take place.",
+    "comment": "The reviewer added a com____ explaining what she thought of the proposal.",
+    "comprehensive": "The guide is com__________, covering every stage from planning to completion.",
+    "constructive": "The teacher gave con_________ criticism that helped students improve their work.",
+    "copy": "Keep a co__ of the signed form in case the original is lost."
+  },
+  "questions": [
+    {
+      "passageId": "account",
+      "prompt": "Vocabulary Day 10 · Words 1–15: complete acc____. Enter the missing letters.",
+      "word": "account",
+      "prefix": "acc",
+      "answer": "正解：ount → account。学習語：account。「口座・説明；説明する」。ここでは貯蓄を預ける銀行口座です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qaccount"
+      ]
+    },
+    {
+      "passageId": "affiliate",
+      "prompt": "Vocabulary Day 10 · Words 1–15: complete aff______. Enter the missing letters.",
+      "word": "affiliate",
+      "prefix": "aff",
+      "answer": "正解：iliate → affiliate。学習語：affiliate。「系列会社；提携する」。大きな組織に関連する会社という名詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qaffiliate"
+      ]
+    },
+    {
+      "passageId": "apartment",
+      "prompt": "Vocabulary Day 10 · Words 1–15: complete apa______. Enter the missing letters.",
+      "word": "apartment",
+      "prefix": "apa",
+      "answer": "正解：rtment → apartment。学習語：apartment。「集合住宅の一住戸・部屋」。複数の部屋を備えた賃貸住戸です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qapartment"
+      ]
+    },
+    {
+      "passageId": "apron",
+      "prompt": "Vocabulary Day 10 · Words 1–15: complete ap___. Enter the missing letters.",
+      "word": "apron",
+      "prefix": "ap",
+      "answer": "正解：ron → apron。学習語：apron。「エプロン」。服を汚さないよう前面に着用する物です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qapron"
+      ]
+    },
+    {
+      "passageId": "attach",
+      "prompt": "Vocabulary Day 10 · Words 1–15: complete att___. Enter the missing letters.",
+      "word": "attach",
+      "prefix": "att",
+      "answer": "正解：ach → attach。学習語：attach。「添付する・取り付ける」。申請書に領収書を付けます。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qattach"
+      ]
+    },
+    {
+      "passageId": "availability",
+      "prompt": "Vocabulary Day 10 · Words 1–15: complete ava_________. Enter the missing letters.",
+      "word": "availability",
+      "prefix": "ava",
+      "answer": "正解：ilability → availability。学習語：availability。「利用可能性・空き状況」。希望日の部屋が利用できるかを示します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qavailability"
+      ]
+    },
+    {
+      "passageId": "biweekly",
+      "prompt": "Vocabulary Day 10 · Words 1–15: complete biw_____. Enter the missing letters.",
+      "word": "biweekly",
+      "prefix": "biw",
+      "answer": "正解：eekly → biweekly。学習語：biweekly。「隔週の・隔週で」。原本の意味に合わせ、この文では二週間に一度と明示しています。英語では週二回の意味にも使われるため文脈の確認が必要です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qbiweekly"
+      ]
+    },
+    {
+      "passageId": "breakfast",
+      "prompt": "Vocabulary Day 10 · Words 1–15: complete bre______. Enter the missing letters.",
+      "word": "breakfast",
+      "prefix": "bre",
+      "answer": "正解：akfast → breakfast。学習語：breakfast。「朝食」。一日の始まりに食べる朝の食事です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qbreakfast"
+      ]
+    },
+    {
+      "passageId": "career",
+      "prompt": "Vocabulary Day 10 · Words 1–15: complete car___. Enter the missing letters.",
+      "word": "career",
+      "prefix": "car",
+      "answer": "正解：eer → career。学習語：career。「職業・職歴」。長年の専門的な仕事の歩みです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qcareer"
+      ]
+    },
+    {
+      "passageId": "check",
+      "prompt": "Vocabulary Day 10 · Words 1–15: complete ch___. Enter the missing letters.",
+      "word": "check",
+      "prefix": "ch",
+      "answer": "正解：eck → check。学習語：check。「確認する；確認・小切手」。ここでは住所が正しいか調べる動詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qcheck"
+      ]
+    },
+    {
+      "passageId": "classroom",
+      "prompt": "Vocabulary Day 10 · Words 1–15: complete cla______. Enter the missing letters.",
+      "word": "classroom",
+      "prefix": "cla",
+      "answer": "正解：ssroom → classroom。学習語：classroom。「教室」。授業を受けるための部屋です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qclassroom"
+      ]
+    },
+    {
+      "passageId": "comment",
+      "prompt": "Vocabulary Day 10 · Words 1–15: complete com____. Enter the missing letters.",
+      "word": "comment",
+      "prefix": "com",
+      "answer": "正解：ment → comment。学習語：comment。「意見・論評；意見を述べる」。提案への考えを書き添えた一言です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qcomment"
+      ]
+    },
+    {
+      "passageId": "comprehensive",
+      "prompt": "Vocabulary Day 10 · Words 1–15: complete com__________. Enter the missing letters.",
+      "word": "comprehensive",
+      "prefix": "com",
+      "answer": "正解：prehensive → comprehensive。学習語：comprehensive。「包括的な・総合的な」。計画から完成まで全段階を扱います。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qcomprehensive"
+      ]
+    },
+    {
+      "passageId": "constructive",
+      "prompt": "Vocabulary Day 10 · Words 1–15: complete con_________. Enter the missing letters.",
+      "word": "constructive",
+      "prefix": "con",
+      "answer": "正解：structive → constructive。学習語：constructive。「建設的な」。改善に役立つ批評を修飾します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qconstructive"
+      ]
+    },
+    {
+      "passageId": "copy",
+      "prompt": "Vocabulary Day 10 · Words 1–15: complete co__. Enter the missing letters.",
+      "word": "copy",
+      "prefix": "co",
+      "answer": "正解：py → copy。学習語：copy。「写し；複写する」。原本をなくした場合に備える複製です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qcopy"
+      ]
+    }
+  ]
+}

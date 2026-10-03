@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day20-part1",
+  "title": "Vocabulary Day 20 · Words 1–15 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 21ページ／冊子399ページ · Vocabulary Day 20 · Words 1–15",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "accumulate": "Over time, sediment can acc_______ in the basin as more material gathers there.",
+    "adversity": "Despite serious adv______, the team continued through difficult conditions.",
+    "agriculture": "The course studies agr________, including the cultivation of crops and the raising of livestock.",
+    "allot": "The organizers will al___ ten minutes to each speaker, assigning that amount of time.",
+    "anecdote": "The lecturer told a short ane_____ about an unusual event from her childhood.",
+    "aquatic": "The exhibition focuses on aqu____ organisms that live in water.",
+    "avian": "The researcher studies av___ behavior by observing birds.",
+    "brewing": "The factory specializes in bre____, the process of making beer.",
+    "census": "The government conducted a cen___ to count the population and collect information about residents.",
+    "civic": "The lesson examines ci___ responsibilities associated with membership in a community.",
+    "commute": "She has to com____ between her home and workplace each weekday.",
+    "confront": "The manager must con_____ the problem directly instead of avoiding it.",
+    "counteract": "The measure is intended to cou_______ the unwanted effect by working against it.",
+    "decode": "The researcher tried to dec___ the message by converting its coded symbols into readable words.",
+    "degeneration": "The report describes deg_________ as a gradual deterioration in the condition of the material."
+  },
+  "questions": [
+    {
+      "passageId": "accumulate",
+      "prompt": "Vocabulary Day 20 · Words 1–15: complete acc_______. Enter the missing letters.",
+      "word": "accumulate",
+      "prefix": "acc",
+      "answer": "正解：umulate → accumulate。学習語：accumulate。「蓄積する・集める」。物質が次第にたまることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qaccumulate"
+      ]
+    },
+    {
+      "passageId": "adversity",
+      "prompt": "Vocabulary Day 20 · Words 1–15: complete adv______. Enter the missing letters.",
+      "word": "adversity",
+      "prefix": "adv",
+      "answer": "正解：ersity → adversity。学習語：adversity。「逆境・困難」。厳しい状況に直面しても続けたことです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qadversity"
+      ]
+    },
+    {
+      "passageId": "agriculture",
+      "prompt": "Vocabulary Day 20 · Words 1–15: complete agr________. Enter the missing letters.",
+      "word": "agriculture",
+      "prefix": "agr",
+      "answer": "正解：iculture → agriculture。学習語：agriculture。「農業・農学」。作物を育て、家畜を飼う活動を扱います。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qagriculture"
+      ]
+    },
+    {
+      "passageId": "allot",
+      "prompt": "Vocabulary Day 20 · Words 1–15: complete al___. Enter the missing letters.",
+      "word": "allot",
+      "prefix": "al",
+      "answer": "正解：lot → allot。学習語：allot。「割り当てる・配分する」。一人に10分ずつ時間を割り当てることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qallot"
+      ]
+    },
+    {
+      "passageId": "anecdote",
+      "prompt": "Vocabulary Day 20 · Words 1–15: complete ane_____. Enter the missing letters.",
+      "word": "anecdote",
+      "prefix": "ane",
+      "answer": "正解：cdote → anecdote。学習語：anecdote。「逸話」。子供時代の珍しい出来事についての短い話です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qanecdote"
+      ]
+    },
+    {
+      "passageId": "aquatic",
+      "prompt": "Vocabulary Day 20 · Words 1–15: complete aqu____. Enter the missing letters.",
+      "word": "aquatic",
+      "prefix": "aqu",
+      "answer": "正解：atic → aquatic。学習語：aquatic。「水生の・水中の」。水を生活の場とする生物を修飾します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qaquatic"
+      ]
+    },
+    {
+      "passageId": "avian",
+      "prompt": "Vocabulary Day 20 · Words 1–15: complete av___. Enter the missing letters.",
+      "word": "avian",
+      "prefix": "av",
+      "answer": "正解：ian → avian。学習語：avian。「鳥類の；鳥」。この文では鳥の行動を修飾する形容詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qavian"
+      ]
+    },
+    {
+      "passageId": "brewing",
+      "prompt": "Vocabulary Day 20 · Words 1–15: complete bre____. Enter the missing letters.",
+      "word": "brewing",
+      "prefix": "bre",
+      "answer": "正解：wing → brewing。学習語：brewing。「醸造・ビールの醸造」。ビールを造る工程です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qbrewing"
+      ]
+    },
+    {
+      "passageId": "census",
+      "prompt": "Vocabulary Day 20 · Words 1–15: complete cen___. Enter the missing letters.",
+      "word": "census",
+      "prefix": "cen",
+      "answer": "正解：sus → census。学習語：census。「国勢調査・人口調査」。人口と住民の情報を調べる調査です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qcensus"
+      ]
+    },
+    {
+      "passageId": "civic",
+      "prompt": "Vocabulary Day 20 · Words 1–15: complete ci___. Enter the missing letters.",
+      "word": "civic",
+      "prefix": "ci",
+      "answer": "正解：vic → civic。学習語：civic。「市民の・市の」。共同体の一員としての責任を修飾します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qcivic"
+      ]
+    },
+    {
+      "passageId": "commute",
+      "prompt": "Vocabulary Day 20 · Words 1–15: complete com____. Enter the missing letters.",
+      "word": "commute",
+      "prefix": "com",
+      "answer": "正解：mute → commute。学習語：commute。「通勤する；通勤」。平日に家と仕事場を定期的に行き来する動詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qcommute"
+      ]
+    },
+    {
+      "passageId": "confront",
+      "prompt": "Vocabulary Day 20 · Words 1–15: complete con_____. Enter the missing letters.",
+      "word": "confront",
+      "prefix": "con",
+      "answer": "正解：front → confront。学習語：confront。「直面する・立ち向かう」。問題を避けずに扱うことです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qconfront"
+      ]
+    },
+    {
+      "passageId": "counteract",
+      "prompt": "Vocabulary Day 20 · Words 1–15: complete cou_______. Enter the missing letters.",
+      "word": "counteract",
+      "prefix": "cou",
+      "answer": "正解：nteract → counteract。学習語：counteract。「対抗する・打ち消す」。望ましくない作用と反対方向に働くことです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qcounteract"
+      ]
+    },
+    {
+      "passageId": "decode",
+      "prompt": "Vocabulary Day 20 · Words 1–15: complete dec___. Enter the missing letters.",
+      "word": "decode",
+      "prefix": "dec",
+      "answer": "正解：ode → decode。学習語：decode。「解読する・復号する」。符号化された記号を読める言葉に変えます。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qdecode"
+      ]
+    },
+    {
+      "passageId": "degeneration",
+      "prompt": "Vocabulary Day 20 · Words 1–15: complete deg_________. Enter the missing letters.",
+      "word": "degeneration",
+      "prefix": "deg",
+      "answer": "正解：eneration → degeneration。学習語：degeneration。「退化・悪化」。物質の状態が徐々に劣化することです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qdegeneration"
+      ]
+    }
+  ]
+}
