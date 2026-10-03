@@ -536,7 +536,7 @@ class TaskCatalogTests(unittest.TestCase):
 
         index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
         source = next(s for s in index['sources'] if s['id'] == 'task3')
-        self.assertEqual(source['reviewedPages'], list(range(1, 64)))
+        self.assertEqual(source['reviewedPages'], list(range(1, 74)))
         self.assertEqual(source['pageItems']['54'], [])
         self.assertEqual(source['pageItems']['55'], refs[:1])
         self.assertEqual(source['pageItems']['56'], refs[1:3])
@@ -550,7 +550,7 @@ class TaskCatalogTests(unittest.TestCase):
         self.assertIn(index['lastSource'], {item['id'] for item in index['sources']})
         blockers = {item['source']: item for item in index['blockedItems']}
         self.assertNotIn('task2', blockers)
-        self.assertEqual(blockers['task3']['pages'], list(range(64, 155)))
+        self.assertEqual(blockers['task3']['pages'], list(range(74, 155)))
 
     def test_reading_diagnostic_preserves_all_twenty_answers(self):
         bank = self.build()
@@ -801,7 +801,7 @@ class TaskCatalogTests(unittest.TestCase):
         self.assertIn(index['lastSource'], {item['id'] for item in index['sources']})
         blockers = {item['source']: item for item in index['blockedItems']}
         self.assertNotIn('task2', blockers)
-        self.assertEqual(blockers['task3']['pages'], list(range(64, 155)))
+        self.assertEqual(blockers['task3']['pages'], list(range(74, 155)))
 
     def test_vocabulary_day05_part4_completes_all_sixty_headwords(self):
         bank = self.build()
@@ -831,7 +831,7 @@ class TaskCatalogTests(unittest.TestCase):
         self.assertIn(index['lastSource'], {item['id'] for item in index['sources']})
         blockers = {item['source']: item for item in index['blockedItems']}
         self.assertNotIn('task2', blockers)
-        self.assertEqual(blockers['task3']['pages'], list(range(64, 155)))
+        self.assertEqual(blockers['task3']['pages'], list(range(74, 155)))
 
     def test_vocabulary_day06_part1_preserves_first_fifteen_headwords(self):
         bank = self.build()
@@ -860,7 +860,7 @@ class TaskCatalogTests(unittest.TestCase):
         self.assertIn(index['lastSource'], {item['id'] for item in index['sources']})
         blocker = next(entry for entry in index['blockedItems']
                        if entry['source'] == 'task3')
-        self.assertEqual(blocker['pages'], list(range(64, 155)))
+        self.assertEqual(blocker['pages'], list(range(74, 155)))
         self.assertIn('valid complete copy', blocker['needs'])
 
     def test_vocabulary_day02_all_sixty_headwords_complete_page3(self):
