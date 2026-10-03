@@ -148,9 +148,9 @@ class VerifiedBulkSources(unittest.TestCase):
         self.assertFalse(self.bank['migration']['complete'])
         self.assertIsNone(self.bank['migration']['pdfTotalQuestions'])
         blockers = {b['source']: b for b in self.index['blockedItems']}
-        self.assertEqual(blockers['task2']['pages'], list(range(116, 125)))
+        self.assertNotIn('task2', blockers)
         self.assertEqual(blockers['task3']['pages'], list(range(64, 155)))
-        self.assertTrue(set(blockers['task2']['pages']).isdisjoint(self.sources['task2']['reviewedPages']))
+        self.assertEqual(self.sources['task2']['reviewedPages'], list(range(1, 125)))
         self.assertTrue(set(blockers['task3']['pages']).isdisjoint(self.sources['task3']['reviewedPages']))
 
 
