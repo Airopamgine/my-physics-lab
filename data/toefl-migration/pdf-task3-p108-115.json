@@ -1,0 +1,557 @@
+{
+  "id": "pdf-task3-p108-115",
+  "title": "原本移行: Arts — Ephemeral Art, Theater, Harlem and Ancient Music",
+  "date": "2026-10-03T20:32:00+00:00",
+  "level": "B2",
+  "task": 3,
+  "sourceLabel": "提供PDF Task 3 · PDF 108–115 / 冊子308–315ページ",
+  "verificationNote": "PDF抽出テキストと全本文・設問・選択肢・順序を照合し、明らかなOCR誤認を修正。文挿入の4位置を保持。画像取得の一時エラーにより画像照合は未完了。出版社解答p.486は未提供で、本文根拠による編集解答です。",
+  "passages": {
+    "ephemeral_art": "Ephemeral Art\n\nEphemeral art refers to artworks intended to last only for a short time. Unlike pieces preserved in galleries and sold for value, ephemeral works are designed to weather, melt, fade, or be dismantled. Ephemeral art varies in its medium, message, and method of destruction.\n\nA prominent example is the sand mandala. Painstakingly assembled over hours by Tibetan Buddhist monks, it forms a colorful and intricate design, only to be swept away with brooms as if it never existed. This practice signifies the impermanence of life and places value on the ritual of creating rather than the finished product. Ephemeral art is displayed in natural settings as well. Ice sculptures that melt throughout the day make climate and heat visible forces. Arrangements of fallen leaves or rock towers in rivers exist only as long as nature allows.\n\nPerformance art, in essence, is a type of ephemeral art. Even when repeated, performances are never identical, as the artist is never in the same mindset. When performed outdoors or in unconventional spaces, performance art disrupts the routines of passersby and encourages them to appreciate artistic expression outside of a gallery or museum. It reminds viewers that art can emerge—and disappear—from anywhere.",
+    "fourth_wall": "The Fourth Wall\n\nThe fourth wall is an imaginary, invisible barrier that separates the performers on stage from the audience. In a standard theater setup, three physical walls frame the performance, while the fourth side, facing the spectators, is open. This convention establishes that the audience is merely observing events in a self-contained reality, where the characters are unaware they are being watched. Accepting the fourth wall is vital for maintaining the theatrical illusion, as it requires the audience to temporarily set aside their realistic doubts and become immersed in the story. This allows the audience to become emotionally invested in the narrative.\n\nBreaking the fourth wall is the deliberate disruption of this barrier. It occurs when a character directly acknowledges the audience's presence, speaks to them, or references the constructed nature of the work. While ancient drama included similar techniques like the soliloquy, this device gained new prominence in modern theater, notably with Bertolt Brecht's epic theater. Brecht used it as an alienation effect to prevent passive absorption in the story. Instead, he prompted the audience to critically reflect on the play's social or political themes. This technique thus serves to explicitly remind the spectators that they are witnessing a performance.",
+    "harlem_renaissance": "The Harlem Renaissance\n\nThe Harlem Renaissance was a cultural awakening that flourished during the 1920s, centered in Harlem, New York. Fueled by the Great Migration of African Americans from the rural South to northern cities, this era witnessed an extraordinary outpouring of art, literature, and music that challenged racial stereotypes and asserted a bold new Black identity.\n\nThis creative movement was shaped by pioneering figures across different fields. In literature, poets such as Langston Hughes infused their verse with the rhythms of jazz and blues, capturing the authentic voices of everyday African Americans, while Zora Neale Hurston celebrated Black folk traditions and female autonomy in her novels. Musically, the defining soundtrack of the era was jazz, driven by the improvisational brilliance of artists like Duke Ellington and Louis Armstrong. In the visual arts, painters such as Aaron Douglas developed a distinctly Afrocentric modernism, portraying narratives of struggle, resilience, and pride.\n\nBy forging a strong collective identity and affirming Black humanity, the Harlem Renaissance inspired a deep sense of cultural pride and self-respect within the Black community. It also provided an intellectual and spiritual foundation—a narrative of resilience and creative genius—that empowered activists to challenge systemic injustice and permanently reshape American culture.",
+    "seikilos_epitaph": "The Seikilos Epitaph\n\nDating back to the first or second century CE, the Seikilos epitaph is one of the oldest surviving complete musical compositions in history. The piece of music was discovered on a marble column in 1883 in an ancient Greek city, and its inscription provides clues about its origin and purpose.\n\nScholars believe the epitaph was created to honor the death of a loved one. [1] The lyrics of the epitaph convey a broader philosophical message about the nature of life. [2] Rather than mourning loss, the words encourage the listener to live joyfully and be mindful of time. [3] It serves as both a personal memorial and a universal meditation on human existence. [4]\n\nThe Seikilos epitaph can be heard today. Modern researchers were able to reconstruct the melody by deciphering the composition's ancient Greek notation system, which uses letters placed over the text to indicate pitch. Scholars also inferred the rhythm of the piece by analyzing the poetic meter of the text. Once the music and lyrics were combined, the resulting song was straightforward, with clear, recurring rhythmic patterns well suited for singing and simple instrumental accompaniment."
+  },
+  "questions": [
+    {
+      "passageId": "ephemeral_art",
+      "prompt": "The word “dismantled” in the passage is closest in meaning to",
+      "options": [
+        {
+          "label": "A",
+          "text": "constructed"
+        },
+        {
+          "label": "B",
+          "text": "separated"
+        },
+        {
+          "label": "C",
+          "text": "remembered"
+        },
+        {
+          "label": "D",
+          "text": "displayed"
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。短期間で消失する作品について、dismantledは組み立てられたものを分解することです。separatedが最も近く、constructedは逆方向の動作です。",
+      "sourceRefs": [
+        "pdf:task3:p109:q01"
+      ]
+    },
+    {
+      "passageId": "ephemeral_art",
+      "prompt": "According to the passage, why do Tibetan monks destroy their sand mandalas?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To show that perfection can never be achieved"
+        },
+        {
+          "label": "B",
+          "text": "To represent the temporary nature of life"
+        },
+        {
+          "label": "C",
+          "text": "To recognize the importance of nature"
+        },
+        {
+          "label": "D",
+          "text": "To downplay the value of ritualistic practices"
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。第2段落でThis practice signifies the impermanence of lifeと明記されています。完成品より制作の儀式を重視するので、儀式の価値を下げるDは逆です。",
+      "sourceRefs": [
+        "pdf:task3:p109:q02"
+      ]
+    },
+    {
+      "passageId": "ephemeral_art",
+      "prompt": "What is suggested about ephemeral art in nature?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It persists only as long as the environment permits it to."
+        },
+        {
+          "label": "B",
+          "text": "It can leave a long-lasting impression on viewers' minds."
+        },
+        {
+          "label": "C",
+          "text": "It is typically destroyed as soon as it is finished."
+        },
+        {
+          "label": "D",
+          "text": "It reflects the recurring patterns of nature."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。落ち葉の配置や川の石積みはonly as long as nature allowsとあり、自然環境が許す間だけ存在します。完成直後に必ず壊すという一般化はできません。",
+      "sourceRefs": [
+        "pdf:task3:p109:q03"
+      ]
+    },
+    {
+      "passageId": "ephemeral_art",
+      "prompt": "Why does the author mention ice sculptures?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To suggest that ice sculptors are highly skilled artists"
+        },
+        {
+          "label": "B",
+          "text": "To illustrate how art can turn natural forces into visible phenomena"
+        },
+        {
+          "label": "C",
+          "text": "To highlight the inherent randomness of ephemeral art"
+        },
+        {
+          "label": "D",
+          "text": "To explain how a work of ephemeral art can be preserved"
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。一日で溶ける氷像がclimate and heatをvisible forcesにするとあります。気候と熱の作用を可視化する例で、保存法や制作者の技術の評価ではありません。",
+      "sourceRefs": [
+        "pdf:task3:p109:q04"
+      ]
+    },
+    {
+      "passageId": "ephemeral_art",
+      "prompt": "What is one effect of outdoor performance art?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It encourages viewers to appreciate art in an unconventional way."
+        },
+        {
+          "label": "B",
+          "text": "It reveals the artist's mindset in real-world contexts."
+        },
+        {
+          "label": "C",
+          "text": "It proves that art can be appreciated and sold for value at the same time."
+        },
+        {
+          "label": "D",
+          "text": "It draws attention to art's role in social engagement."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。通行人の習慣を中断し、美術館や画廊の外でも芸術表現を鑑賞するよう促すとあります。販売価値や社会参加の役割は、この効果として述べられていません。",
+      "sourceRefs": [
+        "pdf:task3:p109:q05"
+      ]
+    },
+    {
+      "passageId": "fourth_wall",
+      "prompt": "What is the passage mainly about?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The evolution of theater and stage design"
+        },
+        {
+          "label": "B",
+          "text": "How the fourth wall limits creativity"
+        },
+        {
+          "label": "C",
+          "text": "A conceptual boundary in a theater"
+        },
+        {
+          "label": "D",
+          "text": "Why audiences are disturbed by the fourth wall"
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。第1段落で演者と観客を隔てる想像上の境界を定義し、第2段落でそれを破る手法を説明します。舞台設計史全般や創造性の制限が主題ではありません。",
+      "sourceRefs": [
+        "pdf:task3:p111:q06"
+      ]
+    },
+    {
+      "passageId": "fourth_wall",
+      "prompt": "What is one benefit of establishing the fourth wall?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It makes performances more authentic and believable."
+        },
+        {
+          "label": "B",
+          "text": "It lets the audience forget their daily lives and surroundings."
+        },
+        {
+          "label": "C",
+          "text": "It helps actors concentrate on their own performance."
+        },
+        {
+          "label": "D",
+          "text": "It prevents the audience from being excessively immersed."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。theatrical illusionを維持し、現実的な疑いを一時的に脇に置いて物語へ没入させます。演劇世界を真に迫るものとして信じられる効果です。過度の没入を防ぐのは、Brechtが壁を破る側の目的です。",
+      "sourceRefs": [
+        "pdf:task3:p111:q07"
+      ]
+    },
+    {
+      "passageId": "fourth_wall",
+      "prompt": "Why does the author mention soliloquy?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To mention a technique used in modern plays"
+        },
+        {
+          "label": "B",
+          "text": "To show how an ancient technique has been revived"
+        },
+        {
+          "label": "C",
+          "text": "To argue that it is a better technique than the fourth wall"
+        },
+        {
+          "label": "D",
+          "text": "To provide a historical parallel to the modern technique"
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。古代の演劇にもsimilar techniquesがあったと述べ、現代の第四の壁を破る手法と歴史的な類例を結び付けます。復活したとの断定や優劣の比較はありません。",
+      "sourceRefs": [
+        "pdf:task3:p111:q08"
+      ]
+    },
+    {
+      "passageId": "fourth_wall",
+      "prompt": "What was Brecht able to achieve by breaking the fourth wall?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Critical consideration of sociopolitical subjects"
+        },
+        {
+          "label": "B",
+          "text": "Passive absorption in the dramatic story"
+        },
+        {
+          "label": "C",
+          "text": "A complete focus on the play's main characters"
+        },
+        {
+          "label": "D",
+          "text": "A deeper understanding of theater history"
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。観客が劇のsocial or political themesをcritically reflectするよう促したと明記されています。passive absorptionを防ぐのでBは逆です。",
+      "sourceRefs": [
+        "pdf:task3:p111:q09"
+      ]
+    },
+    {
+      "passageId": "fourth_wall",
+      "prompt": "The word “explicitly” in the passage is closest in meaning to",
+      "options": [
+        {
+          "label": "A",
+          "text": "definitely"
+        },
+        {
+          "label": "B",
+          "text": "carefully"
+        },
+        {
+          "label": "C",
+          "text": "partially"
+        },
+        {
+          "label": "D",
+          "text": "vaguely"
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。explicitly remindは、演技を見ていることを明確にはっきり意識させるという意味です。提示された4語ではdefinitelyが最も近く、vaguelyは反対です。",
+      "sourceRefs": [
+        "pdf:task3:p111:q10"
+      ]
+    },
+    {
+      "passageId": "harlem_renaissance",
+      "prompt": "What was one factor that contributed to the Harlem Renaissance?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A change in popular cultural tastes"
+        },
+        {
+          "label": "B",
+          "text": "A demographic shift toward northern urban centers"
+        },
+        {
+          "label": "C",
+          "text": "Support from publishers and patrons"
+        },
+        {
+          "label": "D",
+          "text": "The rise of new artistic forms"
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。第1段落のGreat Migrationで、アフリカ系アメリカ人が南部農村から北部都市へ移住したことが運動を後押ししたとあります。人口の地域的移動が原因として明示されています。",
+      "sourceRefs": [
+        "pdf:task3:p113:q11"
+      ]
+    },
+    {
+      "passageId": "harlem_renaissance",
+      "prompt": "Which of the following is NOT a genre mentioned as influenced by the Harlem Renaissance?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Music"
+        },
+        {
+          "label": "B",
+          "text": "Theater"
+        },
+        {
+          "label": "C",
+          "text": "Literature"
+        },
+        {
+          "label": "D",
+          "text": "Painting"
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。本文は文学、ジャズなどの音楽、Aaron Douglasの絵画を例示します。演劇は挙げていません。歴史上影響がなかったという主張ではなく、本文中の記載の有無を答えます。",
+      "sourceRefs": [
+        "pdf:task3:p113:q12"
+      ]
+    },
+    {
+      "passageId": "harlem_renaissance",
+      "prompt": "Why does the author mention Zora Neale Hurston?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To show how Harlem influenced the Black community"
+        },
+        {
+          "label": "B",
+          "text": "To highlight how literature reflected social realities"
+        },
+        {
+          "label": "C",
+          "text": "To suggest that literature was less influential than music or the visual arts"
+        },
+        {
+          "label": "D",
+          "text": "To emphasize that the Harlem Renaissance was limited to entertainment"
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。Hurstonが黒人の民俗伝統と女性の自律性を小説で描いたという例です。文学が社会・文化の実情を反映することを示し、分野の優劣や娯楽だけへの限定ではありません。",
+      "sourceRefs": [
+        "pdf:task3:p113:q13"
+      ]
+    },
+    {
+      "passageId": "harlem_renaissance",
+      "prompt": "The word “forging” in the passage is closest in meaning to",
+      "options": [
+        {
+          "label": "A",
+          "text": "creating"
+        },
+        {
+          "label": "B",
+          "text": "adapting"
+        },
+        {
+          "label": "C",
+          "text": "changing"
+        },
+        {
+          "label": "D",
+          "text": "resisting"
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。forging a strong collective identityは強い集団的アイデンティティを築くことです。この文脈ではcreating（作り出す）が対応します。",
+      "sourceRefs": [
+        "pdf:task3:p113:q14"
+      ]
+    },
+    {
+      "passageId": "harlem_renaissance",
+      "prompt": "What can be inferred about the Harlem Renaissance?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It was primarily based on improvisational art."
+        },
+        {
+          "label": "B",
+          "text": "It established Harlem as the center of African American culture."
+        },
+        {
+          "label": "C",
+          "text": "It helped activists confront racial inequality."
+        },
+        {
+          "label": "D",
+          "text": "It sparked organized campaigns for equal rights."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。最終段落で運動がactivistsを力付け、systemic injusticeに挑戦する土台となったとあります。具体的な組織的キャンペーンの発足までは述べられていません。",
+      "sourceRefs": [
+        "pdf:task3:p113:q15"
+      ]
+    },
+    {
+      "passageId": "seikilos_epitaph",
+      "prompt": "The word “inscription” in the passage is closest in meaning to",
+      "options": [
+        {
+          "label": "A",
+          "text": "ornament"
+        },
+        {
+          "label": "B",
+          "text": "prediction"
+        },
+        {
+          "label": "C",
+          "text": "writing"
+        },
+        {
+          "label": "D",
+          "text": "symbol"
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。大理石の柱に刻まれ、作品の起源や目的を伝えるinscriptionは銘文です。writing（書かれた文字）が対応し、単なる装飾や予言ではありません。",
+      "sourceRefs": [
+        "pdf:task3:p115:q16"
+      ]
+    },
+    {
+      "passageId": "seikilos_epitaph",
+      "prompt": "What philosophical message do the lyrics of the Seikilos epitaph convey?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mourning is necessary for healing and overcoming pain."
+        },
+        {
+          "label": "B",
+          "text": "Life should be enjoyed and time should be valued."
+        },
+        {
+          "label": "C",
+          "text": "Seek wisdom through study and contemplation."
+        },
+        {
+          "label": "D",
+          "text": "Prepare for the afterlife by giving up earthly pleasures."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。第2段落でlive joyfully and be mindful of timeと明示されています。喪失を嘆くより、喜びをもって生き、時間を意識することを勧めます。",
+      "sourceRefs": [
+        "pdf:task3:p115:q17"
+      ]
+    },
+    {
+      "passageId": "seikilos_epitaph",
+      "prompt": "Which of the following best describes the purpose of the second paragraph?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It examines the thematic and emotional message of the composition."
+        },
+        {
+          "label": "B",
+          "text": "It outlines the methodological approaches used in ancient music research."
+        },
+        {
+          "label": "C",
+          "text": "It compares ancient Greek poetry with contemporary literary forms."
+        },
+        {
+          "label": "D",
+          "text": "It introduces alternative theories about the epitaph's original function."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。第2段落は追悼の目的、人生への哲学的なメッセージ、個人的記念と普遍的な瞑想という意味を説明します。復元の研究方法は第3段落です。",
+      "sourceRefs": [
+        "pdf:task3:p115:q18"
+      ]
+    },
+    {
+      "passageId": "seikilos_epitaph",
+      "prompt": "What can be inferred about ancient Greek musical notation?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It was mainly used to record detailed instrumental music."
+        },
+        {
+          "label": "B",
+          "text": "It conveys exact rhythmic patterns for each musical phrase."
+        },
+        {
+          "label": "C",
+          "text": "It employs symbols that modern scholars can interpret."
+        },
+        {
+          "label": "D",
+          "text": "It has also been featured in works of poetry."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。現代の研究者が文字による音高表示を解読して旋律を復元できたことが根拠です。リズムは詩の韻律から推論したため、記譜が各句の正確なリズムを直接示すBは不適切です。",
+      "sourceRefs": [
+        "pdf:task3:p115:q19"
+      ]
+    },
+    {
+      "passageId": "seikilos_epitaph",
+      "prompt": "Where would the sentence “This dual function helps explain its lasting resonance with people today.” best fit?",
+      "options": [
+        {
+          "label": "A",
+          "text": "At position [1]"
+        },
+        {
+          "label": "B",
+          "text": "At position [2]"
+        },
+        {
+          "label": "C",
+          "text": "At position [3]"
+        },
+        {
+          "label": "D",
+          "text": "At position [4]"
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。This dual functionが直前のboth a personal memorial and a universal meditationという二重の役割を受けます。その二つを提示した後の[4]に置くと指示関係が明確になります。",
+      "sourceRefs": [
+        "pdf:task3:p115:q20"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,557 @@
+{
+  "id": "pdf-task3-p096-103",
+  "title": "原本移行: Humanities — Sanitation, the Twenties, Libraries and Literary Theory",
+  "date": "2026-10-03T20:31:00+00:00",
+  "level": "B2",
+  "task": 3,
+  "sourceLabel": "提供PDF Task 3 · PDF 96–103 / 冊子296–303ページ",
+  "verificationNote": "PDF抽出テキストと本文・設問・選択肢・順序を照合し、明らかなOCR誤認を修正。文挿入の位置を[1]–[4]で保持し、文選択問題は原文の4文を選択肢に保持。画像取得の一時エラーにより画像照合は未完了。出版社解答p.483は未提供で、本文根拠による編集解答です。",
+  "passages": {
+    "urban_sanitation": "Urban Sanitation Reforms\n\nUrban sanitation dates back thousands of years; the Romans built aqueducts to bring in fresh water and drains to remove wastewater. However, by the Middle Ages, many European towns relied on pits and open gutters to store waste. As European cities grew overcrowded from industrialization in the nineteenth century, waste flowed into rivers and turned water sources foul and fueled epidemics.\n\nA turning point came in London in 1854. Physician John Snow mapped cholera cases and traced the outbreak to a pump. He persuaded officials to remove the pump handle to restrict water access until the contamination could be addressed. This step reduced further exposure. Snow's evidence-based method in identifying the contamination source utilized careful observation and conclusive proof, and it changed public health discourse.\n\n[1] Around the same time, engineer Joseph Bazalgette designed modern sewers but had not yet implemented his plans. [2] During the Great Stink of 1858, warm weather made the River Thames reek. [3] This accelerated the funding and construction of Bazalgette's sewer system. [4] The system reduced the threat of disease, contributed to cleaner city air, and inspired similar reforms in other cities. Modern sanitation rests on these reforms, linking science, policy, and engineering.",
+    "roaring_twenties": "The Roaring Twenties\n\nThe Roaring Twenties refers to the decade following World War I, from 1920 to 1929, in the United States. This period was characterized by rapid economic expansion, rising urban incomes, and the broad diffusion of consumer goods.\n\nThe decade played a central role in the creation of a consumer economy based on mass production, advertising, and credit. Factories increased production, allowing goods such as automobiles, household appliances, and radios to become widely available. The growth of installment credit encouraged mass consumption, and low interest rates fueled construction, home purchases, and investment. The widespread availability of affordable automobiles and installment plans directly facilitated the growth of suburbs, as workers could now easily commute and afford homes outside the urban centers.\n\nHowever, it also brought about major vulnerabilities: rising household and corporate debt, inadequate financial safeguards, and widespread speculation. Consumer prices for many goods declined, but farmers faced falling crop values and mounting debt, leaving many rural families behind. Immigration restrictions and weakened labor unions reshaped the workforce. The prohibition of alcohol impacted tax revenue, while limited government oversight created weaknesses in banks and financial markets. In addition, social divisions increased as income and regional inequalities widened and racial violence intensified.",
+    "library_of_congress": "The U.S. Library of Congress\n\nThe Library of Congress is the largest library in the world and the unofficial national library of the United States. Several key moments contributed to its creation.\n\nAmerica's early leaders were classically educated readers who believed books and knowledge were crucial to maintaining a democracy. So, when Washington, D.C. became the nation's capital in 1790, the groundwork was laid for the establishment of a library. It was officially founded in 1800. Its initial collection was housed in a chamber within the newly built Capitol Building.\n\nUnfortunately, the Capitol building was attacked during the War of 1812 between the United States and the British Empire. Thomas Jefferson, one of the early leaders, subsequently offered to sell the government his personal collection of over 6,000 books. This decision inspired the Library to adopt its own mission to become a universal repository of books. Furthermore, in 1870, it became the home of the U.S. Copyright Office, which allowed it to continuously grow its collection of published material.\n\nAs the twentieth century dawned, the Library of Congress became a national institution for all Americans, making its resources accessible to all citizens.",
+    "death_of_author": "The Death of the Author\n\nLiterary theorist Roland Barthes wrote that \"the birth of the reader must come at the cost of the death of the author.\" By this, he argued that meaning arises from the interpretive activity of readers and appealing to the author's intent to establish a single, correct reading is a mistake. This concept of \"the Death of the Author\" shifted authority over meaning from the writer to the reader.\n\nFor instance, a biographical note claiming the writer intended to convey a political message does not limit the text to that single meaning. Or imagine a novel whose narrator sounds like its writer. Even if the two overlap, the critical task is forming meaning by analyzing how the text constructs voice and perspective, not to assume the narrator is the author and then reduce interpretation to the intake of biographical information.\n\n[1] This idea democratizes criticism by inviting multiple analytical readings rather than adhering to an author's declared aim. [2] However, it is by no means a perfect theory. [3] Critics argue that ignoring authors can erase marginalized voices or obscure power relations. [4] Still, it remains an important argument for interpretive freedom: meaning is made in the encounter between text and readers."
+  },
+  "questions": [
+    {
+      "passageId": "urban_sanitation",
+      "prompt": "What is suggested in the passage about John Snow?",
+      "options": [
+        {
+          "label": "A",
+          "text": "He built London's modern sewers to carry waste downstream."
+        },
+        {
+          "label": "B",
+          "text": "He reduced disease cases by persuading officials to remove the pump handle."
+        },
+        {
+          "label": "C",
+          "text": "He introduced a citywide policy requiring households to boil water before daily use."
+        },
+        {
+          "label": "D",
+          "text": "He developed a vaccine that gradually stopped the cholera outbreak."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。第2段落で、汚染源のポンプの取っ手を撤去するよう当局を説得し、さらなる曝露を減らしたとあります。下水道を設計したのはBazalgetteで、煮沸政策やワクチンは未記載です。",
+      "sourceRefs": [
+        "pdf:task3:p097:q01"
+      ]
+    },
+    {
+      "passageId": "urban_sanitation",
+      "prompt": "Why does the author mention pits and open gutters?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To show the influence of Roman aqueducts on medieval European cities"
+        },
+        {
+          "label": "B",
+          "text": "To contrast modern waste storage with earlier methods of disposal"
+        },
+        {
+          "label": "C",
+          "text": "To mention the archaeological methods used to excavate medieval European towns"
+        },
+        {
+          "label": "D",
+          "text": "To imply the historical context that caused the sanitation problems in nineteenth-century European cities"
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。第1段落は中世の廃棄物処理から、産業化による過密・河川汚染・疫病へつなげています。19世紀の衛生問題に至る歴史的背景を説明するためです。近代との比較自体より、その問題発生への流れが中心です。",
+      "sourceRefs": [
+        "pdf:task3:p097:q02"
+      ]
+    },
+    {
+      "passageId": "urban_sanitation",
+      "prompt": "The word “conclusive” in the passage is closest in meaning to",
+      "options": [
+        {
+          "label": "A",
+          "text": "decisive"
+        },
+        {
+          "label": "B",
+          "text": "tentative"
+        },
+        {
+          "label": "C",
+          "text": "ambiguous"
+        },
+        {
+          "label": "D",
+          "text": "statistical"
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。careful observationと並ぶconclusive proofは、結論を裏付ける決定的な証拠です。暫定的・曖昧とは逆で、統計的という意味でもありません。",
+      "sourceRefs": [
+        "pdf:task3:p097:q03"
+      ]
+    },
+    {
+      "passageId": "urban_sanitation",
+      "prompt": "What event accelerated funding and construction of Bazalgette's sewer system?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A drought that dried up the River Thames for weeks"
+        },
+        {
+          "label": "B",
+          "text": "A flood that caused widespread sewage overflow into the streets"
+        },
+        {
+          "label": "C",
+          "text": "An outbreak of a disease linked to contaminated water"
+        },
+        {
+          "label": "D",
+          "text": "A crisis involving a foul smell from the River Thames"
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。第3段落のGreat Stinkでテムズ川が悪臭を放った直後にThis acceleratedと続きます。1854年のコレラではなく、1858年の悪臭危機がここでの指示対象です。",
+      "sourceRefs": [
+        "pdf:task3:p097:q04"
+      ]
+    },
+    {
+      "passageId": "urban_sanitation",
+      "prompt": "Where would the sentence “Even the members of Parliament soaked curtains in bleach and hung them to mask the stench, and growing press criticism and public petitions pushed the legislature to act.” best fit?",
+      "options": [
+        {
+          "label": "A",
+          "text": "At position [1]"
+        },
+        {
+          "label": "B",
+          "text": "At position [2]"
+        },
+        {
+          "label": "C",
+          "text": "At position [3]"
+        },
+        {
+          "label": "D",
+          "text": "At position [4]"
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。悪臭発生の説明の直後に、議会も悪臭への対応を迫られ、報道や請願が立法府を動かしたという具体例を入れます。続くThis acceleratedが、その政治的圧力による資金・建設の加速を受けます。",
+      "sourceRefs": [
+        "pdf:task3:p097:q05"
+      ]
+    },
+    {
+      "passageId": "roaring_twenties",
+      "prompt": "The word “diffusion” in the first paragraph is closest in meaning to",
+      "options": [
+        {
+          "label": "A",
+          "text": "concentration"
+        },
+        {
+          "label": "B",
+          "text": "segregation"
+        },
+        {
+          "label": "C",
+          "text": "distribution"
+        },
+        {
+          "label": "D",
+          "text": "formation"
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。消費財が広くdiffusionしたとは、広範囲に行き渡ったことです。distribution（普及・分布）が対応し、集中・分離・形成ではありません。",
+      "sourceRefs": [
+        "pdf:task3:p099:q06"
+      ]
+    },
+    {
+      "passageId": "roaring_twenties",
+      "prompt": "Which sentence in paragraph 2 identifies a specific condition that resulted in the widespread availability of consumer goods?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The decade played a central role in the creation of a consumer economy based on mass production, advertising, and credit."
+        },
+        {
+          "label": "B",
+          "text": "Factories increased production, allowing goods such as automobiles, household appliances, and radios to become widely available."
+        },
+        {
+          "label": "C",
+          "text": "The growth of installment credit encouraged mass consumption, and low interest rates fueled construction, home purchases, and investment."
+        },
+        {
+          "label": "D",
+          "text": "The widespread availability of affordable automobiles and installment plans directly facilitated the growth of suburbs, as workers could now easily commute and afford homes outside the urban centers."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。Factories increased productionが具体的な原因で、allowing以下が消費財の広い入手可能性という結果です。Cは信用と消費、Dは郊外の成長の因果関係であり、設問の結果とは異なります。",
+      "sourceRefs": [
+        "pdf:task3:p099:q07"
+      ]
+    },
+    {
+      "passageId": "roaring_twenties",
+      "prompt": "What can be inferred about farmers in rural America during the 1920s?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They benefited the most from the decline in consumer prices."
+        },
+        {
+          "label": "B",
+          "text": "They did not experience the same level of prosperity as people in cities."
+        },
+        {
+          "label": "C",
+          "text": "They did not have access to credit to pay for supplies and equipment."
+        },
+        {
+          "label": "D",
+          "text": "They were able to protect themselves through labor union activity."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。都市の所得上昇と対照的に、農家は作物価格下落と負債増大に直面し、rural familiesを取り残したとあります。信用へのアクセスが皆無だったことや労組による保護は推論できません。",
+      "sourceRefs": [
+        "pdf:task3:p099:q08"
+      ]
+    },
+    {
+      "passageId": "roaring_twenties",
+      "prompt": "Why does the author mention the prohibition of alcohol?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To highlight how it boosted industrial productivity and efficiency"
+        },
+        {
+          "label": "B",
+          "text": "To emphasize the dangers of excessive alcohol consumption"
+        },
+        {
+          "label": "C",
+          "text": "To show how moral reform movements shaped American values"
+        },
+        {
+          "label": "D",
+          "text": "To illustrate how policies influenced economic conditions"
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。禁酒が税収に影響したという例を、移民制限・労組・金融監督とともに挙げています。政策が経済状況に作用したことの例で、飲酒の危険や道徳評価が目的ではありません。",
+      "sourceRefs": [
+        "pdf:task3:p099:q09"
+      ]
+    },
+    {
+      "passageId": "roaring_twenties",
+      "prompt": "The passage mentions all of the following as weaknesses of the 1920s American economy EXCEPT",
+      "options": [
+        {
+          "label": "A",
+          "text": "High corporate and consumer debt levels"
+        },
+        {
+          "label": "B",
+          "text": "Widening disparities in income"
+        },
+        {
+          "label": "C",
+          "text": "Frequent strikes by powerful labor unions"
+        },
+        {
+          "label": "D",
+          "text": "Inadequate market oversight"
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。本文は債務増加、所得格差拡大、監督不足を明示します。労働組合はweakenedと書かれており、強力な組合による頻繁なストライキは挙げられていません。",
+      "sourceRefs": [
+        "pdf:task3:p099:q10"
+      ]
+    },
+    {
+      "passageId": "library_of_congress",
+      "prompt": "The word “subsequently” in the passage is closest in meaning to",
+      "options": [
+        {
+          "label": "A",
+          "text": "beforehand"
+        },
+        {
+          "label": "B",
+          "text": "instantly"
+        },
+        {
+          "label": "C",
+          "text": "meanwhile"
+        },
+        {
+          "label": "D",
+          "text": "afterward"
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。Capitolの攻撃の後にJeffersonが蔵書売却を提案したという時間順序です。afterward（その後）が対応し、以前・即座・同時ではありません。",
+      "sourceRefs": [
+        "pdf:task3:p101:q11"
+      ]
+    },
+    {
+      "passageId": "library_of_congress",
+      "prompt": "What is indicated about the Library of Congress?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It has the role of a national library but is not formally recognized as one."
+        },
+        {
+          "label": "B",
+          "text": "It has played a key role in improving the literacy of Americans."
+        },
+        {
+          "label": "C",
+          "text": "It is a major contributor to the cultural identity of the United States."
+        },
+        {
+          "label": "D",
+          "text": "It is where new books in America are published."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。第1段落のunofficial national libraryが根拠です。国立図書館としての役割を担うものの、公式な位置付けではないと本文にあります。出版機関ではなく、識字向上や文化的役割の評価も未記載です。",
+      "sourceRefs": [
+        "pdf:task3:p101:q12"
+      ]
+    },
+    {
+      "passageId": "library_of_congress",
+      "prompt": "Why did America's early leaders want to establish a library?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They had no place to store their book collections."
+        },
+        {
+          "label": "B",
+          "text": "They wanted to promote a spirit of democracy."
+        },
+        {
+          "label": "C",
+          "text": "They hoped to educate the American public."
+        },
+        {
+          "label": "D",
+          "text": "They needed to preserve the nation's historical records."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。第2段落で、書物と知識をdemocracyの維持に不可欠だと考えたとあります。一般教育も関連し得ますが、本文が明示する設立の理由は民主主義です。",
+      "sourceRefs": [
+        "pdf:task3:p101:q13"
+      ]
+    },
+    {
+      "passageId": "library_of_congress",
+      "prompt": "Why does the author mention the War of 1812?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To describe a major event in early U.S. history"
+        },
+        {
+          "label": "B",
+          "text": "To show how the British suppressed information"
+        },
+        {
+          "label": "C",
+          "text": "To highlight a turning point in the Library's development"
+        },
+        {
+          "label": "D",
+          "text": "To illustrate the Library's importance to America's founding"
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。戦争によるCapitolの攻撃からJeffersonの蔵書提供、普遍的な蔵書収集という新たな使命へ続きます。図書館の発展の転機を示しており、戦争そのものの説明が中心ではありません。",
+      "sourceRefs": [
+        "pdf:task3:p101:q14"
+      ]
+    },
+    {
+      "passageId": "library_of_congress",
+      "prompt": "What is suggested about the Library of Congress in the twentieth century?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It was opened to the public."
+        },
+        {
+          "label": "B",
+          "text": "It was moved to its current location."
+        },
+        {
+          "label": "C",
+          "text": "It was destroyed again in another war."
+        },
+        {
+          "label": "D",
+          "text": "It was visited by foreign heads of state."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。最終段落のmaking its resources accessible to all citizensが根拠です。一般市民が資料を利用できるようになったと読み取れます。移転・再破壊・外国首脳は述べられていません。",
+      "sourceRefs": [
+        "pdf:task3:p101:q15"
+      ]
+    },
+    {
+      "passageId": "death_of_author",
+      "prompt": "Which of the following best states the main idea of the passage?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Critics have little control over how readers perceive literary works."
+        },
+        {
+          "label": "B",
+          "text": "A text's meaning comes from interpretation rather than intentions."
+        },
+        {
+          "label": "C",
+          "text": "Authors should always clarify the intended meaning of their texts."
+        },
+        {
+          "label": "D",
+          "text": "Narrators are the primary source of meaning in a story."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。第1段落で意味の権威を作者から読者へ移し、最終文も意味はtextとreadersの出会いで生まれるとまとめています。作者の意図ではなく読者の解釈が中心です。",
+      "sourceRefs": [
+        "pdf:task3:p103:q16"
+      ]
+    },
+    {
+      "passageId": "death_of_author",
+      "prompt": "The word “adhering” in the passage is closest in meaning to",
+      "options": [
+        {
+          "label": "A",
+          "text": "inducing"
+        },
+        {
+          "label": "B",
+          "text": "following"
+        },
+        {
+          "label": "C",
+          "text": "presenting"
+        },
+        {
+          "label": "D",
+          "text": "questioning"
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。adhering to an author's declared aimは作者の宣言した目的に従う・固執するという意味です。multiple readingsとの対照からfollowingが適切です。",
+      "sourceRefs": [
+        "pdf:task3:p103:q17"
+      ]
+    },
+    {
+      "passageId": "death_of_author",
+      "prompt": "Why does the author mention a novel whose narrator sounds like its writer?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To stress that readers should analyze the meaning of the text independently"
+        },
+        {
+          "label": "B",
+          "text": "To suggest that novels are unreliable when the narrator mirrors the author"
+        },
+        {
+          "label": "C",
+          "text": "To illustrate that biographical context should take precedence over textual analysis"
+        },
+        {
+          "label": "D",
+          "text": "To argue that interpreting the text requires knowing the author's life story"
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。語り手と作者が似ていても、本文が構成する声や視点を分析すべきだという例です。作者の伝記で意味を限定しない、独立したテキスト分析を強調します。",
+      "sourceRefs": [
+        "pdf:task3:p103:q18"
+      ]
+    },
+    {
+      "passageId": "death_of_author",
+      "prompt": "What can be inferred about Roland Barthes?",
+      "options": [
+        {
+          "label": "A",
+          "text": "He believed that readers are more important than authors in writing literary works."
+        },
+        {
+          "label": "B",
+          "text": "He argued that literature should not be a vehicle for political commentary."
+        },
+        {
+          "label": "C",
+          "text": "He highlighted the importance of multiple interpretations of a text."
+        },
+        {
+          "label": "D",
+          "text": "He identified the limitations of an independent text-based analysis."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。作者の意図から単一の正しい読みを決めることを誤りとし、読者の解釈を重視するため、複数の解釈の重要性が推論できます。執筆そのものへの読者の優越や政治的主題の禁止は述べていません。",
+      "sourceRefs": [
+        "pdf:task3:p103:q19"
+      ]
+    },
+    {
+      "passageId": "death_of_author",
+      "prompt": "Where would the sentence “Scholars also point out that the absence of a fixed meaning can lead to a kind of interpretive chaos, undermining the possibility of objective literary study.” best fit?",
+      "options": [
+        {
+          "label": "A",
+          "text": "At position [1]"
+        },
+        {
+          "label": "B",
+          "text": "At position [2]"
+        },
+        {
+          "label": "C",
+          "text": "At position [3]"
+        },
+        {
+          "label": "D",
+          "text": "At position [4]"
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。alsoが直前のCriticsの反論に追加の学者の懸念をつなげます。反論を二つ述べた後、Stillが理論の価値を再評価するので[4]が最も自然です。",
+      "sourceRefs": [
+        "pdf:task3:p103:q20"
+      ]
+    }
+  ]
+}
