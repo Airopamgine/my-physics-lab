@@ -1,0 +1,166 @@
+{
+  "id": "pdf-task1-p028-history-part2",
+  "title": "Humanities Vocabulary · History 2",
+  "task": 1,
+  "date": "2026-10-03T05:00:00+03:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 1 · PDF 28ページ／冊子56ページ · Humanities: History右列17語（全34語中）",
+  "verificationNote": "PDF原本画像で掲載語・綴り・掲載順を確認済みです。各headwordの意味を保った文脈付きmissing-letter exerciseへ編集しています。出版社の公式解答表は未収録ですが、正答は掲載headwordと一致します。未回答の語の正答は、その語を提出するまで表示されません。",
+  "passages": {
+    "historical-site": "The museum protects the historical s___ where the peace treaty was signed.",
+    "legacy": "The legal code became a lasting leg___ of the emperor's reign.",
+    "medieval": "The med_____ castle was built in the twelfth century.",
+    "modern": "Railways helped shape the mo____ industrial economy.",
+    "monarchy": "The revolution replaced the hereditary mon_____ with an elected government.",
+    "nationalism": "In the nineteenth century, nat________ encouraged people who shared a language to seek political unity.",
+    "oral-history": "The researcher recorded an oral h______ from an elder who witnessed the migration.",
+    "periodization": "Historians use peri_________ to divide the past into broad eras.",
+    "prehistory": "Stone tools help scholars study pre_______, the period before written records.",
+    "primary-source": "The soldier's diary is a primary s_____ written during the conflict.",
+    "reform": "The government introduced re____ to expand voting rights.",
+    "republic": "After the monarchy fell, the country became a rep_____ governed by elected representatives.",
+    "revolution": "The industrial rev_______ transformed production and transportation.",
+    "secondary-source": "A historian's later analysis is a secondary s_____ rather than direct evidence from the event.",
+    "tradition": "The annual ceremony preserves a tra______ passed down for generations.",
+    "treaty": "The two nations signed a tre___ ending the war.",
+    "warfare": "New technology changed the conduct of war____ during the twentieth century."
+  },
+  "questions": [
+    {
+      "passageId": "historical-site",
+      "prompt": "History vocabulary: complete historical s___. Enter the missing letters.",
+      "prefix": "s",
+      "word": "site",
+      "answer": "A historical site is a place connected with important events or people from the past. 正解：ite → historical site（史跡・歴史的場所）。平和条約が調印された場所を博物館が保護する文脈です。",
+      "sourceRefs": ["pdf:task1:p028:qhistorical-site"]
+    },
+    {
+      "passageId": "legacy",
+      "prompt": "History vocabulary: complete leg___. Enter the missing letters.",
+      "prefix": "leg",
+      "word": "legacy",
+      "answer": "A legacy is a lasting effect, achievement, or inheritance left by the past. 正解：acy → legacy（遺産・後世への影響）。皇帝の治世が残した法典を説明する文脈です。",
+      "sourceRefs": ["pdf:task1:p028:qlegacy"]
+    },
+    {
+      "passageId": "medieval",
+      "prompt": "History vocabulary: complete med_____. Enter the missing letters.",
+      "prefix": "med",
+      "word": "medieval",
+      "answer": "Medieval means relating to the Middle Ages. 正解：ieval → medieval（中世の）。12世紀に建てられた城を説明する文脈です。",
+      "sourceRefs": ["pdf:task1:p028:qmedieval"]
+    },
+    {
+      "passageId": "modern",
+      "prompt": "History vocabulary: complete mo____. Enter the missing letters.",
+      "prefix": "mo",
+      "word": "modern",
+      "answer": "Modern means relating to recent times or the period following the Middle Ages. 正解：dern → modern（近代の・現代の）。鉄道が近代の産業経済を形成した文脈です。",
+      "sourceRefs": ["pdf:task1:p028:qmodern"]
+    },
+    {
+      "passageId": "monarchy",
+      "prompt": "History vocabulary: complete mon_____. Enter the missing letters.",
+      "prefix": "mon",
+      "word": "monarchy",
+      "answer": "A monarchy is a system of government headed by a monarch, usually a king or queen. 正解：archy → monarchy（君主制）。革命によって世襲君主制が選挙による政府へ置き換わる文脈です。",
+      "sourceRefs": ["pdf:task1:p028:qmonarchy"]
+    },
+    {
+      "passageId": "nationalism",
+      "prompt": "History vocabulary: complete nat________. Enter the missing letters.",
+      "prefix": "nat",
+      "word": "nationalism",
+      "answer": "Nationalism is strong identification with a nation and support for its political interests or independence. 正解：ionalism → nationalism（民族主義・国家主義）。共通言語を持つ人々が政治的統一を求める文脈です。",
+      "sourceRefs": ["pdf:task1:p028:qnationalism"]
+    },
+    {
+      "passageId": "oral-history",
+      "prompt": "History vocabulary: complete oral h______. Enter the missing letters.",
+      "prefix": "h",
+      "word": "history",
+      "answer": "Oral history records and studies people's spoken memories of past events. 正解：istory → oral history（口述歴史）。移住を目撃した年長者の記憶を研究者が録音する文脈です。",
+      "sourceRefs": ["pdf:task1:p028:qoral-history"]
+    },
+    {
+      "passageId": "periodization",
+      "prompt": "History vocabulary: complete peri_________. Enter the missing letters.",
+      "prefix": "peri",
+      "word": "periodization",
+      "answer": "Periodization is the division of history into distinct named periods or eras. 正解：odization → periodization（時代区分）。歴史家が過去を大きな時代に分ける文脈です。",
+      "sourceRefs": ["pdf:task1:p028:qperiodization"]
+    },
+    {
+      "passageId": "prehistory",
+      "prompt": "History vocabulary: complete pre_______. Enter the missing letters.",
+      "prefix": "pre",
+      "word": "prehistory",
+      "answer": "Prehistory is the period before written records. 正解：history → prehistory（先史時代）。文字記録以前を石器から研究する文脈です。",
+      "sourceRefs": ["pdf:task1:p028:qprehistory"]
+    },
+    {
+      "passageId": "primary-source",
+      "prompt": "History vocabulary: complete primary s_____. Enter the missing letters.",
+      "prefix": "s",
+      "word": "source",
+      "answer": "A primary source is original evidence created during the period being studied, often by a participant or witness. 正解：ource → primary source（一次資料・原典）。戦争中に兵士本人が書いた日記を用いる文脈です。",
+      "sourceRefs": ["pdf:task1:p028:qprimary-source"]
+    },
+    {
+      "passageId": "reform",
+      "prompt": "History vocabulary: complete re____. Enter the missing letters.",
+      "prefix": "re",
+      "word": "reform",
+      "answer": "Reform is a deliberate change intended to improve a law, institution, or system. 正解：form → reform（改革）。投票権を拡大する制度変更の文脈です。",
+      "sourceRefs": ["pdf:task1:p028:qreform"]
+    },
+    {
+      "passageId": "republic",
+      "prompt": "History vocabulary: complete rep_____. Enter the missing letters.",
+      "prefix": "rep",
+      "word": "republic",
+      "answer": "A republic is a state governed by elected representatives rather than a hereditary monarch. 正解：ublic → republic（共和国）。君主制崩壊後に選挙で選ばれた代表が統治する文脈です。",
+      "sourceRefs": ["pdf:task1:p028:qrepublic"]
+    },
+    {
+      "passageId": "revolution",
+      "prompt": "History vocabulary: complete rev_______. Enter the missing letters.",
+      "prefix": "rev",
+      "word": "revolution",
+      "answer": "A revolution is a fundamental and often rapid change in political, social, or economic organization. 正解：olution → revolution（革命・大変革）。産業革命が生産と交通を根本的に変えた文脈です。",
+      "sourceRefs": ["pdf:task1:p028:qrevolution"]
+    },
+    {
+      "passageId": "secondary-source",
+      "prompt": "History vocabulary: complete secondary s_____. Enter the missing letters.",
+      "prefix": "s",
+      "word": "source",
+      "answer": "A secondary source interprets or analyzes past events using primary evidence. 正解：ource → secondary source（二次資料・研究書）。後世の歴史家による分析と当時の直接証拠を区別する文脈です。",
+      "sourceRefs": ["pdf:task1:p028:qsecondary-source"]
+    },
+    {
+      "passageId": "tradition",
+      "prompt": "History vocabulary: complete tra______. Enter the missing letters.",
+      "prefix": "tra",
+      "word": "tradition",
+      "answer": "A tradition is a custom or belief passed from one generation to another. 正解：dition → tradition（伝統）。毎年の儀式が世代を超えて継承される文脈です。",
+      "sourceRefs": ["pdf:task1:p028:qtradition"]
+    },
+    {
+      "passageId": "treaty",
+      "prompt": "History vocabulary: complete tre___. Enter the missing letters.",
+      "prefix": "tre",
+      "word": "treaty",
+      "answer": "A treaty is a formal agreement between states. 正解：aty → treaty（条約）。二国が戦争を終わらせる正式な合意を結ぶ文脈です。",
+      "sourceRefs": ["pdf:task1:p028:qtreaty"]
+    },
+    {
+      "passageId": "warfare",
+      "prompt": "History vocabulary: complete war____. Enter the missing letters.",
+      "prefix": "war",
+      "word": "warfare",
+      "answer": "Warfare is the activity, methods, and conduct of armed conflict. 正解：fare → warfare（戦争・戦闘行為）。新技術が20世紀の戦い方を変えた文脈です。",
+      "sourceRefs": ["pdf:task1:p028:qwarfare"]
+    }
+  ]
+}

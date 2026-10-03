@@ -298,7 +298,8 @@
         24,
         25,
         26,
-        27
+        27,
+        28
       ],
       "pageItems": {
         "1": [],
@@ -530,7 +531,43 @@
           "pdf:task1:p025:q40-gap1"
         ],
         "26": [],
-        "27": []
+        "27": [],
+        "28": [
+          "pdf:task1:p028:qabolition",
+          "pdf:task1:p028:qabsolute-power",
+          "pdf:task1:p028:qalliance",
+          "pdf:task1:p028:qantiquity",
+          "pdf:task1:p028:qchronological-order",
+          "pdf:task1:p028:qchronology",
+          "pdf:task1:p028:qcivil-war",
+          "pdf:task1:p028:qcolonialism",
+          "pdf:task1:p028:qcolony",
+          "pdf:task1:p028:qconquest",
+          "pdf:task1:p028:qcontemporary",
+          "pdf:task1:p028:qdivine-right",
+          "pdf:task1:p028:qdynasty",
+          "pdf:task1:p028:qempire",
+          "pdf:task1:p028:qenlightenment",
+          "pdf:task1:p028:qfeudalism",
+          "pdf:task1:p028:qheritage",
+          "pdf:task1:p028:qhistorical-site",
+          "pdf:task1:p028:qlegacy",
+          "pdf:task1:p028:qmedieval",
+          "pdf:task1:p028:qmodern",
+          "pdf:task1:p028:qmonarchy",
+          "pdf:task1:p028:qnationalism",
+          "pdf:task1:p028:qoral-history",
+          "pdf:task1:p028:qperiodization",
+          "pdf:task1:p028:qprehistory",
+          "pdf:task1:p028:qprimary-source",
+          "pdf:task1:p028:qreform",
+          "pdf:task1:p028:qrepublic",
+          "pdf:task1:p028:qrevolution",
+          "pdf:task1:p028:qsecondary-source",
+          "pdf:task1:p028:qtradition",
+          "pdf:task1:p028:qtreaty",
+          "pdf:task1:p028:qwarfare"
+        ]
       }
     },
     {
@@ -1711,7 +1748,7 @@
       }
     }
   ],
-  "lastSource": "vocabulary",
+  "lastSource": "task1",
   "blockedItems": [
     {
       "source": "task2",
