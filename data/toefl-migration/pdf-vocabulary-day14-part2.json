@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day14-part2",
+  "title": "Vocabulary Day 14 · Words 16–30 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 15ページ／冊子393ページ · Vocabulary Day 14 · Words 16–30",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "disdain": "He showed dis____ for the idea, treating it as unworthy of serious consideration.",
+    "dissolve": "The salt will dis_____ in water and form a solution.",
+    "ensue": "Further discussion may en___ after the announcement, following as a result of it.",
+    "ergonomic": "The erg______ chair was designed to fit the user's body and support comfortable work.",
+    "expedition": "The research exp_______ traveled to the remote island to collect samples.",
+    "fertilizer": "The farmer added fer_______ to supply nutrients needed by the crops.",
+    "flourishing": "The flo________ community has a growing population and many successful businesses.",
+    "freshwater": "The lake contains fre_______ rather than salty seawater.",
+    "gentrification": "The report examines gen___________, as investment attracts wealthier residents and rising costs put pressure on existing residents.",
+    "haphazard": "The files were stored in a hap______ manner, with no consistent plan or order.",
+    "heuristic": "The teacher uses a heu______ method that encourages learners to discover solutions through exploration.",
+    "household": "Every hou______ in the village received a questionnaire for the people living together in one home.",
+    "imperative": "It is imp_______ to verify the data before drawing a conclusion.",
+    "incongruity": "The critic noted the inc________ between the cheerful music and the sad scene.",
+    "inhibit": "The barrier can inh____ movement by preventing objects from passing through."
+  },
+  "questions": [
+    {
+      "passageId": "disdain",
+      "prompt": "Vocabulary Day 14 · Words 16–30: complete dis____. Enter the missing letters.",
+      "word": "disdain",
+      "prefix": "dis",
+      "answer": "正解：dain → disdain。学習語：disdain。「軽蔑；軽蔑する」。真剣に検討する価値がないように扱う態度です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qdisdain"
+      ]
+    },
+    {
+      "passageId": "dissolve",
+      "prompt": "Vocabulary Day 14 · Words 16–30: complete dis_____. Enter the missing letters.",
+      "word": "dissolve",
+      "prefix": "dis",
+      "answer": "正解：solve → dissolve。学習語：dissolve。「溶ける・溶かす；解散する」。ここでは塩が水に溶解することです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qdissolve"
+      ]
+    },
+    {
+      "passageId": "ensue",
+      "prompt": "Vocabulary Day 14 · Words 16–30: complete en___. Enter the missing letters.",
+      "word": "ensue",
+      "prefix": "en",
+      "answer": "正解：sue → ensue。学習語：ensue。「続いて起こる・結果として生じる」。発表を受けて話し合いが起こることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qensue"
+      ]
+    },
+    {
+      "passageId": "ergonomic",
+      "prompt": "Vocabulary Day 14 · Words 16–30: complete erg______. Enter the missing letters.",
+      "word": "ergonomic",
+      "prefix": "erg",
+      "answer": "正解：onomic → ergonomic。学習語：ergonomic。「人間工学に基づく」。使う人の体や作業に合わせた設計です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qergonomic"
+      ]
+    },
+    {
+      "passageId": "expedition",
+      "prompt": "Vocabulary Day 14 · Words 16–30: complete exp_______. Enter the missing letters.",
+      "word": "expedition",
+      "prefix": "exp",
+      "answer": "正解：edition → expedition。学習語：expedition。「探検・遠征；迅速さ」。この文では研究目的の遠征です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qexpedition"
+      ]
+    },
+    {
+      "passageId": "fertilizer",
+      "prompt": "Vocabulary Day 14 · Words 16–30: complete fer_______. Enter the missing letters.",
+      "word": "fertilizer",
+      "prefix": "fer",
+      "answer": "正解：tilizer → fertilizer。学習語：fertilizer。「肥料」。作物に栄養を供給するための物質です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qfertilizer"
+      ]
+    },
+    {
+      "passageId": "flourishing",
+      "prompt": "Vocabulary Day 14 · Words 16–30: complete flo________. Enter the missing letters.",
+      "word": "flourishing",
+      "prefix": "flo",
+      "answer": "正解：urishing → flourishing。学習語：flourishing。「繁栄している・盛んな」。人口や事業が発展している地域です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qflourishing"
+      ]
+    },
+    {
+      "passageId": "freshwater",
+      "prompt": "Vocabulary Day 14 · Words 16–30: complete fre_______. Enter the missing letters.",
+      "word": "freshwater",
+      "prefix": "fre",
+      "answer": "正解：shwater → freshwater。学習語：freshwater。「淡水；淡水の」。海水と対比して、塩分の少ない水を指します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qfreshwater"
+      ]
+    },
+    {
+      "passageId": "gentrification",
+      "prompt": "Vocabulary Day 14 · Words 16–30: complete gen___________. Enter the missing letters.",
+      "word": "gentrification",
+      "prefix": "gen",
+      "answer": "正解：trification → gentrification。学習語：gentrification。「ジェントリフィケーション」。投資と住民構成の変化に伴い、費用上昇などが従来の住民に影響する地区の変化です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qgentrification"
+      ]
+    },
+    {
+      "passageId": "haphazard",
+      "prompt": "Vocabulary Day 14 · Words 16–30: complete hap______. Enter the missing letters.",
+      "word": "haphazard",
+      "prefix": "hap",
+      "answer": "正解：hazard → haphazard。学習語：haphazard。「無計画な・場当たり的な」。一定の整理方法がありません。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qhaphazard"
+      ]
+    },
+    {
+      "passageId": "heuristic",
+      "prompt": "Vocabulary Day 14 · Words 16–30: complete heu______. Enter the missing letters.",
+      "word": "heuristic",
+      "prefix": "heu",
+      "answer": "正解：ristic → heuristic。学習語：heuristic。「発見を促す・経験則による」。ここでは学習者が試行や探索で答えを見いだす方法です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qheuristic"
+      ]
+    },
+    {
+      "passageId": "household",
+      "prompt": "Vocabulary Day 14 · Words 16–30: complete hou______. Enter the missing letters.",
+      "word": "household",
+      "prefix": "hou",
+      "answer": "正解：sehold → household。学習語：household。「世帯・家庭；家庭の」。一つの家で暮らす人々の単位です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qhousehold"
+      ]
+    },
+    {
+      "passageId": "imperative",
+      "prompt": "Vocabulary Day 14 · Words 16–30: complete imp_______. Enter the missing letters.",
+      "word": "imperative",
+      "prefix": "imp",
+      "answer": "正解：erative → imperative。学習語：imperative。「必須の；命令」。この文では結論の前の検証が不可欠であることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qimperative"
+      ]
+    },
+    {
+      "passageId": "incongruity",
+      "prompt": "Vocabulary Day 14 · Words 16–30: complete inc________. Enter the missing letters.",
+      "word": "incongruity",
+      "prefix": "inc",
+      "answer": "正解：ongruity → incongruity。学習語：incongruity。「不調和」。明るい音楽と悲しい場面が釣り合わないことです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qincongruity"
+      ]
+    },
+    {
+      "passageId": "inhibit",
+      "prompt": "Vocabulary Day 14 · Words 16–30: complete inh____. Enter the missing letters.",
+      "word": "inhibit",
+      "prefix": "inh",
+      "answer": "正解：ibit → inhibit。学習語：inhibit。「抑制する・妨げる」。物が通れないようにして動きを制限します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p015:qinhibit"
+      ]
+    }
+  ]
+}

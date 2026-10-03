@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day15-part3",
+  "title": "Vocabulary Day 15 · Words 31–45 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 16ページ／冊子394ページ · Vocabulary Day 15 · Words 31–45",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "indigenous": "The exhibit introduces plants ind_______ to the region, occurring there naturally.",
+    "inhospitable": "The inh_________ terrain has harsh conditions that make it difficult to live there.",
+    "interlock": "The pieces int______ by fitting firmly into each other.",
+    "itinerant": "The iti______ performer travels from town to town rather than staying in one place.",
+    "landmark": "The old tower is a lan_____ that helps travelers recognize the town.",
+    "lingering": "A lin______ concern remained even after the immediate problem was solved.",
+    "manifest": "The difference was man_____, clearly visible to everyone in the room.",
+    "marvel": "Visitors mar___ at the skill shown in the intricate sculpture.",
+    "medicament": "The label identifies the substance as a med_______ intended for therapeutic use.",
+    "meticulous": "The editor is met_______ and checks even the smallest details carefully.",
+    "missionary": "The historical account describes a mis_______ who traveled to share religious teachings.",
+    "multidisciplinary": "The mul______________ project brings together researchers from biology, history, and engineering.",
+    "nourishment": "The young plants obtain nou________ from nutrients in the soil.",
+    "oscillate": "The pendulum will osc______, moving repeatedly from side to side.",
+    "pasture": "The cattle graze in the pas____, a grassy area used for feeding livestock."
+  },
+  "questions": [
+    {
+      "passageId": "indigenous",
+      "prompt": "Vocabulary Day 15 · Words 31–45: complete ind_______. Enter the missing letters.",
+      "word": "indigenous",
+      "prefix": "ind",
+      "answer": "正解：igenous → indigenous。学習語：indigenous。「土地固有の・先住の」。この文ではその地域に自生する植物です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qindigenous"
+      ]
+    },
+    {
+      "passageId": "inhospitable",
+      "prompt": "Vocabulary Day 15 · Words 31–45: complete inh_________. Enter the missing letters.",
+      "word": "inhospitable",
+      "prefix": "inh",
+      "answer": "正解：ospitable → inhospitable。学習語：inhospitable。「住みにくい・歓迎しない」。ここでは生活に厳しい土地です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qinhospitable"
+      ]
+    },
+    {
+      "passageId": "interlock",
+      "prompt": "Vocabulary Day 15 · Words 31–45: complete int______. Enter the missing letters.",
+      "word": "interlock",
+      "prefix": "int",
+      "answer": "正解：erlock → interlock。学習語：interlock。「かみ合う・結合する」。部品同士がはまり合うことです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qinterlock"
+      ]
+    },
+    {
+      "passageId": "itinerant",
+      "prompt": "Vocabulary Day 15 · Words 31–45: complete iti______. Enter the missing letters.",
+      "word": "itinerant",
+      "prefix": "iti",
+      "answer": "正解：nerant → itinerant。学習語：itinerant。「巡回する・移動生活の」。一か所に定住せず各地を回る人です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qitinerant"
+      ]
+    },
+    {
+      "passageId": "landmark",
+      "prompt": "Vocabulary Day 15 · Words 31–45: complete lan_____. Enter the missing letters.",
+      "word": "landmark",
+      "prefix": "lan",
+      "answer": "正解：dmark → landmark。学習語：landmark。「目印・名所・画期的な出来事」。ここでは町を見分ける目印です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qlandmark"
+      ]
+    },
+    {
+      "passageId": "lingering",
+      "prompt": "Vocabulary Day 15 · Words 31–45: complete lin______. Enter the missing letters.",
+      "word": "lingering",
+      "prefix": "lin",
+      "answer": "正解：gering → lingering。学習語：lingering。「長く残る・持続する」。問題解決後も不安が残っています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qlingering"
+      ]
+    },
+    {
+      "passageId": "manifest",
+      "prompt": "Vocabulary Day 15 · Words 31–45: complete man_____. Enter the missing letters.",
+      "word": "manifest",
+      "prefix": "man",
+      "answer": "正解：ifest → manifest。学習語：manifest。「明白な；現れる」。この文では誰にも明らかなという形容詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qmanifest"
+      ]
+    },
+    {
+      "passageId": "marvel",
+      "prompt": "Vocabulary Day 15 · Words 31–45: complete mar___. Enter the missing letters.",
+      "word": "marvel",
+      "prefix": "mar",
+      "answer": "正解：vel → marvel。学習語：marvel。「驚嘆する；驚異」。marvel atで見事な技術に感嘆することです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qmarvel"
+      ]
+    },
+    {
+      "passageId": "medicament",
+      "prompt": "Vocabulary Day 15 · Words 31–45: complete med_______. Enter the missing letters.",
+      "word": "medicament",
+      "prefix": "med",
+      "answer": "正解：icament → medicament。学習語：medicament。「薬剤」。治療に用いる物質を表す語です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qmedicament"
+      ]
+    },
+    {
+      "passageId": "meticulous",
+      "prompt": "Vocabulary Day 15 · Words 31–45: complete met_______. Enter the missing letters.",
+      "word": "meticulous",
+      "prefix": "met",
+      "answer": "正解：iculous → meticulous。学習語：meticulous。「細心の注意を払う・几帳面な」。小さな細部まで丁寧に確認しています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qmeticulous"
+      ]
+    },
+    {
+      "passageId": "missionary",
+      "prompt": "Vocabulary Day 15 · Words 31–45: complete mis_______. Enter the missing letters.",
+      "word": "missionary",
+      "prefix": "mis",
+      "answer": "正解：sionary → missionary。学習語：missionary。「宣教師」。宗教の教えを伝えるために各地へ行く人です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qmissionary"
+      ]
+    },
+    {
+      "passageId": "multidisciplinary",
+      "prompt": "Vocabulary Day 15 · Words 31–45: complete mul______________. Enter the missing letters.",
+      "word": "multidisciplinary",
+      "prefix": "mul",
+      "answer": "正解：tidisciplinary → multidisciplinary。学習語：multidisciplinary。「多分野にまたがる・学際的な」。複数の専門分野が参加する計画です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qmultidisciplinary"
+      ]
+    },
+    {
+      "passageId": "nourishment",
+      "prompt": "Vocabulary Day 15 · Words 31–45: complete nou________. Enter the missing letters.",
+      "word": "nourishment",
+      "prefix": "nou",
+      "answer": "正解：rishment → nourishment。学習語：nourishment。「栄養・食物」。生育を支える栄養分です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qnourishment"
+      ]
+    },
+    {
+      "passageId": "oscillate",
+      "prompt": "Vocabulary Day 15 · Words 31–45: complete osc______. Enter the missing letters.",
+      "word": "oscillate",
+      "prefix": "osc",
+      "answer": "正解：illate → oscillate。学習語：oscillate。「振動する・揺れ動く」。振り子が左右に往復します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qoscillate"
+      ]
+    },
+    {
+      "passageId": "pasture",
+      "prompt": "Vocabulary Day 15 · Words 31–45: complete pas____. Enter the missing letters.",
+      "word": "pasture",
+      "prefix": "pas",
+      "answer": "正解：ture → pasture。学習語：pasture。「牧草地；放牧する」。家畜を放して草を食べさせる土地です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qpasture"
+      ]
+    }
+  ]
+}

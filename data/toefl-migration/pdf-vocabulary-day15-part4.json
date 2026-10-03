@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day15-part4",
+  "title": "Vocabulary Day 15 · Words 46–60 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 16ページ／冊子394ページ · Vocabulary Day 15 · Words 46–60",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "performance": "The audience enjoyed the musician's live per________ on stage.",
+    "precursor": "The early device was a pre______ of the modern model and came before it in development.",
+    "prevalent": "The custom is pre______ and practiced in many communities across the region.",
+    "propaganda": "The analysis examines pro_______ designed to persuade people to support a political cause.",
+    "quantification": "The study uses qua___________ to express the observations as numerical measurements.",
+    "ravage": "A severe storm can rav___ the coast, causing widespread damage.",
+    "replenish": "Please rep______ the supply by adding more paper before it runs out.",
+    "resurgence": "The recent res_______ of interest brought renewed attention to the forgotten technique.",
+    "rudimentary": "The first model had only rud________ controls and lacked more advanced functions.",
+    "stealth": "The animal approached with ste____, avoiding noise so it would not be noticed.",
+    "susceptible": "The material is sus________ to moisture damage and must be protected from damp conditions.",
+    "temporal": "The researcher studied the tem_____ order of events, asking which came first and which followed.",
+    "transient": "The tra______ effect disappeared after a short period.",
+    "undercurrent": "An und_________ of tension was present beneath the apparently friendly conversation.",
+    "vernacular": "The story uses the local ver_______ spoken in everyday life rather than formal literary language."
+  },
+  "questions": [
+    {
+      "passageId": "performance",
+      "prompt": "Vocabulary Day 15 · Words 46–60: complete per________. Enter the missing letters.",
+      "word": "performance",
+      "prefix": "per",
+      "answer": "正解：formance → performance。学習語：performance。「公演・演奏・遂行・性能」。この文では舞台での生の演奏です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qperformance"
+      ]
+    },
+    {
+      "passageId": "precursor",
+      "prompt": "Vocabulary Day 15 · Words 46–60: complete pre______. Enter the missing letters.",
+      "word": "precursor",
+      "prefix": "pre",
+      "answer": "正解：cursor → precursor。学習語：precursor。「先駆け・前段階のもの」。後のモデルに先立つ装置です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qprecursor"
+      ]
+    },
+    {
+      "passageId": "prevalent",
+      "prompt": "Vocabulary Day 15 · Words 46–60: complete pre______. Enter the missing letters.",
+      "word": "prevalent",
+      "prefix": "pre",
+      "answer": "正解：valent → prevalent。学習語：prevalent。「広く普及した」。地域の多くの共同体で行われる習慣です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qprevalent"
+      ]
+    },
+    {
+      "passageId": "propaganda",
+      "prompt": "Vocabulary Day 15 · Words 46–60: complete pro_______. Enter the missing letters.",
+      "word": "propaganda",
+      "prefix": "pro",
+      "answer": "正解：paganda → propaganda。学習語：propaganda。「宣伝」。特定の政治的な目的への支持を促す情報を指します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qpropaganda"
+      ]
+    },
+    {
+      "passageId": "quantification",
+      "prompt": "Vocabulary Day 15 · Words 46–60: complete qua___________. Enter the missing letters.",
+      "word": "quantification",
+      "prefix": "qua",
+      "answer": "正解：ntification → quantification。学習語：quantification。「数量化」。観察内容を数値として表すことです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qquantification"
+      ]
+    },
+    {
+      "passageId": "ravage",
+      "prompt": "Vocabulary Day 15 · Words 46–60: complete rav___. Enter the missing letters.",
+      "word": "ravage",
+      "prefix": "rav",
+      "answer": "正解：age → ravage。学習語：ravage。「荒廃させる；破壊・被害」。この文では嵐が広い範囲を破壊する動詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qravage"
+      ]
+    },
+    {
+      "passageId": "replenish",
+      "prompt": "Vocabulary Day 15 · Words 46–60: complete rep______. Enter the missing letters.",
+      "word": "replenish",
+      "prefix": "rep",
+      "answer": "正解：lenish → replenish。学習語：replenish。「補充する」。紙がなくなる前に新しく加えます。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qreplenish"
+      ]
+    },
+    {
+      "passageId": "resurgence",
+      "prompt": "Vocabulary Day 15 · Words 46–60: complete res_______. Enter the missing letters.",
+      "word": "resurgence",
+      "prefix": "res",
+      "answer": "正解：urgence → resurgence。学習語：resurgence。「再興・復活」。一度薄れた関心が再び高まることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qresurgence"
+      ]
+    },
+    {
+      "passageId": "rudimentary",
+      "prompt": "Vocabulary Day 15 · Words 46–60: complete rud________. Enter the missing letters.",
+      "word": "rudimentary",
+      "prefix": "rud",
+      "answer": "正解：imentary → rudimentary。学習語：rudimentary。「初歩的な・未発達の」。基本的な操作しか備えていません。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qrudimentary"
+      ]
+    },
+    {
+      "passageId": "stealth",
+      "prompt": "Vocabulary Day 15 · Words 46–60: complete ste____. Enter the missing letters.",
+      "word": "stealth",
+      "prefix": "ste",
+      "answer": "正解：alth → stealth。学習語：stealth。「ひそかさ・隠密性」。気付かれないよう静かに近づくことです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qstealth"
+      ]
+    },
+    {
+      "passageId": "susceptible",
+      "prompt": "Vocabulary Day 15 · Words 46–60: complete sus________. Enter the missing letters.",
+      "word": "susceptible",
+      "prefix": "sus",
+      "answer": "正解：ceptible → susceptible。学習語：susceptible。「影響を受けやすい」。susceptible toで湿気の被害への弱さを示します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qsusceptible"
+      ]
+    },
+    {
+      "passageId": "temporal",
+      "prompt": "Vocabulary Day 15 · Words 46–60: complete tem_____. Enter the missing letters.",
+      "word": "temporal",
+      "prefix": "tem",
+      "answer": "正解：poral → temporal。学習語：temporal。「時間の」。出来事の時間的な順序です。原本には「一時的な」という意味も記載されていますが、この文は時間に関する用法です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qtemporal"
+      ]
+    },
+    {
+      "passageId": "transient",
+      "prompt": "Vocabulary Day 15 · Words 46–60: complete tra______. Enter the missing letters.",
+      "word": "transient",
+      "prefix": "tra",
+      "answer": "正解：nsient → transient。学習語：transient。「一時的な」。短い時間だけ続く影響です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qtransient"
+      ]
+    },
+    {
+      "passageId": "undercurrent",
+      "prompt": "Vocabulary Day 15 · Words 46–60: complete und_________. Enter the missing letters.",
+      "word": "undercurrent",
+      "prefix": "und",
+      "answer": "正解：ercurrent → undercurrent。学習語：undercurrent。「底流・潜在的な傾向」。表面の友好的な会話の下に緊張が感じられます。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qundercurrent"
+      ]
+    },
+    {
+      "passageId": "vernacular",
+      "prompt": "Vocabulary Day 15 · Words 46–60: complete ver_______. Enter the missing letters.",
+      "word": "vernacular",
+      "prefix": "ver",
+      "answer": "正解：nacular → vernacular。学習語：vernacular。「日常の言葉・方言；土地の」。ここでは地域で日々使う言葉という名詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p016:qvernacular"
+      ]
+    }
+  ]
+}

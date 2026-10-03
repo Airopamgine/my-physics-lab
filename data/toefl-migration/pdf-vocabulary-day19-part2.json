@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day19-part2",
+  "title": "Vocabulary Day 19 · Words 16–30 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 20ページ／冊子398ページ · Vocabulary Day 19 · Words 16–30",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "deformation": "The metal showed def________ after pressure changed its original shape.",
+    "desiccate": "The process will des______ the sample by removing its moisture.",
+    "discern": "With close observation, the researcher can dis____ small differences between the samples.",
+    "dispute": "The historians continue to dis____ the claim because they disagree about the evidence.",
+    "emission": "The monitor records the emi_____ of gas as it is released from the container.",
+    "epoch": "The historian described the transformation as the beginning of a new ep___ in the region's history.",
+    "existential": "The essay raises exi________ questions about existence and the meaning of being human.",
+    "fatigue": "After many hours of work, the crew experienced fat____ and needed rest.",
+    "fissure": "The climber noticed a narrow fis____, a deep crack in the rock surface.",
+    "fracture": "The impact caused a fra_____, leaving a break across the solid material.",
+    "fusion": "The art project combines several styles in a fus___ that joins them into one work.",
+    "herder": "The her___ guides and looks after a group of grazing animals.",
+    "hoax": "The story proved to be a ho__, deliberately invented to deceive readers.",
+    "hyperactive": "The account describes a hyp________ child whose activity level was unusually high.",
+    "impressive": "The audience found the performance imp_______ because of its exceptional skill."
+  },
+  "questions": [
+    {
+      "passageId": "deformation",
+      "prompt": "Vocabulary Day 19 · Words 16–30: complete def________. Enter the missing letters.",
+      "word": "deformation",
+      "prefix": "def",
+      "answer": "正解：ormation → deformation。学習語：deformation。「変形」。圧力によって元の形が変わったことです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qdeformation"
+      ]
+    },
+    {
+      "passageId": "desiccate",
+      "prompt": "Vocabulary Day 19 · Words 16–30: complete des______. Enter the missing letters.",
+      "word": "desiccate",
+      "prefix": "des",
+      "answer": "正解：iccate → desiccate。学習語：desiccate。「乾燥させる」。水分を除くことです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qdesiccate"
+      ]
+    },
+    {
+      "passageId": "discern",
+      "prompt": "Vocabulary Day 19 · Words 16–30: complete dis____. Enter the missing letters.",
+      "word": "discern",
+      "prefix": "dis",
+      "answer": "正解：cern → discern。学習語：discern。「識別する・見抜く」。よく観察してわずかな違いを認めます。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qdiscern"
+      ]
+    },
+    {
+      "passageId": "dispute",
+      "prompt": "Vocabulary Day 19 · Words 16–30: complete dis____. Enter the missing letters.",
+      "word": "dispute",
+      "prefix": "dis",
+      "answer": "正解：pute → dispute。学習語：dispute。「論争する・異議を唱える；論争」。この文では証拠の評価が一致せず主張を争う動詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qdispute"
+      ]
+    },
+    {
+      "passageId": "emission",
+      "prompt": "Vocabulary Day 19 · Words 16–30: complete emi_____. Enter the missing letters.",
+      "word": "emission",
+      "prefix": "emi",
+      "answer": "正解：ssion → emission。学習語：emission。「排出・放出」。容器から気体が出ることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qemission"
+      ]
+    },
+    {
+      "passageId": "epoch",
+      "prompt": "Vocabulary Day 19 · Words 16–30: complete ep___. Enter the missing letters.",
+      "word": "epoch",
+      "prefix": "ep",
+      "answer": "正解：och → epoch。学習語：epoch。「時代・画期的な時期」。歴史上の新たな区切りを指します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qepoch"
+      ]
+    },
+    {
+      "passageId": "existential",
+      "prompt": "Vocabulary Day 19 · Words 16–30: complete exi________. Enter the missing letters.",
+      "word": "existential",
+      "prefix": "exi",
+      "answer": "正解：stential → existential。学習語：existential。「存在の・実存の」。存在や人間として生きる意味に関わる問いです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qexistential"
+      ]
+    },
+    {
+      "passageId": "fatigue",
+      "prompt": "Vocabulary Day 19 · Words 16–30: complete fat____. Enter the missing letters.",
+      "word": "fatigue",
+      "prefix": "fat",
+      "answer": "正解：igue → fatigue。学習語：fatigue。「疲労」。長時間の労働で疲れた状態です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qfatigue"
+      ]
+    },
+    {
+      "passageId": "fissure",
+      "prompt": "Vocabulary Day 19 · Words 16–30: complete fis____. Enter the missing letters.",
+      "word": "fissure",
+      "prefix": "fis",
+      "answer": "正解：sure → fissure。学習語：fissure。「裂け目・亀裂」。岩にある細く深い割れ目です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qfissure"
+      ]
+    },
+    {
+      "passageId": "fracture",
+      "prompt": "Vocabulary Day 19 · Words 16–30: complete fra_____. Enter the missing letters.",
+      "word": "fracture",
+      "prefix": "fra",
+      "answer": "正解：cture → fracture。学習語：fracture。「破損・亀裂・骨折」。この文では固体の材料が割れたことです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qfracture"
+      ]
+    },
+    {
+      "passageId": "fusion",
+      "prompt": "Vocabulary Day 19 · Words 16–30: complete fus___. Enter the missing letters.",
+      "word": "fusion",
+      "prefix": "fus",
+      "answer": "正解：ion → fusion。学習語：fusion。「融合」。複数の様式が一つの作品に結び付くことです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qfusion"
+      ]
+    },
+    {
+      "passageId": "herder",
+      "prompt": "Vocabulary Day 19 · Words 16–30: complete her___. Enter the missing letters.",
+      "word": "herder",
+      "prefix": "her",
+      "answer": "正解：der → herder。学習語：herder。「牧畜者・家畜を追う人」。草を食べる家畜を導いて世話をします。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qherder"
+      ]
+    },
+    {
+      "passageId": "hoax",
+      "prompt": "Vocabulary Day 19 · Words 16–30: complete ho__. Enter the missing letters.",
+      "word": "hoax",
+      "prefix": "ho",
+      "answer": "正解：ax → hoax。学習語：hoax。「でっち上げ・悪ふざけ・偽情報」。人をだますため意図的に作った話です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qhoax"
+      ]
+    },
+    {
+      "passageId": "hyperactive",
+      "prompt": "Vocabulary Day 19 · Words 16–30: complete hyp________. Enter the missing letters.",
+      "word": "hyperactive",
+      "prefix": "hyp",
+      "answer": "正解：eractive → hyperactive。学習語：hyperactive。「過度に活動的な」。通常より著しく活発だったという記述です。この語だけで医学的な診断を意味するわけではありません。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qhyperactive"
+      ]
+    },
+    {
+      "passageId": "impressive",
+      "prompt": "Vocabulary Day 19 · Words 16–30: complete imp_______. Enter the missing letters.",
+      "word": "impressive",
+      "prefix": "imp",
+      "answer": "正解：ressive → impressive。学習語：impressive。「印象的な・見事な」。卓越した技術で強い印象を与えた演技です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qimpressive"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day19-part1",
+  "title": "Vocabulary Day 19 · Words 1–15 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 20ページ／冊子398ページ · Vocabulary Day 19 · Words 1–15",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "accretion": "The rock grew through acc______ as additional material gradually accumulated on its surface.",
+    "adolescence": "The study follows participants through ado________, the transition between childhood and adulthood.",
+    "aggressive": "The animal showed agg_______ behavior by threatening and attacking others.",
+    "alliance": "The groups formed an all_____ and agreed to work together toward a common goal.",
+    "apprehensive": "She felt app_________ about the unfamiliar journey and worried about what might happen.",
+    "auxiliary": "The boat has an aux______ engine that provides support when the main engine is unavailable.",
+    "callousness": "The official's cal________ was evident in his indifference to other people's suffering.",
+    "celestial": "The telescope is used to observe cel______ objects such as stars and planets.",
+    "circulation": "The diagram shows the cir________ of water as it moves repeatedly around the system.",
+    "cognitive": "The task measures cog______ abilities involved in thinking, remembering, and understanding.",
+    "communal": "The building has a com_____ kitchen shared by all residents.",
+    "concurrently": "The two events took place con_________, so their schedules overlapped.",
+    "contemplation": "After careful con__________, the committee reached a decision based on extended thought.",
+    "cosmology": "The course in cos______ examines the origin, structure, and development of the universe.",
+    "debris": "Workers cleared the deb___, removing the scattered remains left by the damaged building."
+  },
+  "questions": [
+    {
+      "passageId": "accretion",
+      "prompt": "Vocabulary Day 19 · Words 1–15: complete acc______. Enter the missing letters.",
+      "word": "accretion",
+      "prefix": "acc",
+      "answer": "正解：retion → accretion。学習語：accretion。「蓄積・付着による成長」。表面に物質が少しずつ加わることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qaccretion"
+      ]
+    },
+    {
+      "passageId": "adolescence",
+      "prompt": "Vocabulary Day 19 · Words 1–15: complete ado________. Enter the missing letters.",
+      "word": "adolescence",
+      "prefix": "ado",
+      "answer": "正解：lescence → adolescence。学習語：adolescence。「青年期・思春期」。子供から大人へ移行する時期です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qadolescence"
+      ]
+    },
+    {
+      "passageId": "aggressive",
+      "prompt": "Vocabulary Day 19 · Words 1–15: complete agg_______. Enter the missing letters.",
+      "word": "aggressive",
+      "prefix": "agg",
+      "answer": "正解：ressive → aggressive。学習語：aggressive。「攻撃的な・積極的な」。この文では他者を威嚇して攻撃する意味です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qaggressive"
+      ]
+    },
+    {
+      "passageId": "alliance",
+      "prompt": "Vocabulary Day 19 · Words 1–15: complete all_____. Enter the missing letters.",
+      "word": "alliance",
+      "prefix": "all",
+      "answer": "正解：iance → alliance。学習語：alliance。「同盟・連合」。共通の目的のため協力する関係です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qalliance"
+      ]
+    },
+    {
+      "passageId": "apprehensive",
+      "prompt": "Vocabulary Day 19 · Words 1–15: complete app_________. Enter the missing letters.",
+      "word": "apprehensive",
+      "prefix": "app",
+      "answer": "正解：rehensive → apprehensive。学習語：apprehensive。「不安な・心配している」。未知の旅の成り行きを恐れています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qapprehensive"
+      ]
+    },
+    {
+      "passageId": "auxiliary",
+      "prompt": "Vocabulary Day 19 · Words 1–15: complete aux______. Enter the missing letters.",
+      "word": "auxiliary",
+      "prefix": "aux",
+      "answer": "正解：iliary → auxiliary。学習語：auxiliary。「補助の；補助装置・補助者」。この文では主機を補うエンジンです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qauxiliary"
+      ]
+    },
+    {
+      "passageId": "callousness",
+      "prompt": "Vocabulary Day 19 · Words 1–15: complete cal________. Enter the missing letters.",
+      "word": "callousness",
+      "prefix": "cal",
+      "answer": "正解：lousness → callousness。学習語：callousness。「冷淡さ・無情さ」。他者の苦しみに関心を示さない態度です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qcallousness"
+      ]
+    },
+    {
+      "passageId": "celestial",
+      "prompt": "Vocabulary Day 19 · Words 1–15: complete cel______. Enter the missing letters.",
+      "word": "celestial",
+      "prefix": "cel",
+      "answer": "正解：estial → celestial。学習語：celestial。「天体の・天空の」。星や惑星など空に見える天体を修飾します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qcelestial"
+      ]
+    },
+    {
+      "passageId": "circulation",
+      "prompt": "Vocabulary Day 19 · Words 1–15: complete cir________. Enter the missing letters.",
+      "word": "circulation",
+      "prefix": "cir",
+      "answer": "正解：culation → circulation。学習語：circulation。「循環・流通」。水が系の中を巡る動きです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qcirculation"
+      ]
+    },
+    {
+      "passageId": "cognitive",
+      "prompt": "Vocabulary Day 19 · Words 1–15: complete cog______. Enter the missing letters.",
+      "word": "cognitive",
+      "prefix": "cog",
+      "answer": "正解：nitive → cognitive。学習語：cognitive。「認知の」。思考や記憶、理解に関わる能力を修飾します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qcognitive"
+      ]
+    },
+    {
+      "passageId": "communal",
+      "prompt": "Vocabulary Day 19 · Words 1–15: complete com_____. Enter the missing letters.",
+      "word": "communal",
+      "prefix": "com",
+      "answer": "正解：munal → communal。学習語：communal。「共同の・公共の」。住民が共用する台所です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qcommunal"
+      ]
+    },
+    {
+      "passageId": "concurrently",
+      "prompt": "Vocabulary Day 19 · Words 1–15: complete con_________. Enter the missing letters.",
+      "word": "concurrently",
+      "prefix": "con",
+      "answer": "正解：currently → concurrently。学習語：concurrently。「同時に」。二つの催しの時間が重なっています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qconcurrently"
+      ]
+    },
+    {
+      "passageId": "contemplation",
+      "prompt": "Vocabulary Day 19 · Words 1–15: complete con__________. Enter the missing letters.",
+      "word": "contemplation",
+      "prefix": "con",
+      "answer": "正解：templation → contemplation。学習語：contemplation。「熟考・瞑想」。時間を掛けて深く考えることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qcontemplation"
+      ]
+    },
+    {
+      "passageId": "cosmology",
+      "prompt": "Vocabulary Day 19 · Words 1–15: complete cos______. Enter the missing letters.",
+      "word": "cosmology",
+      "prefix": "cos",
+      "answer": "正解：mology → cosmology。学習語：cosmology。「宇宙論」。宇宙全体の起源や構造、変化を扱う学問です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qcosmology"
+      ]
+    },
+    {
+      "passageId": "debris",
+      "prompt": "Vocabulary Day 19 · Words 1–15: complete deb___. Enter the missing letters.",
+      "word": "debris",
+      "prefix": "deb",
+      "answer": "正解：ris → debris。学習語：debris。「残骸・くず」。壊れた建物から散らばった物です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p020:qdebris"
+      ]
+    }
+  ]
+}

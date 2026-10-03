@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day09-part4",
+  "title": "Vocabulary Day 09 · Words 46–60 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 10ページ／冊子388ページ · Vocabulary Day 09 · Words 46–60",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "routine": "Checking the doors each evening is part of the caretaker's daily rou____.",
+    "security": "The building improved its sec_____ by adding locks and entrance checks.",
+    "session": "The morning training ses____ lasts two hours and includes practical activities.",
+    "sign": "Please si__ your name at the bottom to confirm that you agree.",
+    "software": "The computer needs new sof_____, including programs for editing images.",
+    "square": "The festival takes place in the town squ___, an open public area surrounded by buildings.",
+    "storage": "The room provides sto____ for boxes that are not currently needed.",
+    "supervisor": "Ask your sup_______, the person responsible for overseeing your work, before changing the schedule.",
+    "thorough": "The inspector made a tho_____ examination, checking every part carefully.",
+    "tracking": "The delivery service provides tra_____ so customers can follow the location of their package.",
+    "unexpectedly": "The meeting ended une_________ early, much sooner than anyone had anticipated.",
+    "utensil": "A wooden spoon is a kitchen ute____ used for stirring food.",
+    "vibrant": "The market has a vib____ atmosphere filled with lively conversation and activity.",
+    "volunteer": "A vol______ offers time and work to the charity without being paid.",
+    "wellness": "The program promotes wel_____ through attention to physical and mental well-being."
+  },
+  "questions": [
+    {
+      "passageId": "routine",
+      "prompt": "Vocabulary Day 09 · Words 46–60: complete rou____. Enter the missing letters.",
+      "word": "routine",
+      "prefix": "rou",
+      "answer": "正解：tine → routine。学習語：routine。「日課・日常の手順；日常的な」。毎日繰り返す作業を指します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qroutine"
+      ]
+    },
+    {
+      "passageId": "security",
+      "prompt": "Vocabulary Day 09 · Words 46–60: complete sec_____. Enter the missing letters.",
+      "word": "security",
+      "prefix": "sec",
+      "answer": "正解：urity → security。学習語：security。「保安・安全」。鍵と入口の確認によって安全を高めます。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qsecurity"
+      ]
+    },
+    {
+      "passageId": "session",
+      "prompt": "Vocabulary Day 09 · Words 46–60: complete ses____. Enter the missing letters.",
+      "word": "session",
+      "prefix": "ses",
+      "answer": "正解：sion → session。学習語：session。「会合・活動の時間」。二時間の研修の一区切りです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qsession"
+      ]
+    },
+    {
+      "passageId": "sign",
+      "prompt": "Vocabulary Day 09 · Words 46–60: complete si__. Enter the missing letters.",
+      "word": "sign",
+      "prefix": "si",
+      "answer": "正解：gn → sign。学習語：sign。「署名する；標識」。同意を示すため名前を書く動詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qsign"
+      ]
+    },
+    {
+      "passageId": "software",
+      "prompt": "Vocabulary Day 09 · Words 46–60: complete sof_____. Enter the missing letters.",
+      "word": "software",
+      "prefix": "sof",
+      "answer": "正解：tware → software。学習語：software。「ソフトウェア」。画像編集などのプログラムを指す不可算名詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qsoftware"
+      ]
+    },
+    {
+      "passageId": "square",
+      "prompt": "Vocabulary Day 09 · Words 46–60: complete squ___. Enter the missing letters.",
+      "word": "square",
+      "prefix": "squ",
+      "answer": "正解：are → square。学習語：square。「広場・正方形；正方形の」。ここでは町の開かれた公共の広場です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qsquare"
+      ]
+    },
+    {
+      "passageId": "storage",
+      "prompt": "Vocabulary Day 09 · Words 46–60: complete sto____. Enter the missing letters.",
+      "word": "storage",
+      "prefix": "sto",
+      "answer": "正解：rage → storage。学習語：storage。「保管・貯蔵」。今は使わない箱を置くための場所です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qstorage"
+      ]
+    },
+    {
+      "passageId": "supervisor",
+      "prompt": "Vocabulary Day 09 · Words 46–60: complete sup_______. Enter the missing letters.",
+      "word": "supervisor",
+      "prefix": "sup",
+      "answer": "正解：ervisor → supervisor。学習語：supervisor。「監督者・上司」。仕事を管理する責任者です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qsupervisor"
+      ]
+    },
+    {
+      "passageId": "thorough",
+      "prompt": "Vocabulary Day 09 · Words 46–60: complete tho_____. Enter the missing letters.",
+      "word": "thorough",
+      "prefix": "tho",
+      "answer": "正解：rough → thorough。学習語：thorough。「徹底的な」。すべての部分を丁寧に調べています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qthorough"
+      ]
+    },
+    {
+      "passageId": "tracking",
+      "prompt": "Vocabulary Day 09 · Words 46–60: complete tra_____. Enter the missing letters.",
+      "word": "tracking",
+      "prefix": "tra",
+      "answer": "正解：cking → tracking。学習語：tracking。「追跡」。荷物がどこにあるかを確認できる仕組みです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qtracking"
+      ]
+    },
+    {
+      "passageId": "unexpectedly",
+      "prompt": "Vocabulary Day 09 · Words 46–60: complete une_________. Enter the missing letters.",
+      "word": "unexpectedly",
+      "prefix": "une",
+      "answer": "正解：xpectedly → unexpectedly。学習語：unexpectedly。「予想外に」。誰も予想しなかったほど早く終わっています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qunexpectedly"
+      ]
+    },
+    {
+      "passageId": "utensil",
+      "prompt": "Vocabulary Day 09 · Words 46–60: complete ute____. Enter the missing letters.",
+      "word": "utensil",
+      "prefix": "ute",
+      "answer": "正解：nsil → utensil。学習語：utensil。「道具・食器」。調理に使う器具の一つです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qutensil"
+      ]
+    },
+    {
+      "passageId": "vibrant",
+      "prompt": "Vocabulary Day 09 · Words 46–60: complete vib____. Enter the missing letters.",
+      "word": "vibrant",
+      "prefix": "vib",
+      "answer": "正解：rant → vibrant。学習語：vibrant。「活気のある」。会話や活動に満ちた市場の雰囲気です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qvibrant"
+      ]
+    },
+    {
+      "passageId": "volunteer",
+      "prompt": "Vocabulary Day 09 · Words 46–60: complete vol______. Enter the missing letters.",
+      "word": "volunteer",
+      "prefix": "vol",
+      "answer": "正解：unteer → volunteer。学習語：volunteer。「ボランティア；自発的に奉仕する」。無報酬で支援する人という名詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qvolunteer"
+      ]
+    },
+    {
+      "passageId": "wellness",
+      "prompt": "Vocabulary Day 09 · Words 46–60: complete wel_____. Enter the missing letters.",
+      "word": "wellness",
+      "prefix": "wel",
+      "answer": "正解：lness → wellness。学習語：wellness。「健康・健康管理」。心身をよい状態に保つことを目指します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qwellness"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day18-part2",
+  "title": "Vocabulary Day 18 · Words 16–30 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 19ページ／冊子397ページ · Vocabulary Day 18 · Words 16–30",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "covertly": "The visitor copied the documents cov_____, taking care that nobody noticed.",
+    "dairy": "The shop sells da___ products, including milk, butter, and cheese.",
+    "deforestation": "The region experienced def__________ as large areas of forest were cleared.",
+    "deprecate": "The critic chose to dep______ the proposal, expressing strong disapproval of it.",
+    "disprove": "The new evidence can dis_____ the claim by demonstrating that it is false.",
+    "embryo": "The diagram labels the organism as an emb___ at an early stage of development.",
+    "epitaph": "The visitors read the epi____, a short inscription on the grave marker.",
+    "exhaust": "The long climb may exh____ the hikers and leave them with little energy.",
+    "fasting": "The historical account describes fas____, a period in which participants abstained from food.",
+    "fission": "The science lesson defines nuclear fis____ as the splitting of a heavy atomic nucleus.",
+    "fraction": "Only a small fra_____ of the collection was displayed; most objects remained in storage.",
+    "furry": "The animal has a fu___ coat covered with thick, soft hair.",
+    "goodwill": "The partners showed goo_____ by making a sincere effort to help each other.",
+    "hygiene": "The poster promotes hyg____ through practices that help keep people and surroundings clean.",
+    "implication": "The committee considered an imp________ of the decision: it could affect several other departments."
+  },
+  "questions": [
+    {
+      "passageId": "covertly",
+      "prompt": "Vocabulary Day 18 · Words 16–30: complete cov_____. Enter the missing letters.",
+      "word": "covertly",
+      "prefix": "cov",
+      "answer": "正解：ertly → covertly。学習語：covertly。「ひそかに・内密に」。周囲に気づかれないよう行うことです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qcovertly"
+      ]
+    },
+    {
+      "passageId": "dairy",
+      "prompt": "Vocabulary Day 18 · Words 16–30: complete da___. Enter the missing letters.",
+      "word": "dairy",
+      "prefix": "da",
+      "answer": "正解：iry → dairy。学習語：dairy。「乳製品；酪農の」。牛乳やバターなど乳から作る食品を修飾します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qdairy"
+      ]
+    },
+    {
+      "passageId": "deforestation",
+      "prompt": "Vocabulary Day 18 · Words 16–30: complete def__________. Enter the missing letters.",
+      "word": "deforestation",
+      "prefix": "def",
+      "answer": "正解：orestation → deforestation。学習語：deforestation。「森林伐採・森林破壊」。広い森林が除かれたことです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qdeforestation"
+      ]
+    },
+    {
+      "passageId": "deprecate",
+      "prompt": "Vocabulary Day 18 · Words 16–30: complete dep______. Enter the missing letters.",
+      "word": "deprecate",
+      "prefix": "dep",
+      "answer": "正解：recate → deprecate。学習語：deprecate。「非難する・軽視する」。提案への否定的な評価を表明する文脈です。ソフトウェアでは非推奨にするという用法もあります。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qdeprecate"
+      ]
+    },
+    {
+      "passageId": "disprove",
+      "prompt": "Vocabulary Day 18 · Words 16–30: complete dis_____. Enter the missing letters.",
+      "word": "disprove",
+      "prefix": "dis",
+      "answer": "正解：prove → disprove。学習語：disprove。「反証する・誤りを証明する」。証拠で主張が誤りだと示します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qdisprove"
+      ]
+    },
+    {
+      "passageId": "embryo",
+      "prompt": "Vocabulary Day 18 · Words 16–30: complete emb___. Enter the missing letters.",
+      "word": "embryo",
+      "prefix": "emb",
+      "answer": "正解：ryo → embryo。学習語：embryo。「胚」。発生の初期段階にある生物です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qembryo"
+      ]
+    },
+    {
+      "passageId": "epitaph",
+      "prompt": "Vocabulary Day 18 · Words 16–30: complete epi____. Enter the missing letters.",
+      "word": "epitaph",
+      "prefix": "epi",
+      "answer": "正解：taph → epitaph。学習語：epitaph。「墓碑銘」。墓に刻まれた短い文章です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qepitaph"
+      ]
+    },
+    {
+      "passageId": "exhaust",
+      "prompt": "Vocabulary Day 18 · Words 16–30: complete exh____. Enter the missing letters.",
+      "word": "exhaust",
+      "prefix": "exh",
+      "answer": "正解：aust → exhaust。学習語：exhaust。「疲れ果てさせる；排気ガス」。この文では登山で体力を使い切らせる動詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qexhaust"
+      ]
+    },
+    {
+      "passageId": "fasting",
+      "prompt": "Vocabulary Day 18 · Words 16–30: complete fas____. Enter the missing letters.",
+      "word": "fasting",
+      "prefix": "fas",
+      "answer": "正解：ting → fasting。学習語：fasting。「断食；断食の」。この文では一定期間食事を取らなかった行為です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qfasting"
+      ]
+    },
+    {
+      "passageId": "fission",
+      "prompt": "Vocabulary Day 18 · Words 16–30: complete fis____. Enter the missing letters.",
+      "word": "fission",
+      "prefix": "fis",
+      "answer": "正解：sion → fission。学習語：fission。「核分裂・分裂；分裂する」。重い原子核が分かれることです。核融合のfusionとは区別します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qfission"
+      ]
+    },
+    {
+      "passageId": "fraction",
+      "prompt": "Vocabulary Day 18 · Words 16–30: complete fra_____. Enter the missing letters.",
+      "word": "fraction",
+      "prefix": "fra",
+      "answer": "正解：ction → fraction。学習語：fraction。「一部分・分数」。この文では全体の小さな部分です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qfraction"
+      ]
+    },
+    {
+      "passageId": "furry",
+      "prompt": "Vocabulary Day 18 · Words 16–30: complete fu___. Enter the missing letters.",
+      "word": "furry",
+      "prefix": "fu",
+      "answer": "正解：rry → furry。学習語：furry。「毛に覆われた・毛の多い」。厚く柔らかな毛があることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qfurry"
+      ]
+    },
+    {
+      "passageId": "goodwill",
+      "prompt": "Vocabulary Day 18 · Words 16–30: complete goo_____. Enter the missing letters.",
+      "word": "goodwill",
+      "prefix": "goo",
+      "answer": "正解：dwill → goodwill。学習語：goodwill。「善意・好意」。互いを助けようとする友好的な気持ちです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qgoodwill"
+      ]
+    },
+    {
+      "passageId": "hygiene",
+      "prompt": "Vocabulary Day 18 · Words 16–30: complete hyg____. Enter the missing letters.",
+      "word": "hygiene",
+      "prefix": "hyg",
+      "answer": "正解：iene → hygiene。学習語：hygiene。「衛生」。人や周囲を清潔に保つ習慣を指します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qhygiene"
+      ]
+    },
+    {
+      "passageId": "implication",
+      "prompt": "Vocabulary Day 18 · Words 16–30: complete imp________. Enter the missing letters.",
+      "word": "implication",
+      "prefix": "imp",
+      "answer": "正解：lication → implication。学習語：implication。「影響・含意・関与」。この文では決定から生じ得る影響を指します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qimplication"
+      ]
+    }
+  ]
+}

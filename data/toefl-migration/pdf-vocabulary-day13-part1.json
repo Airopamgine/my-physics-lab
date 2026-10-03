@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day13-part1",
+  "title": "Vocabulary Day 13 · Words 1–15 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 14ページ／冊子392ページ · Vocabulary Day 13 · Words 1–15",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "aberrant": "The scientist investigated the abe_____ result because it differed sharply from the usual pattern.",
+    "acidification": "The experiment measured aci__________ as the solution became more acidic.",
+    "aerial": "The team used aer___ photographs taken from an aircraft above the site.",
+    "ailment": "The doctor asked whether she had any minor ail____ causing discomfort.",
+    "allude": "The writer chose to all___ to the event without describing it directly.",
+    "angular": "The sculpture has an ang____ shape with sharp corners instead of smooth curves.",
+    "aqueduct": "The ancient aqu_____ carried water across the valley to the town.",
+    "astonishing": "The result was ast________ because it surprised everyone who saw it.",
+    "awakening": "Her visit led to an awa______ of interest in the region's history.",
+    "brine": "The vegetables were preserved in br___, a solution containing a large amount of salt.",
+    "carcass": "The scavenger found the car____ of a dead animal beside the road.",
+    "civilization": "The archaeologists studied the cities and writing of the ancient civ_________.",
+    "collectivist": "A col_________ outlook emphasizes the interests of the group rather than only those of the individual.",
+    "compel": "The circumstances may com___ the team to change its plan.",
+    "congestion": "Traffic con_______ occurs when so many vehicles use the road that movement slows."
+  },
+  "questions": [
+    {
+      "passageId": "aberrant",
+      "prompt": "Vocabulary Day 13 · Words 1–15: complete abe_____. Enter the missing letters.",
+      "word": "aberrant",
+      "prefix": "abe",
+      "answer": "正解：rrant → aberrant。学習語：aberrant。「通常から外れた・逸脱した」。普段の傾向と大きく違う結果です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qaberrant"
+      ]
+    },
+    {
+      "passageId": "acidification",
+      "prompt": "Vocabulary Day 13 · Words 1–15: complete aci__________. Enter the missing letters.",
+      "word": "acidification",
+      "prefix": "aci",
+      "answer": "正解：dification → acidification。学習語：acidification。「酸性化」。液体の酸性が強まる過程です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qacidification"
+      ]
+    },
+    {
+      "passageId": "aerial",
+      "prompt": "Vocabulary Day 13 · Words 1–15: complete aer___. Enter the missing letters.",
+      "word": "aerial",
+      "prefix": "aer",
+      "answer": "正解：ial → aerial。学習語：aerial。「空中の・航空の」。飛行機から上空で撮った写真です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qaerial"
+      ]
+    },
+    {
+      "passageId": "ailment",
+      "prompt": "Vocabulary Day 13 · Words 1–15: complete ail____. Enter the missing letters.",
+      "word": "ailment",
+      "prefix": "ail",
+      "answer": "正解：ment → ailment。学習語：ailment。「病気・不調」。ここでは軽い体調不良を指します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qailment"
+      ]
+    },
+    {
+      "passageId": "allude",
+      "prompt": "Vocabulary Day 13 · Words 1–15: complete all___. Enter the missing letters.",
+      "word": "allude",
+      "prefix": "all",
+      "answer": "正解：ude → allude。学習語：allude。「ほのめかす・間接的に言及する」。allude toで、直接は述べずに触れています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qallude"
+      ]
+    },
+    {
+      "passageId": "angular",
+      "prompt": "Vocabulary Day 13 · Words 1–15: complete ang____. Enter the missing letters.",
+      "word": "angular",
+      "prefix": "ang",
+      "answer": "正解：ular → angular。学習語：angular。「角ばった・角のある」。曲線ではなく鋭い角を持つ形です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qangular"
+      ]
+    },
+    {
+      "passageId": "aqueduct",
+      "prompt": "Vocabulary Day 13 · Words 1–15: complete aqu_____. Enter the missing letters.",
+      "word": "aqueduct",
+      "prefix": "aqu",
+      "answer": "正解：educt → aqueduct。学習語：aqueduct。「水道橋・導水路」。町へ水を運ぶための構造物です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qaqueduct"
+      ]
+    },
+    {
+      "passageId": "astonishing",
+      "prompt": "Vocabulary Day 13 · Words 1–15: complete ast________. Enter the missing letters.",
+      "word": "astonishing",
+      "prefix": "ast",
+      "answer": "正解：onishing → astonishing。学習語：astonishing。「驚くべき」。結果を見た全員が驚いたことが根拠です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qastonishing"
+      ]
+    },
+    {
+      "passageId": "awakening",
+      "prompt": "Vocabulary Day 13 · Words 1–15: complete awa______. Enter the missing letters.",
+      "word": "awakening",
+      "prefix": "awa",
+      "answer": "正解：kening → awakening。学習語：awakening。「目覚め・覚醒」。この文では歴史への関心が新たに生じることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qawakening"
+      ]
+    },
+    {
+      "passageId": "brine",
+      "prompt": "Vocabulary Day 13 · Words 1–15: complete br___. Enter the missing letters.",
+      "word": "brine",
+      "prefix": "br",
+      "answer": "正解：ine → brine。学習語：brine。「塩水」。多量の塩を溶かした液体です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qbrine"
+      ]
+    },
+    {
+      "passageId": "carcass",
+      "prompt": "Vocabulary Day 13 · Words 1–15: complete car____. Enter the missing letters.",
+      "word": "carcass",
+      "prefix": "car",
+      "answer": "正解：cass → carcass。学習語：carcass。「動物の死骸」。死んだ動物の体を指します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qcarcass"
+      ]
+    },
+    {
+      "passageId": "civilization",
+      "prompt": "Vocabulary Day 13 · Words 1–15: complete civ_________. Enter the missing letters.",
+      "word": "civilization",
+      "prefix": "civ",
+      "answer": "正解：ilization → civilization。学習語：civilization。「文明・文化」。都市や文字を持った過去の社会を指します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qcivilization"
+      ]
+    },
+    {
+      "passageId": "collectivist",
+      "prompt": "Vocabulary Day 13 · Words 1–15: complete col_________. Enter the missing letters.",
+      "word": "collectivist",
+      "prefix": "col",
+      "answer": "正解：lectivist → collectivist。学習語：collectivist。「集団主義の；集団主義者」。集団の利益を重視する考え方という形容詞用法です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qcollectivist"
+      ]
+    },
+    {
+      "passageId": "compel",
+      "prompt": "Vocabulary Day 13 · Words 1–15: complete com___. Enter the missing letters.",
+      "word": "compel",
+      "prefix": "com",
+      "answer": "正解：pel → compel。学習語：compel。「強いる・余儀なくさせる」。compel A to doで、状況が計画変更を強いることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qcompel"
+      ]
+    },
+    {
+      "passageId": "congestion",
+      "prompt": "Vocabulary Day 13 · Words 1–15: complete con_______. Enter the missing letters.",
+      "word": "congestion",
+      "prefix": "con",
+      "answer": "正解：gestion → congestion。学習語：congestion。「混雑・詰まり」。この文では車が多く道路が混み合うことです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qcongestion"
+      ]
+    }
+  ]
+}

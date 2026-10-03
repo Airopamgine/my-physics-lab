@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day09-part1",
+  "title": "Vocabulary Day 09 · Words 1–15 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 10ページ／冊子388ページ · Vocabulary Day 09 · Words 1–15",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "accomplishment": "Completing the difficult restoration was a major acc___________ for the team.",
+    "advance": "The discovery helped the field adv____ by opening new possibilities for research.",
+    "annual": "The ann___ festival takes place once every year.",
+    "approach": "The teacher tried a different app_____ to explaining the difficult concept.",
+    "associate": "Please ass______ each symbol with the meaning shown in the table.",
+    "automobile": "The museum displays an early aut_______, a vehicle designed to carry people on roads.",
+    "billing": "Contact the bil____ department if the amount charged on your invoice is incorrect.",
+    "branch": "The bank opened a new bra___ in the town to serve local customers.",
+    "cancellation": "The notice announced the can_________ of the concert, so the event would not take place.",
+    "charity": "The cha____ collects donations to support families in need.",
+    "class": "The evening cl___ teaches beginners how to use the software.",
+    "collect": "Volunteers will col____ the used books and bring them to the donation center.",
+    "complimentary": "The hotel offers com__________ breakfast at no additional charge.",
+    "console": "Her friend tried to con____ her after the disappointing news.",
+    "coordinator": "The event coo________ organizes the schedule and brings the different teams together."
+  },
+  "questions": [
+    {
+      "passageId": "accomplishment",
+      "prompt": "Vocabulary Day 09 · Words 1–15: complete acc___________. Enter the missing letters.",
+      "word": "accomplishment",
+      "prefix": "acc",
+      "answer": "正解：omplishment → accomplishment。学習語：accomplishment。「成果・功績」。困難な修復を成し遂げた結果を指します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qaccomplishment"
+      ]
+    },
+    {
+      "passageId": "advance",
+      "prompt": "Vocabulary Day 09 · Words 1–15: complete adv____. Enter the missing letters.",
+      "word": "advance",
+      "prefix": "adv",
+      "answer": "正解：ance → advance。学習語：advance。「前進する・発展する；進歩」。helpedの後の動詞で、研究分野が発展することです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qadvance"
+      ]
+    },
+    {
+      "passageId": "annual",
+      "prompt": "Vocabulary Day 09 · Words 1–15: complete ann___. Enter the missing letters.",
+      "word": "annual",
+      "prefix": "ann",
+      "answer": "正解：ual → annual。学習語：annual。「毎年の・年間の」。once every yearが毎年という意味を示します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qannual"
+      ]
+    },
+    {
+      "passageId": "approach",
+      "prompt": "Vocabulary Day 09 · Words 1–15: complete app_____. Enter the missing letters.",
+      "word": "approach",
+      "prefix": "app",
+      "answer": "正解：roach → approach。学習語：approach。「取り組み方・方法；近づく」。ここでは説明に用いる方法という名詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qapproach"
+      ]
+    },
+    {
+      "passageId": "associate",
+      "prompt": "Vocabulary Day 09 · Words 1–15: complete ass______. Enter the missing letters.",
+      "word": "associate",
+      "prefix": "ass",
+      "answer": "正解：ociate → associate。学習語：associate。「関連づける；同僚」。associate A with Bで、記号と意味を結び付けます。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qassociate"
+      ]
+    },
+    {
+      "passageId": "automobile",
+      "prompt": "Vocabulary Day 09 · Words 1–15: complete aut_______. Enter the missing letters.",
+      "word": "automobile",
+      "prefix": "aut",
+      "answer": "正解：omobile → automobile。学習語：automobile。「自動車」。道路で人を運ぶ車両という説明が根拠です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qautomobile"
+      ]
+    },
+    {
+      "passageId": "billing",
+      "prompt": "Vocabulary Day 09 · Words 1–15: complete bil____. Enter the missing letters.",
+      "word": "billing",
+      "prefix": "bil",
+      "answer": "正解：ling → billing。学習語：billing。「請求・料金の課金」。請求書の金額を扱う部署です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qbilling"
+      ]
+    },
+    {
+      "passageId": "branch",
+      "prompt": "Vocabulary Day 09 · Words 1–15: complete bra___. Enter the missing letters.",
+      "word": "branch",
+      "prefix": "bra",
+      "answer": "正解：nch → branch。学習語：branch。「支店・枝」。この文では銀行の新しい営業所を指します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qbranch"
+      ]
+    },
+    {
+      "passageId": "cancellation",
+      "prompt": "Vocabulary Day 09 · Words 1–15: complete can_________. Enter the missing letters.",
+      "word": "cancellation",
+      "prefix": "can",
+      "answer": "正解：cellation → cancellation。学習語：cancellation。「中止・取消し」。コンサートが行われなくなったことです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qcancellation"
+      ]
+    },
+    {
+      "passageId": "charity",
+      "prompt": "Vocabulary Day 09 · Words 1–15: complete cha____. Enter the missing letters.",
+      "word": "charity",
+      "prefix": "cha",
+      "answer": "正解：rity → charity。学習語：charity。「慈善団体・慈善」。寄付を集めて困窮する家庭を支える団体です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qcharity"
+      ]
+    },
+    {
+      "passageId": "class",
+      "prompt": "Vocabulary Day 09 · Words 1–15: complete cl___. Enter the missing letters.",
+      "word": "class",
+      "prefix": "cl",
+      "answer": "正解：ass → class。学習語：class。「授業・階級」。ここでは初心者向けの授業です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qclass"
+      ]
+    },
+    {
+      "passageId": "collect",
+      "prompt": "Vocabulary Day 09 · Words 1–15: complete col____. Enter the missing letters.",
+      "word": "collect",
+      "prefix": "col",
+      "answer": "正解：lect → collect。学習語：collect。「集める・収集する」。本を集めて寄付先へ運びます。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qcollect"
+      ]
+    },
+    {
+      "passageId": "complimentary",
+      "prompt": "Vocabulary Day 09 · Words 1–15: complete com__________. Enter the missing letters.",
+      "word": "complimentary",
+      "prefix": "com",
+      "answer": "正解：plimentary → complimentary。学習語：complimentary。「無料の・称賛の」。追加料金がない朝食です。補完的なというcomplementaryとは綴りが異なります。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qcomplimentary"
+      ]
+    },
+    {
+      "passageId": "console",
+      "prompt": "Vocabulary Day 09 · Words 1–15: complete con____. Enter the missing letters.",
+      "word": "console",
+      "prefix": "con",
+      "answer": "正解：sole → console。学習語：console。「慰める」。残念な知らせを受けた人を励ます動詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qconsole"
+      ]
+    },
+    {
+      "passageId": "coordinator",
+      "prompt": "Vocabulary Day 09 · Words 1–15: complete coo________. Enter the missing letters.",
+      "word": "coordinator",
+      "prefix": "coo",
+      "answer": "正解：rdinator → coordinator。学習語：coordinator。「調整役・コーディネーター」。予定やチーム間の連携を調整する人です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qcoordinator"
+      ]
+    }
+  ]
+}

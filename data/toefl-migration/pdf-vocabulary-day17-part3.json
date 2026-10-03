@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day17-part3",
+  "title": "Vocabulary Day 17 · Words 31–45 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 18ページ／冊子396ページ · Vocabulary Day 17 · Words 31–45",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "intestine": "The diagram labels the int______ as a part of the digestive tract.",
+    "juxtapose": "The exhibition will jux______ the two paintings, placing them side by side for comparison.",
+    "legislation": "The parliament debated new leg________, considering laws that would change the current rules.",
+    "literacy": "The program develops lit_____, helping people learn to read and write.",
+    "manuscript": "The author sent the unpublished man_______ to the editor for review.",
+    "masterpiece": "The critic regarded the painting as a mas________, an outstanding work by the artist.",
+    "mitigate": "The new measures aim to mit_____ the damage and make its effects less severe.",
+    "necessitate": "The unexpected problem may nec________ a change in the plan.",
+    "noxious": "The laboratory notice warns of nox____ fumes that can harm living organisms.",
+    "painstakingly": "The conservator worked pai__________, taking great care over every small detail.",
+    "permeate": "The liquid can per_____ the porous material and spread through its small spaces.",
+    "philosophy": "The course studies phi_______ by examining questions about knowledge, reality, and values.",
+    "placate": "The manager tried to pla____ the angry customer by listening and offering a solution.",
+    "predicament": "Being stranded without money left the traveler in a difficult pre________.",
+    "profitability": "The report evaluates pro__________ by considering whether the business earns more than it costs to operate."
+  },
+  "questions": [
+    {
+      "passageId": "intestine",
+      "prompt": "Vocabulary Day 17 · Words 31–45: complete int______. Enter the missing letters.",
+      "word": "intestine",
+      "prefix": "int",
+      "answer": "正解：estine → intestine。学習語：intestine。「腸」。原本の広い内臓という訳に対し、この文では消化管の腸を指します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qintestine"
+      ]
+    },
+    {
+      "passageId": "juxtapose",
+      "prompt": "Vocabulary Day 17 · Words 31–45: complete jux______. Enter the missing letters.",
+      "word": "juxtapose",
+      "prefix": "jux",
+      "answer": "正解：tapose → juxtapose。学習語：juxtapose。「並べて置く・並置する」。比較できるよう隣り合わせに配置します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qjuxtapose"
+      ]
+    },
+    {
+      "passageId": "legislation",
+      "prompt": "Vocabulary Day 17 · Words 31–45: complete leg________. Enter the missing letters.",
+      "word": "legislation",
+      "prefix": "leg",
+      "answer": "正解：islation → legislation。学習語：legislation。「法律・立法」。新たな法律を検討する文脈です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qlegislation"
+      ]
+    },
+    {
+      "passageId": "literacy",
+      "prompt": "Vocabulary Day 17 · Words 31–45: complete lit_____. Enter the missing letters.",
+      "word": "literacy",
+      "prefix": "lit",
+      "answer": "正解：eracy → literacy。学習語：literacy。「読み書きの能力」。文字を読んで書けるようにする活動です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qliteracy"
+      ]
+    },
+    {
+      "passageId": "manuscript",
+      "prompt": "Vocabulary Day 17 · Words 31–45: complete man_______. Enter the missing letters.",
+      "word": "manuscript",
+      "prefix": "man",
+      "answer": "正解：uscript → manuscript。学習語：manuscript。「原稿・写本」。この文では出版前に編集者へ渡す文章です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qmanuscript"
+      ]
+    },
+    {
+      "passageId": "masterpiece",
+      "prompt": "Vocabulary Day 17 · Words 31–45: complete mas________. Enter the missing letters.",
+      "word": "masterpiece",
+      "prefix": "mas",
+      "answer": "正解：terpiece → masterpiece。学習語：masterpiece。「傑作」。その芸術家の特に優れた作品です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qmasterpiece"
+      ]
+    },
+    {
+      "passageId": "mitigate",
+      "prompt": "Vocabulary Day 17 · Words 31–45: complete mit_____. Enter the missing letters.",
+      "word": "mitigate",
+      "prefix": "mit",
+      "answer": "正解：igate → mitigate。学習語：mitigate。「和らげる・軽減する」。損害の深刻さを下げようとします。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qmitigate"
+      ]
+    },
+    {
+      "passageId": "necessitate",
+      "prompt": "Vocabulary Day 17 · Words 31–45: complete nec________. Enter the missing letters.",
+      "word": "necessitate",
+      "prefix": "nec",
+      "answer": "正解：essitate → necessitate。学習語：necessitate。「必要にする・要求する」。問題の発生によって計画変更が必要になります。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qnecessitate"
+      ]
+    },
+    {
+      "passageId": "noxious",
+      "prompt": "Vocabulary Day 17 · Words 31–45: complete nox____. Enter the missing letters.",
+      "word": "noxious",
+      "prefix": "nox",
+      "answer": "正解：ious → noxious。学習語：noxious。「有害な・有毒な」。生物に害を及ぼす煙やガスです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qnoxious"
+      ]
+    },
+    {
+      "passageId": "painstakingly",
+      "prompt": "Vocabulary Day 17 · Words 31–45: complete pai__________. Enter the missing letters.",
+      "word": "painstakingly",
+      "prefix": "pai",
+      "answer": "正解：nstakingly → painstakingly。学習語：painstakingly。「丹念に・細心の注意を払って」。細かい部分まで時間を掛けて扱います。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qpainstakingly"
+      ]
+    },
+    {
+      "passageId": "permeate",
+      "prompt": "Vocabulary Day 17 · Words 31–45: complete per_____. Enter the missing letters.",
+      "word": "permeate",
+      "prefix": "per",
+      "answer": "正解：meate → permeate。学習語：permeate。「染み込む・行き渡る」。隙間のある物質の中へ液体が広がります。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qpermeate"
+      ]
+    },
+    {
+      "passageId": "philosophy",
+      "prompt": "Vocabulary Day 17 · Words 31–45: complete phi_______. Enter the missing letters.",
+      "word": "philosophy",
+      "prefix": "phi",
+      "answer": "正解：losophy → philosophy。学習語：philosophy。「哲学」。知識や実在、価値などの根本的な問いを扱います。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qphilosophy"
+      ]
+    },
+    {
+      "passageId": "placate",
+      "prompt": "Vocabulary Day 17 · Words 31–45: complete pla____. Enter the missing letters.",
+      "word": "placate",
+      "prefix": "pla",
+      "answer": "正解：cate → placate。学習語：placate。「なだめる・怒りを静める」。話を聞き、解決策を示して落ち着かせようとします。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qplacate"
+      ]
+    },
+    {
+      "passageId": "predicament",
+      "prompt": "Vocabulary Day 17 · Words 31–45: complete pre________. Enter the missing letters.",
+      "word": "predicament",
+      "prefix": "pre",
+      "answer": "正解：dicament → predicament。学習語：predicament。「窮地・困難な状況」。お金も移動手段もなく困っています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qpredicament"
+      ]
+    },
+    {
+      "passageId": "profitability",
+      "prompt": "Vocabulary Day 17 · Words 31–45: complete pro__________. Enter the missing letters.",
+      "word": "profitability",
+      "prefix": "pro",
+      "answer": "正解：fitability → profitability。学習語：profitability。「収益性」。事業が費用を上回る利益を生むかという性質です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p018:qprofitability"
+      ]
+    }
+  ]
+}

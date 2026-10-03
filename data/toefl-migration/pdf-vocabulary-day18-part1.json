@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day18-part1",
+  "title": "Vocabulary Day 18 · Words 1–15 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 19ページ／冊子397ページ · Vocabulary Day 18 · Words 1–15",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "administrative": "The assistant handles adm___________ duties such as maintaining records and organizing appointments.",
+    "alleviate": "The new arrangement should all______ the burden and make it less severe.",
+    "anatomy": "The course in ana____ examines the structure and arrangement of body parts.",
+    "appliance": "The refrigerator is a household app______ used to keep food cool.",
+    "aspiration": "Her asp_______ is to become a researcher, a goal she has worked toward for years.",
+    "autonomy": "The department has aut_____ and can make its own decisions without constant outside direction.",
+    "blindly": "The employee followed the instructions bli____, without considering whether they were appropriate.",
+    "calibration": "The technician performed cal________ by comparing the instrument's readings with a known standard.",
+    "catastrophic": "The report described cat_________ damage that destroyed much of the town.",
+    "circuit": "The diagram shows a complete electrical cir____ through which current can flow.",
+    "coercion": "The witness said the agreement resulted from coe_____ because threats had forced her to sign.",
+    "commence": "The meeting will com_____ at nine, when the chair opens the discussion.",
+    "concrete": "The speaker gave a con_____ example with exact names and dates rather than a vague generalization.",
+    "contamination": "The inspection found con__________: unwanted chemicals had entered the water supply.",
+    "cosmetic": "The shop sells a cos_____ cream intended to improve the appearance of the skin."
+  },
+  "questions": [
+    {
+      "passageId": "administrative",
+      "prompt": "Vocabulary Day 18 · Words 1–15: complete adm___________. Enter the missing letters.",
+      "word": "administrative",
+      "prefix": "adm",
+      "answer": "正解：inistrative → administrative。学習語：administrative。「管理の・行政の」。記録や予定を扱う運営上の仕事です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qadministrative"
+      ]
+    },
+    {
+      "passageId": "alleviate",
+      "prompt": "Vocabulary Day 18 · Words 1–15: complete all______. Enter the missing letters.",
+      "word": "alleviate",
+      "prefix": "all",
+      "answer": "正解：eviate → alleviate。学習語：alleviate。「軽減する・和らげる」。負担の程度を下げることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qalleviate"
+      ]
+    },
+    {
+      "passageId": "anatomy",
+      "prompt": "Vocabulary Day 18 · Words 1–15: complete ana____. Enter the missing letters.",
+      "word": "anatomy",
+      "prefix": "ana",
+      "answer": "正解：tomy → anatomy。学習語：anatomy。「解剖学」。体の各部分の構造や配置を学ぶ分野です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qanatomy"
+      ]
+    },
+    {
+      "passageId": "appliance",
+      "prompt": "Vocabulary Day 18 · Words 1–15: complete app______. Enter the missing letters.",
+      "word": "appliance",
+      "prefix": "app",
+      "answer": "正解：liance → appliance。学習語：appliance。「家電製品・器具」。家庭で特定の仕事をする機器です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qappliance"
+      ]
+    },
+    {
+      "passageId": "aspiration",
+      "prompt": "Vocabulary Day 18 · Words 1–15: complete asp_______. Enter the missing letters.",
+      "word": "aspiration",
+      "prefix": "asp",
+      "answer": "正解：iration → aspiration。学習語：aspiration。「熱望・大志」。長く目指してきた将来の目標です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qaspiration"
+      ]
+    },
+    {
+      "passageId": "autonomy",
+      "prompt": "Vocabulary Day 18 · Words 1–15: complete aut_____. Enter the missing letters.",
+      "word": "autonomy",
+      "prefix": "aut",
+      "answer": "正解：onomy → autonomy。学習語：autonomy。「自律性・自治・独立性」。外部から毎回指示されずに判断する権限です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qautonomy"
+      ]
+    },
+    {
+      "passageId": "blindly",
+      "prompt": "Vocabulary Day 18 · Words 1–15: complete bli____. Enter the missing letters.",
+      "word": "blindly",
+      "prefix": "bli",
+      "answer": "正解：ndly → blindly。学習語：blindly。「盲目的に」。妥当性を考えずに従う様子です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qblindly"
+      ]
+    },
+    {
+      "passageId": "calibration",
+      "prompt": "Vocabulary Day 18 · Words 1–15: complete cal________. Enter the missing letters.",
+      "word": "calibration",
+      "prefix": "cal",
+      "answer": "正解：ibration → calibration。学習語：calibration。「校正・調整」。既知の基準と測定値を照合する作業です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qcalibration"
+      ]
+    },
+    {
+      "passageId": "catastrophic",
+      "prompt": "Vocabulary Day 18 · Words 1–15: complete cat_________. Enter the missing letters.",
+      "word": "catastrophic",
+      "prefix": "cat",
+      "answer": "正解：astrophic → catastrophic。学習語：catastrophic。「壊滅的な・破滅的な」。町の大部分を失うほど深刻な被害です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qcatastrophic"
+      ]
+    },
+    {
+      "passageId": "circuit",
+      "prompt": "Vocabulary Day 18 · Words 1–15: complete cir____. Enter the missing letters.",
+      "word": "circuit",
+      "prefix": "cir",
+      "answer": "正解：cuit → circuit。学習語：circuit。「回路・巡回」。この文では電流が流れる閉じた経路です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qcircuit"
+      ]
+    },
+    {
+      "passageId": "coercion",
+      "prompt": "Vocabulary Day 18 · Words 1–15: complete coe_____. Enter the missing letters.",
+      "word": "coercion",
+      "prefix": "coe",
+      "answer": "正解：rcion → coercion。学習語：coercion。「強制・威圧」。脅しによって署名させられたことが根拠です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qcoercion"
+      ]
+    },
+    {
+      "passageId": "commence",
+      "prompt": "Vocabulary Day 18 · Words 1–15: complete com_____. Enter the missing letters.",
+      "word": "commence",
+      "prefix": "com",
+      "answer": "正解：mence → commence。学習語：commence。「始まる・開始する」。議長が話し合いを始める時刻です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qcommence"
+      ]
+    },
+    {
+      "passageId": "concrete",
+      "prompt": "Vocabulary Day 18 · Words 1–15: complete con_____. Enter the missing letters.",
+      "word": "concrete",
+      "prefix": "con",
+      "answer": "正解：crete → concrete。学習語：concrete。「具体的な；コンクリート」。この文では抽象論に対する具体例です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qconcrete"
+      ]
+    },
+    {
+      "passageId": "contamination",
+      "prompt": "Vocabulary Day 18 · Words 1–15: complete con__________. Enter the missing letters.",
+      "word": "contamination",
+      "prefix": "con",
+      "answer": "正解：tamination → contamination。学習語：contamination。「汚染」。本来入るべきでない物質が水に混ざったことです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qcontamination"
+      ]
+    },
+    {
+      "passageId": "cosmetic",
+      "prompt": "Vocabulary Day 18 · Words 1–15: complete cos_____. Enter the missing letters.",
+      "word": "cosmetic",
+      "prefix": "cos",
+      "answer": "正解：metic → cosmetic。学習語：cosmetic。「美容の・化粧の；化粧品」。この文では見た目を整えるクリームを修飾します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p019:qcosmetic"
+      ]
+    }
+  ]
+}

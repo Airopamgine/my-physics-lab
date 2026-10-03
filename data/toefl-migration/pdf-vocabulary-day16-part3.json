@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day16-part3",
+  "title": "Vocabulary Day 16 · Words 31–45 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 17ページ／冊子395ページ · Vocabulary Day 16 · Words 31–45",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "industrialization": "The historian studies ind______________, the growth of industry and factory production.",
+    "inscription": "The stone bears an ins________ carved into its surface.",
+    "intermittent": "The light was int_________, appearing at intervals rather than shining continuously.",
+    "juvenile": "The researcher observed a juv_____ animal that had not yet reached adulthood.",
+    "landmass": "The island is a large lan_____ surrounded by water.",
+    "longstanding": "The two towns have a lon_________ friendship that has continued for decades.",
+    "manifesto": "The group published a man______ setting out its aims and principles.",
+    "masses": "The speaker aimed to reach the mas___, ordinary people rather than only a small elite.",
+    "medication": "The chart lists the med_______ that the patient is taking.",
+    "meticulously": "The researcher recorded the observations met_________, checking every detail with care.",
+    "novelty": "The main attraction was the nov____ of the idea, which nobody had encountered before.",
+    "ostensibly": "The trip was ost_______ for research, though the account suggests another purpose beneath that appearance.",
+    "peril": "The sailors faced great pe___ when the storm threatened their vessel.",
+    "phenomenon": "The unusual phe_______ was an observable event that the team wanted to explain.",
+    "pivotal": "The discovery played a piv____ role, becoming central to the later development."
+  },
+  "questions": [
+    {
+      "passageId": "industrialization",
+      "prompt": "Vocabulary Day 16 · Words 31–45: complete ind______________. Enter the missing letters.",
+      "word": "industrialization",
+      "prefix": "ind",
+      "answer": "正解：ustrialization → industrialization。学習語：industrialization。「工業化」。産業や工場生産が発展する過程です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qindustrialization"
+      ]
+    },
+    {
+      "passageId": "inscription",
+      "prompt": "Vocabulary Day 16 · Words 31–45: complete ins________. Enter the missing letters.",
+      "word": "inscription",
+      "prefix": "ins",
+      "answer": "正解：cription → inscription。学習語：inscription。「碑文・刻まれた文字」。石の表面に彫った文字です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qinscription"
+      ]
+    },
+    {
+      "passageId": "intermittent",
+      "prompt": "Vocabulary Day 16 · Words 31–45: complete int_________. Enter the missing letters.",
+      "word": "intermittent",
+      "prefix": "int",
+      "answer": "正解：ermittent → intermittent。学習語：intermittent。「断続的な」。ずっと光らず、間を置いて点灯します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qintermittent"
+      ]
+    },
+    {
+      "passageId": "juvenile",
+      "prompt": "Vocabulary Day 16 · Words 31–45: complete juv_____. Enter the missing letters.",
+      "word": "juvenile",
+      "prefix": "juv",
+      "answer": "正解：enile → juvenile。学習語：juvenile。「幼い・未成熟の；少年・少女」。ここでは成体になる前の動物です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qjuvenile"
+      ]
+    },
+    {
+      "passageId": "landmass",
+      "prompt": "Vocabulary Day 16 · Words 31–45: complete lan_____. Enter the missing letters.",
+      "word": "landmass",
+      "prefix": "lan",
+      "answer": "正解：dmass → landmass。学習語：landmass。「陸地・大きな陸塊」。水に囲まれた陸のかたまりです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qlandmass"
+      ]
+    },
+    {
+      "passageId": "longstanding",
+      "prompt": "Vocabulary Day 16 · Words 31–45: complete lon_________. Enter the missing letters.",
+      "word": "longstanding",
+      "prefix": "lon",
+      "answer": "正解：gstanding → longstanding。学習語：longstanding。「長年の・長く続く」。何十年も続いている関係です。原本の一語の綴りを保持しています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qlongstanding"
+      ]
+    },
+    {
+      "passageId": "manifesto",
+      "prompt": "Vocabulary Day 16 · Words 31–45: complete man______. Enter the missing letters.",
+      "word": "manifesto",
+      "prefix": "man",
+      "answer": "正解：ifesto → manifesto。学習語：manifesto。「宣言文・綱領」。目的や原則を公にまとめた文書です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qmanifesto"
+      ]
+    },
+    {
+      "passageId": "masses",
+      "prompt": "Vocabulary Day 16 · Words 31–45: complete mas___. Enter the missing letters.",
+      "word": "masses",
+      "prefix": "mas",
+      "answer": "正解：ses → masses。学習語：masses。「大衆・民衆」。一部の特権的な人々と対比した一般の人々です。原本通り複数形を補充します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qmasses"
+      ]
+    },
+    {
+      "passageId": "medication",
+      "prompt": "Vocabulary Day 16 · Words 31–45: complete med_______. Enter the missing letters.",
+      "word": "medication",
+      "prefix": "med",
+      "answer": "正解：ication → medication。学習語：medication。「薬・投薬」。ここでは服用中の薬を指します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qmedication"
+      ]
+    },
+    {
+      "passageId": "meticulously",
+      "prompt": "Vocabulary Day 16 · Words 31–45: complete met_________. Enter the missing letters.",
+      "word": "meticulously",
+      "prefix": "met",
+      "answer": "正解：iculously → meticulously。学習語：meticulously。「細心の注意を払って」。観察内容の細部まで慎重に記録します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qmeticulously"
+      ]
+    },
+    {
+      "passageId": "novelty",
+      "prompt": "Vocabulary Day 16 · Words 31–45: complete nov____. Enter the missing letters.",
+      "word": "novelty",
+      "prefix": "nov",
+      "answer": "正解：elty → novelty。学習語：novelty。「新しさ・珍しい品物」。この文では未経験の発想の新鮮さです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qnovelty"
+      ]
+    },
+    {
+      "passageId": "ostensibly",
+      "prompt": "Vocabulary Day 16 · Words 31–45: complete ost_______. Enter the missing letters.",
+      "word": "ostensibly",
+      "prefix": "ost",
+      "answer": "正解：ensibly → ostensibly。学習語：ostensibly。「表向きには」。見かけの目的と別の可能性を区別しています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qostensibly"
+      ]
+    },
+    {
+      "passageId": "peril",
+      "prompt": "Vocabulary Day 16 · Words 31–45: complete pe___. Enter the missing letters.",
+      "word": "peril",
+      "prefix": "pe",
+      "answer": "正解：ril → peril。学習語：peril。「危険」。嵐により船が脅かされる状況です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qperil"
+      ]
+    },
+    {
+      "passageId": "phenomenon",
+      "prompt": "Vocabulary Day 16 · Words 31–45: complete phe_______. Enter the missing letters.",
+      "word": "phenomenon",
+      "prefix": "phe",
+      "answer": "正解：nomenon → phenomenon。学習語：phenomenon。「現象」。観察できる出来事を指す単数形です。複数形はphenomenaです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qphenomenon"
+      ]
+    },
+    {
+      "passageId": "pivotal",
+      "prompt": "Vocabulary Day 16 · Words 31–45: complete piv____. Enter the missing letters.",
+      "word": "pivotal",
+      "prefix": "piv",
+      "answer": "正解：otal → pivotal。学習語：pivotal。「中心的な・極めて重要な」。後の発展に不可欠な役割です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p017:qpivotal"
+      ]
+    }
+  ]
+}

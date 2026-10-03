@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day12-part1",
+  "title": "Vocabulary Day 12 · Words 1–15 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 13ページ／冊子391ページ · Vocabulary Day 12 · Words 1–15",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "acquaint": "The tour will acq_____ new students with the facilities and help them become familiar with the campus.",
+    "ahead": "Plan ah___ by arranging transport before the day of the trip.",
+    "appetizer": "The small app______ is served before the main course to begin the meal.",
+    "arrival": "The display shows the expected arr____ of the next train at the station.",
+    "audit": "An independent au___ examined the accounts to check their accuracy.",
+    "basis": "The committee used the survey results as the ba___ for its decision.",
+    "booking": "Your hotel boo____ confirms that a room has been reserved for you.",
+    "brochure": "The travel bro_____ is a small booklet describing places to visit.",
+    "celebration": "The community held a cel________ to mark the opening of the new library.",
+    "chef": "The ch__ in charge of the restaurant's kitchen designed the new menu.",
+    "client": "The designer met a cli___ who had hired her to create a logo.",
+    "company": "The com____ employs fifty people and makes furniture for schools.",
+    "conference": "Researchers from different institutions attended a con_______ to discuss their findings.",
+    "contributor": "Each con________ to the report supplied a chapter or a set of data.",
+    "corner": "The shop stands at the cor___ where two streets meet."
+  },
+  "questions": [
+    {
+      "passageId": "acquaint",
+      "prompt": "Vocabulary Day 12 · Words 1–15: complete acq_____. Enter the missing letters.",
+      "word": "acquaint",
+      "prefix": "acq",
+      "answer": "正解：uaint → acquaint。学習語：acquaint。「慣れさせる・紹介する」。acquaint A with Bで、学生に施設をよく知らせます。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qacquaint"
+      ]
+    },
+    {
+      "passageId": "ahead",
+      "prompt": "Vocabulary Day 12 · Words 1–15: complete ah___. Enter the missing letters.",
+      "word": "ahead",
+      "prefix": "ah",
+      "answer": "正解：ead → ahead。学習語：ahead。「前方に・前もって」。ここでは当日より前に計画することです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qahead"
+      ]
+    },
+    {
+      "passageId": "appetizer",
+      "prompt": "Vocabulary Day 12 · Words 1–15: complete app______. Enter the missing letters.",
+      "word": "appetizer",
+      "prefix": "app",
+      "answer": "正解：etizer → appetizer。学習語：appetizer。「前菜」。主菜より先に出す少量の料理です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qappetizer"
+      ]
+    },
+    {
+      "passageId": "arrival",
+      "prompt": "Vocabulary Day 12 · Words 1–15: complete arr____. Enter the missing letters.",
+      "word": "arrival",
+      "prefix": "arr",
+      "answer": "正解：ival → arrival。学習語：arrival。「到着」。次の列車が駅に着く予定を示します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qarrival"
+      ]
+    },
+    {
+      "passageId": "audit",
+      "prompt": "Vocabulary Day 12 · Words 1–15: complete au___. Enter the missing letters.",
+      "word": "audit",
+      "prefix": "au",
+      "answer": "正解：dit → audit。学習語：audit。「会計監査；監査する」。ここでは会計記録が正確かを調べる作業です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qaudit"
+      ]
+    },
+    {
+      "passageId": "basis",
+      "prompt": "Vocabulary Day 12 · Words 1–15: complete ba___. Enter the missing letters.",
+      "word": "basis",
+      "prefix": "ba",
+      "answer": "正解：sis → basis。学習語：basis。「基礎・根拠」。調査結果を判断の土台にしています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qbasis"
+      ]
+    },
+    {
+      "passageId": "booking",
+      "prompt": "Vocabulary Day 12 · Words 1–15: complete boo____. Enter the missing letters.",
+      "word": "booking",
+      "prefix": "boo",
+      "answer": "正解：king → booking。学習語：booking。「予約」。宿泊する部屋を確保したことを示します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qbooking"
+      ]
+    },
+    {
+      "passageId": "brochure",
+      "prompt": "Vocabulary Day 12 · Words 1–15: complete bro_____. Enter the missing letters.",
+      "word": "brochure",
+      "prefix": "bro",
+      "answer": "正解：chure → brochure。学習語：brochure。「案内冊子」。旅行先の情報をまとめた小さな冊子です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qbrochure"
+      ]
+    },
+    {
+      "passageId": "celebration",
+      "prompt": "Vocabulary Day 12 · Words 1–15: complete cel________. Enter the missing letters.",
+      "word": "celebration",
+      "prefix": "cel",
+      "answer": "正解：ebration → celebration。学習語：celebration。「祝い・記念行事」。図書館の開館を祝う行事です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qcelebration"
+      ]
+    },
+    {
+      "passageId": "chef",
+      "prompt": "Vocabulary Day 12 · Words 1–15: complete ch__. Enter the missing letters.",
+      "word": "chef",
+      "prefix": "ch",
+      "answer": "正解：ef → chef。学習語：chef。「料理人・シェフ」。厨房を担当してメニューを作る人です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qchef"
+      ]
+    },
+    {
+      "passageId": "client",
+      "prompt": "Vocabulary Day 12 · Words 1–15: complete cli___. Enter the missing letters.",
+      "word": "client",
+      "prefix": "cli",
+      "answer": "正解：ent → client。学習語：client。「顧客・依頼人」。デザインの仕事を依頼した人です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qclient"
+      ]
+    },
+    {
+      "passageId": "company",
+      "prompt": "Vocabulary Day 12 · Words 1–15: complete com____. Enter the missing letters.",
+      "word": "company",
+      "prefix": "com",
+      "answer": "正解：pany → company。学習語：company。「会社；来客・同伴」。この文では従業員を雇う企業です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qcompany"
+      ]
+    },
+    {
+      "passageId": "conference",
+      "prompt": "Vocabulary Day 12 · Words 1–15: complete con_______. Enter the missing letters.",
+      "word": "conference",
+      "prefix": "con",
+      "answer": "正解：ference → conference。学習語：conference。「会議・学会」。研究者が集まって成果を話し合う催しです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qconference"
+      ]
+    },
+    {
+      "passageId": "contributor",
+      "prompt": "Vocabulary Day 12 · Words 1–15: complete con________. Enter the missing letters.",
+      "word": "contributor",
+      "prefix": "con",
+      "answer": "正解：tributor → contributor。学習語：contributor。「寄稿者・貢献者」。報告書の作成に内容を提供した人です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qcontributor"
+      ]
+    },
+    {
+      "passageId": "corner",
+      "prompt": "Vocabulary Day 12 · Words 1–15: complete cor___. Enter the missing letters.",
+      "word": "corner",
+      "prefix": "cor",
+      "answer": "正解：ner → corner。学習語：corner。「角・隅」。二本の通りが交わる位置です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qcorner"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day11-part1",
+  "title": "Vocabulary Day 11 · Words 1–15 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 12ページ／冊子390ページ · Vocabulary Day 11 · Words 1–15",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "achievement": "Winning the research prize was an important ach________ after years of work.",
+    "agenda": "The chair listed three topics on the age___ for today's meeting.",
+    "apologize": "Please apo______ to the customer for the delay and say that you are sorry.",
+    "arrangement": "The seating arr________ places the speakers at the front of the hall.",
+    "attendee": "Each att_____ at the conference received a name badge.",
+    "available": "The book is ava______ from the library, so you can borrow it now.",
+    "board": "Passengers may bo___ the train once the doors have opened.",
+    "breakthrough": "The new method was a bre_________ that solved a problem researchers had faced for years.",
+    "celebrate": "The team will cel______ its anniversary with a gathering next week.",
+    "checking": "Careful che_____ of the figures revealed an error in the total.",
+    "cleanup": "The park cle____ removed litter and left the area tidy.",
+    "committee": "A small com______ of members will discuss the proposal and make a recommendation.",
+    "conduct": "The researchers will con____ a study by collecting and analyzing data.",
+    "content": "The editor reviewed the con____ of the article, including its arguments and examples.",
+    "cordial": "The host gave the guests a cor____ welcome that was warm and friendly."
+  },
+  "questions": [
+    {
+      "passageId": "achievement",
+      "prompt": "Vocabulary Day 11 · Words 1–15: complete ach________. Enter the missing letters.",
+      "word": "achievement",
+      "prefix": "ach",
+      "answer": "正解：ievement → achievement。学習語：achievement。「成果・達成」。長年の努力によって得た賞という成果です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qachievement"
+      ]
+    },
+    {
+      "passageId": "agenda",
+      "prompt": "Vocabulary Day 11 · Words 1–15: complete age___. Enter the missing letters.",
+      "word": "agenda",
+      "prefix": "age",
+      "answer": "正解：nda → agenda。学習語：agenda。「議題・予定表」。会議で扱う事項の一覧です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qagenda"
+      ]
+    },
+    {
+      "passageId": "apologize",
+      "prompt": "Vocabulary Day 11 · Words 1–15: complete apo______. Enter the missing letters.",
+      "word": "apologize",
+      "prefix": "apo",
+      "answer": "正解：logize → apologize。学習語：apologize。「謝罪する」。遅延を申し訳なく思うことを伝えます。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qapologize"
+      ]
+    },
+    {
+      "passageId": "arrangement",
+      "prompt": "Vocabulary Day 11 · Words 1–15: complete arr________. Enter the missing letters.",
+      "word": "arrangement",
+      "prefix": "arr",
+      "answer": "正解：angement → arrangement。学習語：arrangement。「配置・準備」。ここでは座席をどう配置するかを指します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qarrangement"
+      ]
+    },
+    {
+      "passageId": "attendee",
+      "prompt": "Vocabulary Day 11 · Words 1–15: complete att_____. Enter the missing letters.",
+      "word": "attendee",
+      "prefix": "att",
+      "answer": "正解：endee → attendee。学習語：attendee。「出席者」。会議に参加した一人一人です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qattendee"
+      ]
+    },
+    {
+      "passageId": "available",
+      "prompt": "Vocabulary Day 11 · Words 1–15: complete ava______. Enter the missing letters.",
+      "word": "available",
+      "prefix": "ava",
+      "answer": "正解：ilable → available。学習語：available。「利用できる・入手できる」。今借りられる状態です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qavailable"
+      ]
+    },
+    {
+      "passageId": "board",
+      "prompt": "Vocabulary Day 11 · Words 1–15: complete bo___. Enter the missing letters.",
+      "word": "board",
+      "prefix": "bo",
+      "answer": "正解：ard → board。学習語：board。「乗り込む；板・理事会」。ここでは列車へ乗る動詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qboard"
+      ]
+    },
+    {
+      "passageId": "breakthrough",
+      "prompt": "Vocabulary Day 11 · Words 1–15: complete bre_________. Enter the missing letters.",
+      "word": "breakthrough",
+      "prefix": "bre",
+      "answer": "正解：akthrough → breakthrough。学習語：breakthrough。「突破口・画期的な進展」。長年の問題を解決した進歩です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qbreakthrough"
+      ]
+    },
+    {
+      "passageId": "celebrate",
+      "prompt": "Vocabulary Day 11 · Words 1–15: complete cel______. Enter the missing letters.",
+      "word": "celebrate",
+      "prefix": "cel",
+      "answer": "正解：ebrate → celebrate。学習語：celebrate。「祝う・記念する」。周年を記念して集まります。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qcelebrate"
+      ]
+    },
+    {
+      "passageId": "checking",
+      "prompt": "Vocabulary Day 11 · Words 1–15: complete che_____. Enter the missing letters.",
+      "word": "checking",
+      "prefix": "che",
+      "answer": "正解：cking → checking。学習語：checking。「確認・点検」。数値を調べたことで計算の誤りを見つけました。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qchecking"
+      ]
+    },
+    {
+      "passageId": "cleanup",
+      "prompt": "Vocabulary Day 11 · Words 1–15: complete cle____. Enter the missing letters.",
+      "word": "cleanup",
+      "prefix": "cle",
+      "answer": "正解：anup → cleanup。学習語：cleanup。「清掃・浄化」。ごみを取り除いて公園をきれいにする活動です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qcleanup"
+      ]
+    },
+    {
+      "passageId": "committee",
+      "prompt": "Vocabulary Day 11 · Words 1–15: complete com______. Enter the missing letters.",
+      "word": "committee",
+      "prefix": "com",
+      "answer": "正解：mittee → committee。学習語：committee。「委員会」。提案を検討するために選ばれたメンバーの集団です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qcommittee"
+      ]
+    },
+    {
+      "passageId": "conduct",
+      "prompt": "Vocabulary Day 11 · Words 1–15: complete con____. Enter the missing letters.",
+      "word": "conduct",
+      "prefix": "con",
+      "answer": "正解：duct → conduct。学習語：conduct。「実施する；行動」。ここでは研究を行う動詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qconduct"
+      ]
+    },
+    {
+      "passageId": "content",
+      "prompt": "Vocabulary Day 11 · Words 1–15: complete con____. Enter the missing letters.",
+      "word": "content",
+      "prefix": "con",
+      "answer": "正解：tent → content。学習語：content。「内容；満足している」。この文では記事の中身を指す名詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qcontent"
+      ]
+    },
+    {
+      "passageId": "cordial",
+      "prompt": "Vocabulary Day 11 · Words 1–15: complete cor____. Enter the missing letters.",
+      "word": "cordial",
+      "prefix": "cor",
+      "answer": "正解：dial → cordial。学習語：cordial。「心のこもった・温かい」。親しみを込めた歓迎を修飾します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p012:qcordial"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day12-part4",
+  "title": "Vocabulary Day 12 · Words 46–60 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 13ページ／冊子391ページ · Vocabulary Day 12 · Words 46–60",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "scheduling": "Careful sch_______ of the activities prevents two sessions from taking place at the same time.",
+    "serene": "The lake was ser___, with a calm surface and almost no sound.",
+    "shipment": "The shi_____ of books will arrive next week after being sent from the warehouse.",
+    "smell": "A pleasant sm___ of fresh bread came from the kitchen.",
+    "spacious": "The room is spa_____, with plenty of space for people to move around.",
+    "stall": "The vendor sells vegetables from a small st___ in the market.",
+    "submission": "The application requires the sub_______ of two completed forms.",
+    "technician": "A trained tec_______ repaired the electronic equipment.",
+    "timing": "The tim___ of the announcement was important because it came just before the vote.",
+    "trendy": "The tre___ cafe follows the latest fashions in design and food.",
+    "upbeat": "The manager remained upb___ and expected the project to succeed.",
+    "vehicle": "A bus is a veh____ used to transport people from place to place.",
+    "visit": "We plan to vi___ the museum and see its new exhibition.",
+    "wary": "The traveler was wa__ of the unfamiliar offer and checked it carefully before agreeing.",
+    "workplace": "The office is her wor______, where she spends the day doing her job."
+  },
+  "questions": [
+    {
+      "passageId": "scheduling",
+      "prompt": "Vocabulary Day 12 · Words 46–60: complete sch_______. Enter the missing letters.",
+      "word": "scheduling",
+      "prefix": "sch",
+      "answer": "正解：eduling → scheduling。学習語：scheduling。「日程計画」。活動の時間を調整し、重複を避けます。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qscheduling"
+      ]
+    },
+    {
+      "passageId": "serene",
+      "prompt": "Vocabulary Day 12 · Words 46–60: complete ser___. Enter the missing letters.",
+      "word": "serene",
+      "prefix": "ser",
+      "answer": "正解：ene → serene。学習語：serene。「穏やかな・静かな」。水面や周囲が落ち着いた状態です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qserene"
+      ]
+    },
+    {
+      "passageId": "shipment",
+      "prompt": "Vocabulary Day 12 · Words 46–60: complete shi_____. Enter the missing letters.",
+      "word": "shipment",
+      "prefix": "shi",
+      "answer": "正解：pment → shipment。学習語：shipment。「発送・積荷」。倉庫から送られる本の荷物です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qshipment"
+      ]
+    },
+    {
+      "passageId": "smell",
+      "prompt": "Vocabulary Day 12 · Words 46–60: complete sm___. Enter the missing letters.",
+      "word": "smell",
+      "prefix": "sm",
+      "answer": "正解：ell → smell。学習語：smell。「におい；においを嗅ぐ」。この文ではパンから漂うにおいという名詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qsmell"
+      ]
+    },
+    {
+      "passageId": "spacious",
+      "prompt": "Vocabulary Day 12 · Words 46–60: complete spa_____. Enter the missing letters.",
+      "word": "spacious",
+      "prefix": "spa",
+      "answer": "正解：cious → spacious。学習語：spacious。「広々とした」。人が動き回れる十分な広さがあります。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qspacious"
+      ]
+    },
+    {
+      "passageId": "stall",
+      "prompt": "Vocabulary Day 12 · Words 46–60: complete st___. Enter the missing letters.",
+      "word": "stall",
+      "prefix": "st",
+      "answer": "正解：all → stall。学習語：stall。「屋台；遅らせる」。この文では市場の小さな売り場です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qstall"
+      ]
+    },
+    {
+      "passageId": "submission",
+      "prompt": "Vocabulary Day 12 · Words 46–60: complete sub_______. Enter the missing letters.",
+      "word": "submission",
+      "prefix": "sub",
+      "answer": "正解：mission → submission。学習語：submission。「提出」。記入済み書類を二枚出すことです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qsubmission"
+      ]
+    },
+    {
+      "passageId": "technician",
+      "prompt": "Vocabulary Day 12 · Words 46–60: complete tec_______. Enter the missing letters.",
+      "word": "technician",
+      "prefix": "tec",
+      "answer": "正解：hnician → technician。学習語：technician。「技術者」。機器の修理を行う専門的な技能を持つ人です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qtechnician"
+      ]
+    },
+    {
+      "passageId": "timing",
+      "prompt": "Vocabulary Day 12 · Words 46–60: complete tim___. Enter the missing letters.",
+      "word": "timing",
+      "prefix": "tim",
+      "answer": "正解：ing → timing。学習語：timing。「時期・タイミング」。発表がいつ行われたかを指します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qtiming"
+      ]
+    },
+    {
+      "passageId": "trendy",
+      "prompt": "Vocabulary Day 12 · Words 46–60: complete tre___. Enter the missing letters.",
+      "word": "trendy",
+      "prefix": "tre",
+      "answer": "正解：ndy → trendy。学習語：trendy。「流行の」。最新の流行を取り入れた店です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qtrendy"
+      ]
+    },
+    {
+      "passageId": "upbeat",
+      "prompt": "Vocabulary Day 12 · Words 46–60: complete upb___. Enter the missing letters.",
+      "word": "upbeat",
+      "prefix": "upb",
+      "answer": "正解：eat → upbeat。学習語：upbeat。「楽観的な・明るい」。成功を期待する前向きな態度です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qupbeat"
+      ]
+    },
+    {
+      "passageId": "vehicle",
+      "prompt": "Vocabulary Day 12 · Words 46–60: complete veh____. Enter the missing letters.",
+      "word": "vehicle",
+      "prefix": "veh",
+      "answer": "正解：icle → vehicle。学習語：vehicle。「車両・乗り物」。人を運ぶ交通手段です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qvehicle"
+      ]
+    },
+    {
+      "passageId": "visit",
+      "prompt": "Vocabulary Day 12 · Words 46–60: complete vi___. Enter the missing letters.",
+      "word": "visit",
+      "prefix": "vi",
+      "answer": "正解：sit → visit。学習語：visit。「訪問する；訪問」。博物館へ出掛ける動詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qvisit"
+      ]
+    },
+    {
+      "passageId": "wary",
+      "prompt": "Vocabulary Day 12 · Words 46–60: complete wa__. Enter the missing letters.",
+      "word": "wary",
+      "prefix": "wa",
+      "answer": "正解：ry → wary。学習語：wary。「警戒している・用心深い」。知らない申し出をすぐ信用せず調べています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qwary"
+      ]
+    },
+    {
+      "passageId": "workplace",
+      "prompt": "Vocabulary Day 12 · Words 46–60: complete wor______. Enter the missing letters.",
+      "word": "workplace",
+      "prefix": "wor",
+      "answer": "正解：kplace → workplace。学習語：workplace。「職場」。仕事を行う場所です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qworkplace"
+      ]
+    }
+  ]
+}

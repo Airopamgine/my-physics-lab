@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day12-part2",
+  "title": "Vocabulary Day 12 · Words 16–30 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 13ページ／冊子391ページ · Vocabulary Day 12 · Words 16–30",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "demonstration": "The technician gave a dem__________ showing how to operate the new machine.",
+    "dining": "The hotel has a din___ room where guests eat their meals.",
+    "draft": "The first dr___ of the letter will be revised before it is sent.",
+    "endorse": "The association agreed to end____ the proposal by publicly expressing its support.",
+    "exam": "The final ex__ tests what students have learned during the course.",
+    "expert": "An exp___ with specialized knowledge examined the damaged instrument.",
+    "facilitator": "The discussion fac________ helps everyone take part and keeps the conversation moving.",
+    "fitness": "The coach evaluated each player's fit____ before the season began.",
+    "grand": "The palace has a gr___ entrance with tall columns and a broad staircase.",
+    "hear": "Can you he__ the announcement through the speakers?",
+    "include": "The price will inc____ breakfast as well as the room.",
+    "inhabitant": "An inh_______ of the island is a person who lives there.",
+    "inventory": "The manager checked the inv______ of goods to see what remained in stock.",
+    "laptop": "She carried a lap___, a portable computer that she could use while traveling.",
+    "lighting": "The theater adjusted the lig_____ to make the stage brighter."
+  },
+  "questions": [
+    {
+      "passageId": "demonstration",
+      "prompt": "Vocabulary Day 12 · Words 16–30: complete dem__________. Enter the missing letters.",
+      "word": "demonstration",
+      "prefix": "dem",
+      "answer": "正解：onstration → demonstration。学習語：demonstration。「実演・立証」。実際に機械を使って操作法を示します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qdemonstration"
+      ]
+    },
+    {
+      "passageId": "dining",
+      "prompt": "Vocabulary Day 12 · Words 16–30: complete din___. Enter the missing letters.",
+      "word": "dining",
+      "prefix": "din",
+      "answer": "正解：ing → dining。学習語：dining。「食事」。dining roomで食事をするための部屋です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qdining"
+      ]
+    },
+    {
+      "passageId": "draft",
+      "prompt": "Vocabulary Day 12 · Words 16–30: complete dr___. Enter the missing letters.",
+      "word": "draft",
+      "prefix": "dr",
+      "answer": "正解：aft → draft。学習語：draft。「草稿；起草する」。送付前に修正する初稿です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qdraft"
+      ]
+    },
+    {
+      "passageId": "endorse",
+      "prompt": "Vocabulary Day 12 · Words 16–30: complete end____. Enter the missing letters.",
+      "word": "endorse",
+      "prefix": "end",
+      "answer": "正解：orse → endorse。学習語：endorse。「支持する・保証する」。この文では提案への支持を公に示す動詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qendorse"
+      ]
+    },
+    {
+      "passageId": "exam",
+      "prompt": "Vocabulary Day 12 · Words 16–30: complete ex__. Enter the missing letters.",
+      "word": "exam",
+      "prefix": "ex",
+      "answer": "正解：am → exam。学習語：exam。「試験」。授業で学んだ内容を確認するテストです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qexam"
+      ]
+    },
+    {
+      "passageId": "expert",
+      "prompt": "Vocabulary Day 12 · Words 16–30: complete exp___. Enter the missing letters.",
+      "word": "expert",
+      "prefix": "exp",
+      "answer": "正解：ert → expert。学習語：expert。「専門家；専門の」。ここでは専門知識を持つ人です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qexpert"
+      ]
+    },
+    {
+      "passageId": "facilitator",
+      "prompt": "Vocabulary Day 12 · Words 16–30: complete fac________. Enter the missing letters.",
+      "word": "facilitator",
+      "prefix": "fac",
+      "answer": "正解：ilitator → facilitator。学習語：facilitator。「進行役・支援者」。全員の参加を助け、話し合いを円滑に進める人です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qfacilitator"
+      ]
+    },
+    {
+      "passageId": "fitness",
+      "prompt": "Vocabulary Day 12 · Words 16–30: complete fit____. Enter the missing letters.",
+      "word": "fitness",
+      "prefix": "fit",
+      "answer": "正解：ness → fitness。学習語：fitness。「体力・健康状態；適合性」。ここでは運動に必要な体力を評価しています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qfitness"
+      ]
+    },
+    {
+      "passageId": "grand",
+      "prompt": "Vocabulary Day 12 · Words 16–30: complete gr___. Enter the missing letters.",
+      "word": "grand",
+      "prefix": "gr",
+      "answer": "正解：and → grand。学習語：grand。「壮大な・立派な」。高い柱と大きな階段がある入口です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qgrand"
+      ]
+    },
+    {
+      "passageId": "hear",
+      "prompt": "Vocabulary Day 12 · Words 16–30: complete he__. Enter the missing letters.",
+      "word": "hear",
+      "prefix": "he",
+      "answer": "正解：ar → hear。学習語：hear。「聞こえる・聞く」。スピーカーの音声を耳で捉えることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qhear"
+      ]
+    },
+    {
+      "passageId": "include",
+      "prompt": "Vocabulary Day 12 · Words 16–30: complete inc____. Enter the missing letters.",
+      "word": "include",
+      "prefix": "inc",
+      "answer": "正解：lude → include。学習語：include。「含む」。宿泊料金に朝食代も入っています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qinclude"
+      ]
+    },
+    {
+      "passageId": "inhabitant",
+      "prompt": "Vocabulary Day 12 · Words 16–30: complete inh_______. Enter the missing letters.",
+      "word": "inhabitant",
+      "prefix": "inh",
+      "answer": "正解：abitant → inhabitant。学習語：inhabitant。「住民・居住者」。その島に暮らす人です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qinhabitant"
+      ]
+    },
+    {
+      "passageId": "inventory",
+      "prompt": "Vocabulary Day 12 · Words 16–30: complete inv______. Enter the missing letters.",
+      "word": "inventory",
+      "prefix": "inv",
+      "answer": "正解：entory → inventory。学習語：inventory。「在庫・在庫目録」。店に残っている商品を調べます。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qinventory"
+      ]
+    },
+    {
+      "passageId": "laptop",
+      "prompt": "Vocabulary Day 12 · Words 16–30: complete lap___. Enter the missing letters.",
+      "word": "laptop",
+      "prefix": "lap",
+      "answer": "正解：top → laptop。学習語：laptop。「ノートパソコン」。持ち運んで使えるコンピューターです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qlaptop"
+      ]
+    },
+    {
+      "passageId": "lighting",
+      "prompt": "Vocabulary Day 12 · Words 16–30: complete lig_____. Enter the missing letters.",
+      "word": "lighting",
+      "prefix": "lig",
+      "answer": "正解：hting → lighting。学習語：lighting。「照明」。舞台を明るくするための光の設備です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p013:qlighting"
+      ]
+    }
+  ]
+}

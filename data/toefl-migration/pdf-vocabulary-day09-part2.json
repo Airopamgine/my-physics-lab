@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day09-part2",
+  "title": "Vocabulary Day 09 · Words 16–30 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 10ページ／冊子388ページ · Vocabulary Day 09 · Words 16–30",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "date": "Write the da__ of your visit, including the day, month, and year.",
+    "destination": "The final des________ of the bus is the station at the end of the route.",
+    "document": "Please doc_____ each repair in writing so we have a permanent record.",
+    "eager": "The students were ea___ to begin the experiment and could hardly wait.",
+    "equipment": "The laboratory stores its instruments and other equ______ in locked cabinets.",
+    "exercise": "The workbook includes a short exe_____ that lets students practice the new grammar.",
+    "extensive": "The archive holds an ext______ collection covering many countries and several centuries.",
+    "feature": "An important fea____ of the device is its ability to work without an internet connection.",
+    "garbage": "Put the unwanted waste in the gar____ bin before leaving.",
+    "happen": "Nobody could predict exactly when the next power failure would hap___.",
+    "hour": "The lesson lasts one ho__, or sixty minutes.",
+    "inform": "Please inf___ the office that your contact address has changed.",
+    "installation": "The technician completed the ins_________ of the new heating system.",
+    "item": "Each it__ on the list represents one product that must be ordered.",
+    "lease": "The tenant signed a one-year le___ giving her the right to rent the apartment."
+  },
+  "questions": [
+    {
+      "passageId": "date",
+      "prompt": "Vocabulary Day 09 · Words 16–30: complete da__. Enter the missing letters.",
+      "word": "date",
+      "prefix": "da",
+      "answer": "正解：te → date。学習語：date。「日付」。訪問した年月日を記入します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qdate"
+      ]
+    },
+    {
+      "passageId": "destination",
+      "prompt": "Vocabulary Day 09 · Words 16–30: complete des________. Enter the missing letters.",
+      "word": "destination",
+      "prefix": "des",
+      "answer": "正解：tination → destination。学習語：destination。「目的地」。路線の終点である駅を指します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qdestination"
+      ]
+    },
+    {
+      "passageId": "document",
+      "prompt": "Vocabulary Day 09 · Words 16–30: complete doc_____. Enter the missing letters.",
+      "word": "document",
+      "prefix": "doc",
+      "answer": "正解：ument → document。学習語：document。「記録する；文書」。ここでは修理内容を書き残す動詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qdocument"
+      ]
+    },
+    {
+      "passageId": "eager",
+      "prompt": "Vocabulary Day 09 · Words 16–30: complete ea___. Enter the missing letters.",
+      "word": "eager",
+      "prefix": "ea",
+      "answer": "正解：ger → eager。学習語：eager。「熱望している・意欲的な」。開始を待ち切れない様子が根拠です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qeager"
+      ]
+    },
+    {
+      "passageId": "equipment",
+      "prompt": "Vocabulary Day 09 · Words 16–30: complete equ______. Enter the missing letters.",
+      "word": "equipment",
+      "prefix": "equ",
+      "answer": "正解：ipment → equipment。学習語：equipment。「機器・設備」。実験に使う器具などを指す不可算名詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qequipment"
+      ]
+    },
+    {
+      "passageId": "exercise",
+      "prompt": "Vocabulary Day 09 · Words 16–30: complete exe_____. Enter the missing letters.",
+      "word": "exercise",
+      "prefix": "exe",
+      "answer": "正解：rcise → exercise。学習語：exercise。「練習・運動；運動する」。ここでは文法を練習する課題です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qexercise"
+      ]
+    },
+    {
+      "passageId": "extensive",
+      "prompt": "Vocabulary Day 09 · Words 16–30: complete ext______. Enter the missing letters.",
+      "word": "extensive",
+      "prefix": "ext",
+      "answer": "正解：ensive → extensive。学習語：extensive。「広範な・大規模な」。多くの国と時代を網羅する資料集です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qextensive"
+      ]
+    },
+    {
+      "passageId": "feature",
+      "prompt": "Vocabulary Day 09 · Words 16–30: complete fea____. Enter the missing letters.",
+      "word": "feature",
+      "prefix": "fea",
+      "answer": "正解：ture → feature。学習語：feature。「特徴；特徴として備える」。接続なしで使えるという特性です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qfeature"
+      ]
+    },
+    {
+      "passageId": "garbage",
+      "prompt": "Vocabulary Day 09 · Words 16–30: complete gar____. Enter the missing letters.",
+      "word": "garbage",
+      "prefix": "gar",
+      "answer": "正解：bage → garbage。学習語：garbage。「ごみ」。不要な廃棄物を捨てる容器を指しています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qgarbage"
+      ]
+    },
+    {
+      "passageId": "happen",
+      "prompt": "Vocabulary Day 09 · Words 16–30: complete hap___. Enter the missing letters.",
+      "word": "happen",
+      "prefix": "hap",
+      "answer": "正解：pen → happen。学習語：happen。「起こる・発生する」。停電がいつ発生するかという文です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qhappen"
+      ]
+    },
+    {
+      "passageId": "hour",
+      "prompt": "Vocabulary Day 09 · Words 16–30: complete ho__. Enter the missing letters.",
+      "word": "hour",
+      "prefix": "ho",
+      "answer": "正解：ur → hour。学習語：hour。「時間」。60分に相当する時間の単位です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qhour"
+      ]
+    },
+    {
+      "passageId": "inform",
+      "prompt": "Vocabulary Day 09 · Words 16–30: complete inf___. Enter the missing letters.",
+      "word": "inform",
+      "prefix": "inf",
+      "answer": "正解：orm → inform。学習語：inform。「知らせる・通知する」。住所変更を事務所に伝えます。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qinform"
+      ]
+    },
+    {
+      "passageId": "installation",
+      "prompt": "Vocabulary Day 09 · Words 16–30: complete ins_________. Enter the missing letters.",
+      "word": "installation",
+      "prefix": "ins",
+      "answer": "正解：tallation → installation。学習語：installation。「設置・取り付け」。新しい暖房設備を取り付ける作業です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qinstallation"
+      ]
+    },
+    {
+      "passageId": "item",
+      "prompt": "Vocabulary Day 09 · Words 16–30: complete it__. Enter the missing letters.",
+      "word": "item",
+      "prefix": "it",
+      "answer": "正解：em → item。学習語：item。「項目・品物」。リストの一つ一つが発注する製品です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qitem"
+      ]
+    },
+    {
+      "passageId": "lease",
+      "prompt": "Vocabulary Day 09 · Words 16–30: complete le___. Enter the missing letters.",
+      "word": "lease",
+      "prefix": "le",
+      "answer": "正解：ase → lease。学習語：lease。「賃貸借契約；賃貸する」。ここでは一年間部屋を借りる契約という名詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p010:qlease"
+      ]
+    }
+  ]
+}

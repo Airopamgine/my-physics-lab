@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day10-part4",
+  "title": "Vocabulary Day 10 · Words 46–60 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 11ページ／冊子389ページ · Vocabulary Day 10 · Words 46–60",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "saving": "The new system produces a sav___ of twenty minutes on each trip.",
+    "segment": "The final seg____ of the route runs from the bridge to the station.",
+    "setup": "The technician checked the se___ of the equipment before the demonstration.",
+    "sincerely": "She thanked the volunteers sin______, expressing genuine gratitude.",
+    "soothe": "The gentle music helped soo___ the upset child.",
+    "staff": "The hotel's st___ include receptionists, cleaners, and managers.",
+    "streamline": "The office will str_______ the process by removing unnecessary steps.",
+    "survey": "The students completed a sur___ that asked about their study habits.",
+    "tier": "The membership system has three levels, and the top ti__ offers the most services.",
+    "traffic": "Heavy tra____ slowed the buses because so many vehicles were on the road.",
+    "university": "She enrolled at a uni_______ to study for a degree in history.",
+    "vacant": "The room is vac___, so nobody is occupying it at present.",
+    "viewer": "Each vie___ of the online video can choose to display subtitles.",
+    "voucher": "Present the vou____ to exchange it for a free meal.",
+    "workbook": "The wor_____ contains exercises for students to complete after each lesson."
+  },
+  "questions": [
+    {
+      "passageId": "saving",
+      "prompt": "Vocabulary Day 10 · Words 46–60: complete sav___. Enter the missing letters.",
+      "word": "saving",
+      "prefix": "sav",
+      "answer": "正解：ing → saving。学習語：saving。「節約・貯蓄」。ここでは一回の移動で時間を節約できることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qsaving"
+      ]
+    },
+    {
+      "passageId": "segment",
+      "prompt": "Vocabulary Day 10 · Words 46–60: complete seg____. Enter the missing letters.",
+      "word": "segment",
+      "prefix": "seg",
+      "answer": "正解：ment → segment。学習語：segment。「部分・区間」。経路の最後の一区間を指します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qsegment"
+      ]
+    },
+    {
+      "passageId": "setup",
+      "prompt": "Vocabulary Day 10 · Words 46–60: complete se___. Enter the missing letters.",
+      "word": "setup",
+      "prefix": "se",
+      "answer": "正解：tup → setup。学習語：setup。「設定・設置」。機器がどのように配置・準備されているかを確認します。名詞は一語のsetupです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qsetup"
+      ]
+    },
+    {
+      "passageId": "sincerely",
+      "prompt": "Vocabulary Day 10 · Words 46–60: complete sin______. Enter the missing letters.",
+      "word": "sincerely",
+      "prefix": "sin",
+      "answer": "正解：cerely → sincerely。学習語：sincerely。「心から・誠実に」。本心から感謝を伝えています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qsincerely"
+      ]
+    },
+    {
+      "passageId": "soothe",
+      "prompt": "Vocabulary Day 10 · Words 46–60: complete soo___. Enter the missing letters.",
+      "word": "soothe",
+      "prefix": "soo",
+      "answer": "正解：the → soothe。学習語：soothe。「なだめる・落ち着かせる」。動揺した子供を静める動詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qsoothe"
+      ]
+    },
+    {
+      "passageId": "staff",
+      "prompt": "Vocabulary Day 10 · Words 46–60: complete st___. Enter the missing letters.",
+      "word": "staff",
+      "prefix": "st",
+      "answer": "正解：aff → staff。学習語：staff。「職員」。そのホテルで働く人々です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qstaff"
+      ]
+    },
+    {
+      "passageId": "streamline",
+      "prompt": "Vocabulary Day 10 · Words 46–60: complete str_______. Enter the missing letters.",
+      "word": "streamline",
+      "prefix": "str",
+      "answer": "正解：eamline → streamline。学習語：streamline。「合理化する・簡素化する」。不要な手順を取り除いて効率を上げます。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qstreamline"
+      ]
+    },
+    {
+      "passageId": "survey",
+      "prompt": "Vocabulary Day 10 · Words 46–60: complete sur___. Enter the missing letters.",
+      "word": "survey",
+      "prefix": "sur",
+      "answer": "正解：vey → survey。学習語：survey。「調査；調査する」。学習習慣を尋ねる調査票という名詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qsurvey"
+      ]
+    },
+    {
+      "passageId": "tier",
+      "prompt": "Vocabulary Day 10 · Words 46–60: complete ti__. Enter the missing letters.",
+      "word": "tier",
+      "prefix": "ti",
+      "answer": "正解：er → tier。学習語：tier。「階層・等級」。三段階のうち最上位の区分です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qtier"
+      ]
+    },
+    {
+      "passageId": "traffic",
+      "prompt": "Vocabulary Day 10 · Words 46–60: complete tra____. Enter the missing letters.",
+      "word": "traffic",
+      "prefix": "tra",
+      "answer": "正解：ffic → traffic。学習語：traffic。「交通」。道路上の多数の車両の流れを指します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qtraffic"
+      ]
+    },
+    {
+      "passageId": "university",
+      "prompt": "Vocabulary Day 10 · Words 46–60: complete uni_______. Enter the missing letters.",
+      "word": "university",
+      "prefix": "uni",
+      "answer": "正解：versity → university。学習語：university。「大学」。学位を取得するための高等教育機関です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:quniversity"
+      ]
+    },
+    {
+      "passageId": "vacant",
+      "prompt": "Vocabulary Day 10 · Words 46–60: complete vac___. Enter the missing letters.",
+      "word": "vacant",
+      "prefix": "vac",
+      "answer": "正解：ant → vacant。学習語：vacant。「空いている・空室の」。今は誰も使っていない部屋です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qvacant"
+      ]
+    },
+    {
+      "passageId": "viewer",
+      "prompt": "Vocabulary Day 10 · Words 46–60: complete vie___. Enter the missing letters.",
+      "word": "viewer",
+      "prefix": "vie",
+      "answer": "正解：wer → viewer。学習語：viewer。「視聴者・観覧者」。動画を見る人です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qviewer"
+      ]
+    },
+    {
+      "passageId": "voucher",
+      "prompt": "Vocabulary Day 10 · Words 46–60: complete vou____. Enter the missing letters.",
+      "word": "voucher",
+      "prefix": "vou",
+      "answer": "正解：cher → voucher。学習語：voucher。「引換券・証明書」。ここでは食事と交換できる券を指します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qvoucher"
+      ]
+    },
+    {
+      "passageId": "workbook",
+      "prompt": "Vocabulary Day 10 · Words 46–60: complete wor_____. Enter the missing letters.",
+      "word": "workbook",
+      "prefix": "wor",
+      "answer": "正解：kbook → workbook。学習語：workbook。「練習帳・問題集」。授業後に解く練習問題が載っています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p011:qworkbook"
+      ]
+    }
+  ]
+}

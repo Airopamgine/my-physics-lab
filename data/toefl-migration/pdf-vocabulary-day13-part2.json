@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day13-part2",
+  "title": "Vocabulary Day 13 · Words 16–30 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 14ページ／冊子392ページ · Vocabulary Day 13 · Words 16–30",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "contraction": "Cooling caused a con________ of the metal, reducing its volume.",
+    "counterintuitive": "The finding was cou_____________ because it went against what people would naturally expect.",
+    "decomposer": "A dec_______ breaks down dead organic material and returns nutrients to the environment.",
+    "demographic": "The dem________ data describe the population's age distribution and other characteristics.",
+    "detrimental": "The pollution had a det________ effect, harming the plants near the river.",
+    "dissociate": "It is difficult to dis_______ the policy from the historical conditions that shaped it.",
+    "electronic": "The ele_______ device uses circuits to process signals.",
+    "equitable": "The committee sought an equ______ distribution that treated participants fairly.",
+    "expedite": "Providing all the documents in advance will exp_____ the process and help it finish sooner.",
+    "fertility": "The farmer assessed the soil's fer______, its ability to support plant growth.",
+    "flourish": "The plants flo_____ in the favorable conditions and grow vigorously.",
+    "frailty": "The character's physical fra____ made long journeys difficult.",
+    "hallucination": "The report describes a hal__________ in which a person perceived a sound that was not actually present.",
+    "heritage": "The community protects its cultural her_____, including traditions inherited from earlier generations.",
+    "hospitable": "The villagers were hos_______ and welcomed the visitors warmly."
+  },
+  "questions": [
+    {
+      "passageId": "contraction",
+      "prompt": "Vocabulary Day 13 · Words 16–30: complete con________. Enter the missing letters.",
+      "word": "contraction",
+      "prefix": "con",
+      "answer": "正解：traction → contraction。学習語：contraction。「収縮・短縮」。ここでは金属の体積が小さくなることです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qcontraction"
+      ]
+    },
+    {
+      "passageId": "counterintuitive",
+      "prompt": "Vocabulary Day 13 · Words 16–30: complete cou_____________. Enter the missing letters.",
+      "word": "counterintuitive",
+      "prefix": "cou",
+      "answer": "正解：nterintuitive → counterintuitive。学習語：counterintuitive。「直感に反する」。人が自然に予想する結果と異なります。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qcounterintuitive"
+      ]
+    },
+    {
+      "passageId": "decomposer",
+      "prompt": "Vocabulary Day 13 · Words 16–30: complete dec_______. Enter the missing letters.",
+      "word": "decomposer",
+      "prefix": "dec",
+      "answer": "正解：omposer → decomposer。学習語：decomposer。「分解者」。死んだ生物由来の物質を分解する生物です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qdecomposer"
+      ]
+    },
+    {
+      "passageId": "demographic",
+      "prompt": "Vocabulary Day 13 · Words 16–30: complete dem________. Enter the missing letters.",
+      "word": "demographic",
+      "prefix": "dem",
+      "answer": "正解：ographic → demographic。学習語：demographic。「人口統計上の；人口の区分」。この文では人口の特徴に関するデータを修飾します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qdemographic"
+      ]
+    },
+    {
+      "passageId": "detrimental",
+      "prompt": "Vocabulary Day 13 · Words 16–30: complete det________. Enter the missing letters.",
+      "word": "detrimental",
+      "prefix": "det",
+      "answer": "正解：rimental → detrimental。学習語：detrimental。「有害な」。川沿いの植物に悪影響を及ぼしています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qdetrimental"
+      ]
+    },
+    {
+      "passageId": "dissociate",
+      "prompt": "Vocabulary Day 13 · Words 16–30: complete dis_______. Enter the missing letters.",
+      "word": "dissociate",
+      "prefix": "dis",
+      "answer": "正解：sociate → dissociate。学習語：dissociate。「切り離す・分離する」。dissociate A from Bで、政策とその歴史的背景を切り離します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qdissociate"
+      ]
+    },
+    {
+      "passageId": "electronic",
+      "prompt": "Vocabulary Day 13 · Words 16–30: complete ele_______. Enter the missing letters.",
+      "word": "electronic",
+      "prefix": "ele",
+      "answer": "正解：ctronic → electronic。学習語：electronic。「電子の・電子式の」。電子回路で信号を処理する装置です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qelectronic"
+      ]
+    },
+    {
+      "passageId": "equitable",
+      "prompt": "Vocabulary Day 13 · Words 16–30: complete equ______. Enter the missing letters.",
+      "word": "equitable",
+      "prefix": "equ",
+      "answer": "正解：itable → equitable。学習語：equitable。「公正な・公平な」。参加者を公平に扱う配分を目指します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qequitable"
+      ]
+    },
+    {
+      "passageId": "expedite",
+      "prompt": "Vocabulary Day 13 · Words 16–30: complete exp_____. Enter the missing letters.",
+      "word": "expedite",
+      "prefix": "exp",
+      "answer": "正解：edite → expedite。学習語：expedite。「迅速に処理する・促進する」。書類を先にそろえて処理を早めます。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qexpedite"
+      ]
+    },
+    {
+      "passageId": "fertility",
+      "prompt": "Vocabulary Day 13 · Words 16–30: complete fer______. Enter the missing letters.",
+      "word": "fertility",
+      "prefix": "fer",
+      "answer": "正解：tility → fertility。学習語：fertility。「肥沃さ・生殖能力」。この文では植物を育てる土の性質です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qfertility"
+      ]
+    },
+    {
+      "passageId": "flourish",
+      "prompt": "Vocabulary Day 13 · Words 16–30: complete flo_____. Enter the missing letters.",
+      "word": "flourish",
+      "prefix": "flo",
+      "answer": "正解：urish → flourish。学習語：flourish。「繁茂する・栄える；華麗な動作」。ここでは植物がよく育つ動詞です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qflourish"
+      ]
+    },
+    {
+      "passageId": "frailty",
+      "prompt": "Vocabulary Day 13 · Words 16–30: complete fra____. Enter the missing letters.",
+      "word": "frailty",
+      "prefix": "fra",
+      "answer": "正解：ilty → frailty。学習語：frailty。「虚弱・弱点」。体が弱く、長い旅が難しいことです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qfrailty"
+      ]
+    },
+    {
+      "passageId": "hallucination",
+      "prompt": "Vocabulary Day 13 · Words 16–30: complete hal__________. Enter the missing letters.",
+      "word": "hallucination",
+      "prefix": "hal",
+      "answer": "正解：lucination → hallucination。学習語：hallucination。「幻覚」。対応する外的な音がないのに音を知覚する例です。音にも使える語で、実際にある刺激を取り違える錯覚とは区別します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qhallucination"
+      ]
+    },
+    {
+      "passageId": "heritage",
+      "prompt": "Vocabulary Day 13 · Words 16–30: complete her_____. Enter the missing letters.",
+      "word": "heritage",
+      "prefix": "her",
+      "answer": "正解：itage → heritage。学習語：heritage。「遺産」。前の世代から受け継いだ文化や伝統です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qheritage"
+      ]
+    },
+    {
+      "passageId": "hospitable",
+      "prompt": "Vocabulary Day 13 · Words 16–30: complete hos_______. Enter the missing letters.",
+      "word": "hospitable",
+      "prefix": "hos",
+      "answer": "正解：pitable → hospitable。学習語：hospitable。「親切に歓迎する・居心地のよい」。ここでは客を温かく迎える人々です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p014:qhospitable"
+      ]
+    }
+  ]
+}

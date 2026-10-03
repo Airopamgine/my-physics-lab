@@ -1,0 +1,178 @@
+{
+  "id": "pdf-vocabulary-day20-part3",
+  "title": "Vocabulary Day 20 · Words 31–45 · Context Completion",
+  "task": 1,
+  "date": "2026-10-03T12:40:56+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Vocabulary · PDF 21ページ／冊子399ページ · Vocabulary Day 20 · Words 31–45",
+  "verificationNote": "原本画像で全掲載語の綴り・意味・掲載順を照合済みです。掲載headwordの学習対象を保ち、文脈付き文字補充へ編集しています。例文・日本語解説は編集作成です。出版社の公式解答表は未提供ですが、語彙問題の正答は原本headwordと一致します。",
+  "passages": {
+    "livelihood": "Fishing provides the family's liv_______, the means by which they earn enough to live.",
+    "magnetism": "The demonstration illustrates mag______ by showing the attraction between a magnet and certain metal objects.",
+    "marginally": "The second result was mar_______ higher, differing by only a very small amount.",
+    "matriarch": "The family regards its oldest woman as the mat______, its respected female head.",
+    "memorable": "The unusual performance was mem______ and remained in the audience's minds long afterward.",
+    "neurotransmitter": "The lesson describes a neu_____________ as a chemical messenger involved in communication between nerve cells.",
+    "obligation": "The contract creates an obl_______, a duty the parties are required to fulfill.",
+    "paradox": "The argument presents a par____, an apparently contradictory statement that invites closer examination.",
+    "percent": "Twenty-five per____ of the items means twenty-five out of every hundred.",
+    "pest": "The farmer described the crop-damaging insect as a pe__.",
+    "physical": "The athlete underwent a phy_____ assessment focused on the condition of the body.",
+    "potent": "The substance is pot___, producing a strong effect even in a small amount.",
+    "prehistoric": "The museum displays tools from a pre________ period before written records were kept.",
+    "prolific": "The pro_____ novelist produced an unusually large number of books.",
+    "provoke": "The remark could pro____ an angry response by causing people to react strongly."
+  },
+  "questions": [
+    {
+      "passageId": "livelihood",
+      "prompt": "Vocabulary Day 20 · Words 31–45: complete liv_______. Enter the missing letters.",
+      "word": "livelihood",
+      "prefix": "liv",
+      "answer": "正解：elihood → livelihood。学習語：livelihood。「生計・生活の手段」。暮らしを支える収入源です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qlivelihood"
+      ]
+    },
+    {
+      "passageId": "magnetism",
+      "prompt": "Vocabulary Day 20 · Words 31–45: complete mag______. Enter the missing letters.",
+      "word": "magnetism",
+      "prefix": "mag",
+      "answer": "正解：netism → magnetism。学習語：magnetism。「磁気」。磁石が特定の金属を引きつける作用を例にしています。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qmagnetism"
+      ]
+    },
+    {
+      "passageId": "marginally",
+      "prompt": "Vocabulary Day 20 · Words 31–45: complete mar_______. Enter the missing letters.",
+      "word": "marginally",
+      "prefix": "mar",
+      "answer": "正解：ginally → marginally。学習語：marginally。「わずかに」。二つの値の差が小さいことです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qmarginally"
+      ]
+    },
+    {
+      "passageId": "matriarch",
+      "prompt": "Vocabulary Day 20 · Words 31–45: complete mat______. Enter the missing letters.",
+      "word": "matriarch",
+      "prefix": "mat",
+      "answer": "正解：riarch → matriarch。学習語：matriarch。「女性の家長・女性の長」。家族を代表する尊敬された女性です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qmatriarch"
+      ]
+    },
+    {
+      "passageId": "memorable",
+      "prompt": "Vocabulary Day 20 · Words 31–45: complete mem______. Enter the missing letters.",
+      "word": "memorable",
+      "prefix": "mem",
+      "answer": "正解：orable → memorable。学習語：memorable。「記憶に残る」。長く覚えているほど印象の強い演技です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qmemorable"
+      ]
+    },
+    {
+      "passageId": "neurotransmitter",
+      "prompt": "Vocabulary Day 20 · Words 31–45: complete neu_____________. Enter the missing letters.",
+      "word": "neurotransmitter",
+      "prefix": "neu",
+      "answer": "正解：rotransmitter → neurotransmitter。学習語：neurotransmitter。「神経伝達物質」。神経細胞間の信号伝達に関わる化学物質です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qneurotransmitter"
+      ]
+    },
+    {
+      "passageId": "obligation",
+      "prompt": "Vocabulary Day 20 · Words 31–45: complete obl_______. Enter the missing letters.",
+      "word": "obligation",
+      "prefix": "obl",
+      "answer": "正解：igation → obligation。学習語：obligation。「義務」。契約によって果たすことが求められる責務です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qobligation"
+      ]
+    },
+    {
+      "passageId": "paradox",
+      "prompt": "Vocabulary Day 20 · Words 31–45: complete par____. Enter the missing letters.",
+      "word": "paradox",
+      "prefix": "par",
+      "answer": "正解：adox → paradox。学習語：paradox。「逆説・矛盾」。一見矛盾していても、詳しく考える必要のある言明です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qparadox"
+      ]
+    },
+    {
+      "passageId": "percent",
+      "prompt": "Vocabulary Day 20 · Words 31–45: complete per____. Enter the missing letters.",
+      "word": "percent",
+      "prefix": "per",
+      "answer": "正解：cent → percent。学習語：percent。「パーセント・百分率の」。百個当たり二十五個という割合を表します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qpercent"
+      ]
+    },
+    {
+      "passageId": "pest",
+      "prompt": "Vocabulary Day 20 · Words 31–45: complete pe__. Enter the missing letters.",
+      "word": "pest",
+      "prefix": "pe",
+      "answer": "正解：st → pest。学習語：pest。「害虫・害を及ぼす生物」。この文では作物を傷める昆虫を指します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qpest"
+      ]
+    },
+    {
+      "passageId": "physical",
+      "prompt": "Vocabulary Day 20 · Words 31–45: complete phy_____. Enter the missing letters.",
+      "word": "physical",
+      "prefix": "phy",
+      "answer": "正解：sical → physical。学習語：physical。「身体の・物理的な」。この文では体の状態に関わる評価です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qphysical"
+      ]
+    },
+    {
+      "passageId": "potent",
+      "prompt": "Vocabulary Day 20 · Words 31–45: complete pot___. Enter the missing letters.",
+      "word": "potent",
+      "prefix": "pot",
+      "answer": "正解：ent → potent。学習語：potent。「強力な・効力のある」。少量でも強い作用があるという描写です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qpotent"
+      ]
+    },
+    {
+      "passageId": "prehistoric",
+      "prompt": "Vocabulary Day 20 · Words 31–45: complete pre________. Enter the missing letters.",
+      "word": "prehistoric",
+      "prefix": "pre",
+      "answer": "正解：historic → prehistoric。学習語：prehistoric。「先史時代の」。文字による記録が残る前の時代です。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qprehistoric"
+      ]
+    },
+    {
+      "passageId": "prolific",
+      "prompt": "Vocabulary Day 20 · Words 31–45: complete pro_____. Enter the missing letters.",
+      "word": "prolific",
+      "prefix": "pro",
+      "answer": "正解：lific → prolific。学習語：prolific。「多作の・豊富な・多産の」。この文では非常に多くの本を書く作家を修飾します。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qprolific"
+      ]
+    },
+    {
+      "passageId": "provoke",
+      "prompt": "Vocabulary Day 20 · Words 31–45: complete pro____. Enter the missing letters.",
+      "word": "provoke",
+      "prefix": "pro",
+      "answer": "正解：voke → provoke。学習語：provoke。「引き起こす・刺激する・挑発する」。発言が怒りの反応を誘うことです。",
+      "sourceRefs": [
+        "pdf:vocabulary:p021:qprovoke"
+      ]
+    }
+  ]
+}
