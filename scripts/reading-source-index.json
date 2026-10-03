@@ -1851,7 +1851,17 @@
         60,
         61,
         62,
-        63
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73
       ],
       "pageItems": {
         "1": [],
@@ -2070,6 +2080,42 @@
           "pdf:task3:p063:q13",
           "pdf:task3:p063:q14",
           "pdf:task3:p063:q15"
+        ],
+        "64": [],
+        "65": [
+          "pdf:task3:p065:q16",
+          "pdf:task3:p065:q17",
+          "pdf:task3:p065:q18",
+          "pdf:task3:p065:q19",
+          "pdf:task3:p065:q20"
+        ],
+        "66": [],
+        "67": [
+          "pdf:task3:p067:qexample-inference"
+        ],
+        "68": [
+          "pdf:task3:p068:qpractice01",
+          "pdf:task3:p068:qpractice02"
+        ],
+        "69": [
+          "pdf:task3:p069:qpractice03",
+          "pdf:task3:p069:qpractice04"
+        ],
+        "70": [],
+        "71": [
+          "pdf:task3:p071:q01",
+          "pdf:task3:p071:q02",
+          "pdf:task3:p071:q03",
+          "pdf:task3:p071:q04",
+          "pdf:task3:p071:q05"
+        ],
+        "72": [],
+        "73": [
+          "pdf:task3:p073:q06",
+          "pdf:task3:p073:q07",
+          "pdf:task3:p073:q08",
+          "pdf:task3:p073:q09",
+          "pdf:task3:p073:q10"
         ]
       }
     },
@@ -3348,21 +3394,11 @@
       }
     }
   ],
-  "lastSource": "task2",
+  "lastSource": "task3",
   "blockedItems": [
     {
       "source": "task3",
       "pages": [
-        64,
-        65,
-        66,
-        67,
-        68,
-        69,
-        70,
-        71,
-        72,
-        73,
         74,
         75,
         76,
