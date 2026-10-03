@@ -32,7 +32,7 @@ class Task3InsertionBatchTests(unittest.TestCase):
     def test_pages_74_through_83_are_reviewed_and_indexed(self):
         index = json.loads(INDEX.read_text(encoding="utf-8"))
         source = next(s for s in index["sources"] if s["id"] == "task3")
-        self.assertEqual(source["reviewedPages"], list(range(1, 84)))
+        self.assertEqual(source["reviewedPages"], [p for p in range(1, 155) if p != 89])
         indexed = [
             ref
             for page in range(74, 84)
@@ -41,7 +41,7 @@ class Task3InsertionBatchTests(unittest.TestCase):
         item = json.loads(SOURCE.read_text(encoding="utf-8"))
         self.assertEqual(indexed, [q["sourceRefs"][0] for q in item["questions"]])
         blocker = next(b for b in index["blockedItems"] if b["source"] == "task3")
-        self.assertEqual(blocker["pages"], list(range(84, 155)))
+        self.assertEqual(blocker["pages"], [89])
 
 
 if __name__ == "__main__":

@@ -23,6 +23,21 @@ Normal: https://airopamgine.github.io/my-physics-lab/toefl/
 Same catalog / updates: https://airopamgine.github.io/my-physics-lab/toefl/reading/
 Unconverted originals: https://airopamgine.github.io/my-physics-lab/toefl/archive/
 
+## Current remaining work (October 3)
+
+The accessible remainder has been converted: 3,651 published answers, including
+all 1,040 existing questions and 2,593 PDF answers. See `reading-final-audit.md`.
+Do not create substitute exercises: only Phototropism EXCEPT question
+`pdf:task3:p089:q17` remains unpublished because all four choices have textual
+support. Request/inspect PDF page 89 (printed 289) and publisher answer page 481.
+The supplied Task 3 text has been read through page 154, but original-image
+rechecks for pages 84–154 remain pending while downloads return temporary 502s.
+Track those separately in `verificationPending`; do not claim visual/source-key
+validation or completion. Do not disable solely for a temporary download error.
+Authenticated live-browser visual checks also require the normal study login;
+never change or bypass authentication to run QA. The full-bank DOM suite is
+`tests/verify_toefl_dom.cjs` (jsdom dependency and a built normal-page HTML required).
+
 ## Sources and private working files
 
 `scripts/reading-source-index.json` inventories ALL 410 PDF pages and their public

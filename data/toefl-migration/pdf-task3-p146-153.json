@@ -1,0 +1,557 @@
+{
+  "id": "pdf-task3-p146-153",
+  "title": "原本移行: Life Science — Keystone Species, Temperature, Hormones and Bird Territories",
+  "date": "2026-10-03T20:35:00+00:00",
+  "level": "B2",
+  "task": 3,
+  "sourceLabel": "提供PDF Task 3 · PDF 146–153 / 冊子346–353ページ",
+  "verificationNote": "PDF抽出テキストと全本文・設問・選択肢・順序を照合し、明らかなOCR誤認を修正。原教材の説明内容を保持し、正答は本文中の記述に基づきます。画像取得の一時エラーにより画像照合は未完了。出版社解答p.495は未提供です。",
+  "passages": {
+    "keystone_species": "Keystone Species\n\nKeystone species are organisms that have an impact on their ecosystem far greater than their numbers suggest. Ecologist Robert Paine developed this concept while studying starfish, the top predator in a tide pool ecosystem. He removed starfish from an ecosystem that had 14 other organisms. After three years, he observed that half the other species had died off. After 10 years, mussels, typically consumed by starfish, completely dominated the environment.\n\nKeystone species can also play other roles in an ecosystem besides that of a predator. Beavers, for example, are habitat builders. Their dams support the healthy growth of wetlands teeming with life by limiting flooding, protecting against drought, and maintaining high water quality. Honeybees and other pollinating insects and birds play vital roles in the environment as well, helping to reproduce 80 percent of the world's plants, which serve as a key food source for countless herbivore species.\n\nProtecting keystone species is a priority due to their large environmental impact. Efforts in Argentina demonstrate how they can be successfully preserved. Jaguars, which control prey populations that would otherwise overconsume vegetation, have been safeguarded in large national parks. A breeding program has stabilized their populations, which will help restore ecological balance.",
+    "temperature_sex": "The Effects of Temperature on Sex Determination\n\nIn many reptiles, sex is determined not by genetics but by incubation temperature, in a process known as temperature-dependent sex determination. This mechanism involves a key enzyme, aromatase, that controls the balance of sex hormones. The enzyme's function is highly temperature-sensitive; specific temperatures during a critical developmental period can activate or suppress it. This directs the embryo's development toward male or female pathways, ultimately influencing sex ratios within the population. For example, in some turtle populations, warmer nest sites result in more female hatchlings.\n\nRecent research on climate change shows that it may impact temperature-sensitive species. Elevated temperatures can lead to a disproportionate increase in females or males. As a result, many population groups could experience a decrease in their breeding activity. Researchers are testing intervention methods to address these issues. Techniques such as setting up sun shades above nests and relocating eggs to cooler areas are now being explored to prevent extreme sex imbalances. They are also carefully tracking the temperatures of eggs in the wild. Managing the influence of temperature on sex determination will be essential for the long-term survival of affected species.",
+    "hormonal_control": "Hormonal Control\n\nHormonal control is an essential mechanism in the human body that helps regulate many fundamental processes. Hormones are chemical messengers produced by special glands and released into the bloodstream. They travel to different organs and tissues, carrying signals that initiate or suspend specific activities. For instance, erythropoietin, released by the kidneys, stimulates the production of red blood cells.\n\nHormonal regulation works through intercellular signaling. Every hormone seeks out target cells that possess complementary receptors. The binding of a hormone to its receptor initiates responses like promoting development, generating energy, or regulating the concentration of body fluids. This entire mechanism relies heavily on regulatory feedback. If the body detects an excess or deficiency of a particular substance, the secretion of hormones shifts to reestablish homeostasis. For instance, hormones from the thyroid gland manage the body's metabolic rate. When these levels become too elevated, signals inhibit further release; if they drop, output is boosted.\n\nHormonal control allows the body to adapt to changes in the environment and maintain steady internal conditions. This system permits the body to coordinate activities like growth, energy use, stress response, and repair. The precise action of hormones is vital for keeping all body systems in harmony and preventing disorders from developing.",
+    "bird_territory": "Bird Territory\n\nBirds establish territories to protect indispensable resources such as food and nesting sites. These territories are chosen and actively defended, especially during breeding season. Birds often establish territorial boundaries by singing or making visual displays. For instance, robins sing to warn off rivals, while red-winged blackbirds show their colorful wing patches to signal ownership.\n\nTerritory size differs depending on the type of bird. Hawks defend large areas due to their wide hunting range, while wrens and sparrows keep only a small zone around their nest. Some tropical hummingbirds defend flowering plants individually. Colonial birds, such as gulls, may only protect a tiny spot in crowded nesting sites.\n\nBirds sometimes engage in physical conflicts to maintain their territorial boundaries. Common terns fiercely protect nesting areas in colonies, conducting coordinated aerial attacks to repel intruders. Similarly, northern mockingbirds engage in aerial attacks to defend their territories.\n\nSome birds vary their territorial strategies to account for changes in resource availability. In coastal areas, oystercatchers aggressively chase intruders from feeding grounds at low tide. However, once the tide rises, these conflicts quickly diminish as the feeding area becomes submerged and food disappears."
+  },
+  "questions": [
+    {
+      "passageId": "keystone_species",
+      "prompt": "The word “stabilized” in the passage is closest in meaning to",
+      "options": [
+        {
+          "label": "A",
+          "text": "affected"
+        },
+        {
+          "label": "B",
+          "text": "secured"
+        },
+        {
+          "label": "C",
+          "text": "analyzed"
+        },
+        {
+          "label": "D",
+          "text": "ignored"
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。保護と繁殖の計画で個体群を安定させたという文脈です。secured（確保・安定化した）が最も近く、分析した・無視したという意味ではありません。",
+      "sourceRefs": [
+        "pdf:task3:p147:q01"
+      ]
+    },
+    {
+      "passageId": "keystone_species",
+      "prompt": "What can be inferred about starfish?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Its numbers eventually dropped after three years."
+        },
+        {
+          "label": "B",
+          "text": "Its absence reduced the survivability of other species."
+        },
+        {
+          "label": "C",
+          "text": "It competed with mussels for the same food source."
+        },
+        {
+          "label": "D",
+          "text": "It was killed off by the environment's top predator."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。ヒトデを取り除いた後、他種の半分が3年で消失し、やがてムール貝が優占したとあります。ヒトデの不在が他種の存続を損なったと推論できます。ヒトデはムール貝の捕食者で、同じ餌の競争相手ではありません。",
+      "sourceRefs": [
+        "pdf:task3:p147:q02"
+      ]
+    },
+    {
+      "passageId": "keystone_species",
+      "prompt": "Which of the following is NOT mentioned as a way that beavers support wetland ecosystems?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Keeping flooding in check"
+        },
+        {
+          "label": "B",
+          "text": "Preventing droughts"
+        },
+        {
+          "label": "C",
+          "text": "Sustaining high water quality"
+        },
+        {
+          "label": "D",
+          "text": "Providing habitats to herbivores"
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。ビーバーのダムについてlimiting flooding、protecting against drought、maintaining high water qualityが列挙されています。草食動物への生息地の提供は明記されず、herbivoreへの食料は次の受粉の説明です。",
+      "sourceRefs": [
+        "pdf:task3:p147:q03"
+      ]
+    },
+    {
+      "passageId": "keystone_species",
+      "prompt": "According to the second paragraph, what vital role do some birds play in the environment?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They consume harmful insects."
+        },
+        {
+          "label": "B",
+          "text": "Their nests protect other species."
+        },
+        {
+          "label": "C",
+          "text": "They support plant reproduction."
+        },
+        {
+          "label": "D",
+          "text": "Their presence indicates food sources."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。pollinating insects and birdsが植物の繁殖を助けるとあります。受粉による植物の再生産であり、昆虫の捕食や巣による他種保護の話ではありません。",
+      "sourceRefs": [
+        "pdf:task3:p147:q04"
+      ]
+    },
+    {
+      "passageId": "keystone_species",
+      "prompt": "What is the purpose of the third paragraph?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To illustrate the importance of certain prey populations"
+        },
+        {
+          "label": "B",
+          "text": "To show a successful case of protecting a keystone species"
+        },
+        {
+          "label": "C",
+          "text": "To describe an ecological issue found throughout Argentina"
+        },
+        {
+          "label": "D",
+          "text": "To celebrate the growth of keystone vegetation in national parks"
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。ジャガーを国立公園で保護し、繁殖計画で個体群を安定させたアルゼンチンの例です。キーストーン種保全の成功例を通じて、生態系回復への効果を示します。",
+      "sourceRefs": [
+        "pdf:task3:p147:q05"
+      ]
+    },
+    {
+      "passageId": "temperature_sex",
+      "prompt": "The word “ultimately” in the passage is closest in meaning to",
+      "options": [
+        {
+          "label": "A",
+          "text": "immediately"
+        },
+        {
+          "label": "B",
+          "text": "initially"
+        },
+        {
+          "label": "C",
+          "text": "finally"
+        },
+        {
+          "label": "D",
+          "text": "directly"
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。発生経路の変化が最終的に個体群の性比に影響するという流れです。finally（最終的に）が対応し、初めに・直ちにではありません。",
+      "sourceRefs": [
+        "pdf:task3:p149:q06"
+      ]
+    },
+    {
+      "passageId": "temperature_sex",
+      "prompt": "What is indicated about aromatase?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Its function is modulated by thermal exposure during a key phase of development."
+        },
+        {
+          "label": "B",
+          "text": "It steers development toward the male pathway as temperatures decrease."
+        },
+        {
+          "label": "C",
+          "text": "Its activity is suppressed when the incubation temperature is lowered."
+        },
+        {
+          "label": "D",
+          "text": "It is a secondary factor in the sex determination of reptiles."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。critical developmental periodの温度が酵素をactivate or suppressすると明記されています。低温がすべての種で雄化や抑制を起こすという方向性の一般化は本文からできません。",
+      "sourceRefs": [
+        "pdf:task3:p149:q07"
+      ]
+    },
+    {
+      "passageId": "temperature_sex",
+      "prompt": "What is an outcome of rising temperatures for some turtle populations?",
+      "options": [
+        {
+          "label": "A",
+          "text": "An extension of the developmental period"
+        },
+        {
+          "label": "B",
+          "text": "A decrease in the hatching success rate"
+        },
+        {
+          "label": "C",
+          "text": "An increase in female offspring"
+        },
+        {
+          "label": "D",
+          "text": "A longer lifespan for newborn turtles"
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。第1段落のwarmer nest sites result in more female hatchlingsが根拠です。some turtle populationsという範囲を保ち、全爬虫類で同じになるとは一般化しません。",
+      "sourceRefs": [
+        "pdf:task3:p149:q08"
+      ]
+    },
+    {
+      "passageId": "temperature_sex",
+      "prompt": "What can be inferred about climate change?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It will favor only male offspring."
+        },
+        {
+          "label": "B",
+          "text": "It decreases the production of aromatase."
+        },
+        {
+          "label": "C",
+          "text": "It halts the breeding activity of reptile populations."
+        },
+        {
+          "label": "D",
+          "text": "It has the potential to skew the sex ratios of reptiles."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。高温が雌または雄の不釣り合いな増加を招く可能性があるとあります。性比を偏らせる可能性であって、雄だけの増加や繁殖の全面停止を断定するものではありません。",
+      "sourceRefs": [
+        "pdf:task3:p149:q09"
+      ]
+    },
+    {
+      "passageId": "temperature_sex",
+      "prompt": "Which of the following is NOT mentioned as a method for helping temperature-sensitive species?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Installing shades to block sunlight"
+        },
+        {
+          "label": "B",
+          "text": "Relocating eggs to less heated environments"
+        },
+        {
+          "label": "C",
+          "text": "Placing lights around egg sites"
+        },
+        {
+          "label": "D",
+          "text": "Tracking the thermal conditions of eggs"
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。本文で試されているのは巣の日よけ、涼しい場所への卵移動、温度の監視です。卵の周りに照明を置く方法は挙げられていません。",
+      "sourceRefs": [
+        "pdf:task3:p149:q10"
+      ]
+    },
+    {
+      "passageId": "hormonal_control",
+      "prompt": "The word “suspend” in the first paragraph is closest in meaning to",
+      "options": [
+        {
+          "label": "A",
+          "text": "monitor"
+        },
+        {
+          "label": "B",
+          "text": "avoid"
+        },
+        {
+          "label": "C",
+          "text": "stop"
+        },
+        {
+          "label": "D",
+          "text": "preserve"
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。initiate or suspend specific activitiesの対比から、suspendは活動を止める・一時中断する意味です。stopが対応し、維持するpreserveとは異なります。",
+      "sourceRefs": [
+        "pdf:task3:p151:q11"
+      ]
+    },
+    {
+      "passageId": "hormonal_control",
+      "prompt": "What is the main function of erythropoietin?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It stimulates muscle growth during physical activity."
+        },
+        {
+          "label": "B",
+          "text": "It regulates feedback loops for body fluid balance."
+        },
+        {
+          "label": "C",
+          "text": "It triggers the production of red blood cells."
+        },
+        {
+          "label": "D",
+          "text": "It removes dead blood cells from the organs."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。第1段落末で腎臓から放出され、red blood cellsのproductionをstimulatesすると明示されています。死んだ血球の除去ではなく赤血球の産生促進です。",
+      "sourceRefs": [
+        "pdf:task3:p151:q12"
+      ]
+    },
+    {
+      "passageId": "hormonal_control",
+      "prompt": "What can be inferred about target cells?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They bind with a matching hormone to start specific activities."
+        },
+        {
+          "label": "B",
+          "text": "They are able to produce any hormone needed by the body."
+        },
+        {
+          "label": "C",
+          "text": "They become inactive when exposed to hormones."
+        },
+        {
+          "label": "D",
+          "text": "They detect whether the amount of a substance is too much or too little."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。target cellsはcomplementary receptorsを持ち、ホルモンの結合で特定の反応が始まるとあります。あらゆるホルモンを作ることや、曝露で必ず不活性になることは述べていません。",
+      "sourceRefs": [
+        "pdf:task3:p151:q13"
+      ]
+    },
+    {
+      "passageId": "hormonal_control",
+      "prompt": "What is indicated in the passage about regulatory feedback?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It eliminates the need for special hormone glands."
+        },
+        {
+          "label": "B",
+          "text": "It adjusts hormone production to restore balance."
+        },
+        {
+          "label": "C",
+          "text": "It ensures that hormones only function temporarily."
+        },
+        {
+          "label": "D",
+          "text": "It prevents hormones from entering the bloodstream."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。過剰・不足を検出するとホルモン分泌が変わり、homeostasisを再確立すると説明されています。産生・分泌の調整で均衡を回復する仕組みです。",
+      "sourceRefs": [
+        "pdf:task3:p151:q14"
+      ]
+    },
+    {
+      "passageId": "hormonal_control",
+      "prompt": "Why does the author mention the thyroid gland?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To introduce a gland involved in bone and muscle growth"
+        },
+        {
+          "label": "B",
+          "text": "To show how hormones are selectively targeted by metabolism"
+        },
+        {
+          "label": "C",
+          "text": "To illustrate a disorder caused by a hormone imbalance"
+        },
+        {
+          "label": "D",
+          "text": "To give an example of how a feedback mechanism operates"
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。ホルモンの水準が高ければ分泌を抑制し、低ければ増加させるという具体例です。直前のregulatory feedbackを示すためで、疾患の症例を紹介するものではありません。",
+      "sourceRefs": [
+        "pdf:task3:p151:q15"
+      ]
+    },
+    {
+      "passageId": "bird_territory",
+      "prompt": "The word “indispensable” in the first sentence is closest in meaning to",
+      "options": [
+        {
+          "label": "A",
+          "text": "accessible"
+        },
+        {
+          "label": "B",
+          "text": "important"
+        },
+        {
+          "label": "C",
+          "text": "unusual"
+        },
+        {
+          "label": "D",
+          "text": "abundant"
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。食料や営巣場所のように生存・繁殖に欠かせない資源を指します。提示された語の中ではimportant（重要な）が最も近く、量の多さや珍しさではありません。",
+      "sourceRefs": [
+        "pdf:task3:p153:q16"
+      ]
+    },
+    {
+      "passageId": "bird_territory",
+      "prompt": "How do robins typically mark their territorial boundaries?",
+      "options": [
+        {
+          "label": "A",
+          "text": "By building larger nests"
+        },
+        {
+          "label": "B",
+          "text": "By chasing other robins away"
+        },
+        {
+          "label": "C",
+          "text": "By producing songs"
+        },
+        {
+          "label": "D",
+          "text": "By gathering in large flocks"
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。第1段落にrobins sing to warn off rivalsと明示されています。縄張りを示す方法はさえずりで、追跡という身体的な行動の例ではありません。",
+      "sourceRefs": [
+        "pdf:task3:p153:q17"
+      ]
+    },
+    {
+      "passageId": "bird_territory",
+      "prompt": "Why does the author mention wrens and sparrows?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To suggest that both types of birds share the same nesting areas"
+        },
+        {
+          "label": "B",
+          "text": "To explain why some birds do not establish territorial boundaries"
+        },
+        {
+          "label": "C",
+          "text": "To provide a contrast with a bird that maintains a large territory"
+        },
+        {
+          "label": "D",
+          "text": "To show how different types of birds defend their territories"
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。広い狩猟域を守るhawksに対し、wrens and sparrowsは巣の周りの小さな領域だけを守るとwhileで対比します。防衛方法ではなく縄張りの大きさの違いを示す例です。",
+      "sourceRefs": [
+        "pdf:task3:p153:q18"
+      ]
+    },
+    {
+      "passageId": "bird_territory",
+      "prompt": "What does the passage indicate about gulls?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They only protect a small area near their nest."
+        },
+        {
+          "label": "B",
+          "text": "They select isolated locations for breeding."
+        },
+        {
+          "label": "C",
+          "text": "They engage in aerial attacks to defend their territories."
+        },
+        {
+          "label": "D",
+          "text": "They rely on solitary nesting to prevent competition."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。第2段落でgulls等の集団営巣鳥は混み合った営巣地のtiny spotだけを守るとあります。孤立・単独営巣とは逆で、空中攻撃の例はternsとmockingbirdsです。",
+      "sourceRefs": [
+        "pdf:task3:p153:q19"
+      ]
+    },
+    {
+      "passageId": "bird_territory",
+      "prompt": "How does the behavior of oystercatchers change once the tide rises?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They cooperate with other bird species."
+        },
+        {
+          "label": "B",
+          "text": "They focus primarily on locating food."
+        },
+        {
+          "label": "C",
+          "text": "They are more likely to defend nesting sites."
+        },
+        {
+          "label": "D",
+          "text": "They are less prone to engage in conflict."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。高潮時には採食域が水没し餌がなくなるため、conflicts quickly diminishとあります。資源の可用性が減ると争いも減り、営巣場所の防衛へ切り替えるとは述べていません。",
+      "sourceRefs": [
+        "pdf:task3:p153:q20"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,557 @@
+{
+  "id": "pdf-task3-p120-127",
+  "title": "原本移行: Social Science — Nations, Soft Power, Efficiency and Megaliths",
+  "date": "2026-10-03T20:33:00+00:00",
+  "level": "B2",
+  "task": 3,
+  "sourceLabel": "提供PDF Task 3 · PDF 120–127 / 冊子320–327ページ",
+  "verificationNote": "PDF抽出テキストと全本文・設問・選択肢・順序を照合し、明らかなOCR誤認を修正。文挿入の4位置を保持。画像取得の一時エラーにより画像照合は未完了。出版社解答p.489は未提供で、本文根拠による編集解答です。",
+  "passages": {
+    "imagined_communities": "Imagined Communities\n\nBenedict Anderson presented the concept of imagined communities in 1983 to argue that nations are artificial creations of shared belief, not pre-existing entities. He defined a nation as an imagined but sovereign political community. It is imagined because members picture a deep fellowship that binds them into a single \"people\" despite never meeting most fellow citizens.\n\nAccording to Anderson, the spread of imagined communities relied on media and institutions. Newspapers standardized vernacular print-language and produced a shared sense of time as readers encountered the same reports each morning. Schools, railways, telegraph, and later radio and cinema similarly synchronized life. He also highlighted a state-driven triad of techniques: the census categorized populations and rendered them countable, the map fixed borders and projected territorial unity, and the museum curated artifacts into a continuous national past. Together, these practices made nations conceivable and governable.\n\nIn contemporary contexts, imagined communities continue to shape national identity through digital means. Television broadcasts, social media platforms, and online news create shared experiences and narratives across geographically dispersed populations. At the same time, digital media and the Internet also challenge the traditional notions of borders and sovereignty, gradually transforming how nations are imagined.",
+    "soft_power": "Soft Power\n\nSoft power refers to a country's ability to influence others through culture, values, and diplomacy rather than military or economic force. Popularized by political scientist Joseph Nye, the concept highlights how attraction can be more effective than coercion. Unlike hard power, which depends on the application of direct pressure, soft power shapes global perceptions subtly.\n\nCulture plays a central role in soft power. Japan has extended its global presence through popular culture, cuisine, and technology, all of which captivate international audiences and enhance its image abroad. Similarly, France exerts soft power through fashion, food, and art, projecting an identity of elegance and creativity. These cultural exports boost tourism and trade while also building goodwill and shaping public opinion, allowing both nations to expand their influence.\n\nStill, soft power has limitations. Cultural initiatives may encounter resistance if viewed as propaganda or threats to local traditions. Furthermore, sustaining soft power requires investment in education, cultural exchange, and diplomacy, which can be resource-intensive. Despite such challenges, soft power remains a vital tool for nations seeking lasting influence, as it encourages mutual respect and voluntary cooperation rather than conflict.",
+    "jevons_paradox": "Jevons Paradox\n\nThe Jevons paradox is a counterintuitive phenomenon in economics, where improvements in technological efficiency can actually increase overall resource consumption instead of reducing it. Named after English economist William Stanley Jevons, the paradox was first observed with coal usage in nineteenth-century England. As steam engines became more efficient, coal demand rose because the reduced cost of operating steam engines encouraged greater use.\n\nThis paradox impacts modern resource management and environmental policy. [1] For example, greater fuel efficiency in cars may cause people to drive more, leading to higher total fuel consumption. [2] In agriculture, more efficient irrigation systems can result in greater crop production, ultimately increasing water use. [3] These responses illustrate that efficiency alone may not guarantee conservation. [4] Instead, it can change our behavior in ways that offset initial savings.\n\nAddressing the Jevons paradox requires more than improving technology. Effective policies must pair efficiency gains with regulations or incentives that guide consumption. Without these measures, technological progress may accelerate resource depletion rather than slow it. Successful environmental policy requires recognizing that technological progress alone cannot ensure resource sustainability.",
+    "megalithic_monuments": "Megalithic Monuments\n\nIn many regions of the world, colossal stones were raised and positioned thousands of years ago by early societies, leaving behind monuments that stand as evidence of their engineering capabilities and collaboration efforts. These giant structures, known as megalithic monuments, vary in size, shape, and form. For example, some feature circular arrangements like Stonehenge, while others are rectangular like the temples of Malta.\n\nResearchers have proposed many purposes for megalithic monuments. Some theories suggest they were used for burial rituals. Others believe these monuments played a role in religious ceremonies. There is also a theory based on their location and position that certain monuments were carefully aligned with solar or lunar cycles. They may have served as early astronomical observatories for tracking seasonal changes and celestial events.\n\nTo compensate for the lack of modern machinery and tools, building these monuments required advanced knowledge of geology, physics, and mathematics. Studies of the Dolmen de Menga in Spain reveal the sophisticated engineering techniques used to design sledges and counterweight systems to transport stones weighing up to 150 tons from a quarry 850 meters away. These massive stones were then positioned with such precision that the structure has remained standing for nearly six thousand years."
+  },
+  "questions": [
+    {
+      "passageId": "imagined_communities",
+      "prompt": "Why does Anderson describe nations as “imagined”?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To suggest that nations lack genuine institutional foundations"
+        },
+        {
+          "label": "B",
+          "text": "To emphasize that members feel unified despite not knowing each other personally"
+        },
+        {
+          "label": "C",
+          "text": "To argue that national identity stems from common ancestry and ethnicity"
+        },
+        {
+          "label": "D",
+          "text": "To show that governmental techniques merely uncover pre-existing communities"
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。第1段落で、ほとんどの同胞と会わなくても単一のpeopleとして深い仲間意識を思い描くと定義されています。制度が存在しない、共通祖先だけによる、既存共同体を発見する、という意味ではありません。",
+      "sourceRefs": [
+        "pdf:task3:p121:q01"
+      ]
+    },
+    {
+      "passageId": "imagined_communities",
+      "prompt": "The word “sovereign” in the passage is closest in meaning to",
+      "options": [
+        {
+          "label": "A",
+          "text": "concrete"
+        },
+        {
+          "label": "B",
+          "text": "powerful"
+        },
+        {
+          "label": "C",
+          "text": "traditional"
+        },
+        {
+          "label": "D",
+          "text": "independent"
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。sovereign political communityは主権を持つ政治共同体で、他から独立したというindependentが最も近い意味です。強力さや伝統の古さとは別の概念です。",
+      "sourceRefs": [
+        "pdf:task3:p121:q02"
+      ]
+    },
+    {
+      "passageId": "imagined_communities",
+      "prompt": "What role did newspapers play in creating imagined communities?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They replaced the telegraph as the main tool of information."
+        },
+        {
+          "label": "B",
+          "text": "They established a uniform temporal experience for individuals."
+        },
+        {
+          "label": "C",
+          "text": "They standardized spoken accents across regions."
+        },
+        {
+          "label": "D",
+          "text": "They eliminated the need for regional radio reports."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。読者が毎朝同じ報道に接することでshared sense of timeが生まれたとあります。標準化したのはprint-languageであり、話し言葉のアクセントではありません。",
+      "sourceRefs": [
+        "pdf:task3:p121:q03"
+      ]
+    },
+    {
+      "passageId": "imagined_communities",
+      "prompt": "What is suggested about digital media in relation to national identity?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It functions exactly like newspapers did in the nineteenth century."
+        },
+        {
+          "label": "B",
+          "text": "It primarily encourages civic participation over cultural belonging."
+        },
+        {
+          "label": "C",
+          "text": "It both reinforces and challenges traditional concepts of nationhood."
+        },
+        {
+          "label": "D",
+          "text": "It prevents states from using census, maps, and museums effectively."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。デジタル媒体は共有体験で国民的アイデンティティを形作る一方、国境や主権の従来概念にも挑戦するとあります。強化と変容の両面を含むCが適切です。",
+      "sourceRefs": [
+        "pdf:task3:p121:q04"
+      ]
+    },
+    {
+      "passageId": "imagined_communities",
+      "prompt": "What is the relationship between paragraphs 2 and 3?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Paragraph 3 examines the limitations of the media techniques discussed in paragraph 2."
+        },
+        {
+          "label": "B",
+          "text": "Paragraph 3 applies Anderson's framework from paragraph 2 to contemporary digital contexts."
+        },
+        {
+          "label": "C",
+          "text": "Paragraph 3 provides background information on Anderson's theory introduced in paragraph 2."
+        },
+        {
+          "label": "D",
+          "text": "Paragraph 3 suggests that the techniques in paragraph 2 are now irrelevant due to online platforms."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。第2段落は媒体や制度による共同体の形成を説明し、第3段落はその枠組みをテレビ・SNS・オンライン報道へ適用します。旧来の技法が無意味になったとは述べていません。",
+      "sourceRefs": [
+        "pdf:task3:p121:q05"
+      ]
+    },
+    {
+      "passageId": "soft_power",
+      "prompt": "The word “coercion” in the first paragraph is closest in meaning to",
+      "options": [
+        {
+          "label": "A",
+          "text": "concession"
+        },
+        {
+          "label": "B",
+          "text": "compulsion"
+        },
+        {
+          "label": "C",
+          "text": "negotiation"
+        },
+        {
+          "label": "D",
+          "text": "persuasion"
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。attractionと対比され、direct pressureによる力を説明するcoercionは強制です。compulsionが対応し、説得・交渉・譲歩とは異なります。",
+      "sourceRefs": [
+        "pdf:task3:p123:q06"
+      ]
+    },
+    {
+      "passageId": "soft_power",
+      "prompt": "What can be inferred about the effect of soft power?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It guarantees that all nations will adopt a country's cultural values."
+        },
+        {
+          "label": "B",
+          "text": "It makes conventional diplomacy and negotiation unnecessary."
+        },
+        {
+          "label": "C",
+          "text": "It redefines global viewpoints of a country in an indirect way."
+        },
+        {
+          "label": "D",
+          "text": "It allows nations to shape public opinion in other countries through propaganda."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。第1段落のshapes global perceptions subtlyと、第2段落の国のイメージ向上が根拠です。間接的に見方を変える効果であり、全世界への価値観の強制や外交不要を保証しません。宣伝と見られることはむしろ抵抗の原因です。",
+      "sourceRefs": [
+        "pdf:task3:p123:q07"
+      ]
+    },
+    {
+      "passageId": "soft_power",
+      "prompt": "Why does the author mention Japan and France?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To demonstrate that cultural exports can serve as tools of influence"
+        },
+        {
+          "label": "B",
+          "text": "To illustrate how certain nations dominate global cultural markets"
+        },
+        {
+          "label": "C",
+          "text": "To argue that only technologically advanced nations develop soft power"
+        },
+        {
+          "label": "D",
+          "text": "To show that cultural attraction is more important than economic force"
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。日本の文化・料理・技術とフランスのファッション・食・芸術が好意や世論を形成し、影響力を広げる具体例です。世界市場支配や力の優劣を論じる目的ではありません。",
+      "sourceRefs": [
+        "pdf:task3:p123:q08"
+      ]
+    },
+    {
+      "passageId": "soft_power",
+      "prompt": "What can be concluded about paragraph 3?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It expands on the diplomatic strategies briefly mentioned earlier."
+        },
+        {
+          "label": "B",
+          "text": "It highlights the challenges and limitations associated with soft power."
+        },
+        {
+          "label": "C",
+          "text": "It elaborates on the cultural exports described earlier in the passage."
+        },
+        {
+          "label": "D",
+          "text": "It introduces a new perspective that upholds the value of soft power."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。Still, soft power has limitationsで始まり、宣伝への抵抗と維持の資源負担を説明します。最後に価値を再確認しますが、段落全体の主目的は課題と限界です。",
+      "sourceRefs": [
+        "pdf:task3:p123:q09"
+      ]
+    },
+    {
+      "passageId": "soft_power",
+      "prompt": "Why might sustaining soft power be difficult for some countries?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It clashes with numerous local customs."
+        },
+        {
+          "label": "B",
+          "text": "It requires a significant level of investment."
+        },
+        {
+          "label": "C",
+          "text": "It depends too heavily on short-term trends."
+        },
+        {
+          "label": "D",
+          "text": "It can only succeed when backed by military power."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。教育・文化交流・外交への投資がresource-intensiveと明記されているので、維持に大きな資源を要することが理由です。地域の伝統と必ず衝突するとは書かれておらず、軍事力を条件ともしません。",
+      "sourceRefs": [
+        "pdf:task3:p123:q10"
+      ]
+    },
+    {
+      "passageId": "jevons_paradox",
+      "prompt": "The word “offset” in the passage is closest in meaning to",
+      "options": [
+        {
+          "label": "A",
+          "text": "heighten"
+        },
+        {
+          "label": "B",
+          "text": "substitute"
+        },
+        {
+          "label": "C",
+          "text": "counteract"
+        },
+        {
+          "label": "D",
+          "text": "control"
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。利用行動の変化が当初の節約効果を打ち消すという文脈です。counteract（相殺する）が適切で、節約を高めるheightenとは逆です。",
+      "sourceRefs": [
+        "pdf:task3:p125:q11"
+      ]
+    },
+    {
+      "passageId": "jevons_paradox",
+      "prompt": "Why does the author mention steam engines?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To provide an example that contrasts with more recent cases of fuel and water consumption"
+        },
+        {
+          "label": "B",
+          "text": "To suggest that industrialization helped solve the problem of limited resources"
+        },
+        {
+          "label": "C",
+          "text": "To introduce the origin of the idea that efficiency can sometimes increase resource use"
+        },
+        {
+          "label": "D",
+          "text": "To demonstrate that technologies of the past were more environmentally sustainable"
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。19世紀イングランドの石炭利用でfirst observedと述べ、効率改善が利用増加を招く逆説の発見の起源を示します。現代の事例とも同じ関係であり、対照例ではありません。",
+      "sourceRefs": [
+        "pdf:task3:p125:q12"
+      ]
+    },
+    {
+      "passageId": "jevons_paradox",
+      "prompt": "Where would the sentence “This effect is not limited to energy resources.” best fit?",
+      "options": [
+        {
+          "label": "A",
+          "text": "At position [1]"
+        },
+        {
+          "label": "B",
+          "text": "At position [2]"
+        },
+        {
+          "label": "C",
+          "text": "At position [3]"
+        },
+        {
+          "label": "D",
+          "text": "At position [4]"
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。車の燃料というエネルギー資源の例の後、農業の水利用の例の前に置きます。This effectが利用増加を受け、not limitedが資源の種類をエネルギーから水へ広げる橋渡しになります。",
+      "sourceRefs": [
+        "pdf:task3:p125:q13"
+      ]
+    },
+    {
+      "passageId": "jevons_paradox",
+      "prompt": "What is the relationship between paragraphs 2 and 3?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Paragraph 3 reinforces the examples given in paragraph 2 by providing additional cases of efficiency backfiring."
+        },
+        {
+          "label": "B",
+          "text": "Paragraph 3 describes the characteristics of effective policies to respond to the problem described in paragraph 2."
+        },
+        {
+          "label": "C",
+          "text": "Paragraph 3 disputes the claims in paragraph 2 by asserting that technological efficiency reduces resource consumption."
+        },
+        {
+          "label": "D",
+          "text": "Paragraph 3 dismisses the concerns raised in paragraph 2 by highlighting technological progress as the solution."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。第2段落は効率改善だけでは資源節約を保証しない問題を例示し、第3段落は規制やインセンティブを併用する政策的対応を説明します。反論でも追加事例だけでもありません。",
+      "sourceRefs": [
+        "pdf:task3:p125:q14"
+      ]
+    },
+    {
+      "passageId": "jevons_paradox",
+      "prompt": "What does the passage suggest about the role of technological progress in addressing the Jevons paradox?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It usually reduces overall consumption without government involvement."
+        },
+        {
+          "label": "B",
+          "text": "It is sufficient on its own to prevent resource depletion."
+        },
+        {
+          "label": "C",
+          "text": "It must be combined with measures to achieve resource sustainability."
+        },
+        {
+          "label": "D",
+          "text": "It should be replaced with strict regulatory approaches to be effective."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。最終段落でmust pair efficiency gains with regulations or incentivesとあります。技術を捨てて規制に置き換えるのではなく、消費を導く施策と組み合わせます。",
+      "sourceRefs": [
+        "pdf:task3:p125:q15"
+      ]
+    },
+    {
+      "passageId": "megalithic_monuments",
+      "prompt": "The word “celestial” in the passage is closest in meaning to",
+      "options": [
+        {
+          "label": "A",
+          "text": "ancient"
+        },
+        {
+          "label": "B",
+          "text": "stellar"
+        },
+        {
+          "label": "C",
+          "text": "cultural"
+        },
+        {
+          "label": "D",
+          "text": "visible"
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。solar or lunar cyclesとともに出るcelestial eventsは天体の出来事です。stellar（星・天体の）が最も近く、古代・文化・可視性という意味ではありません。",
+      "sourceRefs": [
+        "pdf:task3:p127:q16"
+      ]
+    },
+    {
+      "passageId": "megalithic_monuments",
+      "prompt": "What can be inferred about the societies that built megalithic monuments?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They operated formal administrative systems to allocate labor and resources."
+        },
+        {
+          "label": "B",
+          "text": "They had established systems for large-scale cooperation."
+        },
+        {
+          "label": "C",
+          "text": "They were inspired to create monuments for similar purposes."
+        },
+        {
+          "label": "D",
+          "text": "They established trade alliances to secure stones from distant regions."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。巨大な石の運搬・精密配置とcollaboration effortsから、大規模な協働を実行する仕組みが必要だったと推論できます。正式な行政制度や交易同盟という特定の形式までは本文にありません。",
+      "sourceRefs": [
+        "pdf:task3:p127:q17"
+      ]
+    },
+    {
+      "passageId": "megalithic_monuments",
+      "prompt": "Why does the author mention Stonehenge and the temples of Malta?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To illustrate the structural diversity of megalithic monuments"
+        },
+        {
+          "label": "B",
+          "text": "To provide examples demonstrating sophisticated engineering techniques"
+        },
+        {
+          "label": "C",
+          "text": "To claim that ritual purposes outweighed engineering needs at many monuments"
+        },
+        {
+          "label": "D",
+          "text": "To propose that the differences in shape imply different purposes"
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。直前のvary in size, shape, and formに続き、円形と長方形の例を対比します。構造の多様性を示し、形から用途の違いを断定する例ではありません。",
+      "sourceRefs": [
+        "pdf:task3:p127:q18"
+      ]
+    },
+    {
+      "passageId": "megalithic_monuments",
+      "prompt": "Which of the following is NOT mentioned in the passage as a possible purpose of megalithic monuments?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sites for burial rituals"
+        },
+        {
+          "label": "B",
+          "text": "Places for astronomical observation"
+        },
+        {
+          "label": "C",
+          "text": "Symbols of land ownership"
+        },
+        {
+          "label": "D",
+          "text": "Locations for religious ceremonies"
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。第2段落は埋葬儀式・宗教儀式・天文観測を候補として挙げます。土地所有の象徴という用途は本文中にありません。",
+      "sourceRefs": [
+        "pdf:task3:p127:q19"
+      ]
+    },
+    {
+      "passageId": "megalithic_monuments",
+      "prompt": "What does the passage indicate about the Dolmen de Menga?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It was built near its quarry to facilitate the transport of stones."
+        },
+        {
+          "label": "B",
+          "text": "It was carefully positioned in alignment with celestial cycles."
+        },
+        {
+          "label": "C",
+          "text": "Its study is based on the remaining ruins since the structure is not intact."
+        },
+        {
+          "label": "D",
+          "text": "Its construction involved advanced tools for hauling and balancing massive stones."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。第3段落にsledges and counterweight systemsを設計して最大150トンの石を運搬したとあります。天体との配置はこの建造物に限定した記述ではなく、建造物は長くstandingであり崩壊したとも述べていません。",
+      "sourceRefs": [
+        "pdf:task3:p127:q20"
+      ]
+    }
+  ]
+}

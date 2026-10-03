@@ -1,0 +1,557 @@
+{
+  "id": "pdf-task3-p132-139",
+  "title": "原本移行: Physical Science — Seismology, Ocean Debris, Tundra and Tunguska",
+  "date": "2026-10-03T20:34:00+00:00",
+  "level": "B2",
+  "task": 3,
+  "sourceLabel": "提供PDF Task 3 · PDF 132–139 / 冊子332–339ページ",
+  "verificationNote": "PDF抽出テキストと全本文・設問・選択肢・順序を照合し、明らかなOCR誤認・重複行を修正。原教材の説明内容を保持し、正答は本文中の記述に基づきます。画像取得の一時エラーにより画像照合は未完了。出版社解答p.492は未提供です。",
+  "passages": {
+    "history_seismology": "The History of Seismology\n\nIt was not until the nineteenth century that systematic efforts to scientifically understand and predict earthquakes were made. Researchers began documenting seismic activity and patterns in affected regions. Measurements of ground motion were taken using rudimentary instruments like pendulums.\n\nBy the late 1800s, seismology began to emerge as a formal scientific discipline. Early pioneers, such as John Milne, conducted studies of tremors and their propagation. Milne, often credited as a founder of modern seismology, helped develop the horizontal pendulum seismograph in the 1880s, which allowed for the continuous recording of ground movement. This enabled scientists to monitor earthquakes with increased accuracy. The continuous recording of seismic activity facilitated the identification of trends, laying the foundation for the development of predictive models in later decades.\n\nAdvancements in the twentieth and twenty-first centuries revolutionized the field. Scientists incorporated data from dense seismic networks, satellites, and sophisticated computer models to analyze fault stress and ground deformation. Recent technologies, such as real-time data sharing systems and AI-based algorithms, further enhance seismologists' capabilities. These tools make it possible to assess regional risks and issue timely warnings to residents. Nevertheless, making a precise prediction of the exact timing and location of an earthquake remains impossible.",
+    "oceanic_garbage": "Oceanic Garbage Patches\n\nOceanic garbage patches are vast areas in the world's oceans where large amounts of floating debris accumulate due to ocean currents. These patches mainly consist of discarded fishing equipment, but also include bottles, bags, and other small plastic items. The most immense is the Great Pacific Garbage Patch, which is located between Hawaii and California.\n\nThese contaminated zones disrupt marine habitats and harm many organisms. Plastic waste in these zones is ingested by fish and marine mammals. This can cause injuries, starvation, and toxic chemical buildup. Some scientists note that garbage patches may also spread invasive species, as floating objects carry organisms across oceans.\n\nAddressing this issue must begin with reducing plastic production, which drives the growth of garbage patches. Governments should implement policies that limit the use of single-use plastics. For cleanup and prevention, technologies like floating barriers can help collect existing debris, while improved recycling systems can prevent plastic from ever reaching the oceans. Ultimately, solving a problem of this global scale requires international cooperation and the collective action of all people.",
+    "arctic_tundra": "Arctic Tundra\n\nThe Arctic tundra is a vast treeless landscape located near the polar circle in North America and Eurasia. This area has persistently frigid temperatures, intense winds, and a surface layer of permafrost—a layer of soil that remains frozen throughout the year. This frozen ground makes it difficult for most plants to grow, resulting in simple vegetation like mosses, lichens, and small shrubs accounting for most plant life.\n\nDespite its harsh conditions, the tundra ecosystem supports a wide variety of animal life. These creatures have a number of physical and behavioral adaptations that enable them to survive. Musk oxen, for example, have dense fur and a thick layer of fat to insulate their bodies against the cold. Other animals, such as caribou and geese, migrate south each fall to spend the winter in areas with milder climates.\n\nThe tundra ecosystem is facing significant environmental challenges. Human activity, including resource extraction and the burning of fossil fuels, directly threatens the region's fragile biological equilibrium. Furthermore, climate change is causing the permafrost to thaw. This thawing not only alters habitats for plants and animals but also jeopardizes global human health by releasing greenhouse gases and possibly reviving ancient pathogens.",
+    "tunguska_event": "Tunguska Event\n\nOn June 30, 1908, a cataclysmic explosion that flattened trees over an area of approximately 2,000 square kilometers occurred near the Tunguska River in eastern Russia. Eyewitnesses saw the fireball from a distance of up to 800 kilometers, and seismic waves were detected as far away as Europe. The exact cause of the Tunguska Event is still unknown.\n\nWhile scientists initially assumed an asteroid must have collided with Earth, this theory had one major flaw—no crater was ever discovered. The discrepancy led to many competing hypotheses, with a Russian geologist named Vladimir Epifanov suggesting that the explosion was caused by a gas such as methane, which ignited when it leaked into the air from an underground source.\n\nThe most likely explanation, however, is that the Tunguska Event involved an asteroid or a comet that exploded before it struck our planet. According to this theory, friction from contact with air molecules as the object passed through the atmosphere generated intense heat. When it was just several kilometers above the ground, the buildup of thermal energy triggered the detonation, sending out a massive shockwave that completely devastated the surrounding countryside."
+  },
+  "questions": [
+    {
+      "passageId": "history_seismology",
+      "prompt": "What can be inferred about earthquake studies before the nineteenth century?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They focused on comparing earthquake effects across different regions."
+        },
+        {
+          "label": "B",
+          "text": "They served as the foundation for the modern field of seismology."
+        },
+        {
+          "label": "C",
+          "text": "They enabled people to predict earthquakes accurately."
+        },
+        {
+          "label": "D",
+          "text": "They were not based on a formal scientific discipline."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。第1段落で科学的・体系的な取り組みが19世紀に始まり、第2段落で正式な学問として成立し始めたとあります。それ以前に正式な科学分野として確立していなかったことが推論できます。",
+      "sourceRefs": [
+        "pdf:task3:p133:q01"
+      ]
+    },
+    {
+      "passageId": "history_seismology",
+      "prompt": "The word “systematic” in the first paragraph is closest in meaning to",
+      "options": [
+        {
+          "label": "A",
+          "text": "controversial"
+        },
+        {
+          "label": "B",
+          "text": "organized"
+        },
+        {
+          "label": "C",
+          "text": "academic"
+        },
+        {
+          "label": "D",
+          "text": "temporary"
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。systematic effortsは秩序立てて進める体系的な取り組みです。organizedが意味に合い、単に学術的というacademicより方法の整理を正確に表します。",
+      "sourceRefs": [
+        "pdf:task3:p133:q02"
+      ]
+    },
+    {
+      "passageId": "history_seismology",
+      "prompt": "Which of the following is NOT mentioned in the passage as an advancement in early seismology?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The continuous recording of seismic activity"
+        },
+        {
+          "label": "B",
+          "text": "The identification of earthquake trends"
+        },
+        {
+          "label": "C",
+          "text": "The mapping of fault zones after earthquakes"
+        },
+        {
+          "label": "D",
+          "text": "The systematic study of tremor propagation"
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。初期の進歩として連続記録、傾向の特定、震動の伝播研究が挙げられています。地震後の断層帯の地図作成はありません。第3段落の断層応力解析を初期の記述と混同しないようにします。",
+      "sourceRefs": [
+        "pdf:task3:p133:q03"
+      ]
+    },
+    {
+      "passageId": "history_seismology",
+      "prompt": "What is the relationship between paragraphs 2 and 3?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Paragraph 3 provides examples of the techniques mentioned in paragraph 2."
+        },
+        {
+          "label": "B",
+          "text": "Paragraph 3 describes more advanced developments in the field introduced in paragraph 2."
+        },
+        {
+          "label": "C",
+          "text": "Paragraph 3 challenges the effectiveness of the methods described in paragraph 2."
+        },
+        {
+          "label": "D",
+          "text": "Paragraph 3 explains the limitations of the seismological advances discussed in paragraph 2."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。第2段落は19世紀の地震学の成立と記録技術、第3段落は20・21世紀の衛星・ネットワーク・計算モデル等への発展です。末尾に予測の限界はありますが、段落全体は後の高度な進歩を説明します。",
+      "sourceRefs": [
+        "pdf:task3:p133:q04"
+      ]
+    },
+    {
+      "passageId": "history_seismology",
+      "prompt": "What can be inferred about the horizontal pendulum seismograph?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It was employed by seismologists before the nineteenth century."
+        },
+        {
+          "label": "B",
+          "text": "It was invented during a period of frequent earthquakes."
+        },
+        {
+          "label": "C",
+          "text": "It was influenced by previous earthquake recording techniques."
+        },
+        {
+          "label": "D",
+          "text": "It was primarily developed for use in laboratory settings."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。第1段落の初歩的なpendulumsによる測定から、第2段落のhorizontal pendulum seismographによる連続記録へ発展した流れが根拠です。1880年代以前の実用・地震頻度・研究室専用という条件は本文にありません。",
+      "sourceRefs": [
+        "pdf:task3:p133:q05"
+      ]
+    },
+    {
+      "passageId": "oceanic_garbage",
+      "prompt": "The word “accumulate” in the passage is closest in meaning to",
+      "options": [
+        {
+          "label": "A",
+          "text": "flow"
+        },
+        {
+          "label": "B",
+          "text": "transport"
+        },
+        {
+          "label": "C",
+          "text": "gather"
+        },
+        {
+          "label": "D",
+          "text": "divide"
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。海流によって漂流物が一か所にaccumulateするとは、集まってたまることです。gatherが対応し、輸送する・分かれるという意味ではありません。",
+      "sourceRefs": [
+        "pdf:task3:p135:q06"
+      ]
+    },
+    {
+      "passageId": "oceanic_garbage",
+      "prompt": "What is one way plastic waste can affect marine animals?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It impedes their ability to consume nutrients essential for survival."
+        },
+        {
+          "label": "B",
+          "text": "It forces them to migrate to contaminated areas for new food sources."
+        },
+        {
+          "label": "C",
+          "text": "It reduces their ability to detect predators due to visual obstruction."
+        },
+        {
+          "label": "D",
+          "text": "It increases their vulnerability to diseases due to constant stress."
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。プラスチックの摂取がstarvationを招くと書かれているため、生存に必要な栄養摂取を妨げることが読み取れます。移住、視界による捕食者検出、ストレス性の病気は説明されていません。",
+      "sourceRefs": [
+        "pdf:task3:p135:q07"
+      ]
+    },
+    {
+      "passageId": "oceanic_garbage",
+      "prompt": "All of the following are true about oceanic garbage patches EXCEPT",
+      "options": [
+        {
+          "label": "A",
+          "text": "They are primarily comprised of commercial fishing gear."
+        },
+        {
+          "label": "B",
+          "text": "They contain toxins that can accumulate within marine life."
+        },
+        {
+          "label": "C",
+          "text": "They obstruct the natural circulation patterns of seawater."
+        },
+        {
+          "label": "D",
+          "text": "They are expanding in size due to unstrained plastic production."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。本文は主な漁具、動物体内の毒性化学物質蓄積、生産による拡大を説明します。海流はごみを集める原因であり、ごみが海水循環を妨げるとは述べていません。",
+      "sourceRefs": [
+        "pdf:task3:p135:q08"
+      ]
+    },
+    {
+      "passageId": "oceanic_garbage",
+      "prompt": "What can be inferred about invasive species?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They are the main victims of marine plastic waste."
+        },
+        {
+          "label": "B",
+          "text": "They may use the garbage patches to spread to various regions."
+        },
+        {
+          "label": "C",
+          "text": "Their diet consists of food sources from the ocean."
+        },
+        {
+          "label": "D",
+          "text": "Their activity is most prominent in the waters near Hawaii."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。floating objectsがorganismsを海を越えて運ぶため、外来種がさまざまな地域に広がる可能性があります。生物が意図的にごみを利用するという意味ではなく、運ばれる経路としての利用です。",
+      "sourceRefs": [
+        "pdf:task3:p135:q09"
+      ]
+    },
+    {
+      "passageId": "oceanic_garbage",
+      "prompt": "What is the relationship between paragraphs 2 and 3?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Paragraph 3 discusses the sources of oceanic plastics compared to the risks in paragraph 2."
+        },
+        {
+          "label": "B",
+          "text": "Paragraph 3 provides examples of the environmental impacts mentioned in paragraph 2."
+        },
+        {
+          "label": "C",
+          "text": "Paragraph 3 explains possible solutions to the problems highlighted in paragraph 2."
+        },
+        {
+          "label": "D",
+          "text": "Paragraph 3 outlines climate predictions that relate to the issues in paragraph 2."
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。第2段落は生物・生息域への被害、第3段落は生産抑制、使い捨て制限、回収、再利用、国際協力という解決策を扱います。",
+      "sourceRefs": [
+        "pdf:task3:p135:q10"
+      ]
+    },
+    {
+      "passageId": "arctic_tundra",
+      "prompt": "The word “equilibrium” in the passage is closest in meaning to",
+      "options": [
+        {
+          "label": "A",
+          "text": "symmetry"
+        },
+        {
+          "label": "B",
+          "text": "balance"
+        },
+        {
+          "label": "C",
+          "text": "conflict"
+        },
+        {
+          "label": "D",
+          "text": "equality"
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。fragile biological equilibriumは壊れやすい生態学的な均衡です。balance（釣り合い）が対応し、平等や左右対称という意味ではありません。",
+      "sourceRefs": [
+        "pdf:task3:p137:q11"
+      ]
+    },
+    {
+      "passageId": "arctic_tundra",
+      "prompt": "What is one adaptation of a tundra animal mentioned in the passage?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Shedding fur annually"
+        },
+        {
+          "label": "B",
+          "text": "Storing large amounts of fat"
+        },
+        {
+          "label": "C",
+          "text": "Migrating to coastal areas"
+        },
+        {
+          "label": "D",
+          "text": "Limiting movement during winter"
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。musk oxenが厚い脂肪層を持ち、体を寒さから断熱するとあります。移動先はsouthの温暖な地域であり、沿岸という条件は述べられていません。",
+      "sourceRefs": [
+        "pdf:task3:p137:q12"
+      ]
+    },
+    {
+      "passageId": "arctic_tundra",
+      "prompt": "All of the following are mentioned as environmental threats to the tundra EXCEPT",
+      "options": [
+        {
+          "label": "A",
+          "text": "Climate change"
+        },
+        {
+          "label": "B",
+          "text": "Resource extraction"
+        },
+        {
+          "label": "C",
+          "text": "Coastal erosion"
+        },
+        {
+          "label": "D",
+          "text": "Energy generation"
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。第3段落に気候変動、資源採掘、化石燃料の燃焼が記載されています。Dはそのエネルギー利用に対応しますが、沿岸侵食は挙げられていません。",
+      "sourceRefs": [
+        "pdf:task3:p137:q13"
+      ]
+    },
+    {
+      "passageId": "arctic_tundra",
+      "prompt": "Why does the author mention ancient pathogens?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To illustrate one of the potential global risks associated with climate change"
+        },
+        {
+          "label": "B",
+          "text": "To explain how pathogens adapted to the frigid climate of the tundra"
+        },
+        {
+          "label": "C",
+          "text": "To suggest that climate change is the primary cause of disease outbreaks"
+        },
+        {
+          "label": "D",
+          "text": "To emphasize that pathogens were a major threat to ancient humans"
+        }
+      ],
+      "correct": "A",
+      "answer": "正解：A。永久凍土の融解が古い病原体を蘇らせる可能性を、global human healthへの危険として挙げます。possiblyという可能性の例で、病気発生の主因との断定ではありません。",
+      "sourceRefs": [
+        "pdf:task3:p137:q14"
+      ]
+    },
+    {
+      "passageId": "arctic_tundra",
+      "prompt": "What is the relationship between paragraphs 2 and 3?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Paragraph 3 elaborates on the types of vegetation discussed in paragraph 2."
+        },
+        {
+          "label": "B",
+          "text": "Paragraph 3 challenges the adaptation strategies explained in paragraph 2."
+        },
+        {
+          "label": "C",
+          "text": "Paragraph 3 gives examples of the migratory patterns mentioned in paragraph 2."
+        },
+        {
+          "label": "D",
+          "text": "Paragraph 3 presents the dangers faced by the ecosystem described in paragraph 2."
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。第2段落でツンドラの動物と適応を説明した後、第3段落でその生態系を脅かす人為的・気候的な危険へ進みます。適応への反論や移動の追加例ではありません。",
+      "sourceRefs": [
+        "pdf:task3:p137:q15"
+      ]
+    },
+    {
+      "passageId": "tunguska_event",
+      "prompt": "The word “cataclysmic” in the first paragraph is closest in meaning to",
+      "options": [
+        {
+          "label": "A",
+          "text": "notable"
+        },
+        {
+          "label": "B",
+          "text": "sudden"
+        },
+        {
+          "label": "C",
+          "text": "violent"
+        },
+        {
+          "label": "D",
+          "text": "diverse"
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。広大な森林をなぎ倒したcataclysmic explosionは、激烈で破壊的な爆発です。violentが最も近く、単に注目すべき・突然というだけでは強さを表し切れません。",
+      "sourceRefs": [
+        "pdf:task3:p139:q16"
+      ]
+    },
+    {
+      "passageId": "tunguska_event",
+      "prompt": "Why does the author mention Europe?",
+      "options": [
+        {
+          "label": "A",
+          "text": "To emphasize the remoteness of a region"
+        },
+        {
+          "label": "B",
+          "text": "To identify the discoverer of a phenomenon"
+        },
+        {
+          "label": "C",
+          "text": "To explain the immense size of a fireball"
+        },
+        {
+          "label": "D",
+          "text": "To show the significance of an occurrence"
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。遠くヨーロッパでも地震波を検出したという例が、爆発の大きさ・影響の重大さを示します。火球の目撃距離とは別の証拠であり、発見者を特定する目的ではありません。",
+      "sourceRefs": [
+        "pdf:task3:p139:q17"
+      ]
+    },
+    {
+      "passageId": "tunguska_event",
+      "prompt": "Why was the explanation involving an asteroid collision questioned?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A statement by a local witness was false."
+        },
+        {
+          "label": "B",
+          "text": "A piece of physical evidence was absent."
+        },
+        {
+          "label": "C",
+          "text": "A scientific experiment was inconclusive."
+        },
+        {
+          "label": "D",
+          "text": "A different theory was persuasive."
+        }
+      ],
+      "correct": "B",
+      "answer": "正解：B。第2段落のno crater was ever discoveredが根拠です。地表衝突を示すクレーターという物理的証拠がなかったため、その説明が疑問視されました。",
+      "sourceRefs": [
+        "pdf:task3:p139:q18"
+      ]
+    },
+    {
+      "passageId": "tunguska_event",
+      "prompt": "To what did Vladimir Epifanov attribute the Tunguska Event?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The acceleration of a geological process"
+        },
+        {
+          "label": "B",
+          "text": "The development of an atmospheric anomaly"
+        },
+        {
+          "label": "C",
+          "text": "The collapse of an underground structure"
+        },
+        {
+          "label": "D",
+          "text": "The emission of a flammable substance"
+        }
+      ],
+      "correct": "D",
+      "answer": "正解：D。地下から空気中へ漏れたmethane等のガスが発火したとする説です。可燃性物質の放出に対応し、地下構造の崩壊や天体衝突の説とは区別します。",
+      "sourceRefs": [
+        "pdf:task3:p139:q19"
+      ]
+    },
+    {
+      "passageId": "tunguska_event",
+      "prompt": "According to the third paragraph, what was a factor that contributed to the explosion?",
+      "options": [
+        {
+          "label": "A",
+          "text": "An external energy source"
+        },
+        {
+          "label": "B",
+          "text": "A speed reduction"
+        },
+        {
+          "label": "C",
+          "text": "A temperature change"
+        },
+        {
+          "label": "D",
+          "text": "A chemical reaction"
+        }
+      ],
+      "correct": "C",
+      "answer": "正解：C。大気を通過してintense heatが生じ、thermal energyの蓄積が爆発を引き起こしたという本文の説明が根拠です。温度上昇が対応し、速度低下や化学反応はこの段落にはありません。",
+      "sourceRefs": [
+        "pdf:task3:p139:q20"
+      ]
+    }
+  ]
+}

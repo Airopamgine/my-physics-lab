@@ -14,6 +14,8 @@ def build_task_catalog(repo: Path, legacy_bank: dict, feed: dict) -> dict:
     legacy_ids = {q["id"] for s in legacy_bank["sets"] for q in s["questions"]}
     source_index = json.loads((repo / "scripts/reading-source-index.json").read_text())
     sources = {s["id"]: s for s in source_index["sources"]}
+    pending_refs = {ref for item in source_index.get("blockedItems", [])
+                    for ref in item.get("sourceRefs", [])}
     pdf_count = 0
     for path in sorted((repo / "data/toefl-migration").glob("*.json")):
         source = json.loads(path.read_text())
@@ -35,6 +37,8 @@ def build_task_catalog(repo: Path, legacy_bank: dict, feed: dict) -> dict:
             if not refs or len(set(refs)) != len(refs):
                 raise ValueError(f"{path}: question {i} needs unique source references")
             for ref in refs:
+                if ref in pending_refs:
+                    raise ValueError(f"{path}: unresolved source item must not be published: {ref}")
                 if ref in covered_refs:
                     raise ValueError(f"{path}: source already converted: {ref}")
                 if ref.startswith("legacy:"):
@@ -123,13 +127,20 @@ def build_task_catalog(repo: Path, legacy_bank: dict, feed: dict) -> dict:
                         "sourceLabel":"これまでの通常演習","sourceUrl":"","passage":"","notes":[],"questions":questions})
     converted = len({ref[7:] for ref in covered_refs if ref.startswith("legacy:")})
     pdf_complete = all(len(s["reviewedPages"]) == s["pageCount"] for s in sources.values())
+    pending_image_pages = {(item["source"], page)
+                           for item in source_index.get("verificationPending", [])
+                           if item.get("type") == "source-image-check"
+                           for page in item.get("pages", [])}
     migration = {"legacyTotal": len(legacy_ids), "legacyConverted": converted,
                  "pdfPageTotal": sum(s["pageCount"] for s in sources.values()),
                  "pdfReviewedPages": sum(len(s["reviewedPages"]) for s in sources.values()),
                  "pdfPublished": pdf_count, "pdfTotalQuestions": pdf_count if pdf_complete else None,
                  "quickAlreadyFormatted": quick_count,
                  "answerKeysMissing": any(not s["answerKeyAvailable"] for s in sources.values()),
-                 "complete": pdf_complete and converted == len(legacy_ids)}
+                 "pdfPendingQuestions": len(pending_refs),
+                 "sourceImageChecksPendingPages": len(pending_image_pages),
+                 "complete": pdf_complete and converted == len(legacy_ids)
+                             and not pending_refs and not pending_image_pages}
     for s in sources.values():
         if len(s["reviewedPages"]) != len(set(s["reviewedPages"])) or any(p < 1 or p > s["pageCount"] for p in s["reviewedPages"]):
             raise ValueError("Invalid reviewed page coverage")
