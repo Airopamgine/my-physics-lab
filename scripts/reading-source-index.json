@@ -1861,7 +1861,17 @@
         70,
         71,
         72,
-        73
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83
       ],
       "pageItems": {
         "1": [],
@@ -2116,6 +2126,42 @@
           "pdf:task3:p073:q08",
           "pdf:task3:p073:q09",
           "pdf:task3:p073:q10"
+        ],
+        "74": [],
+        "75": [
+          "pdf:task3:p075:q11",
+          "pdf:task3:p075:q12",
+          "pdf:task3:p075:q13",
+          "pdf:task3:p075:q14",
+          "pdf:task3:p075:q15"
+        ],
+        "76": [],
+        "77": [
+          "pdf:task3:p077:q16",
+          "pdf:task3:p077:q17",
+          "pdf:task3:p077:q18",
+          "pdf:task3:p077:q19",
+          "pdf:task3:p077:q20"
+        ],
+        "78": [],
+        "79": [
+          "pdf:task3:p079:qexample-insertion"
+        ],
+        "80": [
+          "pdf:task3:p080:qpractice01",
+          "pdf:task3:p080:qpractice02"
+        ],
+        "81": [
+          "pdf:task3:p081:qpractice03",
+          "pdf:task3:p081:qpractice04"
+        ],
+        "82": [],
+        "83": [
+          "pdf:task3:p083:q01",
+          "pdf:task3:p083:q02",
+          "pdf:task3:p083:q03",
+          "pdf:task3:p083:q04",
+          "pdf:task3:p083:q05"
         ]
       }
     },
@@ -3399,16 +3445,6 @@
     {
       "source": "task3",
       "pages": [
-        74,
-        75,
-        76,
-        77,
-        78,
-        79,
-        80,
-        81,
-        82,
-        83,
         84,
         85,
         86,
