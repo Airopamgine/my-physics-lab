@@ -1,0 +1,241 @@
+{
+  "id": "pdf-task2-p116-124",
+  "title": "Read in Daily Life · Forms, Receipts, Menus, Invoices, and Schedules",
+  "task": 2,
+  "date": "2026-10-03T18:00:00+02:00",
+  "level": "B1–B2",
+  "sourceLabel": "提供PDF Task 2 · PDF 116–124ページ／冊子192–199ページ · Form Example問1–2・Test問01–15",
+  "verificationNote": "原本ページで例題、6つの実用文書、本文、金額、日時、設問、選択肢、順序を照合しました。PDF 116ページは概要、124ページは演習のない終端ページです。例題2問は紙面掲載の解答表示と一致しています。Test 15問は出版社の巻末解答表（冊子450ページ）が未提供のため、文書の明示情報と一意に導ける推論に基づく編集解答です。",
+  "passages": {
+    "dance_survey": "Class Satisfaction Survey\n\nThank you for taking a class at Rhythm Street Dance Academy! Your feedback helps us improve our classes and provide the best possible experience. Please take a moment to fill out this survey. Upon completion, you will receive a 10 percent discount on your next class.\n\nStudent Name: Kathy Chen\nCourse Name: Hip-Hop Foundations\nInstructor Name: Ethan Brooks\n\nRatings (Poor / Fair / Good / Excellent)\nQuality of Instruction: Excellent\nClass Choreography: Good\nMusic Selection: Excellent\nFacility: Good\n\nComment:\nThe instructor had amazing energy and really made the class fun! The choreography was challenging but manageable. The studio space was clean and spacious, perfect for practicing. However, the ventilation in the practice room could be better. It felt a bit stuffy during the class after a lot of activity. I'm excited to continue my dance journey here!",
+    "brentwood_receipt": "Brentwood Department Store\nServing Chicago for almost two decades!\n\nDate: August 18 | Branch: 10th Street\nLaptop Bag: $20.00\nBattery Charger: $5.00\nTumbler: $12.00\nBicycle Lock: $18.00\nAll electronics are 70 percent off.\nTax: $6.00\nTotal: $61.00\n\nWe are open until 10 P.M. in July and August. Our closing time returns to 9 P.M. in September.",
+    "salsa_menu": "Salsa on Wheels\nThe most popular food truck in San Diego!\n\nLunch Specials\nChicken Burrito: $8.00\nFish Taco: $7.00\nBeef Quesadilla: $10.00\n\nOur seafood dishes include whatever is freshest at the market each day. Leave a review on our website to get a digital coupon for a complimentary soda.",
+    "electromarket_receipt": "ElectroMarket\n1741 Talbot Avenue | Tel: (701) 555-8000\n\nDate: April 10 | Cashier: P. Blanda\nUSB charging cable: $25.00\n50% clearance discount: −$12.50\nePhone Max (black): $499.00\nSubtotal: $511.50\nSales Tax (8%): $40.92\nTotal: $552.42\nPayment Method: Cash\n\nPlease save this receipt for warranty or returns. All sales final on sale items.",
+    "fresh_farms_invoice": "Fresh Farms — Wholesale Produce Supplier\n\nInvoice #: 948958\nBill To: Casey Robbins | Account #: 938475 | 555-0394\nDate: May 13\nShip To: Belmont Diner, 1402 Station St., Seattle, WA 98039\n\nRomaine Lettuce, 10 kilograms: $40.00\nWhite Potatoes, 50 kilograms: $35.00\nGreen Onions, 20 kilograms: $25.00\nTax: $15.00\nDelivery: N/A\nTotal: $115.00\n\nNotes: Shipping fees are waived for orders of $100 or more. Otherwise, a $15 delivery fee is applied. Clients with business accounts are required to make full payment within 21 days of receipt of goods. Failure to do so will result in a late-payment penalty fee.\n\nPlease confirm the quality of the goods immediately upon arrival. If any items are spoiled, take a picture and send it to service@freshfarms.com. The value of the spoiled items will then be credited to your account.",
+    "bradley_schedule": "The Bradley Institute's Human Resources and Development Conference will be held on September 3. It is expected to attract more than twice the number of participants as in previous years.\n\n9:00 A.M.–10:00 A.M. — Tina Ellis — Effective Screening Methods to Identify Talented Applicants\n10:30 A.M.–11:30 A.M. — Bill Cooke — How to Equip Experienced Employees with New Skills\nLunch\n1:30 P.M.–2:30 P.M. — Sara Yang — Compensation: The Relationship Between Salary and Benefits\n3:00 P.M.–4:00 P.M. — Matt Gomez — The Role of Employee Feedback in Shaping Company Policies\n\nTo sign up for the conference, visit www.bradleyinstitute.com. There is a $25 registration fee. However, a special price of $20 per person is offered for groups of 15 or more. Call events coordinator Dale Peterson at 555-0938 if this applies to you.",
+    "metro_application": "Metro Sportswear — Application Form\n\nPosition Applied for: Sales Representative\nDate of Availability: May 25\nPreferred Location: Any store in Fresno\nHours: Part-time\n\nPersonal Information\nName: Neal Owen | E-mail: n.owen@ymail.com\nAddress: 15 Elm St., Fresno, California 93611 | Phone: 555-0093\n\nEducation\nCoast High School — High School Diploma\nCheswick College — Enrolled (third-year business major)\n\nEmployment History\nVera Office Supply — Cashier (1 year, 2 months)\nCore Sportswear — Sales Representative (8 months)\n\nNotes: I am looking for a part-time summer job. However, I should mention that I have agreed to volunteer at an academic conference organized by my school, so I will need to take the first week of August off. I hope this won't be a problem. Thank you for considering my application, and feel free to contact me if you have any questions."
+  },
+  "questions": [
+    {
+      "passageId": "dance_survey",
+      "prompt": "What will Ms. Chen receive after completing the survey?",
+      "options": [
+        {"label": "A", "text": "A discount on studio rentals"},
+        {"label": "B", "text": "A free class voucher"},
+        {"label": "C", "text": "A free guest pass for a friend"},
+        {"label": "D", "text": "A discount on the tuition fee"}
+      ],
+      "correct": "D",
+      "answer": "The instructions promise a 10 percent discount on her next class, which is a reduction in the class tuition fee. 正解：D（紙面掲載の解答と一致）。",
+      "sourceRefs": ["pdf:task2:p117:qexample1"]
+    },
+    {
+      "passageId": "dance_survey",
+      "prompt": "What is Ms. Chen's complaint?",
+      "options": [
+        {"label": "A", "text": "The instructor is unfriendly."},
+        {"label": "B", "text": "The choreography is too difficult."},
+        {"label": "C", "text": "The practice room is poorly ventilated."},
+        {"label": "D", "text": "The studio space is too small and cramped."}
+      ],
+      "correct": "C",
+      "answer": "She says the ventilation could be better and that the room felt stuffy. 正解：C（紙面掲載の解答と一致）。The choreography was challenging but manageable, and the studio was spacious.",
+      "sourceRefs": ["pdf:task2:p117:qexample2"]
+    },
+    {
+      "passageId": "brentwood_receipt",
+      "prompt": "Which item was discounted?",
+      "options": [
+        {"label": "A", "text": "Laptop Bag"},
+        {"label": "B", "text": "Battery Charger"},
+        {"label": "C", "text": "Tumbler"},
+        {"label": "D", "text": "Bicycle Lock"}
+      ],
+      "correct": "B",
+      "answer": "The receipt states that electronics are discounted. Of the four listed products, the battery charger is the electronic item. 正解：B。",
+      "sourceRefs": ["pdf:task2:p118:q01"]
+    },
+    {
+      "passageId": "brentwood_receipt",
+      "prompt": "What can be inferred about the Brentwood Department Store?",
+      "options": [
+        {"label": "A", "text": "It has opened branches in multiple cities."},
+        {"label": "B", "text": "It extends its operating hours in the summer."},
+        {"label": "C", "text": "It will hold a promotional event in September."},
+        {"label": "D", "text": "It has been in operation for over 20 years."}
+      ],
+      "correct": "B",
+      "answer": "The store closes at 10 P.M. in July and August but returns to a 9 P.M. closing time in September, so it stays open longer during summer. 正解：B。",
+      "sourceRefs": ["pdf:task2:p118:q02"]
+    },
+    {
+      "passageId": "salsa_menu",
+      "prompt": "What is suggested about the fish taco?",
+      "options": [
+        {"label": "A", "text": "It is only offered at lunch time."},
+        {"label": "B", "text": "Its availability is limited on weekdays."},
+        {"label": "C", "text": "Its ingredients change regularly."},
+        {"label": "D", "text": "It is the most popular menu item."}
+      ],
+      "correct": "C",
+      "answer": "Seafood dishes use whatever is freshest at the market each day, so the seafood ingredient in the fish taco can change. 正解：C。",
+      "sourceRefs": ["pdf:task2:p119:q03"]
+    },
+    {
+      "passageId": "salsa_menu",
+      "prompt": "How can customers get a free beverage?",
+      "options": [
+        {"label": "A", "text": "By placing an advance order"},
+        {"label": "B", "text": "By posting an online review"},
+        {"label": "C", "text": "By purchasing a lunch special"},
+        {"label": "D", "text": "By downloading an application"}
+      ],
+      "correct": "B",
+      "answer": "Customers who leave a review on the website receive a digital coupon for a complimentary soda. 正解：B。",
+      "sourceRefs": ["pdf:task2:p119:q04"]
+    },
+    {
+      "passageId": "electromarket_receipt",
+      "prompt": "How much was paid in cash?",
+      "options": [
+        {"label": "A", "text": "$40.92"},
+        {"label": "B", "text": "$499.00"},
+        {"label": "C", "text": "$511.50"},
+        {"label": "D", "text": "$552.42"}
+      ],
+      "correct": "D",
+      "answer": "The payment method is cash, so the amount paid in cash is the receipt total of $552.42. 正解：D。$511.50 is the subtotal and $40.92 is the tax.",
+      "sourceRefs": ["pdf:task2:p120:q05"]
+    },
+    {
+      "passageId": "electromarket_receipt",
+      "prompt": "What can be inferred about the USB charging cable?",
+      "options": [
+        {"label": "A", "text": "It was available in only one color."},
+        {"label": "B", "text": "It is for use with a mobile phone only."},
+        {"label": "C", "text": "It cannot be returned."},
+        {"label": "D", "text": "It was previously used."}
+      ],
+      "correct": "C",
+      "answer": "The cable received a 50 percent clearance discount, making it a sale item; the receipt says all sales are final on sale items. Therefore, it cannot be returned. 正解：C。",
+      "sourceRefs": ["pdf:task2:p120:q06"]
+    },
+    {
+      "passageId": "fresh_farms_invoice",
+      "prompt": "What is suggested about Ms. Robbins?",
+      "options": [
+        {"label": "A", "text": "She is a new client of Fresh Farms."},
+        {"label": "B", "text": "She is the owner of a restaurant."},
+        {"label": "C", "text": "She is required to pay a penalty fee."},
+        {"label": "D", "text": "She is eligible to receive a discount."}
+      ],
+      "correct": "B",
+      "answer": "The wholesale produce invoice is billed to Casey Robbins and shipped to Belmont Diner, supporting the inference that she owns or operates the restaurant. 正解：B。No late-payment penalty has yet been incurred, and the waived delivery fee is not presented as a discount.",
+      "sourceRefs": ["pdf:task2:p121:q07"]
+    },
+    {
+      "passageId": "fresh_farms_invoice",
+      "prompt": "What must customers do to avoid a delivery fee?",
+      "options": [
+        {"label": "A", "text": "Sign up for a special promotion"},
+        {"label": "B", "text": "Create a business account"},
+        {"label": "C", "text": "Make an advanced payment"},
+        {"label": "D", "text": "Place a minimum order"}
+      ],
+      "correct": "D",
+      "answer": "Shipping is free for orders of $100 or more; otherwise, a $15 fee applies. Customers must therefore place an order meeting the $100 minimum. 正解：D。",
+      "sourceRefs": ["pdf:task2:p121:q08"]
+    },
+    {
+      "passageId": "fresh_farms_invoice",
+      "prompt": "Why would a customer send an image to Fresh Farms?",
+      "options": [
+        {"label": "A", "text": "To indicate a product preference"},
+        {"label": "B", "text": "To request a partial refund"},
+        {"label": "C", "text": "To confirm arrival of a shipment"},
+        {"label": "D", "text": "To demand replacement of an item"}
+      ],
+      "correct": "B",
+      "answer": "A customer sends a photograph of spoiled items so their value can be credited to the account, which functions as a partial refund. 正解：B。The instructions promise credit, not replacement.",
+      "sourceRefs": ["pdf:task2:p121:q09"]
+    },
+    {
+      "passageId": "bradley_schedule",
+      "prompt": "What can be inferred about the Bradley Institute?",
+      "options": [
+        {"label": "A", "text": "It postponed an event until September 3."},
+        {"label": "B", "text": "It specializes in corporate training programs."},
+        {"label": "C", "text": "It has organized conferences previously."},
+        {"label": "D", "text": "It offers consulting services to companies."}
+      ],
+      "correct": "C",
+      "answer": "Attendance is expected to be more than twice the number in previous years, showing that the institute held the conference before. 正解：C。",
+      "sourceRefs": ["pdf:task2:p122:q10"]
+    },
+    {
+      "passageId": "bradley_schedule",
+      "prompt": "When will the presentation about training begin?",
+      "options": [
+        {"label": "A", "text": "At 9:00 A.M."},
+        {"label": "B", "text": "At 10:30 A.M."},
+        {"label": "C", "text": "At 1:30 P.M."},
+        {"label": "D", "text": "At 3:00 P.M."}
+      ],
+      "correct": "B",
+      "answer": "The presentation about equipping experienced employees with new skills—training—begins at 10:30 A.M. 正解：B。",
+      "sourceRefs": ["pdf:task2:p122:q11"]
+    },
+    {
+      "passageId": "bradley_schedule",
+      "prompt": "Why would a participant contact Mr. Peterson?",
+      "options": [
+        {"label": "A", "text": "To confirm a registration date"},
+        {"label": "B", "text": "To request a discounted rate"},
+        {"label": "C", "text": "To arrange a group session"},
+        {"label": "D", "text": "To discuss an event topic"}
+      ],
+      "correct": "B",
+      "answer": "Groups of 15 or more receive the reduced $20 rate and are told to call Dale Peterson. 正解：B。",
+      "sourceRefs": ["pdf:task2:p122:q12"]
+    },
+    {
+      "passageId": "metro_application",
+      "prompt": "What is indicated about Metro Sportswear?",
+      "options": [
+        {"label": "A", "text": "It is only hiring part-time staff."},
+        {"label": "B", "text": "It recently relocated to Fresno."},
+        {"label": "C", "text": "It operates multiple branches in Fresno."},
+        {"label": "D", "text": "It is planning to open a new store."}
+      ],
+      "correct": "C",
+      "answer": "The form lets the applicant choose “any store in Fresno,” indicating that Metro Sportswear has more than one Fresno location. 正解：C。",
+      "sourceRefs": ["pdf:task2:p123:q13"]
+    },
+    {
+      "passageId": "metro_application",
+      "prompt": "All of the following statements are true about Mr. Owen EXCEPT:",
+      "options": [
+        {"label": "A", "text": "He is a former student of Coast High School."},
+        {"label": "B", "text": "He is in his third year of study at college."},
+        {"label": "C", "text": "He has worked for Metro Sportswear before."},
+        {"label": "D", "text": "He has over a year's experience as a cashier."}
+      ],
+      "correct": "C",
+      "answer": "He previously worked for Core Sportswear, not Metro Sportswear. The diploma, third-year college status, and 1 year 2 months of cashier experience confirm A, B, and D. 正解：C。",
+      "sourceRefs": ["pdf:task2:p123:q14"]
+    },
+    {
+      "passageId": "metro_application",
+      "prompt": "Why will Mr. Owen be required to take leave in August?",
+      "options": [
+        {"label": "A", "text": "To join a study-abroad program"},
+        {"label": "B", "text": "To assist with a university event"},
+        {"label": "C", "text": "To volunteer at a local charity"},
+        {"label": "D", "text": "To take an academic course"}
+      ],
+      "correct": "B",
+      "answer": "He will volunteer at an academic conference organized by his school, so he needs leave to assist with a university event. 正解：B。",
+      "sourceRefs": ["pdf:task2:p123:q15"]
+    }
+  ]
+}

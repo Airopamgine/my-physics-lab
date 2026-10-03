@@ -548,9 +548,9 @@ class TaskCatalogTests(unittest.TestCase):
         self.assertEqual(source['pageItems']['62'], [])
         self.assertEqual(source['pageItems']['63'], refs[15:])
         self.assertIn(index['lastSource'], {item['id'] for item in index['sources']})
-        blocker = next(item for item in index['blockedItems']
-                       if item['source'] == 'task2')
-        self.assertEqual(blocker['pages'], list(range(116, 125)))
+        blockers = {item['source']: item for item in index['blockedItems']}
+        self.assertNotIn('task2', blockers)
+        self.assertEqual(blockers['task3']['pages'], list(range(64, 155)))
 
     def test_reading_diagnostic_preserves_all_twenty_answers(self):
         bank = self.build()
@@ -799,9 +799,9 @@ class TaskCatalogTests(unittest.TestCase):
         self.assertIn(6, source['reviewedPages'])
         self.assertEqual(source['pageItems']['6'][30:45], refs)
         self.assertIn(index['lastSource'], {item['id'] for item in index['sources']})
-        blocker = next(item for item in index['blockedItems']
-                       if item['source'] == 'task2')
-        self.assertEqual(blocker['pages'], list(range(116, 125)))
+        blockers = {item['source']: item for item in index['blockedItems']}
+        self.assertNotIn('task2', blockers)
+        self.assertEqual(blockers['task3']['pages'], list(range(64, 155)))
 
     def test_vocabulary_day05_part4_completes_all_sixty_headwords(self):
         bank = self.build()
@@ -829,9 +829,9 @@ class TaskCatalogTests(unittest.TestCase):
         self.assertEqual(len(source['pageItems']['6']), 60)
         self.assertEqual(source['pageItems']['6'][45:], refs)
         self.assertIn(index['lastSource'], {item['id'] for item in index['sources']})
-        blocker = next(entry for entry in index['blockedItems']
-                       if entry['source'] == 'task2')
-        self.assertEqual(blocker['pages'], list(range(116, 125)))
+        blockers = {item['source']: item for item in index['blockedItems']}
+        self.assertNotIn('task2', blockers)
+        self.assertEqual(blockers['task3']['pages'], list(range(64, 155)))
 
     def test_vocabulary_day06_part1_preserves_first_fifteen_headwords(self):
         bank = self.build()
@@ -1635,7 +1635,7 @@ class TaskCatalogTests(unittest.TestCase):
 
         index = json.loads((ROOT / 'scripts/reading-source-index.json').read_text())
         source = next(s for s in index['sources'] if s['id'] == 'task2')
-        self.assertEqual(source['reviewedPages'], list(range(1, 116)))
+        self.assertEqual(source['reviewedPages'], list(range(1, 125)))
         self.assertEqual(source['pageItems']['108'], [])
         for page in range(109, 116):
             page_refs = [ref for ref in expected_refs if f':p{page:03d}:' in ref]
