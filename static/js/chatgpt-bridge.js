@@ -31,6 +31,16 @@
       ""
     ];
 
+    if (details.writingReview) {
+      lines.splice(4, 7,
+        "1. Review task fulfillment, organization, supporting details, appropriate register, and language use. Treat the model as one example, not the only valid answer.",
+        "2. Explain in Japanese: strengths, missing task requirements, and the most useful improvements. Quote short English examples from my response.",
+        "3. Give a minimal correction preserving my ideas, then a stronger version that still answers the same task. Explain substantive changes.",
+        "4. Finish with three reusable expressions and a concrete revision checklist. Do not invent personal facts or research findings.",
+        "5. Do not assign an official TOEFL score. If I explicitly request a 0–5 rubric estimate, label it an unofficial estimate and justify it with the rubric.",
+        "");
+    }
+
     appendSection(lines, "Source", details.source);
     appendSection(lines, "Set", details.setTitle);
     appendSection(lines, "Section / task", [details.section, details.task].filter(Boolean).join(" / "));
