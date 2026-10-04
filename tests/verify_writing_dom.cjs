@@ -9,6 +9,9 @@ const app = fs.readFileSync('static/js/writing-lab.js', 'utf8');
 const bridge = fs.readFileSync('static/js/chatgpt-bridge.js', 'utf8');
 const KEY = 'mastersPhysicsLab.writingLab.v1';
 const priorKey = 'mastersPhysicsLab.englishLibraryProgress.v1';
+const sentences = bank.exercises.filter(q => q.type === 'sentence');
+const grammar = bank.exercises.filter(q => q.type === 'grammar');
+const essays = bank.exercises.filter(q => ['email', 'discussion'].includes(q.type));
 const tick = () => new Promise(resolve => setTimeout(resolve, 0));
 
 async function boot(saved, config = {}) {
@@ -40,21 +43,23 @@ function open(t, q) {
   const button = t.d.querySelector(`[data-writing-start="${q.id}"]`);
   assert(button, `Missing exercise ${q.id}`); button.click();
 }
-function solve(t, q, wrong = false) {
-  const order = [...q.solutions[0]];
-  if (wrong) [order[0], order[1]] = [order[1], order[0]];
+function solve(t, q, wrong = false, solution = q.solutions[0]) {
+  const order = [...solution];
+  if (wrong) order.reverse();
   order.forEach(i => t.d.querySelector(`[data-writing-tile="${i}"]`).click());
   click(t, 'check');
 }
 
 (async () => {
   const t = await boot();
-  assert(t.d.getElementById('writing-total').textContent.includes('30演習'));
+  assert(t.d.getElementById('writing-total').textContent.includes(`${bank.exercises.length}演習`));
+  assert.strictEqual(t.d.querySelectorAll('.writing-reference').length, bank.guides.length);
   for (const q of bank.exercises) {
     open(t, q);
     assert.strictEqual(t.d.getElementById('writing-exercise-title').textContent, q.title);
     assert(t.d.getElementById('writing-prompt').textContent.includes(q.context || q.prompt));
     assert(t.d.getElementById('writing-review').hidden, `Premature model: ${q.id}`);
+    if (q.editorNote) assert(t.d.getElementById('writing-prompt').textContent.includes(q.editorNote));
     if (q.type === 'sentence') {
       assert(t.d.getElementById('writing-check').disabled);
       solve(t, q, true);
@@ -66,6 +71,31 @@ function solve(t, q, wrong = false) {
       assert(t.d.getElementById('writing-check').disabled);
       assert(t.d.getElementById('writing-review').hidden);
       click(t, 'clear'); solve(t, q);
+      for (const solution of q.solutions.slice(1)) {
+        click(t, 'clear'); solve(t, q, false, solution);
+        assert.strictEqual(t.d.getElementById('writing-feedback').dataset.result, 'correct', `${q.id} alternative`);
+      }
+      const twins = q.solutions[0].find((index, slot) => q.solutions[0].some((other, at) => at > slot && q.tiles[index] === q.tiles[other]));
+      if (twins !== undefined) {
+        const equivalent = [...q.solutions[0]], positions = equivalent.map((index, slot) => q.tiles[index] === q.tiles[twins] ? slot : -1).filter(n => n >= 0);
+        [equivalent[positions[0]], equivalent[positions[1]]] = [equivalent[positions[1]], equivalent[positions[0]]];
+        click(t, 'clear'); solve(t, q, false, equivalent);
+        assert.strictEqual(t.d.getElementById('writing-feedback').dataset.result, 'correct', `${q.id} duplicate tile identity`);
+      }
+    } else if (q.type === 'grammar') {
+      assert(t.d.getElementById('writing-check').disabled);
+      assert(t.d.getElementById('writing-essay-panel').hidden);
+      assert(t.d.getElementById('writing-frame').hidden);
+      q.choices.forEach((text, i) => assert(t.d.querySelector(`[data-writing-choice="${i}"]`).parentElement.textContent.includes(text)));
+      for (let i = 0; i < q.choices.length; i++) {
+        if (i === q.correctIndex) continue;
+        t.d.querySelector(`[data-writing-choice="${i}"]`).click(); click(t, 'check');
+        assert.strictEqual(t.d.getElementById('writing-feedback').dataset.result, 'incorrect', `${q.id} choice ${i}`);
+      }
+      t.d.querySelector(`[data-writing-choice="${q.correctIndex}"]`).click();
+      assert(t.d.getElementById('writing-review').hidden); click(t, 'check');
+      assert.strictEqual(t.d.getElementById('writing-feedback').dataset.result, 'correct', q.id);
+      assert.strictEqual(t.saved().records[q.id].choice, q.correctIndex);
     } else {
       assert(t.d.getElementById('writing-finish').disabled);
       assert(t.d.getElementById('writing-export').disabled);
@@ -101,8 +131,9 @@ function solve(t, q, wrong = false) {
     q.phrases.forEach(text => assert(t.d.getElementById('writing-explanation').textContent.includes(text)));
     assert.strictEqual(t.w.localStorage.getItem(priorKey), '{"answers":{"keep-me":true}}');
   }
-  assert(t.d.getElementById('writing-progress').textContent.includes('10/10'));
-  assert(t.d.getElementById('writing-progress').textContent.includes('20/20'));
+  assert(t.d.getElementById('writing-progress').textContent.includes(`${sentences.length}/${sentences.length}`));
+  assert(t.d.getElementById('writing-progress').textContent.includes(`${grammar.length}/${grammar.length}`));
+  assert(t.d.getElementById('writing-progress').textContent.includes(`${essays.length}/${essays.length}`));
   const snapshot = t.saved();
   const reload = await boot(snapshot);
   assert(!reload.d.getElementById('writing-runner').hidden);
@@ -110,9 +141,22 @@ function solve(t, q, wrong = false) {
   click(reload, 'close'); type(reload, 'search', '');
   reload.d.getElementById('writing-filter').value = 'done';
   reload.d.getElementById('writing-filter').dispatchEvent(new reload.w.Event('change'));
-  assert.strictEqual(reload.d.querySelectorAll('[data-writing-start]').length, 10);
+  assert.strictEqual(reload.d.querySelectorAll('[data-writing-start]').length, bank.exercises.filter(q => q.type === bank.exercises.at(-1).type).length);
+  reload.d.querySelector('[data-writing-task="grammar"]').click();
+  assert.strictEqual(reload.d.querySelectorAll('[data-writing-start]').length, grammar.length);
+  reload.d.querySelector('[data-writing-task="sentence"]').click();
+  assert.strictEqual(reload.d.querySelectorAll('[data-writing-start]').length, sentences.length);
   t.dom.window.close(); reload.dom.window.close();
 
+  const mcq = grammar[0];
+  const restoredChoice = await boot({ version: 1, task: 'grammar', lastId: mcq.id, records: { [mcq.id]: { choice: mcq.correctIndex, checked: true } } });
+  assert.strictEqual(restoredChoice.d.getElementById('writing-feedback').dataset.result, 'correct');
+  assert.strictEqual(restoredChoice.d.querySelector('input[name="writing-choice"]:checked').value, String(mcq.correctIndex));
+  restoredChoice.dom.window.close();
+  const invalidChoice = await boot({ version: 1, task: 'grammar', lastId: mcq.id, records: { [mcq.id]: { choice: 99, checked: true } } });
+  assert(invalidChoice.d.getElementById('writing-check').disabled);
+  assert(invalidChoice.d.getElementById('writing-review').hidden);
+  invalidChoice.dom.window.close();
   const email = bank.exercises.find(q => q.type === 'email');
   const timer = await boot(); open(timer, email);
   type(timer, 'answer', 'The timer must never delete this draft.');
@@ -142,7 +186,7 @@ function solve(t, q, wrong = false) {
 
   for (const corrupt of ['null', '[]', '{bad json', '{"version":1,"records":[]}']) {
     const broken = await boot(corrupt);
-    assert.strictEqual(broken.d.querySelectorAll('[data-writing-start]').length, 10);
+    assert.strictEqual(broken.d.querySelectorAll('[data-writing-start]').length, sentences.length);
     assert(broken.d.getElementById('writing-status').textContent.includes('保存済みデータ'));
     broken.dom.window.close();
   }
@@ -156,7 +200,7 @@ function solve(t, q, wrong = false) {
   const network = await boot(undefined, { fetch: () => ({ ok: !fail, json: async () => bank }) });
   assert(!network.d.getElementById('writing-retry').hidden);
   fail = false; click(network, 'retry'); await tick();
-  assert.strictEqual(network.d.querySelectorAll('[data-writing-start]').length, 10);
+  assert.strictEqual(network.d.querySelectorAll('[data-writing-start]').length, sentences.length);
   assert.strictEqual(network.requests(), 2);
   network.dom.window.close();
   // Exercise the actual bridge factory and manual-copy fallback, without opening
@@ -177,5 +221,13 @@ function solve(t, q, wrong = false) {
   const legacyPrompt = copy.w.ToeflChatGPTBridge.buildPrompt({ task: 'Reading', userAnswer: 'A' });
   assert(legacyPrompt.includes('For a multiple-choice answer'));
   copy.dom.window.close();
-  console.log('Writing DOM verified: all 30 exercises, 10 correct/wrong keys, 20 essay reviews, draft/revision persistence, timer, export, search/filter, storage and network recovery.');
+  // An original daily exercise keeps provenance separate from the PDF source.
+  const original = { ...email, id: 'writing-original-fixture', collection: 'Original Writing', sourceRefs: ['original:writing:2099-01-01:email:1'], source: { kind: 'original', date: '2099-01-01' } };
+  const originalBank = { ...bank, exercises: [...bank.exercises, original] };
+  const daily = await boot(undefined, { fetch: () => ({ ok: true, json: async () => originalBank }) });
+  open(daily, original);
+  assert(daily.d.getElementById('writing-source').textContent.includes('Original Writing · 2099-01-01'));
+  assert(!daily.d.getElementById('writing-source').textContent.includes('undefined'));
+  daily.dom.window.close();
+  console.log(`Writing DOM verified: all ${bank.exercises.length} exercises, ${sentences.length} sentence keys and all alternatives, ${grammar.length} MCQ keys and every wrong choice, ${essays.length} essay reviews, source notes, guides, original provenance, persistence, timers, export, filters, and recovery.`);
 })().catch(error => { console.error(error); process.exitCode = 1; });
