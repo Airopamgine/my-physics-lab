@@ -1,0 +1,53 @@
+<section class="daily-study" id="daily-study" aria-labelledby="daily-title"
+  data-plan-url="{{ "data/toefl-daily-plan.json" | relURL }}">
+  <div class="daily-heading">
+    <div>
+      <p class="toefl-eyebrow">Your daily route to B2</p>
+      <h2 id="daily-title">今日の学習メニュー</h2>
+      <p id="daily-date">日付と教材を確認しています…</p>
+    </div>
+    <div class="daily-summary"><strong id="daily-total">0 / 8</strong><span id="daily-time">約1時間</span></div>
+  </div>
+  <p id="daily-status" role="status">学習ページを開くとメニューを読み込みます。</p>
+  <button class="toefl-button toefl-button--secondary" id="daily-retry" type="button" hidden>メニューを再読み込み</button>
+  <div id="daily-content" hidden>
+    <div class="daily-focus">
+      <span id="daily-phase" class="toefl-section-chip"></span>
+      <h3 id="daily-focus-title"></h3>
+      <p id="daily-focus-en"></p><p id="daily-focus-ja"></p>
+    </div>
+    <div class="daily-toolbar">
+      <button id="daily-next" class="toefl-button toefl-button--primary" type="button">次の学習を始める →</button>
+      <label>難易度 <select id="daily-level"><option value="path">B1からB2へ</option><option value="b2">B2の実践</option></select></label>
+    </div>
+    <p class="daily-note">上から順に進めれば、毎日すべての技能を練習できます。今日の教材と途中の記録は保存され、端末の日付が変わると新しいメニューになります。保存済みの解答があれば一度消し、自力で解き直しましょう。難易度の変更は翌日のメニューから反映します。</p>
+    <ol id="daily-cards" class="daily-cards" aria-label="今日の8項目"></ol>
+    <section id="daily-workspace" class="daily-workspace" hidden aria-labelledby="daily-work-title">
+      <div class="daily-heading"><h3 id="daily-work-title" tabindex="-1"></h3><button id="daily-work-close" class="toefl-button toefl-button--ghost" type="button">閉じる</button></div>
+      <div id="daily-work-body"></div>
+    </section>
+    <div class="daily-week">
+      <h3>直近7日 · すべての技能を練習できた？</h3>
+      <div id="daily-week-days" class="daily-week-days"></div>
+      <p id="daily-coverage"></p>
+    </div>
+    <details class="daily-reflection" id="daily-reflection">
+      <summary>B2に向けた週1回の振り返り</summary>
+      <p>初回は今の状態を記録し、その後は週1回、新しい題材でできたことを記録しましょう。Reading・Listeningは本文を見ずに要点と根拠を説明。Writing・Speakingは理由と具体例を添え、相手の意見にも応答します。</p>
+      <p class="daily-note">完了数は学習の記録です。B2の到達は技能別に確認し、模試や実際の会話でも確かめましょう。Speakingの一人練習に加え、週1回は相手と話し、質問や予想外の返答にも対応してみてください。</p>
+      <div id="daily-can-do"></div>
+      <label class="daily-field" for="daily-evidence">今週の具体例と、来週もう一度試すこと<textarea id="daily-evidence" rows="3" maxlength="5000" placeholder="例：本文なしで要点を説明できた。次は反対意見への応答を試す。"></textarea></label>
+      <button id="daily-save-reflection" class="toefl-button toefl-button--secondary" type="button">振り返りを保存</button>
+      <p id="daily-reflection-status" role="status"></p>
+      <p class="daily-note">学習目標は <a href="https://www.coe.int/en/web/common-european-framework-reference-languages/table-2-cefr-3.3-common-reference-levels-self-assessment-grid" target="_blank" rel="noopener noreferrer">Council of EuropeのCEFR</a>を参考に編集したものです。</p>
+    </details>
+    <details class="daily-reflection">
+      <summary>メニューの組み方・保存</summary>
+      <p>Readingの3種類は毎日。語彙と文章の文字補充を交互に出し、日常文書と学術文は教材・本文が偏らないように回します。Writingは文法と並べ替えに加え、メールと討論を交互に練習します。Readingの難易度は学習段階に合わせ、正答・別解・解説は掲載済み教材のものを使います。</p>
+      <p>確認後の問題は1・3・7・14・30日後を目安に復習候補へ戻し、間違いを優先します。1日分の復習量は絞り、残りは翌日以降に回します。Readingは全空欄の解答を保って選びます。</p>
+      <p>ListeningはBritish Councilの録音・確認問題を別タブで開きます。サイト上で答えを確認して戻り、自分で学習記録を付けてください。作文、発話、外部音声の記録は自己確認で、点数やB2認定には変換しません。</p>
+      <p>記録はこのブラウザ内に保存されます。共有端末では自分のブラウザプロフィールを使ってください。</p>
+      <button id="daily-export" class="toefl-button toefl-button--secondary" type="button">メニューの学習記録をダウンロード</button>
+    </details>
+  </div>
+</section>

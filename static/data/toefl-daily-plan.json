@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "phases": [
+    {"id": "foundation", "title": "Foundation · B1の土台", "afterDays": 0, "levels": ["A2–B1", "B1–B2"]},
+    {"id": "bridge", "title": "Bridge · B2への橋渡し", "afterDays": 14, "levels": ["B1–B2", "B2"]},
+    {"id": "b2", "title": "B2 practice · 自分で説明する", "afterDays": 28, "levels": ["B2"]}
+  ],
+  "focus": [
+    {
+      "title": "Main idea · 要点をつかむ",
+      "en": "Read or listen once for the overall message. Explain the main idea in your own words before checking details. Connect your answer to one concrete example.",
+      "ja": "最初は全体の話題をつかみます。main idea（中心となる考え）を自分の言葉で説明してから細部を確認し、作文や発話にも具体例を添えましょう。"
+    },
+    {
+      "title": "Evidence · 根拠を見つける",
+      "en": "Choose an answer, then identify the detail that supports it. Separate what the source actually says from what you assume. Explain why a tempting alternative fails.",
+      "ja": "正解を支える一文や音声の情報を探します。evidence（根拠）とassumption（推測）を区別し、紛らわしい選択肢が違う理由も説明しましょう。"
+    },
+    {
+      "title": "Cause and effect · 理由と結果をつなぐ",
+      "en": "Trace how one event leads to another. In your own response, state a reason and explain its consequence. Use because, therefore, or as a result where appropriate.",
+      "ja": "出来事の原因と結果を整理します。consequence（結果・影響）まで説明すると、作文や会話の理由づけが具体的になります。接続表現は意味に合わせて選びましょう。"
+    },
+    {
+      "title": "Compare options · 選択肢を比べる",
+      "en": "Compare two possible choices using the same criteria. Give an advantage and a drawback, then explain which matters more in this situation. Avoid unsupported general claims.",
+      "ja": "同じ基準で二つの案を比べます。drawback（欠点）も挙げたうえで、今回の状況ではどの利点が重要か説明しましょう。"
+    },
+    {
+      "title": "Inference · 言い換えと推論",
+      "en": "Use clues to work out an unfamiliar expression or an implied meaning. Check that your interpretation fits the whole passage. Paraphrase one useful expression in a new sentence.",
+      "ja": "前後の手掛かりから意味を考えます。implied（暗に示された）内容は、本文全体と矛盾しないか確認。paraphrase（言い換え）も練習しましょう。"
+    },
+    {
+      "title": "Respond to a view · 相手の意見に応答する",
+      "en": "Identify another person's position accurately before responding. Acknowledge one reasonable point, add a different consideration, and support your response with an example. Practise a polite follow-up question.",
+      "ja": "相手の立場を正確に要約してから応答します。acknowledge（認める）→別の観点→具体例の順で話し、丁寧な追加質問も作りましょう。"
+    },
+    {
+      "title": "Summarise and connect · 要約してつなぐ",
+      "en": "Summarise the message without copying whole sentences. Link it to an experience or another idea. Keep the source's meaning intact and make your own contribution clear.",
+      "ja": "要約は丸写しせず、自分の経験や別の考えにつなげます。contribution（自分が付け加える内容）と原文の情報を区別し、意味を保ちましょう。"
+    },
+    {
+      "title": "Independent transfer · 初めての題材で試す",
+      "en": "Try an unfamiliar topic with fewer hints. Support your answer, revise an unclear sentence, and answer a follow-up without a script. Note which skills still need support.",
+      "ja": "新しい題材を少ない手掛かりで試します。transfer（別の場面でも使うこと）を確認し、言い直しや台本なしの応答で難しかった点を次の学習につなげましょう。"
+    }
+  ],
+  "canDo": [
+    {"id": "reading", "text": "Reading · 初めての文章で主張・根拠・筆者の立場を説明できる"},
+    {"id": "listening", "text": "Listening · 本文を見ず、録音の要点・重要な詳細・理由を説明できる"},
+    {"id": "writing", "text": "Writing · 読み手に合う文章で、理由・具体例・必要条件を明確に伝えられる"},
+    {"id": "speaking", "text": "Speaking · 台本を読まず、意見と利点・欠点を筋道立てて説明できる"},
+    {"id": "interaction", "text": "Interaction · 実際の相手の質問に応じ、確認・言い直し・追加質問ができる"}
+  ],
+  "listening": [
+    {"id": "business-interview", "title": "A business interview", "genre": "Interview · インタビュー"},
+    {"id": "design-presentation", "title": "A design presentation", "genre": "Presentation · プレゼン"},
+    {"id": "digital-detox-podcast", "title": "A digital detox podcast", "genre": "Podcast · 番組"},
+    {"id": "lecture-about-experiment", "title": "A lecture about an experiment", "genre": "Lecture · 講義"},
+    {"id": "talk-about-motivation", "title": "A talk about motivation", "genre": "Talk · 講演"},
+    {"id": "business-news", "title": "Business news", "genre": "Broadcast · ニュース"},
+    {"id": "creating-study-group", "title": "Creating a study group", "genre": "Discussion · 話し合い"},
+    {"id": "film-reviews", "title": "Film reviews", "genre": "Review · 批評"},
+    {"id": "getting-advice", "title": "Getting advice", "genre": "Conversation · 相談"},
+    {"id": "joining-gym", "title": "Joining a gym", "genre": "Conversation · 日常会話"},
+    {"id": "office-party-planning", "title": "Office party planning", "genre": "Planning · 計画"},
+    {"id": "talking-about-rumours", "title": "Talking about rumours", "genre": "Conversation · 情報の確認"}
+  ],
+  "listeningBase": "https://learnenglish.britishcouncil.org/free-resources/listening/b2/",
+  "listeningFallback": "https://learnenglish.britishcouncil.org/free-resources/listening/b2",
+  "sourcesVerified": "2026-10-04"
+}

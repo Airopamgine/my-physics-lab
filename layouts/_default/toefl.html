@@ -5,6 +5,7 @@
 <link rel="stylesheet" href="{{ "css/toefl.css" | relURL }}?v={{ readFile "static/css/toefl.css" | sha256 | truncate 12 "" }}">
 {{ if and (not $feed) (not $legacy) }}
 <link rel="stylesheet" href="{{ "css/writing-lab.css" | relURL }}?v={{ readFile "static/css/writing-lab.css" | sha256 | truncate 12 "" }}">
+<link rel="stylesheet" href="{{ "css/daily-study.css" | relURL }}?v={{ readFile "static/css/daily-study.css" | sha256 | truncate 12 "" }}">
 {{ end }}
 
 <section class="toefl-access" id="toefl-access-gate" aria-labelledby="toefl-access-title">
@@ -39,15 +40,16 @@
       <p class="toefl-lead">Answer in the browser, get instant feedback, and review only what you missed.</p>
       <p class="toefl-lead-ja">ブラウザ上で解答し、その場で正誤・根拠・難語の日本語解説を確認できます。</p>
       {{ else }}
-      <p class="toefl-lead">Practice Reading and Writing, then review answers, examples, and explanations.</p>
-      <p class="toefl-lead-ja">Readingと文の並べ替えは即時採点。メールと討論は下書きを保存し、解答例・日本語解説と比較して書き直せます。</p>
+      <p class="toefl-lead">Follow today's plan. Read, write, listen, speak, and review.</p>
+      <p class="toefl-lead-ja">今日のメニューから順に進めて、B2に向けて4技能と語彙・文法を練習しましょう。採点・解説・下書き保存もそのまま使えます。</p>
       {{ end }}
       <div class="toefl-actions">
         {{ if or $feed $legacy }}
         <a class="toefl-button toefl-button--secondary" href="{{ "toefl/" | relURL }}">← 通常のTOEFLページ</a>
         {{ else }}
-        <a class="toefl-button toefl-button--primary" href="#writing-lab">Writing を練習する ↓</a>
-        <a class="toefl-button toefl-button--primary" href="{{ "toefl/reading/" | relURL }}">4時間更新のReading問題 →</a>
+        <a class="toefl-button toefl-button--primary" href="#daily-study">今日のメニュー ↓</a>
+        <a class="toefl-button toefl-button--secondary" href="#writing-lab">Writing</a>
+        <a class="toefl-button toefl-button--secondary" href="{{ "toefl/reading/" | relURL }}">Reading</a>
         {{ end }}
         {{ if $tasks }}<a class="toefl-button toefl-button--secondary" href="{{ "toefl/archive/" | relURL }}">元の英語教材（全問移行中）</a>{{ end }}
       </div>
@@ -59,6 +61,10 @@
       <small>Academic English</small>
     </div>
   </header>
+
+  {{ if and (not $feed) (not $legacy) }}
+  {{ partial "daily-study.html" . }}
+  {{ end }}
 
   {{ if $tasks }}
   <section class="reading-tasks" aria-labelledby="reading-tasks-title">
@@ -238,6 +244,7 @@
           <button class="toefl-button toefl-button--primary" id="library-check" type="button" disabled>Check answer</button>
           <button class="toefl-button toefl-button--primary" id="library-next" type="button" hidden>Next question</button>
           <button class="toefl-button toefl-button--ghost" id="library-exit" type="button">Exit set</button>
+          {{ if and (not $feed) (not $legacy) }}<a class="toefl-button toefl-button--ghost" href="#daily-study">今日のメニューに戻る ↑</a>{{ end }}
         </div>
       </article>
     </section>
@@ -268,5 +275,6 @@
 {{ if and (not $feed) (not $legacy) }}
 <script src="{{ "js/toefl.js" | relURL }}?v={{ readFile "static/js/toefl.js" | sha256 | truncate 12 "" }}" defer></script>
 <script src="{{ "js/writing-lab.js" | relURL }}?v={{ readFile "static/js/writing-lab.js" | sha256 | truncate 12 "" }}" defer></script>
+<script src="{{ "js/daily-study.js" | relURL }}?v={{ readFile "static/js/daily-study.js" | sha256 | truncate 12 "" }}" defer></script>
 {{ end }}
 {{- end }}

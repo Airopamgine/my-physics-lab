@@ -1,0 +1,43 @@
+.daily-study { margin: 28px 0 36px; padding: clamp(18px, 3vw, 32px); border: 1px solid var(--tl-line); border-radius: 22px; color: var(--tl-ink); background: linear-gradient(135deg, #eef4ff, #f5faf8); scroll-margin-top: 24px; }
+.daily-heading, .daily-toolbar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; }
+.daily-heading h2 { margin: 4px 0 8px; font-size: clamp(1.5rem, 3vw, 2rem); }
+.daily-heading p { margin: 0; }
+.daily-summary { display: flex; flex-direction: column; text-align: right; gap: 5px; }
+.daily-summary strong { color: var(--tl-teal); font-size: 1.8rem; }
+.daily-note, #daily-date, .daily-summary span { color: var(--tl-muted); font-size: .88rem; line-height: 1.7; }
+.daily-focus { padding: 18px 20px; background: var(--tl-card); border: 1px solid var(--tl-line); border-radius: 14px; margin: 22px 0 18px; }
+.daily-focus h3 { margin: 12px 0 8px; }
+.daily-focus p { margin: 7px 0; line-height: 1.7; }
+.daily-toolbar select { margin-left: 8px; }
+.daily-cards { list-style: none; padding: 0 !important; margin: 20px 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; counter-reset: daily; }
+.daily-card { min-width: 0; background: var(--tl-card); border: 1px solid var(--tl-line); border-radius: 14px; padding: 20px; display: flex; flex-direction: column; gap: 9px; overflow-wrap: anywhere; }
+.daily-card.is-done { border-left: 4px solid var(--tl-teal); }
+.daily-card h3 { margin: 0; font-size: 1.08rem; }
+.daily-card h3::before { counter-increment: daily; content: counter(daily, decimal-leading-zero) ". "; color: var(--tl-teal); }
+.daily-card p { margin: 0; font-size: .91rem; line-height: 1.6; }
+.daily-card small { display: block; color: var(--tl-muted); line-height: 1.6; }
+.daily-card button { align-self: flex-start; margin-top: auto; }
+.daily-card-status { color: var(--tl-teal); font-weight: 700; }
+.daily-workspace { background: var(--tl-card); border: 2px solid var(--tl-teal); border-radius: 16px; padding: clamp(16px, 3vw, 26px); margin: 24px 0; scroll-margin-top: 24px; }
+.daily-workspace h3 { margin: 0; }
+.daily-workspace p { line-height: 1.7; }
+.daily-post { background: var(--tl-paper); border-left: 3px solid var(--tl-teal); padding: 14px; margin: 12px 0; white-space: pre-wrap; overflow-wrap: anywhere; }
+.daily-field { display: flex; flex-direction: column; gap: 8px; margin: 16px 0; }
+.daily-study textarea, .daily-study select { font: inherit; color: var(--tl-ink); background: white; border: 1px solid #8995a9; border-radius: 8px; padding: 9px 12px; max-width: 100%; }
+.daily-study textarea { width: 100%; box-sizing: border-box; resize: vertical; }
+.daily-check { display: flex; align-items: flex-start; gap: 10px; margin: 13px 0; line-height: 1.7; }
+.daily-check input { margin-top: 6px; width: 18px; height: 18px; flex-shrink: 0; }
+.daily-timer { display: inline-block; font-variant-numeric: tabular-nums; color: var(--tl-teal); font-size: 1.7rem; margin-right: 16px; }
+.daily-week { margin: 26px 0; }
+.daily-week-days { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 8px; }
+.daily-day { text-align: center; background: var(--tl-card); border: 1px solid var(--tl-line); border-radius: 9px; padding: 10px 3px; font-size: .83rem; }
+.daily-day strong { display: block; color: var(--tl-teal); margin-top: 5px; }
+.daily-reflection { margin: 14px 0 0; padding: 16px 18px; border: 1px solid var(--tl-line); border-radius: 12px; background: var(--tl-card); }
+.daily-reflection summary { cursor: pointer; font-weight: 700; line-height: 1.6; }
+.daily-reflection p { line-height: 1.7; }
+.daily-study a { color: var(--tl-blue); text-decoration: underline; }
+.daily-study .toefl-button { max-width: 100%; overflow-wrap: anywhere; text-align: left; }
+.daily-study button:focus-visible, .daily-study a:focus-visible, .daily-study select:focus-visible, .daily-study textarea:focus-visible, .daily-study summary:focus-visible, .daily-study input:focus-visible { outline: 3px solid var(--tl-blue); outline-offset: 3px; }
+.daily-study [hidden] { display: none !important; }
+@media (max-width: 700px) { .daily-cards { grid-template-columns: 1fr; } .daily-card { padding: 17px; } .daily-summary { text-align: left; } .daily-toolbar { align-items: flex-start; flex-direction: column; } .daily-week-days { gap: 4px; } .daily-day { font-size: .73rem; } }
+@media (prefers-reduced-motion: reduce) { .daily-study { scroll-behavior: auto; } }
