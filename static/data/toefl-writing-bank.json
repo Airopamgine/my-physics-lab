@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "title": "TOEFL Writing Lab",
-  "updated": "2026-10-04",
+  "updated": "2026-10-05",
   "sourcePolicy": "提供された非公開のTOEFL-writing.pdf全139ページを索引化し、全演習を移行。原PDF・スキャン・未整形OCR・個人の手書き答案は公開しません。原本の不備を校訂した設問は理由を表示。診断の並べ替え10問と掲載例2問は印刷解答と照合し、その他の正答・作文例・解説は根拠付きの編集作成です。作文の人物・日程補足は架空の練習設定で、公式採点ではありません。",
   "formatSources": [
     "https://www.ets.org/toefl/test-takers/ibt/about/content/writing/.html",
@@ -11397,6 +11397,391 @@
         ]
       },
       "answerBasis": "原本画像で問いと両投稿を照合。投稿は原文の論点を保った英語要約。解答例・解説は編集作成で、唯一の正解ではありません。"
+    },
+    {
+      "id": "writing-original-20261005-s01",
+      "type": "sentence",
+      "collection": "Original · 2026-10-05",
+      "title": "研究室への到着 · 過去完了",
+      "prompt": "Why could you not enter the laboratory?",
+      "tiles": [
+        "had already closed",
+        "by the time",
+        "we",
+        "arrived",
+        "the lab",
+        "close",
+        "already"
+      ],
+      "frame": [
+        "{0} ",
+        "{1} ",
+        "{2} ",
+        "{3} ",
+        "{4}",
+        "."
+      ],
+      "solutions": [
+        [4, 0, 1, 2, 3]
+      ],
+      "modelAnswer": "The lab had already closed by the time we arrived.",
+      "explanation": [
+        "Use the past perfect had closed for the earlier event and the simple past arrived for the later reference point. Already emphasizes that the closing was complete before the arrival.",
+        "By the time introduces the later event; reversing the two tenses would distort the sequence. The base form close and the separate tile already are distractors because the correct verb phrase is already complete.",
+        "過去の二つの出来事では、先に起きた閉室を had already closed、後の到着を arrived で表します。by the time は「〜した時までには」です。"
+      ],
+      "phrases": [
+        "by the time — 〜する時までには",
+        "had already closed — すでに閉まっていた"
+      ],
+      "sourceRefs": ["original:writing:2026-10-05:sentence:01"],
+      "source": {"kind": "original", "date": "2026-10-05"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+      "id": "writing-original-20261005-s02",
+      "type": "sentence",
+      "collection": "Original · 2026-10-05",
+      "title": "研究計画書 · recommend that",
+      "prompt": "What advice did your academic advisor give you?",
+      "tiles": [
+        "that I revise",
+        "my research proposal",
+        "before submitting it",
+        "recommended",
+        "the advisor",
+        "to revise",
+        "before submit it"
+      ],
+      "frame": ["{0} ", "{1} ", "{2} ", "{3} ", "{4}", "."],
+      "solutions": [[4, 3, 0, 1, 2]],
+      "modelAnswer": "The advisor recommended that I revise my research proposal before submitting it.",
+      "explanation": [
+        "Recommend can take that + subject + base verb in formal American English: recommended that I revise. Before is followed here by the gerund submitting because the subject remains I.",
+        "The tile to revise cannot follow recommended with a person as the understood subject in this pattern; recommend me to revise is nonstandard. Before submit it is also ungrammatical because before does not license a bare verb here.",
+        "recommend that S + 動詞原形で「Sが〜するよう勧める」。before submitting it は主語 I が共通なので、動名詞を使って簡潔にしています。"
+      ],
+      "phrases": [
+        "recommend that … — 〜するよう勧める",
+        "research proposal — 研究計画書"
+      ],
+      "sourceRefs": ["original:writing:2026-10-05:sentence:02"],
+      "source": {"kind": "original", "date": "2026-10-05"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+      "id": "writing-original-20261005-s03",
+      "type": "sentence",
+      "collection": "Original · 2026-10-05",
+      "title": "野外調査 · 現実的な条件文",
+      "prompt": "What will the field team do if conditions get better?",
+      "tiles": [
+        "if the weather improves",
+        "the field team",
+        "will collect",
+        "samples",
+        "tomorrow",
+        "would collect",
+        "if the weather will improve"
+      ],
+      "frame": ["{0}", ", ", "{1} ", "{2} ", "{3} ", "{4}", "."],
+      "solutions": [[0, 1, 2, 3, 4]],
+      "modelAnswer": "If the weather improves, the field team will collect samples tomorrow.",
+      "explanation": [
+        "In a real future condition, use the present simple in the if-clause and will + base verb in the result clause. The comma separates the initial conditional clause from the main clause.",
+        "If the weather will improve is not the normal form for this condition, and would collect would suggest a more hypothetical situation that the prompt does not establish.",
+        "実現可能な未来の条件は If + 現在形, 主語 + will + 動詞原形。if節の中を未来形にしない点が重要です。"
+      ],
+      "phrases": [
+        "field team — 野外調査班",
+        "collect samples — 試料を採取する"
+      ],
+      "sourceRefs": ["original:writing:2026-10-05:sentence:03"],
+      "source": {"kind": "original", "date": "2026-10-05"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+      "id": "writing-original-20261005-s04",
+      "type": "sentence",
+      "collection": "Original · 2026-10-05",
+      "title": "推薦された論文 · 関係節とhow節",
+      "prompt": "Is the article useful for understanding erosion?",
+      "tiles": [
+        "the article",
+        "that you recommended",
+        "explains",
+        "how glaciers shape valleys",
+        "what you recommended",
+        "how do glaciers shape valleys"
+      ],
+      "frame": ["{0} ", "{1} ", "{2} ", "{3}", "."],
+      "solutions": [[0, 1, 2, 3]],
+      "modelAnswer": "The article that you recommended explains how glaciers shape valleys.",
+      "explanation": [
+        "That you recommended is a restrictive relative clause modifying the article; that functions as the object of recommended. How glaciers shape valleys is an embedded clause with statement word order.",
+        "What you recommended would itself mean the thing you recommended and cannot directly modify the article. Embedded questions do not use the inversion found in how do glaciers shape valleys.",
+        "that節は article を限定し、how節は explains の目的語です。埋め込み疑問では how + 主語 + 動詞の語順に戻します。"
+      ],
+      "phrases": [
+        "restrictive relative clause — 名詞を特定する制限用法の関係節",
+        "shape a valley — 谷を形成する"
+      ],
+      "sourceRefs": ["original:writing:2026-10-05:sentence:04"],
+      "source": {"kind": "original", "date": "2026-10-05"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+      "id": "writing-original-20261005-s05",
+      "type": "sentence",
+      "collection": "Original · 2026-10-05",
+      "title": "実験の再開 · 現在完了受動態",
+      "prompt": "Can the experiment continue now?",
+      "tiles": [
+        "the damaged sensor",
+        "has been replaced",
+        "so",
+        "the experiment",
+        "can continue",
+        "has replaced",
+        "can be continue"
+      ],
+      "frame": ["{0} ", "{1}", ", ", "{2} ", "{3} ", "{4}", "."],
+      "solutions": [[0, 1, 2, 3, 4]],
+      "modelAnswer": "The damaged sensor has been replaced, so the experiment can continue.",
+      "explanation": [
+        "Has been replaced is present perfect passive: the replacement happened earlier and its result matters now. Can is followed by the base verb continue, linking the repaired sensor to the present possibility.",
+        "Has replaced is active and would require the sensor to perform the replacement. Can be continue is malformed; a passive would require the past participle continued, but the intransitive meaning here is simply can continue.",
+        "has been replaced は現在完了の受動態で「交換され、今その結果がある」。so は原因から結果へつなぐ接続詞です。"
+      ],
+      "phrases": [
+        "has been replaced — 交換済みである",
+        "continue the experiment — 実験を続ける"
+      ],
+      "sourceRefs": ["original:writing:2026-10-05:sentence:05"],
+      "source": {"kind": "original", "date": "2026-10-05"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+      "id": "writing-original-20261005-s06",
+      "type": "sentence",
+      "collection": "Original · 2026-10-05",
+      "title": "住居の選択 · although",
+      "prompt": "Why are you considering the apartment despite its size?",
+      "tiles": [
+        "although",
+        "the apartment",
+        "is small",
+        "it is",
+        "close to the university",
+        "despite",
+        "but it is"
+      ],
+      "frame": ["{0} ", "{1} ", "{2}", ", ", "{3} ", "{4}", "."],
+      "solutions": [[0, 1, 2, 3, 4]],
+      "modelAnswer": "Although the apartment is small, it is close to the university.",
+      "explanation": [
+        "Although introduces a full concessive clause with a subject and verb. The main clause states the contrasting advantage, proximity to the university.",
+        "Do not add but after an although-clause in this structure. Despite is followed by a noun phrase or gerund, not directly by the full clause the apartment is small without adding the fact that.",
+        "although は「〜だけれども」と譲歩を表し、後ろに主語＋動詞を置きます。although と but を同じ文で重ねません。"
+      ],
+      "phrases": [
+        "although — 〜だけれども",
+        "close to … — 〜に近い"
+      ],
+      "sourceRefs": ["original:writing:2026-10-05:sentence:06"],
+      "source": {"kind": "original", "date": "2026-10-05"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+      "id": "writing-original-20261005-s07",
+      "type": "sentence",
+      "collection": "Original · 2026-10-05",
+      "title": "薬局を尋ねる · 間接疑問",
+      "prompt": "You need medicine in an unfamiliar neighborhood. What could you ask?",
+      "tiles": [
+        "where",
+        "the nearest pharmacy",
+        "is",
+        "is the nearest pharmacy",
+        "where is"
+      ],
+      "frame": ["Could you tell me ", "{0} ", "{1} ", "{2}", "?"],
+      "solutions": [[0, 1, 2]],
+      "modelAnswer": "Could you tell me where the nearest pharmacy is?",
+      "explanation": [
+        "After Could you tell me, the embedded question uses statement order: where + subject + verb. The opening modal question already carries the inversion for politeness.",
+        "Where is the nearest pharmacy? is correct as a direct question, but inserting that order after tell me would create incorrect double inversion.",
+        "間接疑問では where the nearest pharmacy is の語順です。Could you tell me が疑問文なので、後半を再び疑問文語順にしません。"
+      ],
+      "phrases": [
+        "Could you tell me …? — 〜を教えていただけますか",
+        "the nearest pharmacy — 最寄りの薬局"
+      ],
+      "sourceRefs": ["original:writing:2026-10-05:sentence:07"],
+      "source": {"kind": "original", "date": "2026-10-05"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+      "id": "writing-original-20261005-s08",
+      "type": "sentence",
+      "collection": "Original · 2026-10-05",
+      "title": "勉強会の担当 · 前置詞＋動名詞",
+      "prompt": "What is Maya's role in the study group?",
+      "tiles": [
+        "Maya",
+        "is responsible for",
+        "organizing",
+        "the weekly study group",
+        "to organize",
+        "is responsible to"
+      ],
+      "frame": ["{0} ", "{1} ", "{2} ", "{3}", "."],
+      "solutions": [[0, 1, 2, 3]],
+      "modelAnswer": "Maya is responsible for organizing the weekly study group.",
+      "explanation": [
+        "Responsible for means having the duty to manage something. Because for is a preposition, it is followed by the gerund organizing rather than the infinitive to organize.",
+        "Responsible to normally identifies the person or authority to whom someone reports; it does not fit the activity named in this prompt.",
+        "be responsible for + 動名詞で「〜する責任がある」。for は前置詞なので、後ろは organizing になります。"
+      ],
+      "phrases": [
+        "be responsible for … — 〜を担当する・〜に責任を持つ",
+        "weekly study group — 毎週の勉強会"
+      ],
+      "sourceRefs": ["original:writing:2026-10-05:sentence:08"],
+      "source": {"kind": "original", "date": "2026-10-05"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+      "id": "writing-original-20261005-s09",
+      "type": "sentence",
+      "collection": "Original · 2026-10-05",
+      "title": "講義ノート · so that",
+      "prompt": "Why did you take detailed notes during the lecture?",
+      "tiles": [
+        "I took detailed notes",
+        "so that",
+        "I could review",
+        "the lecture",
+        "later",
+        "for review",
+        "I can reviewed"
+      ],
+      "frame": ["{0} ", "{1} ", "{2} ", "{3} ", "{4}", "."],
+      "solutions": [[0, 1, 2, 3, 4]],
+      "modelAnswer": "I took detailed notes so that I could review the lecture later.",
+      "explanation": [
+        "So that introduces a purpose clause. Could review matches the past verb took and uses the base form after the modal could.",
+        "For review does not complete the supplied five-slot clause, and I can reviewed is ungrammatical because a modal must be followed by a base verb. Later naturally modifies review.",
+        "so that S could … は、過去の行動の目的を表します。could の後は動詞原形 review で、reviewed にはしません。"
+      ],
+      "phrases": [
+        "so that … — 〜できるように",
+        "take detailed notes — 詳細なノートを取る"
+      ],
+      "sourceRefs": ["original:writing:2026-10-05:sentence:09"],
+      "source": {"kind": "original", "date": "2026-10-05"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+      "id": "writing-original-20261005-s10",
+      "type": "sentence",
+      "collection": "Original · 2026-10-05",
+      "title": "委員会の判断 · despite",
+      "prompt": "Did the committee make a decision even though time was limited?",
+      "tiles": [
+        "despite",
+        "having limited time",
+        "the committee",
+        "reached",
+        "a well-considered decision",
+        "although having",
+        "despite it had"
+      ],
+      "frame": ["{0} ", "{1}", ", ", "{2} ", "{3} ", "{4}", "."],
+      "solutions": [[0, 1, 2, 3, 4]],
+      "modelAnswer": "Despite having limited time, the committee reached a well-considered decision.",
+      "explanation": [
+        "Despite is a preposition, so it can introduce the gerund phrase having limited time. The main clause then gives the unexpected result: a well-considered decision was still reached.",
+        "Although normally introduces a full clause, not the reduced form although having in this context. Despite it had is also incorrect because despite cannot directly introduce a finite clause.",
+        "despite + 名詞／動名詞で「〜にもかかわらず」。節を続けるなら although the committee had limited time の形にします。"
+      ],
+      "phrases": [
+        "despite … — 〜にもかかわらず",
+        "well-considered — 十分に検討された"
+      ],
+      "sourceRefs": ["original:writing:2026-10-05:sentence:10"],
+      "source": {"kind": "original", "date": "2026-10-05"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+      "id": "writing-original-20261005-email",
+      "type": "email",
+      "collection": "Original · 2026-10-05",
+      "title": "図書館グループ学習室の予約取消",
+      "minutes": 7,
+      "to": "Ms. Kowalska, Library Services",
+      "subject": "Unexpected cancellation of study-room reservation",
+      "context": "You reserved a university library study room for Tuesday from 3:00 to 5:00 p.m. so your project team could rehearse a presentation. You have received an automated cancellation notice, although you did not cancel the reservation.",
+      "requirements": [
+        "Explain that you received a cancellation notice even though you did not cancel the reservation.",
+        "State the original date, time, and purpose of the booking.",
+        "Ask whether the reservation can be restored or a similar room can be offered."
+      ],
+      "modelAnswer": "Dear Ms. Kowalska,\n\nI am writing about a cancellation notice I received for a library study-room reservation. I did not cancel the booking, so I am concerned that it may have been removed by mistake.\n\nThe room was reserved for Tuesday from 3:00 to 5:00 p.m. My project team needs the space to rehearse a presentation. Could you please check whether the original reservation can be restored? If that is not possible, I would appreciate a similar room during the same time period.\n\nThank you for looking into this issue. Please let me know if you need the reservation reference or any other information.\n\nBest regards,\nAlex Morgan",
+      "explanation": [
+        "The email opens with the problem without accusing the library of causing it. It clearly distinguishes the automated notice from the writer's action: the notice arrived, but the writer did not cancel.",
+        "The second paragraph preserves all booking details and states the academic purpose. The request offers two workable outcomes—restore the booking or provide a similar room—while keeping the same time period.",
+        "by mistake は「誤って」、restore は「元の状態に戻す」。Could you please …? と I would appreciate … は、担当者に解決を依頼する丁寧な表現です。",
+        "署名名と、必要なら予約番号を伝えるという一文は練習用の架空情報です。モデルは唯一の正解ではなく、3条件を自然で丁寧に満たす一例です。"
+      ],
+      "phrases": [
+        "be removed by mistake — 誤って取り消される",
+        "restore a reservation — 予約を復元する",
+        "during the same time period — 同じ時間帯に"
+      ],
+      "sourceRefs": ["original:writing:2026-10-05:email:01"],
+      "source": {"kind": "original", "date": "2026-10-05"},
+      "answerBasis": "Original practice task; model answer and explanation reviewed editorially. 解答例・解説は編集作成で、唯一の正解ではありません。"
+    },
+    {
+      "id": "writing-original-20261005-discussion",
+      "type": "discussion",
+      "collection": "Original · 2026-10-05",
+      "title": "全専攻にAIリテラシー教育は必要か",
+      "minutes": 10,
+      "targetWords": 100,
+      "professor": "Professor Bennett · Higher Education",
+      "context": "Should universities require every undergraduate, regardless of major, to complete a short course in AI literacy? Explain why or why not.",
+      "posts": [
+        {
+          "name": "Sofia",
+          "text": "AI tools already affect study and work. A shared course could teach students to check sources, recognize unreliable output, and use these tools responsibly instead of learning only by trial and error."
+        },
+        {
+          "name": "Noah",
+          "text": "Degree programs are already crowded, and students in different majors use technology in very different ways. Departments should decide what training is relevant rather than adding another universal requirement."
+        }
+      ],
+      "requirements": [
+        "State and support your position on a required AI-literacy course.",
+        "Respond meaningfully to both Sofia's and Noah's viewpoints.",
+        "Develop the response with a concrete example and at least 100 words."
+      ],
+      "modelAnswer": "I support a short university-wide AI-literacy requirement, but it should include a common foundation and a subject-specific activity. Sofia is right that every student needs basic methods for checking sources, protecting private information, and recognizing confident but unsupported output. However, Noah's concern about crowded programs and different disciplinary needs is valid. Universities could limit the common course to a few focused sessions, then let departments design one applied assignment. For example, physics students might compare an AI-generated explanation with measured data and a textbook, while history students might trace quotations back to primary sources. This structure would avoid pretending that one tool is used identically in every field. It would also give all graduates a minimum safety standard without taking an entire semester away from their majors.",
+      "explanation": [
+        "The response takes a qualified position: require a compact shared foundation, then adapt the application by discipline. This directly answers the professor instead of treating the two student posts as an either-or choice.",
+        "Sofia's reliability concern becomes three specific skills, while Noah's curriculum and relevance concerns shape the short format and departmental assignment. The physics and history examples show how one principle can be applied differently.",
+        "AI literacy は、AIの出力を鵜呑みにせず、根拠・個人情報・利用目的を判断する力です。unsupported output は「根拠のない出力」、primary source は「一次資料」。",
+        "このモデルは一つの論証例であり、公式スコアを示すものではありません。反対意見でも、両投稿へ応答し理由と具体例を展開すれば成立します。"
+      ],
+      "phrases": [
+        "AI literacy — AIを批判的・責任ある形で扱う基礎能力",
+        "unsupported output — 根拠の示されない出力",
+        "subject-specific — 専門分野に合わせた"
+      ],
+      "sourceRefs": ["original:writing:2026-10-05:discussion:01"],
+      "source": {"kind": "original", "date": "2026-10-05"},
+      "answerBasis": "Original practice task; model answer and explanation reviewed editorially. 解答例・解説は編集作成で、唯一の正解ではありません。"
     }
   ],
   "guides": [

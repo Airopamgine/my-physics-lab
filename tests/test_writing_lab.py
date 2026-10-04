@@ -32,6 +32,22 @@ class WritingLabTests(unittest.TestCase):
                 for field in ("sourceRefs", "answerBasis", "explanation", "phrases"):
                     self.assertTrue(q[field])
 
+    def test_every_original_daily_batch_is_complete(self):
+        originals = [q for q in EXERCISES if q["source"].get("kind") == "original"]
+        by_date = collections.defaultdict(list)
+        for q in originals:
+            by_date[q["source"]["date"]].append(q)
+        for date, items in by_date.items():
+            with self.subTest(date=date):
+                self.assertEqual(collections.Counter(q["type"] for q in items),
+                                 {"sentence": 10, "email": 1, "discussion": 1})
+                expected_refs = {
+                    *(f"original:writing:{date}:sentence:{n:02d}" for n in range(1, 11)),
+                    f"original:writing:{date}:email:01",
+                    f"original:writing:{date}:discussion:01",
+                }
+                self.assertEqual({ref for q in items for ref in q["sourceRefs"]}, expected_refs)
+
     def test_diagnostic_sentence_keys_match_printed_answers(self):
         expected = [
             "The new employees wanted to know if they would be able to access the system.",
