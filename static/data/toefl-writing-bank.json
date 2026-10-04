@@ -1,0 +1,1419 @@
+{
+  "schemaVersion": 1,
+  "title": "TOEFL Writing Lab",
+  "updated": "2026-10-04",
+  "sourcePolicy": "提供教材の選定演習を整形。非公開原PDF・画像・未整形OCR・手書き答案は含めない。氏名・番号・日時など解答例の細部は架空の学習用情報。",
+  "formatSources": [
+    "https://www.ets.org/toefl/test-takers/ibt/about/content/writing/.html",
+    "https://www.ets.org/pdfs/toefl/writing-rubrics.pdf"
+  ],
+  "exercises": [
+    {
+      "title": "研修後の質問 · 間接疑問",
+      "prompt": "Were there any questions during the training session?",
+      "tiles": [
+        "the system",
+        "accessing",
+        "would be",
+        "if",
+        "to know",
+        "they",
+        "to access",
+        "able"
+      ],
+      "frame": [
+        "The new employees wanted ",
+        "{0} ",
+        "{1} ",
+        "{2} ",
+        "{3} ",
+        "{4} ",
+        "{5} ",
+        "{6}",
+        "."
+      ],
+      "solutions": [
+        [
+          4,
+          3,
+          5,
+          2,
+          7,
+          6,
+          0
+        ]
+      ],
+      "modelAnswer": "The new employees wanted to know if they would be able to access the system.",
+      "explanation": [
+        "wanted to know の後は if + 主語 + 動詞の間接疑問。疑問文の語順 would they にはしません。",
+        "would be able to + 動詞の原形で「〜できるだろう」。access は他動詞なので access the system と続きます。accessing はこの to 不定詞の位置には入りません。"
+      ],
+      "phrases": [
+        "be able to access … — 〜にアクセスできる",
+        "want to know if … — 〜かどうか知りたい"
+      ],
+      "id": "writing-diagnostic-s1",
+      "type": "sentence",
+      "collection": "Diagnostic Test",
+      "sourceRefs": [
+        "pdf:writing:p010:diagnostic:q01"
+      ],
+      "source": {
+        "file": "TOEFL-writing.pdf",
+        "pages": [
+          10
+        ],
+        "answerPages": [
+          16
+        ]
+      },
+      "answerBasis": "教材のSample Answers（PDF 16ページ）と照合済み。日本語解説は編集作成。"
+    },
+    {
+      "title": "展示の紹介 · 関係代名詞",
+      "prompt": "Which exhibit do you recommend?",
+      "tiles": [
+        "fascinating",
+        "one",
+        "artifacts",
+        "displays",
+        "lots of",
+        "launched",
+        "that"
+      ],
+      "frame": [
+        "A museum ",
+        "{0} ",
+        "{1}",
+        " last month ",
+        "{2} ",
+        "{3} ",
+        "{4} ",
+        "{5} ",
+        "{6}",
+        "."
+      ],
+      "solutions": [
+        [
+          5,
+          1,
+          6,
+          3,
+          4,
+          0,
+          2
+        ]
+      ],
+      "modelAnswer": "A museum launched one last month that displays lots of fascinating artifacts.",
+      "explanation": [
+        "one は前の exhibit を受ける代名詞。「博物館が先月始めた展示」を that 以下で説明しています。",
+        "関係節の主語 that は単数の one を指すので displays。lots of + 形容詞 + 複数名詞の順で lots of fascinating artifacts です。"
+      ],
+      "phrases": [
+        "launch an exhibit — 展示を始める",
+        "fascinating artifacts — 興味深い遺物"
+      ],
+      "id": "writing-diagnostic-s2",
+      "type": "sentence",
+      "collection": "Diagnostic Test",
+      "sourceRefs": [
+        "pdf:writing:p010:diagnostic:q02"
+      ],
+      "source": {
+        "file": "TOEFL-writing.pdf",
+        "pages": [
+          10
+        ],
+        "answerPages": [
+          16
+        ]
+      },
+      "answerBasis": "教材のSample Answers（PDF 16ページ）と照合済み。日本語解説は編集作成。"
+    },
+    {
+      "title": "遅延の相談 · 現在完了の疑問文",
+      "prompt": "My group still hasn’t finished the project.",
+      "tiles": [
+        "your professor",
+        "have",
+        "to",
+        "talked",
+        "the delay",
+        "you",
+        "talk"
+      ],
+      "frame": [
+        "{0} ",
+        "{1} ",
+        "{2} ",
+        "{3} ",
+        "{4}",
+        " about ",
+        "{5}",
+        "?"
+      ],
+      "solutions": [
+        [
+          1,
+          5,
+          3,
+          2,
+          0,
+          4
+        ]
+      ],
+      "modelAnswer": "Have you talked to your professor about the delay?",
+      "explanation": [
+        "Have + 主語 + 過去分詞で、これまでに相談したかを尋ねます。talk は原形なので have の後の本動詞としては使えません。",
+        "talk to 人 about 内容。「誰に」と「何について」を取り違えないようにします。"
+      ],
+      "phrases": [
+        "talk to … about … — 〜に〜について話す",
+        "the delay — 遅れ・遅延"
+      ],
+      "id": "writing-diagnostic-s3",
+      "type": "sentence",
+      "collection": "Diagnostic Test",
+      "sourceRefs": [
+        "pdf:writing:p010:diagnostic:q03"
+      ],
+      "source": {
+        "file": "TOEFL-writing.pdf",
+        "pages": [
+          10
+        ],
+        "answerPages": [
+          16
+        ]
+      },
+      "answerBasis": "教材のSample Answers（PDF 16ページ）と照合済み。日本語解説は編集作成。"
+    },
+    {
+      "title": "転職の理由 · 関係節の主語と動詞",
+      "prompt": "Can I ask why you left your former job?",
+      "tiles": [
+        "that",
+        "fit",
+        "am",
+        "long-term goals",
+        "looking for",
+        "my",
+        "a position",
+        "fits"
+      ],
+      "frame": [
+        "I ",
+        "{0} ",
+        "{1} ",
+        "{2} ",
+        "{3}",
+        " better ",
+        "{4} ",
+        "{5} ",
+        "{6}",
+        "."
+      ],
+      "solutions": [
+        [
+          2,
+          4,
+          6,
+          0,
+          7,
+          5,
+          3
+        ]
+      ],
+      "modelAnswer": "I am looking for a position that better fits my long-term goals.",
+      "explanation": [
+        "I am looking for … は「今、〜を探している」。a position の後の that が関係節の主語です。",
+        "that の先行詞 a position は単数なので fits。better は fits を修飾します。my は long-term goals の前に置きます。"
+      ],
+      "phrases": [
+        "look for a position — 職を探す",
+        "fit my long-term goals — 長期的な目標に合う"
+      ],
+      "id": "writing-diagnostic-s4",
+      "type": "sentence",
+      "collection": "Diagnostic Test",
+      "sourceRefs": [
+        "pdf:writing:p010:diagnostic:q04"
+      ],
+      "source": {
+        "file": "TOEFL-writing.pdf",
+        "pages": [
+          10
+        ],
+        "answerPages": [
+          16
+        ]
+      },
+      "answerBasis": "教材のSample Answers（PDF 16ページ）と照合済み。日本語解説は編集作成。"
+    },
+    {
+      "title": "料理の進行状況 · 進行形の受動態",
+      "prompt": "What did the waitress say about the order?",
+      "tiles": [
+        "are",
+        "said",
+        "prepare",
+        "the dishes",
+        "prepared",
+        "being",
+        "she"
+      ],
+      "frame": [
+        "{0} ",
+        "{1} ",
+        "{2} ",
+        "{3} ",
+        "{4} ",
+        "{5}",
+        " now."
+      ],
+      "solutions": [
+        [
+          6,
+          1,
+          3,
+          0,
+          5,
+          4
+        ]
+      ],
+      "modelAnswer": "She said the dishes are being prepared now.",
+      "explanation": [
+        "the dishes は調理される側。are being + 過去分詞で「今、調理されている最中」です。prepare は原形なので受動態の最後には使えません。",
+        "said の後で現在進行中の状態を報告する形です。現在も続く状況には are を使え、この教材の解答も are being prepared です。"
+      ],
+      "phrases": [
+        "be being prepared — 準備・調理されている最中",
+        "say (that) … — 〜と述べる"
+      ],
+      "id": "writing-diagnostic-s5",
+      "type": "sentence",
+      "collection": "Diagnostic Test",
+      "sourceRefs": [
+        "pdf:writing:p010:diagnostic:q05"
+      ],
+      "source": {
+        "file": "TOEFL-writing.pdf",
+        "pages": [
+          10
+        ],
+        "answerPages": [
+          16
+        ]
+      },
+      "answerBasis": "教材のSample Answers（PDF 16ページ）と照合済み。日本語解説は編集作成。"
+    },
+    {
+      "title": "資料の送付 · would like 人 to",
+      "prompt": "Your report last week was very detailed.",
+      "tiles": [
+        "like",
+        "you",
+        "me",
+        "to email",
+        "would",
+        "the file"
+      ],
+      "frame": [
+        "{0}",
+        " you ",
+        "{1} ",
+        "{2} ",
+        "{3} ",
+        "{4} ",
+        "{5}",
+        "?"
+      ],
+      "solutions": [
+        [
+          4,
+          0,
+          2,
+          3,
+          1,
+          5
+        ]
+      ],
+      "modelAnswer": "Would you like me to email you the file?",
+      "explanation": [
+        "Would you like me to …? で「私が〜しましょうか」。like の目的語 me の後に to email が続きます。",
+        "email you the file は「あなたにそのファイルをメールで送る」。印刷済みの主語 you と語群の目的語 you は別の位置です。"
+      ],
+      "phrases": [
+        "Would you like me to …? — 私が〜しましょうか",
+        "email someone a file — 人にファイルをメールで送る"
+      ],
+      "id": "writing-diagnostic-s6",
+      "type": "sentence",
+      "collection": "Diagnostic Test",
+      "sourceRefs": [
+        "pdf:writing:p011:diagnostic:q06"
+      ],
+      "source": {
+        "file": "TOEFL-writing.pdf",
+        "pages": [
+          11
+        ],
+        "answerPages": [
+          16
+        ]
+      },
+      "answerBasis": "教材のSample Answers（PDF 16ページ）と照合済み。日本語解説は編集作成。"
+    },
+    {
+      "title": "自転車の盗難 · while と受動態",
+      "prompt": "Why did you decide to get a new bike?",
+      "tiles": [
+        "parked",
+        "someone",
+        "in front of",
+        "was",
+        "mine",
+        "it",
+        "did",
+        "stole"
+      ],
+      "frame": [
+        "{0} ",
+        "{1} ",
+        "{2}",
+        " while ",
+        "{3} ",
+        "{4} ",
+        "{5} ",
+        "{6}",
+        " the store."
+      ],
+      "solutions": [
+        [
+          1,
+          7,
+          4,
+          5,
+          3,
+          0,
+          2
+        ]
+      ],
+      "modelAnswer": "Someone stole mine while it was parked in front of the store.",
+      "explanation": [
+        "mine は my bike に相当する所有代名詞。stole は steal の過去形で、did を追加しません。",
+        "while 以下は it was parked（受動態）。in front of the store は駐輪していた場所を示します。"
+      ],
+      "phrases": [
+        "steal / stole / stolen — 盗む（活用）",
+        "in front of … — 〜の前に"
+      ],
+      "id": "writing-diagnostic-s7",
+      "type": "sentence",
+      "collection": "Diagnostic Test",
+      "sourceRefs": [
+        "pdf:writing:p011:diagnostic:q07"
+      ],
+      "source": {
+        "file": "TOEFL-writing.pdf",
+        "pages": [
+          11
+        ],
+        "answerPages": [
+          16
+        ]
+      },
+      "answerBasis": "教材のSample Answers（PDF 16ページ）と照合済み。日本語解説は編集作成。"
+    },
+    {
+      "title": "課題の指示 · what が主語になる節",
+      "prompt": "Why haven’t Harper and Bill started working on the assignment yet?",
+      "tiles": [
+        "needs",
+        "what",
+        "just",
+        "to be",
+        "done",
+        "they",
+        "why"
+      ],
+      "frame": [
+        "{0} ",
+        "{1}",
+        " learned ",
+        "{2} ",
+        "{3} ",
+        "{4} ",
+        "{5}",
+        "."
+      ],
+      "solutions": [
+        [
+          5,
+          2,
+          1,
+          0,
+          3,
+          4
+        ]
+      ],
+      "modelAnswer": "They just learned what needs to be done.",
+      "explanation": [
+        "learned の目的語は what needs to be done（何をする必要があるか）。what 自体がこの節の主語なので needs の前に別の主語は不要です。",
+        "need to be + 過去分詞は「〜される必要がある」。why では「何をするか」という返答になりません。"
+      ],
+      "phrases": [
+        "what needs to be done — する必要があること",
+        "just learned … — たった今〜を知った"
+      ],
+      "id": "writing-diagnostic-s8",
+      "type": "sentence",
+      "collection": "Diagnostic Test",
+      "sourceRefs": [
+        "pdf:writing:p011:diagnostic:q08"
+      ],
+      "source": {
+        "file": "TOEFL-writing.pdf",
+        "pages": [
+          11
+        ],
+        "answerPages": [
+          16
+        ]
+      },
+      "answerBasis": "教材のSample Answers（PDF 16ページ）と照合済み。日本語解説は編集作成。"
+    },
+    {
+      "title": "売上計画 · 進行形と目的の不定詞",
+      "prompt": "May I ask why you requested the sales data?",
+      "tiles": [
+        "works",
+        "on",
+        "working",
+        "revenue",
+        "to increase",
+        "a plan",
+        "is"
+      ],
+      "frame": [
+        "My team ",
+        "{0} ",
+        "{1} ",
+        "{2} ",
+        "{3} ",
+        "{4} ",
+        "{5}",
+        " over the next quarter."
+      ],
+      "solutions": [
+        [
+          6,
+          2,
+          1,
+          5,
+          4,
+          3
+        ]
+      ],
+      "modelAnswer": "My team is working on a plan to increase revenue over the next quarter.",
+      "explanation": [
+        "is working on a plan で「計画に取り組んでいる」。is と works を組み合わせることはできません。",
+        "to increase revenue は計画の目的・内容。over the next quarter は今後の四半期にわたる期間です。"
+      ],
+      "phrases": [
+        "work on a plan — 計画に取り組む",
+        "increase revenue — 収益を増やす"
+      ],
+      "id": "writing-diagnostic-s9",
+      "type": "sentence",
+      "collection": "Diagnostic Test",
+      "sourceRefs": [
+        "pdf:writing:p011:diagnostic:q09"
+      ],
+      "source": {
+        "file": "TOEFL-writing.pdf",
+        "pages": [
+          11
+        ],
+        "answerPages": [
+          16
+        ]
+      },
+      "answerBasis": "教材のSample Answers（PDF 16ページ）と照合済み。日本語解説は編集作成。"
+    },
+    {
+      "title": "図書館に残った理由 · 関係節の受動態",
+      "prompt": "Why did you stay late at the library?",
+      "tiles": [
+        "checked out",
+        "reference books",
+        "that",
+        "some",
+        "was using",
+        "cannot be",
+        "I"
+      ],
+      "frame": [
+        "{0} ",
+        "{1} ",
+        "{2} ",
+        "{3} ",
+        "{4} ",
+        "{5} ",
+        "{6}",
+        "."
+      ],
+      "solutions": [
+        [
+          6,
+          4,
+          3,
+          1,
+          2,
+          5,
+          0
+        ]
+      ],
+      "modelAnswer": "I was using some reference books that cannot be checked out.",
+      "explanation": [
+        "was using は過去のその時点での行動。some reference books を that 以下の関係節で説明します。",
+        "cannot be + 過去分詞の受動態で「貸し出せない」。check out は図書館の本を借り出す意味です。"
+      ],
+      "phrases": [
+        "reference books — 参考図書",
+        "check out a book — 本を借り出す"
+      ],
+      "id": "writing-diagnostic-s10",
+      "type": "sentence",
+      "collection": "Diagnostic Test",
+      "sourceRefs": [
+        "pdf:writing:p011:diagnostic:q10"
+      ],
+      "source": {
+        "file": "TOEFL-writing.pdf",
+        "pages": [
+          11
+        ],
+        "answerPages": [
+          16
+        ]
+      },
+      "answerBasis": "教材のSample Answers（PDF 16ページ）と照合済み。日本語解説は編集作成。"
+    },
+    {
+      "collection": "Diagnostic Test",
+      "title": "課題の送信確認",
+      "to": "Professor James",
+      "subject": "Issue with assignment submission",
+      "context": "You are taking an online course taught by Professor James through your university’s learning platform. Recently, you tried to submit an assignment, but an error occurred during the upload. Now, you are unsure whether the submission was successful.",
+      "requirements": [
+        "Describe the issue you experienced.",
+        "Ask whether the assignment was submitted successfully.",
+        "Thank him for his assistance."
+      ],
+      "modelAnswer": "Dear Professor James,\n\nI am a student in your online course, and I am writing about a problem with my assignment submission. When I tried to upload the file through the university’s learning platform, an error message appeared. I could not tell whether the platform had received my assignment.\n\nCould you please confirm whether my submission was successful? If it was not received, I would be happy to upload it again or send it using another method you recommend. Thank you for your time and assistance. I appreciate your help in resolving this issue.\n\nBest regards,\nSam Lee",
+      "explanation": [
+        "冒頭で受講生であることと送信トラブルの目的を提示。error message appeared → 受信が不明、という順に原因と困っている点を区別しています。",
+        "Could you please confirm whether …? は確認を頼む間接疑問。whether 以下を疑問文の語順にしません。未受信だった場合の再送案は、要求された3条件を満たした後の補足です。",
+        "「送信に失敗した」と断定すると、不明であるという設問と食い違います。最後に感謝を明示し、教授への丁寧な文体を保ちます。"
+      ],
+      "phrases": [
+        "I am writing about a problem with … — 〜の問題についてご連絡します",
+        "Could you please confirm whether …? — 〜かどうか確認していただけますか"
+      ],
+      "id": "writing-email-diagnostic",
+      "type": "email",
+      "minutes": 7,
+      "sourceRefs": [
+        "pdf:writing:p012:diagnostic:email"
+      ],
+      "source": {
+        "file": "TOEFL-writing.pdf",
+        "pages": [
+          12
+        ]
+      },
+      "answerBasis": "設問は原本画像と照合して整形。解答例・解説は編集作成で、出版社解答の転載ではありません。未指定の細部は架空の補足例です。"
+    },
+    {
+      "collection": "Practice Test 1",
+      "title": "奨学金の金額訂正を依頼",
+      "to": "Financial Aid Office",
+      "subject": "Urgent discrepancy on fee statement — scholarship amount",
+      "context": "You are finalizing registration for the upcoming Spring semester. The scholarship amount on your online fee statement is $500 less than the official award letter you received three weeks ago. You need to resolve the discrepancy so that your tuition is paid correctly and on time.",
+      "requirements": [
+        "Identify yourself, your student ID, and the semester of concern.",
+        "State the expected scholarship amount and the amount currently shown on your fee statement.",
+        "Mention that you have attached the original award letter for reference."
+      ],
+      "editorNote": "原本のTo欄はProfessor Jamesですが、設問本文の宛先Financial Aid Officeに訂正。名前・ID・未指定の金額は架空の情報で補ってください。解答例の$2,500と$2,000は編集例で、差額$500を保持しています。",
+      "modelAnswer": "Dear Financial Aid Office,\n\nMy name is Sam Lee, student ID S00001. I am writing about my scholarship for the upcoming Spring semester. The official award letter I received three weeks ago states that I was awarded $2,500, but my online fee statement currently shows only $2,000. The scholarship credit is therefore $500 lower than expected.\n\nCould you please review this discrepancy and update my fee statement if an error has occurred? I need the correct balance to arrange my tuition payment on time. I have attached the original award letter for your reference. Thank you for your help.\n\nBest regards,\nSam Lee",
+      "explanation": [
+        "設問は氏名・学籍番号・学期を要求しているので、冒頭にまとめます。練習では架空のIDを使います。",
+        "expected $2,500 / shown $2,000 の比較で$500少ない状況を明示。「$500多い」と方向を逆にしないことが重要です。",
+        "添付した書類を I have attached … で明示。誤りと決めつけず if an error has occurred を添えて訂正を依頼するため、事務窓口への文体が適切です。"
+      ],
+      "phrases": [
+        "a discrepancy between A and B — AとBの不一致",
+        "I have attached … for your reference. — ご参照用に〜を添付しました"
+      ],
+      "id": "writing-email-test1",
+      "type": "email",
+      "minutes": 7,
+      "sourceRefs": [
+        "pdf:writing:p031:test1:email"
+      ],
+      "source": {
+        "file": "TOEFL-writing.pdf",
+        "pages": [
+          31
+        ]
+      },
+      "answerBasis": "設問は原本画像と照合して整形。解答例・解説は編集作成で、出版社解答の転載ではありません。未指定の細部は架空の補足例です。"
+    },
+    {
+      "collection": "Practice Test 2",
+      "title": "グループ会議の時間を変更",
+      "editorNote": "原本の最後の条件はcounter-の後がページ端で切れているため、提案した日時への投票、または別の案の提示を求める条件として整形しています。氏名と代替日時は架空の設定です。",
+      "to": "Alex, Jamie, and Kai",
+      "subject": "Change needed for Tuesday 6 PM group meeting — Marketing 301",
+      "context": "You are part of a four-person team working on a major project for Marketing 301, taught by Professor Smith. Your team meets for two hours every Tuesday at 6:00 PM. Your required Statistics 205 tutorial has now been moved to Tuesday at 6:00 PM for the rest of the semester.",
+      "requirements": [
+        "Explain the conflict caused by the required course change.",
+        "Propose at least two alternative days and times for the weekly two-hour meeting, and explain why they work for you.",
+        "Ask the team to vote on the proposed times or suggest another option."
+      ],
+      "modelAnswer": "Hi Alex, Jamie, and Kai,\n\nMy required Statistics 205 tutorial has been moved to Tuesdays at 6:00 PM for the rest of the semester, so I can no longer attend our Marketing 301 meeting at that time. I am sorry for the disruption.\n\nCould we meet on Wednesdays from 6:00 to 8:00 PM or Thursdays from 4:00 to 6:00 PM instead? Both options allow us a full two hours, and I have no classes or other commitments during those periods. Please let me know which option you prefer. If neither works, could you suggest another time? Thank you for being flexible.\n\nBest,\nSam",
+      "explanation": [
+        "変更の原因は必修tutorialの時間移動。自分の都合だけを曖昧に伝えず、元の火曜18時に参加できない理由を示します。",
+        "「曜日・開始・終了」を2案とも明示し、それぞれ2時間を確保。都合がよい理由も添えると第2条件を落としません。",
+        "チームメンバーにはHi … とBestで十分丁寧です。最後に好みを尋ね、代案も受け付けることで一方的な決定を避けます。"
+      ],
+      "phrases": [
+        "I can no longer attend … — もう〜に参加できません",
+        "If neither works, could you suggest …? — どちらも難しければ〜を提案できますか"
+      ],
+      "id": "writing-email-test2",
+      "type": "email",
+      "minutes": 7,
+      "sourceRefs": [
+        "pdf:writing:p046:test2:email"
+      ],
+      "source": {
+        "file": "TOEFL-writing.pdf",
+        "pages": [
+          46
+        ]
+      },
+      "answerBasis": "設問は原本画像と照合して整形。解答例・解説は編集作成で、出版社解答の転載ではありません。未指定の細部は架空の補足例です。"
+    },
+    {
+      "collection": "Practice Test 3",
+      "title": "レポート締切の延長を依頼",
+      "to": "Professor Miller",
+      "subject": "Extension request: History 405 research paper",
+      "context": "You are taking History 405: Modern World Conflicts with Professor Miller. Your major 15-page research paper is due this Friday at 5:00 PM. A documented family emergency required unexpected travel, costing you three days of work.",
+      "requirements": [
+        "Identify yourself, the assignment, and the course.",
+        "Briefly explain the documented family emergency.",
+        "Propose a specific, reasonable new date and time.",
+        "Confirm that you will provide supporting documentation upon your return."
+      ],
+      "modelAnswer": "Dear Professor Miller,\n\nI am Sam Lee from History 405: Modern World Conflicts. I am writing to request an extension for the 15-page research paper due this Friday at 5:00 PM. A documented family emergency required me to travel unexpectedly, and I lost three days that I had planned to spend working on the paper.\n\nWould it be possible to submit the paper by Sunday at 8:00 PM instead? This would give me time to complete the remaining research and revise my draft carefully. I will provide supporting documentation when I return. Thank you for considering my request.\n\nSincerely,\nSam Lee",
+      "explanation": [
+        "課題は15ページ、元の締切は金曜17時。提出対象と期限を冒頭で特定します。",
+        "緊急事情は必要な範囲だけ説明。家族の病名などを作り込みすぎず、3日失ったという設問の情報を使います。",
+        "Sunday at 8:00 PM のような明確な希望期限にし、延長が承認されたとは書きません。帰着後の証明書提出も独立した文で明示しています。"
+      ],
+      "phrases": [
+        "Would it be possible to …? — 〜することは可能でしょうか",
+        "supporting documentation — 裏付けとなる書類"
+      ],
+      "id": "writing-email-test3",
+      "type": "email",
+      "minutes": 7,
+      "sourceRefs": [
+        "pdf:writing:p057:test3:email"
+      ],
+      "source": {
+        "file": "TOEFL-writing.pdf",
+        "pages": [
+          57
+        ]
+      },
+      "answerBasis": "設問は原本画像と照合して整形。解答例・解説は編集作成で、出版社解答の転載ではありません。未指定の細部は架空の補足例です。"
+    },
+    {
+      "collection": "Practice Test 4",
+      "title": "採点の再確認を丁寧に依頼",
+      "to": "Professor Chen",
+      "subject": "Requesting re-evaluation",
+      "context": "You are taking Political Science 310: Global Governance with Professor Chen. You received a C+ on the recent midterm essay. You believe you addressed the rubric and that a scoring error or misunderstanding of one main argument may have affected your grade.",
+      "requirements": [
+        "Identify yourself, the assignment, and your current grade.",
+        "Politely explain why a re-evaluation may be warranted, referring to the rubric or a specific concern.",
+        "Ask for a brief office-hours meeting to discuss the paper."
+      ],
+      "modelAnswer": "Dear Professor Chen,\n\nI am Sam Lee from Political Science 310: Global Governance. I recently received a C+ on the midterm essay and would appreciate an opportunity to discuss the feedback. I may have misunderstood the evaluation, but I believe my comparison of the two governance models addresses the rubric’s requirement to support the main argument with evidence.\n\nCould you please review that section with me? I would be grateful for a brief meeting during your office hours so that I can understand whether my argument was unclear or whether a scoring error occurred. Thank you for your time and guidance.\n\nSincerely,\nSam Lee",
+      "explanation": [
+        "成績C+とmidterm essayを明示。「もっと高い点が欲しい」だけでは再評価の理由になりません。",
+        "解答例の比較の内容は編集上の具体化です。ルーブリックの観点と自分の文章をつなぎ、may / I believe で断定的な非難を避けます。",
+        "office hoursで面談を求め、説明の不足だった可能性も認めると建設的です。採点ミスが確定したとは書かないようにします。"
+      ],
+      "phrases": [
+        "I would appreciate an opportunity to … — 〜する機会をいただければ幸いです",
+        "a scoring error — 採点上の誤り"
+      ],
+      "id": "writing-email-test4",
+      "type": "email",
+      "minutes": 7,
+      "sourceRefs": [
+        "pdf:writing:p070:test4:email"
+      ],
+      "source": {
+        "file": "TOEFL-writing.pdf",
+        "pages": [
+          70
+        ]
+      },
+      "answerBasis": "設問は原本画像と照合して整形。解答例・解説は編集作成で、出版社解答の転載ではありません。未指定の細部は架空の補足例です。"
+    },
+    {
+      "collection": "Practice Test 5",
+      "title": "面接の再設定を依頼",
+      "to": "Mr. / Ms. Thompson",
+      "subject": "Rescheduling a job interview due to illness",
+      "context": "You have a virtual final-round interview tomorrow at 10:00 AM for a Marketing Associate position at TechCorp. You woke up with the flu and do not feel able to perform well. You need to reschedule for later in the week.",
+      "requirements": [
+        "Identify the position and the scheduled interview date and time.",
+        "Briefly explain the sudden illness professionally.",
+        "Propose two specific alternative days and times later in the week."
+      ],
+      "modelAnswer": "Dear Ms. Thompson,\n\nI am writing about my final-round virtual interview for the Marketing Associate position at TechCorp, scheduled for tomorrow at 10:00 AM. Unfortunately, I have developed the flu and am not well enough to participate effectively. I apologize for the short notice.\n\nWould it be possible to reschedule the interview for Thursday at 2:00 PM or Friday at 10:00 AM later this week? I am available at both times and would be happy to consider another option if necessary. I remain very interested in the position. Thank you for your understanding.\n\nBest regards,\nSam Lee",
+      "explanation": [
+        "会社・職種・最終面接・元の日程を特定。症状の長い説明より、急な体調不良であることと短いお詫びが役立ちます。",
+        "新候補は木曜14時／金曜10時の2案。原本には具体的な曜日の現在地がないため、解答例は元の面接より後の候補という仮定で作成しています。",
+        "興味が変わらないことを1文で添え、採用側への敬意を保ちます。Mr.とMs.の両方を一つの呼びかけに書かず、練習上の設定を選びます。"
+      ],
+      "phrases": [
+        "I apologize for the short notice. — 急なご連絡で申し訳ありません",
+        "I remain very interested in … — 引き続き〜に強い関心があります"
+      ],
+      "id": "writing-email-test5",
+      "type": "email",
+      "minutes": 7,
+      "sourceRefs": [
+        "pdf:writing:p079:test5:email"
+      ],
+      "source": {
+        "file": "TOEFL-writing.pdf",
+        "pages": [
+          79
+        ]
+      },
+      "answerBasis": "設問は原本画像と照合して整形。解答例・解説は編集作成で、出版社解答の転載ではありません。未指定の細部は架空の補足例です。"
+    },
+    {
+      "collection": "Practice Test 6",
+      "title": "ボランティアのオファーを辞退",
+      "to": "Ms. Rodriguez",
+      "subject": "Declining a volunteer position",
+      "context": "Community Outreach Now (CON), a local nonprofit, offered you a volunteer Social Media Coordinator position. You recently accepted a paid part-time job that takes all your available time, so you must decline the volunteer role.",
+      "requirements": [
+        "Express sincere gratitude for the offer.",
+        "Clearly and briefly explain that a new time commitment prevents you from accepting.",
+        "Reiterate support for the organization’s mission and wish them well."
+      ],
+      "modelAnswer": "Dear Ms. Rodriguez,\n\nThank you very much for offering me the volunteer Social Media Coordinator position at Community Outreach Now. I appreciate your confidence in me and was excited about the opportunity to support your work.\n\nUnfortunately, I have recently accepted a paid part-time job that requires all of my available time, so I must decline the volunteer position. I would not want to accept a responsibility that I could not fulfill reliably. I continue to support CON’s mission of serving the local community and wish you and the team every success. Thank you again for your understanding.\n\nBest regards,\nSam Lee",
+      "explanation": [
+        "感謝 → 明確な辞退 → 理由 → 応援、という構成。I must decline と書き、相手がまだ参加を期待する曖昧な文にしません。",
+        "就職先の情報を余分に書かず、時間を確保できないことを説明。「責任を果たせないまま引き受けたくない」で配慮を示しています。",
+        "団体のmissionを支持し、成功を願う文で結びます。未来の参加を約束する条件はないので、守れない約束を付け足す必要はありません。"
+      ],
+      "phrases": [
+        "I appreciate your confidence in me. — 信頼してくださり感謝します",
+        "fulfill a responsibility — 責任を果たす"
+      ],
+      "id": "writing-email-test6",
+      "type": "email",
+      "minutes": 7,
+      "sourceRefs": [
+        "pdf:writing:p088:test6:email"
+      ],
+      "source": {
+        "file": "TOEFL-writing.pdf",
+        "pages": [
+          88
+        ]
+      },
+      "answerBasis": "設問は原本画像と照合して整形。解答例・解説は編集作成で、出版社解答の転載ではありません。未指定の細部は架空の補足例です。"
+    },
+    {
+      "collection": "Practice Test 7",
+      "title": "印刷物の誤配送・返金を依頼",
+      "to": "PrintFast Customer Service",
+      "subject": "Formal complaint — incorrect order and late delivery — PF98765",
+      "context": "You ordered a custom academic poster from PrintFast. It arrived after the promised deadline and was printed on glossy paper instead of the requested matte vinyl. The reflections make it hard to read under conference lighting. You want a full refund and an immediate replacement.",
+      "requirements": [
+        "Identify the order number, promised deadline, and arrival date.",
+        "Explain both late delivery and the incorrect material.",
+        "Request a full refund AND an immediate replacement with the correct specifications."
+      ],
+      "editorNote": "注文番号PF98765は原本の件名に掲載。締切・到着日の具体的な日付は原本にないため、矛盾しない架空の日付で補ってください。",
+      "modelAnswer": "Dear PrintFast Customer Service,\n\nI am writing about order PF98765 for an academic poster. Delivery was promised by September 10, but the poster did not arrive until September 12. In addition, it was printed on glossy paper rather than the matte vinyl specified in my order. The glossy surface reflects conference lighting and makes the text difficult to read.\n\nI would like a full refund and an immediate replacement printed on matte vinyl using the original design. Please confirm when the replacement can be shipped and how the refund will be processed. Thank you for addressing these issues promptly.\n\nBest regards,\nSam Lee",
+      "explanation": [
+        "約束の9月10日より到着の12日が遅いと具体化。lateだけでなく、注文の照合に必要な番号と日付を示します。",
+        "誤素材glossy paper／正素材matte vinylを対比し、読みにくい理由も添えます。",
+        "原本の要求は refund AND replacement。どちらか一方に変えず、両方を明記します。強い不満でも事実と依頼を中心にすれば、攻撃的な表現は不要です。"
+      ],
+      "phrases": [
+        "rather than the … specified in my order — 注文で指定した〜ではなく",
+        "Please confirm when … — いつ〜か確認をお願いします"
+      ],
+      "id": "writing-email-test7",
+      "type": "email",
+      "minutes": 7,
+      "sourceRefs": [
+        "pdf:writing:p097:test7:email"
+      ],
+      "source": {
+        "file": "TOEFL-writing.pdf",
+        "pages": [
+          97
+        ]
+      },
+      "answerBasis": "設問は原本画像と照合して整形。解答例・解説は編集作成で、出版社解答の転載ではありません。未指定の細部は架空の補足例です。"
+    },
+    {
+      "collection": "Practice Test 8",
+      "title": "地域清掃イベントの役割分担",
+      "to": "Maria, Dave, and Susan",
+      "subject": "Coordinating a community cleanup event",
+      "context": "You are the head organizer of a neighborhood cleanup event called Park Renewal Day. It is scheduled for Saturday, October 15. Maria, Dave, and Susan are the three team leaders responsible for logistics.",
+      "requirements": [
+        "Confirm the final event date and time.",
+        "Assign a specific, clear role to each leader.",
+        "Request confirmation of their roles and attendance at a brief final planning meeting next week."
+      ],
+      "editorNote": "開始時刻・会議の日時は原本で未指定なので、解答例では架空の時刻を補っています。曜日と日付は教材の設定として扱い、実際の年のカレンダーとは照合しません。",
+      "modelAnswer": "Hi Maria, Dave, and Susan,\n\nI am writing to confirm that Park Renewal Day will take place on Saturday, October 15, from 9:00 AM to noon. Thank you for helping coordinate the cleanup.\n\nMaria, please arrange the gloves, bags, and other supplies. Dave, please manage volunteer check-in and explain the work areas to participants. Susan, please coordinate trash collection and hauling so that filled bags can be removed safely.\n\nCould each of you confirm your role by Friday? Please also join a short final planning meeting next Tuesday at 5:00 PM to review the arrangements and discuss any outstanding concerns. Thank you for your support.\n\nBest,\nSam",
+      "explanation": [
+        "開催日と時間を冒頭にまとめ、3人の名前ごとに具体的な行動を割り当てます。全員に同じ「手伝ってください」では役割が不明です。",
+        "check-inとtrash haulingなどの担当を分け、何を準備・実施するのかまで記述。手順の細部を増やしすぎず、設問条件に必要な情報を優先します。",
+        "役割確認の返信依頼と、来週の短い最終会議への参加依頼は別の要求です。どちらも落とさないようにします。"
+      ],
+      "phrases": [
+        "Could each of you confirm your role? — 各自担当を確認してもらえますか",
+        "outstanding concerns — 未解決の懸念点"
+      ],
+      "id": "writing-email-test8",
+      "type": "email",
+      "minutes": 7,
+      "sourceRefs": [
+        "pdf:writing:p106:test8:email"
+      ],
+      "source": {
+        "file": "TOEFL-writing.pdf",
+        "pages": [
+          106
+        ]
+      },
+      "answerBasis": "設問は原本画像と照合して整形。解答例・解説は編集作成で、出版社解答の転載ではありません。未指定の細部は架空の補足例です。"
+    },
+    {
+      "collection": "Practice Test 9",
+      "title": "情報面談後のお礼",
+      "to": "Mr. Kim",
+      "subject": "Following up after an informational interview",
+      "context": "You spent 30 minutes in an informational interview with Mr. David Kim, an urban planning professional. He advised you about essential software skills and recommended The City Builders as required reading.",
+      "requirements": [
+        "Thank him for his time and advice.",
+        "Mention both his software-skills advice and the book recommendation.",
+        "Express interest in staying in touch and ask permission to send a follow-up email in the future."
+      ],
+      "modelAnswer": "Dear Mr. Kim,\n\nThank you for spending 30 minutes with me to discuss a career in urban planning. I appreciated your practical advice about developing essential software skills, which helped me identify an important area to work on. I also plan to read The City Builders, as you recommended, to deepen my understanding of the field.\n\nOur conversation has strengthened my interest in urban planning. I would be grateful to stay in touch as I explore this career path. Would it be all right if I sent you a follow-up email after completing the book and practicing the skills you suggested? Thank you again for your generosity.\n\nBest regards,\nSam Lee",
+      "explanation": [
+        "Thank youだけで終えず、ソフト技能とThe City Buildersの2点を挙げ、話を聞いていたことを示します。原本にソフトの製品名はないので、勝手に相手の発言として特定しません。",
+        "情報面談への感謝であり、採用を要求するメールではありません。関心が深まったことと、自分が次にする行動を添えます。",
+        "連絡を続ける意思に加えて、follow-upの許可を疑問文で尋ねることが第3条件です。I will email you again という一方的な宣言より適切です。"
+      ],
+      "phrases": [
+        "deepen my understanding of … — 〜への理解を深める",
+        "Would it be all right if I …? — 私が〜してもよろしいでしょうか"
+      ],
+      "id": "writing-email-test9",
+      "type": "email",
+      "minutes": 7,
+      "sourceRefs": [
+        "pdf:writing:p115:test9:email"
+      ],
+      "source": {
+        "file": "TOEFL-writing.pdf",
+        "pages": [
+          115
+        ]
+      },
+      "answerBasis": "設問は原本画像と照合して整形。解答例・解説は編集作成で、出版社解答の転載ではありません。未指定の細部は架空の補足例です。"
+    },
+    {
+      "collection": "Diagnostic Test",
+      "title": "国の理解：ニュースと映画",
+      "professor": "Doctor Stewart",
+      "context": "We have access to various forms of international media. Just by going online, we can watch news programs and movies from around the world. This makes it easier than ever to learn about other nations. But there is a great deal of debate about the most reliable source of information. Which do you think provides a better understanding of a country — its news programs or its movies?",
+      "posts": [
+        {
+          "name": "Derek",
+          "text": "News programs are more reliable. Movies often romanticize reality and change details, even when they are based on real events."
+        },
+        {
+          "name": "Anika",
+          "text": "Movies reveal ordinary life and cultural identity. News concentrates on exceptional events such as disasters, scandals, and crime, which can distort our image of a country."
+        }
+      ],
+      "modelAnswer": "I think movies can provide a better understanding of a country’s everyday culture, although they should not be treated as factual reports. Anika makes a useful point that news often focuses on unusual events. A film can instead show how people greet relatives, share meals, or respond to social expectations. These details may help viewers ask more informed questions about ordinary life. For example, watching several films from different regions could reveal that a country has diverse traditions rather than one uniform culture. Derek is right that filmmakers change reality, so viewers should compare what they see with other sources. Nevertheless, for understanding everyday experiences rather than verifying a particular event, movies offer valuable insights.",
+      "explanation": [
+        "映画を支持する立場を冒頭で限定し、ニュースによる事実確認の価値と区別。どちらが国の日常文化を理解するのに役立つか、問いに直接答えています。",
+        "Anikaの「例外的事件への偏り」に、挨拶・食事・社会的期待という新しい具体化を追加。単に同意だけを書かないことが貢献になります。",
+        "Derekの懸念を認め、複数の作品と他資料の比較を提案。一つの映画から国全体を断定する一般化を避けます。"
+      ],
+      "phrases": [
+        "should not be treated as … — 〜として扱うべきではない",
+        "rather than one uniform culture — 一つの均一な文化ではなく"
+      ],
+      "id": "writing-discussion-diagnostic",
+      "type": "discussion",
+      "minutes": 10,
+      "targetWords": 100,
+      "requirements": [
+        "Express and support your opinion.",
+        "Make a meaningful contribution to the discussion in your own words.",
+        "Aim for at least 100 words in this practice."
+      ],
+      "sourceRefs": [
+        "pdf:writing:p014:diagnostic:discussion"
+      ],
+      "source": {
+        "file": "TOEFL-writing.pdf",
+        "pages": [
+          14,
+          15
+        ]
+      },
+      "answerBasis": "教授の問いは原本画像と照合。学生の投稿は学習対象を保った英語要約。解答例と日本語解説は編集作成で、唯一の正解ではありません。"
+    },
+    {
+      "collection": "Practice Test 1",
+      "title": "SNSはつながりか、孤立か",
+      "professor": "Professor Li",
+      "context": "We live in a world saturated by digital platforms that claim to connect us. Instagram, TikTok, and other platforms allow us to share moments, find niche communities, and maintain long-distance friendships. However, critics argue these platforms foster a culture of isolation and comparison. Which side of this debate do you find more compelling: Do social media platforms primarily encourage genuine human connection and community building, or do they fundamentally promote isolation and superficial interaction?",
+      "posts": [
+        {
+          "name": "Omar",
+          "text": "Social media helps maintain relationships across geographical boundaries and find communities with specific interests or shared identities that may not exist locally."
+        },
+        {
+          "name": "Sarah",
+          "text": "Many online connections are superficial. Platforms reward likes and validation, while constant comparison with curated highlights can cause inadequacy and isolation."
+        }
+      ],
+      "modelAnswer": "I find Omar’s argument more compelling because social media can connect people who would otherwise struggle to find a community. The important distinction is between actively communicating and passively scrolling. For example, someone learning a rare language could join a small online group, ask questions, and arrange regular conversations. Repeated cooperation would create a genuine relationship rather than a temporary exchange of likes. Sarah is right that constant comparison can make users feel isolated, but this problem does not describe every use of the technology. Users can choose smaller groups and limit exposure to popularity metrics. Therefore, when platforms are used for shared activities and ongoing dialogue, their ability to build meaningful connections outweighs their tendency to encourage superficial interaction.",
+      "explanation": [
+        "Omarへの賛成を示してから、active communication / passive scrollingの区別を自分の論点にします。",
+        "珍しい言語の学習グループという仮想例で、質問→会話→協働→関係形成の仕組みを説明。例を名前だけ出して終えません。",
+        "Sarahの比較による孤立を認め、すべての利用に当てはまるとは限らないと応答。条件付きの主張で過剰な一般化を防ぎます。"
+      ],
+      "phrases": [
+        "The important distinction is between A and B. — 重要なのはAとBの違いです",
+        "outweigh … — 〜を上回る"
+      ],
+      "id": "writing-discussion-test1",
+      "type": "discussion",
+      "minutes": 10,
+      "targetWords": 100,
+      "requirements": [
+        "Express and support your opinion.",
+        "Make a meaningful contribution to the discussion in your own words.",
+        "Aim for at least 100 words in this practice."
+      ],
+      "sourceRefs": [
+        "pdf:writing:p033:test1:discussion"
+      ],
+      "source": {
+        "file": "TOEFL-writing.pdf",
+        "pages": [
+          33,
+          34
+        ]
+      },
+      "answerBasis": "教授の問いは原本画像と照合。学生の投稿は学習対象を保った英語要約。解答例と日本語解説は編集作成で、唯一の正解ではありません。"
+    },
+    {
+      "collection": "Practice Test 2",
+      "title": "代表民主制と直接民主制",
+      "professor": "Professor Hayes",
+      "context": "Many modern democracies are representative, meaning citizens elect officials to make decisions on their behalf. However, some argue that with modern technology, we should move toward a more direct democracy, where citizens vote on every major policy issue. Which system provides a more stable and effective form of governance: Representative Democracy (elected officials making policy) or Direct Democracy (citizens voting on all policies)?",
+      "posts": [
+        {
+          "name": "Chen",
+          "text": "Representative democracy allows full-time expertise and deliberation. It can protect long-term interests and minority rights against impulsive majority decisions."
+        },
+        {
+          "name": "Samuel",
+          "text": "Direct democracy reduces the distance between politicians and citizens, increases engagement, and makes policies reflect the public’s current preferences."
+        }
+      ],
+      "modelAnswer": "Representative democracy is generally the more effective system because complex policies require sustained investigation and negotiation. I agree with Chen that elected officials can devote time to understanding issues that most citizens cannot study in depth every week. Consider a public transportation budget: voters may support lower fares without knowing how that choice affects maintenance or service frequency. Representatives can compare these costs, question specialists, and revise a proposal before approving it. Samuel’s concern about accountability is important, so citizens should still have accessible hearings and clear information about officials’ decisions. However, direct voting on every policy would not automatically provide the expertise needed for sound choices. A representative system with meaningful public oversight offers a more stable balance.",
+      "explanation": [
+        "代表民主制のほうが有効という立場を明確にし、理由を専門性と継続した検討に絞ります。",
+        "交通予算の例は、低運賃と保守・運行本数のtrade-off。一般論の「政治は複雑」を具体的な意思決定に展開しています。",
+        "Samuelのaccountabilityに公開の意見聴取・説明で答え、代表制なら常に公正と断定しません。比較の結論に戻って締めます。"
+      ],
+      "phrases": [
+        "on their behalf — 彼らに代わって",
+        "meaningful public oversight — 実質的な市民による監視"
+      ],
+      "id": "writing-discussion-test2",
+      "type": "discussion",
+      "minutes": 10,
+      "targetWords": 100,
+      "requirements": [
+        "Express and support your opinion.",
+        "Make a meaningful contribution to the discussion in your own words.",
+        "Aim for at least 100 words in this practice."
+      ],
+      "sourceRefs": [
+        "pdf:writing:p048:test2:discussion"
+      ],
+      "source": {
+        "file": "TOEFL-writing.pdf",
+        "pages": [
+          48,
+          49
+        ]
+      },
+      "answerBasis": "教授の問いは原本画像と照合。学生の投稿は学習対象を保った英語要約。解答例と日本語解説は編集作成で、唯一の正解ではありません。"
+    },
+    {
+      "collection": "Practice Test 3",
+      "title": "リモートワークと生産性",
+      "professor": "Professor O’Connell",
+      "context": "The shift toward remote and hybrid work models has dramatically changed workplace dynamics. Companies must decide if remote work is a net positive or negative for organizational goals. Does extensive remote work primarily increase employee productivity, satisfaction, and global talent recruitment, or does it fundamentally hinder team cohesion, innovation, and managerial oversight?",
+      "posts": [
+        {
+          "name": "Lena",
+          "text": "Remote work removes draining commutes, allows employees to choose a productive environment, and expands recruitment beyond geographical limits. Employers can focus on output."
+        },
+        {
+          "name": "Mark",
+          "text": "Extensive remote work weakens innovation and team cohesion by reducing spontaneous informal interactions and making communication more dependent on scheduled meetings."
+        }
+      ],
+      "modelAnswer": "I believe remote work is primarily beneficial when a job involves tasks that can be completed independently. Lena’s point about commuting is especially relevant: time and energy saved on travel can be used for concentrated work. For example, a software developer might complete a difficult analysis more efficiently in a quiet home office than in a busy shared workspace. Mark is right that informal conversations can support innovation, but companies can preserve collaboration through regular team sessions and clear channels for asking questions. Managers should evaluate completed work and responsiveness rather than simply the number of hours spent online. Remote work is not suitable for every role, yet for teams with appropriate tasks and communication practices, its productivity and recruitment advantages can outweigh its coordination costs.",
+      "explanation": [
+        "リモートに適する独立作業という範囲を示し、全職種に無条件で優れるという主張を避けます。",
+        "通勤削減から集中のための時間・エネルギーへつなぎ、静かな作業環境の仮想例で理由を発展させます。",
+        "Markへの応答は「会話は不要」ではなく、定期セッションと質問経路で連携を保つ提案。outputとresponsivenessが管理の具体的基準になります。"
+      ],
+      "phrases": [
+        "concentrated work — 集中した作業",
+        "evaluate completed work rather than … — 〜ではなく完了した仕事を評価する"
+      ],
+      "id": "writing-discussion-test3",
+      "type": "discussion",
+      "minutes": 10,
+      "targetWords": 100,
+      "requirements": [
+        "Express and support your opinion.",
+        "Make a meaningful contribution to the discussion in your own words.",
+        "Aim for at least 100 words in this practice."
+      ],
+      "sourceRefs": [
+        "pdf:writing:p059:test3:discussion"
+      ],
+      "source": {
+        "file": "TOEFL-writing.pdf",
+        "pages": [
+          59,
+          60
+        ]
+      },
+      "answerBasis": "教授の問いは原本画像と照合。学生の投稿は学習対象を保った英語要約。解答例と日本語解説は編集作成で、唯一の正解ではありません。"
+    },
+    {
+      "collection": "Practice Test 4",
+      "title": "標準テストと教育の評価",
+      "professor": "Professor Anya",
+      "context": "Standardized tests are used widely to measure student achievement, school performance, and teacher effectiveness. However, they remain highly controversial. Are standardized tests primarily a fair and necessary tool for ensuring objective accountability and identifying achievement gaps, or are they an unreliable measure that promotes rote learning and exacerbates social inequities?",
+      "posts": [
+        {
+          "name": "Omar",
+          "text": "Comparable test data can reveal achievement gaps and systemic failures and help hold schools accountable for public funding."
+        },
+        {
+          "name": "Jenna",
+          "text": "Tests may reflect preparation advantages and test-taking skills rather than deep understanding. Teaching to the test can narrow the curriculum and worsen inequality."
+        }
+      ],
+      "modelAnswer": "I find Jenna’s criticism more persuasive when standardized tests are used as the main measure of school quality. A single test cannot capture all the skills students develop, and heavy consequences can encourage schools to focus on predictable question formats. For example, teachers might replace a research project with repeated practice tests because the latter is more likely to improve the published score. Students would then lose opportunities to evaluate evidence and explain their reasoning. Omar is right that comparable data can reveal achievement gaps, so I would retain tests as one diagnostic tool. However, combining them with projects, classroom work, and information about school resources would give a fairer assessment. Tests are useful evidence, but treating them as a complete measure risks distorting education.",
+      "explanation": [
+        "批判の対象を『主な学校評価指標として使う場合』に限定。テストを全廃すべきだという根拠のない飛躍を避けます。",
+        "テスト対策による研究課題の置き換え→証拠評価の機会減少、という因果の仕組みを示します。",
+        "Omarのデータ比較の利点は保持し、診断用の一指標として使う代案を提案。多面的な評価という新しい貢献があります。"
+      ],
+      "phrases": [
+        "one diagnostic tool — 診断のための一つの道具",
+        "risks distorting … — 〜を歪める恐れがある"
+      ],
+      "id": "writing-discussion-test4",
+      "type": "discussion",
+      "minutes": 10,
+      "targetWords": 100,
+      "requirements": [
+        "Express and support your opinion.",
+        "Make a meaningful contribution to the discussion in your own words.",
+        "Aim for at least 100 words in this practice."
+      ],
+      "sourceRefs": [
+        "pdf:writing:p072:test4:discussion"
+      ],
+      "source": {
+        "file": "TOEFL-writing.pdf",
+        "pages": [
+          72,
+          73
+        ]
+      },
+      "answerBasis": "教授の問いは原本画像と照合。学生の投稿は学習対象を保った英語要約。解答例と日本語解説は編集作成で、唯一の正解ではありません。"
+    },
+    {
+      "collection": "Practice Test 5",
+      "title": "自動化と雇用・格差",
+      "professor": "Professor Gupta",
+      "context": "The rise of AI and automation in the workplace is rapidly changing the nature of labor. Some see this as an opportunity for human flourishing, freeing us from drudgery. Others view it as an existential threat to employment. Will increasing automation primarily lead to higher productivity, new forms of work, and overall societal prosperity, or will it result in widespread technological unemployment and increased class stratification?",
+      "posts": [
+        {
+          "name": "Leo",
+          "text": "Automation can increase productivity, create industries such as robotics maintenance, and move workers from repetitive or dangerous tasks into creative and interpersonal roles."
+        },
+        {
+          "name": "Tanya",
+          "text": "The current wave also affects cognitive and service work. New jobs may require specialized skills, leaving displaced workers behind and concentrating wealth among technology owners."
+        }
+      ],
+      "modelAnswer": "I think automation can produce overall prosperity, but that outcome depends on whether workers can share in the gains. Leo is right that removing repetitive tasks can make work more productive, yet Tanya identifies a serious problem: the people who lose their jobs may not qualify for the new positions. For example, an automated warehouse could still need technicians, but former packers would need paid training before they could fill those roles. Employers and governments should therefore support retraining and provide income during the transition. Without such support, higher output could benefit only a small group of owners. With accessible training and a realistic transition period, however, automation is more likely to expand opportunities than to create permanent technological unemployment.",
+      "explanation": [
+        "繁栄につながるという立場を、利益共有と再訓練を条件に示します。自動化が必ず雇用を増やすという未検証の歴史的断定はしません。",
+        "倉庫の作業員と技術者の技能の差で、Tanyaの問題を具体化。『新しい仕事がある』だけでは移行できない理由を説明します。",
+        "有給訓練と移行期の所得支援を新しい貢献として提示し、条件が満たされない場合との比較で主張を支えます。"
+      ],
+      "phrases": [
+        "share in the gains — 利益を共有する",
+        "during the transition — 移行期間中に"
+      ],
+      "id": "writing-discussion-test5",
+      "type": "discussion",
+      "minutes": 10,
+      "targetWords": 100,
+      "requirements": [
+        "Express and support your opinion.",
+        "Make a meaningful contribution to the discussion in your own words.",
+        "Aim for at least 100 words in this practice."
+      ],
+      "sourceRefs": [
+        "pdf:writing:p081:test5:discussion"
+      ],
+      "source": {
+        "file": "TOEFL-writing.pdf",
+        "pages": [
+          81,
+          82
+        ]
+      },
+      "answerBasis": "教授の問いは原本画像と照合。学生の投稿は学習対象を保った英語要約。解答例と日本語解説は編集作成で、唯一の正解ではありません。"
+    },
+    {
+      "collection": "Practice Test 6",
+      "title": "連邦と州：権限をどこに置くか",
+      "professor": "Professor Lee",
+      "context": "Federal systems of government divide power between a central (federal) authority and regional (state or provincial) governments. The balance between these two levels is always subject to political tension. Should political power in a federal system primarily be centralized in the federal government to ensure national uniformity and efficiency, or should it remain decentralized, vesting more authority in state governments to allow for tailored policy and diverse solutions?",
+      "posts": [
+        {
+          "name": "Jason",
+          "text": "A strong central government can address global challenges and guarantee consistent civil-rights protections for citizens regardless of where they live."
+        },
+        {
+          "name": "Chloe",
+          "text": "Regional governments understand local needs and can experiment with policies, allowing diverse solutions and greater responsiveness to residents."
+        }
+      ],
+      "modelAnswer": "I favor decentralizing most everyday policy decisions while maintaining national standards for basic rights. Chloe is right that regional governments often understand local conditions better. For instance, a rural region may need flexible bus routes, whereas a densely populated city may need frequent train services. Giving both places the same detailed transportation policy could waste money without meeting residents’ needs. Regional authorities should be able to test different approaches and learn from one another. Jason’s concern about unequal rights is equally important, so national laws should establish protections that no region can weaken. This division would preserve local flexibility without making essential rights depend on an individual’s address. Overall, decentralized implementation within a clear national framework offers the more responsive system.",
+      "explanation": [
+        "主な日常政策の実施は分権、基本的権利は全国基準という立場を明示し、単なる『両方大事』で終わりません。",
+        "農村のバスと都市の鉄道の違いで、政策を地域に合わせる利点を示します。これは仮想例で、特定国の法制度についての断定ではありません。",
+        "Jasonの権利保護に全国の最低基準で応答。実施の柔軟性と保護の一貫性という別の層を区別しています。"
+      ],
+      "phrases": [
+        "tailored policy — 実情に合わせた政策",
+        "within a clear national framework — 明確な全国的枠組みの中で"
+      ],
+      "id": "writing-discussion-test6",
+      "type": "discussion",
+      "minutes": 10,
+      "targetWords": 100,
+      "requirements": [
+        "Express and support your opinion.",
+        "Make a meaningful contribution to the discussion in your own words.",
+        "Aim for at least 100 words in this practice."
+      ],
+      "sourceRefs": [
+        "pdf:writing:p090:test6:discussion"
+      ],
+      "source": {
+        "file": "TOEFL-writing.pdf",
+        "pages": [
+          90,
+          91
+        ]
+      },
+      "answerBasis": "教授の問いは原本画像と照合。学生の投稿は学習対象を保った英語要約。解答例と日本語解説は編集作成で、唯一の正解ではありません。"
+    },
+    {
+      "collection": "Practice Test 7",
+      "title": "教室の一人一台端末",
+      "professor": "Professor Adams",
+      "context": "Many school districts have implemented 1:1 technology programs, providing every student with a laptop or tablet to be used daily in class. Does the mandatory presence of personal technology in K–12 classrooms primarily enhance learning, personalize instruction, and prepare students for the digital world, or does it fundamentally create distracting environments and degrade the quality of human interaction?",
+      "posts": [
+        {
+          "name": "Kai",
+          "text": "Technology offers adaptive learning, access to resources, and preparation for the modern workplace. Collaborative projects can make teachers facilitators of learning."
+        },
+        {
+          "name": "Sophia",
+          "text": "Personal devices enable off-task behavior and may replace the face-to-face dialogue needed to develop communication and social-emotional skills."
+        }
+      ],
+      "modelAnswer": "I believe giving each student a device can improve learning, provided teachers control when and how it is used. Kai’s point about personalized instruction is valuable because students do not all progress at the same pace. For example, a mathematics program could give extra practice on fractions to one student while another moves to a more advanced task. The teacher could then use that information to offer targeted help. Sophia is right that unrestricted access can distract students, so devices should be closed during discussions and group conversations. Schools should also teach students how to evaluate online information rather than simply collect it. Under these conditions, personal technology supports both individual learning and digital skills without having to replace human interaction.",
+      "explanation": [
+        "端末配布を支持しつつ、教師による利用場面の管理を条件にします。端末があるだけで学力が上がるとは書きません。",
+        "分数の追加練習と発展課題の分岐→教師の支援、という仕組みでpersonalized instructionを説明しています。",
+        "Sophiaへの対応として対話時には閉じる運用を提案。情報の評価能力も加えることで、教材の主張を繰り返すだけになりません。"
+      ],
+      "phrases": [
+        "provided … — 〜という条件で",
+        "targeted help — 必要に合わせた支援"
+      ],
+      "id": "writing-discussion-test7",
+      "type": "discussion",
+      "minutes": 10,
+      "targetWords": 100,
+      "requirements": [
+        "Express and support your opinion.",
+        "Make a meaningful contribution to the discussion in your own words.",
+        "Aim for at least 100 words in this practice."
+      ],
+      "sourceRefs": [
+        "pdf:writing:p099:test7:discussion"
+      ],
+      "source": {
+        "file": "TOEFL-writing.pdf",
+        "pages": [
+          99,
+          100
+        ]
+      },
+      "answerBasis": "教授の問いは原本画像と照合。学生の投稿は学習対象を保った英語要約。解答例と日本語解説は編集作成で、唯一の正解ではありません。"
+    },
+    {
+      "collection": "Practice Test 8",
+      "title": "歴史の記念碑：称賛と文脈",
+      "professor": "Professor Smith",
+      "context": "Societies create public memorials (statues, monuments) to commemorate historical events and figures. There is frequent debate over whether these memorials should be purely celebratory or acknowledge complexities and flaws. Should public memorials primarily commemorate and celebrate a unified national narrative or hero to foster collective identity, or should they critique and contextualize historical figures and events to promote critical historical analysis?",
+      "posts": [
+        {
+          "name": "Rajiv",
+          "text": "Memorials should foster social cohesion and shared pride through a clear national narrative. Historical complexity can be studied in classrooms and museums."
+        },
+        {
+          "name": "Erika",
+          "text": "Honest memorials should acknowledge injustice and complexity. Uncritical celebration can silence the experiences of people harmed by historical figures."
+        }
+      ],
+      "modelAnswer": "I agree with Erika that public memorials should place historical figures in context rather than offer only praise. Public spaces are often where people first encounter a community’s history, so leaving out serious harms can create a misleading impression. For example, a monument to an industrial leader could explain both the jobs that the company created and the unsafe conditions workers faced. Visitors would then have a basis for discussing the person’s achievements and limitations. Rajiv is right that shared symbols can support social cohesion, but unity does not require ignoring disagreement. A concise plaque that presents multiple perspectives could invite more residents into the conversation. Acknowledging complexity can therefore strengthen a shared identity by making it more inclusive and historically informed.",
+      "explanation": [
+        "contextualizeを支持し、公共空間が歴史に触れる入口であるという理由を追加しています。",
+        "産業家の功績と労働環境の両面を示す仮想例で、文脈化の具体的な方法を説明。特定の人物について未確認の事実は作りません。",
+        "Rajivの結束の価値を認めつつ、『不一致の無視』は不要だと応答。複数の視点を含む短い説明板が実践的な提案です。"
+      ],
+      "phrases": [
+        "place … in context — 〜を文脈の中で捉える",
+        "historically informed — 歴史への理解に基づいた"
+      ],
+      "id": "writing-discussion-test8",
+      "type": "discussion",
+      "minutes": 10,
+      "targetWords": 100,
+      "requirements": [
+        "Express and support your opinion.",
+        "Make a meaningful contribution to the discussion in your own words.",
+        "Aim for at least 100 words in this practice."
+      ],
+      "sourceRefs": [
+        "pdf:writing:p108:test8:discussion"
+      ],
+      "source": {
+        "file": "TOEFL-writing.pdf",
+        "pages": [
+          108,
+          109
+        ]
+      },
+      "answerBasis": "教授の問いは原本画像と照合。学生の投稿は学習対象を保った英語要約。解答例と日本語解説は編集作成で、唯一の正解ではありません。"
+    },
+    {
+      "collection": "Practice Test 10",
+      "title": "大学の文章課題と生成AI",
+      "professor": "Professor Chen",
+      "context": "The rapid accessibility of generative AI tools (like ChatGPT) presents a major challenge to traditional academic assignments, particularly essays and papers. Should universities strictly ban the use of generative AI in all assessed academic writing to ensure the integrity of individual student work, or should they integrate and teach the responsible use of AI as a mandatory tool for research and drafting?",
+      "posts": [
+        {
+          "name": "Sarah",
+          "text": "A strict ban protects independent thinking and the integrity of grading. Otherwise students could be rewarded for work they did not produce themselves."
+        },
+        {
+          "name": "Leo",
+          "text": "Universities should teach responsible use and AI literacy, focusing assignments on synthesis, critique, and revision where human input adds value."
+        }
+      ],
+      "modelAnswer": "Universities should integrate instruction in responsible AI use rather than impose a universal ban. I agree with Leo that students need to learn how to question and revise generated material, but Sarah is right that an assessment must still reveal the student’s own abilities. One solution is to require students to disclose how they used AI and submit notes showing the development of their argument. A teacher could also ask students to explain and defend their choices in a short conversation. These steps would make it harder to submit generated text without understanding it. Some assignments should remain AI-free to assess independent writing, while supervised AI exercises can be mandatory parts of instruction. This approach teaches useful skills without treating an AI-generated draft as evidence of individual achievement.",
+      "explanation": [
+        "責任ある利用の指導を統合する立場を明示。すべての答案でAI使用を強制する必要はない、という限定も説明します。",
+        "LeoのAI literacyに、使用開示・構成メモ・口頭説明という具体的な運用を追加。Sarahの本人の能力を測る懸念に答えています。",
+        "学習用のAI演習と、独力の能力を測るAI-free課題を区別。AI文章を本人の成果として提出してよいという主張にはしません。"
+      ],
+      "phrases": [
+        "disclose how … — どのように〜したか開示する",
+        "defend their choices — 自分の選択の理由を説明し正当化する"
+      ],
+      "id": "writing-discussion-test10",
+      "type": "discussion",
+      "minutes": 10,
+      "targetWords": 100,
+      "requirements": [
+        "Express and support your opinion.",
+        "Make a meaningful contribution to the discussion in your own words.",
+        "Aim for at least 100 words in this practice."
+      ],
+      "sourceRefs": [
+        "pdf:writing:p124:test10:discussion"
+      ],
+      "source": {
+        "file": "TOEFL-writing.pdf",
+        "pages": [
+          124,
+          125
+        ]
+      },
+      "answerBasis": "教授の問いは原本画像と照合。学生の投稿は学習対象を保った英語要約。解答例と日本語解説は編集作成で、唯一の正解ではありません。"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 +++
 title = "TOEFL Practice Lab"
-description = "2026年版TOEFL形式に対応した、ブラウザで解答・即時採点できる独自演習アプリ"
+description = "Readingの自動採点とWritingの並べ替え・メール・討論を練習。下書き保存、解答例、日本語解説で見直せる学習アプリ"
 layout = "toefl"
 url = "/toefl/"
 draft = false

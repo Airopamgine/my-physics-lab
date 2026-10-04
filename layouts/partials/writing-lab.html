@@ -1,0 +1,84 @@
+<section class="writing-lab" id="writing-lab" aria-labelledby="writing-title"
+  data-bank-url="{{ "data/toefl-writing-bank.json" | relURL }}?v={{ readFile "static/data/toefl-writing-bank.json" | sha256 | truncate 12 "" }}">
+  <div class="writing-heading">
+    <div><p class="toefl-eyebrow">Write · review · rewrite</p><h2 id="writing-title">Writing Lab</h2>
+      <p>文を組み立てる練習から、目的の伝わるメール、根拠のある討論へ。</p></div>
+    <p class="writing-total" id="writing-total">教材を読み込み中…</p>
+  </div>
+  <div class="writing-task-grid" role="group" aria-label="Writing task">
+    <button type="button" data-writing-task="sentence" aria-pressed="true" disabled>
+      <span class="toefl-section-chip">01 · Grammar</span><strong>Build a Sentence</strong>
+      <span>語句を選び、文の空欄を完成。即時採点と文法解説。</span><small id="writing-sentence-count">読み込み中…</small>
+    </button>
+    <button type="button" data-writing-task="email" aria-pressed="false" disabled>
+      <span class="toefl-section-chip">02 · Communication</span><strong>Write an Email</strong>
+      <span>依頼・お礼・日程調整。7分タイマーと設問別の解答例。</span><small id="writing-email-count">読み込み中…</small>
+    </button>
+    <button type="button" data-writing-task="discussion" aria-pressed="false" disabled>
+      <span class="toefl-section-chip">03 · Argument</span><strong>Academic Discussion</strong>
+      <span>学生の意見に応答し、理由と具体例を書く。10分練習。</span><small id="writing-discussion-count">読み込み中…</small>
+    </button>
+  </div>
+  <details class="writing-guide">
+    <summary>書き方と評価のポイント</summary>
+    <div class="writing-guide-grid">
+      <div><h3>Email · 7 minutes</h3><p>相手と目的を確認 → 設問の各条件に1〜2文 → お礼と結び。最初の1分で計画し、最後の1分で依頼内容・日時・文法を見直します。</p>
+        <p>評価の観点：必要な情報、明確な目的、相手に合う丁寧さ、自然な文章構成、語彙と文法。</p></div>
+      <div><h3>Discussion · 10 minutes</h3><p>立場 → 理由 → 具体例・仕組み → 既存意見との接続。100語以上を目安に、語数を増やすより論拠を深めます。</p>
+        <p>評価の観点：問いへの応答、理由と具体例、議論への新しい貢献、文章のつながり、語彙と文法。</p></div>
+    </div>
+    <p>自由作文は唯一の正解がありません。解答例と自己点検で見直し、ChatGPT添削で改善します。語数やチェック数から点数を自動推定しません。</p>
+    <p><a href="https://www.ets.org/toefl/test-takers/ibt/about/content/writing/.html" target="_blank" rel="noopener noreferrer">ETS：Writing形式</a> · <a href="https://www.ets.org/pdfs/toefl/writing-rubrics.pdf" target="_blank" rel="noopener noreferrer">ETS：自由作文の評価基準（0〜5）</a>。タスクの評価基準とセクションの公式スコアは別です。</p>
+  </details>
+  <div class="writing-controls">
+    <label>教材を検索<input id="writing-search" type="search" placeholder="例：奨学金、remote、受動態" autocomplete="off"></label>
+    <label>学習状況<select id="writing-filter"><option value="all">すべて</option><option value="draft">下書きあり</option><option value="review">要復習</option><option value="done">確認済み</option></select></label>
+    <p id="writing-progress"></p>
+  </div>
+  <p id="writing-status" role="status">Writing教材を読み込んでいます…</p>
+  <button class="toefl-button toefl-button--secondary" id="writing-retry" type="button" hidden>読み込みを再試行</button>
+  <div class="writing-catalog" id="writing-catalog"></div>
+  <section class="writing-runner" id="writing-runner" aria-labelledby="writing-exercise-title" hidden>
+    <header class="writing-runner-heading">
+      <div><p class="toefl-eyebrow" id="writing-exercise-type"></p><h3 id="writing-exercise-title" tabindex="-1"></h3><p class="writing-source" id="writing-source"></p></div>
+      <button class="toefl-button toefl-button--ghost" id="writing-close" type="button">一覧に戻る</button>
+    </header>
+    <div class="writing-workspace">
+      <div class="writing-prompt" id="writing-prompt"></div>
+      <div class="writing-answer-panel">
+        <div id="writing-sentence-panel" hidden>
+          <p>語句を選ぶと空欄に入ります。入れた語句を押すと戻せます。使わない語句がある問題もあります。</p>
+          <div class="writing-frame" id="writing-frame" aria-label="組み立てた文"></div>
+          <div class="writing-tiles" id="writing-tiles" role="group" aria-label="選べる語句"></div>
+          <div class="toefl-actions"><button class="toefl-button toefl-button--primary" id="writing-check" type="button" disabled>採点する</button><button class="toefl-button toefl-button--secondary" id="writing-clear" type="button">語句を戻す</button></div>
+        </div>
+        <div id="writing-essay-panel" hidden>
+          <div class="writing-timer"><span id="writing-time" aria-label="残り時間">07:00</span><span id="writing-timer-state">時間制限なしで練習中</span>
+            <button class="toefl-button toefl-button--secondary" id="writing-timer-toggle" type="button">時間を計って開始</button></div>
+          <label class="writing-editor-label" for="writing-answer">Your response</label>
+          <textarea id="writing-answer" rows="14" lang="en" spellcheck="false" autocomplete="off" autocapitalize="off" aria-describedby="writing-word-count writing-save-status" placeholder="Write your response here. 実在の個人情報は使わず、架空の名前で練習してください。"></textarea>
+          <div class="writing-editor-meta"><span id="writing-word-count">0 words</span><span id="writing-save-status" role="status">このブラウザ内に保存します</span></div>
+          <label class="writing-editor-label" for="writing-notes">構成メモ（任意・語数に含めません）</label>
+          <textarea id="writing-notes" rows="3" placeholder="立場・理由・具体例、またはメールで伝える条件"></textarea>
+          <div class="toefl-actions"><button class="toefl-button toefl-button--primary" id="writing-finish" type="button" disabled>答案を保存して見直す</button><button class="toefl-button toefl-button--secondary" id="writing-export" type="button">答案をダウンロード</button></div>
+          <p class="toefl-small-note">タイマーは練習用です。一時停止でき、時間切れでも答案は消えません。スペル補助はオフです。</p>
+        </div>
+        <p class="writing-feedback" id="writing-feedback" role="status" hidden></p>
+        <div id="writing-tutor"></div>
+      </div>
+    </div>
+    <section class="writing-review" id="writing-review" aria-labelledby="writing-review-title" hidden>
+      <h3 id="writing-review-title">Review &amp; rewrite</h3>
+      <p id="writing-model-note"></p>
+      <div class="writing-review-grid">
+        <div><h4 id="writing-model-title">解答例</h4><div class="writing-model" id="writing-model" lang="en"></div></div>
+        <div><h4>解説と使える表現</h4><div id="writing-explanation"></div></div>
+      </div>
+      <div id="writing-selfcheck"></div>
+      <details id="writing-submission" hidden><summary>最後に保存した答案と、書き直しを比べる</summary><pre id="writing-submitted-answer"></pre></details>
+      <div class="toefl-actions"><button class="toefl-button toefl-button--secondary" id="writing-mark-review" type="button">要復習にする</button><button class="toefl-button toefl-button--primary" id="writing-mark-done" type="button">確認済みにする</button><button class="toefl-button toefl-button--secondary" id="writing-next" type="button">次の教材へ →</button></div>
+      <p class="toefl-small-note">「確認済み」は自分で見直した記録です。自由作文の正誤や公式得点の判定ではありません。入力欄で書き直し、再び保存して比較できます。</p>
+    </section>
+  </section>
+  <p class="writing-footnote">提供Writing教材から選んだ30演習です。並べ替えの解答は教材掲載の解答と照合。作文の解答例・日本語解説は編集作成です。下書き・構成メモ・見直し記録はこのブラウザだけに保存します。</p>
+</section>

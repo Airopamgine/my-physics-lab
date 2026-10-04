@@ -47,6 +47,7 @@ jobs:
 
       - name: Build with Hugo
         run: |
+          python3 -m unittest discover -s tests -p 'test_writing_lab.py'
           python3 scripts/build_english_quiz_bank.py
           hugo build \
             --gc \
