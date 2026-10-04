@@ -1,0 +1,3941 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-10-04",
+  "source": "TOEFL-writing.pdf",
+  "totalPages": 139,
+  "status": "all-source-exercises-migrated",
+  "uniqueExercises": 215,
+  "sourceExerciseOccurrences": 216,
+  "counts": {
+    "sentence": 156,
+    "grammar": 30,
+    "email": 15,
+    "discussion": 14
+  },
+  "deduplicated": [
+    {
+      "keptId": "writing-test6-s4",
+      "pages": [
+        84,
+        85
+      ],
+      "originalNumbers": [
+        4,
+        5
+      ],
+      "reason": "The printed question and supplied phrases are identical; both sourceRefs belong to the same exercise."
+    }
+  ],
+  "textReviewedPages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139
+  ],
+  "exerciseAndReferenceImageCheckedPages": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    27,
+    28,
+    29,
+    31,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    42,
+    43,
+    44,
+    46,
+    48,
+    49,
+    50,
+    51,
+    53,
+    54,
+    55,
+    57,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    66,
+    67,
+    68,
+    70,
+    72,
+    73,
+    75,
+    76,
+    77,
+    79,
+    81,
+    82,
+    84,
+    85,
+    86,
+    88,
+    90,
+    91,
+    93,
+    94,
+    95,
+    97,
+    99,
+    100,
+    102,
+    103,
+    104,
+    106,
+    108,
+    109,
+    111,
+    112,
+    113,
+    115,
+    118,
+    119,
+    120,
+    122,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139
+  ],
+  "printedAnswerMatchedIds": [
+    "writing-diagnostic-s1",
+    "writing-diagnostic-s2",
+    "writing-diagnostic-s3",
+    "writing-diagnostic-s4",
+    "writing-diagnostic-s5",
+    "writing-diagnostic-s6",
+    "writing-diagnostic-s7",
+    "writing-diagnostic-s8",
+    "writing-diagnostic-s9",
+    "writing-diagnostic-s10",
+    "writing-example-s1",
+    "writing-relative-example"
+  ],
+  "answerPolicy": "Printed answers are available for the diagnostic sentence task and two worked sentence examples. All other objective keys are editorially checked against grammar and the task. Essay models are editorial examples, not unique correct answers or official scores. Learner annotations are excluded.",
+  "knownSourceGaps": [
+    {
+      "page": 116,
+      "kind": "blank-page",
+      "note": "No Practice Test 9 discussion is printed in the supplied file. The blank page is inventoried; no question was invented."
+    }
+  ],
+  "editorialNotes": [
+    {
+      "id": "writing-email-test1",
+      "note": "原本のTo欄はProfessor Jamesですが、設問本文の宛先Financial Aid Officeに訂正。名前・ID・未指定の金額は架空の情報で補ってください。解答例の$2,500と$2,000は編集例で、差額$500を保持しています。"
+    },
+    {
+      "id": "writing-email-test2",
+      "note": "原本の最後の条件はcounter-の後がページ端で切れているため、提案した日時への投票、または別の案の提示を求める条件として整形しています。氏名と代替日時は架空の設定です。"
+    },
+    {
+      "id": "writing-email-test7",
+      "note": "注文番号PF98765は原本の件名に掲載。締切・到着日の具体的な日付は原本にないため、矛盾しない架空の日付で補ってください。"
+    },
+    {
+      "id": "writing-email-test8",
+      "note": "開始時刻・会議の日時は原本で未指定なので、解答例では架空の時刻を補っています。曜日と日付は教材の設定として扱い、実際の年のカレンダーとは照合しません。"
+    },
+    {
+      "id": "writing-activity1-s2",
+      "note": "原本の not / quite / exactly は、3語すべてを重ねると冗長で不自然です。2語の自然な応答 Not quite. / Not exactly. を採用し、残りの1語は使わない選択肢として保持しています。"
+    },
+    {
+      "id": "writing-activity1-s3",
+      "note": "原本は同義の副詞 fully / completely を両方提示。重複した副詞を強制せず、どちらか一方を使う別解を採用。"
+    },
+    {
+      "id": "writing-activity2-s3",
+      "note": "原本の語句に目的語がないため、質問に印刷された a final decision を固定部分として補っています。"
+    },
+    {
+      "id": "writing-activity2-s6",
+      "note": "原本には受動態に必要な been がなく、能動文の目的語もありません。担当者 they を主語とし、質問中の the documents を固定目的語に補っています。"
+    },
+    {
+      "id": "writing-test1-s10",
+      "note": "原本の小文字 we は、感嘆符の後の新しい文の先頭なので We に校訂しました。語順と学習対象は保持しています。"
+    },
+    {
+      "id": "writing-test2-s3",
+      "note": "原本は Yes の後に主語・be動詞を省略した応答。完全な文で練習できるよう固定部分 I'm を補っています。"
+    },
+    {
+      "id": "writing-test2-s4",
+      "note": "原本の agree は perfect infinitive に必要な過去分詞ではなく、agree to の前置詞も不足。agreed と2個目の to を補い、学習用校訂を明示。"
+    },
+    {
+      "id": "writing-test2-s6",
+      "note": "原本の選択語 it は複数の keys と一致しないため them に校訂。学習対象の help + 人 + 原形は保持。"
+    },
+    {
+      "id": "writing-test2-s8",
+      "note": "原本の5語をすべて強制すると自然な応答になりません。4空欄に整形し we を余分な語句として扱います。"
+    },
+    {
+      "id": "writing-test3-s2",
+      "note": "原本に条件の具体的内容がないため it の指示対象は文脈依存。語句・語順の文法練習として原文を保持。"
+    },
+    {
+      "id": "writing-test5-s9",
+      "note": "原本の問い Did Ms. Yoon made … は did + 原形の規則に反するため、問いの made を make に校訂。"
+    },
+    {
+      "id": "writing-test6-s4",
+      "note": "原本のTest 6問4（PDF84）と問5（PDF85）は同一設問・語句です。1演習にまとめ、両方の出典参照を保持。"
+    },
+    {
+      "id": "writing-test6-s9",
+      "note": "原本の問い How long can you change … は所要時間を問う形として不自然なため、How long will it take you to change … に校訂。"
+    },
+    {
+      "id": "writing-test7-s4",
+      "note": "原本の語句は probably が重複し、attending に必要な be がありません。2個目の probably を be に校訂。"
+    },
+    {
+      "id": "writing-test7-s5",
+      "note": "原本の it は複数 results と一致しないため them に校訂。"
+    },
+    {
+      "id": "writing-test7-s8",
+      "note": "原本の it は複数 documents と一致しないため them に校訂。"
+    },
+    {
+      "id": "writing-test8-s7",
+      "note": "原本は several discussion と単複が不一致。discussion を discussions に校訂。"
+    },
+    {
+      "id": "writing-test9-s5",
+      "note": "原本の語句区切り been policies を been / policies に分け、各印刷語を保持して文法的な語順に整形。原本の空欄数も調整。"
+    },
+    {
+      "id": "writing-relative-combine-1",
+      "note": "原本の自由記述による文結合を語句並べ替えへ変換。関係代名詞・語句区切り・句読点は編集作成。他の自然な自由記述解答もあり、この並べ替え形が唯一の表現ではありません。"
+    },
+    {
+      "id": "writing-relative-combine-2",
+      "note": "原本の自由記述による文結合を語句並べ替えへ変換。関係代名詞・語句区切り・句読点は編集作成。他の自然な自由記述解答もあり、この並べ替え形が唯一の表現ではありません。"
+    },
+    {
+      "id": "writing-relative-combine-3",
+      "note": "原本の自由記述による文結合を語句並べ替えへ変換。関係代名詞・語句区切り・句読点は編集作成。他の自然な自由記述解答もあり、この並べ替え形が唯一の表現ではありません。"
+    },
+    {
+      "id": "writing-relative-combine-4",
+      "note": "原本の自由記述による文結合を語句並べ替えへ変換。関係代名詞・語句区切り・句読点は編集作成。他の自然な自由記述解答もあり、この並べ替え形が唯一の表現ではありません。"
+    },
+    {
+      "id": "writing-relative-combine-5",
+      "note": "原本の自由記述による文結合を語句並べ替えへ変換。関係代名詞・語句区切り・句読点は編集作成。他の自然な自由記述解答もあり、この並べ替え形が唯一の表現ではありません。"
+    },
+    {
+      "id": "writing-relative-example",
+      "note": "原本の文結合例を並べ替え練習として追加。"
+    },
+    {
+      "id": "writing-additionalA-s3",
+      "note": "原本の語句だけでは必要な目的語または過去分詞が不足するため、問いにある語を固定部分へ補い、完全な応答に整形。"
+    },
+    {
+      "id": "writing-additionalA-s4",
+      "note": "原本の4語だけでは that節が完結しないため、質問にある内容を固定部分として補いました。元の語句と学習対象は保持しています。"
+    },
+    {
+      "id": "writing-additionalA-s5",
+      "note": "原本の語句だけでは必要な目的語または過去分詞が不足するため、問いにある語を固定部分へ補い、完全な応答に整形。"
+    },
+    {
+      "id": "writing-additionalA-s6",
+      "note": "原本の volunteered を、did の後に必要な原形 volunteer に校訂。"
+    },
+    {
+      "id": "writing-additionalA-s8",
+      "note": "原本の語句だけでは必要な目的語または過去分詞が不足するため、問いにある語を固定部分へ補い、完全な応答に整形。"
+    },
+    {
+      "id": "writing-additionalB-s1",
+      "note": "原本の語句だけでは必要な目的語または過去分詞が不足するため、問いにある語を固定部分へ補い、完全な応答に整形。"
+    },
+    {
+      "id": "writing-additionalB-s2",
+      "note": "原本の faced を、did の後に必要な原形 face に校訂。"
+    },
+    {
+      "id": "writing-additionalB-s4",
+      "note": "原本の4語だけでは that節が完結しないため、質問にある内容を固定部分として補いました。元の語句と学習対象は保持しています。"
+    },
+    {
+      "id": "writing-additionalB-s5",
+      "note": "原本の語句だけでは必要な目的語または過去分詞が不足するため、問いにある語を固定部分へ補い、完全な応答に整形。"
+    },
+    {
+      "id": "writing-additionalB-s6",
+      "note": "原本の suggested を、did の後に必要な原形 suggest に校訂。"
+    },
+    {
+      "id": "writing-additionalB-s8",
+      "note": "原本の語句だけでは必要な目的語または過去分詞が不足するため、問いにある語を固定部分へ補い、完全な応答に整形。"
+    },
+    {
+      "id": "writing-response-match-1",
+      "note": "原本の応答対応づけを設問別の選択問題に変換。重複する応答 b/e は統合し、明らかな時制・代名詞の不一致を校訂。"
+    },
+    {
+      "id": "writing-response-match-2",
+      "note": "原本の応答対応づけを設問別の選択問題に変換。重複する応答 b/e は統合し、明らかな時制・代名詞の不一致を校訂。"
+    },
+    {
+      "id": "writing-response-match-3",
+      "note": "原本の応答対応づけを設問別の選択問題に変換。重複する応答 b/e は統合し、明らかな時制・代名詞の不一致を校訂。"
+    },
+    {
+      "id": "writing-response-match-4",
+      "note": "原本の応答対応づけを設問別の選択問題に変換。重複する応答 b/e は統合し、明らかな時制・代名詞の不一致を校訂。"
+    },
+    {
+      "id": "writing-response-match-5",
+      "note": "原本の応答対応づけを設問別の選択問題に変換。重複する応答 b/e は統合し、明らかな時制・代名詞の不一致を校訂。"
+    },
+    {
+      "id": "writing-response-match-6",
+      "note": "原本の応答対応づけを設問別の選択問題に変換。重複する応答 b/e は統合し、明らかな時制・代名詞の不一致を校訂。"
+    },
+    {
+      "id": "writing-response-match-7",
+      "note": "原本の応答対応づけを設問別の選択問題に変換。重複する応答 b/e は統合し、明らかな時制・代名詞の不一致を校訂。"
+    },
+    {
+      "id": "writing-response-match-8",
+      "note": "原本の応答対応づけを設問別の選択問題に変換。重複する応答 b/e は統合し、明らかな時制・代名詞の不一致を校訂。"
+    },
+    {
+      "id": "writing-response-match-9",
+      "note": "原本の応答対応づけを設問別の選択問題に変換。重複する応答 b/e は統合し、明らかな時制・代名詞の不一致を校訂。"
+    },
+    {
+      "id": "writing-response-match-10",
+      "note": "原本の応答対応づけを設問別の選択問題に変換。重複する応答 b/e は統合し、明らかな時制・代名詞の不一致を校訂。"
+    },
+    {
+      "id": "writing-email-test10",
+      "note": "原本の「professional thank you email to Mr. Kim」は状況と宛先に不一致。イベント調整メールに校訂し、Liam・Chloe・Jennaへの3条件を保持。"
+    }
+  ],
+  "remainingExercises": [],
+  "guides": [
+    {
+      "id": "word-classes",
+      "pages": [
+        19,
+        20,
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "id": "constituents",
+      "pages": [
+        24
+      ]
+    },
+    {
+      "id": "determiners",
+      "pages": [
+        35,
+        36,
+        37
+      ]
+    },
+    {
+      "id": "relative-clauses",
+      "pages": [
+        38,
+        39,
+        40
+      ]
+    },
+    {
+      "id": "voice",
+      "pages": [
+        50,
+        51
+      ]
+    },
+    {
+      "id": "tenses",
+      "pages": [
+        61,
+        62,
+        63,
+        64
+      ]
+    },
+    {
+      "id": "email",
+      "pages": [
+        6,
+        7,
+        138
+      ]
+    },
+    {
+      "id": "discussion",
+      "pages": [
+        8,
+        9,
+        139
+      ]
+    },
+    {
+      "id": "rubric",
+      "pages": [
+        138,
+        139
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "kind": "overview-or-instructions",
+      "exerciseIds": [],
+      "guideIds": []
+    },
+    {
+      "page": 2,
+      "kind": "overview-or-instructions",
+      "exerciseIds": [],
+      "guideIds": []
+    },
+    {
+      "page": 3,
+      "kind": "overview-or-instructions",
+      "exerciseIds": [],
+      "guideIds": []
+    },
+    {
+      "page": 4,
+      "kind": "overview-or-instructions",
+      "exerciseIds": [],
+      "guideIds": []
+    },
+    {
+      "page": 5,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-example-s1"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 6,
+      "kind": "reference",
+      "exerciseIds": [],
+      "guideIds": [
+        "email"
+      ]
+    },
+    {
+      "page": 7,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-email-example"
+      ],
+      "guideIds": [
+        "email"
+      ]
+    },
+    {
+      "page": 8,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-discussion-example"
+      ],
+      "guideIds": [
+        "discussion"
+      ]
+    },
+    {
+      "page": 9,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-discussion-example"
+      ],
+      "guideIds": [
+        "discussion"
+      ]
+    },
+    {
+      "page": 10,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-diagnostic-s1",
+        "writing-diagnostic-s2",
+        "writing-diagnostic-s3",
+        "writing-diagnostic-s4",
+        "writing-diagnostic-s5"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 11,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-diagnostic-s6",
+        "writing-diagnostic-s7",
+        "writing-diagnostic-s8",
+        "writing-diagnostic-s9",
+        "writing-diagnostic-s10"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 12,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-email-diagnostic"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 13,
+      "kind": "overview-or-instructions",
+      "exerciseIds": [],
+      "guideIds": []
+    },
+    {
+      "page": 14,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-discussion-diagnostic"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 15,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-discussion-diagnostic"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 16,
+      "kind": "answer",
+      "exerciseIds": [],
+      "guideIds": []
+    },
+    {
+      "page": 17,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-activity1-s1",
+        "writing-activity1-s2",
+        "writing-activity1-s3",
+        "writing-activity1-s4",
+        "writing-activity1-s5",
+        "writing-activity1-s6",
+        "writing-activity1-s7",
+        "writing-activity1-s8",
+        "writing-activity1-s9",
+        "writing-activity1-s10"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 18,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-activity2-s1",
+        "writing-activity2-s2",
+        "writing-activity2-s3",
+        "writing-activity2-s4",
+        "writing-activity2-s5",
+        "writing-activity2-s6",
+        "writing-activity2-s7",
+        "writing-activity2-s8",
+        "writing-activity2-s9",
+        "writing-activity2-s10"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 19,
+      "kind": "reference",
+      "exerciseIds": [],
+      "guideIds": [
+        "word-classes"
+      ]
+    },
+    {
+      "page": 20,
+      "kind": "reference",
+      "exerciseIds": [],
+      "guideIds": [
+        "word-classes"
+      ]
+    },
+    {
+      "page": 21,
+      "kind": "reference",
+      "exerciseIds": [],
+      "guideIds": [
+        "word-classes"
+      ]
+    },
+    {
+      "page": 22,
+      "kind": "reference",
+      "exerciseIds": [],
+      "guideIds": [
+        "word-classes"
+      ]
+    },
+    {
+      "page": 23,
+      "kind": "reference",
+      "exerciseIds": [],
+      "guideIds": [
+        "word-classes"
+      ]
+    },
+    {
+      "page": 24,
+      "kind": "reference",
+      "exerciseIds": [],
+      "guideIds": [
+        "constituents"
+      ]
+    },
+    {
+      "page": 25,
+      "kind": "overview-or-instructions",
+      "exerciseIds": [],
+      "guideIds": []
+    },
+    {
+      "page": 26,
+      "kind": "overview-or-instructions",
+      "exerciseIds": [],
+      "guideIds": []
+    },
+    {
+      "page": 27,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-test1-s1",
+        "writing-test1-s2",
+        "writing-test1-s3",
+        "writing-test1-s4"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 28,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-test1-s5",
+        "writing-test1-s6",
+        "writing-test1-s7",
+        "writing-test1-s8"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 29,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-test1-s9",
+        "writing-test1-s10"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 30,
+      "kind": "overview-or-instructions",
+      "exerciseIds": [],
+      "guideIds": []
+    },
+    {
+      "page": 31,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-email-test1"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 32,
+      "kind": "overview-or-instructions",
+      "exerciseIds": [],
+      "guideIds": []
+    },
+    {
+      "page": 33,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-discussion-test1"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 34,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-discussion-test1"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 35,
+      "kind": "reference",
+      "exerciseIds": [],
+      "guideIds": [
+        "determiners"
+      ]
+    },
+    {
+      "page": 36,
+      "kind": "reference",
+      "exerciseIds": [],
+      "guideIds": [
+        "determiners"
+      ]
+    },
+    {
+      "page": 37,
+      "kind": "reference",
+      "exerciseIds": [],
+      "guideIds": [
+        "determiners"
+      ]
+    },
+    {
+      "page": 38,
+      "kind": "reference",
+      "exerciseIds": [],
+      "guideIds": [
+        "relative-clauses"
+      ]
+    },
+    {
+      "page": 39,
+      "kind": "reference",
+      "exerciseIds": [],
+      "guideIds": [
+        "relative-clauses"
+      ]
+    },
+    {
+      "page": 40,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-relative-combine-1",
+        "writing-relative-combine-2",
+        "writing-relative-combine-3",
+        "writing-relative-combine-4",
+        "writing-relative-combine-5",
+        "writing-relative-example",
+        "writing-relative-classify-1",
+        "writing-relative-classify-2",
+        "writing-relative-classify-3",
+        "writing-relative-classify-4",
+        "writing-relative-classify-5"
+      ],
+      "guideIds": [
+        "relative-clauses"
+      ]
+    },
+    {
+      "page": 41,
+      "kind": "overview-or-instructions",
+      "exerciseIds": [],
+      "guideIds": []
+    },
+    {
+      "page": 42,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-test2-s1",
+        "writing-test2-s2",
+        "writing-test2-s3",
+        "writing-test2-s4"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 43,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-test2-s5",
+        "writing-test2-s6",
+        "writing-test2-s7",
+        "writing-test2-s8"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 44,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-test2-s9",
+        "writing-test2-s10"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 45,
+      "kind": "overview-or-instructions",
+      "exerciseIds": [],
+      "guideIds": []
+    },
+    {
+      "page": 46,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-email-test2"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 47,
+      "kind": "overview-or-instructions",
+      "exerciseIds": [],
+      "guideIds": []
+    },
+    {
+      "page": 48,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-discussion-test2"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 49,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-discussion-test2"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 50,
+      "kind": "reference",
+      "exerciseIds": [],
+      "guideIds": [
+        "voice"
+      ]
+    },
+    {
+      "page": 51,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-voice-passive-1",
+        "writing-voice-passive-2",
+        "writing-voice-passive-3",
+        "writing-voice-passive-4",
+        "writing-voice-passive-5",
+        "writing-voice-analyze-1",
+        "writing-voice-analyze-2",
+        "writing-voice-analyze-3",
+        "writing-voice-analyze-4",
+        "writing-voice-analyze-5"
+      ],
+      "guideIds": [
+        "voice"
+      ]
+    },
+    {
+      "page": 52,
+      "kind": "overview-or-instructions",
+      "exerciseIds": [],
+      "guideIds": []
+    },
+    {
+      "page": 53,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-test3-s1",
+        "writing-test3-s2",
+        "writing-test3-s3",
+        "writing-test3-s4"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 54,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-test3-s5",
+        "writing-test3-s6",
+        "writing-test3-s7",
+        "writing-test3-s8"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 55,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-test3-s9",
+        "writing-test3-s10"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 56,
+      "kind": "overview-or-instructions",
+      "exerciseIds": [],
+      "guideIds": []
+    },
+    {
+      "page": 57,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-email-test3"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 58,
+      "kind": "overview-or-instructions",
+      "exerciseIds": [],
+      "guideIds": []
+    },
+    {
+      "page": 59,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-discussion-test3"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 60,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-discussion-test3"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 61,
+      "kind": "reference",
+      "exerciseIds": [],
+      "guideIds": [
+        "tenses"
+      ]
+    },
+    {
+      "page": 62,
+      "kind": "reference",
+      "exerciseIds": [],
+      "guideIds": [
+        "tenses"
+      ]
+    },
+    {
+      "page": 63,
+      "kind": "reference",
+      "exerciseIds": [],
+      "guideIds": [
+        "tenses"
+      ]
+    },
+    {
+      "page": 64,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-tense-q1",
+        "writing-tense-q2",
+        "writing-tense-q3",
+        "writing-tense-q4",
+        "writing-tense-q5"
+      ],
+      "guideIds": [
+        "tenses"
+      ]
+    },
+    {
+      "page": 65,
+      "kind": "overview-or-instructions",
+      "exerciseIds": [],
+      "guideIds": []
+    },
+    {
+      "page": 66,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-test4-s1",
+        "writing-test4-s2",
+        "writing-test4-s3",
+        "writing-test4-s4"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 67,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-test4-s5",
+        "writing-test4-s6",
+        "writing-test4-s7",
+        "writing-test4-s8"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 68,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-test4-s9",
+        "writing-test4-s10"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 69,
+      "kind": "overview-or-instructions",
+      "exerciseIds": [],
+      "guideIds": []
+    },
+    {
+      "page": 70,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-email-test4"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 71,
+      "kind": "overview-or-instructions",
+      "exerciseIds": [],
+      "guideIds": []
+    },
+    {
+      "page": 72,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-discussion-test4"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 73,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-discussion-test4"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 74,
+      "kind": "overview-or-instructions",
+      "exerciseIds": [],
+      "guideIds": []
+    },
+    {
+      "page": 75,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-test5-s1",
+        "writing-test5-s2",
+        "writing-test5-s3",
+        "writing-test5-s4"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 76,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-test5-s5",
+        "writing-test5-s6",
+        "writing-test5-s7",
+        "writing-test5-s8"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 77,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-test5-s9",
+        "writing-test5-s10"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 78,
+      "kind": "overview-or-instructions",
+      "exerciseIds": [],
+      "guideIds": []
+    },
+    {
+      "page": 79,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-email-test5"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 80,
+      "kind": "overview-or-instructions",
+      "exerciseIds": [],
+      "guideIds": []
+    },
+    {
+      "page": 81,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-discussion-test5"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 82,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-discussion-test5"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 83,
+      "kind": "overview-or-instructions",
+      "exerciseIds": [],
+      "guideIds": []
+    },
+    {
+      "page": 84,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-test6-s1",
+        "writing-test6-s2",
+        "writing-test6-s3",
+        "writing-test6-s4"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 85,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-test6-s4",
+        "writing-test6-s6",
+        "writing-test6-s7",
+        "writing-test6-s8"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 86,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-test6-s9",
+        "writing-test6-s10"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 87,
+      "kind": "overview-or-instructions",
+      "exerciseIds": [],
+      "guideIds": []
+    },
+    {
+      "page": 88,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-email-test6"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 89,
+      "kind": "overview-or-instructions",
+      "exerciseIds": [],
+      "guideIds": []
+    },
+    {
+      "page": 90,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-discussion-test6"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 91,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-discussion-test6"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 92,
+      "kind": "overview-or-instructions",
+      "exerciseIds": [],
+      "guideIds": []
+    },
+    {
+      "page": 93,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-test7-s1",
+        "writing-test7-s2",
+        "writing-test7-s3",
+        "writing-test7-s4"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 94,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-test7-s5",
+        "writing-test7-s6",
+        "writing-test7-s7",
+        "writing-test7-s8"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 95,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-test7-s9",
+        "writing-test7-s10"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 96,
+      "kind": "overview-or-instructions",
+      "exerciseIds": [],
+      "guideIds": []
+    },
+    {
+      "page": 97,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-email-test7"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 98,
+      "kind": "overview-or-instructions",
+      "exerciseIds": [],
+      "guideIds": []
+    },
+    {
+      "page": 99,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-discussion-test7"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 100,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-discussion-test7"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 101,
+      "kind": "overview-or-instructions",
+      "exerciseIds": [],
+      "guideIds": []
+    },
+    {
+      "page": 102,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-test8-s1",
+        "writing-test8-s2",
+        "writing-test8-s3",
+        "writing-test8-s4"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 103,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-test8-s5",
+        "writing-test8-s6",
+        "writing-test8-s7",
+        "writing-test8-s8"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 104,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-test8-s9",
+        "writing-test8-s10"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 105,
+      "kind": "overview-or-instructions",
+      "exerciseIds": [],
+      "guideIds": []
+    },
+    {
+      "page": 106,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-email-test8"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 107,
+      "kind": "overview-or-instructions",
+      "exerciseIds": [],
+      "guideIds": []
+    },
+    {
+      "page": 108,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-discussion-test8"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 109,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-discussion-test8"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 110,
+      "kind": "overview-or-instructions",
+      "exerciseIds": [],
+      "guideIds": []
+    },
+    {
+      "page": 111,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-test9-s1",
+        "writing-test9-s2",
+        "writing-test9-s3",
+        "writing-test9-s4"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 112,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-test9-s5",
+        "writing-test9-s6",
+        "writing-test9-s7",
+        "writing-test9-s8"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 113,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-test9-s9",
+        "writing-test9-s10"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 114,
+      "kind": "overview-or-instructions",
+      "exerciseIds": [],
+      "guideIds": []
+    },
+    {
+      "page": 115,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-email-test9"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 116,
+      "kind": "blank",
+      "exerciseIds": [],
+      "guideIds": []
+    },
+    {
+      "page": 117,
+      "kind": "overview-or-instructions",
+      "exerciseIds": [],
+      "guideIds": []
+    },
+    {
+      "page": 118,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-test10-s1",
+        "writing-test10-s2",
+        "writing-test10-s3",
+        "writing-test10-s4"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 119,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-test10-s5",
+        "writing-test10-s6",
+        "writing-test10-s7",
+        "writing-test10-s8"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 120,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-test10-s9",
+        "writing-test10-s10"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 121,
+      "kind": "overview-or-instructions",
+      "exerciseIds": [],
+      "guideIds": []
+    },
+    {
+      "page": 122,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-email-test10"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 123,
+      "kind": "overview-or-instructions",
+      "exerciseIds": [],
+      "guideIds": []
+    },
+    {
+      "page": 124,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-discussion-test10"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 125,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-discussion-test10"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 126,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-response-match-1",
+        "writing-response-match-2",
+        "writing-response-match-3",
+        "writing-response-match-4",
+        "writing-response-match-5",
+        "writing-response-match-6",
+        "writing-response-match-7",
+        "writing-response-match-8",
+        "writing-response-match-9",
+        "writing-response-match-10"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 127,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-additionalA-s1",
+        "writing-additionalA-s2",
+        "writing-additionalA-s3",
+        "writing-additionalA-s4",
+        "writing-additionalA-s5",
+        "writing-additionalA-s6",
+        "writing-additionalA-s7",
+        "writing-additionalA-s8",
+        "writing-additionalA-s9",
+        "writing-additionalA-s10"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 128,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-additionalB-s1",
+        "writing-additionalB-s2",
+        "writing-additionalB-s3",
+        "writing-additionalB-s4",
+        "writing-additionalB-s5",
+        "writing-additionalB-s6",
+        "writing-additionalB-s7",
+        "writing-additionalB-s8",
+        "writing-additionalB-s9",
+        "writing-additionalB-s10"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 129,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-email-extra1"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 130,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-email-extra2"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 131,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-email-extra3"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 132,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-discussion-extra1"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 133,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-discussion-extra1"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 134,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-discussion-extra2"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 135,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-discussion-extra2"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 136,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-discussion-extra3"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 137,
+      "kind": "exercise",
+      "exerciseIds": [
+        "writing-discussion-extra3"
+      ],
+      "guideIds": []
+    },
+    {
+      "page": 138,
+      "kind": "reference",
+      "exerciseIds": [],
+      "guideIds": [
+        "email",
+        "rubric"
+      ]
+    },
+    {
+      "page": 139,
+      "kind": "reference",
+      "exerciseIds": [],
+      "guideIds": [
+        "discussion",
+        "rubric"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "writing-diagnostic-s1",
+      "type": "sentence",
+      "pages": [
+        10
+      ],
+      "sourceRefs": [
+        "pdf:writing:p010:diagnostic:q01"
+      ]
+    },
+    {
+      "id": "writing-diagnostic-s2",
+      "type": "sentence",
+      "pages": [
+        10
+      ],
+      "sourceRefs": [
+        "pdf:writing:p010:diagnostic:q02"
+      ]
+    },
+    {
+      "id": "writing-diagnostic-s3",
+      "type": "sentence",
+      "pages": [
+        10
+      ],
+      "sourceRefs": [
+        "pdf:writing:p010:diagnostic:q03"
+      ]
+    },
+    {
+      "id": "writing-diagnostic-s4",
+      "type": "sentence",
+      "pages": [
+        10
+      ],
+      "sourceRefs": [
+        "pdf:writing:p010:diagnostic:q04"
+      ]
+    },
+    {
+      "id": "writing-diagnostic-s5",
+      "type": "sentence",
+      "pages": [
+        10
+      ],
+      "sourceRefs": [
+        "pdf:writing:p010:diagnostic:q05"
+      ]
+    },
+    {
+      "id": "writing-diagnostic-s6",
+      "type": "sentence",
+      "pages": [
+        11
+      ],
+      "sourceRefs": [
+        "pdf:writing:p011:diagnostic:q06"
+      ]
+    },
+    {
+      "id": "writing-diagnostic-s7",
+      "type": "sentence",
+      "pages": [
+        11
+      ],
+      "sourceRefs": [
+        "pdf:writing:p011:diagnostic:q07"
+      ]
+    },
+    {
+      "id": "writing-diagnostic-s8",
+      "type": "sentence",
+      "pages": [
+        11
+      ],
+      "sourceRefs": [
+        "pdf:writing:p011:diagnostic:q08"
+      ]
+    },
+    {
+      "id": "writing-diagnostic-s9",
+      "type": "sentence",
+      "pages": [
+        11
+      ],
+      "sourceRefs": [
+        "pdf:writing:p011:diagnostic:q09"
+      ]
+    },
+    {
+      "id": "writing-diagnostic-s10",
+      "type": "sentence",
+      "pages": [
+        11
+      ],
+      "sourceRefs": [
+        "pdf:writing:p011:diagnostic:q10"
+      ]
+    },
+    {
+      "id": "writing-email-diagnostic",
+      "type": "email",
+      "pages": [
+        12
+      ],
+      "sourceRefs": [
+        "pdf:writing:p012:diagnostic:email"
+      ]
+    },
+    {
+      "id": "writing-email-test1",
+      "type": "email",
+      "pages": [
+        31
+      ],
+      "sourceRefs": [
+        "pdf:writing:p031:test1:email"
+      ]
+    },
+    {
+      "id": "writing-email-test2",
+      "type": "email",
+      "pages": [
+        46
+      ],
+      "sourceRefs": [
+        "pdf:writing:p046:test2:email"
+      ]
+    },
+    {
+      "id": "writing-email-test3",
+      "type": "email",
+      "pages": [
+        57
+      ],
+      "sourceRefs": [
+        "pdf:writing:p057:test3:email"
+      ]
+    },
+    {
+      "id": "writing-email-test4",
+      "type": "email",
+      "pages": [
+        70
+      ],
+      "sourceRefs": [
+        "pdf:writing:p070:test4:email"
+      ]
+    },
+    {
+      "id": "writing-email-test5",
+      "type": "email",
+      "pages": [
+        79
+      ],
+      "sourceRefs": [
+        "pdf:writing:p079:test5:email"
+      ]
+    },
+    {
+      "id": "writing-email-test6",
+      "type": "email",
+      "pages": [
+        88
+      ],
+      "sourceRefs": [
+        "pdf:writing:p088:test6:email"
+      ]
+    },
+    {
+      "id": "writing-email-test7",
+      "type": "email",
+      "pages": [
+        97
+      ],
+      "sourceRefs": [
+        "pdf:writing:p097:test7:email"
+      ]
+    },
+    {
+      "id": "writing-email-test8",
+      "type": "email",
+      "pages": [
+        106
+      ],
+      "sourceRefs": [
+        "pdf:writing:p106:test8:email"
+      ]
+    },
+    {
+      "id": "writing-email-test9",
+      "type": "email",
+      "pages": [
+        115
+      ],
+      "sourceRefs": [
+        "pdf:writing:p115:test9:email"
+      ]
+    },
+    {
+      "id": "writing-discussion-diagnostic",
+      "type": "discussion",
+      "pages": [
+        14,
+        15
+      ],
+      "sourceRefs": [
+        "pdf:writing:p014:diagnostic:discussion"
+      ]
+    },
+    {
+      "id": "writing-discussion-test1",
+      "type": "discussion",
+      "pages": [
+        33,
+        34
+      ],
+      "sourceRefs": [
+        "pdf:writing:p033:test1:discussion"
+      ]
+    },
+    {
+      "id": "writing-discussion-test2",
+      "type": "discussion",
+      "pages": [
+        48,
+        49
+      ],
+      "sourceRefs": [
+        "pdf:writing:p048:test2:discussion"
+      ]
+    },
+    {
+      "id": "writing-discussion-test3",
+      "type": "discussion",
+      "pages": [
+        59,
+        60
+      ],
+      "sourceRefs": [
+        "pdf:writing:p059:test3:discussion"
+      ]
+    },
+    {
+      "id": "writing-discussion-test4",
+      "type": "discussion",
+      "pages": [
+        72,
+        73
+      ],
+      "sourceRefs": [
+        "pdf:writing:p072:test4:discussion"
+      ]
+    },
+    {
+      "id": "writing-discussion-test5",
+      "type": "discussion",
+      "pages": [
+        81,
+        82
+      ],
+      "sourceRefs": [
+        "pdf:writing:p081:test5:discussion"
+      ]
+    },
+    {
+      "id": "writing-discussion-test6",
+      "type": "discussion",
+      "pages": [
+        90,
+        91
+      ],
+      "sourceRefs": [
+        "pdf:writing:p090:test6:discussion"
+      ]
+    },
+    {
+      "id": "writing-discussion-test7",
+      "type": "discussion",
+      "pages": [
+        99,
+        100
+      ],
+      "sourceRefs": [
+        "pdf:writing:p099:test7:discussion"
+      ]
+    },
+    {
+      "id": "writing-discussion-test8",
+      "type": "discussion",
+      "pages": [
+        108,
+        109
+      ],
+      "sourceRefs": [
+        "pdf:writing:p108:test8:discussion"
+      ]
+    },
+    {
+      "id": "writing-discussion-test10",
+      "type": "discussion",
+      "pages": [
+        124,
+        125
+      ],
+      "sourceRefs": [
+        "pdf:writing:p124:test10:discussion"
+      ]
+    },
+    {
+      "id": "writing-example-s1",
+      "type": "sentence",
+      "pages": [
+        5
+      ],
+      "sourceRefs": [
+        "pdf:writing:p005:example-s1:q01"
+      ]
+    },
+    {
+      "id": "writing-activity1-s1",
+      "type": "sentence",
+      "pages": [
+        17
+      ],
+      "sourceRefs": [
+        "pdf:writing:p017:activity1-s1:q01"
+      ]
+    },
+    {
+      "id": "writing-activity1-s2",
+      "type": "sentence",
+      "pages": [
+        17
+      ],
+      "sourceRefs": [
+        "pdf:writing:p017:activity1-s2:q02"
+      ]
+    },
+    {
+      "id": "writing-activity1-s3",
+      "type": "sentence",
+      "pages": [
+        17
+      ],
+      "sourceRefs": [
+        "pdf:writing:p017:activity1-s3:q03"
+      ]
+    },
+    {
+      "id": "writing-activity1-s4",
+      "type": "sentence",
+      "pages": [
+        17
+      ],
+      "sourceRefs": [
+        "pdf:writing:p017:activity1-s4:q04"
+      ]
+    },
+    {
+      "id": "writing-activity1-s5",
+      "type": "sentence",
+      "pages": [
+        17
+      ],
+      "sourceRefs": [
+        "pdf:writing:p017:activity1-s5:q05"
+      ]
+    },
+    {
+      "id": "writing-activity1-s6",
+      "type": "sentence",
+      "pages": [
+        17
+      ],
+      "sourceRefs": [
+        "pdf:writing:p017:activity1-s6:q06"
+      ]
+    },
+    {
+      "id": "writing-activity1-s7",
+      "type": "sentence",
+      "pages": [
+        17
+      ],
+      "sourceRefs": [
+        "pdf:writing:p017:activity1-s7:q07"
+      ]
+    },
+    {
+      "id": "writing-activity1-s8",
+      "type": "sentence",
+      "pages": [
+        17
+      ],
+      "sourceRefs": [
+        "pdf:writing:p017:activity1-s8:q08"
+      ]
+    },
+    {
+      "id": "writing-activity1-s9",
+      "type": "sentence",
+      "pages": [
+        17
+      ],
+      "sourceRefs": [
+        "pdf:writing:p017:activity1-s9:q09"
+      ]
+    },
+    {
+      "id": "writing-activity1-s10",
+      "type": "sentence",
+      "pages": [
+        17
+      ],
+      "sourceRefs": [
+        "pdf:writing:p017:activity1-s10:q10"
+      ]
+    },
+    {
+      "id": "writing-activity2-s1",
+      "type": "sentence",
+      "pages": [
+        18
+      ],
+      "sourceRefs": [
+        "pdf:writing:p018:activity2-s1:q01"
+      ]
+    },
+    {
+      "id": "writing-activity2-s2",
+      "type": "sentence",
+      "pages": [
+        18
+      ],
+      "sourceRefs": [
+        "pdf:writing:p018:activity2-s2:q02"
+      ]
+    },
+    {
+      "id": "writing-activity2-s3",
+      "type": "sentence",
+      "pages": [
+        18
+      ],
+      "sourceRefs": [
+        "pdf:writing:p018:activity2-s3:q03"
+      ]
+    },
+    {
+      "id": "writing-activity2-s4",
+      "type": "sentence",
+      "pages": [
+        18
+      ],
+      "sourceRefs": [
+        "pdf:writing:p018:activity2-s4:q04"
+      ]
+    },
+    {
+      "id": "writing-activity2-s5",
+      "type": "sentence",
+      "pages": [
+        18
+      ],
+      "sourceRefs": [
+        "pdf:writing:p018:activity2-s5:q05"
+      ]
+    },
+    {
+      "id": "writing-activity2-s6",
+      "type": "sentence",
+      "pages": [
+        18
+      ],
+      "sourceRefs": [
+        "pdf:writing:p018:activity2-s6:q06"
+      ]
+    },
+    {
+      "id": "writing-activity2-s7",
+      "type": "sentence",
+      "pages": [
+        18
+      ],
+      "sourceRefs": [
+        "pdf:writing:p018:activity2-s7:q07"
+      ]
+    },
+    {
+      "id": "writing-activity2-s8",
+      "type": "sentence",
+      "pages": [
+        18
+      ],
+      "sourceRefs": [
+        "pdf:writing:p018:activity2-s8:q08"
+      ]
+    },
+    {
+      "id": "writing-activity2-s9",
+      "type": "sentence",
+      "pages": [
+        18
+      ],
+      "sourceRefs": [
+        "pdf:writing:p018:activity2-s9:q09"
+      ]
+    },
+    {
+      "id": "writing-activity2-s10",
+      "type": "sentence",
+      "pages": [
+        18
+      ],
+      "sourceRefs": [
+        "pdf:writing:p018:activity2-s10:q10"
+      ]
+    },
+    {
+      "id": "writing-test1-s1",
+      "type": "sentence",
+      "pages": [
+        27
+      ],
+      "sourceRefs": [
+        "pdf:writing:p027:test1-s1:q01"
+      ]
+    },
+    {
+      "id": "writing-test1-s2",
+      "type": "sentence",
+      "pages": [
+        27
+      ],
+      "sourceRefs": [
+        "pdf:writing:p027:test1-s2:q02"
+      ]
+    },
+    {
+      "id": "writing-test1-s3",
+      "type": "sentence",
+      "pages": [
+        27
+      ],
+      "sourceRefs": [
+        "pdf:writing:p027:test1-s3:q03"
+      ]
+    },
+    {
+      "id": "writing-test1-s4",
+      "type": "sentence",
+      "pages": [
+        27
+      ],
+      "sourceRefs": [
+        "pdf:writing:p027:test1-s4:q04"
+      ]
+    },
+    {
+      "id": "writing-test1-s5",
+      "type": "sentence",
+      "pages": [
+        28
+      ],
+      "sourceRefs": [
+        "pdf:writing:p028:test1-s5:q05"
+      ]
+    },
+    {
+      "id": "writing-test1-s6",
+      "type": "sentence",
+      "pages": [
+        28
+      ],
+      "sourceRefs": [
+        "pdf:writing:p028:test1-s6:q06"
+      ]
+    },
+    {
+      "id": "writing-test1-s7",
+      "type": "sentence",
+      "pages": [
+        28
+      ],
+      "sourceRefs": [
+        "pdf:writing:p028:test1-s7:q07"
+      ]
+    },
+    {
+      "id": "writing-test1-s8",
+      "type": "sentence",
+      "pages": [
+        28
+      ],
+      "sourceRefs": [
+        "pdf:writing:p028:test1-s8:q08"
+      ]
+    },
+    {
+      "id": "writing-test1-s9",
+      "type": "sentence",
+      "pages": [
+        29
+      ],
+      "sourceRefs": [
+        "pdf:writing:p029:test1-s9:q09"
+      ]
+    },
+    {
+      "id": "writing-test1-s10",
+      "type": "sentence",
+      "pages": [
+        29
+      ],
+      "sourceRefs": [
+        "pdf:writing:p029:test1-s10:q10"
+      ]
+    },
+    {
+      "id": "writing-test2-s1",
+      "type": "sentence",
+      "pages": [
+        42
+      ],
+      "sourceRefs": [
+        "pdf:writing:p042:test2-s1:q01"
+      ]
+    },
+    {
+      "id": "writing-test2-s2",
+      "type": "sentence",
+      "pages": [
+        42
+      ],
+      "sourceRefs": [
+        "pdf:writing:p042:test2-s2:q02"
+      ]
+    },
+    {
+      "id": "writing-test2-s3",
+      "type": "sentence",
+      "pages": [
+        42
+      ],
+      "sourceRefs": [
+        "pdf:writing:p042:test2-s3:q03"
+      ]
+    },
+    {
+      "id": "writing-test2-s4",
+      "type": "sentence",
+      "pages": [
+        42
+      ],
+      "sourceRefs": [
+        "pdf:writing:p042:test2-s4:q04"
+      ]
+    },
+    {
+      "id": "writing-test2-s5",
+      "type": "sentence",
+      "pages": [
+        43
+      ],
+      "sourceRefs": [
+        "pdf:writing:p043:test2-s5:q05"
+      ]
+    },
+    {
+      "id": "writing-test2-s6",
+      "type": "sentence",
+      "pages": [
+        43
+      ],
+      "sourceRefs": [
+        "pdf:writing:p043:test2-s6:q06"
+      ]
+    },
+    {
+      "id": "writing-test2-s7",
+      "type": "sentence",
+      "pages": [
+        43
+      ],
+      "sourceRefs": [
+        "pdf:writing:p043:test2-s7:q07"
+      ]
+    },
+    {
+      "id": "writing-test2-s8",
+      "type": "sentence",
+      "pages": [
+        43
+      ],
+      "sourceRefs": [
+        "pdf:writing:p043:test2-s8:q08"
+      ]
+    },
+    {
+      "id": "writing-test2-s9",
+      "type": "sentence",
+      "pages": [
+        44
+      ],
+      "sourceRefs": [
+        "pdf:writing:p044:test2-s9:q09"
+      ]
+    },
+    {
+      "id": "writing-test2-s10",
+      "type": "sentence",
+      "pages": [
+        44
+      ],
+      "sourceRefs": [
+        "pdf:writing:p044:test2-s10:q10"
+      ]
+    },
+    {
+      "id": "writing-test3-s1",
+      "type": "sentence",
+      "pages": [
+        53
+      ],
+      "sourceRefs": [
+        "pdf:writing:p053:test3-s1:q01"
+      ]
+    },
+    {
+      "id": "writing-test3-s2",
+      "type": "sentence",
+      "pages": [
+        53
+      ],
+      "sourceRefs": [
+        "pdf:writing:p053:test3-s2:q02"
+      ]
+    },
+    {
+      "id": "writing-test3-s3",
+      "type": "sentence",
+      "pages": [
+        53
+      ],
+      "sourceRefs": [
+        "pdf:writing:p053:test3-s3:q03"
+      ]
+    },
+    {
+      "id": "writing-test3-s4",
+      "type": "sentence",
+      "pages": [
+        53
+      ],
+      "sourceRefs": [
+        "pdf:writing:p053:test3-s4:q04"
+      ]
+    },
+    {
+      "id": "writing-test3-s5",
+      "type": "sentence",
+      "pages": [
+        54
+      ],
+      "sourceRefs": [
+        "pdf:writing:p054:test3-s5:q05"
+      ]
+    },
+    {
+      "id": "writing-test3-s6",
+      "type": "sentence",
+      "pages": [
+        54
+      ],
+      "sourceRefs": [
+        "pdf:writing:p054:test3-s6:q06"
+      ]
+    },
+    {
+      "id": "writing-test3-s7",
+      "type": "sentence",
+      "pages": [
+        54
+      ],
+      "sourceRefs": [
+        "pdf:writing:p054:test3-s7:q07"
+      ]
+    },
+    {
+      "id": "writing-test3-s8",
+      "type": "sentence",
+      "pages": [
+        54
+      ],
+      "sourceRefs": [
+        "pdf:writing:p054:test3-s8:q08"
+      ]
+    },
+    {
+      "id": "writing-test3-s9",
+      "type": "sentence",
+      "pages": [
+        55
+      ],
+      "sourceRefs": [
+        "pdf:writing:p055:test3-s9:q09"
+      ]
+    },
+    {
+      "id": "writing-test3-s10",
+      "type": "sentence",
+      "pages": [
+        55
+      ],
+      "sourceRefs": [
+        "pdf:writing:p055:test3-s10:q10"
+      ]
+    },
+    {
+      "id": "writing-test4-s1",
+      "type": "sentence",
+      "pages": [
+        66
+      ],
+      "sourceRefs": [
+        "pdf:writing:p066:test4-s1:q01"
+      ]
+    },
+    {
+      "id": "writing-test4-s2",
+      "type": "sentence",
+      "pages": [
+        66
+      ],
+      "sourceRefs": [
+        "pdf:writing:p066:test4-s2:q02"
+      ]
+    },
+    {
+      "id": "writing-test4-s3",
+      "type": "sentence",
+      "pages": [
+        66
+      ],
+      "sourceRefs": [
+        "pdf:writing:p066:test4-s3:q03"
+      ]
+    },
+    {
+      "id": "writing-test4-s4",
+      "type": "sentence",
+      "pages": [
+        66
+      ],
+      "sourceRefs": [
+        "pdf:writing:p066:test4-s4:q04"
+      ]
+    },
+    {
+      "id": "writing-test4-s5",
+      "type": "sentence",
+      "pages": [
+        67
+      ],
+      "sourceRefs": [
+        "pdf:writing:p067:test4-s5:q05"
+      ]
+    },
+    {
+      "id": "writing-test4-s6",
+      "type": "sentence",
+      "pages": [
+        67
+      ],
+      "sourceRefs": [
+        "pdf:writing:p067:test4-s6:q06"
+      ]
+    },
+    {
+      "id": "writing-test4-s7",
+      "type": "sentence",
+      "pages": [
+        67
+      ],
+      "sourceRefs": [
+        "pdf:writing:p067:test4-s7:q07"
+      ]
+    },
+    {
+      "id": "writing-test4-s8",
+      "type": "sentence",
+      "pages": [
+        67
+      ],
+      "sourceRefs": [
+        "pdf:writing:p067:test4-s8:q08"
+      ]
+    },
+    {
+      "id": "writing-test4-s9",
+      "type": "sentence",
+      "pages": [
+        68
+      ],
+      "sourceRefs": [
+        "pdf:writing:p068:test4-s9:q09"
+      ]
+    },
+    {
+      "id": "writing-test4-s10",
+      "type": "sentence",
+      "pages": [
+        68
+      ],
+      "sourceRefs": [
+        "pdf:writing:p068:test4-s10:q10"
+      ]
+    },
+    {
+      "id": "writing-test5-s1",
+      "type": "sentence",
+      "pages": [
+        75
+      ],
+      "sourceRefs": [
+        "pdf:writing:p075:test5-s1:q01"
+      ]
+    },
+    {
+      "id": "writing-test5-s2",
+      "type": "sentence",
+      "pages": [
+        75
+      ],
+      "sourceRefs": [
+        "pdf:writing:p075:test5-s2:q02"
+      ]
+    },
+    {
+      "id": "writing-test5-s3",
+      "type": "sentence",
+      "pages": [
+        75
+      ],
+      "sourceRefs": [
+        "pdf:writing:p075:test5-s3:q03"
+      ]
+    },
+    {
+      "id": "writing-test5-s4",
+      "type": "sentence",
+      "pages": [
+        75
+      ],
+      "sourceRefs": [
+        "pdf:writing:p075:test5-s4:q04"
+      ]
+    },
+    {
+      "id": "writing-test5-s5",
+      "type": "sentence",
+      "pages": [
+        76
+      ],
+      "sourceRefs": [
+        "pdf:writing:p076:test5-s5:q05"
+      ]
+    },
+    {
+      "id": "writing-test5-s6",
+      "type": "sentence",
+      "pages": [
+        76
+      ],
+      "sourceRefs": [
+        "pdf:writing:p076:test5-s6:q06"
+      ]
+    },
+    {
+      "id": "writing-test5-s7",
+      "type": "sentence",
+      "pages": [
+        76
+      ],
+      "sourceRefs": [
+        "pdf:writing:p076:test5-s7:q07"
+      ]
+    },
+    {
+      "id": "writing-test5-s8",
+      "type": "sentence",
+      "pages": [
+        76
+      ],
+      "sourceRefs": [
+        "pdf:writing:p076:test5-s8:q08"
+      ]
+    },
+    {
+      "id": "writing-test5-s9",
+      "type": "sentence",
+      "pages": [
+        77
+      ],
+      "sourceRefs": [
+        "pdf:writing:p077:test5-s9:q09"
+      ]
+    },
+    {
+      "id": "writing-test5-s10",
+      "type": "sentence",
+      "pages": [
+        77
+      ],
+      "sourceRefs": [
+        "pdf:writing:p077:test5-s10:q10"
+      ]
+    },
+    {
+      "id": "writing-test6-s1",
+      "type": "sentence",
+      "pages": [
+        84
+      ],
+      "sourceRefs": [
+        "pdf:writing:p084:test6-s1:q01"
+      ]
+    },
+    {
+      "id": "writing-test6-s2",
+      "type": "sentence",
+      "pages": [
+        84
+      ],
+      "sourceRefs": [
+        "pdf:writing:p084:test6-s2:q02"
+      ]
+    },
+    {
+      "id": "writing-test6-s3",
+      "type": "sentence",
+      "pages": [
+        84
+      ],
+      "sourceRefs": [
+        "pdf:writing:p084:test6-s3:q03"
+      ]
+    },
+    {
+      "id": "writing-test6-s4",
+      "type": "sentence",
+      "pages": [
+        84,
+        85
+      ],
+      "sourceRefs": [
+        "pdf:writing:p084:test6-s4:q04",
+        "pdf:writing:p085:test6-s5:q05"
+      ]
+    },
+    {
+      "id": "writing-test6-s6",
+      "type": "sentence",
+      "pages": [
+        85
+      ],
+      "sourceRefs": [
+        "pdf:writing:p085:test6-s6:q06"
+      ]
+    },
+    {
+      "id": "writing-test6-s7",
+      "type": "sentence",
+      "pages": [
+        85
+      ],
+      "sourceRefs": [
+        "pdf:writing:p085:test6-s7:q07"
+      ]
+    },
+    {
+      "id": "writing-test6-s8",
+      "type": "sentence",
+      "pages": [
+        85
+      ],
+      "sourceRefs": [
+        "pdf:writing:p085:test6-s8:q08"
+      ]
+    },
+    {
+      "id": "writing-test6-s9",
+      "type": "sentence",
+      "pages": [
+        86
+      ],
+      "sourceRefs": [
+        "pdf:writing:p086:test6-s9:q09"
+      ]
+    },
+    {
+      "id": "writing-test6-s10",
+      "type": "sentence",
+      "pages": [
+        86
+      ],
+      "sourceRefs": [
+        "pdf:writing:p086:test6-s10:q10"
+      ]
+    },
+    {
+      "id": "writing-test7-s1",
+      "type": "sentence",
+      "pages": [
+        93
+      ],
+      "sourceRefs": [
+        "pdf:writing:p093:test7-s1:q01"
+      ]
+    },
+    {
+      "id": "writing-test7-s2",
+      "type": "sentence",
+      "pages": [
+        93
+      ],
+      "sourceRefs": [
+        "pdf:writing:p093:test7-s2:q02"
+      ]
+    },
+    {
+      "id": "writing-test7-s3",
+      "type": "sentence",
+      "pages": [
+        93
+      ],
+      "sourceRefs": [
+        "pdf:writing:p093:test7-s3:q03"
+      ]
+    },
+    {
+      "id": "writing-test7-s4",
+      "type": "sentence",
+      "pages": [
+        93
+      ],
+      "sourceRefs": [
+        "pdf:writing:p093:test7-s4:q04"
+      ]
+    },
+    {
+      "id": "writing-test7-s5",
+      "type": "sentence",
+      "pages": [
+        94
+      ],
+      "sourceRefs": [
+        "pdf:writing:p094:test7-s5:q05"
+      ]
+    },
+    {
+      "id": "writing-test7-s6",
+      "type": "sentence",
+      "pages": [
+        94
+      ],
+      "sourceRefs": [
+        "pdf:writing:p094:test7-s6:q06"
+      ]
+    },
+    {
+      "id": "writing-test7-s7",
+      "type": "sentence",
+      "pages": [
+        94
+      ],
+      "sourceRefs": [
+        "pdf:writing:p094:test7-s7:q07"
+      ]
+    },
+    {
+      "id": "writing-test7-s8",
+      "type": "sentence",
+      "pages": [
+        94
+      ],
+      "sourceRefs": [
+        "pdf:writing:p094:test7-s8:q08"
+      ]
+    },
+    {
+      "id": "writing-test7-s9",
+      "type": "sentence",
+      "pages": [
+        95
+      ],
+      "sourceRefs": [
+        "pdf:writing:p095:test7-s9:q09"
+      ]
+    },
+    {
+      "id": "writing-test7-s10",
+      "type": "sentence",
+      "pages": [
+        95
+      ],
+      "sourceRefs": [
+        "pdf:writing:p095:test7-s10:q10"
+      ]
+    },
+    {
+      "id": "writing-test8-s1",
+      "type": "sentence",
+      "pages": [
+        102
+      ],
+      "sourceRefs": [
+        "pdf:writing:p102:test8-s1:q01"
+      ]
+    },
+    {
+      "id": "writing-test8-s2",
+      "type": "sentence",
+      "pages": [
+        102
+      ],
+      "sourceRefs": [
+        "pdf:writing:p102:test8-s2:q02"
+      ]
+    },
+    {
+      "id": "writing-test8-s3",
+      "type": "sentence",
+      "pages": [
+        102
+      ],
+      "sourceRefs": [
+        "pdf:writing:p102:test8-s3:q03"
+      ]
+    },
+    {
+      "id": "writing-test8-s4",
+      "type": "sentence",
+      "pages": [
+        102
+      ],
+      "sourceRefs": [
+        "pdf:writing:p102:test8-s4:q04"
+      ]
+    },
+    {
+      "id": "writing-test8-s5",
+      "type": "sentence",
+      "pages": [
+        103
+      ],
+      "sourceRefs": [
+        "pdf:writing:p103:test8-s5:q05"
+      ]
+    },
+    {
+      "id": "writing-test8-s6",
+      "type": "sentence",
+      "pages": [
+        103
+      ],
+      "sourceRefs": [
+        "pdf:writing:p103:test8-s6:q06"
+      ]
+    },
+    {
+      "id": "writing-test8-s7",
+      "type": "sentence",
+      "pages": [
+        103
+      ],
+      "sourceRefs": [
+        "pdf:writing:p103:test8-s7:q07"
+      ]
+    },
+    {
+      "id": "writing-test8-s8",
+      "type": "sentence",
+      "pages": [
+        103
+      ],
+      "sourceRefs": [
+        "pdf:writing:p103:test8-s8:q08"
+      ]
+    },
+    {
+      "id": "writing-test8-s9",
+      "type": "sentence",
+      "pages": [
+        104
+      ],
+      "sourceRefs": [
+        "pdf:writing:p104:test8-s9:q09"
+      ]
+    },
+    {
+      "id": "writing-test8-s10",
+      "type": "sentence",
+      "pages": [
+        104
+      ],
+      "sourceRefs": [
+        "pdf:writing:p104:test8-s10:q10"
+      ]
+    },
+    {
+      "id": "writing-test9-s1",
+      "type": "sentence",
+      "pages": [
+        111
+      ],
+      "sourceRefs": [
+        "pdf:writing:p111:test9-s1:q01"
+      ]
+    },
+    {
+      "id": "writing-test9-s2",
+      "type": "sentence",
+      "pages": [
+        111
+      ],
+      "sourceRefs": [
+        "pdf:writing:p111:test9-s2:q02"
+      ]
+    },
+    {
+      "id": "writing-test9-s3",
+      "type": "sentence",
+      "pages": [
+        111
+      ],
+      "sourceRefs": [
+        "pdf:writing:p111:test9-s3:q03"
+      ]
+    },
+    {
+      "id": "writing-test9-s4",
+      "type": "sentence",
+      "pages": [
+        111
+      ],
+      "sourceRefs": [
+        "pdf:writing:p111:test9-s4:q04"
+      ]
+    },
+    {
+      "id": "writing-test9-s5",
+      "type": "sentence",
+      "pages": [
+        112
+      ],
+      "sourceRefs": [
+        "pdf:writing:p112:test9-s5:q05"
+      ]
+    },
+    {
+      "id": "writing-test9-s6",
+      "type": "sentence",
+      "pages": [
+        112
+      ],
+      "sourceRefs": [
+        "pdf:writing:p112:test9-s6:q06"
+      ]
+    },
+    {
+      "id": "writing-test9-s7",
+      "type": "sentence",
+      "pages": [
+        112
+      ],
+      "sourceRefs": [
+        "pdf:writing:p112:test9-s7:q07"
+      ]
+    },
+    {
+      "id": "writing-test9-s8",
+      "type": "sentence",
+      "pages": [
+        112
+      ],
+      "sourceRefs": [
+        "pdf:writing:p112:test9-s8:q08"
+      ]
+    },
+    {
+      "id": "writing-test9-s9",
+      "type": "sentence",
+      "pages": [
+        113
+      ],
+      "sourceRefs": [
+        "pdf:writing:p113:test9-s9:q09"
+      ]
+    },
+    {
+      "id": "writing-test9-s10",
+      "type": "sentence",
+      "pages": [
+        113
+      ],
+      "sourceRefs": [
+        "pdf:writing:p113:test9-s10:q10"
+      ]
+    },
+    {
+      "id": "writing-test10-s1",
+      "type": "sentence",
+      "pages": [
+        118
+      ],
+      "sourceRefs": [
+        "pdf:writing:p118:test10-s1:q01"
+      ]
+    },
+    {
+      "id": "writing-test10-s2",
+      "type": "sentence",
+      "pages": [
+        118
+      ],
+      "sourceRefs": [
+        "pdf:writing:p118:test10-s2:q02"
+      ]
+    },
+    {
+      "id": "writing-test10-s3",
+      "type": "sentence",
+      "pages": [
+        118
+      ],
+      "sourceRefs": [
+        "pdf:writing:p118:test10-s3:q03"
+      ]
+    },
+    {
+      "id": "writing-test10-s4",
+      "type": "sentence",
+      "pages": [
+        118
+      ],
+      "sourceRefs": [
+        "pdf:writing:p118:test10-s4:q04"
+      ]
+    },
+    {
+      "id": "writing-test10-s5",
+      "type": "sentence",
+      "pages": [
+        119
+      ],
+      "sourceRefs": [
+        "pdf:writing:p119:test10-s5:q05"
+      ]
+    },
+    {
+      "id": "writing-test10-s6",
+      "type": "sentence",
+      "pages": [
+        119
+      ],
+      "sourceRefs": [
+        "pdf:writing:p119:test10-s6:q06"
+      ]
+    },
+    {
+      "id": "writing-test10-s7",
+      "type": "sentence",
+      "pages": [
+        119
+      ],
+      "sourceRefs": [
+        "pdf:writing:p119:test10-s7:q07"
+      ]
+    },
+    {
+      "id": "writing-test10-s8",
+      "type": "sentence",
+      "pages": [
+        119
+      ],
+      "sourceRefs": [
+        "pdf:writing:p119:test10-s8:q08"
+      ]
+    },
+    {
+      "id": "writing-test10-s9",
+      "type": "sentence",
+      "pages": [
+        120
+      ],
+      "sourceRefs": [
+        "pdf:writing:p120:test10-s9:q09"
+      ]
+    },
+    {
+      "id": "writing-test10-s10",
+      "type": "sentence",
+      "pages": [
+        120
+      ],
+      "sourceRefs": [
+        "pdf:writing:p120:test10-s10:q10"
+      ]
+    },
+    {
+      "id": "writing-relative-combine-1",
+      "type": "sentence",
+      "pages": [
+        40
+      ],
+      "sourceRefs": [
+        "pdf:writing:p040:relative-combine-1:q01"
+      ]
+    },
+    {
+      "id": "writing-relative-combine-2",
+      "type": "sentence",
+      "pages": [
+        40
+      ],
+      "sourceRefs": [
+        "pdf:writing:p040:relative-combine-2:q02"
+      ]
+    },
+    {
+      "id": "writing-relative-combine-3",
+      "type": "sentence",
+      "pages": [
+        40
+      ],
+      "sourceRefs": [
+        "pdf:writing:p040:relative-combine-3:q03"
+      ]
+    },
+    {
+      "id": "writing-relative-combine-4",
+      "type": "sentence",
+      "pages": [
+        40
+      ],
+      "sourceRefs": [
+        "pdf:writing:p040:relative-combine-4:q04"
+      ]
+    },
+    {
+      "id": "writing-relative-combine-5",
+      "type": "sentence",
+      "pages": [
+        40
+      ],
+      "sourceRefs": [
+        "pdf:writing:p040:relative-combine-5:q05"
+      ]
+    },
+    {
+      "id": "writing-relative-example",
+      "type": "sentence",
+      "pages": [
+        40
+      ],
+      "sourceRefs": [
+        "pdf:writing:p040:relative-example:q00"
+      ]
+    },
+    {
+      "id": "writing-additionalA-s1",
+      "type": "sentence",
+      "pages": [
+        127
+      ],
+      "sourceRefs": [
+        "pdf:writing:p127:additionalA-s1:q01"
+      ]
+    },
+    {
+      "id": "writing-additionalA-s2",
+      "type": "sentence",
+      "pages": [
+        127
+      ],
+      "sourceRefs": [
+        "pdf:writing:p127:additionalA-s2:q02"
+      ]
+    },
+    {
+      "id": "writing-additionalA-s3",
+      "type": "sentence",
+      "pages": [
+        127
+      ],
+      "sourceRefs": [
+        "pdf:writing:p127:additionalA-s3:q03"
+      ]
+    },
+    {
+      "id": "writing-additionalA-s4",
+      "type": "sentence",
+      "pages": [
+        127
+      ],
+      "sourceRefs": [
+        "pdf:writing:p127:additionalA-s4:q04"
+      ]
+    },
+    {
+      "id": "writing-additionalA-s5",
+      "type": "sentence",
+      "pages": [
+        127
+      ],
+      "sourceRefs": [
+        "pdf:writing:p127:additionalA-s5:q05"
+      ]
+    },
+    {
+      "id": "writing-additionalA-s6",
+      "type": "sentence",
+      "pages": [
+        127
+      ],
+      "sourceRefs": [
+        "pdf:writing:p127:additionalA-s6:q06"
+      ]
+    },
+    {
+      "id": "writing-additionalA-s7",
+      "type": "sentence",
+      "pages": [
+        127
+      ],
+      "sourceRefs": [
+        "pdf:writing:p127:additionalA-s7:q07"
+      ]
+    },
+    {
+      "id": "writing-additionalA-s8",
+      "type": "sentence",
+      "pages": [
+        127
+      ],
+      "sourceRefs": [
+        "pdf:writing:p127:additionalA-s8:q08"
+      ]
+    },
+    {
+      "id": "writing-additionalA-s9",
+      "type": "sentence",
+      "pages": [
+        127
+      ],
+      "sourceRefs": [
+        "pdf:writing:p127:additionalA-s9:q09"
+      ]
+    },
+    {
+      "id": "writing-additionalA-s10",
+      "type": "sentence",
+      "pages": [
+        127
+      ],
+      "sourceRefs": [
+        "pdf:writing:p127:additionalA-s10:q10"
+      ]
+    },
+    {
+      "id": "writing-additionalB-s1",
+      "type": "sentence",
+      "pages": [
+        128
+      ],
+      "sourceRefs": [
+        "pdf:writing:p128:additionalB-s1:q01"
+      ]
+    },
+    {
+      "id": "writing-additionalB-s2",
+      "type": "sentence",
+      "pages": [
+        128
+      ],
+      "sourceRefs": [
+        "pdf:writing:p128:additionalB-s2:q02"
+      ]
+    },
+    {
+      "id": "writing-additionalB-s3",
+      "type": "sentence",
+      "pages": [
+        128
+      ],
+      "sourceRefs": [
+        "pdf:writing:p128:additionalB-s3:q03"
+      ]
+    },
+    {
+      "id": "writing-additionalB-s4",
+      "type": "sentence",
+      "pages": [
+        128
+      ],
+      "sourceRefs": [
+        "pdf:writing:p128:additionalB-s4:q04"
+      ]
+    },
+    {
+      "id": "writing-additionalB-s5",
+      "type": "sentence",
+      "pages": [
+        128
+      ],
+      "sourceRefs": [
+        "pdf:writing:p128:additionalB-s5:q05"
+      ]
+    },
+    {
+      "id": "writing-additionalB-s6",
+      "type": "sentence",
+      "pages": [
+        128
+      ],
+      "sourceRefs": [
+        "pdf:writing:p128:additionalB-s6:q06"
+      ]
+    },
+    {
+      "id": "writing-additionalB-s7",
+      "type": "sentence",
+      "pages": [
+        128
+      ],
+      "sourceRefs": [
+        "pdf:writing:p128:additionalB-s7:q07"
+      ]
+    },
+    {
+      "id": "writing-additionalB-s8",
+      "type": "sentence",
+      "pages": [
+        128
+      ],
+      "sourceRefs": [
+        "pdf:writing:p128:additionalB-s8:q08"
+      ]
+    },
+    {
+      "id": "writing-additionalB-s9",
+      "type": "sentence",
+      "pages": [
+        128
+      ],
+      "sourceRefs": [
+        "pdf:writing:p128:additionalB-s9:q09"
+      ]
+    },
+    {
+      "id": "writing-additionalB-s10",
+      "type": "sentence",
+      "pages": [
+        128
+      ],
+      "sourceRefs": [
+        "pdf:writing:p128:additionalB-s10:q10"
+      ]
+    },
+    {
+      "id": "writing-tense-q1",
+      "type": "grammar",
+      "pages": [
+        64
+      ],
+      "sourceRefs": [
+        "pdf:writing:p064:writing-tense-q1:q01"
+      ]
+    },
+    {
+      "id": "writing-tense-q2",
+      "type": "grammar",
+      "pages": [
+        64
+      ],
+      "sourceRefs": [
+        "pdf:writing:p064:writing-tense-q2:q02"
+      ]
+    },
+    {
+      "id": "writing-tense-q3",
+      "type": "grammar",
+      "pages": [
+        64
+      ],
+      "sourceRefs": [
+        "pdf:writing:p064:writing-tense-q3:q03"
+      ]
+    },
+    {
+      "id": "writing-tense-q4",
+      "type": "grammar",
+      "pages": [
+        64
+      ],
+      "sourceRefs": [
+        "pdf:writing:p064:writing-tense-q4:q04"
+      ]
+    },
+    {
+      "id": "writing-tense-q5",
+      "type": "grammar",
+      "pages": [
+        64
+      ],
+      "sourceRefs": [
+        "pdf:writing:p064:writing-tense-q5:q05"
+      ]
+    },
+    {
+      "id": "writing-relative-classify-1",
+      "type": "grammar",
+      "pages": [
+        40
+      ],
+      "sourceRefs": [
+        "pdf:writing:p040:writing-relative-classify-1:q01"
+      ]
+    },
+    {
+      "id": "writing-relative-classify-2",
+      "type": "grammar",
+      "pages": [
+        40
+      ],
+      "sourceRefs": [
+        "pdf:writing:p040:writing-relative-classify-2:q02"
+      ]
+    },
+    {
+      "id": "writing-relative-classify-3",
+      "type": "grammar",
+      "pages": [
+        40
+      ],
+      "sourceRefs": [
+        "pdf:writing:p040:writing-relative-classify-3:q03"
+      ]
+    },
+    {
+      "id": "writing-relative-classify-4",
+      "type": "grammar",
+      "pages": [
+        40
+      ],
+      "sourceRefs": [
+        "pdf:writing:p040:writing-relative-classify-4:q04"
+      ]
+    },
+    {
+      "id": "writing-relative-classify-5",
+      "type": "grammar",
+      "pages": [
+        40
+      ],
+      "sourceRefs": [
+        "pdf:writing:p040:writing-relative-classify-5:q05"
+      ]
+    },
+    {
+      "id": "writing-response-match-1",
+      "type": "grammar",
+      "pages": [
+        126
+      ],
+      "sourceRefs": [
+        "pdf:writing:p126:writing-response-match-1:q01"
+      ]
+    },
+    {
+      "id": "writing-response-match-2",
+      "type": "grammar",
+      "pages": [
+        126
+      ],
+      "sourceRefs": [
+        "pdf:writing:p126:writing-response-match-2:q02"
+      ]
+    },
+    {
+      "id": "writing-response-match-3",
+      "type": "grammar",
+      "pages": [
+        126
+      ],
+      "sourceRefs": [
+        "pdf:writing:p126:writing-response-match-3:q03"
+      ]
+    },
+    {
+      "id": "writing-response-match-4",
+      "type": "grammar",
+      "pages": [
+        126
+      ],
+      "sourceRefs": [
+        "pdf:writing:p126:writing-response-match-4:q04"
+      ]
+    },
+    {
+      "id": "writing-response-match-5",
+      "type": "grammar",
+      "pages": [
+        126
+      ],
+      "sourceRefs": [
+        "pdf:writing:p126:writing-response-match-5:q05"
+      ]
+    },
+    {
+      "id": "writing-response-match-6",
+      "type": "grammar",
+      "pages": [
+        126
+      ],
+      "sourceRefs": [
+        "pdf:writing:p126:writing-response-match-6:q06"
+      ]
+    },
+    {
+      "id": "writing-response-match-7",
+      "type": "grammar",
+      "pages": [
+        126
+      ],
+      "sourceRefs": [
+        "pdf:writing:p126:writing-response-match-7:q07"
+      ]
+    },
+    {
+      "id": "writing-response-match-8",
+      "type": "grammar",
+      "pages": [
+        126
+      ],
+      "sourceRefs": [
+        "pdf:writing:p126:writing-response-match-8:q08"
+      ]
+    },
+    {
+      "id": "writing-response-match-9",
+      "type": "grammar",
+      "pages": [
+        126
+      ],
+      "sourceRefs": [
+        "pdf:writing:p126:writing-response-match-9:q09"
+      ]
+    },
+    {
+      "id": "writing-response-match-10",
+      "type": "grammar",
+      "pages": [
+        126
+      ],
+      "sourceRefs": [
+        "pdf:writing:p126:writing-response-match-10:q10"
+      ]
+    },
+    {
+      "id": "writing-voice-passive-1",
+      "type": "grammar",
+      "pages": [
+        51
+      ],
+      "sourceRefs": [
+        "pdf:writing:p051:writing-voice-passive-1:q01"
+      ]
+    },
+    {
+      "id": "writing-voice-passive-2",
+      "type": "grammar",
+      "pages": [
+        51
+      ],
+      "sourceRefs": [
+        "pdf:writing:p051:writing-voice-passive-2:q02"
+      ]
+    },
+    {
+      "id": "writing-voice-passive-3",
+      "type": "grammar",
+      "pages": [
+        51
+      ],
+      "sourceRefs": [
+        "pdf:writing:p051:writing-voice-passive-3:q03"
+      ]
+    },
+    {
+      "id": "writing-voice-passive-4",
+      "type": "grammar",
+      "pages": [
+        51
+      ],
+      "sourceRefs": [
+        "pdf:writing:p051:writing-voice-passive-4:q04"
+      ]
+    },
+    {
+      "id": "writing-voice-passive-5",
+      "type": "grammar",
+      "pages": [
+        51
+      ],
+      "sourceRefs": [
+        "pdf:writing:p051:writing-voice-passive-5:q05"
+      ]
+    },
+    {
+      "id": "writing-voice-analyze-1",
+      "type": "grammar",
+      "pages": [
+        51
+      ],
+      "sourceRefs": [
+        "pdf:writing:p051:writing-voice-analyze-1:q01"
+      ]
+    },
+    {
+      "id": "writing-voice-analyze-2",
+      "type": "grammar",
+      "pages": [
+        51
+      ],
+      "sourceRefs": [
+        "pdf:writing:p051:writing-voice-analyze-2:q02"
+      ]
+    },
+    {
+      "id": "writing-voice-analyze-3",
+      "type": "grammar",
+      "pages": [
+        51
+      ],
+      "sourceRefs": [
+        "pdf:writing:p051:writing-voice-analyze-3:q03"
+      ]
+    },
+    {
+      "id": "writing-voice-analyze-4",
+      "type": "grammar",
+      "pages": [
+        51
+      ],
+      "sourceRefs": [
+        "pdf:writing:p051:writing-voice-analyze-4:q04"
+      ]
+    },
+    {
+      "id": "writing-voice-analyze-5",
+      "type": "grammar",
+      "pages": [
+        51
+      ],
+      "sourceRefs": [
+        "pdf:writing:p051:writing-voice-analyze-5:q05"
+      ]
+    },
+    {
+      "id": "writing-email-example",
+      "type": "email",
+      "pages": [
+        7
+      ],
+      "sourceRefs": [
+        "pdf:writing:p007:writing-email-example"
+      ]
+    },
+    {
+      "id": "writing-email-test10",
+      "type": "email",
+      "pages": [
+        122
+      ],
+      "sourceRefs": [
+        "pdf:writing:p122:writing-email-test10"
+      ]
+    },
+    {
+      "id": "writing-email-extra1",
+      "type": "email",
+      "pages": [
+        129
+      ],
+      "sourceRefs": [
+        "pdf:writing:p129:writing-email-extra1"
+      ]
+    },
+    {
+      "id": "writing-email-extra2",
+      "type": "email",
+      "pages": [
+        130
+      ],
+      "sourceRefs": [
+        "pdf:writing:p130:writing-email-extra2"
+      ]
+    },
+    {
+      "id": "writing-email-extra3",
+      "type": "email",
+      "pages": [
+        131
+      ],
+      "sourceRefs": [
+        "pdf:writing:p131:writing-email-extra3"
+      ]
+    },
+    {
+      "id": "writing-discussion-example",
+      "type": "discussion",
+      "pages": [
+        8,
+        9
+      ],
+      "sourceRefs": [
+        "pdf:writing:p008:writing-discussion-example"
+      ]
+    },
+    {
+      "id": "writing-discussion-extra1",
+      "type": "discussion",
+      "pages": [
+        132,
+        133
+      ],
+      "sourceRefs": [
+        "pdf:writing:p132:writing-discussion-extra1"
+      ]
+    },
+    {
+      "id": "writing-discussion-extra2",
+      "type": "discussion",
+      "pages": [
+        134,
+        135
+      ],
+      "sourceRefs": [
+        "pdf:writing:p134:writing-discussion-extra2"
+      ]
+    },
+    {
+      "id": "writing-discussion-extra3",
+      "type": "discussion",
+      "pages": [
+        136,
+        137
+      ],
+      "sourceRefs": [
+        "pdf:writing:p136:writing-discussion-extra3"
+      ]
+    }
+  ]
+}

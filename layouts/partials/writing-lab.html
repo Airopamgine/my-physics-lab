@@ -18,21 +18,27 @@
       <span class="toefl-section-chip">03 · Argument</span><strong>Academic Discussion</strong>
       <span>学生の意見に応答し、理由と具体例を書く。10分練習。</span><small id="writing-discussion-count">読み込み中…</small>
     </button>
+    <button type="button" data-writing-task="grammar" aria-pressed="false" disabled>
+      <span class="toefl-section-chip">Supplement · Grammar</span><strong>Grammar &amp; response</strong>
+      <span>時制・関係節・態の変換・応答選択。原本の文法演習を四択で確認。</span><small id="writing-grammar-count">読み込み中…</small>
+    </button>
   </div>
   <details class="writing-guide">
     <summary>書き方と評価のポイント</summary>
+    {{ $writingBank := readFile "static/data/toefl-writing-bank.json" | transform.Unmarshal }}
     <div class="writing-guide-grid">
-      <div><h3>Email · 7 minutes</h3><p>相手と目的を確認 → 設問の各条件に1〜2文 → お礼と結び。最初の1分で計画し、最後の1分で依頼内容・日時・文法を見直します。</p>
-        <p>評価の観点：必要な情報、明確な目的、相手に合う丁寧さ、自然な文章構成、語彙と文法。</p></div>
-      <div><h3>Discussion · 10 minutes</h3><p>立場 → 理由 → 具体例・仕組み → 既存意見との接続。100語以上を目安に、語数を増やすより論拠を深めます。</p>
-        <p>評価の観点：問いへの応答、理由と具体例、議論への新しい貢献、文章のつながり、語彙と文法。</p></div>
+      {{ range $writingBank.guides }}
+      <details class="writing-reference"><summary>{{ .title }}</summary>
+        <p class="writing-source">教材 PDF {{ delimit .pages "・" }}ページ · 編集要約</p><ul>{{ range .items }}<li>{{ . }}</li>{{ end }}</ul>
+      </details>
+      {{ end }}
     </div>
     <p>自由作文は唯一の正解がありません。解答例と自己点検で見直し、ChatGPT添削で改善します。語数やチェック数から点数を自動推定しません。</p>
     <p><a href="https://www.ets.org/toefl/test-takers/ibt/about/content/writing/.html" target="_blank" rel="noopener noreferrer">ETS：Writing形式</a> · <a href="https://www.ets.org/pdfs/toefl/writing-rubrics.pdf" target="_blank" rel="noopener noreferrer">ETS：自由作文の評価基準（0〜5）</a>。タスクの評価基準とセクションの公式スコアは別です。</p>
   </details>
   <div class="writing-controls">
     <label>教材を検索<input id="writing-search" type="search" placeholder="例：奨学金、remote、受動態" autocomplete="off"></label>
-    <label>学習状況<select id="writing-filter"><option value="all">すべて</option><option value="draft">下書きあり</option><option value="review">要復習</option><option value="done">確認済み</option></select></label>
+    <label>学習状況<select id="writing-filter"><option value="all">すべて</option><option value="draft">下書きあり</option><option value="review">要復習</option><option value="done">正解・確認済み</option></select></label>
     <p id="writing-progress"></p>
   </div>
   <p id="writing-status" role="status">Writing教材を読み込んでいます…</p>
@@ -47,7 +53,7 @@
       <div class="writing-prompt" id="writing-prompt"></div>
       <div class="writing-answer-panel">
         <div id="writing-sentence-panel" hidden>
-          <p>語句を選ぶと空欄に入ります。入れた語句を押すと戻せます。使わない語句がある問題もあります。</p>
+          <p id="writing-objective-help">語句を選ぶと空欄に入ります。入れた語句を押すと戻せます。使わない語句がある問題もあります。</p>
           <div class="writing-frame" id="writing-frame" aria-label="組み立てた文"></div>
           <div class="writing-tiles" id="writing-tiles" role="group" aria-label="選べる語句"></div>
           <div class="toefl-actions"><button class="toefl-button toefl-button--primary" id="writing-check" type="button" disabled>採点する</button><button class="toefl-button toefl-button--secondary" id="writing-clear" type="button">語句を戻す</button></div>
@@ -80,5 +86,5 @@
       <p class="toefl-small-note">「確認済み」は自分で見直した記録です。自由作文の正誤や公式得点の判定ではありません。入力欄で書き直し、再び保存して比較できます。</p>
     </section>
   </section>
-  <p class="writing-footnote">提供Writing教材から選んだ30演習です。並べ替えの解答は教材掲載の解答と照合。作文の解答例・日本語解説は編集作成です。下書き・構成メモ・見直し記録はこのブラウザだけに保存します。</p>
+  <p class="writing-footnote">提供Writing教材全139ページから215演習を移行（同一の重複問題1件は統合）。掲載解答のある並べ替え12問は印刷解答と照合し、その他は文法・文脈に基づく編集解答です。作文の解答例は編集作成で、唯一の正解ではありません。校訂箇所は問題画面に表示します。下書き・構成メモ・学習状況はこのブラウザに保存されます。</p>
 </section>

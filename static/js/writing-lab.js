@@ -3,7 +3,10 @@
   const root = document.getElementById("writing-lab");
   if (!root) return;
   const KEY = "mastersPhysicsLab.writingLab.v1";
-  const TYPES = { sentence: "Build a Sentence", email: "Write an Email", discussion: "Academic Discussion" };
+  const TYPES = { sentence: "Build a Sentence", email: "Write an Email", discussion: "Academic Discussion", grammar: "Grammar & response" };
+  const isObjective = q => q.type === "sentence" || q.type === "grammar";
+  const isEssay = q => q.type === "email" || q.type === "discussion";
+  const sourceLabel = q => q.source.kind === "original" ? `Original Writing · ${q.source.date}` : `${q.source.file} PDF ${q.source.pages.join("・")}ページ`;
   const el = id => document.getElementById(`writing-${id}`);
   const node = (tag, text, className) => {
     const item = document.createElement(tag);
@@ -15,16 +18,18 @@
   const isObject = value => value && typeof value === "object" && !Array.isArray(value);
   const clean = (value, limit) => typeof value === "string" ? value.slice(0, limit) : "";
   let bank, active, loading = false, unlocked = false, storageFailed = false, storageNotice = "";
+  const searchText = new Map();
   let state = { version: 1, task: "sentence", lastId: "", records: Object.create(null) };
 
   function record(q) {
-    return state.records[q.id] ||= { answer: "", notes: "", selections: [], checked: false,
+    return state.records[q.id] ||= { answer: "", notes: "", selections: [], choice: null, checked: false,
       rating: "", checks: [], history: [], remaining: (q.minutes || 0) * 60, deadline: null, expired: false };
   }
   function result(q, r) {
     if (!r.checked) return "";
+    if (q.type === "grammar") return r.choice === q.correctIndex ? "correct" : "incorrect";
     return q.solutions.some(solution => solution.length === r.selections.length &&
-      solution.every((index, slot) => index === r.selections[slot])) ? "correct" : "incorrect";
+      solution.every((index, slot) => q.tiles[index] === q.tiles[r.selections[slot]])) ? "correct" : "incorrect";
   }
   function save() {
     try { localStorage.setItem(KEY, JSON.stringify(state)); storageFailed = false; }
@@ -54,6 +59,9 @@
           r.selections = Array.isArray(previous.selections) ? [...new Set(previous.selections.filter(n =>
             Number.isInteger(n) && n >= 0 && n < q.tiles.length))].slice(0, q.solutions[0].length) : [];
           r.checked = previous.checked === true && r.selections.length === q.solutions[0].length;
+        } else if (q.type === "grammar") {
+          r.choice = Number.isInteger(previous.choice) && previous.choice >= 0 && previous.choice < q.choices.length ? previous.choice : null;
+          r.checked = previous.checked === true && r.choice !== null;
         } else {
           const duration = q.minutes * 60;
           r.remaining = Number.isFinite(previous.remaining) ? Math.max(0, Math.min(duration, previous.remaining)) : duration;
@@ -67,9 +75,9 @@
     const r = state.records[q.id];
     if (!r) return "未着手";
     if (r.rating) return r.rating === "done" ? "確認済み" : "要復習";
-    if (q.type === "sentence" && r.checked) return result(q, r) === "correct" ? "正解" : "要復習";
+    if (isObjective(q) && r.checked) return result(q, r) === "correct" ? "正解" : "要復習";
     if (r.history.length) return "見直し中";
-    return r.answer.trim() || r.notes.trim() || r.selections.length ? "下書きあり" : "未着手";
+    return r.answer.trim() || r.notes.trim() || r.selections.length || r.choice !== null ? "下書きあり" : "未着手";
   }
   function renderCatalog() {
     if (!bank) return;
@@ -79,17 +87,20 @@
     }
     const counts = Object.keys(TYPES).map(type => bank.exercises.filter(q => q.type === type).length);
     Object.keys(TYPES).forEach((type, i) => { el(`${type}-count`).textContent = `${counts[i]}演習`; });
-    el("total").textContent = `${bank.exercises.length}演習 · 3 tasks`;
+    el("total").textContent = `${bank.exercises.length}演習 · 3 tasks + grammar`;
     const correct = bank.exercises.filter(q => q.type === "sentence" && state.records[q.id] && result(q, state.records[q.id]) === "correct").length;
-    const reviewed = bank.exercises.filter(q => q.type !== "sentence" && state.records[q.id]?.rating === "done").length;
-    el("progress").textContent = `並べ替え正解 ${correct}/${counts[0]} · 作文確認済み ${reviewed}/${counts[1] + counts[2]}`;
+    const grammarCorrect = bank.exercises.filter(q => q.type === "grammar" && state.records[q.id] && result(q, state.records[q.id]) === "correct").length;
+    const reviewed = bank.exercises.filter(q => isEssay(q) && state.records[q.id]?.rating === "done").length;
+    el("progress").textContent = `並べ替え正解 ${correct}/${counts[0]} · 文法正解 ${grammarCorrect}/${counts[3]} · 作文確認済み ${reviewed}/${counts[1] + counts[2]}`;
+    el("catalog").hidden = Boolean(active);
+    if (active) return;
     const query = el("search").value.toLowerCase().trim();
     const filter = el("filter").value;
     const list = bank.exercises.filter(q => {
       const s = status(q);
-      return q.type === state.task && JSON.stringify(q).toLowerCase().includes(query) &&
+      return q.type === state.task && searchText.get(q.id).includes(query) &&
         (filter === "all" || (filter === "draft" && ["下書きあり", "見直し中"].includes(s)) ||
-        (filter === "review" && s === "要復習") || (filter === "done" && s === "確認済み"));
+        (filter === "review" && s === "要復習") || (filter === "done" && ["確認済み", "正解"].includes(s)));
     });
     el("catalog").replaceChildren();
     for (const q of list) {
@@ -116,10 +127,10 @@
   function renderPrompt(q) {
     const prompt = el("prompt");
     prompt.replaceChildren();
-    if (q.type === "sentence") {
-      prompt.append(node("h4", "Conversation"), node("p", q.prompt));
+    if (isObjective(q)) {
+      prompt.append(node("h4", q.type === "grammar" ? "Question" : "Sentence task"), node("p", q.prompt));
       prompt.lastChild.lang = "en";
-      prompt.append(node("p", "会話に自然につながる返答を完成させてください。"));
+      prompt.append(node("p", q.type === "grammar" ? "文法・文脈と設問条件を満たす選択肢を一つ選んでください。" : "設問に合う文を組み立ててください。"));
     } else {
       if (q.type === "email") prompt.append(node("h4", "Situation"));
       else prompt.append(node("h4", q.professor));
@@ -137,8 +148,24 @@
       }
       prompt.append(node("h4", "Include in your response"));
       list(q.requirements, prompt);
-      if (q.editorNote) prompt.append(node("p", q.editorNote, "writing-editor-note"));
     }
+    if (q.editorNote) prompt.append(node("p", `校訂・出典の補足：${q.editorNote}`, "writing-editor-note"));
+  }
+  function renderGrammar() {
+    const q = active, r = record(q), tiles = el("tiles");
+    el("frame").replaceChildren(); tiles.replaceChildren();
+    q.choices.forEach((text, i) => {
+      const label = node("label", undefined, "writing-choice");
+      const input = node("input");
+      input.type = "radio"; input.name = "writing-choice"; input.value = i;
+      input.dataset.writingChoice = i; input.checked = r.choice === i;
+      input.addEventListener("change", () => {
+        r.choice = i; resetObjective(r);
+        el("tiles").querySelector(`input[data-writing-choice="${i}"]`).focus();
+      });
+      label.append(input, node("span", `${String.fromCharCode(65 + i)}. ${text}`)); tiles.append(label);
+    });
+    el("check").disabled = r.choice === null;
   }
   function renderSentence() {
     const q = active, r = record(q);
@@ -154,7 +181,7 @@
         const button = node("button", value === undefined ? `${i + 1} ___` : q.tiles[value], "writing-slot");
         button.type = "button"; button.dataset.writingSlot = i; button.disabled = value === undefined;
         button.setAttribute("aria-label", value === undefined ? `空欄${i + 1}` : `空欄${i + 1}の ${q.tiles[value]} を戻す`);
-        button.addEventListener("click", () => { r.selections.splice(i, 1); resetSentence(r); });
+        button.addEventListener("click", () => { r.selections.splice(i, 1); resetObjective(r); });
         frame.append(button);
       }
     }
@@ -162,18 +189,19 @@
       const button = node("button", text, "writing-tile");
       button.type = "button"; button.dataset.writingTile = i;
       button.disabled = r.selections.includes(i) || r.selections.length === q.solutions[0].length;
-      button.addEventListener("click", () => { r.selections.push(i); resetSentence(r); });
+      button.addEventListener("click", () => { r.selections.push(i); resetObjective(r); });
       tiles.append(button);
     });
     el("check").disabled = r.selections.length !== q.solutions[0].length;
   }
-  function resetSentence(r) {
+  function resetObjective(r) {
     r.checked = false; r.rating = "";
     el("feedback").hidden = true; el("review").hidden = true;
-    renderSentence(); save(); renderCatalog();
+    if (active.type === "sentence") renderSentence(); else renderGrammar();
+    save(); renderCatalog();
   }
   function pause(q) {
-    if (!q || q.type === "sentence") return;
+    if (!q || !isEssay(q)) return;
     const r = record(q);
     if (r.deadline !== null) {
       r.remaining = Math.max(0, Math.ceil((r.deadline - Date.now()) / 1000));
@@ -181,7 +209,7 @@
     }
   }
   function timer() {
-    if (!active || active.type === "sentence") return;
+    if (!active || !isEssay(active)) return;
     const r = record(active);
     if (r.deadline !== null) {
       r.remaining = Math.max(0, Math.ceil((r.deadline - Date.now()) / 1000));
@@ -208,18 +236,23 @@
   }
   function renderReview() {
     const q = active, r = record(q);
-    const visible = q.type === "sentence" ? r.checked : r.history.length > 0;
+    const visible = isObjective(q) ? r.checked : r.history.length > 0;
     el("review").hidden = !visible;
     if (!visible) return;
-    el("model-title").textContent = q.type === "sentence" ? "教材の正答" : "解答例（編集作成）";
+    el("model-title").textContent = isObjective(q) ? "正答・解答の根拠" : "解答例（編集作成）";
     el("model-note").textContent = q.answerBasis;
     el("model").textContent = q.modelAnswer;
     const explanation = el("explanation"); explanation.replaceChildren();
     list(q.explanation, explanation);
+    if (q.type === "sentence" && q.solutions.length > 1) {
+      const alternatives = [...new Set(q.solutions.slice(1).map(selections => assembled(q, { selections })))];
+      explanation.append(node("h4", "認められる別解"));
+      list(alternatives, explanation);
+    }
     explanation.append(node("h4", "使える表現")); list(q.phrases, explanation);
     const selfcheck = el("selfcheck"); selfcheck.replaceChildren();
-    el("submission").hidden = q.type === "sentence";
-    if (q.type !== "sentence") {
+    el("submission").hidden = isObjective(q);
+    if (isEssay(q)) {
       selfcheck.append(node("h4", "自己点検 · 自分で確認してチェック"));
       const checks = [...q.requirements, q.type === "email" ? "相手に合う挨拶・丁寧な依頼・結びになっている" : "主張を支える理由と具体例があり、既存意見に自分の内容を加えている",
         "文のつながり、動詞の形、綴りを確認した"];
@@ -239,11 +272,11 @@
   }
   function feedback() {
     const r = record(active);
-    el("feedback").hidden = active.type === "sentence" ? !r.checked : !r.history.length;
+    el("feedback").hidden = isObjective(active) ? !r.checked : !r.history.length;
     if (el("feedback").hidden) return;
-    const value = active.type === "sentence" ? result(active, r) : "saved";
+    const value = isObjective(active) ? result(active, r) : "saved";
     el("feedback").dataset.result = value;
-    el("feedback").textContent = value === "correct" ? "正解です。語順と文法の理由を確認しましょう。" : value === "incorrect" ? "語順を見直しましょう。教材の正答と解説を確認できます。" : "答案を保存しました。解答例と比較して書き直してください。自由作文の点数や正誤は自動判定しません。";
+    el("feedback").textContent = value === "correct" ? "正解です。文法と解答の理由を確認しましょう。" : value === "incorrect" ? "解答を見直しましょう。正答と根拠を確認できます。" : "答案を保存しました。解答例と比較して書き直してください。自由作文の点数や正誤は自動判定しません。";
   }
   function open(q, focus = true) {
     if (active && active.id !== q.id) pause(active);
@@ -251,22 +284,28 @@
     el("runner").hidden = false;
     el("exercise-type").textContent = TYPES[q.type];
     el("exercise-title").textContent = q.title;
-    el("source").textContent = `${q.collection} · ${q.source.file} PDF ${q.source.pages.join("・")}ページ · ${q.answerBasis}`;
+    el("source").textContent = `${q.collection} · ${sourceLabel(q)} · ${q.answerBasis}`;
     renderPrompt(q);
-    el("sentence-panel").hidden = q.type !== "sentence";
-    el("essay-panel").hidden = q.type === "sentence";
+    el("sentence-panel").hidden = !isObjective(q);
+    el("essay-panel").hidden = !isEssay(q);
+    el("frame").hidden = q.type !== "sentence";
+    el("tiles").classList.toggle("writing-choices", q.type === "grammar");
+    el("tiles").setAttribute("aria-label", q.type === "grammar" ? "選択肢" : "選べる語句");
+    el("objective-help").textContent = q.type === "grammar" ? "答えを一つ選び、採点してください。選び直すと採点結果をリセットします。" : "語句を選ぶと空欄に入ります。入れた語句を押すと戻せます。使わない語句がある問題もあります。";
+    el("clear").textContent = q.type === "grammar" ? "選択を解除" : "語句を戻す";
     const r = record(q);
     if (q.type === "sentence") renderSentence();
+    else if (q.type === "grammar") renderGrammar();
     else { el("answer").value = r.answer; el("notes").value = r.notes; editor(); timer(); }
     feedback(); renderReview(); renderCatalog(); save();
     el("tutor").replaceChildren();
     window.ToeflChatGPTBridge?.mount(el("tutor"), () => ({
-      writingReview: q.type !== "sentence", source: `${q.source.file} PDF ${q.source.pages.join(", ")}`,
+      writingReview: isEssay(q), source: sourceLabel(q),
       section: "Writing", task: TYPES[q.type], setTitle: q.title,
       context: [q.context || q.prompt, ...(q.posts || []).map(post => `${post.name} (summary): ${post.text}`)].join("\n\n"),
-      instruction: q.type === "sentence" ? "Complete the reply using the supplied phrases." : q.requirements.join("\n"),
-      question: q.type === "sentence" ? q.frame.join("") : q.type === "email" ? `To: ${q.to}; Subject: ${q.subject}` : q.professor,
-      options: q.tiles, userAnswer: q.type === "sentence" ? assembled(q, record(q)) : el("answer").value,
+      instruction: q.type === "sentence" ? "Complete the sentence using the supplied phrases." : q.type === "grammar" ? "Choose the one option that satisfies the grammar and task conditions." : q.requirements.join("\n"),
+      question: q.type === "sentence" ? q.frame.join("") : q.type === "grammar" ? q.prompt : q.type === "email" ? `To: ${q.to}; Subject: ${q.subject}` : q.professor,
+      options: q.tiles || q.choices, userAnswer: q.type === "sentence" ? assembled(q, record(q)) : q.type === "grammar" ? q.choices[record(q).choice] || "" : el("answer").value,
       modelAnswer: el("review").hidden ? "" : q.modelAnswer,
       explanation: el("review").hidden ? "" : q.explanation.join("\n")
     }));
@@ -285,7 +324,9 @@
       const data = await response.json();
       if (data.schemaVersion !== 1 || !Array.isArray(data.exercises) || !data.exercises.length ||
         data.exercises.some(q => !q.id || !Object.hasOwn(TYPES, q.type) || !q.source || !Array.isArray(q.explanation))) throw new Error("Invalid Writing bank");
-      bank = data; restore(); renderCatalog();
+      bank = data;
+      bank.exercises.forEach(q => searchText.set(q.id, JSON.stringify(q).toLowerCase()));
+      restore(); renderCatalog();
       if (state.lastId) open(bank.exercises.find(q => q.id === state.lastId), false);
     } catch (_) { el("status").textContent = "Writing教材を読み込めませんでした。再試行してください。"; el("retry").hidden = false; }
     finally { loading = false; }
@@ -295,10 +336,10 @@
   }));
   ["search", "filter"].forEach(id => el(id).addEventListener(id === "search" ? "input" : "change", () => { if (active) close(); renderCatalog(); }));
   el("close").addEventListener("click", close);
-  el("clear").addEventListener("click", () => { if (!active) return; const r = record(active); r.selections = []; resetSentence(r); });
-  el("check").addEventListener("click", () => { if (!active) return; const r = record(active); r.checked = true; save(); feedback(); renderReview(); renderCatalog(); });
+  el("clear").addEventListener("click", () => { if (!active) return; const r = record(active); r.selections = []; r.choice = null; resetObjective(r); });
+  el("check").addEventListener("click", () => { if (!active || !isObjective(active) || el("check").disabled) return; const r = record(active); r.checked = true; save(); feedback(); renderReview(); renderCatalog(); });
   ["answer", "notes"].forEach(id => el(id).addEventListener("input", () => {
-    if (!active || active.type === "sentence") return;
+    if (!active || !isEssay(active)) return;
     const r = record(active); r.answer = el("answer").value.slice(0, 20000); r.notes = el("notes").value.slice(0, 5000);
     r.rating = ""; r.checks = [];
     root.querySelectorAll("[data-writing-selfcheck]").forEach(input => { input.checked = false; });
@@ -306,14 +347,14 @@
   }));
   el("answer").maxLength = 20000; el("notes").maxLength = 5000;
   el("finish").addEventListener("click", () => {
-    if (!active || active.type === "sentence" || !el("answer").value.trim()) return;
+    if (!active || !isEssay(active) || !el("answer").value.trim()) return;
     const r = record(active); pause(active);
     r.history.push({ text: r.answer, at: new Date().toISOString() }); r.history = r.history.slice(-5);
     r.rating = ""; r.checks = []; save(); timer(); feedback(); renderReview(); renderCatalog();
     el("review").scrollIntoView({ behavior: "smooth", block: "start" });
   });
   el("timer-toggle").addEventListener("click", () => {
-    if (!active || active.type === "sentence") return;
+    if (!active || !isEssay(active)) return;
     const r = record(active);
     if (r.deadline !== null) pause(active);
     else {
@@ -323,8 +364,8 @@
     save(); timer();
   });
   el("export").addEventListener("click", () => {
-    if (!active || active.type === "sentence") return;
-    const text = `${active.title}\n${TYPES[active.type]}\nSource: ${active.source.file} PDF ${active.source.pages.join(", ")}\n\nYour response:\n${el("answer").value}\n\nNotes:\n${el("notes").value}\n`;
+    if (!active || !isEssay(active)) return;
+    const text = `${active.title}\n${TYPES[active.type]}\nSource: ${sourceLabel(active)}\n\nYour response:\n${el("answer").value}\n\nNotes:\n${el("notes").value}\n`;
     const url = URL.createObjectURL(new Blob([text], { type: "text/plain;charset=utf-8" }));
     const link = node("a"); link.href = url; link.download = `${active.id}.txt`;
     document.body.append(link); link.click(); link.remove(); setTimeout(() => URL.revokeObjectURL(url), 1000);

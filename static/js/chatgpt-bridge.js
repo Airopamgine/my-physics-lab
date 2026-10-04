@@ -21,7 +21,7 @@
       "Please:",
       "1. Say clearly whether my answer is correct or appropriate.",
       "2. Correct grammar, spelling, word choice, and naturalness where relevant.",
-      "3. Explain the key points in Japanese while keeping useful examples in English (about 55% Japanese / 45% English).",
+      "3. Explain mainly in English with Japanese support (about 60% English / 40% Japanese). Give difficult vocabulary a Japanese gloss and explanation.",
       "4. For an open-ended answer, give a minimal correction, a natural improved version, and one stronger TOEFL-style version.",
       "5. For a multiple-choice answer, explain why the correct option works and why my option is right or wrong.",
       "6. Define difficult vocabulary briefly in Japanese.",
@@ -34,7 +34,7 @@
     if (details.writingReview) {
       lines.splice(4, 7,
         "1. Review task fulfillment, organization, supporting details, appropriate register, and language use. Treat the model as one example, not the only valid answer.",
-        "2. Explain in Japanese: strengths, missing task requirements, and the most useful improvements. Quote short English examples from my response.",
+        "2. Explain strengths, missing task requirements, and the most useful improvements in about 60% English / 40% Japanese. Give difficult vocabulary a Japanese gloss and explanation, and quote short English examples from my response.",
         "3. Give a minimal correction preserving my ideas, then a stronger version that still answers the same task. Explain substantive changes.",
         "4. Finish with three reusable expressions and a concrete revision checklist. Do not invent personal facts or research findings.",
         "5. Do not assign an official TOEFL score. If I explicitly request a 0–5 rubric estimate, label it an unofficial estimate and justify it with the rubric.",
