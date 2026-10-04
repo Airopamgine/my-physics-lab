@@ -88,6 +88,12 @@ Run the Reading DOM suite for frontend or shared-bridge changes, or if a
 Reading change justifies it; avoid repeating unrelated verification after a
 data-only daily batch has passed. Never weaken tests to accept invalid content.
 
+The normal page also has a daily study menu. Preserve its guided-selection
+interfaces and successful-auth loading boundary. After bank changes, run
+`tests/verify_daily_study.cjs` against built normal-page HTML to check source
+selection, date-stable menus and Writing integration. Keep originals separate
+from source coverage. See `daily-study-audit.md` for the menu and verification.
+
 The public app uses the existing study login. If an authorized authenticated
 session is available, inspect both desktop and mobile layouts and exercise
 selection, grading, explanations, saving and timers. Otherwise retain the

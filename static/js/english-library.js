@@ -59,6 +59,8 @@
   let selectedOption = null;
   let sessionMastered = 0;
   let deferredGapAttempts = [];
+  let studyContext = null;
+  let reviewedQuestions = [];
   let progress = loadProgress();
 
   function loadProgress() {
@@ -214,6 +216,7 @@
       elements.controls.hidden = false;
       updateOverallProgress();
       renderLibrary();
+      document.dispatchEvent(new CustomEvent("toefl:reading-ready"));
     } catch (error) {
       console.error(error);
       hasLoaded = false;
@@ -242,13 +245,21 @@
     }
   }
 
-  function startSet(setId, reviewOnly = false) {
+  function startSet(setId, reviewOnly = false, questionIds = null, context = null) {
     if (!bank) return;
     const set = bank.sets.find((candidate) => candidate.id === setId);
     if (!set) return;
-    const questions = reviewOnly
+    let questions = reviewOnly
       ? set.questions.filter((question) => needsReview(progress.answers[question.id]?.result))
       : set.questions;
+    if (questionIds) {
+      const wanted = new Set(questionIds);
+      // A daily selection must keep every blank of each selected passage.
+      const passages = new Set(set.questions.filter(q => wanted.has(q.id) && q.acceptedAnswers)
+        .map(q => q.passage ?? set.passage));
+      questions = set.questions.filter(q => wanted.has(q.id) ||
+        (q.acceptedAnswers && passages.has(q.passage ?? set.passage)));
+    }
     if (!questions.length) return;
 
     activeSet = set;
@@ -256,10 +267,13 @@
     currentIndex = 0;
     sessionMastered = 0;
     deferredGapAttempts = [];
+    studyContext = context;
+    reviewedQuestions = [];
     elements.complete.hidden = true;
     elements.runner.hidden = false;
     renderQuestion();
     elements.runner.scrollIntoView({ behavior: "smooth", block: "start" });
+    return true;
   }
 
   function contextMarkup(set) {
@@ -289,7 +303,7 @@
   function renderQuestion() {
     const question = activeQueue[currentIndex];
     selectedOption = null;
-    elements.questionCollection.textContent = `${activeSet.collection} · ${activeSet.level}`;
+    elements.questionCollection.textContent = `${activeSet.collection} · ${activeSet.level}${studyContext?.dailyDate ? ` · ${studyContext.dailyDate}のメニュー` : ""}`;
     elements.setTitle.textContent = activeSet.title;
     elements.questionCount.textContent = `Question ${currentIndex + 1} of ${activeQueue.length}`;
     elements.progressBar.style.width = `${((currentIndex + 1) / activeQueue.length) * 100}%`;
@@ -374,6 +388,9 @@
     saveProgress();
     updateOverallProgress();
     renderLibrary();
+    document.dispatchEvent(new CustomEvent("toefl:reading-answer", {
+      detail: { id: question.id, result, context: studyContext }
+    }));
   }
 
   function answerSourceLink() {
@@ -421,6 +438,7 @@
       }
       const attempts = deferredGapAttempts;
       deferredGapAttempts = [];
+      reviewedQuestions = attempts.map(attempt => attempt.question.id);
       const correctCount = attempts.filter((attempt) => attempt.correct).length;
       elements.feedback.className = `toefl-feedback ${correctCount === attempts.length ? "is-correct" : "is-wrong"}`;
       elements.feedback.innerHTML = `<h3>${correctCount} / ${attempts.length} correct in this passage</h3>
@@ -447,6 +465,7 @@
         if (button.dataset.libraryOption === selectedOption && !correct) button.classList.add("is-wrong");
       });
       recordAttempt(question, correct ? "correct" : "incorrect", selectedOption);
+      reviewedQuestions = [question.id];
       if (correct) sessionMastered += 1;
       elements.feedback.className = `toefl-feedback ${correct ? "is-correct" : "is-wrong"}`;
       elements.feedback.innerHTML = `
@@ -489,6 +508,13 @@
   }
 
   function nextQuestion() {
+    if (elements.next.hidden) return;
+    for (const id of reviewedQuestions) {
+      document.dispatchEvent(new CustomEvent("toefl:reading-reviewed", {
+        detail: { id, result: progress.answers[id]?.result, context: studyContext }
+      }));
+    }
+    reviewedQuestions = [];
     if (currentIndex < activeQueue.length - 1) {
       currentIndex += 1;
       renderQuestion();
@@ -567,4 +593,9 @@
   });
 
   document.addEventListener("toefl:unlocked", loadBank);
+  window.ToeflReadingLab = Object.freeze({
+    getBank: () => bank,
+    getProgress: () => progress,
+    startSelection: (setId, questionIds, context) => startSet(setId, false, questionIds, context)
+  });
 })();

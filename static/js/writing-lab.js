@@ -18,6 +18,7 @@
   const isObject = value => value && typeof value === "object" && !Array.isArray(value);
   const clean = (value, limit) => typeof value === "string" ? value.slice(0, limit) : "";
   let bank, active, loading = false, unlocked = false, storageFailed = false, storageNotice = "";
+  let guidedSession = null;
   const searchText = new Map();
   let state = { version: 1, task: "sentence", lastId: "", records: Object.create(null) };
 
@@ -32,6 +33,7 @@
       solution.every((index, slot) => q.tiles[index] === q.tiles[r.selections[slot]])) ? "correct" : "incorrect";
   }
   function save() {
+    state.guided = guidedSession;
     try { localStorage.setItem(KEY, JSON.stringify(state)); storageFailed = false; }
     catch (_) { storageFailed = true; }
     el("save-status").textContent = storageFailed ? "保存できません。答案をダウンロードしてください。" : "このブラウザ内に保存しました";
@@ -68,6 +70,13 @@
           r.deadline = Number.isFinite(previous.deadline) && previous.deadline <= Date.now() + duration * 1000 ? previous.deadline : null;
           r.expired = previous.expired === true;
         }
+      }
+      const session = saved.guided;
+      if (isObject(session) && Array.isArray(session.ids) && session.ids.length > 0 && session.ids.length <= 40 &&
+        session.ids.every(id => bank.exercises.some(q => q.id === id)) && session.ids.includes(state.lastId) &&
+        isObject(session.context) && /^\d{4}-\d{2}-\d{2}$/.test(session.context.dailyDate) &&
+        Number.isInteger(session.context.dailySlot) && session.context.dailySlot >= 0 && session.context.dailySlot < 8) {
+        guidedSession = { ids: [...session.ids], context: { dailyDate: session.context.dailyDate, dailySlot: session.context.dailySlot } };
       }
     } catch (_) { storageNotice = "保存済みデータを読み込めませんでした。新しい下書きで練習できます。"; }
   }
@@ -267,7 +276,7 @@
       const previous = r.history.at(-1);
       el("submitted-answer").textContent = `${previous.at ? `保存日時: ${new Date(previous.at).toLocaleString("ja-JP")}\n\n` : ""}${previous.text}`;
     }
-    const siblings = bank.exercises.filter(item => item.type === q.type);
+    const siblings = guidedSession ? guidedSession.ids.map(id => bank.exercises.find(item => item.id === id)) : bank.exercises.filter(item => item.type === q.type);
     el("next").textContent = siblings.at(-1).id === q.id ? "一覧に戻る" : "次の教材へ →";
   }
   function feedback() {
@@ -278,13 +287,14 @@
     el("feedback").dataset.result = value;
     el("feedback").textContent = value === "correct" ? "正解です。文法と解答の理由を確認しましょう。" : value === "incorrect" ? "解答を見直しましょう。正答と根拠を確認できます。" : "答案を保存しました。解答例と比較して書き直してください。自由作文の点数や正誤は自動判定しません。";
   }
-  function open(q, focus = true) {
+  function open(q, focus = true, guided = false) {
+    if (!guided) guidedSession = null;
     if (active && active.id !== q.id) pause(active);
     active = q; state.lastId = q.id; state.task = q.type;
     el("runner").hidden = false;
     el("exercise-type").textContent = TYPES[q.type];
     el("exercise-title").textContent = q.title;
-    el("source").textContent = `${q.collection} · ${sourceLabel(q)} · ${q.answerBasis}`;
+    el("source").textContent = `${q.collection} · ${sourceLabel(q)} · ${q.answerBasis}${guidedSession?.context?.dailyDate ? ` · ${guidedSession.context.dailyDate}のメニュー` : ""}`;
     renderPrompt(q);
     el("sentence-panel").hidden = !isObjective(q);
     el("essay-panel").hidden = !isEssay(q);
@@ -312,7 +322,7 @@
     if (focus) { el("runner").scrollIntoView({ behavior: "smooth", block: "start" }); el("exercise-title").focus({ preventScroll: true }); }
   }
   function close() {
-    pause(active); active = null; state.lastId = ""; save();
+    pause(active); active = null; guidedSession = null; state.lastId = ""; save();
     el("runner").hidden = true; renderCatalog();
   }
   async function load() {
@@ -327,7 +337,8 @@
       bank = data;
       bank.exercises.forEach(q => searchText.set(q.id, JSON.stringify(q).toLowerCase()));
       restore(); renderCatalog();
-      if (state.lastId) open(bank.exercises.find(q => q.id === state.lastId), false);
+      if (state.lastId) open(bank.exercises.find(q => q.id === state.lastId), false, Boolean(guidedSession));
+      document.dispatchEvent(new CustomEvent("toefl:writing-ready"));
     } catch (_) { el("status").textContent = "Writing教材を読み込めませんでした。再試行してください。"; el("retry").hidden = false; }
     finally { loading = false; }
   }
@@ -337,7 +348,13 @@
   ["search", "filter"].forEach(id => el(id).addEventListener(id === "search" ? "input" : "change", () => { if (active) close(); renderCatalog(); }));
   el("close").addEventListener("click", close);
   el("clear").addEventListener("click", () => { if (!active) return; const r = record(active); r.selections = []; r.choice = null; resetObjective(r); });
-  el("check").addEventListener("click", () => { if (!active || !isObjective(active) || el("check").disabled) return; const r = record(active); r.checked = true; save(); feedback(); renderReview(); renderCatalog(); });
+  el("check").addEventListener("click", () => {
+    if (!active || !isObjective(active) || el("check").disabled) return;
+    const r = record(active); r.checked = true; save(); feedback(); renderReview(); renderCatalog();
+    document.dispatchEvent(new CustomEvent("toefl:writing-answer", {
+      detail: { id: active.id, result: result(active, r), context: guidedSession?.context }
+    }));
+  });
   ["answer", "notes"].forEach(id => el(id).addEventListener("input", () => {
     if (!active || !isEssay(active)) return;
     const r = record(active); r.answer = el("answer").value.slice(0, 20000); r.notes = el("notes").value.slice(0, 5000);
@@ -351,6 +368,9 @@
     const r = record(active); pause(active);
     r.history.push({ text: r.answer, at: new Date().toISOString() }); r.history = r.history.slice(-5);
     r.rating = ""; r.checks = []; save(); timer(); feedback(); renderReview(); renderCatalog();
+    document.dispatchEvent(new CustomEvent("toefl:writing-submitted", {
+      detail: { id: active.id, result: "submitted", context: guidedSession?.context }
+    }));
     el("review").scrollIntoView({ behavior: "smooth", block: "start" });
   });
   el("timer-toggle").addEventListener("click", () => {
@@ -371,16 +391,46 @@
     document.body.append(link); link.click(); link.remove(); setTimeout(() => URL.revokeObjectURL(url), 1000);
   });
   ["review", "done"].forEach(rating => el(`mark-${rating}`).addEventListener("click", () => {
-    if (!active) return; record(active).rating = rating; save(); renderCatalog();
+    if (!active) return;
+    const r = record(active);
+    if (guidedSession && isEssay(active) && rating === "done" &&
+      (r.history.at(-1)?.text !== r.answer || Array.from({ length: active.requirements.length + 2 }, (_, i) => i).some(i => !r.checks.includes(i)))) {
+      el("feedback").hidden = false;
+      el("feedback").textContent = "今日のメニューを完了するには、最新の答案を提出し、自己点検の全項目を確認してください。下書きと提出履歴は保存しています。";
+      return;
+    }
+    r.rating = rating; save(); renderCatalog();
     el("feedback").hidden = false;
     el("feedback").textContent = rating === "done" ? "確認済みとして記録しました。" : "要復習として記録しました。";
+    if (isEssay(active) && rating === "done" && r.history.at(-1)?.text === r.answer && r.answer.trim()) {
+      document.dispatchEvent(new CustomEvent("toefl:writing-reviewed", {
+        detail: { id: active.id, result: "self-reviewed", context: guidedSession?.context }
+      }));
+    }
   }));
   el("next").addEventListener("click", () => {
     if (!active) return;
-    const list = bank.exercises.filter(q => q.type === active.type), index = list.findIndex(q => q.id === active.id);
-    if (index + 1 < list.length) open(list[index + 1]); else close();
+    if (isObjective(active) && record(active).checked) {
+      document.dispatchEvent(new CustomEvent("toefl:writing-reviewed", {
+        detail: { id: active.id, result: result(active, record(active)), context: guidedSession?.context }
+      }));
+    }
+    const list = guidedSession ? guidedSession.ids.map(id => bank.exercises.find(q => q.id === id)) : bank.exercises.filter(q => q.type === active.type);
+    const index = list.findIndex(q => q.id === active.id);
+    if (index + 1 < list.length) open(list[index + 1], true, Boolean(guidedSession)); else close();
   });
   el("retry").addEventListener("click", load);
   document.addEventListener("toefl:unlocked", () => { unlocked = true; load(); });
+  window.ToeflWritingLab = Object.freeze({
+    getBank: () => bank,
+    getProgress: () => state.records,
+    pauseTimer: () => { pause(active); if (bank) { save(); timer(); } },
+    startSelection: (ids, context) => {
+      if (!bank || !ids.length || ids.some(id => !bank.exercises.some(q => q.id === id))) return false;
+      guidedSession = { ids: [...ids], context };
+      open(bank.exercises.find(q => q.id === ids[0]), true, true);
+      return true;
+    }
+  });
   setInterval(timer, 500);
 })();
