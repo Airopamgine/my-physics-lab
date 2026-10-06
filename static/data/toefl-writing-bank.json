@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "title": "TOEFL Writing Lab",
-  "updated": "2026-10-05",
+  "updated": "2026-10-06",
   "sourcePolicy": "提供された非公開のTOEFL-writing.pdf全139ページを索引化し、全演習を移行。原PDF・スキャン・未整形OCR・個人の手書き答案は公開しません。原本の不備を校訂した設問は理由を表示。診断の並べ替え10問と掲載例2問は印刷解答と照合し、その他の正答・作文例・解説は根拠付きの編集作成です。作文の人物・日程補足は架空の練習設定で、公式採点ではありません。",
   "formatSources": [
     "https://www.ets.org/toefl/test-takers/ibt/about/content/writing/.html",
@@ -11782,6 +11782,582 @@
       "sourceRefs": ["original:writing:2026-10-05:discussion:01"],
       "source": {"kind": "original", "date": "2026-10-05"},
       "answerBasis": "Original practice task; model answer and explanation reviewed editorially. 解答例・解説は編集作成で、唯一の正解ではありません。"
+    },
+    {
+        "id": "writing-original-20261006-s01",
+        "type": "sentence",
+        "collection": "Original · 2026-10-06",
+        "title": "気候データの分析 · 現在完了進行形",
+        "prompt": "How long has the research team been analyzing the climate data?",
+        "tiles": [
+            "the research team",
+            "has been analyzing",
+            "the climate data",
+            "since Monday",
+            "is analyzing",
+            "has analyzed since"
+        ],
+        "frame": [
+            "{0} ",
+            "{1} ",
+            "{2} ",
+            "{3}",
+            "."
+        ],
+        "solutions": [
+            [
+                0,
+                1,
+                2,
+                3
+            ]
+        ],
+        "modelAnswer": "The research team has been analyzing the climate data since Monday.",
+        "explanation": [
+            "Use has been analyzing to emphasize an activity that began in the past and is still continuing. Since introduces the starting point Monday.",
+            "The present continuous is analyzing does not by itself connect the activity to Monday. Has analyzed can describe a completed result, but it is less suitable for the prompt's focus on duration.",
+            "現在完了進行形 have/has been + -ing は、過去に始まり今も続く活動を表します。since は開始点、for は期間を示します。"
+        ],
+        "phrases": [
+            "analyze climate data — 気候データを分析する",
+            "since Monday — 月曜日からずっと"
+        ],
+        "sourceRefs": [
+            "original:writing:2026-10-06:sentence:01"
+        ],
+        "source": {
+            "kind": "original",
+            "date": "2026-10-06"
+        },
+        "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+        "id": "writing-original-20261006-s02",
+        "type": "sentence",
+        "collection": "Original · 2026-10-06",
+        "title": "研究結果 · not only ... but also",
+        "prompt": "What two effects did the new coating have?",
+        "tiles": [
+            "the new coating",
+            "not only reduced",
+            "heat loss",
+            "but also improved",
+            "the material's durability",
+            "not only did reduce",
+            "and also improving"
+        ],
+        "frame": [
+            "{0} ",
+            "{1} ",
+            "{2} ",
+            "{3} ",
+            "{4}",
+            "."
+        ],
+        "solutions": [
+            [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        ],
+        "modelAnswer": "The new coating not only reduced heat loss but also improved the material's durability.",
+        "explanation": [
+            "Not only ... but also coordinates two parallel past-tense verb phrases: reduced heat loss and improved durability. The shared subject appears before the paired structure.",
+            "Inversion is required only when Not only begins the whole clause. Here, not only did reduce is ungrammatical after the stated subject, and improving would break the parallel form.",
+            "not only A but also B は「AだけでなくBも」。AとBの形をそろえ、ここでは reduced と improved を並列にします。durability は「耐久性」です。"
+        ],
+        "phrases": [
+            "heat loss — 熱損失",
+            "durability — 耐久性"
+        ],
+        "sourceRefs": [
+            "original:writing:2026-10-06:sentence:02"
+        ],
+        "source": {
+            "kind": "original",
+            "date": "2026-10-06"
+        },
+        "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+        "id": "writing-original-20261006-s03",
+        "type": "sentence",
+        "collection": "Original · 2026-10-06",
+        "title": "提出期限 · unless",
+        "prompt": "When will the professor accept a late report?",
+        "tiles": [
+            "the professor",
+            "will not accept",
+            "a late report",
+            "unless",
+            "the student provides a valid reason",
+            "if not",
+            "will provide"
+        ],
+        "frame": [
+            "{0} ",
+            "{1} ",
+            "{2} ",
+            "{3} ",
+            "{4}",
+            "."
+        ],
+        "solutions": [
+            [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        ],
+        "modelAnswer": "The professor will not accept a late report unless the student provides a valid reason.",
+        "explanation": [
+            "Unless means except if and introduces the condition that can change the negative result. A real future condition uses the present simple provides in the unless-clause.",
+            "Do not use will provide in this ordinary future condition. Adding if not after an already negative main clause can also reverse or obscure the intended meaning.",
+            "unless は「〜でない限り」。未来の条件でも unless節は現在形 provides を使います。valid reason は「正当な理由」です。"
+        ],
+        "phrases": [
+            "unless — 〜でない限り",
+            "valid reason — 正当な理由"
+        ],
+        "sourceRefs": [
+            "original:writing:2026-10-06:sentence:03"
+        ],
+        "source": {
+            "kind": "original",
+            "date": "2026-10-06"
+        },
+        "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+        "id": "writing-original-20261006-s04",
+        "type": "sentence",
+        "collection": "Original · 2026-10-06",
+        "title": "機器の校正 · have + 目的語 + 過去分詞",
+        "prompt": "What will the laboratory do before the next experiment?",
+        "tiles": [
+            "the laboratory",
+            "will have",
+            "the instruments",
+            "calibrated",
+            "before the next experiment",
+            "will calibrate by",
+            "calibrating"
+        ],
+        "frame": [
+            "{0} ",
+            "{1} ",
+            "{2} ",
+            "{3} ",
+            "{4}",
+            "."
+        ],
+        "solutions": [
+            [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        ],
+        "modelAnswer": "The laboratory will have the instruments calibrated before the next experiment.",
+        "explanation": [
+            "Have + object + past participle is a causative pattern: the laboratory arranges for someone to calibrate the instruments. The future auxiliary will precedes have.",
+            "Will calibrate would normally mean that the laboratory staff perform the action directly. The supplied prompt focuses on arranging the service, so calibrated is required after the object.",
+            "have O + 過去分詞は「Oを〜してもらう／〜させる」。calibrate は「機器の目盛りや精度を校正する」です。"
+        ],
+        "phrases": [
+            "have the instruments calibrated — 機器を校正してもらう",
+            "calibrate — 校正する"
+        ],
+        "sourceRefs": [
+            "original:writing:2026-10-06:sentence:04"
+        ],
+        "source": {
+            "kind": "original",
+            "date": "2026-10-06"
+        },
+        "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+        "id": "writing-original-20261006-s05",
+        "type": "sentence",
+        "collection": "Original · 2026-10-06",
+        "title": "会議時刻 · 間接疑問",
+        "prompt": "You missed the announcement. What could you ask a classmate?",
+        "tiles": [
+            "what time",
+            "the meeting",
+            "is supposed to start",
+            "what time is",
+            "does the meeting start"
+        ],
+        "frame": [
+            "Do you remember ",
+            "{0} ",
+            "{1} ",
+            "{2}",
+            "?"
+        ],
+        "solutions": [
+            [
+                0,
+                1,
+                2
+            ]
+        ],
+        "modelAnswer": "Do you remember what time the meeting is supposed to start?",
+        "explanation": [
+            "The embedded question after Do you remember uses statement order: question phrase + subject + verb. Be supposed to expresses the scheduled or expected starting time.",
+            "Direct-question inversion, as in What time is the meeting ...? or When does the meeting start?, must not be repeated inside this larger question.",
+            "間接疑問は what time + 主語 + 動詞の語順です。be supposed to はここでは「〜する予定である」を表します。"
+        ],
+        "phrases": [
+            "be supposed to start — 始まる予定である",
+            "embedded question — 間接疑問"
+        ],
+        "sourceRefs": [
+            "original:writing:2026-10-06:sentence:05"
+        ],
+        "source": {
+            "kind": "original",
+            "date": "2026-10-06"
+        },
+        "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+        "id": "writing-original-20261006-s06",
+        "type": "sentence",
+        "collection": "Original · 2026-10-06",
+        "title": "標本のラベル · 分詞による後置修飾",
+        "prompt": "Which samples should be stored separately?",
+        "tiles": [
+            "the samples",
+            "collected near the volcano",
+            "should be stored",
+            "in a separate container",
+            "collecting near",
+            "should store"
+        ],
+        "frame": [
+            "{0} ",
+            "{1} ",
+            "{2} ",
+            "{3}",
+            "."
+        ],
+        "solutions": [
+            [
+                0,
+                1,
+                2,
+                3
+            ]
+        ],
+        "modelAnswer": "The samples collected near the volcano should be stored in a separate container.",
+        "explanation": [
+            "Collected near the volcano is a reduced passive relative clause meaning that were collected near the volcano. The main verb is the passive should be stored.",
+            "Collecting would imply that the samples perform the collecting. Should store is active and would likewise make the samples the agent rather than the objects being stored.",
+            "collected ... は samples を後ろから修飾し、that were collected の省略形です。container は「容器」、volcano は「火山」です。"
+        ],
+        "phrases": [
+            "collected near ... — 〜の近くで採取された",
+            "separate container — 別の容器"
+        ],
+        "sourceRefs": [
+            "original:writing:2026-10-06:sentence:06"
+        ],
+        "source": {
+            "kind": "original",
+            "date": "2026-10-06"
+        },
+        "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+        "id": "writing-original-20261006-s07",
+        "type": "sentence",
+        "collection": "Original · 2026-10-06",
+        "title": "昨日の選択 · wish + 過去完了",
+        "prompt": "How does Lina feel about not backing up her files?",
+        "tiles": [
+            "Lina",
+            "wishes",
+            "she had backed up",
+            "her files",
+            "before the computer crashed",
+            "she backed up",
+            "before the computer had crash"
+        ],
+        "frame": [
+            "{0} ",
+            "{1} ",
+            "{2} ",
+            "{3} ",
+            "{4}",
+            "."
+        ],
+        "solutions": [
+            [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        ],
+        "modelAnswer": "Lina wishes she had backed up her files before the computer crashed.",
+        "explanation": [
+            "Wish + past perfect expresses regret about an unreal past action. Had backed up marks the action that did not happen before the later event, the computer crash.",
+            "The simple past she backed up would suggest that the backup actually happened. Had crash is malformed because had must be followed by the past participle crashed.",
+            "wish + had + 過去分詞で「過去に〜しておけばよかった」という後悔を表します。back up は「データをバックアップする」です。"
+        ],
+        "phrases": [
+            "wish + past perfect — 過去の事実に反する後悔",
+            "back up files — ファイルをバックアップする"
+        ],
+        "sourceRefs": [
+            "original:writing:2026-10-06:sentence:07"
+        ],
+        "source": {
+            "kind": "original",
+            "date": "2026-10-06"
+        },
+        "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+        "id": "writing-original-20261006-s08",
+        "type": "sentence",
+        "collection": "Original · 2026-10-06",
+        "title": "測定値の差 · may have + 過去分詞",
+        "prompt": "What is one possible explanation for the unexpected measurement?",
+        "tiles": [
+            "a small air leak",
+            "may have affected",
+            "the pressure reading",
+            "during the test",
+            "may affected",
+            "has may affected"
+        ],
+        "frame": [
+            "{0} ",
+            "{1} ",
+            "{2} ",
+            "{3}",
+            "."
+        ],
+        "solutions": [
+            [
+                0,
+                1,
+                2,
+                3
+            ]
+        ],
+        "modelAnswer": "A small air leak may have affected the pressure reading during the test.",
+        "explanation": [
+            "May have + past participle expresses an uncertain possibility about a past event. Affected is the past participle required after may have.",
+            "A modal cannot be followed directly by a past-tense form, so may affected is invalid. Has may affected also places the auxiliaries in an impossible order.",
+            "may have + 過去分詞は「〜した可能性がある」。air leak は「空気漏れ」、pressure reading は「圧力の測定値」です。"
+        ],
+        "phrases": [
+            "may have affected — 影響した可能性がある",
+            "pressure reading — 圧力の測定値"
+        ],
+        "sourceRefs": [
+            "original:writing:2026-10-06:sentence:08"
+        ],
+        "source": {
+            "kind": "original",
+            "date": "2026-10-06"
+        },
+        "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+        "id": "writing-original-20261006-s09",
+        "type": "sentence",
+        "collection": "Original · 2026-10-06",
+        "title": "二つの案 · neither ... nor",
+        "prompt": "Why does the team need another proposal?",
+        "tiles": [
+            "neither",
+            "the first plan",
+            "nor",
+            "the revised plan",
+            "meets",
+            "the safety requirements",
+            "meet",
+            "both"
+        ],
+        "frame": [
+            "{0} ",
+            "{1} ",
+            "{2} ",
+            "{3} ",
+            "{4} ",
+            "{5}",
+            "."
+        ],
+        "solutions": [
+            [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ]
+        ],
+        "modelAnswer": "Neither the first plan nor the revised plan meets the safety requirements.",
+        "explanation": [
+            "Neither ... nor joins two negative alternatives. In careful usage, the verb agrees with the nearer subject; the revised plan is singular, so meets is appropriate.",
+            "Using meet would not agree with the adjacent singular noun phrase. Both cannot be combined with neither because both is affirmative while neither rejects the two options.",
+            "neither A nor B は「AもBも〜ない」。動詞は近い主語 the revised plan に合わせて三単現 meets とします。"
+        ],
+        "phrases": [
+            "neither A nor B — AもBも〜ない",
+            "safety requirements — 安全要件"
+        ],
+        "sourceRefs": [
+            "original:writing:2026-10-06:sentence:09"
+        ],
+        "source": {
+            "kind": "original",
+            "date": "2026-10-06"
+        },
+        "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+        "id": "writing-original-20261006-s10",
+        "type": "sentence",
+        "collection": "Original · 2026-10-06",
+        "title": "説明の明確さ · 否定語の作用域",
+        "prompt": "Does technical language always make an explanation clearer?",
+        "tiles": [
+            "using technical terms",
+            "does not necessarily make",
+            "an explanation",
+            "more precise",
+            "does necessarily not make",
+            "to be more precise"
+        ],
+        "frame": [
+            "{0} ",
+            "{1} ",
+            "{2} ",
+            "{3}",
+            "."
+        ],
+        "solutions": [
+            [
+                0,
+                1,
+                2,
+                3
+            ]
+        ],
+        "modelAnswer": "Using technical terms does not necessarily make an explanation more precise.",
+        "explanation": [
+            "Not necessarily means not in every case. The pattern make + object + adjective takes an explanation as the object and more precise as its complement.",
+            "The sentence does not claim that technical terms never help; it rejects an automatic connection. Does necessarily not make is an unnatural placement of the negative for this meaning.",
+            "not necessarily は「必ずしも〜ではない」で、全面否定ではなく部分否定です。make O + 形容詞は「Oを〜な状態にする」。precise は「正確な」です。"
+        ],
+        "phrases": [
+            "not necessarily — 必ずしも〜ではない",
+            "precise — 正確な・精密な"
+        ],
+        "sourceRefs": [
+            "original:writing:2026-10-06:sentence:10"
+        ],
+        "source": {
+            "kind": "original",
+            "date": "2026-10-06"
+        },
+        "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+        "id": "writing-original-20261006-email",
+        "type": "email",
+        "collection": "Original · 2026-10-06",
+        "title": "実験実習の振替相談",
+        "minutes": 7,
+        "to": "Dr. Nowak, Laboratory Instructor",
+        "subject": "Request to make up Monday's laboratory session",
+        "context": "A tram service disruption caused you to miss Monday's laboratory session on electrical resistance. Your group completed the experiment without you, and the course rules require individual participation.",
+        "requirements": [
+            "Explain that a tram service disruption prevented you from attending Monday's session.",
+            "Acknowledge the individual-participation rule and state that your group has already completed the experiment.",
+            "Ask whether you may attend another group's session or complete an alternative make-up activity."
+        ],
+        "modelAnswer": "Dear Dr. Nowak,\n\nI am writing because I was unable to attend Monday's laboratory session on electrical resistance. Tram service was suspended after an accident, and I could not reach campus before the session ended.\n\nI understand that the course requires each student to participate in the experiment individually. Although my group has already completed the work, I do not want to receive credit for a procedure I did not perform. Would it be possible for me to join another group's session this week? If no place is available, I would be grateful for an alternative make-up activity.\n\nI apologize for the inconvenience and can provide the service-disruption notice if needed. Thank you for considering my request.\n\nBest regards,\nAlex Morgan",
+        "explanation": [
+            "The opening gives a specific, neutral cause and identifies the missed session. It explains the consequence without exaggerating or assuming that the instructor already knows about the disruption.",
+            "The second paragraph explicitly accepts the participation rule and distinguishes the group's completed work from the writer's missing participation. It then offers two practical remedies rather than demanding credit.",
+            "service disruption は「運行障害」、make-up activity は「欠席分を補う課題」です。Would it be possible ...? と I would be grateful for ... は丁寧な依頼表現です。",
+            "署名名と、運休通知を提示できるという一文は練習用の架空情報です。モデルは唯一の正解ではなく、3条件を満たす自然な一例です。"
+        ],
+        "phrases": [
+            "service disruption — 運行障害",
+            "individual participation — 個人での参加",
+            "make-up activity — 振替課題"
+        ],
+        "sourceRefs": [
+            "original:writing:2026-10-06:email:01"
+        ],
+        "source": {
+            "kind": "original",
+            "date": "2026-10-06"
+        },
+        "answerBasis": "Original practice task; model answer and explanation reviewed editorially. 解答例・解説は編集作成で、唯一の正解ではありません。"
+    },
+    {
+        "id": "writing-original-20261006-discussion",
+        "type": "discussion",
+        "collection": "Original · 2026-10-06",
+        "title": "理系学生に口頭説明の訓練は必要か",
+        "minutes": 10,
+        "targetWords": 100,
+        "professor": "Professor Ellis · Science Education",
+        "context": "Should science and engineering courses require students to explain calculations and experimental results aloud, in addition to submitting written work? Why or why not?",
+        "posts": [
+            {
+                "name": "Mina",
+                "text": "Oral explanation reveals whether students understand the reasoning behind a formula. It also prepares them to answer questions in research meetings and professional interviews."
+            },
+            {
+                "name": "Daniel",
+                "text": "Speaking under pressure can disadvantage students who know the material but need more time or are still developing academic English. Written work is a fairer measure of technical knowledge."
+            }
+        ],
+        "requirements": [
+            "State and support your position on requiring oral explanations in science and engineering courses.",
+            "Respond meaningfully to both Mina's and Daniel's viewpoints.",
+            "Develop the response with a concrete example and at least 100 words."
+        ],
+        "modelAnswer": "Science and engineering courses should include brief oral explanations, but they should supplement rather than replace written assessment. Mina correctly notes that speaking can reveal whether a student understands why a formula applies. For example, after calculating fluid pressure, a student could explain how changing the pipe diameter affects velocity and identify the assumptions in the model. A memorized equation alone would not demonstrate that reasoning. However, Daniel is right that an unprepared oral examination may measure anxiety or English fluency more than technical knowledge. Instructors could give the question in advance, allow a diagram or notes, and assess conceptual accuracy rather than accent or speed. Repeated low-stakes explanations would gradually build the communication skills needed in laboratories and graduate interviews while preserving written work as the main record of detailed calculations.",
+        "explanation": [
+            "The response supports a blended policy: oral explanation checks reasoning, while written work remains the main detailed record. This answers the professor with a qualified position rather than ignoring either assessment method.",
+            "Mina's point is developed through a fluid-pressure example involving assumptions and causal explanation. Daniel's fairness concern leads to concrete safeguards: advance notice, visual support, low stakes, and a rubric focused on concepts rather than accent or speed.",
+            "supplement は「補完する」、assumption は「前提」、low-stakes は「成績への影響が小さい」です。conceptual accuracy は、話す速さではなく概念が正しいかを指します。",
+            "このモデルは一つの論証例であり、公式スコアを示しません。反対の立場でも、両投稿に応答し、理由と具体例を100語以上で展開すれば成立します。"
+        ],
+        "phrases": [
+            "supplement written assessment — 筆記評価を補完する",
+            "assumptions in the model — モデルの前提",
+            "low-stakes explanation — 評価負担の小さい口頭説明"
+        ],
+        "sourceRefs": [
+            "original:writing:2026-10-06:discussion:01"
+        ],
+        "source": {
+            "kind": "original",
+            "date": "2026-10-06"
+        },
+        "answerBasis": "Original practice task; model answer and explanation reviewed editorially. 解答例・解説は編集作成で、唯一の正解ではありません。"
     }
   ],
   "guides": [
