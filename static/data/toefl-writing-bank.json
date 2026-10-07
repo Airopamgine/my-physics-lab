@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "title": "TOEFL Writing Lab",
-  "updated": "2026-10-07",
+  "updated": "2026-10-08",
   "sourcePolicy": "提供された非公開のTOEFL-writing.pdf全139ページを索引化し、全演習を移行。原PDF・スキャン・未整形OCR・個人の手書き答案は公開しません。原本の不備を校訂した設問は理由を表示。診断の並べ替え10問と掲載例2問は印刷解答と照合し、その他の正答・作文例・解説は根拠付きの編集作成です。作文の人物・日程補足は架空の練習設定で、公式採点ではありません。",
   "formatSources": [
     "https://www.ets.org/toefl/test-takers/ibt/about/content/writing/.html",
@@ -12810,6 +12810,602 @@
         ],
         "sourceRefs": ["original:writing:2026-10-07:discussion:01"],
         "source": {"kind": "original", "date": "2026-10-07"},
+        "answerBasis": "Original practice task; model answer and explanation reviewed editorially. 解答例・解説は編集作成で、唯一の正解ではありません。"
+    },
+    {
+        "id": "writing-original-20261008-s01",
+        "type": "sentence",
+        "collection": "Original · 2026-10-08",
+        "title": "判断の延期 · therefore の論理関係",
+        "prompt": "Why did the committee delay its decision?",
+        "tiles": [
+            "therefore",
+            "postponed",
+            "its decision",
+            "although",
+            "has postponed"
+        ],
+        "frame": [
+            "The evidence was incomplete; ",
+            "{0}",
+            ", the committee ",
+            "{1} ",
+            "{2}",
+            "."
+        ],
+        "solutions": [
+            [
+                0,
+                1,
+                2
+            ]
+        ],
+        "modelAnswer": "The evidence was incomplete; therefore, the committee postponed its decision.",
+        "explanation": [
+            "Therefore is a conjunctive adverb showing that the postponement was a result of incomplete evidence. The semicolon joins two independent clauses, and the finished past event requires postponed.",
+            "although は従属接続詞なので、このセミコロン後の独立した結果節には合いません。has postponed は現在とのつながりを強調しますが、ここでは過去の理由説明です。",
+            "therefore は「したがって」。文中に挿入されても論理は原因→結果なので、まず文頭の Therefore と考えると読みやすくなります。"
+        ],
+        "phrases": [
+            "therefore — したがって",
+            "postpone a decision — 判断を延期する"
+        ],
+        "sourceRefs": [
+            "original:writing:2026-10-08:sentence:01"
+        ],
+        "source": {
+            "kind": "original",
+            "date": "2026-10-08"
+        },
+        "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+        "id": "writing-original-20261008-s02",
+        "type": "sentence",
+        "collection": "Original · 2026-10-08",
+        "title": "受付案内 · collect の実用表現",
+        "prompt": "What should participants do before entering the conference hall?",
+        "tiles": [
+            "collect",
+            "your badge",
+            "from",
+            "the registration desk",
+            "entering",
+            "before",
+            "collecting"
+        ],
+        "frame": [
+            "Please ",
+            "{0} ",
+            "{1} ",
+            "{2} ",
+            "{3} ",
+            "{4} ",
+            "{5}",
+            " the hall."
+        ],
+        "solutions": [
+            [
+                0,
+                1,
+                2,
+                3,
+                5,
+                4
+            ]
+        ],
+        "modelAnswer": "Please collect your badge from the registration desk before entering the hall.",
+        "explanation": [
+            "Collect means receive or pick up something prepared for you in this context. Please takes the base verb collect, and from identifies the pickup location.",
+            "Before is followed here by the gerund entering because the subject is understood to be the same participant. Collecting cannot follow Please in this imperative.",
+            "collect your badge は「バッジを集める」ではなく、受付で自分の名札を受け取るという意味です。registration desk は「受付」です。"
+        ],
+        "phrases": [
+            "collect your badge — 名札を受け取る",
+            "registration desk — 受付"
+        ],
+        "sourceRefs": [
+            "original:writing:2026-10-08:sentence:02"
+        ],
+        "source": {
+            "kind": "original",
+            "date": "2026-10-08"
+        },
+        "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+        "id": "writing-original-20261008-s03",
+        "type": "sentence",
+        "collection": "Original · 2026-10-08",
+        "title": "アンケート配布 · hand out と過去完了",
+        "prompt": "What happened after the workshop?",
+        "tiles": [
+            "handed out",
+            "the survey",
+            "after",
+            "the workshop",
+            "had ended",
+            "has ended",
+            "handed in"
+        ],
+        "frame": [
+            "The volunteers ",
+            "{0} ",
+            "{1} ",
+            "{2} ",
+            "{3} ",
+            "{4}",
+            "."
+        ],
+        "solutions": [
+            [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        ],
+        "modelAnswer": "The volunteers handed out the survey after the workshop had ended.",
+        "explanation": [
+            "Hand out means distribute, whereas hand in means submit. The past perfect had ended marks the workshop as earlier than the later past action handed out.",
+            "after が順序を示すため simple past の ended も通常は可能ですが、語群では had ended が正しい形です。has ended は現在完了で、過去の基準点と合いません。",
+            "hand out the survey は「アンケートを配る」。hand in the survey なら「アンケートを提出する」なので方向が逆です。"
+        ],
+        "phrases": [
+            "hand out a survey — アンケートを配る",
+            "hand in a survey — アンケートを提出する"
+        ],
+        "sourceRefs": [
+            "original:writing:2026-10-08:sentence:03"
+        ],
+        "source": {
+            "kind": "original",
+            "date": "2026-10-08"
+        },
+        "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+        "id": "writing-original-20261008-s04",
+        "type": "sentence",
+        "collection": "Original · 2026-10-08",
+        "title": "実用品の芸術性 · prevent A from -ing",
+        "prompt": "Can a useful object also have artistic meaning?",
+        "tiles": [
+            "does not",
+            "prevent",
+            "an object",
+            "from having",
+            "artistic value",
+            "to have",
+            "prevents"
+        ],
+        "frame": [
+            "A practical function ",
+            "{0} ",
+            "{1} ",
+            "{2} ",
+            "{3} ",
+            "{4}",
+            "."
+        ],
+        "solutions": [
+            [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        ],
+        "modelAnswer": "A practical function does not prevent an object from having artistic value.",
+        "explanation": [
+            "Prevent follows the pattern prevent + object + from + gerund. Does not already carries the third-person singular marking, so the main verb remains prevent.",
+            "The sentence does not deny the object's function. It says that usefulness and artistic value can coexist; one quality does not block the other.",
+            "prevent A from -ing は「Aが〜するのを妨げる」。ここでは『実用的な機能があっても、芸術的価値を持てないわけではない』という意味です。"
+        ],
+        "phrases": [
+            "prevent A from -ing — Aが〜するのを妨げる",
+            "artistic value — 芸術的価値"
+        ],
+        "sourceRefs": [
+            "original:writing:2026-10-08:sentence:04"
+        ],
+        "source": {
+            "kind": "original",
+            "date": "2026-10-08"
+        },
+        "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+        "id": "writing-original-20261008-s05",
+        "type": "sentence",
+        "collection": "Original · 2026-10-08",
+        "title": "意見の相違 · evidence that 節",
+        "prompt": "Does disagreement always mean that someone misunderstood?",
+        "tiles": [
+            "is not always",
+            "evidence",
+            "that",
+            "one side",
+            "has misunderstood",
+            "the argument",
+            "misunderstanding"
+        ],
+        "frame": [
+            "Disagreement ",
+            "{0} ",
+            "{1} ",
+            "{2} ",
+            "{3} ",
+            "{4} ",
+            "{5}",
+            "."
+        ],
+        "solutions": [
+            [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ]
+        ],
+        "modelAnswer": "Disagreement is not always evidence that one side has misunderstood the argument.",
+        "explanation": [
+            "Not always limits the claim: misunderstanding may cause some disagreements, but not all. The that-clause explains the content of the evidence.",
+            "This is not a double negative. Not modifies always, producing the partial-negative meaning 'not in every case.' Has misunderstood connects an earlier misunderstanding to the present disagreement.",
+            "not always は部分否定で「常に〜とは限らない」。evidence that ... は「…という証拠」で、that 以下が evidence の内容です。"
+        ],
+        "phrases": [
+            "not always — 必ずしも〜ではない",
+            "evidence that ... — …という証拠"
+        ],
+        "sourceRefs": [
+            "original:writing:2026-10-08:sentence:05"
+        ],
+        "source": {
+            "kind": "original",
+            "date": "2026-10-08"
+        },
+        "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+        "id": "writing-original-20261008-s06",
+        "type": "sentence",
+        "collection": "Original · 2026-10-08",
+        "title": "停留所の間違い · Not until の倒置",
+        "prompt": "When did you notice that you were at the wrong stop?",
+        "tiles": [
+            "the bus arrived",
+            "did",
+            "we realize",
+            "we were",
+            "at the wrong stop",
+            "until",
+            "we realized"
+        ],
+        "frame": [
+            "Not until ",
+            "{0} ",
+            "{1} ",
+            "{2} ",
+            "{3} ",
+            "{4}",
+            "."
+        ],
+        "solutions": [
+            [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        ],
+        "modelAnswer": "Not until the bus arrived did we realize we were at the wrong stop.",
+        "explanation": [
+            "When Not until begins the sentence, the main clause uses auxiliary inversion: did + subject + base verb. The until-clause itself keeps normal word order.",
+            "Did requires the base form realize, so did we realized is impossible. The version without inversion would be We did not realize ... until the bus arrived.",
+            "Not until ... did S V は「…して初めてSはVした」。強調のため主節だけが疑問文のような語順になります。"
+        ],
+        "phrases": [
+            "Not until ... did S V — …して初めてSはVした",
+            "the wrong stop — 間違った停留所"
+        ],
+        "sourceRefs": [
+            "original:writing:2026-10-08:sentence:06"
+        ],
+        "source": {
+            "kind": "original",
+            "date": "2026-10-08"
+        },
+        "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+        "id": "writing-original-20261008-s07",
+        "type": "sentence",
+        "collection": "Original · 2026-10-08",
+        "title": "授業で話す習慣 · get used to -ing",
+        "prompt": "Is speaking English in class becoming easier?",
+        "tiles": [
+            "am getting",
+            "used to",
+            "speaking English",
+            "in class",
+            "every day",
+            "speak English",
+            "use to"
+        ],
+        "frame": [
+            "I ",
+            "{0} ",
+            "{1} ",
+            "{2} ",
+            "{3} ",
+            "{4}",
+            "."
+        ],
+        "solutions": [
+            [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        ],
+        "modelAnswer": "I am getting used to speaking English in class every day.",
+        "explanation": [
+            "Get used to means become accustomed to something. Here to is a preposition, so it is followed by the gerund speaking, not the base verb speak.",
+            "Used to + base verb describes a past habit, but be/get used to + noun or gerund describes familiarity. The progressive am getting shows an ongoing adjustment.",
+            "get used to -ing は「〜することに慣れてくる」。used to speak（以前は話した）とは構造も意味も違います。"
+        ],
+        "phrases": [
+            "get used to -ing — 〜することに慣れる",
+            "speak in class — 授業で発言する"
+        ],
+        "sourceRefs": [
+            "original:writing:2026-10-08:sentence:07"
+        ],
+        "source": {
+            "kind": "original",
+            "date": "2026-10-08"
+        },
+        "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+        "id": "writing-original-20261008-s08",
+        "type": "sentence",
+        "collection": "Original · 2026-10-08",
+        "title": "聞き取りの難所 · difficult for 人 to",
+        "prompt": "Which part of the listening task caused you the most difficulty?",
+        "tiles": [
+            "was difficult",
+            "for me",
+            "to identify",
+            "the speaker's purpose",
+            "was difficulty",
+            "for I",
+            "identifying to"
+        ],
+        "frame": [
+            "It ",
+            "{0} ",
+            "{1} ",
+            "{2} ",
+            "{3}",
+            "."
+        ],
+        "solutions": [
+            [
+                0,
+                1,
+                2,
+                3
+            ]
+        ],
+        "modelAnswer": "It was difficult for me to identify the speaker's purpose.",
+        "explanation": [
+            "The pattern It is/was + adjective + for + object pronoun + to-infinitive evaluates how hard an action is for someone. Me is required after the preposition for.",
+            "Difficult is an adjective, so was difficult is correct; was difficulty would require a different noun-based structure. The infinitive is to identify, not identifying to.",
+            "It was difficult for me to ... は「私にとって〜するのが難しかった」。speaker's purpose は「話者の目的」です。"
+        ],
+        "phrases": [
+            "It was difficult for me to ... — 私には〜するのが難しかった",
+            "identify the speaker's purpose — 話者の目的を特定する"
+        ],
+        "sourceRefs": [
+            "original:writing:2026-10-08:sentence:08"
+        ],
+        "source": {
+            "kind": "original",
+            "date": "2026-10-08"
+        },
+        "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+        "id": "writing-original-20261008-s09",
+        "type": "sentence",
+        "collection": "Original · 2026-10-08",
+        "title": "終バスを逃した反省 · 第3条件文",
+        "prompt": "Why were you unable to get back to the dormitory by bus?",
+        "tiles": [
+            "had checked",
+            "the timetable",
+            "would not have missed",
+            "the last bus",
+            "if",
+            "would check",
+            "did not miss"
+        ],
+        "frame": [
+            "If I ",
+            "{0} ",
+            "{1}",
+            ", I ",
+            "{2} ",
+            "{3}",
+            "."
+        ],
+        "solutions": [
+            [
+                0,
+                1,
+                2,
+                3
+            ]
+        ],
+        "modelAnswer": "If I had checked the timetable, I would not have missed the last bus.",
+        "explanation": [
+            "This third conditional describes an unreal past condition and its unreal past result: if + past perfect, would have + past participle.",
+            "The speaker did not check the timetable and consequently missed the bus. Would is used in the result clause, not normally in the if-clause.",
+            "If I had checked ... は「確認していたなら」。would not have missed は実際には逃したという過去への反実仮想です。"
+        ],
+        "phrases": [
+            "check the timetable — 時刻表を確認する",
+            "miss the last bus — 終バスに乗り遅れる"
+        ],
+        "sourceRefs": [
+            "original:writing:2026-10-08:sentence:09"
+        ],
+        "source": {
+            "kind": "original",
+            "date": "2026-10-08"
+        },
+        "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+        "id": "writing-original-20261008-s10",
+        "type": "sentence",
+        "collection": "Original · 2026-10-08",
+        "title": "結論の修正 · 完了分詞構文",
+        "prompt": "Why did the researcher revise the conclusion?",
+        "tiles": [
+            "Having reviewed",
+            "the data",
+            "the researcher",
+            "revised",
+            "the conclusion",
+            "Reviewing had",
+            "has revised"
+        ],
+        "frame": [
+            "{0} ",
+            "{1}",
+            ", ",
+            "{2} ",
+            "{3} ",
+            "{4}",
+            "."
+        ],
+        "solutions": [
+            [
+                0,
+                1,
+                2,
+                3,
+                4
+            ]
+        ],
+        "modelAnswer": "Having reviewed the data, the researcher revised the conclusion.",
+        "explanation": [
+            "Having + past participle presents an action completed before the main-clause action. The researcher first reviewed the data and then revised the conclusion.",
+            "The understood subject of Having reviewed must match the main-clause subject the researcher. Has revised would shift the main verb to present perfect and leave the opening structure incomplete.",
+            "Having reviewed ... は「…を検討した後で」。分詞構文の意味上の主語と主節の the researcher が一致しています。"
+        ],
+        "phrases": [
+            "Having reviewed ... — …を検討した後で",
+            "revise a conclusion — 結論を修正する"
+        ],
+        "sourceRefs": [
+            "original:writing:2026-10-08:sentence:10"
+        ],
+        "source": {
+            "kind": "original",
+            "date": "2026-10-08"
+        },
+        "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+        "id": "writing-original-20261008-email",
+        "type": "email",
+        "collection": "Original · 2026-10-08",
+        "title": "学習室の予約変更依頼",
+        "minutes": 7,
+        "to": "Mr. Nowak, Study Space Coordinator",
+        "subject": "Request to change our study-room reservation",
+        "context": "Your study group reserved Room B14 for Thursday from 5:00 to 6:30 p.m. A compulsory laboratory session has just been moved to that time, so the group needs another slot before an exam next week.",
+        "requirements": [
+            "Identify the existing reservation and explain that a compulsory laboratory session now conflicts with it.",
+            "Ask to move the reservation to Friday between 4:00 and 6:30 p.m., preferably keeping Room B14.",
+            "Say that another suitable room is acceptable and ask when the change will be confirmed."
+        ],
+        "modelAnswer": "Dear Mr. Nowak,\n\nI am writing about our study-group reservation for Room B14 this Thursday from 5:00 to 6:30 p.m. A compulsory laboratory session has just been rescheduled for the same time, so none of our group members can use the room as planned.\n\nCould you please move our reservation to Friday at any time between 4:00 and 6:30 p.m.? We would prefer to keep Room B14 because it has the whiteboard we need for exam preparation.\n\nIf B14 is unavailable, another room suitable for four students would also be acceptable. Could you let me know when the change is confirmed so that I can inform the rest of the group?\n\nThank you for your help.\n\nBest regards,\nAlex Morgan",
+        "explanation": [
+            "The opening identifies the exact reservation and explains the unavoidable conflict. The request then gives a clear replacement window and a justified room preference.",
+            "The final paragraph offers a flexible alternative and explicitly asks for confirmation. All three requirements are covered without blaming the coordinator.",
+            "compulsory は「必修の」、conflict with は「〜と時間が重なる」、replacement slot は「代替時間枠」です。Could you please move ...? は丁寧で具体的な依頼です。",
+            "署名名、4人という人数、ホワイトボードの用途は練習用の架空情報です。モデルは唯一の正解ではなく、同じ3条件を満たす別表現も可能です。"
+        ],
+        "phrases": [
+            "conflict with a session — 授業と時間が重なる",
+            "move a reservation — 予約時間を変更する",
+            "confirm the change — 変更を確定する"
+        ],
+        "sourceRefs": [
+            "original:writing:2026-10-08:email:01"
+        ],
+        "source": {
+            "kind": "original",
+            "date": "2026-10-08"
+        },
+        "answerBasis": "Original practice task; model answer and explanation reviewed editorially. 解答例・解説は編集作成で、唯一の正解ではありません。"
+    },
+    {
+        "id": "writing-original-20261008-discussion",
+        "type": "discussion",
+        "collection": "Original · 2026-10-08",
+        "title": "録画講義と対面出席",
+        "minutes": 10,
+        "targetWords": 100,
+        "professor": "Professor Ellis · Education",
+        "context": "When a university records a lecture, should students still be expected to attend it in person? Why or why not?",
+        "posts": [
+            {
+                "name": "Maya",
+                "text": "Students should attend in person because live questions and classroom discussion deepen understanding. Recordings should mainly help students review difficult material."
+            },
+            {
+                "name": "Tomas",
+                "text": "If the same lecture is recorded, students should decide when to watch it. Flexible access helps commuters and allows learners to pause and replay complex explanations."
+            }
+        ],
+        "requirements": [
+            "State and support your position on attendance when lecture recordings are available.",
+            "Respond meaningfully to both Maya's and Tomas's viewpoints.",
+            "Develop the response with a concrete example and at least 100 words."
+        ],
+        "modelAnswer": "Recorded lectures should provide flexibility, but they should not automatically replace all in-person attendance. Maya correctly notes that live questions and discussion can reveal misunderstandings that remain hidden when students watch alone. In a physics class, for example, a lecturer may notice that several students have used the wrong sign in a derivation and can correct the reasoning immediately. Tomas is also right that commuters and students reviewing difficult material benefit from pausing and replaying a recording. I would therefore require attendance for interactive sessions, demonstrations, and assessed group work, while allowing a limited number of recording-based absences for ordinary lectures. Students who use that option could submit a brief question or summary afterward. This policy preserves meaningful participation without treating illness, travel disruption, or different learning speeds as a lack of commitment.",
+        "explanation": [
+            "The response takes a qualified position: recordings add flexibility, while interactive classes still justify attendance. This avoids treating every lecture as identical.",
+            "Maya's point is extended through a physics-derivation example, and Tomas's accessibility argument leads to a limited-absence policy plus a short follow-up task.",
+            "derivation は「導出」、assessed group work は「評価対象のグループ活動」、travel disruption は「交通の乱れ」です。qualified position は条件を付けた立場を意味します。",
+            "このモデルは100語以上の一例で、唯一の正解でも公式採点結果でもありません。全面自由・全面出席の立場でも、両投稿への応答と具体例があれば成立します。"
+        ],
+        "phrases": [
+            "in-person attendance — 対面出席",
+            "pause and replay — 一時停止して再生する",
+            "interactive session — 双方向型の授業"
+        ],
+        "sourceRefs": [
+            "original:writing:2026-10-08:discussion:01"
+        ],
+        "source": {
+            "kind": "original",
+            "date": "2026-10-08"
+        },
         "answerBasis": "Original practice task; model answer and explanation reviewed editorially. 解答例・解説は編集作成で、唯一の正解ではありません。"
     }
   ],
