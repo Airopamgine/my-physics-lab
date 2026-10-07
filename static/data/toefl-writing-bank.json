@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "title": "TOEFL Writing Lab",
-  "updated": "2026-10-06",
+  "updated": "2026-10-07",
   "sourcePolicy": "提供された非公開のTOEFL-writing.pdf全139ページを索引化し、全演習を移行。原PDF・スキャン・未整形OCR・個人の手書き答案は公開しません。原本の不備を校訂した設問は理由を表示。診断の並べ替え10問と掲載例2問は印刷解答と照合し、その他の正答・作文例・解説は根拠付きの編集作成です。作文の人物・日程補足は架空の練習設定で、公式採点ではありません。",
   "formatSources": [
     "https://www.ets.org/toefl/test-takers/ibt/about/content/writing/.html",
@@ -12357,6 +12357,459 @@
             "kind": "original",
             "date": "2026-10-06"
         },
+        "answerBasis": "Original practice task; model answer and explanation reviewed editorially. 解答例・解説は編集作成で、唯一の正解ではありません。"
+    },
+    {
+        "id": "writing-original-20261007-s01",
+        "type": "sentence",
+        "collection": "Original · 2026-10-07",
+        "title": "居住期間 · 現在完了",
+        "prompt": "How long have you lived in Kraków?",
+        "tiles": [
+            "I have lived",
+            "in Kraków",
+            "since the end of September",
+            "I lived",
+            "from the end of September"
+        ],
+        "frame": [
+            "{0} ",
+            "{1} ",
+            "{2}",
+            "."
+        ],
+        "solutions": [
+            [0, 1, 2]
+        ],
+        "modelAnswer": "I have lived in Kraków since the end of September.",
+        "explanation": [
+            "The present perfect connects a situation that began in the past with the present. Since introduces the starting point, while for would introduce a duration.",
+            "I lived suggests a finished period, so it does not naturally answer a question about a residence that continues now. From also normally needs an end point in this context.",
+            "現在完了 have lived は「過去に始まり今も続く居住」を表します。since は開始点、for は期間です。"
+        ],
+        "phrases": [
+            "since the end of September — 9月末から",
+            "have lived — 住み続けている"
+        ],
+        "sourceRefs": ["original:writing:2026-10-07:sentence:01"],
+        "source": {"kind": "original", "date": "2026-10-07"},
+        "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+        "id": "writing-original-20261007-s02",
+        "type": "sentence",
+        "collection": "Original · 2026-10-07",
+        "title": "週末の提案 · would like",
+        "prompt": "You want to invite a classmate for a walk. What could you say?",
+        "tiles": [
+            "Would you like",
+            "to take a walk",
+            "with me",
+            "this weekend",
+            "Do you like",
+            "taking a walk to"
+        ],
+        "frame": [
+            "{0} ",
+            "{1} ",
+            "{2} ",
+            "{3}",
+            "?"
+        ],
+        "solutions": [
+            [0, 1, 2, 3]
+        ],
+        "modelAnswer": "Would you like to take a walk with me this weekend?",
+        "explanation": [
+            "Would you like to + verb is a polite invitation. The activity follows in the infinitive, and this weekend naturally comes at the end as a time expression.",
+            "Do you like asks about a general preference rather than making a specific invitation. Taking a walk to is incomplete because to would need a destination.",
+            "Would you like to ...? は丁寧な誘いです。take a walk は「散歩する」で、特定の週末の誘いにはこの形が自然です。"
+        ],
+        "phrases": [
+            "Would you like to ...? — 〜しませんか",
+            "take a walk — 散歩する"
+        ],
+        "sourceRefs": ["original:writing:2026-10-07:sentence:02"],
+        "source": {"kind": "original", "date": "2026-10-07"},
+        "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+        "id": "writing-original-20261007-s03",
+        "type": "sentence",
+        "collection": "Original · 2026-10-07",
+        "title": "場所を尋ねる · 間接疑問",
+        "prompt": "You cannot find the laundry room. Ask the receptionist politely.",
+        "tiles": [
+            "Could you tell me",
+            "where",
+            "the laundry room is",
+            "where is",
+            "the laundry room",
+            "can you tell to me"
+        ],
+        "frame": [
+            "{0} ",
+            "{1} ",
+            "{2}",
+            "?"
+        ],
+        "solutions": [
+            [0, 1, 2]
+        ],
+        "modelAnswer": "Could you tell me where the laundry room is?",
+        "explanation": [
+            "An embedded question uses statement word order: question word + subject + verb. Could you tell me makes the request more polite than a direct question.",
+            "Where is the laundry room? is correct as a direct question, but after tell me, where is the laundry room has the wrong inversion.",
+            "間接疑問では where + 主語 + 動詞の語順です。tell me の後に前置詞 to は不要です。"
+        ],
+        "phrases": [
+            "embedded question — 間接疑問",
+            "laundry room — 洗濯室"
+        ],
+        "sourceRefs": ["original:writing:2026-10-07:sentence:03"],
+        "source": {"kind": "original", "date": "2026-10-07"},
+        "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+        "id": "writing-original-20261007-s04",
+        "type": "sentence",
+        "collection": "Original · 2026-10-07",
+        "title": "中断された動作 · 過去進行形",
+        "prompt": "What were you doing when the fire alarm sounded?",
+        "tiles": [
+            "I was reviewing",
+            "my notes",
+            "when",
+            "the fire alarm went off",
+            "I reviewed",
+            "while the fire alarm"
+        ],
+        "frame": [
+            "{0} ",
+            "{1} ",
+            "{2} ",
+            "{3}",
+            "."
+        ],
+        "solutions": [
+            [0, 1, 2, 3]
+        ],
+        "modelAnswer": "I was reviewing my notes when the fire alarm went off.",
+        "explanation": [
+            "The past progressive presents the longer background activity, and the simple past marks the shorter event that interrupted it. Go off means to start sounding for an alarm.",
+            "I reviewed does not show that the review was in progress at the moment of the alarm. While the fire alarm is incomplete because the clause lacks a verb.",
+            "was reviewing が継続中の動作、went off が割り込んだ出来事です。go off は警報器が「鳴る」という句動詞です。"
+        ],
+        "phrases": [
+            "review notes — ノートを復習する",
+            "an alarm goes off — 警報が鳴る"
+        ],
+        "sourceRefs": ["original:writing:2026-10-07:sentence:04"],
+        "source": {"kind": "original", "date": "2026-10-07"},
+        "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+        "id": "writing-original-20261007-s05",
+        "type": "sentence",
+        "collection": "Original · 2026-10-07",
+        "title": "譲歩 · despite",
+        "prompt": "Did the rain cancel the field trip?",
+        "tiles": [
+            "Despite",
+            "the heavy rain",
+            "the field trip",
+            "continued as planned",
+            "although",
+            "of the heavy rain"
+        ],
+        "frame": [
+            "{0} ",
+            "{1}",
+            ", ",
+            "{2} ",
+            "{3}",
+            "."
+        ],
+        "solutions": [
+            [0, 1, 2, 3]
+        ],
+        "modelAnswer": "Despite the heavy rain, the field trip continued as planned.",
+        "explanation": [
+            "Despite is a preposition and takes a noun phrase, here the heavy rain. The main clause then states the unexpected result.",
+            "Although would need a full clause such as although it rained heavily. Despite of is nonstandard; use despite or in spite of.",
+            "despite は前置詞なので後ろは名詞句です。「大雨にもかかわらず、予定どおり続いた」という譲歩を表します。"
+        ],
+        "phrases": [
+            "despite — 〜にもかかわらず",
+            "as planned — 予定どおりに"
+        ],
+        "sourceRefs": ["original:writing:2026-10-07:sentence:05"],
+        "source": {"kind": "original", "date": "2026-10-07"},
+        "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+        "id": "writing-original-20261007-s06",
+        "type": "sentence",
+        "collection": "Original · 2026-10-07",
+        "title": "現在の仮定 · 第2条件文",
+        "prompt": "Why do you not join the evening speaking club?",
+        "tiles": [
+            "If I had",
+            "more free time",
+            "I would join",
+            "the evening speaking club",
+            "If I would have",
+            "I will join"
+        ],
+        "frame": [
+            "{0} ",
+            "{1}",
+            ", ",
+            "{2} ",
+            "{3}",
+            "."
+        ],
+        "solutions": [
+            [0, 1, 2, 3]
+        ],
+        "modelAnswer": "If I had more free time, I would join the evening speaking club.",
+        "explanation": [
+            "The second conditional describes an unreal or unlikely present situation: if + simple past, would + base verb. It implies that the speaker currently lacks enough free time.",
+            "Standard conditional clauses do not use would in the if-clause for this meaning. I will join would describe a more realistic future condition and does not match had.",
+            "第2条件文は現在の事実に反する、または可能性の低い仮定です。had は過去時制でも、ここでは現在について述べています。"
+        ],
+        "phrases": [
+            "if I had more time — もっと時間があれば",
+            "speaking club — 会話クラブ"
+        ],
+        "sourceRefs": ["original:writing:2026-10-07:sentence:06"],
+        "source": {"kind": "original", "date": "2026-10-07"},
+        "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+        "id": "writing-original-20261007-s07",
+        "type": "sentence",
+        "collection": "Original · 2026-10-07",
+        "title": "実験試料 · 法助動詞の受動態",
+        "prompt": "What does the laboratory protocol say about the samples?",
+        "tiles": [
+            "The samples",
+            "must be stored",
+            "below five degrees Celsius",
+            "until the analysis",
+            "must store",
+            "until analyzing them"
+        ],
+        "frame": [
+            "{0} ",
+            "{1} ",
+            "{2} ",
+            "{3}",
+            "."
+        ],
+        "solutions": [
+            [0, 1, 2, 3]
+        ],
+        "modelAnswer": "The samples must be stored below five degrees Celsius until the analysis.",
+        "explanation": [
+            "Must be + past participle forms the passive with a modal. The samples receive the action of storing, so be stored is required.",
+            "Must store would make the samples the agents that perform the action. Until the analysis gives a clear endpoint without an unclear pronoun.",
+            "must be stored は「保管されなければならない」。試料は保管する側ではなく、保管される対象なので受動態です。"
+        ],
+        "phrases": [
+            "must be stored — 保管されなければならない",
+            "analysis — 分析"
+        ],
+        "sourceRefs": ["original:writing:2026-10-07:sentence:07"],
+        "source": {"kind": "original", "date": "2026-10-07"},
+        "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+        "id": "writing-original-20261007-s08",
+        "type": "sentence",
+        "collection": "Original · 2026-10-07",
+        "title": "提出期限 · before noon",
+        "prompt": "When should I submit the residence form?",
+        "tiles": [
+            "Please submit",
+            "the completed form",
+            "before noon",
+            "on Friday",
+            "until noon",
+            "in Friday"
+        ],
+        "frame": [
+            "{0} ",
+            "{1} ",
+            "{2} ",
+            "{3}",
+            "."
+        ],
+        "solutions": [
+            [0, 1, 2, 3]
+        ],
+        "modelAnswer": "Please submit the completed form before noon on Friday.",
+        "explanation": [
+            "Before noon means earlier than 12:00 p.m. On is the correct preposition with a named day, and completed modifies form.",
+            "Until noon describes a continuing action or state up to noon and is less suitable for a one-time submission deadline. English uses on Friday, not in Friday.",
+            "before noon は「正午より前に」です。提出のような一回の動作の締切に使えます。曜日の前置詞は on です。"
+        ],
+        "phrases": [
+            "before noon — 正午前に",
+            "completed form — 記入済みの用紙"
+        ],
+        "sourceRefs": ["original:writing:2026-10-07:sentence:08"],
+        "source": {"kind": "original", "date": "2026-10-07"},
+        "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+        "id": "writing-original-20261007-s09",
+        "type": "sentence",
+        "collection": "Original · 2026-10-07",
+        "title": "所有関係 · whose",
+        "prompt": "Which student should contact the instructor?",
+        "tiles": [
+            "The student",
+            "whose data",
+            "are missing",
+            "should contact",
+            "the instructor",
+            "who's data",
+            "is missing"
+        ],
+        "frame": [
+            "{0} ",
+            "{1} ",
+            "{2} ",
+            "{3} ",
+            "{4}",
+            "."
+        ],
+        "solutions": [
+            [0, 1, 2, 3, 4]
+        ],
+        "modelAnswer": "The student whose data are missing should contact the instructor.",
+        "explanation": [
+            "Whose is the possessive relative determiner linking the student to the data. In formal academic usage, data is often treated as plural, so are missing is appropriate here.",
+            "Who's means who is or who has and cannot show possession. Is missing would be possible only if data were treated as a singular mass noun, which this exercise does not adopt.",
+            "whose は「その人の〜」を表す所有格の関係詞です。who's は who is / who has の短縮形なので区別します。"
+        ],
+        "phrases": [
+            "whose data — その人のデータ",
+            "contact the instructor — 担当教員に連絡する"
+        ],
+        "sourceRefs": ["original:writing:2026-10-07:sentence:09"],
+        "source": {"kind": "original", "date": "2026-10-07"},
+        "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+        "id": "writing-original-20261007-s10",
+        "type": "sentence",
+        "collection": "Original · 2026-10-07",
+        "title": "目的を示す · so that",
+        "prompt": "Why did the lecturer slow down during the explanation?",
+        "tiles": [
+            "The lecturer spoke more slowly",
+            "so that",
+            "every student",
+            "could follow",
+            "the explanation",
+            "because every student",
+            "can followed"
+        ],
+        "frame": [
+            "{0} ",
+            "{1} ",
+            "{2} ",
+            "{3} ",
+            "{4}",
+            "."
+        ],
+        "solutions": [
+            [0, 1, 2, 3, 4]
+        ],
+        "modelAnswer": "The lecturer spoke more slowly so that every student could follow the explanation.",
+        "explanation": [
+            "So that introduces purpose. Could follow agrees with the past-time main clause and expresses the intended ability of the students.",
+            "Because would introduce a cause, not the lecturer's purpose. A modal must be followed by the base form, so can followed is ungrammatical.",
+            "so that は「〜できるように」という目的を表します。could は過去の文脈に合わせた can の形で、後ろは動詞原形 follow です。"
+        ],
+        "phrases": [
+            "so that ... could — 〜できるように",
+            "follow an explanation — 説明についていく"
+        ],
+        "sourceRefs": ["original:writing:2026-10-07:sentence:10"],
+        "source": {"kind": "original", "date": "2026-10-07"},
+        "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+        "id": "writing-original-20261007-email",
+        "type": "email",
+        "collection": "Original · 2026-10-07",
+        "title": "図書館カードとスキャナーの問い合わせ",
+        "minutes": 7,
+        "to": "Ms. Zielińska, Library Services",
+        "subject": "Questions about my library card and scanner access",
+        "context": "You recently received a library card. You want to study there on weekends and digitize several pages of your own course notes, but you do not yet understand the scanner rules.",
+        "requirements": [
+            "State that you recently received a library card and plan to use the library on weekends.",
+            "Ask whether registered users may use the scanner for their own course notes and whether there is a fee.",
+            "Ask where scanner instructions are available or whom you should contact for help."
+        ],
+        "modelAnswer": "Dear Ms. Zielińska,\n\nI recently received my library card, and I am planning to use the reading rooms regularly on weekends. Thank you for helping new users access the library's facilities.\n\nI would like to digitize a few pages of my own course notes for personal study. Could you please confirm whether registered users are allowed to use the library scanner for this purpose and whether there is a charge? I will not scan restricted materials or distribute the files.\n\nCould you also tell me where I can find the scanner instructions? If assistance must be requested in advance, please let me know which desk or staff member I should contact.\n\nThank you for your guidance.\n\nBest regards,\nAlex Morgan",
+        "explanation": [
+            "The email establishes the writer's user status and weekend purpose before asking two connected questions. The tone is formal but not overly apologetic.",
+            "The second paragraph asks both permission and cost, while the final paragraph asks where to obtain instructions or help. Thus, all three task requirements are explicitly covered.",
+            "registered user は「登録利用者」、digitize は「デジタル化する」、restricted materials は「複製等が制限された資料」です。Could you please confirm ...? は丁寧な確認表現です。",
+            "署名名と、資料の扱いに関する補足は練習用の架空情報です。モデルは唯一の正解ではなく、3条件を満たす自然な一例です。"
+        ],
+        "phrases": [
+            "registered user — 登録利用者",
+            "digitize course notes — 授業ノートをデジタル化する",
+            "Is there a charge? — 料金はかかりますか"
+        ],
+        "sourceRefs": ["original:writing:2026-10-07:email:01"],
+        "source": {"kind": "original", "date": "2026-10-07"},
+        "answerBasis": "Original practice task; model answer and explanation reviewed editorially. 解答例・解説は編集作成で、唯一の正解ではありません。"
+    },
+    {
+        "id": "writing-original-20261007-discussion",
+        "type": "discussion",
+        "collection": "Original · 2026-10-07",
+        "title": "屋外の禁煙学習・飲食スペース",
+        "minutes": 10,
+        "targetWords": 100,
+        "professor": "Professor Green · Public Health",
+        "context": "Should universities create smoke-free outdoor zones around study areas, entrances, and campus dining spaces? Why or why not?",
+        "posts": [
+            {
+                "name": "Lena",
+                "text": "Smoke-free outdoor zones would protect students from secondhand smoke and make shared tables more comfortable. Entrances should be accessible without passing through smoke."
+            },
+            {
+                "name": "Omar",
+                "text": "Outdoor smoke disperses quickly, and strict rules may simply move smokers to nearby streets. Universities should focus their limited resources on indoor health measures."
+            }
+        ],
+        "requirements": [
+            "State and support your position on smoke-free outdoor zones at universities.",
+            "Respond meaningfully to both Lena's and Omar's viewpoints.",
+            "Develop the response with a concrete example and at least 100 words."
+        ],
+        "modelAnswer": "Universities should establish smoke-free outdoor zones around entrances, study tables, and dining areas, while providing clearly marked smoking areas farther away. Lena is right that students should not have to pass through smoke to enter a building or eat lunch. Even outdoors, repeated exposure becomes unpleasant when smokers gather beside a doorway or a crowded table. For example, a student reviewing notes during a short break may have no practical alternative if every nearby seat is affected. Omar reasonably warns that a total campus ban could shift the problem to neighboring streets and require excessive enforcement. A limited-zone policy addresses that concern: signs and campus maps can identify protected spaces, while designated areas give smokers a realistic option. This balanced approach improves shared spaces without treating every outdoor location as identical or using indoor-health funds for constant patrols.",
+        "explanation": [
+            "The response adopts a limited-zone policy rather than a total ban. This creates a clear thesis and leaves room to acknowledge the practical concern in Omar's post.",
+            "Lena's health and comfort argument is developed with a concrete study-break example. Omar's displacement and enforcement concerns lead to a workable compromise: protected zones plus clearly marked alternatives.",
+            "secondhand smoke は「受動喫煙」、disperse は「拡散する」、designated area は「指定区域」です。shift the problem は「問題を別の場所へ移す」という意味です。",
+            "このモデルは一つの論証例で、公式スコアを示しません。別の立場でも、両投稿に具体的に応答し、理由と例を100語以上で展開すれば成立します。"
+        ],
+        "phrases": [
+            "smoke-free outdoor zone — 屋外禁煙区域",
+            "secondhand smoke — 受動喫煙",
+            "designated smoking area — 指定喫煙区域"
+        ],
+        "sourceRefs": ["original:writing:2026-10-07:discussion:01"],
+        "source": {"kind": "original", "date": "2026-10-07"},
         "answerBasis": "Original practice task; model answer and explanation reviewed editorially. 解答例・解説は編集作成で、唯一の正解ではありません。"
     }
   ],
