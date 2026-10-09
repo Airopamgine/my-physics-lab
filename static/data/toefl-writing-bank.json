@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "title": "TOEFL Writing Lab",
-  "updated": "2026-10-08",
+  "updated": "2026-10-09",
   "sourcePolicy": "提供された非公開のTOEFL-writing.pdf全139ページを索引化し、全演習を移行。原PDF・スキャン・未整形OCR・個人の手書き答案は公開しません。原本の不備を校訂した設問は理由を表示。診断の並べ替え10問と掲載例2問は印刷解答と照合し、その他の正答・作文例・解説は根拠付きの編集作成です。作文の人物・日程補足は架空の練習設定で、公式採点ではありません。",
   "formatSources": [
     "https://www.ets.org/toefl/test-takers/ibt/about/content/writing/.html",
@@ -13407,6 +13407,262 @@
             "date": "2026-10-08"
         },
         "answerBasis": "Original practice task; model answer and explanation reviewed editorially. 解答例・解説は編集作成で、唯一の正解ではありません。"
+    },
+    {
+      "id": "writing-original-20261009-s01",
+      "type": "sentence",
+      "collection": "Original · 2026-10-09",
+      "title": "図書の返却 · ask + 人 + to不定詞",
+      "prompt": "What did the librarian ask your group to do?",
+      "tiles": ["The librarian", "asked", "us", "to return", "the books", "before closing", "returning", "for close"],
+      "frame": ["{0} ", "{1} ", "{2} ", "{3} ", "{4} ", "{5}", "."],
+      "solutions": [[0, 1, 2, 3, 4, 5]],
+      "modelAnswer": "The librarian asked us to return the books before closing.",
+      "explanation": [
+        "Ask + person + to-infinitive reports a request or instruction. Us is the object of asked, and to return states the requested action.",
+        "Returning cannot directly follow asked us in this pattern. Before closing is a natural time expression meaning before the library closes.",
+        "ask 人 to do は「人に〜するよう頼む」。before closing は「閉館前に」で、close の前に不自然な for は置きません。"
+      ],
+      "phrases": ["ask someone to do — 人に〜するよう頼む", "before closing — 閉館前に"],
+      "sourceRefs": ["original:writing:2026-10-09:sentence:01"],
+      "source": {"kind": "original", "date": "2026-10-09"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+      "id": "writing-original-20261009-s02",
+      "type": "sentence",
+      "collection": "Original · 2026-10-09",
+      "title": "凍結の開始 · Not untilの倒置",
+      "prompt": "When did the lake begin to freeze?",
+      "tiles": ["Not until", "the temperature fell", "did", "the lake", "begin to freeze", "the lake did", "began freezing"],
+      "frame": ["{0} ", "{1} ", "{2} ", "{3} ", "{4}", "."],
+      "solutions": [[0, 1, 2, 3, 4]],
+      "modelAnswer": "Not until the temperature fell did the lake begin to freeze.",
+      "explanation": [
+        "When Not until opens the sentence, the main clause uses subject–auxiliary inversion: did + subject + base verb. The temperature had to fall before freezing began.",
+        "Did requires the base form begin, not began. The subordinate clause the temperature fell keeps normal word order.",
+        "Not until ... did S do は「…して初めてSが〜した」。強調のため主節だけが疑問文のような語順になります。"
+      ],
+      "phrases": ["not until — 〜して初めて", "begin to freeze — 凍り始める"],
+      "sourceRefs": ["original:writing:2026-10-09:sentence:02"],
+      "source": {"kind": "original", "date": "2026-10-09"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+      "id": "writing-original-20261009-s03",
+      "type": "sentence",
+      "collection": "Original · 2026-10-09",
+      "title": "センサー調整 · have + 人 + 原形",
+      "prompt": "How did you make sure the sensor was accurate?",
+      "tiles": ["We", "had", "the technician", "recalibrate", "the sensor", "recalibrated", "to recalibrate"],
+      "frame": ["{0} ", "{1} ", "{2} ", "{3} ", "{4}", "."],
+      "solutions": [[0, 1, 2, 3, 4]],
+      "modelAnswer": "We had the technician recalibrate the sensor.",
+      "explanation": [
+        "The causative pattern have + person + base verb means arranging for that person to perform an action. The technician performed the recalibration.",
+        "After had the technician, use the bare infinitive recalibrate, not to recalibrate or recalibrated. Had the sensor recalibrated would be a different passive-causative pattern.",
+        "have 人 do は「人に〜してもらう」。recalibrate は「再校正する」で、測定器の精度を調整し直すことです。"
+      ],
+      "phrases": ["have someone do — 人に〜してもらう", "recalibrate a sensor — センサーを再校正する"],
+      "sourceRefs": ["original:writing:2026-10-09:sentence:03"],
+      "source": {"kind": "original", "date": "2026-10-09"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+      "id": "writing-original-20261009-s04",
+      "type": "sentence",
+      "collection": "Original · 2026-10-09",
+      "title": "奨学金 · 前置詞＋関係代名詞",
+      "prompt": "Which scholarship requires two references?",
+      "tiles": ["The scholarship", "for which", "I applied", "requires", "two references", "which for", "I did apply for"],
+      "frame": ["{0} ", "{1} ", "{2} ", "{3} ", "{4}", "."],
+      "solutions": [[0, 1, 2, 3, 4]],
+      "modelAnswer": "The scholarship for which I applied requires two references.",
+      "explanation": [
+        "For which introduces a formal restrictive relative clause. Which is the object of the preposition for, and the whole clause identifies the scholarship.",
+        "Do not repeat for after applied when it has already moved before which. The main verb is requires, agreeing with singular scholarship.",
+        "for which I applied は、より口語的な which I applied for と同じ意味です。reference はここでは「推薦状・推薦者情報」です。"
+      ],
+      "phrases": ["apply for a scholarship — 奨学金に申請する", "require two references — 2件の推薦を求める"],
+      "sourceRefs": ["original:writing:2026-10-09:sentence:04"],
+      "source": {"kind": "original", "date": "2026-10-09"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+      "id": "writing-original-20261009-s05",
+      "type": "sentence",
+      "collection": "Original · 2026-10-09",
+      "title": "面接対応 · despite + 動名詞",
+      "prompt": "How did Mina perform despite being new to interviews?",
+      "tiles": ["Despite having", "little experience", "Mina", "handled", "the interview", "confidently", "Despite she had", "confidence"],
+      "frame": ["{0} ", "{1}", ", ", "{2} ", "{3} ", "{4} ", "{5}", "."],
+      "solutions": [[0, 1, 2, 3, 4, 5]],
+      "modelAnswer": "Despite having little experience, Mina handled the interview confidently.",
+      "explanation": [
+        "Despite is a preposition, so it can be followed by a noun phrase or an -ing clause. Having little experience contrasts with Mina's confident performance.",
+        "Despite she had is ungrammatical; use although she had if a full finite clause follows. Confidently is the adverb modifying handled.",
+        "despite having ... は「…があるにもかかわらず」。confidently は副詞で「自信を持って」という意味です。"
+      ],
+      "phrases": ["despite having little experience — 経験が少ないにもかかわらず", "handle an interview — 面接に対応する"],
+      "sourceRefs": ["original:writing:2026-10-09:sentence:05"],
+      "source": {"kind": "original", "date": "2026-10-09"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+      "id": "writing-original-20261009-s06",
+      "type": "sentence",
+      "collection": "Original · 2026-10-09",
+      "title": "試作機 · 未来完了",
+      "prompt": "What will the engineering team have achieved by next June?",
+      "tiles": ["By next June", "the team", "will have completed", "the prototype", "will complete have", "has completed"],
+      "frame": ["{0}", ", ", "{1} ", "{2} ", "{3}", "."],
+      "solutions": [[0, 1, 2, 3]],
+      "modelAnswer": "By next June, the team will have completed the prototype.",
+      "explanation": [
+        "The future perfect, will have + past participle, presents completion before a future deadline. By next June establishes that endpoint.",
+        "Will complete have has the auxiliaries in the wrong order, while has completed uses a present reference point rather than the stated future one.",
+        "will have completed は「その時までには完成している」。prototype は「試作機・原型」です。"
+      ],
+      "phrases": ["by next June — 来年6月までに", "complete a prototype — 試作機を完成させる"],
+      "sourceRefs": ["original:writing:2026-10-09:sentence:06"],
+      "source": {"kind": "original", "date": "2026-10-09"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+      "id": "writing-original-20261009-s07",
+      "type": "sentence",
+      "collection": "Original · 2026-10-09",
+      "title": "発表評価 · What節主語",
+      "prompt": "What impressed the selection panel most?",
+      "tiles": ["What impressed", "the panel", "most", "was", "her clear explanation", "were", "what did impress"],
+      "frame": ["{0} ", "{1} ", "{2} ", "{3} ", "{4}", "."],
+      "solutions": [[0, 1, 2, 3, 4]],
+      "modelAnswer": "What impressed the panel most was her clear explanation.",
+      "explanation": [
+        "The fused relative clause What impressed the panel most functions as the subject. Was links that subject to the identifying complement her clear explanation.",
+        "This is a statement, so do-support is unnecessary. The clause is treated as a singular unit here, making was the natural agreement choice.",
+        "文頭の What は「何が？」という疑問ではなく「最も印象づけたもの」という名詞節を作ります。panel はここでは「選考委員会」です。"
+      ],
+      "phrases": ["impress the panel — 委員会に好印象を与える", "clear explanation — 明快な説明"],
+      "sourceRefs": ["original:writing:2026-10-09:sentence:07"],
+      "source": {"kind": "original", "date": "2026-10-09"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+      "id": "writing-original-20261009-s08",
+      "type": "sentence",
+      "collection": "Original · 2026-10-09",
+      "title": "設備停止 · 混合仮定法",
+      "prompt": "Why is the laboratory not operating normally now?",
+      "tiles": ["If", "the valve", "had not failed", "the lab", "would be operating", "normally now", "would have operated", "did not fail"],
+      "frame": ["{0} ", "{1} ", "{2}", ", ", "{3} ", "{4} ", "{5}", "."],
+      "solutions": [[0, 1, 2, 3, 4, 5]],
+      "modelAnswer": "If the valve had not failed, the lab would be operating normally now.",
+      "explanation": [
+        "This mixed conditional links an unreal past cause to a present result: if + past perfect, would be + -ing now. The valve did fail, and the laboratory is still affected.",
+        "Would have operated would describe an unreal past result, not the current situation emphasized by now.",
+        "過去の故障が現在の運転状態に影響しているため、条件節は had failed、結果節は would be operating になります。valve は「弁」です。"
+      ],
+      "phrases": ["a valve fails — 弁が故障する", "operate normally — 正常に稼働する"],
+      "sourceRefs": ["original:writing:2026-10-09:sentence:08"],
+      "source": {"kind": "original", "date": "2026-10-09"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+      "id": "writing-original-20261009-s09",
+      "type": "sentence",
+      "collection": "Original · 2026-10-09",
+      "title": "夜間経路 · not only ... but also",
+      "prompt": "Why do you prefer the new route home?",
+      "tiles": ["The new route", "is", "not only shorter", "but also safer", "at night", "not shorter only", "also but safer"],
+      "frame": ["{0} ", "{1} ", "{2} ", "{3} ", "{4}", "."],
+      "solutions": [[0, 1, 2, 3, 4]],
+      "modelAnswer": "The new route is not only shorter but also safer at night.",
+      "explanation": [
+        "Not only ... but also coordinates the parallel comparative adjectives shorter and safer. Both describe the singular subject the new route.",
+        "Keep the paired markers in their conventional order and place not only directly before the first contrasted element.",
+        "not only A but also B は「AだけでなくBも」。AとBには同じ文法形を置き、ここでは比較級同士を並べます。"
+      ],
+      "phrases": ["not only ... but also ... — …だけでなく〜も", "safer at night — 夜間により安全な"],
+      "sourceRefs": ["original:writing:2026-10-09:sentence:09"],
+      "source": {"kind": "original", "date": "2026-10-09"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+      "id": "writing-original-20261009-s10",
+      "type": "sentence",
+      "collection": "Original · 2026-10-09",
+      "title": "応募書類 · 提案のthat節",
+      "prompt": "What did the admissions committee recommend?",
+      "tiles": ["The committee", "recommended", "that", "each applicant", "submit", "a portfolio", "submits", "to submitting"],
+      "frame": ["{0} ", "{1} ", "{2} ", "{3} ", "{4} ", "{5}", "."],
+      "solutions": [[0, 1, 2, 3, 4, 5]],
+      "modelAnswer": "The committee recommended that each applicant submit a portfolio.",
+      "explanation": [
+        "After recommend that, formal English often uses the mandative subjunctive: the base form submit for every subject. Each applicant is grammatically singular, but the subjunctive does not take -s.",
+        "Submits would be expected in an ordinary factual present clause, not in this recommendation structure.",
+        "recommend that S do は「Sが〜するよう勧める」。portfolio は「作品集・実績資料」です。"
+      ],
+      "phrases": ["recommend that someone do — 人が〜するよう勧める", "submit a portfolio — 作品集を提出する"],
+      "sourceRefs": ["original:writing:2026-10-09:sentence:10"],
+      "source": {"kind": "original", "date": "2026-10-09"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially."
+    },
+    {
+      "id": "writing-original-20261009-email",
+      "type": "email",
+      "collection": "Original · 2026-10-09",
+      "title": "寮の窓からの雨漏り報告",
+      "minutes": 7,
+      "to": "Ms. Zielinska, Residence Maintenance Office",
+      "subject": "Request to inspect a leaking window in Room 914",
+      "context": "During heavy rain, water has started entering your dormitory room around the window frame and reaching the desk below it. More rain is forecast for the weekend.",
+      "requirements": [
+        "Report that rainwater entered Room 914 around the window frame and reached the desk.",
+        "Request an inspection before the weekend and give two time periods when someone may enter the room.",
+        "Ask whether you should move the desk and how the inspection time will be confirmed."
+      ],
+      "modelAnswer": "Dear Ms. Zielinska,\n\nI am writing to report a problem with the window in Room 914. During last night's heavy rain, water came in around the lower part of the window frame and reached the desk directly below it. I dried the area, but I am concerned that the leak may recur because more rain is forecast for the weekend.\n\nCould someone please inspect the window before Saturday? I can be in the room on Friday between 8:00 and 10:00 a.m. or after 4:30 p.m. If necessary, I can also leave permission at reception for maintenance staff to enter.\n\nShould I move the desk away from the window before the inspection? Please also let me know whether the appointment will be confirmed by email or through reception.\n\nThank you for your assistance.\n\nBest regards,\nAlex Morgan",
+      "explanation": [
+        "The message identifies the room, location of the leak, and affected furniture before making an urgent but courteous request. Two access windows make the inspection practical.",
+        "The final paragraph asks both required logistical questions: whether to move the desk and how confirmation will arrive. The tone reports a maintenance risk without exaggerating it.",
+        "window frame は「窓枠」、recur は「再発する」、maintenance staff は「保守担当者」です。Could someone please inspect ...? は丁寧な点検依頼です。",
+        "署名名、時刻、受付への入室許可は練習用の架空情報です。このモデルは唯一の正解ではなく、3条件を明確に満たす別表現も可能です。"
+      ],
+      "phrases": ["water came in around the frame — 窓枠の周囲から水が入った", "inspect the window — 窓を点検する", "confirm the appointment — 訪問時刻を確定する"],
+      "sourceRefs": ["original:writing:2026-10-09:email:01"],
+      "source": {"kind": "original", "date": "2026-10-09"},
+      "answerBasis": "Original practice task; model answer and explanation reviewed editorially. 解答例・解説は編集作成で、唯一の正解ではありません。"
+    },
+    {
+      "id": "writing-original-20261009-discussion",
+      "type": "discussion",
+      "collection": "Original · 2026-10-09",
+      "title": "学生向け公共交通運賃",
+      "minutes": 10,
+      "targetWords": 100,
+      "professor": "Professor Ahmed · Public Policy",
+      "context": "Should a city make public transportation free for all university students, or should students continue to pay a reduced fare? Explain your view.",
+      "posts": [
+        {"name": "Maya", "text": "Public transportation should be free for students. Removing fares would help students with limited incomes reach classes and could reduce traffic around campuses."},
+        {"name": "Tomas", "text": "Students should pay a reduced fare because transit systems need reliable funding. Even a small contribution can help maintain frequent and safe service."}
+      ],
+      "requirements": [
+        "State and support your position on free or reduced student transit fares.",
+        "Respond meaningfully to both Maya's and Tomas's viewpoints.",
+        "Develop the response with a concrete example and at least 100 words."
+      ],
+      "modelAnswer": "Cities should guarantee affordable student transportation, but a universal zero-fare policy is not always the best use of limited funds. Maya is right that transport costs can prevent low-income students from attending early classes or using libraries after dark. For example, a student with two campus transfers each day may skip academic activities when every trip adds to the weekly budget. However, Tomas correctly emphasizes that unreliable or infrequent service is not truly accessible, even when boarding is free. I would combine a very low semester pass for most students with free passes for students receiving need-based aid. The university and city could share the subsidy while protecting money for evening frequency and vehicle maintenance. This approach targets the strongest financial barrier, preserves some stable revenue, and makes the policy easier to sustain than an unfunded promise of free travel for everyone.",
+      "explanation": [
+        "The response chooses a hybrid policy rather than simply repeating either post. It accepts Maya's equity concern and Tomas's funding concern, then connects both to a targeted pass system.",
+        "The daily-transfer example shows how small fares accumulate, while the proposal adds a new contribution: shared funding plus protection for evening service and maintenance.",
+        "need-based aid は「家計状況に基づく援助」、subsidy は「補助金」、sustain は「長期的に維持する」です。unfunded promise は財源の裏付けがない約束を指します。",
+        "このモデルは100語以上の一例で、唯一の正解でも公式採点結果でもありません。無料化・割引維持のどちらでも、両投稿への応答と具体的根拠があれば成立します。"
+      ],
+      "phrases": ["reduced fare — 割引運賃", "need-based aid — 家計基準の援助", "protect service frequency — 運行頻度を維持する"],
+      "sourceRefs": ["original:writing:2026-10-09:discussion:01"],
+      "source": {"kind": "original", "date": "2026-10-09"},
+      "answerBasis": "Original practice task; model answer and explanation reviewed editorially. 解答例・解説は編集作成で、唯一の正解ではありません。"
     }
   ],
   "guides": [
