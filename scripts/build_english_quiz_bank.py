@@ -311,7 +311,9 @@ def main() -> None:
     repo_root = Path(__file__).resolve().parent.parent
     feed = build_reading_feed(repo_root / "data/toefl-reading", repo_root / "static/data/toefl-reading-bank.json")
     from build_toefl_tasks import build_task_catalog
-    build_task_catalog(repo_root, payload, feed)
+    tasks = build_task_catalog(repo_root, payload, feed)
+    from build_toefl_vocabulary import build as build_vocabulary
+    build_vocabulary(repo_root, reading=tasks, legacy=payload)
 
 
 if __name__ == "__main__":

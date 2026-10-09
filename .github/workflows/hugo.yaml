@@ -49,6 +49,7 @@ jobs:
         run: |
           python3 -m unittest discover -s tests -p 'test_writing_lab.py'
           python3 scripts/build_english_quiz_bank.py
+          python3 -m unittest discover -s tests -p 'test_vocabulary_lab.py'
           hugo build \
             --gc \
             --minify \

@@ -1,0 +1,47 @@
+name: TOEFL checks
+
+on:
+  pull_request:
+    paths: ['data/**', 'scripts/**', 'static/**', 'layouts/**', 'tests/**', '.github/workflows/**', 'hugo.toml']
+  push:
+    branches: [main]
+    paths: ['data/**', 'scripts/**', 'static/**', 'layouts/**', 'tests/**', '.github/workflows/**', 'hugo.toml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          submodules: recursive
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install verification tools
+        run: |
+          npm install --prefix "${RUNNER_TEMP}/toefl-jsdom" --no-save jsdom@26.1.0 fake-indexeddb@6.0.1
+          curl -fL -o "${RUNNER_TEMP}/hugo.tar.gz" "https://github.com/gohugoio/hugo/releases/download/v0.154.5/hugo_0.154.5_linux-amd64.tar.gz"
+          mkdir -p "${RUNNER_TEMP}/hugo-bin"
+          tar --no-same-owner -C "${RUNNER_TEMP}/hugo-bin" -xf "${RUNNER_TEMP}/hugo.tar.gz"
+      - name: Build banks and verify sources
+        run: |
+          python3 scripts/build_english_quiz_bank.py
+          python3 -m unittest discover -s tests -p 'test_*.py'
+      - name: Build site and verify every runner
+        env:
+          TZ: Europe/Warsaw
+        run: |
+          "${RUNNER_TEMP}/hugo-bin/hugo" --gc --minify --destination "${RUNNER_TEMP}/toefl-site"
+          export NODE_PATH="${RUNNER_TEMP}/toefl-jsdom/node_modules"
+          export TOEFL_HTML="${RUNNER_TEMP}/toefl-site/toefl/index.html"
+          node tests/verify_writing_dom.cjs
+          node tests/verify_toefl_dom.cjs
+          node tests/verify_vocabulary_dom.cjs
+          for zone in Europe/Warsaw UTC Asia/Tokyo; do
+            TZ="$zone" node tests/verify_daily_study.cjs
+          done
