@@ -1,0 +1,64 @@
+<section class="vocabulary-lab" id="vocabulary-lab" aria-labelledby="vocabulary-title"
+  data-base-path="{{ "/" | relURL }}" data-bank-url="{{ "data/toefl-vocabulary-bank.json" | relURL }}?v={{ readFile "static/data/toefl-vocabulary-bank.json" | sha256 | truncate 12 "" }}">
+  <div class="vocabulary-heading">
+    <div><p class="toefl-eyebrow">Know the words · return to the text</p><h2 id="vocabulary-title">単語帳 &amp; 全語彙クイズ</h2>
+      <p>本文の隅から隅まで。選択肢、解説、Writingの投稿・モデル答案までたどる語彙ノート。</p></div>
+    <button class="toefl-button toefl-button--primary" id="vocabulary-load" type="button" disabled>単語帳を開く</button>
+  </div>
+  <p id="vocabulary-status" role="status">学習ページを開いてから単語帳を読み込めます。</p>
+  <div id="vocabulary-content" hidden>
+    <div class="vocabulary-stats" id="vocabulary-stats" aria-live="polite"></div>
+    <details class="vocabulary-guide"><summary>網羅範囲と、クイズの使い方</summary>
+      <p id="vocabulary-coverage-note"></p>
+      <p>① 教材語注：日本語の説明から掲載語・表現を確認。② 英英辞書：語義を一つずつ確認。辞書の説明は教材中の意味を自動判定したものではありません。③ 文脈・綴り：教材に実際に書かれた語形を再現します。自然な別の語が入る場合もあるため、意味の正誤判定とは分けて扱います。</p>
+      <p>一度正解したカードを「確認済み」、別の日の復習でも正解したカードを「定着」として記録します。誤答・答えを見たカードは復習に戻します。既知の語を手動で確認済みにすることはできません。</p>
+      <p>語彙をすべて確認しても、文法・論理・内容推論の練習は必要です。掲載語のカバー率や正解数はTOEFLの公式スコアでも、全問が解ける保証でもありません。</p>
+      <p>一般辞書の説明：<a href="https://wordnet.princeton.edu/" target="_blank" rel="noopener noreferrer">WordNet 3.0</a>。<a href="{{ "data/wordnet-license.txt" | relURL }}">著作権・利用条件</a>。日本語の語注は既存教材または編集補足として出典を分けて表示します。</p>
+    </details>
+    <div class="vocabulary-controls">
+      <label>単語・意味を検索<input type="search" id="vocabulary-search" placeholder="例：absorb、間接疑問、吸収" autocomplete="off"></label>
+      <label>範囲<select id="vocabulary-scope"><option value="all">全教材</option><option>Task 1</option><option>Task 2</option><option>Task 3</option><option>Writing</option><option>Listening</option><option>元教材・語注</option></select></label>
+      <label>状態<select id="vocabulary-filter"><option value="all">すべて</option><option value="unseen">未確認あり</option><option value="review">誤答・答えを見た語</option><option value="due">復習日が来た語</option><option value="known">全カード確認済み</option><option value="star">お気に入り</option><option value="contextOnly">意味の説明がない語</option></select></label>
+    </div>
+    <p id="vocabulary-selection" role="status"></p>
+    <button class="toefl-button toefl-button--ghost" id="vocabulary-clear-source" type="button" hidden>教材の絞り込みを解除</button>
+    <div class="vocabulary-tabs" role="group" aria-label="語彙の学習方法">
+      <button class="toefl-button toefl-button--secondary" type="button" data-vocabulary-view="book" aria-pressed="true">単語帳</button>
+      <button class="toefl-button toefl-button--secondary" type="button" data-vocabulary-view="quiz" aria-pressed="false">クイズ</button>
+      <button class="toefl-button toefl-button--secondary" type="button" data-vocabulary-view="coverage" aria-pressed="false">教材ごとの確認状況</button>
+    </div>
+    <section id="vocabulary-book" aria-label="単語帳">
+      <p id="vocabulary-book-total"></p><div id="vocabulary-list" class="vocabulary-list"></div>
+      <div class="toefl-actions"><button class="toefl-button toefl-button--secondary" id="vocabulary-prev-page" type="button">前の40語</button><span id="vocabulary-page"></span><button class="toefl-button toefl-button--secondary" id="vocabulary-next-page" type="button">次の40語</button></div>
+    </section>
+    <section id="vocabulary-quiz" hidden aria-label="語彙クイズ">
+      <div class="vocabulary-controls">
+        <label>出題方法<select id="vocabulary-mode"><option value="glossary">教材語注・編集補足 → 掲載語</option><option value="dictionary">英英辞書 → 掲載語（語義ごと）</option><option value="context">教材の文脈 → 語形・綴り</option></select></label>
+        <label>1回の枚数<select id="vocabulary-batch"><option>10</option><option selected>20</option><option>50</option></select></label>
+        <button class="toefl-button toefl-button--primary" id="vocabulary-start" type="button">未確認・復習から始める</button>
+        <button class="toefl-button toefl-button--secondary" id="vocabulary-resume" type="button" hidden>前回の続き</button>
+      </div>
+      <p id="vocabulary-queue-info" role="status"></p>
+      <div class="vocabulary-runner" id="vocabulary-runner" hidden>
+        <div class="vocabulary-heading"><p id="vocabulary-question-count"></p><span id="vocabulary-timer" aria-label="今回の経過時間">0:00</span></div>
+        <p class="toefl-eyebrow" id="vocabulary-question-type"></p>
+        <h3 id="vocabulary-question" tabindex="-1"></h3>
+        <p id="vocabulary-hint"></p><div id="vocabulary-choices" class="vocabulary-choices"></div>
+        <form id="vocabulary-answer-form"><label id="vocabulary-input-label" for="vocabulary-answer">教材に書かれた語を入力</label><input id="vocabulary-answer" type="text" autocomplete="off" autocapitalize="none" spellcheck="false"><button id="vocabulary-check" class="toefl-button toefl-button--primary" type="submit" disabled>答え合わせ</button></form>
+        <p id="vocabulary-feedback" class="vocabulary-feedback" role="status" hidden></p><div id="vocabulary-explanation" hidden></div>
+        <div class="toefl-actions"><button id="vocabulary-reveal" class="toefl-button toefl-button--secondary" type="button">答えを見る・要復習</button><button id="vocabulary-next" class="toefl-button toefl-button--primary" type="button" disabled>次のカード</button><button id="vocabulary-close" class="toefl-button toefl-button--ghost" type="button">中断して保存</button></div>
+      </div>
+    </section>
+    <section id="vocabulary-coverage" hidden aria-label="教材ごとの語彙確認状況">
+      <label class="vocabulary-source-search">教材を検索<input type="search" id="vocabulary-source-search" placeholder="教材名、問題ID、PDF参照" autocomplete="off"></label>
+      <p>各教材に現れる語形・重要表現を数えます。同じ語は他の教材での確認も反映します。文脈の綴りと意味の確認率は別々です。</p>
+      <p id="vocabulary-source-total"></p><div id="vocabulary-source-list"></div><button class="toefl-button toefl-button--secondary" id="vocabulary-source-more" type="button">次の20教材</button>
+    </section>
+    <details class="vocabulary-guide"><summary>保存・最近の履歴</summary>
+      <p id="vocabulary-save-status" role="status">このブラウザに学習記録・自分のメモ・中断したクイズを保存します。</p>
+      <div class="toefl-actions"><button class="toefl-button toefl-button--secondary" id="vocabulary-export" type="button">学習記録を書き出す</button><label class="vocabulary-import">記録を読み込む<input id="vocabulary-import" type="file" accept="application/json,.json"></label><button class="toefl-button toefl-button--ghost" id="vocabulary-reset" type="button">語彙の記録をリセット</button></div>
+      <p id="vocabulary-reset-confirm" hidden>語彙の記録だけを消します。<button id="vocabulary-reset-yes" type="button">消す</button> <button id="vocabulary-reset-no" type="button">取り消す</button></p>
+      <ol id="vocabulary-history"></ol>
+    </details>
+  </div>
+</section>

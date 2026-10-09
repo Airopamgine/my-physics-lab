@@ -6,6 +6,7 @@
 {{ if and (not $feed) (not $legacy) }}
 <link rel="stylesheet" href="{{ "css/writing-lab.css" | relURL }}?v={{ readFile "static/css/writing-lab.css" | sha256 | truncate 12 "" }}">
 <link rel="stylesheet" href="{{ "css/daily-study.css" | relURL }}?v={{ readFile "static/css/daily-study.css" | sha256 | truncate 12 "" }}">
+<link rel="stylesheet" href="{{ "css/vocabulary-lab.css" | relURL }}?v={{ readFile "static/css/vocabulary-lab.css" | sha256 | truncate 12 "" }}">
 {{ end }}
 
 <section class="toefl-access" id="toefl-access-gate" aria-labelledby="toefl-access-title">
@@ -49,6 +50,7 @@
         {{ else }}
         <a class="toefl-button toefl-button--primary" href="#daily-study">今日のメニュー ↓</a>
         <a class="toefl-button toefl-button--secondary" href="#writing-lab">Writing</a>
+        <a class="toefl-button toefl-button--secondary" href="#vocabulary-lab">単語帳・単語クイズ</a>
         <a class="toefl-button toefl-button--secondary" href="{{ "toefl/reading/" | relURL }}">Reading</a>
         {{ end }}
         {{ if $tasks }}<a class="toefl-button toefl-button--secondary" href="{{ "toefl/archive/" | relURL }}">元の英語教材（全問移行中）</a>{{ end }}
@@ -64,6 +66,7 @@
 
   {{ if and (not $feed) (not $legacy) }}
   {{ partial "daily-study.html" . }}
+  {{ partial "vocabulary-lab.html" . }}
   {{ end }}
 
   {{ if $tasks }}
@@ -263,7 +266,7 @@
 
   <footer class="toefl-disclaimer">
     <p><strong>About this practice:</strong> 独自演習と、提供された学習教材から移行した問題を含みます。This site is not endorsed or approved by ETS. TOEFL is a registered trademark of ETS. 練習結果は公式スコアではありません。</p>
-    <p>Progress is stored only in this browser. <em>localStorage</em>（ブラウザ内保存）を使い、学習履歴の保存ではログインや外部送信を行いません。</p>
+    <p>Progress is stored only in this browser. ブラウザ内保存を使い、学習履歴の保存ではログインや外部送信を行いません。</p>
     <p><strong>ChatGPT tutor bridge:</strong> 添削ボタンは問題と解答をクリップボードへコピーし、ChatGPTを開きます。内容は自動送信されません。貼り付け・送信前に内容を確認し、個人情報は入力しないでください。</p>
   </footer>
 </div>
@@ -276,5 +279,6 @@
 <script src="{{ "js/toefl.js" | relURL }}?v={{ readFile "static/js/toefl.js" | sha256 | truncate 12 "" }}" defer></script>
 <script src="{{ "js/writing-lab.js" | relURL }}?v={{ readFile "static/js/writing-lab.js" | sha256 | truncate 12 "" }}" defer></script>
 <script src="{{ "js/daily-study.js" | relURL }}?v={{ readFile "static/js/daily-study.js" | sha256 | truncate 12 "" }}" defer></script>
+<script src="{{ "js/vocabulary-lab.js" | relURL }}?v={{ readFile "static/js/vocabulary-lab.js" | sha256 | truncate 12 "" }}" defer></script>
 {{ end }}
 {{- end }}
