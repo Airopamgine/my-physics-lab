@@ -70,3 +70,41 @@ and live layout still need checking in an ordinary authenticated session.
 No private source PDF, raw OCR, scan or personal written answer is included in
 the public diff. Vocabulary progress remains in the user's browser and is not
 sent to GitHub or a scoring service.
+
+## Self-contained word app revision — 2026-10-10
+
+The owner reported that some quizzes required consulting the source text and
+asked for a vocabulary-app style experience entirely within the app. The normal
+page now opens directly to ten-question meaning practice: an English word or
+expression, four meaning choices, immediate grading on a tap, an optional
+pronunciation button, answer explanations, a round result and mistake-only retry.
+Japanese meanings take priority in recommended practice; English definitions are
+used otherwise. Source examples are collapsed, optional, and available only
+after answering. The spelling/input form and playable context mode were removed.
+
+All 13,742 indexed forms/expressions and their full source associations remain.
+There are 60,511 playable meaning questions: 3,325 Japanese and 57,186 English.
+This removes the 13,617 source-form reproduction questions and 42 contextual
+material-gloss questions superseded by standalone editor explanations, and adds
+54 reviewed bilingual common-word explanations (273 editor entries total).
+The 1,418 entries without a meaning stay visible as awaiting definitions, with
+no manufactured quiz or meaning-success credit. Original source notes remain
+available in the notebook. The 3,651 Reading and 275 Writing exercises are unchanged.
+
+Every playable card is checked for its target, four distinct choices, exclusion
+of synonyms/other attested meanings and no material-opening dependency. The DOM
+suite exercises immediate correct/wrong/reveal, no double grading, ten distinct
+words per standard round, mistake-only retry, saved choice IDs and shuffle seed,
+timers, notes, filters, history, export/import, pronunciation API/error fallbacks,
+and complete-corpus IndexedDB saving above 5 MB. Old context records and history
+remain exportable; their unfinished sessions are retired with a visible notice.
+The bilingual extraction tests preserve Latin letters inside Japanese text and
+expanded forms such as `we are の短縮形` rather than removing the useful meaning.
+
+The full 123 Python tests, Hugo build, 60,511-question vocabulary DOM, 275-exercise
+Writing DOM, 3,651-question Reading DOM and three-timezone daily-menu tests pass.
+Source migration totals, the held Phototropism question, the 71 original-image
+rechecks and the publisher answer-page absence are unchanged.
+Authenticated desktop/mobile layout and real-device speech playback remain
+unverified; the ordinary browser has the existing study login. Authentication
+has not been changed or bypassed. The generated bank still loads on demand.

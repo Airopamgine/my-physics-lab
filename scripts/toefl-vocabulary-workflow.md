@@ -23,13 +23,14 @@ index. Each vocabulary entry retains every document reference in the inverse
 direction. Representative quotes keep exact target offsets. Surface forms,
 hyphenated words, contractions and explicit multiword glosses remain searchable;
 missing-letter scoring fragments are replaced with the complete word.
-Stable card IDs use `vocab:<surface>|context`, the glossary definition hash or a
-WordNet synset ID. Do not replace those IDs or the progress database casually.
+Meaning card IDs use the glossary definition hash or a WordNet synset ID.
+Retired `vocab:<surface>|context` records remain archived in the same progress
+database. Do not replace stable IDs or discard earlier progress casually.
 
 After adding a daily Writing batch, rebuild the index and run its tests as well
 as the Writing workflow checks. New terms lacking a definition remain visibly
-unconfirmed meanings; never silently fabricate a translation or count a spelling
-answer as meaning knowledge. Reading image-check status comes from the existing
+unconfirmed meanings and are not quizzes; never silently fabricate a translation
+or count a spelling answer as meaning knowledge. Reading image-check status comes from the existing
 migration metadata and is carried through without claiming a new source audit.
 
 ## Meaning sources
@@ -57,10 +58,30 @@ as the publisher's answer.
 
 ## Quiz and private progress
 
-The three modes are Japanese material/editor gloss, individual English dictionary
-sense, and exact source-form spelling. Four-choice meaning cards exclude shared
-synsets, shared base lemmas and identical glosses. Context cards explicitly ask
-for the printed form; another natural completion is not a semantic error.
+The default is a self-contained **English word → meaning** four-choice quiz,
+ten questions per round. Prefer Japanese meanings where available; use English
+definitions otherwise. Separate Japanese-only and English-only modes remain.
+Tap to grade immediately; reveal unknown words without counting them correct.
+Round results list mistakes and allow retrying only those cards. Standard batches
+contain distinct surface forms; individual-word practice can check its several
+meanings. Choices reshuffle between runs and retain a saved seed on resume.
+Four-choice cards exclude shared synsets, shared base lemmas, identical and
+overlapping glosses and every other dictionary-attested meaning of the target.
+Match the part of speech for English distractors. Meanings of phrases can use
+word-based distractors; all questions must have four distinct choices.
+
+Source-form spelling quizzes ended on 2026-10-10 after the owner reported needing
+to look at the source text. No playable question depends on a separate Reading
+passage or source-link lookup. Examples appear only after answering and are
+optional. Retired context cards retain their records/history, but do not count
+as meaning progress and cannot resume. A source-specific material gloss is kept
+in the notebook but superseded by the editor's general definition in quizzes.
+Split bilingual editorial explanations only at English sentence boundaries;
+preserve mixed Japanese strings such as `AとB` and `we are の短縮形` intact.
+
+The pronunciation button uses the browser's English speech synthesis on an
+explicit user click. A missing API or playback error is visible; the quiz still
+works. Voice availability and pronunciation quality need a real device check.
 
 Correct, wrong and revealed states are distinct. A correct answer confirms a
 card; a correct review on a different Europe/Warsaw calendar date establishes
@@ -74,6 +95,8 @@ of Reading/Writing; localStorage is a fallback with a visible failure notice.
 Notes are plain text, limited to 3,000 characters. History keeps the latest 500
 events, while all card records are retained. JSON export/import transfers user
 state only and checks stable IDs; invalid imports leave current state intact.
+Save selected answers by stable vocabulary ID, not a changing corpus array
+position. Store the last round's mistakes as well as the current session.
 
 ## Verification and publication
 
@@ -86,8 +109,9 @@ NODE_PATH=/path/to/qa/node_modules TOEFL_HTML=/tmp/toefl-site/toefl/index.html n
 ```
 
 DOM dependencies: `jsdom@26.1.0` and `fake-indexeddb@6.0.1`. The test renders every
-meaning/context card and checks correct/wrong/reveal, normalization, distinct-day
-reviews, interruption, timer, notes, filters, references, malformed state,
+playable meaning card with source-opening APIs absent. It checks four unique
+choices, correct/wrong/reveal/retry, distinct-day reviews, interruption, timer,
+saved choice ID/seed, pronunciation fallback, notes, filters, references, malformed state,
 export/import, IndexedDB with a complete-corpus record exceeding 5 MB, quota
 failures and retry. The independent Python field inventory detects omissions
 and checks both directions of source coverage, definitions and license.
