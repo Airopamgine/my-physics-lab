@@ -2,8 +2,8 @@
 """Index every published English field; no OCR, held answers, or learner drafts.
 
 The index deliberately keeps surface forms. Dictionary senses are possibilities,
-not an automatically inferred answer to the source question. Meaning cards cite
-their glossary or licensed dictionary; context cards reproduce the source form.
+not an automatically inferred answer to the source question. Quizzes test a
+standalone meaning; source excerpts are optional examples after answering.
 """
 from __future__ import annotations
 
@@ -36,6 +36,28 @@ def clean(text: str) -> str:
 
 def key(text: str) -> str:
     return clean(text).lower().strip(" .!?;:,…")
+
+
+def quiz_glosses(glosses: list) -> list:
+    # An editor definition supersedes contextual translations such as
+    # "them = それらの惑星の周囲に". Preserve the original note in the notebook,
+    # but do not turn its missing surrounding context into a word question.
+    preferred = [g for g in glosses if g["kind"] == "editor"] or glosses
+    output = []
+    for g in preferred:
+        match = JAPANESE.search(g["text"])
+        if not match:
+            continue
+        # Japanese definitions can contain Latin variables (AとB) or a
+        # contraction's expanded form (we are の短縮形). Split an editorial
+        # English sentence only at its actual sentence boundary, never at the
+        # first Japanese character in a mixed-language explanation.
+        boundary = g["text"].rfind(". ", 0, match.start()) if g["kind"] == "editor" else -1
+        start = boundary + 2 if boundary >= 0 else 0
+        english = g["text"][:start].strip()
+        japanese = g["text"][start:].strip()
+        output.append({**g, "text": japanese, "english": english})
+    return output
 
 
 def words(text: str):
@@ -271,6 +293,7 @@ def build(repo: Path, reading=None, legacy=None, writing=None, output=None) -> d
         row["sources"] = sorted(row["sources"])
         row["contexts"] = [{k: v for k, v in c.items() if k != "quality"}
                            for c in sorted(contexts[term], key=lambda c: -c["quality"])[:2]]
+        row["quizGlosses"] = quiz_glosses(row["glosses"])
         # Definitions are stored once. Entries refer to immutable WordNet synset IDs.
         result.append(row)
     indices = {e["term"]: i for i, e in enumerate(result)}
@@ -291,18 +314,22 @@ def build(repo: Path, reading=None, legacy=None, writing=None, output=None) -> d
              "contextEntries": sum(bool(e["contexts"]) for e in result),
              "contextOnly": sum(not e["dictionary"] and not e["glosses"] for e in result),
              "glossaryCards": sum(len(e["glosses"]) for e in result),
-             "dictionaryCards": sum(len(e["dictionary"]) for e in result)}
+             "dictionaryCards": sum(len(e["dictionary"]) for e in result),
+             "quizGlossaryCards": sum(len(e["quizGlosses"]) for e in result),
+             "quizEntries": sum(bool(e["quizGlosses"] or e["dictionary"]) for e in result)}
+    stats["quizCards"] = stats["quizGlossaryCards"] + stats["dictionaryCards"]
     pending_pages = reading.get("migration", {}).get("sourceImageChecksPendingPages", 0)
     pending_note = f"Reading原本画像の再照合待ち{pending_pages}ページは、語彙索引でも未照合のままです。" if pending_pages else ""
     payload = {"schemaVersion": 1, "stats": stats, "fingerprints": fingerprints,
                "fieldLabels": FIELD_LABELS, "documents": documents, "entries": result,
                "senses": definitions, "dictionarySource": lexicon["source"],
-               "coverageNote": "公開済み教材の英語本文・設問・全選択肢・解説・語注、Writingの条件・投稿・語句・モデル・ガイド、通常の音声スクリプトを索引化。未公開の保留問は含みません。" + pending_note + "固有名詞・略語・辞書未収録語は文脈カードとして残し、意味確認済みとみなしません。"}
+               "quizPolicy": "standalone-word-to-meaning-v2",
+               "coverageNote": "公開済み教材の英語本文・設問・全選択肢・解説・語注、Writingの条件・投稿・語句・モデル・ガイド、通常の音声スクリプトを索引化。未公開の保留問は含みません。" + pending_note + "クイズは英単語・表現から意味を選ぶ4択。教材の本文を参照する必要はありません。意味未登録の語は単語帳に残し、出題待ちとして明示します。"}
     validate(payload)
     output = output or repo / "static/data/toefl-vocabulary-bank.json"
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + "\n")
-    print(f"Built vocabulary: {stats['entries']} forms/phrases; {stats['glossaryCards']} glossary, {stats['dictionaryCards']} dictionary, {stats['contextEntries']} context cards; {stats['readingQuestions']} Reading / {stats['writingExercises']} Writing")
+    print(f"Built vocabulary: {stats['entries']} forms/phrases; {stats['quizCards']} standalone quizzes ({stats['quizGlossaryCards']} Japanese / {stats['dictionaryCards']} English); {stats['readingQuestions']} Reading / {stats['writingExercises']} Writing")
     return payload
 
 

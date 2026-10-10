@@ -9,7 +9,7 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
-from build_toefl_vocabulary import clean, key, restored, words, quick_exercises
+from build_toefl_vocabulary import clean, key, restored, words, quick_exercises, quiz_glosses
 
 read = lambda path: json.loads((ROOT / path).read_text())
 
@@ -125,6 +125,33 @@ class VocabularyLabTests(unittest.TestCase):
             self.assertEqual(entry["dictionary"], lexicon["words"].get(entry["term"], []))
             for lookup in entry["dictionary"]:
                 self.assertEqual(self.bank["senses"][lookup["sense"]], lexicon["senses"][lookup["sense"]])
+
+    def test_quiz_inventory_tests_meanings_without_source_reproduction(self):
+        self.assertEqual(self.bank["quizPolicy"], "standalone-word-to-meaning-v2")
+        self.assertEqual(self.bank["stats"]["quizCards"], sum(len(e["quizGlosses"]) + len(e["dictionary"]) for e in self.bank["entries"]))
+        self.assertEqual(self.bank["stats"]["quizEntries"], sum(bool(e["quizGlosses"] or e["dictionary"]) for e in self.bank["entries"]))
+        self.assertEqual(self.bank["stats"]["quizGlossaryCards"], sum(len(e["quizGlosses"]) for e in self.bank["entries"]))
+        for e in self.bank["entries"]:
+            editor = [g for g in e["glosses"] if g["kind"] == "editor"]
+            self.assertEqual([g["id"] for g in e["quizGlosses"]], [g["id"] for g in editor or e["glosses"]])
+            for g in e["quizGlosses"]:
+                original = next(o for o in e["glosses"] if o["id"] == g["id"])
+                self.assertEqual((g["english"] + " " + g["text"]).strip(), original["text"])
+                self.assertRegex(g["text"], r"[\u3040-\u30ff\u3400-\u9fff]")
+        # The source-specific phrase translated a whole relation, not "them".
+        self.assertIn("それらの惑星の周囲に", [g["text"] for g in self.entries["them"]["glosses"]])
+        self.assertFalse(any("惑星" in g["text"] for g in self.entries["them"]["quizGlosses"]))
+
+    def test_bilingual_splitting_preserves_meaning_and_stable_ids(self):
+        cases = [("Take in light. 「光を吸収する」。", "Take in light.", "「光を吸収する」。"),
+                 ("吸収する・吸い込む", "", "吸収する・吸い込む"),
+                 ("An indefinite article. 単数名詞の前。", "An indefinite article.", "単数名詞の前。"),
+                 ("A contraction of we are. we are の短縮形。", "A contraction of we are.", "we are の短縮形。"),
+                 ("AとBの不一致", "", "AとBの不一致")]
+        for text, english, japanese in cases:
+            value = quiz_glosses([{"id": "stable", "kind": "editor", "text": text, "source": None}])[0]
+            self.assertEqual(value["id"], "stable")
+            self.assertEqual((value["english"], value["text"]), (english, japanese))
 
 
 if __name__ == "__main__":
