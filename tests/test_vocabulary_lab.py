@@ -127,10 +127,11 @@ class VocabularyLabTests(unittest.TestCase):
                 self.assertEqual(self.bank["senses"][lookup["sense"]], lexicon["senses"][lookup["sense"]])
 
     def test_quiz_inventory_tests_meanings_without_source_reproduction(self):
-        self.assertEqual(self.bank["quizPolicy"], "standalone-word-to-meaning-v2")
-        self.assertEqual(self.bank["stats"]["quizCards"], sum(len(e["quizGlosses"]) + len(e["dictionary"]) for e in self.bank["entries"]))
-        self.assertEqual(self.bank["stats"]["quizEntries"], sum(bool(e["quizGlosses"] or e["dictionary"]) for e in self.bank["entries"]))
-        self.assertEqual(self.bank["stats"]["quizGlossaryCards"], sum(len(e["quizGlosses"]) for e in self.bank["entries"]))
+        self.assertEqual(self.bank["quizPolicy"], "standalone-word-to-meaning-v3")
+        active = [e for e in self.bank["entries"] if e["learning"]["eligible"]]
+        self.assertEqual(self.bank["stats"]["quizCards"], sum(len(e["quizGlosses"]) + len(e["dictionary"]) for e in active))
+        self.assertEqual(self.bank["stats"]["quizEntries"], len(active))
+        self.assertEqual(self.bank["stats"]["quizGlossaryCards"], sum(len(e["quizGlosses"]) for e in active))
         for e in self.bank["entries"]:
             editor = [g for g in e["glosses"] if g["kind"] == "editor"]
             self.assertEqual([g["id"] for g in e["quizGlosses"]], [g["id"] for g in editor or e["glosses"]])

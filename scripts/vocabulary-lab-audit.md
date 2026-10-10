@@ -108,3 +108,61 @@ rechecks and the publisher answer-page absence are unchanged.
 Authenticated desktop/mobile layout and real-device speech playback remain
 unverified; the ordinary browser has the existing study login. Authentication
 has not been changed or bypassed. The generated bank still loads on demand.
+
+## Level/subject learning and elementary exclusions — 2026-10-10
+
+The notebook and quiz now share practical/general, academic/discussion and
+specialist/advanced study tiers, plus seven semantic subject filters. These are
+editorial learning routes, explicitly not official CEFR/TOEFL ratings. The word's
+common use determines its tier; individual dictionary meanings and Japanese
+glosses have their own subjects. For example, lodging and eye-focus meanings of
+accommodation are separated. Recommended practice falls back to a matching
+English meaning when the available Japanese meaning belongs to another subject.
+Technical compounds such as conduction band, carbon fixation and
+antigen-presenting cell retain specialist routes. Frequency and word length
+alone do not determine tier.
+
+Reviewed elementary lemmas, their attested inflections, contractions and a small
+list of transparent everyday expressions are reference-only. This includes
+the/good/go/went/books/children, classroom/information/vocabulary and by noon.
+There are 1,490 such indexed items and 88 notation/common-name items. Their IDs,
+definitions, source references, notes, stars and past answers remain. The default
+notebook hides reference-only items; selecting that tier opens the notebook and
+provides an explicit reason instead of a quiz button. Neither targets nor
+distractors can be reference-only. Useful phrases with basic components, such
+as be related to, and technical targets such as cell and force are preserved.
+
+The full inventory is still 13,742 forms/expressions in 4,057 documents and
+28,514 checked text fields. Source fingerprints and every original definition,
+context offset, document/sourceRef, ID and inverse association were compared to
+the previous published bank and are unchanged. There are now 45,609 playable
+meaning cards: 2,984 Japanese and 42,625 English, covering 10,774 entries. The
+14,902 excluded meaning cards remain archived. The 1,418 entries without a
+meaning explanation are counted independently and are not newly fabricated.
+Reading remains 3,651 questions; Writing remains 275 exercises. No private
+source files or learner answers are included in this change.
+
+Level, subject, search, source and state filters combine for standard batches,
+notebook quiz buttons and source progress. Counts distinguish vocabulary entries
+from meaning cards. The level/subject preferences are saved in the existing
+version-1 progress schema with backward-compatible defaults. Meaning choices
+prefer eligible peers from the same tier/subject and keep every previous synonym,
+other-sense and part-of-speech safeguard. Old-policy interrupted sets are retired
+because their choice pool changed; past records/history are preserved. New sets
+retain a policy identifier, stable choice IDs and shuffle seed across resume.
+
+The WordNet topic derivative is reproducible from the unchanged official 3.0
+distribution. It preserves immutable synset identities, uses reviewed topic
+anchors, lexicographer categories and domain/hypernym links, fingerprints its
+inputs and the exact frozen dictionary senses, and is read offline in deployment.
+The original dictionary definitions and license are unchanged.
+
+The 129 Python tests and Hugo build pass. Full Reading (3,651), Writing (275)
+DOM and three-timezone daily-menu checks pass. The full 45,609-card vocabulary
+DOM audit passes: all level/subject intersections constrain notebook and quiz,
+every target/distractor is eligible, the reference-only tier cannot start cards,
+and settings, wrong/reveal/retry, notes/stars, timers, stable choice IDs,
+legacy/basic history, full-corpus IndexedDB and export/import remain intact.
+The ordinary browser again displays the
+study-password gate, so authenticated desktop/mobile layout and device speech
+remain unverified. Authentication was neither changed nor bypassed.

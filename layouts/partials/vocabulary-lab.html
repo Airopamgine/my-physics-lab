@@ -2,7 +2,7 @@
   data-base-path="{{ "/" | relURL }}" data-bank-url="{{ "data/toefl-vocabulary-bank.json" | relURL }}?v={{ readFile "static/data/toefl-vocabulary-bank.json" | sha256 | truncate 12 "" }}">
   <div class="vocabulary-heading">
     <div><p class="toefl-eyebrow">Learn · tap · review</p><h2 id="vocabulary-title">単語帳 &amp; 単語クイズ</h2>
-      <p>英単語を見て、意味を4択からタップ。答え・解説・復習まで、この画面だけで学べます。</p></div>
+      <p>レベル・分野を選んで、英単語の意味を4択で練習。基本語は出題から外しています。</p></div>
     <button class="toefl-button toefl-button--primary" id="vocabulary-load" type="button" disabled>単語クイズを開く</button>
   </div>
   <p id="vocabulary-status" role="status">学習ページを開いてから単語帳を読み込めます。</p>
@@ -10,12 +10,20 @@
     <div class="vocabulary-stats" id="vocabulary-stats" aria-live="polite"></div>
     <details class="vocabulary-guide"><summary>網羅範囲と、クイズの使い方</summary>
       <p id="vocabulary-coverage-note"></p>
+      <p id="vocabulary-study-note"></p>
+      <p>基本語（the / good / goなど）は活用形も含めてクイズ対象外です。記号・一般的な人名も出題しません。単語帳の「出題対象外（参照用）」で用例・メモ・出典を確認できます。基本語を含む重要表現や、cell / forceなどの専門用法がある学習語は別に扱います。</p>
       <p>英単語・表現に合う意味を4択から選びます。おすすめでは、日本語の語義がある語は日本語、その他は英語の定義で出題。通常の10問セットでは同じ語は重複しません。日本語だけ・英英だけの練習も選べます。本文を見ながら掲載語の綴りを当てる出題は終了しました。</p>
       <p>選ぶとすぐ答え合わせ。わからない場合は答えと説明を読んで覚え、終了後に誤答・わからなかった語をもう一度練習できます。用例と出典は回答後の任意の補足です。辞書の意味は本文中の意味を自動判定したものではありません。</p>
       <p>一度正解したカードを「確認済み」、別の日の復習でも正解したカードを「定着」として記録します。誤答・答えを見たカードは復習に戻します。既知の語を手動で確認済みにすることはできません。</p>
       <p>語彙をすべて確認しても、文法・論理・内容推論の練習は必要です。掲載語のカバー率や正解数はTOEFLの公式スコアでも、全問が解ける保証でもありません。</p>
       <p>一般辞書の説明：<a href="https://wordnet.princeton.edu/" target="_blank" rel="noopener noreferrer">WordNet 3.0</a>。<a href="{{ "data/wordnet-license.txt" | relURL }}">著作権・利用条件</a>。日本語の語注は既存教材または編集補足として出典を分けて表示します。</p>
     </details>
+    <div class="vocabulary-study-controls" aria-label="レベル・分野を選ぶ">
+      <label>学習レベル<select id="vocabulary-level"><option value="all">出題対象（全レベル）</option></select></label>
+      <label>分野<select id="vocabulary-subject"><option value="all">全分野</option></select></label>
+      <button class="toefl-button toefl-button--ghost" id="vocabulary-clear-study" type="button">レベル・分野をリセット</button>
+      <p id="vocabulary-level-description"></p>
+    </div>
     <div class="vocabulary-controls">
       <label>単語・意味を検索<input type="search" id="vocabulary-search" placeholder="例：absorb、間接疑問、吸収" autocomplete="off"></label>
       <label>範囲<select id="vocabulary-scope"><option value="all">全教材</option><option>Task 1</option><option>Task 2</option><option>Task 3</option><option>Writing</option><option>Listening</option><option>元教材・語注</option></select></label>
@@ -49,6 +57,7 @@
         <div class="vocabulary-heading"><p id="vocabulary-question-count"></p><span id="vocabulary-timer" aria-label="今回の経過時間">0:00</span></div>
         <progress id="vocabulary-run-progress" aria-label="今回の問題の進み具合" max="10" value="0"></progress>
         <p class="toefl-eyebrow" id="vocabulary-question-type"></p>
+        <p id="vocabulary-question-study" class="vocabulary-meta"></p>
         <h3 id="vocabulary-question" tabindex="-1"></h3>
         <button id="vocabulary-speak" class="toefl-button toefl-button--secondary" type="button">🔊 発音を聞く</button><p id="vocabulary-audio-status" role="status"></p>
         <p id="vocabulary-hint"></p><div id="vocabulary-choices" class="vocabulary-choices" role="group" aria-label="意味の選択肢"></div>
@@ -58,7 +67,7 @@
     </section>
     <section id="vocabulary-coverage" hidden aria-label="教材ごとの語彙確認状況">
       <label class="vocabulary-source-search">教材を検索<input type="search" id="vocabulary-source-search" placeholder="教材名、問題ID、PDF参照" autocomplete="off"></label>
-      <p>各教材に現れる語形・重要表現を数えます。同じ語は他の教材での確認も反映します。意味未登録の項目は出題待ちとして残します。以前の本文再現クイズの記録も保存されていますが、意味の確認数には含めません。</p>
+      <p>各教材に現れる語形・重要表現を数えます。意味の進捗は選んだレベル・分野の出題対象に対して表示します。基本語・記号等の除外と意味未登録を分けて表示します。以前の記録は保存され、現在の意味確認数には含めません。</p>
       <p id="vocabulary-source-total"></p><div id="vocabulary-source-list"></div><button class="toefl-button toefl-button--secondary" id="vocabulary-source-more" type="button">次の20教材</button>
     </section>
     <details class="vocabulary-guide"><summary>保存・最近の履歴</summary>

@@ -14,6 +14,7 @@ import re
 import unicodedata
 from collections import defaultdict
 from pathlib import Path
+from vocabulary_study import classify, meaning_subjects, LEVELS, SUBJECTS
 
 WORD = re.compile(r"[A-Za-zÀ-ÖØ-öø-ÿĀ-ž]+(?:['-][A-Za-zÀ-ÖØ-öø-ÿĀ-ž]+)*")
 JAPANESE = re.compile(r"[\u3040-\u30ff\u3400-\u9fff]")
@@ -230,6 +231,7 @@ def build(repo: Path, reading=None, legacy=None, writing=None, output=None) -> d
     writing = writing or read("static/data/toefl-writing-bank.json")
     lexicon = read("data/toefl-vocabulary/wordnet-lexicon.json")
     supplemental = read("data/toefl-vocabulary/editor-glossary.json")
+    study_topics = read("data/toefl-vocabulary/wordnet-study-topics.json")
     documents, glossary = corpus(repo, reading, legacy, writing)
     entries = {}
     contexts = defaultdict(list)
@@ -294,6 +296,9 @@ def build(repo: Path, reading=None, legacy=None, writing=None, output=None) -> d
         row["contexts"] = [{k: v for k, v in c.items() if k != "quality"}
                            for c in sorted(contexts[term], key=lambda c: -c["quality"])[:2]]
         row["quizGlosses"] = quiz_glosses(row["glosses"])
+        row["learning"] = classify(row, lexicon["senses"], study_topics["senseTopics"])
+        for gloss in row["quizGlosses"]:
+            gloss["subjects"] = meaning_subjects(gloss["english"] + " " + gloss["text"], term)
         # Definitions are stored once. Entries refer to immutable WordNet synset IDs.
         result.append(row)
     indices = {e["term"]: i for i, e in enumerate(result)}
@@ -302,6 +307,12 @@ def build(repo: Path, reading=None, legacy=None, writing=None, output=None) -> d
         doc["fields"] = sorted(doc["fields"])
     dictionary_ids = {s["sense"] for e in result for s in e["dictionary"]}
     definitions = {sid: lexicon["senses"][sid] for sid in sorted(dictionary_ids)}
+    sense_subjects = {sid: meaning_subjects(definition["definition"], term=" ".join(definition["synonyms"]), known_topics=study_topics["senseTopics"].get(sid, [])) for sid, definition in definitions.items()}
+    for row in result:
+        if row["learning"]["eligible"]:
+            topics = {topic for d in row["dictionary"] for topic in sense_subjects[d["sense"]]}
+            topics.update(topic for g in row["quizGlosses"] for topic in g["subjects"])
+            row["learning"]["subjects"] = [s["id"] for s in SUBJECTS if s["id"] in topics]
     fingerprints = {"reading": hashlib.sha256(json.dumps(reading, ensure_ascii=False, sort_keys=True).encode()).hexdigest(),
                     "writing": hashlib.sha256(json.dumps(writing, ensure_ascii=False, sort_keys=True).encode()).hexdigest(),
                     "legacy": hashlib.sha256(json.dumps(legacy, ensure_ascii=False, sort_keys=True).encode()).hexdigest()}
@@ -315,21 +326,30 @@ def build(repo: Path, reading=None, legacy=None, writing=None, output=None) -> d
              "contextOnly": sum(not e["dictionary"] and not e["glosses"] for e in result),
              "glossaryCards": sum(len(e["glosses"]) for e in result),
              "dictionaryCards": sum(len(e["dictionary"]) for e in result),
-             "quizGlossaryCards": sum(len(e["quizGlosses"]) for e in result),
-             "quizEntries": sum(bool(e["quizGlosses"] or e["dictionary"]) for e in result)}
-    stats["quizCards"] = stats["quizGlossaryCards"] + stats["dictionaryCards"]
+             "quizGlossaryCards": sum(len(e["quizGlosses"]) for e in result if e["learning"]["eligible"]),
+             "quizDictionaryCards": sum(len(e["dictionary"]) for e in result if e["learning"]["eligible"]),
+             "quizEntries": sum(e["learning"]["eligible"] for e in result),
+             "excludedBasicEntries": sum(e["learning"]["reason"] == "基本語・基本活用形" for e in result),
+             "excludedNotationEntries": sum(e["learning"]["reason"] == "記号・人名・表記" for e in result)}
+    stats["quizCards"] = stats["quizGlossaryCards"] + stats["quizDictionaryCards"]
+    stats["excludedCards"] = sum(len(e["quizGlosses"]) + len(e["dictionary"]) for e in result if not e["learning"]["eligible"])
+    levels = [{**level, "entries": sum(e["learning"]["level"] == level["id"] for e in result),
+               "cards": sum(len(e["quizGlosses"]) + len(e["dictionary"]) for e in result if e["learning"]["level"] == level["id"] and e["learning"]["eligible"])} for level in LEVELS]
+    subjects = [{**subject, "entries": sum(e["learning"]["eligible"] and subject["id"] in e["learning"]["subjects"] for e in result)} for subject in SUBJECTS]
     pending_pages = reading.get("migration", {}).get("sourceImageChecksPendingPages", 0)
     pending_note = f"Reading原本画像の再照合待ち{pending_pages}ページは、語彙索引でも未照合のままです。" if pending_pages else ""
     payload = {"schemaVersion": 1, "stats": stats, "fingerprints": fingerprints,
                "fieldLabels": FIELD_LABELS, "documents": documents, "entries": result,
-               "senses": definitions, "dictionarySource": lexicon["source"],
-               "quizPolicy": "standalone-word-to-meaning-v2",
-               "coverageNote": "公開済み教材の英語本文・設問・全選択肢・解説・語注、Writingの条件・投稿・語句・モデル・ガイド、通常の音声スクリプトを索引化。未公開の保留問は含みません。" + pending_note + "クイズは英単語・表現から意味を選ぶ4択。教材の本文を参照する必要はありません。意味未登録の語は単語帳に残し、出題待ちとして明示します。"}
+               "senses": definitions, "senseSubjects": sense_subjects, "dictionarySource": lexicon["source"],
+               "quizPolicy": "standalone-word-to-meaning-v3",
+               "study": {"levels": levels, "subjects": subjects, "source": study_topics["source"],
+                         "note": "レベルは編集上の学習目安で、公式CEFR・TOEFL判定ではありません。分野は語義ごとに分類し、多義語は複数に属します。語の長さや教材内頻度だけで難易度を決めません。"},
+               "coverageNote": "公開済み教材の英語本文・設問・全選択肢・解説・語注、Writingの条件・投稿・語句・モデル・ガイド、通常の音声スクリプトを索引化。未公開の保留問は含みません。" + pending_note + "クイズは英単語・表現から意味を選ぶ4択。教材の本文を参照する必要はありません。基本語と記号・人名をクイズから除外し、参照用索引と以前の記録は保持します。意味未登録の語は単語帳に残し、出題待ちとして明示します。"}
     validate(payload)
     output = output or repo / "static/data/toefl-vocabulary-bank.json"
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + "\n")
-    print(f"Built vocabulary: {stats['entries']} forms/phrases; {stats['quizCards']} standalone quizzes ({stats['quizGlossaryCards']} Japanese / {stats['dictionaryCards']} English); {stats['readingQuestions']} Reading / {stats['writingExercises']} Writing")
+    print(f"Built vocabulary: {stats['entries']} forms/phrases; {stats['quizCards']} standalone quizzes ({stats['quizGlossaryCards']} Japanese / {stats['quizDictionaryCards']} English); {stats['excludedBasicEntries']} basic entries excluded; {stats['readingQuestions']} Reading / {stats['writingExercises']} Writing")
     return payload
 
 
@@ -337,6 +357,11 @@ def validate(bank):
     assert len({e["id"] for e in bank["entries"]}) == len(bank["entries"])
     for i, row in enumerate(bank["entries"]):
         assert row["sources"] and row["term"]
+        learning = row["learning"]
+        assert learning["level"] in {level["id"] for level in LEVELS}
+        assert learning["subjects"] and set(learning["subjects"]) <= {subject["id"] for subject in SUBJECTS}
+        assert learning["eligible"] == (not learning["reason"])
+        assert learning["eligible"] == (learning["level"] != "reference")
         for n in row["sources"]:
             assert i in bank["documents"][n]["terms"], (row["id"], n)
         for c in row["contexts"]:

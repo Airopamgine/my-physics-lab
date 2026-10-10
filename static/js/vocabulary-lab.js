@@ -8,9 +8,10 @@
   const normalize = s => String(s).normalize("NFKC").replace(/[‘’]/g, "'").replace(/[‐‑–]/g, "-").trim().replace(/\s+/g, " ").toLowerCase();
   const day = () => new Intl.DateTimeFormat("sv-SE", { timeZone: "Europe/Warsaw" }).format(new Date(Date.now()));
   const number = n => n.toLocaleString();
-  const fresh = () => ({ schemaVersion: 1, updatedAt: 0, records: {}, notes: {}, stars: {}, history: [], session: null, lastRound: null });
+  const fresh = () => ({ schemaVersion: 1, updatedAt: 0, records: {}, notes: {}, stars: {}, history: [], session: null, lastRound: null, preferences: { level: "all", subject: "all" } });
   let bank = null, state = fresh(), unlocked = false, loading = false, page = 0, sourcePage = 0, selectedSource = null;
   let cards = [], byCard = new Map(), byEntry = new Map(), searchIndex = [], filtered = [], selectedChoice = null;
+  let quizIndices = [], choicePeers = new Map();
   let activeStart = null, storageFailed = false, view = "quiz", retiredSession = false;
   let database = null;
 
@@ -51,6 +52,9 @@
     if (!raw || raw.schemaVersion !== 1 || typeof raw.records !== "object" || !raw.records || Array.isArray(raw.records)) throw new Error("Invalid progress");
     const output = fresh();
     output.updatedAt = Number.isFinite(raw.updatedAt) && raw.updatedAt >= 0 ? raw.updatedAt : 0;
+    for (const [name, values] of [["level", bank.study.levels], ["subject", bank.study.subjects]]) {
+      if (raw.preferences?.[name] === "all" || values.some(value => value.id === raw.preferences?.[name])) output.preferences[name] = raw.preferences[name];
+    }
     for (const [id, r] of Object.entries(raw.records)) {
       if (!byCard.has(id) || !r || typeof r !== "object") continue;
       const int = (name, max) => Number.isInteger(r[name]) && r[name] >= 0 ? Math.min(max, r[name]) : 0;
@@ -64,8 +68,8 @@
     output.history = (Array.isArray(raw.history) ? raw.history : []).filter(h => h && byCard.has(h.id) && ["correct", "incorrect", "revealed"].includes(h.result) && Number.isFinite(h.at)).slice(-500)
       .map(h => ({ id: h.id, result: h.result, at: h.at }));
     const s = raw.session;
-    if (s && Array.isArray(s.ids) && s.ids.length && s.ids.length <= 50 && new Set(s.ids).size === s.ids.length && s.ids.every(id => byCard.has(id) && !byCard.get(id).archived) && Number.isInteger(s.index) && s.index >= 0 && s.index < s.ids.length) {
-      output.session = { ids: [...s.ids], index: s.index, elapsed: Number.isFinite(s.elapsed) && s.elapsed >= 0 ? Math.min(s.elapsed, 86400000) : 0,
+    if (s && s.policy === bank.quizPolicy && Array.isArray(s.ids) && s.ids.length && s.ids.length <= 50 && new Set(s.ids).size === s.ids.length && s.ids.every(id => byCard.has(id) && !byCard.get(id).archived) && Number.isInteger(s.index) && s.index >= 0 && s.index < s.ids.length) {
+      output.session = { policy: bank.quizPolicy, ids: [...s.ids], index: s.index, elapsed: Number.isFinite(s.elapsed) && s.elapsed >= 0 ? Math.min(s.elapsed, 86400000) : 0,
         selection: typeof s.selection === "string" && byEntry.has(s.selection) ? s.selection : null,
         seed: Number.isInteger(s.seed) && s.seed >= 0 && s.seed <= 0xffffffff ? s.seed : 0,
         checked: s.checked === true, result: ["correct", "incorrect", "revealed"].includes(s.result) ? s.result : "revealed" };
@@ -90,57 +94,78 @@
       const raw = !stored || local && (local.updatedAt || 0) > (stored.updatedAt || 0) ? local : stored;
       if (raw) {
         state = safeState(raw);
-        retiredSession = Boolean(raw.session?.ids?.some(id => byCard.get(id)?.archived));
-        if (retiredSession) { save(); el("status").textContent = "本文再現クイズは終了しました。以前の正誤・メモは保持し、新しい意味4択で再開できます。"; }
+        retiredSession = Boolean(raw.session && !state.session);
+        if (retiredSession) { save(); el("status").textContent = "旧方式・出題対象外のカードを含むセットは終了しました。以前の正誤・メモは保持し、選んだレベル・分野の意味4択で再開できます。"; }
       }
     }
     catch (_) { state = fresh(); el("status").textContent = "保存済み語彙記録を読み込めなかったため、新しく始めます。Reading・Writingの記録はそのままです。"; }
   }
   function buildCards() {
-    cards = []; byCard.clear(); byEntry.clear();
+    cards = []; byCard.clear(); byEntry.clear(); quizIndices = []; choicePeers.clear();
     bank.entries.forEach((e, index) => {
       const list = [];
       const add = (mode, suffix, data, archived = false) => { const c = { id: `${e.id}|${suffix}`, entry: index, mode, archived, ...data }; if (!archived) { cards.push(c); list.push(c); } byCard.set(c.id, c); };
       if (e.contexts.length) add("context", "context", {}, true);
       for (const g of e.glosses) {
         const approved = e.quizGlosses.find(q => q.id === g.id);
-        add("glossary", `g:${g.id}`, { gloss: approved || g }, !approved);
+        add("glossary", `g:${g.id}`, { gloss: approved || g, subjects: approved?.subjects || e.learning.subjects }, !approved || !e.learning.eligible);
       }
-      for (const d of e.dictionary) add("dictionary", `d:${d.sense}`, { sense: d.sense, lemma: d.lemma });
+      for (const d of e.dictionary) add("dictionary", `d:${d.sense}`, { sense: d.sense, lemma: d.lemma, subjects: bank.senseSubjects[d.sense] }, !e.learning.eligible);
       byEntry.set(e.id, { e, index, cards: list });
+      if (e.learning.eligible) {
+        quizIndices.push(index);
+        for (const subject of e.learning.subjects) { const key = `${e.learning.level}|${subject}`; if (!choicePeers.has(key)) choicePeers.set(key, []); choicePeers.get(key).push(index); }
+      }
       searchIndex[index] = normalize([e.term, ...e.glosses.map(g => g.text), ...e.dictionary.map(d => bank.senses[d.sense].definition)].join(" "));
     });
   }
   const record = c => state.records[c.id];
   const confirmed = c => record(c)?.result === "correct";
   const mastered = c => confirmed(c) && record(c).streak >= 2;
-  const hasWrong = e => byEntry.get(e.id).cards.some(c => record(c) && !confirmed(c));
-  const known = e => byEntry.get(e.id).cards.length > 0 && byEntry.get(e.id).cards.every(confirmed);
+  const cardInSubject = c => el("subject").value === "all" || c.subjects.includes(el("subject").value);
+  const studyCards = e => byEntry.get(e.id).cards.filter(cardInSubject);
+  const hasWrong = e => studyCards(e).some(c => record(c) && !confirmed(c));
+  const known = e => studyCards(e).length > 0 && studyCards(e).every(confirmed);
+  const studyLabel = e => [bank.study.levels.find(l => l.id === e.learning.level).label, ...e.learning.subjects.map(id => bank.study.subjects.find(s => s.id === id).label)].join(" · ");
+  function setupStudy() {
+    for (const [name, values] of [["level", bank.study.levels], ["subject", bank.study.subjects]]) {
+      for (const value of values) { const option = node("option", `${value.label} · ${number(value.entries)}語`); option.value = value.id; el(name).append(option); }
+      el(name).value = state.preferences[name];
+    }
+    el("study-note").textContent = bank.study.note;
+  }
+  function inStudy(e) {
+    const level = el("level").value, subject = el("subject").value;
+    if (level !== "all" && e.learning.level !== level) return false;
+    if (level === "all" && !e.learning.eligible && el("filter").value !== "contextOnly") return false;
+    return subject === "all" || e.learning.subjects.includes(subject);
+  }
   function stats() {
     const total = bank.stats;
     const meaning = cards;
     el("stats").replaceChildren();
     for (const [value, caption, detail] of [
       [number(total.entries), "収録した語形・表現", `${number(total.wordForms)}語形・${number(total.phrases)}表現`],
-      [number(meaning.length), "本文なしで解ける意味4択", `日本語 ${number(total.quizGlossaryCards)}問・英英 ${number(total.dictionaryCards)}問`],
+      [number(meaning.length), "基本語を除いた意味4択", `日本語 ${number(total.quizGlossaryCards)}問・英英 ${number(total.quizDictionaryCards)}問`],
       [`${number(meaning.filter(confirmed).length)} / ${number(meaning.length)}`, "意味を確認", `別日の復習で定着: ${number(meaning.filter(mastered).length)}問`],
       [number(total.readingQuestions + total.writingExercises), "対応するReading・Writing", `Reading ${number(total.readingQuestions)}問・Writing ${number(total.writingExercises)}演習`]
     ]) {
       const tile = node("div", "", "vocabulary-stat"); tile.append(node("strong", value), node("span", caption), node("small", detail)); el("stats").append(tile);
     }
-    el("coverage-note").textContent = bank.coverageNote + ` 教材内の${number(total.textFields)}テキスト欄を照合。日本語の説明がある${number(total.glossaryEntries)}項目、英英説明がある${number(total.dictionaryEntries)}項目、意味の説明がない${number(total.contextOnly)}項目。`;
+    el("coverage-note").textContent = bank.coverageNote + ` 教材内の${number(total.textFields)}テキスト欄を照合。基本語 ${number(total.excludedBasicEntries)}項目・記号等 ${number(total.excludedNotationEntries)}項目は対象外。意味の説明がない${number(total.contextOnly)}項目は索引に保持。`;
   }
   function matches(e, i) {
     const scope = el("scope").value, filter = el("filter").value;
+    if (!inStudy(e)) return false;
     if (selectedSource !== null && !bank.documents[selectedSource].terms.includes(i)) return false;
     if (scope !== "all" && !e.sources.some(n => bank.documents[n].category === scope)) return false;
     if (normalize(el("search").value) && !searchIndex[i].includes(normalize(el("search").value))) return false;
-    if (filter === "unseen" && known(e)) return false;
+    if (filter === "unseen" && (!studyCards(e).length || known(e))) return false;
     if (filter === "review" && !hasWrong(e)) return false;
-    if (filter === "due" && !byEntry.get(e.id).cards.some(c => record(c) && record(c).due <= Date.now())) return false;
+    if (filter === "due" && !studyCards(e).some(c => record(c) && record(c).due <= Date.now())) return false;
     if (filter === "known" && !known(e)) return false;
     if (filter === "star" && !state.stars[e.id]) return false;
-    if (filter === "contextOnly" && byEntry.get(e.id).cards.length) return false;
+    if (filter === "contextOnly" && (e.quizGlosses.length || e.dictionary.length)) return false;
     return true;
   }
   function filterEntries() {
@@ -149,7 +174,9 @@
     const query = normalize(el("search").value);
     filtered.sort((a, b) => Number(bank.entries[b].term === query) - Number(bank.entries[a].term === query) || bank.entries[b].frequency - bank.entries[a].frequency || bank.entries[a].term.localeCompare(bank.entries[b].term));
     page = Math.min(page, Math.max(0, Math.ceil(filtered.length / PAGE) - 1));
-    el("selection").textContent = selectedSource === null ? `現在の範囲: ${number(filtered.length)}語・表現` : `教材: ${bank.documents[selectedSource].title} · ${number(filtered.length)}語・表現`;
+    const labels = [el("level").selectedOptions[0].textContent.split(" · ")[0], el("subject").selectedOptions[0].textContent.split(" · ")[0]].join(" / ");
+    el("selection").textContent = `${selectedSource === null ? "現在の範囲" : `教材: ${bank.documents[selectedSource].title}`} · ${labels} · ${number(filtered.length)}語・表現`;
+    el("level-description").textContent = el("level").value === "all" ? "基本語・記号等を省いた全レベルから出題します。各レベルは学習の目安です。分野は複数に属する語もあります。" : bank.study.levels.find(l => l.id === el("level").value).description;
     el("clear-source").hidden = selectedSource === null;
   }
   function marked(c) {
@@ -170,6 +197,7 @@
   }
   function detail(e, index) {
     const body = node("div");
+    body.append(node("p", studyLabel(e), "vocabulary-meta"));
     const glossList = node("ul");
     for (const g of e.glosses) {
       const li = node("li", g.text); li.append(node("small", g.kind === "editor" ? "編集補足" : `教材語注 · ${bank.documents[g.source].title}`)); glossList.append(li);
@@ -180,11 +208,11 @@
       for (const d of e.dictionary) { const s = bank.senses[d.sense]; list.append(node("li", `${({ n: "noun", v: "verb", a: "adjective", r: "adverb" })[s.pos]} · ${d.lemma}: ${s.definition}`)); }
       dictionary.append(list); body.append(dictionary);
     }
-    if (!byEntry.get(e.id).cards.length) body.append(node("p", "意味未登録・出題待ち。固有名詞・略語なども索引に残しています。意味のクイズを作れる定義が確定してから出題します。"));
+    if (!e.learning.eligible) body.append(node("p", e.learning.reason === "意味未登録" ? "意味未登録・出題待ち。意味のクイズを作れる定義が確定してから出題します。" : `クイズ対象外：${e.learning.reason}。参照用の語注・用例・自分のメモ・以前の学習記録は保持します。`));
     for (const c of e.contexts) { body.append(marked(c), node("small", `${bank.documents[c.source].title} · ${bank.fieldLabels[c.field] || c.field}`)); }
     const actions = node("div", "", "toefl-actions");
     for (const [mode, caption] of [["glossary", "日本語の意味をクイズ"], ["dictionary", "英語の定義をクイズ"]]) {
-      if (!byEntry.get(e.id).cards.some(c => c.mode === mode)) continue;
+      if (!studyCards(e).some(c => c.mode === mode)) continue;
       const b = node("button", caption, "toefl-button toefl-button--secondary"); b.type = "button"; b.dataset.vocabularyEntryQuiz = index; b.dataset.mode = mode; actions.append(b);
     }
     const star = node("button", state.stars[e.id] ? "★ お気に入り解除" : "☆ お気に入り", "toefl-button toefl-button--ghost"); star.type = "button"; star.dataset.vocabularyStar = index; star.setAttribute("aria-pressed", Boolean(state.stars[e.id])); actions.append(star); body.append(actions);
@@ -202,8 +230,10 @@
     el("book-total").textContent = `${number(filtered.length)}語・表現 · 語形違いも残しています。開くと意味・用例・メモ・出典を表示します。`;
     for (const i of filtered.slice(page * PAGE, (page + 1) * PAGE)) {
       const e = bank.entries[i], card = node("details", "", "vocabulary-entry"), summary = node("summary"); summary.append(node("strong", e.term));
-      const listCards = byEntry.get(e.id).cards;
-      summary.append(node("small", `${e.quizGlosses.length ? "日本語語注あり" : e.dictionary.length ? "英英説明あり" : "意味未登録・出題待ち"} · ${number(e.sources.length)}出典 · 確認 ${listCards.filter(confirmed).length}/${listCards.length}${state.stars[e.id] ? " · ★" : ""}`));
+      const listCards = studyCards(e);
+      const badges = node("div", "", "vocabulary-study-badges");
+      for (const label of studyLabel(e).split(" · ")) badges.append(node("span", label)); summary.append(badges);
+      summary.append(node("small", `${!e.learning.eligible ? e.learning.reason === "意味未登録" ? "意味未登録・出題待ち" : e.learning.reason + " · 対象外" : e.quizGlosses.length ? "日本語語注あり" : "英英説明あり"} · ${number(e.sources.length)}出典 · 確認 ${listCards.filter(confirmed).length}/${listCards.length}${state.stars[e.id] ? " · ★" : ""}`));
       card.append(summary); let filled = false;
       card.addEventListener("toggle", () => { if (card.open && !filled) { card.append(detail(e, i)); filled = true; } }); list.append(card);
     }
@@ -224,11 +254,13 @@
     el("source-total").textContent = `${number(docs.length)}教材・問題 · ページ ${docs.length ? sourcePage + 1 : 0}`;
     for (const { d, n } of docs.slice(sourcePage * 20, (sourcePage + 1) * 20)) {
       const row = node("article", "", "vocabulary-source-row"); row.append(node("h4", d.title), node("small", `${d.category} · ${d.id} · ${d.sourceRefs.join(" / ")}`, "vocabulary-meta"));
-      const meaning = d.terms.flatMap(i => byEntry.get(bank.entries[i].id).cards);
-      const missing = d.terms.filter(i => !byEntry.get(bank.entries[i].id).cards.length).length;
-      row.append(node("p", `${number(d.terms.length)}語・表現 · 意味 ${number(meaning.filter(confirmed).length)}/${number(meaning.length)}問 · 意味未登録・出題待ち ${number(missing)}項目`));
+      const selected = d.terms.filter(i => inStudy(bank.entries[i]));
+      const meaning = selected.flatMap(i => studyCards(bank.entries[i]));
+      const missing = d.terms.filter(i => !bank.entries[i].quizGlosses.length && !bank.entries[i].dictionary.length).length;
+      const excluded = d.terms.filter(i => ["基本語・基本活用形", "記号・人名・表記"].includes(bank.entries[i].learning.reason)).length;
+      row.append(node("p", `${number(d.terms.length)}語・表現 · 選択範囲 ${number(selected.length)}項目 · 意味 ${number(meaning.filter(confirmed).length)}/${number(meaning.length)}問 · 基本語・記号等の対象外 ${number(excluded)}項目 · 意味未登録 ${number(missing)}項目`));
       const progress = node("progress"); progress.max = Math.max(1, meaning.length); progress.value = meaning.filter(confirmed).length; progress.setAttribute("aria-label", "意味の確認率"); row.append(progress);
-      const action = sourceButton(n); action.textContent = "この教材の全語彙を確認"; row.append(action);
+      const action = sourceButton(n); action.textContent = "この教材の選択範囲を確認"; row.append(action);
       const open = node("button", "教材を開く", "toefl-button toefl-button--ghost"); open.type = "button"; open.dataset.vocabularyMaterial = n; row.append(open); el("source-list").append(row);
     }
     el("source-more").disabled = (sourcePage + 1) * 20 >= docs.length;
@@ -248,10 +280,10 @@
   }
   function render() { filterEntries(); stats(); renderHistory(); if (view === "book") renderBook(); if (view === "coverage") renderCoverage(); queueInfo(); renderRound(); }
   function inMode(c, mode) {
-    return mode === "learn" ? c.mode === "glossary" || !bank.entries[c.entry].quizGlosses.length : c.mode === mode;
+    return mode === "learn" ? c.mode === "glossary" || !byEntry.get(bank.entries[c.entry].id).cards.some(g => g.mode === "glossary" && cardInSubject(g)) : c.mode === mode;
   }
   function queueInfo() {
-    const mode = el("mode").value, indices = new Set(filtered), list = cards.filter(c => inMode(c, mode) && indices.has(c.entry));
+    const mode = el("mode").value, indices = new Set(filtered), list = cards.filter(c => inMode(c, mode) && indices.has(c.entry) && cardInSubject(c));
     el("queue-info").textContent = `${number(new Set(list.map(c => c.entry)).size)}語・表現が対象 · 意味4択 ${number(list.length)}問 · 確認済み ${number(list.filter(confirmed).length)}問。誤答・未確認を優先し、1回に同じ語は出ません。`;
     el("start").disabled = !list.length;
     el("start").textContent = `${el("batch").value}問を始める`;
@@ -262,8 +294,9 @@
   function optionText(c, index) {
     if (index === c.entry) return answerText(c);
     const e = bank.entries[index];
-    if (c.mode === "glossary") return e.quizGlosses[0]?.text || "";
-    const definition = e.dictionary.find(d => bank.senses[d.sense].pos === bank.senses[c.sense].pos);
+    if (c.mode === "glossary") return (e.quizGlosses.find(g => g.subjects.some(id => c.subjects.includes(id))) || e.quizGlosses[0])?.text || "";
+    const matching = e.dictionary.filter(d => bank.senses[d.sense].pos === bank.senses[c.sense].pos);
+    const definition = matching.find(d => bank.senseSubjects[d.sense].some(id => c.subjects.includes(id))) || matching[0];
     return definition ? bank.senses[definition.sense].definition : "";
   }
   function choices(c) {
@@ -271,22 +304,25 @@
     const glosses = new Set(target.quizGlosses.map(g => normalize(g.text))), seen = new Set([normalize(answerText(c))]);
     const candidates = [];
     const seed = state.session?.seed || 0;
-    let start = hash(`${c.id}|${seed}`) % bank.entries.length;
+    const pools = [...c.subjects.map(subject => choicePeers.get(`${target.learning.level}|${subject}`) || []), quizIndices];
     // Step one visits every entry even if the corpus length has common factors.
     // Corpus snapshots can grow on daily Writing publication.
-    for (let k = 0; k < bank.entries.length && candidates.length < 3; k++) {
-      const index = (start + k) % bank.entries.length, e = bank.entries[index];
-      if (index === c.entry) continue;
-      if (e.dictionary.some(d => targetSenses.has(d.sense) || lemmas.has(d.lemma)) || e.quizGlosses.some(g => glosses.has(normalize(g.text)))) continue;
-      const text = normalize(optionText(c, index));
-      if (!text || seen.has(text)) continue;
-      if (normalize(answerText(c)).includes(e.term) || text.includes(target.term)) continue;
-      if (target.dictionary.some(d => normalize(bank.senses[d.sense].definition) === text)) continue;
-      // Function-word editorial notes sometimes have overlapping short glosses;
-      // compare their complete explanations too, not just one output option.
-      if (c.mode === "glossary" && target.quizGlosses.some(g => normalize(g.text).includes(text) || text.includes(normalize(g.text)))) continue;
-      seen.add(text);
-      candidates.push(index);
+    for (const pool of pools) {
+      const start = hash(`${c.id}|${seed}`) % Math.max(1, pool.length);
+      for (let k = 0; k < pool.length && candidates.length < 3; k++) {
+        const index = pool[(start + k) % pool.length], e = bank.entries[index];
+        if (index === c.entry || candidates.includes(index)) continue;
+        if (e.dictionary.some(d => targetSenses.has(d.sense) || lemmas.has(d.lemma)) || e.quizGlosses.some(g => glosses.has(normalize(g.text)))) continue;
+        const text = normalize(optionText(c, index));
+        if (!text || seen.has(text)) continue;
+        if (normalize(answerText(c)).includes(e.term) || text.includes(target.term)) continue;
+        if (target.dictionary.some(d => normalize(bank.senses[d.sense].definition) === text)) continue;
+        // Exclude overlapping editorial meanings as well as identical glosses.
+        if (c.mode === "glossary" && target.quizGlosses.some(g => normalize(g.text).includes(text) || text.includes(normalize(g.text)))) continue;
+        seen.add(text);
+        candidates.push(index);
+      }
+      if (candidates.length === 3) break;
     }
     const all = [c.entry, ...candidates];
     all.sort((a, b) => hash(`${c.id}|${seed}|${bank.entries[a].id}`) - hash(`${c.id}|${seed}|${bank.entries[b].id}`));
@@ -306,6 +342,7 @@
     el("question-count").textContent = `${s.index + 1} / ${s.ids.length}問`;
     el("run-progress").max = s.ids.length; el("run-progress").value = s.index + Number(s.checked);
     el("question-type").textContent = c.mode === "glossary" ? "Word → Japanese meaning · 日本語の意味" : "Word → English definition · 英語の定義";
+    el("question-study").textContent = [bank.study.levels.find(l => l.id === e.learning.level).label, ...c.subjects.map(id => bank.study.subjects.find(s => s.id === id).label)].join(" · ");
     selectedChoice = s.selection; el("choices").replaceChildren();
     el("question").textContent = e.term; el("question").lang = "en";
     el("audio-status").textContent = "";
@@ -324,13 +361,13 @@
   }
   function start(ids) {
     if (!unlocked || !bank || !ids.length || ids.some(id => !byCard.has(id) || byCard.get(id).archived)) return false;
-    pause(); state.lastRound = null; state.session = { ids: [...new Set(ids)].slice(0, 50), index: 0, elapsed: 0, selection: null, seed: Math.floor(Math.random() * 0x100000000), checked: false, result: "revealed" };
+    pause(); state.lastRound = null; state.session = { policy: bank.quizPolicy, ids: [...new Set(ids)].slice(0, 50), index: 0, elapsed: 0, selection: null, seed: Math.floor(Math.random() * 0x100000000), checked: false, result: "revealed" };
     setView("quiz"); activeStart = Date.now(); renderCard(); save(); el("resume").hidden = false; el("runner").scrollIntoView({ behavior: "smooth", block: "start" }); return true;
   }
   function startBatch() {
     filterEntries(); const allowed = new Set(filtered), mode = el("mode").value;
     const priority = c => !record(c) ? 1 : !confirmed(c) ? 0 : record(c).due <= Date.now() ? 2 : 3;
-    const list = cards.filter(c => inMode(c, mode) && allowed.has(c.entry));
+    const list = cards.filter(c => inMode(c, mode) && allowed.has(c.entry) && cardInSubject(c));
     list.sort((a, b) => priority(a) - priority(b) || (priority(a) === 3 ? record(a).due - record(b).due : 0) || bank.entries[b.entry].frequency - bank.entries[a.entry].frequency || a.id.localeCompare(b.id));
     const seen = new Set(), batch = [];
     for (const c of list) { if (!seen.has(c.entry)) { seen.add(c.entry); batch.push(c.id); } if (batch.length >= Number(el("batch").value)) break; }
@@ -391,13 +428,17 @@
     } catch (_) { el("audio-status").textContent = "発音を再生できませんでした。意味の練習は続けられます。"; }
   }
   function validatePayload(p) {
-    if (!p || p.schemaVersion !== 1 || p.quizPolicy !== "standalone-word-to-meaning-v2" || !Array.isArray(p.entries) || !p.entries.length || !Array.isArray(p.documents) || !p.senses || !p.stats) throw new Error("Invalid bank");
+    if (!p || p.schemaVersion !== 1 || p.quizPolicy !== "standalone-word-to-meaning-v3" || !Array.isArray(p.entries) || !p.entries.length || !Array.isArray(p.documents) || !p.senses || !p.senseSubjects || !p.stats || !Array.isArray(p.study?.levels) || !Array.isArray(p.study?.subjects)) throw new Error("Invalid bank");
+    if (!["practical", "academic", "advanced", "reference"].every(id => p.study.levels.some(l => l.id === id && typeof l.label === "string"))) throw new Error("Invalid study levels");
     const ids = new Set();
     for (const e of p.entries) {
       if (typeof e.id !== "string" || ids.has(e.id) || typeof e.term !== "string" || !e.term || !Array.isArray(e.sources) || !Array.isArray(e.contexts) || !Array.isArray(e.glosses) || !Array.isArray(e.quizGlosses) || !Array.isArray(e.dictionary)) throw new Error("Invalid entry"); ids.add(e.id);
       if (e.sources.some(n => !Number.isInteger(n) || !p.documents[n])) throw new Error("Invalid source");
+      if (!e.learning || typeof e.learning.eligible !== "boolean" || typeof e.learning.reason !== "string" || e.learning.eligible !== !e.learning.reason || e.learning.eligible !== (e.learning.level !== "reference") || !p.study.levels.some(l => l.id === e.learning.level) || !Array.isArray(e.learning.subjects) || !e.learning.subjects.length || e.learning.subjects.some(id => !p.study.subjects.some(s => s.id === id && typeof s.label === "string"))) throw new Error("Invalid learning classification");
       if (e.contexts.some(c => typeof c.text !== "string" || !Number.isInteger(c.start) || !Number.isInteger(c.end) || c.start < 0 || c.end <= c.start || normalize(c.text.slice(c.start, c.end)) !== normalize(e.term) || !p.documents[c.source])) throw new Error("Invalid context");
       if (e.dictionary.some(d => !p.senses[d.sense] || typeof p.senses[d.sense].definition !== "string")) throw new Error("Invalid sense");
+      const validSubjects = ids => Array.isArray(ids) && ids.length && ids.every(id => p.study.subjects.some(s => s.id === id));
+      if (e.dictionary.some(d => !validSubjects(p.senseSubjects[d.sense])) || e.quizGlosses.some(g => !validSubjects(g.subjects))) throw new Error("Invalid meaning subjects");
       if (e.glosses.some(g => typeof g.text !== "string" || typeof g.id !== "string" || g.kind === "material" && !p.documents[g.source])) throw new Error("Invalid gloss");
       if (e.quizGlosses.some(g => typeof g.text !== "string" || !g.text || typeof g.english !== "string" || !e.glosses.some(old => old.id === g.id))) throw new Error("Invalid quiz gloss");
     }
@@ -407,7 +448,7 @@
     loading = true; el("load").disabled = true; el("status").textContent = "全教材の語彙索引を読み込んでいます。初回は少し時間がかかります…";
     try {
       const response = await fetch(root.dataset.bankUrl); if (!response.ok) throw new Error("Vocabulary unavailable"); const payload = await response.json(); validatePayload(payload);
-      bank = payload; buildCards(); await restore(); el("content").hidden = false; el("load").hidden = true;
+      bank = payload; buildCards(); await restore(); setupStudy(); el("content").hidden = false; el("load").hidden = true;
       if (!retiredSession && !el("status").textContent.includes("読み込めなかった")) el("status").textContent = `${number(bank.stats.quizCards)}問の意味4択を読み込みました。本文を開かず、この画面だけで学べます。`;
       render();
     } catch (error) { console.warn("Vocabulary could not load", error); bank = null; el("status").textContent = "単語帳を読み込めませんでした。通信を確認して、再試行してください。"; el("load").disabled = false; el("load").textContent = "読み込みを再試行"; }
@@ -416,7 +457,12 @@
   el("load").addEventListener("click", load);
   document.addEventListener("toefl:unlocked", () => { unlocked = true; el("load").disabled = false; el("status").textContent = "「単語クイズを開く」から始められます。初回の読み込みは少し時間がかかります。"; if (location.hash === "#vocabulary-lab") load(); });
   window.addEventListener("hashchange", () => { if (location.hash === "#vocabulary-lab") load(); });
-  for (const name of ["search", "scope", "filter"]) el(name).addEventListener(name === "search" ? "input" : "change", () => { if (!bank) return; page = 0; sourcePage = 0; render(); });
+  for (const name of ["search", "scope", "filter", "level", "subject"]) el(name).addEventListener(name === "search" ? "input" : "change", () => {
+    if (!bank) return; pause(); el("runner").hidden = true; page = 0; sourcePage = 0;
+    state.preferences = { level: el("level").value, subject: el("subject").value }; save(); render();
+    if (name === "level" && el("level").value === "reference" && view === "quiz") setView("book");
+  });
+  el("clear-study").addEventListener("click", () => { if (!bank) return; pause(); el("runner").hidden = true; el("level").value = "all"; el("subject").value = "all"; state.preferences = { level: "all", subject: "all" }; page = 0; sourcePage = 0; save(); render(); });
   el("mode").addEventListener("change", queueInfo); el("batch").addEventListener("change", queueInfo); el("start").addEventListener("click", startBatch);
   el("continue").addEventListener("click", startBatch); el("retry").addEventListener("click", () => { if (state.lastRound?.wrong.length) start(state.lastRound.wrong); });
   el("speak").addEventListener("click", speak);
@@ -432,20 +478,20 @@
     const b = event.target.closest("button"); if (!b) return;
     if (b.dataset.vocabularyView) setView(b.dataset.vocabularyView);
     if (b.dataset.vocabularyChoice !== undefined && state.session && !state.session.checked) { const index = Number(b.dataset.vocabularyChoice); if (choices(current()).includes(index)) { selectedChoice = bank.entries[index].id; state.session.selection = selectedChoice; grade(); } }
-    if (b.dataset.vocabularyEntryQuiz !== undefined) { const e = bank.entries[Number(b.dataset.vocabularyEntryQuiz)]; start(byEntry.get(e.id).cards.filter(c => c.mode === b.dataset.mode).map(c => c.id)); }
+    if (b.dataset.vocabularyEntryQuiz !== undefined) { const e = bank.entries[Number(b.dataset.vocabularyEntryQuiz)]; start(studyCards(e).filter(c => c.mode === b.dataset.mode).map(c => c.id)); }
     if (b.dataset.vocabularyStar !== undefined) { const e = bank.entries[Number(b.dataset.vocabularyStar)]; state.stars[e.id] = !state.stars[e.id]; b.textContent = state.stars[e.id] ? "★ お気に入り解除" : "☆ お気に入り"; b.setAttribute("aria-pressed", state.stars[e.id]); save(); }
-    if (b.dataset.vocabularyLookup !== undefined) { pause(); selectedSource = null; el("search").value = bank.entries[Number(b.dataset.vocabularyLookup)].term; el("filter").value = "all"; el("scope").value = "all"; page = 0; filterEntries(); setView("book"); el("book").scrollIntoView({ behavior: "smooth" }); }
+    if (b.dataset.vocabularyLookup !== undefined) { pause(); selectedSource = null; const e = bank.entries[Number(b.dataset.vocabularyLookup)]; el("search").value = e.term; el("filter").value = "all"; el("scope").value = "all"; el("level").value = e.learning.eligible ? "all" : "reference"; el("subject").value = "all"; state.preferences = { level: el("level").value, subject: "all" }; page = 0; filterEntries(); setView("book"); el("book").scrollIntoView({ behavior: "smooth" }); }
     if (b.dataset.vocabularySource !== undefined) { selectedSource = Number(b.dataset.vocabularySource); el("scope").value = "all"; el("search").value = ""; el("filter").value = "all"; page = 0; filterEntries(); setView("book"); el("book").scrollIntoView({ behavior: "smooth" }); }
     if (b.dataset.vocabularyMaterial !== undefined) openMaterial(Number(b.dataset.vocabularyMaterial));
   });
   el("export").addEventListener("click", () => { pause(); save(); const url = URL.createObjectURL(new Blob([JSON.stringify(state, null, 2)], { type: "application/json;charset=utf-8" })), a = node("a"); a.href = url; a.download = `toefl-vocabulary-${day()}.json`; document.body.append(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(url), 1000); if (!el("runner").hidden && view === "quiz") activeStart = Date.now(); });
   el("import").addEventListener("change", async () => {
     const file = el("import").files[0]; if (!file) return;
-    try { if (file.size > 60000000) throw new Error("File too large"); const imported = safeState(JSON.parse(await file.text())); pause(); state = imported; el("runner").hidden = true; save(); render(); el("status").textContent = "語彙記録を読み込みました。Reading・Writingの記録はそのままです。"; }
+    try { if (file.size > 60000000) throw new Error("File too large"); const imported = safeState(JSON.parse(await file.text())); pause(); state = imported; el("level").value = state.preferences.level; el("subject").value = state.preferences.subject; el("runner").hidden = true; save(); render(); el("status").textContent = "語彙記録を読み込みました。Reading・Writingの記録はそのままです。"; }
     catch (_) { el("status").textContent = "このファイルは語彙の学習記録として読み込めませんでした。今の記録は保持しています。"; } el("import").value = "";
   });
   el("reset").addEventListener("click", () => { el("reset-confirm").hidden = false; }); el("reset-no").addEventListener("click", () => { el("reset-confirm").hidden = true; });
-  el("reset-yes").addEventListener("click", () => { pause(); state = fresh(); el("runner").hidden = true; el("reset-confirm").hidden = true; save(); render(); });
+  el("reset-yes").addEventListener("click", () => { pause(); state = fresh(); el("level").value = "all"; el("subject").value = "all"; el("runner").hidden = true; el("reset-confirm").hidden = true; save(); render(); });
   window.addEventListener("pagehide", () => { if (bank) { pause(); save(); } });
   window.ToeflVocabularyLab = Object.freeze({ getBank: () => bank, getCards: () => cards.map(c => ({ ...c })),
     startCards: ids => start(ids), getProgress: () => JSON.parse(JSON.stringify(state)) });
