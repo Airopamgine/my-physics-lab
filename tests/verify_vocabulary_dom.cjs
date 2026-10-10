@@ -45,6 +45,10 @@ const answer = c => c.mode === 'glossary' ? c.gloss.text : bank.senses[c.sense].
   assert.strictEqual(el(t, 'batch').value, '10'); assert.strictEqual(el(t, 'mode').value, 'learn');
   assert.strictEqual(all.length, bank.stats.quizCards);
   assert.strictEqual(all.filter(c => c.mode === 'glossary').length, bank.stats.quizGlossaryCards);
+  assert.strictEqual(all.filter(c => c.mode === 'dictionary').length, bank.stats.quizDictionaryCards);
+  assert(all.every(c => bank.entries[c.entry].learning.eligible));
+  assert.strictEqual(el(t, 'level').value, 'all'); assert.strictEqual(el(t, 'subject').value, 'all');
+  assert(!t.api.startCards(['vocab:good|d:' + bank.entries.find(e => e.term === 'good').dictionary[0].sense]), 'Elementary card can still start');
   assert(!all.some(c => c.mode === 'context' || c.archived));
   assert(!t.api.startCards(['vocab:absorb|context']), 'Retired source-reproduction quiz still playable');
   assert(!el(t, 'mode').querySelector('[value="context"]'));
@@ -70,6 +74,7 @@ const answer = c => c.mode === 'glossary' ? c.gloss.text : bank.senses[c.sense].
     const targetLemmas = new Set(e.dictionary.map(d => d.lemma));
     for (const b of choices) if (Number(b.dataset.vocabularyChoice) !== c.entry) {
       const distractor = bank.entries[Number(b.dataset.vocabularyChoice)];
+      assert(distractor.learning.eligible, `Elementary/reference distractor: ${c.id}`);
       assert(!distractor.dictionary.some(d => targetSenses.has(d.sense) || targetLemmas.has(d.lemma)), `Synonym/inflection distractor: ${c.id}`);
       assert(!e.dictionary.some(d => bank.senses[d.sense].definition === b.textContent), `Another attested meaning was marked wrong: ${c.id}`);
       if (c.mode === 'glossary') assert(!e.quizGlosses.some(g => g.text === b.textContent));
@@ -77,6 +82,48 @@ const answer = c => c.mode === 'glossary' ? c.gloss.text : bank.senses[c.sense].
     if (++visited % 10000 === 0) console.log(`Vocabulary DOM ${visited}/${all.length}`);
   }
   console.log(`Every standalone vocabulary question rendered: ${visited}`);
+
+  // Every level/domain intersection must constrain both the notebook and a
+  // standard quiz round. Reference entries are searchable but never playable.
+  function change(t, name, value) { el(t, name).value = value; el(t, name).dispatchEvent(new t.w.Event('change')); }
+  for (const level of bank.study.levels.filter(l => l.id !== 'reference')) {
+    for (const subject of bank.study.subjects) {
+      change(t, 'level', level.id); change(t, 'subject', subject.id);
+      const expected = bank.entries.filter(e => e.learning.eligible && e.learning.level === level.id && e.learning.subjects.includes(subject.id));
+      assert.strictEqual(el(t, 'start').disabled, !expected.length, `${level.id}/${subject.id}`);
+      if (expected.length) {
+        click(t, 'start');
+        const batch = t.api.getProgress().session.ids.map(id => all.find(c => c.id === id));
+        assert.strictEqual(new Set(batch.map(c => c.entry)).size, Math.min(10, expected.length));
+        assert(batch.every(c => bank.entries[c.entry].learning.level === level.id && bank.entries[c.entry].learning.subjects.includes(subject.id)));
+        assert(batch.every(c => c.subjects.includes(subject.id)), 'A different sense/subject leaked into the round');
+        assert(el(t, 'question-study').textContent.includes(level.label)); click(t, 'close');
+      }
+      t.d.querySelector('[data-vocabulary-view="book"]').click();
+      for (const card of el(t, 'list').children) {
+        const word = card.querySelector('strong').textContent, e = bank.entries.find(e => e.term === word);
+        assert(e.learning.level === level.id && e.learning.subjects.includes(subject.id), `${word}: unexpected notebook route`);
+        assert(card.querySelector('.vocabulary-study-badges').textContent.includes(level.label));
+      }
+    }
+  }
+  const routeReload = await boot(JSON.parse(t.w.localStorage.getItem(KEY)));
+  assert.strictEqual(el(routeReload, 'level').value, el(t, 'level').value);
+  assert.strictEqual(el(routeReload, 'subject').value, el(t, 'subject').value);
+  // Japanese lodging has no eye-focusing meaning. Recommended biology practice
+  // must fall back to the matching English sense of accommodation.
+  change(t, 'level', 'practical'); change(t, 'subject', 'life'); input(t, 'search', 'accommodation');
+  click(t, 'start');
+  const specific = t.api.getProgress().session.ids.map(id => all.find(c => c.id === id));
+  assert(specific.some(c => bank.entries[c.entry].term === 'accommodation' && c.mode === 'dictionary'));
+  assert(specific.every(c => c.subjects.includes('life'))); click(t, 'close');
+  change(t, 'level', 'reference'); change(t, 'subject', 'all'); input(t, 'search', 'good');
+  assert(el(t, 'list').textContent.includes('基本語')); assert(el(t, 'start').disabled);
+  const basicDetails = openDetails(t, '#vocabulary-list .vocabulary-entry');
+  assert(!basicDetails.querySelector('[data-vocabulary-entry-quiz]'), 'Reference-only word exposes a quiz');
+  click(t, 'clear-study'); input(t, 'search', '');
+  assert.strictEqual(el(t, 'level').value, 'all'); assert.strictEqual(el(t, 'subject').value, 'all');
+  t.d.querySelector('[data-vocabulary-view="quiz"]').click();
 
   const meaning = all.find(c => bank.entries[c.entry].term === 'absorb' && c.mode === 'glossary');
   t.api.startCards([meaning.id]); const emptyBefore = JSON.stringify(t.api.getProgress().records); click(t, 'next');
@@ -160,6 +207,18 @@ const answer = c => c.mode === 'glossary' ? c.gloss.text : bank.senses[c.sense].
   assert.strictEqual(migrated.api.getProgress().history.length, 1); assert.strictEqual(migrated.api.getProgress().session, null);
   assert(el(migrated, 'status').textContent.includes('以前の正誤・メモは保持')); assert(el(migrated, 'resume').hidden);
   assert(!el(migrated, 'stats').textContent.includes('1 /'), 'Archived spelling counted as meaning success');
+  const basicEntry = bank.entries.find(e => e.term === 'good'), basicId = basicEntry.id + '|d:' + basicEntry.dictionary[0].sense;
+  const basicLegacy = JSON.parse(JSON.stringify(legacy)); basicLegacy.records[basicId] = legacy.records[retiredId];
+  basicLegacy.notes[basicEntry.id] = 'keep my basic word note'; basicLegacy.stars[basicEntry.id] = true;
+  basicLegacy.history.push({ id: basicId, result: 'correct', at: 1791558000000 });
+  basicLegacy.session.ids = [basicId, meaning.id];
+  const basicMigrated = await boot(basicLegacy);
+  assert.strictEqual(basicMigrated.api.getProgress().records[basicId].attempts, 3);
+  assert.strictEqual(basicMigrated.api.getProgress().notes[basicEntry.id], 'keep my basic word note');
+  assert(basicMigrated.api.getProgress().stars[basicEntry.id]);
+  assert.strictEqual(basicMigrated.api.getProgress().history.length, 2);
+  assert.strictEqual(basicMigrated.api.getProgress().session, null); assert(!basicMigrated.api.startCards([basicId]));
+  assert(el(basicMigrated, 'status').textContent.includes('出題対象外'));
 
   const speech = await boot(undefined, { speech: true }); speech.api.startCards([meaning.id]); click(speech, 'speak');
   assert.strictEqual(speech.spoken().text, 'absorb'); assert.strictEqual(speech.spoken().lang, 'en-US');
@@ -196,6 +255,6 @@ const answer = c => c.mode === 'glossary' ? c.gloss.text : bank.senses[c.sense].
   assert.strictEqual(dbFullReload.api.getProgress().records[retiredId].attempts, 3);
   Object.defineProperty(el(restored, 'import'), 'files', { value: [{ size: 3, text: async () => 'bad' }] }); el(restored, 'import').dispatchEvent(new restored.w.Event('change')); await tick();
   assert(el(restored, 'status').textContent.includes('保持しています'));
-  for (const fixture of [t, restored, checkedReload, migrated, speech, bad, failed, invalid, quota, dbFixture, dbReload, dbFullReload]) fixture.dom.window.close();
+  for (const fixture of [t, routeReload, restored, checkedReload, migrated, basicMigrated, speech, bad, failed, invalid, quota, dbFixture, dbReload, dbFullReload]) fixture.dom.window.close();
   console.log(`PASS: ${visited} standalone meaning questions; instant grading, wrong/reveal/retry, no material dependency, pronunciation fallback, distinct-day review, resume/history/timer, stable choice IDs, notebook/source coverage, auth, full IndexedDB, legacy preservation and export/import`);
 })().catch(error => { console.error(error); process.exit(1); });

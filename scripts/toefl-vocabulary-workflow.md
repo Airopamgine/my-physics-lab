@@ -46,6 +46,7 @@ official distribution with:
 
 ```sh
 python3 scripts/import_vocabulary_wordnet.py /path/to/WordNet-3.0
+python3 scripts/import_vocabulary_study.py /path/to/WordNet-3.0
 python3 scripts/build_toefl_vocabulary.py
 ```
 
@@ -57,6 +58,47 @@ offline. Do not copy an unlicensed dictionary or present a dictionary definition
 as the publisher's answer.
 
 ## Quiz and private progress
+
+### Learning routes and elementary-word exclusions
+
+The owner requested level/subject learning and removal of obviously easy quiz
+words on 2026-10-10. `scripts/vocabulary_study.py` holds reviewed elementary
+lemmas, names/notation exclusions, academic families and specialist vocabulary.
+Dictionary-attested inflections inherit elementary exclusions. Exclude whole
+words or reviewed simple expressions: useful phrases containing a basic
+component remain. Keep
+technical polysemous targets such as cell and force. Frequency and word length
+alone must not decide level. Tier labels are editorial study routes (practical,
+academic, specialist), not official CEFR or TOEFL ratings. Common use determines
+the word's tier; a rare technical secondary sense must not promote the whole word.
+
+`wordnet-study-topics.json` is a small derived, licensed mapping of immutable
+synset IDs to reviewed topic anchors, using lexicographer categories, noun
+hypernyms and topic-domain links. Regenerate it from the same official WordNet
+distribution when the subset changes. Its fingerprint must match the frozen
+dictionary senses. The ordinary deployment uses this checked-in mapping offline.
+Semantic cues and editorial term/phrase groups supplement it. Topics belong to
+individual dictionary meanings and Japanese glosses: the lodging and eye-focus
+meanings of accommodation cannot leak into the other's selected topic. In
+recommended mode prefer Japanese only when that meaning belongs to the selected
+topic; otherwise fall back to a matching English sense.
+
+Level and subject selectors apply together with source, state and search to
+quizzes, notebook buttons, queues and source progress. Save these selectors in
+the existing progress schema with backward-compatible defaults. Show counts as
+words and meaning cards separately. A word can have several topic labels.
+Default learning shows eligible entries. The reference-only tier exposes basic,
+notation/name and undefined entries in the notebook, with an explicit reason.
+Basic words and notation/names must never be targets or distractors, including
+manual starts, retries and notebook actions. Prefer distractors from the same
+tier/topic, retain all existing synonym/sense exclusions and POS matching, and
+use the remaining eligible pool when the peer group is too small.
+
+Keep every original entry, gloss, dictionary sense, sourceRef, occurrence
+association, record, note, favourite and history item. Archive excluded card IDs
+instead of deleting them or inflating missing-meaning counts. Retire interrupted
+older-policy sets because their saved choice options may differ; preserve their
+records. New-policy sessions retain stable choice IDs and a saved shuffle seed.
 
 The default is a self-contained **English word → meaning** four-choice quiz,
 ten questions per round. Prefer Japanese meanings where available; use English
