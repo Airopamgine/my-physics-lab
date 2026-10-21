@@ -2,6 +2,20 @@
 
 Page: https://airopamgine.github.io/my-physics-lab/toefl/
 
+## Current grading rule (owner request, 2026-10-21)
+
+All answers in the selected set or daily queue must be completed before grading.
+The shared `set-practice.js` form saves editable drafts and enables Submit set
+only after every response is present. No per-item results, correct keys, models,
+tutor answers or new graded history are revealed while answering. Submission
+grades the entire set; a separate Finish review action records reviewed work.
+This applies to Cambridge, Reading, daily Writing queues, Quick Practice and
+Vocabulary rounds. Free writing remains self-reviewed without an invented score.
+Keep this behavior in future additions, including reload/close/resume and error
+recovery. Do not restore instant per-question feedback. The old runner fixtures
+remain explicit legacy grading-kernel tests; `verify_set_practice.cjs` exercises
+the production full-set UI and must run alongside them.
+
 The owner requested ongoing TOEFL and Cambridge B2 First preparation,
 balanced development of all four skills, easier navigation, and daily repair
 based on the previous day's answers. Publication through this existing GitHub

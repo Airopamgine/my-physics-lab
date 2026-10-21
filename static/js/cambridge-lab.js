@@ -63,6 +63,10 @@
   }
   function startSelection(setId,ids,context={},resume=false){
     const s=bank?.sets.find(s=>s.id===setId);if(!s||!Array.isArray(ids)||!ids.length||ids.some(id=>!s.questions.some(q=>q.id===id)))return false;
+    if(document.getElementById("toefl-app")?.dataset.grading==="set"){
+      if(!window.EnglishSetPractice){el("status").textContent="全問提出用の画面を読み込めません。ページを再読み込みしてください。";return false;}
+      return openSet(s,ids,context);
+    }
     if(session?.setId===setId&&ids.includes(s.questions[session.index]?.id)&&context.dailyDate&&session.context.dailyDate===context.dailyDate&&session.context.dailySlot===context.dailySlot)resume=true;
     if(!resume){
       // Whole source sets remain visible; only the requested unreviewed queue is resumed.
@@ -70,6 +74,24 @@
       for(const q of s.questions.filter(q=>ids.includes(q.id))){const r=record(q);r.checked=false;r.reviewed=false;r.result="";if(s.part!=="writing")r.answer="";}
     }
     window.ToeflWritingLab?.pauseTimer();save();renderQuestion();catalog();el("runner").hidden=false;el("runner").scrollIntoView({behavior:"smooth",block:"start"});el("set-title").focus({preventScroll:true});return true;
+  }
+  function openSet(s,ids,context){
+    const selected=s.questions.filter(q=>ids.includes(q.id));session=null;window.ToeflWritingLab?.pauseTimer();
+    return window.EnglishSetPractice.open({engine:"cambridge",host:el("runner"),id:s.id,title:`${s.part==="writing"?"Writing":`Cambridge Part ${s.part}`} · ${s.title}`,instruction:s.instruction,minutes:s.minutes,context,
+      initialAnswers:Object.fromEntries(selected.filter(q=>s.part==="writing"||!state.records[q.id]?.checked).map(q=>[q.id,state.records[q.id]?.answer||""])),
+      questions:selected.map(q=>({id:q.id,kind:s.part==="writing"?"essay":q.options?"choice":"text",prompt:[q.prompt,q.stem].filter(Boolean).join("\n"),passage:s.passage,
+        hint:[q.keyword?`Key word: ${q.keyword} · Use 2–5 words, including this word unchanged.`:"",q.base?`Base word: ${q.base}`:""].filter(Boolean).join("\n"),options:q.options,checks:s.part==="writing"?q.checklist:[],
+        grade:answer=>{const g=s.part==="writing"?null:grade(q,answer);return{result:g===null?"submitted":g.correct?"correct":"incorrect",model:q.model||q.answers.join(" / "),explanation:[g?.reason,q.explanation].filter(Boolean)};}})),
+      onSubmit:(results,run)=>{for(const item of results){const q=selected.find(q=>q.id===item.id),r=record(q);r.answer=item.answer;r.result=item.result;r.checked=true;r.reviewed=false;r.date=run.date;
+        window.EnglishCoach.record({engine:"cambridge",id:q.id,result:item.result,date:run.date,tags:q.tags,title:s.title,answer:item.answer});
+        document.dispatchEvent(new CustomEvent("toefl:cambridge-answer",{detail:{id:q.id,result:item.result,context}}));}save();catalog();},
+      onReview:(results,run)=>{for(const item of results){const r=record(selected.find(q=>q.id===item.id));r.reviewed=true;
+        if(item.result!=="submitted"){const first=window.EnglishCoach.yesterday(shift(run.date,1)).missed.some(x=>x.engine==="cambridge"&&x.id===item.id),wrong=item.result==="incorrect"||first;
+          r.streak=wrong?0:r.lastReviewed===run.date?Math.max(1,r.streak):Math.min(5,r.streak+1);r.due=shift(run.date,wrong?1:[1,1,3,7,14,30][r.streak]);r.lastReviewed=run.date;}
+        document.dispatchEvent(new CustomEvent("toefl:cambridge-reviewed",{detail:{id:item.id,result:item.result==="submitted"?"self-reviewed":item.result,context}}));}save();catalog();},
+      tutor:(id,result)=>{const q=selected.find(q=>q.id===id);return{setTitle:s.title,section:"Cambridge B2 First",task:`Part ${s.part}`,instruction:s.instruction,context:s.passage,question:[q.prompt,q.stem].filter(Boolean).join("\n"),options:q.options?.map(o=>`${o.label}. ${o.text}`),userAnswer:result.answer,modelAnswer:result.model,explanation:q.explanation};},
+      onClose:done=>{el("status").textContent=done?"Set reviewed · 全問の解説を確認しました。":"Draft saved · 全問提出前の解答を保存しました。";catalog();document.getElementById("daily-next")?.focus({preventScroll:true});}
+    });
   }
   function renderQuestion(){
     if(!session)return;

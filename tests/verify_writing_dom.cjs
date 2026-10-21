@@ -3,7 +3,8 @@
 const fs = require('fs');
 const assert = require('assert');
 const { JSDOM } = require('jsdom');
-const html = fs.readFileSync(process.env.TOEFL_HTML, 'utf8');
+// Legacy grading-kernel fixture; production full-set flow is covered by verify_set_practice.cjs.
+const html = fs.readFileSync(process.env.TOEFL_HTML, 'utf8').replace(/data-grading(?:=set|="set")/, 'data-grading=legacy');
 const baseBank = JSON.parse(fs.readFileSync('static/data/toefl-writing-bank.json', 'utf8'));
 const originals = JSON.parse(fs.readFileSync('static/data/toefl-writing-originals.json', 'utf8'));
 const bank = {...baseBank, exercises:[...baseBank.exercises,...originals.exercises]};

@@ -2,7 +2,8 @@
 // NODE_PATH=<jsdom>/node_modules TOEFL_HTML=<build>/toefl/index.html node tests/verify_vocabulary_dom.cjs
 const fs = require('fs'), assert = require('assert');
 const { JSDOM } = require('jsdom');
-const html = fs.readFileSync(process.env.TOEFL_HTML, 'utf8');
+// Legacy grading-kernel fixture; production full-set flow is covered by verify_set_practice.cjs.
+const html = fs.readFileSync(process.env.TOEFL_HTML, 'utf8').replace(/data-grading(?:=set|="set")/, 'data-grading=legacy');
 const bank = JSON.parse(fs.readFileSync('static/data/toefl-vocabulary-bank.json', 'utf8'));
 const app = fs.readFileSync('static/js/vocabulary-lab.js', 'utf8');
 const KEY = 'mastersPhysicsLab.vocabularyLab.v1', OLD = 'mastersPhysicsLab.englishLibraryProgress.v1';

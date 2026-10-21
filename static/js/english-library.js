@@ -261,6 +261,11 @@
         (q.acceptedAnswers && passages.has(q.passage ?? set.passage)));
     }
     if (!questions.length) return;
+    if (document.getElementById("toefl-app")?.dataset.grading === "set") {
+      if (!window.EnglishSetPractice) { elements.status.textContent = "全問提出用の画面を読み込めません。ページを再読み込みしてください。"; return false; }
+      activeSet=set; activeQueue=[...questions]; studyContext=context; elements.complete.hidden=true;
+      return openReadingSet(set, questions, context);
+    }
 
     activeSet = set;
     activeQueue = [...questions];
@@ -274,6 +279,21 @@
     renderQuestion();
     elements.runner.scrollIntoView({ behavior: "smooth", block: "start" });
     return true;
+  }
+
+  function openReadingSet(set, questions, context) {
+    return window.EnglishSetPractice.open({engine:"reading",host:elements.runner,id:set.id,title:set.title,instruction:[set.collection,"Complete every answer before submitting the set. 単語補充は欠けた文字だけでも、単語全体でも解答できます。"].filter(Boolean).join("\n"),context,
+      questions:questions.map(q=>({id:q.id,kind:q.options.length?"choice":q.acceptedAnswers?"text":"self",prompt:`${q.label} · ${q.prompt}`,passage:q.passage??set.passage,options:q.options,
+        grade:answer=>({result:q.options.length?(answer===q.correct?"correct":"incorrect"):q.acceptedAnswers?(q.acceptedAnswers.some(a=>normalizeAnswer(a)===normalizeAnswer(answer))?"correct":"incorrect"):"submitted",model:q.answer,explanation:[set.verificationNote].filter(Boolean)})})),
+      onSubmit:results=>{for(const row of results)if(row.result!=="submitted"){
+        progress.answers[row.id]={result:row.result,submitted:row.answer,attemptedAt:new Date(Date.now()).toISOString()};
+        document.dispatchEvent(new CustomEvent("toefl:reading-answer",{detail:{id:row.id,result:row.result,context}}));
+      }saveProgress();updateOverallProgress();renderLibrary();},
+      onReview:results=>{for(const row of results){if(["mastered","review"].includes(row.result))progress.answers[row.id]={result:row.result,submitted:row.answer,attemptedAt:new Date(Date.now()).toISOString()};
+        document.dispatchEvent(new CustomEvent("toefl:reading-reviewed",{detail:{id:row.id,result:row.result,context}}));
+      }saveProgress();updateOverallProgress();renderLibrary();},
+      tutor:(id,row)=>{const q=questions.find(q=>q.id===id);return{source:"Master's Physics Lab — English Library",setTitle:set.title,section:set.collection,task:q.label,context:q.passage??set.passage,question:q.prompt,options:q.options.map(o=>`${o.label}. ${o.text}`),userAnswer:row.answer,modelAnswer:q.answer};},
+      onClose:()=>root.scrollIntoView({behavior:"smooth",block:"start"})});
   }
 
   function contextMarkup(set) {

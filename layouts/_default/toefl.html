@@ -3,6 +3,7 @@
 {{- $legacy := .Params.legacyArchive }}
 {{- $tasks := not $legacy }}
 <link rel="stylesheet" href="{{ "css/toefl.css" | relURL }}?v={{ readFile "static/css/toefl.css" | sha256 | truncate 12 "" }}">
+<link rel="stylesheet" href="{{ "css/set-practice.css" | relURL }}?v={{ readFile "static/css/set-practice.css" | sha256 | truncate 12 "" }}">
 {{ if and (not $feed) (not $legacy) }}
 <link rel="stylesheet" href="{{ "css/writing-lab.css" | relURL }}?v={{ readFile "static/css/writing-lab.css" | sha256 | truncate 12 "" }}">
 <link rel="stylesheet" href="{{ "css/daily-study.css" | relURL }}?v={{ readFile "static/css/daily-study.css" | sha256 | truncate 12 "" }}">
@@ -30,7 +31,7 @@
   </div>
 </section>
 
-<div class="toefl-shell" id="toefl-app" hidden>
+<div class="toefl-shell" id="toefl-app" data-grading="set" hidden>
   <header class="toefl-hero">
     <div class="toefl-hero__copy">
       <a class="toefl-kicker" href="{{ "/" | relURL }}" aria-label="Master's Physics Lab に戻る">
@@ -39,8 +40,8 @@
       <p class="toefl-eyebrow">{{ if $legacy }}English archive{{ else if $feed }}Reading · three task types{{ else }}TOEFL + Cambridge B2 First · four skills{{ end }}</p>
       <h1>{{ .Title }}</h1>
       {{ if or $feed $legacy }}
-      <p class="toefl-lead">Answer in the browser, get instant feedback, and review only what you missed.</p>
-      <p class="toefl-lead-ja">ブラウザ上で解答し、その場で正誤・根拠・難語の日本語解説を確認できます。</p>
+      <p class="toefl-lead">Answer the complete set, submit once, then review your results and explanations.</p>
+      <p class="toefl-lead-ja">全問を解答してからまとめて採点し、正誤・根拠・難語の日本語解説を確認します。</p>
       {{ else }}
       <p class="toefl-lead">Build English you can use. Follow today's route, repair yesterday's mistakes, and put each skill into practice.</p>
       <p class="toefl-lead-ja">前日の間違いを振り返り、TOEFLとCambridgeの練習を日常・学術の英語へつなげましょう。4技能に語彙・文法と復習を組み合わせます。</p>
@@ -178,7 +179,7 @@
       <div>
         <p class="toefl-eyebrow">{{ if $tasks }}Reading practice · newest first{{ else }}Original archive · interactive{{ end }}</p>
         <h2 id="english-library-title">{{ if $tasks }}Task別の問題一覧{{ else }}移行前の英語教材ライブラリ{{ end }}</h2>
-        <p>{{ if $tasks }}Taskを選び、Start set で解答します。Check answer で正誤・解説を確認できます。{{ else }}翻訳・記述を含む従来の全教材です。TOEFL形式へ移行した問題は通常ページにも掲載します。{{ end }}</p>
+    <p>{{ if $tasks }}Taskを選び、Start set で解答します。全問を埋めて Submit set を押すと、正誤・解説をまとめて確認できます。{{ else }}翻訳・記述を含む従来の全教材です。全問の解答後に解答例を確認します。{{ end }}</p>
       </div>
       <div class="english-library__totals" id="library-totals" aria-label="Library totals">
         <strong>Loading…</strong>
@@ -277,7 +278,7 @@
 </div>
 
 {{/* Content hashes prevent an old cached runner from hiding new features. */}}
-{{ range slice "toefl-auth.js" "chatgpt-bridge.js" "english-library.js" }}
+{{ range slice "toefl-auth.js" "chatgpt-bridge.js" "set-practice.js" "english-library.js" }}
 <script src="{{ printf "js/%s" . | relURL }}?v={{ readFile (printf "static/js/%s" .) | sha256 | truncate 12 "" }}" defer></script>
 {{ end }}
 {{ if and (not $feed) (not $legacy) }}
