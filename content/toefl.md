@@ -1,6 +1,6 @@
 +++
-title = "TOEFL Practice Lab"
-description = "Readingの自動採点とWritingの並べ替え・メール・討論を練習。下書き保存、解答例、日本語解説で見直せる学習アプリ"
+title = "English Practice Lab"
+description = "TOEFLとCambridge B2 Firstを4技能で練習。前日の誤答分析、日替わりメニュー、解説と下書き保存で使える英語を育てる学習アプリ"
 layout = "toefl"
 url = "/toefl/"
 draft = false

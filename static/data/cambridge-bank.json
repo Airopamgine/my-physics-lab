@@ -1,0 +1,1684 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-21",
+  "notice": "Original editorial training, not official test material. Short reading practice and ten-gap Part 2 drills are labelled. No CEFR or official score is inferred from completion.",
+  "references": [
+    "https://www.cambridgeenglish.org/exams-and-tests/qualifications/first/format/",
+    "https://www.cambridgeenglish.org/exams-and-tests/qualifications/first/preparation/",
+    "https://www.ets.org/toefl/test-takers/ibt/about/content.html"
+  ],
+  "sets": [
+    {
+      "id": "cb-cloze-workshop",
+      "part": "2",
+      "title": "A workshop worth joining",
+      "skill": "Function words · grammar in context",
+      "instruction": "Write ONE word for each numbered gap. Read the whole passage first. This ten-gap training set is longer than an exam Part 2.",
+      "passage": "I joined a repair workshop because I wanted to learn how everyday objects worked. I had so (1) ____ experience that I needed someone to show me how to begin. The organiser, (2) ____ enthusiasm made everyone feel welcome, had other plans. She asked me to work with a visitor who had brought a broken lamp.\n\nWe were told to photograph each stage in (3) ____ we forgot where the parts belonged. Neither the visitor (4) ____ I knew why the lamp had stopped working. The task required so (5) ____ patience that we almost gave up. However, the organiser reminded us (6) ____ the importance of checking simple explanations first.\n\nOnly after we had examined the cable (7) ____ we discover a loose connection. We were both proud (8) ____ what we had achieved. The lamp worked again, and the visitor offered to help me next time. I realised that I could learn just as much (9) ____ other people as from a manual. The experience was certainly (10) ____ the effort.",
+      "minutes": 10,
+      "source": {
+        "kind": "original",
+        "date": "2026-10-21"
+      },
+      "questions": [
+        {
+          "prompt": "Gap 1",
+          "answers": [
+            "little"
+          ],
+          "explanation": "So little + uncountable noun + that expresses a small amount with a result. Few requires a plural countable noun, and so limited experience is not the required noun structure. little（少ない）は経験の量を表し、その結果として助けが必要になっています。",
+          "tags": [
+            "comparisons"
+          ],
+          "id": "cb-cloze-workshop-01"
+        },
+        {
+          "prompt": "Gap 2",
+          "answers": [
+            "whose"
+          ],
+          "explanation": "Whose links the organiser to her enthusiasm: her enthusiasm made everyone welcome. Who cannot express possession before a noun here. whose（その人の）は所有をつなぐ関係詞です。",
+          "tags": [
+            "pronouns"
+          ],
+          "id": "cb-cloze-workshop-02"
+        },
+        {
+          "prompt": "Gap 3",
+          "answers": [
+            "case"
+          ],
+          "explanation": "In case introduces a precaution: take photographs now because forgetting later is possible. It does not mean that forgetting is certain. precaution（予防策）を表す in case のまとまりです。",
+          "tags": [
+            "conditionals"
+          ],
+          "id": "cb-cloze-workshop-03"
+        },
+        {
+          "prompt": "Gap 4",
+          "answers": [
+            "nor"
+          ],
+          "explanation": "Neither A nor B joins two negative alternatives: neither the visitor nor I. Or does not complete this paired structure. nor（〜もまたない）はneitherと対応します。",
+          "tags": [
+            "linkers"
+          ],
+          "id": "cb-cloze-workshop-04"
+        },
+        {
+          "prompt": "Gap 5",
+          "answers": [
+            "much"
+          ],
+          "explanation": "Use so much + uncountable noun + that + result. Patience is uncountable; many would require a plural noun. patience（忍耐）の量なのでmuchを選びます。",
+          "tags": [
+            "comparisons"
+          ],
+          "id": "cb-cloze-workshop-05"
+        },
+        {
+          "prompt": "Gap 6",
+          "answers": [
+            "of"
+          ],
+          "explanation": "Remind someone of something means make them remember it. Remind us to check would need an infinitive, not the noun phrase here. remind A of B（AにBを思い出させる）の型です。",
+          "tags": [
+            "prepositions"
+          ],
+          "id": "cb-cloze-workshop-06"
+        },
+        {
+          "prompt": "Gap 7",
+          "answers": [
+            "did"
+          ],
+          "explanation": "Fronted Only after requires inversion in the main clause: did we discover. The after-clause itself keeps normal order. inversion（倒置）は助動詞を主語の前に出すことです。",
+          "tags": [
+            "inversion"
+          ],
+          "id": "cb-cloze-workshop-07"
+        },
+        {
+          "prompt": "Gap 8",
+          "answers": [
+            "of"
+          ],
+          "explanation": "Be proud of what you achieved expresses satisfaction with an achievement. To would need an infinitive such as proud to help. achievement（達成したこと）にはproud ofを使います。",
+          "tags": [
+            "prepositions"
+          ],
+          "id": "cb-cloze-workshop-08"
+        },
+        {
+          "prompt": "Gap 9",
+          "answers": [
+            "from"
+          ],
+          "explanation": "Learn from a person or source. The comparison is as much from people as from a manual, with parallel prepositional phrases. parallel（並列）は文の形をそろえることです。",
+          "tags": [
+            "prepositions",
+            "comparisons"
+          ],
+          "id": "cb-cloze-workshop-09"
+        },
+        {
+          "prompt": "Gap 10",
+          "answers": [
+            "worth"
+          ],
+          "explanation": "Be worth the effort means the benefit justifies the effort spent. Worth directly takes the noun phrase; it does not need to before it. worth（〜の価値がある）は後ろに名詞句や-ing形を続けます。",
+          "tags": [
+            "verb-patterns"
+          ],
+          "id": "cb-cloze-workshop-10"
+        }
+      ]
+    },
+    {
+      "id": "cb-cloze-library",
+      "part": "2",
+      "title": "A different kind of library",
+      "skill": "Conditions, pronouns and connections",
+      "instruction": "Write ONE word for each numbered gap. Use the whole sentence to decide. This is a ten-gap training set.",
+      "passage": "Our library used to be silent all day. A new room now allows small groups to practise presentations, as (1) ____ as they keep the door closed. The change was aimed (2) ____ students who needed somewhere to rehearse. Some visitors welcomed it; others worried that the noise would spread. The door sometimes opened by (3) ____, which made the problem worse.\n\nThe librarian said that people could book the room provided (4) ____ they respected the time limit. I was one of the students (5) ____ had asked for this kind of space. A friend and I made a booking, but she would rather I (6) ____ not invite a large audience to our first practice. She wanted to build confidence gradually.\n\nWe spoke without (7) ____ interrupted and then exchanged feedback. At first I spoke (8) ____ quickly that my friend missed the main point. Instead (9) ____ repeating the same words, I gave a clearer example. By the time we left, we (10) ____ both noticed something we could improve.",
+      "minutes": 10,
+      "source": {
+        "kind": "original",
+        "date": "2026-10-21"
+      },
+      "questions": [
+        {
+          "prompt": "Gap 1",
+          "answers": [
+            "long"
+          ],
+          "explanation": "As long as introduces a condition: groups may practise if they keep the door closed. As soon as concerns time and does not fit long here. as long as（〜する限り）は条件を表します。",
+          "tags": [
+            "conditionals"
+          ],
+          "id": "cb-cloze-library-01"
+        },
+        {
+          "prompt": "Gap 2",
+          "answers": [
+            "at"
+          ],
+          "explanation": "Be aimed at a group means be intended for that group. Aim to would require a verb. aimed at（〜を対象とした）は前置詞atまで覚えましょう。",
+          "tags": [
+            "prepositions"
+          ],
+          "id": "cb-cloze-library-02"
+        },
+        {
+          "prompt": "Gap 3",
+          "answers": [
+            "itself"
+          ],
+          "explanation": "By itself means without anyone causing the action. The door is singular and inanimate, so the reflexive pronoun is itself. itself（それ自身）はここでは「ひとりでに」という意味を作ります。",
+          "tags": [
+            "pronouns"
+          ],
+          "id": "cb-cloze-library-03"
+        },
+        {
+          "prompt": "Gap 4",
+          "answers": [
+            "that"
+          ],
+          "explanation": "Provided that introduces a condition, similar to if. The preceding provided is already printed; the missing word completes the linker. provided that（〜という条件で）はやや改まった表現です。",
+          "tags": [
+            "conditionals"
+          ],
+          "id": "cb-cloze-library-04"
+        },
+        {
+          "prompt": "Gap 5",
+          "answers": [
+            "who",
+            "that"
+          ],
+          "explanation": "A defining relative clause describes which students: students who/that had asked. Whose would need a following noun expressing possession. defining（限定する）節では人にwho/thatを使えます。",
+          "tags": [
+            "pronouns"
+          ],
+          "id": "cb-cloze-library-05"
+        },
+        {
+          "prompt": "Gap 6",
+          "answers": [
+            "did"
+          ],
+          "explanation": "Would rather + another person + past simple expresses a present or future preference: would rather I did not invite. Do not is not the target construction. 過去形でも過去の出来事ではなく、相手への希望を表します。",
+          "tags": [
+            "verb-patterns"
+          ],
+          "id": "cb-cloze-library-06"
+        },
+        {
+          "prompt": "Gap 7",
+          "answers": [
+            "being",
+            "getting"
+          ],
+          "explanation": "Without takes an -ing form. The speakers receive the interruption, so being interrupted and getting interrupted are both possible passive forms. passive（受け身）で「遮られることなく」を表します。",
+          "tags": [
+            "verb-patterns"
+          ],
+          "id": "cb-cloze-library-07"
+        },
+        {
+          "prompt": "Gap 8",
+          "answers": [
+            "so"
+          ],
+          "explanation": "So + adverb + that expresses a result: so quickly that she missed the point. Such needs a noun phrase. quickly（速く）は副詞なのでsoで程度を強めます。",
+          "tags": [
+            "comparisons"
+          ],
+          "id": "cb-cloze-library-08"
+        },
+        {
+          "prompt": "Gap 9",
+          "answers": [
+            "of"
+          ],
+          "explanation": "Instead of is followed by a noun or -ing form: instead of repeating. Rather than is another expression, but the printed instead requires of. instead of（〜する代わりに）の後ろは動名詞です。",
+          "tags": [
+            "prepositions"
+          ],
+          "id": "cb-cloze-library-09"
+        },
+        {
+          "prompt": "Gap 10",
+          "answers": [
+            "had"
+          ],
+          "explanation": "By the time we left sets a past reference point; had noticed places the discovery before that point. Both belongs after the auxiliary. past perfect（過去完了）は過去の基準時より前を表します。",
+          "tags": [
+            "verb-patterns"
+          ],
+          "id": "cb-cloze-library-10"
+        }
+      ]
+    },
+    {
+      "id": "cb-transform-repair",
+      "part": "4",
+      "title": "Preferences and getting things done",
+      "skill": "Rebuild meaning without changing it",
+      "instruction": "Complete the gap with TWO to FIVE words, including the unchanged key word. This practice checks complete accepted answers; it does not award official partial marks.",
+      "passage": "",
+      "minutes": 10,
+      "source": {
+        "kind": "original",
+        "date": "2026-10-21"
+      },
+      "questions": [
+        {
+          "prompt": "I would prefer you not to open the window.",
+          "answers": [
+            "would rather you did not",
+            "would rather you didn't"
+          ],
+          "explanation": "I would rather you did not open the window. With a different subject, would rather takes a past form even for a present preference. didn't is also accepted and counts as two words. 相手への希望なのでdid notを使います。",
+          "tags": [
+            "verb-patterns"
+          ],
+          "keyword": "RATHER",
+          "stem": "I ____ open the window.",
+          "id": "cb-transform-repair-01"
+        },
+        {
+          "prompt": "A technician repaired our printer yesterday.",
+          "answers": [
+            "had our printer repaired"
+          ],
+          "explanation": "We had our printer repaired yesterday. Have + object + past participle describes arranging a service. Had repaired our printer would make we the repairers. causative（使役）のhaveは「依頼してしてもらう」ことです。",
+          "tags": [
+            "causative"
+          ],
+          "keyword": "HAD",
+          "stem": "We ____ yesterday.",
+          "id": "cb-transform-repair-02"
+        },
+        {
+          "prompt": "The second experiment was less successful than the first.",
+          "answers": [
+            "not as successful as",
+            "not so successful as"
+          ],
+          "explanation": "The second experiment was not as successful as the first. Keep successful an adjective; successfully would describe a verb. successful（成功した）は形容詞、successfully（うまく）は副詞です。",
+          "tags": [
+            "comparisons"
+          ],
+          "keyword": "AS",
+          "stem": "The second experiment was ____ the first.",
+          "id": "cb-transform-repair-03"
+        },
+        {
+          "prompt": "We discovered the error only after checking every file.",
+          "answers": [
+            "did we discover"
+          ],
+          "explanation": "Only after checking every file did we discover the error. Fronted Only after triggers inversion in the main clause. discover remains in the base form after did. 倒置ではdidを主語の前へ置きます。",
+          "tags": [
+            "inversion"
+          ],
+          "keyword": "DID",
+          "stem": "Only after checking every file ____ the error.",
+          "id": "cb-transform-repair-04"
+        },
+        {
+          "prompt": "Take a charger because the battery might run out.",
+          "answers": [
+            "in case the battery"
+          ],
+          "explanation": "Take a charger in case the battery runs out. In case introduces a precaution; the possible event has not necessarily happened. runsの主語はthe batteryです。in case（〜するといけないので）を使います。",
+          "tags": [
+            "conditionals"
+          ],
+          "keyword": "CASE",
+          "stem": "Take a charger ____ runs out.",
+          "id": "cb-transform-repair-05"
+        },
+        {
+          "prompt": "The lecture was too difficult for me to understand.",
+          "answers": [
+            "so difficult",
+            "so hard"
+          ],
+          "explanation": "The lecture was so difficult that I could not understand it. So + adjective + that expresses the result; too + adjective + to expresses the difficulty. difficult（難しい）は形容詞なのでsoで修飾します。",
+          "tags": [
+            "comparisons"
+          ],
+          "keyword": "SO",
+          "stem": "The lecture was ____ that I could not understand it.",
+          "id": "cb-transform-repair-06"
+        }
+      ]
+    },
+    {
+      "id": "cb-transform-transfer",
+      "part": "4",
+      "title": "A new context, the same structure",
+      "skill": "Transfer the pattern to unfamiliar sentences",
+      "instruction": "Complete each gap with TWO to FIVE words, including the unchanged key word. Full-answer practice; no automatic official partial credit.",
+      "passage": "",
+      "minutes": 10,
+      "source": {
+        "kind": "original",
+        "date": "2026-10-21"
+      },
+      "questions": [
+        {
+          "prompt": "Please do not interrupt me during the presentation.",
+          "answers": [
+            "would rather you did not",
+            "would rather you didn't"
+          ],
+          "explanation": "I would rather you did not interrupt me during the presentation. Past-form did not is required after would rather + another person. interrupt（遮る）はdidの後ろなので原形です。",
+          "tags": [
+            "verb-patterns"
+          ],
+          "keyword": "RATHER",
+          "stem": "I ____ interrupt me during the presentation.",
+          "id": "cb-transform-transfer-01"
+        },
+        {
+          "prompt": "A photographer took our graduation photos last week.",
+          "answers": [
+            "had our graduation photos taken"
+          ],
+          "explanation": "We had our graduation photos taken last week. The object is our graduation photos; taken is the past participle of take. graduation（卒業）を含む名詞句をhaveと過去分詞の間に置きます。",
+          "tags": [
+            "causative"
+          ],
+          "keyword": "HAD",
+          "stem": "We ____ last week.",
+          "id": "cb-transform-transfer-02"
+        },
+        {
+          "prompt": "This report is more clearly written than the earlier one.",
+          "answers": [
+            "not as clearly written as",
+            "not so clearly written as"
+          ],
+          "explanation": "The earlier report is not as clearly written as this one. Clearly modifies written, so use an adverb. clearly（明確に）は書かれ方を修飾する副詞です。",
+          "tags": [
+            "comparisons"
+          ],
+          "keyword": "AS",
+          "stem": "The earlier report is ____ this one.",
+          "id": "cb-transform-transfer-03"
+        },
+        {
+          "prompt": "You can borrow the equipment if you return it by Friday.",
+          "answers": [
+            "as long as you"
+          ],
+          "explanation": "You can borrow the equipment as long as you return it by Friday. As long as introduces the same condition as if. equipment（機材）は通常不可算で、equipmentsにはしません。",
+          "tags": [
+            "conditionals"
+          ],
+          "keyword": "LONG",
+          "stem": "You can borrow the equipment ____ return it by Friday.",
+          "id": "cb-transform-transfer-04"
+        },
+        {
+          "prompt": "There were too many people for us to hear the guide.",
+          "answers": [
+            "so many people that"
+          ],
+          "explanation": "There were so many people that we could not hear the guide. People is plural, so use many; much is for uncountable quantities. so many ... that（数が多すぎて〜）の型です。",
+          "tags": [
+            "comparisons"
+          ],
+          "keyword": "MANY",
+          "stem": "There were ____ we could not hear the guide.",
+          "id": "cb-transform-transfer-05"
+        },
+        {
+          "prompt": "I do not think postponing the meeting is worthwhile.",
+          "answers": [
+            "not worth putting off"
+          ],
+          "explanation": "In my opinion, the meeting is not worth putting off. Worth takes an -ing form; put off means postpone. The opinion marker preserves the speaker's judgment. postpone（延期する）と言い換えられるput offを使います。",
+          "tags": [
+            "verb-patterns"
+          ],
+          "keyword": "WORTH",
+          "stem": "In my opinion, the meeting is ____.",
+          "id": "cb-transform-transfer-06"
+        }
+      ]
+    },
+    {
+      "id": "cb-vocabulary-garden",
+      "part": "1",
+      "title": "A garden between buildings",
+      "skill": "Collocations and precise word choice",
+      "instruction": "Choose A, B, C or D for each numbered gap. Read the whole passage before choosing.",
+      "passage": "When residents were invited to (1) ____ part in a community garden, few expected it to last. The site was a narrow strip of land between two buildings. Nevertheless, a small group decided to (2) ____ it a try. Their first task was to (3) ____ a decision about what to grow.\n\nThey soon discovered that gardening could (4) ____ a difference to the atmosphere of the street. People who had never spoken began to (5) ____ ideas. To avoid confusion, the group kept a written (6) ____ of every purchase. They also agreed to take (7) ____ for watering different sections. The project did not solve every problem, but it gave neighbours a chance to build (8) ____ with one another.",
+      "minutes": 8,
+      "source": {
+        "kind": "original",
+        "date": "2026-10-21"
+      },
+      "questions": [
+        {
+          "prompt": "Gap 1",
+          "answers": [
+            "B"
+          ],
+          "explanation": "Take part in means participate. Do, make and hold do not form this expression with part in. participate（参加する）と言い換えられるtake part inのまとまりです。",
+          "tags": [
+            "collocations"
+          ],
+          "options": [
+            {
+              "label": "A",
+              "text": "do"
+            },
+            {
+              "label": "B",
+              "text": "take"
+            },
+            {
+              "label": "C",
+              "text": "make"
+            },
+            {
+              "label": "D",
+              "text": "hold"
+            }
+          ],
+          "id": "cb-vocabulary-garden-01"
+        },
+        {
+          "prompt": "Gap 2",
+          "answers": [
+            "C"
+          ],
+          "explanation": "Give it a try means attempt it. Have a try can occur without it in this position, but have it a try is not grammatical. attempt（試みる）を表すgive it a tryを選びます。",
+          "tags": [
+            "collocations"
+          ],
+          "options": [
+            {
+              "label": "A",
+              "text": "make"
+            },
+            {
+              "label": "B",
+              "text": "have"
+            },
+            {
+              "label": "C",
+              "text": "give"
+            },
+            {
+              "label": "D",
+              "text": "put"
+            }
+          ],
+          "id": "cb-vocabulary-garden-02"
+        },
+        {
+          "prompt": "Gap 3",
+          "answers": [
+            "A"
+          ],
+          "explanation": "Make a decision is the standard collocation. Do a decision and perform a decision are not natural; invent changes the meaning. collocation（自然な語の組合せ）として覚えましょう。",
+          "tags": [
+            "collocations"
+          ],
+          "options": [
+            {
+              "label": "A",
+              "text": "make"
+            },
+            {
+              "label": "B",
+              "text": "do"
+            },
+            {
+              "label": "C",
+              "text": "perform"
+            },
+            {
+              "label": "D",
+              "text": "invent"
+            }
+          ],
+          "id": "cb-vocabulary-garden-03"
+        },
+        {
+          "prompt": "Gap 4",
+          "answers": [
+            "D"
+          ],
+          "explanation": "Make a difference means have an effect. The other verbs do not form the expression. effect（影響）を与えることをmake a differenceと表します。",
+          "tags": [
+            "collocations"
+          ],
+          "options": [
+            {
+              "label": "A",
+              "text": "do"
+            },
+            {
+              "label": "B",
+              "text": "take"
+            },
+            {
+              "label": "C",
+              "text": "keep"
+            },
+            {
+              "label": "D",
+              "text": "make"
+            }
+          ],
+          "id": "cb-vocabulary-garden-04"
+        },
+        {
+          "prompt": "Gap 5",
+          "answers": [
+            "A"
+          ],
+          "explanation": "Exchange ideas means share ideas in both directions. Replace substitutes one thing for another, and translate changes languages. exchange（交換する）は双方が出し合うことです。",
+          "tags": [
+            "collocations"
+          ],
+          "options": [
+            {
+              "label": "A",
+              "text": "exchange"
+            },
+            {
+              "label": "B",
+              "text": "replace"
+            },
+            {
+              "label": "C",
+              "text": "remove"
+            },
+            {
+              "label": "D",
+              "text": "translate"
+            }
+          ],
+          "id": "cb-vocabulary-garden-05"
+        },
+        {
+          "prompt": "Gap 6",
+          "answers": [
+            "B"
+          ],
+          "explanation": "Keep a written record means preserve information for later checking. Memory is mental; a reminder prompts an action, and a notice announces information. record（記録）は後から確認する資料です。",
+          "tags": [
+            "collocations"
+          ],
+          "options": [
+            {
+              "label": "A",
+              "text": "memory"
+            },
+            {
+              "label": "B",
+              "text": "record"
+            },
+            {
+              "label": "C",
+              "text": "reminder"
+            },
+            {
+              "label": "D",
+              "text": "notice"
+            }
+          ],
+          "id": "cb-vocabulary-garden-06"
+        },
+        {
+          "prompt": "Gap 7",
+          "answers": [
+            "C"
+          ],
+          "explanation": "Take responsibility for means accept a duty. Take care of needs of, and take charge of also needs of; attention does not fit take ... for. responsibility（責任）とforが対応します。",
+          "tags": [
+            "prepositions",
+            "collocations"
+          ],
+          "options": [
+            {
+              "label": "A",
+              "text": "care"
+            },
+            {
+              "label": "B",
+              "text": "charge"
+            },
+            {
+              "label": "C",
+              "text": "responsibility"
+            },
+            {
+              "label": "D",
+              "text": "attention"
+            }
+          ],
+          "id": "cb-vocabulary-garden-07"
+        },
+        {
+          "prompt": "Gap 8",
+          "answers": [
+            "A"
+          ],
+          "explanation": "Build trust with people means develop mutual confidence. Truth concerns what is factual; proof is evidence, and build belief with is not this expression. trust（信頼）は人間関係の安心感です。",
+          "tags": [
+            "collocations"
+          ],
+          "options": [
+            {
+              "label": "A",
+              "text": "trust"
+            },
+            {
+              "label": "B",
+              "text": "truth"
+            },
+            {
+              "label": "C",
+              "text": "belief"
+            },
+            {
+              "label": "D",
+              "text": "proof"
+            }
+          ],
+          "id": "cb-vocabulary-garden-08"
+        }
+      ]
+    },
+    {
+      "id": "cb-formation-research",
+      "part": "3",
+      "title": "Learning to question a result",
+      "skill": "Choose the word form that the sentence needs",
+      "instruction": "Write ONE word made from the base word. Check meaning, part of speech, prefixes and endings.",
+      "passage": "A small research club wanted to test how background noise affected concentration. Its first difficulty was the (1) ____ of the measurements: the same person sometimes obtained very different results. Rather than hide this (2) ____, the students described it in their report.\n\nThey realised that each participant needed a clear (3) ____ of the task. The instructions had to be (4) ____ to everyone, including new members. During the second trial, the group recorded the time more (5) ____ and kept a list of possible distractions.\n\nThe results were still not (6) ____: noise helped some people and distracted others. This did not make the work a (7) ____. Instead, the club learnt that making a careful (8) ____ between groups was more useful than defending its first guess.",
+      "minutes": 8,
+      "source": {
+        "kind": "original",
+        "date": "2026-10-21"
+      },
+      "questions": [
+        {
+          "prompt": "Gap 1",
+          "answers": [
+            "reliability"
+          ],
+          "explanation": "The noun follows the and comes before of the measurements. Reliability means consistency across repeated measurements. reliability（信頼性）は測定を繰り返したときの一貫性です。",
+          "tags": [
+            "word-formation"
+          ],
+          "base": "RELY",
+          "id": "cb-formation-research-01"
+        },
+        {
+          "prompt": "Gap 2",
+          "answers": [
+            "weakness"
+          ],
+          "explanation": "This needs a noun naming the problem: weakness. Weak is an adjective and weakly an adverb. weakness（弱点）は形容詞weakに-nessを加えた名詞です。",
+          "tags": [
+            "word-formation"
+          ],
+          "base": "WEAK",
+          "id": "cb-formation-research-02"
+        },
+        {
+          "prompt": "Gap 3",
+          "answers": [
+            "explanation"
+          ],
+          "explanation": "A clear modifies a singular noun: explanation of the task. Explain is a verb and cannot follow a clear directly. explanation（説明）は綴りの変化にも注意しましょう。",
+          "tags": [
+            "word-formation"
+          ],
+          "base": "EXPLAIN",
+          "id": "cb-formation-research-03"
+        },
+        {
+          "prompt": "Gap 4",
+          "answers": [
+            "accessible"
+          ],
+          "explanation": "The instructions must be easy for everyone to understand, so the adjective is accessible. Inaccessible would contradict the purpose of giving clear instructions to new members. accessible（理解・利用しやすい）は文脈に合う形容詞です。",
+          "tags": [
+            "word-formation"
+          ],
+          "base": "ACCESS",
+          "id": "cb-formation-research-04"
+        },
+        {
+          "prompt": "Gap 5",
+          "answers": [
+            "accurately"
+          ],
+          "explanation": "The gap modifies recorded, so it requires an adverb: accurately. Accurate is an adjective. accurately（正確に）は「記録した」という動作の方法を説明します。",
+          "tags": [
+            "word-formation"
+          ],
+          "base": "ACCURATE",
+          "id": "cb-formation-research-05"
+        },
+        {
+          "prompt": "Gap 6",
+          "answers": [
+            "conclusive"
+          ],
+          "explanation": "The adjective describes results that settle a question. Not conclusive means the evidence does not support a final decision. conclusive（決定的な）は結論を確定できる強さです。",
+          "tags": [
+            "word-formation"
+          ],
+          "base": "CONCLUDE",
+          "id": "cb-formation-research-06"
+        },
+        {
+          "prompt": "Gap 7",
+          "answers": [
+            "failure"
+          ],
+          "explanation": "A requires a singular noun. Failure names an unsuccessful attempt; failed would be a verb form or adjective. failure（失敗）はここでは数えられる一つの結果です。",
+          "tags": [
+            "word-formation"
+          ],
+          "base": "FAIL",
+          "id": "cb-formation-research-07"
+        },
+        {
+          "prompt": "Gap 8",
+          "answers": [
+            "comparison"
+          ],
+          "explanation": "A careful comparison between groups is a noun phrase. Compare is the verb; comparative is an adjective. comparison（比較）はbetweenやwithと結びつきます。",
+          "tags": [
+            "word-formation",
+            "comparisons"
+          ],
+          "base": "COMPARE",
+          "id": "cb-formation-research-08"
+        }
+      ]
+    },
+    {
+      "id": "cb-reading-museum",
+      "part": "5",
+      "title": "The guide who stopped explaining everything",
+      "skill": "Attitude, inference and supporting evidence",
+      "instruction": "Read the short training text and choose A, B, C or D. Identify evidence before checking the explanation. This is a shorter text than a full exam Part 5.",
+      "passage": "When I volunteered to guide visitors around a small local museum, I assumed that knowing the facts would be enough. I learnt dates, names and technical terms until I could describe almost every object without looking at my notes. During my first tour, however, visitors drifted away one by one. I interpreted their silence as concentration. Only when a child asked whether we could go somewhere else did I begin to doubt that explanation.\n\nThe curator suggested that I watch an experienced guide, Elena. I expected a brilliant performance full of stories that I could borrow. Instead, Elena began by asking visitors which object they would save if the building had to close. The question made no mention of dates. People pointed, disagreed and explained their choices. I felt slightly embarrassed: my carefully prepared knowledge seemed unnecessary.\n\nAfterwards, Elena showed me her notebook. It contained far more information than mine, but also a page of questions. She explained that knowing a subject gave her the freedom to follow an unexpected answer. Without that knowledge, she said, a question could start an interesting conversation that she would be unable to develop. I had mistaken her selective use of facts for a lack of preparation.\n\nOn my next tour, I asked a visitor why an ordinary wooden chair had caught his attention. He said it resembled one his grandfather had owned. Other people began describing furniture from their own homes. For a moment, I worried that we had abandoned the museum altogether. Then a visitor asked why the chair was much smaller than a modern one. I could finally use something I had researched: how the object had been used, rather than simply when it had been made.\n\nNot every visitor wanted to talk. One woman preferred to read the labels and follow at her own pace. I stopped treating that as a personal rejection. A good tour, I was beginning to realise, did not require everyone to respond in the same way. I still prepared carefully, but I no longer measured success by the amount of information I managed to deliver.",
+      "minutes": 12,
+      "source": {
+        "kind": "original",
+        "date": "2026-10-21"
+      },
+      "questions": [
+        {
+          "prompt": "1. What did the writer initially misunderstand about the first tour?",
+          "answers": [
+            "A"
+          ],
+          "explanation": "The writer interpreted silence as concentration, then began to doubt that explanation. The text gives no planned duration or disputed dates; the child's request triggers the change rather than explaining all visitors' destinations. concentration（集中）と沈黙を誤って結びつけていました。",
+          "tags": [
+            "inference",
+            "evidence"
+          ],
+          "options": [
+            {
+              "label": "A",
+              "text": "Why visitors were quiet"
+            },
+            {
+              "label": "B",
+              "text": "How long the tour should last"
+            },
+            {
+              "label": "C",
+              "text": "Whether the dates were correct"
+            },
+            {
+              "label": "D",
+              "text": "Where the visitors wanted to go"
+            }
+          ],
+          "id": "cb-reading-museum-01"
+        },
+        {
+          "prompt": "2. Why did watching Elena initially embarrass the writer?",
+          "answers": [
+            "C"
+          ],
+          "explanation": "The writer says that carefully prepared knowledge seemed unnecessary when visitors responded to a question without dates. Elena does not criticise the writer or refuse to help, and visitors offer opinions rather than factual answers. seemed（〜に思えた）は後で修正される印象です。",
+          "tags": [
+            "inference",
+            "evidence"
+          ],
+          "options": [
+            {
+              "label": "A",
+              "text": "Elena publicly criticised the first tour"
+            },
+            {
+              "label": "B",
+              "text": "The visitors already knew the answers"
+            },
+            {
+              "label": "C",
+              "text": "The writer felt the prepared facts had little value"
+            },
+            {
+              "label": "D",
+              "text": "Elena refused to share her stories"
+            }
+          ],
+          "id": "cb-reading-museum-02"
+        },
+        {
+          "prompt": "3. What did Elena's notebook help the writer understand?",
+          "answers": [
+            "B"
+          ],
+          "explanation": "Elena prepares extensively so she can develop unexpected answers. Her choice to use fewer facts is selective, not evidence of less preparation. Flexible conversation（柔軟な対話）にも背景知識が必要です。",
+          "tags": [
+            "inference",
+            "paraphrase"
+          ],
+          "options": [
+            {
+              "label": "A",
+              "text": "Visitors should see the guide's notes"
+            },
+            {
+              "label": "B",
+              "text": "Knowledge supports flexible conversation"
+            },
+            {
+              "label": "C",
+              "text": "Questions can replace all preparation"
+            },
+            {
+              "label": "D",
+              "text": "Technical terms must appear in every tour"
+            }
+          ],
+          "id": "cb-reading-museum-03"
+        },
+        {
+          "prompt": "4. What does abandoned the museum suggest in paragraph 4?",
+          "answers": [
+            "C"
+          ],
+          "explanation": "People are talking about their own furniture while still on the tour. The writer worries that the topic has drifted away from the museum, not that anyone has physically left. abandon（離れる・放棄する）はここでは話題についての比喩です。",
+          "tags": [
+            "inference",
+            "paraphrase"
+          ],
+          "options": [
+            {
+              "label": "A",
+              "text": "The visitors physically left the building"
+            },
+            {
+              "label": "B",
+              "text": "The museum had permanently closed"
+            },
+            {
+              "label": "C",
+              "text": "The conversation had moved away from the exhibits"
+            },
+            {
+              "label": "D",
+              "text": "The writer had stopped volunteering"
+            }
+          ],
+          "id": "cb-reading-museum-04"
+        },
+        {
+          "prompt": "5. How did the writer respond to the woman who read the labels?",
+          "answers": [
+            "D"
+          ],
+          "explanation": "The writer stops treating her independent pace as personal rejection and recognises that people need not respond alike. No private repeat or label change is mentioned. rejection（拒絶）と受け取らなくなった変化を読みます。",
+          "tags": [
+            "evidence",
+            "paraphrase"
+          ],
+          "options": [
+            {
+              "label": "A",
+              "text": "By insisting that she join the discussion"
+            },
+            {
+              "label": "B",
+              "text": "By offering to repeat the tour privately"
+            },
+            {
+              "label": "C",
+              "text": "By removing information from the labels"
+            },
+            {
+              "label": "D",
+              "text": "By accepting her different way of visiting"
+            }
+          ],
+          "id": "cb-reading-museum-05"
+        },
+        {
+          "prompt": "6. Which statement best expresses the writer's final view?",
+          "answers": [
+            "B"
+          ],
+          "explanation": "The final paragraph retains careful preparation but rejects information volume as the measure of success. The other options use every or always, or contradict the acceptance of silent visitors. support（支える）ために準備を使うという結論です。",
+          "tags": [
+            "evidence",
+            "inference"
+          ],
+          "options": [
+            {
+              "label": "A",
+              "text": "A guide's success depends on delivering every fact"
+            },
+            {
+              "label": "B",
+              "text": "Careful preparation should support different visitor needs"
+            },
+            {
+              "label": "C",
+              "text": "Personal stories are always more useful than research"
+            },
+            {
+              "label": "D",
+              "text": "Silent visitors prevent a tour from succeeding"
+            }
+          ],
+          "id": "cb-reading-museum-06"
+        }
+      ]
+    },
+    {
+      "id": "cb-cohesion-repair",
+      "part": "6",
+      "title": "Opening the repair café",
+      "skill": "Track references and logical connections",
+      "instruction": "Choose the missing sentence A–G for gaps 1–6. Use each sentence at most once; one sentence is extra. Read on both sides of each gap.",
+      "passage": "Our town's first repair café opened in a school hall on a Saturday morning. Volunteers had expected to repair mostly electrical appliances. (1) ____ By lunchtime, the sewing table was the busiest place in the room.\n\nThe team had advertised the event online. Several older neighbours said they had heard nothing about it until a friend mentioned it. (2) ____ At the next session, almost half the visitors said they had seen one of these notices.\n\nWe initially promised that volunteers would fix whatever people brought. This proved unrealistic when one visitor arrived with a badly damaged television. (3) ____ The revised wording also made it easier to explain why a repair might not be possible.\n\nOne volunteer suggested writing a short record of each job. Others worried that paperwork would take time away from practical work. (4) ____ With those details available, a different volunteer could continue an unfinished job without starting again.\n\nVisitors sometimes expected to leave an object and collect it later. That was never the purpose of the café. (5) ____ Watching and helping with a repair was intended to make the next small problem less intimidating.\n\nAfter three months, we counted how many objects had been repaired. The total was encouraging, but it did not capture everything. (6) ____ Those new connections mattered just as much as the working lamps and repaired coats.",
+      "minutes": 10,
+      "source": {
+        "kind": "original",
+        "date": "2026-10-21"
+      },
+      "questions": [
+        {
+          "prompt": "Gap 1",
+          "answers": [
+            "C"
+          ],
+          "explanation": "Coats and trousers explain why the sewing table becomes busiest. The contrast is with the expected electrical appliances. sewing（裁縫）と衣類のつながりを確認します。",
+          "tags": [
+            "cohesion"
+          ],
+          "options": [
+            {
+              "label": "A",
+              "text": "We therefore changed the advertisement to offer help and advice rather than a guaranteed repair."
+            },
+            {
+              "label": "B",
+              "text": "Instead, we asked people to sit beside a volunteer and take part in the process."
+            },
+            {
+              "label": "C",
+              "text": "In fact, many visitors arrived carrying coats and trousers that needed mending."
+            },
+            {
+              "label": "D",
+              "text": "The school had already decided to replace all the chairs in the hall."
+            },
+            {
+              "label": "E",
+              "text": "We therefore put printed posters in local shops as well."
+            },
+            {
+              "label": "F",
+              "text": "Eventually, we agreed to note only the object, its problem and the work already attempted."
+            },
+            {
+              "label": "G",
+              "text": "People who had barely spoken before now greeted one another in the street."
+            }
+          ],
+          "id": "cb-cohesion-repair-01"
+        },
+        {
+          "prompt": "Gap 2",
+          "answers": [
+            "E"
+          ],
+          "explanation": "These notices points back to posters placed in shops. The problem is that online publicity failed to reach some neighbours, not that the event was cancelled. reference（指示関係）としてthese noticesの先行情報を探します。",
+          "tags": [
+            "cohesion"
+          ],
+          "id": "cb-cohesion-repair-02",
+          "options": [
+            {
+              "label": "A",
+              "text": "We therefore changed the advertisement to offer help and advice rather than a guaranteed repair."
+            },
+            {
+              "label": "B",
+              "text": "Instead, we asked people to sit beside a volunteer and take part in the process."
+            },
+            {
+              "label": "C",
+              "text": "In fact, many visitors arrived carrying coats and trousers that needed mending."
+            },
+            {
+              "label": "D",
+              "text": "The school had already decided to replace all the chairs in the hall."
+            },
+            {
+              "label": "E",
+              "text": "We therefore put printed posters in local shops as well."
+            },
+            {
+              "label": "F",
+              "text": "Eventually, we agreed to note only the object, its problem and the work already attempted."
+            },
+            {
+              "label": "G",
+              "text": "People who had barely spoken before now greeted one another in the street."
+            }
+          ]
+        },
+        {
+          "prompt": "Gap 3",
+          "answers": [
+            "A"
+          ],
+          "explanation": "The revised wording needs a preceding change to the advertisement. Advice rather than a guaranteed repair explains both the television problem and the following sentence. wording（言い回し）を変えた文が必要です。",
+          "tags": [
+            "cohesion"
+          ],
+          "id": "cb-cohesion-repair-03",
+          "options": [
+            {
+              "label": "A",
+              "text": "We therefore changed the advertisement to offer help and advice rather than a guaranteed repair."
+            },
+            {
+              "label": "B",
+              "text": "Instead, we asked people to sit beside a volunteer and take part in the process."
+            },
+            {
+              "label": "C",
+              "text": "In fact, many visitors arrived carrying coats and trousers that needed mending."
+            },
+            {
+              "label": "D",
+              "text": "The school had already decided to replace all the chairs in the hall."
+            },
+            {
+              "label": "E",
+              "text": "We therefore put printed posters in local shops as well."
+            },
+            {
+              "label": "F",
+              "text": "Eventually, we agreed to note only the object, its problem and the work already attempted."
+            },
+            {
+              "label": "G",
+              "text": "People who had barely spoken before now greeted one another in the street."
+            }
+          ]
+        },
+        {
+          "prompt": "Gap 4",
+          "answers": [
+            "F"
+          ],
+          "explanation": "Those details refers to the object, problem and work attempted. A brief shared record resolves the concern that paperwork takes too long. resolve（解決する）は対立する条件を満たすことです。",
+          "tags": [
+            "cohesion"
+          ],
+          "id": "cb-cohesion-repair-04",
+          "options": [
+            {
+              "label": "A",
+              "text": "We therefore changed the advertisement to offer help and advice rather than a guaranteed repair."
+            },
+            {
+              "label": "B",
+              "text": "Instead, we asked people to sit beside a volunteer and take part in the process."
+            },
+            {
+              "label": "C",
+              "text": "In fact, many visitors arrived carrying coats and trousers that needed mending."
+            },
+            {
+              "label": "D",
+              "text": "The school had already decided to replace all the chairs in the hall."
+            },
+            {
+              "label": "E",
+              "text": "We therefore put printed posters in local shops as well."
+            },
+            {
+              "label": "F",
+              "text": "Eventually, we agreed to note only the object, its problem and the work already attempted."
+            },
+            {
+              "label": "G",
+              "text": "People who had barely spoken before now greeted one another in the street."
+            }
+          ]
+        },
+        {
+          "prompt": "Gap 5",
+          "answers": [
+            "B"
+          ],
+          "explanation": "That was never the purpose rejects a drop-off service. Sitting beside a volunteer explains the next sentence about watching and helping. purpose（目的）の対比と前後の因果を読みます。",
+          "tags": [
+            "cohesion"
+          ],
+          "id": "cb-cohesion-repair-05",
+          "options": [
+            {
+              "label": "A",
+              "text": "We therefore changed the advertisement to offer help and advice rather than a guaranteed repair."
+            },
+            {
+              "label": "B",
+              "text": "Instead, we asked people to sit beside a volunteer and take part in the process."
+            },
+            {
+              "label": "C",
+              "text": "In fact, many visitors arrived carrying coats and trousers that needed mending."
+            },
+            {
+              "label": "D",
+              "text": "The school had already decided to replace all the chairs in the hall."
+            },
+            {
+              "label": "E",
+              "text": "We therefore put printed posters in local shops as well."
+            },
+            {
+              "label": "F",
+              "text": "Eventually, we agreed to note only the object, its problem and the work already attempted."
+            },
+            {
+              "label": "G",
+              "text": "People who had barely spoken before now greeted one another in the street."
+            }
+          ]
+        },
+        {
+          "prompt": "Gap 6",
+          "answers": [
+            "G"
+          ],
+          "explanation": "Those new connections must refer to neighbours getting to know one another. This adds a social benefit beyond counting repaired objects. connections（人とのつながり）が後文の指示対象です。",
+          "tags": [
+            "cohesion"
+          ],
+          "id": "cb-cohesion-repair-06",
+          "options": [
+            {
+              "label": "A",
+              "text": "We therefore changed the advertisement to offer help and advice rather than a guaranteed repair."
+            },
+            {
+              "label": "B",
+              "text": "Instead, we asked people to sit beside a volunteer and take part in the process."
+            },
+            {
+              "label": "C",
+              "text": "In fact, many visitors arrived carrying coats and trousers that needed mending."
+            },
+            {
+              "label": "D",
+              "text": "The school had already decided to replace all the chairs in the hall."
+            },
+            {
+              "label": "E",
+              "text": "We therefore put printed posters in local shops as well."
+            },
+            {
+              "label": "F",
+              "text": "Eventually, we agreed to note only the object, its problem and the work already attempted."
+            },
+            {
+              "label": "G",
+              "text": "People who had barely spoken before now greeted one another in the street."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cb-matching-new-city",
+      "part": "7",
+      "title": "Finding a place in a new city",
+      "skill": "Match meaning, not repeated words",
+      "instruction": "For questions 1–10 choose A, B, C or D. A section may be used more than once. Find the full meaning rather than one matching word.",
+      "passage": "A · Nora — A community choir\nI did not join because I thought I could sing well. I wanted an activity where I would meet the same people regularly without having to invent a conversation from nothing. Singing gave us something to do together. I was nervous about performing, but nobody required us to take part in concerts. The travel worried me at first; then another member offered me a lift from the bus station. I still go every Thursday, even when I have had a tiring week.\n\nB · Leo — A walking group\nI had hoped the group would help me discover places beyond the city centre. It certainly did, but I had underestimated the pace. After the first walk, I could barely manage the stairs to my flat. The organiser suggested a shorter route the following week, which made a real difference. People were friendly, although they often changed from week to week. I began taking photographs on the walks and have since signed up for a photography course. That was an unexpected result.\n\nC · Mina — A book group\nAt my first meeting, I disagreed with almost everyone about the ending of the novel. I worried that I had made a bad impression, until someone thanked me for making the discussion interesting. I had assumed that everyone would be much older than me, but the members were a similar age. A busy period at work later meant I could not finish the chosen books. I decided to stop attending rather than turn a pleasure into another deadline. I miss the group, though, and would like to return.\n\nD · Sam — A volunteering team\nI joined a team restoring an old theatre because I already knew how to work with wood. I could offer something useful immediately, even though I knew nobody. At first I thought the membership fee was surprisingly high. Once I saw the cost of the tools and insurance, I understood it. The task I enjoyed most was teaching a new volunteer to use a simple hand tool. I had expected the satisfaction of a finished building, but helping someone gain confidence was just as rewarding.",
+      "minutes": 12,
+      "source": {
+        "kind": "original",
+        "date": "2026-10-21"
+      },
+      "questions": [
+        {
+          "prompt": "1. Who found that a difference of opinion was welcomed?",
+          "answers": [
+            "C"
+          ],
+          "explanation": "Mina disagreed about the ending and was thanked for making the discussion interesting. The disagreement was welcomed, not merely tolerated. welcomed（喜んで受け入れられた）という反応が根拠です。",
+          "tags": [
+            "paraphrase",
+            "evidence"
+          ],
+          "id": "cb-matching-new-city-01",
+          "options": [
+            {
+              "label": "A",
+              "text": "Nora — choir"
+            },
+            {
+              "label": "B",
+              "text": "Leo — walking group"
+            },
+            {
+              "label": "C",
+              "text": "Mina — book group"
+            },
+            {
+              "label": "D",
+              "text": "Sam — volunteering team"
+            }
+          ]
+        },
+        {
+          "prompt": "2. Who made use of a skill they already possessed?",
+          "answers": [
+            "D"
+          ],
+          "explanation": "Sam already knew how to work with wood and could offer useful help immediately. Nora explicitly did not join because of singing ability. possessed（持っていた）はalready knewと言い換えられます。",
+          "tags": [
+            "paraphrase",
+            "evidence"
+          ],
+          "id": "cb-matching-new-city-02",
+          "options": [
+            {
+              "label": "A",
+              "text": "Nora — choir"
+            },
+            {
+              "label": "B",
+              "text": "Leo — walking group"
+            },
+            {
+              "label": "C",
+              "text": "Mina — book group"
+            },
+            {
+              "label": "D",
+              "text": "Sam — volunteering team"
+            }
+          ]
+        },
+        {
+          "prompt": "3. Who valued not having to start conversation without a shared activity?",
+          "answers": [
+            "A"
+          ],
+          "explanation": "Nora wanted to meet people without inventing conversation from nothing; singing supplied a shared activity. The key is the reason for choosing the group. shared（共有の）活動が会話のきっかけになります。",
+          "tags": [
+            "paraphrase",
+            "evidence"
+          ],
+          "id": "cb-matching-new-city-03",
+          "options": [
+            {
+              "label": "A",
+              "text": "Nora — choir"
+            },
+            {
+              "label": "B",
+              "text": "Leo — walking group"
+            },
+            {
+              "label": "C",
+              "text": "Mina — book group"
+            },
+            {
+              "label": "D",
+              "text": "Sam — volunteering team"
+            }
+          ]
+        },
+        {
+          "prompt": "4. Who stopped attending because preparation became difficult to fit in?",
+          "answers": [
+            "C"
+          ],
+          "explanation": "Mina could not finish the books during a busy period at work and stopped attending. Leo's difficulty was physical effort, not preparation time. preparation（準備）の負担と運動の負担を区別します。",
+          "tags": [
+            "paraphrase",
+            "evidence"
+          ],
+          "id": "cb-matching-new-city-04",
+          "options": [
+            {
+              "label": "A",
+              "text": "Nora — choir"
+            },
+            {
+              "label": "B",
+              "text": "Leo — walking group"
+            },
+            {
+              "label": "C",
+              "text": "Mina — book group"
+            },
+            {
+              "label": "D",
+              "text": "Sam — volunteering team"
+            }
+          ]
+        },
+        {
+          "prompt": "5. Who discovered an additional interest through the activity?",
+          "answers": [
+            "B"
+          ],
+          "explanation": "Leo began taking photographs and joined a photography course, which he calls an unexpected result. Sam already had a practical skill. additional interest（新しい別の関心）は写真です。",
+          "tags": [
+            "paraphrase",
+            "evidence"
+          ],
+          "id": "cb-matching-new-city-05",
+          "options": [
+            {
+              "label": "A",
+              "text": "Nora — choir"
+            },
+            {
+              "label": "B",
+              "text": "Leo — walking group"
+            },
+            {
+              "label": "C",
+              "text": "Mina — book group"
+            },
+            {
+              "label": "D",
+              "text": "Sam — volunteering team"
+            }
+          ]
+        },
+        {
+          "prompt": "6. Who received help with getting to the activity?",
+          "answers": [
+            "A"
+          ],
+          "explanation": "Another choir member offered Nora a lift from the bus station. Leo received help adapting the route, which concerns the activity itself. lift（車に乗せて送ること）という日常表現を読みます。",
+          "tags": [
+            "paraphrase",
+            "evidence"
+          ],
+          "id": "cb-matching-new-city-06",
+          "options": [
+            {
+              "label": "A",
+              "text": "Nora — choir"
+            },
+            {
+              "label": "B",
+              "text": "Leo — walking group"
+            },
+            {
+              "label": "C",
+              "text": "Mina — book group"
+            },
+            {
+              "label": "D",
+              "text": "Sam — volunteering team"
+            }
+          ]
+        },
+        {
+          "prompt": "7. Who changed their view about an expense?",
+          "answers": [
+            "D"
+          ],
+          "explanation": "Sam first thought the membership fee was high, then understood the costs of tools and insurance. A change of opinion needs both stages. expense（費用）の評価が変わった経緯を探します。",
+          "tags": [
+            "paraphrase",
+            "evidence"
+          ],
+          "id": "cb-matching-new-city-07",
+          "options": [
+            {
+              "label": "A",
+              "text": "Nora — choir"
+            },
+            {
+              "label": "B",
+              "text": "Leo — walking group"
+            },
+            {
+              "label": "C",
+              "text": "Mina — book group"
+            },
+            {
+              "label": "D",
+              "text": "Sam — volunteering team"
+            }
+          ]
+        },
+        {
+          "prompt": "8. Who was surprised by the age of the other members?",
+          "answers": [
+            "C"
+          ],
+          "explanation": "Mina expected much older members but found people of a similar age. No other section discusses age. assumption（予想）と実際の違いが根拠です。",
+          "tags": [
+            "paraphrase",
+            "evidence"
+          ],
+          "id": "cb-matching-new-city-08",
+          "options": [
+            {
+              "label": "A",
+              "text": "Nora — choir"
+            },
+            {
+              "label": "B",
+              "text": "Leo — walking group"
+            },
+            {
+              "label": "C",
+              "text": "Mina — book group"
+            },
+            {
+              "label": "D",
+              "text": "Sam — volunteering team"
+            }
+          ]
+        },
+        {
+          "prompt": "9. Who needed the activity to become less physically demanding?",
+          "answers": [
+            "B"
+          ],
+          "explanation": "Leo struggled after the first walk; the shorter route helped. Physically demanding means requiring substantial bodily effort. demanding（負担の大きい）はここでは体力についてです。",
+          "tags": [
+            "paraphrase",
+            "evidence"
+          ],
+          "id": "cb-matching-new-city-09",
+          "options": [
+            {
+              "label": "A",
+              "text": "Nora — choir"
+            },
+            {
+              "label": "B",
+              "text": "Leo — walking group"
+            },
+            {
+              "label": "C",
+              "text": "Mina — book group"
+            },
+            {
+              "label": "D",
+              "text": "Sam — volunteering team"
+            }
+          ]
+        },
+        {
+          "prompt": "10. Who found satisfaction in helping another person develop?",
+          "answers": [
+            "D"
+          ],
+          "explanation": "Sam enjoyed teaching a volunteer and found building confidence rewarding. The text explicitly compares that satisfaction with finishing the building. rewarding（やりがいのある）は金銭以外の満足にも使います。",
+          "tags": [
+            "paraphrase",
+            "evidence"
+          ],
+          "id": "cb-matching-new-city-10",
+          "options": [
+            {
+              "label": "A",
+              "text": "Nora — choir"
+            },
+            {
+              "label": "B",
+              "text": "Leo — walking group"
+            },
+            {
+              "label": "C",
+              "text": "Mina — book group"
+            },
+            {
+              "label": "D",
+              "text": "Sam — volunteering team"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cb-essay-learning",
+      "part": "writing",
+      "title": "Learning outside the classroom",
+      "skill": "Essay · cover both notes and your own idea",
+      "instruction": "Write an essay of 140–190 words. Give reasons for your opinion, discuss both provided notes and add one idea of your own. Draft first; the model is only one possible answer.",
+      "passage": "In your English class you have discussed learning outside lessons. Now write an essay: “Students learn more effectively when they also take part in activities outside the classroom. Do you agree?”\nNotes: 1. practising skills  2. meeting other people  3. your own idea",
+      "minutes": 35,
+      "source": {
+        "kind": "original",
+        "date": "2026-10-21"
+      },
+      "questions": [
+        {
+          "prompt": "Write your essay.",
+          "tags": [
+            "evidence",
+            "linkers"
+          ],
+          "model": "Classroom lessons give students a useful starting point, but I believe activities outside lessons can help them turn that knowledge into something they can use.\n\nFirst, practical activities make students apply their skills. Someone learning English might understand how to make polite requests in class, yet still need practice asking for help at a library. A real purpose makes the language easier to remember.\n\nMeeting other people also matters. In a club, students hear different opinions and have to explain their own. This can reveal gaps that familiar classroom exercises do not show. However, the group needs to give everyone a chance to participate.\n\nAnother benefit is motivation. Choosing an activity connected to a personal interest can encourage students to continue when a subject becomes difficult.\n\nOutside activities cannot replace clear teaching or careful feedback. Nevertheless, when students combine them with lessons, they gain more opportunities to practise, question and improve their understanding.",
+          "explanation": "The model gives a position, addresses both notes and adds motivation as its own idea. Each main point has an explanation or example, and the ending qualifies the claim. qualify（条件・限界を添える）は主張を適切な範囲にすることです。Compare your ideas and organisation before copying expressions. 自分の内容を保ちながら、文法と論理を修正しましょう。",
+          "checklist": [
+            "I answered the question and covered both notes plus my own idea.",
+            "I explained reasons with concrete examples and connected paragraphs.",
+            "I checked grammar and word choice, then wrote down one revision to make."
+          ],
+          "id": "cb-essay-learning-01"
+        }
+      ]
+    },
+    {
+      "id": "cb-review-place",
+      "part": "writing",
+      "title": "A place worth recommending",
+      "skill": "Review · describe, evaluate and recommend",
+      "instruction": "Write a review of 140–190 words for an English-language student website. Describe a place to study, explain its strengths and weaknesses, and say who would benefit most. Draft first; self-review does not produce an exam score.",
+      "passage": "A student website wants reviews of places to study outside home. Choose a place you know, describe the atmosphere and facilities, and explain whether you would recommend it. You may use an imagined place if needed.",
+      "minutes": 30,
+      "source": {
+        "kind": "original",
+        "date": "2026-10-21"
+      },
+      "questions": [
+        {
+          "prompt": "Write your review, including a title.",
+          "tags": [
+            "comparisons",
+            "evidence"
+          ],
+          "model": "A quiet corner with a useful café\n\nIf you need somewhere to study after class, the Riverside Library is worth a visit. I spent two afternoons there last week and found it particularly useful for reading and writing.\n\nThe main reading room has large desks, comfortable chairs and plenty of natural light. Most visitors work quietly, so it is easy to concentrate. There are also sockets near many desks, although these seats disappear quickly in the afternoon.\n\nThe café downstairs is a convenient place for a short break. Its prices are reasonable, but the queue can be long around lunchtime. Another drawback is that the group rooms must be booked in advance. You cannot simply arrive with friends and expect a room to be free.\n\nI would recommend the library to students who want a peaceful place for independent work. For a lively group discussion, I would look elsewhere or reserve a room first. Arriving early makes the experience much easier.",
+          "explanation": "The review combines description with evaluation and names a suitable audience. Drawback means a disadvantage; reserve means book in advance. drawback（欠点）とreserve（予約する）を説明に使っています。The imagined library is an example, not a verified local recommendation. 自分の場所を選んだ場合は、事実と合う内容へ書き換えてください。",
+          "checklist": [
+            "I described the place and supported both positive and negative opinions.",
+            "I explained who should use the place and gave a clear recommendation.",
+            "I checked the 140–190 word target and identified a language improvement."
+          ],
+          "id": "cb-review-place-01"
+        }
+      ]
+    }
+  ],
+  "repeat": [
+    {
+      "en": "Please return your visitor badge before you leave the building.",
+      "ja": "建物を出る前に来訪者用の名札を返してください。",
+      "note": "visitor badge（来訪者用の名札）／before + 主語 + 動詞。Keep your and the; small words carry meaning."
+    },
+    {
+      "en": "The library offers quiet study rooms for students working on group projects.",
+      "ja": "図書館はグループ課題に取り組む学生向けに静かな学習室を提供しています。",
+      "note": "working on（〜に取り組んでいる）はstudentsを後ろから説明します。Repeat the full noun phrase without dropping for."
+    },
+    {
+      "en": "You should check the equipment before your practical class begins this afternoon.",
+      "ja": "今日の午後の実習が始まる前に機材を確認してください。",
+      "note": "equipment（機材）は不可算名詞。practical class（実習授業）の前後をひとかたまりで保持しましょう。"
+    },
+    {
+      "en": "If the main entrance is closed, please use the door beside reception.",
+      "ja": "正面入口が閉まっていたら、受付の横のドアを使ってください。",
+      "note": "beside（〜の横に）／reception（受付）。The condition comes first; keep the location at the end."
+    },
+    {
+      "en": "The workshop has been moved to a larger room because more people registered.",
+      "ja": "参加登録者が増えたため、講習会はもっと広い部屋へ変更されました。",
+      "note": "has been moved（変更された）は現在完了の受け身。registered（登録した）の語尾も確認します。"
+    },
+    {
+      "en": "Students who need extra time should contact the course office before the end of the week.",
+      "ja": "追加の時間が必要な学生は、週末までにコース事務室へ連絡してください。",
+      "note": "Students who need extra time（追加時間が必要な学生）を一まとまりに。contactは前置詞なしで相手を続けます。"
+    },
+    {
+      "en": "Although the instructions are available online, a member of staff can explain them in person.",
+      "ja": "指示はオンラインで確認できますが、職員が対面で説明することもできます。",
+      "note": "although（〜だけれども）／in person（対面で）。Remember both clauses and keep the plural pronoun them."
+    }
+  ]
+}

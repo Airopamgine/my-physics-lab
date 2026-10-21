@@ -10,6 +10,7 @@ import unittest
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 from build_toefl_vocabulary import clean, key, restored, words, quick_exercises, quiz_glosses
+from writing_bank import load_writing_bank
 
 read = lambda path: json.loads((ROOT / path).read_text())
 
@@ -19,7 +20,7 @@ class VocabularyLabTests(unittest.TestCase):
     def setUpClass(cls):
         cls.bank = read("static/data/toefl-vocabulary-bank.json")
         cls.reading = read("static/data/toefl-task-bank.json")
-        cls.writing = read("static/data/toefl-writing-bank.json")
+        cls.writing = load_writing_bank(ROOT)
         cls.legacy = read("static/data/english-question-bank.json")
         cls.entries = {e["term"]: e for e in cls.bank["entries"]}
         cls.docs = {d["id"]: d for d in cls.bank["documents"]}

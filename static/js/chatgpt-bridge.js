@@ -15,14 +15,14 @@
 
   function buildPrompt(details = {}) {
     const lines = [
-      "You are my careful TOEFL English tutor.",
+      "You are my careful TOEFL and Cambridge B2 First English tutor. Use the task named below; do not impose a different exam's format.",
       "Review the study material and my answer below.",
       "",
       "Please:",
       "1. Say clearly whether my answer is correct or appropriate.",
       "2. Correct grammar, spelling, word choice, and naturalness where relevant.",
       "3. Explain mainly in English with Japanese support (about 60% English / 40% Japanese). Give difficult vocabulary a Japanese gloss and explanation.",
-      "4. For an open-ended answer, give a minimal correction, a natural improved version, and one stronger TOEFL-style version.",
+      "4. For an open-ended answer, give a minimal correction, a natural improved version, and one stronger version suited to the named task.",
       "5. For a multiple-choice answer, explain why the correct option works and why my option is right or wrong.",
       "6. Define difficult vocabulary briefly in Japanese.",
       "",

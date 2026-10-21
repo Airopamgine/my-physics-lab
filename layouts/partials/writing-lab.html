@@ -1,5 +1,6 @@
 <section class="writing-lab" id="writing-lab" aria-labelledby="writing-title"
-  data-bank-url="{{ "data/toefl-writing-bank.json" | relURL }}?v={{ readFile "static/data/toefl-writing-bank.json" | sha256 | truncate 12 "" }}">
+  data-bank-url="{{ "data/toefl-writing-bank.json" | relURL }}?v={{ readFile "static/data/toefl-writing-bank.json" | sha256 | truncate 12 "" }}"
+  data-originals-url="{{ "data/toefl-writing-originals.json" | relURL }}?v={{ readFile "static/data/toefl-writing-originals.json" | sha256 | truncate 12 "" }}">
   <div class="writing-heading">
     <div><p class="toefl-eyebrow">Write · review · rewrite</p><h2 id="writing-title">Writing Lab</h2>
       <p>文を組み立てる練習から、目的の伝わるメール、根拠のある討論へ。</p></div>

@@ -44,4 +44,5 @@ jobs:
           node tests/verify_vocabulary_dom.cjs
           for zone in Europe/Warsaw UTC Asia/Tokyo; do
             TZ="$zone" node tests/verify_daily_study.cjs
+            TZ="$zone" node tests/verify_cambridge_dom.cjs
           done
