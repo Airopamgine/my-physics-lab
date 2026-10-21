@@ -55,7 +55,7 @@
     heading.append(title,close);panel.append(heading,node("p",options.instruction||"Answer every question, revise any response, then submit the complete set."),node("p","全問を解答するまで正誤・正答・解説は表示しません。提出前はどの解答も変更できます。"));
     const status=node("p",undefined,"set-status");status.setAttribute("role","status");status.dataset.setStatus="";panel.append(status);
     const timer=node("div",undefined,"set-timer");panel.append(timer);
-    const form=node("form"),list=node("div");list.className="set-questions";form.append(list);
+    const form=node("form"),list=node("div");list.className="set-question-groups";form.append(list);
     const submit=node("button","Submit set · 全問まとめて採点","toefl-button toefl-button--primary");submit.type="submit";submit.dataset.setSubmit="";
     const review=node("section",undefined,"set-review");review.hidden=true;review.dataset.setReview="";
     const finish=node("button","Finish review · 解説を確認して完了","toefl-button toefl-button--primary");finish.type="button";finish.dataset.setFinish="";
@@ -70,17 +70,34 @@
       finish.disabled=questions.some(q=>(q.checks||[]).some((_,i)=>!data.checks[q.id]?.includes(i)) || q.kind==="self"&&!data.ratings[q.id]);
     }
     function edit(q,value){if(data.submitted)return;data.answers[q.id]=value;save();options.onDraft?.(q.id,clone(value));}
-    let lastPassage=null;
+    let currentGroup=null;
     for(const [index,q]of questions.entries()){
-      if(q.passage && q.passage!==lastPassage){const passage=node("div",q.passage,"set-passage");passage.dataset.setPassage="";list.append(passage);lastPassage=q.passage;}
+      // Keep each source beside its own questions. Consecutive questions may
+      // share a passage; a new source always starts a new, independent pair.
+      const passageText=q.passage||"";
+      if(!currentGroup || currentGroup.text!==passageText || q.kind==="essay" || currentGroup.essay){
+        const group=node("section",undefined,`set-question-group${passageText?" set-question-group--passage":" set-question-group--short"}`);
+        const questionList=node("div",undefined,"set-questions");
+        currentGroup={text:passageText,questions:questionList,essay:q.kind==="essay"};
+        if(passageText){
+          const source=node("section",undefined,"set-passage-pane"),sourceTitle=node("h4","Passage & task · 本文・課題","set-pane-title");
+          sourceTitle.id=`${engine}-set-source-${index}`;source.setAttribute("aria-labelledby",sourceTitle.id);source.tabIndex=0;
+          const passage=node("div",passageText,"set-passage");passage.dataset.setPassage="";
+          source.append(sourceTitle,passage);questionList.append(node("h4","Questions & answers · 設問・解答","set-pane-title"));group.append(source);
+          currentGroup.source=source;currentGroup.passage=passage;
+        }
+        group.append(questionList);list.append(group);
+      }
       const article=node("article",undefined,"set-question");article.dataset.setQuestion=q.id;
-      const labelId=`${engine}-set-question-${index}`;const prompt=node("h4",`${index+1}. ${q.prompt}`);prompt.id=labelId;article.append(prompt);
-      if(q.hint)article.append(node("p",q.hint,"set-note"));
+      const problem=node("div",undefined,"set-question-context");
+      const labelId=`${engine}-set-question-${index}`;const prompt=node("h4",`${index+1}. ${q.prompt}`);prompt.id=labelId;problem.append(prompt);article.setAttribute("aria-labelledby",labelId);
+      if(!passageText){problem.tabIndex=0;problem.setAttribute("role","region");problem.setAttribute("aria-labelledby",labelId);}
+      if(q.hint)problem.append(node("p",q.hint,"set-note"));
       if(q.audio){const play=node("button","Listen · 音声を聞く","toefl-button toefl-button--secondary");play.type="button";play.addEventListener("click",()=>{
         if(!window.speechSynthesis||!window.SpeechSynthesisUtterance){status.textContent="音声合成を利用できません。音声対応のブラウザで試してください。";return;}
         window.speechSynthesis.cancel();const speech=new SpeechSynthesisUtterance(q.audio);speech.lang="en-US";window.speechSynthesis.speak(speech);
-      });article.append(play,node("p","Synthetic voice · ブラウザの音声合成。文字起こしは全問提出後に表示します。","set-note"));}
-      const input=node("div");input.dataset.setInput=q.id;fields.set(q.id,input);
+      });problem.append(play,node("p","Synthetic voice · ブラウザの音声合成。文字起こしは全問提出後に表示します。","set-note"));}
+      const input=node("div",undefined,"set-answer-input");input.dataset.setInput=q.id;input.setAttribute("role","group");input.setAttribute("aria-labelledby",labelId);fields.set(q.id,input);
       if(q.kind==="choice"){
         const group=node("fieldset"),legend=node("legend","Choose one answer · 1つ選んでください");group.append(legend);
         for(const [oi,option] of q.options.entries()){const label=node("label",undefined,"set-choice"),radio=node("input");radio.type="radio";radio.name=`${engine}-${q.id}`;radio.value=option.label;radio.checked=data.answers[q.id]===option.label;radio.disabled=data.submitted;
@@ -98,7 +115,11 @@
         field.value=data.answers[q.id];field.maxLength=q.kind==="essay"||q.kind==="self"?20000:200;field.autocomplete="off";field.spellcheck=false;field.disabled=data.submitted;
         field.addEventListener("input",()=>edit(q,field.value));label.append(field);input.append(label);
       }
-      article.append(input);list.append(article);
+      if(q.kind==="essay"&&currentGroup.source){
+        currentGroup.source.insertBefore(problem,currentGroup.passage);
+        article.append(node("h4",`${index+1}. Your response · あなたの解答`));
+      }else article.append(problem);
+      article.append(input);currentGroup.questions.append(article);
     }
     function results(){return questions.map(q=>({id:q.id,answer:clone(data.answers[q.id]),...q.grade(clone(data.answers[q.id]))}));}
     function showReview(){
