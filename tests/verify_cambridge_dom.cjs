@@ -1,6 +1,7 @@
 // Real runners in an isolated DOM fixture. Production authentication is unchanged.
 const fs=require('fs'),assert=require('assert'),{JSDOM}=require('jsdom');
-const html=fs.readFileSync(process.env.TOEFL_HTML,'utf8');
+// Legacy grading-kernel fixture; production full-set flow is covered by verify_set_practice.cjs.
+const html = fs.readFileSync(process.env.TOEFL_HTML, 'utf8').replace(/data-grading(?:=set|="set")/, 'data-grading=legacy');
 const read=name=>JSON.parse(fs.readFileSync(`static/data/${name}.json`,'utf8'));
 const banks={cambridge:read('cambridge-bank'),reading:read('toefl-task-bank'),writing:read('toefl-writing-bank'),plan:read('toefl-daily-plan')};
 const originals=read('toefl-writing-originals');

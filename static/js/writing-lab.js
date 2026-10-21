@@ -288,6 +288,10 @@
     el("feedback").textContent = value === "correct" ? "正解です。文法と解答の理由を確認しましょう。" : value === "incorrect" ? "解答を見直しましょう。正答と根拠を確認できます。" : "答案を保存しました。解答例と比較して書き直してください。自由作文の点数や正誤は自動判定しません。";
   }
   function open(q, focus = true, guided = false) {
+    if (document.getElementById("toefl-app")?.dataset.grading === "set") {
+      if (!window.EnglishSetPractice) { el("status").textContent="全問提出用の画面を読み込めません。ページを再読み込みしてください。"; return false; }
+      return openWritingSet(guided && guidedSession ? guidedSession.ids.map(id=>bank.exercises.find(q=>q.id===id)) : [q], guided ? guidedSession?.context : null);
+    }
     if (!guided) guidedSession = null;
     if (active && active.id !== q.id) pause(active);
     active = q; state.lastId = q.id; state.task = q.type;
@@ -320,6 +324,30 @@
       explanation: el("review").hidden ? "" : q.explanation.join("\n")
     }));
     if (focus) { el("runner").scrollIntoView({ behavior: "smooth", block: "start" }); el("exercise-title").focus({ preventScroll: true }); }
+  }
+  function openWritingSet(questions, context) {
+    if(active)pause(active);active=questions[0];state.lastId=active.id;state.task=active.type;
+    return window.EnglishSetPractice.open({engine:"writing",host:el("runner"),id:questions.map(q=>q.id).join(":"),title:questions.length>1?"TOEFL Writing · complete practice set":questions[0].title,
+      instruction:"Complete every response before submitting. 全問の解答後に、正答・別解・解説をまとめて確認します。自由作文は自己確認で、点数は自動判定しません。",context,
+      minutes:questions.filter(isEssay).reduce((n,q)=>n+q.minutes,0),
+      initialAnswers:Object.fromEntries(questions.filter(q=>isEssay(q)||!state.records[q.id]?.checked).map(q=>{const r=record(q);return[q.id,q.type==="sentence"?r.selections:q.type==="grammar"?(r.choice===null?"":String(r.choice)):r.answer];})),
+      questions:questions.map(q=>({id:q.id,kind:q.type==="sentence"?"sentence":q.type==="grammar"?"choice":"essay",prompt:`${q.title}\n${q.prompt||q.context}`,
+        passage:isEssay(q)?[q.to?`To: ${q.to}\nSubject: ${q.subject}`:q.professor,q.context,...(q.posts||[]).map(p=>`${p.name}: ${p.text}`)].filter(Boolean).join("\n\n"):"",
+        hint:(q.requirements||[]).join("\n"),tiles:q.tiles,slots:q.solutions?.[0].length,frame:q.frame?.join(""),
+        options:q.choices?.map((text,i)=>({label:String(i),text})),checks:isEssay(q)?[...q.requirements,q.type==="email"?"I checked the greeting, request and closing.":"I supported my position with a reason and a concrete example.","I checked connections, verb forms and spelling."]:[],
+        grade:answer=>({result:q.type==="sentence"?(q.solutions.some(s=>s.every((i,slot)=>q.tiles[i]===q.tiles[answer[slot]]))?"correct":"incorrect"):q.type==="grammar"?(Number(answer)===q.correctIndex?"correct":"incorrect"):"submitted",
+          answerText:q.type==="sentence"?assembled(q,{selections:answer}):q.type==="grammar"?q.choices[Number(answer)]:answer,
+          model:q.modelAnswer,explanation:[q.answerBasis,...q.explanation,...(q.solutions?.length>1?q.solutions.slice(1).map(selections=>`Alternative: ${assembled(q,{selections})}`):[]),...q.phrases]})})),
+      onSubmit:results=>{for(const row of results){const q=questions.find(q=>q.id===row.id),r=record(q);r.rating="";r.checks=[];
+        if(q.type==="sentence"){r.selections=[...row.answer];r.checked=true;}else if(q.type==="grammar"){r.choice=Number(row.answer);r.checked=true;}else{r.answer=row.answer;pause(q);r.history.push({text:row.answer,at:new Date(Date.now()).toISOString()});r.history=r.history.slice(-5);}
+        document.dispatchEvent(new CustomEvent(isEssay(q)?"toefl:writing-submitted":"toefl:writing-answer",{detail:{id:q.id,result:row.result,context}}));
+      }save();renderCatalog();},
+      onReview:results=>{for(const row of results){const q=questions.find(q=>q.id===row.id),r=record(q);if(isEssay(q))r.rating="done";
+        document.dispatchEvent(new CustomEvent("toefl:writing-reviewed",{detail:{id:q.id,result:isEssay(q)?"self-reviewed":row.result,context}}));
+      }save();renderCatalog();},
+      tutor:(id,row)=>{const q=questions.find(q=>q.id===id);return{writingReview:isEssay(q),source:sourceLabel(q),section:"TOEFL Writing",task:TYPES[q.type],setTitle:q.title,context:[q.context||q.prompt,...(q.posts||[]).map(p=>`${p.name}: ${p.text}`)].join("\n"),question:q.frame?.join("")||q.context||q.prompt,instruction:q.requirements?.join("\n"),userAnswer:row.answerText,modelAnswer:q.modelAnswer,explanation:q.explanation.join("\n")};},
+      onClose:()=>{active=null;guidedSession=null;state.lastId="";save();renderCatalog();}
+    });
   }
   function close() {
     pause(active); active = null; guidedSession = null; state.lastId = ""; save();
@@ -439,7 +467,7 @@
   window.ToeflWritingLab = Object.freeze({
     getBank: () => bank,
     getProgress: () => state.records,
-    pauseTimer: () => { pause(active); if (bank) { save(); timer(); } },
+    pauseTimer: () => { window.EnglishSetPractice?.pause("writing"); pause(active); if (bank) { save(); timer(); } },
     startSelection: (ids, context) => {
       if (!bank || !ids.length || ids.some(id => !bank.exercises.some(q => q.id === id))) return false;
       guidedSession = { ids: [...ids], context };

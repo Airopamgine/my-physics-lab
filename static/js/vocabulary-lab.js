@@ -336,6 +336,10 @@
   }
   function renderCard() {
     const c = current(); if (!c) return;
+    if(document.getElementById("toefl-app")?.dataset.grading==="set"){
+      if(!window.EnglishSetPractice){el("status").textContent="全問提出用の画面を読み込めません。ページを再読み込みしてください。";return;}
+      return openVocabularySet();
+    }
     const e = bank.entries[c.entry], s = state.session;
     el("runner").hidden = false; el("feedback").hidden = true; el("explanation").hidden = true; el("explanation").replaceChildren();
     el("round").hidden = true;
@@ -358,6 +362,22 @@
     el("reveal").disabled = s.checked; el("next").disabled = !s.checked;
     if (s.checked) feedback(c, s.result);
     renderTimer(); (s.checked ? el("feedback") : el("question")).focus();
+  }
+  function openVocabularySet(){
+    const s=state.session,selected=s.ids.map(id=>byCard.get(id));el("round").hidden=true;
+    return window.EnglishSetPractice.open({engine:"vocabulary",host:el("runner"),id:JSON.stringify([s.ids,s.seed]),title:"Vocabulary · complete the round",instruction:"Choose a meaning for every word, then submit the complete round. 全問を選択してから採点します。選んだ直後には正答を表示しません。",
+      questions:selected.map(c=>{const e=bank.entries[c.entry];return{id:c.id,kind:"choice",prompt:e.term,hint:c.mode==="glossary"?"Choose the Japanese meaning · 日本語の意味を選ぶ":"Choose the English definition · 英語の定義を選ぶ",audio:e.term,
+        options:choices(c).map(i=>({label:bank.entries[i].id,text:optionText(c,i)})),
+        grade:answer=>({result:answer===e.id?"correct":"incorrect",answerText:optionText(c,byEntry.get(answer).index),model:answerText(c),explanation:[c.mode==="dictionary"?`Base form: ${c.lemma} · ${bank.senses[c.sense].pos}`:c.gloss.english,
+          c.mode==="dictionary"&&e.quizGlosses.length?`日本語の語注（別の語義を含む場合あり）: ${e.quizGlosses.map(g=>g.text).join(" / ")}`:"",
+          "Learn this meaning, then recall it without looking and use the word in a new sentence. この語義を覚え、見ずに思い出して自分の例文を作りましょう。",e.contexts[0]?.text,bank.dictionarySource?.note].filter(Boolean)})};}),
+      onSubmit:results=>{for(const row of results){const c=byCard.get(row.id),old=record(c)||{attempts:0,correct:0,wrong:0,streak:0,lastCorrectDay:""},correct=row.result==="correct";
+        const streak=correct?old.lastCorrectDay===day()?Math.max(1,old.streak):Math.min(8,old.streak+1):0;
+        state.records[c.id]={attempts:old.attempts+1,correct:old.correct+Number(correct),wrong:old.wrong+Number(!correct),result:row.result,streak,lastCorrectDay:correct?day():old.lastCorrectDay,last:Date.now(),due:Date.now()+(correct?[0,1,3,7,14,30,60,90,120][streak]:0)*86400000};
+        state.history.push({id:c.id,result:row.result,at:Date.now()});}state.history=state.history.slice(-500);s.checked=true;save();stats();},
+      onReview:()=>{pause();state.lastRound={ids:[...s.ids],wrong:s.ids.filter(id=>state.records[id]?.result!=="correct")};state.session=null;save();render();},
+      onClose:()=>{pause();save();renderHistory();}
+    });
   }
   function start(ids) {
     if (!unlocked || !bank || !ids.length || ids.some(id => !byCard.has(id) || byCard.get(id).archived)) return false;

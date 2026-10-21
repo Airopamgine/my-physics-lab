@@ -319,6 +319,19 @@
 
     if (!base.length) return;
     queue = [...base];
+    if (document.getElementById("toefl-app")?.dataset.grading === "set") {
+      if (!window.EnglishSetPractice) { elements.description.textContent="全問提出用の画面を読み込めません。ページを再読み込みしてください。"; return; }
+      elements.completion.hidden=true;sessionCorrect=0;
+      return window.EnglishSetPractice.open({engine:"quick",host:elements.workspace,id:`quick-${selectedSection}-${mode}`,title:"TOEFL Quick Practice · complete set",instruction:"Complete every question, then submit the set. 全問を解答してからまとめて採点します。",
+        questions:base.map(q=>({id:q.id,kind:q.kind==="complete"?"compound":q.kind==="sentence"?"sentence":"choice",prompt:`${q.section} · ${q.task}\n${q.prompt||q.instruction}`,passage:(q.passage||"").replace(/\{\{(\d+)\}\}/g,(_,i)=>`[${Number(i)+1}] ____`),audio:q.audioText,
+          fields:q.gaps?.map((_,i)=>`Gap ${i+1} · Missing letters`),tiles:q.overrideTiles||q.tiles,slots:(q.overrideTiles||q.tiles)?.length,
+          options:q.options?.map((text,i)=>({label:String(i),text})),grade:answer=>{const text=q.kind==="sentence"?answer.map(i=>(q.overrideTiles||q.tiles)[i]).join(" "):q.kind==="complete"?answer.join(" | "):q.options[Number(answer)];
+            const correct=q.kind==="complete"?answer.every((v,i)=>normalize(v)===normalize(q.gaps[i].answer)):q.kind==="sentence"?normalize(text)===normalize((q.acceptedAnswerWords||q.answerWords).join(" ")):Number(answer)===q.answer;
+            return{result:correct?"correct":"incorrect",answerText:text,model:correctAnswerText(q),explanation:[q.explanation,q.explanationJa,...q.vocabulary.map(v=>v.join(" — "))]};}})),
+        onSubmit:results=>{for(const row of results){recordAttempt(row.id,row.result==="correct",row.answerText);if(row.result==="correct")sessionCorrect++;}},
+        tutor:(id,row)=>tutorDetails(base.find(q=>q.id===id),row.answerText),onClose:done=>{if(done)showCompletion();}
+      });
+    }
     currentIndex = 0;
     sessionCorrect = 0;
     elements.completion.hidden = true;
