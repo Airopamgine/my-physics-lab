@@ -205,6 +205,14 @@ function solve(t, q, wrong = false, solution = q.solutions[0]) {
   assert.strictEqual(network.d.querySelectorAll('[data-writing-start]').length, sentences.length);
   assert.strictEqual(network.requests(), 3);
   network.dom.window.close();
+  // A separate original feed can fail without losing the published source bank.
+  let originalFails = true;
+  const feed = await boot(undefined, { fetch: url => ({ ok: !(originalFails && String(url).includes('writing-originals')), json: async () => JSON.parse(JSON.stringify(String(url).includes('writing-originals') ? originals : baseBank)) }) });
+  assert(feed.d.getElementById('writing-status').textContent.includes('追加分'));
+  assert.strictEqual(feed.d.querySelectorAll('[data-writing-start]').length, baseBank.exercises.filter(q=>q.type==='sentence').length);
+  originalFails = false; click(feed, 'retry'); await tick();
+  assert.strictEqual(feed.d.querySelectorAll('[data-writing-start]').length, sentences.length);
+  feed.dom.window.close();
   // Exercise the actual bridge factory and manual-copy fallback, without opening
   // an external window or sending an answer to ChatGPT.
   const copy = await boot(); open(copy, email);

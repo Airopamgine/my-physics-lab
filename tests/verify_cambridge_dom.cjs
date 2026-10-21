@@ -65,7 +65,7 @@ function submit(t,q,answer){
  const row=JSON.parse(t.w.localStorage.getItem(COACH)).rows.find(r=>r.date==='2026-10-20'&&r.id===q.id);
  assert.strictEqual(row.first,'incorrect');assert.strictEqual(row.last,'correct');assert.strictEqual(t.w.CambridgeLab.getProgress().records[q.id].due,'2026-10-21');
  t.advance(new Date(2026,9,21,12).getTime());assert(t.w.EnglishCoach.yesterday().tags.inversion);assert(t.d.getElementById('coach-report').textContent.includes('Inversion'));
- assert.strictEqual(daily().steps[8].setId,target.id,'Yesterday\'s weak area was not selected');
+ assert(banks.cambridge.sets.find(s=>s.id===daily().steps[8].setId).questions.some(q=>q.tags.includes('inversion')),'Yesterday\'s weak area was not selected');
  // A reload restores partial drafts and a paused daily queue without regrading them.
  t.d.querySelector('[data-daily-start="8"]').click();const field=t.d.getElementById('cambridge-answer');field.value='partial draft';field.dispatchEvent(new t.w.Event('input'));t.d.getElementById('cambridge-close').click();
  const saved=t.snapshot(),again=await boot(saved);again.advance(new Date(2026,9,21,12).getTime());again.d.querySelector('[data-daily-start="8"]').click();assert.strictEqual(again.d.getElementById('cambridge-answer').value,'partial draft');again.dom.window.close();

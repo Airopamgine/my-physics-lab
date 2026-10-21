@@ -307,6 +307,8 @@
       const q = config.listening.find(item => item.id === step.ids[0]);
       body.append(node("p", "Listen for the main message first, then listen again for details. Try the comprehension tasks before opening the transcript. Check the answers there, then return and explain one correction in your own words."));
       body.append(node("p", "まず音声だけで要点をつかみ、2回目で細部を確認。comprehension（内容の理解）の問題を解いてからtranscript（音声の文字起こし）と解答を確認します。難しい場合は準備語彙と本文を使い、最後に本文なしでもう一度聞きましょう。"));
+      body.append(node("p", "For each missed answer, pair the phrase you heard with the option's paraphrase. Replay a short section, say its meaning in simple English, then listen again without the transcript. If you heard the words but needed more time, practise that same short section before speeding up."));
+      body.append(node("p", "聞こえた表現 → 選択肢の言い換えを1組記録します。paraphrase（言い換え）は同じ意味を別の語で表すこと。単語が聞こえても意味の処理が遅れる場合は、短い区間で意味を説明してから聞き直しましょう。"));
       const link = node("a", `${q.title} · 録音と確認問題を開く ↗`, "toefl-button toefl-button--secondary");
       link.href = config.listeningBase + q.id; link.target = "_blank"; link.rel = "noopener noreferrer"; link.id = "daily-audio-link";
       link.addEventListener("click", () => { step.opened = true; save(); update(); }); body.append(link);

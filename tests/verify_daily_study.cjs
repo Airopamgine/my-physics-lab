@@ -118,7 +118,7 @@ function checkMenu(t) {
   const t = await boot({ [RKEY]: { answers: { 'retain-my-history': { result: 'correct', attemptedAt: '2026-10-01T10:00:00Z' } } } });
   checkMenu(t);
   const day = t.day(), date = day.date, wrongId = day.steps[0].ids[0];
-  assert.strictEqual(t.requests(), 3);
+  assert.strictEqual(t.requests(), 4);
   assert(t.d.getElementById('daily-study').compareDocumentPosition(t.d.getElementById('writing-lab')) & t.w.Node.DOCUMENT_POSITION_FOLLOWING);
   assert(t.d.querySelector('[data-daily-start="7"]').disabled, 'Recall should follow checked vocabulary');
   const reload = await boot(t.allSaved());
