@@ -16,6 +16,17 @@ recovery. Do not restore instant per-question feedback. The old runner fixtures
 remain explicit legacy grading-kernel tests; `verify_set_practice.cjs` exercises
 the production full-set UI and must run alongside them.
 
+## Current practice layout (owner request, 2026-10-21)
+
+Keep the passage/task on the left and the answer fields on the right on wide
+screens. The shared renderer groups each passage with its matching questions;
+long sources scroll within a sticky, keyboard-focusable pane while the answers
+remain alongside them. Short tasks pair their prompt and answer on the same row.
+Essay instructions and source posts belong in the left pane, without repeating
+the full source above the writing field. On small screens, stack the pair and
+limit the source pane's height so a long passage cannot bury the answer fields.
+Preserve the full-set submission rule, editable drafts and all source content.
+
 The owner requested ongoing TOEFL and Cambridge B2 First preparation,
 balanced development of all four skills, easier navigation, and daily repair
 based on the previous day's answers. Publication through this existing GitHub

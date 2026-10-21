@@ -331,7 +331,7 @@
       instruction:"Complete every response before submitting. 全問の解答後に、正答・別解・解説をまとめて確認します。自由作文は自己確認で、点数は自動判定しません。",context,
       minutes:questions.filter(isEssay).reduce((n,q)=>n+q.minutes,0),
       initialAnswers:Object.fromEntries(questions.filter(q=>isEssay(q)||!state.records[q.id]?.checked).map(q=>{const r=record(q);return[q.id,q.type==="sentence"?r.selections:q.type==="grammar"?(r.choice===null?"":String(r.choice)):r.answer];})),
-      questions:questions.map(q=>({id:q.id,kind:q.type==="sentence"?"sentence":q.type==="grammar"?"choice":"essay",prompt:`${q.title}\n${q.prompt||q.context}`,
+      questions:questions.map(q=>({id:q.id,kind:q.type==="sentence"?"sentence":q.type==="grammar"?"choice":"essay",prompt:isEssay(q)?q.title:`${q.title}\n${q.prompt||q.context}`,
         passage:isEssay(q)?[q.to?`To: ${q.to}\nSubject: ${q.subject}`:q.professor,q.context,...(q.posts||[]).map(p=>`${p.name}: ${p.text}`)].filter(Boolean).join("\n\n"):"",
         hint:(q.requirements||[]).join("\n"),tiles:q.tiles,slots:q.solutions?.[0].length,frame:q.frame?.join(""),
         options:q.choices?.map((text,i)=>({label:String(i),text})),checks:isEssay(q)?[...q.requirements,q.type==="email"?"I checked the greeting, request and closing.":"I supported my position with a reason and a concrete example.","I checked connections, verb forms and spelling."]:[],
