@@ -11,6 +11,7 @@ import re
 import sys
 from pathlib import Path
 from build_toefl_vocabulary import corpus, key, words
+from writing_bank import load_writing_bank
 
 RULES = {
     "noun": [("s", ""), ("ses", "s"), ("xes", "x"), ("zes", "z"), ("ches", "ch"), ("shes", "sh"), ("men", "man"), ("ies", "y")],
@@ -41,7 +42,7 @@ def import_dictionary(repo, root):
             senses[p + ":" + parts[0]] = {"pos": p, "definition": definition, "synonyms": synonyms}
     read = lambda path: json.loads((repo / path).read_text())
     docs, glossary = corpus(repo, read("static/data/toefl-task-bank.json"),
-                            read("static/data/english-question-bank.json"), read("static/data/toefl-writing-bank.json"))
+                            read("static/data/english-question-bank.json"), load_writing_bank(repo))
     terms = {key(m[0]) for doc in docs for texts in doc["fields"].values() for text in texts for m in words(text)}
     terms.update(term for term, _, _ in glossary)
     lookup = {}

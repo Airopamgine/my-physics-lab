@@ -21,7 +21,8 @@
   };
   const hash = text => [...text].reduce((n, c) => Math.imul(n ^ c.charCodeAt(0), 16777619) >>> 0, 2166136261);
   const remaining = step => step.ids.filter(id => !step.reviewed.includes(id));
-  let config, reading, writing, currentDate, activeWork = null, loading = false, unlocked = false;
+  const route = day => day.steps.length === 10 ? [8,5,9,0,4,6,1,3,2,7].map(i => day.steps[i]) : day.steps;
+  let config, reading, writing, currentDate, activeWork = null, loading = false, unlocked = false, cambridgeUnavailable = false;
   let storageFailed = false, recoveryNotice = "";
   let state = { version: 1, level: "path", days: {}, exposure: {}, spaced: {}, reflections: {} };
   const rIndex = new Map(), wIndex = new Map();
@@ -54,10 +55,10 @@
         }
       }
       for (const [date, day] of Object.entries(value.days)) {
-        if (!validDate(date) || !object(day) || !Array.isArray(day.steps) || day.steps.length !== 8 ||
+        if (!validDate(date) || !object(day) || !Array.isArray(day.steps) || ![8,10].includes(day.steps.length) ||
           day.steps.some((step, i) => !object(step) || step.slot !== i || !Array.isArray(step.ids) ||
             step.ids.length > 40 || step.ids.some(id => typeof id !== "string") ||
-            !["reading", "writing", "listening", "speaking", "recall"].includes(step.engine))) continue;
+            !["reading", "writing", "listening", "speaking", "recall", "cambridge"].includes(step.engine))) continue;
         const copy = {
           date, phase: config.phases.some(p => p.id === day.phase) ? day.phase : config.phases[0].id,
           week: Number.isInteger(day.week) && day.week >= 0 ? day.week : 0,
@@ -76,7 +77,7 @@
           }))
         };
         // Derive automatic completion from checked and reviewed answers.
-        for (const step of copy.steps.filter(s => ["reading", "writing"].includes(s.engine))) {
+        for (const step of copy.steps.filter(s => ["reading", "writing", "cambridge"].includes(s.engine))) {
           step.complete = step.ids.length > 0 && step.ids.every(id => step.attempts[id] && step.reviewed.includes(id));
         }
         state.days[date] = copy;
@@ -190,6 +191,7 @@
     const discussion = essayType === "discussion" ? essay : wIndex.get(chooseWriting("discussion", 1, `${date}:speaking`)[0]);
     steps.push({ engine: "speaking", ids: [discussion.id], title: "Speaking · 意見と応答", detail: `${discussion.title}\n60秒で説明 → 60秒で別の意見に応答`, minutes: 5 });
     steps.push(reviewPlan(date, new Set(steps.flatMap(step => step.ids))));
+    steps.push(...(window.CambridgeLab?.daily(date) || []));
     steps.forEach((step, slot) => Object.assign(step, { slot, reviewed: [], attempts: {}, complete: false, opened: false,
       notes: "", checks: [], timer: 60, deadline: null }));
     return { date, phase: phase.id, week: Math.floor(days / 7), steps };
@@ -203,6 +205,12 @@
       if (!state.days[date]) { state.days[date] = buildDay(date); save(); }
       renderReflection();
     }
+    // Extend a saved eight-step menu in place, retaining all old work and IDs.
+    const saved = state.days[date];
+    if (saved.steps.length === 8 && window.CambridgeLab?.getBank()) {
+      for (const item of window.CambridgeLab.daily(date)) saved.steps.push({ ...item, slot:saved.steps.length, reviewed:[], attempts:{},complete:false,opened:false,notes:"",checks:[],timer:60,deadline:null });
+      save();
+    }
     render();
   }
   function render() {
@@ -215,15 +223,16 @@
     el("focus-title").textContent = focus.title;
     el("focus-en").textContent = focus.en; el("focus-ja").textContent = focus.ja;
     const done = day.steps.filter(s => s.complete).length;
-    el("total").textContent = `${done} / 8 完了`;
+    el("total").textContent = `${done} / ${day.steps.length} 完了`;
+    el("cards").setAttribute("aria-label", `今日の${day.steps.length}項目`);
     const total = day.steps.reduce((n, s) => n + s.minutes, 0), left = day.steps.filter(s => !s.complete).reduce((n, s) => n + s.minutes, 0);
     el("time").textContent = `約${total}分 · 残り約${left}分`;
-    const next = day.steps.find(s => !s.complete);
+    const next = route(day).find(s => !s.complete);
     el("next").disabled = !next;
-    el("next").textContent = next ? `${done ? "続き" : "今日の学習"}を始める → ${next.title}` : "今日の全8項目を完了しました";
+    el("next").textContent = next ? `${done ? "続き" : "今日の学習"}を始める → ${next.title}` : `今日の全${day.steps.length}項目を完了しました`;
     el("level").value = state.level;
     const cards = el("cards"); cards.replaceChildren();
-    for (const step of day.steps) {
+    for (const step of route(day)) {
       const li = node("li", undefined, `daily-card${step.complete ? " is-done" : ""}`); li.dataset.dailySlot = step.slot;
       li.append(node("h3", step.title), node("small", `目安 ${step.minutes}分`), node("p", step.detail));
       const n = step.reviewed.length, incorrect = Object.values(step.attempts).filter(value => value === "incorrect").length;
@@ -239,18 +248,19 @@
   }
   function renderWeek() {
     const row = el("week-days"); row.replaceChildren();
-    const totals = { Reading: 0, Writing: 0, Listening: 0, Speaking: 0, Review: 0 };
+    const totals = { Reading: 0, Writing: 0, Listening: 0, Speaking: 0, Review: 0, Cambridge: 0 };
     for (let i = 6; i >= 0; i--) {
       const date = shift(currentDate, -i), day = state.days[date];
       const done = day ? day.steps.filter(s => s.complete).length : 0;
       const n = node("div", date.slice(5), "daily-day");
-      n.append(node("strong", done === 8 ? "✓" : `${done}/8`)); row.append(n);
+      n.append(node("strong", day && done === day.steps.length ? "✓" : `${done}/${day?.steps.length || 10}`)); row.append(n);
       if (!day) continue;
       if (day.steps.slice(0, 3).every(s => s.complete)) totals.Reading++;
       if (day.steps.slice(3, 5).every(s => s.complete)) totals.Writing++;
       if (day.steps[5].complete) totals.Listening++;
       if (day.steps[6].complete) totals.Speaking++;
       if (day.steps[7].complete) totals.Review++;
+      if (day.steps.length > 8 && day.steps.slice(8).every(s => s.complete)) totals.Cambridge++;
     }
     el("coverage").textContent = Object.entries(totals).map(([skill, n]) => `${skill} ${n}/7日`).join(" · ");
   }
@@ -261,7 +271,10 @@
     pauseWork(); el("workspace").hidden = true; activeWork = null;
     const context = { dailyDate: currentDate, dailySlot: slot };
     if (step.engine !== "writing") window.ToeflWritingLab.pauseTimer();
-    if (step.engine === "reading") {
+    if (step.engine === "cambridge") {
+      const ids = step.complete ? step.ids : remaining(step);
+      if (!window.CambridgeLab?.startSelection(step.setId, ids, context)) el("status").textContent = "Cambridge教材を開けませんでした。Cambridge欄のRetry loadingを押してください。";
+    } else if (step.engine === "reading") {
       const ids = step.complete ? step.ids : remaining(step);
       if (!window.ToeflReadingLab.startSelection(step.setId, ids, context)) el("status").textContent = "このReading教材を開けませんでした。教材一覧から再読み込みしてください。";
     } else if (step.engine === "writing") {
@@ -367,7 +380,7 @@
     const { id, result, context } = event.detail || {};
     if (!context || !validDate(context.dailyDate) || !Number.isInteger(context.dailySlot)) return;
     const day = state.days[context.dailyDate], step = day?.steps[context.dailySlot];
-    if (!step || !step.ids.includes(id) || !["reading", "writing"].includes(step.engine)) return;
+    if (!step || !step.ids.includes(id) || !["reading", "writing", "cambridge"].includes(step.engine)) return;
     if (!reviewed) {
       if (!["correct", "incorrect", "submitted"].includes(result)) return;
       step.attempts[id] = result;
@@ -378,7 +391,7 @@
       if (!["correct", "incorrect", "self-reviewed"].includes(result)) return;
       step.attempts[id] = result;
       if (!step.reviewed.includes(id)) step.reviewed.push(id);
-      schedule(step.engine, id, result, context.dailyDate);
+      if (step.engine !== "cambridge") schedule(step.engine, id, result, context.dailyDate);
       step.complete = step.ids.every(item => step.reviewed.includes(item));
     }
     save(); if (context.dailyDate === currentDate) render();
@@ -414,6 +427,7 @@
       }
       reading = window.ToeflReadingLab?.getBank(); writing = window.ToeflWritingLab?.getBank();
       if (!reading || !writing) { el("status").textContent = "ReadingとWritingの教材を読み込んでいます…"; el("retry").hidden = false; return; }
+      if (window.CambridgeLab && !window.CambridgeLab.getBank() && !cambridgeUnavailable) { el("status").textContent = "Cambridgeの教材を読み込んでいます…"; return; }
       rIndex.clear(); wIndex.clear();
       for (const set of reading.sets) for (const q of set.questions) rIndex.set(q.id, { q, set });
       for (const q of writing.exercises) wIndex.set(q.id, q);
@@ -432,7 +446,7 @@
     } finally { loading = false; }
   }
   el("next").addEventListener("click", () => {
-    ready(); const step = state.days[currentDate]?.steps.find(s => !s.complete); if (step) start(step.slot);
+    ready(); const day = state.days[currentDate]; const step = day && route(day).find(s => !s.complete); if (step) start(step.slot);
   });
   el("cards").addEventListener("click", event => { const button = event.target.closest("[data-daily-start]"); if (button) start(Number(button.dataset.dailyStart)); });
   el("level").addEventListener("change", () => { state.level = el("level").value === "b2" ? "b2" : "path"; save(); el("status").textContent = "難易度の希望を保存しました。今日の教材はそのまま、翌日のメニューから反映します。"; });
@@ -449,11 +463,12 @@
   });
   el("retry").addEventListener("click", load);
   document.addEventListener("toefl:unlocked", () => { unlocked = true; load(); });
-  for (const name of ["reading", "writing"]) {
+  for (const name of ["reading", "writing", "cambridge"]) {
     document.addEventListener(`toefl:${name}-ready`, load);
     document.addEventListener(`toefl:${name}-answer`, progressEvent);
     document.addEventListener(`toefl:${name}-reviewed`, event => progressEvent(event, true));
   }
+  document.addEventListener("toefl:cambridge-unavailable", () => { cambridgeUnavailable = true; load(); });
   document.addEventListener("toefl:writing-submitted", progressEvent);
   document.addEventListener("visibilitychange", () => { if (!document.hidden) { ready(); renderTimer(); } });
   window.addEventListener("focus", () => { ready(); renderTimer(); });

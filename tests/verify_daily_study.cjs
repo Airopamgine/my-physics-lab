@@ -6,6 +6,8 @@ const { JSDOM } = require('jsdom');
 const html = fs.readFileSync(process.env.TOEFL_HTML, 'utf8');
 const reading = JSON.parse(fs.readFileSync('static/data/toefl-task-bank.json', 'utf8'));
 const writing = JSON.parse(fs.readFileSync('static/data/toefl-writing-bank.json', 'utf8'));
+const originals = JSON.parse(fs.readFileSync('static/data/toefl-writing-originals.json', 'utf8'));
+writing.exercises.push(...originals.exercises);
 const plan = JSON.parse(fs.readFileSync('static/data/toefl-daily-plan.json', 'utf8'));
 const scripts = ['english-library', 'writing-lab', 'daily-study'].map(name => fs.readFileSync(`static/js/${name}.js`, 'utf8'));
 const KEY = 'mastersPhysicsLab.dailyStudy.v1';
@@ -24,8 +26,9 @@ async function boot(saved = {}, options = {}) {
   w.setInterval = (callback, ms) => { intervals.push({ callback, ms }); return intervals.length; };
   w.fetch = async url => {
     requests++;
-    const data = String(url).includes('daily-plan') ? plan : String(url).includes('writing-bank') ? (options.bank || writing) : reading;
-    return { ok: !(fail && String(url).includes('daily-plan')), json: async () => data };
+    let data = String(url).includes('daily-plan') ? plan : String(url).includes('writing-originals') ? originals : String(url).includes('writing-bank') ? (options.bank || writing) : reading;
+    if(String(url).includes('writing-bank')) data = {...data,exercises:data.exercises.filter(q=>!originals.exercises.some(o=>o.id===q.id))};
+    return { ok: !(fail && String(url).includes('daily-plan')), json: async () => JSON.parse(JSON.stringify(data)) };
   };
   Object.entries(saved).forEach(([key, data]) => w.localStorage.setItem(key, typeof data === 'string' ? data : JSON.stringify(data)));
   if (options.storageFails) w.Storage.prototype.setItem = () => { throw new Error('Quota'); };

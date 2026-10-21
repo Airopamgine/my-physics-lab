@@ -58,7 +58,7 @@ theme = "PaperMod"
 
   [[menu.main]]
     identifier = "toefl"
-    name = "TOEFL演習"
+    name = "英語演習"
     pageRef = "/toefl"
     weight = 75
 

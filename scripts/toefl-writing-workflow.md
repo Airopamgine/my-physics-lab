@@ -24,6 +24,14 @@ Practice Test 6 sentence or invent a task on blank PDF page 116.
 
 ## One original batch per day
 
+**Current destination:** preserve `static/data/toefl-writing-bank.json` unchanged.
+Append new original batches to `static/data/toefl-writing-originals.json` only.
+The browser combines the existing bank and this original-only feed; Python
+builders/tests use `scripts/writing_bank.py`. Search both files and pending PRs
+for existing IDs/source references before adding a batch. For the integrated
+TOEFL/Cambridge route and current verification, also read
+`scripts/english-daily-workflow.md`.
+
 Starting on October 5, 2026, use the user's Europe/Warsaw calendar date.
 The existing recurring task can check more than once a day; add at most one
 daily batch. A complete daily batch is **12 original exercises**:

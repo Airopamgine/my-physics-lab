@@ -4,9 +4,12 @@ import json
 from pathlib import Path
 import re
 import unittest
+import sys
 
 ROOT = Path(__file__).resolve().parents[1]
-BANK = json.loads((ROOT / "static/data/toefl-writing-bank.json").read_text())
+sys.path.insert(0, str(ROOT / "scripts"))
+from writing_bank import load_writing_bank
+BANK = load_writing_bank(ROOT)
 EXERCISES = BANK["exercises"]
 SOURCE = [q for q in EXERCISES if q["source"].get("file") == "TOEFL-writing.pdf"]
 INDEX = json.loads((ROOT / "scripts/writing-source-index.json").read_text())

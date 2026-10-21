@@ -1,0 +1,593 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-10-21",
+  "exercises": [
+    {
+      "id": "writing-original-20261021-s01",
+      "type": "sentence",
+      "title": "希望を丁寧に伝える",
+      "prompt": "What would you prefer during the briefing?",
+      "tiles": [
+        "would rather",
+        "you",
+        "interrupt me",
+        "did not"
+      ],
+      "frame": [
+        "I ",
+        "{0} ",
+        "{1} ",
+        "{2} ",
+        "{3}",
+        " during the briefing."
+      ],
+      "solutions": [
+        [
+          0,
+          1,
+          3,
+          2
+        ]
+      ],
+      "modelAnswer": "I would rather you did not interrupt me during the briefing.",
+      "explanation": [
+        "Use would rather + another person + past simple for a present preference. Did not belongs before the base verb interrupt.",
+        "This is a preference about now, not a report of a past interruption.",
+        "would rather you did not … — 相手に〜してほしくない。希望でも過去形を使います。"
+      ],
+      "phrases": [
+        "would rather you did not … — 相手に〜してほしくない。希望でも過去形を使います。"
+      ],
+      "tags": [
+        "verb-patterns"
+      ],
+      "collection": "Original · 2026-10-21",
+      "sourceRefs": [
+        "original:writing:2026-10-21:sentence:01"
+      ],
+      "source": {
+        "kind": "original",
+        "date": "2026-10-21"
+      },
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261021-s02",
+      "type": "sentence",
+      "title": "機材の点検を依頼する",
+      "prompt": "How did you prepare the equipment?",
+      "tiles": [
+        "by a technician",
+        "had",
+        "our equipment",
+        "checked"
+      ],
+      "frame": [
+        "We ",
+        "{0} ",
+        "{1} ",
+        "{2} ",
+        "{3}",
+        "."
+      ],
+      "solutions": [
+        [
+          1,
+          2,
+          3,
+          0
+        ]
+      ],
+      "modelAnswer": "We had our equipment checked by a technician.",
+      "explanation": [
+        "Have + object + past participle describes arranging a service. The technician performs the check.",
+        "Equipment is uncountable; checked is the past participle, not a second finite verb.",
+        "have equipment checked — 機材を点検してもらう。equipmentは不可算名詞です。"
+      ],
+      "phrases": [
+        "have equipment checked — 機材を点検してもらう。equipmentは不可算名詞です。"
+      ],
+      "tags": [
+        "causative"
+      ],
+      "collection": "Original · 2026-10-21",
+      "sourceRefs": [
+        "original:writing:2026-10-21:sentence:02"
+      ],
+      "source": {
+        "kind": "original",
+        "date": "2026-10-21"
+      },
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261021-s03",
+      "type": "sentence",
+      "title": "遅れて気づく",
+      "prompt": "When did you notice the missing badge?",
+      "tiles": [
+        "the missing badge",
+        "did",
+        "notice",
+        "we"
+      ],
+      "frame": [
+        "Only after the session ended ",
+        "{0} ",
+        "{1} ",
+        "{2} ",
+        "{3}",
+        "."
+      ],
+      "solutions": [
+        [
+          1,
+          3,
+          2,
+          0
+        ]
+      ],
+      "modelAnswer": "Only after the session ended did we notice the missing badge.",
+      "explanation": [
+        "Only after at the front triggers inversion in the main clause: did we notice.",
+        "The after-clause keeps normal order, and notice stays in the base form after did.",
+        "inversion — 倒置。didを主語の前に置き、noticeは原形にします。"
+      ],
+      "phrases": [
+        "inversion — 倒置。didを主語の前に置き、noticeは原形にします。"
+      ],
+      "tags": [
+        "inversion"
+      ],
+      "collection": "Original · 2026-10-21",
+      "sourceRefs": [
+        "original:writing:2026-10-21:sentence:03"
+      ],
+      "source": {
+        "kind": "original",
+        "date": "2026-10-21"
+      },
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261021-s04",
+      "type": "sentence",
+      "title": "部屋を借りる条件",
+      "prompt": "Is there a condition for using the room?",
+      "tiles": [
+        "return",
+        "as long as",
+        "you",
+        "the key"
+      ],
+      "frame": [
+        "You can use the room ",
+        "{0} ",
+        "{1} ",
+        "{2} ",
+        "{3}",
+        " by six."
+      ],
+      "solutions": [
+        [
+          1,
+          2,
+          0,
+          3
+        ]
+      ],
+      "modelAnswer": "You can use the room as long as you return the key by six.",
+      "explanation": [
+        "As long as introduces a condition equivalent to if here. Put the subject before return.",
+        "The deadline by six means no later than six, not a duration of six hours.",
+        "as long as — 〜する限り。by sixは6時までという期限です。"
+      ],
+      "phrases": [
+        "as long as — 〜する限り。by sixは6時までという期限です。"
+      ],
+      "tags": [
+        "conditionals"
+      ],
+      "collection": "Original · 2026-10-21",
+      "sourceRefs": [
+        "original:writing:2026-10-21:sentence:04"
+      ],
+      "source": {
+        "kind": "original",
+        "date": "2026-10-21"
+      },
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261021-s05",
+      "type": "sentence",
+      "title": "忍耐と結果",
+      "prompt": "Why did you take several breaks?",
+      "tiles": [
+        "we",
+        "took several breaks",
+        "that",
+        "patience",
+        "so much"
+      ],
+      "frame": [
+        "The task required ",
+        "{0} ",
+        "{1} ",
+        "{2} ",
+        "{3} ",
+        "{4}",
+        "."
+      ],
+      "solutions": [
+        [
+          4,
+          3,
+          2,
+          0,
+          1
+        ]
+      ],
+      "modelAnswer": "The task required so much patience that we took several breaks.",
+      "explanation": [
+        "So much + uncountable noun + that introduces a result. Patience is an amount, so many does not fit.",
+        "The that-clause contains a complete subject and verb: we took.",
+        "patience — 忍耐。不可算名詞なのでso much patienceとします。"
+      ],
+      "phrases": [
+        "patience — 忍耐。不可算名詞なのでso much patienceとします。"
+      ],
+      "tags": [
+        "comparisons"
+      ],
+      "collection": "Original · 2026-10-21",
+      "sourceRefs": [
+        "original:writing:2026-10-21:sentence:05"
+      ],
+      "source": {
+        "kind": "original",
+        "date": "2026-10-21"
+      },
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261021-s06",
+      "type": "sentence",
+      "title": "理解を確認する",
+      "prompt": "What did the tutor ask?",
+      "tiles": [
+        "the main argument",
+        "had understood",
+        "whether",
+        "we"
+      ],
+      "frame": [
+        "The tutor asked ",
+        "{0} ",
+        "{1} ",
+        "{2} ",
+        "{3}",
+        "."
+      ],
+      "solutions": [
+        [
+          2,
+          3,
+          1,
+          0
+        ]
+      ],
+      "modelAnswer": "The tutor asked whether we had understood the main argument.",
+      "explanation": [
+        "An indirect question has statement order: whether we had understood. Do not invert had and we.",
+        "The past perfect places understanding before the tutor asked about it.",
+        "indirect question — 間接疑問。whetherの後ろは主語＋動詞の順です。"
+      ],
+      "phrases": [
+        "indirect question — 間接疑問。whetherの後ろは主語＋動詞の順です。"
+      ],
+      "tags": [
+        "sentence"
+      ],
+      "collection": "Original · 2026-10-21",
+      "sourceRefs": [
+        "original:writing:2026-10-21:sentence:06"
+      ],
+      "source": {
+        "kind": "original",
+        "date": "2026-10-21"
+      },
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261021-s07",
+      "type": "sentence",
+      "title": "対象となる学生",
+      "prompt": "Who were the instructions intended for?",
+      "tiles": [
+        "aimed at",
+        "who",
+        "students",
+        "were",
+        "the equipment before",
+        "had not used"
+      ],
+      "frame": [
+        "The instructions ",
+        "{0} ",
+        "{1} ",
+        "{2} ",
+        "{3} ",
+        "{4} ",
+        "{5}",
+        "."
+      ],
+      "solutions": [
+        [
+          3,
+          0,
+          2,
+          1,
+          5,
+          4
+        ]
+      ],
+      "modelAnswer": "The instructions were aimed at students who had not used the equipment before.",
+      "explanation": [
+        "Be aimed at means be intended for a group. The relative clause describes which students.",
+        "Before is part of the earlier-use phrase; it does not introduce a separate time clause here.",
+        "aimed at — 〜を対象とした。who以下がstudentsを限定します。"
+      ],
+      "phrases": [
+        "aimed at — 〜を対象とした。who以下がstudentsを限定します。"
+      ],
+      "tags": [
+        "prepositions",
+        "pronouns"
+      ],
+      "collection": "Original · 2026-10-21",
+      "sourceRefs": [
+        "original:writing:2026-10-21:sentence:07"
+      ],
+      "source": {
+        "kind": "original",
+        "date": "2026-10-21"
+      },
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261021-s08",
+      "type": "sentence",
+      "title": "所有関係をつなぐ",
+      "prompt": "Which visitor asked for help?",
+      "tiles": [
+        "whose",
+        "bag",
+        "had been lost"
+      ],
+      "frame": [
+        "The visitor ",
+        "{0} ",
+        "{1} ",
+        "{2}",
+        " asked for help."
+      ],
+      "solutions": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "modelAnswer": "The visitor whose bag had been lost asked for help.",
+      "explanation": [
+        "Whose introduces possession before the noun bag. Had been lost is a passive past-perfect verb phrase.",
+        "The entire relative clause identifies the visitor, while asked is the main verb.",
+        "whose — その人の。visitorとbagの所有関係をつなぐ関係詞です。"
+      ],
+      "phrases": [
+        "whose — その人の。visitorとbagの所有関係をつなぐ関係詞です。"
+      ],
+      "tags": [
+        "pronouns"
+      ],
+      "collection": "Original · 2026-10-21",
+      "sourceRefs": [
+        "original:writing:2026-10-21:sentence:08"
+      ],
+      "source": {
+        "kind": "original",
+        "date": "2026-10-21"
+      },
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261021-s09",
+      "type": "sentence",
+      "title": "作業の仕方を比べる",
+      "prompt": "How did the group work today?",
+      "tiles": [
+        "more carefully",
+        "had",
+        "it",
+        "than"
+      ],
+      "frame": [
+        "The group worked ",
+        "{0} ",
+        "{1} ",
+        "{2} ",
+        "{3}",
+        " the previous day."
+      ],
+      "solutions": [
+        [
+          0,
+          3,
+          2,
+          1
+        ]
+      ],
+      "modelAnswer": "The group worked more carefully than it had the previous day.",
+      "explanation": [
+        "Carefully modifies worked, so the comparison uses an adverb. Had stands for had worked in the comparison clause.",
+        "More careful would describe the group, not the manner of working in this frame.",
+        "carefully — 注意深く。動作を修飾する副詞と形容詞carefulを区別します。"
+      ],
+      "phrases": [
+        "carefully — 注意深く。動作を修飾する副詞と形容詞carefulを区別します。"
+      ],
+      "tags": [
+        "comparisons"
+      ],
+      "collection": "Original · 2026-10-21",
+      "sourceRefs": [
+        "original:writing:2026-10-21:sentence:09"
+      ],
+      "source": {
+        "kind": "original",
+        "date": "2026-10-21"
+      },
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261021-s10",
+      "type": "sentence",
+      "title": "説明の明確さと結果",
+      "prompt": "Could you follow the argument?",
+      "tiles": [
+        "could follow",
+        "the argument",
+        "so",
+        "I",
+        "clearly presented",
+        "that"
+      ],
+      "frame": [
+        "The lecture was ",
+        "{0} ",
+        "{1} ",
+        "{2} ",
+        "{3} ",
+        "{4} ",
+        "{5}",
+        "."
+      ],
+      "solutions": [
+        [
+          2,
+          4,
+          5,
+          3,
+          0,
+          1
+        ]
+      ],
+      "modelAnswer": "The lecture was so clearly presented that I could follow the argument.",
+      "explanation": [
+        "So + clearly presented + that connects the quality of the presentation with its result.",
+        "Clearly is an adverb modifying presented; the response explains why comprehension was possible.",
+        "clearly presented — 明確に提示された。副詞clearlyがpresentedを修飾します。"
+      ],
+      "phrases": [
+        "clearly presented — 明確に提示された。副詞clearlyがpresentedを修飾します。"
+      ],
+      "tags": [
+        "comparisons"
+      ],
+      "collection": "Original · 2026-10-21",
+      "sourceRefs": [
+        "original:writing:2026-10-21:sentence:10"
+      ],
+      "source": {
+        "kind": "original",
+        "date": "2026-10-21"
+      },
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261021-email",
+      "type": "email",
+      "title": "研究室見学への問い合わせ",
+      "minutes": 7,
+      "to": "Dr. Taylor, Engineering Department",
+      "subject": "Request to visit a research laboratory",
+      "context": "You are taking a university preparatory course and would like to learn about research in an engineering laboratory. Write to a faculty member to ask about a short visit. This is an imagined practice situation.",
+      "requirements": [
+        "Introduce your course status and explain your interest in the laboratory.",
+        "Suggest two possible times: Wednesday after 2 p.m. or Friday before noon.",
+        "Ask whether a short visit is possible and whether any preparation is required."
+      ],
+      "modelAnswer": "Dear Dr. Taylor,\n\nI am currently taking the university preparatory course, and I am interested in learning how engineering research connects theory with practical experiments. I would be grateful for an opportunity to visit your laboratory briefly and learn about its work.\n\nI am available on Wednesday after 2 p.m. or Friday before noon. Would either of these times be convenient for a short visit? If a visit is possible, could you also let me know whether I should read any introductory material or complete any formalities beforehand?\n\nThank you for considering my request. I understand that the laboratory may have limited availability, and I would be happy to follow any arrangements you suggest.\n\nBest regards,\nAlex Morgan",
+      "explanation": [
+        "The email identifies the learner as a preparatory-course participant, gives a clear academic reason, and proposes exactly the two permitted time windows. It asks rather than assumes that laboratory access is available.",
+        "The final question asks about both reading and formal arrangements before the visit. This makes the request practical without inventing a confirmed invitation.",
+        "formalitiesは必要な手続き、availabilityは対応可能な時間や余裕です。氏名と研究室は架空設定で、モデルは唯一の正解ではありません。"
+      ],
+      "phrases": [
+        "Would either of these times be convenient? — いずれかの時間はご都合がよいでしょうか。",
+        "introductory material — 入門用の資料"
+      ],
+      "tags": [
+        "prepositions",
+        "evidence"
+      ],
+      "collection": "Original · 2026-10-21",
+      "sourceRefs": [
+        "original:writing:2026-10-21:email:01"
+      ],
+      "source": {
+        "kind": "original",
+        "date": "2026-10-21"
+      },
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261021-discussion",
+      "type": "discussion",
+      "title": "静かな自習席と共同作業室",
+      "minutes": 10,
+      "targetWords": 100,
+      "professor": "Professor Patel · Campus Planning",
+      "context": "A university has funding to improve its library. Should it prioritise quiet individual study spaces or rooms for group work? Explain your position.",
+      "posts": [
+        {
+          "name": "Ana",
+          "text": "Group rooms should come first because students need to practise presentations and solve problems together. A library can offer equipment and space that students may not have at home."
+        },
+        {
+          "name": "Luis",
+          "text": "Quiet individual spaces are more important. Students can often talk elsewhere, but finding somewhere to concentrate without interruptions can be difficult."
+        }
+      ],
+      "requirements": [
+        "State and support your preferred funding priority.",
+        "Respond meaningfully to both Ana and Luis.",
+        "Develop a concrete example or proposal in at least 100 words."
+      ],
+      "modelAnswer": "I would prioritise quiet individual spaces, while using a smaller part of the budget to improve existing group rooms. Luis makes a strong point: students who share a noisy home may have few alternatives when they need to read or write carefully. However, Ana is also right that group projects require suitable space and equipment. Instead of treating the two needs as completely separate, the university could first measure demand at different times of day. For example, if quiet desks are consistently full but group rooms are empty in the morning, some rooms could be available for silent study during those hours. Clear booking rules would preserve them for collaborative work later. This approach would give priority to concentration without ignoring students who need to rehearse presentations together.",
+      "explanation": [
+        "The response chooses quiet spaces as the priority, accepts the need for group work, and proposes collecting demand information rather than assuming one universal solution.",
+        "The morning-room example is hypothetical. It explains how a policy could satisfy Luis’s concentration concern and Ana’s collaboration concern within a limited budget.",
+        "prioritiseは優先する、collaborative workは共同作業です。仮定の具体例であり、実在する大学の利用率を主張していません。"
+      ],
+      "phrases": [
+        "measure demand — 需要を測定する",
+        "without ignoring … — 〜を無視せずに"
+      ],
+      "tags": [
+        "evidence",
+        "linkers"
+      ],
+      "collection": "Original · 2026-10-21",
+      "sourceRefs": [
+        "original:writing:2026-10-21:discussion:01"
+      ],
+      "source": {
+        "kind": "original",
+        "date": "2026-10-21"
+      },
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    }
+  ]
+}

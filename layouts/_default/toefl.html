@@ -6,6 +6,7 @@
 {{ if and (not $feed) (not $legacy) }}
 <link rel="stylesheet" href="{{ "css/writing-lab.css" | relURL }}?v={{ readFile "static/css/writing-lab.css" | sha256 | truncate 12 "" }}">
 <link rel="stylesheet" href="{{ "css/daily-study.css" | relURL }}?v={{ readFile "static/css/daily-study.css" | sha256 | truncate 12 "" }}">
+<link rel="stylesheet" href="{{ "css/english-coach.css" | relURL }}?v={{ readFile "static/css/english-coach.css" | sha256 | truncate 12 "" }}">
 <link rel="stylesheet" href="{{ "css/vocabulary-lab.css" | relURL }}?v={{ readFile "static/css/vocabulary-lab.css" | sha256 | truncate 12 "" }}">
 {{ end }}
 
@@ -35,37 +36,41 @@
       <a class="toefl-kicker" href="{{ "/" | relURL }}" aria-label="Master's Physics Lab に戻る">
         <span aria-hidden="true">←</span> Master's Physics Lab
       </a>
-      <p class="toefl-eyebrow">{{ if $legacy }}English archive{{ else if $feed }}Reading · three task types{{ else }}Reading &amp; Writing practice{{ end }}</p>
+      <p class="toefl-eyebrow">{{ if $legacy }}English archive{{ else if $feed }}Reading · three task types{{ else }}TOEFL + Cambridge B2 First · four skills{{ end }}</p>
       <h1>{{ .Title }}</h1>
       {{ if or $feed $legacy }}
       <p class="toefl-lead">Answer in the browser, get instant feedback, and review only what you missed.</p>
       <p class="toefl-lead-ja">ブラウザ上で解答し、その場で正誤・根拠・難語の日本語解説を確認できます。</p>
       {{ else }}
-      <p class="toefl-lead">Follow today's plan. Read, write, listen, speak, and review.</p>
-      <p class="toefl-lead-ja">今日のメニューから順に進めて、B2に向けて4技能と語彙・文法を練習しましょう。採点・解説・下書き保存もそのまま使えます。</p>
+      <p class="toefl-lead">Build English you can use. Follow today's route, repair yesterday's mistakes, and put each skill into practice.</p>
+      <p class="toefl-lead-ja">前日の間違いを振り返り、TOEFLとCambridgeの練習を日常・学術の英語へつなげましょう。4技能に語彙・文法と復習を組み合わせます。</p>
       {{ end }}
       <div class="toefl-actions">
         {{ if or $feed $legacy }}
         <a class="toefl-button toefl-button--secondary" href="{{ "toefl/" | relURL }}">← 通常のTOEFLページ</a>
         {{ else }}
         <a class="toefl-button toefl-button--primary" href="#daily-study">今日のメニュー ↓</a>
+        <a class="toefl-button toefl-button--secondary" href="#cambridge-lab">Cambridge B2 First</a>
         <a class="toefl-button toefl-button--secondary" href="#writing-lab">Writing</a>
         <a class="toefl-button toefl-button--secondary" href="#vocabulary-lab">単語帳・単語クイズ</a>
         <a class="toefl-button toefl-button--secondary" href="{{ "toefl/reading/" | relURL }}">Reading</a>
         {{ end }}
         {{ if $tasks }}<a class="toefl-button toefl-button--secondary" href="{{ "toefl/archive/" | relURL }}">元の英語教材（全問移行中）</a>{{ end }}
       </div>
-      {{ if $tasks }}<p class="toefl-small-note">既存教材とPDF全問を順次移行。4時間ごとに確認・追加し、公開時刻は処理状況により前後します。掲載済み問題はブラウザ内で自動採点します。</p>{{ end }}
+      {{ if $tasks }}<p class="toefl-small-note">毎日のメニューは端末の日付で切り替わります。新教材は定期更新で追加し、公開状況は各教材の日付で確認できます。客観問題は自動採点、作文・発話は解答例と自己確認で振り返ります。</p>{{ end }}
     </div>
     <div class="toefl-level" aria-label="Target level">
       <span>Target</span>
       <strong>B1 → B2</strong>
-      <small>Academic English</small>
+      <small>English for real use</small>
     </div>
   </header>
 
   {{ if and (not $feed) (not $legacy) }}
+  <nav class="english-nav" aria-label="English practice navigation"><a href="#daily-study">Today</a><a href="#english-coach">Yesterday</a><a href="#cambridge-lab">Cambridge</a><a href="#writing-lab">TOEFL Writing</a><a href="#english-library">Reading</a><a href="#vocabulary-lab">Vocabulary</a></nav>
+  {{ partial "english-coach.html" . }}
   {{ partial "daily-study.html" . }}
+  {{ partial "cambridge-lab.html" . }}
   {{ partial "vocabulary-lab.html" . }}
   {{ end }}
 
@@ -276,6 +281,8 @@
 <script src="{{ printf "js/%s" . | relURL }}?v={{ readFile (printf "static/js/%s" .) | sha256 | truncate 12 "" }}" defer></script>
 {{ end }}
 {{ if and (not $feed) (not $legacy) }}
+<script src="{{ "js/english-coach.js" | relURL }}?v={{ readFile "static/js/english-coach.js" | sha256 | truncate 12 "" }}" defer></script>
+<script src="{{ "js/cambridge-lab.js" | relURL }}?v={{ readFile "static/js/cambridge-lab.js" | sha256 | truncate 12 "" }}" defer></script>
 <script src="{{ "js/toefl.js" | relURL }}?v={{ readFile "static/js/toefl.js" | sha256 | truncate 12 "" }}" defer></script>
 <script src="{{ "js/writing-lab.js" | relURL }}?v={{ readFile "static/js/writing-lab.js" | sha256 | truncate 12 "" }}" defer></script>
 <script src="{{ "js/daily-study.js" | relURL }}?v={{ readFile "static/js/daily-study.js" | sha256 | truncate 12 "" }}" defer></script>

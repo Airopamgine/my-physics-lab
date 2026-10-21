@@ -334,10 +334,25 @@
       const data = await response.json();
       if (data.schemaVersion !== 1 || !Array.isArray(data.exercises) || !data.exercises.length ||
         data.exercises.some(q => !q.id || !Object.hasOwn(TYPES, q.type) || !q.source || !Array.isArray(q.explanation))) throw new Error("Invalid Writing bank");
+      let originalsWarning = "";
+      if (root.dataset.originalsUrl) {
+        try {
+          const response = await fetch(root.dataset.originalsUrl, { cache: "no-cache" });
+          if (!response.ok) throw new Error("Original feed unavailable");
+          const extra = await response.json(), ids = new Set(data.exercises.map(q => q.id));
+          if (extra.schemaVersion !== 1 || !Array.isArray(extra.exercises) || extra.exercises.some(q =>
+            !q.id || ids.has(q.id) || !Object.hasOwn(TYPES, q.type) || q.source?.kind !== "original" ||
+            !Array.isArray(q.explanation) || !Array.isArray(q.sourceRefs) || !q.sourceRefs.length ||
+            q.sourceRefs.some(ref => typeof ref !== "string" || !ref.startsWith("original:writing:")))) throw new Error("Invalid original feed");
+          if (new Set(extra.exercises.map(q => q.id)).size !== extra.exercises.length) throw new Error("Duplicate original ID");
+          data.exercises = [...data.exercises, ...extra.exercises]; data.updated = extra.updated || data.updated;
+        } catch (_) { originalsWarning = "新作Writingの追加分を読み込めませんでした。既存教材は使えます。再読み込みで追加分を再取得できます。"; }
+      }
       bank = data;
       bank.exercises.forEach(q => searchText.set(q.id, JSON.stringify(q).toLowerCase()));
       restore(); renderCatalog();
       if (state.lastId) open(bank.exercises.find(q => q.id === state.lastId), false, Boolean(guidedSession));
+      if (originalsWarning) { el("status").textContent = originalsWarning; el("retry").hidden = false; }
       document.dispatchEvent(new CustomEvent("toefl:writing-ready"));
     } catch (_) { el("status").textContent = "Writing教材を読み込めませんでした。再試行してください。"; el("retry").hidden = false; }
     finally { loading = false; }
@@ -419,7 +434,7 @@
     const index = list.findIndex(q => q.id === active.id);
     if (index + 1 < list.length) open(list[index + 1], true, Boolean(guidedSession)); else close();
   });
-  el("retry").addEventListener("click", load);
+  el("retry").addEventListener("click", () => { bank = null; load(); });
   document.addEventListener("toefl:unlocked", () => { unlocked = true; load(); });
   window.ToeflWritingLab = Object.freeze({
     getBank: () => bank,

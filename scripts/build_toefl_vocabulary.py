@@ -15,6 +15,7 @@ import unicodedata
 from collections import defaultdict
 from pathlib import Path
 from vocabulary_study import classify, meaning_subjects, LEVELS, SUBJECTS
+from writing_bank import load_writing_bank
 
 WORD = re.compile(r"[A-Za-zÀ-ÖØ-öø-ÿĀ-ž]+(?:['-][A-Za-zÀ-ÖØ-öø-ÿĀ-ž]+)*")
 JAPANESE = re.compile(r"[\u3040-\u30ff\u3400-\u9fff]")
@@ -228,7 +229,7 @@ def build(repo: Path, reading=None, legacy=None, writing=None, output=None) -> d
         return json.loads((repo / path).read_text())
     reading = reading or read("static/data/toefl-task-bank.json")
     legacy = legacy or read("static/data/english-question-bank.json")
-    writing = writing or read("static/data/toefl-writing-bank.json")
+    writing = writing or load_writing_bank(repo)
     lexicon = read("data/toefl-vocabulary/wordnet-lexicon.json")
     supplemental = read("data/toefl-vocabulary/editor-glossary.json")
     study_topics = read("data/toefl-vocabulary/wordnet-study-topics.json")
