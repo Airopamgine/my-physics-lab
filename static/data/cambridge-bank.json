@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21",
+  "updatedAt": "2026-10-22",
   "notice": "Original editorial training, not official test material. Short reading practice and ten-gap Part 2 drills are labelled. No CEFR or official score is inferred from completion.",
   "references": [
     "https://www.cambridgeenglish.org/exams-and-tests/qualifications/first/format/",
@@ -1640,6 +1640,154 @@
             "I checked the 140–190 word target and identified a language improvement."
           ],
           "id": "cb-review-place-01"
+        }
+      ]
+    },
+    {
+      "id": "cb-20261022-cloze-01",
+      "part": "2",
+      "title": "The books we finally shared",
+      "skill": "Function words and fixed-expression constituents in context",
+      "instruction": "Write ONE word for each numbered gap. Use the whole passage to decide. This is an extended ten-gap training set; the official Part 2 has eight gaps.",
+      "passage": "For years, our student club had owned shelves of books that nobody seemed to read. Some members kept borrowing new titles even though they had not yet got round (1) ____ finishing the old ones. At meetings, people admitted that they were tempted (2) ____ buy attractive covers, but few wanted to give any book away.\n\nWe eventually decided to organise an exchange. Rather (3) ____ asking everyone to donate immediately, we invited them to bring one book and explain why it was worth (4) ____. Some brought novels, several of (5) ____ had been abandoned halfway through. One member owned (6) ____ to having chosen a science book only because its cover looked impressive.\n\nThe first event attracted so (7) ____ students that we ran out of table space. Only after the final visitor had left (8) ____ we realise that almost every book had found a new reader. Since then, the exchange has taken place once a month. It has also meant (9) ____ members now talk more openly about books they find difficult. If someone cannot make (10) ____ a passage, another student often offers to help.",
+      "minutes": 10,
+      "source": {"kind": "original", "date": "2026-10-22"},
+      "questions": [
+        {
+          "prompt": "Gap 1",
+          "answers": ["to"],
+          "explanation": "Get round to is followed by a noun or -ing form and means eventually find time for a delayed task. get round to doingは『先延ばしにしていたことにようやく着手する』です。",
+          "tags": ["verb-patterns", "prepositions"],
+          "id": "cb-20261022-cloze-01-01"
+        },
+        {
+          "prompt": "Gap 2",
+          "answers": ["to"],
+          "explanation": "Be tempted to + base verb means feel attracted to doing something, although it may not be sensible. be tempted toは『〜したい誘惑に駆られる』です。",
+          "tags": ["verb-patterns"],
+          "id": "cb-20261022-cloze-01-02"
+        },
+        {
+          "prompt": "Gap 3",
+          "answers": ["than"],
+          "explanation": "Rather than contrasts the immediate donation request with the exchange format the club chose. rather thanは『〜するのではなく』という対比です。",
+          "tags": ["linkers"],
+          "id": "cb-20261022-cloze-01-03"
+        },
+        {
+          "prompt": "Gap 4",
+          "answers": ["reading"],
+          "explanation": "Worth is followed by an -ing form: a book is worth reading. worth doingは『〜する価値がある』で、to readにはしません。",
+          "tags": ["verb-patterns"],
+          "id": "cb-20261022-cloze-01-04"
+        },
+        {
+          "prompt": "Gap 5",
+          "answers": ["which"],
+          "explanation": "Several of which refers back to the novels and begins a non-defining relative clause. several of whichは『そのうち数冊は』です。",
+          "tags": ["pronouns", "relative-clauses"],
+          "id": "cb-20261022-cloze-01-05"
+        },
+        {
+          "prompt": "Gap 6",
+          "answers": ["up"],
+          "explanation": "Own up to doing means admit something, often something embarrassing or wrong. own up to doingは『〜したと白状する／認める』です。",
+          "tags": ["phrasal-verbs", "verb-patterns"],
+          "id": "cb-20261022-cloze-01-06"
+        },
+        {
+          "prompt": "Gap 7",
+          "answers": ["many"],
+          "explanation": "So many + plural countable noun + that expresses a result. Students is countable, so much is impossible here. so many ... thatは『非常に多くの〜なので…』です。",
+          "tags": ["quantifiers", "result-clauses"],
+          "id": "cb-20261022-cloze-01-07"
+        },
+        {
+          "prompt": "Gap 8",
+          "answers": ["did"],
+          "explanation": "Fronted only after triggers inversion in the main clause: did we realise. Realise stays in the base form after did. inversion（倒置）で助動詞didを主語の前へ置きます。",
+          "tags": ["inversion", "auxiliaries"],
+          "id": "cb-20261022-cloze-01-08"
+        },
+        {
+          "prompt": "Gap 9",
+          "answers": ["that"],
+          "explanation": "Has meant that introduces the continuing result of the exchange. That links meant to the result clause. has meant thatは『その結果〜となっている』です。",
+          "tags": ["linkers", "present-perfect"],
+          "id": "cb-20261022-cloze-01-09"
+        },
+        {
+          "prompt": "Gap 10",
+          "answers": ["out"],
+          "explanation": "Make out means understand or distinguish something with difficulty. Here it means understand a difficult passage. make outは文脈により『何とか理解する』です。",
+          "tags": ["phrasal-verbs"],
+          "id": "cb-20261022-cloze-01-10"
+        }
+      ]
+    },
+    {
+      "id": "cb-20261022-transform-01",
+      "part": "4",
+      "title": "Delayed tasks and practical arrangements",
+      "skill": "Preserve meaning with a two-to-five-word transformation",
+      "instruction": "Complete each gap with TWO to FIVE words, including the unchanged key word. Full-answer practice; no automatic official partial credit.",
+      "passage": "",
+      "minutes": 10,
+      "source": {"kind": "original", "date": "2026-10-22"},
+      "questions": [
+        {
+          "prompt": "I have not had time to read the final chapter yet.",
+          "answers": ["not got round to reading"],
+          "explanation": "I have not got round to reading the final chapter yet. Get round to + -ing means eventually find time for a delayed activity; the negative preserves not having done it. got round to readingは『読む時間をまだ作れていない』という意味です。",
+          "tags": ["verb-patterns", "phrasal-verbs"],
+          "keyword": "ROUND",
+          "stem": "I have ____ the final chapter yet.",
+          "id": "cb-20261022-transform-01-01"
+        },
+        {
+          "prompt": "A technician will check the ventilation system tomorrow.",
+          "answers": ["have the ventilation system checked"],
+          "explanation": "We will have the ventilation system checked tomorrow. Have + object + past participle means arrange for a service. ventilation systemは『換気設備』、checkedは過去分詞です。",
+          "tags": ["causative", "passives"],
+          "keyword": "HAVE",
+          "stem": "We will ____ tomorrow.",
+          "id": "cb-20261022-transform-01-02"
+        },
+        {
+          "prompt": "I would prefer you not to leave the window open overnight.",
+          "answers": ["rather you did not leave", "rather you didn't leave"],
+          "explanation": "I'd rather you did not leave the window open overnight. Would rather + another person + past simple expresses a present or future preference. ここでのdid notは過去ではなく、相手への希望を表すunreal past（非現実の過去形）です。",
+          "tags": ["verb-patterns", "unreal-past"],
+          "keyword": "RATHER",
+          "stem": "I'd ____ the window open overnight.",
+          "id": "cb-20261022-transform-01-03"
+        },
+        {
+          "prompt": "The new instructions are clearer than the old ones.",
+          "answers": ["not as clear as", "not so clear as"],
+          "explanation": "The old instructions are not as clear as the new ones. Not as/so + adjective + as reverses the comparison while preserving meaning. not as clear asは『〜ほど明確ではない』です。",
+          "tags": ["comparisons"],
+          "keyword": "AS",
+          "stem": "The old instructions are ____ the new ones.",
+          "id": "cb-20261022-transform-01-04"
+        },
+        {
+          "prompt": "The supervisor persuaded Maya to repeat the measurement.",
+          "answers": ["talked Maya into repeating"],
+          "explanation": "The supervisor talked Maya into repeating the measurement. Talk someone into doing means persuade that person to do something. talk A into doingは『Aを説得して〜させる』です。",
+          "tags": ["verb-patterns", "phrasal-verbs"],
+          "keyword": "TALKED",
+          "stem": "The supervisor ____ the measurement.",
+          "id": "cb-20261022-transform-01-05"
+        },
+        {
+          "prompt": "We did not abandon the field trip despite the bad weather.",
+          "answers": ["went through with"],
+          "explanation": "We went through with the field trip despite the bad weather. Go through with something means carry out a plan despite difficulty or doubt. go through withは『困難があっても計画を実行する』です。",
+          "tags": ["phrasal-verbs", "fixed-expressions"],
+          "keyword": "WENT",
+          "stem": "We ____ the field trip despite the bad weather.",
+          "id": "cb-20261022-transform-01-06"
         }
       ]
     }
