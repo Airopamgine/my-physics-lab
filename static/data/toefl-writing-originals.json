@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "exercises": [
     {
       "id": "writing-original-20261021-s01",
@@ -587,6 +587,284 @@
         "kind": "original",
         "date": "2026-10-21"
       },
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261022-s01",
+      "type": "sentence",
+      "title": "接続不良に備える",
+      "prompt": "Why did you save another copy?",
+      "tiles": ["the connection", "in case", "a copy", "failed"],
+      "frame": ["I saved ", "{0} ", "{1} ", "{2} ", "{3}", "."],
+      "solutions": [[2, 1, 0, 3]],
+      "modelAnswer": "I saved a copy in case the connection failed.",
+      "explanation": [
+        "Use in case + clause for a precaution against a possible problem. The saving happened before any connection failure.",
+        "Because the main verb is past, failed is the natural tense for the possible problem in this narrative.",
+        "in caseは『〜するといけないので』という予防を表します。because（理由）とは異なります。"
+      ],
+      "phrases": ["in case the connection failed — 接続が切れるといけないので"],
+      "tags": ["linkers", "tense"],
+      "collection": "Original · 2026-10-22",
+      "sourceRefs": ["original:writing:2026-10-22:sentence:01"],
+      "source": {"kind": "original", "date": "2026-10-22"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261022-s02",
+      "type": "sentence",
+      "title": "誤りを認める",
+      "prompt": "What did Mia finally admit?",
+      "tiles": ["the data", "owned up to", "incorrectly", "copying"],
+      "frame": ["Mia finally ", "{0} ", "{1} ", "{2} ", "{3}", "."],
+      "solutions": [[1, 3, 0, 2]],
+      "modelAnswer": "Mia finally owned up to copying the data incorrectly.",
+      "explanation": [
+        "Own up to means admit responsibility for something. Here to is a preposition, so it is followed by copying, an -ing form.",
+        "Incorrectly modifies copying and belongs after the object in this sentence.",
+        "own up to doingは『〜したことを認める』です。toの後ろを動詞原形にしない点が重要です。"
+      ],
+      "phrases": ["own up to doing — 〜したことを認める"],
+      "tags": ["verb-patterns", "prepositions"],
+      "collection": "Original · 2026-10-22",
+      "sourceRefs": ["original:writing:2026-10-22:sentence:02"],
+      "source": {"kind": "original", "date": "2026-10-22"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261022-s03",
+      "type": "sentence",
+      "title": "後回しの復習に着手する",
+      "prompt": "What did you finally do last night?",
+      "tiles": ["the lecture notes", "got around to", "last night", "reviewing"],
+      "frame": ["I finally ", "{0} ", "{1} ", "{2} ", "{3}", "."],
+      "solutions": [[1, 3, 0, 2]],
+      "modelAnswer": "I finally got around to reviewing the lecture notes last night.",
+      "explanation": [
+        "Get around to doing means eventually find time to do something that has been delayed. To is a preposition, so reviewing is required.",
+        "Last night naturally closes the sentence and supplies the finished past-time reference.",
+        "get around to doingは『先延ばしにしていたことにようやく着手する』です。British Englishではget round toも使います。"
+      ],
+      "phrases": ["get around to reviewing — ようやく復習に着手する"],
+      "tags": ["verb-patterns", "time"],
+      "collection": "Original · 2026-10-22",
+      "sourceRefs": ["original:writing:2026-10-22:sentence:03"],
+      "source": {"kind": "original", "date": "2026-10-22"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261022-s04",
+      "type": "sentence",
+      "title": "結果を補足説明する",
+      "prompt": "What did the survey reveal?",
+      "tiles": ["some of which", "further analysis", "unexpected results", "require"],
+      "frame": ["The survey produced several ", "{0}", ", ", "{1} ", "{2} ", "{3}", "."],
+      "solutions": [[2, 0, 3, 1]],
+      "modelAnswer": "The survey produced several unexpected results, some of which require further analysis.",
+      "explanation": [
+        "Some of which introduces a non-defining relative clause referring to the plural results. Require agrees with some, not with survey.",
+        "The comma matters because the clause adds information rather than identifying which results were produced.",
+        "some of whichは『そのうちのいくつかは』です。non-defining clause（非限定用法）なのでコンマを使います。"
+      ],
+      "phrases": ["some of which require … — そのうちいくつかは〜を必要とする"],
+      "tags": ["relative-clauses", "agreement"],
+      "collection": "Original · 2026-10-22",
+      "sourceRefs": ["original:writing:2026-10-22:sentence:04"],
+      "source": {"kind": "original", "date": "2026-10-22"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261022-s05",
+      "type": "sentence",
+      "title": "保存条件の誤りを述べる",
+      "prompt": "Why could the samples no longer be used?",
+      "tiles": ["had been stored", "at", "the wrong temperature", "the samples"],
+      "frame": ["We discovered that ", "{0} ", "{1} ", "{2} ", "{3}", "."],
+      "solutions": [[3, 0, 1, 2]],
+      "modelAnswer": "We discovered that the samples had been stored at the wrong temperature.",
+      "explanation": [
+        "Had been stored is the past perfect passive: storage happened before the later discovery, and the samples received the action.",
+        "At the wrong temperature is the conventional prepositional phrase for storage conditions.",
+        "past perfect passive（過去完了受動態）は、発見より前に試料が保存されていたことを示します。"
+      ],
+      "phrases": ["had been stored at — 〜で保存されていた"],
+      "tags": ["passives", "past-perfect"],
+      "collection": "Original · 2026-10-22",
+      "sourceRefs": ["original:writing:2026-10-22:sentence:05"],
+      "source": {"kind": "original", "date": "2026-10-22"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261022-s06",
+      "type": "sentence",
+      "title": "方法を捨てず再検証する",
+      "prompt": "What did your group do when the model failed?",
+      "tiles": ["another boundary condition", "rather than", "we decided to test", "abandon the model"],
+      "frame": ["", "{0} ", "{1}", ", ", "{2} ", "{3}", "."],
+      "solutions": [[1, 3, 2, 0]],
+      "modelAnswer": "Rather than abandon the model, we decided to test another boundary condition.",
+      "explanation": [
+        "Rather than + base verb contrasts the rejected action with the chosen action. The parallel choices are abandon and test.",
+        "Boundary condition is a technical noun phrase meaning a condition imposed at the edge of a modelled region.",
+        "rather thanは『〜するのではなく』、boundary conditionは『境界条件』です。二つの行動を対比します。"
+      ],
+      "phrases": ["rather than abandon … — 〜を断念するのではなく"],
+      "tags": ["linkers", "parallelism"],
+      "collection": "Original · 2026-10-22",
+      "sourceRefs": ["original:writing:2026-10-22:sentence:06"],
+      "source": {"kind": "original", "date": "2026-10-22"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261022-s07",
+      "type": "sentence",
+      "title": "費用と結果を結ぶ",
+      "prompt": "Why did the department keep the old equipment?",
+      "tiles": ["could not replace", "that", "so expensive", "the department", "it"],
+      "frame": ["The new equipment was ", "{0} ", "{1} ", "{2} ", "{3} ", "{4}", "."],
+      "solutions": [[2, 1, 3, 0, 4]],
+      "modelAnswer": "The new equipment was so expensive that the department could not replace it.",
+      "explanation": [
+        "So + adjective + that introduces a result. Expensive describes the equipment; the that-clause explains the consequence.",
+        "It refers back to the singular uncountable noun equipment.",
+        "so expensive that …は『非常に高価だったので〜』です。equipmentは不可算名詞でも代名詞はitです。"
+      ],
+      "phrases": ["so expensive that … — 非常に高価だったので〜"],
+      "tags": ["result-clauses", "pronouns"],
+      "collection": "Original · 2026-10-22",
+      "sourceRefs": ["original:writing:2026-10-22:sentence:07"],
+      "source": {"kind": "original", "date": "2026-10-22"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261022-s08",
+      "type": "sentence",
+      "title": "比較後の発見を倒置で示す",
+      "prompt": "When did you notice the calibration error?",
+      "tiles": ["did we notice", "the graphs", "only after comparing", "the calibration error"],
+      "frame": ["", "{0} ", "{1} ", "{2} ", "{3}", "."],
+      "solutions": [[2, 1, 0, 3]],
+      "modelAnswer": "Only after comparing the graphs did we notice the calibration error.",
+      "explanation": [
+        "Fronted only after triggers inversion in the main clause: did we notice. Notice remains in the base form after did.",
+        "Comparing is an -ing form because after functions as a preposition here.",
+        "inversion（倒置）によりdidを主語weの前へ置きます。calibration errorは『較正誤差』です。"
+      ],
+      "phrases": ["Only after … did we notice — 〜して初めて私たちは気づいた"],
+      "tags": ["inversion", "verb-patterns"],
+      "collection": "Original · 2026-10-22",
+      "sourceRefs": ["original:writing:2026-10-22:sentence:08"],
+      "source": {"kind": "original", "date": "2026-10-22"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261022-s09",
+      "type": "sentence",
+      "title": "現在まで続く効果を述べる",
+      "prompt": "What effect has the tutorial had?",
+      "tiles": ["fewer students", "individual support", "has meant that", "need"],
+      "frame": ["The extra tutorial ", "{0} ", "{1} ", "{2} ", "{3}", "."],
+      "solutions": [[2, 0, 3, 1]],
+      "modelAnswer": "The extra tutorial has meant that fewer students need individual support.",
+      "explanation": [
+        "Has meant that links a past change with its present result. Fewer is used with the countable plural students.",
+        "Need is plural because its subject is fewer students, not the singular tutorial.",
+        "has meant thatは『その結果、現在まで〜となっている』です。fewの比較級fewerを使います。"
+      ],
+      "phrases": ["has meant that … — その結果〜となっている"],
+      "tags": ["present-perfect", "quantifiers"],
+      "collection": "Original · 2026-10-22",
+      "sourceRefs": ["original:writing:2026-10-22:sentence:09"],
+      "source": {"kind": "original", "date": "2026-10-22"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261022-s10",
+      "type": "sentence",
+      "title": "難しい本を読み切る",
+      "prompt": "Did you finish the difficult book?",
+      "tiles": ["managed to", "in a week", "although", "the book was difficult", "get through it"],
+      "frame": ["", "{0} ", "{1}", ", I ", "{2} ", "{3} ", "{4}", "."],
+      "solutions": [[2, 3, 0, 4, 1]],
+      "modelAnswer": "Although the book was difficult, I managed to get through it in a week.",
+      "explanation": [
+        "Although introduces a concession: the difficulty did not prevent completion. Manage to is followed by the base verb get.",
+        "Get through the book means finish reading it; the pronoun it replaces the book.",
+        "concessionは『譲歩』、get throughはここでは『読み切る』です。managed toの後ろは動詞原形です。"
+      ],
+      "phrases": ["manage to get through … — 何とか〜をやり遂げる／読み切る"],
+      "tags": ["linkers", "phrasal-verbs"],
+      "collection": "Original · 2026-10-22",
+      "sourceRefs": ["original:writing:2026-10-22:sentence:10"],
+      "source": {"kind": "original", "date": "2026-10-22"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261022-email",
+      "type": "email",
+      "title": "見学日時の変更を依頼する",
+      "minutes": 7,
+      "to": "Ms. Reed, Science Centre",
+      "subject": "Request to change my laboratory tour time",
+      "context": "You booked a laboratory tour, but a compulsory class has been moved to the same time. Write to the tour coordinator. This is an imagined practice situation.",
+      "requirements": [
+        "Identify your booking and explain the timetable conflict.",
+        "Ask to move from Thursday at 2 p.m. to Friday morning.",
+        "Ask whether you need a new confirmation message or ticket."
+      ],
+      "modelAnswer": "Dear Ms. Reed,\n\nI am writing about my booking for the laboratory tour on Thursday at 2 p.m. Unfortunately, a compulsory class has been moved to the same time, so I will no longer be able to attend that session.\n\nWould it be possible to move my booking to Friday morning instead? I am available at any time before noon and would be grateful if you could tell me which tour still has space.\n\nCould you also let me know whether I need a new confirmation message or ticket after the change? I apologise for the inconvenience and appreciate your help.\n\nBest regards,\nAlex Morgan",
+      "explanation": [
+        "The message identifies the original booking, gives a concise reason, and asks for the exact permitted change instead of assuming it is approved.",
+        "The final paragraph covers the confirmation requirement and uses a polite apology appropriate for an administrative request.",
+        "compulsoryは『必修の』、confirmation messageは『確認メッセージ』です。施設と予約は架空で、モデルは唯一の正解ではありません。"
+      ],
+      "phrases": [
+        "Would it be possible to move my booking …? — 予約を〜へ変更できますでしょうか。",
+        "I apologise for the inconvenience. — ご不便をおかけして申し訳ありません。"
+      ],
+      "tags": ["register", "indirect-questions"],
+      "collection": "Original · 2026-10-22",
+      "sourceRefs": ["original:writing:2026-10-22:email:01"],
+      "source": {"kind": "original", "date": "2026-10-22"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261022-discussion",
+      "type": "discussion",
+      "title": "録画講義と出席",
+      "minutes": 10,
+      "targetWords": 100,
+      "professor": "Professor Chen · Education Policy",
+      "context": "Should universities record every lecture and allow students to decide whether to attend in person? Explain your position.",
+      "posts": [
+        {
+          "name": "Nora",
+          "text": "Every lecture should be recorded. Recordings help students review difficult material and support those who are ill or have unavoidable timetable conflicts."
+        },
+        {
+          "name": "Daniel",
+          "text": "Automatic recording may reduce attendance and participation. A live class lets students ask questions immediately and learn from one another."
+        }
+      ],
+      "requirements": [
+        "State and support your policy on lecture recording and attendance.",
+        "Respond meaningfully to both Nora and Daniel.",
+        "Develop a concrete safeguard or example in at least 100 words."
+      ],
+      "modelAnswer": "Universities should record most lectures, but access to recordings should support rather than replace participation. Nora is right that recordings are valuable when students are ill and when a complex explanation needs to be reviewed. However, Daniel's concern is also important because students can lose the habit of preparing questions if attendance becomes optional without limits. A reasonable policy would keep seminars and laboratory sessions in person while recording large lectures. Students could use the recording freely after attending, whereas those who miss class repeatedly might need to explain the reason to an adviser. For example, a student recovering from influenza could continue learning without putting classmates at risk. This approach improves access while preserving the interaction that makes live teaching useful.",
+      "explanation": [
+        "The response takes a qualified position, directly addresses access and participation, and proposes a distinction between large lectures and interactive sessions.",
+        "The illness example explains when recording adds genuine value; it does not claim that every absence should be treated identically.",
+        "safeguardは『悪影響を防ぐ仕組み』、qualified positionは『条件付きの立場』です。これは方針を論じる架空の練習です。"
+      ],
+      "phrases": [
+        "support rather than replace — 置き換えるのではなく支える",
+        "preserve interaction — 相互交流を維持する"
+      ],
+      "tags": ["argument", "concession"],
+      "collection": "Original · 2026-10-22",
+      "sourceRefs": ["original:writing:2026-10-22:discussion:01"],
+      "source": {"kind": "original", "date": "2026-10-22"},
       "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
     }
   ]
