@@ -1,8 +1,8 @@
 +++
-title = "TOEFL Reading · 新着と移行状況"
-description = "Task 1・Task 2・Task 3で解くReading演習。既存教材・PDF全問を4時間ごとに順次移行。"
+title = "English Practice Lab"
+description = "Readingの問題形式を選ぶと、未回答を優先して次のセットを出題。本文と設問を左右に表示し、全問提出後に採点。"
 layout = "toefl"
 url = "/toefl/reading/"
-practiceFeed = true
+practiceStart = "toefl/reading"
 draft = false
 +++

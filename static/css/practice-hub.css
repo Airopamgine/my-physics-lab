@@ -1,0 +1,36 @@
+.toefl-shell[hidden],.toefl-shell [hidden]{display:none!important}
+[data-guided] .toefl-hero{padding:clamp(22px,4vw,38px);margin-bottom:16px}
+[data-guided] .toefl-hero h1{font-size:clamp(1.8rem,4vw,2.6rem)}
+[data-guided] .toefl-hero .toefl-level{display:none}
+.practice-nav a[aria-current=page]{color:var(--tl-blue);background:var(--tl-blue-soft)}
+.practice-hub{margin:22px 0 32px;padding:clamp(20px,3vw,32px);border:1px solid var(--tl-line);border-radius:20px;background:var(--tl-card);color:var(--tl-ink);scroll-margin-top:85px}
+.practice-breadcrumbs{display:flex;align-items:center;gap:9px;flex-wrap:wrap;font-size:.88rem;min-height:24px;margin-bottom:20px;color:var(--tl-muted)}
+.practice-breadcrumbs a,.practice-active-bar a,.practice-today-link{color:var(--tl-blue);text-decoration:none}
+.practice-breadcrumbs a:hover,.practice-active-bar a:hover,.practice-today-link:hover{text-decoration:underline}
+.practice-heading{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.practice-heading h2{margin:0 0 12px;font-size:clamp(1.5rem,3vw,2rem);letter-spacing:-.035em}
+.practice-heading .toefl-eyebrow{margin-top:0}
+.practice-today-link{font-size:.87rem}
+.practice-hub p{line-height:1.7}
+.practice-choices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:24px 0}
+.practice-card{display:flex;flex-direction:column;align-items:flex-start;gap:10px;padding:24px;border:1px solid var(--tl-line);border-radius:15px;background:var(--tl-paper);color:var(--tl-ink);text-decoration:none;min-width:0;transition:border-color .15s,background .15s}
+.practice-card:hover{border-color:var(--tl-blue);background:var(--tl-blue-soft)}
+.practice-card strong{font-size:1.18rem;line-height:1.4}
+.practice-card span{color:var(--tl-muted);font-size:.92rem;line-height:1.6}
+.practice-card small{color:var(--tl-teal);margin-top:auto;font-weight:650;line-height:1.6}
+.practice-card .practice-card__number{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:10px;background:var(--tl-card);color:var(--tl-blue);font-weight:750;font-size:.82rem}
+.practice-selection{border:1px solid var(--tl-line);border-left:4px solid var(--tl-teal);border-radius:14px;padding:24px;margin:24px 0;background:var(--tl-paper)}
+.practice-selection__label{font-size:.8rem;color:var(--tl-teal);text-transform:uppercase;letter-spacing:.07em;margin-top:0}
+.practice-selection h3{margin:8px 0;font-size:1.28rem}
+.practice-counts{color:var(--tl-muted);font-size:.92rem}
+.practice-rule{font-size:.86rem;color:var(--tl-muted);border-top:1px solid var(--tl-line);padding-top:18px;margin-bottom:0}
+.practice-active-bar{display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap;margin:20px 0;padding:14px 20px;border:1px solid var(--tl-line);border-radius:12px;background:var(--tl-card);font-size:.91rem}
+.practice-active-bar p{margin:0;color:var(--tl-muted)}
+[data-guided] #cambridge-catalog,[data-guided] #cambridge-toolbar,[data-guided] #writing-catalog,[data-guided] .writing-controls,[data-guided] .writing-task-grid,[data-guided] #library-grid,[data-guided] #library-controls,[data-guided] #library-more,[data-guided] .reading-tasks,[data-guided] .reading-migration,[data-guided] .toefl-dashboard{display:none!important}
+[data-guided] .practice-engine{padding:0;border:0;background:transparent;margin:20px 0}
+[data-guided] .practice-engine> :not(.library-runner):not(.writing-runner):not(.cambridge-runner):not(#repeat-lab):not(#practice-workspace):not(#completion-screen){display:none!important}
+[data-guided] .practice-engine>.library-runner,[data-guided] .practice-engine>.writing-runner,[data-guided] .practice-engine>.cambridge-runner{margin:0}
+[data-guided] .practice-daily-active> :not(#daily-content),[data-guided] .practice-daily-active>#daily-content> :not(#daily-workspace){display:none!important}
+.practice-hub :is(a,button):focus-visible,.practice-active-bar a:focus-visible{outline:3px solid var(--tl-blue);outline-offset:4px}
+@media(min-width:960px){.practice-choices--skills{grid-template-columns:repeat(4,minmax(0,1fr))}.practice-choices--types{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:600px){.practice-choices{grid-template-columns:1fr;gap:12px}.practice-card{padding:18px}.practice-selection{padding:18px}.practice-active-bar{padding:12px 16px}.practice-today-link{display:none}.practice-hub{padding:18px}}
