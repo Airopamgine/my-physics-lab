@@ -1,0 +1,33 @@
+<nav class="english-nav practice-nav" aria-label="Study navigation">
+  <a href="#practice" data-study-tab="practice">Practice · 練習</a>
+  <a href="#today" data-study-tab="today">Today · 今日</a>
+  <a href="#vocabulary" data-study-tab="vocabulary">Vocabulary · 語彙</a>
+  <a href="#progress" data-study-tab="progress">Progress · 記録</a>
+</nav>
+<section id="practice-hub" class="practice-hub" aria-labelledby="practice-title" data-start-route="{{ .Params.practiceStart }}">
+  <nav id="practice-breadcrumbs" class="practice-breadcrumbs" aria-label="Practice location"></nav>
+  <div class="practice-heading">
+    <div><p class="toefl-eyebrow" id="practice-eyebrow">Choose your practice</p><h2 id="practice-title" tabindex="-1">What would you like to practise?</h2></div>
+    <a class="practice-today-link" href="#today">Follow today's balanced route →</a>
+  </div>
+  <p id="practice-description">Choose an exam, then a skill and question type. 試験 → 技能 → 問題形式の順に選びます。</p>
+  <div id="practice-choices" class="practice-choices"></div>
+  <section id="practice-selection" class="practice-selection" aria-label="Next practice" hidden>
+    <p class="practice-selection__label">Your next step · 次の練習</p>
+    <h3 id="practice-selection-title"></h3>
+    <p id="practice-counts" class="practice-counts"></p>
+    <p id="practice-selection-note"></p>
+    <div class="toefl-actions">
+      <button id="practice-start" class="toefl-button toefl-button--primary" type="button" disabled>Start next set · 次のセットへ</button>
+      <button id="practice-review" class="toefl-button toefl-button--secondary" type="button" hidden>Review mistakes · 間違いを復習</button>
+      <button id="practice-reload" class="toefl-button toefl-button--secondary" type="button" hidden>Retry loading · 再読み込み</button>
+    </div>
+    <p id="practice-status" role="status" aria-live="polite"></p>
+  </section>
+  <p class="practice-rule">Unanswered first. Saved work can be resumed. 未回答を優先し、本文ごとに設問をまとめて出します。採点は全問の提出後です。</p>
+</section>
+<div id="practice-active-bar" class="practice-active-bar" hidden>
+  <p id="practice-active-label"></p>
+  <a id="practice-back" href="#practice">Save &amp; return · 保存して戻る</a>
+</div>
+<noscript><p>Enable JavaScript to choose a category and save your practice. 学習画面の操作にはJavaScriptが必要です。</p></noscript>

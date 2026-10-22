@@ -1,6 +1,7 @@
 (() => {
   "use strict";
   const PREFIX = "mastersPhysicsLab.setAnswers.v1:", engines = new Map();
+  const DRAFT_PREFIX = "mastersPhysicsLab.setDrafts.v1:";
   const clone = value => JSON.parse(JSON.stringify(value));
   const node = (tag, text, className) => { const n = document.createElement(tag); if (text !== undefined) n.textContent = text; if (className) n.className = className; return n; };
   const today = () => { const d = new Date(Date.now()); return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`; };
@@ -18,6 +19,25 @@
     return typeof value === "string" && value.length <= (q.kind === "essay" || q.kind === "self" ? 20000 : 200) && (!complete || Boolean(value.trim()));
   }
   const empty = q => q.kind === "sentence" ? [] : q.kind === "compound" ? q.fields.map(() => "") : "";
+  function getDrafts(engine) {
+    const found=new Map();
+    try {
+      const archived=JSON.parse(localStorage.getItem(DRAFT_PREFIX+engine)||"[]");
+      for(const draft of Array.isArray(archived)?archived:[])if(draft?.version===1&&typeof draft.signature==="string"&&draft.answers&&!draft.reviewed)found.set(draft.signature,draft);
+    }catch(_){}
+    try {
+      const latest=JSON.parse(localStorage.getItem(PREFIX+engine)||"null");
+      if(latest?.version===1&&typeof latest.signature==="string"&&latest.answers){if(latest.reviewed)found.delete(latest.signature);else found.set(latest.signature,latest);}
+    }catch(_){}
+    return [...found.values()];
+  }
+  function matchesDraft(saved, id, ids, context, date) {
+    try {
+      const signature=JSON.parse(saved.signature);
+      return Array.isArray(signature)&&signature[0]===id&&JSON.stringify(signature[1])===JSON.stringify(ids)&&JSON.stringify(signature[2])===JSON.stringify(context)&&
+        (!context.dailyDate||signature[3]===date);
+    }catch(_){return false;}
+  }
   function open(options) {
     const { engine, host, questions } = options;
     if (!host || !questions?.length || new Set(questions.map(q => q.id)).size !== questions.length) return false;
@@ -28,11 +48,10 @@
     let data = { version:1, signature, answers:{}, submitted:false, reviewed:false, checks:{}, ratings:{}, date,
       remaining:Math.max(0, Number(options.minutes || 0) * 60), deadline:null }, warning = "";
     try {
-      const raw = localStorage.getItem(PREFIX + engine);
-      if (raw) {
-        const saved = JSON.parse(raw);
+      const saved = getDrafts(engine).find(draft=>matchesDraft(draft,options.id,questions.map(q=>q.id),context,date));
+      if (saved) {
         if (saved.version !== 1 || typeof saved.signature !== "string" || !saved.answers || typeof saved.answers !== "object") throw new Error("Invalid set draft");
-        if (saved.signature === signature && !saved.reviewed) {
+        if (!saved.reviewed) {
           for (const q of questions) if (Object.hasOwn(saved.answers,q.id) && shape(q,saved.answers[q.id])) data.answers[q.id] = clone(saved.answers[q.id]);
           data.submitted = saved.submitted === true && questions.every(q => shape(q,data.answers[q.id],true));
           if (saved.checks && typeof saved.checks === "object") for (const q of questions) if (Array.isArray(saved.checks[q.id])) data.checks[q.id] = saved.checks[q.id].filter(i => Number.isInteger(i) && i>=0 && i<(q.checks?.length || 0));
@@ -61,7 +80,12 @@
     const finish=node("button","Finish review · 解説を確認して完了","toefl-button toefl-button--primary");finish.type="button";finish.dataset.setFinish="";
     form.append(submit);panel.append(form,review);host.append(panel);host.hidden=false;host.setAttribute("aria-labelledby",title.id);
     const fields=new Map(), feedbackNodes=new Map();let submittedResults=null;
-    const save=()=>{try {localStorage.setItem(PREFIX+engine,JSON.stringify(data));warning="";}catch(_){warning="このブラウザに下書きを保存できません。下の答案ダウンロードで記録を残してください。";}update();};
+    const save=()=>{try {
+      const drafts=getDrafts(engine).filter(draft=>!matchesDraft(draft,options.id,questions.map(q=>q.id),context,date));
+      data.updatedAt=Date.now();if(!data.reviewed)drafts.push(data);
+      localStorage.setItem(DRAFT_PREFIX+engine,JSON.stringify(drafts.sort((a,b)=>(b.updatedAt||0)-(a.updatedAt||0)).slice(0,40)));
+      localStorage.setItem(PREFIX+engine,JSON.stringify(data));warning="";
+    }catch(_){warning="このブラウザに下書きを保存できません。下の答案ダウンロードで記録を残してください。";}update();};
     const complete=()=>questions.every(q=>shape(q,data.answers[q.id],true));
     function update(){
       const count=questions.filter(q=>shape(q,data.answers[q.id],true)).length;
@@ -149,10 +173,11 @@
       // No grading callbacks, statistics or tutor answer keys run until this point.
       options.onSubmit(frozen,{date,context});save();showReview();review.scrollIntoView({behavior:"smooth",block:"start"});
     });
-    finish.addEventListener("click",()=>{if(!data.submitted||data.reviewed||finish.disabled)return;data.reviewed=true;save();options.onReview?.(submittedResults.map(r=>({...r,result:data.ratings[r.id]||r.result})),{date,context});host.hidden=true;options.onClose?.(true);});
+    const closed=done=>document.dispatchEvent(new CustomEvent("toefl:set-closed",{detail:{engine,id:options.id,context,done}}));
+    finish.addEventListener("click",()=>{if(!data.submitted||data.reviewed||finish.disabled)return;data.reviewed=true;save();options.onReview?.(submittedResults.map(r=>({...r,result:data.ratings[r.id]||r.result})),{date,context});host.hidden=true;options.onClose?.(true);closed(true);});
     function pause(){if(data.deadline!==null){data.remaining=Math.max(0,Math.ceil((data.deadline-Date.now())/1000));data.deadline=null;save();}}
     const hide=()=>{pause();host.hidden=true;};
-    close.addEventListener("click",()=>{hide();options.onClose?.(false);});
+    close.addEventListener("click",()=>{hide();options.onClose?.(false);closed(false);});
     const download=node("button","Download answers · 答案を保存","toefl-button toefl-button--secondary");download.type="button";download.addEventListener("click",()=>{
       const url=URL.createObjectURL(new Blob([JSON.stringify({format:"english-set-answers",engine,id:options.id,...data},null,2)],{type:"application/json"}));const a=node("a");a.href=url;a.download=`${engine}-answers-${date}.json`;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
     });panel.append(download);
@@ -163,8 +188,8 @@
     }
     const previous=engines.get(engine);if(previous?.interval!==null)clearInterval(previous?.interval);
     engines.set(engine,{host,pause,hide,interval,getState:()=>clone(data)});
-    if(data.submitted)showReview();save();host.scrollIntoView({behavior:"smooth",block:"start"});title.focus({preventScroll:true});return true;
+    if(data.submitted)showReview();save();document.dispatchEvent(new CustomEvent("toefl:set-opened",{detail:{engine,id:options.id,context}}));host.scrollIntoView({behavior:"smooth",block:"start"});title.focus({preventScroll:true});return true;
   }
   window.addEventListener("pagehide",()=>{for(const r of engines.values())r.pause();});
-  window.EnglishSetPractice=Object.freeze({open,required,available,active:engine=>engines.has(engine)&&!engines.get(engine).host.hidden,pause:engine=>engines.get(engine)?.pause(),getState:engine=>engines.get(engine)?.getState()});
+  window.EnglishSetPractice=Object.freeze({open,required,available,getDrafts,active:engine=>engines.has(engine)&&!engines.get(engine).host.hidden,pause:engine=>engines.get(engine)?.pause(),getState:engine=>engines.get(engine)?.getState()});
 })();

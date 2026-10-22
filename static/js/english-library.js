@@ -156,6 +156,7 @@
   }
 
   function renderLibrary() {
+    if(window.EnglishPracticeHub){elements.grid.replaceChildren();elements.more.hidden=true;return;}
     const sets = filteredSets();
     const shown = sets.slice(0, visibleCount);
     if (!sets.length) {
@@ -222,6 +223,7 @@
       hasLoaded = false;
       elements.status.hidden = false;
       elements.status.innerHTML = "Question bank を読み込めませんでした。ページを再読み込みしてください。";
+      document.dispatchEvent(new CustomEvent("toefl:reading-unavailable"));
     }
   }
 

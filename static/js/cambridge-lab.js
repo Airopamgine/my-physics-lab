@@ -10,7 +10,7 @@
   const transformWords=text=>words(normal(text).replace(/\b(can't|won't|shan't)\b/g,"can not").replace(/\b(\w+)(n't|'re|'ve|'ll|'d|'m|'s)\b/g,"$1 xx"));
   const hash=s=>[...s].reduce((h,c)=>Math.imul(h^c.charCodeAt(0),16777619)>>>0,2166136261);
   let bank,loading=false,unlocked=false,session=null,repeat=0,heard=false,storageWarning="";
-  let state={version:1,records:{},plans:{},exposure:{},session:null};
+  let state={version:1,records:{},plans:{},exposure:{},repeats:{},session:null};
   const qIndex=new Map();
   const validDate=d=>typeof d==="string"&&/^\d{4}-\d{2}-\d{2}$/.test(d)&&Number.isFinite(Date.parse(d+"T12:00Z"))&&new Date(d+"T12:00Z").toISOString().slice(0,10)===d;
   const object=x=>x&&typeof x==="object"&&!Array.isArray(x);
@@ -24,6 +24,7 @@
       for(const[id,r]of Object.entries(s.records))if(qIndex.has(id))state.records[id]=cleanRecord(r);
       for(const[date,p]of Object.entries(s.plans))if(validDate(date)&&object(p)&&[p.primary,p.extra].every(id=>bank.sets.some(s=>s.id===id)))state.plans[date]={primary:p.primary,extra:p.extra};
       for(const[id,n]of Object.entries(s.exposure))if(bank.sets.some(s=>s.id===id)&&Number.isInteger(n)&&n>=0)state.exposure[id]=n;
+      for(const q of bank.repeat)if(validDate(s.repeats?.[q.en]))state.repeats[q.en]=s.repeats[q.en];
       if(object(s.session)&&bank.sets.some(q=>q.id===s.session.setId)&&Number.isInteger(s.session.index)&&s.session.index>=0&&s.session.index<bank.sets.find(q=>q.id===s.session.setId).questions.length){session={setId:s.session.setId,index:s.session.index,context:cleanContext(s.session.context)};}
     }catch(_){storageWarning="保存記録を読み込めませんでした。既存のTOEFL記録は保持されています。reportから取り込むこともできます。";}
   }
@@ -53,7 +54,7 @@
     return Object.values(state.plans[date]).map(id=>{const s=bank.sets.find(q=>q.id===id);return {engine:"cambridge",setId:id,ids:s.questions.map(q=>q.id),title:`Cambridge Part ${s.part} · ${s.title}`,detail:`${s.questions.length}問 · ${s.skill} · 前日の誤答分野と復習予定を優先`,minutes:s.minutes};});
   }
   function catalog(){
-    const box=el("catalog");box.replaceChildren();if(!bank)return;
+    const box=el("catalog");box.replaceChildren();if(!bank||window.EnglishPracticeHub)return;
     for(const s of bank.sets.filter(s=>el("filter").value==="all"||String(s.part)===el("filter").value)){
       const card=node("article"),done=s.questions.filter(q=>state.records[q.id]?.reviewed).length;
       card.append(node("small",s.part==="writing"?"Writing · 140–190 words":`Reading & Use of English · Part ${s.part}`),node("h3",s.title),node("p",s.skill),node("small",`${s.questions.length} task(s) · about ${s.minutes} min · ${done} reviewed`));
@@ -155,7 +156,7 @@
     else{save();renderQuestion();el("set-title").focus({preventScroll:true});}
   });
   el("close").addEventListener("click",()=>{save();el("runner").hidden=true;catalog();});el("filter").addEventListener("change",catalog);
-  function importProgress(data){validateProgress(data);for(const[id,r]of Object.entries(data.records))if(qIndex.has(id)&&!state.records[id])state.records[id]=cleanRecord(r);save();catalog();}
+  function importProgress(data){validateProgress(data);for(const[id,r]of Object.entries(data.records))if(qIndex.has(id)&&!state.records[id])state.records[id]=cleanRecord(r);for(const q of bank.repeat)if(validDate(data.repeats?.[q.en])&&!state.repeats[q.en])state.repeats[q.en]=data.repeats[q.en];save();catalog();}
   function voices(){
     const select=document.getElementById("repeat-voice"),value=select.value;select.replaceChildren();const options=window.speechSynthesis?.getVoices().filter(v=>/^en[-_]/i.test(v.lang))||[];
     options.sort((a,b)=>Number(b.lang==="en-GB")-Number(a.lang==="en-GB"));for(const v of options){const o=node("option",`${v.name} · ${v.lang}`);o.value=v.voiceURI;select.append(o);}if(!options.length){const o=node("option","Default English voice");o.value="";select.append(o);}if([...select.options].some(o=>o.value===value))select.value=value;
@@ -168,7 +169,8 @@
     utterance.onend=()=>{heard=true;status.textContent="Repeat aloud now, then reveal and compare. 声に出してから英文と比べましょう。";};utterance.onerror=()=>{status.textContent="音声を再生できませんでした。English voiceを選び直すか、公式音声教材を使ってください。";};window.speechSynthesis.speak(utterance);
   });
   document.getElementById("repeat-reveal").addEventListener("click",()=>{if(!bank)return;const q=bank.repeat[repeat],box=document.getElementById("repeat-text");box.textContent=`${q.en}\n${q.ja}\n${q.note}`;box.hidden=false;if(!heard)document.getElementById("repeat-status").textContent="Text shown · 次は音声だけを聞いてから繰り返しましょう。";});
-  document.getElementById("repeat-next").addEventListener("click",()=>{if(!bank)return;window.speechSynthesis?.cancel();repeat=(repeat+1)%bank.repeat.length;repeatView();});
+  const chooseRepeat=()=>{const list=bank.repeat.map((q,i)=>({i,date:state.repeats[q.en]||""}));list.sort((a,b)=>a.date.localeCompare(b.date)||a.i-b.i);repeat=list[0].i;};
+  document.getElementById("repeat-next").addEventListener("click",()=>{if(!bank)return;window.speechSynthesis?.cancel();if(heard&&!document.getElementById("repeat-text").hidden){state.repeats[bank.repeat[repeat].en]=day();save();chooseRepeat();}else repeat=(repeat+1)%bank.repeat.length;repeatView();});
   async function load(){
     if(!unlocked||loading||bank)return;loading=true;
     try{const response=await fetch(root.dataset.bankUrl,{cache:"no-cache"});if(!response.ok)throw new Error("Network");const payload=await response.json();
@@ -179,5 +181,6 @@
   }
   el("retry").addEventListener("click",load);document.addEventListener("toefl:unlocked",()=>{unlocked=true;load();});window.speechSynthesis?.addEventListener("voiceschanged",voices);
   window.addEventListener("pagehide",()=>{window.speechSynthesis?.cancel();if(bank)save();});
-  window.CambridgeLab=Object.freeze({getBank:()=>bank,getProgress:()=>JSON.parse(JSON.stringify({...state,session})),validateProgress,importProgress,startSelection,daily,grade,transformWords});
+  window.CambridgeLab=Object.freeze({getBank:()=>bank,getProgress:()=>JSON.parse(JSON.stringify({...state,session})),validateProgress,importProgress,startSelection,daily,grade,transformWords,
+    startRepeat:()=>{if(!bank)return false;chooseRepeat();repeatView();document.getElementById("repeat-lab").open=true;return true;}});
 })();

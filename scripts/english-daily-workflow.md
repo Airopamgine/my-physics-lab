@@ -2,6 +2,30 @@
 
 Page: https://airopamgine.github.io/my-physics-lab/toefl/
 
+## Category navigation (owner request, 2026-10-22)
+
+The main page and the existing `/toefl/reading/` entry use `practice-hub.js`:
+exam → skill → question type → automatically selected practice. The learner
+chooses broad categories, never individual questions from a large catalog.
+TOEFL Reading includes Complete the Words / C-test, Daily Life and Academic;
+Cambridge Reading & Use of English exposes Parts 1–7. Keep Listening, Writing,
+Speaking, Today, Vocabulary and Progress accessible through the same navigation.
+Official external samples remain clearly labelled; synthetic speech and daily
+speaking activities are training, not a full simulation of every exam format.
+
+For manual category practice, resume saved work first, then favour unanswered
+tasks. Group Reading by its complete source text with all associated questions,
+and do not truncate cloze passages. Sentence and supplementary grammar practice
+use five-item queues. Once every task has been attempted, favour mistakes and
+older work. Explicit mistake review remains available; daily weakness selection
+retains its existing scheduling. Show no detailed catalogs in the guided UI.
+Preserve existing progress keys and source IDs; the shared runner also archives
+unfinished sets so switching categories and crossing midnight retain drafts.
+
+Run `tests/verify_practice_hub.cjs` against built HTML alongside the existing
+runner checks. It covers navigation, unseen priority, coherent passage groups,
+multiple drafts, next-day resumption, grading, old links and loading recovery.
+
 ## Current grading rule (owner request, 2026-10-21)
 
 All answers in the selected set or daily queue must be completed before grading.

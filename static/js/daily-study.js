@@ -284,6 +284,7 @@
       if (step.engine === "recall" && !state.days[currentDate].steps[0].complete) return;
       activeWork = context; renderWork(step);
       el("workspace").hidden = false;
+      document.dispatchEvent(new CustomEvent("toefl:daily-work-opened",{detail:{engine:step.engine}}));
       el("workspace").scrollIntoView({ behavior: "smooth", block: "start" });
       el("work-title").focus({ preventScroll: true });
     }
@@ -349,6 +350,7 @@
     finish.addEventListener("click", () => {
       if (finish.disabled) return;
       step.complete = true; pauseWork(); save(); render(); el("workspace").hidden = true; activeWork = null;
+      document.dispatchEvent(new CustomEvent("toefl:daily-work-closed"));
       root.scrollIntoView({ behavior: "smooth", block: "start" }); el("next").focus({ preventScroll: true });
     });
     update(); renderTimer();
@@ -452,7 +454,7 @@
   });
   el("cards").addEventListener("click", event => { const button = event.target.closest("[data-daily-start]"); if (button) start(Number(button.dataset.dailyStart)); });
   el("level").addEventListener("change", () => { state.level = el("level").value === "b2" ? "b2" : "path"; save(); el("status").textContent = "難易度の希望を保存しました。今日の教材はそのまま、翌日のメニューから反映します。"; });
-  el("work-close").addEventListener("click", () => { pauseWork(); activeWork = null; el("workspace").hidden = true; root.scrollIntoView({ behavior: "smooth" }); });
+  el("work-close").addEventListener("click", () => { pauseWork(); activeWork = null; el("workspace").hidden = true; document.dispatchEvent(new CustomEvent("toefl:daily-work-closed")); root.scrollIntoView({ behavior: "smooth" }); });
   el("save-reflection").addEventListener("click", () => {
     const ratings = Object.fromEntries([...root.querySelectorAll("[data-daily-goal]")].map(select => [select.dataset.dailyGoal, select.value]));
     state.reflections[weekKey(currentDate)] = { ratings, evidence: el("evidence").value.slice(0, 5000) }; save();
@@ -477,4 +479,5 @@
   window.addEventListener("pagehide", () => { if (config && currentDate) save(); });
   setInterval(() => { if (config && reading && writing) ready(); }, 60000);
   setInterval(renderTimer, 500);
+  window.ToeflDailyStudy=Object.freeze({startSkill:skill=>{if(!config||!reading||!writing||!["listening","speaking"].includes(skill))return false;ready();const step=state.days[currentDate]?.steps.find(s=>s.engine===skill);if(!step)return false;start(step.slot);return true;},pause:pauseWork});
 })();

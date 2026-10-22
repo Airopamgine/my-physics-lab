@@ -101,6 +101,7 @@
     const grammarCorrect = bank.exercises.filter(q => q.type === "grammar" && state.records[q.id] && result(q, state.records[q.id]) === "correct").length;
     const reviewed = bank.exercises.filter(q => isEssay(q) && state.records[q.id]?.rating === "done").length;
     el("progress").textContent = `並べ替え正解 ${correct}/${counts[0]} · 文法正解 ${grammarCorrect}/${counts[3]} · 作文確認済み ${reviewed}/${counts[1] + counts[2]}`;
+    if(window.EnglishPracticeHub){el("catalog").replaceChildren();el("catalog").hidden=true;return;}
     el("catalog").hidden = Boolean(active);
     if (active) return;
     const query = el("search").value.toLowerCase().trim();
@@ -379,10 +380,10 @@
       bank = data;
       bank.exercises.forEach(q => searchText.set(q.id, JSON.stringify(q).toLowerCase()));
       restore(); renderCatalog();
-      if (state.lastId) open(bank.exercises.find(q => q.id === state.lastId), false, Boolean(guidedSession));
+      if (state.lastId && !window.EnglishPracticeHub) open(bank.exercises.find(q => q.id === state.lastId), false, Boolean(guidedSession));
       if (originalsWarning) { el("status").textContent = originalsWarning; el("retry").hidden = false; }
       document.dispatchEvent(new CustomEvent("toefl:writing-ready"));
-    } catch (_) { el("status").textContent = "Writing教材を読み込めませんでした。再試行してください。"; el("retry").hidden = false; }
+    } catch (_) { el("status").textContent = "Writing教材を読み込めませんでした。再試行してください。"; el("retry").hidden = false; document.dispatchEvent(new CustomEvent("toefl:writing-unavailable")); }
     finally { loading = false; }
   }
   root.querySelectorAll("[data-writing-task]").forEach(button => button.addEventListener("click", () => {
