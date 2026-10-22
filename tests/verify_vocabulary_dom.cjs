@@ -55,7 +55,7 @@ const answer = c => c.mode === 'glossary' ? c.gloss.text : bank.senses[c.sense].
   assert(!el(t, 'mode').querySelector('[value="context"]'));
   assert(!t.d.getElementById('vocabulary-answer-form'));
   assert(el(t, 'coverage-note').textContent.includes('意味の説明がない'));
-  assert(t.d.querySelector('[href="#vocabulary-lab"]'));
+  assert(t.d.querySelector('[href="#vocabulary"]'));
   // Render every standalone meaning card with source-opening APIs absent.
   // Avoid a growing O(n^2) saved progress fixture; grade transitions below.
   let visited = 0;
