@@ -189,6 +189,7 @@
   el("start").addEventListener("click",()=>launch());el("review").addEventListener("click",()=>launch(true));
   el("reload").addEventListener("click",()=>{const {type}=resolve(current);const engine=type?.engine==="repeat"?"cambridge":type?.engine;document.getElementById(engine==="reading"?"library-refresh":engine==="cambridge"?"cambridge-retry":engine==="writing"?"writing-retry":"daily-retry")?.click();el("status").textContent="Reloading practice · 教材を再読み込みしています…";});
   el("back").addEventListener("click",event=>{event.preventDefault();pause();const route=active?.route||"practice";active=null;if(readRoute()===route)render();else navigate(route);el("title")?.focus({preventScroll:true});});
+  document.querySelectorAll("[data-study-tab]").forEach(link=>link.addEventListener("click",event=>{if(active&&readRoute()===link.hash.slice(1)){event.preventDefault();pause();active=null;render();}}));
   document.addEventListener("toefl:set-opened",event=>opened(event.detail.engine,event.detail.context));
   document.addEventListener("toefl:set-closed",event=>{if(active?.engine!==event.detail.engine)return;const route=active.route;active=null;if(readRoute()===route)render();else navigate(route);if(route.startsWith("practice"))el("start").focus({preventScroll:true});});
   document.addEventListener("toefl:daily-work-opened",()=>{opened("today",{});});
