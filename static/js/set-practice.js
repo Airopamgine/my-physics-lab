@@ -83,7 +83,9 @@
           const source=node("section",undefined,"set-passage-pane"),sourceTitle=node("h4","Passage & task · 本文・課題","set-pane-title");
           sourceTitle.id=`${engine}-set-source-${index}`;source.setAttribute("aria-labelledby",sourceTitle.id);source.tabIndex=0;
           const passage=node("div",passageText,"set-passage");passage.dataset.setPassage="";
-          source.append(sourceTitle,passage);questionList.append(node("h4","Questions & answers · 設問・解答","set-pane-title"));group.append(source);
+          const answerTitle=node("h4","Questions & answers · 設問・解答","set-pane-title");answerTitle.id=`${engine}-set-answers-${index}`;
+          questionList.tabIndex=0;questionList.setAttribute("role","region");questionList.setAttribute("aria-labelledby",answerTitle.id);
+          source.append(sourceTitle,passage);questionList.append(answerTitle);group.append(source);
           currentGroup.source=source;currentGroup.passage=passage;
         }
         group.append(questionList);list.append(group);
