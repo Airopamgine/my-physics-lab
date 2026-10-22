@@ -16,15 +16,19 @@ recovery. Do not restore instant per-question feedback. The old runner fixtures
 remain explicit legacy grading-kernel tests; `verify_set_practice.cjs` exercises
 the production full-set UI and must run alongside them.
 
-## Current practice layout (owner request, 2026-10-21)
+## Current practice layout (owner requests, 2026-10-21 and 2026-10-22)
 
 Keep the passage/task on the left and the answer fields on the right on wide
-screens. The shared renderer groups each passage with its matching questions;
-long sources scroll within a sticky, keyboard-focusable pane while the answers
-remain alongside them. Short tasks pair their prompt and answer on the same row.
+screens. The shared renderer groups each passage with its matching questions.
+Both columns share a bounded height and scroll independently: the left passage
+and the right questions/answers each need their own overflow area. Set the grid
+row and both panes to allow shrinking (`min-height: 0`); the right column must
+not expand the entire page. Both scrolling regions support keyboard focus.
+Short tasks pair their prompt and answer on the same row, with bounded answer
+areas when a response contains many choices or tiles.
 Essay instructions and source posts belong in the left pane, without repeating
 the full source above the writing field. On small screens, stack the pair and
-limit the source pane's height so a long passage cannot bury the answer fields.
+limit both panes' heights so long text cannot bury the answer fields.
 Preserve the full-set submission rule, editable drafts and all source content.
 
 The owner requested ongoing TOEFL and Cambridge B2 First preparation,
