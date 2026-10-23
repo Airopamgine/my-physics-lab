@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-10-22",
+  "updated": "2026-10-23",
   "exercises": [
     {
       "id": "writing-original-20261021-s01",
@@ -865,6 +865,284 @@
       "collection": "Original · 2026-10-22",
       "sourceRefs": ["original:writing:2026-10-22:discussion:01"],
       "source": {"kind": "original", "date": "2026-10-22"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261023-s01",
+      "type": "sentence",
+      "title": "過去の可能性を否定する",
+      "prompt": "Could the sensor have produced that value normally?",
+      "tiles": ["under normal conditions", "such a high value", "can't have produced", "the sensor"],
+      "frame": ["", "{0} ", "{1} ", "{2} ", "{3}", "."],
+      "solutions": [[3, 2, 1, 0]],
+      "modelAnswer": "The sensor can't have produced such a high value under normal conditions.",
+      "explanation": [
+        "Can't have + past participle expresses certainty that a past event did not happen. Produced must remain a past participle after have.",
+        "The conclusion concerns a completed measurement, so can't produce would give the wrong time reference.",
+        "can't have producedは『生成したはずがない』です。under normal conditionsは『通常条件下で』という定型表現です。"
+      ],
+      "phrases": ["can't have produced — 生成したはずがない"],
+      "tags": ["modal-perfect", "prepositions"],
+      "collection": "Original · 2026-10-23",
+      "sourceRefs": ["original:writing:2026-10-23:sentence:01"],
+      "source": {"kind": "original", "date": "2026-10-23"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261023-s02",
+      "type": "sentence",
+      "title": "過去には不要だったこと",
+      "prompt": "Was advance booking necessary?",
+      "tiles": ["the room", "did not have to", "in advance", "reserve"],
+      "frame": ["We ", "{0} ", "{1} ", "{2} ", "{3}", "."],
+      "solutions": [[1, 3, 0, 2]],
+      "modelAnswer": "We did not have to reserve the room in advance.",
+      "explanation": [
+        "Did not have to means an action was unnecessary in the past. Reserve stays in the base form after did.",
+        "Do not have to would describe a present rule, not the completed situation asked about here.",
+        "did not have toは『〜する必要がなかった』です。in advanceは『事前に』を意味します。"
+      ],
+      "phrases": ["did not have to reserve — 予約する必要がなかった"],
+      "tags": ["past-tense", "modals"],
+      "collection": "Original · 2026-10-23",
+      "sourceRefs": ["original:writing:2026-10-23:sentence:02"],
+      "source": {"kind": "original", "date": "2026-10-23"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261023-s03",
+      "type": "sentence",
+      "title": "修理を手配する",
+      "prompt": "What are you arranging for tomorrow?",
+      "tiles": ["tomorrow", "get", "replaced", "my laptop screen"],
+      "frame": ["I am going to ", "{0} ", "{1} ", "{2} ", "{3}", "."],
+      "solutions": [[1, 3, 2, 0]],
+      "modelAnswer": "I am going to get my laptop screen replaced tomorrow.",
+      "explanation": [
+        "Get + object + past participle describes arranging for another person to provide a service. The screen receives the replacement.",
+        "Replaced is required; replace would incorrectly make the screen perform the action.",
+        "get something replacedは『〜を交換してもらう』という使役構文です。"
+      ],
+      "phrases": ["get my laptop screen replaced — ノートPCの画面を交換してもらう"],
+      "tags": ["causative", "passives"],
+      "collection": "Original · 2026-10-23",
+      "sourceRefs": ["original:writing:2026-10-23:sentence:03"],
+      "source": {"kind": "original", "date": "2026-10-23"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261023-s04",
+      "type": "sentence",
+      "title": "依頼を間接話法で伝える",
+      "prompt": "What did the tutor ask you to do?",
+      "tiles": ["by Friday", "asked us", "the revised draft", "to submit"],
+      "frame": ["The tutor ", "{0} ", "{1} ", "{2} ", "{3}", "."],
+      "solutions": [[1, 3, 2, 0]],
+      "modelAnswer": "The tutor asked us to submit the revised draft by Friday.",
+      "explanation": [
+        "Ask + person + to-infinitive reports a request. Us identifies the people expected to submit the draft.",
+        "By Friday means no later than Friday; until Friday would describe continuation up to that time.",
+        "ask someone to doは『人に〜するよう頼む』、revised draftは『修正版の草稿』です。"
+      ],
+      "phrases": ["asked us to submit — 私たちに提出するよう求めた"],
+      "tags": ["reported-speech", "verb-patterns"],
+      "collection": "Original · 2026-10-23",
+      "sourceRefs": ["original:writing:2026-10-23:sentence:04"],
+      "source": {"kind": "original", "date": "2026-10-23"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261023-s05",
+      "type": "sentence",
+      "title": "間接疑問文を作る",
+      "prompt": "How can you ask politely about the tour time?",
+      "tiles": ["the laboratory tour", "could you tell me", "begins", "when"],
+      "frame": ["", "{0} ", "{1} ", "{2} ", "{3}", "?"],
+      "solutions": [[1, 3, 0, 2]],
+      "modelAnswer": "Could you tell me when the laboratory tour begins?",
+      "explanation": [
+        "An indirect question keeps statement order after when: the laboratory tour begins. Do not use does the tour begin inside the clause.",
+        "Could you tell me makes the request polite without changing the information requested.",
+        "indirect question（間接疑問文）では、whenの後ろを主語＋動詞の語順にします。"
+      ],
+      "phrases": ["Could you tell me when …? — いつ〜か教えていただけますか。"],
+      "tags": ["indirect-questions", "word-order"],
+      "collection": "Original · 2026-10-23",
+      "sourceRefs": ["original:writing:2026-10-23:sentence:05"],
+      "source": {"kind": "original", "date": "2026-10-23"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261023-s06",
+      "type": "sentence",
+      "title": "過去の反実仮想",
+      "prompt": "Why did you miss the error?",
+      "tiles": ["we would have noticed", "the units", "if we had checked", "the error"],
+      "frame": ["", "{0} ", "{1}", ", ", "{2} ", "{3}", "."],
+      "solutions": [[2, 1, 0, 3]],
+      "modelAnswer": "If we had checked the units, we would have noticed the error.",
+      "explanation": [
+        "The third conditional uses if + past perfect and would have + past participle for an unreal past result.",
+        "Both checking and noticing refer to a completed situation that cannot now be changed.",
+        "third conditional（仮定法過去完了）は、実際には起こらなかった過去を振り返ります。"
+      ],
+      "phrases": ["If we had checked …, we would have noticed … — もし確認していれば気づいていただろう"],
+      "tags": ["conditionals", "modal-perfect"],
+      "collection": "Original · 2026-10-23",
+      "sourceRefs": ["original:writing:2026-10-23:sentence:06"],
+      "source": {"kind": "original", "date": "2026-10-23"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261023-s07",
+      "type": "sentence",
+      "title": "変更の現在への効果",
+      "prompt": "What effect has the new timetable had?",
+      "tiles": ["miss", "has meant that", "fewer students", "the workshop"],
+      "frame": ["The new timetable ", "{0} ", "{1} ", "{2} ", "{3}", "."],
+      "solutions": [[1, 2, 0, 3]],
+      "modelAnswer": "The new timetable has meant that fewer students miss the workshop.",
+      "explanation": [
+        "Has meant that connects a past timetable change with its continuing present consequence. Fewer modifies the countable plural students.",
+        "Miss is plural because its subject is fewer students, not the singular timetable.",
+        "has meant thatは『その結果、現在まで〜となっている』、fewerは可算名詞に使います。"
+      ],
+      "phrases": ["has meant that fewer students … — その結果、〜する学生が減った"],
+      "tags": ["present-perfect", "quantifiers"],
+      "collection": "Original · 2026-10-23",
+      "sourceRefs": ["original:writing:2026-10-23:sentence:07"],
+      "source": {"kind": "original", "date": "2026-10-23"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261023-s08",
+      "type": "sentence",
+      "title": "地図の一部を補足する",
+      "prompt": "What does the archive contain?",
+      "tiles": ["date from", "several maps", "some of which", "the nineteenth century"],
+      "frame": ["The archive contains ", "{0}", ", ", "{1} ", "{2} ", "{3}", "."],
+      "solutions": [[1, 2, 0, 3]],
+      "modelAnswer": "The archive contains several maps, some of which date from the nineteenth century.",
+      "explanation": [
+        "Some of which refers to part of the plural set of maps and introduces additional information after a comma.",
+        "Date from means originate in a particular historical period; date agrees with the plural referent.",
+        "some of whichは『そのうちのいくつかは』、date fromは『〜の時代にさかのぼる』です。"
+      ],
+      "phrases": ["some of which date from … — そのうちいくつかは〜の時代にさかのぼる"],
+      "tags": ["relative-clauses", "prepositions"],
+      "collection": "Original · 2026-10-23",
+      "sourceRefs": ["original:writing:2026-10-23:sentence:08"],
+      "source": {"kind": "original", "date": "2026-10-23"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261023-s09",
+      "type": "sentence",
+      "title": "同一条件下の測定",
+      "prompt": "How were the final measurements taken?",
+      "tiles": ["under", "were taken", "identical conditions", "the final measurements"],
+      "frame": ["", "{0} ", "{1} ", "{2} ", "{3}", "."],
+      "solutions": [[3, 1, 0, 2]],
+      "modelAnswer": "The final measurements were taken under identical conditions.",
+      "explanation": [
+        "Were taken is passive because the measurements receive the action. Under identical conditions is the standard experimental collocation.",
+        "In identical conditions may be understandable, but under is the conventional choice for controlled tests.",
+        "under identical conditionsは『同一条件下で』です。were takenは受動態です。"
+      ],
+      "phrases": ["under identical conditions — 同一条件下で"],
+      "tags": ["passives", "prepositions"],
+      "collection": "Original · 2026-10-23",
+      "sourceRefs": ["original:writing:2026-10-23:sentence:09"],
+      "source": {"kind": "original", "date": "2026-10-23"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261023-s10",
+      "type": "sentence",
+      "title": "実験全体ではなく部品を再検証する",
+      "prompt": "How did you narrow the investigation?",
+      "tiles": ["the faulty component", "repeat", "rather than", "we tested", "the entire experiment"],
+      "frame": ["", "{0} ", "{1} ", "{2}", ", ", "{3} ", "{4}", "."],
+      "solutions": [[2, 1, 4, 3, 0]],
+      "modelAnswer": "Rather than repeat the entire experiment, we tested the faulty component.",
+      "explanation": [
+        "Rather than + base verb contrasts the rejected action with the selected action. Repeat and tested express the two alternatives.",
+        "Faulty means not working correctly; it does not necessarily mean the component was completely broken.",
+        "rather thanは『〜するのではなく』、faulty componentは『不具合のある部品』です。"
+      ],
+      "phrases": ["rather than repeat … — 〜を繰り返すのではなく"],
+      "tags": ["linkers", "parallelism"],
+      "collection": "Original · 2026-10-23",
+      "sourceRefs": ["original:writing:2026-10-23:sentence:10"],
+      "source": {"kind": "original", "date": "2026-10-23"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261023-email",
+      "type": "email",
+      "title": "欠席したフィールドワークについて問い合わせる",
+      "minutes": 7,
+      "to": "Dr. Morgan, Course Coordinator",
+      "subject": "Follow-up about the missed field visit",
+      "context": "You missed a compulsory field visit because you were ill. Write to the course coordinator. This is an imagined practice situation.",
+      "requirements": [
+        "Identify the field-visit group and date, and briefly explain why you were absent.",
+        "Ask whether you should join the next visit or complete an alternative assignment.",
+        "Ask for the relevant deadline and any material you should review."
+      ],
+      "modelAnswer": "Dear Dr. Morgan,\n\nI am writing about the geology field visit for Group B on 21 October. I was unable to attend because I was ill that morning and did not want to risk passing the illness to other students.\n\nCould you please let me know whether I should join the next available visit or complete an alternative assignment? I would be willing to do either option so that I can cover the missed learning outcomes.\n\nI would also be grateful if you could confirm the relevant deadline and tell me whether there are any notes, maps or safety instructions I should review beforehand.\n\nThank you for your guidance.\n\nBest regards,\nAlex Morgan",
+      "explanation": [
+        "The email identifies the exact imagined session, gives a concise reason, and asks for guidance instead of assuming which replacement option is permitted.",
+        "The final request covers both the deadline and preparation material, satisfying the third requirement without adding unverifiable details.",
+        "learning outcomesは『学習到達目標』、relevant deadlineは『該当する締切』です。日付・氏名・授業は架空設定です。"
+      ],
+      "phrases": [
+        "Could you please let me know whether …? — 〜かどうか教えていただけますか。",
+        "cover the missed learning outcomes — 欠席分の学習目標を補う"
+      ],
+      "tags": ["indirect-questions", "register"],
+      "collection": "Original · 2026-10-23",
+      "sourceRefs": ["original:writing:2026-10-23:email:01"],
+      "source": {"kind": "original", "date": "2026-10-23"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261023-discussion",
+      "type": "discussion",
+      "title": "全学生向けデータリテラシー",
+      "minutes": 10,
+      "targetWords": 100,
+      "professor": "Professor Evans · University Education",
+      "context": "Should every first-year university student be required to take a basic data-literacy course, regardless of their major? Explain your position.",
+      "posts": [
+        {
+          "name": "Sara",
+          "text": "A required course would help students judge graphs, surveys and claims in the news. These skills are useful in almost every subject and in everyday decisions."
+        },
+        {
+          "name": "Omar",
+          "text": "First-year programmes are already crowded. Departments should decide which quantitative skills their own students need instead of imposing one course on everyone."
+        }
+      ],
+      "requirements": [
+        "State and support your position on a required data-literacy course.",
+        "Respond meaningfully to both Sara and Omar.",
+        "Develop a concrete course design or example in at least 100 words."
+      ],
+      "modelAnswer": "Universities should require a short data-literacy course, but it should be flexible enough to avoid the problem Omar identifies. Sara is right that students in every field encounter graphs, averages and survey results, and misunderstanding them can lead to poor academic and personal decisions. However, a full semester of identical material could crowd an already demanding programme. A better design would be a six-week common module followed by examples chosen for each discipline. Physics students might examine measurement uncertainty, while history students could evaluate demographic records and biased samples. Students who already demonstrate the skills through a diagnostic task could complete a more advanced project instead. This model establishes a shared foundation without pretending that every major uses data in exactly the same way.",
+      "explanation": [
+        "The response supports a requirement while directly addressing curriculum pressure through a short common module and discipline-specific applications.",
+        "The diagnostic option adds a concrete safeguard for students who already possess the basic skills; it is a proposal, not a claim about an existing university.",
+        "data literacyは『データを読み、評価し、使う力』、biased sampleは『偏りのある標本』です。モデルは唯一の正解ではありません。"
+      ],
+      "phrases": [
+        "establish a shared foundation — 共通の基礎を築く",
+        "discipline-specific applications — 専門分野別の応用"
+      ],
+      "tags": ["argument", "evidence"],
+      "collection": "Original · 2026-10-23",
+      "sourceRefs": ["original:writing:2026-10-23:discussion:01"],
+      "source": {"kind": "original", "date": "2026-10-23"},
       "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
     }
   ]

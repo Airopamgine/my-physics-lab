@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-22",
+  "updatedAt": "2026-10-23",
   "notice": "Original editorial training, not official test material. Short reading practice and ten-gap Part 2 drills are labelled. No CEFR or official score is inferred from completion.",
   "references": [
     "https://www.cambridgeenglish.org/exams-and-tests/qualifications/first/format/",
@@ -1788,6 +1788,154 @@
           "keyword": "WENT",
           "stem": "We ____ the field trip despite the bad weather.",
           "id": "cb-20261022-transform-01-06"
+        }
+      ]
+    },
+    {
+      "id": "cb-20261023-cloze-01",
+      "part": "2",
+      "title": "Finishing the club newsletter",
+      "skill": "Function words and fixed-expression constituents in context",
+      "instruction": "Write ONE word for each numbered gap. Use the whole passage to decide. This is an extended ten-gap training set; the official Part 2 has eight gaps.",
+      "passage": "When Lina agreed to edit the science club's newsletter, she had no idea how much work was involved. The previous editor had left several drafts, some of (1) ____ contained useful interviews. However, none of the files had clear names, which meant (2) ____ Lina spent an entire evening working out which version was newest. At times, she was tempted (3) ____ give up, but she decided to give the project a (4) ____.\n\nRather (5) ____ redesigning everything, Lina limited herself (6) ____ correcting errors and improving the layout. Only after she had sent a proof to the team (7) ____ she notice that a photograph had no caption. She immediately owned (8) ____ to making the mistake and contacted the photographer.\n\nFortunately, the photographer had kept the original image in case it (9) ____ needed again. By working together, the team managed to finish the newsletter on time, and Lina has since become known (10) ____ her careful editing.",
+      "minutes": 10,
+      "source": {"kind": "original", "date": "2026-10-23"},
+      "questions": [
+        {
+          "prompt": "Gap 1",
+          "answers": ["which"],
+          "explanation": "Some of which refers to part of the plural set of drafts and begins a non-defining relative clause. some of whichは『そのうちのいくつかは』です。",
+          "tags": ["pronouns", "relative-clauses"],
+          "id": "cb-20261023-cloze-01-01"
+        },
+        {
+          "prompt": "Gap 2",
+          "answers": ["that"],
+          "explanation": "Which meant that introduces the result of the unclear file names. That connects meant with the following clause. meant thatは『その結果〜だった』です。",
+          "tags": ["linkers"],
+          "id": "cb-20261023-cloze-01-02"
+        },
+        {
+          "prompt": "Gap 3",
+          "answers": ["to"],
+          "explanation": "Be tempted to + base verb means feel attracted to an action, often despite doubts about it. be tempted toは『〜したい誘惑に駆られる』です。",
+          "tags": ["verb-patterns"],
+          "id": "cb-20261023-cloze-01-03"
+        },
+        {
+          "prompt": "Gap 4",
+          "answers": ["go"],
+          "explanation": "Give something a go means try it. The printed article a requires the fixed noun go. give it a goは『試しにやってみる』という定型表現です。",
+          "tags": ["fixed-expressions"],
+          "id": "cb-20261023-cloze-01-04"
+        },
+        {
+          "prompt": "Gap 5",
+          "answers": ["than"],
+          "explanation": "Rather than contrasts a complete redesign with the more limited work Lina chose. rather thanは『〜するのではなく』です。",
+          "tags": ["linkers"],
+          "id": "cb-20261023-cloze-01-05"
+        },
+        {
+          "prompt": "Gap 6",
+          "answers": ["to"],
+          "explanation": "Limit oneself to is followed by a noun or -ing form. Here correcting and improving name the restricted activities. limit oneself to doingは『〜することに限定する』です。",
+          "tags": ["prepositions", "verb-patterns"],
+          "id": "cb-20261023-cloze-01-06"
+        },
+        {
+          "prompt": "Gap 7",
+          "answers": ["did"],
+          "explanation": "Fronted only after triggers inversion in the main clause: did she notice. Notice stays in the base form after did. inversion（倒置）でdidを主語の前に置きます。",
+          "tags": ["inversion", "auxiliaries"],
+          "id": "cb-20261023-cloze-01-07"
+        },
+        {
+          "prompt": "Gap 8",
+          "answers": ["up"],
+          "explanation": "Own up to doing means admit responsibility for an action or mistake. own up to making the mistakeは『誤りを認める』です。",
+          "tags": ["phrasal-verbs", "verb-patterns"],
+          "id": "cb-20261023-cloze-01-08"
+        },
+        {
+          "prompt": "Gap 9",
+          "answers": ["was"],
+          "explanation": "The image receives the action need, so the passive was needed is required. In case introduces the possible future need viewed from that past point. was neededは過去の視点での受動態です。",
+          "tags": ["passives", "tense"],
+          "id": "cb-20261023-cloze-01-09"
+        },
+        {
+          "prompt": "Gap 10",
+          "answers": ["for"],
+          "explanation": "Be known for introduces the quality for which someone has a reputation. known forは『〜で知られている』です。",
+          "tags": ["prepositions", "fixed-expressions"],
+          "id": "cb-20261023-cloze-01-10"
+        }
+      ]
+    },
+    {
+      "id": "cb-20261023-transform-01",
+      "part": "4",
+      "title": "Past deductions and practical arrangements",
+      "skill": "Preserve tense and meaning within two to five words",
+      "instruction": "Complete each gap with TWO to FIVE words, including the unchanged key word. Full-answer practice; no automatic official partial credit.",
+      "passage": "",
+      "minutes": 10,
+      "source": {"kind": "original", "date": "2026-10-23"},
+      "questions": [
+        {
+          "prompt": "I'm certain that the assistant did not lose the booking form.",
+          "answers": ["can't have lost"],
+          "explanation": "The assistant can't have lost the booking form. Can't have + past participle expresses certainty that a past event did not happen. can't have lostは『なくしたはずがない』です。Can't lose would refer to present ability or possibility.",
+          "tags": ["modal-perfect", "past-participle"],
+          "keyword": "CAN'T",
+          "stem": "The assistant ____ the booking form.",
+          "id": "cb-20261023-transform-01-01"
+        },
+        {
+          "prompt": "It wasn't necessary for Tariq to attend the extra meeting.",
+          "answers": ["did not have to attend", "didn't have to attend"],
+          "explanation": "Tariq did not have to attend the extra meeting. Did not have to preserves the past time and means attendance was unnecessary. did not have toは『出席する必要がなかった』です。",
+          "tags": ["past-tense", "modals"],
+          "keyword": "HAVE",
+          "stem": "Tariq ____ the extra meeting.",
+          "id": "cb-20261023-transform-01-02"
+        },
+        {
+          "prompt": "A technician is repairing our projector tomorrow.",
+          "answers": ["get our projector repaired"],
+          "explanation": "We are going to get our projector repaired tomorrow. Get + object + past participle means arrange for a service. get our projector repairedは『プロジェクターを修理してもらう』です。",
+          "tags": ["causative", "passives"],
+          "keyword": "GET",
+          "stem": "We are going to ____ tomorrow.",
+          "id": "cb-20261023-transform-01-03"
+        },
+        {
+          "prompt": "People believe that a local architect designed the building.",
+          "answers": ["is thought to have been"],
+          "explanation": "The building is thought to have been designed by a local architect. The reporting passive is followed by a perfect passive infinitive because the design happened earlier. is thought to have beenは『〜されたと考えられている』で、5語です。",
+          "tags": ["reporting-passive", "word-limit"],
+          "keyword": "THOUGHT",
+          "stem": "The building ____ designed by a local architect.",
+          "id": "cb-20261023-transform-01-04"
+        },
+        {
+          "prompt": "I didn't take notes, so I cannot remember the details now.",
+          "answers": ["wish I had taken"],
+          "explanation": "I wish I had taken notes because I cannot remember the details now. Wish + past perfect expresses regret about an unreal past action. wish I had takenは『取っておけばよかった』です。",
+          "tags": ["wish", "past-perfect"],
+          "keyword": "WISH",
+          "stem": "I ____ notes because I cannot remember the details now.",
+          "id": "cb-20261023-transform-01-05"
+        },
+        {
+          "prompt": "They postponed the meeting until next week.",
+          "answers": ["put the meeting off", "put off the meeting"],
+          "explanation": "They put the meeting off until next week. Put off means postpone; with a noun object, both put the meeting off and put off the meeting are natural. put offは『延期する』です。",
+          "tags": ["phrasal-verbs", "accepted-variants"],
+          "keyword": "PUT",
+          "stem": "They ____ until next week.",
+          "id": "cb-20261023-transform-01-06"
         }
       ]
     }
