@@ -3,20 +3,25 @@ const fs=require('fs'),assert=require('assert'),{JSDOM}=require('jsdom');
 const html=fs.readFileSync(process.env.TOEFL_HTML,'utf8');
 const read=name=>JSON.parse(fs.readFileSync(`static/data/${name}.json`,'utf8'));
 const banks={reading:read('toefl-task-bank'),cambridge:read('cambridge-bank'),base:read('toefl-writing-bank'),extra:read('toefl-writing-originals'),plan:read('toefl-daily-plan')};
-const scripts=['set-practice','english-library','english-coach','cambridge-lab','toefl','writing-lab','daily-study','practice-hub'];
+const scripts=['set-practice','english-library','english-coach','cambridge-lab','toefl','writing-lab','daily-study','vocabulary-lab','practice-hub','review-lab'];
 const tick=()=>new Promise(resolve=>setTimeout(resolve,0));
 async function boot(saved={},opts={}){
  const dom=new JSDOM(html,{url:`https://airopamgine.github.io/my-physics-lab/toefl/${opts.hash||''}`,runScripts:'outside-only',pretendToBeVisual:true}),w=dom.window,d=w.document;
- let fail=opts.fail;let requests=0;
+ let fail=opts.fail;let requests=0;const errors=[];
  const style=d.createElement('style');style.textContent=fs.readFileSync('static/css/practice-hub.css','utf8');d.head.append(style);
  w.Date.now=()=>opts.now??new Date(2026,9,22,12).getTime();w.setInterval=()=>1;w.clearInterval=()=>{};w.HTMLElement.prototype.scrollIntoView=()=>{};
+ w.matchMedia=()=>({matches:opts.reducedMotion===true});w.addEventListener('error',event=>{errors.push(event.message);event.preventDefault();});
  w.speechSynthesis={getVoices:()=>[],addEventListener:()=>{},cancel:()=>{},speak:u=>u.onend?.()};w.SpeechSynthesisUtterance=function(text){this.text=text;};
  w.fetch=async url=>{requests++;const name=String(url);const key=name.includes('cambridge-bank')?'cambridge':name.includes('writing-originals')?'extra':name.includes('writing-bank')?'base':name.includes('daily-plan')?'plan':'reading';return{ok:fail!==key,json:async()=>JSON.parse(JSON.stringify(banks[key]))};};
  for(const[k,v]of Object.entries(saved))w.localStorage.setItem(k,typeof v==='string'?v:JSON.stringify(v));
+ // The production inline footer binds clicks before deferred app scripts run.
+ // Execute that exact built code, rather than a simplified theme substitute.
+ const theme=[...d.querySelectorAll('script:not([src])')].filter(s=>s.textContent.includes('scrollIntoView')&&s.textContent.includes('pushState'));
+ assert.strictEqual(theme.length,1,'The built page must include its real theme anchor handler');w.eval(theme[0].textContent);
  for(const file of scripts)w.eval(fs.readFileSync(`static/js/${file}.js`,'utf8'));
  assert.strictEqual(requests,0,'Banks loaded before unlocking');d.getElementById('toefl-app').hidden=false;d.getElementById('toefl-access-gate').hidden=true;
  d.dispatchEvent(new w.CustomEvent('toefl:unlocked'));for(let i=0;i<14;i++)await tick();
- return{w,d,dom,snapshot:()=>Object.fromEntries(Object.keys(w.localStorage).map(k=>[k,w.localStorage.getItem(k)])),recover:()=>{fail=null;},async route(path){w.location.hash=path;await tick();await tick();},close:()=>dom.window.close()};
+ return{w,d,dom,errors,snapshot:()=>Object.fromEntries(Object.keys(w.localStorage).map(k=>[k,w.localStorage.getItem(k)])),recover:()=>{fail=null;},async route(path){w.location.hash=path;await tick();await tick();},close:()=>dom.window.close()};
 }
 const panel=(t,engine)=>t.d.querySelector(`[data-set-engine="${engine}"]`);
 const state=(t,engine)=>t.w.EnglishSetPractice.getState(engine);
@@ -27,10 +32,28 @@ function savedClose(t,engine){panel(t,engine).querySelector('[data-set-close]').
 const shown=t=>[...t.d.querySelectorAll('[data-practice-panel]')].filter(p=>!p.hidden).map(p=>p.dataset.practicePanel);
 function visible(t,element){for(let n=element;n&&n.nodeType===1;n=n.parentElement)assert.notStrictEqual(t.w.getComputedStyle(n).display,'none',`${element.id||element.className} is hidden by ${n.id||n.className}`);}
 (async()=>{
- const t=await boot();
+ const t=await boot({}, {hash:'#practice'});
  assert.strictEqual(t.d.querySelectorAll('[data-practice-choice]').length,2,'Landing should show two exams');assert.deepStrictEqual(shown(t),[]);
  t.d.querySelector('[data-practice-choice=toefl]').click();await tick();await tick();assert.strictEqual(t.d.querySelectorAll('[data-practice-choice]').length,4);
  t.d.querySelector('[data-practice-choice=reading]').click();await tick();await tick();assert.strictEqual(t.d.querySelectorAll('[data-practice-choice]').length,3);
+ // Reproduce the reported failure: static tab links clicked from Reading.
+ for(const name of ['review','today','vocabulary','progress','practice']){
+  const link=t.d.querySelector(`[data-study-tab=${name}]`);link.click();for(let i=0;i<6;i++)await tick();
+  assert.strictEqual(t.w.location.hash,'#'+name,`Clicking ${name} was intercepted by the theme`);assert.deepStrictEqual(shown(t),name==='practice'?[]:[name]);assert.strictEqual(link.getAttribute('aria-current'),'page');
+  if(name==='practice')visible(t,t.d.getElementById('practice-choices'));
+  else visible(t,t.d.querySelector(`[data-practice-panel=${name}]`));
+  if(name==='review')assert(t.d.getElementById('review-count').textContent.includes('saved answered questions'));
+  if(name==='vocabulary')assert(!t.d.getElementById('vocabulary-load').disabled);
+ }
+ t.w.history.back();for(let i=0;i<8;i++)await tick();assert.deepStrictEqual(shown(t),['progress']);t.w.history.forward();for(let i=0;i<8;i++)await tick();assert(!t.d.getElementById('practice-hub').hidden);
+ for(const exam of ['cambridge','toefl']){t.d.querySelector(`.toefl-hero a[href="#practice/${exam}"]`).click();await tick();await tick();assert.strictEqual(t.w.location.hash,`#practice/${exam}`);assert.strictEqual(t.d.querySelectorAll('[data-practice-choice]').length,4);}
+ t.d.querySelector('[data-study-tab=progress]').dispatchEvent(new t.w.MouseEvent('click',{bubbles:true,cancelable:true,detail:0}));await tick();await tick();assert.deepStrictEqual(shown(t),['progress'],'Keyboard activation did not open Progress');
+ t.d.querySelector('#english-coach a[href="#daily-study"]').click();await tick();await tick();assert.deepStrictEqual(shown(t),['today'],'Legacy Today link failed');
+ const modified=new t.w.MouseEvent('click',{bubbles:true,cancelable:true,ctrlKey:true}),location=t.w.location.hash;t.d.querySelector('[data-study-tab=review]').dispatchEvent(modified);assert(!modified.defaultPrevented,'Modified clicks must retain native link behavior');assert.strictEqual(t.w.location.hash,location);
+ // jsdom schedules the native link action even for a modified click; drain it
+ // before the next journey starts. Browser new-tab behavior stays native.
+ for(let i=0;i<6;i++)await tick();
+ assert.deepStrictEqual(t.errors,[],'Actual link clicks raised a theme or app error');
  assert(!t.d.querySelector('[data-library-start],[data-writing-start],[data-cambridge-set]'),'A detailed question catalog remains in the guided UI');
  // Every implemented objective/writing category has a valid, coherent selection.
  for(const exam of t.w.EnglishPracticeHub.exams)for(const skill of exam.skills)for(const type of skill.types){
@@ -74,5 +97,5 @@ function visible(t,element){for(let n=element;n&&n.nodeType===1;n=n.parentElemen
  await t.route('writing-lab');assert.strictEqual(t.d.querySelectorAll('[data-practice-choice]').length,4,'Legacy deep link did not route to Writing');
  await t.route('practice/not-an-exam');assert.strictEqual(t.d.querySelectorAll('[data-practice-choice]').length,2,'Invalid route did not recover');
  const failed=await boot({}, {hash:'#practice/cambridge/reading/part2',fail:'cambridge'});assert(failed.d.getElementById('practice-start').disabled);assert(!failed.d.getElementById('practice-reload').hidden);failed.recover();failed.d.getElementById('practice-reload').click();for(let i=0;i<12;i++)await tick();assert(!failed.d.getElementById('practice-start').disabled);failed.close();
- t.close();console.log(JSON.stringify({passed:true,timezone:process.env.TZ,checks:'exam/skill/type navigation, no detailed catalogs, all categories, coherent passage groups, unanswered priority, review, two archived drafts, cross-day reload, preserved results, batch grading, five-task writing, listening, repeat, daily route, old links, loading recovery'}));
+ assert.deepStrictEqual(t.errors,[]);t.close();console.log(JSON.stringify({passed:true,timezone:process.env.TZ,checks:'real theme plus tab/hero/legacy link clicks, keyboard, browser back/forward, modified links, exam/skill/type navigation, no detailed catalogs, all categories, coherent passage groups, unanswered priority, review, two archived drafts, cross-day reload, preserved results, batch grading, five-task writing, listening, repeat, daily route, old links, loading recovery'}));
 })().catch(error=>{console.error(error);process.exit(1);});

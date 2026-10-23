@@ -188,8 +188,18 @@
   }
   el("start").addEventListener("click",()=>launch());el("review").addEventListener("click",()=>launch(true));
   el("reload").addEventListener("click",()=>{const {type}=resolve(current);const engine=type?.engine==="repeat"?"cambridge":type?.engine;document.getElementById(engine==="reading"?"library-refresh":engine==="cambridge"?"cambridge-retry":engine==="writing"?"writing-retry":"daily-retry")?.click();el("status").textContent="Reloading practice · 教材を再読み込みしています…";});
-  el("back").addEventListener("click",event=>{event.preventDefault();pause();const route=active?.route||"practice";active=null;if(readRoute()===route)render();else navigate(route);el("title")?.focus({preventScroll:true});});
-  document.querySelectorAll("[data-study-tab]").forEach(link=>link.addEventListener("click",event=>{if(active&&readRoute()===link.hash.slice(1)){event.preventDefault();pause();active=null;render();}}));
+  // PaperMod binds static fragment links before deferred app scripts. Capture
+  // app routes before its smooth-scroll handler looks for a nonexistent DOM ID
+  // or changes history without firing the router's hashchange event.
+  document.getElementById("toefl-app")?.addEventListener("click",event=>{
+    const link=event.target.closest?.('a[href^="#"]');if(!link)return;
+    const raw=link.getAttribute("href").slice(1),route=aliases[raw]||raw;
+    if(!["today","progress","vocabulary","review"].includes(route)&&!resolve(route).valid)return;
+    event.stopPropagation();
+    if(event.button>0||event.ctrlKey||event.metaKey||event.shiftKey||event.altKey||link.hasAttribute("download")||link.target&&link.target!=="_self")return;
+    event.preventDefault();pause();active=null;navigate(route);
+    if(link===el("back"))el("title")?.focus({preventScroll:true});
+  },true);
   document.addEventListener("toefl:set-opened",event=>opened(event.detail.engine,event.detail.context));
   document.addEventListener("toefl:set-closed",event=>{if(active?.engine!==event.detail.engine)return;const route=active.route;active=null;if(readRoute()===route)render();else navigate(route);if(route.startsWith("practice"))el("start").focus({preventScroll:true});});
   document.addEventListener("toefl:daily-work-opened",()=>{opened("today",{});});

@@ -10,10 +10,12 @@ async function boot(saved={},opts={}){
  const dom=new JSDOM(html,{url:'https://airopamgine.github.io/my-physics-lab/toefl/'+(opts.hash??'#review'),runScripts:'outside-only',pretendToBeVisual:true}),w=dom.window,d=w.document,requests=[],errors=[];
  for(const css of ['practice-hub','review-lab']){const s=d.createElement('style');s.textContent=fs.readFileSync(`static/css/${css}.css`,'utf8');d.head.append(s);}
  w.Date.now=()=>new Date(2026,9,23,12).getTime();w.setInterval=()=>1;w.clearInterval=()=>{};w.HTMLElement.prototype.scrollIntoView=()=>{};
+ w.matchMedia=()=>({matches:false});
  w.speechSynthesis={getVoices:()=>[],addEventListener:()=>{},cancel:()=>{},speak:u=>u.onend?.()};w.SpeechSynthesisUtterance=function(text){this.text=text;};
  w.addEventListener('error',event=>errors.push(event.error||event.message));if(opts.idb)w.indexedDB=opts.idb;
  w.fetch=async url=>{const name=String(url),key=name.includes('vocabulary-bank')?'vocabulary':name.includes('english-question-bank')?'archive':name.includes('cambridge-bank')?'cambridge':name.includes('writing-originals')?'extra':name.includes('writing-bank')?'base':name.includes('daily-plan')?'plan':'reading';requests.push(key);return{ok:key!==opts.fail,json:async()=>key==='vocabulary'?opts.vocabulary:JSON.parse(JSON.stringify(banks[key]))};};
  for(const[k,v]of Object.entries(saved))w.localStorage.setItem(k,typeof v==='string'?v:JSON.stringify(v));
+ const theme=[...d.querySelectorAll('script:not([src])')].filter(s=>s.textContent.includes('scrollIntoView')&&s.textContent.includes('pushState'));assert.strictEqual(theme.length,1);w.eval(theme[0].textContent);
  for(const file of scripts)w.eval(fs.readFileSync(`static/js/${file}.js`,'utf8'));
  assert.strictEqual(requests.length,0,'Review fetched a protected bank before unlocking');
  assert.strictEqual(d.querySelectorAll('[data-review-open]').length,0,'Private answers rendered before unlocking');
