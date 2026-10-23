@@ -25,6 +25,10 @@ unfinished sets so switching categories and crossing midnight retain drafts.
 Run `tests/verify_practice_hub.cjs` against built HTML alongside the existing
 runner checks. It covers navigation, unseen priority, coherent passage groups,
 multiple drafts, next-day resumption, grading, old links and loading recovery.
+The app must handle route-link clicks before the page theme's smooth-scroll
+handler. Keep real theme code in the navigation fixture and test actual tab,
+hero, return and legacy-link clicks, keyboard activation and browser history.
+Changing the URL directly does not verify that a tab can be opened by clicking.
 
 ## Separate Review history (owner request, 2026-10-23)
 
