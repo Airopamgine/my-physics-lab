@@ -171,10 +171,10 @@
       event.preventDefault();if(data.submitted||!complete()){update();return;}
       const frozen=results();pause();data.submitted=true;for(const group of fields.values())group.querySelectorAll("input,textarea,button").forEach(n=>n.disabled=true);
       // No grading callbacks, statistics or tutor answer keys run until this point.
-      options.onSubmit(frozen,{date,context});save();showReview();review.scrollIntoView({behavior:"smooth",block:"start"});
+      options.onSubmit(frozen,{date,context});save();document.dispatchEvent(new CustomEvent("toefl:set-submitted",{detail:{engine,setId:options.id,title:options.title,results:frozen,date,at:Date.now()}}));showReview();review.scrollIntoView({behavior:"smooth",block:"start"});
     });
     const closed=done=>document.dispatchEvent(new CustomEvent("toefl:set-closed",{detail:{engine,id:options.id,context,done}}));
-    finish.addEventListener("click",()=>{if(!data.submitted||data.reviewed||finish.disabled)return;data.reviewed=true;save();options.onReview?.(submittedResults.map(r=>({...r,result:data.ratings[r.id]||r.result})),{date,context});host.hidden=true;options.onClose?.(true);closed(true);});
+    finish.addEventListener("click",()=>{if(!data.submitted||data.reviewed||finish.disabled)return;data.reviewed=true;save();const reviewed=submittedResults.map(r=>({...r,result:data.ratings[r.id]||r.result}));options.onReview?.(reviewed,{date,context});document.dispatchEvent(new CustomEvent("toefl:set-reviewed",{detail:{engine,setId:options.id,title:options.title,results:reviewed,date,at:Date.now()}}));host.hidden=true;options.onClose?.(true);closed(true);});
     function pause(){if(data.deadline!==null){data.remaining=Math.max(0,Math.ceil((data.deadline-Date.now())/1000));data.deadline=null;save();}}
     const hide=()=>{pause();host.hidden=true;};
     close.addEventListener("click",()=>{hide();options.onClose?.(false);closed(false);});

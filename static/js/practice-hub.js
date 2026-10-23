@@ -152,11 +152,11 @@
     }
   }
   function render(){
-    current=readRoute();if(!["today","progress","vocabulary"].includes(current)&&!resolve(current).valid)current="practice";
+    current=readRoute();if(!["today","progress","vocabulary","review"].includes(current)&&!resolve(current).valid)current="practice";
     for(const panel of panels)panel.classList.remove("practice-engine","practice-daily-active");
     show();root.hidden=current!=="practice"&&!current.startsWith("practice/");el("active-bar").hidden=true;
     document.querySelectorAll("[data-study-tab]").forEach(a=>{if(a.dataset.studyTab===current.split("/")[0])a.setAttribute("aria-current","page");else a.removeAttribute("aria-current");});
-    if(root.hidden){show(current);return;}
+    if(root.hidden){show(current);document.dispatchEvent(new CustomEvent("toefl:view-changed",{detail:{view:current}}));return;}
     const {exam,skill,type}=resolve(current);const choices=el("choices");choices.replaceChildren();el("breadcrumbs").replaceChildren();
     breadcrumb("Practice",exam?"practice":null);if(exam)breadcrumb(exam.title,skill?routeFor(exam):null);if(skill)breadcrumb(skill.title,type?routeFor(exam,skill):null);if(type)breadcrumb(type.title);
     el("title").textContent=type?.title||skill?.title||exam?.title||"What would you like to practise?";
@@ -200,6 +200,6 @@
   }
   document.addEventListener("toefl:unlocked",()=>{if(!active)render();});
   window.addEventListener("hashchange",()=>{pause();active=null;render();});
-  window.EnglishPracticeHub=Object.freeze({exams,navigate,choose:(route,review=false)=>{const {type}=resolve(route);return type?choose(type,review):null;}});
+  window.EnglishPracticeHub=Object.freeze({exams,navigate,openPanel:(engine,returnTo="review")=>opened(engine,{practiceRoute:returnTo}),choose:(route,review=false)=>{const {type}=resolve(route);return type?choose(type,review):null;}});
   render();
 })();

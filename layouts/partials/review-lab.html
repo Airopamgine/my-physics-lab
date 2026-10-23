@@ -1,0 +1,28 @@
+<section id="review-lab" class="review-lab" data-practice-panel="review" hidden
+  data-archive-url="{{ "data/english-question-bank.json" | relURL }}" aria-labelledby="review-title">
+  <div class="daily-heading"><div><p class="toefl-eyebrow">Your answered questions</p><h2 id="review-title" tabindex="-1">Review · これまでに解いた問題</h2></div><button id="review-refresh" class="toefl-button toefl-button--secondary" type="button">Refresh history · 更新</button></div>
+  <p>Browse every saved answered question, including correct answers and mistakes. Open your response, the source and its explanation, or retry the practice.</p>
+  <p class="review-note">このブラウザに残っている解答済みの問題を一覧にします。下書きは通常の練習から再開できます。古い記録で解答文や日付が保存されていない項目は、その旨を表示します。</p>
+  <p id="review-status" role="status" aria-live="polite"></p>
+  <div id="review-browser">
+    <div class="review-filters">
+      <label>Exam / area · 試験<select id="review-exam"><option value="all">All · すべて</option><option value="toefl">TOEFL</option><option value="cambridge">Cambridge B2 First</option><option value="vocabulary">Vocabulary · 語彙</option></select></label>
+      <label>Skill · 技能<select id="review-skill"><option value="all">All skills · すべて</option></select></label>
+      <label>Question type · 問題形式<select id="review-type"><option value="all">All types · すべて</option></select></label>
+      <label>Result · 結果<select id="review-result"><option value="all">All results · すべて</option><option value="correct">Correct · 正解</option><option value="review">Needs review · 要復習</option><option value="mistakes">Past mistakes · 過去の誤答</option><option value="self">Submitted / self-reviewed · 作文・自己確認</option></select></label>
+      <label class="review-search">Search · 検索<input id="review-search" type="search" maxlength="200" autocomplete="off" placeholder="Topic, question or your answer · 題材・設問・自分の解答"></label>
+    </div>
+    <p id="review-count" class="review-count" role="status"></p>
+    <div id="review-list" class="review-list"></div>
+    <nav id="review-pagination" class="review-pagination" aria-label="Answered question pages" hidden>
+      <button id="review-previous" class="toefl-button toefl-button--secondary" type="button">← Previous · 前へ</button><span id="review-page"></span><button id="review-next" class="toefl-button toefl-button--secondary" type="button">Next · 次へ →</button>
+    </nav>
+  </div>
+  <section id="review-detail" class="review-detail" aria-labelledby="review-question-title" hidden>
+    <button id="review-close" class="toefl-button toefl-button--secondary" type="button">← Back to history · 一覧へ戻る</button>
+    <h3 id="review-question-title" tabindex="-1"></h3><p id="review-question-meta"></p>
+    <div class="review-answer-layout"><section id="review-source" class="review-source" tabindex="0" role="region" aria-label="Past question and source"></section><section id="review-answer" class="review-answer" tabindex="0" role="region" aria-label="Saved response and explanation"></section></div>
+    <div class="toefl-actions"><button id="review-retry" class="toefl-button toefl-button--primary" type="button">Retry practice · 解き直す</button></div>
+    <p id="review-detail-status" role="status"></p>
+  </section>
+</section>

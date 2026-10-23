@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="{{ "css/english-coach.css" | relURL }}?v={{ readFile "static/css/english-coach.css" | sha256 | truncate 12 "" }}">
 <link rel="stylesheet" href="{{ "css/vocabulary-lab.css" | relURL }}?v={{ readFile "static/css/vocabulary-lab.css" | sha256 | truncate 12 "" }}">
 <link rel="stylesheet" href="{{ "css/practice-hub.css" | relURL }}?v={{ readFile "static/css/practice-hub.css" | sha256 | truncate 12 "" }}">
+<link rel="stylesheet" href="{{ "css/review-lab.css" | relURL }}?v={{ readFile "static/css/review-lab.css" | sha256 | truncate 12 "" }}">
 {{ end }}
 
 <section class="toefl-access" id="toefl-access-gate" aria-labelledby="toefl-access-title">
@@ -67,6 +68,7 @@
 
   {{ if and (not $feed) (not $legacy) }}
   {{ partial "practice-hub.html" . }}
+  {{ partial "review-lab.html" . }}
   {{ partial "english-coach.html" . }}
   {{ partial "daily-study.html" . }}
   {{ partial "cambridge-lab.html" . }}
@@ -290,5 +292,6 @@
 <script src="{{ "js/daily-study.js" | relURL }}?v={{ readFile "static/js/daily-study.js" | sha256 | truncate 12 "" }}" defer></script>
 <script src="{{ "js/vocabulary-lab.js" | relURL }}?v={{ readFile "static/js/vocabulary-lab.js" | sha256 | truncate 12 "" }}" defer></script>
 <script src="{{ "js/practice-hub.js" | relURL }}?v={{ readFile "static/js/practice-hub.js" | sha256 | truncate 12 "" }}" defer></script>
+<script src="{{ "js/review-lab.js" | relURL }}?v={{ readFile "static/js/review-lab.js" | sha256 | truncate 12 "" }}" defer></script>
 {{ end }}
 {{- end }}

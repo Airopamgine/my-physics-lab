@@ -26,6 +26,27 @@ Run `tests/verify_practice_hub.cjs` against built HTML alongside the existing
 runner checks. It covers navigation, unseen priority, coherent passage groups,
 multiple drafts, next-day resumption, grading, old links and loading recovery.
 
+## Separate Review history (owner request, 2026-10-23)
+
+Keep the top-level Review tab (`#review`) separate from category practice.
+It lists every saved answered question, including correct answers, mistakes,
+submitted writing, vocabulary and completed listening/speaking activities.
+Use all per-question records, not the short recent-history lists. Keep full
+pagination and exam/skill/type/result filters plus text search. Show the saved
+response, full source, accepted/model answer and explanation where available;
+label unavailable old response text or dates honestly. Viewing must not change
+grades. An explicit retry opens the original source group through the shared
+full-set runner and returns to Review. Never include unsubmitted drafts.
+
+`review-lab.js` combines existing browser storage and adds the independent
+`mastersPhysicsLab.reviewAnswers.v1` ledger for core submitted responses. Do not
+rename or clear existing progress keys. Vocabulary retains exact new selected
+responses in its existing IndexedDB records, including older source IDs; keep
+those records out of the size-limited core localStorage ledger. All bank loads
+stay behind the access gate. No learner answers belong in repository content.
+Run `tests/verify_review_lab.cjs` with the runner and navigation checks in
+Europe/Warsaw, UTC and Asia/Tokyo when changing this behavior.
+
 ## Current grading rule (owner request, 2026-10-21)
 
 All answers in the selected set or daily queue must be completed before grading.

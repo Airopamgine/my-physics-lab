@@ -107,5 +107,5 @@
     el("import").value="";
   });
   window.addEventListener("focus",render);
-  window.EnglishCoach=Object.freeze({record,yesterday,label:t=>labels[t]||t,day,shift});
+  window.EnglishCoach=Object.freeze({record,yesterday,label:t=>labels[t]||t,day,shift,getRows:()=>JSON.parse(JSON.stringify([...rows.values()]))});
 })();

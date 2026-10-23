@@ -479,5 +479,7 @@
   window.addEventListener("pagehide", () => { if (config && currentDate) save(); });
   setInterval(() => { if (config && reading && writing) ready(); }, 60000);
   setInterval(renderTimer, 500);
-  window.ToeflDailyStudy=Object.freeze({startSkill:skill=>{if(!config||!reading||!writing||!["listening","speaking"].includes(skill))return false;ready();const step=state.days[currentDate]?.steps.find(s=>s.engine===skill);if(!step)return false;start(step.slot);return true;},pause:pauseWork});
+  window.ToeflDailyStudy=Object.freeze({getProgress:()=>JSON.parse(JSON.stringify(state)),getPlan:()=>config,
+    openCompleted:(date,slot)=>{const step=state.days[date]?.steps[slot];if(!config||!step?.complete||!["listening","speaking"].includes(step.engine)||step.engine==="speaking"&&!wIndex.has(step.ids[0]))return false;pauseWork();activeWork={dailyDate:date,dailySlot:slot};renderWork(step);el("workspace").hidden=false;document.dispatchEvent(new CustomEvent("toefl:daily-work-opened",{detail:{engine:step.engine}}));el("workspace").scrollIntoView({behavior:"smooth",block:"start"});return true;},
+    startSkill:skill=>{if(!config||!reading||!writing||!["listening","speaking"].includes(skill))return false;ready();const step=state.days[currentDate]?.steps.find(s=>s.engine===skill);if(!step)return false;start(step.slot);return true;},pause:pauseWork});
 })();
