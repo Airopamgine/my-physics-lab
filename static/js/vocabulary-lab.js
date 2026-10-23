@@ -56,12 +56,14 @@
       if (raw.preferences?.[name] === "all" || values.some(value => value.id === raw.preferences?.[name])) output.preferences[name] = raw.preferences[name];
     }
     for (const [id, r] of Object.entries(raw.records)) {
-      if (!byCard.has(id) || !r || typeof r !== "object") continue;
+      // Keep valid older IDs for Review even when their source is no longer in
+      // the current bank. Only current active cards can enter a new quiz.
+      if (!id || id.length > 500 || ["__proto__","constructor","prototype"].includes(id) || !r || typeof r !== "object" || Array.isArray(r)) continue;
       const int = (name, max) => Number.isInteger(r[name]) && r[name] >= 0 ? Math.min(max, r[name]) : 0;
       const timestamp = name => Number.isFinite(r[name]) && r[name] >= 0 ? r[name] : 0;
       output.records[id] = { attempts: int("attempts", 1000000), correct: int("correct", 1000000), wrong: int("wrong", 1000000),
         streak: int("streak", 8), last: timestamp("last"), due: timestamp("due"), result: ["correct", "incorrect", "revealed"].includes(r.result) ? r.result : "incorrect",
-        lastCorrectDay: /^\d{4}-\d{2}-\d{2}$/.test(r.lastCorrectDay) ? r.lastCorrectDay : "" };
+        lastCorrectDay: /^\d{4}-\d{2}-\d{2}$/.test(r.lastCorrectDay) ? r.lastCorrectDay : "", answer:typeof r.answer==="string"?r.answer.slice(0,300):"",answerText:typeof r.answerText==="string"?r.answerText.slice(0,3000):"" };
     }
     for (const [id, text] of Object.entries(raw.notes || {})) if (byEntry.has(id) && typeof text === "string") output.notes[id] = text.slice(0, 3000);
     for (const [id, value] of Object.entries(raw.stars || {})) if (byEntry.has(id) && value === true) output.stars[id] = true;
@@ -373,7 +375,7 @@
           "Learn this meaning, then recall it without looking and use the word in a new sentence. この語義を覚え、見ずに思い出して自分の例文を作りましょう。",e.contexts[0]?.text,bank.dictionarySource?.note].filter(Boolean)})};}),
       onSubmit:results=>{for(const row of results){const c=byCard.get(row.id),old=record(c)||{attempts:0,correct:0,wrong:0,streak:0,lastCorrectDay:""},correct=row.result==="correct";
         const streak=correct?old.lastCorrectDay===day()?Math.max(1,old.streak):Math.min(8,old.streak+1):0;
-        state.records[c.id]={attempts:old.attempts+1,correct:old.correct+Number(correct),wrong:old.wrong+Number(!correct),result:row.result,streak,lastCorrectDay:correct?day():old.lastCorrectDay,last:Date.now(),due:Date.now()+(correct?[0,1,3,7,14,30,60,90,120][streak]:0)*86400000};
+        state.records[c.id]={attempts:old.attempts+1,correct:old.correct+Number(correct),wrong:old.wrong+Number(!correct),result:row.result,answer:row.answer,answerText:row.answerText,streak,lastCorrectDay:correct?day():old.lastCorrectDay,last:Date.now(),due:Date.now()+(correct?[0,1,3,7,14,30,60,90,120][streak]:0)*86400000};
         state.history.push({id:c.id,result:row.result,at:Date.now()});}state.history=state.history.slice(-500);s.checked=true;save();stats();},
       onReview:()=>{pause();state.lastRound={ids:[...s.ids],wrong:s.ids.filter(id=>state.records[id]?.result!=="correct")};state.session=null;save();render();},
       onClose:()=>{pause();save();renderHistory();}
@@ -418,7 +420,7 @@
     const old = record(c) || { attempts: 0, correct: 0, wrong: 0, streak: 0, lastCorrectDay: "" }, correct = result === "correct";
     const streak = correct ? old.lastCorrectDay === day() ? Math.max(1, old.streak) : Math.min(8, old.streak + 1) : 0;
     state.records[c.id] = { attempts: old.attempts + 1, correct: old.correct + Number(correct), wrong: old.wrong + Number(!correct),
-      result, streak, lastCorrectDay: correct ? day() : old.lastCorrectDay, last: Date.now(), due: Date.now() + (correct ? [0, 1, 3, 7, 14, 30, 60, 90, 120][streak] : 0) * 86400000 };
+      result, answer:reveal?"":selectedChoice,answerText:reveal?"":optionText(c,byEntry.get(selectedChoice).index),streak, lastCorrectDay: correct ? day() : old.lastCorrectDay, last: Date.now(), due: Date.now() + (correct ? [0, 1, 3, 7, 14, 30, 60, 90, 120][streak] : 0) * 86400000 };
     state.history.push({ id: c.id, result, at: Date.now() }); state.history = state.history.slice(-500);
     s.checked = true; s.result = result; s.selection = selectedChoice;
     save(); renderCard();
@@ -470,8 +472,8 @@
       const response = await fetch(root.dataset.bankUrl); if (!response.ok) throw new Error("Vocabulary unavailable"); const payload = await response.json(); validatePayload(payload);
       bank = payload; buildCards(); await restore(); setupStudy(); el("content").hidden = false; el("load").hidden = true;
       if (!retiredSession && !el("status").textContent.includes("読み込めなかった")) el("status").textContent = `${number(bank.stats.quizCards)}問の意味4択を読み込みました。本文を開かず、この画面だけで学べます。`;
-      render();
-    } catch (error) { console.warn("Vocabulary could not load", error); bank = null; el("status").textContent = "単語帳を読み込めませんでした。通信を確認して、再試行してください。"; el("load").disabled = false; el("load").textContent = "読み込みを再試行"; }
+      render();document.dispatchEvent(new CustomEvent("toefl:vocabulary-ready"));
+    } catch (error) { console.warn("Vocabulary could not load", error); bank = null; el("status").textContent = "単語帳を読み込めませんでした。通信を確認して、再試行してください。"; el("load").disabled = false; el("load").textContent = "読み込みを再試行";document.dispatchEvent(new CustomEvent("toefl:vocabulary-unavailable")); }
     finally { loading = false; }
   }
   el("load").addEventListener("click", load);
@@ -513,7 +515,14 @@
   el("reset").addEventListener("click", () => { el("reset-confirm").hidden = false; }); el("reset-no").addEventListener("click", () => { el("reset-confirm").hidden = true; });
   el("reset-yes").addEventListener("click", () => { pause(); state = fresh(); el("level").value = "all"; el("subject").value = "all"; el("runner").hidden = true; el("reset-confirm").hidden = true; save(); render(); });
   window.addEventListener("pagehide", () => { if (bank) { pause(); save(); } });
-  window.ToeflVocabularyLab = Object.freeze({ getBank: () => bank, getCards: () => cards.map(c => ({ ...c })),
+  async function peekProgress(){
+    if(bank)return JSON.parse(JSON.stringify(state));
+    let stored=null,local=null,db=null;
+    try{db=await openDatabase();if(db)stored=await new Promise(resolve=>{const request=db.transaction("progress","readonly").objectStore("progress").get(KEY);request.onsuccess=()=>resolve(request.result);request.onerror=()=>resolve(null);});}catch(_){}finally{db?.close();}
+    try{local=JSON.parse(localStorage.getItem(KEY)||"null");}catch(_){}
+    return !stored||local&&(local.updatedAt||0)>(stored.updatedAt||0)?local:stored;
+  }
+  window.ToeflVocabularyLab = Object.freeze({ getBank: () => bank, getCards: () => cards.map(c => ({ ...c })),getCard:id=>byCard.has(id)?{...byCard.get(id)}:null,peekProgress,loadForReview:load,
     startCards: ids => start(ids), getProgress: () => JSON.parse(JSON.stringify(state)) });
   setInterval(renderTimer, 1000);
 })();

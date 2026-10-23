@@ -182,5 +182,5 @@
   el("retry").addEventListener("click",load);document.addEventListener("toefl:unlocked",()=>{unlocked=true;load();});window.speechSynthesis?.addEventListener("voiceschanged",voices);
   window.addEventListener("pagehide",()=>{window.speechSynthesis?.cancel();if(bank)save();});
   window.CambridgeLab=Object.freeze({getBank:()=>bank,getProgress:()=>JSON.parse(JSON.stringify({...state,session})),validateProgress,importProgress,startSelection,daily,grade,transformWords,
-    startRepeat:()=>{if(!bank)return false;chooseRepeat();repeatView();document.getElementById("repeat-lab").open=true;return true;}});
+    startRepeat:sentence=>{if(!bank)return false;const index=bank.repeat.findIndex(q=>q.en===sentence);if(index>=0)repeat=index;else chooseRepeat();repeatView();document.getElementById("repeat-lab").open=true;return true;}});
 })();
