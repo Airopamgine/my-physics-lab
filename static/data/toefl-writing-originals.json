@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-10-23",
+  "updated": "2026-10-24",
   "exercises": [
     {
       "id": "writing-original-20261021-s01",
@@ -1143,6 +1143,284 @@
       "collection": "Original · 2026-10-23",
       "sourceRefs": ["original:writing:2026-10-23:discussion:01"],
       "source": {"kind": "original", "date": "2026-10-23"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261024-s01",
+      "type": "sentence",
+      "title": "過去の送信を強く否定する",
+      "prompt": "Could the assistant have sent the final file yesterday?",
+      "tiles": ["the final file", "can't have sent", "yesterday", "the assistant"],
+      "frame": ["", "{0} ", "{1} ", "{2} ", "{3}", "."],
+      "solutions": [[3, 1, 0, 2]],
+      "modelAnswer": "The assistant can't have sent the final file yesterday.",
+      "explanation": [
+        "Can't have + past participle expresses a strong conclusion that a past action did not happen. Sent is the required past participle.",
+        "Can't send would describe present ability or possibility, not a conclusion about yesterday.",
+        "can't have sentは『送ったはずがない』です。past participle（過去分詞）をhaveの後に置きます。"
+      ],
+      "phrases": ["can't have sent — 送ったはずがない"],
+      "tags": ["modal-perfect", "past-participle"],
+      "collection": "Original · 2026-10-24",
+      "sourceRefs": ["original:writing:2026-10-24:sentence:01"],
+      "source": {"kind": "original", "date": "2026-10-24"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261024-s02",
+      "type": "sentence",
+      "title": "点検前に修理を手配する",
+      "prompt": "What service did you arrange before the inspection?",
+      "tiles": ["before the inspection", "had", "repaired", "the laboratory door"],
+      "frame": ["We ", "{0} ", "{1} ", "{2} ", "{3}", "."],
+      "solutions": [[1, 3, 2, 0]],
+      "modelAnswer": "We had the laboratory door repaired before the inspection.",
+      "explanation": [
+        "Have + object + past participle means arrange for another person to perform a service. The door receives the repair.",
+        "Had the door repair would incorrectly make the door perform the action; repaired is required.",
+        "have something repairedは『〜を修理してもらう』という使役構文です。inspectionは『点検』です。"
+      ],
+      "phrases": ["had the laboratory door repaired — 実験室のドアを修理してもらった"],
+      "tags": ["causative", "passives"],
+      "collection": "Original · 2026-10-24",
+      "sourceRefs": ["original:writing:2026-10-24:sentence:02"],
+      "source": {"kind": "original", "date": "2026-10-24"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261024-s03",
+      "type": "sentence",
+      "title": "過去に不要だった持参物",
+      "prompt": "Was a printed ticket necessary for visitors?",
+      "tiles": ["a printed ticket", "did not have to", "visitors", "bring"],
+      "frame": ["", "{0} ", "{1} ", "{2} ", "{3}", "."],
+      "solutions": [[2, 1, 3, 0]],
+      "modelAnswer": "Visitors did not have to bring a printed ticket.",
+      "explanation": [
+        "Did not have to + base verb means an action was unnecessary in the past. Bring stays in the base form after did.",
+        "Must not would mean the action was prohibited, which changes the meaning.",
+        "did not have to bringは『持ってくる必要がなかった』です。禁止ではなく不要を表します。"
+      ],
+      "phrases": ["did not have to bring — 持参する必要がなかった"],
+      "tags": ["past-tense", "modals"],
+      "collection": "Original · 2026-10-24",
+      "sourceRefs": ["original:writing:2026-10-24:sentence:03"],
+      "source": {"kind": "original", "date": "2026-10-24"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261024-s04",
+      "type": "sentence",
+      "title": "発表予定を受動態で述べる",
+      "prompt": "When do people expect the revised timetable to appear?",
+      "tiles": ["next Monday", "to be published", "is expected", "the revised timetable"],
+      "frame": ["", "{0} ", "{1} ", "{2} ", "{3}", "."],
+      "solutions": [[3, 2, 1, 0]],
+      "modelAnswer": "The revised timetable is expected to be published next Monday.",
+      "explanation": [
+        "The reporting passive uses subject + is expected + to-infinitive. A passive infinitive is needed because the timetable receives the action publish.",
+        "Is expected to publish would incorrectly suggest that the timetable publishes something.",
+        "is expected to be publishedは『発表される見込みだ』です。revisedは『改訂された』です。"
+      ],
+      "phrases": ["is expected to be published — 発表される見込みだ"],
+      "tags": ["reporting-passive", "passives"],
+      "collection": "Original · 2026-10-24",
+      "sourceRefs": ["original:writing:2026-10-24:sentence:04"],
+      "source": {"kind": "original", "date": "2026-10-24"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261024-s05",
+      "type": "sentence",
+      "title": "人にしてほしくないことを伝える",
+      "prompt": "How can you politely ask someone not to move the equipment?",
+      "tiles": ["did not move", "would rather", "I", "you", "the equipment"],
+      "frame": ["", "{0} ", "{1} ", "{2} ", "{3} ", "{4}", "."],
+      "solutions": [[2, 1, 3, 0, 4]],
+      "modelAnswer": "I would rather you did not move the equipment.",
+      "explanation": [
+        "Would rather + person + past simple expresses a present preference about another person's action. The past form makes the request less direct.",
+        "Would rather you do not move is not the standard pattern tested here.",
+        "would rather you did not ...は『あなたには〜してほしくない』です。丁寧な現在の希望を表します。"
+      ],
+      "phrases": ["would rather you did not move — あなたには動かしてほしくない"],
+      "tags": ["would-rather", "past-simple"],
+      "collection": "Original · 2026-10-24",
+      "sourceRefs": ["original:writing:2026-10-24:sentence:05"],
+      "source": {"kind": "original", "date": "2026-10-24"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261024-s06",
+      "type": "sentence",
+      "title": "助言を間接話法で伝える",
+      "prompt": "What advice did the tutor give your group?",
+      "tiles": ["the two explanations", "advised us", "carefully", "the tutor", "to compare"],
+      "frame": ["", "{0} ", "{1} ", "{2} ", "{3} ", "{4}", "."],
+      "solutions": [[3, 1, 4, 0, 2]],
+      "modelAnswer": "The tutor advised us to compare the two explanations carefully.",
+      "explanation": [
+        "Advise + person + to-infinitive reports advice directed at someone. Carefully naturally modifies compare.",
+        "Advise us compare omits the required to, while advise to compare omits the person receiving the advice.",
+        "advise someone to doは『人に〜するよう助言する』です。compareは『比較する』です。"
+      ],
+      "phrases": ["advised us to compare — 私たちに比較するよう助言した"],
+      "tags": ["reported-speech", "verb-patterns"],
+      "collection": "Original · 2026-10-24",
+      "sourceRefs": ["original:writing:2026-10-24:sentence:06"],
+      "source": {"kind": "original", "date": "2026-10-24"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261024-s07",
+      "type": "sentence",
+      "title": "講義開始直後の出来事を倒置で表す",
+      "prompt": "When did the fire alarm ring?",
+      "tiles": ["when the fire alarm rang", "had the lecture begun", "hardly"],
+      "frame": ["", "{0} ", "{1} ", "{2}", "."],
+      "solutions": [[2, 1, 0]],
+      "modelAnswer": "Hardly had the lecture begun when the fire alarm rang.",
+      "explanation": [
+        "Fronted hardly triggers inversion: hardly had + subject + past participle. When introduces the event that followed almost immediately.",
+        "Hardly the lecture had begun lacks the required auxiliary-subject inversion.",
+        "Hardly had ... when ...は『〜するとすぐに…した』です。inversionは『倒置』です。"
+      ],
+      "phrases": ["Hardly had ... begun when ... — 〜が始まるとすぐに…"],
+      "tags": ["inversion", "past-perfect"],
+      "collection": "Original · 2026-10-24",
+      "sourceRefs": ["original:writing:2026-10-24:sentence:07"],
+      "source": {"kind": "original", "date": "2026-10-24"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261024-s08",
+      "type": "sentence",
+      "title": "経験不足との対比を示す",
+      "prompt": "Did her limited experience prevent her from finishing?",
+      "tiles": ["the task", "she managed", "despite having little experience", "to complete"],
+      "frame": ["", "{0}", ", ", "{1} ", "{2} ", "{3}", "."],
+      "solutions": [[2, 1, 3, 0]],
+      "modelAnswer": "Despite having little experience, she managed to complete the task.",
+      "explanation": [
+        "Despite is followed by a noun phrase or -ing form, not a finite clause with although. Manage is followed by a to-infinitive.",
+        "Little modifies the uncountable noun experience and emphasizes that the amount was small.",
+        "despite having little experienceは『経験がほとんどないにもかかわらず』です。"
+      ],
+      "phrases": ["managed to complete — 何とか完了した"],
+      "tags": ["linkers", "quantifiers", "verb-patterns"],
+      "collection": "Original · 2026-10-24",
+      "sourceRefs": ["original:writing:2026-10-24:sentence:08"],
+      "source": {"kind": "original", "date": "2026-10-24"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261024-s09",
+      "type": "sentence",
+      "title": "大きな反響の結果を示す",
+      "prompt": "Why did registration close early?",
+      "tiles": ["that registration closed early", "so much interest", "the project", "attracted"],
+      "frame": ["", "{0} ", "{1} ", "{2} ", "{3}", "."],
+      "solutions": [[2, 3, 1, 0]],
+      "modelAnswer": "The project attracted so much interest that registration closed early.",
+      "explanation": [
+        "So much + uncountable noun + that introduces a result. Interest is uncountable in this meaning.",
+        "So many interest is incorrect because many modifies countable plural nouns.",
+        "so much interest that ...は『非常に大きな関心を集めたので〜』です。"
+      ],
+      "phrases": ["so much interest that — 非常に大きな関心を集めたので"],
+      "tags": ["result-clauses", "quantifiers"],
+      "collection": "Original · 2026-10-24",
+      "sourceRefs": ["original:writing:2026-10-24:sentence:09"],
+      "source": {"kind": "original", "date": "2026-10-24"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261024-s10",
+      "type": "sentence",
+      "title": "二つの経路に共通する特徴を補足する",
+      "prompt": "What was true of both routes in the guide?",
+      "tiles": ["the guide showed us", "two routes", "neither of which", "required special equipment"],
+      "frame": ["", "{0} ", "{1}", ", ", "{2} ", "{3}", "."],
+      "solutions": [[0, 1, 2, 3]],
+      "modelAnswer": "The guide showed us two routes, neither of which required special equipment.",
+      "explanation": [
+        "Neither of which refers back to the two routes and means that the statement is true of neither route. Required agrees with the relative subject neither.",
+        "Neither which omits the required preposition of.",
+        "neither of whichは『そのどちらも〜ない』です。special equipmentは『特別な装備』です。"
+      ],
+      "phrases": ["neither of which required — そのどちらも必要としなかった"],
+      "tags": ["relative-clauses", "pronouns"],
+      "collection": "Original · 2026-10-24",
+      "sourceRefs": ["original:writing:2026-10-24:sentence:10"],
+      "source": {"kind": "original", "date": "2026-10-24"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261024-email",
+      "type": "email",
+      "title": "自習室の予約重複を報告する",
+      "minutes": 7,
+      "to": "Ms. Patel, Library Services",
+      "subject": "Study-room booking problem",
+      "context": "You arrived for a study-room booking, but another group was already using the room. Write to Library Services. This is an imagined practice situation.",
+      "requirements": [
+        "Identify the date, time and room you booked, and state what happened when you arrived.",
+        "Explain what library staff told you and mention the booking confirmation you can provide.",
+        "Ask the library to investigate and suggest how you can avoid or resolve the problem next time."
+      ],
+      "modelAnswer": "Dear Ms. Patel,\n\nI am writing about my booking for Study Room 3 at 3:00 p.m. on 28 October. When my project group arrived, another group was already using the room and said that they had booked the same time.\n\nThe staff member at the desk told us that both bookings appeared in the system, but no alternative room was available. I still have the confirmation email and can forward it if that would help your investigation.\n\nCould you please check how the duplicate booking occurred? I would also appreciate advice on how to confirm a room before arriving or what to do immediately if the same problem happens again.\n\nThank you for your help.\n\nBest regards,\nAlex Morgan",
+      "explanation": [
+        "The message supplies the exact imagined booking details and explains the conflict without blaming the other group or the staff member.",
+        "It offers useful evidence and makes two connected requests: an investigation and practical guidance for a future problem.",
+        "duplicate bookingは『二重予約』、forward a confirmation emailは『確認メールを転送する』です。日付・氏名・予約は架空設定です。"
+      ],
+      "phrases": [
+        "Could you please check how ... occurred? — どのように〜が起きたか確認していただけますか。",
+        "I would appreciate advice on ... — 〜について助言いただけると助かります。"
+      ],
+      "tags": ["complaint", "indirect-questions", "register"],
+      "collection": "Original · 2026-10-24",
+      "sourceRefs": ["original:writing:2026-10-24:email:01"],
+      "source": {"kind": "original", "date": "2026-10-24"},
+      "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
+    },
+    {
+      "id": "writing-original-20261024-discussion",
+      "type": "discussion",
+      "title": "期末試験とプロジェクト・ポートフォリオ",
+      "minutes": 10,
+      "targetWords": 100,
+      "professor": "Professor Chen · Assessment and Learning",
+      "context": "Should universities replace some final examinations with project portfolios? Explain your position.",
+      "posts": [
+        {
+          "name": "Maya",
+          "text": "A portfolio shows how a student's work develops over time and can assess research, revision and practical skills that a timed examination may miss."
+        },
+        {
+          "name": "Leo",
+          "text": "Final examinations are completed under the same conditions, so they can be easier to compare. Portfolios may involve unequal access to time, equipment or outside help."
+        }
+      ],
+      "requirements": [
+        "State and support your position on replacing some final examinations.",
+        "Respond meaningfully to both Maya and Leo.",
+        "Propose a concrete way to keep portfolio assessment fair in at least 100 words."
+      ],
+      "modelAnswer": "Universities should replace some final examinations with project portfolios, but not in every course. Maya correctly points out that a portfolio can reveal research, revision and problem-solving processes that disappear in a two-hour test. This is especially useful in design, writing and laboratory courses. Leo's concern about comparability is important, however, because unlimited outside help or expensive equipment could create unfair advantages. A fair system could require students to submit dated drafts, explain major revisions, and complete a short oral defence of their work. Departments could also provide the necessary software and equipment on campus. A smaller supervised test could remain part of the final grade when individual knowledge must be verified. This mixed approach would assess sustained work while preserving a common check on what each student can do independently.",
+      "explanation": [
+        "The response supports partial replacement, uses each student's argument, and adds safeguards rather than treating portfolios and examinations as an all-or-nothing choice.",
+        "Dated drafts, an oral defence and shared equipment are concrete ways to verify authorship and reduce unequal access. The proposal is an example, not the only valid answer.",
+        "portfolioは『学習成果物集』、oral defenceは『口頭での説明・質疑』、comparabilityは『比較可能性』です。"
+      ],
+      "phrases": [
+        "reveal a student's development over time — 学生の成長過程を示す",
+        "preserve a common check — 共通の確認方法を維持する"
+      ],
+      "tags": ["argument", "fairness", "assessment"],
+      "collection": "Original · 2026-10-24",
+      "sourceRefs": ["original:writing:2026-10-24:discussion:01"],
+      "source": {"kind": "original", "date": "2026-10-24"},
       "answerBasis": "Original practice exercise; answer and explanation reviewed editorially. 解答・解説は編集作成。"
     }
   ]
