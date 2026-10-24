@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23",
+  "updatedAt": "2026-10-24",
   "notice": "Original editorial training, not official test material. Short reading practice and ten-gap Part 2 drills are labelled. No CEFR or official score is inferred from completion.",
   "references": [
     "https://www.cambridgeenglish.org/exams-and-tests/qualifications/first/format/",
@@ -1936,6 +1936,154 @@
           "keyword": "PUT",
           "stem": "They ____ until next week.",
           "id": "cb-20261023-transform-01-06"
+        }
+      ]
+    },
+    {
+      "id": "cb-20261024-cloze-01",
+      "part": "2",
+      "title": "The community tool library",
+      "skill": "Function words and fixed-expression constituents in context",
+      "instruction": "Write ONE word for each numbered gap. Use the whole passage to decide. This is an extended ten-gap training set; the official Part 2 has eight gaps.",
+      "passage": "The project began when residents realised how (1) ____ tools were being bought for a single job and then left unused. Rather (2) ____ asking people to donate everything, the organisers invited them to lend items for three months. Each tool was photographed in (3) ____ its condition later had to be checked. Some of the first donations had no instructions, which meant (4) ____ volunteers had to find manuals online. Only after several members had borrowed equipment (5) ____ the team discover that the booking rules were unclear.\n\nThe organisers introduced labels so that users could make (6) ____ which accessories belonged together. Members were allowed to borrow items as (7) ____ as they returned them clean. Nobody was charged unless something had (8) ____ lost or seriously damaged. The system attracted so (9) ____ interest that the organisers moved to a larger room. The project is now known (10) ____ helping neighbours save money.",
+      "minutes": 10,
+      "source": {"kind": "original", "date": "2026-10-24"},
+      "questions": [
+        {
+          "prompt": "Gap 1",
+          "answers": ["many"],
+          "explanation": "How many modifies the countable plural noun tools. Much cannot be used with this countable noun. how manyは『どれほど多くの』です。",
+          "tags": ["quantifiers"],
+          "id": "cb-20261024-cloze-01-01"
+        },
+        {
+          "prompt": "Gap 2",
+          "answers": ["than"],
+          "explanation": "Rather than contrasts donating everything with lending items temporarily. rather thanは『〜するのではなく』です。",
+          "tags": ["linkers"],
+          "id": "cb-20261024-cloze-01-02"
+        },
+        {
+          "prompt": "Gap 3",
+          "answers": ["case"],
+          "explanation": "In case introduces a precaution taken because a future check might be necessary. in caseは『〜の場合に備えて』です。",
+          "tags": ["linkers", "fixed-expressions"],
+          "id": "cb-20261024-cloze-01-03"
+        },
+        {
+          "prompt": "Gap 4",
+          "answers": ["that"],
+          "explanation": "Meant that links the missing instructions to their result: volunteers had to find manuals. meant thatは『その結果〜だった』です。",
+          "tags": ["linkers"],
+          "id": "cb-20261024-cloze-01-04"
+        },
+        {
+          "prompt": "Gap 5",
+          "answers": ["did"],
+          "explanation": "Fronted only after triggers inversion in the main clause: did the team discover. Discover remains in the base form. inversion（倒置）ではdidを主語の前に置きます。",
+          "tags": ["inversion", "auxiliaries"],
+          "id": "cb-20261024-cloze-01-05"
+        },
+        {
+          "prompt": "Gap 6",
+          "answers": ["out"],
+          "explanation": "Make out means manage to understand or identify something that is not immediately clear. make out which ...は『どれが〜か見分ける』です。",
+          "tags": ["phrasal-verbs"],
+          "id": "cb-20261024-cloze-01-06"
+        },
+        {
+          "prompt": "Gap 7",
+          "answers": ["long"],
+          "explanation": "As long as introduces the condition for borrowing: the items must be returned clean. as long asは『〜する限り』です。",
+          "tags": ["conditionals", "fixed-expressions"],
+          "id": "cb-20261024-cloze-01-07"
+        },
+        {
+          "prompt": "Gap 8",
+          "answers": ["been"],
+          "explanation": "The past perfect passive is had been + past participle. The item receives the actions lost or damaged. had beenは過去完了の受動態を作ります。",
+          "tags": ["passives", "past-perfect"],
+          "id": "cb-20261024-cloze-01-08"
+        },
+        {
+          "prompt": "Gap 9",
+          "answers": ["much"],
+          "explanation": "So much modifies the uncountable noun interest and is followed by a result clause with that. so much ... thatは『非常に多くの〜なので…』です。",
+          "tags": ["quantifiers", "result-clauses"],
+          "id": "cb-20261024-cloze-01-09"
+        },
+        {
+          "prompt": "Gap 10",
+          "answers": ["for"],
+          "explanation": "Be known for introduces the reason for a reputation. known for helpingは『助けることで知られている』です。",
+          "tags": ["prepositions", "fixed-expressions"],
+          "id": "cb-20261024-cloze-01-10"
+        }
+      ]
+    },
+    {
+      "id": "cb-20261024-transform-01",
+      "part": "4",
+      "title": "Deductions, arrangements and preferences",
+      "skill": "Preserve tense and meaning within two to five words",
+      "instruction": "Complete each gap with TWO to FIVE words, including the unchanged key word. Full-answer practice; no automatic official partial credit.",
+      "passage": "",
+      "minutes": 10,
+      "source": {"kind": "original", "date": "2026-10-24"},
+      "questions": [
+        {
+          "prompt": "I'm certain that the assistant did not send the final file yesterday.",
+          "answers": ["can't have sent"],
+          "explanation": "The assistant can't have sent the final file yesterday. Can't have + past participle expresses certainty that a past action did not happen. can't have sentは『送ったはずがない』です。Can't send would give the wrong time reference.",
+          "tags": ["modal-perfect", "past-participle"],
+          "keyword": "CAN'T",
+          "stem": "The assistant ____ the final file yesterday.",
+          "id": "cb-20261024-transform-01-01"
+        },
+        {
+          "prompt": "An electrician inspected the wiring for us last week.",
+          "answers": ["had the wiring inspected"],
+          "explanation": "We had the wiring inspected last week. Have + object + past participle describes arranging for a service. had the wiring inspectedは『配線を点検してもらった』です。",
+          "tags": ["causative", "passives"],
+          "keyword": "HAD",
+          "stem": "We ____ last week.",
+          "id": "cb-20261024-transform-01-02"
+        },
+        {
+          "prompt": "It wasn't necessary for Leila to bring a printed copy.",
+          "answers": ["did not have to bring", "didn't have to bring"],
+          "explanation": "Leila did not have to bring a printed copy. Did not have to preserves the past time and means the action was unnecessary. did not have toは『〜する必要がなかった』です。",
+          "tags": ["past-tense", "modals"],
+          "keyword": "HAVE",
+          "stem": "Leila ____ a printed copy.",
+          "id": "cb-20261024-transform-01-03"
+        },
+        {
+          "prompt": "People expect the results to be published next Monday.",
+          "answers": ["are expected to be published"],
+          "explanation": "The results are expected to be published next Monday. The reporting passive is followed by a passive infinitive because the results receive the action. are expected to be publishedは『発表される見込みだ』で5語です。",
+          "tags": ["reporting-passive", "word-limit"],
+          "keyword": "EXPECTED",
+          "stem": "The results ____ next Monday.",
+          "id": "cb-20261024-transform-01-04"
+        },
+        {
+          "prompt": "I would prefer you not to move the equipment.",
+          "answers": ["rather you did not move", "rather you didn't move"],
+          "explanation": "I would rather you did not move the equipment. Would rather + person + past simple expresses a present preference about another person's action. rather you did not moveは『あなたには動かしてほしくない』です。",
+          "tags": ["would-rather", "past-simple"],
+          "keyword": "RATHER",
+          "stem": "I would ____ the equipment.",
+          "id": "cb-20261024-transform-01-05"
+        },
+        {
+          "prompt": "After several attempts, Mira managed to open the damaged file.",
+          "answers": ["succeeded in opening"],
+          "explanation": "After several attempts, Mira succeeded in opening the damaged file. Succeed is followed by in + -ing. succeeded in openingは『開くことに成功した』です。",
+          "tags": ["verb-patterns", "prepositions"],
+          "keyword": "SUCCEEDED",
+          "stem": "After several attempts, Mira ____ the damaged file.",
+          "id": "cb-20261024-transform-01-06"
         }
       ]
     }
