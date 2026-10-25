@@ -178,8 +178,9 @@
     function pause(){if(data.deadline!==null){data.remaining=Math.max(0,Math.ceil((data.deadline-Date.now())/1000));data.deadline=null;save();}}
     const hide=()=>{pause();host.hidden=true;};
     close.addEventListener("click",()=>{hide();options.onClose?.(false);closed(false);});
-    const download=node("button","Download answers · 答案を保存","toefl-button toefl-button--secondary");download.type="button";download.addEventListener("click",()=>{
-      const url=URL.createObjectURL(new Blob([JSON.stringify({format:"english-set-answers",engine,id:options.id,...data},null,2)],{type:"application/json"}));const a=node("a");a.href=url;a.download=`${engine}-answers-${date}.json`;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
+    const download=node("button",options.downloadLabel||"Download answers · 答案を保存","toefl-button toefl-button--secondary");download.type="button";download.dataset.setDownload="";download.addEventListener("click",()=>{
+      const file=options.downloadAnswers?.(clone(data.answers),{date})||{content:JSON.stringify({format:"english-set-answers",engine,id:options.id,...data},null,2),type:"application/json",filename:`${engine}-answers-${date}.json`};
+      const url=URL.createObjectURL(new Blob([file.content],{type:file.type}));const a=node("a");a.href=url;a.download=file.filename;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
     });panel.append(download);
     let interval=null;
     if(options.minutes){const output=node("output"),toggle=node("button","Start timer · 時間を計る","toefl-button toefl-button--secondary");toggle.type="button";toggle.disabled=data.submitted;timer.append(output,toggle);

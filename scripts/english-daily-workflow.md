@@ -51,6 +51,17 @@ stay behind the access gate. No learner answers belong in repository content.
 Run `tests/verify_review_lab.cjs` with the runner and navigation checks in
 Europe/Warsaw, UTC and Asia/Tokyo when changing this behavior.
 
+## Writing answer downloads (owner request, 2026-10-25)
+
+Writing answer downloads use the owner's original UTF-8 `.txt` format: task
+title/type, Source, Your response and Notes. The shared set runner must use
+Writing's text exporter for current editable drafts and submitted answers.
+Single tasks retain `<question-id>.txt`; multi-task downloads contain every
+selected response in order. Never grade a draft or include model answers just
+to export it. Preserve saved notes and line breaks. Keep other engines' JSON
+backups unchanged. Run `tests/verify_writing_download.cjs` in the three test
+time zones; it covers the production set runner, not only the old Writing UI.
+
 ## Current grading rule (owner request, 2026-10-21)
 
 All answers in the selected set or daily queue must be completed before grading.

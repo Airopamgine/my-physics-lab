@@ -48,4 +48,5 @@ jobs:
             TZ="$zone" node tests/verify_set_practice.cjs
             TZ="$zone" node tests/verify_practice_hub.cjs
             TZ="$zone" node tests/verify_review_lab.cjs
+            TZ="$zone" node tests/verify_writing_download.cjs
           done
