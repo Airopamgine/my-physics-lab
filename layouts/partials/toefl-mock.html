@@ -1,0 +1,33 @@
+<section id="mock-lab" class="mock-lab" data-practice-panel="mock" aria-labelledby="mock-title" hidden>
+  <p class="toefl-eyebrow">TOEFL Reading &amp; Writing</p>
+  <h2 id="mock-title" tabindex="-1">Timed mock test · 時間制限付き模試</h2>
+  <p>Practise under a running clock. Answers lock at the deadline and the next timed part starts automatically. Review answers and explanations after the entire test ends.</p>
+  <p>時間切れで自動提出し、次のパートへ進みます。途中の一時停止はできません。閉じたり再読み込みしても時計は進み、未回答もそのまま確定します。</p>
+  <p class="mock-note">Uses the existing question bank, with unanswered texts prioritised. This is a fixed practice form: it does not reproduce ETS adaptive routing or predict an official score. 既存教材を使った固定形式の演習模試です。Listening・Speakingは含みません。</p>
+  <p class="mock-note">Timing basis: <a href="https://www.ets.org/toefl/test-takers/ibt/about/content.html" target="_blank" rel="noopener noreferrer">ETS test overview ↗</a> · <a href="https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-test-specifications-2026.pdf" target="_blank" rel="noopener noreferrer">2026 specifications ↗</a> · <a href="https://www.ets.org/content/dam/ets-india/pdfs/toefl/toefl-ibt-lesson-plan-writing.pdf" target="_blank" rel="noopener noreferrer">Writing task timings ↗</a>. Checked 2026-10-25. Reading uses a fixed 21 + 9 minute route. Writing uses 6 + 7 + 10 minutes; the sentence clock is the balance of 23 minutes after the two longer tasks.</p>
+  <p id="mock-status" role="status" aria-live="polite"></p>
+  <div id="mock-setup">
+    <div class="mock-options">
+      <button type="button" class="mock-choice" data-mock-mode="reading" disabled><strong>Reading</strong><span>50 items · 30 minutes</span><small>30 word completions + 10 daily-life questions + 10 academic questions</small><small>21分 + 9分の2モジュール</small></button>
+      <button type="button" class="mock-choice" data-mock-mode="writing" disabled><strong>Writing</strong><span>12 items · 23 minutes</span><small>10 sentence tasks + 1 email + 1 discussion</small><small>文の組立6分 → Email 7分 → Discussion 10分</small></button>
+      <button type="button" class="mock-choice" data-mock-mode="combined" disabled><strong>Reading + Writing</strong><span>62 items · 53 minutes</span><small>Both sections without a scheduled break</small><small>ReadingからWritingへ連続で進みます</small></button>
+    </div>
+    <p>Start opens a new form with blank responses. Once started, other study tabs are locked until you finish or end the test. 開始すると時計が動きます。模試中は他の学習タブへ移動できません。</p>
+    <button id="mock-reload" type="button" class="toefl-button toefl-button--secondary" hidden>Retry loading · 教材を再読み込み</button>
+  </div>
+  <section id="mock-workspace" aria-labelledby="mock-stage-title" hidden>
+    <div class="mock-clockbar"><div><p id="mock-stage-position"></p><h3 id="mock-stage-title" tabindex="-1"></h3></div><div><span>Time remaining · 残り時間</span><output id="mock-time" role="timer" aria-live="off"></output></div></div>
+    <p id="mock-answered"></p><p id="mock-notice" role="status" aria-live="polite"></p>
+    <div id="mock-page"></div>
+    <div class="mock-controls"><button id="mock-previous" type="button" class="toefl-button toefl-button--secondary">← Previous · 前のページ</button><span id="mock-page-position"></span><button id="mock-next" type="button" class="toefl-button toefl-button--primary">Next page · 次のページ →</button></div>
+    <div id="mock-confirm" class="mock-confirm" hidden><p id="mock-confirm-text"></p><button id="mock-confirm-yes" type="button" class="toefl-button toefl-button--primary">Submit and continue · 確定して進む</button><button id="mock-confirm-no" type="button" class="toefl-button toefl-button--secondary">Keep working · 解答を続ける</button></div>
+    <div class="toefl-actions"><button id="mock-end" type="button" class="toefl-button toefl-button--ghost">End test and review · 中断して結果を見る</button><button id="mock-draft-export" type="button" class="toefl-button toefl-button--secondary" hidden>Save responses (.txt) · 答案を退避</button></div>
+  </section>
+  <section id="mock-results" aria-labelledby="mock-results-title" hidden>
+    <h3 id="mock-results-title" tabindex="-1">Test complete · 模試終了</h3><div id="mock-summary"></div>
+    <p>These are practice item counts. Email and discussion responses need human review; word counts do not measure their quality. 正答数から公式スコアやCEFRレベルには換算しません。作文は解答例・添削で確認してください。</p>
+    <div class="toefl-actions"><button id="mock-export" type="button" class="toefl-button toefl-button--secondary">Download responses (.txt) · 答案を保存</button><button id="mock-new" type="button" class="toefl-button toefl-button--primary">Choose another mock · 次の模試を選ぶ</button><a href="#review" class="toefl-button toefl-button--secondary">All answered questions · 復習欄へ</a></div>
+    <label class="mock-review-label">Review part · 解答と解説を見るパート<select id="mock-review-stage"></select></label><div id="mock-review-page"></div>
+    <div class="mock-controls"><button id="mock-review-previous" type="button" class="toefl-button toefl-button--secondary">← Previous</button><span id="mock-review-position"></span><button id="mock-review-next" type="button" class="toefl-button toefl-button--secondary">Next →</button></div>
+  </section>
+</section>

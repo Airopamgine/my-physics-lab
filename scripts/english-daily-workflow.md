@@ -51,6 +51,37 @@ stay behind the access gate. No learner answers belong in repository content.
 Run `tests/verify_review_lab.cjs` with the runner and navigation checks in
 Europe/Warsaw, UTC and Asia/Tokyo when changing this behavior.
 
+## Strict R/W mock tests (owner request, 2026-10-25)
+
+Keep `#mock` separate from ordinary practice. The owner explicitly requested
+forced progression when time expires. In this mode, deadlines automatically
+lock and submit incomplete responses; the normal all-answers-before-submission
+guard remains unchanged outside mock mode. Do not add pause/reset controls.
+
+Offer Reading (50 items, fixed 21+9 minutes), Writing (10 sentence items in
+6 minutes, an email in 7, discussion in 10), and combined R/W (53 minutes).
+Assemble whole 10-gap cloze texts, 2/3-question daily-life texts and 5-question
+academic texts; never truncate a source group or repeat a text within a form.
+Prioritise unanswered material. Keep the fixed-form, existing-bank source and
+non-ETS/non-adaptive limitations clear. The 6-minute sentence allocation is
+the balance of the 23-minute section after the official 7/10-minute tasks.
+Timing sources are linked in the UI; recheck ETS when the format changes.
+
+The persistent `mastersPhysicsLab.toeflMock.v1` snapshot contains the current
+form and its absolute deadlines. Reloads, background tabs and browser closure
+must not grant extra time. Catch up through every expired part using scheduled
+deadlines, reject late input, and lock other study routes during an attempt.
+Early part submission needs confirmation and carries no time to the next part.
+Save answers before every transition; show keys and explanations only after
+the entire selected mock ends. Commit nonblank attempts once to normal progress,
+Coach and Review. Blank items remain unanswered in ordinary practice. Report
+practice item counts, with essays awaiting human review; never invent an ETS
+band or CEFR level. Keep response downloads in UTF-8 text format.
+
+Run `tests/verify_toefl_mock.cjs` in the three test time zones, including timer
+expiry, partial answers, closed-browser catch-up, no duplicate submissions,
+navigation lock, late-input guards, quota recovery and history integration.
+
 ## Writing answer downloads (owner request, 2026-10-25)
 
 Writing answer downloads use the owner's original UTF-8 `.txt` format: task

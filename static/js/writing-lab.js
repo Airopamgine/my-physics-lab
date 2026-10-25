@@ -476,6 +476,15 @@
   window.ToeflWritingLab = Object.freeze({
     getBank: () => bank,
     getProgress: () => state.records,
+    recordMockResults:(rows,run)=>{
+      if(!bank)return false;
+      for(const row of rows){const q=bank.exercises.find(q=>q.id===row.id);if(!q)continue;const r=record(q);
+        if(q.type==="sentence"){if(!Array.isArray(row.answer)||!row.answer.length)continue;r.selections=[...row.answer];r.checked=row.answer.length===q.solutions[0].length;}
+        else if(q.type==="grammar"){if(!q.choices[Number(row.answer)]||row.answer==="")continue;r.choice=Number(row.answer);r.checked=true;}
+        else{if(typeof row.answer!=="string"||!row.answer.trim())continue;r.answer=row.answer;const at=new Date(run.at).toISOString();if(!r.history.some(h=>h.at===at&&h.text===row.answer))r.history.push({text:row.answer,at});r.history=r.history.slice(-5);}
+        r.rating="";r.checks=[];document.dispatchEvent(new CustomEvent(isEssay(q)?"toefl:writing-submitted":"toefl:writing-answer",{detail:{id:q.id,result:row.result,context:run.context}}));
+      }save();renderCatalog();return true;
+    },
     pauseTimer: () => { window.EnglishSetPractice?.pause("writing"); pause(active); if (bank) { save(); timer(); } },
     startSelection: (ids, context) => {
       if (!bank || !ids.length || ids.some(id => !bank.exercises.some(q => q.id === id))) return false;
