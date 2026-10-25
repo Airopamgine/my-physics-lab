@@ -152,10 +152,12 @@
     }
   }
   function render(){
-    current=readRoute();if(!["today","progress","vocabulary","review"].includes(current)&&!resolve(current).valid)current="practice";
+    current=readRoute();if(window.ToeflMockLab?.isRunning()&&current!=="mock"){history.replaceState(null,"","#mock");current="mock";}
+    if(!["today","progress","vocabulary","review","mock"].includes(current)&&!resolve(current).valid)current="practice";
     for(const panel of panels)panel.classList.remove("practice-engine","practice-daily-active");
     show();root.hidden=current!=="practice"&&!current.startsWith("practice/");el("active-bar").hidden=true;
     document.querySelectorAll("[data-study-tab]").forEach(a=>{if(a.dataset.studyTab===current.split("/")[0])a.setAttribute("aria-current","page");else a.removeAttribute("aria-current");});
+    document.querySelectorAll("[data-study-tab]").forEach(a=>{if(window.ToeflMockLab?.isRunning()&&a.dataset.studyTab!=="mock")a.setAttribute("aria-disabled","true");else a.removeAttribute("aria-disabled");});
     if(root.hidden){show(current);document.dispatchEvent(new CustomEvent("toefl:view-changed",{detail:{view:current}}));return;}
     const {exam,skill,type}=resolve(current);const choices=el("choices");choices.replaceChildren();el("breadcrumbs").replaceChildren();
     breadcrumb("Practice",exam?"practice":null);if(exam)breadcrumb(exam.title,skill?routeFor(exam):null);if(skill)breadcrumb(skill.title,type?routeFor(exam,skill):null);if(type)breadcrumb(type.title);
@@ -194,8 +196,9 @@
   document.getElementById("toefl-app")?.addEventListener("click",event=>{
     const link=event.target.closest?.('a[href^="#"]');if(!link)return;
     const raw=link.getAttribute("href").slice(1),route=aliases[raw]||raw;
-    if(!["today","progress","vocabulary","review"].includes(route)&&!resolve(route).valid)return;
+    if(!["today","progress","vocabulary","review","mock"].includes(route)&&!resolve(route).valid)return;
     event.stopPropagation();
+    if(window.ToeflMockLab?.isRunning()&&route!=="mock"){event.preventDefault();window.ToeflMockLab.showNavigationNotice();return;}
     if(event.button>0||event.ctrlKey||event.metaKey||event.shiftKey||event.altKey||link.hasAttribute("download")||link.target&&link.target!=="_self")return;
     event.preventDefault();pause();active=null;navigate(route);
     if(link===el("back"))el("title")?.focus({preventScroll:true});

@@ -3,7 +3,7 @@ const fs=require('fs'),assert=require('assert'),{JSDOM}=require('jsdom');
 const html=fs.readFileSync(process.env.TOEFL_HTML,'utf8');
 const read=name=>JSON.parse(fs.readFileSync(`static/data/${name}.json`,'utf8'));
 const banks={reading:read('toefl-task-bank'),cambridge:read('cambridge-bank'),base:read('toefl-writing-bank'),extra:read('toefl-writing-originals'),plan:read('toefl-daily-plan')};
-const scripts=['set-practice','english-library','english-coach','cambridge-lab','toefl','writing-lab','daily-study','vocabulary-lab','practice-hub','review-lab'];
+const scripts=['set-practice','english-library','english-coach','cambridge-lab','toefl','writing-lab','daily-study','vocabulary-lab','practice-hub','review-lab','toefl-mock'];
 const tick=()=>new Promise(resolve=>setTimeout(resolve,0));
 async function boot(saved={},opts={}){
  const dom=new JSDOM(html,{url:`https://airopamgine.github.io/my-physics-lab/toefl/${opts.hash||''}`,runScripts:'outside-only',pretendToBeVisual:true}),w=dom.window,d=w.document;
@@ -37,7 +37,7 @@ function visible(t,element){for(let n=element;n&&n.nodeType===1;n=n.parentElemen
  t.d.querySelector('[data-practice-choice=toefl]').click();await tick();await tick();assert.strictEqual(t.d.querySelectorAll('[data-practice-choice]').length,4);
  t.d.querySelector('[data-practice-choice=reading]').click();await tick();await tick();assert.strictEqual(t.d.querySelectorAll('[data-practice-choice]').length,3);
  // Reproduce the reported failure: static tab links clicked from Reading.
- for(const name of ['review','today','vocabulary','progress','practice']){
+ for(const name of ['review','mock','today','vocabulary','progress','practice']){
   const link=t.d.querySelector(`[data-study-tab=${name}]`);link.click();for(let i=0;i<6;i++)await tick();
   assert.strictEqual(t.w.location.hash,'#'+name,`Clicking ${name} was intercepted by the theme`);assert.deepStrictEqual(shown(t),name==='practice'?[]:[name]);assert.strictEqual(link.getAttribute('aria-current'),'page');
   if(name==='practice')visible(t,t.d.getElementById('practice-choices'));

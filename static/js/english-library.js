@@ -618,6 +618,13 @@
   window.ToeflReadingLab = Object.freeze({
     getBank: () => bank,
     getProgress: () => progress,
-    startSelection: (setId, questionIds, context) => startSet(setId, false, questionIds, context)
+    startSelection: (setId, questionIds, context) => startSet(setId, false, questionIds, context),
+    recordMockResults:(rows,run)=>{
+      if(!bank)return false;const known=new Set(bank.sets.flatMap(s=>s.questions.map(q=>q.id)));
+      for(const row of rows)if(known.has(row.id)&&["correct","incorrect"].includes(row.result)&&typeof row.answer==="string"&&row.answer.trim()){
+        progress.answers[row.id]={result:row.result,submitted:row.answer,attemptedAt:new Date(run.at).toISOString()};
+        document.dispatchEvent(new CustomEvent("toefl:reading-answer",{detail:{id:row.id,result:row.result,context:run.context}}));
+      }saveProgress();updateOverallProgress();renderLibrary();return true;
+    }
   });
 })();
