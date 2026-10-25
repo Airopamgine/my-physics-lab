@@ -244,6 +244,9 @@
     const text = q.frame.join("").replace(/\{(\d+)\}/g, (_, i) => q.tiles[r.selections[Number(i)]] || "___");
     return text.charAt(0).toUpperCase() + text.slice(1);
   }
+  function answerDocument(q, response, notes) {
+    return `${q.title}\n${TYPES[q.type]}\nSource: ${sourceLabel(q)}\n\nYour response:\n${response}\n\nNotes:\n${notes}\n`;
+  }
   function renderReview() {
     const q = active, r = record(q);
     const visible = isObjective(q) ? r.checked : r.history.length > 0;
@@ -332,6 +335,11 @@
       instruction:"Complete every response before submitting. 全問の解答後に、正答・別解・解説をまとめて確認します。自由作文は自己確認で、点数は自動判定しません。",context,
       minutes:questions.filter(isEssay).reduce((n,q)=>n+q.minutes,0),
       initialAnswers:Object.fromEntries(questions.filter(q=>isEssay(q)||!state.records[q.id]?.checked).map(q=>{const r=record(q);return[q.id,q.type==="sentence"?r.selections:q.type==="grammar"?(r.choice===null?"":String(r.choice)):r.answer];})),
+      downloadLabel:"Download answers (.txt) · 答案をダウンロード",
+      downloadAnswers:(answers,{date})=>({
+        content:questions.map(q=>answerDocument(q,q.type==="sentence"?assembled(q,{selections:answers[q.id]}):q.type==="grammar"?(answers[q.id]===""?"":q.choices[Number(answers[q.id])]):answers[q.id],record(q).notes)).join(`\n${"-".repeat(40)}\n\n`),
+        filename:questions.length===1?`${questions[0].id}.txt`:`writing-answers-${date}.txt`,type:"text/plain;charset=utf-8"
+      }),
       questions:questions.map(q=>({id:q.id,kind:q.type==="sentence"?"sentence":q.type==="grammar"?"choice":"essay",prompt:isEssay(q)?q.title:`${q.title}\n${q.prompt||q.context}`,
         passage:isEssay(q)?[q.to?`To: ${q.to}\nSubject: ${q.subject}`:q.professor,q.context,...(q.posts||[]).map(p=>`${p.name}: ${p.text}`)].filter(Boolean).join("\n\n"):"",
         hint:(q.requirements||[]).join("\n"),tiles:q.tiles,slots:q.solutions?.[0].length,frame:q.frame?.join(""),
@@ -429,7 +437,7 @@
   });
   el("export").addEventListener("click", () => {
     if (!active || !isEssay(active)) return;
-    const text = `${active.title}\n${TYPES[active.type]}\nSource: ${sourceLabel(active)}\n\nYour response:\n${el("answer").value}\n\nNotes:\n${el("notes").value}\n`;
+    const text = answerDocument(active, el("answer").value, el("notes").value);
     const url = URL.createObjectURL(new Blob([text], { type: "text/plain;charset=utf-8" }));
     const link = node("a"); link.href = url; link.download = `${active.id}.txt`;
     document.body.append(link); link.click(); link.remove(); setTimeout(() => URL.revokeObjectURL(url), 1000);
